@@ -1,12 +1,14 @@
 {
   "name": "Bridge Escape from Scarf Hold",
-  "description": "TODO: Write 150-160 character SEO description for Bridge Escape from Scarf Hold.",
+  "description": "Master the bridge escape from scarf hold in BJJ. Learn explosive bridging mechanics, arm trapping, and rotational force to escape kesa gatame to half guard.",
   "tags": [
     "bjj",
     "transition",
     "escape",
-    "side-control",
-    "scarf-hold"
+    "scarf-hold",
+    "kesa-gatame",
+    "bridge-escape",
+    "bottom-defense"
   ],
   "from_position": "Scarf Hold Position/Bottom",
   "outcomes": [
@@ -27,114 +29,369 @@
     }
   ],
   "success_rate": 40,
-  "overview": "TODO: Write overview for Bridge Escape from Scarf Hold.",
+  "overview": "The bridge escape from scarf hold (kesa gatame) is a fundamental escape technique that exploits the perpendicular configuration inherent to the scarf hold position. Unlike standard side control escapes that rely on lateral shrimping, this escape uses explosive rotational bridging to roll the top player over their shoulder line, capitalizing on the structural vulnerability created when the top player's back is partially exposed due to their perpendicular seating angle. The technique requires precise coordination of arm trapping, leg hooking, and explosive hip extension to generate sufficient force to displace the top player from their controlling position.\n\nThe strategic significance of this escape lies in its effectiveness against heavy pressure scarf hold players who commit their weight through the hips into the bottom player's ribcage. When executed with proper timing, the bridge escape converts the top player's committed weight into a liability, using their own pressure as momentum for the roll. The primary target is half guard recovery, which provides immediate guard retention and offensive options. However, poor execution risks the top player transitioning to mount during the failed bridge attempt, making timing, setup, and full commitment critical factors in successful execution.\n\nThis escape functions as a cornerstone of any scarf hold defense system, typically paired with frame-based hip escapes and ghost escapes to create a multi-layered defensive approach. The bridge escape serves as both a standalone technique and a setup tool, as even failed bridge attempts create space and positional disruption that enable follow-up escape chains. Practitioners should develop both the explosive bridge-and-roll finish and the ability to transition seamlessly to guard recovery when the full roll is defended.",
   "conditions": [
-    "TODO"
+    "Bottom player's free arm can reach and control opponent's head-wrapping arm or gi material",
+    "Both feet can be planted close to hips on the mat with knees bent for bridge power",
+    "Bottom leg can hook opponent's near leg to eliminate their secondary posting base",
+    "Opponent's weight is committed through hips into ribcage rather than posted wide on hands",
+    "Sufficient energy reserves for explosive bridging movement after establishing control points"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Classical Bridge and Roll",
+      "description": "The traditional upa-style bridge escape where you trap the opponent's far arm tight to your chest and hook their near leg, then execute a full rotational bridge to reverse position completely. This variant aims for a complete reversal rather than guard recovery, rolling the opponent entirely over their shoulder and landing in their guard or top position.",
+      "when_to_use": "When opponent has narrow base with arm accessible for trapping and their near leg is not posted wide. Most effective when opponent is focused on submission setup and has compromised their base."
+    },
+    {
+      "variant_name": "Frame Bridge to Hip Escape",
+      "description": "A hybrid approach combining an explosive bridge with immediate hip escape rather than attempting a full roll. After the bridge creates space between your torso and the opponent's weight, you use the momentary separation to shrimp your hips away and insert your knee for half guard recovery. This is more conservative than the full roll but has a higher overall success rate.",
+      "when_to_use": "When opponent has wide base making a full roll difficult but the bridge still creates enough vertical space for hip escape. Effective against heavier opponents where a complete reversal requires too much force."
+    },
+    {
+      "variant_name": "Timing Bridge Off Submission Attempt",
+      "description": "Executed specifically when the top player commits to a submission attempt such as americana or arm triangle from scarf hold. As they release partial control to attack, the bridge exploits their compromised base and divided attention. The submission defense and bridge escape are combined into a single coordinated movement.",
+      "when_to_use": "When opponent releases head control or shifts weight to initiate a submission attack, creating a window where their base is temporarily weakened and their arms are occupied with the submission grip."
     }
   ],
-  "position_integration": "TODO: Write position integration for Bridge Escape from Scarf Hold.",
+  "position_integration": "The bridge escape from scarf hold sits within the broader scarf hold bottom defense system as the primary explosive escape option complementing frame-based hip escapes, ghost escapes, and backdoor escapes. Within the BJJ positional hierarchy, it connects scarf hold bottom to half guard bottom, creating a defined escape pathway from a severe disadvantage position to a neutral-offensive platform. The technique integrates with universal bridging mechanics used across mount escapes, kesa gatame escapes, and modified scarf hold escapes, reinforcing fundamental hip extension power and rotational force generation that transfer across multiple bottom defensive positions. The bridge escape also functions as a chain starter, where even a partially successful bridge disrupts the top player's control enough to enable follow-up escapes.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Scarf Hold Position",
+      "relationship": "Starting position where this escape is initiated from the bottom role"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position on successful escape through bridge and guard recovery"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position if escape fails and top player advances"
+    },
+    {
+      "name": "Bridge Escape from Kesa Gatame",
+      "relationship": "Closely related bridge escape from the traditional judo kesa gatame variant"
+    },
+    {
+      "name": "Bridge Escape from Modified Scarf Hold",
+      "relationship": "Similar bridge escape mechanics applied to modified scarf hold configuration"
+    },
+    {
+      "name": "Bridge Escape from Reverse Scarf Hold",
+      "relationship": "Related bridge escape requiring adjusted angle for reverse-facing scarf hold"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent positional family with related but distinct escape mechanics"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Traditional judo variant of the scarf hold position with similar escape principles"
+    },
+    {
+      "name": "Americana from Kesa Gatame",
+      "relationship": "Submission threat from scarf hold that creates escape windows when opponent attacks"
+    },
+    {
+      "name": "Arm Triangle from Scarf Hold",
+      "relationship": "Submission threat motivating urgency to escape scarf hold control"
     }
   ],
   "attacker": {
     "name": "Bridge Escape from Scarf Hold Attacker",
-    "description": "TODO: Write attacker description for Bridge Escape from Scarf Hold.",
-    "overview": "TODO: Write attacker overview for Bridge Escape from Scarf Hold.",
+    "description": "Execute the bridge escape from scarf hold in BJJ. Step-by-step guide to explosive bridging, arm trapping, leg hooking, and rotational mechanics for escaping kesa gatame.",
+    "overview": "The bridge escape from scarf hold is executed by the bottom player who must coordinate multiple control points before committing to an explosive rotational bridge. The attacker's challenge is overcoming the perpendicular weight distribution of the scarf hold, which eliminates standard lateral shrimping as an escape option. Instead, the bottom player must systematically compromise the top player's base by trapping their head-wrapping arm, hooking their near leg, and then generating explosive hip extension at a 45-degree angle to roll the top player over their exposed shoulder line. Success requires patience in establishing control points followed by total commitment to the bridge, as half-measures simply waste energy and alert the opponent.",
     "key_principles": [
-      "TODO"
+      "Bridge at a 45-degree angle toward opponent's back rather than straight up, exploiting the perpendicular configuration to roll them over their shoulder line",
+      "Trap opponent's head-wrapping arm before bridging to eliminate their primary posting base and create the structural weakness needed for the roll",
+      "Hook opponent's near leg with your bottom leg to remove their secondary posting base and prevent them from stepping out during the roll",
+      "Plant both feet as close to your hips as possible before bridging to maximize hip extension power and bridge height",
+      "Time the bridge when opponent shifts weight for a transition or submission attempt, capitalizing on their momentarily compromised base",
+      "Commit fully to the bridge and roll through completely without hesitation, as partial bridges waste energy and telegraph your intentions"
     ],
     "setup_requirements": [
-      "TODO"
+      "Free arm positioned to reach and control opponent's head-wrapping arm or their gi sleeve and collar material",
+      "Both feet planted flat on the mat as close to hips as possible with knees bent at approximately 90 degrees for maximum bridge power",
+      "Bottom leg in position to hook opponent's near leg at the ankle or calf level to eliminate their secondary posting base",
+      "Opponent's weight committed through hips into your ribcage rather than distributed across wide-posted limbs",
+      "Breathing stabilized through diaphragmatic breathing despite chest pressure to ensure adequate oxygen for explosive movement"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish defensive frame",
+        "description": "Use your free arm to frame against opponent's neck and shoulder, creating minimal breathing space and preventing complete smothering. Tuck your chin to protect against deep crossface control. This frame buys time to set up the remaining control points without panicking under pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Position feet for maximum bridge power",
+        "description": "Walk both feet as close to your hips as possible, planting them flat on the mat with knees bent at approximately 90 degrees. Avoid telegraphing by making small incremental adjustments rather than obvious repositioning. Your feet must be close enough to generate powerful hip extension when you commit to the bridge."
+      },
+      {
+        "step_number": 3,
+        "action": "Control opponent's head-wrapping arm",
+        "description": "With your free hand, reach across and grip opponent's arm that wraps around your head, grabbing their wrist, sleeve, or elbow crease. Pull this arm tight across your chest to prevent them from posting when you bridge. In gi, grip the sleeve material; in no-gi, grip above the elbow or secure a wrist-to-wrist control."
+      },
+      {
+        "step_number": 4,
+        "action": "Hook opponent's near leg",
+        "description": "Thread your bottom leg around and hook opponent's near leg at the ankle or lower calf. This removes their secondary base and prevents them from stepping out to resist the roll. The hook should be tight enough that their leg moves with yours during the bridge rather than sliding free under pressure."
+      },
+      {
+        "step_number": 5,
+        "action": "Load the bridge direction",
+        "description": "Bump your hips slightly toward the opponent to load their weight onto your torso and commit their center of gravity over the roll line. This pre-loading ensures maximum momentum transfer when you execute the full bridge. The bump should be subtle enough not to alert your opponent to the incoming escape attempt."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute explosive bridge at 45-degree angle",
+        "description": "Drive your hips explosively upward and toward the opponent's back at a 45-degree angle, rolling them over their exposed shoulder line. Simultaneously turn your body in the direction of the roll while maintaining your grip on their arm and your hook on their leg. The power comes from hip extension through your planted feet, not from upper body pushing."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through and establish half guard",
+        "description": "As the opponent rolls over their shoulder, immediately follow through by turning your body toward them and inserting your knee between their legs to establish half guard. Do not pause at the top of the bridge waiting for the roll to complete. Secure half guard grips immediately including an underhook on the trapped leg side before the opponent can recover their base and re-establish scarf hold or transition to another dominant position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent widens base by posting far arm wide and extending back leg to resist rotational force",
+        "effectiveness": "High",
+        "your_response": "If the full roll is blocked by their wide base, immediately convert the bridge into a hip escape by shrimping away during the space created by the upward bridge motion. Insert your knee for half guard recovery rather than forcing the roll against solid posting.",
+        "targets_outcome": "Scarf Hold Position/Bottom"
+      },
+      {
+        "counter": "Opponent steps over to mount as you lift your hips during the bridge, using your upward momentum to facilitate the transition",
+        "effectiveness": "High",
+        "your_response": "If you feel them stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block the mount transition. Redirect to elbow-knee escape frames to prevent mount consolidation.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight heavily and tightens head control to smother the bridge before it develops",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "When opponent drives weight down preemptively, use the pressure to load a deeper bridge by walking feet even closer. Wait for them to relax or shift weight to attack, then execute the bridge when their pressure momentarily decreases during the transition.",
+        "targets_outcome": "Scarf Hold Position/Bottom"
+      },
+      {
+        "counter": "Opponent circles their trapped arm free when you attempt to control it, maintaining posting ability",
+        "effectiveness": "Medium",
+        "your_response": "If they free their arm, immediately transition to the frame bridge variant where you bridge for space and hip escape to half guard rather than committing to the full roll. Alternatively, regrip their arm at a different control point such as elbow crease or tricep.",
         "targets_outcome": "Scarf Hold Position/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Bridging straight up vertically instead of at a 45-degree angle toward opponent's back",
+        "consequence": "The vertical bridge lifts the opponent momentarily but lacks rotational force, allowing them to settle back into position when you return to the mat. Energy is wasted without positional improvement.",
+        "correction": "Direct the bridge at a 45-degree angle toward the opponent's back and over their shoulder line. Think of driving your hips through their shoulder rather than toward the ceiling."
+      },
+      {
+        "error": "Attempting the bridge without first trapping opponent's head-wrapping arm",
+        "consequence": "Opponent posts their free arm immediately when they feel the bridge, completely negating the rotational force and maintaining base throughout the escape attempt.",
+        "correction": "Always secure control of the head-wrapping arm before committing to the bridge. Pull it tight across your chest so they cannot post. No arm trap means no successful bridge."
+      },
+      {
+        "error": "Failing to hook opponent's near leg before bridging",
+        "consequence": "Opponent steps their near leg wide to base out against the bridge, or worse, steps over to mount as your hips elevate during the escape attempt.",
+        "correction": "Hook opponent's near leg at the ankle or calf with your bottom leg before initiating the bridge. This removes their secondary base and prevents the mount transition counter."
+      },
+      {
+        "error": "Telegraphing the escape with obvious foot repositioning and grip adjustments",
+        "consequence": "Opponent recognizes the setup and preemptively widens base, tightens controls, or transitions to a different position before you can execute the bridge.",
+        "correction": "Make small incremental adjustments to foot and hand position over multiple breathing cycles rather than sudden obvious repositioning. Disguise setup movements within normal defensive adjustments."
+      },
+      {
+        "error": "Planting feet too far from hips, reducing bridge height and explosive power",
+        "consequence": "Insufficient bridge height fails to displace opponent's weight or create enough rotational momentum for the roll, resulting in a weak attempt that wastes energy.",
+        "correction": "Walk feet as close to your hips as possible before bridging. The closer your heels are to your glutes, the more powerful and explosive the hip extension. Test bridge height in drilling to calibrate optimal foot placement."
+      },
+      {
+        "error": "Partial commitment to the bridge without following through the complete roll",
+        "consequence": "Half-committed bridges create momentary space but opponent resettles immediately with tighter control, and the bottom player has burned significant energy without achieving any positional improvement.",
+        "correction": "Once you initiate the bridge, commit fully to the roll with maximum explosive force. Follow through by turning your entire body in the direction of the roll and immediately pursuing guard recovery."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Bridge Mechanics",
+        "focus": "Isolated explosive bridge development",
+        "description": "Practice bridging mechanics without a partner, focusing on planting feet close to hips and generating maximum hip extension at a 45-degree angle. Progress to bridging with a partner sitting on your torso at light weight. Develop the specific rotational angle needed for scarf hold escapes as distinct from mount bridge escapes. Perform 20 bridges per side for 3 sets."
+      },
+      {
+        "phase": "Phase 2: Control Point Integration",
+        "focus": "Adding arm trap and leg hook to bridge",
+        "description": "With a cooperative partner in scarf hold, practice the full setup sequence: frame, foot positioning, arm trap, leg hook, then bridge. Partner holds position at 20% resistance allowing successful completion. Focus on smooth sequencing of all control points before the explosive bridge. Perform 15 complete repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Timing and Recognition",
+        "focus": "Identifying escape windows under moderate resistance",
+        "description": "Partner maintains scarf hold at 50-60% resistance and periodically simulates submission attacks or weight shifts. Bottom player must recognize the timing window and execute the bridge during the momentary base compromise. Develop sensitivity to weight distribution changes through the chest and ribcage. Work 2-minute rounds for 5 rounds."
+      },
+      {
+        "phase": "Phase 4: Chain Escapes Under Full Resistance",
+        "focus": "Combining bridge escape with follow-up techniques",
+        "description": "Partner maintains scarf hold at full resistance. Bottom player chains bridge escape attempts with hip escapes, ghost escapes, and guard recovery sequences. If bridge is defended, immediately transition to frame bridge hip escape variant. Develop automatic chain reactions to failed escape attempts. Positional sparring rounds of 3 minutes with reset on escape or submission."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why must the bridge be directed at a 45-degree angle rather than straight up when escaping scarf hold?",
+        "answer": "The 45-degree angle exploits the perpendicular configuration of scarf hold by directing force over the opponent's exposed shoulder line. A vertical bridge only lifts them momentarily before gravity returns them to position, while the angled bridge creates rotational momentum that displaces their base laterally. The angle converts vertical hip power into horizontal rolling force that the opponent cannot resist with simple downward pressure."
+      },
+      {
+        "question": "Your opponent has tight head control and heavy hip pressure in scarf hold - what is the first thing you must establish before attempting the bridge escape?",
+        "answer": "The first priority is establishing a defensive frame with your free arm against the opponent's neck and shoulder to create breathing space and prevent complete smothering. Without adequate breathing, you cannot generate the sustained energy needed for the explosive bridge. The frame also prevents the opponent from deepening their crossface control, which would further restrict your head mobility and eliminate the rotational movement needed for the escape."
+      },
+      {
+        "question": "What happens if you attempt to bridge without trapping the opponent's head-wrapping arm?",
+        "answer": "Without trapping the arm, the opponent immediately posts their free hand on the mat when they feel your hips rise, creating a solid structural base that completely negates the rotational force of your bridge. Their posted arm acts as a kickstand preventing the roll, and you waste significant energy on an escape that has zero chance of success. The arm trap is the single most critical control point that must be established before committing to the bridge."
+      },
+      {
+        "question": "Your opponent widens their base when they feel you setting up the bridge - how do you adapt your escape strategy?",
+        "answer": "When the opponent widens their base to resist the roll, convert the bridge into a frame bridge hip escape variant. Use the upward bridge motion to create momentary space between your torso and their weight, then immediately shrimp your hips away from them and insert your knee for half guard recovery. The wide base that resists the roll actually creates more space during the vertical portion of the bridge, making the hip escape follow-up more effective than the full roll would have been."
+      },
+      {
+        "question": "What is the role of hooking the opponent's near leg during the bridge escape?",
+        "answer": "Hooking the near leg eliminates the opponent's secondary posting base, preventing them from stepping wide to resist the rotational force of the bridge. Without the hook, the opponent can simply extend their near leg outward to create a tripod base that easily absorbs the rolling momentum. The hook also prevents the dangerous counter where the opponent steps over to mount as your hips elevate during the bridge, which is the most common way this escape fails catastrophically."
+      },
+      {
+        "question": "When is the optimal timing window to execute the bridge escape from scarf hold?",
+        "answer": "The optimal window occurs when the opponent shifts weight to initiate a submission attack or positional transition. When they release partial head control to attack an americana, or shift their hips to transition toward mount or north-south, their base is momentarily compromised. This weight shift reduces the structural resistance to the bridge and divides their attention between the attack and base maintenance, creating a window where the full bridge has maximum effect with minimum energy expenditure."
+      },
+      {
+        "question": "Your bridge attempt is defended and you land back on the mat - what should your immediate next action be?",
+        "answer": "Immediately chain into a follow-up escape rather than resting or resetting. The failed bridge will have created some positional disruption and space even if the full roll was blocked. Use the momentary space to shrimp your hips away for a frame-based hip escape, or transition to a ghost escape by turning into the opponent and coming to your knees. Never simply collapse back to the starting position after a failed bridge, as the opponent will tighten controls and your energy expenditure is wasted without follow-up."
+      },
+      {
+        "question": "How does foot placement affect bridge power and what is the optimal position?",
+        "answer": "Feet should be planted flat on the mat as close to the hips as possible with knees bent at approximately 90 degrees. This position maximizes the mechanical advantage of the hip extensors (glutes and hamstrings) during the explosive bridge. Feet placed too far from the hips reduce bridge height because the hip extension arc is flattened, generating primarily forward push rather than upward and rotational force. The close foot position also allows you to drive through the balls of your feet at the peak of the bridge for additional rotational momentum."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Bridge Escape from Scarf Hold."
+    "safety_considerations": "Bridge escapes from scarf hold involve explosive rotational force through the neck and spine. Practice with controlled intensity, particularly when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player should turn their head to the side during the bridge to protect cervical vertebrae from compression. Both partners should communicate throughout the drill to prevent injury from unexpected explosive movements. Gradually increase resistance across training sessions rather than jumping to full resistance before the mechanics are refined."
   },
   "defender": {
     "name": "Bridge Escape from Scarf Hold Defender",
-    "description": "TODO: Write defender description for Bridge Escape from Scarf Hold.",
-    "overview": "TODO: Write defender overview for Bridge Escape from Scarf Hold.",
+    "description": "Defend against the bridge escape from scarf hold in BJJ. Learn to recognize bridge setup indicators, maintain base under explosive pressure, and counter with positional advancement.",
+    "overview": "Defending against the bridge escape from scarf hold requires the top player to recognize early setup indicators and preemptively adjust base and weight distribution to neutralize the explosive bridging attempt. The defender's primary tools are maintaining a wide stable base that resists rotational force, keeping the head-wrapping arm mobile to prevent trapping, and driving hip pressure to limit the bottom player's bridge power. Understanding the mechanics of the bridge escape allows the defender to anticipate each setup element and disrupt it before the bottom player can coordinate all control points. The most effective defenders do not simply resist the bridge but actively convert failed escape attempts into positional advancement opportunities, transitioning to mount or tightening control when the bottom player expends energy on unsuccessful escape attempts.",
     "key_principles": [
-      "TODO"
+      "Maintain wide base with far leg posted and back leg extended to create structural resistance against rotational bridging force",
+      "Keep your head-wrapping arm mobile and tight, never allowing the bottom player to pull it across their chest for trapping",
+      "Drive hip pressure continuously into the bottom player's ribcage to limit their bridge height and compress their breathing capacity",
+      "Recognize bridge setup indicators early including foot repositioning, arm reaching, and leg hooking and respond preemptively",
+      "Convert failed bridge attempts into positional advancement by transitioning to mount or tightening scarf hold control immediately",
+      "Adjust weight distribution dynamically, shifting pressure forward when bottom player sets up bridge and widening base when they commit"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player walks their feet close to their hips and plants them firmly flat on the mat with knees bent, indicating they are loading bridge power",
+      "Bottom player's free arm reaches across their body to grab your head-wrapping arm, sleeve, or elbow, attempting to trap your posting ability",
+      "Bottom player threads their bottom leg around to hook your near leg at the ankle or calf, removing your secondary base",
+      "Sudden increase in body tension and hip engagement from the bottom player, with subtle weight loading toward you signaling imminent explosive movement",
+      "Bottom player turns their head and shoulders slightly toward you and shifts their hips closer, loading weight for the rotational bridge angle"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Widen base preemptively by posting far arm wide and extending back leg when bridge setup is detected",
+        "when_to_use": "As soon as you detect the bottom player walking feet close to hips or reaching for your arm, before they complete all setup control points",
         "targets_outcome": "Scarf Hold Position/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bridge attempt is structurally impossible due to wide base resisting rotational force, and you maintain scarf hold control with improved positioning",
+        "risk": "Wide posting temporarily reduces chest pressure, potentially allowing bottom player to create frames or transition to hip escape variant"
+      },
+      {
+        "action": "Step over to mount as bottom player lifts hips during bridge, converting their upward momentum into your positional advancement",
+        "when_to_use": "When bottom player commits to the bridge and lifts their hips, creating space for you to swing your near leg over their body and transition to mount",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You advance to mount position using the opponent's own bridge energy, gaining 4 points and establishing the most dominant control position",
+        "risk": "If timed poorly and bottom player's bridge has full rotational momentum, you may be carried over into the roll and lose position entirely"
+      },
+      {
+        "action": "Drive hip pressure deeper and tighten head control immediately when you feel setup indicators, smothering the bridge before it develops",
+        "when_to_use": "At the earliest recognition of bridge setup when bottom player begins walking feet in or tensing their body, before they establish arm trap or leg hook",
+        "targets_outcome": "Scarf Hold Position/Bottom",
+        "if_successful": "Heavy pressure limits bridge height to ineffective range and compressed breathing reduces bottom player's explosive capacity for subsequent attempts",
+        "risk": "Committing weight forward to smother may open backdoor escape or ghost escape opportunities if bottom player redirects to a different escape path"
+      },
+      {
+        "action": "Circle head-wrapping arm free when bottom player attempts to trap it, maintaining posting ability throughout",
+        "when_to_use": "The instant you feel bottom player's hand gripping your arm or sleeve, before they can secure a deep controlling grip",
+        "targets_outcome": "Scarf Hold Position/Bottom",
+        "if_successful": "Arm remains free for posting and the bottom player's bridge has zero chance of success without the arm trap, forcing them to reset the entire escape sequence",
+        "risk": "Circling the arm momentarily loosens head control, potentially allowing bottom player to turn their face toward you or create neck space"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Scarf Hold Position/Bottom",
+        "how": "Maintain solid base with weight distributed through hips and wide posting leg. When bottom player attempts bridge, preemptively widen base and drive hip pressure deeper to resist the rotational force. Keep head-wrapping arm mobile and tight so it cannot be trapped. After the failed bridge, immediately re-consolidate controls by tightening arm isolation and resettling weight before they can chain into a follow-up escape."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Recognize the moment the bottom player commits their hips upward for the bridge and immediately step your near leg over their body to transition to mount. Use their upward hip movement to create the space needed for the leg to clear their body. Timing is critical: step over during the upward phase of the bridge before they generate full rotational momentum. Settle into mount with low hips and wide base immediately after clearing their body."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Maintaining narrow base with legs close together while in scarf hold, providing insufficient resistance to rotational bridge force",
+        "consequence": "Bottom player's bridge easily displaces you over your shoulder line because there is no structural resistance to the 45-degree rolling force. Even a moderate bridge succeeds against a narrow base.",
+        "correction": "Keep far leg posted wide and back leg extended to create maximum base width. The wider your base triangle, the more force required to displace you through rotational bridging."
+      },
+      {
+        "error": "Allowing bottom player to pull your head-wrapping arm across their chest without immediately fighting to free it",
+        "consequence": "Once the arm is trapped, your primary posting ability is eliminated and the bridge escape becomes extremely high-percentage. You lose the ability to resist the roll structurally.",
+        "correction": "The instant you feel pulling on your arm, immediately circle it free by rotating your elbow outward and resecuring head control. Never let the grip solidify. Treat arm trapping as the highest-priority threat to defend."
+      },
+      {
+        "error": "Resisting the bridge by fighting head-on with strength rather than transitioning to a counter position",
+        "consequence": "Even if you resist one bridge attempt through pure strength, the effort drains your energy while the bottom player can chain multiple attempts. The attrition battle favors the bottom player who only needs one successful bridge.",
+        "correction": "Instead of muscling against the bridge, use the bottom player's commitment to transition proactively. Step over to mount when they lift hips, or transition to north-south if they overcommit forward. Convert their energy into your positional improvement."
+      },
+      {
+        "error": "Ignoring near leg hook by bottom player, failing to extract your leg from their control",
+        "consequence": "The leg hook removes your secondary base and prevents you from stepping out to resist the roll, dramatically increasing the bridge escape success rate and exposing you to the mount transition counter.",
+        "correction": "When you feel the bottom player hooking your near leg, immediately pull it free by driving your knee forward and away from their hook. Keep your near leg mobile and resistant to entanglement throughout the scarf hold."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the three setup indicators that signal a bridge escape attempt from scarf hold bottom?",
+        "answer": "The three primary indicators are: feet walking close to hips and planting firmly on the mat, the free arm reaching across to trap your head-wrapping arm, and the bottom leg threading around to hook your near leg. Recognizing any of these indicators should trigger immediate base adjustment and control tightening before the bottom player can complete all three setup elements and commit to the explosive bridge."
+      },
+      {
+        "question": "Your bottom opponent lifts their hips for the bridge while you are in scarf hold - should you resist the bridge or transition?",
+        "answer": "The optimal response is to transition rather than resist. Step your near leg over their body to transition to mount as their hips elevate, using their upward momentum to create the space you need for the leg to clear. Resisting the bridge through strength is an attrition strategy that favors the bottom player who can chain multiple attempts. Converting the bridge into a mount transition turns their escape energy into your positional advancement and is far more energy-efficient."
+      },
+      {
+        "question": "How do you prevent the bottom player from trapping your head-wrapping arm during the bridge escape setup?",
+        "answer": "Keep your head-wrapping arm actively mobile by maintaining grip on the collar, belt, or behind their neck rather than resting it passively. The instant you feel pulling or gripping on this arm, immediately circle your elbow outward to break the grip and resecure your control position. You can also preemptively tighten your arm by driving your elbow into their far shoulder, making it physically inaccessible for trapping. Never allow the bottom player's grip to solidify on this arm."
+      },
+      {
+        "question": "What base adjustment should you make when you detect bridge escape setup from scarf hold?",
+        "answer": "Immediately widen your base by posting your far arm wider on the mat and extending your back leg further behind you to create a broader structural triangle. Simultaneously drive your hip pressure deeper into the bottom player's ribcage to compress their bridge capacity. This combined response creates maximum resistance to rotational force while limiting the bottom player's ability to generate bridge height. The wider base should be maintained until you confirm the bottom player has abandoned the bridge setup."
+      },
+      {
+        "question": "When is the mount transition counter to the bridge escape most effective and when is it most dangerous?",
+        "answer": "The mount transition is most effective when the bottom player commits to a vertical bridge without full rotational momentum, lifting their hips straight up rather than at the 45-degree escape angle. The counter is most dangerous when the bottom player has secured all three control points (arm trap, leg hook, rotational angle) and commits with full explosive force. In this scenario, attempting to step over can result in being carried over by the rotational momentum. The key is timing the step-over during the early upward phase of the bridge before full rotational force develops."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying bridge escape setup indicators",
+        "description": "Partner in scarf hold bottom cycles through bridge setup sequences without committing to the full bridge. Top player calls out each indicator as they recognize it: foot positioning, arm reaching, leg hooking. Develop pattern recognition through 50 repetitions of setup identification, building automatic recognition of the three-element bridge preparation."
+      },
+      {
+        "phase": "Phase 2: Base Adjustment Under Pressure",
+        "focus": "Reactive base widening and pressure driving",
+        "description": "Partner executes bridge attempts at 50-70% power while top player practices preemptive base widening and hip pressure intensification. Focus on feeling the weight shift through the ribcage and responding before the bridge develops full momentum. Work 2-minute rounds for 5 rounds, progressively increasing bottom player's commitment level."
+      },
+      {
+        "phase": "Phase 3: Counter Transition Timing",
+        "focus": "Step-over to mount during bridge attempts",
+        "description": "Partner commits to full bridge escapes while top player practices the mount transition counter. Focus on reading the moment when hips lift and timing the near leg step-over before rotational momentum develops. Begin with cooperative timing at 30% speed, progress to reactive timing at full speed. Work 15 repetitions per side with partner feedback on timing accuracy."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance scarf hold maintenance against all escapes",
+        "description": "Positional sparring from scarf hold with full resistance. Top player maintains position while bottom player chains bridge escapes with hip escapes, ghost escapes, and guard recovery attempts. Top player practices recognizing and responding to each escape type with appropriate counter. 3-minute rounds with reset on escape or submission, 5 rounds total."
       }
     ]
   }

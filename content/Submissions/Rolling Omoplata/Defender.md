@@ -156,6 +156,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
 
 Defending the Rolling Omoplata requires understanding that this submission develops through a rapid sequence of rolling momentum followed by shoulder isolation, making early recognition the single most important defensive skill. Unlike defending a traditional omoplata where you have clear visual cues from a static guard position, the rolling version emerges from scrambles and transitions with minimal warning. Your defensive priorities shift based on the stage of the attack: during the rolling phase, your goal is to prevent arm isolation and deny the roll completion; once the roll is completed and your shoulder is captured, your goal shifts to preventing the perpendicular angle and creating space to extract your arm or roll through to a neutral position. The dynamic nature of this attack means that timing-based defenses are more effective than strength-based resistance - understanding when to posture, when to turn, and when to roll through is critical for survival. Experienced defenders treat the rolling omoplata as a transitional problem rather than a static one, using the attacker's momentum against them to create scramble opportunities rather than fighting from a locked defensive position.
 
+**Opponent's Starting Position**: [[Scramble Position]] (Bottom)
 
 
 </section>

@@ -91,17 +91,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Shrimp Escape]]** (25% of attempts)
+- **[[Shrimp Escape]]** (36% of attempts)
 
-- **[[Elbow Escape to Guard]]** (22% of attempts)
+- **[[Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (18% of attempts)
+- **[[Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Bridge and Roll]]** (13% of attempts)
+- **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Technical Stand-up]]** (12% of attempts)
+- **[[Technical Stand-up]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (10% of attempts)
+- **[[Hip Escape to Guard]]** (7% of attempts)
+
+- **[[Escape Shoulder of Justice]]** (3% of attempts)
+
+- **[[Frame from Shoulder of Justice]]** (1% of attempts)
+
+- **[[Frame Escape from Shoulder of Justice]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,19 +172,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Kimura]]** (16% of attempts)
+- **[[Kimura]]** (20% of attempts)
 
-- **[[Americana]]** (14% of attempts)
+- **[[Americana]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Side Control to North-South]]** (15% of attempts)
+- **[[Side Control to North-South]]** (13% of attempts)
 
-- **[[Arm Triangle]]** (13% of attempts)
+- **[[Arm Triangle]]** (11% of attempts)
 
-- **[[North-South Choke]]** (12% of attempts)
+- **[[North-South Choke]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (15% of attempts)
+- **[[Knee on Belly]]** (13% of attempts)
+
+- **[[Shoulder of Justice Kimura Setup]]** (5% of attempts)
+
+- **[[Shoulder of Justice to Mount]]** (3% of attempts)
 
 
 ### Common Mistakes

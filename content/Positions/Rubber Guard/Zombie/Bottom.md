@@ -21,37 +21,37 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,25 +208,27 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Available Escapes
 
-### [[Old School Sweep]] (27% of attempts)
+### [[Old School Sweep]] (35% of attempts)
 
-### [[Electric Chair Transition]] (12% of attempts)
+### [[Electric Chair Transition]] (11% of attempts)
 
-### [[Lockdown Recovery]] (11% of attempts)
+### [[Lockdown Recovery]] (10% of attempts)
 
-### [[Guard Recovery]] (14% of attempts)
+### [[Guard Recovery]] (13% of attempts)
 
-### [[Granby Roll to Guard]] (10% of attempts)
+### [[Granby Roll to Guard]] (9% of attempts)
 
-### [[Rolling Back Take]] (8% of attempts)
+### [[Rolling Back Take]] (7% of attempts)
 
-### [[Roll to Truck]] (7% of attempts)
+### [[Roll to Truck]] (6% of attempts)
 
-### [[Deep Half Entry]] (6% of attempts)
+### [[Deep Half Entry]] (5% of attempts)
 
-### [[Escape Zombie Control]] (3% of attempts)
+### [[Escape Zombie Control]] (2% of attempts)
 
-### [[Turn to Face from Zombie]] (2% of attempts)
+### [[Turn to Face from Zombie]] (1% of attempts)
+
+### [[Sweep from Zombie Guard]] (1% of attempts)
 
 
 

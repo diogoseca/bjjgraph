@@ -1,42 +1,402 @@
 {
   "name": "Overhook Strip from Diamond Guard",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "escape", "diamond-guard", "overhook-strip", "top-player"],
+  "description": "Master the Overhook Strip from Diamond Guard in BJJ. Learn systematic grip-stripping mechanics to neutralize the overhook and escape diamond guard to closed guard top.",
+  "tags": [
+    "bjj",
+    "transition",
+    "grip-stripping",
+    "diamond-guard",
+    "overhook-strip",
+    "guard-top",
+    "escape",
+    "closed-guard"
+  ],
   "from_position": "Diamond Guard/Top",
   "outcomes": [
-    {"to": "Closed Guard/Top", "probability": 50, "result": "success"},
-    {"to": "Diamond Guard/Top", "probability": 30, "result": "failure"},
-    {"to": "Triangle Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Closed Guard/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Diamond Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Triangle Control/Top",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 50,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Overhook Strip from Diamond Guard is a targeted grip-breaking technique executed by the top player when trapped inside an opponent's diamond guard configuration. Diamond guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that severely limits the top player's mobility and exposes them to triangles, omoplatas, and kimuras. The overhook strip addresses the arm control component specifically, with the goal of degrading the diamond back to a standard closed guard where the top player's full defensive and passing repertoire becomes available.\n\nUnlike the complete guard pass sequence that addresses both diamond controls and proceeds through guard opening to side control, the overhook strip focuses narrowly on neutralizing the overhook as a standalone objective. This distinction matters because the overhook is the more dangerous of the two diamond controls from a submission-chain perspective — it creates direct entries to triangles and omoplatas when the bottom player adjusts their grip. Removing it eliminates the guard player's highest-percentage attack pathways even if head control remains active. The technique requires precise mechanics, as the extraction phase creates a critical vulnerability window where the bottom player can transition to triangle control if the top player's arm clears without proper defensive positioning.\n\nTiming and hip pressure are the two most important factors in successful execution. The top player must maintain constant forward pressure to prevent sweeps while systematically working the circular arm extraction that attacks the overhook at its weakest structural point. Rushing the strip with explosive pulling feeds directly into the bottom player's counter-attacks, while a patient, methodical approach progressively degrades the grip until extraction becomes mechanical rather than forceful.",
+  "conditions": [
+    "Opponent has established diamond guard with overhook on one arm and head control behind the neck from closed guard bottom",
+    "Top player has at least one free hand available for grip fighting and wrist control on the overhooking arm",
+    "Top player's hips are in contact with the guard player's hips, maintaining enough forward pressure to prevent sweeps during the strip",
+    "The overhook is identifiable as the primary threat requiring immediate address before broader guard escape can proceed"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Posture-First Extension Strip",
+      "description": "Rather than directly attacking the overhook grip, the top player drives maximum postural extension through hip drive and spine straightening. The increased distance between the top player's shoulder and the guard player's chest stretches the overhook to near-full arm extension, mechanically weakening it until the grip can no longer maintain depth. The extraction then becomes a simple circular peel against a weakened grip rather than a forceful strip against a loaded one.",
+      "when_to_use": "When the overhook is moderately deep but the guard player's leg squeeze is fatiguing, or when head control has already been partially addressed, allowing postural recovery without immediate triangle threat"
+    },
+    {
+      "variant_name": "Head Circle to Overhook Peel",
+      "description": "The top player addresses head control first by circling their head toward the side opposite the overhook, slipping the head-controlling grip through angular movement rather than pulling straight back. Once the head is free, the postural recovery that follows naturally degrades the overhook by creating separation. The overhook strip then occurs as a secondary consequence of posture recovery, requiring less direct grip fighting because the diamond's structural integrity has already been compromised by losing one of its two pillars.",
+      "when_to_use": "When the head control is the more dominant of the two diamond grips, or when the guard player's head control is pulling so aggressively that addressing the overhook first is mechanically impossible"
+    },
+    {
+      "variant_name": "Two-on-One Wrist Peel",
+      "description": "The top player commits both hands to the overhooking arm, gripping at the wrist and elbow simultaneously. The wrist hand pushes the grip away from the shoulder while the elbow hand drives the overhooking arm back toward the guard player's body. This sacrifices the free hand's defensive utility but generates maximum mechanical advantage against deeply locked overhooks that resist single-hand stripping attempts.",
+      "when_to_use": "Against extremely deep overhooks where the guard player's hand is locked behind the shoulder blade, and single-hand wrist control provides insufficient leverage for the circular extraction"
+    }
+  ],
+  "position_integration": "The Overhook Strip from Diamond Guard occupies a critical role in the top player's closed guard survival hierarchy. Diamond guard is one of the most dangerous closed guard configurations because the combined overhook and head control create direct submission pathways while making standard guard opening ineffective. The overhook strip serves as the essential first step in degrading diamond guard to a manageable position. Once the overhook is removed, the top player can address head control independently and proceed through standard posture recovery and guard opening sequences. This technique integrates with Break Overhook Guard concepts and shares mechanical principles with Guard Pass from Diamond Guard, but focuses specifically on grip degradation rather than complete passing. The narrower scope makes it a more achievable intermediate objective when the full guard pass feels too ambitious against a skilled diamond guard player.",
+  "related_content": [
+    {
+      "name": "Diamond Guard",
+      "relationship": "Source position where this transition begins — the overhook is one of two pillars of the diamond frame"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Target position after successful overhook strip, where standard guard opening becomes available"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Counter outcome position when the bottom player catches a triangle during the arm extraction phase"
+    },
+    {
+      "name": "Guard Pass from Diamond Guard",
+      "relationship": "Extended sequence that continues past the overhook strip through guard opening and passing to side control"
+    },
+    {
+      "name": "Break Overhook Guard",
+      "relationship": "Related grip-stripping technique from standard overhook guard sharing core circular extraction mechanics"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Primary sweep threat the guard player uses when the top player's weight shifts during the stripping sequence"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related position using single overhook control — the diamond adds head control to this concept"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Complementary technique used after stripping overhook to fully re-establish closed guard top posture"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "The counter-attack the guard player uses during the extraction when the arm creates space for leg entry"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Position the guard player may transition to by converting the overhook to a kimura grip during the strip"
+    }
+  ],
   "attacker": {
     "name": "Overhook Strip from Diamond Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Diamond Guard/Top"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Complete attacker guide for stripping the overhook from diamond guard in BJJ. Learn wrist control, circular extraction mechanics, and triangle defense during the grip-stripping sequence.",
+    "overview": "As the top player executing the Overhook Strip from Diamond Guard, your objective is to isolate and remove the overhook component of the diamond frame while managing the triangle threat that arises during arm extraction. The diamond guard's dual-control structure — overhook plus head control — creates a mutually reinforcing frame where each grip makes the other harder to strip. The overhook strip targets the arm control specifically because it is the more submission-dangerous of the two controls, providing the bottom player direct pathways to triangles and omoplatas. Successful execution requires a methodical approach combining wrist control, hip drive, and circular arm mechanics rather than strength-based pulling. The critical challenge is that the extraction phase creates a window where your arm is partially free but exposed, making triangle defense an integral part of the stripping technique rather than an afterthought.",
+    "key_principles": [
+      "Control the overhooking arm's wrist with your free hand before initiating any extraction — uncontrolled stripping allows the guard player to adjust grip depth and convert to submissions",
+      "Use circular elbow rotation rather than linear pulling to attack the overhook at its weakest structural point, where the grip has minimal resistance to rotational force",
+      "Maintain constant forward hip pressure throughout the strip to prevent hip bump sweeps that exploit the weight shifts inherent in grip fighting",
+      "Keep your shoulder tight to the opponent's chest during extraction to eliminate the space needed for triangle leg entry over your clearing arm",
+      "Address head control influence before or during the overhook strip — head control reinforces the overhook's depth by maintaining broken posture",
+      "Complete the strip decisively by immediately pinning the freed arm and establishing posture to prevent re-establishment of the diamond frame"
+    ],
+    "setup_requirements": [
+      "Free hand available and not trapped in secondary grips, capable of reaching across to control the overhooking arm's wrist or forearm",
+      "Minimum partial base established with both knees on the mat and hips driving forward into the guard player's hips",
+      "Clear identification of the overhook depth and configuration — hand on lat versus tricep determines which variant to use",
+      "Head position assessed relative to diamond controls, noting whether head control must be addressed first or can be managed during the strip",
+      "Awareness that the extraction phase will create a triangle vulnerability window requiring preventive shoulder positioning"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess Diamond Frame Configuration",
+        "description": "Before initiating the strip, evaluate the depth of the overhook by feeling where the opponent's hand grips. Hand behind your shoulder blade indicates a deep overhook requiring a two-on-one approach. Hand around your tricep indicates a moderate overhook vulnerable to standard circular extraction. Simultaneously note the head control grip to determine whether it must be addressed first or can be managed concurrently."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Forward Hip Pressure and Base",
+        "description": "Widen your knees to at least shoulder-width and drive your hips firmly into the guard player's hips. This forward pressure accomplishes two critical objectives: it provides the postural foundation for the extraction and it eliminates the backward weight shift the guard player needs for hip bump sweeps. Tuck your chin to your chest and bring your elbows tight to your ribs as a defensive starting posture."
+      },
+      {
+        "step_number": 3,
+        "action": "Manage Head Control Influence",
+        "description": "If the head control grip is actively pulling your head down and reinforcing the overhook, begin circling your head toward the side opposite the overhook. Drive your forehead toward the mat beside their shoulder, using angular movement to reduce the head control's effectiveness without requiring a full grip break. The goal is not complete head freedom but sufficient postural recovery to generate the hip drive needed for the overhook strip."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure Wrist Control on Overhooking Arm",
+        "description": "With your free hand, reach across and grip the opponent's overhooking wrist or forearm. In gi, grip the sleeve at the wrist seam. In no-gi, use a C-grip cupping the wrist. This control prevents the guard player from deepening the overhook during your extraction attempt and provides the reference point needed to guide the circular peeling motion. Do not begin the extraction until wrist control is firmly established."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute Circular Elbow Extraction",
+        "description": "With wrist controlled and hip pressure maintained, begin rotating your trapped elbow outward in a circular arc. The elbow traces a path away from your body and downward, slipping through the gap between the overhook and your torso. Simultaneously push the opponent's overhooking wrist toward the mat with your control hand. The combination of rotational extraction and wrist pressure attacks the overhook from two angles, peeling it off incrementally rather than fighting its full holding strength."
+      },
+      {
+        "step_number": 6,
+        "action": "Shoulder Defense During Extraction Window",
+        "description": "As your elbow begins clearing the overhook, press your shoulder on the extraction side tightly into the opponent's chest. This eliminates the space the guard player needs to shoot their leg over your clearing arm for a triangle entry. Keep your chin tucked and your head low on the opposite side. The extraction window — the two to three seconds where your arm is partially free but not yet repositioned — is the highest-risk moment for triangle counter-attacks."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear and Establish Neutral Closed Guard Posture",
+        "description": "Once the arm fully clears, immediately drive both hands to the opponent's hips or biceps and straighten your spine to establish standard closed guard top posture. Pin the opponent's previously overhooking arm to the mat or their chest with your now-free hand to prevent instant re-establishment. The transition from cleared arm to established posture must be seamless — any pause gives the guard player a window to re-sink the overhook or establish alternative controlling grips."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Guard player re-sinks overhook depth by pulling elbow tight to hip and re-gripping deeper on the lat during the early stripping phase",
+        "effectiveness": "High",
+        "your_response": "If re-sinking occurs before you have wrist control, establish wrist control first before re-attempting. If it occurs during the circular extraction, increase hip drive forward to create maximum separation and re-attempt the rotation with increased postural leverage. Each re-establishment attempt is an energy expenditure for the guard player that progressively weakens their grip endurance.",
+        "targets_outcome": "Diamond Guard/Top"
+      },
+      {
+        "counter": "Guard player opens guard and shoots overhook-side leg over the clearing arm to enter triangle during the extraction window",
+        "effectiveness": "High",
+        "your_response": "Press your clearing-side shoulder tight to their chest immediately when you feel the leg rising. Tuck your elbow to your ribs and drive your head to the opposite side. If the leg gets across your neck, stack forward immediately using the postural base you established in the setup phase. Prevention through shoulder positioning is far more reliable than escaping once the triangle is locked.",
+        "targets_outcome": "Triangle Control/Top"
+      },
+      {
+        "counter": "Guard player converts the overhook to a kimura grip by catching your wrist during the circular elbow extraction",
+        "effectiveness": "Medium",
+        "your_response": "If they catch a kimura grip, immediately straighten your trapped arm and drive it toward the mat while keeping your elbow pinned to your ribs. Do not allow them to create separation between your arm and torso. Circle your elbow in the opposite direction to strip the figure-four grip and return to the overhook stripping sequence.",
+        "targets_outcome": "Diamond Guard/Top"
+      },
+      {
+        "counter": "Guard player uses the grip fighting disruption to execute a hip bump sweep while your weight distribution shifts during the extraction",
+        "effectiveness": "Medium",
+        "your_response": "The moment you feel their hips rising and chest driving upward, abandon the extraction temporarily and plant both hands on their hips to block the sweep. Drive your weight forward and down to flatten their hips back to the mat. Resume the overhook strip only after the sweep threat is neutralized and your forward hip pressure is re-established.",
+        "targets_outcome": "Diamond Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped arm straight backward against the overhook's strongest axis rather than using circular rotation",
+        "consequence": "Linear pulling wastes significant energy while the overhook maintains full mechanical advantage, and the backward force compromises forward hip pressure, opening sweep opportunities for the guard player",
+        "correction": "Always use circular elbow rotation that traces an arc outward and down, attacking the weakest point of the overhook grip where rotational force peels the grip incrementally"
+      },
+      {
+        "error": "Creating space between your chest and the opponent's body during the arm extraction, particularly pulling the shoulder away from their chest",
+        "consequence": "Space between your shoulder and their chest is exactly what the guard player needs to shoot their leg over your arm for triangle entry, converting your strip attempt into a submission",
+        "correction": "Keep your shoulder pressed tight to the opponent's chest throughout the entire extraction phase, using the shoulder contact as a barrier that prevents leg entry over the clearing arm"
+      },
+      {
+        "error": "Shifting weight backward during the stripping sequence instead of maintaining forward hip drive",
+        "consequence": "Backward weight shift creates the exact conditions for hip bump sweep — elevated hips, compromised base, and forward momentum available for the guard player to exploit",
+        "correction": "Drive posture through forward hip extension, not backward lean. Your belt buckle should move toward the mat between their legs, maintaining heavy hip-to-hip contact throughout"
+      },
+      {
+        "error": "Attempting to strip the overhook without first securing wrist control on the overhooking arm",
+        "consequence": "Without wrist control, the guard player freely adjusts grip depth and angle in response to your extraction attempts, re-sinking the overhook faster than you can strip it, or converting to kimura grip",
+        "correction": "Establish firm wrist control with your free hand before beginning any circular extraction. The wrist grip prevents deepening and provides the mechanical reference point for the peeling motion"
+      },
+      {
+        "error": "Pausing after clearing the overhook instead of immediately establishing neutral posture and pinning the freed arm",
+        "consequence": "The guard player re-establishes the overhook within seconds because you remained in a vulnerable transitional posture after the strip, negating all of your grip-fighting work",
+        "correction": "Treat the arm clearing and posture establishment as a single continuous action. The instant the overhook breaks, hands go to hips, spine straightens, and the freed arm is pinned"
+      },
+      {
+        "error": "Using explosive jerking force for the extraction instead of progressive methodical mechanics",
+        "consequence": "Explosive motion creates unpredictable arm trajectories that the guard player can redirect into kimura grips or triangle entries, and the sudden force can cause shoulder injury to the training partner",
+        "correction": "Apply steady progressive pressure through each phase — wrist control, hip drive, rotation — using smooth continuous force rather than sudden explosive movements"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Extraction Mechanics Isolation",
+        "focus": "Circular elbow rotation and wrist control",
+        "description": "Practice the circular elbow extraction against a partner holding an overhook at varying depths with no resistance. Focus on finding the correct rotation angle and coordinating wrist control pressure with the circular motion. 20 repetitions per side, emphasizing smooth mechanics and maintaining shoulder contact with partner's chest throughout."
+      },
+      {
+        "phase": "Phase 2: Hip Pressure Integration",
+        "focus": "Maintaining forward drive during grip fighting",
+        "description": "Partner maintains diamond guard at 40% resistance while you practice the complete strip sequence, focusing specifically on maintaining forward hip pressure throughout. Partner provides feedback when they feel your weight shift backward or your hips lift during the extraction. Track ability to maintain pressure across increasing resistance."
+      },
+      {
+        "phase": "Phase 3: Triangle Defense During Extraction",
+        "focus": "Shoulder positioning and leg defense during the extraction window",
+        "description": "Partner attempts triangle entries specifically during the arm extraction phase at 50-60% speed. Practice the shoulder press defense and recognize the timing window where the triangle threat is highest. Develop the muscle memory for keeping shoulder tight to chest while simultaneously completing the circular extraction."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Stripping",
+        "focus": "Full sequence against increasing resistance with counters",
+        "description": "Execute the complete overhook strip against 50% building to 80% resistance over multiple rounds. Partner uses all available counters: re-sinking overhook, triangle attempts, hip bump sweep threats, and kimura conversions. Practice variant selection based on what the partner gives you."
+      },
+      {
+        "phase": "Phase 5: Positional Sparring",
+        "focus": "Live application with chain continuation",
+        "description": "Start from diamond guard with full resistance. Top player wins by stripping overhook and establishing neutral closed guard posture for five seconds. Bottom player wins by maintaining diamond for 90 seconds, sweeping, or submitting. Track success rate across rounds and identify specific failure points for targeted drilling."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the circular elbow extraction against the diamond guard overhook?",
+        "answer": "The best timing occurs when the guard player transitions between attacks or adjusts their grip depth. During these moments, overhook tension decreases as the guard player redirects energy. You can also create timing by threatening posture recovery with hip drive, which forces the guard player to tighten their pull — the predictable tightening direction provides the axis to circulate against. Attempting the extraction when the overhook is under maximum static tension requires significantly more force and carries higher failure probability."
+      },
+      {
+        "question": "Why does the overhook strip focus on removing the overhook rather than head control first, and when should this order be reversed?",
+        "answer": "The overhook is prioritized because it provides the guard player's direct submission pathways — triangles and omoplatas require arm isolation that the overhook facilitates. Removing head control first leaves the overhook active, which still enables these high-percentage attacks. However, when head control is so dominant that it prevents any postural recovery needed for the circular extraction, the head circle escape must come first. The decision depends on which control is currently more limiting to your movement and postural ability at that specific moment."
+      },
+      {
+        "question": "Your opponent tightens their overhook as you begin the circular extraction — how do you adjust your approach?",
+        "answer": "Increase forward hip drive to create maximum separation between your shoulder and their chest, stretching their arm toward full extension. A tightened overhook becomes mechanically weaker when stretched because the guard player loses the elbow-to-hip anchor that provides their maximum leverage. If hip drive alone is insufficient, switch to the two-on-one wrist peel variant, using both hands on the overhooking arm to generate enough leverage against the deeply locked grip. The tightening is an energy investment by the guard player that creates fatigue over time."
+      },
+      {
+        "question": "What specific shoulder positioning prevents triangle entry during the arm extraction window?",
+        "answer": "Press the shoulder on the extraction side tightly against the opponent's chest, eliminating the gap between your shoulder and their torso that the guard player's leg needs to pass over your arm. Your chin should be tucked and your head positioned low on the opposite side from the extraction. This shoulder-to-chest contact creates a physical barrier that prevents the leg from clearing over your arm. If you feel the leg beginning to rise, increase the shoulder pressure rather than pulling away, as pulling creates more space for the triangle."
+      },
+      {
+        "question": "What grip configuration on the overhooking wrist provides the most effective control for the circular extraction?",
+        "answer": "In gi, grip the sleeve at the wrist seam with four fingers inside the cuff and thumb outside, creating a fixed point that allows precise directional pressure. In no-gi, use a C-grip cupping the wrist with the thumb on the inside and fingers wrapping around the outside of the forearm. The wrist grip must be firm enough to prevent the guard player from re-sinking but not so rigid that it restricts your own rotational motion. The grip serves as a guide rail for the peeling motion rather than a pure pulling anchor."
+      },
+      {
+        "question": "You feel the guard player's hips rising during the stripping sequence — what is happening and what is your immediate response?",
+        "answer": "The guard player is loading a hip bump sweep, which requires hip elevation and forward momentum to reverse you. Immediately abandon the extraction attempt and drive both hands to their hip bones, flattening their hips to the mat with downward pressure. Simultaneously drive your own hips forward and heavy to pin their lower body. Do not resume the overhook strip until their hips are flat, their sweep momentum is killed, and your forward pressure is re-established. The hip bump requires a specific weight shift that you must deny before it develops."
+      },
+      {
+        "question": "After clearing the overhook, the guard player immediately reaches to re-establish the grip — how do you prevent re-sinking?",
+        "answer": "The instant your arm clears, drive your now-free hand across to pin their overhooking arm to the mat or against their own chest. Simultaneously establish your other hand on their hip and straighten your spine to full posture. The pin must happen in the same motion as the clear — any gap allows re-establishment. Once posture is established with both hands controlling their body, the guard player cannot re-sink an overhook without breaking your posture first, which requires effort and creates its own opening for you to begin guard opening sequences."
+      },
+      {
+        "question": "How does the circular extraction direction change based on which arm is overhook-trapped?",
+        "answer": "The circular rotation always moves the trapped elbow outward — away from your centerline and then downward toward the mat. If your right arm is overhook-trapped, the elbow circles to the right and down. If your left arm is trapped, it circles left and down. The direction is dictated by the anatomy of the overhook: the grip wraps over the top of your arm, so the extraction path must go under and out, tracing through the weakest point of the grip structure. The free hand controls the opponent's wrist on the same side, pushing downward to complement the elbow's outward rotation."
+      }
+    ],
+    "safety_considerations": "The overhook strip involves significant loading on both practitioners' shoulders during the extraction phase. The circular rotation applies torque to the overhooking arm's shoulder joint, and explosive stripping motions can cause rotator cuff strain or shoulder impingement in the guard player. Always use progressive controlled force during the extraction rather than sudden jerking. The head circle component also loads the cervical spine when head control is deep — avoid explosive head movements against loaded grips. Communicate with your training partner about grip depth and resistance levels, and release any grip immediately if either practitioner reports pain in the shoulder or neck during drilling."
   },
   "defender": {
     "name": "Overhook Strip from Diamond Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Diamond Guard/Top", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Diamond Guard/Top", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend your diamond guard overhook against stripping attempts in BJJ. Learn recognition cues, active grip retention, and counter-attacks to maintain offensive control.",
+    "overview": "As the bottom player defending against the Overhook Strip from Diamond Guard, your overhook represents the offensive foundation of the diamond position. Losing it reduces your guard from a specialized submission-hunting platform to a standard closed guard with significantly diminished attacking options. Your defensive strategy combines active grip maintenance with opportunistic counter-attacks that punish the top player's stripping attempts. The overhook strip creates specific vulnerability windows — particularly during the circular arm extraction phase — where you can exploit the top player's divided attention with triangle entries, kimura conversions, and sweep attempts. Recognition of the stripping sequence's phases allows you to preemptively tighten controls before the extraction reaches its most dangerous point, and to launch counter-attacks at moments when the top player's base is most compromised by the grip fight.",
+    "key_principles": [
+      "Maintain deep overhook with hand gripping the lat or shoulder blade, actively re-sinking whenever you feel slack developing from the top player's positional adjustments",
+      "Coordinate overhook retention with head control pressure — both grips reinforce each other, and actively pulling the head down increases the overhook's mechanical advantage",
+      "Use submission threats as defensive tools by transitioning toward triangle, omoplata, or kimura entries when you feel the stripping sequence progressing, forcing the top player to defend instead of strip",
+      "Keep guard legs closed with active heel pressure throughout the stripping exchange — opening the guard prematurely removes the structural anchor that prevents distance creation",
+      "Time counter-sweeps to coincide with the top player's weight shifts during the extraction when their forward pressure is momentarily reduced and base is compromised",
+      "Control the top player's free hand with your opposite-side grip to deny them the wrist control that initiates every stripping variant"
+    ],
+    "recognition_cues": [
+      "Top player's free hand reaches across to grip your overhooking wrist or forearm, establishing the control point needed to initiate the circular extraction",
+      "Top player begins driving hips forward with exaggerated extension while straightening spine, indicating a posture-first stripping approach designed to stretch the overhook",
+      "Top player's trapped elbow begins rotating outward in a circular motion rather than pulling straight backward, signaling the standard circular extraction technique",
+      "Top player circles their head toward the side opposite your overhook, indicating they are addressing head control as a preliminary step before attacking the overhook directly"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen overhook and increase head control pull simultaneously to re-break posture and deny extraction leverage",
+        "when_to_use": "Early in the stripping sequence when you feel the top player's free hand reaching for your wrist or their hips beginning to drive forward, before they have established firm wrist control",
+        "targets_outcome": "Diamond Guard/Top",
+        "if_successful": "The stripping attempt is neutralized and the top player returns to fully broken posture inside diamond guard, resetting their escape progress to zero",
+        "risk": "If the re-sinking comes too late and the top player already has wrist control and partial posture, the tightening effort may be insufficient to prevent the extraction"
+      },
+      {
+        "action": "Shoot overhook-side leg over the clearing arm to enter triangle as the elbow begins circulating free during the extraction window",
+        "when_to_use": "When the top player's elbow begins clearing the overhook and creates space between their arm and torso, opening the gap needed for your leg to pass over their shoulder",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "You transition from diamond guard into triangle control, maintaining offensive initiative and threatening an immediate submission that the top player must address",
+        "risk": "Opening your guard for the triangle removes the closed guard anchor, and if the triangle attempt fails, the top player is free to pass against an open guard without overhook restriction"
+      },
+      {
+        "action": "Convert overhook to kimura grip by catching the top player's wrist as their elbow rotates during the circular extraction",
+        "when_to_use": "When the top player extends their arm during the circular extraction and their wrist becomes momentarily accessible as it traces through the gap",
+        "targets_outcome": "Diamond Guard/Top",
+        "if_successful": "The kimura grip establishes stronger control than the original overhook, creating immediate submission threat and additional sweep opportunities from the figure-four configuration",
+        "risk": "If the kimura grip is not secured cleanly, the top player may complete the extraction during the grip transition, losing both the overhook and the kimura attempt"
+      },
+      {
+        "action": "Execute hip bump sweep when the top player's weight shifts backward during the postural adjustment phase of the stripping sequence",
+        "when_to_use": "When you feel the top player's hip pressure lighten as they shift weight to generate postural leverage for the extraction, creating the elevated hip and compromised base needed for the sweep",
+        "targets_outcome": "Diamond Guard/Top",
+        "if_successful": "The sweep threat forces the top player to abandon the stripping sequence and re-establish forward pressure, resetting their progress and depleting their energy",
+        "risk": "If the sweep fails and you release head control for the sit-up motion, the diamond frame degrades to an overhook-only configuration with less offensive potential"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Diamond Guard/Top",
+        "how": "Maintain constant diamond frame pressure by actively monitoring and re-sinking overhook depth whenever slack develops, coordinating with head control to keep the top player's posture broken. Use submission threats to interrupt stripping sequences before they progress to the extraction phase. Control the top player's free hand with your opposite-side grip to deny the wrist control that enables every stripping variant."
+      },
+      {
+        "outcome": "Triangle Control/Top",
+        "how": "Recognize the extraction window when the top player's elbow begins clearing the overhook and immediately shoot your overhook-side leg over their clearing arm while angling your hips toward the overhook side. The space created by the elbow's circular motion is exactly the gap your leg needs to pass over their shoulder. Time the leg entry to coincide with the moment of maximum arm separation for highest success probability."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the overhook to become shallow with hand sliding from the lat to the tricep without actively re-sinking the grip",
+        "consequence": "A shallow overhook around the tricep is trivially stripped with a basic circular extraction, eliminating the diamond guard's primary advantage without requiring the top player to invest significant effort or compromise their base",
+        "correction": "Continuously monitor where your overhooking hand grips and actively work it back toward the lat or shoulder blade whenever you feel it sliding. Pull your elbow tight to your hip to maximize depth and mechanical advantage."
+      },
+      {
+        "error": "Defending the strip passively by relying only on grip strength without threatening counter-attacks during the stripping sequence",
+        "consequence": "The top player can methodically work through their extraction mechanics without pressure, eventually finding the timing and angle to complete the strip since they face no consequences for attempting it",
+        "correction": "Every stripping attempt should trigger an immediate offensive response: triangle threat, kimura conversion, hip bump sweep, or omoplata entry. Make the top player pay a price for attacking the overhook."
+      },
+      {
+        "error": "Opening guard legs prematurely to attempt a triangle or omoplata before the top player has committed to the extraction and created the necessary space",
+        "consequence": "Opening the guard removes the lower body anchor that prevents distance creation and reinforces the diamond frame, giving the top player immediate access to standing guard breaks and passing angles",
+        "correction": "Keep guard closed until the extraction phase creates genuine space for your leg to pass over the arm. Only open when you have a committed triangle or omoplata entry that the extraction window specifically enables."
+      },
+      {
+        "error": "Neglecting head control while focusing entirely on defending the overhook when the top player initiates the strip",
+        "consequence": "If you focus solely on maintaining the overhook while the top player's head circles free, you lose one pillar of the diamond frame and the overhook becomes significantly easier to strip without the posture-breaking support",
+        "correction": "Maintain both control points simultaneously as an integrated system. When you feel the overhook being attacked, increase head control pressure rather than relaxing it, as the combined pull makes the overhook harder to extract."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is initiating an overhook strip from diamond guard?",
+        "answer": "The earliest cue is the top player's free hand reaching across to grip your overhooking wrist or forearm. This establishes the control point needed for every stripping variant — without wrist control, circular extraction and two-on-one peels cannot be executed effectively. When you detect this reaching motion, immediately control their free hand with your opposite grip to deny the wrist control, or deepen your overhook and increase head control to re-break posture before they can establish the mechanical foundation for the strip."
+      },
+      {
+        "question": "Why is maintaining both diamond controls simultaneously more effective than reinforcing either one alone when defending the strip?",
+        "answer": "The diamond frame's defensive strength comes from mutual reinforcement between the overhook and head control. Head control maintains broken posture, which keeps the overhook deep because the top player cannot generate the postural separation needed for extraction. The overhook prevents arm posting, which makes the head control pull more effective because the top player has fewer structures to resist with. Reinforcing one while neglecting the other reduces the protected grip's effectiveness by roughly half, making it vulnerable to systematic stripping that would fail against the complete frame."
+      },
+      {
+        "question": "Your overhook is being stripped and you feel the top player's elbow beginning to clear — when exactly should you attempt the triangle entry?",
+        "answer": "The optimal triangle timing is when the elbow has cleared past the midpoint of the circular extraction but before the arm is fully free. At this moment, maximum space exists between the top player's arm and their torso for your leg to pass over. Attempting too early — before sufficient space exists — results in your leg being blocked. Attempting too late — after the arm is fully cleared and repositioned — means the gap has closed and the top player's shoulder is already pressing against your chest. The window lasts approximately two seconds, requiring pre-positioned hips angled toward the overhook side."
+      },
+      {
+        "question": "How should you adjust your defensive response when the top player uses a posture-first extension approach rather than a direct grip strip?",
+        "answer": "Against the posture-first approach, increase heel pressure into the top player's lower back and squeeze your knees together on their ribs to resist the postural extension with your entire lower body. Simultaneously deepen the overhook by pulling your elbow tighter to your hip. If their hip drive is strong enough to create significant separation, transition immediately to a hip bump sweep by releasing head control and sitting up into their elevated posture. The posture-first approach requires them to shift weight backward to extend, which creates the exact weight distribution vulnerability that hip bump sweeps exploit."
+      },
+      {
+        "question": "The top player has stripped your overhook despite your defenses — what is your immediate priority?",
+        "answer": "Your immediate priority is re-establishing offensive potential rather than attempting to re-sink the overhook against a postured top player. If they have not yet fully established posture, immediately attempt to re-break with collar or head grips and re-sink the overhook before posture solidifies. If they have already established posture with hands on your hips, transition your focus to standard closed guard offense: collar grips for posture breaking, hip movement for angle creation, and threats from your full closed guard attack repertoire. Fighting for a re-establishment against solid posture wastes energy and time better spent on alternative attacks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Active Grip Retention",
+        "focus": "Maintaining overhook depth under systematic stripping pressure",
+        "description": "Partner attempts to strip your overhook using all three variants — circular extraction, posture-first extension, and two-on-one peel — while you focus exclusively on maintaining grip depth and re-sinking whenever slack develops. No counter-attacks in this phase, pure retention mechanics. Track time maintained across progressive resistance rounds."
+      },
+      {
+        "phase": "Phase 2: Counter-Attack Timing",
+        "focus": "Recognizing extraction windows and launching submissions and sweeps",
+        "description": "Partner initiates stripping sequences at 50% speed while you practice identifying the optimal moments for triangle entries, kimura conversions, and hip bump sweeps. Focus on reading the extraction phase and timing the counter to the window of maximum top player vulnerability. Chain between triangle, kimura, and sweep responses."
+      },
+      {
+        "phase": "Phase 3: Integrated Diamond Defense",
+        "focus": "Combining retention, counter-attack, and dual control maintenance",
+        "description": "Full diamond guard defense at progressive resistance from 60% to 90%. Partner uses the complete stripping methodology including head circle, posture recovery, and overhook extraction while you maintain both diamond controls and launch counter-attacks. Emphasis on maintaining the integrated frame rather than defending each control point independently."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance diamond guard retention and counter-offense",
+        "description": "Positional sparring starting in diamond guard with full resistance. Bottom player wins by maintaining diamond for 90 seconds, sweeping, or submitting. Top player wins by stripping the overhook and establishing neutral posture. Track outcomes across multiple rounds and identify the most common failure points for targeted drilling."
+      }
+    ]
   }
 }

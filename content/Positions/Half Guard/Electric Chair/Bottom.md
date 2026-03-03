@@ -21,26 +21,32 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 73% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 74% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Escape from Electric Chair",
-      "text": "From this position, attempt Hip Rotation Escape from Electric Chair. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Rotation Escape from Electric Chair. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straighten Leg Defense from Electric Chair",
-      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sweep from Electric Chair",
+      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -199,13 +205,15 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Available Escapes
 
-### [[Old School Sweep]] (73% of attempts)
+### [[Old School Sweep]] (74% of attempts)
 
-### [[Deep Half Entry]] (15% of attempts)
+### [[Deep Half Entry]] (14% of attempts)
 
-### [[Hip Rotation Escape from Electric Chair]] (8% of attempts)
+### [[Hip Rotation Escape from Electric Chair]] (7% of attempts)
 
-### [[Straighten Leg Defense from Electric Chair]] (4% of attempts)
+### [[Straighten Leg Defense from Electric Chair]] (3% of attempts)
+
+### [[Sweep from Electric Chair]] (2% of attempts)
 
 
 

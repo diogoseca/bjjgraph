@@ -223,31 +223,35 @@
     "transitions": [
       {
         "transition": "Overhook Escape",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Posture Recovery",
         "attempt_probability": 15
       },
       {
-        "transition": "Crossface to Combat Base",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Stack Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Leg Extraction",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Standing Escape",
+        "transition": "Posture Recovery",
         "attempt_probability": 14
       },
       {
+        "transition": "Crossface to Combat Base",
+        "attempt_probability": 24
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Leg Extraction",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Standing Escape",
+        "attempt_probability": 13
+      },
+      {
         "transition": "New York Control Escape",
-        "attempt_probability": 6
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Guard Pass from New York Control",
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

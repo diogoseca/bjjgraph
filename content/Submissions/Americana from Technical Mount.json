@@ -1,150 +1,485 @@
 {
   "name": "Americana from Technical Mount",
-  "description": "TODO: Write 150-160 character SEO description for Americana from Technical Mount.",
+  "description": "Master the Americana shoulder lock from Technical Mount in BJJ. Complete guide with grip mechanics, finishing sequences, defensive counters, and training progressions.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "americana",
+    "shoulder-lock",
+    "technical-mount",
+    "joint-lock",
+    "keylock",
+    "mount-submission"
   ],
   "submission_category": "Joint Lock",
-  "submission_type": "Arm Lock",
-  "target_area": "Shoulder and elbow joint",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff and glenohumeral complex)",
   "starting_position": "Technical Mount",
   "from_position": "Technical Mount/Top",
-  "from_positions": ["Technical Mount", "Mount", "3-4 Mount"],
+  "from_positions": [
+    "Technical Mount",
+    "Mount",
+    "3-4 Mount",
+    "S Mount",
+    "High Mount"
+  ],
+  "success_rate": 45,
+  "overview": "The Americana from Technical Mount exploits the asymmetric leg positioning and superior arm isolation of technical mount to attack the shoulder joint through forced external rotation using a figure-four grip. The stepped leg pins the opponent's shoulder line and restricts their ability to rotate or bridge away from the lock, while the attacker's hip weight naturally assists in driving the wrist to the mat. This combination makes the technical mount Americana significantly harder to defend than the same submission from standard mount, where the symmetrical base gives the defender more rotational freedom and bridging options.\n\nThis submission is most commonly available when the opponent bends their near arm defensively to protect against armbar attempts from technical mount. The posture of tucking the elbow creates the ideal Americana starting configuration: a bent arm with the wrist accessible near the mat. This relationship makes the Americana the natural counterpart to the armbar in the technical mount submission chain. When the opponent extends their arm, the armbar is available. When they bend it to defend, the Americana opens. Understanding this binary threat is essential for maximizing finishing efficiency from technical mount.\n\nThe finishing mechanics require a slow, paint-brush rotation of the opponent's elbow toward their head while the wrist remains anchored to the mat. The torque attacks the glenohumeral joint through combined external rotation and abduction, creating progressive pressure that forces the tap. Speed control is critical due to the shoulder joint's vulnerability to sudden rotational force. The posted leg provides base stability throughout the finishing sequence, allowing the attacker to commit fully to the rotational pressure without risking position loss.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits",
+        "severity": "High",
+        "recovery_time": "3-6 months, potential surgical intervention required"
+      },
+      {
+        "injury": "Glenohumeral joint capsule sprain or anterior dislocation from excessive rotational force",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 weeks for sprain, 4-6 months for dislocation"
+      },
+      {
+        "injury": "Medial collateral ligament strain of the elbow from secondary torque during rotation",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks"
+      },
+      {
+        "injury": "Deltoid or pectoral muscle strain from resisting the lock under load",
+        "severity": "Low",
+        "recovery_time": "1-3 weeks"
+      }
+    ],
+    "application_speed": "SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress vocalization)",
+      "Physical hand tap on partner or mat (minimum 2 taps)",
+      "Physical foot tap on mat with free leg",
+      "Any unusual screaming, crying out, or distress vocalization",
+      "Head shake or nodding if hands are trapped and verbal tap is unclear"
+    ],
+    "release_protocol": [
+      "Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure",
+      "Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally",
+      "Do not force the arm back to starting position—let opponent move it themselves to assess range of motion",
+      "Maintain technical mount position control during release to prevent further positional conflict",
+      "Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range",
+      "Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established",
+      "Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed",
+      "Ensure training partner has at least one hand free to tap at all times during drilling and sparring",
+      "Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery"
+    ]
+  },
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 45,
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 45,
+      "probability": 30,
       "result": "failure"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Americana from Technical Mount.",
-  "safety_considerations": {
-    "injury_risks": [
-      {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
-      }
-    ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
-    "tap_signals": [
-      "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
-    ],
-    "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
-    ],
-    "training_restrictions": [
-      "TODO"
-    ]
-  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Wrist-Pin Entry",
+      "description": "Direct wrist pin and figure-four from established technical mount when the opponent keeps their near arm bent defensively. The attacker uses chest pressure to crowd the elbow toward the mat, then pins the wrist beside the head before threading the figure-four grip.",
+      "when_to_use": "When the opponent keeps their near arm bent against the body defending the armbar and the wrist is accessible near the mat"
+    },
+    {
+      "variation_name": "Post-Armbar Defense Switch",
+      "description": "Transition to Americana when the opponent successfully bends their arm to defend an armbar attempt from technical mount. As they retract the elbow, the attacker redirects from the armbar setup to immediately pin the now-bent wrist to the mat and establish the figure-four.",
+      "when_to_use": "When the armbar attempt fails because the opponent bends the arm before you can extend it—flow directly into the Americana rather than forcing the armbar"
+    },
+    {
+      "variation_name": "High-Elbow Paint-Brush Finish",
+      "description": "Modified finish where the attacker drives the opponent's elbow higher toward the crown of their head before initiating the rotational arc, increasing the shoulder rotation angle and reducing the space available for defensive grip anchoring. Particularly effective against flexible opponents.",
+      "when_to_use": "When the standard paint-brush angle generates insufficient tap pressure due to opponent's shoulder flexibility or when they partially defend by walking their wrist away from the mat"
+    }
+  ],
+  "related_submissions": [
+    "Americana from Mount",
+    "Americana from 3-4 Mount",
+    "Americana from Side Control",
+    "Americana from Kesa Gatame",
+    "Americana from Reverse Kesa",
+    "Armbar from Technical Mount",
+    "Armbar from Mount",
+    "Armbar from High Mount",
+    "Armbar from S Mount"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Technical Mount",
+      "relationship": "Primary starting position providing asymmetric mount base for this shoulder lock"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position from which technical mount is entered before Americana setup"
+    },
+    {
+      "name": "Armbar from Technical Mount",
+      "relationship": "Primary alternative submission creating binary threat with Americana from same position"
+    },
+    {
+      "name": "Americana from Mount",
+      "relationship": "Same submission applied from parent mount position with different weight distribution"
+    },
+    {
+      "name": "3-4 Mount",
+      "relationship": "Related mount variation sharing asymmetric base properties for Americana attacks"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common transition target when opponent turns away to defend the Americana"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Related mount variation accessible from technical mount for alternative submission angles"
     }
   ],
   "attacker": {
     "name": "Americana from Technical Mount Attacker",
-    "description": "TODO: Write attacker description for Americana from Technical Mount.",
-    "overview": "TODO: Write attacker overview for Americana from Technical Mount.",
+    "description": "Execute the Americana shoulder lock from Technical Mount. Step-by-step guide covering wrist control, figure-four mechanics, finishing details, and responses to common defensive counters.",
+    "overview": "The Americana from Technical Mount leverages the asymmetric leg positioning to create superior arm isolation and wrist pinning compared to standard mount attacks. The stepped leg pins the opponent's shoulder line while the attacker's weight naturally drives into the trapped arm side, making it significantly easier to establish and maintain the wrist-to-mat connection required for the figure-four grip. The posted leg provides base stability throughout the finishing sequence, allowing full commitment to the submission without risking position loss. This variation is most commonly available when the opponent bends their near arm defensively against armbar threats, making it the natural counterpart in the technical mount submission chain where extending the arm invites the armbar and bending it opens the Americana.",
     "key_principles": [
-      "TODO"
+      "Pin wrist to the mat before establishing the figure-four grip—premature grip threading allows arm retraction and wastes the setup",
+      "Use hip pressure and chest weight to assist the wrist pin rather than relying on hand strength alone against a resisting arm",
+      "Keep both elbows tight to your centerline throughout the lock—wide elbows leak rotational pressure and reduce finishing torque",
+      "Maintain technical mount base with posted leg throughout the finish—never sacrifice position for the submission",
+      "Apply the paint-brush rotation slowly and progressively—the shoulder joint is vulnerable to sudden rotational injury",
+      "Drive the opponent's elbow toward their ear while keeping the wrist firmly anchored to create maximum glenohumeral torque"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established technical mount with posted leg providing stable base and stepped leg controlling opponent's shoulder line",
+      "Near-side arm isolated with wrist accessible for pinning—opponent's arm bent at approximately 90 degrees near the mat",
+      "Chest-to-chest pressure maintained to prevent opponent from generating bridging power or creating rotational space",
+      "Opponent's far arm neutralized or unable to interfere with the figure-four grip—either pinned, controlled, or positioned away from the attack side",
+      "Hip weight loaded toward the trapped arm side to assist wrist pinning and provide gravitational advantage during the finish"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Isolate the near arm",
+        "description": "From established technical mount, identify the near arm closest to your stepped leg. The opponent typically bends this arm defensively against armbar threats, positioning the wrist near the mat. Use your chest weight to crowd their elbow downward, preventing retraction while creating access to the wrist.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Pin the wrist to the mat",
+        "description": "Using your same-side hand (closest to the target arm), grab the opponent's wrist and drive it firmly to the mat beside their head. Augment hand strength with chest pressure and hip weight—sink your hips toward their shoulder to load gravitational force onto the pin. The wrist must be flat on the mat before proceeding.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread the figure-four grip",
+        "description": "Slide your free hand under the opponent's tricep from the outside, threading between their elbow and the mat, then grip your own wrist to form the figure-four lock. Maintain constant wrist-to-mat pressure throughout the threading motion—any loosening allows the opponent to retract the arm or begin grip fighting.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Tighten the elbow connection",
+        "description": "Squeeze both elbows toward your centerline, eliminating all slack in the figure-four configuration. Your forearms should form a tight rectangular frame around the opponent's bent arm with no gaps. The tighter the elbow connection, the more efficiently rotational force transfers to the shoulder joint during the finish.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust hip position for leverage",
+        "description": "Shift your hips slightly toward the trapped arm side, loading your weight onto the opponent's shoulder girdle. This hip adjustment serves dual purposes: it prevents bridging escapes by weighting the near shoulder and adds gravitational force to the rotational pressure. Keep the posted leg base active throughout the adjustment.",
+        "timing": "1 second"
+      },
+      {
+        "step_number": 6,
+        "action": "Execute the paint-brush rotation",
+        "description": "Drive the opponent's elbow along the mat toward their ear using a slow, controlled sweeping motion while keeping the wrist firmly anchored. The rotation occurs at the glenohumeral joint through combined external rotation and abduction. The elbow traces an arc while the wrist remains the fixed pivot point on the mat surface.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply progressive finishing pressure",
+        "description": "Continue the rotational arc steadily, monitoring the opponent's shoulder tension and body language for tap signals. Maintain the figure-four grip tight and control the application speed deliberately, allowing the opponent adequate time to recognize the submission and tap safely before the joint reaches its structural limit.",
+        "timing": "2-3 seconds to tap"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent straightens arm to prevent figure-four establishment by extending the elbow",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Immediately transition to armbar—the straightened arm is the exact configuration needed for the armbar from technical mount. Flow directly into the armbar setup without releasing wrist control.",
         "targets_outcome": "Technical Mount/Top"
+      },
+      {
+        "counter": "Opponent grabs own belt, pants, or gi lapel to anchor the wrist and prevent rotation",
+        "effectiveness": "High",
+        "your_response": "Use your knee or shin to wedge between their gripping hand and the anchor point, breaking the defensive grip. Alternatively, switch to a high-elbow variation by driving their elbow higher before rotating to change the angle of attack.",
+        "targets_outcome": "Technical Mount/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively toward the posted leg side to disrupt base and create space",
+        "effectiveness": "Medium",
+        "your_response": "Ride the bridge by staying heavy on your inside leg and maintaining wrist control. If the bridge is powerful enough to compromise your base, transition to standard mount while retaining the figure-four grip and continue the Americana from mount.",
+        "targets_outcome": "Mount/Top"
+      },
+      {
+        "counter": "Opponent turns to knees and attempts to scramble out during the grip transition",
+        "effectiveness": "Medium",
+        "your_response": "Follow the turn and immediately transition to back control, releasing the Americana grip in favor of establishing seat belt control and hooks. The opponent turning away from technical mount creates one of the highest percentage back take opportunities.",
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting hips off the opponent to generate rotational force rather than keeping them heavy on the shoulder",
+        "consequence": "Creates space for the opponent to bridge, rotate, or hip escape. The loss of hip pressure removes the gravitational assist that makes the wrist pin and rotation effective from technical mount.",
+        "correction": "Keep hips heavy and close to the opponent's shoulder throughout the entire submission. Generate rotational force through elbow mechanics and forearm leverage, not by raising your body weight off the opponent."
+      },
+      {
+        "error": "Attempting to establish the figure-four grip before the wrist is fully pinned to the mat",
+        "consequence": "Opponent retracts their arm during the threading motion, escaping the submission setup entirely and forcing a reset. Energy is wasted and the opponent is now alert to the Americana threat.",
+        "correction": "Ensure the wrist is firmly planted on the mat with full chest weight assistance before threading the underhook. The wrist pin is the foundation—everything fails without it."
+      },
+      {
+        "error": "Rotating the opponent's arm outward (away from the body) instead of driving the elbow toward the head",
+        "consequence": "Force is directed into the elbow joint rather than the shoulder, reducing submission effectiveness and potentially allowing the opponent to straighten the arm and escape the figure-four configuration.",
+        "correction": "Drive the elbow in an arc toward the opponent's ear while keeping the wrist anchored. The paint-brush motion follows the mat surface in a sweeping arc, not a lateral push away from the body."
+      },
+      {
+        "error": "Losing the posted leg base by shifting too much weight toward the submission side",
+        "consequence": "Technical mount structure collapses, making the attacker vulnerable to bridge and roll escapes. Without the posted leg, the asymmetric base advantage that makes this variation effective is eliminated.",
+        "correction": "Maintain active contact with the posted leg throughout the submission. The posted foot stays firmly on the mat, bearing enough weight to counter any bridging attempt while allowing the hips to load toward the attacked shoulder."
+      },
+      {
+        "error": "Applying the submission with jerking or spiking force rather than slow, progressive pressure",
+        "consequence": "Risk of serious shoulder injury including rotator cuff tears and glenohumeral dislocation. Additionally, sudden force often causes defensive panic responses that can disrupt the position.",
+        "correction": "Apply the rotation slowly and steadily over 3-5 seconds. Monitor the opponent's body tension and verbal cues throughout. The shoulder joint has limited tolerance for sudden rotational force—controlled application is both safer and more effective."
+      },
+      {
+        "error": "Allowing wide elbows during the figure-four grip, creating slack in the lock configuration",
+        "consequence": "Rotational force leaks through the loose grip structure instead of transferring efficiently to the shoulder. The opponent can exploit the slack to wiggle the wrist free or create enough space to begin grip fighting.",
+        "correction": "Squeeze elbows tight to your centerline throughout the entire submission. The figure-four should form a compact rectangle with no gaps between your forearms and the opponent's arm."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four grip establishment and wrist pinning technique",
+        "description": "Drill the wrist-pin-to-figure-four sequence from technical mount against a compliant partner. Focus on chest weight assisting the wrist pin, smooth threading of the underhook, and tight elbow connection. Repeat 20 times per side without applying finishing pressure."
+      },
+      {
+        "phase": "Phase 2: Finishing Mechanics",
+        "focus": "Paint-brush rotation and progressive pressure application",
+        "description": "With the figure-four established, practice the rotational finishing arc at slow speed. Partner provides verbal feedback on pressure distribution. Emphasize keeping wrist anchored while driving elbow toward the ear. Drill the slow application speed required for safe training."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Americana-armbar binary chain from technical mount",
+        "description": "Partner alternates between bending the arm (Americana available) and straightening the arm (armbar available). Practice reading the defensive reaction and flowing to the correct submission without hesitation. Build the automatic recognition that makes the chain effective in live rolling."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Applying against increasingly resistant opponents",
+        "description": "Drill the complete sequence against 50%, then 75%, then full resistance. Partner uses all available defenses: grip anchoring, bridging, straightening the arm, turning away. Practice maintaining position and adapting the submission to each defensive response."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Integrating into live rolling from technical mount entries",
+        "description": "Positional sparring starting from technical mount. Top player works the Americana-armbar chain while bottom player defends freely. Focus on recognizing the Americana opening during live exchanges and committing to the finish with proper mechanics under realistic resistance."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structure does the Americana from Technical Mount primarily attack, and what type of force creates the tap?",
+        "answer": "The Americana primarily attacks the glenohumeral (shoulder) joint by forcing external rotation and abduction beyond the joint's natural range of motion. The figure-four grip creates a lever system that torques the rotator cuff complex—specifically the supraspinatus, infraspinatus, and teres minor—while the pinned wrist serves as the fixed fulcrum. Secondary stress affects the shoulder capsule and AC joint. The tap results from progressive rotational pressure on these structures, not compression or choking force.",
+        "safety_critical": true
+      },
+      {
+        "question": "What physical indicators tell you the shoulder joint is approaching its breaking point during the Americana application?",
+        "answer": "The opponent's body stiffens noticeably as the rotation approaches end range. Their far shoulder lifts off the mat as the body attempts to follow the rotation to reduce stress. You feel increasing resistance in the figure-four as the joint reaches its structural limit. The opponent may vocalize distress, grimace, or their breathing becomes rapid and shallow. Any of these signals indicate you are near the breaking point and must control speed carefully, allowing ample time for the tap before injury occurs.",
+        "safety_critical": true
+      },
+      {
+        "question": "What control must be established before attempting the figure-four grip from Technical Mount?",
+        "answer": "The wrist must be firmly pinned to the mat with the arm bent at approximately 90 degrees. Chest weight and hip pressure must assist the wrist pin—hand strength alone is insufficient against a resisting opponent. The technical mount base must be stable with the posted leg actively providing balance. The opponent's far arm should be neutralized or unable to interfere. Attempting the figure-four before all these conditions are met results in failed grip attempts and wasted energy that alerts the opponent to the threat.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the Americana from Technical Mount does the submission become effectively inescapable for the defender?",
+        "answer": "Once the figure-four is fully tightened with elbows squeezed to centerline and the paint-brush rotation has moved the elbow past approximately 45 degrees toward the head, the mechanical advantage overwhelms most defensive strength. The combination of pinned wrist, locked figure-four, and hip weight creates a lever system that the defender cannot overcome with muscular effort. Before this point, the defender can potentially break the wrist pin, fight the grip, or bridge to create space. After it, the only option is to tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error that allows opponents to escape the Americana from Technical Mount?",
+        "answer": "Lifting the hips off the opponent's shoulder to generate rotational force. When the attacker raises their body, they remove the gravitational pressure that keeps the wrist pinned to the mat and the shoulder immobilized. This creates immediate space for the opponent to bridge, rotate their shoulder off the mat, or retract the arm. The correction is to keep hips heavy on the opponent's shoulder throughout and generate all rotational force through forearm leverage and elbow mechanics within the figure-four structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grip if the opponent begins rotating their wrist during the Americana application to create slack?",
+        "answer": "Follow the wrist rotation with your gripping hand, maintaining thumb positioning around the wrist bone. Do not fight the rotation directly—instead, tighten the figure-four by squeezing elbows inward to eliminate the slack their rotation creates. If they supinate the hand (palm up), adjust your wrist grip to maintain control of the forearm rotation. Simultaneously increase hip pressure on their shoulder to reduce the space available for wrist manipulation. A tighter figure-four compensates for minor wrist adjustments.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins straightening their arm to prevent the Americana figure-four from Technical Mount—how do you respond?",
+        "answer": "Immediately transition to the armbar. The straightened arm is exactly the configuration needed for the armbar from technical mount. Maintain wrist control as you begin the armbar swing-over, using the posted leg to initiate the transition. This is the core binary dilemma of technical mount offense: bending the arm invites the Americana, extending it invites the armbar. The ability to flow seamlessly between these two submissions based on the opponent's defensive reaction is what makes technical mount a high-percentage finishing position.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you modify the Americana finish when the opponent defends by grabbing their own belt, pants, or gi lapel to anchor the wrist?",
+        "answer": "Use your knee or shin to wedge between their gripping hand and the anchor point, applying pressure to break the defensive grip. If the grip is too strong to break mechanically, switch to the high-elbow variation by repositioning their elbow higher toward the crown of their head before rotating—this changes the angle of attack and often bypasses the defensive anchor. Alternatively, threaten the armbar by beginning to extend their arm, which forces them to release the anchor grip to defend the new threat.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct application speed for the Americana from Technical Mount and why is speed control critical for safety?",
+        "answer": "The Americana should be applied over a minimum of 3-5 seconds from figure-four establishment to finish, using slow and steady rotational pressure. Speed control is critical because the shoulder joint has very limited tolerance for sudden rotational force—the rotator cuff tendons and glenohumeral capsule can tear before the opponent has time to recognize the submission and tap. Jerking or spiking the Americana can cause catastrophic shoulder injury requiring surgical repair and months of recovery. Controlled application is both the safest and most technically effective approach.",
+        "safety_critical": true
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Americana from Technical Mount."
+    ]
   },
   "defender": {
     "name": "Americana from Technical Mount Defender",
-    "description": "TODO: Write defender description for Americana from Technical Mount.",
-    "overview": "TODO: Write defender overview for Americana from Technical Mount.",
+    "description": "Defend against the Americana from Technical Mount in BJJ. Recognition cues, early prevention, escape techniques, and guard recovery strategies for surviving this shoulder lock.",
+    "overview": "Defending the Americana from Technical Mount requires immediate recognition of the shoulder lock threat and decisive early action before the figure-four grip is established. The technical mount configuration makes this Americana particularly dangerous because the stepped leg restricts the defender's shoulder movement and the attacker's weight distribution naturally assists the wrist pin. Once the figure-four is locked and tightened, escape becomes extremely difficult—the defender's primary goal is preventing the wrist from being pinned to the mat, as the submission difficulty increases exponentially once both grips connect. Early defense focuses on keeping the elbow tight and the arm retracted against the body, while late-stage defense requires bridging, grip fighting, and exploiting the attacker's positional commitment to create escape windows toward guard recovery.",
     "key_principles": [
-      "TODO"
+      "Keep elbows glued to ribs at all times—any arm extension invites the wrist pin that enables the Americana setup",
+      "Recognize the threat immediately—the moment the attacker grabs your wrist, defensive action must begin without delay",
+      "Fight the wrist pin before the figure-four—once both grips connect, escape difficulty increases dramatically and requires exponentially more energy",
+      "Bridge toward the attacker's posted leg side to disrupt their asymmetric base and create space for arm recovery or positional escape",
+      "Use the free arm to frame against the attacker's hip or chest to create distance rather than reaching for the trapped arm",
+      "Never panic-extend the arm to push the attacker away—straightened arms invite the armbar, which is even more dangerous from technical mount"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker shifts weight toward your near arm side and begins crowding your elbow with chest pressure, indicating wrist isolation intent",
+      "Attacker's hand grabs your wrist and begins driving it toward the mat beside your head with increasing downward pressure",
+      "Attacker threads their free arm under your tricep or elbow crease from the outside, indicating figure-four grip establishment",
+      "You feel your near-side shoulder being pinned increasingly flat to the mat as the attacker loads hip weight onto your shoulder girdle",
+      "Attacker's elbows squeeze inward after establishing wrist control, indicating the figure-four is being tightened for the finishing rotation"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Straighten the threatened arm and retract elbow tight to the body before the figure-four locks",
+        "when_to_use": "Early stage—when the attacker first grabs your wrist but has not yet threaded the underhook for the figure-four",
         "targets_outcome": "Technical Mount/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Denies the figure-four grip entirely, forcing the attacker to restart the Americana setup or switch to a different attack",
+        "risk": "Straightening the arm momentarily creates armbar vulnerability—retract immediately after breaking the wrist pin"
+      },
+      {
+        "action": "Bridge explosively toward the posted leg side to collapse the technical mount base and create escape space",
+        "when_to_use": "When the attacker commits weight forward during the figure-four threading phase, reducing their base stability on the posted leg side",
+        "targets_outcome": "Mount/Top",
+        "if_successful": "Disrupts the technical mount structure, potentially forcing the attacker to abandon the Americana and return to standard mount",
+        "risk": "Requires significant explosive energy and may expose back if the bridge fails to displace the attacker's weight"
+      },
+      {
+        "action": "Grip fight the figure-four by inserting free hand between the attacker's wrist grip and pulling the connected grip apart",
+        "when_to_use": "When the figure-four is partially established but not fully tightened—the grip connection has gaps that can be exploited",
+        "targets_outcome": "Technical Mount/Top",
+        "if_successful": "Breaks the attacker's grip configuration, forcing them to restart the entire submission sequence",
+        "risk": "Energy-intensive hand fighting that may fatigue the free arm and leave it exposed to secondary attacks"
+      },
+      {
+        "action": "Hip escape toward the posted leg side during the attacker's rotational pressure phase to recover guard",
+        "when_to_use": "When the attacker lifts their hips slightly to apply finishing pressure, creating a momentary gap between their weight and your body",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Complete escape with guard recovery, removing the immediate submission threat entirely",
+        "risk": "Requires precise timing and the attacker may follow the hip escape to maintain position"
       }
+    ],
+    "escape_paths": [
+      "Straighten the trapped arm before the figure-four locks to deny the grip, then immediately retract the elbow tight to the body and use the free arm to frame against the attacker's hip to prevent re-isolation",
+      "Bridge explosively toward the posted leg side during the attacker's weight shift for the finish, creating space to turn to the side and insert a knee shield for half guard recovery",
+      "Grip fight the figure-four by inserting the free hand between the attacker's wrist connection and peeling it apart before the lock tightens, then immediately protect the arm against the body"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Technical Mount/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time a bridge during the attacker's grip adjustment or finishing weight shift to create space, then hip escape and insert legs to recover half guard before they can re-establish technical mount"
+      },
+      {
+        "outcome": "Mount/Top",
+        "how": "Bridge toward the posted leg to collapse the technical mount structure, forcing the attacker to abandon the Americana and return to standard mount where escape options and base stability improve for both players"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extending the arm to push the attacker away when feeling the wrist pin pressure",
+        "consequence": "Straightened arm creates an immediate armbar opportunity from technical mount, which is a higher-percentage submission than the Americana. The defender trades one submission threat for a more dangerous one.",
+        "correction": "Keep the arm bent and retract the elbow tight to the ribs. Use the free arm for framing against the attacker's hip rather than pushing with the trapped arm."
+      },
+      {
+        "error": "Waiting until the figure-four is fully locked before beginning defensive action",
+        "consequence": "Once the figure-four is tightened with elbows squeezed, the mechanical advantage overwhelms defensive strength and escape becomes nearly impossible without positional movement.",
+        "correction": "Begin defensive action the moment wrist control is attempted. Every second of delay makes the submission harder to stop—early prevention requires far less energy than late-stage escape."
+      },
+      {
+        "error": "Bridging directly upward or toward the mounted leg side instead of toward the posted leg",
+        "consequence": "Bridging into the attacker's strongest base direction wastes energy without creating any meaningful displacement. The mounted knee absorbs the bridge force and the attacker's position is unaffected.",
+        "correction": "Bridge at a 45-degree angle toward the posted leg side where the attacker's base is weakest. This direction maximizes the chance of disrupting their technical mount structure."
+      },
+      {
+        "error": "Using the free arm to grab the trapped arm rather than framing against the attacker",
+        "consequence": "Both arms become committed to the same area, leaving no defensive frame against the attacker's body pressure. If the grip fight fails, both arms are now poorly positioned.",
+        "correction": "Use the free arm to frame against the attacker's hip or chest, creating distance and preventing them from sinking weight. Address the trapped arm through body positioning and bridging rather than hand-fighting with both hands."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the single most important defensive action when you feel the attacker grab your wrist in Technical Mount?",
+        "answer": "Immediately fight the wrist pin by pulling the elbow tight to your ribs and turning the wrist inward toward your body. Do not wait to see if they establish the figure-four—every fraction of a second the wrist remains pinned makes escape harder. Simultaneously begin bridging toward the posted leg side to disrupt their base. The wrist pin is the foundation of the entire Americana; preventing it stops the submission at its earliest and most defensible stage.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it dangerous to straighten your arm when defending the Americana from Technical Mount?",
+        "answer": "Straightening the arm to break free of the wrist pin creates an immediate armbar opportunity from technical mount. The attacker already has the ideal leg positioning for the armbar swing-over, and a straightened arm is exactly the configuration they need to finish. This binary threat is the core of technical mount offense. The correct defense is to keep the arm bent while fighting the wrist pin through elbow retraction and body movement, never extending the arm unless you can immediately retract it before the armbar is initiated.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what point should you tap to the Americana from Technical Mount to avoid injury?",
+        "answer": "Tap the moment you feel progressive rotational pressure on the shoulder that you cannot stop through defensive movement. Do not wait until you feel sharp pain—the shoulder joint transitions from discomfort to structural damage rapidly under rotational load. If the figure-four is locked and the attacker has begun the paint-brush rotation, assess honestly whether you can escape. If the rotation has passed the halfway point toward your ear and your bridge attempts have failed, tap immediately. Shoulder injuries from late taps can require surgical repair and months of rehabilitation.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the optimal timing to attempt a bridge escape during the Americana from Technical Mount?",
+        "answer": "The optimal timing is during the attacker's grip transitions—specifically when they thread the underhook for the figure-four or when they adjust their hip position to begin the finishing rotation. These moments require the attacker to shift weight and attention to their hands, creating brief windows where their base is compromised. Bridge explosively toward the posted leg side during these transitions. Avoid bridging when the attacker is settled and static with full hip pressure, as this wastes energy against their strongest base configuration.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you recover guard after successfully defending the Americana from Technical Mount?",
+        "answer": "After disrupting the submission through bridging or grip fighting, immediately shrimp your hips toward the posted leg side and insert your near-side knee between your body and the attacker as a knee shield. Continue shrimping to create angle, then work to recover half guard by trapping the attacker's inside leg with both of yours. Maintain frames throughout guard recovery to prevent them from immediately re-establishing technical mount. Any guard recovery—even quarter guard—removes the immediate submission threat and shifts the exchange toward a more defensible position.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying Americana setup cues from Technical Mount bottom",
+        "description": "Partner establishes technical mount and slowly works through the Americana setup sequence while you practice identifying each recognition cue: wrist grab, weight shift, underhook threading, elbow squeeze. Call out each cue verbally as you feel it. Build automatic pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Early Prevention",
+        "focus": "Drilling defensive responses before the figure-four establishes",
+        "description": "Partner attempts the wrist pin at 50% speed while you practice the immediate defensive responses: elbow retraction, wrist rotation, and bridging toward the posted leg. Focus on timing—begin the defense at the moment of wrist contact, not after the grip is set. Drill 15-20 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Escape",
+        "focus": "Escaping when the figure-four is partially or fully established",
+        "description": "Partner establishes a light figure-four grip and you practice grip fighting, bridging, and hip escaping from the locked position. Work at progressive resistance from 25% to 75%. Identify which escapes work best for your body type and flexibility. Include tapping practice when escape is not possible."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Defending the full Americana chain in live rolling conditions",
+        "description": "Positional sparring starting from technical mount bottom. Partner works the Americana-armbar chain at full resistance while you defend freely. Track success rates and identify recurring failure points. Build the defensive instincts needed to survive the binary submission threat under realistic pressure."
       }
     ]
   }

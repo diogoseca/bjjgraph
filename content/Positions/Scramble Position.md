@@ -62,8 +62,8 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Stabilize to Guard from Scramble",
+      "text": "From this position, attempt Stabilize to Guard from Scramble. This technique is attempted in 8% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -240,7 +240,7 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 ### [[Single Leg to Back Take]] (8% of attempts)
 
-### [[Guard Recovery]] (8% of attempts)
+### [[Stabilize to Guard from Scramble]] (8% of attempts)
 
 ### [[Darce Setup]] (5% of attempts)
 
@@ -270,12 +270,12 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 **If opponent commits to leg entanglement during scramble:**
 - Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Guard Recovery]]** → [[Ashi Garami]] (Probability: 50%)
+- Execute **[[Stabilize to Guard from Scramble]]** → [[Ashi Garami]] (Probability: 50%)
 
 
 **If scramble extends beyond 5-7 seconds without clear advantage:**
 - Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Stabilize to Guard from Scramble]]** → [[Open Guard]] (Probability: 50%)
 
 
 

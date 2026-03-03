@@ -89,29 +89,29 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Single Leg X Sweep]]** (8% of attempts)
+- **[[Single Leg X Sweep]]** (22% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (8% of attempts)
+- **[[Ashi Entry from Leg Entanglement]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** (8% of attempts)
+- **[[Single Leg X Entry]]** (3% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (7% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (24% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (5% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (8% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (3% of attempts)
 
-- **[[Ankle Pick Sweep]]** (9% of attempts)
+- **[[Ankle Pick Sweep]]** (10% of attempts)
 
-- **[[Inside Ashi Entry]]** (7% of attempts)
+- **[[Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Standing to Single Leg X]]** (8% of attempts)
+- **[[Standing to Single Leg X]]** (2% of attempts)
 
-- **[[Heel Grab Sweep]]** (8% of attempts)
+- **[[Heel Grab Sweep]]** (10% of attempts)
 
-- **[[SLX to Ashi Garami]]** (3% of attempts)
+- **[[SLX to Ashi Garami]]** (10% of attempts)
 
-- **[[SLX to X-Guard]]** (2% of attempts)
+- **[[SLX to X-Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +176,21 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Headquarters Pass]]** (16% of attempts)
+- **[[Headquarters Pass]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Knee Slice Pass]]** (13% of attempts)
 
-- **[[Leg Weave Pass]]** (14% of attempts)
+- **[[Leg Weave Pass]]** (12% of attempts)
 
-- **[[Standing up in Base]]** (24% of attempts)
+- **[[Standing up in Base]]** (27% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (10% of attempts)
 
 - **[[Kneebar]]** (10% of attempts)
 
-- **[[Backstep from Single Leg X]]** (5% of attempts)
+- **[[Backstep from Single Leg X]]** (8% of attempts)
 
-- **[[Standing Escape from SLX]]** (3% of attempts)
+- **[[Standing Escape from SLX]]** (6% of attempts)
 
 
 ### Common Mistakes

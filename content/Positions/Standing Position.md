@@ -20,50 +20,50 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Guard Pull",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Entry",
-      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Double Leg Setup",
+      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Single Leg Entry",
+      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Sprawl",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Double Leg Entry",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Arm Drag",
+      "text": "From this position, attempt Arm Drag. This technique is attempted in 5% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 3% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -227,59 +227,59 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 ## Available Techniques and Transitions
 
-### [[Double Leg Entry]] (3% of attempts)
+### [[Guard Pull]] (21% of attempts)
 
-### [[Single Leg Entry]] (4% of attempts)
+### [[Double Leg Setup]] (8% of attempts)
 
-### [[Ankle Pick]] (2% of attempts)
+### [[Single Leg Entry]] (8% of attempts)
 
-### [[Snap Down to Front Headlock]] (3% of attempts)
+### [[Sprawl]] (8% of attempts)
 
-### [[Guard Pull]] (6% of attempts)
+### [[Double Leg Entry]] (5% of attempts)
 
-### [[Arm Drag to Back]] (2% of attempts)
+### [[Snap Down to Front Headlock]] (5% of attempts)
 
-### [[50-50 Entry from Standing]] (2% of attempts)
+### [[Arm Drag]] (5% of attempts)
 
-### [[Body Lock Pass]] (2% of attempts)
+### [[Ankle Pick]] (3% of attempts)
 
-### [[Sprawl]] (4% of attempts)
+### [[Arm Drag to Back]] (3% of attempts)
 
-### [[Arm Drag]] (4% of attempts)
+### [[Body Lock Takedown]] (3% of attempts)
 
-### [[Deashi Harai]] (4% of attempts)
+### [[Jumping Guard]] (3% of attempts)
 
-### [[Double Leg Setup]] (4% of attempts)
+### [[Osoto Gari]] (3% of attempts)
 
-### [[Harai Goshi]] (4% of attempts)
+### [[Ouchi Gari]] (3% of attempts)
 
-### [[Ippon Seoi Nage]] (4% of attempts)
+### [[Tomoe Nage]] (3% of attempts)
 
-### [[Jumping Guard]] (4% of attempts)
+### [[Deashi Harai]] (2% of attempts)
 
-### [[Kosoto Gake]] (4% of attempts)
+### [[Harai Goshi]] (2% of attempts)
 
-### [[Kosoto Gari]] (4% of attempts)
+### [[Ippon Seoi Nage]] (2% of attempts)
 
-### [[Morote Seoi Nage]] (4% of attempts)
+### [[Russian Tie to Back Take]] (2% of attempts)
 
-### [[Osoto Gari]] (4% of attempts)
+### [[Sumi Gaeshi]] (2% of attempts)
 
-### [[Ouchi Gari]] (4% of attempts)
+### [[Tani Otoshi]] (2% of attempts)
 
-### [[Russian Tie to Back Take]] (4% of attempts)
+### [[50-50 Entry from Standing]] (1% of attempts)
 
-### [[Sasae Tsurikomi Ashi]] (4% of attempts)
+### [[Body Lock Pass]] (1% of attempts)
 
-### [[Sumi Gaeshi]] (4% of attempts)
+### [[Kosoto Gake]] (1% of attempts)
 
-### [[Tai Otoshi]] (4% of attempts)
+### [[Kosoto Gari]] (1% of attempts)
 
-### [[Takedown Defense]] (4% of attempts)
+### [[Morote Seoi Nage]] (1% of attempts)
 
-### [[Tani Otoshi]] (4% of attempts)
+### [[Sasae Tsurikomi Ashi]] (1% of attempts)
 
-### [[Tomoe Nage]] (4% of attempts)
+### [[Tai Otoshi]] (1% of attempts)
 
 
 

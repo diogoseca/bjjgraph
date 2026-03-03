@@ -56,7 +56,7 @@
       "relationship": "Starting and reset position when ankle pick attempt fails"
     },
     {
-      "name": "Guillotine Choke",
+      "name": "Standing Guillotine from Clinch",
       "relationship": "Submission threat opponent can apply if head position is incorrect during level change"
     },
     {
@@ -64,8 +64,8 @@
       "relationship": "Alternative takedown chain when opponent lifts ankle to defend"
     },
     {
-      "name": "Collar Drag",
-      "relationship": "Alternative attack using same collar tie grip to off-balance opponent"
+      "name": "Arm Drag from Standing",
+      "relationship": "Alternative attack using collar tie grip to off-balance opponent and create angle"
     },
     {
       "name": "Clinch",
@@ -148,31 +148,31 @@
         "counter": "Opponent sprawls backward when they feel level change",
         "effectiveness": "High",
         "your_response": "Maintain collar tie pressure and transition immediately to arm drag or snap down. If they sprawl hard, you can also transition to guard pull using your forward momentum.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Opponent lifts ankle or steps back to avoid grip",
         "effectiveness": "Medium",
         "your_response": "Follow their backward movement aggressively, switching to double leg entry or transitioning to clinch. Their backward movement creates opportunity for different attacks as their base is compromised on one leg.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Opponent posts hand on your head to prevent level change",
         "effectiveness": "Medium",
         "your_response": "Use their posted hand as an opportunity to switch to arm drag or two-on-one control. Their extended arm creates vulnerability in their upper body positioning that you can exploit for back takes.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Opponent circles away from your attacking angle",
         "effectiveness": "Low",
         "your_response": "Follow with your footwork and re-establish angle. Their circling often creates openings for snap downs or can tire them if you maintain pressure. Re-engage collar tie and reset your attack angle.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Top"
       },
       {
         "counter": "Opponent secures guillotine when you level change with head inside",
         "effectiveness": "High",
         "your_response": "This counter exploits incorrect head position. Keep your head outside their body line at all times. If caught, immediately complete the takedown and land in side control where the guillotine becomes much weaker due to positional pressure.",
-        "targets_outcome": "Closed Guard"
+        "targets_outcome": "Closed Guard/Top"
       }
     ],
     "common_errors": [
@@ -319,39 +319,39 @@
       {
         "action": "Sprawl and hip retraction: Drive hips back and down while posting both hands on opponent's head and shoulders to stuff the level change before they reach your ankle",
         "when_to_use": "Immediately when you feel the level change initiate and before opponent secures the heel cup grip on your ankle",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Returns both athletes to neutral standing with you having possible front headlock control if their head is low",
         "risk": "If timed too late and opponent already has ankle grip, the sprawl may drive your weight forward into their pull and accelerate the takedown"
       },
       {
         "action": "Ankle retraction and circular step: Pull your lead foot backward and circle away from opponent's angle while maintaining your own collar tie or posting on their head to create distance",
         "when_to_use": "When you recognize the angle creation and collar tie pressure before the actual level change begins",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Top",
         "if_successful": "Denies the ankle pick entry entirely and resets to neutral standing with the attacker having wasted energy on a failed setup",
         "risk": "Stepping backward without head control can allow opponent to follow with a double leg entry or snap down"
       },
       {
         "action": "Guillotine counter: When opponent level changes with head inside your body line, secure an arm-in or high-elbow guillotine as they reach for your ankle",
         "when_to_use": "When opponent makes the critical error of dropping their head inside your body rather than keeping it outside, and you can secure a chin strap or arm-in grip",
-        "targets_outcome": "Closed Guard",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "You establish guillotine control and can either finish the submission or use it to pull guard with a dominant attacking grip",
         "risk": "If the guillotine is not tight, opponent completes the takedown and you end up on bottom with a loose grip that wastes energy"
       },
       {
         "action": "Guard pull conversion: When opponent has already secured heel cup and you cannot retract your ankle, sit to guard by pulling them into your closed guard using collar tie and sleeve control",
         "when_to_use": "When the ankle grip is already established and sprawl defense is no longer viable, as a damage control measure to avoid being taken down to bottom side control",
-        "targets_outcome": "Closed Guard",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "You pull into closed guard where you have offensive options rather than being driven to the mat and ending up in bottom side control",
         "risk": "You concede bottom position and any potential advantage points, but avoid the worse outcome of bottom side control"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Top",
         "how": "Deny the attack in the early stages through proactive grip fighting that prevents collar tie establishment, or use immediate sprawl and hip retraction when level change initiates before the heel cup is secured. Circular footwork away from the attacker's angle forces them to reset and spend additional energy re-establishing their attack position."
       },
       {
-        "outcome": "Closed Guard",
+        "outcome": "Closed Guard/Top",
         "how": "When the ankle pick is too far along to sprawl effectively, convert to a guard pull using your existing collar and sleeve grips. Sit to guard before the attacker can drive you flat to the mat. This converts their takedown attempt into your guard game where you have sweeps and submissions available. A well-timed guillotine counter during their level change can also land you in closed guard with a dominant attacking grip."
       }
     ],

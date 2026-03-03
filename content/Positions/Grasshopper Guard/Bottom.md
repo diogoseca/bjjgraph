@@ -240,7 +240,7 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ### [[Outside Ashi Entry]] (9% of attempts)
 
-### [[Transition to K-Guard]] (5% of attempts)
+### [[Berimbolo Entry]] (5% of attempts)
 
 
 

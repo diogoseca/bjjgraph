@@ -21,7 +21,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Back",
-      "text": "From this position, attempt Triangle from Back. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Back. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Short Choke",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,23 +211,31 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (23% of attempts)
+### [[Rear Naked Choke]] (40% of attempts)
 
 ### [[Armbar from Back Transition]] (13% of attempts)
 
-### [[Back Control to Crucifix]] (11% of attempts)
+### [[Back Control to Crucifix]] (8% of attempts)
 
-### [[Triangle from Back]] (9% of attempts)
+### [[Triangle from Back]] (4% of attempts)
 
-### [[Bow and Arrow Choke]] (14% of attempts)
+### [[Bow and Arrow Choke]] (10% of attempts)
 
-### [[Armbar Finish]] (9% of attempts)
+### [[Short Choke]] (5% of attempts)
 
-### [[Short Choke]] (8% of attempts)
+### [[Rolling Back Take]] (3% of attempts)
 
-### [[Rolling Back Take]] (9% of attempts)
+### [[Back Control Maintenance]] (2% of attempts)
 
-### [[Transition to Body Lock]] (4% of attempts)
+### [[Kimura from Back]] (6% of attempts)
+
+### [[Gift Wrap Transition]] (4% of attempts)
+
+### [[Hand Fighting from Back]] (3% of attempts)
+
+### [[Harness to Body Lock]] (1% of attempts)
+
+### [[RNC from Harness]] (1% of attempts)
 
 
 

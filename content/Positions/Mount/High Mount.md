@@ -97,17 +97,23 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Upa Escape]]** (15% of attempts)
+- **[[Upa Escape]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (22% of attempts)
+- **[[Elbow Escape to Guard]]** (32% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Bridge and Roll]]** (9% of attempts)
 
-- **[[Shrimp Escape]]** (15% of attempts)
+- **[[Shrimp Escape]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (19% of attempts)
+- **[[Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Frame Creation]]** (17% of attempts)
+- **[[Frame and Shrimp to Guard]]** (13% of attempts)
+
+- **[[Bridge to Mount from High Mount]]** (4% of attempts)
+
+- **[[Frame Escape from High Mount]]** (2% of attempts)
+
+- **[[Trap and Roll from High Mount]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,25 +178,27 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (18% of attempts)
+- **[[Mount to Armbar]]** (24% of attempts)
 
-- **[[Cross Collar Choke]]** (14% of attempts)
+- **[[Cross Collar Choke]]** (13% of attempts)
 
-- **[[Americana]]** (10% of attempts)
+- **[[Americana]]** (9% of attempts)
 
-- **[[Triangle from Mount]]** (10% of attempts)
+- **[[Triangle from Mount]]** (9% of attempts)
 
-- **[[Kimura]]** (10% of attempts)
+- **[[Kimura]]** (9% of attempts)
 
-- **[[Arm Triangle]]** (8% of attempts)
+- **[[Arm Triangle]]** (7% of attempts)
 
-- **[[Gift Wrap Transition]]** (8% of attempts)
+- **[[Gift Wrap Transition]]** (7% of attempts)
 
-- **[[Mounted Triangle]]** (7% of attempts)
+- **[[Mounted Triangle]]** (6% of attempts)
 
-- **[[S-Mount Transition]]** (8% of attempts)
+- **[[S-Mount Transition]]** (7% of attempts)
 
-- **[[Mounted Crucifix Entry]]** (7% of attempts)
+- **[[Mounted Crucifix Entry]]** (6% of attempts)
+
+- **[[High Mount to S Mount]]** (3% of attempts)
 
 
 ### Common Mistakes

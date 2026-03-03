@@ -1,13 +1,395 @@
 {
   "name": "Invert from Reverse Half Guard",
-  "description": "",
-  "tags": [],
+  "description": "Master the inversion escape from reverse half guard bottom. Complete guide covering granby roll mechanics, timing, guard recovery, and defensive awareness.",
+  "tags": [
+    "bjj",
+    "transition",
+    "inversion",
+    "reverse-half-guard",
+    "guard-recovery",
+    "advanced",
+    "escape",
+    "granby-roll"
+  ],
   "from_position": "Reverse Half Guard/Bottom",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 100,
+      "probability": 45,
       "result": "success"
+    },
+    {
+      "to": "Reverse Half Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "Inverting from reverse half guard is an advanced guard recovery technique where the bottom player uses a granby roll to rotate through an inverted position and re-establish open guard. This technique exploits the unusual angle of the reverse half guard position, where the bottom player's back already faces the opponent, making a rotational escape more mechanically efficient than trying to face the opponent directly through their pressure.\n\nThe inversion works by converting the compromised reverse orientation into rotational momentum. Rather than fighting to turn back toward the opponent through the strong side of their pressure, the bottom player rolls away and underneath, using the near shoulder as a pivot point. The trapped leg serves as an anchor during the initial phase of rotation, and the movement concludes with the bottom player facing the opponent in an open guard configuration with active leg frames re-established.\n\nThis technique requires precise timing and full commitment. The optimal window opens when the top player commits their weight forward or shifts laterally, momentarily reducing their ability to follow the rotation. Hesitation during the inversion is the primary failure point—incomplete rotations leave the bottom player in a worse position with maximum back exposure. The technique carries inherent risk because the inverted phase briefly exposes the back, making it essential to complete the full rotation as a single explosive movement with immediate guard engagement upon finishing.",
+  "conditions": [
+    "Opponent's weight committed forward or to one side, creating rotational opportunity",
+    "Sufficient mat space to complete the inversion rotation",
+    "Bottom player's shoulders not completely pinned flat by crossface pressure",
+    "Leg entanglement still engaged to create initial rotation axis",
+    "Bottom player has adequate cervical spine health for inversion loading"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standard Granby Roll Inversion",
+      "description": "Classic over-the-near-shoulder rotation using the trapped leg as an anchor point, completing a full 180-degree rotation to face the opponent in open guard. The most explosive and highest-percentage variant when timing is correct.",
+      "when_to_use": "When opponent commits heavy forward pressure and there is sufficient space to complete a full rotation in one explosive movement"
+    },
+    {
+      "variant_name": "Shoulder Walk Inversion",
+      "description": "Incremental rotation using shoulder walking mechanics rather than a single explosive granby roll. The bottom player shifts weight between shoulders in small increments to gradually rotate toward open guard, maintaining more control throughout the transition.",
+      "when_to_use": "When space is limited or opponent's pressure is heavy enough to prevent an explosive roll but not heavy enough to completely pin the shoulders"
+    },
+    {
+      "variant_name": "Inversion to Deep Half Entry",
+      "description": "Instead of completing the full rotation to open guard, the bottom player arrests the inversion midway and slides under the opponent's hips to establish deep half guard. The partial inversion creates the angle needed to get underneath the opponent's center of gravity.",
+      "when_to_use": "When the opponent follows the rotation too effectively for a clean open guard recovery but their forward weight commitment allows you to get underneath their hips"
+    }
+  ],
+  "position_integration": "The inversion from reverse half guard connects the reverse half guard recovery system to the broader open guard network. When standard escapes—face-the-opponent turns, old school sweeps, rolling back takes—are blocked by the top player's pressure and positioning, the inversion provides an alternative path that exploits the already-inverted orientation rather than fighting against it. The resulting open guard position serves as a launch point for the practitioner's preferred guard system, whether spider, de la riva, butterfly, or any other variation. This creates a complete contingency pathway from one of the more vulnerable half guard configurations, ensuring the bottom player always has a viable recovery option regardless of how effectively the top player shuts down conventional escapes.",
+  "related_content": [
+    {
+      "name": "Reverse Half Guard",
+      "relationship": "Starting position for this transition"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary success outcome position after completing the inversion"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Intermediate position passed through during the inversion rotation"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome position if opponent takes back during vulnerable inverted phase"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative target position via partial inversion variant"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position family from which reverse half guard originates"
+    },
+    {
+      "name": "Escape Reverse Half Guard",
+      "relationship": "Alternative escape technique from the same starting position"
+    },
+    {
+      "name": "Backstep from Reverse Half",
+      "relationship": "Opponent's passing technique that creates the reverse half guard situation"
+    },
+    {
+      "name": "Inversion from Headquarters",
+      "relationship": "Similar inversion mechanic applied from a different guard situation"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Alternative escape methodology from the half guard family"
+    }
+  ],
+  "attacker": {
+    "name": "Invert from Reverse Half Guard Attacker",
+    "description": "Learn to execute the inversion from reverse half guard. Step-by-step guide covering granby roll execution, timing windows, and guard recovery mechanics for BJJ.",
+    "overview": "As the bottom player in reverse half guard, the inversion is your primary rotational escape when standard recovery paths are blocked. You convert the compromised reverse orientation into an advantage by rolling through an inverted position rather than fighting back to a face-to-face configuration. The technique requires explosive commitment, precise timing aligned with your opponent's weight distribution, and immediate guard establishment upon completing the rotation. Mastering this technique gives you a reliable bail-out option from one of the more dangerous half guard positions, ensuring you always have a path back to your open guard game regardless of how effectively the top player shuts down conventional escapes.",
+    "key_principles": [
+      "Commit fully to the rotation once initiated—incomplete inversions expose the back more than staying in reverse half guard",
+      "Time the inversion with opponent's forward weight commitment to reduce their ability to follow your rotation",
+      "Use the trapped leg as a rotation anchor during initiation, then release it to allow full rotational completion",
+      "Tuck the chin throughout the roll to protect the neck and maintain tight rotational mechanics",
+      "Immediately establish active leg frames upon completing rotation—the transition from inverted to guard must be seamless",
+      "Keep arms tight during rotation to prevent opponent from catching a limb and stalling the movement"
+    ],
+    "setup_requirements": [
+      "Leg entanglement still engaged on opponent's leg, providing the initial rotation axis and preventing immediate pass",
+      "Opponent's weight committed forward or laterally, reducing their ability to follow or crush the rotation",
+      "Near-side arm free to post a frame on opponent's hip or thigh, creating space to initiate the shoulder roll",
+      "Sufficient shoulder mobility to rotate over the near shoulder without obstruction from mat or opponent's pressure",
+      "Chin tucked position established before initiating movement to protect cervical spine during rotation"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish frame on opponent's hip",
+        "description": "Post your near-side arm as a frame on opponent's hip or thigh to create initial space. This frame serves dual purposes: creating the gap needed to begin rotation and preventing the opponent from driving their weight directly onto your shoulders, which would pin you flat and eliminate the rotation option entirely."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate hip turn away from opponent",
+        "description": "Begin rotating your hips away from the opponent by turning onto your near shoulder. Your hips lead the movement, creating the rotational momentum that will carry through the full inversion. The direction of rotation is away from the opponent and over your near shoulder—never toward them."
+      },
+      {
+        "step_number": 3,
+        "action": "Release half guard hook and tuck body",
+        "description": "Release your half guard hook on opponent's leg to free your lower body for rotation. Simultaneously tuck your chin firmly to your chest and bring your knees toward your torso, creating a tight compact shape that rotates efficiently. Maintaining the hook too long stalls the rotation at the most vulnerable inverted point."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute granby roll through inverted position",
+        "description": "Drive over your near shoulder, passing through the inverted position with your upper back arcing over the mat. Keep your arms tight to your body throughout this phase to prevent the opponent from catching a wrist or elbow. The momentum should carry you smoothly through without any pause in the inverted position."
+      },
+      {
+        "step_number": 5,
+        "action": "Extend legs toward opponent as rotation completes",
+        "description": "As you complete the rotation and begin facing the opponent again, immediately extend your legs toward them to create distance and establish a barrier. Your feet should target their hips or thighs, creating the foundational frames of open guard. This extension must happen before the opponent can close the distance created by your rotation."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish open guard grips and frames",
+        "description": "Complete the transition by securing collar and sleeve grips in gi or wrist and neck control in no-gi while maintaining active foot positioning on opponent's hips. Your guard must be immediately functional with feet active, grips established, and hips angled. Any delay in establishing control allows the opponent to initiate passing before you are defensively set."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition to preferred guard variation",
+        "description": "Based on opponent's reaction and positioning, transition from generic open guard to your preferred specific guard variation. If opponent stands, establish de la riva or spider guard. If opponent drives forward on knees, insert butterfly hooks. Read their posture within the first two seconds and commit to the guard system that best counters their approach."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives heavy crossface pressure to flatten and pin shoulders, preventing any rotational movement",
+        "effectiveness": "High",
+        "your_response": "Address the crossface before attempting the inversion—frame against their shoulder to create space, or abandon the inversion and switch to a different escape like turning to face them through elbow escape mechanics",
+        "targets_outcome": "Reverse Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles toward exposed back during the rotation, inserting hooks before the inversion completes",
+        "effectiveness": "High",
+        "your_response": "Accelerate through the rotation rather than pausing—commit fully and extend legs immediately upon completing the roll to create distance and prevent hook insertion before they establish control",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back and drives weight down to crush the rotation attempt before it develops",
+        "effectiveness": "Medium",
+        "your_response": "Use their sprawl as the trigger for a different attack—their backward weight shift opens the door for an old school sweep or underhook recovery since their base is momentarily compromised",
+        "targets_outcome": "Reverse Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent controls near-side arm to prevent the posting frame that initiates the rotation",
+        "effectiveness": "Medium",
+        "your_response": "Switch to a leg-driven rotation using hip power alone, or use the arm entanglement to set up a kimura grip that creates a different sweep angle while their base is compromised by the arm control",
+        "targets_outcome": "Reverse Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating inversion when opponent's weight is neutral or distributed backward",
+        "consequence": "Opponent easily follows the rotation and establishes back control because their balanced base allows them to circle with the movement without being disrupted",
+        "correction": "Wait for the opponent to drive forward or shift laterally before initiating—their committed weight distribution is the trigger for the technique, not your readiness alone"
+      },
+      {
+        "error": "Pausing in the inverted position instead of rolling through completely",
+        "consequence": "Creates the worst possible scenario—bottom player is inverted with back fully exposed, giving the opponent an easy back take with both hooks and seat belt grip",
+        "correction": "Commit to completing the full rotation in one explosive movement. Train the granby roll as a single continuous motion with no intermediate positions"
+      },
+      {
+        "error": "Keeping the half guard hook engaged during the rotation phase",
+        "consequence": "The hook acts as a brake on the rotation, slowing movement through the vulnerable inverted phase and potentially creating dangerous twisting forces on the knee joint",
+        "correction": "Release the hook as you initiate the shoulder roll. The leg entanglement served its purpose as the rotation anchor—holding it past initiation prevents completion"
+      },
+      {
+        "error": "Leaving arms extended or loose during the roll",
+        "consequence": "Opponent catches a wrist or elbow during rotation, preventing completion and potentially setting up a kimura or straight arm lock from the compromised inverted position",
+        "correction": "Tuck arms tight to the body throughout the rotation with elbows in and hands near the chest. Only extend arms to establish guard frames after the roll is fully completed"
+      },
+      {
+        "error": "Failing to establish guard frames immediately after completing the rotation",
+        "consequence": "The one to two second window after completing the roll is critical—without immediate guard engagement, the opponent rushes forward and establishes a passing position before any defensive structure exists",
+        "correction": "Extend legs toward opponent and establish foot-on-hip frames as the final part of the rolling motion itself, treating guard establishment as part of the technique rather than a separate follow-up action"
+      },
+      {
+        "error": "Rolling toward the opponent instead of away and underneath",
+        "consequence": "Rolling toward the opponent exposes the back directly into their control path and eliminates the distance-creating benefit that makes the inversion effective as an escape",
+        "correction": "The rotation direction must always be away from the opponent, over the near shoulder, creating distance and a new facing angle as the movement completes"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Granby Roll Mechanics",
+        "focus": "Rotation mechanics and body awareness",
+        "description": "Practice solo granby rolls on the mat without a partner. Focus on smooth continuous rotation over both shoulders with chin tucked, arms tight, and legs extending upon completion. Build comfort with the inverted position and develop muscle memory for the full movement pattern. Perform 20 repetitions per side per session."
+      },
+      {
+        "phase": "Phase 2: Partner-Assisted Inversion",
+        "focus": "Timing, connection, and sequence",
+        "description": "Partner holds reverse half guard top position with zero resistance. Practice the full inversion sequence from frame establishment through open guard recovery. Focus on the timing of releasing the hook, initiating the roll, and establishing guard frames. Partner provides feedback on back exposure windows and rotation completeness."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Drilling",
+        "focus": "Execution under increasing pressure",
+        "description": "Partner increases resistance progressively from 25% to 75% across rounds. Practice reading opponent's weight distribution to identify optimal timing windows. Develop the ability to abort the inversion when conditions are wrong and select alternative escapes. Track success rate and emphasize decision-making speed."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Competition integration and chaining",
+        "description": "Start in reverse half guard bottom against a fully resisting opponent. Must choose between inversion, standard escape, face-the-opponent turn, and other recovery options based on real-time reactions. Develop the ability to chain the inversion with other reverse half guard escapes when the initial attempt is blocked or countered."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the inversion from reverse half guard?",
+        "answer": "The optimal timing window opens when the top player commits their weight forward or shifts laterally. This weight commitment temporarily reduces their ability to follow your rotation. Watch for their hips driving toward your head or their weight shifting to one side as they attempt to advance. Initiating during a neutral weight distribution is significantly lower percentage because the opponent can easily circle with your movement."
+      },
+      {
+        "question": "Your opponent maintains heavy crossface pressure—should you still attempt the inversion?",
+        "answer": "No. Heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the rotation phase of the inversion?",
+        "answer": "Keeping the chin tucked firmly to the chest throughout the entire rotation. An untucked chin creates two problems: it exposes the neck to chokes during the inverted phase, and it changes the rotation axis from a tight shoulder roll to a loose neck roll that is slower and less controlled. The tucked chin creates a smooth rotational path through the upper back and protects the cervical spine from compression forces."
+      },
+      {
+        "question": "You initiate the inversion but feel the opponent starting to circle toward your back—what do you do?",
+        "answer": "Accelerate through the rotation rather than stopping or reversing. A half-completed inversion with a circling opponent is the worst possible outcome. By committing fully and completing the rotation faster than they can circle, you can still reach open guard. Extend your legs immediately upon completing the roll to create distance and prevent hook insertion. Stopping midway leaves you inverted with your back fully exposed."
+      },
+      {
+        "question": "What frame must you establish before initiating the inversion?",
+        "answer": "A frame on the opponent's hip or thigh with your near-side arm is essential. This frame creates the initial space needed to begin the shoulder rotation and prevents the opponent from driving their chest directly onto your shoulders. Without this frame, the opponent's weight pins you flat and the rotation cannot begin. The frame also provides tactile feedback about the opponent's weight distribution, helping you identify the optimal timing window."
+      },
+      {
+        "question": "Why must you release the half guard hook during the inversion rather than maintaining it throughout?",
+        "answer": "The half guard hook serves as the initial rotation anchor but becomes a brake once the rotation begins. Maintaining the hook during the roll prevents your lower body from completing the rotation, leaving you stuck in the inverted position with maximum back exposure. The hook can also create dangerous twisting forces on your own knee during the rotation. Release it as you initiate the shoulder roll so your legs can follow your upper body through the complete rotation."
+      },
+      {
+        "question": "After completing the inversion, your opponent rushes forward before you establish guard—how do you respond?",
+        "answer": "Immediately extend both legs toward the opponent with your feet targeting their hips, even if you cannot establish upper body grips yet. Foot-on-hip frames are the fastest defensive structure to deploy and create enough distance to prevent the opponent from achieving chest-to-chest pressure. From there, use one foot to maintain the distance frame while the other establishes a hook or secondary frame. Only reach for upper body grips once your legs are actively managing the distance."
+      },
+      {
+        "question": "What conditions make the inversion a higher percentage option than other reverse half guard escapes?",
+        "answer": "The inversion becomes higher percentage when the opponent has successfully blocked your ability to turn and face them—strong crossface preventing face-the-opponent escapes, or positioning making underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow."
+      }
+    ],
+    "safety_considerations": "The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement."
+  },
+  "defender": {
+    "name": "Invert from Reverse Half Guard Defender",
+    "description": "Defend against the inversion from reverse half guard top. Recognition cues, counter-strategies, and methods to capitalize on failed inversion attempts in BJJ.",
+    "overview": "As the top player in reverse half guard, your opponent's inversion attempt represents both a threat and an opportunity. The inversion is most dangerous when you fail to recognize it early and allow a clean rotation to open guard recovery. However, a poorly timed or incomplete inversion exposes the bottom player's back more than any other escape attempt from this position. Your defensive strategy centers on early recognition of rotation setup cues, pressure maintenance to prevent the rotation from starting, and capitalizing aggressively on failed or half-completed attempts by taking the back. Understanding the granby roll mechanics helps you anticipate the timing window and shut it down before it develops into a clean escape.",
+    "key_principles": [
+      "Maintain constant chest pressure directed toward opponent's far shoulder to eliminate the space needed for shoulder rotation initiation",
+      "Recognize early rotation cues—hip turning, shoulder shifting, frame posting—and immediately increase forward pressure to crush the attempt",
+      "Control the near-side arm to prevent the posting frame that creates space for the rotation to begin",
+      "If inversion has already begun, circle toward opponent's exposed back rather than fighting against the rotation direction",
+      "Stay low with hips heavy on the bottom player—upright posture creates the space they need to initiate the inversion",
+      "Treat incomplete inversions as back take opportunities rather than returning to the previous passing sequence"
+    ],
+    "recognition_cues": [
+      "Bottom player begins turning hips away from you and shifting weight onto their near shoulder, creating the initial rotation angle needed for the granby roll",
+      "Bottom player releases their half guard hook or loosens the leg entanglement, freeing their lower body for the rotation",
+      "Bottom player tucks their chin to their chest and draws their arms close to their body, assuming the compact shape required for efficient rotation",
+      "Bottom player posts a frame on your hip or thigh with their near arm, actively creating space between your chest and their shoulders",
+      "Sudden explosive hip movement away from you after a period of relative stillness, indicating commitment to the inversion attempt"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive crossface pressure into bottom player's head to pin their shoulders flat against the mat",
+        "when_to_use": "As soon as you recognize any hip turning or shoulder shifting that indicates inversion setup, before the rotation develops",
+        "targets_outcome": "Reverse Half Guard/Bottom",
+        "if_successful": "Bottom player remains pinned in reverse half guard with no rotational option available, allowing you to continue your passing sequence",
+        "risk": "If crossface is applied too late, bottom player may already have enough rotation angle and momentum to complete the movement"
+      },
+      {
+        "action": "Circle toward opponent's exposed back as they rotate, following their movement to insert hooks and establish back control",
+        "when_to_use": "When the inversion is already initiated and has enough momentum that it cannot realistically be stopped with pressure alone",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You establish back control with hooks during their most vulnerable inverted phase, converting their escape attempt into the most dominant counter position",
+        "risk": "If they complete the rotation faster than you can circle, they establish open guard and you lose your reverse half guard advantage entirely"
+      },
+      {
+        "action": "Control the near-side arm through overhook, wrist grip, or body pressure to prevent the posting frame",
+        "when_to_use": "Early in the setup phase before any rotation has begun, when you feel the bottom player reaching toward your hip to establish a frame",
+        "targets_outcome": "Reverse Half Guard/Bottom",
+        "if_successful": "Without the posting frame, the bottom player cannot create the space or angle needed to begin the shoulder rotation",
+        "risk": "Dedicating a hand to arm control may reduce your base and passing pressure, potentially opening other escape paths"
+      },
+      {
+        "action": "Drive hips forward and low to smash through the rotation attempt with direct body pressure",
+        "when_to_use": "When you feel the bottom player's hips beginning to turn and you have solid base to commit forward without being swept",
+        "targets_outcome": "Reverse Half Guard/Bottom",
+        "if_successful": "Your forward pressure flattens the bottom player completely and removes any space for the inversion to develop or continue",
+        "risk": "Overcommitting forward pressure may open you to a momentum-based sweep if the bottom player redirects your forward drive into a different technique"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the inversion begins and you cannot prevent it, immediately circle toward the bottom player's exposed back rather than fighting the rotation. As they pass through the inverted position, follow their movement and work to insert hooks and establish seat belt control. The inverted phase is when they are most vulnerable to back takes because their arms are tucked and their back is maximally exposed."
+      },
+      {
+        "outcome": "Reverse Half Guard/Bottom",
+        "how": "Shut down the inversion before it starts by maintaining heavy diagonal chest pressure toward their far shoulder, controlling the near arm to prevent the posting frame, and driving a strong crossface. Recognize the earliest setup cues and immediately increase forward pressure to pin the bottom player flat, eliminating any space for rotation to begin."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Staying upright when sensing the bottom player beginning to rotate instead of immediately dropping weight",
+        "consequence": "Creates space underneath your body that the bottom player exploits to complete the inversion cleanly, reaching open guard without meaningful opposition",
+        "correction": "Drop your weight immediately when you sense rotation cues—drive your chest and hips low onto the bottom player to compress the space they need for the shoulder roll"
+      },
+      {
+        "error": "Fighting the rotation by pushing directly against the direction of movement",
+        "consequence": "Wasted energy as the granby roll has mechanical advantage in its rotation direction, and pushing against the roll opens space on the far side of the bottom player's body",
+        "correction": "Go WITH the rotation by circling toward their exposed back rather than pushing against it. Use their rotational momentum to your advantage by following them into back control"
+      },
+      {
+        "error": "Neglecting to control the near arm, allowing the bottom player to freely establish their posting frame",
+        "consequence": "The posting frame creates the space needed to initiate the rotation. Once the frame is established and space is created, the inversion becomes significantly harder to prevent with pressure alone",
+        "correction": "Proactively control or block the near-side arm through an overhook, wrist control, or driving your body weight onto it to prevent it from posting on your hip"
+      },
+      {
+        "error": "Backing away or disengaging when sensing the inversion rather than committing to a counter",
+        "consequence": "Creating distance gives the bottom player even more space to complete the inversion freely and establish guard with full separation. Retreat plays directly into their recovery plan",
+        "correction": "Commit to either smashing forward to prevent the roll or following the rotation to take the back. Never disengage when an inversion attempt is sensed—distance is their objective"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that an inversion attempt is being set up from reverse half guard bottom?",
+        "answer": "The earliest cue is the bottom player establishing a frame on your hip or thigh with their near arm while beginning to shift weight onto their near shoulder. This posting frame creates the space needed to initiate the rotation. Recognizing this action before any hip rotation begins gives you the maximum time to shut down the attempt through crossface pressure, arm control, or increased forward pressure on their shoulders."
+      },
+      {
+        "question": "Your opponent has already initiated the granby roll—what is your highest-percentage counter at this point?",
+        "answer": "Once the rotation is in progress, fighting against it is mechanically disadvantaged. Your best option is to follow the rotation by circling toward their exposed back. As they pass through the inverted position, work to insert hooks and establish seat belt control. The inverted phase is their point of maximum vulnerability. Committing to the back take during this window is significantly higher percentage than trying to stop a rotation that already has momentum."
+      },
+      {
+        "question": "What pressure angle most effectively prevents the inversion from reverse half guard top?",
+        "answer": "Drive your chest pressure diagonally toward their far shoulder while keeping your hips low and heavy on their body. This angle pins both shoulders to the mat and eliminates the near-shoulder pivot point needed for the granby roll. Pure forward pressure toward their head is less effective because it can actually be redirected into rotation momentum. The diagonal pressure toward the far shoulder specifically attacks the rotational axis that the inversion requires."
+      },
+      {
+        "question": "How should you adjust if the bottom player alternates between inversion attempts and face-the-opponent escape attempts?",
+        "answer": "Maintain balanced pressure that prevents both options by keeping your chest low on their body and controlling the near arm. If you overcommit to preventing the inversion by driving pressure toward the far shoulder, you may open the path for them to turn toward you. If you overcommit to preventing the face turn by driving pressure toward the near shoulder, you open the rotation angle. Stay centered with heavy hips and address each specific escape as the bottom player commits to it rather than anticipating."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Reaction",
+        "focus": "Identifying inversion setup cues",
+        "description": "Partner executes inversions at slow speed (25% pace) repeatedly while you identify each recognition cue in sequence: posting frame, hip turn, hook release, chin tuck. Call out each cue as you observe it. Build the visual and tactile pattern recognition before adding any defensive reactions."
+      },
+      {
+        "phase": "Phase 2: Prevention Drilling",
+        "focus": "Shutting down inversions at earliest stage",
+        "description": "Partner attempts inversions at 50% speed while you practice prevention responses: crossface to pin shoulders, near arm control, forward pressure drive. Focus on reacting to the earliest cue rather than waiting for full rotation to begin. Track success rate and aim for preventing 80% of attempts before they develop."
+      },
+      {
+        "phase": "Phase 3: Counter Back Take Acquisition",
+        "focus": "Taking the back from initiated inversions",
+        "description": "Partner completes inversions at 75% speed while you practice circling to take the back during the inverted phase. Focus on following the rotation direction, inserting hooks during maximum exposure, and establishing seat belt control. Develop the reflexive response to circle WITH inversions you cannot prevent."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Decision Making",
+        "focus": "Competition-speed multi-option response",
+        "description": "Partner alternates between inversions, face-the-opponent escapes, old school sweeps, and other reverse half guard recoveries at full speed. You must read which escape is being attempted and deploy the appropriate counter for each. Develops the ability to distinguish between escape types and respond correctly under pressure."
+      }
+    ]
+  }
 }

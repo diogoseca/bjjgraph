@@ -21,37 +21,37 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Break and Pass",
-      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Lockdown Counter",
-      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface from Old School",
-      "text": "From this position, attempt Crossface from Old School. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Crossface from Old School. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,21 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (28% of attempts)
+### [[Half Guard Pass]] (33% of attempts)
 
-### [[Knee Slice Pass]] (18% of attempts)
+### [[Knee Slice Pass]] (17% of attempts)
 
-### [[Crossface Pass]] (22% of attempts)
+### [[Crossface Pass]] (21% of attempts)
 
-### [[Lockdown Break and Pass]] (18% of attempts)
+### [[Lockdown Break and Pass]] (17% of attempts)
 
-### [[Darce from Lockdown Counter]] (8% of attempts)
+### [[Darce from Lockdown Counter]] (7% of attempts)
 
-### [[Crossface from Old School]] (4% of attempts)
+### [[Crossface from Old School]] (3% of attempts)
 
-### [[Defend Old School Sweep]] (2% of attempts)
+### [[Defend Old School Sweep]] (1% of attempts)
+
+### [[Old School Pass]] (1% of attempts)
 
 
 

@@ -1,10 +1,14 @@
 {
   "name": "Overhook Control Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Overhook Control Sweep.",
+  "description": "Master the Overhook Control Sweep in BJJ. Complete guide to sweeping from bottom whizzer grip to mount with execution steps, counters, and defense strategies.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "sweep",
+    "overhook",
+    "whizzer",
+    "guard",
+    "bottom"
   ],
   "from_position": "Overhook Control/Bottom",
   "outcomes": [
@@ -19,120 +23,382 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Overhook Control Sweep.",
+  "overview": "The Overhook Control Sweep is a high-percentage sweeping technique executed from bottom position when the bottom player has established a tight overhook grip on the opponent's arm. This sweep capitalizes on the structural vulnerability created by the overhook: with one arm elevated and controlled, the opponent's base is fundamentally compromised on the controlled side. By combining the overhook pull with hip movement and leg leverage, the bottom player generates a sweeping force that the top player cannot resist without abandoning their position entirely.\n\nThe sweep works by exploiting the principle that an opponent with one arm trapped above their power line cannot effectively post to prevent being swept toward that side. The bottom player initiates by angling their hips, setting a butterfly hook or positioning their outside leg for elevation, and then driving the opponent over using a coordinated pull-and-lift motion. The overhook grip acts as both the steering mechanism and the primary anchor, guiding the opponent across the bottom player's body and directly into the mount position.\n\nStrategically, the Overhook Control Sweep serves as the primary offensive weapon from bottom overhook position, creating a fundamental dilemma for the top player. If they resist the sweep by posting wide, they open pathways for arm drags and back takes. If they drive forward to prevent the sweep angle, they become vulnerable to guillotines and front headlock entries. This branching threat structure makes the overhook sweep the centerpiece of bottom overhook guard systems and rewards practitioners who develop reliable sweep mechanics from this position.",
   "conditions": [
-    "TODO"
+    "Bottom player has established tight overhook with armpit sealed over opponent's shoulder",
+    "Opponent's weight is within sweeping range and not fully disengaged from guard engagement",
+    "Bottom player has at least one leg available for hook placement or elevation leverage",
+    "Bottom player's hips are mobile with sufficient space to angle toward the sweep direction",
+    "Opponent's free hand is not firmly posted in a position that completely blocks the sweep angle"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Butterfly Hook Overhook Sweep",
+      "description": "Combines the overhook pull with a butterfly hook elevation underneath the opponent's thigh. The hook provides the primary lifting force while the overhook directs the sweep angle. The butterfly hook version generates more vertical displacement, making it effective against opponents with wide bases who are difficult to sweep laterally.",
+      "when_to_use": "When you have established butterfly guard hooks in addition to the overhook grip, particularly effective against kneeling opponents driving forward into your guard"
+    },
+    {
+      "variant_name": "Bridge-Based Overhook Sweep",
+      "description": "Uses an explosive hip bridge combined with the overhook pull rather than leg elevation. The bottom player bridges powerfully toward the overhook side while pulling the opponent's trapped arm across their body. This variant relies on hip drive rather than hook elevation and works from positions where butterfly hooks are unavailable, such as half guard or closed guard with overhook.",
+      "when_to_use": "When butterfly hooks are not available due to leg entanglement or half guard position, effective against opponents who maintain low chest-to-chest pressure"
+    },
+    {
+      "variant_name": "Pendulum Overhook Sweep",
+      "description": "Integrates a pendulum leg swing on the non-overhook side to generate rotational momentum that combines with the overhook pull. The outside leg swings high while the inside leg blocks the opponent's knee, creating a powerful rotational force that carries the opponent over. This variant is particularly effective against larger opponents where direct elevation is difficult.",
+      "when_to_use": "Against larger or heavier opponents where direct elevation is insufficient, or when you have space to swing your outside leg for momentum generation"
     }
   ],
-  "position_integration": "TODO: Write position integration for Overhook Control Sweep.",
+  "position_integration": "The Overhook Control Sweep integrates directly into the bottom overhook guard system as the primary positional advancement tool. It connects the Overhook Control position to Mount, creating a direct path from bottom guard to the highest-scoring position in BJJ. The sweep threat forces opponents to respect the overhook grip, which in turn opens pathways for arm drags to back control, guillotine entries, and triangle setups. Without a credible sweep threat from bottom overhook, opponents can safely address the grip without consequence. This sweep also chains with the Homer Simpson Sweep and butterfly hook sweeps, creating a comprehensive bottom game where every defensive reaction from the top player opens a different attacking pathway. Mastering this sweep transforms the bottom overhook from a defensive holding pattern into an aggressive attacking platform.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Overhook Control",
+      "relationship": "Source position where this sweep is initiated from bottom overhook guard"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Degraded position attacker falls to when sweep is countered and overhook is stripped"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Dedicated guard system built around the overhook grip that includes this sweep as a primary weapon"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Guard position frequently combined with overhook for the butterfly hook variant of this sweep"
+    },
+    {
+      "name": "Butterfly Hook Sweep",
+      "relationship": "Related sweep technique sharing similar mechanics of hook elevation combined with upper body control"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative guard position where overhook battles occur and bridge-based variant is commonly applied"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement target from overhook when sweep is defended by wide posting"
+    },
+    {
+      "name": "Arm Drag",
+      "relationship": "Chain attack available when opponent defends the sweep by pulling their arm backward"
     }
   ],
   "attacker": {
     "name": "Overhook Control Sweep Attacker",
-    "description": "TODO: Write attacker description for Overhook Control Sweep.",
-    "overview": "TODO: Write attacker overview for Overhook Control Sweep.",
+    "description": "Master executing the Overhook Control Sweep from bottom position. Step-by-step technique guide covering setup, timing, hip mechanics, and follow-through to mount.",
+    "overview": "Executing the Overhook Control Sweep requires precise coordination between your overhook grip, hip angle, and leg positioning. The sweep depends on breaking your opponent's base through the overhook side while simultaneously generating upward or rotational force with your legs and hips. Timing is critical: initiating the sweep when your opponent's weight is committed forward or when they are transitioning between positions dramatically increases success rate. Your free hand must actively contribute by controlling their head, collar, or opposite arm to prevent the posting that would stop the sweep. The most common execution error is treating this as an arm-strength technique rather than a full-body coordinated movement. Power generation comes from hip drive and leg elevation while the overhook serves as the directional control mechanism that prevents your opponent from recovering their base.",
     "key_principles": [
-      "TODO"
+      "Armpit seal creates sweep control - the tight connection between your armpit and their shoulder is the foundation that makes the entire sweep possible",
+      "Hip angle precedes sweep initiation - angle your hips toward the sweep direction before committing to generate maximum rotational force",
+      "Legs provide power, overhook provides direction - never try to pull them over with arm strength alone; use hook elevation or hip bridge as the primary engine",
+      "Break their posture before sweeping - pull their weight forward and down with the overhook to compromise their base before initiating the sweep",
+      "Control the free hand - their ability to post with their non-trapped hand is the primary defense against this sweep; address it before or during execution",
+      "Follow through completely - maintain overhook control through the entire sweep arc and settle into mount with weight through your hips immediately"
     ],
     "setup_requirements": [
-      "TODO"
+      "Tight overhook established with armpit sealed completely over opponent's shoulder with zero gap between your armpit and their shoulder joint",
+      "Grip secured high behind opponent's back or shoulder blade, not low on their waist where leverage is insufficient for sweep generation",
+      "Hips angled toward the sweep direction with sufficient mobility to generate rotational or bridging force without obstruction",
+      "At least one leg positioned for leverage: butterfly hook under their thigh, foot on hip, or outside leg ready for pendulum swing",
+      "Free hand controlling opponent's head, collar, or opposite arm to prevent posting defense during sweep execution"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify overhook seal and grip position",
+        "description": "Confirm your armpit is sealed tightly over opponent's shoulder with no gap. Grip should be high on their shoulder blade or behind their neck. If the seal is loose, tighten it by driving your shoulder down and pulling your elbow to your ribs before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish secondary control with free hand",
+        "description": "Use your non-overhook hand to control opponent's head by cupping behind their neck, gripping their collar, or controlling their opposite wrist. This secondary control prevents them from posting their free hand to block the sweep and breaks their posture forward."
+      },
+      {
+        "step_number": 3,
+        "action": "Set leg leverage position",
+        "description": "Insert a butterfly hook under opponent's near-side thigh for the hook variant, or position your outside foot on the mat for hip bridge power. Your inside leg should block their knee or hip to create a fulcrum point. The leg positioning determines whether you sweep with elevation or rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Angle hips toward sweep direction",
+        "description": "Shift your hips toward the overhook side by performing a small hip escape. This angle creates the mechanical pathway for the sweep and loads your legs for maximum force generation. Your body should form a diagonal line rather than lying flat and square beneath your opponent."
+      },
+      {
+        "step_number": 5,
+        "action": "Break opponent's posture and weight distribution",
+        "description": "Pull opponent's weight forward and toward the overhook side using a sharp downward pull on the overhook combined with your free hand pulling their head or collar. Their center of gravity must shift over the sweep fulcrum point before you initiate the sweep itself."
+      },
+      {
+        "step_number": 6,
+        "action": "Initiate sweep with coordinated pull and lift",
+        "description": "Simultaneously drive your hips upward while pulling the overhook arm across your body toward the mat on your non-overhook side. If using butterfly hook, elevate powerfully. If bridge-based, explosively bridge toward the overhook side. The combined force of leg drive and overhook pull creates an irresistible sweeping vector."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through over the top",
+        "description": "As opponent begins to roll, maintain the overhook connection and follow their momentum by coming up on top. Do not release the overhook during the transition. Continue driving forward until you have completely cleared their guard and established top position with your hips over their torso."
+      },
+      {
+        "step_number": 8,
+        "action": "Settle into mount position",
+        "description": "Once on top, immediately establish mount by driving your hips down onto opponent's torso with knees positioned on either side. You may release the overhook to establish mount grips, or maintain it briefly to prevent opponent from turning away. Spread your base and settle your weight to consolidate the position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent posts free hand on the mat to block the sweep direction",
+        "effectiveness": "High",
+        "your_response": "Release secondary grip and immediately attack the posting arm with a Kimura or wrist control. Alternatively, switch to an arm drag on the overhook side since their weight is now committed to the posting arm. The post creates a new vulnerability even as it stops the sweep.",
+        "targets_outcome": "Overhook Control/Bottom"
+      },
+      {
+        "counter": "Opponent widens base by stepping leg out to the sweep side",
+        "effectiveness": "High",
+        "your_response": "Adjust sweep angle by angling hips further or switch to a pendulum variation using your outside leg to sweep their posted leg. If their base is too wide, abandon the sweep and transition to an arm drag or back take attempt since their wide base exposes their back.",
+        "targets_outcome": "Overhook Control/Bottom"
+      },
+      {
+        "counter": "Opponent strips overhook by limp-arming or forcefully rotating their shoulder free",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "As they pull their arm free, immediately transition to an arm drag using the momentum of their pull. Their arm extraction movement exposes their back. If the arm drag fails, recover to open guard and re-establish grips before they can advance their passing position.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives weight forward and flattens your hips to prevent elevation",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward pressure against them by switching to a guillotine entry or front headlock control with your free hand. Alternatively, frame against their shoulder and create space to re-angle your hips. Their forward drive actually loads the bridge-based sweep variant if you can maintain hip mobility.",
         "targets_outcome": "Overhook Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to sweep using arm strength alone without engaging hips and legs",
+        "consequence": "Sweep fails because the overhook pull lacks sufficient force to move opponent's entire body weight. Energy is wasted rapidly as arms fatigue against bodyweight resistance. Opponent easily maintains position and may strip the weakened overhook grip.",
+        "correction": "Generate primary sweeping force through hip bridge or butterfly hook elevation. The overhook arm provides direction and prevents posting but should not be the primary power source. Coordinate the pull with explosive hip or leg drive for maximum effect."
+      },
+      {
+        "error": "Initiating sweep before breaking opponent's posture and weight distribution",
+        "consequence": "Opponent's weight is centered over their base, making the sweep feel impossibly heavy. The sweep attempt telegraphs your intention without creating the structural vulnerability needed for success. Opponent braces and easily defends.",
+        "correction": "Always break opponent's posture first by pulling their weight forward with the overhook and head control. Their center of gravity must shift over the sweep fulcrum before you commit to the sweep motion. The setup is more important than the sweep itself."
+      },
+      {
+        "error": "Failing to control opponent's free hand, allowing them to post and block",
+        "consequence": "Opponent posts their free hand on the mat and completely stops the sweep momentum. The sweep energy is wasted and you end up in the same position but with less energy and a potentially loosened overhook grip.",
+        "correction": "Establish secondary control on opponent's head, collar, or opposite wrist before initiating the sweep. If you cannot control the free hand, use your head position or shoulder pressure to occupy the space where they would post."
+      },
+      {
+        "error": "Lying flat on back without angling hips toward the sweep direction",
+        "consequence": "No mechanical advantage is created for the sweep. The flat position eliminates the rotational pathway needed for the sweep to function. Force is directed straight up rather than at the diagonal angle required to topple opponent's base.",
+        "correction": "Perform a small hip escape to angle your body toward the sweep direction before initiating. Your torso should form a diagonal line relative to opponent's body, creating the rotational leverage that makes the sweep mechanically sound."
+      },
+      {
+        "error": "Releasing overhook grip during the sweep transition before establishing top position",
+        "consequence": "Opponent recovers base mid-sweep and either returns to top position or scrambles to a more dominant position. The sweep momentum is lost and you end up in a worse position than you started without the overhook control.",
+        "correction": "Maintain the overhook connection throughout the entire sweep arc until you have clearly established mount on top. Only release the overhook after your hips are settled on their torso and you are ready to transition to mount-specific grips."
+      },
+      {
+        "error": "Telegraphing the sweep by loading the hook or shifting weight obviously before initiating",
+        "consequence": "Opponent recognizes the sweep setup and pre-emptively addresses it by adjusting base, stripping the overhook, or posting before you can execute. Predictable timing allows experienced opponents to shut down the sweep consistently.",
+        "correction": "Disguise the sweep setup by combining it with other threats. Pull the overhook as if threatening a Kimura or arm drag, then redirect into the sweep when opponent reacts to the feint. The best sweeps come from transitions between attacks rather than obvious setups."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Isolate hip bridge and hook elevation with overhook grip",
+        "description": "Practice the sweep motion with a fully cooperative partner. Focus on the coordination between overhook pull, hip angle, and leg drive. Perform 20 repetitions per side, emphasizing the timing of each component. Partner provides zero resistance to allow focus on movement quality and sequencing."
+      },
+      {
+        "phase": "Phase 2: Timing and Setup",
+        "focus": "Posture breaking and sweep initiation timing",
+        "description": "Add the posture-breaking setup phase before each sweep attempt. Partner maintains static top position while you practice the complete sequence: establish overhook, break posture, angle hips, set hook, execute sweep. Focus on the rhythm of setup-to-sweep and identifying when opponent's weight has shifted enough to sweep."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing sweep against increasing defensive reactions",
+        "description": "Partner provides progressive resistance: first 30% allowing sweep to succeed with effort, then 50% requiring good timing and mechanics, then 70% requiring setup feints and secondary grip work. Practice identifying and responding to posting defense, base widening, and overhook stripping attempts during sweep execution."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Combining sweep with alternative attacks when defended",
+        "description": "Practice the full attacking chain from overhook control. Attempt the sweep; if defended by posting, transition to arm drag or Kimura. If defended by base widening, switch to back take. If overhook is stripped, recover to open guard attacks. Develop automatic transitions between the sweep and its chain alternatives."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Applying sweep in positional sparring from overhook control",
+        "description": "Positional sparring starting from bottom overhook control. Top player works to pass or disengage while bottom player works to sweep, submit, or take the back. Full resistance with reset on position change. Track sweep success rate and identify which defensive reactions create the best chain attack opportunities."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Overhook Control Sweep?",
+        "answer": "The optimal timing is immediately after breaking the opponent's posture forward and their weight shifts over the sweep fulcrum point. Specifically, initiate when you feel their weight commit toward the overhook side, either because you pulled them there or because they drove forward on their own. Sweeping against a centered, balanced opponent is extremely difficult; the setup must create the weight shift before the sweep motion begins."
+      },
+      {
+        "question": "What entry conditions must exist before you can attempt this sweep?",
+        "answer": "Five conditions must be present: tight overhook with armpit sealed over opponent's shoulder, grip positioned high on their back or shoulder blade, hips mobile and angled toward the sweep direction, at least one leg positioned for leverage (hook or bridge platform), and some form of control on opponent's free hand to prevent posting. Missing any one of these significantly reduces success probability."
+      },
+      {
+        "question": "What is the most critical mechanical detail that separates successful sweeps from failed attempts?",
+        "answer": "The coordination between the overhook pull direction and the leg/hip drive direction is the most critical detail. The overhook must pull the opponent's arm across your body toward the mat on your non-overhook side while your hips and legs drive upward and toward the same direction. These forces must be simultaneous and complementary. When they are sequential rather than simultaneous, the opponent has time to adjust between each force application and defend."
+      },
+      {
+        "question": "Your opponent posts their free hand firmly on the mat when you begin the sweep - how do you adjust?",
+        "answer": "Immediately abandon the sweep direction and attack the posting arm. Release your secondary grip and secure their posting wrist for a Kimura setup, or use the momentum shift to perform an arm drag on the overhook side toward their back. Their weight committed to the posting arm creates a new vulnerability. Never try to muscle through a firmly posted arm - redirect to an alternative attack that exploits their defensive commitment."
+      },
+      {
+        "question": "What grip height on the opponent's back provides maximum sweep leverage?",
+        "answer": "The grip should be high on the opponent's shoulder blade or behind their neck. High grip positioning maximizes the lever arm of the overhook, allowing you to control their posture and direct the sweep angle with less force. A grip low on the waist or lower back provides insufficient leverage because the short lever arm cannot generate enough rotational force to break their base. Constantly readjust the grip upward as they move."
+      },
+      {
+        "question": "What is the primary direction of force during the sweep execution?",
+        "answer": "The force direction is diagonal: upward and toward the overhook side simultaneously. The overhook arm pulls horizontally across your body while the legs or hips drive vertically upward. The resultant vector is a diagonal arc that rolls the opponent over the fulcrum point created by your leg positioning. Purely horizontal pulling or purely vertical lifting are both insufficient; the combined diagonal vector is what makes the sweep mechanically sound."
+      },
+      {
+        "question": "Your opponent strips your overhook by rotating their shoulder forcefully during the sweep attempt - what do you do?",
+        "answer": "Immediately convert the failed overhook into an arm drag by catching their wrist or elbow as it pulls free. Their arm extraction motion creates backward momentum that you can redirect into a back take by circling behind them. If the arm drag window has passed, immediately establish frames and recover to open guard before they can capitalize on the lost control. Do not chase the failing overhook grip; transition proactively to the next best option."
+      },
+      {
+        "question": "If the sweep is blocked and you remain in overhook control, what chain attacks should you threaten next?",
+        "answer": "The primary chain attacks after a blocked sweep are: Kimura entry when opponent pulls their arm back against the overhook, arm drag to back take when opponent attempts to posture away, guillotine or front headlock entry when opponent drives forward to prevent another sweep attempt, and a re-attempt of the sweep from a different angle or variant. The key is reading which defensive adjustment the opponent makes after blocking the sweep and selecting the corresponding chain attack."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Overhook Control Sweep."
+    "safety_considerations": "The Overhook Control Sweep is generally safe when executed with proper technique. Primary injury risks include shoulder strain on the trapped arm if the top player resists by posting aggressively while their arm is deeply controlled. Avoid cranking the overhook aggressively during drilling as this can strain the trapped shoulder's rotator cuff. During the sweep transition, control the landing to prevent your partner from landing on their head or neck. Release the overhook immediately if your partner indicates shoulder discomfort. When drilling bridge-based variants, ensure the training area is clear of other practitioners to prevent collisions during the rolling motion."
   },
   "defender": {
     "name": "Overhook Control Sweep Defender",
-    "description": "TODO: Write defender description for Overhook Control Sweep.",
-    "overview": "TODO: Write defender overview for Overhook Control Sweep.",
+    "description": "Master defending the Overhook Control Sweep in BJJ. Recognition cues, defensive options, and counter strategies when opponent attempts to sweep from bottom overhook.",
+    "overview": "Defending the Overhook Control Sweep requires recognizing the setup cues early and addressing the structural vulnerability before the sweep is initiated. The primary threat comes from the combination of your trapped arm removing your posting ability on one side while the bottom player generates lifting force with their legs and hips. Early recognition of hip angle changes, hook insertion, and overhook tightening allows you to address the sweep threat before it becomes unstoppable through base adjustments and grip breaking. The fundamental defensive principle is maintaining bilateral posting ability: as long as you can post on both sides of the bottom player, no directional sweep can succeed. This means either freeing your trapped arm, establishing an alternative posting mechanism, or removing the leg leverage that powers the sweep.",
     "key_principles": [
-      "TODO"
+      "Maintain base width - keep feet and knees wide enough that no single-direction sweep can topple your structure even with one arm controlled",
+      "Address the overhook before the sweep - strip or neutralize the overhook grip proactively rather than waiting to defend the sweep itself",
+      "Prevent hip angling - keep pressure on opponent's hips to prevent them from creating the diagonal body angle that enables the sweep",
+      "Control the hook leg - identify and neutralize the butterfly hook or elevation leg before it can generate upward force",
+      "Post early and decisively - when you feel the sweep initiation, immediately post your free hand on the mat with full arm extension",
+      "Drive weight forward into opponent - forward pressure flattens their hips and eliminates the space they need to generate sweep momentum"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player tightens the overhook seal and pulls your arm tighter against their body, removing any slack in the grip",
+      "Bottom player performs a hip escape to angle their body toward the sweep direction rather than lying flat beneath you",
+      "Bottom player inserts a butterfly hook under your thigh or repositions their outside leg for pendulum swing or bridge",
+      "Bottom player's free hand moves to control your head, collar, or opposite wrist rather than framing against your body",
+      "You feel your posture being pulled forward and downward as bottom player loads the sweep by breaking your weight distribution",
+      "Bottom player's breathing changes to a sharp exhale indicating they are about to commit to an explosive movement"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Post free hand firmly on the mat toward the sweep direction",
+        "when_to_use": "Immediately when you feel the sweep initiation or recognize the hip angle and hook setup indicating an imminent sweep attempt",
         "targets_outcome": "Overhook Control/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Sweep is completely stopped and you maintain top position with opponent still in bottom overhook control, though you must now address the overhook grip",
+        "risk": "Your posted arm becomes vulnerable to Kimura attacks or arm drags if the bottom player transitions away from the sweep to chain attacks"
+      },
+      {
+        "action": "Strip the overhook by rotating your shoulder and performing a limp-arm escape through the gap",
+        "when_to_use": "When you recognize the sweep setup early and have time to address the grip before the sweep is fully loaded, or when there is any gap in the armpit seal",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Overhook control is broken entirely, removing both the sweep threat and all chain attacks from the overhook position, transitioning to standard open guard passing",
+        "risk": "If the bottom player reads your escape attempt, they can convert your arm extraction into an arm drag to take your back"
+      },
+      {
+        "action": "Drive weight forward and flatten opponent's hips to eliminate sweep leverage",
+        "when_to_use": "When bottom player begins angling their hips but has not yet fully committed to the sweep motion, particularly effective against bridge-based variants",
+        "targets_outcome": "Overhook Control/Bottom",
+        "if_successful": "Opponent's hips are pinned flat, removing the angle and space needed to generate sweep force, though they retain the overhook grip",
+        "risk": "Forward pressure commitment can be redirected into guillotine or front headlock entries if bottom player adapts to your drive"
+      },
+      {
+        "action": "Widen base by stepping your near-side leg out and dropping your hip to the mat",
+        "when_to_use": "When you feel the sweep beginning but cannot post or strip the overhook in time, spreading base creates structural resistance against the rotational sweep force",
+        "targets_outcome": "Overhook Control/Bottom",
+        "if_successful": "Wide base prevents the sweep from generating enough rotational force to topple you, buying time to address the overhook grip or recompose your position",
+        "risk": "Wide base can expose passing angles if bottom player abandons the sweep and transitions to other guard attacks or recomposition movements"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Top",
-        "how": "TODO"
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the overhook grip by rotating your shoulder, performing a limp-arm escape, or using your free hand to peel their grip. Once the overhook is broken, immediately establish passing grips and begin advancing past their guard before they can re-establish the overhook or transition to another guard system."
+      },
+      {
+        "outcome": "Overhook Control/Bottom",
+        "how": "Stuff the sweep by posting firmly, widening your base, or driving your weight forward to flatten their hips. Once the sweep attempt is neutralized, immediately work to strip the overhook grip or advance your passing position while they recover from the failed sweep attempt."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Reaching across body with free hand to grab opponent's leg or hip during sweep",
+        "consequence": "Exposes the reaching arm to Kimura attacks and removes your primary posting ability on the sweep side. You lose your most effective defensive tool while creating a new submission vulnerability.",
+        "correction": "Post your free hand on the mat toward the sweep direction with full arm extension. The post stops the sweep immediately. Keep your free arm on your side of the engagement rather than reaching across to grab."
+      },
+      {
+        "error": "Stiffening entire body and resisting the sweep with rigid muscular tension",
+        "consequence": "Rapid energy expenditure without addressing the root cause of the sweep threat. Rigidity prevents the base adjustments needed to defend, and once your muscles fatigue, the sweep succeeds with minimal effort from the bottom player.",
+        "correction": "Use structural defenses: post, widen base, address the overhook grip. Technical positioning beats muscular resistance. Keep your body mobile and ready to adjust rather than locked in place."
+      },
+      {
+        "error": "Allowing the overhook to tighten progressively without addressing it",
+        "consequence": "Each incremental tightening of the overhook further compromises your base and posting ability. By the time the sweep is initiated, the overhook is so deep that no posting or base adjustment can save the position.",
+        "correction": "Address the overhook early and continuously. Work to create gaps in the armpit seal, rotate your shoulder to prevent deepening, and actively fight the grip from the moment it is established rather than accepting it passively."
+      },
+      {
+        "error": "Keeping a narrow base with knees close together while controlled by the overhook",
+        "consequence": "Narrow base is easily toppled by the directional sweep force. With one arm controlled and a narrow base, there is no structural resistance to the sweep in any direction.",
+        "correction": "Immediately widen your base when you feel the overhook established. Step your near-side knee out and lower your center of gravity. A wide base with one arm trapped is much harder to sweep than a narrow base."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that an Overhook Control Sweep is being set up?",
+        "answer": "The earliest cue is the bottom player tightening their armpit seal and simultaneously shifting their hips to angle toward the sweep direction. This combination of grip tightening and hip angling is the preparatory phase that precedes all variants of the sweep. Recognizing this early allows you to address the threat before hooks are set and posture is broken, when defensive options are most numerous."
+      },
+      {
+        "question": "Your opponent has established a tight overhook and begins inserting a butterfly hook - what is your immediate response?",
+        "answer": "Immediately address the hook by pushing their hooking leg down with your hand or knee, then drive your weight forward to flatten their hips and eliminate the space needed for hook elevation. Simultaneously work to strip the overhook by rotating your shoulder. The hook and the overhook together create the sweep; removing either one neutralizes the threat. Prioritize the hook if you cannot strip the overhook quickly."
+      },
+      {
+        "question": "Why is posting your free hand more effective than widening your base as an initial sweep defense?",
+        "answer": "Posting creates an immediate structural barrier that completely stops the sweep momentum in the specific direction it is being applied. Base widening distributes resistance across all directions but may not provide sufficient resistance in the sweep direction against a fully committed sweep attempt. However, posting exposes your arm to chain attacks like Kimura, so the ideal sequence is post to stop the immediate sweep, then widen base and strip the overhook before the bottom player can transition to arm attacks."
+      },
+      {
+        "question": "How do you defend the bridge-based overhook sweep variant when the bottom player has no butterfly hook?",
+        "answer": "Against the bridge variant, drive your weight forward and down onto the bottom player's hips to prevent them from generating the upward hip drive needed for the bridge. Spread your knees wide to create maximum base against the rotational force. Keep your head tight to their body rather than posturing up, as the bridge is most effective when your weight is high. If you feel the bridge initiate, immediately flatten your hips and sprawl your legs back to absorb the force."
+      },
+      {
+        "question": "What defensive priorities should you follow when the sweep has already been partially initiated?",
+        "answer": "Once the sweep is in motion, the priority hierarchy is: first, post your free hand immediately to stop the momentum; second, drive your weight into the direction opposite the sweep to counter the rotational force; third, if you are past the tipping point and the sweep will succeed, release the overhook-side arm and begin planning your guard recovery from mount bottom rather than fighting the inevitable sweep in a position that could result in being mounted with your arm still trapped."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sweep setup cues before execution begins",
+        "description": "Partner establishes overhook and cycles through different sweep setups: hook insertion, hip angling, posture breaking, and grip tightening. Defender calls out each cue as they recognize it without attempting to defend. Build pattern recognition for all sweep variants and their specific preparatory movements."
+      },
+      {
+        "phase": "Phase 2: Defensive Reactions",
+        "focus": "Practicing individual defensive techniques in isolation",
+        "description": "Partner performs the sweep at 50% speed and resistance. Defender practices each defensive option individually: posting, base widening, overhook stripping, and forward pressure. Repeat each defense 15-20 times to develop automatic responses. Partner provides feedback on timing and effectiveness."
+      },
+      {
+        "phase": "Phase 3: Combined Defense",
+        "focus": "Chaining defensive options against varied sweep attacks",
+        "description": "Partner attempts different sweep variants at 70% intensity. Defender must select and execute appropriate defensive response based on which variant is being attempted. Practice transitioning between defensive options when the initial response is insufficient. Develop decision-making speed under pressure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Defending in full-resistance positional sparring",
+        "description": "Full-resistance positional sparring starting in overhook control. Bottom player attempts all sweeps and chain attacks while top player works to defend sweeps and strip the overhook to advance passing position. Track sweep defense success rate and identify which defensive reactions need refinement."
       }
     ]
   }

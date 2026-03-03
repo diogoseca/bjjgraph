@@ -565,35 +565,39 @@
     "transitions": [
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Hitchhiker Escape",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Bridge and Roll",
         "attempt_probability": 13
       },
       {
-        "transition": "Rolling Escape to Guard",
-        "attempt_probability": 10
+        "transition": "Stack Defense",
+        "attempt_probability": 13
       },
       {
-        "transition": "Hip Escape to Turtle",
+        "transition": "Arm Extraction",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Hitchhiker Escape",
+        "attempt_probability": 23
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rolling Escape to Guard",
         "attempt_probability": 9
       },
       {
-        "transition": "Armbar Defense",
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": 8
+      },
+      {
+        "transition": "Armbar Defense",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Hitchhiker Escape from Armbar",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [

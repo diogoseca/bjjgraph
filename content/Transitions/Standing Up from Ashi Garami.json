@@ -1,15 +1,19 @@
 {
   "name": "Standing Up from Ashi Garami",
-  "description": "TODO: Write 150-160 character SEO description for Standing Up from Ashi Garami.",
+  "description": "Learn how to stand up from Ashi Garami in BJJ. Complete guide to disengaging leg entanglements, recovering standing position, and strategic repositioning.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "ashi-garami",
+    "leg-entanglement",
+    "standing",
+    "disengagement",
+    "positional-strategy"
   ],
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
-      "to": "Standing Position/Bottom",
+      "to": "Standing Position",
       "probability": 55,
       "result": "success"
     },
@@ -25,114 +29,369 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Standing Up from Ashi Garami.",
+  "overview": "Standing Up from Ashi Garami represents a strategic repositioning tool available to the bottom player in leg entanglement exchanges. Rather than continuing the ground-based leg lock battle, this transition allows the practitioner to disengage from the entanglement and return to a neutral standing position. While the ashi garami system offers potent offensive options, situations arise where standing up becomes the optimal tactical choice—when the entanglement exchange has stalled, when the opponent has achieved defensive positioning that prevents hierarchy advancement, or when the practitioner recognizes a more favorable strategic path through standing engagement.\n\nThe mechanics of standing up from ashi garami require careful management of the disengagement sequence. Simply releasing leg control and standing creates opportunities for the opponent to attack during the transition. Instead, the practitioner must systematically clear connection points, establish frames to prevent the opponent from following into a new entanglement, and time the stand-up to coincide with moments of reduced opponent control. The transition demands understanding of when and how to safely release hooks, how to manage distance during the standing phase, and how to immediately establish proper standing posture upon completion.\n\nThis transition occupies a niche but important role in the leg lock practitioner's arsenal. Advanced players recognize that the ability to freely enter and exit leg entanglement positions creates a strategic advantage—opponents cannot rely on stalling or defensive positioning to neutralize the leg lock threat if the attacker can simply disengage and re-engage from a different angle. The threat of standing up also creates tactical pressure, as opponents who focus entirely on defense may find themselves in worse positions when the bottom player changes levels and repositions.",
   "conditions": [
-    "TODO"
+    "Bottom player has established ashi garami position with at least basic leg control",
+    "Opponent is maintaining defensive positioning that prevents hierarchy advancement",
+    "Sufficient space to begin the standing motion without immediate counter-attack",
+    "Arms are free to establish frames and support the standing transition"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Technical Stand-Up Disengage",
+      "description": "Full release of all leg hooks followed by a technical stand-up motion using hand posts and hip elevation. Prioritizes clean separation and immediate standing base establishment over maintaining any residual leg control.",
+      "when_to_use": "When you want a complete reset to neutral standing and the opponent's hooks are loose enough to release cleanly without resistance."
+    },
+    {
+      "variant_name": "Standing Leg Control Retention",
+      "description": "Stand up while maintaining a grip on the opponent's ankle or foot, transitioning from ground-based ashi garami to a standing ankle lock position or toreando-style passing grip. Preserves offensive options during the level change.",
+      "when_to_use": "When the opponent's foot or ankle is accessible and you want to maintain offensive pressure rather than fully disengaging to neutral."
+    },
+    {
+      "variant_name": "Explosive Pop-Up",
+      "description": "Rapid, explosive stand-up executed during a momentary lapse in opponent's hook tension or attention. Bypasses the gradual disengagement sequence in favor of speed and surprise to achieve standing before the opponent can react.",
+      "when_to_use": "When the opponent momentarily loosens hooks to adjust grips or reposition, creating a brief window for explosive disengagement."
     }
   ],
-  "position_integration": "TODO: Write position integration for Standing Up from Ashi Garami.",
+  "position_integration": "Standing Up from Ashi Garami connects the leg entanglement system to the standing game, creating a complete positional loop in the BJJ state machine. This transition enables practitioners to cycle between standing engagement, guard pulling into leg entries, ashi garami attacks, and back to standing when entanglement exchanges stall. The ability to disengage from ashi garami prevents the position from becoming a dead end, ensuring the leg lock practitioner always maintains positional optionality. This transition also complements guard pulling strategies by allowing practitioners to return to standing and re-attempt entries from different angles, making the entire leg lock game more threatening through the constant possibility of tactical reset and re-engagement.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Ashi Garami",
+      "relationship": "Source position from which this standing transition is initiated"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Primary target position upon successful disengagement from leg entanglement"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome position when opponent retains guard hooks during standing attempt"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related escape transition used by the top player to extract from leg entanglements"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common re-entry position for leg entanglements after returning to standing"
+    },
+    {
+      "name": "Ankle Lock Escape to Standing",
+      "relationship": "Similar standing escape concept from a different leg lock control position"
+    },
+    {
+      "name": "Heel Strip from Ashi Garami",
+      "relationship": "Alternative disengagement technique focused on breaking heel control rather than standing"
+    },
+    {
+      "name": "Technical Stand Up from Open Guard",
+      "relationship": "Related standing transition sharing similar hip drive and base establishment mechanics"
+    },
+    {
+      "name": "Inside Ashi Entry",
+      "relationship": "Re-engagement option available after standing up and choosing to re-enter leg entanglements"
+    },
+    {
+      "name": "Ashi Garami Maintenance",
+      "relationship": "Alternative to standing up—maintaining current ashi garami control rather than disengaging"
     }
   ],
   "attacker": {
     "name": "Standing Up from Ashi Garami Attacker",
-    "description": "TODO: Write attacker description for Standing Up from Ashi Garami.",
-    "overview": "TODO: Write attacker overview for Standing Up from Ashi Garami.",
+    "description": "Master the attacker's approach to standing up from Ashi Garami. Step-by-step disengagement mechanics, timing windows, and strategic repositioning from leg entanglements.",
+    "overview": "As the attacker executing Standing Up from Ashi Garami, you are the bottom player choosing to disengage from the leg entanglement and return to a standing position. This is a strategic decision requiring precise timing and mechanical understanding of how to safely release hooks, manage distance, and transition through the vulnerable standing phase without exposing yourself to sweeps or counter-attacks. Success depends on recognizing when the entanglement exchange has stalled and committing fully to the stand-up sequence rather than hesitating between maintaining ashi garami and standing. The transition demands sequential release of connection points, proper framing, and explosive hip drive to create the distance needed for a clean disengagement.",
     "key_principles": [
-      "TODO"
+      "Commit fully to the stand-up once initiated—hesitation between maintaining ashi garami and standing creates maximum vulnerability in the transition",
+      "Clear opponent's connection points systematically before attempting to stand, starting with the most dangerous hooks first",
+      "Establish strong frames before releasing leg control to prevent opponent from following into a new entanglement or pulling you back down",
+      "Time the stand-up to coincide with opponent's defensive reset or momentary grip relaxation for highest success probability",
+      "Maintain posture and base throughout the standing phase to prevent being pulled back down or swept during the level change",
+      "Use the standing threat itself as a tactical tool—the possibility of disengagement forces opponent reactions that may open other offensive opportunities"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established ashi garami position from bottom with at least basic leg control configuration",
+      "Recognition that current entanglement exchange has stalled or opponent's defensive positioning prevents hierarchy advancement",
+      "Sufficient space to initiate the standing motion without immediate counter-attack from opponent",
+      "Arms free to establish frames and post during the standing phase without being trapped in opponent's grips",
+      "Opponent's upper body control is minimal, allowing hip freedom for the standing motion"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess Position and Commit",
+        "description": "Evaluate the current leg entanglement exchange and confirm that standing up is the optimal tactical choice. Check that opponent's grips are manageable, their hooks are not deeply set, and you have sufficient arm freedom to frame. Mental commitment is critical—half-hearted stand-up attempts are more dangerous than staying in ashi garami because they expose you to attacks during the transition without gaining positional advantage."
+      },
+      {
+        "step_number": 2,
+        "action": "Release Non-Essential Hooks",
+        "description": "Begin releasing your secondary leg hooks and grip connections that are maintaining the entanglement. Start with the outside hook or foot positioning that provides least control value. Maintain your primary inside hook as long as possible to prevent opponent from immediately re-establishing guard or scrambling to a better position during the disengagement sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish Frames",
+        "description": "Plant your hands on the mat or on opponent's body to create structural frames that will support the standing motion. Frame against opponent's near hip or knee to prevent them from closing distance as you begin to rise. Your arms must create a physical barrier between your hips and the opponent's body that replaces the control previously provided by your leg hooks."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive Hips Up and Back",
+        "description": "Using your frames as support, drive your hips up and backward in a single powerful motion. This hip drive should create maximum distance between you and the opponent while simultaneously elevating your center of gravity toward a standing position. Avoid bending forward at the waist—maintain an upright torso as much as possible to preserve base and prevent being snapped down."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear Final Leg Connection",
+        "description": "As your hips rise, extract your remaining leg from the entanglement by pulling your knee toward your chest and stepping your foot to the mat. This extraction must be timed with the hip drive to prevent the opponent from re-catching your leg during the transition. Use your free hand to push their hooking leg away if necessary to complete the extraction cleanly."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Standing Base",
+        "description": "Plant both feet on the mat with a stable base and immediately achieve proper standing posture with bent knees, weight on the balls of your feet, and hands ready for grip fighting. Do not relax upon reaching standing—immediately assess the situation and prepare for the opponent's response, whether that is a guard pull, re-entry attempt, or their own standing transition."
+      },
+      {
+        "step_number": 7,
+        "action": "Create Distance and Reset",
+        "description": "Step back to create safe distance from the opponent. If they attempt to follow with a guard pull or re-entry into leg entanglements, use footwork and hand fighting to maintain separation. Establish proper standing position before re-engaging or deciding on your next tactical move, whether that is a re-entry to ashi garami from a different angle or a transition to passing or takedowns."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent tightens leg hooks and pulls hips in to prevent standing",
+        "effectiveness": "High",
+        "your_response": "Abandon the stand-up attempt early and immediately re-establish ashi garami control rather than fighting a losing battle against tightened hooks that will compromise your position",
         "targets_outcome": "Ashi Garami/Bottom"
+      },
+      {
+        "counter": "Opponent uses standing momentum to invert and enter a new leg entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Maintain strong frames during the stand-up and step laterally to deny the inversion angle, then continue the disengagement sequence with adjusted positioning",
+        "targets_outcome": "Ashi Garami/Bottom"
+      },
+      {
+        "counter": "Opponent releases defense and immediately attacks exposed leg during transition",
+        "effectiveness": "High",
+        "your_response": "Accelerate the stand-up by posting explosively and clearing the leg before they can establish finishing control on the newly exposed limb",
+        "targets_outcome": "Standing Position"
+      },
+      {
+        "counter": "Opponent sits up and establishes open guard hooks on hips as you stand",
+        "effectiveness": "Medium",
+        "your_response": "Accept the open guard top position and transition to a passing sequence rather than trying to force complete disengagement against established hooks",
+        "targets_outcome": "Open Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to stand without first releasing secondary hooks",
+        "consequence": "Remaining connected to opponent through your own hooks prevents clean disengagement and creates an awkward half-standing position vulnerable to sweeps and counter-entanglements",
+        "correction": "Systematically release your secondary hooks before initiating the standing motion, maintaining only essential control until frames are securely established"
+      },
+      {
+        "error": "Standing straight up without creating backward hip distance",
+        "consequence": "Rising directly upward keeps you within opponent's reach, allowing them to easily re-establish guard hooks, pull you back into entanglement, or attack your legs during the transition",
+        "correction": "Drive hips up AND backward simultaneously to create distance during the stand-up, using frames to prevent opponent from following your movement"
+      },
+      {
+        "error": "Releasing all leg control simultaneously before establishing frames",
+        "consequence": "Losing all connection at once gives opponent freedom to immediately attack, scramble, or establish a dominant position before you complete the standing transition",
+        "correction": "Establish frames first, then release hooks sequentially while maintaining at least one control point until frames are secure and supporting the standing motion"
+      },
+      {
+        "error": "Hesitating between staying in ashi garami and standing up",
+        "consequence": "Half-commitment creates the worst of both worlds—you lose offensive leg lock positioning without gaining the benefits of standing, becoming vulnerable in a no-man's-land transitional state",
+        "correction": "Commit fully to the stand-up once you initiate the motion. If conditions change, abort early and re-establish ashi garami rather than lingering between positions"
+      },
+      {
+        "error": "Failing to address opponent's grips on pants or ankles before standing",
+        "consequence": "Standing while opponent maintains pant grips allows them to control your base, pull you off balance, or use your standing motion to create sweep angles against your compromised posture",
+        "correction": "Strip or break critical grips before initiating the stand-up, particularly any grips on your near ankle or pants that could control your base during the level change"
+      },
+      {
+        "error": "Looking down at the entanglement during the standing motion",
+        "consequence": "Forward head position compromises spinal alignment and balance, making you vulnerable to snap-downs or being pulled forward during the transition phase",
+        "correction": "Keep your head up and eyes forward during the standing motion, using tactile feedback rather than visual monitoring to manage the leg extraction sequence"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Standing motion fundamentals",
+        "description": "Practice the hip drive, frame placement, and leg extraction sequence without a partner. Focus on the explosive hip-backward motion and immediate base establishment. Drill 20 repetitions per side, emphasizing smooth, committed movement patterns that build muscle memory for the complete sequence."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Partner integration with light resistance",
+        "description": "Partner maintains loose ashi garami position while you practice the complete standing sequence. Partner provides minimal resistance, focusing on helping you develop proper timing, sequencing, and frame placement. Gradually increase partner resistance over multiple sessions as mechanics solidify."
+      },
+      {
+        "phase": "Phase 3: Counter Response Training",
+        "focus": "Handling opponent defensive reactions",
+        "description": "Partner actively attempts to prevent the stand-up through hook tightening, inversions, and guard pulls. Practice reading and responding to each counter while maintaining commitment to the standing sequence. Develop decision-making about when to abort versus continue the stand-up attempt."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Competition application and timing",
+        "description": "Positional sparring starting in ashi garami bottom with the objective of either finishing the leg lock or standing up. Partner provides full resistance. Develop the tactical awareness to recognize when standing is the optimal choice versus continuing the leg lock exchange under realistic conditions."
+      },
+      {
+        "phase": "Phase 5: Full Sequence Integration",
+        "focus": "Complete cycle drilling",
+        "description": "Start from standing, pull guard into leg entries, work ashi garami attacks, and practice standing up when exchanges stall. Complete the full cycle multiple times per round to develop tactical awareness for flowing between standing and ground leg lock exchanges seamlessly."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most common error when attempting to stand up from ashi garami, and why is it dangerous?",
+        "answer": "The most common error is hesitating between maintaining ashi garami control and committing to the stand-up. This half-commitment is dangerous because it abandons the offensive leg entanglement positioning without gaining the benefits of a clean standing position, leaving the practitioner in a vulnerable transitional state where they can be swept, re-entangled, or have their exposed legs attacked. Full commitment to either option is always safer than lingering between positions."
+      },
+      {
+        "question": "In what order should you release your hooks and connections when standing up from ashi garami?",
+        "answer": "Release secondary hooks first—typically the outside hook or foot positioning that provides least control value. Maintain your primary inside hook and any controlling grips as long as possible during the standing motion. Frames should be established before any hooks are released, and the final leg connection should be cleared last, timed with the explosive hip drive to prevent the opponent from re-catching your leg during extraction."
+      },
+      {
+        "question": "Your opponent tightens their hooks as you begin to stand—should you continue the stand-up or abort?",
+        "answer": "Generally abort the stand-up and immediately re-establish your ashi garami control position. Fighting against tightened hooks during the standing phase creates an awkward half-position that is worse than either ashi garami bottom or standing. The exception is if you have already created significant distance with your hip drive and only one loose hook remains—in that case, a committed final extraction may succeed if executed explosively before they can re-secure the connection."
+      },
+      {
+        "question": "Why is backward hip movement critical during the standing phase, and what happens without it?",
+        "answer": "Backward hip movement creates distance between you and the opponent, which is essential for preventing them from re-establishing guard hooks, pulling you back into entanglement, or following your standing motion with their own attacks. Without backward hip movement, rising straight up keeps you within the opponent's reach and control range, allowing them to easily re-catch your legs, sit up into your base, or establish new grips that compromise your standing position."
+      },
+      {
+        "question": "When is standing up from ashi garami the optimal tactical choice versus continuing the leg lock exchange?",
+        "answer": "Standing up is optimal when the leg lock exchange has stalled with the opponent maintaining strong defensive positioning that prevents hierarchy advancement, when you recognize a bilateral threat where the opponent's counter-attacks are more dangerous than your offensive options, when you want to reset the engagement from a different entry angle, or when energy management considerations favor disengagement over continued ground exchange. It is not optimal when you have clear advancement pathways or finishing opportunities available."
+      },
+      {
+        "question": "What frames should you establish before releasing your hooks, and where should they be placed?",
+        "answer": "Primary frames should be placed against the opponent's near hip or knee to create a structural barrier preventing them from closing distance during the standing motion. Secondary frames can be posted on the mat behind you to support the hip drive. Frames must be established before any hooks are released because they replace the control that hooks provided—without frames in place, releasing hooks gives the opponent complete freedom to immediately attack or follow your movement."
+      },
+      {
+        "question": "Your opponent pulls open guard as you complete the stand-up—how do you respond?",
+        "answer": "Accept the open guard top position rather than trying to force complete disengagement. Immediately establish passing grips on their legs or pants, maintain proper posture with hips back and chest up, and begin a systematic passing sequence. The transition from ashi garami bottom to open guard passer is a legitimate tactical outcome—you have moved from a bilateral leg lock exchange to a position where you have clear top advantage and can work methodically to advance position."
+      },
+      {
+        "question": "What role does the standing threat play in the broader ashi garami strategic framework?",
+        "answer": "The standing threat prevents opponents from adopting purely defensive postures in ashi garami by forcing them to maintain active engagement. If an opponent knows you can simply stand up and re-engage from a different angle, they cannot rely on stalling or defensive positioning to neutralize the leg lock threat. This creates a strategic dilemma where defensive inactivity leads to positional reset on the attacker's terms, while active defense creates openings for leg lock advancement through the hierarchy."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Standing Up from Ashi Garami."
+    "safety_considerations": "Standing up from ashi garami carries moderate injury risk during the leg extraction phase. Avoid explosive ripping motions that could torque your own knee during extraction. If the opponent maintains a heel hook grip during your standing attempt, stop immediately and address the submission threat rather than trying to stand through it—standing with a heel hook engaged dramatically increases rotational force on the knee joint. Always tap early if you feel any heel exposure or rotational pressure during the transition. In training, communicate with your partner about the speed and intensity of standing attempts to prevent accidental knee injuries during the disengagement sequence."
   },
   "defender": {
     "name": "Standing Up from Ashi Garami Defender",
-    "description": "TODO: Write defender description for Standing Up from Ashi Garami.",
-    "overview": "TODO: Write defender overview for Standing Up from Ashi Garami.",
+    "description": "Learn to defend against an opponent standing up from Ashi Garami. Recognition cues, counter-strategies, and techniques to maintain or improve position during disengagement.",
+    "overview": "As the defender against Standing Up from Ashi Garami, you are the top player in the ashi garami exchange—the person whose leg was being controlled by the bottom player's entanglement. When your opponent attempts to stand up, you face a tactical decision: allow the disengagement which returns both of you to neutral standing, try to maintain the entanglement to preserve your own counter-attack opportunities, or capitalize on the transitional moment to improve your own position by establishing guard or achieving top control. Your response depends on whether the current entanglement favors you, whether you have viable counter-attack opportunities, and whether you can exploit the opponent's vulnerable transitional phase to achieve a positional advantage.",
     "key_principles": [
-      "TODO"
+      "Recognize the stand-up attempt early through hip movement and frame placement cues to maximize your response time window",
+      "Decide immediately whether to allow disengagement, maintain entanglement, or counter-attack based on current position quality assessment",
+      "If maintaining entanglement, tighten hooks and pull hips in before opponent creates distance with their initial hip drive",
+      "If allowing disengagement, prepare to immediately establish guard hooks or return to standing with advantageous grips before full separation",
+      "Exploit the transitional moment when opponent is between sitting and standing—this is their most mechanically vulnerable phase",
+      "If opponent successfully reaches standing, establish open guard hooks on their hips before they can fully disengage to prevent a complete neutral reset"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins posting hands on the mat or on your body, establishing frames before releasing their leg hooks",
+      "Opponent releases secondary leg hooks while maintaining primary control—a sequential disengagement pattern indicating committed stand-up",
+      "Opponent shifts their hips backward and begins elevating their center of gravity rather than maintaining low ashi garami posture",
+      "Opponent's attention shifts from leg lock advancement to upper body framing and base establishment, indicated by grip changes",
+      "Weight transfer from horizontal hip positioning to vertical base through feet, with torso beginning to rise above the entanglement"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Tighten hooks and pull opponent's hips back into entanglement",
+        "when_to_use": "Early in the stand-up attempt, before opponent has established frames or created meaningful distance",
         "targets_outcome": "Ashi Garami/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent remains trapped in ashi garami bottom, forced to continue the leg lock exchange on your terms",
+        "risk": "If opponent has already created significant distance, pulling may overextend your own legs and compromise your defensive positioning"
+      },
+      {
+        "action": "Sit up and establish open guard hooks on opponent's hips as they stand",
+        "when_to_use": "When opponent has committed to standing and pulling them back into entanglement is no longer viable",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You transition to open guard bottom with hooks established, preventing complete disengagement and maintaining connection",
+        "risk": "Poor timing allows opponent to complete the stand-up and fully disengage before you can establish meaningful guard hooks"
+      },
+      {
+        "action": "Follow the stand-up and return to standing position with grip advantage",
+        "when_to_use": "When you prefer standing engagement over continued ground leg lock exchange and can match opponent's standing speed",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Both return to standing but you establish grips during the transition, gaining initiative in the new standing exchange",
+        "risk": "If opponent stands faster than you, they may establish dominant standing position or grips first"
+      },
+      {
+        "action": "Use opponent's standing momentum to invert and re-enter a new leg entanglement",
+        "when_to_use": "When opponent lifts their hips high during the stand-up, creating space underneath for your inversion entry",
+        "targets_outcome": "Ashi Garami/Bottom",
+        "if_successful": "You re-establish leg entanglement from a different angle, potentially catching opponent off-guard during their transition",
+        "risk": "Failed inversion leaves you in a scramble with the opponent already on their feet and potentially in a dominant passing position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Position/Bottom",
-        "how": "TODO"
+        "outcome": "Standing Position",
+        "how": "Allow the clean disengagement while preparing to immediately return to standing yourself with advantageous grips. This returns you to neutral standing where you are no longer under leg lock threat—a significant improvement from the defensive ashi garami top position."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Capitalize on the opponent's standing attempt by quickly sitting up and establishing open guard hooks on their hips as they rise. This prevents complete disengagement and transitions the exchange into an open guard scenario where the opponent must now pass your guard rather than attack your legs."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Panicking and pulling away explosively when opponent begins standing",
+        "consequence": "Explosive pulling can expose your own heel if any hooks remain in the entanglement, and uncontrolled movement creates scramble situations where the opponent may achieve dominant position",
+        "correction": "Respond with calculated movement—either tighten hooks deliberately to prevent the stand-up or follow the motion smoothly to establish guard or return to standing"
+      },
+      {
+        "error": "Remaining flat on back as opponent stands up above you",
+        "consequence": "Allows opponent to achieve full standing position with complete disengagement, losing any opportunity to maintain control, establish guard, or capitalize on the transitional vulnerability",
+        "correction": "Follow the opponent's upward movement by sitting up and establishing guard hooks on their hips or rising to a standing position yourself before they achieve full separation"
+      },
+      {
+        "error": "Attempting to re-establish leg entanglement after opponent has already created significant standing distance",
+        "consequence": "Lunging for legs while off-balance and from a disadvantaged position creates easy passing opportunities and may result in the opponent achieving a dominant top position over you",
+        "correction": "If the opponent has created distance beyond hook range, accept the disengagement and focus on establishing guard or returning to standing rather than chasing the entanglement"
+      },
+      {
+        "error": "Ignoring the transition window to focus solely on defensive positioning",
+        "consequence": "Missing the window to establish advantageous position during the opponent's vulnerable transitional phase, resulting in a neutral reset rather than a positional gain for you",
+        "correction": "Recognize that the opponent's standing attempt creates a window of vulnerability—actively pursue guard establishment, counter-attacks, or position improvement during this phase"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that your opponent is about to stand up from ashi garami?",
+        "answer": "The earliest cues include the opponent posting their hands on the mat or on your body to establish frames, releasing secondary leg hooks while maintaining primary control in a sequential pattern, and shifting their hips backward and upward rather than maintaining low ashi garami posture. You may also notice grip changes from leg control configurations to upper body frames and posts, and a general shift in their attention from leg lock advancement to base establishment."
+      },
+      {
+        "question": "Should you try to prevent the stand-up or allow it and prepare to counter?",
+        "answer": "The decision depends on your current position quality within the leg lock exchange. If you have active counter-entanglements or advantageous positioning with your own offensive threats, preventing the stand-up maintains those opportunities. However, if you are in a disadvantaged leg lock position where your heel is exposed or the opponent has superior hierarchy position, allowing the stand-up may be preferable since it returns you to neutral standing where you are no longer under immediate submission threat. Rapid assessment of your current positional quality determines the optimal response."
+      },
+      {
+        "question": "Your opponent has committed to standing and has their hips elevated—what is the highest-percentage counter?",
+        "answer": "The highest-percentage counter is to follow their hips upward by sitting up and immediately establishing open guard hooks on their hips or legs before they can fully disengage. This prevents the clean standing exit and transitions the exchange into an open guard scenario where you maintain connection and some degree of control. If you have speed advantage, you can also race to standing and establish grips during the transition, potentially gaining the initiative in the subsequent standing exchange."
+      },
+      {
+        "question": "How does the opponent's standing attempt change the risk profile of the leg lock exchange for you?",
+        "answer": "The standing attempt temporarily reduces your risk because the opponent is abandoning their offensive leg lock positioning and transitioning to a neutral stance. During the transition, their attention shifts from attacking your leg to managing the stand-up mechanics, creating a window where submission threat against you decreases significantly. However, if you fail to capitalize on this window and the opponent completes a clean disengage, you return to neutral standing where they may immediately re-enter with a different, potentially more dangerous approach to leg entanglements."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Response Selection",
+        "focus": "Identifying stand-up cues and choosing appropriate responses",
+        "description": "Partner initiates stand-up from ashi garami at slow speed. Practice identifying the recognition cues and selecting the appropriate response—tighten hooks, follow to guard, or race to standing. Focus on decision-making speed rather than technique execution power."
+      },
+      {
+        "phase": "Phase 2: Counter-Technique Drilling",
+        "focus": "Executing specific counters to stand-up attempts",
+        "description": "Partner attempts standing at moderate speed while you practice each counter option: hook tightening to prevent standing, open guard establishment, standing transition with grips, and inversion re-entry. Drill each counter separately before combining them in reaction-based training."
+      },
+      {
+        "phase": "Phase 3: Live Positional Sparring",
+        "focus": "Full-speed response to stand-up attempts under pressure",
+        "description": "Positional sparring starting in ashi garami with partner having the option to attack your legs or stand up at any time. Develop real-time decision-making and execution of defensive and counter-offensive responses to both leg lock attacks and standing disengagement attempts."
+      },
+      {
+        "phase": "Phase 4: Full Sequence Integration",
+        "focus": "Integrating stand-up defense into complete ashi garami exchanges",
+        "description": "Extended sparring sessions starting from guard pulls or takedowns flowing into leg entanglements. Practice reading when opponent shifts from leg lock offense to disengagement and executing appropriate responses within the full context of a live grappling exchange."
       }
     ]
   }

@@ -38,7 +38,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - Grip Fighting Dominance: Superior grips on opponent's foot and ankle enable submission entries and prevent their offense, making hand fighting paramount
 
-- Transition Sensitivity: Recognize when direct submissions aren't available and seamlessly flow to superior positions like Saddle, Backside 50-50, or X-Guard
+- Transition Sensitivity: Recognize when direct submissions aren't available and seamlessly flow to superior positions like Honey Hole, Backside 50-50, or X-Guard
 
 
 </section>
@@ -97,7 +97,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Extract legs and stand up]]** (23% of attempts)
 
-- **[[Straight Ankle Lock]]** (4% of attempts)
+- **[[Straight Ankle Lock Entry]]** (4% of attempts)
 
 - **[[Kneebar entry]]** (5% of attempts)
 
@@ -158,13 +158,13 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Inside Heel Hook]]** (35% of attempts)
+- **[[Heel Hook]]** (35% of attempts)
 
-- **[[Kneebar from 50-50]]** (7% of attempts)
+- **[[Kneebar entry]]** (7% of attempts)
 
-- **[[Straight Ankle Lock]]** (2% of attempts)
+- **[[Straight Ankle Lock Entry]]** (2% of attempts)
 
-- **[[Calf Slicer from 50-50]]** (2% of attempts)
+- **[[Calf Slicer]]** (2% of attempts)
 
 - **[[Back Take from 50-50]]** (12% of attempts)
 
@@ -178,11 +178,9 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Toe Hold]]** (3% of attempts)
 
-- **[[Transition to Backside 50-50]]** (4% of attempts)
-
 - **[[Saddle Entry from Top]]** (9% of attempts)
 
-- **[[50-50 Guard to Backside 50-50]]** (1% of attempts)
+- **[[50-50 Guard to Backside 50-50]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -217,7 +215,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ## Related Positions
 
 
-- **[[Saddle]]** - Primary advancement target from 50-50 offering superior control and submission opportunities
+- **[[Honey Hole]]** - Primary advancement target from 50-50 offering superior control and submission opportunities
 
 - **[[Backside 50-50]]** - Strategic variation when standard 50-50 is stalemated
 

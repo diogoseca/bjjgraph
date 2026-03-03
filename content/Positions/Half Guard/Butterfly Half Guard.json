@@ -256,7 +256,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Transition to Flattened Half Guard",
+        "transition": "Half Guard to Flattened Half Guard",
         "attempt_probability": 10
       },
       {

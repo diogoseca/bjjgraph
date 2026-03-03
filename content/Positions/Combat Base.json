@@ -1,6 +1,6 @@
 {
   "name": "Combat Base",
-  "description": "Master Combat Base in BJJ. Essential neutral position for guard passing with 70% retention rate. Complete guide covering control principles and passing entries.",
+  "description": "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control.",
   "tags": [
     "bjj",
     "position",
@@ -45,36 +45,36 @@
   ],
   "transitions": [
     {
-      "transition": "Knee Slice Pass",
-      "attempt_probability": 20
+      "transition": "Knee Slide from Combat Base",
+      "attempt_probability": 22
     },
     {
       "transition": "Toreando Pass",
       "attempt_probability": 18
     },
     {
-      "transition": "Long Step Pass",
-      "attempt_probability": 12
-    },
-    {
-      "transition": "Double Under Pass",
-      "attempt_probability": 10
-    },
-    {
       "transition": "Leg Drag Pass",
       "attempt_probability": 15
     },
     {
-      "transition": "Headquarters Pass",
+      "transition": "Combat Base to Headquarters",
+      "attempt_probability": 13
+    },
+    {
+      "transition": "Long Step Pass",
       "attempt_probability": 10
+    },
+    {
+      "transition": "Standing Up from Combat Base",
+      "attempt_probability": 8
     },
     {
       "transition": "Smash Pass",
-      "attempt_probability": 10
+      "attempt_probability": 7
     },
     {
-      "transition": "Stack Pass",
-      "attempt_probability": 5
+      "transition": "Double Under Pass",
+      "attempt_probability": 7
     }
   ],
   "decision_tree": [
@@ -97,7 +97,7 @@
       "condition": "If opponent attempts to close guard or establish butterfly hooks on posted knee",
       "actions": [
         {
-          "technique": "Knee Slice Pass",
+          "technique": "Knee Slide from Combat Base",
           "target": "Side Control",
           "probability": 55
         },
@@ -117,14 +117,14 @@
           "probability": 55
         },
         {
-          "technique": "Headquarters Pass",
+          "technique": "Combat Base to Headquarters",
           "target": "Headquarters Position",
           "probability": 45
         }
       ]
     },
     {
-      "condition": "If opponent creates distance and extends legs defensively with feet pushing hips",
+      "condition": "If opponent creates distance with strong frames and extends legs to push hips away",
       "actions": [
         {
           "technique": "Long Step Pass",
@@ -132,24 +132,24 @@
           "probability": 45
         },
         {
-          "technique": "Toreando Pass",
-          "target": "Side Control",
+          "technique": "Standing Up from Combat Base",
+          "target": "Standing Position",
           "probability": 55
         }
       ]
     },
     {
-      "condition": "If opponent pulls knees to chest in defensive posture or inverts",
+      "condition": "If opponent pulls knees to chest in defensive posture or inverts to retain guard",
       "actions": [
         {
           "technique": "Double Under Pass",
           "target": "Side Control",
-          "probability": 50
+          "probability": 55
         },
         {
-          "technique": "Stack Pass",
+          "technique": "Smash Pass",
           "target": "Side Control",
-          "probability": 50
+          "probability": 45
         }
       ]
     }
@@ -240,7 +240,7 @@
       "relationship": "Primary transition technique - Most common dynamic pass from combat base"
     },
     {
-      "name": "Knee Slice Pass",
+      "name": "Knee Slide from Combat Base",
       "relationship": "Primary transition technique - High-percentage pressure pass from combat base"
     },
     {
@@ -250,10 +250,6 @@
     {
       "name": "Leg Drag Control",
       "relationship": "Transition target - Alternative passing position from combat base against hooks"
-    },
-    {
-      "name": "X-Guard",
-      "relationship": "Counter position - Opponent's elevation-based guard option against combat base"
     },
     {
       "name": "Butterfly Guard",
@@ -266,50 +262,59 @@
     {
       "name": "Knee on Belly",
       "relationship": "Alternative target - High-control position accessible from combat base passing"
+    },
+    {
+      "name": "Combat Base to Headquarters",
+      "relationship": "Positional advancement transition without completing a full guard pass"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 72
+      "value": 72,
+      "description": "High retention due to triangulated base structure and low center of gravity"
     },
     "advancement_probability": {
-      "value": 60
+      "value": 60,
+      "description": "Strong passing platform with multiple high-percentage passing options available"
     },
     "submission_probability": {
-      "value": 12
+      "value": 12,
+      "description": "Low direct submission threat; position primarily serves as passing platform rather than finishing position"
     },
     "average_time": "30-90 seconds in competitive BJJ depending on guard style and passing strategy"
   },
-  "top": {
-    "transitions": [
-      {
-        "transition": "Combat Base to Headquarters",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Knee Slide from Combat Base",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Standing Up from Combat Base",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Guard Recovery from Combat Base",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Pull Guard from Combat Base",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Stand Up from Combat Base",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  "knowledge_assessment": [
+    {
+      "question": "What is the ideal weight distribution ratio between the posted knee and planted foot in Combat Base, and why?",
+      "answer": "The ideal distribution is approximately 60-40 between the posted knee and planted foot, with the posted knee bearing slightly more weight to maintain base stability. This ratio allows for quick weight shifts when initiating passes or defending sweeps and should be adjusted dynamically based on opponent reactions and chosen passing direction."
+    },
+    {
+      "question": "What three contact points create the triangulated base structure in Combat Base?",
+      "answer": "The three contact points are the posted knee with shin on the mat, the planted foot flat on the mat, and the hips positioned above the opponent's hip line. These three points form a geometric triangle that provides multi-directional stability, allowing the practitioner to resist forces from any angle while maintaining structural integrity for offensive passing pressure."
+    },
+    {
+      "question": "Your opponent begins bringing their knees together and reaching for your collar to close their guard - what immediate adjustments do you make?",
+      "answer": "Widen your base by stepping the planted foot further out to the side, making it physically difficult for the opponent to lock ankles. Simultaneously drive your posted knee into the opponent's tailbone area while posting both hands on their hip bones to create a frame preventing guard closure. Break any collar grip by circling your wrist and peeling their fingers before they establish control."
+    },
+    {
+      "question": "What are the primary grip priorities when establishing and maintaining Combat Base in the gi?",
+      "answer": "The primary grip priorities are controlling the opponent's pants at knee level with the hand on the posted-knee side and controlling the collar or sleeve with the planted-foot side hand. The pants grip prevents guard retention by controlling leg mobility, while the upper body grip manages distance and prevents the opponent from establishing offensive grips. Always fight opponent grips before establishing your own."
+    },
+    {
+      "question": "Your opponent successfully frames against your shoulders and extends their legs to push your hips away - how do you maintain position?",
+      "answer": "Rather than fighting frames directly, use the planted foot to circle laterally while maintaining upright posture. Strip one frame at a time by swimming your arms inside their wrists. Once you clear one frame, immediately close distance on that side by driving the posted knee forward. If frames are too strong, stand up from combat base to break grips from higher elevation before re-establishing position with new angles."
+    },
+    {
+      "question": "Your opponent threads a De La Riva hook around your lead leg while in Combat Base - what is your recovery sequence?",
+      "answer": "Avoid stepping back, which deepens the hook. Instead, drive the hooked knee forward toward the mat while circling the foot inward to strip the hook. Use your same-side hand to push the opponent's hooking foot off your hip while maintaining pants or sleeve control with the other hand. If the hook is deep, switch your lead leg by stepping over to the opposite combat base stance, effectively removing the hook by changing which leg is posted."
+    },
+    {
+      "question": "How does Combat Base compare to other passing positions in terms of energy expenditure, and what practices conserve energy?",
+      "answer": "Combat Base is one of the most energy-efficient passing positions because the posted knee and flat foot create a stable structure requiring minimal muscular effort to maintain. To conserve energy, avoid constant forward pressure that can be redirected. Use intermittent pressure bursts combined with angle changes. Let gravity and skeletal alignment do the work rather than muscular effort, and focus on structural integrity over active resistance against pulling forces."
+    },
+    {
+      "question": "Your opponent hits a butterfly hook elevation that lifts your posted knee off the mat - how do you recover Combat Base?",
+      "answer": "Immediately post the planted foot wider and drop your hips lower to create a new base point, preventing a full sweep. Use the hand on the elevated side to post on the mat for emergency stability. As you regain control, re-establish the posted knee on the mat by turning your hips toward the hooking side and driving the knee back down with forward hip pressure. Once the knee returns to the mat, reset hand positions to control the opponent's hooks before they attempt another elevation."
+    }
+  ]
 }

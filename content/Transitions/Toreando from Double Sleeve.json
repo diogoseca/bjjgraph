@@ -1,13 +1,410 @@
 {
   "name": "Toreando from Double Sleeve",
-  "description": "",
-  "tags": [],
+  "description": "Master the Toreando pass from Double Sleeve Guard. Step-by-step guide covering grip transitions, lateral passing mechanics, and side control finishing.",
+  "tags": [
+    "toreando pass",
+    "guard passing",
+    "double sleeve guard",
+    "bullfighter pass",
+    "gi passing",
+    "lateral movement",
+    "open guard passing"
+  ],
   "from_position": "Double Sleeve Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Double Sleeve Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "The Toreando from Double Sleeve is a lateral guard pass executed from the top position of double sleeve guard, where the passer transitions from defending bilateral sleeve grips to controlling the opponent's legs and swinging them laterally to achieve side control. This technique addresses one of the fundamental challenges of passing open guard in the gi: converting a grip-fighting exchange into a decisive passing movement. The pass derives its name from the bullfighter's lateral redirection of the charging bull, and the mechanics mirror this concept precisely—you redirect the opponent's defensive leg structures to one side while your body circles to the opposite side.\n\nStrategically, the Toreando from Double Sleeve occupies a critical role in the passing hierarchy because it directly attacks the double sleeve guard's primary weakness: the reliance on upper body grips with relatively exposed lower body control. When the bottom player invests both hands in sleeve control, their legs must work independently to maintain distance and prevent passing. By transitioning your grips from the sleeves (where the bottom player wants them) to the pants or ankles (where you control the action), you fundamentally shift the positional dynamic. The pass works best when executed with commitment and speed after a deliberate grip-breaking sequence, and chains naturally with knee slice, leg drag, and X-pass options when the initial toreando is defended.",
+  "conditions": [
+    "Top player has established standing or kneeling posture above double sleeve guard",
+    "Bottom player maintains active double sleeve grips with feet on hips or biceps",
+    "Sufficient mat space exists for lateral movement during the pass",
+    "Top player has identified the direction of pass based on opponent's weight distribution"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Toreando",
+      "description": "Executed from full standing posture with wider lateral arc and greater momentum. Break both sleeve grips, immediately grab both pant legs at the knees, and use a wide matador-style swing to clear the legs before dropping to side control.",
+      "when_to_use": "When opponent is flat on their back with limited hip mobility and you have space to move laterally"
+    },
+    {
+      "variant_name": "Grip-and-Go Toreando",
+      "description": "Combines grip breaking and passing into a single explosive movement. Strip one sleeve grip while simultaneously grabbing the same-side pant leg, then immediately redirect and pass before the opponent can re-establish grips or adjust foot placement.",
+      "when_to_use": "When opponent has fatigued grips or you detect a momentary lapse in their sleeve tension"
+    },
+    {
+      "variant_name": "Kneeling Toreando",
+      "description": "Performed from combat base or kneeling posture with shorter lateral movement. Control both legs at the knees from kneeling, pin them to one side while sliding your knee across, and transition directly to side control without standing.",
+      "when_to_use": "When standing is risky due to opponent's sweep threats or when you prefer low-posture passing"
+    }
+  ],
+  "position_integration": "The Toreando from Double Sleeve connects the double sleeve guard passing game to the broader lateral passing system that includes toreando passes from spider guard, lasso guard, and seated guard. It serves as a primary entry into side control from one of the most common gi guard configurations and chains with knee slice and leg drag passes when the initial toreando is partially defended. Mastery of this technique creates a complete passing framework where grip breaks flow directly into passing sequences rather than being isolated grip-fighting exchanges, making the top player's passing game more efficient and connected.",
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Source position where this technique begins"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary destination after successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Partial pass destination when legs are not fully cleared"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter destination when opponent closes guard during pass attempt"
+    },
+    {
+      "name": "Toreando Pass from De La Riva",
+      "relationship": "Similar toreando mechanics applied from different guard position"
+    },
+    {
+      "name": "Toreando Pass from Seated Guard",
+      "relationship": "Toreando variation against seated guard configuration"
+    },
+    {
+      "name": "Pass Double Sleeve Guard",
+      "relationship": "General passing approach from same starting position"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard that opponent may transition to during grip fight"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Guard opponent may establish if grip transition is slow"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate control position if full pass stalls"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative posture for initiating the pass"
+    }
+  ],
+  "attacker": {
+    "name": "Toreando from Double Sleeve Attacker",
+    "description": "Execute the Toreando pass from Double Sleeve Guard. Complete attacking guide with grip transitions, lateral mechanics, and finishing to side control.",
+    "overview": "As the attacker executing the Toreando from Double Sleeve, your objective is to convert a defensive grip-fighting position into a decisive lateral pass. The fundamental challenge is transitioning your hands from the opponent's sleeve control—where they want your grips—to their pants or ankles, where you dictate the action. This requires precise grip-breaking mechanics followed by immediate redirection of their legs to one side while you circle to the opposite side. The pass rewards commitment, timing, and the ability to chain with secondary passes when the initial toreando is partially defended. Success depends on maintaining posture during grip transitions and executing the lateral movement with enough speed and conviction to clear the opponent's leg structures before they can reguard.",
+    "key_principles": [
+      "Break sleeve grips using hip rotation and stepping mechanics rather than arm strength to preserve energy for the pass itself",
+      "Transition immediately from grip break to pants control—any pause allows the opponent to re-establish sleeve grips or adjust foot positioning",
+      "Control both legs at the knees or ankles before initiating the lateral swing to prevent the opponent from inserting hooks or frames",
+      "Commit fully to the passing direction once initiated—hesitation allows the opponent to follow your movement and retain guard",
+      "Keep your hips low and chest forward during the lateral movement to prevent the opponent from creating distance with their legs",
+      "Circle your hips completely past the opponent's legs before establishing side control to prevent half guard recovery"
+    ],
+    "setup_requirements": [
+      "Established standing or combat base posture above the double sleeve guard with balance maintained despite bilateral sleeve grips",
+      "Identified the passing direction based on opponent's weight distribution, foot positioning, and defensive tendencies",
+      "Sufficient grip strength remaining to execute rapid grip transition from sleeve defense to pants control",
+      "Recognized that opponent's feet are not deeply hooked on biceps or hips, which would require addressing foot placement before passing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish posture and assess grip depth",
+        "description": "From standing or combat base position, assess the opponent's grip depth on your sleeves and their foot placement. Widen your base slightly for stability. Determine which side offers the better passing angle based on their weight distribution and foot positioning—pass toward the side where their foot is less active or where their hip is flatter on the mat."
+      },
+      {
+        "step_number": 2,
+        "action": "Break first sleeve grip",
+        "description": "Rotate your wrist toward the opponent's thumb while stepping laterally in the same direction, using your entire body's momentum to break the grip rather than just arm strength. Post your elbow on their hip if needed to create a fulcrum. The grip break should be explosive and definitive—a partial break allows immediate re-gripping."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure same-side pants grip immediately",
+        "description": "Without pausing after the grip break, immediately redirect your freed hand to grip the opponent's pants at the knee or shin on the same side. This must happen in a single motion—the grip break and pants grab should feel like one continuous action. Gripping at the knee provides the best leverage for the lateral swing while controlling their guard structure."
+      },
+      {
+        "step_number": 4,
+        "action": "Break second sleeve grip and secure bilateral leg control",
+        "description": "Using similar mechanics, break the remaining sleeve grip while your other hand maintains pants control. Immediately grab the second pant leg at the knee. You now control both of the opponent's legs while they have lost their primary defensive grips. This is the critical transition point—with bilateral leg control, you dictate the tempo and direction of the exchange."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute lateral toreando swing",
+        "description": "With both hands controlling the opponent's legs at the knees, push both legs decisively to one side while stepping your near foot in the opposite direction. Drive the legs down toward the mat on one side using a circular motion that pins them. Your movement should be lateral and arcing, not straight forward—think of tracing a quarter-circle around the opponent's body while their legs are pinned."
+      },
+      {
+        "step_number": 6,
+        "action": "Circle hips past opponent's legs",
+        "description": "As the opponent's legs are pinned to one side, circle your hips past their legs on the opposite side. Keep your hips low and your chest dropping toward their torso. Do not release leg control until your hips have fully cleared their leg line—premature release allows guard recovery. Your body should travel in a smooth arc from standing to perpendicular alignment."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish crossface and consolidate side control",
+        "description": "Once your hips clear the opponent's legs, immediately establish crossface with your near arm while your far arm controls their far hip to prevent guard recovery. Drop your weight through your chest onto their upper body and sprawl your legs back to create a low, heavy base. Transition from pants grips to standard side control grips to consolidate the position securely."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent regrips sleeves during grip transition before pants control is secured",
+        "effectiveness": "High",
+        "your_response": "Speed up the grip break to pants grip transition by making it one continuous motion. If they regrip, immediately attempt a second break using a different angle or switch to a two-on-one grip break on the stronger grip side.",
+        "targets_outcome": "Double Sleeve Guard/Top"
+      },
+      {
+        "counter": "Opponent inserts foot on hip as a frame to maintain distance and prevent lateral movement",
+        "effectiveness": "Medium",
+        "your_response": "Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact and re-engage with a different angle. Alternatively, switch to a knee slice entry on the side where the foot is posted.",
+        "targets_outcome": "Double Sleeve Guard/Top"
+      },
+      {
+        "counter": "Opponent closes guard by pulling you forward with remaining sleeve grip during transition",
+        "effectiveness": "High",
+        "your_response": "Maintain upright posture throughout the grip transition. If they begin closing guard, immediately wedge your elbow between their closing legs and posture up to prevent the lock. Keep your hips back and chest up during all grip exchanges.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent inverts or hip escapes to reguard during the lateral swing",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip movement with your own lateral movement, maintaining leg control throughout. If they invert, continue the toreando arc and drop your weight to pin their hips before they complete the inversion.",
+        "targets_outcome": "Double Sleeve Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Telegraphing the passing direction by shifting weight or looking toward the passing side before initiating",
+        "consequence": "Opponent preemptively adjusts hip position and foot placement to block the pass, significantly reducing success rate and potentially creating sweep opportunities",
+        "correction": "Keep your weight centered and eyes forward until the moment of commitment. Initiate the lateral swing explosively from a neutral position to minimize the opponent's reaction time."
+      },
+      {
+        "error": "Attempting the toreando with only one leg controlled while the other remains free",
+        "consequence": "Free leg inserts a hook, frames on your hip, or the opponent creates a lasso or spider guard configuration that stops the pass entirely",
+        "correction": "Secure bilateral leg control at both knees before initiating the lateral swing. If you cannot secure both legs, chain to a different pass like knee slice rather than forcing a one-legged toreando."
+      },
+      {
+        "error": "Leaning too far forward during grip transitions, compromising upright posture",
+        "consequence": "Opponent pulls you into closed guard, hits a scissor sweep, or sets up triangle and omoplata attacks from the broken posture position",
+        "correction": "Maintain upright posture with hips back and chest up throughout all grip exchanges. Use stepping and hip rotation for grip breaks rather than leaning forward with your upper body."
+      },
+      {
+        "error": "Releasing leg control before hips have fully cleared the opponent's leg line",
+        "consequence": "Opponent inserts a knee shield or recovers half guard, converting your clean pass into a grinding half guard battle",
+        "correction": "Maintain pants control until your hips have completely circled past the opponent's legs. Only transition to crossface and hip control grips after your chest is perpendicular to their torso."
+      },
+      {
+        "error": "Performing the lateral movement too slowly without full commitment to the direction",
+        "consequence": "Opponent follows your movement with their hips, reguards with feet on hips, or transitions to a different guard variation before you complete the pass",
+        "correction": "Execute the lateral toreando swing as a single explosive movement. Once committed, move with speed and conviction—the pass works on timing and momentum, not grinding pressure."
+      },
+      {
+        "error": "Standing too upright during the lateral swing without dropping chest toward opponent",
+        "consequence": "Creates space between your body and the opponent that allows them to insert frames, reguard, or create distance even with their legs controlled",
+        "correction": "As you swing the legs laterally, simultaneously drop your chest forward and down toward the opponent's torso. Your body should close distance as you circle, arriving in tight side control contact."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Transition Mechanics",
+        "focus": "Sleeve break to pants grip coordination",
+        "description": "Practice the grip-breaking mechanics in isolation with a compliant partner. Focus on making the sleeve break and pants grab feel like one continuous motion. Drill both sides, working on wrist rotation breaks, stepping breaks, and elbow posting breaks. Partner maintains 30% grip resistance."
+      },
+      {
+        "phase": "Phase 2: Lateral Movement Pattern",
+        "focus": "Toreando footwork and hip circulation",
+        "description": "With bilateral pants control already established, practice the lateral swing and hip circulation movement. Focus on the arc of movement, keeping hips low, and arriving in proper side control position. Partner allows the pass but adjusts body position to simulate realistic guard frames."
+      },
+      {
+        "phase": "Phase 3: Connected Sequence",
+        "focus": "Full grip break to pass completion",
+        "description": "Combine phases 1 and 2 into the complete sequence: grip break, pants control, lateral swing, side control consolidation. Partner provides 50% resistance on grips and moderate guard retention. Focus on smooth transitions between each phase without pauses or resets."
+      },
+      {
+        "phase": "Phase 4: Counter Integration",
+        "focus": "Handling defensive reactions and chaining passes",
+        "description": "Partner provides full resistance and uses specific counters: regripping, foot on hip frames, guard closing attempts, and hip escapes. Practice adjusting the toreando in response to each counter or chaining to secondary passes when the toreando is stopped."
+      },
+      {
+        "phase": "Phase 5: Live Passing Rounds",
+        "focus": "Integrating toreando into live passing game",
+        "description": "Positional sparring starting from double sleeve guard. Top player must recognize when the toreando is available versus when other passes are better options. Develop the ability to attempt the toreando, abandon if defended, and chain to knee slice or leg drag without losing position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the critical timing window for transitioning from a sleeve grip break to pants control?",
+        "answer": "The transition must happen immediately—within a fraction of a second of breaking the grip. Any pause allows the opponent to re-establish their sleeve grip, which negates the effort of the break. The grip break and pants grab should feel like one continuous motion, not two separate actions. Train this as a single movement pattern where your hand travels directly from the breaking motion to the pants grip without returning to a neutral position."
+      },
+      {
+        "question": "Your opponent posts their foot on your hip as you attempt to swing their legs laterally—how do you adjust?",
+        "answer": "Address the foot before continuing the toreando. Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact entirely. If the foot is deeply posted, consider switching to a knee slice on the posted-foot side, using the foot post as a pivot point for your passing angle. The worst option is trying to force the toreando through the foot frame, as this gives the opponent additional leverage to reguard or sweep."
+      },
+      {
+        "question": "Why is bilateral leg control essential before initiating the lateral toreando swing?",
+        "answer": "With only one leg controlled, the opponent's free leg can insert hooks, create lasso or spider guard configurations, post on your hip for distance, or actively block your lateral movement. Bilateral control eliminates all of these defensive options simultaneously, forcing the opponent to rely solely on hip movement and inversions to defend the pass. Controlling both legs at the knees also gives you the leverage to pin both legs to one side effectively."
+      },
+      {
+        "question": "What is the most critical hip movement in completing the toreando pass?",
+        "answer": "The circular hip movement that arcs past the opponent's legs on the opposite side of where they are pinned is the most critical element. Your hips must travel in a quarter-circle arc from your starting position to perpendicular alignment with the opponent's torso. Keeping hips low throughout this arc prevents the opponent from inserting frames or hooks. The hip circulation must be continuous and committed—stopping midway allows guard recovery."
+      },
+      {
+        "question": "How do you determine which direction to pass when executing the toreando from double sleeve?",
+        "answer": "Assess three factors: the opponent's foot placement (pass toward the less active foot), their hip position (pass toward the flatter hip, as the elevated hip indicates they are loading that side for sweeps or guard retention), and their grip depth (pass away from their stronger sleeve grip since that side has better defensive control). Generally, pass toward the side where the opponent has less lower body activity and weaker defensive infrastructure."
+      },
+      {
+        "question": "Your opponent begins closing their guard as you attempt to break the second sleeve grip—what is your immediate response?",
+        "answer": "Immediately posture up with hips back and wedge your lead elbow or knee between their closing legs to prevent the lock. Keep your chest up and drive your hips away from the opponent to create distance that prevents the guard from closing. If one leg is already controlled at the pants, use that control to push their leg down and away to break the closing angle. Never allow your posture to collapse forward during this exchange, as that accelerates the guard closure."
+      },
+      {
+        "question": "What grip configuration provides optimal control for the lateral toreando swing?",
+        "answer": "Grip both pant legs at the knee crease with a pistol grip (four fingers inside, thumb outside), keeping your elbows close to your body. This grip position provides maximum leverage for the lateral swing while keeping your arms in a strong mechanical position. Gripping too low at the ankles reduces your control over hip movement, while gripping too high on the thighs puts your hands dangerously close to the opponent's hip frames and sweep setups."
+      },
+      {
+        "question": "The toreando is blocked and your opponent begins reguarding—what chain attack should you attempt?",
+        "answer": "When the toreando is blocked, immediately redirect to a knee slice pass on the opposite side from your toreando attempt, as the opponent's legs are likely displaced from the initial swing. If the knee slice is also blocked, transition to a leg drag by controlling one leg across the opponent's body. The key principle is never abandoning bilateral leg control to return to a neutral grip-fighting exchange—maintain your advantageous grips and chain to the next passing option."
+      },
+      {
+        "question": "What common failure point causes the passer to end up in half guard rather than completing to side control?",
+        "answer": "The most common failure is releasing pants control or lifting the chest too early before the hips have fully cleared the opponent's leg line. When you release control while your hips are still in line with their legs, the opponent inserts a knee shield or hooks your trailing leg with their bottom leg, catching you in half guard. The correction is maintaining bilateral leg control until your chest is dropping onto their upper body and your hips are fully past their legs."
+      }
+    ],
+    "safety_considerations": "The Toreando from Double Sleeve is a relatively low-risk technique in terms of injury potential, but practitioners should be mindful of several safety factors. During explosive grip breaks, avoid hyperextending your own wrists or elbows by using proper mechanics. When swinging the opponent's legs laterally, control the speed to prevent knee or hip strain on the bottom player. During training, communicate with your partner and avoid dropping your full weight aggressively when establishing side control, particularly with less experienced training partners."
+  },
+  "defender": {
+    "name": "Toreando from Double Sleeve Defender",
+    "description": "Defend the Toreando pass from Double Sleeve Guard. Recognition cues, defensive options, and guard recovery strategies against the bullfighter pass.",
+    "overview": "As the defender against the Toreando from Double Sleeve, your primary objective is maintaining your double sleeve guard structure while preventing the opponent from converting their grip-fighting position into a lateral pass. The critical defensive window occurs during the grip transition phase—when the top player breaks your sleeve grips and attempts to secure pants control. Early recognition of the toreando setup allows you to employ preemptive defenses including regripping, foot framing, and guard transitions that neutralize the pass before it develops momentum. If the lateral swing has already been initiated, your focus shifts to hip movement, guard recovery, and preventing the opponent from circling past your legs to establish side control.",
+    "key_principles": [
+      "Maintain maximum tension on sleeve grips to make each grip break costly in terms of the opponent's energy and time",
+      "Keep feet actively posted on the opponent's hips or biceps to maintain distance and create barriers against grip transitions to your pants",
+      "Immediately regrip sleeves when broken rather than transitioning to defensive framing—offense is the best defense from double sleeve",
+      "Monitor the opponent's hand movement patterns to recognize toreando setups before they transition to pants grips",
+      "Use hip movement to follow the opponent's lateral motion rather than remaining flat on the mat as they circle",
+      "Have a secondary guard system ready (spider, lasso, or De La Riva) in case double sleeve control is broken"
+    ],
+    "recognition_cues": [
+      "Opponent breaks one or both sleeve grips with aggressive wrist rotation or stepping movements and immediately reaches toward your legs",
+      "Opponent's hands transition from being controlled at the sleeves to gripping your pants at the knees or ankles",
+      "Opponent steps laterally while maintaining leg control, indicating the beginning of the toreando swing direction",
+      "Opponent's posture shifts from defensive (pulled forward by your grips) to offensive (upright with hips back and hands moving toward your lower body)",
+      "Opponent controls both of your legs simultaneously at the knees, pinning them together or directing them to one side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Immediately regrip sleeves when broken using the same hand or cross-gripping to the opposite sleeve",
+        "when_to_use": "As soon as you feel the opponent's grip break succeed, before their hand reaches your pants. This is the highest-priority defense.",
+        "targets_outcome": "Double Sleeve Guard/Top",
+        "if_successful": "Opponent returns to neutral double sleeve guard position and must restart their grip-breaking sequence",
+        "risk": "If you over-commit to regripping and miss, the opponent secures pants control with both hands and initiates the pass with a timing advantage"
+      },
+      {
+        "action": "Insert foot on hip as a frame to maintain distance and block the lateral passing arc",
+        "when_to_use": "When the opponent has broken one or both sleeve grips and you cannot immediately regrip. The foot frame prevents them from closing distance for the toreando swing.",
+        "targets_outcome": "Double Sleeve Guard/Top",
+        "if_successful": "Creates a defensive barrier that prevents the pass and allows you to regrip or transition to a different guard like spider or lasso",
+        "risk": "Opponent may swim past your foot frame if it is not deeply posted, or use the foot as a handle to initiate a different pass like leg drag"
+      },
+      {
+        "action": "Close guard by pulling opponent forward with remaining sleeve grip and wrapping legs around their waist",
+        "when_to_use": "When the opponent leans forward during grip transition and is within range for guard closure. Best used as an emergency defense when other options have failed.",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Transitions to closed guard which neutralizes the toreando threat entirely and provides a strong defensive platform with sweep and submission options",
+        "risk": "If the opponent maintains upright posture and prevents guard closure, you may end up with legs extended and no grips, creating an easy passing lane"
+      },
+      {
+        "action": "Hip escape in the opposite direction of the toreando swing while creating frames with arms against the opponent's shoulders",
+        "when_to_use": "When the lateral toreando swing has already been initiated and your legs are being moved to one side. Move your hips away from the pass direction to create distance.",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Creates enough distance to insert a knee shield or recover half guard, preventing the complete pass to side control",
+        "risk": "If hip movement is too slow or opponent maintains strong leg control, you end up in side control with limited defensive structures established"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Double Sleeve Guard/Top",
+        "how": "Regrip sleeves immediately when broken, maintaining constant tension and distance with active feet. Prioritize re-establishing bilateral sleeve control before the opponent can secure pants grips. Use the moment of failed pass to pull the opponent off-balance and set up sweep counters."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When the opponent compromises their posture during grip transitions by leaning forward, pull them into range with any remaining sleeve grip and close your legs around their waist. This converts the open guard exchange into a closed guard position where toreando is no longer possible."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing both sleeve grips to be broken simultaneously without any backup framing or guard transition",
+        "consequence": "Opponent achieves bilateral leg control unchallenged and executes the toreando freely without defensive barriers, resulting in a clean pass to side control",
+        "correction": "Fight each grip break individually and have a backup defense ready—if one grip breaks, immediately transition the remaining grip to maximum tension while inserting a foot frame or preparing to regrip"
+      },
+      {
+        "error": "Keeping hips flat on the mat when the toreando lateral swing is initiated",
+        "consequence": "Opponent circles past your legs easily because your static hip position cannot follow their movement, resulting in immediate side control establishment",
+        "correction": "As soon as you recognize the lateral swing, hip escape in the opposite direction of the pass. Keep hips elevated and mobile throughout the double sleeve guard to maintain reactivity."
+      },
+      {
+        "error": "Chasing sleeve regrips with extended arms instead of framing and transitioning to alternative guard",
+        "consequence": "Extended arms create submission vulnerabilities and the reaching motion pulls you out of defensive posture, potentially exposing your neck or isolating an arm",
+        "correction": "If you cannot regrip within the first second of the grip break, transition to a secondary defense—foot on hip frame, guard transition to spider or lasso, or hip escape to reguard rather than reaching forward with exposed arms."
+      },
+      {
+        "error": "Failing to follow the opponent's lateral movement with corresponding hip rotation",
+        "consequence": "Opponent completes the toreando arc while you remain stationary, making guard recovery impossible once their hips clear your legs",
+        "correction": "Train hip follow movement—when the opponent swings your legs to one side, immediately begin hip escaping in the opposite direction to maintain your legs between you and the passer."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a toreando pass is being set up from double sleeve guard?",
+        "answer": "The earliest cue is the opponent's hand movement after breaking a sleeve grip—if their freed hand immediately moves downward toward your legs rather than attempting to establish collar or lapel control, a toreando setup is likely. Watch for the combined pattern of grip break followed by downward hand redirection and posture change from being pulled forward to standing upright with hips back. Recognizing this pattern early gives you the maximum window to regrip or transition guards."
+      },
+      {
+        "question": "When should you prioritize closing guard versus regripping sleeves as a defensive response?",
+        "answer": "Prioritize regripping when the opponent's posture is still partially compromised and their hands have not yet secured your pants—regripping is always the superior option as it returns you to your preferred guard. Prioritize closing guard when the opponent has broken both grips and is within range but their posture has dropped forward, making guard closure mechanically available. Closing guard is an emergency defense when regripping is no longer viable, not a first-choice response."
+      },
+      {
+        "question": "Your opponent has controlled both your legs at the knees and begins the lateral swing—what is your best defensive option?",
+        "answer": "Hip escape aggressively in the opposite direction of the lateral swing while framing on the opponent's shoulder or bicep with both hands. Your hip movement must outpace their lateral circling to keep your legs between your body and theirs. Simultaneously work to free at least one leg by kicking through their grip or hooking their arm with your foot. If you can free one leg and insert it as a knee shield, you recover to half guard and prevent the complete pass."
+      },
+      {
+        "question": "How do active feet prevent the toreando setup from developing?",
+        "answer": "Active feet posted on the opponent's hips or biceps create physical barriers that the opponent must address before they can transition their hands to pants control. A foot on the hip prevents the opponent from stepping forward into range for pants grips, while a foot on the bicep controls their arm path and makes grip transitions difficult. Active feet also allow you to push the opponent away to create distance if they attempt to reach for your legs, buying time to regrip or adjust your guard structure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drill",
+        "focus": "Identifying toreando setups early",
+        "description": "Partner alternates between genuine toreando setups and false grip breaks that transition to other passes. Practice identifying the specific hand-movement patterns and posture changes that indicate toreando intent. Call out the setup when you recognize it. Develop automatic recognition without conscious analysis."
+      },
+      {
+        "phase": "Phase 2: Regrip Speed Drill",
+        "focus": "Rapid grip re-establishment after breaks",
+        "description": "Partner breaks sleeve grips using various techniques. Practice immediately regripping within one second of each break. Focus on hand speed, grip depth, and maintaining tension with the remaining grip while re-establishing the broken one. Progressively increase the speed and force of grip breaks."
+      },
+      {
+        "phase": "Phase 3: Hip Follow Drill",
+        "focus": "Following lateral movement with hip escapes",
+        "description": "Partner controls both legs and performs the toreando swing at varying speeds. Practice hip escaping in the opposite direction while maintaining frames. Focus on matching the opponent's lateral speed with your hip movement. Build the connection between recognizing the swing direction and immediately moving hips."
+      },
+      {
+        "phase": "Phase 4: Live Guard Retention",
+        "focus": "Full resistance guard retention against toreando",
+        "description": "Positional sparring where the top player specifically attempts toreando passes from double sleeve. Practice the full defensive chain: grip retention, regripping, foot framing, guard transitions, and hip escape reguarding. Measure success by guard retention time and recovery rate after partial passes."
+      }
+    ]
+  }
 }

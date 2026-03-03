@@ -95,17 +95,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (21% of attempts)
+- **[[Elbow Escape to Guard]]** (22% of attempts)
 
-- **[[Arm Recovery to Guard]]** (18% of attempts)
+- **[[Arm Recovery to Guard]]** (16% of attempts)
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Granby Roll to Guard]]** (19% of attempts)
+- **[[Granby Roll to Guard]]** (17% of attempts)
 
-- **[[Technical Stand-up]]** (12% of attempts)
+- **[[Technical Stand-up]]** (11% of attempts)
 
-- **[[Re-Guard from Headquarters]]** (16% of attempts)
+- **[[Re-Guard from Headquarters]]** (15% of attempts)
+
+- **[[Frame Escape from Kuzure Kesa]]** (6% of attempts)
 
 
 ### Common Mistakes

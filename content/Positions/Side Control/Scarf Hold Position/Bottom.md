@@ -21,37 +21,37 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Arm Extraction to Turtle",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 31% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,23 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (16% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (18% of attempts)
+### [[Elbow Escape to Guard]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Hip Escape to Guard]] (11% of attempts)
 
-### [[Ghost Escape]] (16% of attempts)
+### [[Ghost Escape]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Turtle Transition]] (19% of attempts)
+### [[Arm Extraction to Turtle]] (31% of attempts)
+
+### [[Bridge from Scarf Hold Position]] (5% of attempts)
+
+### [[Escape Scarf Hold Position]] (2% of attempts)
+
+### [[Bridge Escape from Scarf Hold]] (1% of attempts)
 
 
 
@@ -239,7 +245,7 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
 - Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 55%)
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Turtle Transition]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 40%)
 
 
 **If opponent releases head control or loosens cross-face to attack far arm for americana or kimura:**
@@ -254,7 +260,7 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 60%)
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 55%)
 
 

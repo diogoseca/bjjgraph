@@ -89,29 +89,31 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Berimbolo Entry]]** (15% of attempts)
+- **[[Berimbolo Entry]]** (24% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Kiss of the Dragon]]** (8% of attempts)
+- **[[Kiss of the Dragon]]** (7% of attempts)
 
-- **[[Single Leg X Entry]]** (10% of attempts)
+- **[[Single Leg X Entry]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (8% of attempts)
+- **[[X-Guard Sweep]]** (7% of attempts)
 
-- **[[Granby Roll to Guard]]** (10% of attempts)
+- **[[Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Omoplata]]** (5% of attempts)
+- **[[Omoplata]]** (4% of attempts)
 
-- **[[Roll to Truck]]** (6% of attempts)
+- **[[Roll to Truck]]** (5% of attempts)
 
-- **[[Reverse X-Guard Entry]]** (5% of attempts)
+- **[[Reverse X-Guard Entry]]** (4% of attempts)
 
-- **[[Technical Stand-up]]** (7% of attempts)
+- **[[Technical Stand-up]]** (6% of attempts)
 
-- **[[Bolo Sweep]]** (8% of attempts)
+- **[[Bolo Sweep]]** (7% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (7% of attempts)
+- **[[Reverse De La Riva Recovery]]** (6% of attempts)
+
+- **[[Sweep from Inverted Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

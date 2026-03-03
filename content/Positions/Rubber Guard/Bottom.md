@@ -21,7 +21,7 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gogoplata",
-      "text": "From this position, attempt Gogoplata. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Mission Control Entry from Rubber Guard",
+      "text": "From this position, attempt Mission Control Entry from Rubber Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rubber Guard Maintenance",
-      "text": "From this position, attempt Rubber Guard Maintenance. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Rubber Guard to Closed Guard",
+      "text": "From this position, attempt Rubber Guard to Closed Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York Entry from Rubber Guard",
+      "text": "From this position, attempt New York Entry from Rubber Guard. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
       "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -201,29 +201,25 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Available Escapes
 
-### [[Triangle Setup]] (53% of attempts)
+### [[Triangle Setup]] (40% of attempts)
 
 ### [[Omoplata]] (15% of attempts)
 
-### [[Gogoplata]] (5% of attempts)
+### [[Mission Control Entry from Rubber Guard]] (12% of attempts)
 
-### [[Rubber Guard Maintenance]] (10% of attempts)
+### [[Rubber Guard to Closed Guard]] (7% of attempts)
+
+### [[New York Entry from Rubber Guard]] (5% of attempts)
 
 ### [[Hip Bump Sweep]] (5% of attempts)
 
 ### [[Omoplata Sweep]] (5% of attempts)
 
-### [[Guard Recovery]] (5% of attempts)
+### [[Gogoplata]] (4% of attempts)
 
-### [[Crackhead Control Entry]] (1% of attempts)
+### [[Rubber Guard Sweep]] (4% of attempts)
 
-### [[Mission Control Entry from Rubber Guard]] (0% of attempts)
-
-### [[New York Entry from Rubber Guard]] (0% of attempts)
-
-### [[Rubber Guard Sweep]] (0% of attempts)
-
-### [[Rubber Guard to Closed Guard]] (1% of attempts)
+### [[Crackhead Control Entry]] (3% of attempts)
 
 
 
@@ -249,8 +245,8 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 
 **If opponent successfully breaks leg grip but remains in guard:**
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Rubber Guard Maintenance]]** → [[Mission Control]] (Probability: 55%)
+- Execute **[[Rubber Guard to Closed Guard]]** → [[Closed Guard]] (Probability: 70%)
+- Execute **[[Mission Control Entry from Rubber Guard]]** → [[Mission Control]] (Probability: 55%)
 
 
 **If opponent freezes without reacting and allows system advancement:**

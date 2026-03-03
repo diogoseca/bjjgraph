@@ -46,10 +46,6 @@
   ],
   "transitions": [
     {
-      "transition": "Inside Heel Hook",
-      "attempt_probability": 15
-    },
-    {
       "transition": "Outside Heel Hook",
       "attempt_probability": 10
     },
@@ -58,32 +54,52 @@
       "attempt_probability": 12
     },
     {
-      "transition": "Straight Ankle Lock",
+      "transition": "Ankle Lock Finish",
       "attempt_probability": 10
     },
     {
       "transition": "Toe Hold",
-      "attempt_probability": 8
-    },
-    {
-      "transition": "Inside Ashi Entry",
-      "attempt_probability": 12
-    },
-    {
-      "transition": "Outside Ashi Entry",
-      "attempt_probability": 10
-    },
-    {
-      "transition": "Saddle Entry from Top",
-      "attempt_probability": 8
-    },
-    {
-      "transition": "50-50 Entry",
       "attempt_probability": 7
     },
     {
-      "transition": "Back Take from Ashi",
+      "transition": "Inside Ashi Entry",
+      "attempt_probability": 10
+    },
+    {
+      "transition": "Outside Ashi Entry",
       "attempt_probability": 8
+    },
+    {
+      "transition": "Saddle Entry from Top",
+      "attempt_probability": 7
+    },
+    {
+      "transition": "50-50 Entry",
+      "attempt_probability": 6
+    },
+    {
+      "transition": "Back Take from Ashi",
+      "attempt_probability": 7
+    },
+    {
+      "transition": "Ashi Entry from Leg Entanglement",
+      "attempt_probability": 5
+    },
+    {
+      "transition": "Leg Extraction Pass",
+      "attempt_probability": 5
+    },
+    {
+      "transition": "Leg Extraction Escape from Entanglement",
+      "attempt_probability": 5
+    },
+    {
+      "transition": "Guard Recovery from Leg Entanglement",
+      "attempt_probability": 5
+    },
+    {
+      "transition": "Inversion Escape from Leg Entanglement",
+      "attempt_probability": 3
     }
   ],
   "decision_tree": [
@@ -111,8 +127,8 @@
           "probability": 70
         },
         {
-          "technique": "Straight Ankle Lock",
-          "target": "Straight Ankle Lock Control",
+          "technique": "Ankle Lock Finish",
+          "target": "Ashi Garami",
           "probability": 65
         }
       ]
@@ -121,7 +137,7 @@
       "condition": "If opponent's heel becomes exposed with proper inside or outside positioning established",
       "actions": [
         {
-          "technique": "Inside Heel Hook",
+          "technique": "Inside Ashi Entry",
           "target": "Inside Ashi-Garami",
           "probability": 70
         },
@@ -156,8 +172,8 @@
           "probability": 55
         },
         {
-          "technique": "X-Guard Recovery",
-          "target": "X-Guard",
+          "technique": "Guard Recovery from Leg Entanglement",
+          "target": "Open Guard",
           "probability": 45
         }
       ]
@@ -261,6 +277,10 @@
       "relationship": "Child variant - outside heel hook and kneebar attacks with different angle of control"
     },
     {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Child variant - cross-body entanglement with unique submission angles and control dynamics"
+    },
+    {
       "name": "Saddle",
       "relationship": "Child variant - most dominant leg entanglement position with multiple submission pathways"
     },
@@ -269,39 +289,42 @@
       "relationship": "Child variant - bilateral leg entanglement creating neutral exchange with both sides attacking"
     },
     {
+      "name": "Backside 50-50",
+      "relationship": "Child variant - rear-facing 50-50 configuration with different attacking and escaping dynamics"
+    },
+    {
       "name": "Honey Hole",
       "relationship": "Alternative name for saddle position used in some systematic approaches"
     },
     {
-      "name": "Inside Heel Hook",
-      "relationship": "Primary submission from inside entanglement positions with highest finishing rate"
-    },
-    {
-      "name": "Kneebar",
-      "relationship": "Alternative submission when heel is defended or from extended leg positions"
+      "name": "Kneebar Control",
+      "relationship": "Submission control position reached from extended leg entanglements"
     },
     {
       "name": "Headquarters Position",
       "relationship": "Common entry position before establishing leg entanglement from top passing"
     },
     {
-      "name": "X-Guard",
-      "relationship": "Guard position that frequently transitions into leg entanglement systems"
-    },
-    {
       "name": "Back Control",
       "relationship": "Alternative dominant position when opponent gives up back to escape leg attacks"
+    },
+    {
+      "name": "Inside Sankaku",
+      "relationship": "Related entanglement configuration using triangle leg control around opponent's leg"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 68
+      "value": 68,
+      "description": "Moderate retention reflecting the dynamic and transitional nature of leg entanglements"
     },
     "advancement_probability": {
-      "value": 62
+      "value": 62,
+      "description": "Good advancement rate due to multiple transition pathways between entanglement variants"
     },
     "submission_probability": {
-      "value": 60
+      "value": 60,
+      "description": "High submission threat from dominant entanglement configurations like saddle and inside ashi"
     },
     "average_time": "45-90 seconds in competition, 2-3 minutes in training (varies significantly by entanglement variant and skill level)"
   },
@@ -338,33 +361,5 @@
       "question": "After your opponent partially escapes by straightening their leg and clearing one of your hooks, how do you recover the entanglement?",
       "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Ashi Entry from Leg Entanglement",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Leg Extraction Pass",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Leg Extraction Escape from Entanglement",
-        "attempt_probability": 40
-      },
-      {
-        "transition": "Guard Recovery from Leg Entanglement",
-        "attempt_probability": 35
-      },
-      {
-        "transition": "Inversion Escape from Leg Entanglement",
-        "attempt_probability": 25
-      }
-    ]
-  }
+  ]
 }

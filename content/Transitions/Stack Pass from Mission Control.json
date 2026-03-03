@@ -1,13 +1,392 @@
 {
   "name": "Stack Pass from Mission Control",
-  "description": "",
-  "tags": [],
+  "description": "Master the Stack Pass from Mission Control in BJJ. Learn stacking pressure mechanics to collapse rubber guard and advance to half guard top position.",
+  "tags": [
+    "guard passing",
+    "rubber guard defense",
+    "mission control escape",
+    "stack pass",
+    "pressure passing",
+    "10th planet defense"
+  ],
   "from_position": "Mission Control/Top",
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 100,
+      "probability": 40,
       "result": "success"
+    },
+    {
+      "to": "Mission Control/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 40,
+  "overview": "The Stack Pass from Mission Control is a pressure-based guard passing technique used by the top player trapped in the rubber guard's Mission Control position. Rather than attempting to recover posture or extract the trapped arm—the standard defensive responses—the stack pass leverages aggressive forward driving pressure to collapse the bottom player's high guard structure entirely, folding their hips over their shoulders and dismantling the control framework that makes Mission Control effective.\n\nThe fundamental mechanic involves the top player committing their weight forward and upward, compressing the bottom player's spine and eliminating their ability to maintain hip elevation. This directly attacks Mission Control's primary control mechanism. By folding the bottom player's body and neutralizing the structural leverage their high guard provides, the stack pass converts a defensive escape into an offensive passing opportunity. The technique exploits a key vulnerability in rubber guard positions: the bottom player's flexibility becomes a liability when compressed rather than extended, and the shoulder isolation that creates submission threats loses its mechanical advantage when the entire guard structure collapses under stacking pressure.\n\nStrategically, the stack pass occupies a critical niche in the Mission Control escape hierarchy as the decisive, position-advancing option when posture recovery and arm extraction are unavailable or too slow. The technique is particularly valuable when the bottom player is actively threatening submissions, as the forward driving pressure simultaneously neutralizes triangle and omoplata angles while progressing toward a pass. The risk-reward calculation favors the stack pass when remaining in Mission Control means facing escalating submission danger where time works against the top player. However, overcommitting to the stack without controlling the opponent's hips can expose the passer to omoplata entries and sweeps that exploit the forward weight distribution.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Heavy Stack Pass",
+      "description": "Maximum forward pressure stack where the top player drives their entire bodyweight through the bottom player's hips, folding them completely. Emphasizes sustained compression rather than speed, grinding the guard structure down over time.",
+      "when_to_use": "When the bottom player has excellent hip flexibility and maintains guard structure despite initial stacking attempts, requiring sustained heavy pressure to collapse the position."
+    },
+    {
+      "variant_name": "Angle Stack Pass",
+      "description": "Stack with diagonal pressure toward the trapped arm side rather than straight forward. Creates asymmetric loading that makes it harder for the bottom player to maintain balanced high guard control on both sides simultaneously.",
+      "when_to_use": "When straight stacking fails because the bottom player adjusts their hip angle to maintain guard integrity, the angular stack exploits their weakest structural line."
+    },
+    {
+      "variant_name": "Standing Stack Pass",
+      "description": "The top player posts on their feet during the stack rather than staying on their knees, dramatically increasing the stacking pressure through elevated hip position. More explosive but requires better balance and timing.",
+      "when_to_use": "Against very flexible opponents whose guard structure can absorb knee-based stacking pressure without collapsing, or when a decisive position change is needed quickly."
+    }
+  ],
+  "position_integration": "The Stack Pass from Mission Control occupies a critical role in the Mission Control escape hierarchy as the aggressive, position-advancing alternative to posture recovery and arm extraction. While posture recovery seeks to neutralize Mission Control from within and arm extraction targets the structural foundation of the position, the stack pass attacks the primary control mechanism—hip elevation—through direct forward pressure. This technique bridges the gap between defensive escape and offensive passing, making it particularly valuable when time pressure or escalating submission threats demand decisive action. The stack pass connects the rubber guard defense system to the half guard passing game, creating a pathway from one of the most dangerous bottom positions directly into an established passing platform where the top player can employ systematic half guard passing techniques.",
+  "conditions": [
+    "Trapped in Mission Control with opponent's high guard established and posture broken",
+    "Posture recovery and arm extraction have been unsuccessful or are deemed too risky due to active submission threats",
+    "Sufficient forward space to drive stacking pressure without opponent's hips being against a wall or mat edge",
+    "Arms positioned close to the body to prevent immediate triangle or omoplata entries during the forward drive"
+  ],
+  "related_content": [
+    {
+      "name": "Mission Control",
+      "relationship": "Source position—the rubber guard control position being escaped via stacking pressure"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful stack pass collapses the guard structure"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent system of Mission Control—understanding the system helps identify stack pass timing"
+    },
+    {
+      "name": "Posture Recovery from Mission Control",
+      "relationship": "Alternative escape technique—posture-based escape that complements the stack pass option"
+    },
+    {
+      "name": "Stack Pass from Carni",
+      "relationship": "Related technique—similar stacking mechanics applied to a different rubber guard control"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Position reached if opponent counters the stack with a sweep or guard reclassification"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Primary submission threat—opponent can enter omoplata using forward stacking momentum"
+    },
+    {
+      "name": "Stack Pass from Meathook",
+      "relationship": "Related technique—stacking from another rubber guard transitional position"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative passing destination when stack creates enough space to disengage legs"
+    }
+  ],
+  "attacker": {
+    "name": "Stack Pass from Mission Control Attacker",
+    "description": "Complete guide to executing the Stack Pass from Mission Control. Learn stacking mechanics, hip control, and pressure distribution to collapse rubber guard and advance position.",
+    "overview": "As the attacker executing the Stack Pass from Mission Control, your primary objective is to convert a defensive predicament into an offensive passing opportunity through controlled forward pressure. You are the top player trapped in Mission Control with your posture broken, shoulder isolated, and submission threats mounting. The stack pass offers a direct path out of this increasingly dangerous position by attacking the fundamental structure of the rubber guard—the bottom player's hip elevation and high guard configuration. By driving your weight forward and folding the bottom player's hips over their shoulders, you systematically dismantle the control framework that enables Mission Control's submission threats while simultaneously advancing toward a passing position.",
+    "key_principles": [
+      "Drive with your hips, not your arms—stacking power comes from hip drive and bodyweight distribution, not upper body pushing",
+      "Keep elbows tight to your body throughout the stack to prevent triangle completion and omoplata entries",
+      "Head position must stay inside toward the trapped arm side to deny the triangle angle across your neck",
+      "Commit fully to the forward direction once the stack begins—half-measures allow the guard to reset",
+      "Control the opponent's hips with your hands before initiating the stack to prevent them from adjusting angles",
+      "Progress the pass immediately after collapsing the guard—do not pause in a stacked position where sweeps are available"
+    ],
+    "setup_requirements": [
+      "Trapped in Mission Control with opponent's high guard leg across your back and shoulder isolated",
+      "Elbows drawn tight to your body with hands positioned to control opponent's hips or thighs",
+      "Base established on knees or feet with ability to generate forward driving pressure",
+      "Head positioned inside toward trapped arm side to prevent triangle angle",
+      "Mental commitment to the forward driving action—partial attempts are more dangerous than no attempt"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure hip control",
+        "description": "Place both hands on the opponent's hips or upper thighs, gripping firmly to control their ability to adjust hip angle. This grip prevents them from shrimping away or redirecting your stacking pressure. Keep elbows tight against your own torso throughout."
+      },
+      {
+        "step_number": 2,
+        "action": "Tuck chin and align spine",
+        "description": "Tuck your chin firmly to your chest and align your spine for forward driving. This protects your neck from triangle attempts and creates a structural line through your body that transfers hip drive into stacking pressure efficiently without energy waste."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate forward stack drive",
+        "description": "Drive your hips forward and upward in one committed motion, pushing the opponent's hips over their shoulders. Walk your knees forward as you drive to maintain pressure progression. The bottom player's spine should begin folding as their hips are elevated above their head."
+      },
+      {
+        "step_number": 4,
+        "action": "Collapse the high guard structure",
+        "description": "As the bottom player's hips fold, their high guard leg loses the structural angle needed to maintain shoulder isolation. Continue forward pressure until the high guard leg slides off your back or loses its controlling grip on your shoulder. The rubber guard structure should visibly collapse."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped arm and clear guard legs",
+        "description": "Once the high guard collapses, immediately work to free your trapped arm by pulling it across your body toward the clear side. Use your free hand to push the opponent's legs toward the mat on one side while driving your hips through the gap created by the collapsed guard structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Windshield wiper legs to half guard",
+        "description": "As you clear the high guard, your opponent will typically retain one leg as a half guard hook. Allow this initial retention while securing your upper body position with crossface or underhook. Establish strong top half guard position with chest pressure and head control."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate half guard top position",
+        "description": "Immediately establish dominant half guard top control by securing crossface or underhook, distributing weight through your chest onto the opponent, and beginning systematic half guard passing. Do not pause in a neutral half guard—capitalize on the disrupted guard structure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent transitions to omoplata by using forward stacking momentum to rotate their hips and catch the trapped arm",
+        "effectiveness": "High",
+        "your_response": "Keep elbows extremely tight and pull arm across your body toward the opposite hip as you feel rotation. If omoplata locks, posture up and circle toward their head to extract the arm before they can flatten you.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent shrimps away during the stack to create distance and re-establishes Mission Control grips before the guard collapses",
+        "effectiveness": "Medium",
+        "your_response": "Maintain constant forward pressure and follow their hip movement with your drive direction. If they create enough distance to re-establish, immediately switch to posture recovery rather than continuing a failed stack.",
+        "targets_outcome": "Mission Control/Top"
+      },
+      {
+        "counter": "Opponent brings leg across your face during the stack to enter triangle choke using your forward momentum",
+        "effectiveness": "Medium",
+        "your_response": "Turn head aggressively toward the trapped arm side and drive shoulder into their thigh to prevent the leg from crossing your centerline. If triangle locks partially, stack harder to compress the angle and prevent the choke from setting.",
+        "targets_outcome": "Mission Control/Top"
+      },
+      {
+        "counter": "Opponent hip bumps during the stack to sweep using your committed forward weight distribution",
+        "effectiveness": "Medium",
+        "your_response": "Widen your base by posting one foot wide during the stack drive to create stability against lateral sweeping forces. If you feel the sweep initiating, abandon the stack and post your hand to prevent being rolled.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward with arms extended rather than using hip drive for stacking pressure",
+        "consequence": "Arms become vulnerable to omoplata and triangle entries, and the stacking force is insufficient to collapse the guard structure because arm strength cannot generate the same pressure as bodyweight transfer",
+        "correction": "Keep hands controlling hips with elbows tight, drive forward using hip extension and knee walking to transfer bodyweight through the opponent's guard structure"
+      },
+      {
+        "error": "Leaving elbows wide during the forward drive creating space between arms and torso",
+        "consequence": "Wide elbows create the perfect space for the bottom player to thread their leg through for triangle completion or to rotate the arm into omoplata position",
+        "correction": "Squeeze elbows against your ribs throughout the entire stacking motion, treating any elbow separation as an immediate correction priority"
+      },
+      {
+        "error": "Positioning head on the outside away from trapped arm during the stack",
+        "consequence": "Outside head position directly feeds the triangle choke by positioning your neck at the exact angle the bottom player needs for the leg to cross your face and complete the lock",
+        "correction": "Keep head firmly on the inside toward the trapped arm side, tucking chin to chest and driving shoulder into their thigh to deny the triangle angle"
+      },
+      {
+        "error": "Pausing in the stacked position after collapsing the guard instead of immediately progressing the pass",
+        "consequence": "A static stacked position gives the opponent time to establish sweeping grips and use the compressed position to generate hip bump sweeps that exploit your elevated center of gravity",
+        "correction": "Treat the stack as a transitional action, not a destination—immediately progress to clearing guard legs and establishing half guard top as soon as the high guard structure collapses"
+      },
+      {
+        "error": "Attempting the stack pass without first controlling the opponent's hips with both hands",
+        "consequence": "Uncontrolled hips allow the opponent to adjust angles, shrimp away to create space, or redirect your stacking pressure into submission entries that exploit the uncontrolled movement",
+        "correction": "Always secure hip grips before initiating the stack drive—hands on hips or upper thighs provide the control point needed to direct the stacking pressure effectively"
+      },
+      {
+        "error": "Half-committing to the stack with insufficient forward pressure",
+        "consequence": "Partial stacking alerts the opponent to your intention without generating enough pressure to collapse the guard, allowing them to adjust defenses and making subsequent stack attempts significantly harder",
+        "correction": "Once you decide to stack, commit fully to continuous forward pressure—the stack pass requires decisive action and partial attempts are more dangerous than no attempt"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Stacking Mechanics",
+        "focus": "Hip drive and pressure distribution",
+        "description": "Practice the stacking motion against a compliant partner in Mission Control. Focus on driving with hips rather than arms, keeping elbows tight, and learning the body mechanics of folding an opponent's guard through forward pressure. Partner provides no resistance and allows the guard to collapse."
+      },
+      {
+        "phase": "Phase 2: Counter Recognition",
+        "focus": "Identifying and defending omoplata and triangle threats",
+        "description": "Partner in Mission Control actively threatens omoplata and triangle during the stack attempt. Passer focuses on maintaining tight elbows, correct head position, and recognizing defensive triggers while continuing the stacking motion. Partner provides 50% resistance."
+      },
+      {
+        "phase": "Phase 3: Complete Sequence",
+        "focus": "Stack to half guard consolidation",
+        "description": "Execute the full sequence from stack initiation through guard collapse, arm extraction, and half guard consolidation against progressive resistance. Partner uses realistic defensive reactions including guard re-establishment attempts and submission threats."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Integrating stack pass into Mission Control escape repertoire",
+        "description": "Positional sparring starting in Mission Control with full resistance. Top player chooses between posture recovery, arm extraction, and stack pass based on bottom player's reactions. Develops decision-making about when to use the stack pass versus alternative escapes under live conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary source of stacking power and why should you avoid driving with your arms?",
+        "answer": "Stacking power comes from hip drive and bodyweight transfer, not arm strength. Driving with arms extended creates space between your elbows and torso that the bottom player exploits for triangle and omoplata entries. Hip drive generates significantly more force than arm pushing, and keeping hands on the hips for control rather than pushing maintains the tight elbow position needed to prevent submissions."
+      },
+      {
+        "question": "Where must your head be positioned during the stack and what happens if you get this wrong?",
+        "answer": "Your head must stay on the inside, toward the trapped arm side, with chin tucked to chest. If your head goes to the outside, you directly feed the triangle choke by positioning your neck at the exact angle needed for the bottom player's leg to cross your face and complete the lock. Inside head position combined with shoulder pressure into their thigh denies the triangle angle entirely."
+      },
+      {
+        "question": "Your opponent begins rotating their hips for an omoplata as you initiate the stack—how do you respond?",
+        "answer": "Immediately squeeze your elbows even tighter and pull your trapped arm across your body toward the opposite hip to prevent the arm from being isolated. If the rotation continues, posture up and circle toward their head to extract the arm before they can flatten you. The key is recognizing the hip rotation early—once the omoplata is fully locked, escape becomes much harder."
+      },
+      {
+        "question": "Why is it critical to control the opponent's hips before initiating the stack?",
+        "answer": "Uncontrolled hips allow the opponent to shrimp away to create distance, redirect your stacking pressure into submission angles, or adjust their hip position to maintain guard structure despite the forward pressure. Gripping the hips or upper thighs creates a fixed point that ensures your stacking force is directed through their guard structure rather than being dissipated by their movement."
+      },
+      {
+        "question": "What should you do immediately after the high guard collapses—and what is the danger of pausing?",
+        "answer": "Immediately progress to clearing the guard legs and establishing half guard top with crossface or underhook. Pausing in the stacked position gives the opponent time to establish sweeping grips and generate hip bump sweeps that exploit your elevated, forward-committed center of gravity. The stack is a transitional action that must flow directly into the pass, not a resting position."
+      },
+      {
+        "question": "When should you choose the stack pass over posture recovery or arm extraction from Mission Control?",
+        "answer": "Choose the stack pass when the bottom player is actively threatening submissions and time pressure makes patient escapes too dangerous, when posture recovery has been attempted and failed because the bottom player's grip control is too strong, or when the bottom player's hip elevation is the primary control mechanism and direct forward pressure is the most efficient way to eliminate it."
+      },
+      {
+        "question": "Your opponent successfully shrimps away during the stack and begins re-establishing grips—what is your adjustment?",
+        "answer": "If they create enough distance to re-establish Mission Control grips, abandon the stack attempt and immediately switch to posture recovery as your primary escape strategy. Continuing to chase a failed stack attempt wastes energy and gives them time to re-establish full control. Recognize when the stack has lost its effectiveness and transition to alternative escapes rather than forcing a defended technique."
+      },
+      {
+        "question": "What base adjustments prevent sweeps during the forward-committed stack pass?",
+        "answer": "Widen your base by posting one foot wide to the side during the stack drive, creating lateral stability against hip bump and sweep attempts. Maintain some weight on both knees rather than committing entirely forward, and be prepared to post a hand if you feel sweeping forces. The forward commitment of the stack inherently creates sweep vulnerability, so proactive base widening is essential."
+      }
+    ],
+    "safety_considerations": "The stack pass creates significant compressive forces on the opponent's spine, neck, and shoulder joints. Apply stacking pressure progressively rather than explosively to allow the bottom player time to adjust and tap if necessary. Never drive a stack with your head posted on the mat as this creates dangerous cervical spine compression on both players. Release immediately if the opponent indicates discomfort in their neck or spine. In training, communicate with your partner about pressure levels and avoid stacking opponents with known neck or back injuries."
+  },
+  "defender": {
+    "name": "Stack Pass from Mission Control Defender",
+    "description": "Complete guide to defending the Stack Pass while maintaining Mission Control. Learn recognition cues, defensive transitions, and how to convert stacking attempts into submission opportunities.",
+    "overview": "As the defender against the Stack Pass from Mission Control, you are the bottom player maintaining rubber guard control when your opponent commits to forward stacking pressure rather than posture recovery or arm extraction. Your role shifts from maintaining static control to dynamically redirecting the opponent's forward momentum into submission entries or sweep opportunities. The stack pass directly threatens your primary control mechanism—hip elevation—so successful defense requires recognizing the stack early and transitioning to positions that capitalize on the opponent's committed forward weight distribution rather than fighting the stacking pressure head-on.",
+    "key_principles": [
+      "Recognize the stack early through tactile cues before the forward pressure builds critical momentum",
+      "Do not fight the stacking pressure directly—redirect it into offensive transitions that exploit forward weight commitment",
+      "Maintain head control throughout the stacking attempt to prevent the opponent from establishing passing angles",
+      "Use the opponent's forward momentum to enter omoplata, triangle, or sweeping sequences",
+      "If the guard structure begins to collapse, transition to alternative controls before position is lost entirely",
+      "Keep hips active and mobile during the stack to adjust angles and prevent complete folding"
+    ],
+    "recognition_cues": [
+      "Opponent's hands move from defensive positions to gripping your hips or upper thighs",
+      "Forward pressure increases dramatically as opponent drives weight through their hips rather than trying to posture up",
+      "Opponent tucks their chin to their chest and aligns their spine for forward driving",
+      "Your hips begin to elevate involuntarily as the opponent's weight pushes underneath and forward",
+      "Opponent's elbows draw tight against their body in preparation for the forward drive"
+    ],
+    "defensive_options": [
+      {
+        "action": "Transition to omoplata by redirecting the forward stacking momentum into hip rotation and arm isolation",
+        "when_to_use": "As soon as you recognize the stack initiation and before the opponent's weight fully commits forward—the early stack creates the hip angle needed for omoplata entry",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You catch the opponent in omoplata control with their arm isolated behind your hip, creating a direct submission or sweep opportunity",
+        "risk": "If the opponent keeps elbows extremely tight, the omoplata entry may fail and the stacking pressure continues unimpeded"
+      },
+      {
+        "action": "Shrimp hips away to create distance and re-establish Mission Control grips before the guard structure collapses",
+        "when_to_use": "When the initial stacking pressure is moderate and you have enough hip mobility to create lateral space while maintaining leg and arm connections",
+        "targets_outcome": "Mission Control/Top",
+        "if_successful": "You reset the position to full Mission Control with the opponent's stack attempt neutralized and their energy partially wasted",
+        "risk": "If the opponent follows your hip movement with continued forward drive, the shrimp may be insufficient and the guard collapses from a compromised angle"
+      },
+      {
+        "action": "Bring leg across opponent's face to enter triangle choke using their forward-committed head position",
+        "when_to_use": "When the opponent's head is positioned on the outside during the stack or their chin tuck is inadequate, creating a clear path for your leg to cross their neck",
+        "targets_outcome": "Mission Control/Top",
+        "if_successful": "You lock a triangle choke from the stacked position, which can be finished even while partially stacked by adjusting angle and squeezing",
+        "risk": "If the opponent's head is correctly positioned inside with chin tucked, the leg cannot cross effectively and the attempt may weaken your guard structure"
+      },
+      {
+        "action": "Hip bump sweep using the opponent's forward weight distribution and elevated center of gravity",
+        "when_to_use": "When the opponent overcommits to the forward stack and their base is narrow or compromised, creating vulnerability to lateral sweeping forces",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You reverse the position entirely, ending on top with the opponent on their back",
+        "risk": "If the opponent has widened their base adequately, the hip bump generates insufficient force and you waste the defensive opportunity window"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mission Control/Top",
+        "how": "Shrimp hips laterally during the early phase of the stack to create enough distance to re-establish your high guard leg position and head control grips. The key timing is before the stacking pressure reaches critical momentum—once your hips are folded past your shoulders, re-establishment becomes nearly impossible."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Redirect the opponent's forward momentum into either an omoplata rotation or a hip bump sweep. For omoplata, use their forward drive to rotate your hips and isolate the trapped arm as they push past the balance point. For the sweep, time a lateral hip bump when their weight is most committed forward and their base is narrowest."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting the stacking pressure head-on by trying to push the opponent backward with arms",
+        "consequence": "Arm frames against a committed stack are overwhelmed by bodyweight, wasting energy and allowing the guard to collapse without any offensive transition being attempted",
+        "correction": "Redirect the stacking energy laterally into transitions—omoplata rotation, hip shrimp, or triangle entry—rather than opposing the forward force directly"
+      },
+      {
+        "error": "Maintaining static Mission Control grips without adjusting to the stacking motion",
+        "consequence": "Static grips lose effectiveness as the angle changes during the stack, and the guard structure collapses because no defensive adjustment was made to account for the forward pressure vector",
+        "correction": "Actively adjust hip angle and grip positioning as the stack develops—release non-essential grips to facilitate transitions rather than holding a deteriorating position"
+      },
+      {
+        "error": "Failing to recognize the stack pass initiation until the forward pressure has already built critical momentum",
+        "consequence": "Late recognition eliminates defensive transition options because the guard structure is already compromised by the time you react, leaving only desperate scrambling",
+        "correction": "Monitor for early recognition cues—hands moving to hips, chin tuck, elbow tightening—and initiate defensive transitions immediately rather than waiting to confirm the technique"
+      },
+      {
+        "error": "Releasing head control during defensive transitions against the stack",
+        "consequence": "Without head control, the opponent's stack becomes significantly more powerful and their passing angle improves dramatically, often resulting in immediate guard collapse",
+        "correction": "Maintain at least one hand controlling the opponent's head throughout all defensive transitions—head control is your primary tool for limiting the effectiveness of the stacking pressure"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest tactile cues that your opponent is initiating a stack pass rather than a posture recovery attempt?",
+        "answer": "The earliest cues are the opponent's hands moving to your hips or upper thighs rather than fighting your head control grips, their chin tucking to their chest, their elbows drawing tight against their body, and forward pressure increasing through their hips rather than upward extension through their spine. Posture recovery involves upward driving; stacking involves forward compression—the force vector direction is the key differentiator."
+      },
+      {
+        "question": "Why is it counterproductive to resist the stacking pressure directly with arm frames?",
+        "answer": "The stacking pressure is driven by the opponent's full bodyweight through hip extension, which generates far more force than your arms can resist from a supine position. Direct resistance wastes energy rapidly and prevents you from executing the lateral transitions—omoplata, triangle, sweep—that actually capitalize on the opponent's forward commitment. The correct strategy is redirection, not opposition."
+      },
+      {
+        "question": "How do you convert a stack pass attempt into an omoplata entry?",
+        "answer": "As the opponent drives forward, use their momentum to assist your hip rotation toward the trapped arm side. The forward stacking motion naturally extends their arm past the balance point where you can rotate your hips over the shoulder for omoplata entry. The key timing is during the early-to-middle phase of the stack when the arm is still inside your guard structure but the forward pressure provides the rotational energy you need."
+      },
+      {
+        "question": "When should you abandon Mission Control entirely rather than attempting to defend the stack?",
+        "answer": "Abandon Mission Control when your hips have been folded past your shoulders and re-establishment of hip elevation is physically impossible from the compressed position. At that point, transition to alternative guards—butterfly guard, half guard, or closed guard—by releasing your high guard hooks and creating distance through framing. Holding a collapsed Mission Control only wastes energy and delays your guard recovery."
+      },
+      {
+        "question": "What makes the hip bump sweep effective specifically against the stack pass?",
+        "answer": "The stack pass requires the opponent to commit their weight forward and elevate their center of gravity above their base. This forward weight commitment makes them vulnerable to lateral forces that their narrow, forward-oriented base cannot absorb. The hip bump targets this structural weakness by generating lateral sweeping force at the exact moment when their weight is most committed forward and their posting options are most limited."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying stack pass initiation cues",
+        "description": "Partner alternates between posture recovery attempts and stack pass initiation from Mission Control. Bottom player calls out which technique is being attempted as early as possible. Develops the tactile and visual recognition that enables early defensive reactions."
+      },
+      {
+        "phase": "Phase 2: Transition Mechanics",
+        "focus": "Omoplata and sweep entries from stacking pressure",
+        "description": "Partner initiates stack pass at 50% speed. Bottom player practices redirecting the forward momentum into omoplata entries and hip bump sweeps. Focus on smooth transitions that use the stacking energy rather than fighting it. Repeat each transition 10 times per side."
+      },
+      {
+        "phase": "Phase 3: Decision Making Under Pressure",
+        "focus": "Choosing the correct defensive response",
+        "description": "Partner initiates stack pass at 75% resistance with varied speed and angle. Bottom player must select the appropriate defensive response—omoplata, triangle, shrimp, or sweep—based on the specific stacking angle and the partner's elbow and head positioning."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance stack defense integration",
+        "description": "Full resistance positional sparring starting in Mission Control. Top player uses any escape including stack pass. Bottom player must maintain control or transition to offensive positions. Develops the integrated defensive game that handles stack passes alongside other escape attempts."
+      }
+    ]
+  }
 }

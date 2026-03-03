@@ -21,32 +21,38 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse Mount to Mount",
+      "text": "From this position, attempt Reverse Mount to Mount. This technique is attempted in 3% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -203,15 +209,21 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (35% of attempts)
+### [[Side Control to Mount]] (43% of attempts)
 
-### [[Back Take]] (30% of attempts)
+### [[Back Take]] (26% of attempts)
 
-### [[Mount to Armbar]] (15% of attempts)
+### [[Mount to Armbar]] (12% of attempts)
 
-### [[Turtle to Truck]] (10% of attempts)
+### [[Turtle to Truck]] (7% of attempts)
 
-### [[Side Control to North-South]] (10% of attempts)
+### [[Side Control to North-South]] (7% of attempts)
+
+### [[Reverse Mount to Mount]] (3% of attempts)
+
+### [[Reverse Mount to Side Control]] (1% of attempts)
+
+### [[Armbar from Reverse Mount]] (1% of attempts)
 
 
 

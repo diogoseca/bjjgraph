@@ -23,6 +23,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Closed Guard]]
+**From Position**: [[Closed Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -244,16 +245,16 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## Related Submissions
 
-- [[Omoplata from Guard]]
+- [[Omoplata from Spider Guard]]
 - [[Baratoplata]]
-- [[Gogoplata]]
-- [[Triangle Choke]]
-- [[Triangle from Closed Guard]]
+- [[Gogoplata Finish]]
+- [[Rear Triangle Choke]]
+- [[Rolling Omoplata]]
 - [[Armbar from Guard]]
-- [[Kimura from Guard]]
+- [[Kimura from Kimura Trap]]
 - [[Americana]]
-- [[Omoplata]]
-- [[Kimura]]
+- [[Mounted Triangle Finish]]
+- [[Reverse Kimura]]
 
 
 </section>
@@ -266,12 +267,12 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 - [[Mission Control]] - Optimal rubber guard position for transitioning to tarikoplata
 - [[Triangle Control]] - Alternative transition when triangle is defended - flow to tarikoplata
 - [[Baratoplata]] - Related shoulder lock variation using similar mechanics
-- [[Gogoplata]] - Complementary rubber guard submission, creates submission chain
+- [[Gogoplata Control]] - Complementary rubber guard submission, creates submission chain
 - [[Closed Guard]] - Primary starting position for tarikoplata entries
 - [[Rubber Guard]] - Guard system containing optimal tarikoplata entry positions
 - [[Inverted Guard]] - Alternative entry angle for inverted tarikoplata variation
 - [[New York]] - Advanced rubber guard position for tarikoplata transitions
-- [[Omoplata from Guard]] - Foundation submission - must master before learning tarikoplata
+- [[Omoplata from Spider Guard]] - Related omoplata submission - master omoplata mechanics before learning tarikoplata
 
 
 </section>

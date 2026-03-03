@@ -93,19 +93,21 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Frame and Shrimp to Guard]]** (47% of attempts)
+- **[[Frame and Shrimp to Guard]]** (68% of attempts)
 
-- **[[Deep Half Entry]]** (16% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (1% of attempts)
+- **[[Lockdown Recovery]]** (4% of attempts)
 
-- **[[Lockdown Recovery]]** (8% of attempts)
+- **[[Underhook Sweep from Half]]** (2% of attempts)
 
-- **[[Old School Sweep]]** (5% of attempts)
+- **[[Old School Sweep]]** (1% of attempts)
 
-- **[[Underhook Sweep from Half]]** (6% of attempts)
+- **[[Underhook Recovery from Flattened]]** (0% of attempts)
+
+- **[[Granby Roll to Guard]]** (0% of attempts)
 
 - **[[Deep Half Entry from Flattened]]** (0% of attempts)
 
@@ -113,7 +115,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Recover Knee Shield from Flattened Half]]** (0% of attempts)
 
-- **[[Underhook Recovery from Flattened]]** (1% of attempts)
+- **[[Reversal from Flattened Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,23 +168,25 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (30% of attempts)
+- **[[Knee Slice from Half]]** (38% of attempts)
 
 - **[[Crossface Pass]]** (15% of attempts)
 
 - **[[Underhook Pass]]** (11% of attempts)
 
-- **[[Back Take]]** (10% of attempts)
+- **[[Back Take]]** (9% of attempts)
 
-- **[[Kimura]]** (6% of attempts)
+- **[[Arm Triangle Setup]]** (9% of attempts)
 
-- **[[Transition to Flattened Half Guard]]** (13% of attempts)
+- **[[Half Guard Pass]]** (9% of attempts)
 
-- **[[Half Guard Pass]]** (10% of attempts)
+- **[[Kimura]]** (5% of attempts)
 
-- **[[Complete Pass from Flattened Half]]** (3% of attempts)
+- **[[Complete Pass from Flattened Half]]** (2% of attempts)
 
-- **[[Knee Slide from Flattened Half]]** (2% of attempts)
+- **[[Knee Slide from Flattened Half]]** (1% of attempts)
+
+- **[[Cross Face Pass from Flattened Half]]** (1% of attempts)
 
 
 ### Common Mistakes

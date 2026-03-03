@@ -211,7 +211,7 @@ The double leg finish also integrates defensively within the scrambling system. 
 
 - [[Side Control to Mount]] - Follow-up transition - common positional advancement after establishing side control from the finish
 
-- [[Takedown Defense]] - Primary counter system - understanding defensive mechanics helps execute finish before opponent can react
+- [[Break Clinch]] - Defensive clinch technique - understanding clinch escape mechanics helps time the finish before opponent can disengage
 
 - [[Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
 

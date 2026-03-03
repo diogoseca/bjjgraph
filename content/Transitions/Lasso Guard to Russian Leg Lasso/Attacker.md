@@ -337,6 +337,12 @@ Start every round in established single-leg lasso guard. Bottom player works to 
 **Q8**: After completing the Russian Leg Lasso, what must you do within 3-5 seconds and why?
 **A**: You must initiate a sweep or submission threat within 3-5 seconds because Russian Leg Lasso is an energy-intensive control that depletes grip endurance rapidly when held statically. Both hands maintain constant sleeve tension, both legs actively press outward against the arms, and your core engages to maintain hip angle. This simultaneous exertion drains stamina faster than the opponent's escape efforts. The position is designed as a launching platform for bilateral sweeps that use coordinated push-pull on both arms to generate irresistible torque. Holding passively wastes the mechanical advantage and allows the opponent to methodically work free.
 
+**Q9**: The opponent successfully retracts their free arm after you captured the sleeve but before you threaded. What chain attack should you pursue?
+**A**: When the arm retracts, you still hold the second sleeve grip even though you cannot thread. Use this grip to immediately threaten a collar drag or arm drag that pulls the opponent forward and off-balance. Their retraction motion shifts their weight backward, so a forward-pulling attack catches them in transition. If the drag generates enough forward momentum, the opponent must post with that same arm to recover base, which re-extends it into threading range. Alternatively, release the second sleeve, recover your collar grip, and use the first lasso to set up a sickle sweep while their base is disrupted from the retraction effort.
+
+**Q10**: How do you determine which direction to angle your hips when your opponent's stance is asymmetric during single lasso?
+**A**: Angle your hips toward the side where the opponent's free arm is most exposed, which is typically the side where they have less base or where their arm is reaching. If their free arm is on the same side as their lead leg in a staggered stance, that arm is closer and easier to reach by angling toward it. If they have shifted their weight away from the lasso side, their free arm often compensates by reaching across their body for balance, creating a threading angle from the opposite direction. Read their weight distribution and arm position together to determine the shortest threading path.
+
 
 
 </section>

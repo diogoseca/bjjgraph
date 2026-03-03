@@ -167,13 +167,13 @@
         "counter": "Opponent circles away and disengages to avoid the single leg",
         "effectiveness": "Medium",
         "your_response": "Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms.",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Bottom"
       },
       {
         "counter": "Opponent shoots for guillotine during your level change",
         "effectiveness": "Medium",
         "your_response": "Keep your head up and posture strong during entry. If caught, immediately drive forward stacking their weight, secure their hips, and work to pass to side control rather than pulling back. Peel their choking arm by driving your trapped-side shoulder into their sternum while circling your head free.",
-        "targets_outcome": "Front Headlock"
+        "targets_outcome": "Front Headlock/Bottom"
       },
       {
         "counter": "Opponent whizzers your penetrating arm and sprawls the hip",
@@ -321,7 +321,7 @@
       {
         "action": "Sprawl hips back and drive weight down on opponent's shoulders during single leg entry",
         "when_to_use": "When you feel the level change and penetration step after opponent has achieved standing position",
-        "targets_outcome": "Front Headlock",
+        "targets_outcome": "Front Headlock/Bottom",
         "if_successful": "Opponent's single leg is stuffed and you establish front headlock control with access to guillotine, darce, and anaconda attacks",
         "risk": "If sprawl is late or shallow, opponent drives through and completes the takedown or transitions to leg entanglement"
       },
@@ -335,7 +335,7 @@
       {
         "action": "Guillotine counter during the level change",
         "when_to_use": "When opponent's head drops inside your body during the penetration step, exposing their neck",
-        "targets_outcome": "Front Headlock",
+        "targets_outcome": "Front Headlock/Bottom",
         "if_successful": "You catch a guillotine choke or establish front headlock control, converting their offensive attempt into your submission opportunity",
         "risk": "If their head is properly positioned outside your body, the guillotine attempt fails and you lose the sprawl window"
       }
@@ -346,7 +346,7 @@
         "how": "Collapse the standup early by driving heavy crossface pressure into their posting structure while controlling their near hip. Strip their posting hand by sweeping it or driving your shoulder into their elbow. The key is addressing the standup in its first two seconds before they generate upward momentum."
       },
       {
-        "outcome": "Front Headlock",
+        "outcome": "Front Headlock/Bottom",
         "how": "Allow the standup to complete but be ready for the single leg. When you feel the level change, sprawl your hips explosively backward and downward while snapping their head down with both hands. Secure a front headlock grip with one arm around the neck and the other controlling their near arm. From here you have access to guillotine, anaconda, darce, and go-behind options."
       }
     ],

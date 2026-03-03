@@ -10,11 +10,11 @@
     "Foot Control Hierarchy: Controlling opponent's foot while preventing their control of yours is the primary strategic goal that determines who can attack first",
     "Hip Mobility: Mobile hips allow you to create angles for submissions and prevent opponent's attacks by maintaining perpendicular alignment to their centerline",
     "Grip Fighting Dominance: Superior grips on opponent's foot and ankle enable submission entries and prevent their offense, making hand fighting paramount",
-    "Transition Sensitivity: Recognize when direct submissions aren't available and seamlessly flow to superior positions like Saddle, Backside 50-50, or X-Guard"
+    "Transition Sensitivity: Recognize when direct submissions aren't available and seamlessly flow to superior positions like Honey Hole, Backside 50-50, or X-Guard"
   ],
   "related_positions": [
     {
-      "name": "Saddle",
+      "name": "Honey Hole",
       "relationship": "Primary advancement target from 50-50 offering superior control and submission opportunities"
     },
     {
@@ -101,16 +101,16 @@
         "answer": "Two-handed control on opponent's heel or ankle is essential - one hand cups the heel while the other controls the ankle or Achilles area. These grips enable heel hook attacks, prevent leg extraction, and allow you to control opponent's leg rotation. Never release both grips simultaneously when adjusting."
       },
       {
-        "question": "How should you distribute your weight to maintain top position effectively?",
-        "answer": "Weight should drive primarily through your hips and pelvis into opponent's lower abdomen, not through your hands or upper body. Maintain upright torso posture with chest up and spine relatively vertical. This creates maximum downward pressure while keeping your base stable and preventing forward rolls."
+        "question": "How should you distribute your weight and apply pressure to maintain top position effectively?",
+        "answer": "Weight should drive primarily through your hips and pelvis into opponent's lower abdomen, not through your hands or upper body. Maintain upright torso posture with chest up and spine relatively vertical. This creates maximum downward pressure while keeping your base stable and preventing forward rolls. Use skeletal alignment rather than muscular tension for sustained pressure."
       },
       {
         "question": "Your opponent successfully hides their heel by tucking it close to their body - what is the correct response?",
-        "answer": "Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Saddle for better heel exposure angles."
+        "answer": "Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles."
       },
       {
-        "question": "When opponent begins matching your inside position, what counter should you immediately execute?",
-        "answer": "Transition to Outside Ashi-Garami before they fully establish inside control parity. This involves releasing your inside leg position and reattaching with outside control while maintaining heel grips. Alternatively, immediately attack their heel before they complete the position recovery, as their focus on inside position creates momentary grip vulnerability."
+        "question": "Your opponent partially extracts their outside leg from the entanglement but has not yet established a guard hook - how do you recover full 50-50 control?",
+        "answer": "Immediately drive your hips forward to close the extraction gap while using your inside leg to re-triangle around their remaining trapped leg. Simultaneously tighten your ankle grip with both hands and use your outside leg to pull their freed leg back into the entanglement configuration. The critical recovery window is 1-2 seconds between initial extraction and hook establishment. If they have already placed a butterfly hook behind your knee, do not drive forward—instead backstep to disengage entirely and re-engage from a passing position."
       },
       {
         "question": "How do you manage energy expenditure during extended 50-50 exchanges?",
@@ -126,7 +126,7 @@
         "condition": "If opponent's heel is exposed and you have strong two-handed control with inside position maintained",
         "actions": [
           {
-            "technique": "Inside Heel Hook",
+            "technique": "Heel Hook",
             "target": "Inside Heel Hook",
             "probability": 50
           },
@@ -141,7 +141,7 @@
         "condition": "If opponent hides heel by tucking it close to their body or you lose heel control",
         "actions": [
           {
-            "technique": "Kneebar from 50-50",
+            "technique": "Kneebar entry",
             "target": "Kneebar Control",
             "probability": 45
           },
@@ -166,8 +166,8 @@
             "probability": 50
           },
           {
-            "technique": "Calf slicer",
-            "target": "Calf Slicer from 50-50",
+            "technique": "Calf Slicer",
+            "target": "Calf Slicer",
             "probability": 30
           },
           {
@@ -240,7 +240,7 @@
         "relationship": "Primary positional advancement when submissions are defended"
       },
       {
-        "name": "Saddle",
+        "name": "Honey Hole",
         "relationship": "Advanced leg entanglement with stronger control - progression from 50-50 system"
       },
       {
@@ -248,7 +248,7 @@
         "relationship": "Primary submission attack from this position"
       },
       {
-        "name": "Kneebar from 50-50",
+        "name": "Kneebar entry",
         "relationship": "Secondary submission when heel hook is defended"
       },
       {
@@ -274,19 +274,19 @@
     },
     "transitions": [
       {
-        "transition": "Inside Heel Hook",
+        "transition": "Heel Hook",
         "attempt_probability": 35
       },
       {
-        "transition": "Kneebar from 50-50",
+        "transition": "Kneebar entry",
         "attempt_probability": 7
       },
       {
-        "transition": "Straight Ankle Lock",
+        "transition": "Straight Ankle Lock Entry",
         "attempt_probability": 2
       },
       {
-        "transition": "Calf Slicer from 50-50",
+        "transition": "Calf Slicer",
         "attempt_probability": 2
       },
       {
@@ -314,16 +314,12 @@
         "attempt_probability": 3
       },
       {
-        "transition": "Transition to Backside 50-50",
-        "attempt_probability": 4
-      },
-      {
         "transition": "Saddle Entry from Top",
         "attempt_probability": 9
       },
       {
         "transition": "50-50 Guard to Backside 50-50",
-        "attempt_probability": 1
+        "attempt_probability": 5
       }
     ]
   },
@@ -399,8 +395,8 @@
         "answer": "Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts."
       },
       {
-        "question": "What signals indicate opponent is about to attack with heel hook, and how do you preemptively defend?",
-        "answer": "Signals include opponent securing two-handed grip on your heel area, rotating their hips to create breaking angle, pulling your heel toward their chest, or transitioning to belly-down position. Preemptively defend by keeping your knee bent and rotated inward, maintaining grip fighting to prevent their control, and staying ready to immediately strip grips when they reach for your heel."
+        "question": "After partially escaping a heel hook by stripping one of opponent's grips, how do you complete the defense and recover to a safe position?",
+        "answer": "After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment."
       }
     ],
     "decision_tree": [
@@ -512,7 +508,7 @@
         "relationship": "Related leg entanglement position with similar defensive requirements"
       },
       {
-        "name": "Saddle",
+        "name": "Honey Hole",
         "relationship": "Related leg lock position with similar submission threats"
       },
       {
@@ -520,7 +516,7 @@
         "relationship": "Alternative leg entanglement with different control dynamics"
       },
       {
-        "name": "Heel Hook Variations",
+        "name": "Heel Hook",
         "relationship": "Submission attacks you must defend against from this position"
       }
     ],
@@ -554,7 +550,7 @@
         "attempt_probability": 23
       },
       {
-        "transition": "Straight Ankle Lock",
+        "transition": "Straight Ankle Lock Entry",
         "attempt_probability": 4
       },
       {

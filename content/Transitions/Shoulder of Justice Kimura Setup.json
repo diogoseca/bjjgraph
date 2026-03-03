@@ -1,10 +1,15 @@
 {
   "name": "Shoulder of Justice Kimura Setup",
-  "description": "TODO: Write 150-160 character SEO description for Shoulder of Justice Kimura Setup.",
+  "description": "Master the Kimura setup from Shoulder of Justice in BJJ. Learn how shoulder pressure forces arm exposure for high-percentage Kimura Trap entries.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "kimura",
+    "shoulder-pressure",
+    "side-control",
+    "setup",
+    "arm-attack",
+    "positional-control"
   ],
   "from_position": "Shoulder of Justice/Top",
   "outcomes": [
@@ -25,114 +30,386 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Shoulder of Justice Kimura Setup.",
+  "overview": "The Shoulder of Justice Kimura Setup is a high-percentage transition that exploits the natural defensive reactions provoked by relentless jaw pressure. When the top player drives their shoulder blade deep into the opponent's temporomandibular joint, the bottom player faces a critical dilemma: endure the crushing discomfort or extend their near arm to relieve the pressure. This extension is the exact trigger the top player waits for, as it exposes the arm for a figure-four Kimura grip that transitions into the devastating Kimura Trap control position.\n\nThe brilliance of this setup lies in its inevitability within the pressure system. Unlike opportunistic Kimura entries that depend on opponent mistakes, this transition systematically manufactures the arm exposure through escalating shoulder pressure. The bottom player's defensive options are severely constrained—pushing with the near arm invites the Kimura, turning away opens north-south transitions, and bringing the far arm across creates arm triangle opportunities. By focusing specifically on the Kimura pathway, the top player can bait, recognize, and capture the extending arm with practiced efficiency.\n\nThis transition represents a Type C positional control tool within the BJJ state machine. Rather than finishing the Kimura immediately, the goal is to establish the Kimura Trap control position, which opens an entire subsystem of attacks including the Kimura finish, back takes, positional advancements to mount, and rolling Kimura sequences. The setup rewards patience and pressure maintenance over explosive movement, making it particularly effective for practitioners who favor methodical, grinding top games.",
   "conditions": [
-    "TODO"
+    "Established Shoulder of Justice position with shoulder pressure into opponent's jaw",
+    "Opponent's near-side arm is not completely pinned and has potential to extend",
+    "Hips connected to opponent's near hip line with stable base",
+    "Crossface control maintained preventing opponent from turning away",
+    "Sufficient pressure to provoke defensive arm reactions from bottom player"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Pressure Bait Kimura Setup",
+      "description": "Deliberately increase shoulder pressure intensity to force the opponent's near arm to push away reflexively. As soon as the arm extends even slightly, immediately thread your arm underneath and secure the figure-four grip before they can retract.",
+      "when_to_use": "When opponent is disciplined about keeping their near arm tight but pain tolerance is being tested by escalating pressure."
+    },
+    {
+      "variant_name": "Arm Swim Kimura Entry",
+      "description": "Rather than waiting for the arm to extend, actively swim your near-side arm underneath the opponent's near elbow while maintaining shoulder pressure. Use your chest weight to pin their shoulder while your arm threads under their tricep to establish the Kimura grip.",
+      "when_to_use": "When opponent keeps their near arm tucked defensively but their elbow is slightly elevated off their ribs, creating a gap for arm insertion."
+    },
+    {
+      "variant_name": "Weight Shift Kimura Setup",
+      "description": "Subtly shift weight toward the opponent's head to intensify jaw pressure, then quickly redirect downward toward their near arm as it reflexively extends. The weight transfer creates a momentary window where the arm is exposed and the top player can secure the grip before the opponent retracts.",
+      "when_to_use": "Against experienced opponents who recognize the standard pressure-to-Kimura sequence and keep their arms disciplined under normal pressure levels."
     }
   ],
-  "position_integration": "TODO: Write position integration for Shoulder of Justice Kimura Setup.",
+  "position_integration": "The Shoulder of Justice Kimura Setup serves as the primary bridge between the Shoulder of Justice pressure position and the Kimura Trap control system. Within the broader BJJ positional hierarchy, this transition converts static shoulder pressure into dynamic arm control, unlocking the entire Kimura Trap offensive framework including finishes, back takes, and mount transitions. It connects the side control pressure game to the submission-oriented Kimura system, making it a critical link in the chain from guard pass to submission. The setup also creates a feedback loop with the Shoulder of Justice position itself—failed Kimura attempts return the player to shoulder pressure, allowing repeated attempts that progressively fatigue the opponent's defensive resistance.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Shoulder of Justice",
+      "relationship": "Starting position - intense jaw pressure creates the defensive reactions that expose the near arm"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Primary target position - successful setup establishes figure-four Kimura control"
+    },
+    {
+      "name": "Kimura from Shoulder of Justice",
+      "relationship": "Direct submission alternative - finishing the Kimura immediately rather than establishing Trap control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family - Shoulder of Justice is a specialized side control variation"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position - opponent may recover half guard during failed setup attempt"
+    },
+    {
+      "name": "Escape Shoulder of Justice",
+      "relationship": "Opponent's primary escape pathway that competes with the Kimura setup timing"
+    },
+    {
+      "name": "Frame from Shoulder of Justice",
+      "relationship": "Defensive response that can both enable and prevent the Kimura setup"
+    },
+    {
+      "name": "Shoulder of Justice to Mount",
+      "relationship": "Alternative advancement from same starting position when Kimura is not available"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Core submission technique underlying the grip mechanics of this setup"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Alternative shoulder lock available from similar arm exposure situations"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative transition when opponent turns away from shoulder pressure rather than framing"
     }
   ],
   "attacker": {
     "name": "Shoulder of Justice Kimura Setup Attacker",
-    "description": "TODO: Write attacker description for Shoulder of Justice Kimura Setup.",
-    "overview": "TODO: Write attacker overview for Shoulder of Justice Kimura Setup.",
+    "description": "Master the Kimura setup from Shoulder of Justice top position. Step-by-step guide to converting jaw pressure into figure-four Kimura Trap control with systematic grip establishment.",
+    "overview": "From the attacker perspective, the Shoulder of Justice Kimura Setup is a methodical transition that converts relentless shoulder pressure into arm control. The attacker maintains their Shoulder of Justice position with maximum jaw pressure, patiently waiting for or actively provoking the opponent's near arm to extend defensively. The moment the arm creates space between the elbow and the ribs, the attacker threads their near-side arm underneath the opponent's tricep and secures a deep figure-four Kimura grip. The key is maintaining shoulder pressure throughout the grip establishment—if pressure releases during the transition, the opponent can retract the arm and reestablish their defensive structure. Success depends on the attacker's ability to multitask: sustaining body weight pressure through the shoulder while simultaneously executing precise arm threading and grip locking mechanics.",
     "key_principles": [
-      "TODO"
+      "Maintain shoulder pressure throughout the entire Kimura grip establishment—never sacrifice pressure for grip",
+      "Wait for genuine arm exposure rather than abandoning pressure to chase a shallow grip opportunity",
+      "Thread your arm deep under the opponent's tricep near the elbow, not near the wrist",
+      "Lock the figure-four grip before attempting to extract or rotate the arm into Kimura Trap position",
+      "Keep hips heavy and connected to opponent's near hip line during the grip transition to prevent shrimping",
+      "Use incremental pressure escalation to systematically break down the opponent's arm discipline",
+      "Transition smoothly from shoulder pressure focus to grip control focus without creating positional gaps"
     ],
     "setup_requirements": [
-      "TODO"
+      "Fully established Shoulder of Justice position with shoulder blade driven into opponent's jaw at 45-degree angle",
+      "Hips low and connected to opponent's near hip line preventing shrimping",
+      "Wide stable base with far knee posted and near foot mobile",
+      "Opponent's near arm showing signs of defensive extension or framing—elbow lifting away from ribs",
+      "Crossface control or head position preventing opponent from turning away during grip establishment",
+      "Sufficient energy and patience to maintain pressure while waiting for optimal grip timing"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Escalate shoulder pressure",
+        "description": "Increase shoulder blade pressure into the opponent's jaw by walking your feet slightly forward and driving your hips lower. Angle your shoulder at approximately 45 degrees toward their far shoulder. This escalation forces the opponent to choose between enduring increasing discomfort and extending their near arm to create relief. Maintain your base throughout this pressure increase."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify arm exposure",
+        "description": "Watch for the opponent's near-side arm to extend, frame, or lift away from their ribs. The critical indicator is space appearing between their elbow and their ribcage. This can manifest as a push against your shoulder, a forearm frame against your neck, or simply their elbow rising as they try to create breathing room. This is your trigger to initiate the grip sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Thread near-side arm underneath",
+        "description": "While maintaining shoulder pressure with your chest and upper body weight, slide your near-side arm underneath the opponent's exposed tricep. Thread deep toward their elbow joint rather than staying near the wrist. Your arm should pass under their arm from the outside, with your hand emerging on the far side of their arm near their elbow. Keep your shoulder driving into their jaw throughout this threading motion."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure figure-four grip",
+        "description": "Grip your own wrist with your threading hand to establish the figure-four Kimura configuration. Your far hand maintains the wrist grip on the opponent's trapped arm while your near hand locks onto your own wrist from underneath. Squeeze your elbows tight to your body to prevent the opponent from extracting their arm. The grip must be locked before you make any positional changes."
+      },
+      {
+        "step_number": 5,
+        "action": "Consolidate pressure and grip",
+        "description": "With the figure-four grip secured, re-consolidate your shoulder pressure and hip connection. Drive your chest weight forward to pin the opponent's trapped shoulder to the mat. Your hips remain connected to their near hip line. At this point you have dual control—positional pressure through your body weight and mechanical control through the Kimura grip. Test the grip security by applying slight rotational pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Begin Kimura Trap position establishment",
+        "description": "Start transitioning from Shoulder of Justice pressure into full Kimura Trap control by slightly adjusting your hip angle to create the finishing position. Pull the opponent's trapped arm across their body toward their far hip while maintaining chest pressure. Your weight shifts from pure shoulder pressure toward Kimura grip control. The opponent's arm should now be isolated and controlled with your full body weight backing the figure-four lock."
+      },
+      {
+        "step_number": 7,
+        "action": "Complete transition to Kimura Trap",
+        "description": "Finalize the Kimura Trap position by establishing your finishing angle. Walk your feet in a small arc toward the opponent's head to increase leverage on the trapped shoulder. Your grip remains deep near their elbow with constant inward pressure. The opponent is now in the Kimura Trap system where you can pursue the finish, advance to mount, transition to back control, or spin to north-south—all while maintaining the devastating figure-four grip."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent keeps near arm pinned tightly to ribs, refusing to extend despite pressure",
+        "effectiveness": "High",
+        "your_response": "Incrementally increase pressure intensity by walking feet forward and dropping hips lower. Alternatively, briefly lift pressure then immediately reapply to provoke a reflexive arm extension. If arm remains tight, transition to mount advancement instead.",
+        "targets_outcome": "Shoulder of Justice/Top"
+      },
+      {
+        "counter": "Opponent explosively bridges and shrimps during the grip threading phase",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Ride the bridge by basing out with your far knee and maintaining hip connection. The bridge creates momentary arm extension that can actually assist your grip establishment. Re-consolidate pressure as the bridge exhausts and complete the threading.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent turns away toward turtle to prevent Kimura grip establishment",
+        "effectiveness": "Medium",
+        "your_response": "Follow the turn and transition to back control or north-south rather than forcing the Kimura. Their turning motion exposes the back and creates alternative offensive pathways that may be higher percentage than continuing the Kimura pursuit.",
+        "targets_outcome": "Shoulder of Justice/Top"
+      },
+      {
+        "counter": "Opponent grabs their own belt or pants to prevent arm extraction into Kimura position",
+        "effectiveness": "High",
+        "your_response": "Maintain the partial Kimura grip and use weight distribution to slowly pry their grip loose. Apply incremental rotational pressure while keeping their arm loaded. Alternatively, transition to an Americana attack which works with the same arm position but rotates in the opposite direction.",
         "targets_outcome": "Shoulder of Justice/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing shoulder pressure to reach for the Kimura grip prematurely",
+        "consequence": "Opponent retracts their arm immediately and reestablishes defensive structure, wasting the setup opportunity and potentially allowing guard recovery",
+        "correction": "Maintain shoulder pressure throughout the entire grip establishment. Your chest and body weight continue driving into the jaw while only your near arm moves to thread underneath the opponent's tricep."
+      },
+      {
+        "error": "Threading the arm too shallow, gripping near the opponent's wrist instead of near the elbow",
+        "consequence": "Weak control that the opponent can break by straightening their arm or pulling back. The shallow grip lacks leverage for both control and finishing mechanics.",
+        "correction": "Thread deep under the tricep so your hand emerges near their elbow joint. The deeper the grip, the more control and finishing leverage you maintain throughout the transition."
+      },
+      {
+        "error": "Lifting hips during the grip transition, disconnecting from opponent's hip line",
+        "consequence": "Opponent shrimps underneath and recovers half guard or full guard, negating the entire Shoulder of Justice position and Kimura setup",
+        "correction": "Keep hips heavy and connected to the opponent's near hip line throughout the grip establishment. Your lower body position should not change during the arm threading sequence."
+      },
+      {
+        "error": "Rushing the figure-four lock before the threading arm is fully positioned",
+        "consequence": "Incomplete grip that the opponent can break by pulling their arm back or rotating their shoulder. Forces you to re-attempt the setup from a compromised position.",
+        "correction": "Ensure your threading arm passes completely underneath the opponent's tricep before attempting to grab your own wrist. A secure, deep figure-four is worth the extra half-second of positioning."
+      },
+      {
+        "error": "Chasing the Kimura when the opponent's arm never genuinely extends",
+        "consequence": "Abandoning a strong Shoulder of Justice position for an unsuccessful Kimura attempt, potentially ending up in a scramble or losing side control entirely",
+        "correction": "Wait for genuine arm exposure before committing to the Kimura setup. If the opponent keeps their arm disciplined, use alternative attacks like mount transition or north-south advancement instead."
+      },
+      {
+        "error": "Failing to re-consolidate pressure after securing the grip",
+        "consequence": "Opponent creates space during the transition window between shoulder pressure and Kimura control, escaping to half guard or full guard",
+        "correction": "After locking the figure-four, immediately drive chest weight forward and reconnect hips before attempting any arm manipulation. Establish dual control—pressure plus grip—before proceeding."
+      },
+      {
+        "error": "Attempting to finish the Kimura immediately rather than establishing Kimura Trap control",
+        "consequence": "Premature finishing attempt without proper angle results in the opponent defending and potentially extracting their arm. Missing the higher-percentage Kimura Trap system.",
+        "correction": "Focus first on establishing full Kimura Trap position with proper angle, weight distribution, and grip depth. The finish comes from the Trap position, not directly from the initial grip catch."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Pressure-to-Exposure Recognition",
+        "focus": "Identifying when shoulder pressure creates genuine arm exposure",
+        "description": "Drill establishing Shoulder of Justice and incrementally increasing pressure while partner provides realistic defensive reactions. Focus exclusively on recognizing the moment the near arm lifts or extends. No grip attempts—just pressure application and visual/tactile recognition of the exposure window."
+      },
+      {
+        "phase": "Phase 2: Arm Threading Mechanics",
+        "focus": "Precise arm insertion underneath opponent's tricep while maintaining pressure",
+        "description": "From established Shoulder of Justice with partner's arm deliberately exposed, practice threading your near arm deep underneath their tricep and securing the figure-four grip. Partner offers no resistance. Focus on maintaining shoulder pressure throughout the threading motion and achieving deep grip near the elbow."
+      },
+      {
+        "phase": "Phase 3: Grip-to-Trap Transition",
+        "focus": "Converting initial grip catch into full Kimura Trap position",
+        "description": "Start with Kimura grip already established from Shoulder of Justice. Practice the full transition sequence: re-consolidate pressure, pull arm across body, adjust hip angle, walk feet toward head, and establish Kimura Trap finishing position. Partner provides 30-50% resistance."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition and Response",
+        "focus": "Handling defensive reactions during the setup sequence",
+        "description": "Partner cycles through defensive reactions: keeping arm tight, bridging during threading, turning away, grabbing own belt. Practice recognizing each reaction and applying the appropriate response—whether completing the Kimura setup or transitioning to alternative attacks."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Full sequence execution under progressive resistance",
+        "description": "Positional sparring starting from Shoulder of Justice. Top player attempts Kimura setup while bottom player uses full defensive repertoire. Progress from 50% to full resistance over multiple rounds. Develop timing, pressure sensitivity, and the ability to chain the Kimura setup with other Shoulder of Justice attacks."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing to initiate the Kimura grip threading from Shoulder of Justice?",
+        "answer": "The optimal timing is immediately when the opponent's near-side elbow lifts away from their ribs, creating space between the elbow and ribcage. This can happen as a reactive push against your shoulder, a forearm frame attempt, or simply the elbow rising from pain. The window is brief—typically one to two seconds—so the threading motion must be practiced to the point of reflexive execution."
+      },
+      {
+        "question": "Why must shoulder pressure be maintained throughout the grip establishment rather than momentarily released?",
+        "answer": "Releasing shoulder pressure removes the stimulus that caused the arm to extend in the first place. The moment pressure lifts, the opponent's near arm retracts to their ribs, closing the threading window. Additionally, pressure release allows the opponent to begin shrimping or turning, which disrupts your base and positioning. The shoulder pressure serves dual purposes: maintaining positional control and sustaining the defensive reaction that exposes the arm."
+      },
+      {
+        "question": "Your opponent extends their near arm to push your shoulder but immediately starts pulling it back—how do you respond?",
+        "answer": "You must commit to the threading immediately upon seeing the initial extension, not wait for a sustained push. Thread your arm as fast as possible while the extension still exists, even if it is partial. A partial thread can still be converted to a Kimura grip if you drive your body weight forward to pin their arm in the extended position. Speed of recognition and commitment in the first half-second determines success."
+      },
+      {
+        "question": "What is the critical mechanical detail that differentiates a successful grip from one the opponent can break?",
+        "answer": "Grip depth near the elbow versus near the wrist is the critical differentiator. A deep grip with the figure-four locked near the opponent's elbow creates maximum leverage and prevents arm straightening, which is the primary grip-breaking mechanism. A shallow grip near the wrist allows the opponent to straighten their arm and use bicep strength to pull free. The threading arm must pass completely under the tricep before locking the figure-four."
+      },
+      {
+        "question": "What are the entry requirements that must exist before you attempt the Kimura setup?",
+        "answer": "You need fully established Shoulder of Justice with shoulder blade driven into the jaw at a 45-degree angle, hips connected to the opponent's near hip line, a wide stable base with far knee posted, and crucially, the opponent's near arm must show signs of extension or lifting. Without established pressure and base, the threading attempt will fail because you lack the positional stability to maintain control during the grip transition."
+      },
+      {
+        "question": "Your opponent's near arm is completely pinned tight to their ribs despite maximum pressure—what is your best response?",
+        "answer": "Do not force the Kimura setup against a disciplined arm defense. Instead, capitalize on their commitment to arm protection by transitioning to mount advancement, as their arm tightness means they are not framing or creating escape space. Alternatively, briefly shift your pressure angle to create uncertainty, then snap back to the original line—this pressure variation can provoke a momentary arm extension that creates the threading window."
+      },
+      {
+        "question": "How does the direction of force change during the transition from Shoulder of Justice to Kimura Trap?",
+        "answer": "In Shoulder of Justice, the primary force vector drives through your shoulder blade into the opponent's jaw at a 45-degree angle toward their far shoulder. During the Kimura setup transition, the force gradually shifts from this downward-angled shoulder pressure toward rotational control of the opponent's arm through the figure-four grip. The final Kimura Trap position uses the grip to control the shoulder girdle while body weight provides positional pressure. The transition is a gradual force redirection, not an abrupt switch."
+      },
+      {
+        "question": "If the opponent bridges explosively as you are threading your arm, should you abort the Kimura attempt?",
+        "answer": "No, the bridge can actually assist the Kimura setup. The explosive bridge momentarily lifts the opponent's torso and often causes their near arm to extend further for posting. Ride the bridge by basing out with your far knee while continuing the threading motion. As the bridge collapses, you are in an ideal position to lock the figure-four grip because the opponent's arm is fatigued and their defensive structure is temporarily compromised from the failed bridge."
+      },
+      {
+        "question": "What chain attacks should you threaten if the Kimura setup is blocked repeatedly?",
+        "answer": "If the Kimura is consistently blocked, chain to mount advancement when they keep their arm tight, north-south transition when they turn away from pressure, or Americana when their arm is trapped but rotated in the opposite direction. The shoulder pressure itself enables all these alternatives. By threatening the Kimura, you condition the opponent to protect their near arm, which often opens mount transitions as they stop framing. This attack chain makes the Shoulder of Justice a complete offensive system."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Shoulder of Justice Kimura Setup."
+    "safety_considerations": "The Kimura grip applies significant rotational force to the shoulder joint. During training, establish the grip and position slowly enough for your partner to tap before shoulder damage occurs. Never jerk or explosively rotate the arm when transitioning from grip catch to Kimura Trap position. The shoulder pressure component of this technique can cause jaw discomfort and TMJ issues—communicate with your training partner about pressure intensity. Always release immediately upon tap and give your partner time to reset before repeating the drill."
   },
   "defender": {
     "name": "Shoulder of Justice Kimura Setup Defender",
-    "description": "TODO: Write defender description for Shoulder of Justice Kimura Setup.",
-    "overview": "TODO: Write defender overview for Shoulder of Justice Kimura Setup.",
+    "description": "Defend the Kimura setup from Shoulder of Justice bottom. Learn recognition cues, arm protection strategies, and escape timing to prevent Kimura Trap establishment.",
+    "overview": "From the defender's perspective, the Shoulder of Justice Kimura Setup represents one of the most dangerous transitions from an already miserable position. The intense jaw pressure naturally provokes arm extension as a pain response, and this extension is precisely what the attacker exploits. Recognizing the Kimura threat before it materializes is critical—once the figure-four grip is locked, escape becomes exponentially more difficult. The defender must balance between enduring the shoulder pressure without extending their near arm and finding genuine escape opportunities that do not play directly into the attacker's Kimura system. Understanding the attacker's setup triggers allows the defender to keep their arms disciplined while working on positional escapes that address the root problem of being trapped in Shoulder of Justice.",
     "key_principles": [
-      "TODO"
+      "Keep near-side arm pinned tight to ribs at all costs—extending it is the primary trigger for the Kimura setup",
+      "Recognize the attacker's arm threading attempt through tactile awareness before the grip is fully established",
+      "Address the root cause by escaping Shoulder of Justice rather than just defending the Kimura in isolation",
+      "If the grip is partially established, immediately clamp your elbow to your ribs and grab your own belt or pants",
+      "Time escape attempts for the moment the attacker shifts focus from pressure to grip—this creates a brief positional window",
+      "Use micro-frames with forearms rather than extended arms to create space without exposing the Kimura",
+      "Maintain nasal breathing and composure despite jaw pressure to avoid reactive arm extension"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker begins escalating shoulder pressure intensity beyond their normal control level, indicating they are baiting a reaction",
+      "Attacker's near-side arm shifts from controlling your head or shoulder toward positioning underneath your near arm",
+      "You feel the attacker's hand or forearm sliding along the mat underneath your tricep area",
+      "Attacker's weight subtly shifts from pure shoulder pressure toward your near arm side, indicating they are preparing to thread",
+      "Attacker briefly decreases then rapidly increases shoulder pressure—a common bait pattern to provoke arm extension"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Clamp elbow to ribs and grab own lapel, belt, or pants with near hand to anchor the arm",
+        "when_to_use": "Immediately when you feel the attacker attempting to thread their arm underneath your tricep or when you recognize the pressure escalation bait pattern",
         "targets_outcome": "Shoulder of Justice/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Attacker cannot establish the Kimura grip and must either continue shoulder pressure or attempt alternative transitions",
+        "risk": "Remaining in Shoulder of Justice with continued jaw pressure, but preventing the more dangerous Kimura Trap position"
+      },
+      {
+        "action": "Time a shrimp escape during the moment the attacker shifts focus from pressure to grip threading",
+        "when_to_use": "When you feel the attacker's shoulder pressure momentarily decrease as they redirect their near arm toward the Kimura grip attempt",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover half guard by inserting knee shield during the attacker's transition window, escaping both the Shoulder of Justice and the Kimura threat",
+        "risk": "If the shrimp is mistimed, the attacker may catch the near arm during the movement and establish the Kimura grip while you are mid-escape"
+      },
+      {
+        "action": "Turn into the attacker and drive your near shoulder to the mat, denying the Kimura angle",
+        "when_to_use": "When the attacker has partially threaded their arm but has not yet locked the figure-four grip",
+        "targets_outcome": "Shoulder of Justice/Top",
+        "if_successful": "Prevents the Kimura grip completion and may create a brief scramble opportunity as the attacker readjusts their position",
+        "risk": "Turning in can expose your back to back-take attempts or allow the attacker to transition to north-south control"
+      },
+      {
+        "action": "Bridge explosively to disrupt the attacker's base before the figure-four grip is locked",
+        "when_to_use": "When you feel the attacker's arm threading underneath but the grip is not yet secured—the bridge must come before the lock",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Disrupts the attacker's balance and positioning, potentially allowing hip escape to half guard or full guard recovery",
+        "risk": "If the bridge fails, the momentary arm extension during the bridge may actually assist the attacker's grip establishment"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Kimura Trap/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your shrimp escape for the exact moment the attacker shifts focus from maintaining shoulder pressure to threading their arm for the Kimura grip. This transitional window creates a brief reduction in hip pressure that allows you to shoot your hips away and insert your knee shield. The key is recognizing the attacker's weight shift toward your near arm side as the trigger for your escape."
+      },
+      {
+        "outcome": "Shoulder of Justice/Top",
+        "how": "Prevent the Kimura grip entirely by keeping your near arm pinned to your ribs throughout the attacker's setup attempts. Anchor your hand to your own belt, lapel, or pants to create a structural defense that does not rely on muscular resistance. This forces the attacker to abandon the Kimura and either maintain shoulder pressure or attempt alternative transitions, buying you time and preserving your defensive structure."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extending the near arm to push against the attacker's shoulder or jaw in response to pressure escalation",
+        "consequence": "Creates the exact arm exposure the attacker is waiting for—the extended arm is immediately threaded and captured in the Kimura grip",
+        "correction": "Keep near arm anchored to ribs with hand gripping your own clothing. Accept the jaw pressure as temporary discomfort rather than creating the worse problem of a locked Kimura."
+      },
+      {
+        "error": "Failing to recognize the Kimura setup until the figure-four grip is fully locked",
+        "consequence": "Once the grip is locked, escape difficulty increases dramatically. The defender is now in the Kimura Trap system facing multiple submission and positional threats.",
+        "correction": "Develop tactile awareness of the threading attempt—feel for the attacker's arm sliding underneath your tricep and immediately clamp down before the grip completes."
+      },
+      {
+        "error": "Attempting to shrimp escape while the attacker's full weight is committed to shoulder pressure",
+        "consequence": "Wasted energy on an escape attempt that cannot succeed against maximum pressure and connected hips, leading to fatigue that worsens the overall defensive position",
+        "correction": "Wait for the attacker's weight to shift during the Kimura threading attempt. Their focus transition from pressure to grip creates the window for successful shrimping."
+      },
+      {
+        "error": "Using the far arm to defend the near arm from the Kimura, bringing it across the body",
+        "consequence": "Creates an arm triangle opportunity where both arms are now compromised—the near arm in the Kimura and the far arm across the neck",
+        "correction": "Keep the far arm tight to the far-side ribs. Defend the Kimura with near-arm structure only, using elbow clamping and clothing grips rather than the far arm."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a Kimura setup is being attempted from Shoulder of Justice?",
+        "answer": "The earliest cue is a deliberate escalation of shoulder pressure beyond the attacker's normal control level, often accompanied by subtle weight shifting toward your near arm side. This pressure escalation is a bait designed to provoke your near arm to extend. Recognizing this pattern before the arm threading begins gives you maximum time to anchor your arm and prepare your defensive response."
+      },
+      {
+        "question": "Why is keeping your near arm pinned to your ribs the most important defensive priority?",
+        "answer": "The near arm extension is the sole trigger that enables the Kimura grip establishment. Without arm exposure, the attacker cannot thread their arm underneath for the figure-four. Every other defensive option—shrimping, bridging, turning—is secondary to this arm discipline. Even if you cannot escape the Shoulder of Justice immediately, keeping your arm tight prevents escalation to the far more dangerous Kimura Trap position."
+      },
+      {
+        "question": "When is the optimal moment to attempt a shrimp escape during the Kimura setup sequence?",
+        "answer": "The optimal moment is when the attacker shifts their focus and weight from maintaining shoulder pressure to threading their arm for the Kimura grip. This transition creates a brief window where their hip pressure decreases and their shoulder pressure redirects. Feel for the weight shift toward your near arm side as the trigger for your shrimp. This window lasts approximately one to two seconds before the attacker either completes the grip or re-establishes pressure."
+      },
+      {
+        "question": "Your near arm is partially threaded but the figure-four grip is not yet locked—what should you do?",
+        "answer": "Immediately clamp your elbow as tightly as possible to your ribs and grab your own belt, lapel, or pants with your near hand. Simultaneously turn your near shoulder toward the mat to deny the threading angle. The goal is to trap the attacker's arm in a position where they cannot complete the figure-four. If you can prevent the grip lock, the attacker's arm is now committed in an awkward position that may actually benefit your escape attempts."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Pressure Tolerance",
+        "focus": "Maintaining arm discipline under escalating shoulder pressure",
+        "description": "Partner establishes Shoulder of Justice and progressively increases pressure. Defender practices keeping near arm anchored to ribs while breathing through nose. No escape attempts—pure arm discipline under increasing discomfort. Build to 2-minute rounds of sustained pressure tolerance."
+      },
+      {
+        "phase": "Phase 2: Recognition Drilling",
+        "focus": "Identifying the Kimura threading attempt through tactile cues",
+        "description": "Partner alternates between maintaining shoulder pressure and attempting the Kimura threading. Defender calls out 'Kimura' when they feel the threading begin. Track recognition accuracy and timing. No escape attempts yet—pure recognition development."
+      },
+      {
+        "phase": "Phase 3: Defensive Responses",
+        "focus": "Executing defensive options at the correct timing",
+        "description": "Partner attempts full Kimura setup sequence. Defender practices the four defensive options: arm clamping, shrimp escape during transition window, turning in to deny angle, and explosive bridge. Partner provides 50% resistance and provides feedback on timing."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Full defensive application under progressive resistance",
+        "description": "Positional sparring starting from Shoulder of Justice. Attacker attempts Kimura setup with full technique. Defender uses complete defensive repertoire including arm discipline, recognition, and timed escapes. Progress from 60% to full resistance over multiple rounds."
       }
     ]
   }

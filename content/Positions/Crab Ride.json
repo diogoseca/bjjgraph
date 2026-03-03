@@ -2,7 +2,7 @@
   "name": "Crab Ride",
   "slug": "crab-ride",
   "description": "Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries, back control pathways, and submission setups with complete perspective analysis.",
-  "variant_uniqueness": "Perpendicular angle maximizes control leverage",
+  "variant_uniqueness": "One-sided hooks force urgent escape-or-lose tempo",
   "overview": "Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves as a critical gateway to back control, allowing the top player to systematically break down the turtle defense while maintaining offensive pressure. The position derives its name from the crab-like lateral positioning, where the attacking practitioner sits perpendicular to their opponent with hooks established and weight distributed to prevent escape. From this configuration, the top player can attack the back, threaten submissions, or force positional improvements while the bottom player struggles with limited mobility and defensive options.\n\nCrab Ride represents one of the most systematic approaches to attacking turtle, particularly valued in modern no-gi grappling where turtle positions are commonly encountered during scrambles and guard passing sequences. The position allows for excellent control while preserving multiple offensive pathways, creating the type of positional dilemma that forces opponents into defensive errors. Unlike direct back attacks that can be telegraphed, Crab Ride provides a methodical framework for breaking down turtle defense through calculated pressure and strategic hooking.\n\nFrom the defensive perspective, Crab Ride Bottom is a high-pressure situation that requires immediate action and technical precision. The bottom player must balance multiple defensive priorities - protecting the neck from chokes, preventing the second hook from being inserted, and maintaining base to avoid being flattened. Understanding the mechanics of hook removal and hip positioning is essential for survival, as this position often represents a transitional state rather than a sustainable position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.",
   "key_principles": [
     "Maintain perpendicular body angle to opponent's spine, maximizing control leverage while minimizing opponent's escape vectors",
@@ -64,7 +64,7 @@
       "back-attack",
       "control"
     ],
-    "overview": "Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.\n\nThe position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.\n\nCrab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. The perpendicular positioning creates mechanical advantages that make defending extremely difficult once established.",
+    "overview": "Crab Ride Top is a highly effective attacking position from the turtle, where the top practitioner controls the opponent from the side with a distinctive hook-and-grip configuration. This position creates a perfect platform for back attacks, submissions, and positional transitions while keeping the opponent trapped and unable to effectively defend or escape.\n\nThe position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.\n\nFrom a biomechanical standpoint, Crab Ride Top leverages the principle of perpendicular force application. By positioning your body at a right angle to your opponent's spine, you maximize control leverage while minimizing their ability to use their hips to escape. The hooking leg acts as a primary anchor, preventing forward and lateral movement, while chest pressure against the shoulder blade maintains the flattening force that keeps the opponent defensive. This perpendicular alignment is the cornerstone of the position's effectiveness and must be maintained through all transitions and adjustments.\n\nThe decision tree from Crab Ride Top branches into several high-percentage pathways that create genuine positional dilemmas. When the opponent maintains a strong turtle with tight elbows, the back take through systematic hook insertion is the primary advancement. When they drop their head defensively, darce and anaconda entries become available through the exposed neck. If they extend an arm to post or frame, crucifix transitions present themselves as the arm becomes isolated. This branching attack structure is what makes Crab Ride Top a true dilemma-creating position rather than a single-technique setup, forcing the opponent to choose which threat to defend while leaving other avenues open.\n\nCrab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. Training this position effectively requires developing sensitivity to your opponent's weight shifts and defensive reactions, as each defensive movement opens specific offensive pathways and the ability to read these reactions in real time determines your success rate.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -317,7 +317,7 @@
     "transitions": [
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 39
+        "attempt_probability": 40
       },
       {
         "transition": "Darce from Turtle",
@@ -340,12 +340,12 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Transition to Cross Body Ride",
+        "transition": "Back Control to Cross Body Ride",
         "attempt_probability": 7
       },
       {
-        "transition": "Transition to Rodeo Ride",
-        "attempt_probability": 9
+        "transition": "Turtle to Rodeo Ride",
+        "attempt_probability": 8
       },
       {
         "transition": "Rolling Back Take",
@@ -442,7 +442,7 @@
             "probability": 45
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Shrimp to Butterfly Guard",
             "target": "Butterfly Guard",
             "probability": 35
           }
@@ -578,8 +578,8 @@
         "relationship": "Counter-attack option - offensive opportunity from defensive position"
       },
       {
-        "name": "Rear Naked Choke",
-        "relationship": "Primary submission threat - what to defend against"
+        "name": "Crab Ride Escape to Guard",
+        "relationship": "Direct escape transition from this position to guard recovery"
       }
     ],
     "position_metrics": {
@@ -597,34 +597,34 @@
     "transitions": [
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 32
+        "attempt_probability": 39
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 19
+        "attempt_probability": 21
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Guard Recovery",
-        "attempt_probability": 9
+        "attempt_probability": 13
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Sit Through Escape",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Crab Ride Escape to Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Escape from Crab Ride",
         "attempt_probability": 2
       }
     ]

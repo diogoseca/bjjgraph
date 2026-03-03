@@ -170,23 +170,25 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Crossface Pass]]** (26% of attempts)
+- **[[Crossface Pass]]** (33% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Knee Slice Pass]]** (9% of attempts)
 
-- **[[Smash Pass]]** (16% of attempts)
+- **[[Smash Pass]]** (15% of attempts)
 
-- **[[Half Guard Pass]]** (13% of attempts)
+- **[[Half Guard Pass]]** (12% of attempts)
 
-- **[[Underhook Pass]]** (10% of attempts)
+- **[[Underhook Pass]]** (9% of attempts)
 
-- **[[Kimura from Half Guard]]** (9% of attempts)
+- **[[Kimura from Half Guard]]** (8% of attempts)
 
-- **[[Back Step Pass]]** (10% of attempts)
+- **[[Back Step Pass]]** (9% of attempts)
 
-- **[[Backstep from Deep Half]]** (4% of attempts)
+- **[[Backstep from Deep Half]]** (3% of attempts)
 
-- **[[Whizzer from Deep Half]]** (2% of attempts)
+- **[[Whizzer from Deep Half]]** (1% of attempts)
+
+- **[[Knee Slice from Deep Half]]** (1% of attempts)
 
 
 ### Common Mistakes

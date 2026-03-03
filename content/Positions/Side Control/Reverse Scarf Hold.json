@@ -2,7 +2,7 @@
   "name": "Reverse Scarf Hold",
   "slug": "reverse-scarf-hold",
   "description": "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete guide covering defensive survival, offensive control, and transitions from both perspectives.",
-  "variant_uniqueness": "Reverse orientation creates unique control angles",
+  "variant_uniqueness": "Reverse facing trades vision for chest pressure",
   "overview": "Reverse Scarf Hold (Ushiro Kesa Gatame) represents a unique judo-derived pinning position where the top player faces away from the opponent's head, creating an unconventional control scenario with distinct mechanical properties. Unlike traditional scarf hold positions, the reverse orientation fundamentally alters both the control mechanics and defensive responses, requiring practitioners to abandon standard escape patterns and develop position-specific skills.\n\nThe position emerges most commonly when the bottom player attempts to turn into side control, inadvertently creating the angle for reverse scarf hold entry. From the top perspective, the position offers powerful chest compression, effective arm control, and unique submission opportunities including americana, kimura, and arm triangle variations. The reverse orientation also facilitates transitions to mount, north-south, and back control when the bottom player attempts escape.\n\nFrom the bottom perspective, reverse scarf hold presents a challenging defensive scenario where traditional bridging and framing mechanics must be modified due to the inverted pressure angle. The position demands patience, systematic escape sequences, and precise timing rather than explosive movements. Success requires understanding the biomechanical vulnerabilities inherent to the reverse orientation and exploiting them during transition windows.\n\nBoth perspectives require specialized drilling and positional understanding, as the reverse orientation creates unique tactical problems not encountered in standard top-game positions. The position serves as an excellent case study in how orientation changes fundamentally alter grappling dynamics, submission opportunities, and escape mechanics.",
   "key_principles": [
     "Reverse orientation disrupts standard defensive patterns and creates unique control angles",
@@ -358,9 +358,9 @@
       "pin-escape",
       "kesa-gatame"
     ],
-    "overview": "Reverse Scarf Hold Bottom (Reverse Kesa Gatame Bottom) represents one of the more challenging defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves on their back with the opponent controlling from a reverse scarf hold position. Unlike traditional scarf hold where the top player faces toward the bottom player's legs, reverse scarf hold has the top player facing toward the head, creating unique control mechanics and escape challenges. This position is particularly difficult because the top player's weight distribution and control points create significant pressure on the chest and shoulders while limiting hip mobility.\n\nThe bottom player in reverse scarf hold faces several interconnected problems: restricted breathing due to chest compression, limited hip movement preventing standard shrimping escapes, and the constant threat of arm attacks including kimura, americana, and straight armbar variations. The position demands patience, precise framing, and systematic escape sequences rather than explosive movements. Understanding the biomechanics of how the top player maintains control is essential for developing effective defensive responses.\n\nSuccess in this position requires prioritizing survival first, then creating frames and space, and finally executing technical escapes to better positions such as guard recovery or reversal to top position. The defensive strategy emphasizes breath control under pressure, maintaining composure, and exploiting the top player's positional weaknesses when they attempt to advance or submit. While challenging, systematic approach to this position can transform it from a desperate situation into an opportunity for calculated escape and potential reversal.",
+    "overview": "Reverse Scarf Hold Bottom represents one of the more challenging defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves on their back with the opponent controlling from a reverse scarf hold position. In reverse scarf hold the top player faces away from the bottom player's head toward their legs, creating unique control mechanics and escape challenges. This position is particularly difficult because the top player's weight distribution and control points create significant pressure on the chest and shoulders while limiting hip mobility.\n\nThe bottom player in reverse scarf hold faces several interconnected problems: restricted breathing due to chest compression, limited hip movement preventing standard shrimping escapes, and the constant threat of arm attacks including kimura, americana, and straight armbar variations. The position demands patience, precise framing, and systematic escape sequences rather than explosive movements. Understanding the biomechanics of how the top player maintains control is essential for developing effective defensive responses.\n\nSuccess in this position requires prioritizing survival first, then creating frames and space, and finally executing technical escapes to better positions such as guard recovery or reversal to top position. The defensive strategy emphasizes breath control under pressure, maintaining composure, and exploiting the top player's positional weaknesses when they attempt to advance or submit. While challenging, systematic approach to this position can transform it from a desperate situation into an opportunity for calculated escape and potential reversal.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -368,7 +368,7 @@
     },
     "state_invariants": [
       "Bottom player on their back with shoulders and upper back pinned to the mat, chest compressed by top player's torso weight creating breathing restriction and postural control",
-      "Top player's hips positioned alongside bottom player's chest/shoulder area with reverse orientation (facing toward head), distributing weight through hip and torso compression against ribcage",
+      "Top player's hips positioned alongside bottom player's chest/shoulder area with reverse orientation (facing toward legs, away from head), distributing weight through hip and torso compression against ribcage",
       "Bottom player's near arm typically controlled or trapped by top player's underhook or overhook, limiting defensive framing options and creating submission vulnerability",
       "Bottom player's far arm either trapped under top player's body weight or struggling to create defensive frames against shoulder and neck pressure",
       "Top player's legs sprawled or posted to prevent bottom player from creating angles or hip escapes, with base distributed to maintain heavy chest pressure"
@@ -424,7 +424,7 @@
         "condition": "If opponent attempts to advance to mount or north-south",
         "actions": [
           {
-            "technique": "Guard Recovery",
+            "technique": "Hip Escape to Guard",
             "target": "Open Guard",
             "probability": 65
           },
@@ -562,35 +562,39 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 25
+        "attempt_probability": 31
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Escape Reverse Scarf Hold",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Frame from Reverse Scarf Hold",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Bridge Escape from Reverse Scarf Hold",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

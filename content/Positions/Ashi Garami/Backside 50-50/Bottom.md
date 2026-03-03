@@ -229,7 +229,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ### [[Counter heel hook]] (6% of attempts)
 
-### [[Saddle Defense]] (4% of attempts)
+### [[Angle Change Escape]] (4% of attempts)
 
 ### [[Heel Hook from Backside 50-50]] (2% of attempts)
 
@@ -257,7 +257,7 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 
 **If opponent is transitioning toward saddle position:**
-- Execute **[[Saddle Defense]]** → [[Saddle]] (Probability: 40%)
+- Execute **[[Angle Change Escape]]** → [[50-50 Guard]] (Probability: 40%)
 - Execute **[[Ashi Garami Escape]]** → [[Inside Ashi-Garami]] (Probability: 35%)
 
 

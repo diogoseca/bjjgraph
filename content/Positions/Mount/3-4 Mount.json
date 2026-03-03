@@ -374,9 +374,9 @@
       "mount-variations",
       "3-4-mount"
     ],
-    "overview": "3-4 Mount Bottom represents a defensive position where the practitioner is on their back with the opponent in a modified mount position, characterized by the top player having three points of contact on one side and four on the other (three limbs on the ground on one side, four on the other). This asymmetric position creates unique escape opportunities compared to traditional mount bottom, as the weight distribution is uneven and specific angles become available for defensive movement.\n\nThe position occurs when the top player transitions between mount variations or when the bottom player begins defensive movements that shift the top player's base. Understanding 3-4 Mount Bottom is essential for mount escape development, as it represents a critical transitional state where proper defensive frames and hip movement can lead to successful escapes or guard recovery. The asymmetric nature of the position means that escape routes differ significantly from standard mount escapes, requiring specific technical knowledge.\n\nFrom a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position worth -4 points in IBJJF competition, requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.",
+    "overview": "3-4 Mount Bottom represents a defensive position where the practitioner is on their back with the opponent in a modified mount position, characterized by the top player having three points of contact on one side and four on the other (three limbs on the ground on one side, four on the other). This asymmetric position creates unique escape opportunities compared to traditional mount bottom, as the weight distribution is uneven and specific angles become available for defensive movement.\n\nThe position occurs when the top player transitions between mount variations or when the bottom player begins defensive movements that shift the top player's base. Understanding 3-4 Mount Bottom is essential for mount escape development, as it represents a critical transitional state where proper defensive frames and hip movement can lead to successful escapes or guard recovery. The asymmetric nature of the position means that escape routes differ significantly from standard mount escapes, requiring specific technical knowledge.\n\nFrom a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -622,7 +622,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Frame and Shrimp to Guard",
         "attempt_probability": 13
       },
       {

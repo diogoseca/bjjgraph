@@ -571,31 +571,35 @@
     "transitions": [
       {
         "transition": "Ushiro Ashi-Garami Escape",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Inversion to Turtle",
-        "attempt_probability": 35
+        "attempt_probability": 39
       },
       {
         "transition": "Ushiro Ashi-Garami to Deep Half",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Single Leg X Recovery",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Reverse Heel Hook Counter",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 8
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Sweep from Ushiro Ashi-Garami",
+        "attempt_probability": 2
       }
     ]
   }

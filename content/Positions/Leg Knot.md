@@ -93,15 +93,17 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Clear leg and transition to X-Guard]]** (15% of attempts)
+- **[[Reverse the entanglement to Outside Ashi]]** (26% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (20% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (18% of attempts)
 
-- **[[Extract leg and establish Single Leg X]]** (20% of attempts)
+- **[[Extract leg and establish Single Leg X]]** (18% of attempts)
 
-- **[[Limp leg extraction to Half Guard]]** (20% of attempts)
+- **[[Limp leg extraction to Half Guard]]** (18% of attempts)
 
-- **[[Reverse the entanglement to Outside Ashi]]** (25% of attempts)
+- **[[Clear leg and transition to X-Guard]]** (13% of attempts)
+
+- **[[Reversal from Leg Knot]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -166,11 +168,15 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Backstep from Leg Knot]]** (0% of attempts)
+- **[[Heel Hook from Saddle]]** (35% of attempts)
 
-- **[[Leg Extraction from Leg Knot]]** (0% of attempts)
+- **[[Backstep from Leg Knot]]** (20% of attempts)
 
-- **[[Pressure Pass from Leg Knot]]** (0% of attempts)
+- **[[Toe Hold from Outside Ashi]]** (20% of attempts)
+
+- **[[Pressure Pass from Leg Knot]]** (15% of attempts)
+
+- **[[Leg Extraction from Leg Knot]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -21,7 +21,7 @@ Historically, Kesa Gatame has been a cornerstone of judo newaza and was prominen
 
 The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.
 
-Kesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.
+Kesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa-Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.
 
 </section>
 
@@ -95,19 +95,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (15% of attempts)
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Hip Escape to Guard]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (9% of attempts)
 
-- **[[Back Take from Bottom]]** (10% of attempts)
+- **[[Back Take from Kesa Gatame]]** (10% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (17% of attempts)
+- **[[Bridge and Turn to Turtle]]** (28% of attempts)
 
-- **[[Ghost Escape]]** (15% of attempts)
+- **[[Ghost Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (10% of attempts)
+
+- **[[Bridge Escape from Kesa Gatame]]** (3% of attempts)
+
+- **[[Frame to Guard from Kesa Gatame]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +176,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Americana]]** (13% of attempts)
+- **[[Americana]]** (12% of attempts)
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Kimura]]** (10% of attempts)
 
-- **[[Armbar Finish]]** (11% of attempts)
+- **[[Armbar Finish]]** (9% of attempts)
 
-- **[[North-South Choke]]** (10% of attempts)
+- **[[North-South Choke]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (25% of attempts)
+- **[[Side Control to North-South]]** (35% of attempts)
 
-- **[[Arm Triangle]]** (9% of attempts)
+- **[[Arm Triangle]]** (7% of attempts)
 
-- **[[Transition to Modified Scarf Hold]]** (4% of attempts)
+- **[[Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
-- **[[Transition to Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
 
 
 ### Common Mistakes

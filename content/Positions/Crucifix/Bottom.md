@@ -20,38 +20,38 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Arm Extraction",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Defensive Roll",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Turtle",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Roll to Guard",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,23 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (18% of attempts)
+### [[Arm Extraction]] (40% of attempts)
 
-### [[Arm Extraction]] (21% of attempts)
+### [[Shrimp Escape]] (12% of attempts)
 
-### [[Back Take from Bottom]] (13% of attempts)
+### [[Defensive Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (16% of attempts)
+### [[Explosive Bridge to Turtle]] (15% of attempts)
 
-### [[Shrimp Escape]] (20% of attempts)
+### [[Roll to Guard]] (9% of attempts)
 
-### [[Standing Escape]] (12% of attempts)
+### [[Hip Escape to Guard]] (7% of attempts)
+
+### [[Arm Recovery from Crucifix]] (3% of attempts)
+
+### [[Crucifix Choke Defense]] (1% of attempts)
+
+### [[Hip Escape from Crucifix]] (1% of attempts)
 
 
 

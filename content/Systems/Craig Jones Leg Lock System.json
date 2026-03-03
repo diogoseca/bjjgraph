@@ -245,7 +245,7 @@
       "Rushing through foundational drilling phases to reach advanced techniques, resulting in poor position maintenance and low submission rates",
       "Ignoring 50-50 management protocols, leading to stalled positions and referee standup situations in competition",
       "Attempting to apply system without adequate hip mobility and core strength, resulting in loss of connection during critical transitions"
-      ]
+    ]
   },
   "related_content": [
     {
@@ -329,9 +329,9 @@
       "relationship": "Foundational entry technique establishing outside leg control before advancing to cross ashi"
     },
     {
-      "name": "X-Guard to Ashi Transition",
+      "name": "Backstep from Single Leg X",
       "content_type": "Transition",
-      "relationship": "Systematic conversion from sweeping position to submission attack when opponent defends elevation"
+      "relationship": "Systematic conversion from single leg x-guard sweeping position to ashi garami leg entanglement when opponent defends elevation"
     },
     {
       "name": "Ashi Garami Escape",
@@ -339,9 +339,9 @@
       "relationship": "Essential defensive sequences for neutralizing opponent's leg attack attempts"
     },
     {
-      "name": "Saddle Defense",
+      "name": "Back Take from Ashi",
       "content_type": "Transition",
-      "relationship": "Critical defensive protocols for escaping opponent's saddle position control"
+      "relationship": "Critical transition converting leg entanglement control to back control when opponent successfully defends submissions"
     },
     {
       "name": "50-50 Entry from Standing",

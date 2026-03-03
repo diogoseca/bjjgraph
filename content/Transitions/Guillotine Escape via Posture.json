@@ -1,10 +1,14 @@
 {
   "name": "Guillotine Escape via Posture",
-  "description": "TODO: Write 150-160 character SEO description for Guillotine Escape via Posture.",
+  "description": "Learn the Guillotine Escape via Posture in BJJ. Master posture mechanics, grip breaking, and head extraction to escape guillotine chokes from bottom guard.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "escape",
+    "guillotine-defense",
+    "posture",
+    "guard-passing",
+    "fundamental"
   ],
   "from_position": "Guillotine Control/Bottom",
   "outcomes": [
@@ -19,120 +23,365 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Mount/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Guillotine Escape via Posture.",
+  "overview": "The Guillotine Escape via Posture is a fundamental defensive transition used when caught in an opponent's guillotine choke from their bottom guard position. The escape relies on systematic posture recovery—driving the hips forward, walking the knees past the opponent's hips, and using a combination of chin tuck, grip fighting, and spine extension to break the choking grip and extract the head. This is the first-line defense against guillotines and must be drilled until it becomes an automatic response to any guillotine attempt from guard.\n\nThe mechanics of this escape exploit a structural weakness in the bottom guillotine: the choking player must maintain both their guard connection and the guillotine grip simultaneously. By posturing aggressively, you force them to choose between holding the choke (which becomes mechanically weaker as your spine extends) and maintaining guard control (which requires their legs to work harder as your posture improves). This binary defensive dilemma is the key concept—systematic posture recovery attacks both control systems simultaneously.\n\nTiming is critical. The escape becomes exponentially harder the longer you remain trapped with broken posture. Early recognition and immediate posture recovery before the opponent can fully lock their grip and close their guard dramatically increases success rates. Conversely, a late escape attempt against a fully locked high-elbow guillotine with closed guard may require transitioning to alternative escapes rather than forcing the posture recovery.",
   "conditions": [
-    "TODO"
+    "Caught in opponent's guillotine choke from their bottom guard position with choking arm wrapped around your neck",
+    "At least one hand is available to address the choking grip on your wrist or forearm",
+    "Opponent's guard is not yet fully locked in closed guard with legs high on your back",
+    "You have at least one knee posted on the mat to generate upward posture force",
+    "The guillotine grip has not yet fully seated deep around the neck with high elbow mechanics"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Von Flue Counter Posture",
+      "description": "Instead of purely escaping the guillotine, use the posture recovery to drive your shoulder into the opponent's choking arm and set up a Von Flue choke. The opponent's stubbornness in maintaining the grip becomes their vulnerability as your shoulder compresses their arm against their own carotid artery.",
+      "when_to_use": "When the opponent refuses to release a shallow guillotine grip after you achieve partial posture, creating the shoulder-to-arm compression angle needed for the Von Flue counter"
+    },
+    {
+      "variant_name": "Standing Posture Break",
+      "description": "Rather than posturing from the knees, stand up entirely to break the guillotine using full body extension and gravity. Step one foot up, then the other, and use your full standing height to create separation. This generates far more posture force than kneeling but requires the opponent's guard to be open.",
+      "when_to_use": "When the opponent's guard is already open or you have sufficient space to establish your feet under you, allowing you to use standing posture and gravity against the choke"
+    },
+    {
+      "variant_name": "Limp Arm Posture Escape",
+      "description": "Drop the trapped-side shoulder and limp the arm while posturing, creating space for head extraction without directly fighting the grip. The arm goes slack and slides through the choking loop, reducing the circumference the opponent must control and making head extraction significantly easier.",
+      "when_to_use": "When the opponent has an arm-in guillotine configuration where your arm is trapped inside the choke, making direct grip fighting against the wrist less effective"
     }
   ],
-  "position_integration": "TODO: Write position integration for Guillotine Escape via Posture.",
+  "position_integration": "The Guillotine Escape via Posture is a cornerstone defensive transition that connects guillotine defense to top passing positions. It integrates directly into the guard passing game by recovering posture and establishing top pressure, typically landing in half guard top where systematic passing sequences begin. The escape also creates branching points: successful posture recovery opens the door to Von Flue choke setups if the opponent stubbornly maintains a shallow grip, or direct guard passing if the grip breaks cleanly. Understanding this escape is essential for any top player who engages in clinch exchanges, sprawl situations, or scrambles where guillotine entries are common. It pairs with the Von Flue counter escape as part of a complete guillotine defense framework.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Guillotine Control",
+      "relationship": "Source position where this escape is initiated from the top player's perspective while caught in the bottom player's guillotine"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success destination after completing the posture escape and settling into a passing position"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position where the opponent sweeps you with a hip bump during the escape attempt"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Related position that the opponent may transition to by closing guard to prevent the posture escape"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related control position in the front headlock family that shares defensive principles with guillotine escape"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Alternative position reached if the guillotine is broken but the opponent retains open guard"
+    },
+    {
+      "name": "Guillotine Escape to Von Flue",
+      "relationship": "Alternative escape technique that converts the opponent's guillotine into a Von Flue choke counter"
+    },
+    {
+      "name": "Arm in Guillotine Variation",
+      "relationship": "Related guillotine variation that the opponent may transition to during your escape, requiring adjusted defense"
+    },
+    {
+      "name": "Chin Strap Guillotine",
+      "relationship": "Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped"
     }
   ],
   "attacker": {
     "name": "Guillotine Escape via Posture Attacker",
-    "description": "TODO: Write attacker description for Guillotine Escape via Posture.",
-    "overview": "TODO: Write attacker overview for Guillotine Escape via Posture.",
+    "description": "Master the attacker perspective for Guillotine Escape via Posture. Step-by-step posture recovery mechanics, grip breaking sequences, and head extraction techniques to escape bottom guillotine chokes.",
+    "overview": "As the person caught in a bottom guillotine, your primary objective is systematic posture recovery that breaks the mechanical advantage of the choke. The escape demands immediate recognition of the threat, purposeful hand placement on the choking wrist, and aggressive hip-forward posture that exploits the structural weakness of the bottom guillotine grip. Rather than panicking and pulling backward—which tightens the choke—you must drive forward and up, walking your knees past the opponent's hips to create the spine extension angle needed to strip the grip. Every second of delay allows the opponent to deepen their grip, close their guard, and transition to higher-percentage guillotine variations that resist posture escapes entirely.",
     "key_principles": [
-      "TODO"
+      "Drive hips forward and walk knees past the opponent's hips before attempting to lift your head—base creation precedes posture recovery",
+      "Tuck your chin immediately upon recognizing the guillotine threat to protect the trachea and reduce the effectiveness of the choke",
+      "Address the choking wrist specifically with your nearside hand rather than trying to pry apart clasped hands at their strongest point",
+      "Post your far hand on the mat to create a wide base that resists the opponent's attempts to off-balance you during the escape",
+      "Use spine extension powered by hip drive rather than neck strength to create the force needed to break the guillotine mechanics",
+      "Prevent guard closure by maintaining wide knee positioning and driving forward—once closed guard locks in, the escape becomes significantly harder",
+      "Time the escape early before the opponent can fully seat their grip and establish high elbow mechanics"
     ],
     "setup_requirements": [
-      "TODO"
+      "Recognition that you are caught in a guillotine from the opponent's bottom guard, with their choking arm wrapped around your neck",
+      "At least one hand free to address the choking grip on your neck, typically the nearside hand closest to the choking arm",
+      "At least one knee posted firmly on the mat providing a base for generating upward posture force through hip extension",
+      "Opponent's guard not yet fully locked in high closed guard—there is still space to drive your hips forward and walk knees past their hips",
+      "Sufficient mental clarity to execute a systematic escape rather than panicked pulling, even under choking pressure"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Tuck chin to protect throat",
+        "description": "Immediately tuck your chin toward your chest the moment you feel the guillotine grip closing around your neck. This single action protects the trachea from direct compression and buys you critical seconds to execute the rest of the escape sequence. Press your chin firmly against your clavicle to close the space the opponent needs for effective choking pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Grip the choking wrist with nearside hand",
+        "description": "Bring your nearside hand—the hand on the same side as the opponent's choking arm—up to grip their choking wrist at the point where it crosses your throat. Grab at the wrist rather than the clasped hands, as the wrist is structurally weaker and easier to peel away. Secure a firm C-grip on the wrist and begin pulling it slightly away from your neck to create breathing space."
+      },
+      {
+        "step_number": 3,
+        "action": "Post far hand on mat for base",
+        "description": "Post your far hand firmly on the mat beside the opponent's hip to create a wide, stable base. This hand acts as your primary stabilizer throughout the posture recovery, preventing the opponent from using the guillotine grip to off-balance you sideways or pull you into a roll. Keep the arm straight and locked to create a structural frame that distributes force through your skeleton."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk knees forward past opponent's hips",
+        "description": "Walk your knees forward one at a time past the opponent's hip line, driving your base underneath their center of gravity. This forward knee walk is essential—it changes the angle of force from the opponent pulling your head down to you driving up and through them. Keep your knees wide to prevent the opponent from closing their guard around your waist and locking their ankles."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive hips forward and extend spine upward",
+        "description": "Once your knees are past their hips, drive your hips forward powerfully while simultaneously extending your spine upward. This hip drive generates the primary force that breaks the guillotine mechanics—use your entire posterior chain including glutes and spinal erectors, not just your neck muscles. The combination of forward hip pressure and upward extension creates a shearing force that separates the choking arm from your neck."
+      },
+      {
+        "step_number": 6,
+        "action": "Strip choking wrist downward while posturing",
+        "description": "As your posture rises, actively pull the opponent's choking wrist down toward their own hip using your nearside hand grip. This creates a peeling action that strips their arm from around your neck. The combined effect of your spine extending upward and their wrist being pulled downward creates a powerful separation force that breaks even well-established grips with minimal muscular effort."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract head from guillotine loop",
+        "description": "With the grip compromised, turn your head toward the side of the choking arm and extract it from the remaining loop. Use a circular head motion—turning toward the choking arm rather than pulling straight back—to navigate past the forearm. Once your head clears the arm, immediately drive your shoulder into the opponent's chest to prevent re-entry into the guillotine grip."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish top pressure in half guard",
+        "description": "Immediately establish top pressure by driving your shoulder into the opponent's chest and settling your hips into a half guard passing position. Do not celebrate the escape by sitting up or creating space—the opponent will immediately reguard or attempt another submission. Consolidate half guard top control with crossface pressure and begin your passing sequence to capitalize on the positional advantage."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent closes guard high on your back and pulls head down with legs to prevent posture recovery",
+        "effectiveness": "High",
+        "your_response": "Prevent guard closure by keeping knees wide and driving forward before they can lock ankles. If guard closes, address the legs first by posturing inside closed guard and working to break the ankle lock before re-attempting the escape.",
         "targets_outcome": "Guillotine Control/Bottom"
+      },
+      {
+        "counter": "Opponent switches to high elbow guillotine variation by driving choking elbow toward ceiling during your posture attempt",
+        "effectiveness": "High",
+        "your_response": "If you feel the elbow driving toward the ceiling and choking pressure increasing, immediately stop posturing upward and transition to a Von Flue choke counter by driving your shoulder into their choking arm, or address the new grip angle by turning into the choke before continuing.",
+        "targets_outcome": "Guillotine Control/Bottom"
+      },
+      {
+        "counter": "Opponent executes hip bump sweep using your upward posture momentum to roll you over their hip to mount",
+        "effectiveness": "Medium",
+        "your_response": "Maintain a wide base with your posted hand and keep weight distributed forward rather than rising straight up. Drive your shoulder into the opponent as you posture to prevent the bridge angle needed for the sweep. If swept, immediately frame against mount and work to recover half guard.",
+        "targets_outcome": "Mount/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling head straight backward away from the opponent instead of driving forward and up",
+        "consequence": "Tightens the guillotine choke by pulling your neck directly into the blade of the forearm, increasing choking pressure and potentially causing an immediate tap",
+        "correction": "Drive forward and up—walk knees past hips and extend spine upward. The escape direction is into and through the opponent, not away from them. Think of driving your shoulder into their sternum as you posture."
+      },
+      {
+        "error": "Failing to tuck chin before beginning the escape sequence",
+        "consequence": "Exposes trachea to direct compression, causing gagging reflex that disrupts escape timing and may force a premature tap before the escape can develop",
+        "correction": "Chin tuck is always step one—make it reflexive through drilling. Press chin firmly to chest before initiating any other escape movement to protect the airway"
+      },
+      {
+        "error": "Attempting to pry apart the opponent's clasped hands instead of targeting the choking wrist",
+        "consequence": "Wastes time and energy fighting against the strongest point of the grip chain, allowing the opponent to deepen position and adjust to higher-percentage finishing mechanics",
+        "correction": "Target the choking wrist where it crosses your throat—this is the weakest structural link in the grip chain and the most energy-efficient point of attack for grip stripping"
+      },
+      {
+        "error": "Allowing the opponent to close guard before establishing any posture recovery",
+        "consequence": "Closed guard with guillotine creates a nearly inescapable position where the opponent's legs add compression and their hip angle optimizes the choking mechanics",
+        "correction": "Keep knees wide and drive forward immediately to prevent guard closure. Make guard prevention a higher priority than grip fighting in the first seconds of the escape"
+      },
+      {
+        "error": "Using neck muscles rather than hip drive to power the posture recovery",
+        "consequence": "Neck muscles fatigue rapidly under load, the escape stalls at partial posture, and the opponent adjusts their grip to finish from the compromised angle",
+        "correction": "The posterior chain—glutes and spinal erectors—generates posture force through hip extension. Walk knees forward to create the correct mechanical angle, then use hip drive to power the escape"
+      },
+      {
+        "error": "Rising vertically without driving forward pressure through the opponent",
+        "consequence": "Creates space for the opponent to adjust grip angle, close guard, or execute a hip bump sweep using your upward momentum against you",
+        "correction": "Combine upward extension with forward shoulder pressure into the opponent's chest. The correct vector is diagonal—forward and up simultaneously—not straight vertical"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Posture Recovery Fundamentals",
+        "description": "Practice the escape sequence against a stationary partner with no resistance. Focus on proper knee positioning, chin tuck, wrist grip placement, and spine extension mechanics. Perform 20 repetitions per side with emphasis on correct movement pattern and sequencing."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Recognition and Early Response",
+        "description": "Partner applies the guillotine from guard at varying speeds. Practice recognizing the threat and initiating the escape within 2 seconds of the grip closing. Introduce light resistance to posture recovery but allow the escape to succeed. Develop the automatic reflex of chin tuck and wrist grip."
+      },
+      {
+        "phase": "Phase 3: Resistance",
+        "focus": "Escape Against Active Defense",
+        "description": "Partner holds guillotine at 70-80% effort and actively resists the escape by closing guard, adjusting grip to high elbow, and threatening sweeps. Practice completing the full escape sequence including transition to half guard top. Track success rate and identify failure points."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Escape to Pass Sequences",
+        "description": "From successful guillotine escape, immediately chain into half guard passing sequences. Practice the escape flowing directly into knee slice, smash pass, or underhook pass without pausing in half guard top. Build the escape-to-pass connection as a single continuous sequence."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Live Situational Drilling",
+        "description": "Begin in the guillotine position with partner applying full resistance using any defensive adjustment or counter. Work the escape under competition intensity, including dealing with grip switches, sweep attempts, and guard closure. Track escape success rate over rounds and adjust technique based on failure patterns."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the correct direction of force when escaping a guillotine via posture?",
+        "answer": "Forward and upward—never backward. Walk your knees past the opponent's hips to create a base, then drive your hips forward while extending your spine upward. Pulling backward tightens the choke by dragging your neck into the choking arm. The escape works by driving through the opponent, using hip extension and forward pressure to generate the separating force."
+      },
+      {
+        "question": "Why should you grip the choking wrist rather than the clasped hands?",
+        "answer": "The clasped hands represent the strongest point of the grip chain, requiring enormous force to separate. The choking wrist where it crosses your throat is the weakest structural link—peeling it away from your neck is mechanically easier and more energy-efficient. Targeting the wrist also directly addresses the choking pressure at its source rather than fighting the reinforcement structure."
+      },
+      {
+        "question": "What is the most critical mechanical detail that makes the posture escape work?",
+        "answer": "Walking your knees forward past the opponent's hip line before attempting to posture up. This changes the geometry of the escape from pulling against the choke to driving through it, creates a stable base for spine extension, and prevents the opponent from using their legs to maintain broken posture. Without this knee positioning, the escape relies on neck strength alone and will fail against competent grapplers."
+      },
+      {
+        "question": "Your opponent closes their guard around your waist as you begin to posture—how do you adjust?",
+        "answer": "Stop the posture attempt and address the closed guard first. Use your hands to break the guard lock by pushing on the knee with your elbow or establishing posture inside closed guard. Once the guard is open, re-establish wide knee positioning and resume the posture escape. Attempting to posture through closed guard dramatically reduces success rates because the legs add compression to the choke."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the posture escape?",
+        "answer": "Immediately upon feeling the guillotine grip close around your neck, before the opponent can fully seat their choking arm, close their guard, and establish high elbow mechanics. Within the first two to three seconds of the guillotine attempt, the grip is at its weakest and the guard is typically still open. Every second of delay exponentially decreases escape probability as the opponent optimizes their position."
+      },
+      {
+        "question": "Your opponent hip bumps you as you drive upward to posture—what went wrong and how do you prevent it?",
+        "answer": "You likely drove too vertically without sufficient forward base pressure. The hip bump sweep exploits upward momentum by redirecting it into a lateral roll. Prevent this by maintaining a wide base with your posted hand, keeping your center of gravity forward over the opponent rather than rising straight up, and driving your shoulder into their chest as you posture to prevent the bridge angle."
+      },
+      {
+        "question": "What grip configuration on the choking wrist provides the most effective control for stripping the grip?",
+        "answer": "A C-grip or monkey grip positioned on the choking wrist at the point where the wrist blade crosses your throat. The thumb side of your grip should face toward your chest, allowing you to pull the wrist down and away from your neck as you posture upward. Avoid a full closed fist grip that can slip under sweat—the C-grip maintains contact through pressure rather than squeezing."
+      },
+      {
+        "question": "If the posture escape stalls at half-posture with the opponent adjusting their grip, what alternative options should you consider?",
+        "answer": "If you have achieved partial posture but cannot complete the escape, consider transitioning to a Von Flue choke counter by driving your shoulder into their choking arm while they maintain a shallow grip. Alternatively, use the partial posture to begin passing to the side, using shoulder pressure to compress their grip mechanics while working toward side control. Never remain stalled at half-posture where the opponent can readjust."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Guillotine Escape via Posture."
+    "safety_considerations": "Guillotine chokes compress the trachea and carotid arteries, posing risk of unconsciousness within seconds. During drilling, tap early and often when caught in tight guillotines rather than risking injury by fighting through deep chokes. Partners should apply controlled pressure during training progressions and release immediately upon tap. Never attempt to muscle through a fully locked guillotine with violent posture extension, as this can cause cervical spine strain or neck injury. If you feel lightheadedness, tingling, or vision changes, tap immediately regardless of escape progress. When practicing the posture escape at full resistance, communicate with your partner about pressure levels."
   },
   "defender": {
     "name": "Guillotine Escape via Posture Defender",
-    "description": "TODO: Write defender description for Guillotine Escape via Posture.",
-    "overview": "TODO: Write defender overview for Guillotine Escape via Posture.",
+    "description": "Master defending against the Guillotine Escape via Posture. Learn to recognize posture attempts early, maintain guillotine control, and counter with sweeps or grip adjustments.",
+    "overview": "As the guillotine holder defending against a posture escape attempt, your objective is to maintain the choking grip and prevent the opponent from recovering their spine alignment. The posture escape exploits the structural weakness of holding both choke and guard simultaneously—your defense must address this by immediately closing guard to add leg pressure, adjusting to high elbow mechanics that resist posture recovery, or capitalizing on the opponent's upward momentum with a hip bump sweep to mount. Recognizing the early signs of the posture attempt—knee walking, wrist grip on your choking arm, spine stiffening—allows you to respond before the escape gains momentum and your grip mechanics are compromised.",
     "key_principles": [
-      "TODO"
+      "Close guard immediately upon feeling the opponent's posture stiffening to add leg compression to the choke and prevent their knees from walking forward",
+      "Pull your choking elbow toward the ceiling to transition to high elbow mechanics that resist posture recovery more effectively than the standard grip",
+      "Use your non-choking arm to control the opponent's posture by gripping behind their head or controlling their nearside shoulder",
+      "Keep your hips elevated and angled toward the choking side to maintain optimal leverage and finishing angle on the choke",
+      "Recognize the hip bump sweep opportunity when the opponent commits weight upward and their base becomes momentarily unstable during the posture attempt",
+      "Maintain core engagement and crunch your body toward the opponent to counteract their spine extension with your own pulling force"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's spine begins to stiffen and straighten as they prepare to posture—you feel backward pressure building against your choking arm",
+      "Opponent's nearside hand grips your choking wrist or forearm, attempting to create a leverage point for stripping the grip",
+      "Opponent walks their knees forward past your hips, creating a wider base and changing the escape angle from vertical to forward-and-up",
+      "Opponent posts their far hand on the mat beside your hip, establishing a stabilizing base for the posture recovery attempt",
+      "Opponent tucks their chin firmly against their chest, reducing the immediate effectiveness of your current choking angle"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Close guard immediately by locking ankles behind the opponent's back and pulling knees toward your chest to add leg compression to the choke",
+        "when_to_use": "As soon as you feel the opponent's posture beginning to stiffen or their knees walking forward past your hips—this must be your fastest response",
         "targets_outcome": "Guillotine Control/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent cannot posture effectively because your legs add tremendous compression to the choke, their knees are blocked from advancing, and you maintain the submission threat",
+        "risk": "If guard closure is late, the opponent may already have sufficient posture to work the escape from inside your closed guard"
+      },
+      {
+        "action": "Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist angle to attack behind the chin",
+        "when_to_use": "When the opponent begins stripping your standard grip but has not yet achieved full posture—the transition must happen before the grip is fully compromised",
+        "targets_outcome": "Guillotine Control/Bottom",
+        "if_successful": "High elbow mechanics create a significantly tighter choke that is more resistant to posture escape, potentially forcing a tap during the escape attempt itself",
+        "risk": "The grip transition creates a brief window where the choke is loosened, potentially allowing the opponent to extract their head if timed poorly"
+      },
+      {
+        "action": "Execute hip bump sweep by bridging explosively into the opponent's upward momentum and rolling them over your hip to mount",
+        "when_to_use": "When the opponent commits significant weight upward and backward during the posture attempt, creating a clear sweep angle with their base temporarily elevated",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You sweep to mount position with the potential to maintain the guillotine grip for a mounted guillotine finish, one of the highest-percentage submissions in BJJ",
+        "risk": "A failed sweep attempt may give the opponent additional momentum and posture to complete the escape, leaving you in open guard bottom"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
-        "how": "TODO"
+        "outcome": "Guillotine Control/Bottom",
+        "how": "Close guard early before the opponent's knees pass your hip line, pull their head down with core engagement and leg compression, and transition to high elbow mechanics. Use your legs to break the opponent's posture by pulling your knees toward your chest while crunching your torso forward to close all space."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Time the hip bump sweep as the opponent drives upward during the posture attempt. Bridge explosively into their upward momentum, posting on your far foot and rolling them over your near hip. Maintain the guillotine grip through the sweep to create a mounted guillotine opportunity."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing the opponent to walk their knees past your hips without immediately closing guard",
+        "consequence": "The opponent establishes the base angle needed for the posture escape, making it extremely difficult to maintain the choke through grip strength alone without leg assistance",
+        "correction": "Close guard proactively before the opponent's knees pass your hip line. Use your legs to control their hip distance and prevent the forward knee walk that creates their escape angle."
+      },
+      {
+        "error": "Holding a shallow grip and relying on squeeze strength rather than adjusting mechanics",
+        "consequence": "A shallow grip is easily stripped by the opponent's wrist grip, and squeezing harder wastes energy rapidly without improving the actual choking angle or pressure",
+        "correction": "Ensure the blade of your forearm is deep across the opponent's throat before they begin posturing. If the grip is shallow, transition immediately to high elbow or arm-in variation rather than squeezing harder."
+      },
+      {
+        "error": "Pulling the opponent's head with arms alone instead of coordinating core and leg engagement",
+        "consequence": "Arms fatigue rapidly under the force of the opponent's hip drive powered by their entire posterior chain, allowing systematic posture recovery within seconds",
+        "correction": "Use closed guard leg pressure, core crunch, and arm pull simultaneously. The legs generate far more force than the arms and should do the primary work of maintaining broken posture."
+      },
+      {
+        "error": "Maintaining a static position instead of dynamically adjusting grip and guard configuration to the escape attempt",
+        "consequence": "The opponent methodically works through the escape sequence, finding the specific angle and timing to complete posture recovery against a predictable defense",
+        "correction": "Actively adjust your grip type, hip angle, and guard configuration in response to each phase of the escape. If the standard guillotine is failing, transition to high elbow, arm-in, or pivot to a sweep before the grip is fully stripped."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the single most important defensive action when you feel the opponent beginning to posture out of your guillotine?",
+        "answer": "Close your guard immediately by locking your ankles behind their back. This is the highest-priority response because closed guard adds tremendous compression to the choke through leg pressure, prevents the opponent from walking their knees forward to create their escape angle, and establishes the platform needed for hip bump sweeps if the choke itself is successfully defended."
+      },
+      {
+        "question": "Your opponent has begun posturing and your standard guillotine grip is being stripped—what adjustment maintains the submission threat?",
+        "answer": "Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist so the blade of your forearm attacks behind the opponent's chin rather than across the front of the throat. This variation is significantly more resistant to posture escapes because it compresses the carotid arteries from a posterior angle that posture recovery cannot easily address."
+      },
+      {
+        "question": "How do you recognize the optimal moment to execute a hip bump sweep against a posturing opponent?",
+        "answer": "The optimal moment is when the opponent commits their weight upward and slightly backward during the posture attempt, typically right as they extend their spine after walking their knees forward. Their weight is momentarily elevated and their base is transitioning, making them vulnerable to lateral force. Bridge into them diagonally, using their upward momentum to amplify the sweep."
+      },
+      {
+        "question": "What determines whether you should maintain the guillotine grip or release it and focus on guard retention?",
+        "answer": "Evaluate grip depth and the opponent's posture level. If your forearm is still deep across the throat and the opponent has only partial posture, maintain the grip and adjust mechanics. If the grip has slipped to a shallow position and the opponent has near-full posture, release the grip and immediately transition to guard retention to prevent being passed. Holding a compromised guillotine wastes energy and delays the guard recovery that prevents positional loss."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying Posture Escape Cues",
+        "description": "Partner executes the posture escape at slow speed while you practice recognizing each cue: spine stiffening, wrist grip on your forearm, knee walking forward, chin tuck, and hand posting. Call out each cue as you feel it develop. No resistance from either partner—pure sensory recognition training."
+      },
+      {
+        "phase": "Phase 2: Guard Closure Response",
+        "focus": "Automatic Guard Closure Timing",
+        "description": "Partner attempts the posture escape at moderate speed. Practice closing guard within one second of feeling posture initiation. Partner provides feedback on timing—too early wastes the open guard attacking position, too late allows the escape to develop past the point of recovery."
+      },
+      {
+        "phase": "Phase 3: Sweep Integration",
+        "focus": "Hip Bump Counter Timing",
+        "description": "Partner commits to the posture escape at full speed. Practice timing the hip bump sweep against their upward momentum, focusing on the correct bridge direction, grip maintenance through the sweep, and mount establishment after the roll."
+      },
+      {
+        "phase": "Phase 4: Live Situational",
+        "focus": "Full Defense Under Competitive Pressure",
+        "description": "Positional sparring starting in guillotine control bottom with the opponent attempting to escape using any method. Work to finish the guillotine, sweep to mount, or retain guard if the choke is escaped. Track success rate across rounds and identify which defensive adjustments are most effective."
       }
     ]
   }

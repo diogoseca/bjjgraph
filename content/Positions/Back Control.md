@@ -91,33 +91,33 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Back Door Escape]]** (62% of attempts)
+- **[[Hand Fighting from Back]]** (22% of attempts)
 
-- **[[Hip Escape to Turtle]]** (11% of attempts)
+- **[[Back Door Escape]]** (20% of attempts)
+
+- **[[Hip Escape to Turtle]]** (13% of attempts)
+
+- **[[Elbow Escape to Remove Hooks]]** (12% of attempts)
+
+- **[[Turn In and Face]]** (8% of attempts)
+
+- **[[Hip Escape from Back Control]]** (5% of attempts)
+
+- **[[Turtle from Back Control]]** (5% of attempts)
+
+- **[[Shoulder Walk Escape from Back]]** (5% of attempts)
+
+- **[[Scoot Hips to Guard from Back]]** (4% of attempts)
+
+- **[[Turn into Opponent from Back]]** (3% of attempts)
+
+- **[[Elbow Escape from Back]]** (2% of attempts)
+
+- **[[Hand Fight to Turtle from Back]]** (1% of attempts)
 
 - **[[Granby Roll to Guard]]** (0% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (11% of attempts)
-
-- **[[Hand Fighting from Back]]** (9% of attempts)
-
-- **[[Turn In and Face]]** (6% of attempts)
-
 - **[[Rolling Escape to Guard]]** (0% of attempts)
-
-- **[[Elbow Escape from Back]]** (0% of attempts)
-
-- **[[Hand Fight to Turtle from Back]]** (0% of attempts)
-
-- **[[Hip Escape from Back Control]]** (0% of attempts)
-
-- **[[Scoot Hips to Guard from Back]]** (0% of attempts)
-
-- **[[Shoulder Walk Escape from Back]]** (0% of attempts)
-
-- **[[Turn into Opponent from Back]]** (0% of attempts)
-
-- **[[Turtle from Back Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,43 +178,45 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (78% of attempts)
+- **[[Rear Naked Choke]]** (64% of attempts)
 
-- **[[Armbar from Back Transition]]** (2% of attempts)
+- **[[Back Control Maintenance]]** (16% of attempts)
 
-- **[[Bow and Arrow Choke]]** (4% of attempts)
+- **[[Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Back Control to Crucifix]]** (0% of attempts)
+- **[[Gift Wrap from Back]]** (4% of attempts)
 
-- **[[Armbar on Free Arm]]** (0% of attempts)
+- **[[Armbar from Back Transition]]** (3% of attempts)
 
 - **[[Body Triangle Lock]]** (2% of attempts)
 
-- **[[Back Control Maintenance]]** (13% of attempts)
+- **[[Back Control to Crucifix]]** (2% of attempts)
 
-- **[[Triangle from Back]]** (0% of attempts)
+- **[[Short Choke Attack]]** (1% of attempts)
+
+- **[[Armbar on Free Arm]]** (1% of attempts)
+
+- **[[Rear Naked Choke Setup]]** (0% of attempts)
 
 - **[[Kimura from Back]]** (0% of attempts)
 
-- **[[Gift Wrap Control]]** (0% of attempts)
+- **[[Triangle from Back]]** (0% of attempts)
 
-- **[[Transition to Seat Belt Control Back]]** (0% of attempts)
-
-- **[[Short Choke Attack]]** (0% of attempts)
+- **[[Standing Back Control Entry]]** (0% of attempts)
 
 - **[[Mat Return to Back Mount]]** (0% of attempts)
+
+- **[[Back Control to Seat Belt Control Back]]** (0% of attempts)
+
+- **[[Gift Wrap Control]]** (0% of attempts)
 
 - **[[Back Control to Cross Body Ride]]** (0% of attempts)
 
 - **[[Back Control to Reverse Half Guard]]** (0% of attempts)
 
-- **[[Back Control to Seat Belt Control Back]]** (0% of attempts)
+- **[[Restore Back Control]]** (0% of attempts)
 
-- **[[Gift Wrap from Back]]** (0% of attempts)
-
-- **[[Rear Naked Choke Setup]]** (0% of attempts)
-
-- **[[Standing Back Control Entry]]** (1% of attempts)
+- **[[Transition to Game Over]]** (1% of attempts)
 
 
 ### Common Mistakes

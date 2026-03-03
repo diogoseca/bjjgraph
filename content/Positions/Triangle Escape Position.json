@@ -287,35 +287,39 @@
     "transitions": [
       {
         "transition": "Stack Pass",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 27
+        "attempt_probability": 33
       },
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Complete Triangle Escape from Top",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Posture in Triangle",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Guard Pass from Triangle Escape",
+        "attempt_probability": 1
       }
     ]
   },
@@ -565,35 +569,39 @@
     "transitions": [
       {
         "transition": "Stack Pass",
-        "attempt_probability": 24
+        "attempt_probability": 30
       },
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Complete Triangle Escape",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Posture in Triangle Escape",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Reversal from Triangle Escape",
+        "attempt_probability": 1
       }
     ]
   }

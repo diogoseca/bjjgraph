@@ -66,7 +66,7 @@
       "phase": "Position Classification Training",
       "description": "Develop ability to instantly recognize and classify leg entanglement positions by danger level, understanding which require immediate escape versus systematic clearing",
       "key_points": [
-        "Study hierarchy: standard ashi \u2192 outside ashi \u2192 50-50 \u2192 cross ashi \u2192 inside sankaku/saddle",
+        "Study hierarchy: standard ashi → outside ashi → 50-50 → cross ashi → inside sankaku/saddle",
         "Practice identifying positions from bottom perspective under time pressure",
         "Learn specific danger indicators for each position type",
         "Understand how opponent's grips and hooks affect danger level"
@@ -257,9 +257,9 @@
       "relationship": "Defensive guard structure that helps prevent initial leg entanglement entries"
     },
     {
-      "name": "Saddle Defense",
+      "name": "Ankle Lock Escape to Standing",
       "content_type": "Transition",
-      "relationship": "Core defensive technique for the most dangerous leg lock position"
+      "relationship": "Key defensive transition for escaping ankle lock control and returning to a safe standing position"
     },
     {
       "name": "Ashi Garami Escape",
@@ -277,9 +277,9 @@
       "relationship": "High-danger entry pattern requiring specific prevention strategies"
     },
     {
-      "name": "X-Guard to Ashi Transition",
+      "name": "Ashi Entry from Leg Entanglement",
       "content_type": "Transition",
-      "relationship": "Common transition that creates leg entanglement opportunities to defend"
+      "relationship": "Common transition pathway creating leg entanglement opportunities that must be recognized and defended"
     },
     {
       "name": "Knee Slice Pass",

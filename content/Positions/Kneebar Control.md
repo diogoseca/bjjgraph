@@ -65,7 +65,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 
-**Key Difference:** Isolated leg control for knee hyperextension
+**Key Difference:** Top retains position; bottom risks it for finish
 
 
 
@@ -99,31 +99,33 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar Finish]]** (38% of attempts)
+- **[[Kneebar Finish]]** (41% of attempts)
 
-- **[[Inside Ashi Entry]]** (8% of attempts)
+- **[[Heel Hook]]** (11% of attempts)
 
-- **[[Outside Ashi Entry]]** (6% of attempts)
+- **[[Inside Ashi Entry]]** (7% of attempts)
 
-- **[[50-50 Entry from Standing]]** (5% of attempts)
-
-- **[[Heel Hook]]** (10% of attempts)
-
-- **[[Straight Ankle Lock]]** (6% of attempts)
+- **[[Ankle Lock Finish]]** (7% of attempts)
 
 - **[[Toe Hold]]** (6% of attempts)
 
-- **[[Single Leg X Entry]]** (5% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (6% of attempts)
 
-- **[[X-Guard Sweep]]** (3% of attempts)
+- **[[Outside Ashi Entry]]** (5% of attempts)
 
-- **[[Transition to Backside 50-50]]** (6% of attempts)
+- **[[50-50 Entry from Standing]]** (4% of attempts)
 
-- **[[Guard Recovery]]** (5% of attempts)
+- **[[Single Leg X Entry]]** (4% of attempts)
+
+- **[[Ashi Garami Escape]]** (4% of attempts)
+
+- **[[X-Guard Sweep]]** (2% of attempts)
 
 - **[[Straighten Leg Kneebar Defense]]** (1% of attempts)
 
 - **[[Turn and Extract from Kneebar]]** (1% of attempts)
+
+- **[[Reversal from Kneebar Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -188,21 +190,21 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Straight Ankle Lock]]** (9% of attempts)
+- **[[Kneebar]]** (25% of attempts)
 
-- **[[Toe Hold]]** (9% of attempts)
+- **[[Kneebar Finish]]** (25% of attempts)
 
-- **[[Knee on Belly]]** (7% of attempts)
+- **[[Kneebar Control Maintenance]]** (12% of attempts)
 
-- **[[Kneebar]]** (63% of attempts)
+- **[[Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Kneebar Finish]]** (7% of attempts)
+- **[[Toe Hold]]** (10% of attempts)
 
-- **[[Kneebar Control Maintenance]]** (3% of attempts)
+- **[[Knee on Belly]]** (10% of attempts)
 
-- **[[Kneebar to 50-50 Transition]]** (1% of attempts)
+- **[[Kneebar to 50-50 Transition]]** (4% of attempts)
 
-- **[[Kneebar to Ashi Garami]]** (1% of attempts)
+- **[[Kneebar to Ashi Garami]]** (4% of attempts)
 
 
 ### Common Mistakes

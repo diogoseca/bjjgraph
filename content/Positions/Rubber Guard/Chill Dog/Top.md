@@ -21,37 +21,37 @@ description: "Master attacking Chill Dog from top position. Learn to break defen
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,23 +215,25 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (24% of attempts)
+### [[Turtle to Back Control]] (31% of attempts)
 
-### [[Crucifix from Turtle]] (13% of attempts)
+### [[Crucifix from Turtle]] (12% of attempts)
 
-### [[Darce Setup]] (11% of attempts)
+### [[Darce Setup]] (10% of attempts)
 
-### [[Anaconda Setup]] (10% of attempts)
+### [[Anaconda Setup]] (9% of attempts)
 
-### [[Front Headlock to Back]] (13% of attempts)
+### [[Front Headlock to Back]] (12% of attempts)
 
-### [[Truck Entry]] (11% of attempts)
+### [[Truck Entry]] (10% of attempts)
 
-### [[Guillotine Setup]] (10% of attempts)
+### [[Guillotine Setup]] (9% of attempts)
 
-### [[Posture from Chill Dog]] (5% of attempts)
+### [[Posture from Chill Dog]] (4% of attempts)
 
-### [[Stack from Chill Dog]] (3% of attempts)
+### [[Stack from Chill Dog]] (2% of attempts)
+
+### [[Guard Pass from Chill Dog]] (1% of attempts)
 
 
 

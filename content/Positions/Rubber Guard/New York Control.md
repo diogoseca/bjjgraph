@@ -184,19 +184,21 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Overhook Escape]]** (16% of attempts)
+- **[[Overhook Escape]]** (15% of attempts)
 
-- **[[Posture Recovery]]** (15% of attempts)
+- **[[Posture Recovery]]** (14% of attempts)
 
-- **[[Crossface to Combat Base]]** (21% of attempts)
+- **[[Crossface to Combat Base]]** (24% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Stack Pass]]** (11% of attempts)
 
-- **[[Leg Extraction]]** (16% of attempts)
+- **[[Leg Extraction]]** (15% of attempts)
 
-- **[[Standing Escape]]** (14% of attempts)
+- **[[Standing Escape]]** (13% of attempts)
 
-- **[[New York Control Escape]]** (6% of attempts)
+- **[[New York Control Escape]]** (5% of attempts)
+
+- **[[Guard Pass from New York Control]]** (3% of attempts)
 
 
 ### Common Mistakes

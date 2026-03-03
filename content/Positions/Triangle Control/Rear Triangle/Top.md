@@ -20,38 +20,38 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Rear Triangle Choke Finish",
+      "text": "From this position, attempt Rear Triangle Choke Finish. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Back",
-      "text": "From this position, attempt Kimura from Back. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,17 +207,21 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Available Attacks
 
-### [[Triangle Choke]] (19% of attempts)
+### [[Rear Triangle Choke Finish]] (24% of attempts)
 
-### [[Armbar from Back Transition]] (17% of attempts)
+### [[Armbar from Back Transition]] (14% of attempts)
 
-### [[Rear Naked Choke]] (19% of attempts)
+### [[Rear Naked Choke]] (16% of attempts)
 
-### [[Aoki Lock to Crucifix]] (16% of attempts)
+### [[Aoki Lock to Crucifix]] (13% of attempts)
 
-### [[Bow and Arrow Choke]] (15% of attempts)
+### [[Bow and Arrow Choke]] (12% of attempts)
 
-### [[Kimura from Back]] (14% of attempts)
+### [[Kimura from Back]] (12% of attempts)
+
+### [[Rear Triangle to Armbar]] (6% of attempts)
+
+### [[Back Control to Crucifix]] (3% of attempts)
 
 
 
@@ -234,7 +238,7 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 **Else if opponent attempts to pull trapped arm free:**
 - Execute **[[Tighten Triangle Lock]]** → [[Rear Triangle]] (Probability: 70%)
-- Execute **[[Triangle Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Rear Triangle Choke Finish]]** → [[Game Over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
@@ -383,11 +387,11 @@ Establish rear triangle position with compliant partner. Practice the following 
 - **[[Body Triangle]]** - Alternative leg configuration for back control with different control mechanics
 - **[[Crucifix]]** - Common transition target when opponent defends triangle by turning in
 - **[[Seat Belt Control Back]]** - Traditional back control variation that precedes rear triangle entry
-- **[[Triangle Choke]]** - Primary submission finish from this position
-- **[[Armbar from Back]]** - Alternative submission when opponent defends the choke
+- **[[Rear Triangle Choke Finish]]** - Primary submission finish from this position
+- **[[Armbar from Back Transition]]** - Alternative submission when opponent defends the choke
 - **[[Mounted Triangle]]** - Similar triangle control mechanics from mount position instead of back
 - **[[Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
-- **[[Truck]]** - Leg entanglement position that shares some control principles with rear triangle
+- **[[Crab Ride]]** - Leg entanglement position that shares back exposure control principles with rear triangle
 
 
 </section>

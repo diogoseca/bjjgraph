@@ -89,21 +89,23 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (22% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (14% of attempts)
+- **[[Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Bridge and Roll]]** (9% of attempts)
 
-- **[[Upa Escape]]** (10% of attempts)
+- **[[Upa Escape]]** (9% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Deep Half Entry]]** (9% of attempts)
 
-- **[[Lockdown Recovery]]** (10% of attempts)
+- **[[Lockdown Recovery]]** (9% of attempts)
 
-- **[[Turtle Transition]]** (10% of attempts)
+- **[[Arm Extraction to Turtle]]** (9% of attempts)
+
+- **[[Bridge Escape from Modified Mount]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +166,25 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (15% of attempts)
+- **[[Mount to Armbar]]** (19% of attempts)
 
-- **[[S-Mount Transition]]** (12% of attempts)
+- **[[S-Mount Transition]]** (11% of attempts)
 
-- **[[Mounted Triangle]]** (10% of attempts)
+- **[[Mounted Triangle]]** (9% of attempts)
 
-- **[[High Mount Transition]]** (13% of attempts)
+- **[[High Mount Transition]]** (12% of attempts)
 
-- **[[Americana]]** (10% of attempts)
+- **[[Americana]]** (9% of attempts)
 
-- **[[Cross Collar Choke]]** (10% of attempts)
+- **[[Cross Collar Choke]]** (9% of attempts)
 
-- **[[Kimura]]** (8% of attempts)
+- **[[Kimura]]** (7% of attempts)
 
-- **[[Gift Wrap Transition]]** (12% of attempts)
+- **[[Gift Wrap Transition]]** (11% of attempts)
 
-- **[[Back Take from Top]]** (10% of attempts)
+- **[[Back Take from Top]]** (9% of attempts)
+
+- **[[Americana from Modified Mount]]** (4% of attempts)
 
 
 ### Common Mistakes

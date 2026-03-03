@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 35% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,23 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Available Attacks
 
-### [[Americana]] (13% of attempts)
+### [[Americana]] (12% of attempts)
 
-### [[Kimura]] (12% of attempts)
+### [[Kimura]] (10% of attempts)
 
-### [[Armbar Finish]] (11% of attempts)
+### [[Armbar Finish]] (9% of attempts)
 
-### [[North-South Choke]] (10% of attempts)
+### [[North-South Choke]] (8% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Side Control to North-South]] (25% of attempts)
+### [[Side Control to North-South]] (35% of attempts)
 
-### [[Arm Triangle]] (9% of attempts)
+### [[Arm Triangle]] (7% of attempts)
 
-### [[Transition to Modified Scarf Hold]] (4% of attempts)
+### [[Kesa Gatame to Modified Scarf Hold]] (2% of attempts)
 
-### [[Transition to Reverse Kesa-Gatame]] (2% of attempts)
+### [[Kesa Gatame to Reverse Kesa-Gatame]] (2% of attempts)
 
 
 
@@ -313,7 +313,7 @@ Partner starts in Kesa Gatame Top and must maintain position for 2-minute rounds
 
 ### Transition Flow Drill
 
-From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.
+From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame, Reverse Kesa-Gatame, North-South, and back. Partner provides mild resistance but allows transitions. Focus on maintaining control throughout all transitions and never allowing opponent to create space.
 
 **Duration**: 3 rounds of 3 minutes
 

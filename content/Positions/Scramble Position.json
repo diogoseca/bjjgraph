@@ -71,7 +71,7 @@
       "attempt_probability": 8
     },
     {
-      "transition": "Guard Recovery",
+      "transition": "Stabilize to Guard from Scramble",
       "attempt_probability": 8
     },
     {
@@ -139,7 +139,7 @@
           "probability": 60
         },
         {
-          "technique": "Guard Recovery",
+          "technique": "Stabilize to Guard from Scramble",
           "target": "Ashi Garami",
           "probability": 50
         }
@@ -154,7 +154,7 @@
           "probability": 55
         },
         {
-          "technique": "Guard Recovery",
+          "technique": "Stabilize to Guard from Scramble",
           "target": "Open Guard",
           "probability": 50
         }
@@ -305,25 +305,5 @@
       "question": "What role does weight distribution play in winning scrambles, and how should you adjust your base as positions shift rapidly?",
       "answer": "Weight distribution is the single most important factor in scramble outcomes. Your hips should stay low with a wide base whenever possible, and your weight should shift dynamically to counter your opponent's movement direction. When they push, drop your weight and redirect laterally. When they pull, drive forward and angle off to the side. The practitioner who maintains a lower center of gravity and adjusts base angle faster will consistently emerge in the superior position. Staying heavy on your hips while keeping your upper body mobile creates the ideal scramble platform."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Scramble to Top Position",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Stabilize to Guard from Scramble",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Win Scramble to Top",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  ]
 }

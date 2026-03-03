@@ -1,10 +1,15 @@
 {
   "name": "Reverse Mount to Side Control",
-  "description": "TODO: Write 150-160 character SEO description for Reverse Mount to Side Control.",
+  "description": "Master the Reverse Mount to Side Control transition in BJJ. Step-by-step hip rotation, weight transfer, and crossface techniques for dominant side control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "reverse mount",
+    "side control",
+    "positional conversion",
+    "top game",
+    "dominant position",
+    "hip rotation"
   ],
   "from_position": "Reverse Mount/Top",
   "outcomes": [
@@ -25,114 +30,387 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Reverse Mount to Side Control.",
+  "overview": "The Reverse Mount to Side Control transition is a fundamental positional conversion where the top practitioner rotates from the inherently unstable reverse mount into the more sustainable and dominant side control position. While reverse mount scores the same points as standard mount, its backward orientation compromises visual awareness and long-term control. Converting to side control establishes perpendicular chest-to-torso alignment that offers superior submission chains and positional sustainability.\n\nThe core mechanical challenge lies in executing a controlled 90-degree hip rotation while maintaining constant pressure on the opponent's torso. Any gap created during the rotation provides the bottom player with opportunities to insert frames, recover guard, or initiate a bridge reversal. The rotation must be smooth and continuous, with weight transfer managed through the hips rather than posting on hands, which would create exploitable space.\n\nThis transition is strategically chosen when the top player recognizes that side control offers a more stable attacking platform than attempting mount conversion or back take from reverse mount. It is particularly valuable against opponents who actively defend standard mount rotation by framing against the chest, or who present defensive postures that make hook insertion for back control impractical. The resulting side control position provides immediate access to americana, kimura, arm triangle, and north-south choke sequences from a consolidated base that can be maintained for extended periods with minimal energy expenditure.",
   "conditions": [
-    "TODO"
+    "Established reverse mount position with hips heavy on opponent's torso and stable base through wide knee positioning",
+    "Opponent's hips relatively flat on the mat without active bridge attempts or strong frame structures in place",
+    "Clear rotational pathway without opponent's arms blocking the transition angle toward side control",
+    "Assessment that side control is the optimal conversion target given opponent's defensive posture and arm positioning"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Quick Spin Conversion",
+      "description": "Rapid 90-degree rotation emphasizing speed over methodical control. The top player explosively pivots their hips while keeping chest contact, completing the rotation in a single fluid movement before the bottom player can react or insert frames.",
+      "when_to_use": "When the opponent is momentarily stunned or recovering from a failed escape attempt, providing a brief window where defensive reactions are delayed."
+    },
+    {
+      "variant_name": "Underhook-First Rotation",
+      "description": "Before initiating the hip rotation, the top player first reaches across to establish an underhook on the near side of the opponent's body. This pre-establishes upper body control that seamlessly converts into a crossface as the rotation completes, eliminating the vulnerable gap between rotation completion and control establishment.",
+      "when_to_use": "Against technically proficient opponents who exploit the transition gap between rotation and crossface establishment to insert frames or initiate escapes."
+    },
+    {
+      "variant_name": "Knee Slide Conversion",
+      "description": "Rather than a pure hip rotation, the top player slides their near-side knee across the opponent's belly while rotating, using the knee as a pressure point that pins the opponent flat and blocks hip escape. The knee slide creates a hybrid path through knee-on-belly into settled side control.",
+      "when_to_use": "When the opponent attempts to create angles or hip escape during the rotation, the knee slide pins their hips and prevents lateral movement."
     }
   ],
-  "position_integration": "TODO: Write position integration for Reverse Mount to Side Control.",
+  "position_integration": "The Reverse Mount to Side Control transition occupies a critical role in the top position conversion hierarchy. While reverse mount offers three primary conversion paths (standard mount, back control, and side control), the side control conversion is the most conservative and stable option. It connects the transitional reverse mount state to the sustainable side control base, unlocking systematic submission chains including americana, kimura, arm triangle, and north-south choke progressions. For practitioners who prefer methodical pressure-based top games over dynamic scramble-based transitions, this conversion represents the highest-reliability path from reverse mount to an attacking platform. It also serves as a fallback when mount and back control conversions are blocked by the opponent's defensive posture.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Reverse Mount",
+      "relationship": "Source position - the transitional dominant position from which this conversion initiates"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position on success - the stable dominant position achieved through this transition"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position - opponent may recover half guard if rotation is poorly executed"
+    },
+    {
+      "name": "Reverse Mount to Mount",
+      "relationship": "Alternative transition from the same starting position, converting to standard mount instead of side control"
+    },
+    {
+      "name": "Bridge from Reverse Mount",
+      "relationship": "Primary defensive counter the bottom player uses to disrupt this transition"
+    },
+    {
+      "name": "Escape Reverse Mount",
+      "relationship": "Defender's escape technique that the attacker must prevent before initiating rotation"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative conversion target from reverse mount offering higher point value but less stability during transition"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative progression from reverse mount offering superior control but requiring hook insertion"
+    },
+    {
+      "name": "Armbar from Reverse Mount",
+      "relationship": "Submission option from source position that may be attempted before deciding to convert to side control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Follow-up position accessible from side control after completing this transition"
     }
   ],
   "attacker": {
     "name": "Reverse Mount to Side Control Attacker",
-    "description": "TODO: Write attacker description for Reverse Mount to Side Control.",
-    "overview": "TODO: Write attacker overview for Reverse Mount to Side Control.",
+    "description": "Master the attacker's approach to converting Reverse Mount into Side Control. Learn hip rotation mechanics, weight transfer timing, and crossface establishment for reliable positional conversion.",
+    "overview": "From reverse mount top, transitioning to side control requires a deliberate hip rotation that converts backward-facing dominance into the perpendicular alignment characteristic of standard side control. The attacker must manage weight distribution throughout the entire rotation arc, ensuring the opponent cannot exploit the transitional moment to insert frames, recover guard, or execute a bridge reversal. Success depends on pre-rotation hip blocking, smooth continuous rotation mechanics, and immediate crossface establishment as the rotation completes. This transition is the most conservative positional conversion available from reverse mount, offering the highest reliability and the most stable landing position among the three primary conversion options.",
     "key_principles": [
-      "TODO"
+      "Maintain constant chest-to-torso pressure throughout the entire rotation arc to prevent any space creation that enables defensive reactions",
+      "Lead the rotation with your hips while your upper body follows naturally, keeping your center of gravity low and connected to the opponent",
+      "Block the opponent's far hip with your near-side hand before initiating rotation to prevent knee insertion during the transition",
+      "Establish crossface control immediately upon reaching perpendicular alignment to lock the opponent's head position and prevent turning",
+      "Keep knees wide throughout the transition to maintain base stability and prevent being tipped by bridge attempts during rotation",
+      "Time the rotation during a moment of opponent passivity or immediately after absorbing and riding their escape attempt"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established reverse mount position with hips heavy on the opponent's sternum or upper abdomen and wide knee base",
+      "At least one hand posted on the mat for balance with the other controlling opponent's lower body or hip",
+      "Opponent's hips relatively controlled and flat, without active bridge attempts that would destabilize rotation",
+      "Clear assessment that side control is the optimal conversion based on opponent's arm positioning and defensive posture",
+      "Mental commitment to complete the full rotation smoothly rather than hesitating midway through the transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess rotational direction",
+        "description": "Determine which direction to rotate based on the opponent's arm positioning and your dominant side. The rotation should go toward the side where you can most easily establish crossface control. Post the hand on your rotation side firmly on the mat for base stability."
+      },
+      {
+        "step_number": 2,
+        "action": "Block opponent's far hip",
+        "description": "Place your near-side hand firmly on the opponent's far hip to prevent them from inserting a knee or creating an angle during your rotation. This is the critical pre-rotation control point that determines whether the opponent can recover half guard."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip rotation",
+        "description": "Begin rotating your hips toward side control alignment by driving your near-side hip toward the mat. Lead the rotation with your lower body while maintaining chest-to-torso contact pressure throughout the movement. Your weight should feel continuous on their chest."
+      },
+      {
+        "step_number": 4,
+        "action": "Maintain continuous pressure",
+        "description": "Throughout the mid-rotation phase, keep your center of gravity low and your weight sinking into the opponent's torso. Avoid any moment where your weight lifts off their body, as even a brief gap creates escape opportunities for frame insertion or hip movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Achieve perpendicular alignment",
+        "description": "Complete the rotation until your chest is perpendicular to the opponent's torso. Your hips should be settling low against their near hip with your knees spread wide for base. This is the critical alignment moment where you transition from rotation to stabilization."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive crossface control",
+        "description": "As you reach side control alignment, immediately drive your shoulder or bicep across the opponent's face and jaw, turning their head away from you. This crossface establishes dominant upper body control and prevents the opponent from turning into you to recover guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure far-side arm control",
+        "description": "Control the opponent's far arm with your near hand, either underhooking their armpit or blocking their elbow to prevent frame creation. This completes the control structure and establishes full side control grips for position consolidation."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate side control",
+        "description": "Settle your weight fully, eliminate all remaining space between your bodies, and establish your preferred side control variation. Transition your focus from rotation mechanics to positional maintenance and attack identification from the newly established dominant position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent times an explosive bridge during mid-rotation when attacker's base is compromised",
+        "effectiveness": "High",
+        "your_response": "Ride the bridge by staying heavy through your hips and widening your knees. If the bridge is strong enough to disrupt rotation, abandon the side control attempt and settle back into reverse mount to reset. Do not fight the bridge mid-rotation as this creates scramble opportunities.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent inserts near-side knee between bodies during rotation to recover half guard",
+        "effectiveness": "High",
+        "your_response": "Reinforce far hip blocking pressure before and during rotation. If knee insertion begins, drive your hip down aggressively to flatten their leg back to the mat. If half guard is established, immediately transition to half guard passing rather than forcing back to reverse mount.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent frames against your rotating shoulder or chest to create space during transition",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Collapse the frame by driving your weight through it rather than around it. Maintain heavy chest pressure that makes the frame structurally insufficient. If the frame creates significant space, accelerate the rotation to reach side control before they can exploit the gap.",
+        "targets_outcome": "Reverse Mount/Top"
+      },
+      {
+        "counter": "Opponent turns away to turtle position during the rotation",
+        "effectiveness": "Low",
+        "your_response": "Follow their turn and transition to back control by inserting hooks rather than completing the side control conversion. Their turn actually creates a superior opportunity since back control is a more dominant position than the side control you were pursuing.",
         "targets_outcome": "Reverse Mount/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting hips off opponent's torso during the rotation",
+        "consequence": "Creates space that allows the opponent to insert frames, hip escape, or initiate bridge reversal, often resulting in guard recovery or full reversal to half guard bottom",
+        "correction": "Keep your center of gravity low throughout the entire rotation. Think of your hips as a wheel axle that stays pressed against the opponent's chest while the rest of your body rotates around it. Your weight should feel continuous on their torso at every point in the rotation arc."
+      },
+      {
+        "error": "Rotating too slowly or hesitating mid-rotation",
+        "consequence": "Gives the opponent time to read the transition, insert frames, reposition their hips for bridge timing, or begin knee insertion for half guard recovery",
+        "correction": "Commit fully to the rotation once initiated. The transition should be one smooth continuous movement, not a series of pauses. Practice the rotation timing until it flows as a single action taking approximately one to two seconds from initiation to crossface establishment."
+      },
+      {
+        "error": "Neglecting to block the far hip before initiating rotation",
+        "consequence": "Opponent easily inserts near-side knee during the rotation, recovering half guard and nullifying the positional conversion. This is the most common failure mode for this transition.",
+        "correction": "Always place your near-side hand firmly on the opponent's far hip before beginning any rotational movement. This hip block must be maintained or replaced by your knee pressure as the rotation progresses through its arc."
+      },
+      {
+        "error": "Failing to establish crossface immediately upon completing rotation",
+        "consequence": "Opponent can turn into you, establish frames against your chest, or begin guard recovery sequences before you consolidate side control. The position remains unsettled and vulnerable.",
+        "correction": "The crossface should be the first control point established as you reach perpendicular alignment. Drive your shoulder or bicep across their face as a single motion integrated with the final phase of the rotation, not as a separate action afterward."
+      },
+      {
+        "error": "Over-rotating past side control into north-south",
+        "consequence": "Bypasses the intended side control position and arrives in north-south without proper setup, creating a less stable control position and potentially allowing the opponent to turn into you during the excess rotation",
+        "correction": "Target perpendicular chest alignment as your rotation endpoint. Use your crossface establishment as a physical stop that arrests the rotation at the correct angle. Practice the rotation with a training partner to calibrate the 90-degree stopping point."
+      },
+      {
+        "error": "Posting on hands rather than maintaining chest contact during rotation",
+        "consequence": "Weight transfers to hands rather than remaining on the opponent's torso, creating significant space under your chest that the opponent exploits for frame insertion and hip movement",
+        "correction": "Hands should be used for steering and control rather than weight bearing during the rotation. Your chest must maintain direct contact with the opponent's torso throughout, functioning as the primary pressure surface while hands manage grips and hip blocking."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip rotation pattern and balance",
+        "description": "Practice the 90-degree hip rotation on a grappling dummy or heavy bag, focusing on maintaining downward pressure throughout the arc. Drill both clockwise and counterclockwise rotations. Develop the muscle memory for leading with hips while chest stays connected."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Complete transition sequence with passive partner",
+        "description": "Execute the full transition against a cooperative partner who remains flat and provides no resistance. Focus on smooth sequencing: hip block, rotation initiation, pressure maintenance, crossface establishment, and position consolidation. Repeat 20-30 times per side until the movement flows naturally."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and pressure maintenance under defense",
+        "description": "Partner adds progressive resistance starting at 30% and increasing to 75%. Partner attempts specific counters: bridging during rotation, inserting knee for half guard, and framing against chest. Develop the ability to read and counter each defensive reaction while maintaining rotation quality."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Full resistance from reverse mount",
+        "description": "Live positional rounds starting from reverse mount. Top player must convert to side control, mount, or back control within 15 seconds. Bottom player uses all available defenses at full resistance. Track conversion success rate and identify which defensive patterns cause the most difficulty."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Integrating conversion into broader positional game",
+        "description": "Start from scramble situations that naturally produce reverse mount. Practice recognizing when side control conversion is optimal versus mount or back control based on opponent's defensive posture. Develop automatic decision-making for conversion target selection during live rolling."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the single most important preparatory action before initiating the hip rotation toward side control?",
+        "answer": "Blocking the opponent's far hip with your near-side hand is the most critical preparatory action. This prevents the opponent from inserting their near-side knee between your bodies during the rotation, which is the highest-percentage counter to this transition. Without the hip block, the rotation creates a natural gap that the opponent's knee can exploit to recover half guard."
+      },
+      {
+        "question": "Your opponent bridges explosively just as you begin rotating from reverse mount - how do you adjust?",
+        "answer": "Ride the bridge by widening your knees, sinking your hips heavy, and absorbing the upward force through your core. Do not fight the bridge mid-rotation because your base is compromised during the transition. If the bridge is powerful enough to significantly disrupt your rotation, abandon the side control conversion, settle back into reverse mount, and wait for the opponent to land before reattempting. Their post-bridge fatigue creates an ideal window for a second attempt."
+      },
+      {
+        "question": "Why should the rotation be led by the hips rather than the upper body?",
+        "answer": "Leading with the hips keeps your center of gravity low and maintains continuous pressure on the opponent's torso throughout the rotation arc. If you lead with your upper body, your chest lifts off the opponent momentarily, creating space for frame insertion or hip escape. The hips function as the axis point that stays connected while everything else rotates around it, ensuring unbroken pressure transmission."
+      },
+      {
+        "question": "What determines whether side control is a better conversion target than standard mount from reverse mount?",
+        "answer": "Side control is preferred when the opponent's arm positioning creates strong frames against your chest that would block mount rotation, when you want immediate access to submission chains like americana and kimura that are more accessible from side control, or when the opponent's defensive posture makes hook insertion for back control impractical. Side control is also the safer choice against opponents who are skilled at timing bridges during the longer mount rotation arc."
+      },
+      {
+        "question": "How fast should the rotation from reverse mount to side control be executed?",
+        "answer": "The rotation should be completed in approximately one to two seconds as a single continuous movement. It must be fast enough that the opponent cannot insert frames or initiate counters during the transition gap, but controlled enough to maintain constant pressure and arrive at correct perpendicular alignment. Rushing causes over-rotation or weight lifting, while hesitating creates exploitable windows. The tempo is smooth and deliberate rather than explosive or cautious."
+      },
+      {
+        "question": "Your opponent starts inserting their knee between your bodies during mid-rotation - what is your immediate response?",
+        "answer": "Drive your rotating hip down aggressively to flatten their inserting knee back to the mat. If their knee has progressed past the point of flattening, accelerate through the remaining rotation to establish crossface in side control before they can fully recover half guard. If half guard is established despite your efforts, immediately transition to half guard passing sequences rather than attempting to retreat back to reverse mount, which wastes the positional progress already made."
+      },
+      {
+        "question": "What role does the crossface play in this transition, and when exactly should it be established?",
+        "answer": "The crossface serves as both a rotational stop point and the primary upper body control mechanism that consolidates side control. It should be established as an integrated part of the final rotation phase, not as a separate action afterward. As your chest reaches perpendicular alignment, your shoulder or bicep drives across the opponent's face in the same motion. Delaying the crossface by even one to two seconds after rotation completion allows the opponent to turn into you and begin guard recovery."
+      },
+      {
+        "question": "Why is this transition considered the most conservative conversion option from reverse mount?",
+        "answer": "Side control conversion requires only a 90-degree rotation compared to the 180-degree rotation needed for standard mount, reducing the time window where the top player's base is compromised. Side control also requires no hook insertion like back control, eliminating a failure mode. The resulting position is one of the most sustainable in BJJ with low energy cost and long time sustainability, compared to reverse mount's inherent instability. The trade-off is giving up the higher point value and submission density of mount or back control."
+      },
+      {
+        "question": "If you successfully reach side control but the opponent has already begun framing against your chest, what should you prioritize?",
+        "answer": "Prioritize collapsing the frames through heavy shoulder pressure and crossface before attempting to settle or attack. Drive your weight through the frames rather than around them, using your chest and shoulder as a wedge. Simultaneously block their far hip with your near hand to prevent them from using the frames to create hip escape space. Only once the frames are neutralized should you consolidate your preferred side control grip configuration and begin considering submission or advancement sequences."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Reverse Mount to Side Control."
+    "safety_considerations": "This transition involves controlled positional movement without direct joint manipulation or choking mechanics, making it relatively low risk. The primary safety concern is rib compression on the bottom player during the weight transfer phase of the rotation, particularly if the top player drops weight suddenly rather than maintaining smooth continuous pressure. Both practitioners should communicate if experiencing breathing difficulty under chest pressure. During training, rotate smoothly rather than explosively to prevent accidental knee or elbow strikes to the partner's face or ribs. Partners with rib injuries should communicate before drilling, and the top player should moderate pressure accordingly."
   },
   "defender": {
     "name": "Reverse Mount to Side Control Defender",
-    "description": "TODO: Write defender description for Reverse Mount to Side Control.",
-    "overview": "TODO: Write defender overview for Reverse Mount to Side Control.",
+    "description": "Learn to defend the Reverse Mount to Side Control transition. Recognition cues, timing windows, and counter techniques to prevent positional conversion or achieve reversal.",
+    "overview": "When the opponent begins rotating from reverse mount toward side control, the defender faces a brief but critical window of opportunity. The rotation temporarily compromises the top player's base and creates gaps in pressure that can be exploited through well-timed bridges, frame insertion, or hip escape movements. The defender must recognize the rotation early through tactile pressure changes and respond immediately, because the window closes rapidly once the top player establishes crossface and settles perpendicular alignment. Successful defense either prevents the transition entirely by forcing the attacker to remain in the less stable reverse mount, or capitalizes on the rotation momentum to achieve a reversal into half guard top position. The defender's worst outcome is allowing a clean conversion to settled side control, which is significantly harder to escape than reverse mount.",
     "key_principles": [
-      "TODO"
+      "Recognize rotational cues immediately through changes in pressure distribution and hip movement on your torso",
+      "Time defensive actions to coincide with the mid-rotation phase when the top player's base is most compromised",
+      "Insert frames proactively rather than reactively - begin creating defensive structures before the rotation completes",
+      "Use bridge explosions during the rotation to exploit the top player's transitional instability and create reversal opportunities",
+      "Insert your near-side knee between bodies during the rotation gap to recover half guard before side control consolidates",
+      "Prevent crossface establishment at all costs, as the crossface is the control point that locks side control in place"
     ],
     "recognition_cues": [
-      "TODO"
+      "Shift in opponent's weight distribution from centered on your sternum to asymmetric pressure favoring one side of your torso",
+      "Opponent's hand moving to block your far hip, which is the standard preparatory action before initiating rotation",
+      "Rotational movement of opponent's hips beginning to pivot from facing your legs toward perpendicular alignment",
+      "Reduction in opponent's knee pressure on one side as they begin opening their base angle for the rotation",
+      "Opponent's posted hand shifting position to the side they intend to rotate toward, changing their balance point"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Explosive bridge timed with mid-rotation when opponent's base is compromised",
+        "when_to_use": "As soon as you feel the opponent's hips begin to rotate and their weight distribution becomes asymmetric during the transition",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The bridge disrupts the rotation and creates an opportunity to reverse position, potentially sweeping the top player into half guard bottom as their compromised base cannot absorb the upward force",
+        "risk": "If mistimed or too weak, the bridge is absorbed and the opponent completes the rotation with your bridge energy exhausted"
+      },
+      {
+        "action": "Insert near-side knee between bodies during the rotation gap",
+        "when_to_use": "When you feel the opponent's hip pressure momentarily lighten during mid-rotation, creating a gap between your hip and their body",
         "targets_outcome": "Reverse Mount/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Knee insertion prevents the rotation from completing and forces the opponent to either deal with your half guard recovery or abandon the transition and reset in reverse mount",
+        "risk": "If the opponent maintains strong hip blocking, the knee insertion fails and you waste energy that could have been used for other defensive options"
+      },
+      {
+        "action": "Frame against rotating shoulder to prevent crossface establishment",
+        "when_to_use": "As the opponent approaches perpendicular alignment and begins driving their shoulder toward your face for crossface control",
+        "targets_outcome": "Reverse Mount/Top",
+        "if_successful": "The frame prevents crossface establishment, blocking the primary control mechanism that consolidates side control, and forces the opponent to either fight through the frame or abandon the transition",
+        "risk": "Extended arms during framing may expose you to kimura or americana attacks if the opponent recognizes the submission opportunity"
+      },
+      {
+        "action": "Hip escape away from rotation direction during the transition",
+        "when_to_use": "During the early phase of rotation when the opponent's weight begins shifting but crossface has not yet been established",
+        "targets_outcome": "Reverse Mount/Top",
+        "if_successful": "Creates enough space to prevent the opponent from establishing perpendicular alignment, potentially allowing you to turn and face them or recover a guard position before they can consolidate",
+        "risk": "Requires significant hip mobility under pressure and may be ineffective if the opponent maintains heavy chest contact throughout the rotation"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time an explosive bridge during the mid-rotation phase when the top player's base is maximally compromised. The bridge exploits their transitional instability to create a reversal opportunity, catching their leg as they rotate to establish half guard with you on top. This requires precise timing and committed explosiveness."
+      },
+      {
+        "outcome": "Reverse Mount/Top",
+        "how": "Insert frames and near-side knee early in the rotation attempt, forcing the top player to abandon the transition and reset in reverse mount. While still a disadvantageous position for you, reverse mount is significantly less stable than side control and provides better escape opportunities due to the top player's compromised visual awareness and reduced control sustainability."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until side control is fully established before attempting defense",
+        "consequence": "The window of opportunity during the rotation is lost, and the defender must now escape settled side control which has much higher retention rates and more submission threats than reverse mount",
+        "correction": "React to the earliest recognition cues of rotation initiation. Your defensive actions must begin during the rotation, not after it completes. Train your tactile recognition of weight shifts so you respond automatically."
+      },
+      {
+        "error": "Bridging too early before the rotation has actually begun",
+        "consequence": "The top player is still in stable reverse mount with full base when the bridge occurs, easily riding the bridge and potentially using the defender's exhausted bridge effort as a window to initiate the rotation",
+        "correction": "Wait for confirmed rotational movement before bridging. The cue is the asymmetric weight shift, not just the hand placement on your hip. Bridge into the rotation, not before it."
+      },
+      {
+        "error": "Extending arms for frames without protecting against submission counters",
+        "consequence": "Opponent recognizes the extended arm and transitions to americana or kimura instead of completing the side control conversion, resulting in a worse outcome than side control",
+        "correction": "Frame with forearms and elbows rather than fully extended arms. Keep frames structurally sound with elbows close to your body, only extending enough to block the shoulder rotation without exposing isolated limbs."
+      },
+      {
+        "error": "Attempting to turn away from the rotation direction",
+        "consequence": "Exposes your back and facilitates the opponent's transition to back control instead of side control, resulting in a significantly worse positional outcome",
+        "correction": "Turn into the opponent if you must turn, or remain on your back and use bridges and frames rather than turning. Turning away from the top player in any mount variation creates back control opportunities."
+      },
+      {
+        "error": "Panicking and making multiple simultaneous defensive movements without commitment",
+        "consequence": "No single defensive action receives sufficient energy or commitment to be effective, and the scattered movement actually assists the rotation by creating space and destabilizing your own base",
+        "correction": "Choose one primary defensive response based on recognition cues and commit to it fully. A committed bridge or committed knee insertion is far more effective than simultaneously attempting both at half effort."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest tactile cue that your opponent is initiating a rotation from reverse mount toward side control?",
+        "answer": "The earliest cue is an asymmetric shift in weight distribution on your torso, where pressure increases on one side and decreases on the other as the opponent begins pivoting their hips. This is often preceded by their hand moving to block your far hip, which is the standard preparatory action. Recognizing these cues early gives you the maximum defensive window before the rotation completes."
+      },
+      {
+        "question": "Why is defending during the rotation significantly more effective than escaping after side control is established?",
+        "answer": "During the rotation, the top player's base is temporarily compromised as they transition between two stable positions. Their weight distribution is in flux, their knees are repositioning, and they lack the crossface control that makes side control so difficult to escape. Side control has a roughly 70% retention rate once consolidated, whereas the mid-rotation phase offers a genuine opportunity for reversal or guard recovery because the top player cannot simultaneously maintain full control and complete a positional transition."
+      },
+      {
+        "question": "Your opponent places their hand on your far hip from reverse mount - what does this signal and how should you respond?",
+        "answer": "The hip block is the standard preparatory action before initiating rotation to side control. This signals that the rotation is imminent, giving you a critical early warning window. Begin preparing your defensive response immediately: position your near-side knee for insertion, prepare your bridge by planting your feet, and tense your core. Act during the rotation itself rather than the preparatory phase, as bridging against a stable reverse mount is ineffective."
+      },
+      {
+        "question": "What makes the knee insertion defense effective against this transition, and when exactly should you attempt it?",
+        "answer": "Knee insertion exploits the momentary gap between your hip and the opponent's body that naturally occurs during hip rotation. As the opponent's hips pivot, their control over your hip space briefly loosens. Insert your near-side knee into this gap during mid-rotation, aiming to get your knee between your hip and their rotating body. The timing window is narrow, roughly half a second, making it essential to initiate the movement at the first confirmed rotational cue rather than waiting."
+      },
+      {
+        "question": "If your defensive attempts fail and the opponent achieves side control, what should your immediate priority be?",
+        "answer": "Immediately establish defensive frames with your forearms against the opponent's shoulder and hip before they can fully settle their weight and consolidate grips. Protect your neck from crossface by turning your chin toward the opponent and creating a frame against their incoming shoulder. The first three to five seconds after side control establishment represent a secondary defensive window where the position is not yet fully consolidated, and frames created during this period are significantly more effective than those attempted after the opponent has settled their full weight."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying rotation cues with eyes closed",
+        "description": "Partner establishes reverse mount and randomly initiates rotation attempts. Defender trains with eyes closed to develop tactile recognition of weight shifts, hip movement, and preparatory hand placement. Call out when you feel the rotation beginning. Build automatic recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Isolated Counter Drilling",
+        "focus": "Practicing individual defensive responses",
+        "description": "Drill each defensive option separately against cooperative rotation attempts. Practice the bridge counter 20 times, knee insertion 20 times, and shoulder frame 20 times. Partner provides smooth consistent rotation so defender can calibrate timing for each response without unpredictability."
+      },
+      {
+        "phase": "Phase 3: Decision-Based Defense",
+        "focus": "Selecting the correct defensive response based on rotation speed and angle",
+        "description": "Partner varies their rotation approach between quick spin, underhook-first, and knee slide variations. Defender must read which variation is being used and select the appropriate counter. Build decision-making speed while maintaining defensive quality under moderate resistance."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense against conversion attempts",
+        "description": "Start from reverse mount bottom with top player attempting any positional conversion. Defender practices full resistance defense, targeting either reversal or prevention. Track success rates across multiple rounds to measure improvement and identify which conversion approaches cause the most difficulty."
       }
     ]
   }

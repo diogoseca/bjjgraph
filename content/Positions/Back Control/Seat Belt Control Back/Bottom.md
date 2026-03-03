@@ -21,32 +21,38 @@ description: "Master seat belt control escape strategies from bottom back positi
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 2% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -204,15 +210,25 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Available Escapes
 
-### [[Hand Fighting from Back]] (30% of attempts)
+### [[Hand Fighting from Back]] (45% of attempts)
 
-### [[Back Door Escape]] (18% of attempts)
+### [[Back Door Escape]] (12% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Granby Roll to Guard]] (2% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (20% of attempts)
+### [[Elbow Escape to Remove Hooks]] (19% of attempts)
 
-### [[Hip Escape to Turtle]] (20% of attempts)
+### [[Hip Escape to Turtle]] (15% of attempts)
+
+### [[Standing up in Base]] (2% of attempts)
+
+### [[Turn In and Face]] (4% of attempts)
+
+### [[Escape Seat Belt Control]] (0% of attempts)
+
+### [[Hand Fight from Seat Belt Control]] (0% of attempts)
+
+### [[Seat Belt Peel Escape]] (1% of attempts)
 
 
 

@@ -95,13 +95,15 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (73% of attempts)
+- **[[Old School Sweep]]** (74% of attempts)
 
-- **[[Deep Half Entry]]** (15% of attempts)
+- **[[Deep Half Entry]]** (14% of attempts)
 
-- **[[Hip Rotation Escape from Electric Chair]]** (8% of attempts)
+- **[[Hip Rotation Escape from Electric Chair]]** (7% of attempts)
 
-- **[[Straighten Leg Defense from Electric Chair]]** (4% of attempts)
+- **[[Straighten Leg Defense from Electric Chair]]** (3% of attempts)
+
+- **[[Sweep from Electric Chair]]** (2% of attempts)
 
 
 ### Common Mistakes

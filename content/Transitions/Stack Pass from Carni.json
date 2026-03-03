@@ -1,13 +1,395 @@
 {
   "name": "Stack Pass from Carni",
-  "description": "",
-  "tags": [],
+  "description": "Master the Stack Pass from Carni in BJJ. Aggressive pressure escape that converts Carni leg entanglement defense directly into dominant side control position.",
+  "tags": [
+    "guard-pass",
+    "pressure-pass",
+    "leg-entanglement-escape",
+    "stack-pass",
+    "carni-defense",
+    "advanced",
+    "no-gi"
+  ],
   "from_position": "Carni/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 100,
+      "probability": 35,
       "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Carni/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Top",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The Stack Pass from Carni is an aggressive pressure-based counter-escape used by the top player whose leg is trapped in the Carni leg entanglement. Unlike the more conservative posture recovery that resets to closed guard, the stack pass commits fully to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. This technique exploits a fundamental vulnerability in the Carni position: the bottom player's legs generate control through angular leverage, and heavy forward stacking pressure eliminates the space and angles required for that leverage to function.\n\nThe strategic calculus of choosing the stack pass over simpler Carni escapes involves a risk-reward tradeoff. The reward is significant: converting a dangerous defensive position directly into one of the most dominant top positions in grappling. The risk is equally significant: committing to forward pressure while your leg remains partially entangled creates a window where the bottom player can thread deeper for saddle entry if they recognize the pass attempt early. The stack pass is therefore most effective as a surprise technique, deployed when the bottom player expects a standard leg extraction or rolling escape rather than aggressive forward engagement.\n\nExecution depends on three mechanical pillars: first, protecting the heel throughout the forward drive to prevent submission during the pass; second, generating sufficient chest-to-hip pressure to collapse the bottom player's leg configuration and neutralize their entanglement structure; and third, walking around to the passing side with controlled lateral movement while maintaining constant stacking weight. The technique requires upper body strength, forward driving mechanics, and the tactical awareness to recognize when the bottom player's grip and hook positions create an exploitable window for the aggressive pass attempt.",
+  "conditions": [
+    "Top player has recovered partial posture and can generate forward driving pressure",
+    "Bottom player's heel grip is not fully locked in a finishing position",
+    "Top player can establish upper body control or underhooks before bottom player adjusts angle",
+    "Bottom player's inside leg hook is not deeply threaded toward saddle configuration"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Double Underhook Stack Pass",
+      "description": "Secure double underhooks on the bottom player's thighs before driving forward, creating a locked body connection that prevents the bottom player from adjusting angles or inverting during the stacking sequence. The underhooks also provide handles for lifting and repositioning the bottom player's hips during the walk-around phase.",
+      "when_to_use": "When both arms are free and the bottom player's grip on your heel is not yet fully established, allowing you to invest time in securing underhooks before the entanglement tightens"
+    },
+    {
+      "variant_name": "Crossface Stack Pass",
+      "description": "Lead with a strong crossface across the bottom player's jaw before initiating forward pressure, using head control to prevent the inversion that commonly counters standard stacking. The crossface creates a wedge between the bottom player's upper body and their legs, disrupting the body connection they need to maintain the entanglement.",
+      "when_to_use": "When the bottom player has a pattern of inverting under stacking pressure and you need head control to shut down their rotation before committing to the pass"
+    },
+    {
+      "variant_name": "Angle Stack to Knee Slide",
+      "description": "Rather than stacking straight over center, drive at a 45-degree angle toward the passing side while sliding the knee across the bottom player's thigh. This hybrid combines stacking pressure with knee slide passing mechanics, making it harder for the bottom player to predict the passing angle and defend both the stack and the slide simultaneously.",
+      "when_to_use": "When direct center-line stacking is being effectively defended by the bottom player's hip angle adjustments or when you want to reduce the risk of saddle entry by passing at an angle"
+    }
+  ],
+  "position_integration": "The Stack Pass from Carni occupies a unique position in the BJJ positional hierarchy as one of the few techniques that converts a dangerous defensive leg entanglement directly into a dominant top control position. It bridges the gap between the leg lock defense system and the traditional guard passing hierarchy, providing an aggressive alternative to conservative escapes like posture recovery or technical stand-ups. Within the Carni defense decision tree, the stack pass sits at the high-risk, high-reward end of the spectrum. Practitioners who develop this technique add a powerful counter-weapon to their defensive arsenal that punishes bottom players who rely too heavily on Carni without maintaining tight finishing grips. The technique also connects to the broader stacking and pressure passing methodology, making it a natural choice for top players whose game already incorporates heavy pressure passing from other guard positions.",
+  "related_content": [
+    {
+      "name": "Carni",
+      "relationship": "Starting position - the leg entanglement from which stack pass is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved when the stack pass succeeds completely"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Partial success outcome when stacking collapses the entanglement but legs are not fully cleared"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Counter risk - position bottom player may advance to during the forward pressure"
+    },
+    {
+      "name": "Posture Recovery from Carni",
+      "relationship": "Alternative technique - less aggressive escape using similar forward pressure mechanics"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative escape destination from Carni with different risk profile"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent entanglement family from which Carni derives its control structure"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Related leg entanglement - similar stacking escape principles apply from top"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Follow-up position accessible after completing the stack pass to side control"
+    }
+  ],
+  "attacker": {
+    "name": "Stack Pass from Carni Attacker",
+    "description": "Complete guide to executing the Stack Pass from Carni in BJJ. Aggressive stacking technique with step-by-step mechanics for converting leg entanglement defense into side control.",
+    "overview": "As the top player caught in Carni, the stack pass represents your most aggressive escape option with the highest positional payoff. Rather than simply neutralizing the leg attack and accepting closed guard, you commit to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. The technique demands confident forward pressure that collapses the Carni entanglement while simultaneously protecting your heel and walking around to the passing side. The critical insight is that your opponent's Carni control depends on maintaining specific angular relationships between their hips and your trapped leg. Aggressive stacking pressure disrupts these angles so completely that the entanglement structure fails, allowing you to clear the legs and consolidate side control. This escape is best deployed as a surprise counter when the bottom player expects defensive leg extraction rather than offensive forward engagement.",
+    "key_principles": [
+      "Protect the heel throughout the entire forward drive by maintaining ankle flexion and toes pointed away from the bottom player",
+      "Generate stacking pressure from hip extension and chest weight rather than arm pushing to maintain structural integrity",
+      "Commit fully to the forward drive once initiated because hesitation creates the angular changes your opponent needs for saddle entry",
+      "Walk around laterally to the passing side while maintaining constant chest pressure to prevent any space recovery",
+      "Strip the bottom player's heel grip during peak compression when their grip mechanics are weakest",
+      "Consolidate side control immediately upon clearing the legs to prevent any re-entanglement attempts"
+    ],
+    "setup_requirements": [
+      "Heel must be protected with ankle flexed and toes pointed away before initiating any forward pressure",
+      "At least partial posture recovery to generate the base needed for forward driving pressure",
+      "Bottom player's heel grip must be loosened or at least not locked in a finishing position",
+      "Free leg must be posted wide enough to provide stable driving base for the stacking motion",
+      "Bottom player's inside leg hook is not deeply threaded toward saddle configuration"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect heel and establish base",
+        "description": "Before any forward movement, confirm your trapped leg's ankle is flexed with toes pointed away from the bottom player. Post your free leg wide to create a stable base for forward drive. Use your same-side hand to control your ankle if the heel grip is threatening immediate submission."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure upper body control",
+        "description": "Establish underhooks on the bottom player's thighs or drive your shoulder into their hip crease to create a locked connection point. This upper body control prevents the bottom player from adjusting their angle as you begin driving forward and gives you a fixed reference point for the stacking motion."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate forward stacking pressure",
+        "description": "Drive your hips forward through hip extension while walking your posted foot toward the bottom player's head. Drop your chest weight onto their hips and torso, compressing them toward their own shoulders. The pressure must be steady and progressive rather than explosive to prevent angular changes the bottom player can exploit for transitions."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip heel and ankle grips",
+        "description": "As the stacking pressure compresses the bottom player and weakens their grip mechanics, systematically strip their controlling hand off your heel. Attack the weakest part of their grip during peak compression. Time this grip break with your maximum forward pressure to make it significantly more effective than fighting the grip in isolation."
+      },
+      {
+        "step_number": 5,
+        "action": "Walk around to passing side",
+        "description": "With the entanglement structure collapsing under your weight, begin stepping laterally around the bottom player's legs to the passing side. Maintain chest contact throughout the walk-around to prevent the bottom player from recovering any space or re-inserting hooks. Keep your hips low and pressure constant during this transitional phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the trapped leg",
+        "description": "Extract your formerly trapped leg from the broken entanglement using controlled pumping motions. Pull the leg backward and away from the bottom player's remaining hooks. Avoid explosive extraction that could re-expose your heel if any partial grip remains. The extraction should feel smooth as the entanglement has already been structurally compromised by the stacking pressure."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Immediately establish crossface with your forearm driving across the bottom player's jaw, drop your hips heavy against their hip, and settle your chest perpendicular to their torso. Block their far hip with your near hand to prevent knee insertion for guard recovery. This consolidation must be rapid because the bottom player will attempt to reguard the moment they feel the leg entanglement release."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player inverts under the stacking pressure and re-establishes Carni from opposite angle",
+        "effectiveness": "High",
+        "your_response": "Accelerate forward drive and pin their hips to the mat with heavy chest pressure to prevent the inversion from completing. If they begin rotating, drive your shoulder into their hip crease to block the rotation axis.",
+        "targets_outcome": "Carni/Top"
+      },
+      {
+        "counter": "Bottom player threads inside leg deeper during forward pressure to establish saddle entry hook",
+        "effectiveness": "High",
+        "your_response": "Immediately halt forward pressure and retract your hip away from their threading leg. Clear the hook with your free leg before resuming the stacking sequence. If the saddle is already established, abandon the pass and address the new position.",
+        "targets_outcome": "Saddle/Top"
+      },
+      {
+        "counter": "Bottom player attacks heel hook with maximum urgency as you drive forward to force you to stop and defend",
+        "effectiveness": "Medium",
+        "your_response": "If the heel hook is not deeply locked, accelerate through the stack rather than stopping. The stacking pressure changes the finishing angle and reduces submission efficacy. If the heel hook is deep and threatening, stop immediately and defend the submission rather than forcing the pass.",
+        "targets_outcome": "Carni/Top"
+      },
+      {
+        "counter": "Bottom player frames against your chest and shoulder to prevent forward pressure from building",
+        "effectiveness": "Medium",
+        "your_response": "Swim through their frames by driving your underhooks deeper and using lateral head pressure to collapse their arm structure. Heavy hip pressure defeats arm frames over time as the bottom player's arms fatigue faster than your hip drive.",
+        "targets_outcome": "Carni/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward without first confirming heel protection and ankle position",
+        "consequence": "Forward momentum extends the trapped leg and creates a perfect finishing angle for the heel hook, risking catastrophic knee injury during the pass attempt",
+        "correction": "Always verify ankle is flexed with toes pointed away from attacker and heel grip is at least partially broken before committing to any forward stacking pressure"
+      },
+      {
+        "error": "Using arm pushing instead of hip extension to generate forward pressure",
+        "consequence": "Arms extend into vulnerable positions where they can be trapped, and the pressure generated is easily redirected by the bottom player's leg hooks",
+        "correction": "Drive forward from the hips with chest leading, keeping arms tucked for underhooks or frames rather than extended pushing"
+      },
+      {
+        "error": "Stacking straight over center instead of angling toward the passing side",
+        "consequence": "Center-line stacking makes the walk-around longer and gives the bottom player more time to adjust angle or thread saddle hooks",
+        "correction": "Begin angling toward the passing side early in the stacking sequence to shorten the distance needed for the walk-around and reduce exposure to saddle entries"
+      },
+      {
+        "error": "Releasing stacking pressure during the grip stripping phase to use both hands",
+        "consequence": "Creates space for the bottom player to re-establish angle and re-insert hooks, resetting the entire pass attempt",
+        "correction": "Maintain chest-to-hip stacking pressure throughout grip stripping, using one hand to strip while keeping weight distributed through your chest and shoulders"
+      },
+      {
+        "error": "Rushing to extract the trapped leg before the entanglement structure is fully collapsed",
+        "consequence": "Premature extraction re-exposes the heel to attack and can torque the knee against remaining hooks causing self-injury",
+        "correction": "Only extract the leg after confirming the stacking pressure has broken the bottom player's hook configuration and their grip control has been stripped"
+      },
+      {
+        "error": "Failing to immediately consolidate side control after clearing the legs",
+        "consequence": "Bottom player reguards during the transitional moment, recovering half guard or closed guard and nullifying the entire pass",
+        "correction": "Establish crossface and hip control within one to two seconds of clearing the entanglement, treating consolidation as the final step of the pass rather than a separate action"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Forward pressure generation with heel protection",
+        "description": "Practice generating forward stacking pressure from Carni top with zero resistance. Focus on hip extension mechanics, maintaining ankle protection throughout forward drive, and smooth weight transfer from sitting back to driving forward. 40 repetitions each side with emphasis on keeping heel safe."
+      },
+      {
+        "phase": "Phase 2: Walk-Around Coordination",
+        "focus": "Lateral movement while maintaining stacking weight",
+        "description": "Partner holds static Carni position while you practice the walk-around phase. Focus on maintaining constant chest pressure while stepping laterally, coordinating foot placement with weight distribution, and transitioning smoothly from stacking to side control. 30 repetitions with focus on not losing chest contact."
+      },
+      {
+        "phase": "Phase 3: Grip Stripping Under Pressure",
+        "focus": "Timing grip breaks with peak stacking compression",
+        "description": "Partner holds moderate heel grip while you practice the full stack-and-strip sequence. Develop sensitivity for when forward drive weakens their grip mechanics enough for effective stripping. Progress from light to firm grip resistance over 25 repetitions."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition",
+        "focus": "Identifying and defeating inversion and saddle entries during the pass",
+        "description": "Partner actively attempts to invert or thread saddle hooks during your stack pass. Practice recognizing these counters early and implementing appropriate responses: accelerating through inversions or retracting from saddle threats. Develop decision-making under dynamic resistance."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Full resistance application from Carni top",
+        "description": "Positional sparring starting from Carni top with partner attacking freely. Work to select appropriate moments for the stack pass versus other escapes. Focus on committing fully when the window opens rather than half-attempting the technique. Two-minute rounds with role reversal."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What conditions must be confirmed before initiating the stack pass from Carni?",
+        "answer": "Three conditions must be verified: first, your ankle must be flexed with toes pointed away from the bottom player to prevent heel hook during forward pressure. Second, the bottom player's heel grip must not be locked in a finishing position. Third, their inside leg hook must not be deeply threaded toward saddle configuration, as forward pressure would accelerate their saddle transition. Only when all three conditions are met should you commit to the aggressive stack pass."
+      },
+      {
+        "question": "Why is the stack pass considered higher risk but higher reward than posture recovery from Carni?",
+        "answer": "Posture recovery aims to neutralize the Carni threat and reset to closed guard, which is safe but leaves you in a neutral position requiring further guard passing work. The stack pass commits to driving completely through the guard to achieve side control, which is a dominant position. The added risk comes from the sustained forward pressure while your leg remains partially entangled, creating a window where the bottom player can thread deeper for saddle entry if they recognize your intent early."
+      },
+      {
+        "question": "Your opponent begins threading their inside leg deeper as you drive forward - what is your immediate response?",
+        "answer": "Immediately halt forward pressure and retract your hip away from their threading leg to prevent the saddle hook from setting. Use your free leg to block or clear their threading hook before it crosses your hip line. Only resume the stack pass after neutralizing the saddle threat. If the saddle is already established, abandon the pass entirely and transition to saddle defense rather than forcing a pass from an increasingly dangerous position."
+      },
+      {
+        "question": "What is the optimal timing for stripping the bottom player's heel grip during the stack pass?",
+        "answer": "Strip the heel grip during peak stacking compression when the bottom player is maximally folded and their arm mechanics are weakest. As your chest drives into their torso and compresses them toward their shoulders, their forearm angle and grip leverage deteriorate significantly. Attack the weakest point of their grip, typically the gap between thumb and fingers, during these compression peaks rather than fighting the grip while they have full extension and leverage."
+      },
+      {
+        "question": "How do you prevent the bottom player from reguarding after you clear the leg entanglement?",
+        "answer": "Speed of consolidation is critical. Within one to two seconds of clearing the entanglement, establish crossface with your forearm across their jaw to prevent them from turning into you, drop your hips heavy against their hip to eliminate reguarding space, and block their far hip with your near hand to prevent knee insertion. Treat the consolidation as the final integrated step of the pass rather than a separate action that happens after the pass is complete."
+      },
+      {
+        "question": "Your opponent inverts under your stacking pressure to re-establish Carni from the opposite angle - how do you counter this?",
+        "answer": "Accelerate your forward drive and pin their hips to the mat with heavy chest-to-hip pressure to prevent the inversion from completing. The inversion requires space and rotational freedom, both of which are eliminated by maximum forward stacking weight. If you recognize the inversion attempt early, driving your shoulder into their hip crease blocks the rotation axis entirely. The key is increasing pressure immediately rather than pausing, which gives them the space to complete the rotation."
+      },
+      {
+        "question": "When should you abandon the stack pass and choose a different escape from Carni?",
+        "answer": "Abandon the stack pass if the bottom player's heel grip tightens during your forward pressure rather than loosening, if they successfully establish a saddle hook during your forward drive, or if their inversion counter successfully resets the Carni from a fresh angle. In these scenarios, continuing the stack pass compounds the danger. Default to posture recovery for closed guard, or technical stand-up to disengage entirely. The worst outcome is persisting with a failing stack pass and ending up in saddle with your leg deeply entangled."
+      }
+    ],
+    "safety_considerations": "The Stack Pass from Carni involves driving forward into a leg entanglement where the bottom player may have active heel hook grip. Never attempt this technique if the heel hook is already deeply engaged, as forward momentum can accelerate knee ligament damage beyond the point of safe tapping. Always confirm ankle protection before initiating the pass. If you feel any rotational pressure on your knee during the forward drive, stop immediately and address the submission threat before continuing. This technique carries higher injury risk than conservative Carni escapes and should only be attempted after extensive drilling with cooperative partners. Communicate clearly with training partners about heel hook threat levels during positional drilling."
+  },
+  "defender": {
+    "name": "Stack Pass from Carni Defender",
+    "description": "Complete guide to defending against the Stack Pass from Carni bottom. Maintain leg entanglement control, counter stacking pressure, and advance to saddle or retain position.",
+    "overview": "As the bottom player in Carni defending against your opponent's stack pass attempt, your primary objective is to prevent the forward pressure from collapsing your leg entanglement structure. The stack pass represents one of the most aggressive escape attempts your opponent can deploy from Carni top, and recognizing it early is critical because the technique builds momentum that becomes increasingly difficult to counter once established. The key defensive insight is that the opponent's forward driving pressure, while threatening to your Carni control, also creates exploitable opportunities. Their commitment to forward motion opens space between their knees for saddle entry hooks, and their weight shift forward compromises their base for potential re-entanglement from inverted angles. Effective defense therefore combines active position retention with opportunistic advancement to superior positions when the opponent's pass attempt creates openings.",
+    "key_principles": [
+      "Recognize stacking pressure early through chest contact and hip weight changes before momentum builds",
+      "Maintain active heel and ankle grip throughout the opponent's pass attempt to preserve immediate submission threat",
+      "Use opponent's forward momentum to create saddle entry angles rather than fighting the pressure head-on",
+      "Keep inside leg hook actively threatening to prevent clean forward drive from developing",
+      "Invert or angle off-center when stacking pressure becomes direct to avoid being compressed through center line",
+      "Default to closing guard as minimum acceptable outcome if entanglement cannot be maintained"
+    ],
+    "recognition_cues": [
+      "Opponent's shoulder drives forward into your hips rather than sitting back or attempting leg extraction",
+      "Opponent's free foot posts wider and steps toward your head indicating setup for forward walking pressure",
+      "Opponent begins actively stripping your heel grip with increased urgency while driving chest weight forward",
+      "Opponent establishes underhooks on your thighs or shoulder pressure into your hip crease",
+      "Forward weight shift as opponent transitions from defensive posture to aggressive forward engagement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Thread inside leg deeper for saddle entry as opponent drives forward and opens space between knees",
+        "when_to_use": "When opponent commits to forward stacking pressure and their forward momentum creates space for your inside hook to thread deeper past their hip line",
+        "targets_outcome": "Saddle/Top",
+        "if_successful": "Advance to saddle position with deeper control and immediate heel hook finishing threat from mechanically superior angle",
+        "risk": "If the hook fails to set before the stack compresses you, opponent may complete the pass with your leg partially extended"
+      },
+      {
+        "action": "Invert under stacking pressure and re-establish Carni from opposite angle",
+        "when_to_use": "When stacking pressure is moderate and sufficient space exists to rotate underneath before full compression builds",
+        "targets_outcome": "Carni/Top",
+        "if_successful": "Reset Carni control from fresh angle with maintained leg entanglement, forcing opponent to restart their escape",
+        "risk": "Failed inversion under heavy pressure results in being folded and passed directly with no guard recovery"
+      },
+      {
+        "action": "Tighten heel grip and apply immediate finishing pressure to force opponent to abandon the stack",
+        "when_to_use": "When your heel grip is deep and secure at the moment the opponent initiates forward pressure, before the stacking angle changes your finishing mechanics",
+        "targets_outcome": "Carni/Top",
+        "if_successful": "Opponent abandons stack pass attempt and returns to defensive Carni position to address submission threat",
+        "risk": "Aggressive heel hook during dynamic forward movement increases injury risk for both practitioners"
+      },
+      {
+        "action": "Frame against opponent's shoulders to stall forward pressure and create space for hip adjustment",
+        "when_to_use": "When you need time to decide between saddle entry, inversion, or heel hook attack and the forward pressure is building quickly",
+        "targets_outcome": "Carni/Top",
+        "if_successful": "Stall the pass momentarily allowing you to select and execute your preferred counter-technique",
+        "risk": "Extended framing fatigues arms and delays your offensive response, giving opponent time to build more pressure"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Top",
+        "how": "Use the opponent's forward driving pressure to thread your inside leg deeper through the space created between their knees. Their forward momentum carries your hook past the retraction point, establishing saddle with deeper control than you had from Carni."
+      },
+      {
+        "outcome": "Carni/Top",
+        "how": "Invert underneath the stacking pressure before it builds full momentum, using the rotation to re-establish Carni control from a fresh angle while maintaining the critical inside leg hook and heel grip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting stacking pressure with arm frames instead of using leg hooks and hip mechanics",
+        "consequence": "Arms fatigue rapidly while the fundamental forward pressure is not addressed, resulting in eventual position collapse and guard pass",
+        "correction": "Use leg hooks and hip movement to redirect the stacking pressure rather than pushing against it with arms. Thread hooks deeper or invert to use their momentum to your advantage."
+      },
+      {
+        "error": "Releasing heel grip to push against opponent's chest during the stack",
+        "consequence": "Abandoning heel grip removes all submission threat and allows opponent to focus entirely on completing the pass without defensive concerns",
+        "correction": "Maintain heel and ankle control throughout the defensive sequence. The heel hook threat is your primary tool for stalling or reversing the pass attempt."
+      },
+      {
+        "error": "Remaining flat on back without adjusting hip angle as opponent drives forward",
+        "consequence": "Allows opponent to build maximum stacking pressure directly through your center line, collapsing the entanglement from the most mechanically advantageous angle",
+        "correction": "Stay active with hip movement, angling off to one side or beginning inversion early to prevent the clean center-line forward drive from building full compression."
+      },
+      {
+        "error": "Over-committing to saddle transition when the stacking pressure is already too deep",
+        "consequence": "Failed saddle entry under heavy compression results in being folded and passed with extended leg exposed and no guard retention",
+        "correction": "Recognize when the window for saddle transition has closed and default to closing guard around the opponent's waist as the minimum acceptable defensive outcome."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting a stack pass rather than a standard leg extraction from Carni?",
+        "answer": "The earliest cue is the opponent's shoulder driving forward into your hips combined with their free foot posting wider toward your head, indicating they are establishing a base for forward walking pressure rather than sitting back to extract their leg. Standard extraction involves backward movement and grip fighting; the stack pass involves forward commitment with chest weight. Recognizing this directional difference gives you a critical two-to-three second window to implement your counter."
+      },
+      {
+        "question": "How do you use the opponent's forward stacking pressure to advance to saddle position?",
+        "answer": "As the opponent drives forward with stacking pressure, their forward momentum creates space between their knees as their hips advance past your guard structure. Thread your inside leg deeper through this opening, using their own forward momentum to carry your hook past the retraction point. The timing window is narrow: you must thread the hook after they commit to the forward drive but before their chest weight compresses you flat, eliminating your hip mobility."
+      },
+      {
+        "question": "When should you abandon Carni retention and close your guard instead?",
+        "answer": "Close your guard when the opponent has achieved deep stacking compression with their chest heavy on your torso and your inside leg hook has been cleared or bypassed. At this point, attempting to maintain Carni or force a saddle transition carries high risk of being passed completely. Closing guard retains the opponent within your control system with sweep and submission options available, which is far preferable to being passed to side control where you must work a full positional escape."
+      },
+      {
+        "question": "What is the risk of attempting an aggressive heel hook finish as the opponent drives forward with stack pass pressure?",
+        "answer": "Attempting aggressive heel hook during dynamic forward stacking pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force creates sudden, potentially uncontrollable torque on the knee joint. The safer approach is to use the heel hook threat to stall forward pressure and create transition windows for saddle entry or inversion rather than attempting to finish during active forward movement. Reserve aggressive finishing pressure for static control positions."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying stack pass attempts versus other escapes",
+        "description": "Partner alternates between stack pass, leg extraction, and rolling escape from Carni top at slow speed. Practice identifying which escape is being attempted based on pressure direction and body mechanics. Call out the recognition before the escape develops. 20 repetitions building pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Saddle Threading",
+        "focus": "Timing saddle entry hooks against forward pressure",
+        "description": "Partner drives forward at moderate pace with stack pass while you practice threading inside leg for saddle entry. Focus on timing the thread with the opponent's commitment point when space opens between their knees. Start with light resistance and progress to moderate stacking pressure. 25 repetitions each side."
+      },
+      {
+        "phase": "Phase 3: Inversion Counter",
+        "focus": "Inverting under stacking pressure to re-establish Carni",
+        "description": "Partner applies controlled stacking pressure while you practice inverting underneath to re-establish Carni from the opposite angle. Focus on maintaining heel grip and inside hook throughout the rotation. Progress from cooperative rotation to resisted inversion."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance stack pass defense from Carni bottom",
+        "description": "Positional sparring from Carni bottom with partner actively working stack pass and other escapes. Defend and counter while maintaining offensive threat and heel control. Two-minute rounds ending on successful escape, submission, or positional advancement."
+      }
+    ]
+  }
 }

@@ -80,51 +80,47 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Double Under Pass",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Butterfly Pass",
         "attempt_probability": 11
       },
       {
-        "transition": "Long Step Pass",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Over-Under Pass",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Toreando Pass",
+        "transition": "Double Under Pass",
         "attempt_probability": 2
       },
       {
-        "transition": "Butterfly Smash",
-        "attempt_probability": 36
-      },
-      {
-        "transition": "Body Lock Pass",
+        "transition": "Butterfly Pass",
         "attempt_probability": 10
       },
       {
-        "transition": "Transition to Butterfly Half Guard",
+        "transition": "Long Step Pass",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Over-Under Pass",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Toreando Pass",
         "attempt_probability": 1
       },
       {
+        "transition": "Butterfly Smash",
+        "attempt_probability": 47
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Butterfly Guard to Butterfly Half Guard",
@@ -314,7 +310,7 @@
       "average_time": "30-60 seconds to successfully pass or be swept"
     },
     "name": "Butterfly Guard Top",
-    "description": "Navigate Butterfly Guard Top in BJJ. Strategic passing against dynamic sweeps requires balanced base and grip control. Beginner 35%, Intermediate 50%.",
+    "description": "Navigate Butterfly Guard Top in BJJ. Passing strategies against hooks, sweeps, and dynamic guard retention. Beginner 35%, Intermediate 50%, Advanced 65%.",
     "tags": [
       "bjj guard passing techniques",
       "butterfly guard defense strategies",
@@ -357,7 +353,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 41
+        "attempt_probability": 42
       },
       {
         "transition": "Elevator Sweep",
@@ -384,8 +380,8 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Transition to Butterfly Hook Control",
-        "attempt_probability": 1
+        "transition": "Butterfly Guard to Butterfly Hook Control",
+        "attempt_probability": 2
       },
       {
         "transition": "Deep Half Entry",
@@ -405,15 +401,11 @@
       },
       {
         "transition": "Omoplata",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": 2
-      },
-      {
-        "transition": "Butterfly Guard to Butterfly Hook Control",
-        "attempt_probability": 1
       }
     ],
     "decision_tree": [

@@ -1,42 +1,417 @@
 {
   "name": "Sweep from Matrix",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "sweep", "matrix", "back-take"],
+  "description": "Master the Sweep from Matrix in BJJ. Complete guide to rotational sweep mechanics, timing windows, and back take completion from the bottom Matrix position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "matrix",
+    "back-take",
+    "rotational",
+    "inversion",
+    "bottom-game",
+    "advanced"
+  ],
   "from_position": "Matrix/Bottom",
   "outcomes": [
-    {"to": "Back Control/Top", "probability": 45, "result": "success"},
-    {"to": "Matrix/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Back Control/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Matrix/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Matrix is a dynamic reversal technique that exploits the rotational mechanics inherent in the Matrix bottom position to displace the top player's base and achieve back control. Unlike the standard Matrix back take which relies on continuous rolling motion to circle behind the opponent, the sweep variant uses leveraged off-balancing combined with hip elevation to break the opponent's base structure and follow through to a dominant position. The sweep requires the bottom player to generate directional force through their grip connections while elevating their hips as a fulcrum, creating a rotational displacement that crosses the opponent's center of gravity beyond their support boundary.\n\nThe technique is most effective when the top player maintains a narrow or static base while controlling the Matrix position. The bottom player generates sweeping force through explosive hip elevation combined with directional grip pulling, creating a rotational displacement that overwhelms the opponent's structural resistance. The sweep demands precise timing—initiating during moments of opponent stillness or weight transition—and full commitment to the rotational motion without hesitation. Partial attempts leave the sweeper in compromised inverted positions with back exposed.\n\nStrategically, the Sweep from Matrix creates a powerful dual-threat system when combined with the Matrix back take. The top player must defend both the rolling back take and the leverage-based sweep simultaneously, as defending one often creates vulnerability to the other. When the opponent widens base to prevent the back take, they become susceptible to the sweep, and when they narrow base to resist the sweep, the rolling back take becomes available. This complementary attack pairing makes the Matrix bottom position far more dangerous than either technique alone, forcing the top player into defensive dilemmas where no single base adjustment neutralizes all threats.",
+  "conditions": [
+    "Bottom player has established Matrix position with at least one strong grip connection to opponent's torso or hips",
+    "Opponent's base is narrow or weight is committed directionally, creating vulnerability to off-balancing force",
+    "Sufficient space exists for the sweeping rotation without physical barriers",
+    "Bottom player's hips are free to elevate and generate the fulcrum point required for sweeping leverage"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Rolling Sweep Variant",
+      "description": "Uses a full inversion to generate maximum sweeping momentum, rolling completely underneath the opponent to create overwhelming rotational force that displaces even well-based opponents. The roll provides continuous momentum that is difficult to resist once initiated.",
+      "when_to_use": "When opponent has a moderately wide base that resists standard sweep mechanics but is vulnerable to sustained rotational force from below"
+    },
+    {
+      "variant_name": "Leg Hook Sweep Variant",
+      "description": "Emphasizes hooking the opponent's near leg with your bottom leg during the sweep to remove their primary posting support. The hook eliminates the opponent's ability to base out, significantly reducing the force needed to complete the sweep.",
+      "when_to_use": "When opponent posts their near leg forward providing a target for the hook, or when they are actively resisting by driving weight into their near knee"
+    },
+    {
+      "variant_name": "Underhook Sweep Variant",
+      "description": "Combines a deep underhook on the opponent's far arm with the Matrix rotational mechanics. The underhook controls the opponent's upper body during the sweep, preventing them from posting with their arm and ensuring they rotate with you into back control.",
+      "when_to_use": "When opponent's far arm is accessible and they are focused on defending the belt grip, leaving their arm available for underhook establishment"
+    }
+  ],
+  "position_integration": "The Sweep from Matrix integrates into the broader back-take and bottom game system as a high-reward offensive option from an inverted or rotational position. It connects the Matrix bottom with back control, creating a direct path from a disadvantaged state to one of the most dominant positions in BJJ. The sweep complements the Matrix back take by providing an alternative finishing mechanic—while the back take uses continuous rolling, the sweep uses leverage-based reversal. This dual-threat system forces the top player to defend both options simultaneously, creating dilemmas where defending one opens vulnerability to the other. The technique also chains naturally with guard recovery when it fails, as the rotational momentum can redirect into closed guard or half guard pulls, ensuring the bottom player always has a safe path from failed attempts.",
+  "related_content": [
+    {
+      "name": "Matrix",
+      "relationship": "Source position from which this sweep is executed, providing the rotational mechanics and body positioning"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position achieved through successful sweep completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent achieves if sweep attempt is countered with forward drive"
+    },
+    {
+      "name": "Counter Roll from Matrix",
+      "relationship": "Alternative transition using similar rotational mechanics from the same starting position"
+    },
+    {
+      "name": "Matrix to Back Control",
+      "relationship": "Direct back take transition sharing the same starting position and target destination"
+    },
+    {
+      "name": "Escape Matrix Position",
+      "relationship": "Defensive transition from same position used as fallback when sweep is not available"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative back-attacking position with overlapping timing windows and similar mechanics"
+    },
+    {
+      "name": "Deep Half Sweep",
+      "relationship": "Related sweep technique sharing rotational and inversion-based off-balancing mechanics"
+    },
+    {
+      "name": "Back Take from Bottom",
+      "relationship": "Alternative back take approach from bottom positions that complements this sweep"
+    },
+    {
+      "name": "Butterfly Hook Sweep",
+      "relationship": "Fundamental sweep sharing similar hip elevation and off-balancing principles"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common entry position to Matrix where many sweep setups originate"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Matrix Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Matrix/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Execute the Sweep from Matrix in BJJ. Technical guide to hip elevation mechanics, grip connections, sweeping force direction, and back control establishment from the bottom Matrix position.",
+    "overview": "From the attacker perspective, the Sweep from Matrix transforms the bottom position's rotational dynamics into a powerful reversal tool. The sweep leverages explosive hip elevation, directional grip pulling, and committed rotational motion to break the top player's base and follow through to back control. Success requires reading the opponent's weight distribution, establishing strong grip connections on their belt or hips, and committing fully to the sweeping motion without hesitation. The technique is most effective as part of a broader Matrix attack chain where sweep threats complement back take attempts, forcing the top player into defensive dilemmas that no single base adjustment can resolve. Developing proficiency requires months of drilling the hip elevation mechanics and timing recognition, but once integrated, the sweep dramatically increases the offensive output from Matrix bottom.",
+    "key_principles": [
+      "Explosive hip elevation above shoulder level creates the fulcrum point from which all sweeping leverage originates",
+      "Grip connection to opponent's belt or hips must persist throughout the sweep to ensure your rotation displaces their body",
+      "Read opponent's weight distribution before committing—sweep in the direction of their existing weight commitment for maximum effect",
+      "Full commitment to the sweeping motion is essential; hesitation mid-sweep creates maximum vulnerability with no defensive structure",
+      "The sweep pairs with the Matrix back take as a dual threat, where defending one opens vulnerability to the other",
+      "Follow through to back control must include immediate hook insertion during the sweep motion, not after completion",
+      "Failed sweeps must redirect into guard recovery through continuous motion rather than stalling in exposed positions"
+    ],
+    "setup_requirements": [
+      "Established Matrix bottom position with shoulder posted firmly on the mat for rotational stability",
+      "At least one strong grip on opponent's belt, hip, or pants creating the connection needed to load their weight",
+      "Opponent maintaining a narrow or static base that is vulnerable to directional displacement force",
+      "Hips free to elevate explosively without obstruction from opponent's leg positioning or weight",
+      "Timing window present where opponent has settled their weight or is transitioning between movements"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish grip connections from Matrix position",
+        "description": "Secure at least one strong grip on the opponent's belt, hip, or pants leg while maintaining your shoulder post firmly on the mat. Your primary grip creates the pulling connection that will load their weight onto your sweeping structure. Verify grip strength before committing to the sweep—a weak grip will slip during the explosive motion."
+      },
+      {
+        "step_number": 2,
+        "action": "Read opponent's base and weight distribution",
+        "description": "Assess which direction your opponent's weight is loaded by feeling pressure through your grips and contact points. Identify whether they are leaning forward, back, or laterally. The sweep works best when you direct the off-balancing force in the direction of their existing weight commitment, requiring less force to cross their center of gravity beyond the support boundary."
+      },
+      {
+        "step_number": 3,
+        "action": "Elevate hips to create sweeping fulcrum",
+        "description": "Drive your hips upward explosively using simultaneous leg extension and core contraction while keeping your shoulder posted firmly on the mat. Your hips must rise clearly above shoulder level to generate sufficient mechanical advantage for the sweep. This elevation creates the lever from which your sweeping legs generate rotational force against the opponent's base."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute sweeping rotation against opponent's base",
+        "description": "Initiate the sweeping motion by rotating your legs and hips into the opponent's weakened base direction while pulling strongly with your grips. The pulling action loads their weight onto your sweeping leg structure while the rotation displaces their center of gravity. The motion combines upward elevation with lateral displacement to break their balance point beyond recovery."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive through with continuous momentum",
+        "description": "Maintain constant rotational force through the sweep without pausing or hesitating mid-motion. Use your grips to pull the opponent past the tipping point while your legs continue the sweeping arc underneath or around their body. Any pause in momentum allows the opponent to recover their base and stuff the sweep attempt, leaving you exposed."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to back control position",
+        "description": "As the opponent's base collapses under the sweeping force, follow the rotational momentum to position your chest against their back. Your sweeping motion should naturally bring your torso behind them as they are displaced. Begin threading your first hook inside their thigh during this transition phase rather than waiting until you have fully settled behind them."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure hooks and establish upper body control",
+        "description": "Insert both hooks inside the opponent's thighs as you complete the sweep and immediately establish seatbelt or harness grip for upper body control. Apply chest-to-back pressure to prevent the opponent from turning to face you or creating defensive frames. Prioritize hook depth and harness tightness before considering any submission attacks from the newly established back control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent widens base and drops hips to increase support polygon against sweeping force",
+        "effectiveness": "High",
+        "your_response": "Switch to Matrix back take or arm drag, as their wide base creates openings for rotational attacks that exploit the lateral space they created",
+        "targets_outcome": "Matrix/Bottom"
+      },
+      {
+        "counter": "Opponent drives weight forward and sprawls to flatten your hip elevation",
+        "effectiveness": "High",
+        "your_response": "Use their forward momentum to redirect into guard recovery through granby roll, converting their aggressive defense into your guard establishment",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent strips grips on belt and hips to break sweeping connection before momentum develops",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-establish grips and threaten with alternative attacks such as arm drags or back take entries to prevent disengagement",
+        "targets_outcome": "Matrix/Bottom"
+      },
+      {
+        "counter": "Opponent counter-rotates in opposite direction to neutralize sweeping momentum",
+        "effectiveness": "Medium",
+        "your_response": "If their counter-rotation is early, reverse your sweep direction to attack the angle they vacated; if late, accelerate through their resistance as mistimed counter-rotation may assist your sweep completion",
+        "targets_outcome": "Matrix/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Insufficient hip elevation before initiating the sweeping rotation",
+        "consequence": "Weak sweeping force that the opponent defends simply by maintaining their base width, wasting energy on a low-percentage attempt and potentially exposing your back",
+        "correction": "Drive hips explosively upward until they are clearly above shoulder level before beginning any lateral sweeping motion, using simultaneous leg extension and core contraction"
+      },
+      {
+        "error": "Releasing grip connection during the sweeping rotation",
+        "consequence": "Sweeping in isolation without moving the opponent's body means arriving behind them without actual positional displacement, allowing easy recovery or counter",
+        "correction": "Maintain your primary pulling grip on belt or hip throughout the entire sweep, treating this connection as non-negotiable regardless of what else changes during the motion"
+      },
+      {
+        "error": "Sweeping against the opponent's strongest base angle rather than their weight commitment direction",
+        "consequence": "Maximum resistance encountered where opponent has the most structural support, requiring far more force than available and likely resulting in a stalled sweep",
+        "correction": "Read weight distribution through grip pressure before committing, then direct sweeping force perpendicular to the opponent's spine in the direction of their existing weight commitment"
+      },
+      {
+        "error": "Hesitating or slowing mid-sweep when feeling resistance",
+        "consequence": "Pausing in a partially rotated position with back exposed and no defensive structure creates maximum vulnerability while achieving nothing offensively",
+        "correction": "Commit fully to completing the sweep in one continuous explosive motion; if the sweep will fail, redirect momentum into guard recovery rather than freezing mid-rotation"
+      },
+      {
+        "error": "Waiting until after the sweep to insert hooks rather than threading them during rotation",
+        "consequence": "Opponent has time to turn into you, establish defensive frames, or scramble away before you establish back control, negating the positional gain from the sweep",
+        "correction": "Begin threading the first hook as soon as your body passes behind the opponent during the sweep, inserting it as part of the continuous rotational motion"
+      },
+      {
+        "error": "Attempting the sweep against an actively mobile opponent adjusting their base",
+        "consequence": "Moving opponents dynamically adjust to sweeping force in real-time, making the technique fail and wasting significant energy on a low-probability attempt",
+        "correction": "Wait for moments of opponent stillness, weight transfer, or grip commitment before initiating the sweep, using their momentary stability as the entry window"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip elevation and rotational movement patterns",
+        "description": "Practice the sweeping motion without a partner, focusing on explosive hip elevation from shoulder post position, rotational mechanics, and smooth continuous motion. Develop muscle memory for the movement pattern with 15-20 repetitions each direction per session."
+      },
+      {
+        "phase": "Phase 2: Partnered Technique",
+        "focus": "Controlled sweep execution with compliant partner",
+        "description": "Execute the sweep against a static partner with no resistance. Focus on proper grip placement on belt and hips, timing of hip elevation relative to grip pull, and follow-through to back control with hook insertion. Perform 20 repetitions each side."
+      },
+      {
+        "phase": "Phase 3: Timing and Reading",
+        "focus": "Recognizing sweep windows against dynamic partner",
+        "description": "Partner alternates between static base and weight transitions while you identify optimal timing windows. Execute sweep entries only during favorable moments when weight is committed or base is settled. Develop sensitivity to opponent weight shifts through grip feedback."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Sweep execution against increasing defensive intensity",
+        "description": "Partner provides increasing resistance from 25% to 100% while you execute the sweep. Develop ability to generate sufficient sweeping force against active defense. Learn to recognize when resistance is too strong and redirect to alternative attacks."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Incorporating sweep into rolling from Matrix position",
+        "description": "Integrate the sweep into live rolling from Matrix bottom. Chain with back take attempts and guard recovery options based on opponent reactions. Focus on decision-making between sweep, back take, and guard pull based on real-time feedback from opponent's defensive responses."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Sweep from Matrix?",
+        "answer": "The optimal timing window occurs when the opponent settles into a static top position or during their weight transition between movements. Watch for moments when they stop adjusting their base, commit weight to one direction, or reach for grips. Their momentary stability or directional commitment creates the leverage window needed. Attempting the sweep while they are actively adjusting base makes the technique significantly harder as they can shift weight in real-time to counter the sweeping force."
+      },
+      {
+        "question": "What grip connections must be established before committing to the sweep?",
+        "answer": "You need at least one strong grip on the opponent's belt, hip, or pants leg to create the pulling connection that loads their weight onto your sweeping structure. Without this grip, your rotational force acts in isolation and fails to displace their center of gravity. Ideally, establish a secondary connection with your other hand on their far lapel or sleeve to control their upper body rotation during the sweep, preventing them from posting to recover base."
+      },
+      {
+        "question": "What is the most critical hip movement during the sweep execution?",
+        "answer": "The explosive hip elevation above shoulder level is the most critical movement. Your hips must rise high enough to create mechanical advantage over the opponent's base, providing the fulcrum platform from which the sweeping rotation generates force. Insufficient hip height produces a weak sweep that the opponent defends simply by maintaining base width. Think of it as creating a lever point that your sweeping legs rotate around to displace the opponent's center of gravity."
+      },
+      {
+        "question": "Your opponent posts their hand wide to resist the sweep—how do you adjust?",
+        "answer": "Redirect the sweep to attack the opposite side of their posted hand. Their wide post creates a strong anchor on one side but leaves the other side vulnerable and unsupported. Switch the direction of your sweeping force to exploit the undefended angle. Alternatively, attack the posted arm itself—an extended arm during sweep defense creates armbar or kimura opportunities that force them to retract the post, reopening the original sweep direction as a secondary attack."
+      },
+      {
+        "question": "What happens if you hesitate mid-sweep and how should you recover?",
+        "answer": "Hesitation mid-sweep leaves you in a compromised partially rotated position where your back is exposed and your defensive structure is absent. To recover, immediately redirect remaining momentum into a guard recovery motion rather than trying to complete the stalled sweep. Pull into closed guard or half guard using the rotational energy still available. Never remain frozen mid-rotation—always maintain continuous motion toward either sweep completion or a safe recovery position."
+      },
+      {
+        "question": "In which direction should the primary sweeping force be applied?",
+        "answer": "Apply the sweeping force perpendicular to the opponent's spine in the direction of their existing weight commitment. If they are loaded forward, sweep them over their head. If loaded laterally, sweep in that lateral direction. The force must cross their center of gravity beyond their support boundary to break their balance. Sweeping directly against their strongest base angle wastes energy and has low success probability. Reading their weight distribution before committing determines the sweep's success."
+      },
+      {
+        "question": "Your opponent begins counter-rotating as you initiate the sweep—what is your best response?",
+        "answer": "If they counter-rotate early enough to neutralize your momentum, abort the sweep and convert the contact to an alternative attack such as an arm drag if their counter-rotation extends an arm. If they counter-rotate late and your momentum is already established, accelerate through their resistance—their mistimed counter-rotation may actually help complete the sweep by adding angular momentum. The key is reading whether their counter has sufficient force and timing to stop your motion or whether you can power through it."
+      },
+      {
+        "question": "How do you chain attacks when the initial sweep is defended?",
+        "answer": "Immediately threaten with the Matrix back take as your primary follow-up, since the sweep attempt creates the same positional dynamics needed for the rolling back take. If they defend by widening base, attack with an arm drag using the grips you already have. If they drive forward to stuff the sweep, use their momentum for a guard recovery through granby roll. The sweep should never be a standalone technique—it exists within a chain where each attempt creates openings for the next attack in the sequence."
+      },
+      {
+        "question": "What are the key differences between the Sweep from Matrix and the standard Matrix back take?",
+        "answer": "The standard Matrix back take uses continuous rolling motion to circle behind the opponent, relying on sustained rotational momentum through a complete inversion. The sweep variant uses leveraged off-balancing with hip elevation as a fulcrum point to break the opponent's base structure before following through to back control. The sweep requires less rotational range of motion but demands more explosive hip elevation and stronger grip connections. Tactically, defending the back take requires matching the rotation, while defending the sweep requires base widening—these conflicting defenses create the dual-threat dilemma."
+      },
+      {
+        "question": "What physical attributes are most important for successful execution of this sweep?",
+        "answer": "Core strength and hip mobility are the primary physical requirements. Explosive hip elevation demands strong glutes, hip flexors, and abdominal engagement working in coordination. Rotational power through the obliques drives the sweeping motion that displaces the opponent. Hip flexibility allows the range of motion needed for the fulcrum creation. Grip endurance maintains the pulling connections throughout the sweep, and cardiovascular conditioning supports repeated attempts. However, proper timing and technique ultimately matter more than raw physical attributes."
+      }
+    ],
+    "safety_considerations": "The Sweep from Matrix involves rotational movement and inversion that can strain the neck and shoulders if performed incorrectly. Always warm up thoroughly with neck circles, shoulder mobility, and hip openers before drilling. Control the speed of rotation during training to prevent partner collisions or awkward landings. If neck compression occurs during the rolling component, tap immediately and reset. Partners should allow the sweep to complete during drilling rather than resisting explosively mid-motion, which can cause joint injuries or neck compression. Beginners should master the solo hip elevation mechanics before attempting the sweep with a partner. Avoid the technique if you have existing neck or cervical spine issues."
   },
   "defender": {
     "name": "Sweep from Matrix Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Matrix/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Matrix/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend and counter the Sweep from Matrix in BJJ. Learn recognition cues, base adjustment techniques, grip fighting priorities, and counter-offensive strategies for the top Matrix position.",
+    "overview": "From the defender perspective, recognizing and countering the Sweep from Matrix is essential for maintaining top position against Matrix-proficient opponents. The sweep begins with the bottom player elevating hips and pulling on your belt or hips, attempting to break your base and rotate you into a disadvantaged position where they establish back control. Defending requires immediate base widening, weight shifting against the sweep direction, and active grip fighting to break the connections that load your weight onto the opponent's sweeping structure. Understanding the sweep mechanics allows you to not only maintain top control but also exploit failed sweep attempts as opportunities for passing or submission attacks, converting their offensive effort into your positional advantage.",
+    "key_principles": [
+      "Recognize early sweep indicators including hip elevation, grip tightening, and shoulder posting changes before the sweep develops momentum",
+      "Wide base with knees spread beyond shoulder width provides maximum resistance to directional sweeping forces",
+      "Dynamic weight shifting in response to sweeping force direction prevents the opponent from crossing your center of gravity past the support boundary",
+      "Active grip fighting to strip belt and hip connections eliminates the mechanical link that loads your weight onto their sweeping structure",
+      "Offensive pressure through passing attempts and submission threats reduces opportunities for sweep setup",
+      "Convert successful sweep defense into immediate offensive transitions while opponent is structurally compromised"
+    ],
+    "recognition_cues": [
+      "Bottom player tightens grip on your belt or hip with increased pulling tension, indicating they are preparing to load your weight onto their sweeping structure",
+      "Hip elevation from the bottom player where their hips rise above their shoulders, creating the fulcrum point necessary for the sweep's leverage mechanics",
+      "Shoulder posting changes where the bottom player plants one shoulder more firmly into the mat, establishing the pivot point for their rotational sweep",
+      "Bottom player's legs reposition to create sweeping leverage, with feet adjusting to hook or drive against your base structure",
+      "Directional pull through grips that differs from the circular motion of a standard Matrix back take, indicating a leverage-based sweep rather than a rolling entry"
+    ],
+    "defensive_options": [
+      {
+        "action": "Widen base and drop hips to maximize support polygon against sweeping force",
+        "when_to_use": "When you feel the bottom player beginning to elevate hips and tighten grips, before the sweep develops meaningful momentum",
+        "targets_outcome": "Matrix/Bottom",
+        "if_successful": "Sweep is neutralized due to insufficient leverage against your widened base, bottom player remains stuck in Matrix with wasted energy and potentially broken grips",
+        "risk": "Excessively wide base may create openings for Matrix back take if legs spread too far laterally, exposing rotational vulnerability"
+      },
+      {
+        "action": "Strip grips on belt and hips to break the sweeping connection before force develops",
+        "when_to_use": "Early in the sweep setup when you detect grip tightening on your belt, pants, or hips indicating sweep preparation phase",
+        "targets_outcome": "Matrix/Bottom",
+        "if_successful": "Without grip connection, the sweep becomes isolated rotation that fails to displace your body, leaving the bottom player rotating without effect",
+        "risk": "Using both hands for grip fighting temporarily compromises your own base and top control, creating a brief window for other attacks"
+      },
+      {
+        "action": "Drive weight forward and sprawl to flatten opponent's hip elevation",
+        "when_to_use": "When the bottom player has already begun hip elevation and the sweep is developing momentum that base adjustment alone cannot neutralize",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Flattening their hips removes the fulcrum point required for sweep mechanics, allowing you to consolidate pressure and advance toward side control",
+        "risk": "Overcommitting forward drive may be redirected by the bottom player into a granby roll or guard recovery using your own momentum against you"
+      },
+      {
+        "action": "Counter-rotate in opposite direction to neutralize sweeping angular momentum",
+        "when_to_use": "When the sweep has begun but you still maintain sufficient base to generate counter-rotational force without losing structural integrity",
+        "targets_outcome": "Matrix/Bottom",
+        "if_successful": "Your counter-rotation neutralizes their sweeping momentum, leaving them stuck in Matrix bottom with compromised grips and exhausted energy",
+        "risk": "Mistiming the counter-rotation can accelerate the sweep by adding angular momentum in the wrong direction, completing the sweep faster"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the sweep attempt fails due to your forward driving pressure, follow through aggressively to consolidate side control. Use the opponent's compromised structure and wasted energy from the failed sweep to establish crossface and hip control, converting their offensive attempt into your dominant position."
+      },
+      {
+        "outcome": "Matrix/Bottom",
+        "how": "Neutralize the sweep by widening base, stripping grips, or counter-rotating before the sweep develops sufficient momentum. The bottom player remains stuck in Matrix with depleted energy and potentially broken grip connections, allowing you to reassert top control and advance your own offensive game plan."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining narrow base that provides insufficient resistance to sweeping force",
+        "consequence": "Small support boundary allows even moderate sweeping force to displace center of gravity beyond the base polygon, resulting in completed sweep and loss of position to back control",
+        "correction": "Proactively widen base beyond shoulder width when in Matrix top position, spreading knees and posting hands to maximize the support polygon the sweep must overcome"
+      },
+      {
+        "error": "Failing to strip grips before sweep develops full rotational momentum",
+        "consequence": "Connected grips allow the bottom player to load your weight onto their sweeping structure, making the sweep progressively harder to defend as momentum builds",
+        "correction": "Actively fight grips on your belt, pants, and hips the moment you feel increased tension. Break connections immediately before the bottom player can use them to initiate the sweeping force"
+      },
+      {
+        "error": "Resisting the sweep with static weight rather than dynamic base adjustment",
+        "consequence": "Static resistance creates a fixed point that the sweeping rotation overcomes through leverage, as the rotational force is specifically designed to defeat stationary opposition",
+        "correction": "Match the sweep with dynamic base shifts, moving your weight actively in the direction opposite to the sweeping force rather than simply bearing down with immobile pressure"
+      },
+      {
+        "error": "Resettling passively after successfully defending the sweep instead of immediately attacking",
+        "consequence": "Allows the bottom player to reset their grips, reposition their hips, and establish setup for the next sweep or back take attempt with improved positioning from the lessons of the first attempt",
+        "correction": "Immediately transition to offense after successful defense—attack with passes, submissions, or position advancement while the opponent is structurally compromised and energy-depleted from their failed sweep"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is setting up a Sweep from Matrix rather than a standard back take?",
+        "answer": "The sweep produces a directional pulling force through grips rather than the circular rotation of the standard Matrix back take. Watch for hip elevation combined with grip tightening on your belt or hip where the pulling direction is lateral or perpendicular rather than rotational. The shoulder posting is also different—the sweep uses the shoulder as a fixed fulcrum rather than a rolling contact point. These distinctions appear in the first fraction of a second and provide crucial reaction time."
+      },
+      {
+        "question": "How should you adjust your base when you feel the sweep being initiated?",
+        "answer": "Immediately widen your base by spreading knees beyond shoulder width and dropping hips lower toward the mat. This increases the distance your center of gravity must travel to cross outside your support boundary, making the sweep mechanically harder to complete. Simultaneously shift weight toward the direction opposite to the sweeping force. Quick base widening combined with directional weight shifting defeats most sweep attempts when executed before significant momentum develops."
+      },
+      {
+        "question": "Your opponent has loaded your weight onto their sweeping structure—is it too late to defend?",
+        "answer": "Not necessarily, but your response must be immediate and aggressive. Strip at least one grip to break the connection loading your weight. If you cannot strip grips, drive hips downward explosively to flatten their hip elevation—without the elevated fulcrum, their sweeping force collapses. As a last resort, match their rotation and scramble rather than accepting the completed sweep. Even partial defense creates scramble situations that are preferable to conceding full back control."
+      },
+      {
+        "question": "Why does maintaining a narrow base make you especially vulnerable to this sweep?",
+        "answer": "A narrow base creates a small support polygon around your center of gravity. The sweep only needs to displace your weight outside this polygon to succeed, which requires less force with a narrow base than a wide one. Additionally, narrow base provides fewer posting options when the sweep begins—you have less lateral range to shift weight in response to the directional force, making even moderate sweeping efforts effective against your structure."
+      },
+      {
+        "question": "After successfully defending the sweep, what should your immediate next action be?",
+        "answer": "Transition to offense immediately rather than resettling in your current position. A defended sweep leaves the bottom player momentarily vulnerable with their weight committed, grips broken, and structure compromised from the explosive failed attempt. Attack with a pass attempt, set up a submission if their arm is extended from grip fighting, or advance your position while they are recovering their structure and energy. Passively resettling gives them time to establish the next attack."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep indicators versus back take setups",
+        "description": "Partner telegraphs both sweep setups and standard Matrix back take entries from bottom. Practice recognizing the differences in grip tension direction, hip elevation angle, and shoulder posting changes. Call out the specific attack type before it develops momentum."
+      },
+      {
+        "phase": "Phase 2: Base Adjustment",
+        "focus": "Reactive base widening and weight shifting responses",
+        "description": "Partner initiates sweep attempts from Matrix bottom while you practice immediate base widening and directional weight shifting. Focus on speed of defensive adjustment to prevent the sweep from developing meaningful momentum. Execute 15-20 repetitions per round."
+      },
+      {
+        "phase": "Phase 3: Grip Fighting Defense",
+        "focus": "Breaking grip connections before sweep initiation",
+        "description": "Partner establishes sweeping grips from Matrix bottom while you practice stripping belt and hip connections. Develop sensitivity to grip tension changes that indicate sweep setup and practice immediate grip breaking responses."
+      },
+      {
+        "phase": "Phase 4: Counter-Offensive Transition",
+        "focus": "Converting defensive wins into offensive opportunities",
+        "description": "After successfully defending the sweep, practice immediately transitioning to passing or submission attacks. Chain defensive success into crossface passes, back takes, or darce setups while the bottom player is compromised from their failed sweep attempt."
+      }
+    ]
   }
 }

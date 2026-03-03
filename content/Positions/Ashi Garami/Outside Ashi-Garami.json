@@ -559,27 +559,31 @@
     "transitions": [
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 30
+        "attempt_probability": 32
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 27
+        "attempt_probability": 25
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kneebar Setup",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Cross Ashi Transition",
-        "attempt_probability": 8
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Counter Sweep from Outside Ashi",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [

@@ -93,17 +93,19 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook]]** (30% of attempts)
+- **[[Outside Heel Hook]]** (32% of attempts)
 
-- **[[Inside Ashi Entry]]** (27% of attempts)
+- **[[Inside Ashi Entry]]** (25% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (15% of attempts)
+- **[[Straight Ankle Lock Entry]]** (14% of attempts)
 
-- **[[Saddle Entry from Top]]** (10% of attempts)
+- **[[Saddle Entry from Top]]** (9% of attempts)
 
-- **[[Kneebar Setup]]** (10% of attempts)
+- **[[Kneebar Setup]]** (9% of attempts)
 
-- **[[Cross Ashi Transition]]** (8% of attempts)
+- **[[Cross Ashi Transition]]** (7% of attempts)
+
+- **[[Counter Sweep from Outside Ashi]]** (4% of attempts)
 
 
 ### Common Mistakes

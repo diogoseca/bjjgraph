@@ -20,38 +20,38 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 46% of exchanges from this position.",
+      "name": "Execute Elbow Escape from Mount",
+      "text": "From this position, attempt Elbow Escape from Mount. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Guard Recovery",
+      "text": "From this position, attempt Explosive Bridge to Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Explosive Bridge to Guard Recovery",
-      "text": "From this position, attempt Explosive Bridge to Guard Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Trap and Roll from Mount",
+      "text": "From this position, attempt Trap and Roll from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Heel Drag Escape",
+      "text": "From this position, attempt Heel Drag Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape from Mount",
-      "text": "From this position, attempt Elbow Escape from Mount. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Turtle",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,21 +215,21 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (46% of attempts)
+### [[Elbow Escape from Mount]] (35% of attempts)
 
-### [[Upa Escape]] (17% of attempts)
+### [[Upa Escape]] (22% of attempts)
 
-### [[Hip Escape to Guard]] (22% of attempts)
+### [[Explosive Bridge to Guard Recovery]] (15% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] (12% of attempts)
+### [[Trap and Roll from Mount]] (10% of attempts)
 
-### [[Explosive Bridge to Turtle]] (2% of attempts)
+### [[Heel Drag Escape]] (7% of attempts)
 
-### [[Elbow Escape from Mount]] (0% of attempts)
+### [[Explosive Bridge to Turtle]] (5% of attempts)
 
-### [[Heel Drag Escape]] (0% of attempts)
+### [[Bridge and Roll]] (4% of attempts)
 
-### [[Trap and Roll from Mount]] (1% of attempts)
+### [[Mount Escape to Half Guard Back Take]] (2% of attempts)
 
 
 
@@ -241,17 +241,17 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 **If opponent establishes high mount with knees near armpits limiting arm movement:**
 - Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Elbow Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Elbow Escape from Mount]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains low mount with heavy forward pressure on hips:**
 - Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Elbow Escape from Mount]]** → [[Half Guard]] (Probability: 40%)
 
 
 **If opponent isolates one arm and begins submission attack sequence:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Explosive Bridge to Guard Recovery]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Explosive Bridge to Guard Recovery]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
 
 
 **If opponent transitions to technical mount inserting one hook:**
@@ -261,7 +261,7 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 **If opponent reaches forward for collar grips with weight shifting to hands:**
 - Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Trap and Roll from Mount]]** → [[Closed Guard]] (Probability: 45%)
 
 
 
@@ -371,9 +371,9 @@ Partner in mount, bottom practitioner practices explosive bridges with proper sa
 - **[[Closed Guard]]** - Primary target position for successful mount escape via upa or complete hip escape
 - **[[Half Guard]]** - Common intermediate recovery position during hip escape sequence from mount
 - **[[Deep Half Guard]]** - Advanced recovery option from mount when standard escapes are unavailable
-- **[[Elbow Escape to Guard]]** - Primary technical escape using hip movement and knee shield insertion
+- **[[Elbow Escape from Mount]]** - Primary technical escape using hip movement and knee shield insertion from mount
 - **[[Upa Escape]]** - Explosive bridge-and-roll reversal technique requiring arm and leg trap
-- **[[Hip Escape to Guard]]** - Fundamental shrimping escape to create space for guard recovery
+- **[[Bridge and Roll]]** - Fundamental bridge escape recovering guard through rotational momentum
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke",
-      "text": "From this position, attempt Short Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle from Back",
-      "text": "From this position, attempt Triangle from Back. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Control to Crucifix",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Control Maintenance",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,27 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 ## Available Escapes
 
-### [[Rear Naked Choke]] (22% of attempts)
+### [[Rear Naked Choke]] (42% of attempts)
 
-### [[Armbar from Back Transition]] (10% of attempts)
+### [[Armbar from Back Transition]] (7% of attempts)
 
-### [[Bow and Arrow Choke]] (12% of attempts)
+### [[Bow and Arrow Choke]] (11% of attempts)
 
-### [[Short Choke]] (10% of attempts)
+### [[Short Choke]] (8% of attempts)
 
-### [[Triangle from Back]] (8% of attempts)
+### [[Back Control to Crucifix]] (6% of attempts)
 
-### [[Back Control to Crucifix]] (15% of attempts)
+### [[Back Control Maintenance]] (13% of attempts)
 
-### [[Back Control Maintenance]] (15% of attempts)
+### [[Kimura from Back]] (4% of attempts)
 
-### [[Kimura from Back]] (8% of attempts)
+### [[Roll to Truck]] (3% of attempts)
+
+### [[Cross Collar Choke]] (4% of attempts)
+
+### [[Body Triangle Escape to Half Guard]] (1% of attempts)
+
+### [[Body Triangle Escape to Side Control]] (1% of attempts)
 
 
 

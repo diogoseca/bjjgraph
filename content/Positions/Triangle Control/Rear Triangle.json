@@ -125,7 +125,7 @@
             "probability": 70
           },
           {
-            "technique": "Triangle Choke",
+            "technique": "Rear Triangle Choke Finish",
             "target": "Game Over",
             "probability": 60
           }
@@ -238,11 +238,11 @@
         "relationship": "Traditional back control variation that precedes rear triangle entry"
       },
       {
-        "name": "Triangle Choke",
+        "name": "Rear Triangle Choke Finish",
         "relationship": "Primary submission finish from this position"
       },
       {
-        "name": "Armbar from Back",
+        "name": "Armbar from Back Transition",
         "relationship": "Alternative submission when opponent defends the choke"
       },
       {
@@ -254,8 +254,8 @@
         "relationship": "Alternative arm trap control from back that can transition to rear triangle"
       },
       {
-        "name": "Truck",
-        "relationship": "Leg entanglement position that shares some control principles with rear triangle"
+        "name": "Crab Ride",
+        "relationship": "Leg entanglement position that shares back exposure control principles with rear triangle"
       }
     ],
     "position_metrics": {
@@ -275,7 +275,7 @@
     },
     "transitions": [
       {
-        "transition": "Triangle Choke",
+        "transition": "Rear Triangle Choke Finish",
         "attempt_probability": 24
       },
       {
@@ -299,11 +299,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Rear Triangle Choke Finish",
+        "transition": "Rear Triangle to Armbar",
         "attempt_probability": 6
       },
       {
-        "transition": "Rear Triangle to Armbar",
+        "transition": "Back Control to Crucifix",
         "attempt_probability": 3
       }
     ],
@@ -358,7 +358,7 @@
     ],
     "overview": "Rear Triangle Bottom is a highly compromised defensive position where the practitioner is caught in a triangle choke configuration applied from the opponent's back control position. This represents one of the most dangerous submission threats in BJJ, combining the control advantages of back mount with the finishing mechanics of the triangle choke. The bottom player faces significant constraints on mobility and breathing, with the opponent's legs creating a figure-four configuration around the neck and one arm while maintaining back control elements. This position typically occurs when an opponent successfully transitions from standard back control or seated back mount into a triangle configuration, often catching one arm inside the triangle while controlling the back. The defensive player must navigate multiple submission threats including the triangle choke itself, potential transitions to armbars, and the ever-present danger of the rear naked choke. Understanding the escape hierarchy and maintaining composure under extreme pressure are essential for survival and eventual escape from this precarious position.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -541,7 +541,7 @@
         "relationship": "Common transition target after successful arm extraction"
       },
       {
-        "name": "Triangle Choke",
+        "name": "Rear Triangle Choke Finish",
         "relationship": "Primary submission threat from this position"
       },
       {

@@ -133,87 +133,67 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 87
+        "attempt_probability": 30
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 6
+        "attempt_probability": 15
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 4
+        "attempt_probability": 12
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 1
+        "attempt_probability": 8
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Kimura",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Crossface to Combat Base",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Double Jump",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Flattened Half Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Pocket Half Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Quarter Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Triangle Escape Position",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
-        "transition": "Headquarters Pass",
-        "attempt_probability": 0
+        "transition": "Kimura",
+        "attempt_probability": 3
       },
       {
         "transition": "Half Guard to Double Jump",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Half Guard to Flattened Half Guard",
-        "attempt_probability": 0
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Crossface to Combat Base",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Leg Hook",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Pocket Half Guard",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Quarter Guard",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Half Guard to Triangle Escape Position",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -451,79 +431,67 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 84
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Lockdown Recovery",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Electric Chair Transition",
-        "attempt_probability": 0
+        "attempt_probability": 22
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 3
+        "attempt_probability": 12
       },
       {
-        "transition": "Kimura Sweep",
-        "attempt_probability": 1
+        "transition": "Deep Half Entry",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 8
       },
       {
         "transition": "Knee Shield Retention",
-        "attempt_probability": 1
+        "attempt_probability": 8
       },
       {
-        "transition": "Transition to K-Guard",
-        "attempt_probability": 0
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 5
       },
       {
-        "transition": "Transition to Old School",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Guard Recovery",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Dogfight Position",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Z-Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Back Door Escape from Half Guard",
-        "attempt_probability": 0
+        "transition": "Kimura Sweep",
+        "attempt_probability": 5
       },
       {
         "transition": "Deep Half Entry from Half Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Half Guard to K-Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Half Guard to Old School",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Half Guard to X-Guard",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Knee Torque Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Half Guard to X-Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Dogfight Position",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Half Guard to K-Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Back Door Escape from Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Half Guard to Old School",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -601,7 +569,7 @@
             "probability": 70
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Half Guard Recovery",
             "target": "Closed Guard",
             "probability": 55
           }

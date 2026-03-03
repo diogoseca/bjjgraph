@@ -224,7 +224,7 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ### [[Back Step Pass]] (12% of attempts)
 
-### [[Transition to Flattened Half Guard]] (10% of attempts)
+### [[Half Guard to Flattened Half Guard]] (10% of attempts)
 
 ### [[Knee Slice from Butterfly Half]] (4% of attempts)
 

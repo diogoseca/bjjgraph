@@ -372,10 +372,10 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 - **[[Body Lock]]** - Specific grip variation and control system used within standing rear clinch
 - **[[Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
 - **[[Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
-- **[[Rear Naked Choke]]** - Primary submission threat from this position both standing and on ground
 - **[[Side Control]]** - Common destination via bodylock pass when opponent sits to guard
-- **[[Body Lock Pass]]** - Key transition technique for converting rear clinch to ground control
-- **[[Rolling Back Take]]** - High-percentage transition for converting standing rear clinch to seated back control
+- **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
+- **[[Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 
 
 </section>

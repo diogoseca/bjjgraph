@@ -228,20 +228,20 @@
       "relationship": "Alternative standing control if opponent drops level or you execute snap down"
     },
     {
-      "name": "Rear Naked Choke",
-      "relationship": "Primary submission threat from this position both standing and on ground"
-    },
-    {
       "name": "Side Control",
       "relationship": "Common destination via bodylock pass when opponent sits to guard"
     },
     {
-      "name": "Body Lock Pass",
-      "relationship": "Key transition technique for converting rear clinch to ground control"
+      "name": "Mat Return from Rear Clinch",
+      "relationship": "Primary takedown transition for converting rear clinch to ground back control"
     },
     {
-      "name": "Rolling Back Take",
-      "relationship": "High-percentage transition for converting standing rear clinch to seated back control"
+      "name": "Rear Clinch to Body Lock",
+      "relationship": "Grip transition technique for converting seatbelt to bodylock control"
+    },
+    {
+      "name": "Standing Switch from Rear Clinch",
+      "relationship": "Primary escape reversal that must be anticipated and countered from this position"
     }
   ],
   "position_metrics": {
@@ -292,37 +292,5 @@
       "question": "Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?",
       "answer": "Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Mat Return from Rear Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Mat Return from Standing Rear Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Rear Clinch to Body Lock",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Standing Switch Defense",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Suplex from Rear Clinch",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Standing Switch from Rear Clinch",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  ]
 }

@@ -95,35 +95,35 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[De La Riva Sweep]]** (2% of attempts)
+- **[[Tripod Sweep]]** (53% of attempts)
 
-- **[[X-Guard Sweep]]** (1% of attempts)
+- **[[Sickle Sweep]]** (14% of attempts)
+
+- **[[Tomoe Nage]]** (8% of attempts)
+
+- **[[Lumberjack Sweep]]** (6% of attempts)
+
+- **[[Push Sweep from Feet on Hips]]** (5% of attempts)
 
 - **[[Single Leg X Sweep]]** (3% of attempts)
 
-- **[[Elevator Sweep]]** (1% of attempts)
+- **[[De La Riva Sweep]]** (3% of attempts)
 
-- **[[Tripod Sweep]]** (66% of attempts)
+- **[[Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Sickle Sweep]]** (9% of attempts)
+- **[[Balloon Sweep]]** (2% of attempts)
 
-- **[[Transition to Feet on Hips Guard]]** (8% of attempts)
+- **[[Elevator Sweep]]** (2% of attempts)
 
-- **[[Tomoe Nage]]** (4% of attempts)
-
-- **[[Lumberjack Sweep]]** (3% of attempts)
-
-- **[[Guard Pull]]** (1% of attempts)
-
-- **[[Balloon Sweep]]** (1% of attempts)
-
-- **[[Feet on Hips Sickle Sweep]]** (0% of attempts)
-
-- **[[Feet on Hips Tripod Sweep]]** (0% of attempts)
+- **[[X-Guard Sweep]]** (1% of attempts)
 
 - **[[Feet on Hips to De La Riva]]** (0% of attempts)
 
-- **[[Push Sweep from Feet on Hips]]** (1% of attempts)
+- **[[Guard Pull]]** (0% of attempts)
+
+- **[[Feet on Hips Sickle Sweep]]** (0% of attempts)
+
+- **[[Feet on Hips Tripod Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes

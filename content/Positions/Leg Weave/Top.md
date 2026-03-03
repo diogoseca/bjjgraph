@@ -21,37 +21,37 @@ description: "Master leg weave passing from top position. Advanced guard passing
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 32% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,23 +206,25 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] (16% of attempts)
+### [[Leg Weave Pass]] (15% of attempts)
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Knee Slice Pass]] (32% of attempts)
 
-### [[Leg Drag Pass]] (11% of attempts)
+### [[Leg Drag Pass]] (10% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Smash Pass]] (11% of attempts)
 
-### [[Over-Under Pass]] (11% of attempts)
+### [[Over-Under Pass]] (10% of attempts)
 
-### [[Long Step Pass]] (11% of attempts)
+### [[Long Step Pass]] (10% of attempts)
 
-### [[Back Step]] (8% of attempts)
+### [[Back Step]] (7% of attempts)
 
-### [[Backstep from Leg Weave]] (4% of attempts)
+### [[Backstep from Leg Weave]] (3% of attempts)
 
-### [[Complete Leg Weave Pass]] (2% of attempts)
+### [[Complete Leg Weave Pass]] (1% of attempts)
+
+### [[Leg Weave Pass Completion]] (1% of attempts)
 
 
 

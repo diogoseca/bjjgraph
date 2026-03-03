@@ -1,10 +1,15 @@
 {
   "name": "Open Guard to De La Riva",
-  "description": "TODO: Write 150-160 character SEO description for Open Guard to De La Riva.",
+  "description": "Master the Open Guard to De La Riva Guard transition in BJJ. DLR hook establishment, grip sequencing, and guard upgrade techniques for serious grapplers.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard",
+    "de-la-riva",
+    "open-guard",
+    "guard-upgrade",
+    "hook-entry",
+    "bottom-game"
   ],
   "from_position": "Open Guard/Bottom",
   "outcomes": [
@@ -19,120 +24,384 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Open Guard to De La Riva.",
+  "overview": "The Open Guard to De La Riva transition is one of the most fundamental guard upgrades in modern BJJ. From a generic open guard position, the bottom player threads their outside leg around the opponent's lead leg, hooking behind the knee to establish the signature De La Riva hook. This transition transforms a neutral open guard into a powerful attacking platform with systematic sweep chains, back take entries, and leg entanglement pathways that form the backbone of contemporary guard play.\n\nEstablishing DLR from open guard requires precise timing and grip sequencing. The bottom player must first control the opponent's lead ankle or pant leg on the hooking side, then thread the hook while simultaneously securing a cross grip on the far sleeve or collar. The critical moment occurs when the opponent steps forward or shifts weight onto their lead leg, as this weight commitment makes hook establishment significantly easier and immediately creates off-balancing opportunities. Without proper grip sequencing, the hook alone provides insufficient control and the top player can easily backstep or strip the position.\n\nThis transition serves as the gateway to the entire De La Riva system, connecting generic open guard to berimbolo entries, X-Guard and Single Leg X transitions, direct sweeps, and modern leg entanglement pathways. Players who master this entry can threaten the DLR hook from nearly any open guard configuration, forcing the top player to constantly manage their lead leg positioning and making their guard passing substantially more difficult. The frequency with which this transition appears in high-level competition underscores its importance as a core skill for any guard-centric game plan.",
   "conditions": [
-    "TODO"
+    "Opponent standing or in combat base with lead leg forward and within hooking range",
+    "Bottom player has at least one controlling grip established on opponent's gi or wrist",
+    "Bottom player's hips are mobile and not pinned flat to the mat",
+    "Opponent's lead leg bears sufficient weight to prevent easy retraction when hooked"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "No-Gi DLR Entry",
+      "description": "Uses ankle and heel control instead of pant grips to establish the hook. The bottom player cups the opponent's heel or wraps the ankle with their hand while threading the hook, then secures a collar tie or two-on-one on the far arm as the cross control.",
+      "when_to_use": "No-gi grappling or when opponent's pants are too loose or slippery for reliable pant grips"
+    },
+    {
+      "variant_name": "Seated Guard to DLR Entry",
+      "description": "Rather than entering DLR from a supine open guard, the bottom player initiates from an upright seated position. The seated angle allows the practitioner to reach the ankle grip more easily and use a forward hip thrust to thread the hook while pulling the opponent into the guard structure.",
+      "when_to_use": "When opponent maintains distance and the bottom player cannot establish supine open guard grips effectively"
+    },
+    {
+      "variant_name": "Lasso-to-DLR Conversion",
+      "description": "Starting from an established lasso guard grip, the bottom player releases the lasso wrap and redirects their hooking leg to the outside of the opponent's lead leg to establish DLR. The existing sleeve control from lasso provides the cross grip needed to complete the DLR structure immediately.",
+      "when_to_use": "When opponent begins to neutralize lasso guard through stacking or grip breaks, creating an opening to transition to DLR"
     }
   ],
-  "position_integration": "TODO: Write position integration for Open Guard to De La Riva.",
+  "position_integration": "The Open Guard to De La Riva transition occupies a critical node within the BJJ positional hierarchy as the primary gateway from generic open guard to the entire De La Riva ecosystem. This transition connects open guard to berimbolo entries, X-Guard and Single Leg X transitions, direct sweeps, and modern leg entanglement pathways. Mastering this entry ensures the bottom player can upgrade from a neutral guard position to a dedicated attacking platform at will, making it essential for any modern open guard game. The transition also integrates with collar sleeve and spider guard systems, as grips from those positions can facilitate the DLR hook entry and create hybrid guard structures.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "De La Riva Guard",
+      "relationship": "Target position achieved upon successful DLR hook and grip establishment"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Source position from which this transition initiates"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Alternative hook direction available when opponent backsteps past the DLR hook line"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Primary follow-up transition from established DLR when opponent maintains upright posture"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common follow-up position from DLR when opponent stands tall or attempts to retract the hooked leg"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative open guard upgrade that shares grip principles and can transition to DLR"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Alternative open guard upgrade whose sleeve grips can facilitate the DLR hook entry"
+    },
+    {
+      "name": "De La Riva Sweep",
+      "relationship": "Primary sweep attack available immediately after successful DLR establishment"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Advanced back take technique accessible from established DLR position"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Top player's primary counter-technique used to dismantle the DLR hook"
     }
   ],
   "attacker": {
     "name": "Open Guard to De La Riva Attacker",
-    "description": "TODO: Write attacker description for Open Guard to De La Riva.",
-    "overview": "TODO: Write attacker overview for Open Guard to De La Riva.",
+    "description": "Learn the Open Guard to De La Riva transition as the bottom player. Hook threading mechanics, grip sequencing, and timing for establishing DLR control from open guard.",
+    "overview": "As the bottom player transitioning from open guard to De La Riva, your objective is to thread the DLR hook around your opponent's lead leg while establishing complementary grips that create a complete control system. The transition requires reading your opponent's weight distribution and timing the hook entry when their lead leg bears weight, making extraction difficult. Success depends on coordinating the ankle grip, hook threading, and cross grip establishment into one fluid sequence that upgrades your guard before the top player can react with backstep or pressure counters. The speed and precision of this entry directly determines how much time you have to attack before they begin dismantling your guard structure.",
     "key_principles": [
-      "TODO"
+      "Secure the ankle or pant grip on the hooking side before committing to the hook thread to anchor the entry and prevent the opponent from simply stepping away",
+      "Time the hook entry when the opponent shifts weight onto their lead leg, as weight commitment makes retraction difficult and increases hook retention",
+      "Establish the cross grip on the far sleeve or collar within two seconds of setting the hook to complete the diagonal control system",
+      "Keep the non-hooking leg active on the opponent's far hip or bicep throughout the transition to manage distance and prevent smash pressure",
+      "Create a perpendicular hip angle to your opponent before threading to provide the space needed for the leg to travel around the outside of their lead leg",
+      "Maintain shoulder elevation and hip mobility throughout the transition to enable immediate attack chains once DLR is established"
     ],
     "setup_requirements": [
-      "TODO"
+      "Opponent standing or in combat base with lead leg forward and within reach of your hooking leg",
+      "At least one controlling grip established on the opponent's gi, wrist, or ankle to prevent disengagement",
+      "Hip mobility sufficient to create a perpendicular angle and thread the hooking leg around the opponent's lead leg",
+      "Non-hooking leg positioned to manage distance and prevent forward pressure during the transition",
+      "Visual read on the opponent's weight distribution to identify when lead leg bears sufficient weight for hook retention"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Read opponent's stance and weight distribution",
+        "description": "Assess which leg is forward and bearing weight. The DLR hook targets the lead leg, so identifying correct weight distribution informs your timing and hooking side. Wait for weight commitment before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure near-side ankle or pant grip",
+        "description": "Control the ankle or pants of the opponent's lead leg on the hooking side with your same-side hand. This grip prevents them from stepping back when you begin threading the hook and anchors the entire control system."
+      },
+      {
+        "step_number": 3,
+        "action": "Create angle with hip escape",
+        "description": "Hip escape slightly to create a perpendicular angle to your opponent rather than lying directly in front of them. This angular relationship provides the space needed to thread the hooking leg around the outside of their lead leg cleanly."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread hooking leg around lead leg",
+        "description": "Swing your outside leg around the exterior of the opponent's lead leg, threading from outside to inside so your foot passes behind their knee. Drive your shin against the back of their thigh and hook your instep firmly behind the knee joint."
+      },
+      {
+        "step_number": 5,
+        "action": "Activate hook tension by pulling knee to chest",
+        "description": "Pull your hooking knee toward your chest to create active tension against the back of the opponent's knee. This tension is the foundation of DLR control—it disrupts their base, prevents free movement of the lead leg, and establishes the primary off-balancing mechanism."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish cross grip on far sleeve or collar",
+        "description": "Secure a grip on the opponent's far sleeve, collar, or wrist with your free hand. This cross grip creates the diagonal control system that breaks their posture and prevents them from squaring their shoulders to neutralize your hook."
+      },
+      {
+        "step_number": 7,
+        "action": "Position non-hooking leg for distance management",
+        "description": "Place your free foot on the opponent's far hip, bicep, or knee depending on their posture and distance. This leg manages spacing, prevents forward smash pressure, and creates the second point of active control required for a complete DLR structure."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position and initiate first threat",
+        "description": "With hook tension, cross grip, and distance management established, immediately threaten an attack to prevent the opponent from methodically dismantling your guard. Begin pulling to off-balance or initiate a sweep entry to keep them reactive from the moment DLR is established."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Backstep to clear the DLR hook by stepping the hooked leg backward and around",
+        "effectiveness": "High",
+        "your_response": "Follow their retreating leg with your hook while maintaining ankle grip. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva by inverting your hook to the inside of their stepping leg.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Strip the ankle grip using a two-on-one break to remove the hook anchor",
+        "effectiveness": "High",
+        "your_response": "Re-grip immediately on the pants or switch to a belt grip. If unable to re-grip before they create distance, retract the hook and reset to open guard rather than holding a gripless DLR that has no control.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Drive forward with heavy smash pressure to flatten hips and collapse the guard structure",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Frame with your non-hooking foot on their hip to maintain distance. If they collapse the space despite your frame, use their forward momentum to enter berimbolo or inversion rather than fighting the pressure directly.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Circle away from the hook side to create lateral distance and deny the hooking angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their circular movement with hip adjustment to maintain the perpendicular hooking angle. If they create too much distance, transition to feet-on-hips guard and attempt re-entry once they advance again.",
         "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Threading the hook without first securing the ankle or pant grip",
+        "consequence": "Opponent simply steps their lead leg backward and the hook slides off with no anchor, wasting the entry attempt and potentially exposing your legs for a passing opportunity",
+        "correction": "Always establish the ankle or pant grip before committing to the hook thread. The grip is the anchor that holds the opponent's leg in place during the threading phase."
+      },
+      {
+        "error": "Hooking too shallowly on the calf instead of behind the knee",
+        "consequence": "Weak mechanical advantage that provides minimal off-balancing and is easily cleared by a simple step back or knee pinch",
+        "correction": "Thread deep so your instep catches firmly behind the knee joint where the leverage is strongest. Your shin should wrap around their thigh, not just brush against their calf."
+      },
+      {
+        "error": "Neglecting the cross grip during hook establishment",
+        "consequence": "Opponent maintains square posture with full balance, negating the off-balancing power of the hook alone and allowing them to systematically address the single point of control",
+        "correction": "Establish the cross grip on the far sleeve or collar within two seconds of setting the hook to complete the diagonal control system that makes DLR effective."
+      },
+      {
+        "error": "Lying flat on back with hips square to the opponent during the transition",
+        "consequence": "Cannot create the angular relationship needed for the hook to thread cleanly, and easily flattened by forward pressure once contact is made",
+        "correction": "Hip escape to create a perpendicular angle before threading. Keep shoulders slightly elevated and maintain active hip positioning throughout the transition."
+      },
+      {
+        "error": "Passive non-hooking leg that rests on the mat during entry",
+        "consequence": "Opponent drives forward with smash pressure unopposed, collapsing the guard structure and passing to half guard before the DLR can be established",
+        "correction": "Keep the non-hooking foot active on their far hip or bicep to manage distance and create a secondary frame against forward pressure throughout the transition."
+      },
+      {
+        "error": "Attempting the hook when opponent's weight is predominantly on their rear leg",
+        "consequence": "Opponent easily retracts their lead leg since it bears minimal weight, denying the hook entirely and potentially creating distance that breaks your remaining grips",
+        "correction": "Wait for the opponent to shift weight onto their lead leg before threading. Use your grips to pull them forward slightly or wait for a natural weight shift during their movement."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Movement",
+        "focus": "Hook threading mechanics and hip movement",
+        "description": "Practice the hip escape to angle, leg threading motion, and hook activation without a partner. Focus on the coordination between hip escape, leg swing, and knee pull that forms the mechanical foundation of the entry."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Full grip-hook-cross grip sequence with compliant partner",
+        "description": "Execute the complete entry sequence with a partner standing still in combat base. Focus on smooth coordination between each step—ankle grip, hip escape, hook thread, hook activation, cross grip—developing muscle memory for the entire chain."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing against increasing defensive reactions",
+        "description": "Partner provides graduated resistance including backsteps, grip strips, and forward pressure at 30%, 50%, then 70% intensity. Practice adapting entry timing and responding to each counter with appropriate adjustments."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Live entry from open guard against full resistance",
+        "description": "Start in open guard bottom against a partner actively passing. Work exclusively on establishing DLR, developing real-time pattern recognition for entry windows and reading opponent weight distribution under competitive pressure."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting entry to immediate attack sequences",
+        "description": "After establishing DLR, immediately execute a sweep or transition attempt. Develop the habit of upgrading into attacks rather than settling into a static guard. Chain the entry into De La Riva sweeps, berimbolo entries, or X-Guard transitions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing for threading the DLR hook from open guard?",
+        "answer": "The optimal timing is when your opponent shifts weight onto their lead leg, either by stepping forward or bending their knee to lower their base. This weight commitment makes it physically difficult for them to retract the leg, giving you time to set the hook deep behind the knee and activate tension before they can react with a backstep or lateral movement."
+      },
+      {
+        "question": "Why must the ankle grip be established before committing to the hook thread?",
+        "answer": "The ankle grip serves as the anchor that prevents the opponent from simply stepping their lead leg backward when they feel the hook beginning to thread. Without this grip, the hook has no holding mechanism during the threading phase, and the opponent can deny the entry with minimal effort by retracting their leg out of range."
+      },
+      {
+        "question": "What role does the non-hooking leg play during the Open Guard to DLR transition?",
+        "answer": "The non-hooking leg serves as the primary distance management tool during the transition. Placed on the opponent's far hip, bicep, or knee, it prevents them from driving forward with smash pressure that would flatten your hips and collapse the guard structure before the DLR can be fully established."
+      },
+      {
+        "question": "Your opponent backsteps to clear the DLR hook during your entry attempt - how do you respond?",
+        "answer": "Follow their retreating leg with your hook while maintaining the ankle grip to keep the connection alive. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva guard by inverting your hook to the inside of their leg. The key is maintaining at least one control point during the transition rather than allowing a complete reset to neutral."
+      },
+      {
+        "question": "What grip combination creates the strongest initial DLR control after the hook is established?",
+        "answer": "The strongest initial control combines the same-side ankle or pant grip with a cross grip on the opponent's far sleeve or collar. This diagonal control system creates opposing forces that break the opponent's posture and prevent them from squaring up. The ankle grip anchors the hook while the cross grip disrupts their upper body alignment."
+      },
+      {
+        "question": "Your opponent strips your ankle grip while your hook is only partially threaded - what is your immediate response?",
+        "answer": "Immediately retract the hook and reset to open guard rather than trying to maintain a compromised position. A hook without the anchoring ankle grip provides no meaningful control and leaves your leg extended and vulnerable to pinning and passing. Re-establish the ankle grip from open guard and reattempt the entry with proper sequencing."
+      },
+      {
+        "question": "What hip position maximizes your success rate for the DLR hook entry?",
+        "answer": "An angled hip position approximately 45 to 90 degrees perpendicular to your opponent provides the optimal threading angle. This perpendicular relationship creates space on the outside of their lead leg for your hooking leg to travel around. Lying directly in front of them with square hips makes the threading path longer and more easily intercepted."
+      },
+      {
+        "question": "How does the Open Guard to DLR transition connect to follow-up attack chains once established?",
+        "answer": "Once DLR is established with proper grips, the position immediately connects to multiple branching attack chains. Pulling the opponent forward with hook tension opens berimbolo and kiss of the dragon entries. If they resist by posting upright, transitioning underneath to X-Guard or Single Leg X becomes available. Lateral weight shifts expose direct sweep opportunities."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Open Guard to De La Riva."
+    "safety_considerations": "The Open Guard to De La Riva transition carries low injury risk overall, but practitioners should be mindful of knee strain on the hooking leg, particularly when the opponent backsteps aggressively against an established hook. Avoid forcing the hook against extreme lateral resistance, as torquing the knee can stress the MCL and meniscus. If the opponent applies strong backstep pressure, release the hook and re-establish rather than maintaining tension at an unsafe angle. Drilling partners should communicate if they feel excessive lateral knee pressure during repetitions."
   },
   "defender": {
     "name": "Open Guard to De La Riva Defender",
-    "description": "TODO: Write defender description for Open Guard to De La Riva.",
-    "overview": "TODO: Write defender overview for Open Guard to De La Riva.",
+    "description": "Defend against the Open Guard to De La Riva transition as the top player. Recognition cues, hook denial techniques, and counter-passing strategies to prevent DLR establishment.",
+    "overview": "As the top player facing an opponent attempting to establish De La Riva guard from open guard, your primary objective is to deny the hook-grip combination before it develops into a complete control system. Recognizing the early cues of DLR entry allows you to react with immediate backstep, grip stripping, or forward pressure that either maintains your current passing position or capitalizes on the transition attempt to advance past their guard. Early intervention is critical because once the DLR hook is fully seated with complementary grips, dismantling the position becomes significantly more energy-intensive and exposes you to sweep and back take threats. The key strategic insight is that prevention requires far less effort than cure—denying the hook at the ankle-grip stage costs almost nothing, while removing an established DLR costs substantial energy and time.",
     "key_principles": [
-      "TODO"
+      "Maintain constant lead leg awareness and never allow your lead knee to remain static when the opponent reaches toward your ankle or pant leg",
+      "Control distance through strong pant grips on the bottom player's legs to prevent them from threading the hook around your lead leg",
+      "React immediately when you feel the hook beginning to thread with backstep or circular movement rather than waiting for full establishment",
+      "Strip ankle grips proactively before the opponent can combine them with the hook to create the anchor-plus-leverage system that powers DLR",
+      "Keep your hips squared and weight distributed evenly to avoid over-committing to the lead leg, which makes hook establishment easy",
+      "Apply forward pressure to flatten the bottom player's hips before they can angle for the perpendicular relationship DLR requires"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent reaches for your near ankle or pant leg on the hooking side with their same-side hand",
+      "Opponent's outside leg begins swinging toward the outside of your lead leg in a threading motion",
+      "Opponent hip escapes to create a perpendicular angle to your stance rather than remaining square",
+      "Opponent secures a cross grip on your far sleeve or collar while maintaining contact with your lead leg",
+      "Opponent's hips elevate off the mat and angle sideways, signaling preparation for the hook entry"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Backstep the hooked leg to extract it before the hook fully seats behind the knee",
+        "when_to_use": "As soon as you feel the opponent's leg beginning to wrap around the outside of your lead leg",
         "targets_outcome": "Open Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "DLR hook denied completely, you maintain open guard top with full passing initiative and opponent must restart their guard upgrade attempt",
+        "risk": "Opponent transitions to Reverse De La Riva if your backstep carries your leg behind their hip line"
+      },
+      {
+        "action": "Strip the ankle grip immediately using a two-on-one break or sharp leg retraction",
+        "when_to_use": "When you feel the opponent's hand grip your ankle or pant leg before they begin threading the hook",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Remove the anchor that holds your leg in place during hook threading, preventing the DLR entry at its earliest and least costly intervention point",
+        "risk": "Brief moment of vulnerability while both hands are occupied with the grip strip"
+      },
+      {
+        "action": "Drive forward with heavy pressure to flatten the opponent's hips and collapse their angled structure",
+        "when_to_use": "When opponent has angled their hips but has not yet fully threaded the hook or established the cross grip",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Flatten their guard structure and advance past their legs to establish top half guard or further passing position",
+        "risk": "If the hook is partially set, your forward pressure feeds directly into berimbolo and inversion entries"
+      },
+      {
+        "action": "Circle laterally away from the hooking side to deny the threading angle",
+        "when_to_use": "Early in the attempt when opponent has gripped your ankle but has not yet begun the leg swing",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Create lateral distance that breaks the angular relationship needed for the hook and may strip the ankle grip through movement",
+        "risk": "Opponent follows your movement with hip adjustment and may catch the hook during your lateral step"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "De La Riva Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the ankle grip before the hook can be threaded and maintain distance control to keep passing initiative. React within the first second of recognizing the entry attempt."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Capitalize on the opponent's exposed legs during their hook threading attempt by driving forward with heavy pressure. Their perpendicular hip angle creates vulnerability to smash passing when the hook is not yet fully established."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing lead leg to remain static and planted when opponent reaches for your ankle",
+        "consequence": "Provides a stable, weighted target for the hook thread, making DLR establishment nearly guaranteed since the opponent can thread against a fixed reference point",
+        "correction": "Keep the lead leg mobile and ready to retract the instant you recognize the ankle grip attempt. A moving target is exponentially harder to hook than a planted one."
+      },
+      {
+        "error": "Leaning forward over the opponent during their hook attempt instead of maintaining upright posture",
+        "consequence": "Forward posture feeds directly into DLR's primary threat chain—the hook combined with your forward lean creates immediate sweep and berimbolo opportunities",
+        "correction": "Maintain upright posture with hips back when defending the DLR entry. Keep your weight centered rather than projecting it over their guard where it becomes leverage for their sweeps."
+      },
+      {
+        "error": "Attempting to pass through a partially establishing DLR hook rather than addressing it first",
+        "consequence": "The partially set hook catches your leg during the passing motion, converting your own forward energy into a fully established DLR position from which they can immediately attack",
+        "correction": "Address the hook and grip first through backstep or grip strip before initiating any passing sequence. Passing through an active hook plays directly into the guard player's game."
+      },
+      {
+        "error": "Focusing only on the DLR hook while ignoring the cross grip being established on your far sleeve",
+        "consequence": "Even if you manage to address the hook, the cross grip controls your posture and enables the opponent to re-enter DLR from a different angle with upper body control intact",
+        "correction": "Strip both the ankle grip and address the cross grip systematically. Neutralizing only one control element leaves the opponent with enough structure to recover and reattempt the entry."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is attempting to establish DLR from open guard?",
+        "answer": "The earliest cue is your opponent reaching for your near ankle or pant leg on the hooking side while simultaneously angling their hips to create a perpendicular relationship to your stance. This grip attempt precedes the hook thread and represents the ideal intervention point where a simple grip strip or backstep denies the entire entry sequence."
+      },
+      {
+        "question": "Why is early intervention critical when defending against the DLR hook entry?",
+        "answer": "Once the DLR hook is fully seated behind your knee with complementary grips established, dismantling the position requires significantly more energy and exposes you to sweep and back take threats during the removal process. Early intervention when the opponent is still reaching for grips or beginning to thread requires minimal effort and keeps you in a passing position."
+      },
+      {
+        "question": "How does your weight distribution affect vulnerability to the DLR hook during guard passing?",
+        "answer": "Committing excessive weight to your lead leg makes the DLR hook entry significantly easier because the bottom player can thread the hook against a planted leg that cannot be retracted quickly. Distributing weight evenly or keeping it slightly rearward allows you to retract the lead leg when you recognize the hook attempt, denying entry before it develops."
+      },
+      {
+        "question": "What happens if you drive forward with pressure after the opponent has partially set the DLR hook?",
+        "answer": "Driving forward into a partially established DLR hook is dangerous because forward momentum feeds directly into the guard player's berimbolo and inversion entries. The hook creates a pivot point, and your forward pressure provides the energy they need to rotate underneath you toward back control. Address the hook first through backstep or lateral movement."
+      },
+      {
+        "question": "Your opponent has gripped your ankle but has not yet threaded the hook - what is your optimal response?",
+        "answer": "Immediately strip the ankle grip using a two-on-one break or by circling your foot and pulling your leg back sharply. This is the highest-value intervention point because the ankle grip is the prerequisite for the hook entry. Without it, the opponent cannot anchor their threading attempt. After stripping, immediately advance passing pressure before they re-grip."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Cue Recognition",
+        "focus": "Identifying DLR entry attempts at various speeds",
+        "description": "Partner telegraphs DLR entries at progressively faster speeds while you practice identifying the recognition cues—ankle reach, hip angle change, leg swing—and verbally calling them out before the hook establishes."
+      },
+      {
+        "phase": "Phase 2: Denial Mechanics",
+        "focus": "Technical grip strip and backstep execution",
+        "description": "Partner attempts DLR entries at 50% speed while you practice the ankle grip strip and backstep timing to deny the hook. Focus on the mechanical execution of each denial technique with proper posture maintenance."
+      },
+      {
+        "phase": "Phase 3: Counter-Passing Integration",
+        "focus": "Converting denied entries into passing opportunities",
+        "description": "After successfully denying the DLR entry, immediately chain into a passing sequence to capitalize on the opponent's exposed position. Practice the transition from denial directly into toreando, knee slice, or leg drag entries."
+      },
+      {
+        "phase": "Phase 4: Live Defense Under Pressure",
+        "focus": "Full-speed DLR denial and counter-passing",
+        "description": "Positional sparring where partner actively works to establish DLR from open guard while you practice the full denial and counter-passing sequence under realistic competitive conditions with full resistance."
       }
     ]
   }

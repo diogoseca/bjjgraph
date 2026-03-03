@@ -21,37 +21,37 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute X-Guard to Ashi Garami",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 38% of exchanges from this position.",
+      "name": "Execute Heel Hook Defense Escape",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 48% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,29 +208,31 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (8% of attempts)
+### [[Ashi Garami Escape]] (7% of attempts)
 
-### [[Inside Ashi Entry]] (8% of attempts)
+### [[Inside Ashi Entry]] (7% of attempts)
 
-### [[X-Guard to Ashi Transition]] (5% of attempts)
+### [[X-Guard to Ashi Garami]] (4% of attempts)
 
-### [[Saddle Defense]] (38% of attempts)
+### [[Heel Hook Defense Escape]] (48% of attempts)
 
-### [[Outside Ashi Entry]] (8% of attempts)
+### [[Outside Ashi Entry]] (7% of attempts)
 
-### [[Standing Escape]] (3% of attempts)
+### [[Standing Escape]] (2% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (6% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (5% of attempts)
 
-### [[Transition to Backside 50-50]] (8% of attempts)
+### [[Backside 50-50 Entry from Ashi]] (7% of attempts)
 
-### [[Counter heel hook]] (6% of attempts)
+### [[Counter heel hook]] (5% of attempts)
 
-### [[Leg Extraction]] (8% of attempts)
+### [[Leg Extraction]] (7% of attempts)
 
-### [[Counter Entangle from Cross Ashi]] (1% of attempts)
+### [[Counter Entangle from Cross Ashi]] (0% of attempts)
 
-### [[Leg Extraction from Cross Ashi]] (1% of attempts)
+### [[Leg Extraction from Cross Ashi]] (0% of attempts)
+
+### [[Sweep from Cross Ashi-Garami]] (1% of attempts)
 
 
 
@@ -250,8 +252,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 
 **If opponent loosens leg control to transition to saddle or adjust position:**
-- Execute **[[Saddle Defense]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[X-Guard to Ashi Transition]]** → [[X-Guard]] (Probability: 40%)
+- Execute **[[Leg Extraction]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[X-Guard to Ashi Garami]]** → [[X-Guard]] (Probability: 40%)
 
 
 **If opponent's inside leg becomes exposed during adjustment or grip change:**

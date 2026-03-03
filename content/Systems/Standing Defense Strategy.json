@@ -278,9 +278,9 @@
       "relationship": "Comprehensive technique for defending double and single leg attacks"
     },
     {
-      "name": "Takedown Defense",
-      "content_type": "Transition",
-      "relationship": "General category of defensive techniques this system builds upon"
+      "name": "Takedown Entry",
+      "content_type": "Principle",
+      "relationship": "Understanding takedown entries is essential for recognizing and defending against them"
     },
     {
       "name": "Guard Pull",
@@ -293,13 +293,13 @@
       "relationship": "Common attack this system defends against"
     },
     {
-      "name": "Double Leg Entry",
+      "name": "Double Leg Finish",
       "content_type": "Transition",
       "relationship": "Common attack this system defends against"
     },
     {
       "name": "Grip Break",
-      "content_type": "Transition",
+      "content_type": "Principle",
       "relationship": "Essential technique within grip fighting framework"
     },
     {

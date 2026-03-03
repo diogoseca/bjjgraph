@@ -95,55 +95,41 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Scissor Sweep]]** (0% of attempts)
+- **[[Butterfly Sweep]]** (27% of attempts)
 
-- **[[Hip Bump Sweep]]** (0% of attempts)
+- **[[De La Riva Sweep]]** (4% of attempts)
 
-- **[[Butterfly Sweep]]** (99% of attempts)
+- **[[Sickle Sweep]]** (3% of attempts)
 
-- **[[De La Riva Sweep]]** (0% of attempts)
+- **[[Tripod Sweep]]** (4% of attempts)
 
-- **[[Sickle Sweep]]** (0% of attempts)
+- **[[Elevator Sweep]]** (2% of attempts)
 
-- **[[Tripod Sweep]]** (0% of attempts)
+- **[[Omoplata Sweep]]** (2% of attempts)
 
-- **[[Elevator Sweep]]** (0% of attempts)
+- **[[Kimura Sweep]]** (2% of attempts)
 
-- **[[Omoplata Sweep]]** (0% of attempts)
+- **[[Armbar Finish]]** (2% of attempts)
 
-- **[[Closed Guard to Triangle]]** (0% of attempts)
+- **[[Scissor Sweep from Open Guard]]** (4% of attempts)
 
-- **[[Armbar Finish]]** (0% of attempts)
+- **[[Open Guard to Deep Half]]** (5% of attempts)
 
-- **[[Kimura Sweep]]** (0% of attempts)
+- **[[Open Guard to Collar Sleeve Guard]]** (9% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (0% of attempts)
+- **[[Open Guard to De La Riva]]** (11% of attempts)
 
-- **[[Float Passing]]** (0% of attempts)
+- **[[Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Open Guard to Deep Half]]** (0% of attempts)
+- **[[Open Guard to Feet on Hips Guard]]** (7% of attempts)
 
-- **[[Transition to Collar Sleeve Guard]]** (0% of attempts)
+- **[[Collar Drag from Open Guard]]** (4% of attempts)
 
-- **[[Transition to Double Sleeve Guard]]** (0% of attempts)
+- **[[Scramble from Failed Sweep]]** (3% of attempts)
 
-- **[[Transition to Feet on Hips Guard]]** (0% of attempts)
+- **[[Technical Stand Up from Open Guard]]** (6% of attempts)
 
-- **[[Collar Drag from Open Guard]]** (0% of attempts)
-
-- **[[Open Guard to Collar Sleeve Guard]]** (0% of attempts)
-
-- **[[Open Guard to De La Riva]]** (0% of attempts)
-
-- **[[Open Guard to Double Sleeve Guard]]** (0% of attempts)
-
-- **[[Open Guard to Feet on Hips Guard]]** (0% of attempts)
-
-- **[[Scissor Sweep from Open Guard]]** (0% of attempts)
-
-- **[[Scramble from Failed Sweep]]** (0% of attempts)
-
-- **[[Technical Stand Up from Open Guard]]** (1% of attempts)
+- **[[Transition to Clamp Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -208,25 +194,27 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (12% of attempts)
+- **[[Toreando Pass]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Knee Slice Pass]]** (9% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Leg Drag Pass]]** (9% of attempts)
 
-- **[[Stack Pass]]** (9% of attempts)
+- **[[Stack Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Long Step Pass]]** (9% of attempts)
 
-- **[[X Pass]]** (9% of attempts)
+- **[[X Pass]]** (8% of attempts)
 
-- **[[Smash Pass]]** (10% of attempts)
+- **[[Smash Pass]]** (9% of attempts)
 
-- **[[Double Under Pass]]** (10% of attempts)
+- **[[Double Under Pass]]** (9% of attempts)
 
-- **[[Pressure Pass]]** (10% of attempts)
+- **[[Pressure Pass]]** (9% of attempts)
 
-- **[[Knee Cut Pass]]** (10% of attempts)
+- **[[Knee Cut Pass]]** (9% of attempts)
+
+- **[[Float Passing]]** (4% of attempts)
 
 
 ### Common Mistakes

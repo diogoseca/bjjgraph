@@ -1,12 +1,15 @@
 {
   "name": "Seat Belt Peel Escape",
-  "description": "TODO: Write 150-160 character SEO description for Seat Belt Peel Escape.",
+  "description": "Learn the Seat Belt Peel Escape in BJJ. Systematic two-on-one grip breaking technique from back control bottom to recover half guard with 30% success rate.",
   "tags": [
     "bjj",
     "transition",
     "escape",
     "back-control",
-    "seat-belt"
+    "seat-belt",
+    "grip-breaking",
+    "defensive",
+    "hand-fighting"
   ],
   "from_position": "Seat Belt Control Back/Bottom",
   "outcomes": [
@@ -27,114 +30,376 @@
     }
   ],
   "success_rate": 30,
-  "overview": "TODO: Write overview for Seat Belt Peel Escape.",
+  "overview": "The Seat Belt Peel Escape is a fundamental grip-breaking technique executed from the bottom of seat belt back control, targeting the specific hand connection that forms the structural foundation of the opponent's control. Unlike general back escapes that address hooks and body positioning simultaneously, this technique isolates the seat belt grip itself, using systematic two-on-one peeling mechanics to separate the opponent's hands and destroy the diagonal force structure that makes seat belt control so effective. The escape derives its name from the deliberate peeling motion used to strip the opponent's top hand away from their bottom hand, breaking the clasped connection that holds the entire control configuration together.\n\nStrategically, the Seat Belt Peel Escape occupies a specific niche within the back escape system. It is most effective when the opponent has strong seat belt grip connection but has not yet consolidated deep hooks or body triangle. The technique exploits a fundamental timing window: the opponent must choose between reinforcing their grip connection or maintaining hook depth, and the peel attack forces them to address one while potentially compromising the other. This creates a cascading defensive breakdown where successful grip separation leads to upper body freedom, which enables hip movement, which facilitates hook clearing and ultimately guard recovery.\n\nThe technique requires patience and precise hand mechanics rather than explosive athleticism. The peeling motion works by isolating the opponent's over-arm (the arm draped over your shoulder) and using both hands in a coordinated stripping action that pulls their hand toward your hip while your body creates rotational torque through hip escape. The success rate of 30% reflects the difficulty of breaking a well-established seat belt against a skilled opponent, but the technique's value extends beyond its direct success rate. Even partially successful peel attempts degrade the opponent's grip quality, create micro-spaces that accumulate over multiple attempts, and force the opponent to expend energy reinforcing their connection rather than progressing toward submissions.",
   "conditions": [
-    "TODO"
+    "Opponent has established seat belt grip with hands connected across your chest or torso",
+    "You have at least one hand free to begin attacking the opponent's grip connection",
+    "Your chin is tucked and neck is protected from immediate choking threats",
+    "Opponent's hooks are not yet fully consolidated or body triangle is not locked",
+    "You can identify which arm is the over-arm and which is the under-arm in the seat belt configuration"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Wrist Peel to Hip Escape",
+      "description": "Focus the peel on the opponent's wrist connection using a C-grip on their top hand wrist, pulling it sharply toward your far hip while simultaneously executing a hip escape in the same direction. The combined grip break and hip movement creates maximum separation between your back and their chest.",
+      "when_to_use": "When opponent's hands are connected at the wrist rather than palm-to-palm or gable grip, making the wrist connection the weakest link in their control chain."
+    },
+    {
+      "variant_name": "Elbow Wedge Peel",
+      "description": "Instead of attacking the hand connection directly, wedge your near-side elbow between your body and the opponent's under-arm, using the bony point of your elbow to create a lever that forces their under-arm away from your body. This variant attacks the under-arm rather than the over-arm.",
+      "when_to_use": "When the opponent has a very strong hand connection that resists direct peeling but their under-arm has space between it and your ribcage that allows elbow insertion."
+    },
+    {
+      "variant_name": "Chin Strip Peel",
+      "description": "Use your chin and jaw to press down on the opponent's over-arm near their wrist while simultaneously pulling their hand with both of yours. The combination of downward chin pressure and two-handed pull creates three contact points attacking the grip from different angles.",
+      "when_to_use": "When your neck is secure and the opponent's over-arm crosses near your jawline, allowing you to add chin pressure without exposing your throat."
     }
   ],
-  "position_integration": "TODO: Write position integration for Seat Belt Peel Escape.",
+  "position_integration": "The Seat Belt Peel Escape integrates into the broader back escape system as a grip-specific preparatory technique that precedes positional escapes. Within the defensive hierarchy from back control, practitioners first protect the neck through chin tuck and hand fighting, then attack the seat belt grip through peeling mechanics, and finally execute positional escapes such as hip escape to half guard or turtle recovery. The peel escape specifically addresses the structural foundation of seat belt control, making subsequent escape attempts significantly more effective because the opponent must rebuild their grip configuration rather than simply countering movement. This technique chains directly into half guard recovery when successful and feeds back into hand fighting protocols when partially successful, creating a recursive escape loop that progressively degrades the opponent's control quality over time.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Seat Belt Control Back",
+      "relationship": "Source position - the specific back control configuration this escape targets"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary escape destination when grip break enables hip escape and guard recovery"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome position when opponent adjusts to standard back control during escape attempt"
+    },
+    {
+      "name": "Escape Seat Belt Control",
+      "relationship": "Related broader escape system that includes grip breaks as one component of full escape sequence"
+    },
+    {
+      "name": "Hand Fight from Seat Belt Control",
+      "relationship": "Complementary hand fighting transition that often precedes or follows peel escape attempts"
+    },
+    {
+      "name": "Hip Escape from Back Control",
+      "relationship": "Follow-up escape technique executed after successful grip separation to complete positional recovery"
+    },
+    {
+      "name": "Elbow Escape from Back",
+      "relationship": "Alternative escape method that addresses hooks rather than grips as primary target"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Alternative escape pathway using different mechanics to escape back control"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape target position when half guard recovery is not available"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary submission threat that must be defended before attempting grip peel"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Back control variation where peel escape becomes more difficult due to enhanced lower body control"
     }
   ],
   "attacker": {
     "name": "Seat Belt Peel Escape Attacker",
-    "description": "TODO: Write attacker description for Seat Belt Peel Escape.",
-    "overview": "TODO: Write attacker overview for Seat Belt Peel Escape.",
+    "description": "Master the Seat Belt Peel Escape execution from back control bottom. Learn systematic two-on-one grip breaking mechanics to separate the seat belt and recover half guard.",
+    "overview": "Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic timing, and coordinated hip movement to break the structural foundation of your opponent's back control. As the person trapped in seat belt control, your goal is to systematically separate your opponent's clasped hands by isolating their over-arm and peeling it away from their under-arm connection point. This technique demands patience over explosiveness, using incremental grip degradation and properly timed hip escapes to convert grip separation into positional recovery. The peel mechanic works by applying rotational force to the weakest point of the opponent's grip connection while simultaneously creating torque through hip movement that amplifies the separation effect.",
     "key_principles": [
-      "TODO"
+      "Protect neck first before committing hands to grip breaking - chin must remain tucked throughout the entire peel sequence",
+      "Identify the over-arm hand connection point as your primary target since it provides the structural keystone of seat belt control",
+      "Use two-on-one mechanics with both hands to create overwhelming force advantage against one of the opponent's hands",
+      "Coordinate grip peeling with hip escape movement to amplify separation force through whole-body engagement",
+      "Work incrementally rather than explosively - small grip degradations accumulate into full separation over multiple attempts",
+      "Time the peel attempt when opponent shifts weight or adjusts position, exploiting momentary grip relaxation",
+      "Immediately capitalize on successful grip break with hip escape before opponent can reconnect hands"
     ],
     "setup_requirements": [
-      "TODO"
+      "Neck defense established with chin tucked to chest preventing immediate choking threats",
+      "At least one hand free from defending neck to begin attacking the seat belt grip connection",
+      "Identification of which arm is the over-arm (over your shoulder) and which is the under-arm (under your armpit)",
+      "Location of the opponent's hand connection point across your chest or torso identified by feel",
+      "Sufficient composure to execute methodical grip breaking rather than panicked explosive movements"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure neck defense and identify grip",
+        "description": "Tuck your chin firmly to your chest and use your near-side hand to control the opponent's choking arm wrist, preventing any choke attempts. With your defensive hand securing the neck, use your free hand to locate where the opponent's hands are connected across your torso. Feel whether they are using gable grip, palm-to-palm, or wrist grab to determine the weakest connection point for your peel attack."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish two-on-one control on the over-arm hand",
+        "description": "While maintaining chin tuck, bring both hands to the opponent's over-arm hand at the connection point. Grab their over-arm wrist with your far-side hand using a C-grip, and reinforce with your near-side hand grabbing the same wrist or their fingers. The two-on-one creates approximately a 2:1 force advantage against their single hand's grip strength, making separation mechanically achievable even against a strong opponent."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate the peeling motion toward your hip",
+        "description": "Pull the opponent's over-arm hand toward your far-side hip using a steady, progressive force rather than a jerking motion. The direction of pull is critical: you are pulling their hand diagonally across your body and downward toward your hip, which places their grip connection under rotational shear stress. This peeling vector exploits the weakest resistance angle of most grip configurations and prevents the opponent from simply squeezing harder to maintain connection."
+      },
+      {
+        "step_number": 4,
+        "action": "Coordinate hip escape with grip separation",
+        "description": "As you feel the opponent's grip begin to weaken or separate, execute a hip escape in the same direction as your pull, shrimping your hips away from the opponent toward the side where you are pulling their hand. This hip movement creates additional torque on the grip connection through your body's rotation and simultaneously begins generating the space needed for guard recovery. The hip escape must be timed precisely with the grip weakening to maximize the combined effect."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete grip separation and trap the freed arm",
+        "description": "Once the opponent's over-arm hand separates from their under-arm, immediately pull their freed over-arm across your body and trap it against your chest with your near-side arm. This prevents them from immediately reconnecting their hands. Pin their freed arm between your body and your controlling arm while maintaining your hip escape position. The opponent's control structure is now compromised without the diagonal seat belt force."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute hip escape to clear hooks",
+        "description": "With the seat belt broken and the over-arm trapped, use continuous hip escaping motion to slide your hips toward the mat on the side you have been escaping toward. As your hips drop to the mat, the opponent's bottom hook becomes easier to clear because your hip movement changes the angle of their hook insertion. Use your bottom leg to push their hook foot off your thigh while maintaining arm control on the freed over-arm."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover half guard and stabilize",
+        "description": "As the bottom hook clears or loosens, immediately insert your inside leg between the opponent's legs to establish half guard entanglement. Clamp down on their leg with both of your legs to secure the half guard position. Once half guard is established, work to get to your side facing the opponent, establish an underhook or knee shield, and begin building your offensive half guard game. The transition from grip break to half guard must be seamless to prevent the opponent from re-establishing back control."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent reinforces grip by switching to stronger connection (gable grip or wrist grab) when feeling peel attempt",
+        "effectiveness": "High",
+        "your_response": "Switch to attacking the under-arm instead using elbow wedge variant, or alternate between over-arm and under-arm attacks to create confusion and grip fatigue in the opponent's hands",
         "targets_outcome": "Seat Belt Control Back/Bottom"
+      },
+      {
+        "counter": "Opponent releases seat belt voluntarily and immediately attacks rear naked choke during the hand transition",
+        "effectiveness": "High",
+        "your_response": "Instantly abandon peel and return both hands to neck defense, tucking chin and controlling the choking arm with two-on-one before the choke can be established. This is the highest-risk counter.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent drives hooks deeper and increases chest pressure to prevent hip escape during peel attempt",
+        "effectiveness": "Medium",
+        "your_response": "Focus on completing the grip separation first without hip escape, then use incremental shrimps once grip is broken rather than trying to do both simultaneously against heavy pressure",
+        "targets_outcome": "Seat Belt Control Back/Bottom"
+      },
+      {
+        "counter": "Opponent transitions from seat belt to body triangle when sensing grip degradation",
+        "effectiveness": "Medium",
+        "your_response": "Accelerate the peel attempt before body triangle is locked by increasing pull force and hip escape speed. If body triangle locks, shift strategy to body triangle escape protocols rather than continuing seat belt peel.",
+        "targets_outcome": "Back Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Abandoning neck defense to commit both hands to grip peel before the neck is secure",
+        "consequence": "Opponent slides forearm under chin for rear naked choke while both your hands are occupied with grip breaking, resulting in immediate submission",
+        "correction": "Verify chin is tucked and there is no imminent choke threat before transitioning your defensive hand to the two-on-one peel position. Keep chin pressed to chest throughout."
+      },
+      {
+        "error": "Pulling the opponent's hand straight away from their body rather than diagonally toward your hip",
+        "consequence": "Opponent can resist the pull by simply squeezing harder, as straight-line force plays into the strongest resistance angle of most grip configurations",
+        "correction": "Direct the peel motion diagonally toward your far hip, creating rotational shear stress on the grip that exploits the weakest angle of their hand connection."
+      },
+      {
+        "error": "Using explosive jerking motions instead of steady progressive force for the peel",
+        "consequence": "Jerking motions are easily absorbed by a strong grip, waste significant energy, and telegraph your intentions allowing the opponent to preemptively reinforce their connection",
+        "correction": "Apply steady, progressive pulling force that gradually overwhelms grip endurance. Think of bending metal rather than snapping a stick."
+      },
+      {
+        "error": "Failing to hip escape immediately after breaking the grip connection",
+        "consequence": "Opponent reconnects their hands within 1-2 seconds of separation because you remain in the same position, wasting the grip break entirely",
+        "correction": "The hip escape must be pre-loaded and executed instantly upon grip separation. Your hips should already be preparing to move as the grip weakens."
+      },
+      {
+        "error": "Attacking the under-arm first instead of the over-arm",
+        "consequence": "The under-arm is structurally more difficult to peel because it sits closer to your body and has gravity assisting its position, resulting in wasted energy and failed attempts",
+        "correction": "Target the over-arm hand first as it is more exposed and the peeling direction works with gravity rather than against it. Only attack the under-arm as an alternative when the over-arm is inaccessible."
+      },
+      {
+        "error": "Stopping the escape sequence after breaking the grip without completing the transition to half guard",
+        "consequence": "Opponent re-establishes seat belt or transitions to alternative back control grip, and you have expended significant energy without achieving positional improvement",
+        "correction": "Treat the grip break as the beginning of the escape, not the end. Immediately chain into hip escape, hook clearing, and half guard recovery as one continuous sequence."
+      },
+      {
+        "error": "Neglecting to trap the freed arm after successful peel, allowing immediate grip reconnection",
+        "consequence": "Opponent's hands reconnect across your torso within moments, requiring you to repeat the entire peel process and wasting the successful grip break",
+        "correction": "Pin the freed over-arm against your body with your near-side arm immediately after separation, preventing reconnection while you execute the hip escape."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Identification",
+        "focus": "Learning to identify seat belt grip configuration by feel",
+        "description": "Partner establishes various seat belt grip configurations (gable grip, wrist grab, palm-to-palm) while you practice identifying the over-arm, under-arm, and connection point with your eyes closed. Develop tactile sensitivity for different grip types and their respective weak points. No resistance, pure identification drilling."
+      },
+      {
+        "phase": "Phase 2: Peel Mechanics",
+        "focus": "Isolated two-on-one peeling motion without resistance",
+        "description": "Partner holds static seat belt grip while you practice the peeling motion with correct hand placement, pull direction, and progressive force application. Focus on the diagonal pull toward the hip and the rotational shear angle. Repeat until the motion becomes automatic without needing to think about hand placement."
+      },
+      {
+        "phase": "Phase 3: Peel with Hip Coordination",
+        "focus": "Combining grip peel with hip escape movement",
+        "description": "Partner holds seat belt with light resistance while you practice coordinating the peel motion with hip escape timing. Focus on the moment of grip separation triggering immediate hip escape. Partner allows grip to break after correct technique is applied but does not chase or regrip."
+      },
+      {
+        "phase": "Phase 4: Complete Sequence Under Resistance",
+        "focus": "Full peel-to-half-guard sequence against progressive resistance",
+        "description": "Partner provides increasing resistance (25% to 75%) while you execute the complete sequence: identify grip, establish two-on-one, peel, hip escape, clear hooks, recover half guard. Partner actively attempts to re-establish grips and maintain hooks, forcing you to chain techniques smoothly."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Incorporating peel escape into full back escape system",
+        "description": "Positional sparring from seat belt back control bottom. Mix peel escape attempts with other escape methods (hand fighting, elbow escape, back door) based on opponent's reactions. Develop the ability to read when the peel is available versus when alternative escapes are more appropriate."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why is the over-arm targeted first rather than the under-arm in the standard seat belt peel escape?",
+        "answer": "The over-arm is targeted first because it sits on top of your body with less structural support from your torso, making it more accessible to your hands and more vulnerable to peeling force. The under-arm sits against your ribcage where body contact reinforces its position and gravity helps it stay in place. Additionally, removing the over-arm first destroys the diagonal force vector of the seat belt grip, making the under-arm far less effective even if it remains in position."
+      },
+      {
+        "question": "Your opponent has a gable grip for their seat belt connection - how does this change your peeling approach compared to a wrist grab?",
+        "answer": "A gable grip (palm-to-palm with fingers interlocked) is stronger against direct pulling force but weaker against rotational peeling because the fingers can be individually addressed. Focus the peel on rotating their top hand rather than pulling straight away. Strip individual fingers starting with the pinky side while maintaining diagonal pull direction. A wrist grab is weaker overall but the wrist is harder to individually strip, so use steady progressive force on the entire wrist with emphasis on the diagonal shear angle."
+      },
+      {
+        "question": "What is the critical timing window for executing the hip escape after breaking the seat belt grip?",
+        "answer": "The hip escape must begin within approximately one second of grip separation. Any longer and the opponent will reconnect their hands or transition to an alternative grip. The hip escape should actually be pre-loaded during the peel attempt, meaning your hips are already positioned and tensioned to move the instant separation occurs. Think of the grip break as releasing a spring that was already compressed. The coordination between upper body grip work and lower body escape readiness is what makes this technique effective."
+      },
+      {
+        "question": "Your opponent releases their seat belt voluntarily as you begin peeling - what does this indicate and how should you respond?",
+        "answer": "A voluntary seat belt release during your peel attempt almost always indicates the opponent is transitioning to a direct choke attack, using the hand separation as an opportunity to slide their forearm under your chin. This is the most dangerous counter to the peel escape. Immediately abandon the peel and return both hands to neck defense, tucking your chin hard and establishing two-on-one control on whatever arm is moving toward your neck. Do not continue the escape sequence until the choking threat is neutralized."
+      },
+      {
+        "question": "How does the direction of your peeling force exploit the biomechanics of the opponent's grip?",
+        "answer": "The diagonal pull toward your far hip creates rotational shear stress on the grip connection rather than simple tensile pulling force. Most grip configurations are strongest against direct pulling where both hands can squeeze together, but much weaker against rotational or shearing forces that try to twist the hands apart at an angle. By pulling diagonally and downward, you attack the grip at its weakest resistance angle while also generating torque through your body rotation that amplifies the separation force beyond what your arms alone could produce."
+      },
+      {
+        "question": "What should you do if your peel attempt partially succeeds - you weaken the grip but cannot fully separate the hands?",
+        "answer": "A partial peel success is still valuable because it degrades the opponent's grip quality and forces them to expend energy rebuilding their connection. Maintain whatever grip degradation you achieved, execute a small hip escape to capitalize on the reduced control, then immediately attempt a second peel while their grip is still weakened. Multiple partial successes accumulate into full separation. The opponent's grip endurance is finite, and each peel attempt taxes their forearm muscles. Do not abandon partial progress to try a completely different escape."
+      },
+      {
+        "question": "How do you prevent the opponent from transitioning to body triangle while you are working the seat belt peel?",
+        "answer": "Monitor the opponent's leg activity through feel while working the peel. If you sense them unlocking their hooks to begin threading a body triangle, immediately shift priority from the peel to preventing the triangle lock by straightening your legs and creating space at your hips. A body triangle makes all escapes significantly harder, so preventing it takes temporary priority over the grip break. Once you have blocked the body triangle attempt and they return to hooks, resume the peel sequence."
+      },
+      {
+        "question": "After successfully peeling the grip and escaping to half guard, what is your immediate positional priority?",
+        "answer": "Your immediate priority is getting to your side facing the opponent and establishing either a knee shield or underhook before they can recover any back control. Many failed peel escapes occur because the practitioner arrives in half guard but stays flat on their back, allowing the opponent to re-take the back from the top half guard position. Get on your side, establish frames to prevent cross-face, and secure the leg entanglement tightly before the opponent can disengage and circle back to your back."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Seat Belt Peel Escape."
+    "safety_considerations": "The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips."
   },
   "defender": {
     "name": "Seat Belt Peel Escape Defender",
-    "description": "TODO: Write defender description for Seat Belt Peel Escape.",
-    "overview": "TODO: Write defender overview for Seat Belt Peel Escape.",
+    "description": "Learn to defend against the Seat Belt Peel Escape from top back control. Recognize peel attempts early, reinforce grips, and counter with submissions or improved control.",
+    "overview": "Defending the Seat Belt Peel Escape means maintaining your seat belt grip integrity from the top back control position while your opponent systematically attacks your hand connection. As the controlling player, you must recognize the specific grip-breaking mechanics of the peel escape and deploy appropriate counter-strategies that either reinforce your grip connection, punish the escape attempt with submission entries, or adjust your control configuration to render the peel ineffective. Understanding the defender perspective is essential because the peel escape exploits predictable grip weaknesses, and awareness of these vulnerabilities allows you to preemptively strengthen your control before the escape gains momentum.",
     "key_principles": [
-      "TODO"
+      "Maintain constant awareness of your hand connection quality - any loosening indicates an active peel attempt that must be addressed immediately",
+      "Reinforce grip connection proactively by switching between grip configurations (gable, wrist, palm cup) to prevent opponent from establishing effective peel mechanics",
+      "Recognize when opponent commits both hands to grip breaking as an opportunity to attack the now-undefended neck with choke entries",
+      "Increase chest-to-back pressure and hook depth when sensing peel attempts to compensate for potential grip degradation with enhanced positional control",
+      "Avoid static grip holding - actively adjust hand position and grip type to stay ahead of the opponent's stripping attempts",
+      "Consider transitioning to body triangle when peel attempts are persistent, removing the hook vulnerability that the opponent hopes to exploit after breaking the grip"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's hands move from neck defense to your over-arm hand or wrist, indicating they are targeting your seat belt connection point",
+      "Feeling two-on-one pressure on your over-arm with a diagonal pulling force toward the opponent's far hip",
+      "Opponent's hip movement coordinating with grip attacks, suggesting they are preparing to chain grip break into escape",
+      "Opponent stops fighting your choking arm and redirects both hands toward your chest area where your hands are connected",
+      "Progressive weakening of your grip connection through steady pulling rather than explosive jerking movements"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Reinforce grip by switching to gable grip or deepening hand connection",
+        "when_to_use": "When you feel the initial peel attempt beginning and your current grip configuration is being effectively attacked",
         "targets_outcome": "Seat Belt Control Back/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent's peel attempt fails and they must restart the grip-breaking process, wasting their energy while you maintain full control",
+        "risk": "Momentary grip adjustment may create brief opening if opponent times a hip escape perfectly with the switch"
+      },
+      {
+        "action": "Release seat belt and immediately attack rear naked choke when opponent commits both hands to peel",
+        "when_to_use": "When opponent has clearly committed both hands to your over-arm, leaving their neck completely undefended",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Opponent must abandon peel attempt and return to emergency neck defense, potentially exposing them to choke finish",
+        "risk": "If choke attempt fails, you have voluntarily broken your own seat belt and must re-establish grip from scratch"
+      },
+      {
+        "action": "Transition to body triangle to eliminate hook vulnerability",
+        "when_to_use": "When opponent's peel attempts are persistent and you anticipate they will target hooks immediately after grip separation",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Body triangle provides superior lower body control that compensates for any grip degradation and prevents the hip escape chain",
+        "risk": "Body triangle transition requires momentary hook adjustment that may create escape window if mistimed"
+      },
+      {
+        "action": "Increase chest pressure and drive hooks deeper to reinforce overall control",
+        "when_to_use": "As a complementary response to any peel attempt, maintaining maximum positional control regardless of grip status",
+        "targets_outcome": "Seat Belt Control Back/Bottom",
+        "if_successful": "Enhanced positional control makes the peel escape insufficient even if grip partially breaks, as hooks and chest pressure prevent meaningful escape",
+        "risk": "Overcommitting weight forward may allow opponent to use momentum for a forward roll or granby escape"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Seat Belt Control Back/Bottom",
+        "how": "Reinforce grip connection proactively by switching grip types when feeling peel pressure, and drive hooks deeper to maintain multiple layers of control even if grip is temporarily weakened."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Capitalize on opponent's commitment of both hands to peel by releasing seat belt and immediately attacking neck with rear naked choke setup, forcing them to abandon escape for emergency neck defense."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Passively holding grip without adjusting when feeling peel pressure building",
+        "consequence": "Opponent's progressive force eventually overwhelms static grip endurance, resulting in full grip separation and escape initiation",
+        "correction": "Actively counter peel attempts by switching grip configurations, adjusting hand position, or increasing chest and hook pressure to disrupt the opponent's peel mechanics."
+      },
+      {
+        "error": "Releasing grip to attack choke without proper timing or setup",
+        "consequence": "Opponent escapes because you voluntarily broke your own control structure without establishing an effective choke position, losing the position entirely",
+        "correction": "Only release seat belt for choke attack when opponent has clearly committed both hands to the peel with neck fully exposed. Have your choking arm pre-positioned before releasing the connection."
+      },
+      {
+        "error": "Ignoring peel attempts because hooks feel secure",
+        "consequence": "Opponent breaks the grip and immediately chains into hip escape, clearing hooks before you can re-establish upper body control",
+        "correction": "Address peel attempts immediately regardless of hook security. The grip break enables the escape chain. Prevent the first link from breaking."
+      },
+      {
+        "error": "Fighting the peel by squeezing harder with arm strength alone rather than using body position",
+        "consequence": "Forearm muscles fatigue rapidly under sustained two-on-one pressure, and pure squeezing cannot overcome the rotational shear angle of a properly executed peel",
+        "correction": "Use body position adjustments to reinforce the grip: drive your over-arm elbow tighter to your body, increase chest pressure, and change the angle of your grip to neutralize the opponent's peeling vector."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary recognition cue that your opponent is attempting a seat belt peel rather than standard hand fighting?",
+        "answer": "The primary cue is feeling two-on-one pressure specifically on your over-arm hand with a diagonal pulling force directed toward the opponent's far hip. Standard hand fighting typically involves the opponent controlling your choking wrist near their neck, while the peel specifically targets the hand connection point across their chest. The diagonal pulling direction is the distinctive marker of the peel technique versus other grip attacks."
+      },
+      {
+        "question": "When your opponent commits both hands to the peel, what opportunity does this create for you?",
+        "answer": "When both of the opponent's hands leave neck defense to attack your grip, their throat becomes completely undefended for 2-3 seconds. This creates a window to release your seat belt voluntarily and immediately attack the rear naked choke with your choking arm, which is already positioned near their neck. The opponent must then abandon their peel attempt and scramble to defend the choke, often from a worse defensive position than before they started the peel."
+      },
+      {
+        "question": "Why is transitioning to body triangle an effective counter to persistent peel escape attempts?",
+        "answer": "The body triangle eliminates the hook vulnerability that the opponent plans to exploit after breaking the seat belt grip. Even if the opponent successfully peels the grip, the body triangle prevents the hip escape and hook clearing that constitute the second and third phases of the escape sequence. Without the ability to chain grip break into positional escape, the peel becomes a standalone grip break that you can recover from while maintaining dominant lower body control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Peel Recognition",
+        "focus": "Learning to identify peel attempts by feel",
+        "description": "Partner applies various grip attacks including standard hand fighting and specific peel mechanics. Practice distinguishing between the two by the direction and nature of force on your hands. Call out when you detect a peel attempt. Develops the tactile awareness needed to deploy appropriate counter-strategies."
+      },
+      {
+        "phase": "Phase 2: Grip Reinforcement",
+        "focus": "Switching grip configurations under pressure",
+        "description": "Partner applies progressive peel pressure while you practice switching between gable grip, wrist grab, and palm cup configurations to find the strongest connection against their specific attack angle. Focus on maintaining connection continuity during switches without creating windows."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Timing",
+        "focus": "Recognizing and exploiting the choke window during peel attempts",
+        "description": "Partner commits to full peel attempts. Practice recognizing when both their hands leave neck defense and timing your transition from seat belt to choke attack. Focus on the moment of release and immediate arm positioning rather than squeezing the choke. Partner taps or defends to provide realistic feedback."
+      },
+      {
+        "phase": "Phase 4: Integrated Defense",
+        "focus": "Full defensive response against mixed escape attempts",
+        "description": "Partner alternates between peel escapes, standard escapes, and other back escape methods. Practice deploying appropriate counter-strategies for each escape type, switching between grip reinforcement, choke attacks, body triangle transitions, and pressure adjustments in real time."
       }
     ]
   }

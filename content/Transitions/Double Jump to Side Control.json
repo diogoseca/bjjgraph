@@ -1,10 +1,14 @@
 {
   "name": "Double Jump to Side Control",
-  "description": "TODO: Write 150-160 character SEO description for Double Jump to Side Control.",
+  "description": "Master the Double Jump to Side Control transition in BJJ. Systematic approach to consolidating side control from turtle top leg hooks when back take is defended.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "double-jump",
+    "side-control",
+    "turtle-attack",
+    "positional-consolidation",
+    "advanced"
   ],
   "from_position": "Double Jump/Top",
   "outcomes": [
@@ -25,114 +29,375 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Double Jump to Side Control.",
+  "overview": "The Double Jump to Side Control transition is a pragmatic positional consolidation technique employed when the primary back-taking pathway from Double Jump Top is effectively defended by the bottom player's turtle defense. Rather than continuing to fight for back exposure against a well-protected turtle shell, the top player abandons bilateral leg hooks and transitions laterally into side control, securing dominant positional control worth three competition points.\n\nThis transition typically arises when the bottom player maintains a tight defensive posture with tucked elbows and sealed hips that blocks hook elevation to back control, while simultaneously threatening to sit through to butterfly guard if the top player overcommits. By recognizing the diminishing returns of sustained Double Jump pressure and pivoting to side control, the top player converts their positional investment into guaranteed dominance rather than risking a scramble. The technique demands precise timing during hook extraction—establishing crossface and hip control before removing hooks prevents the opponent from recovering guard through the vulnerable transition window.\n\nStrategically, this transition functions as an essential safety valve within the Double Jump and turtle attack system. While back control remains the highest-percentage advancement from Double Jump, having a reliable lateral consolidation path to side control ensures that positional investment is never wasted against opponents with elite turtle defense. The existence of this pathway also creates a tactical dilemma for turtle defenders: opponents who commit entirely to sealing their back by tucking chin and clamping elbows expose themselves to the lateral hip-walk around to side control, while those who widen their base to prevent the side control transition open gaps for traditional back-take entries.",
   "conditions": [
-    "TODO"
+    "Opponent maintains active turtle defense with elbows tucked and back sealed against hook elevation to back control",
+    "Top player has bilateral leg hooks established inside opponent's thighs with stable upper body connection",
+    "Upper body control secured through crossface, seatbelt harness, or overhook before initiating hook extraction",
+    "Multiple back-take attempts have been defended, indicating diminishing returns from continued hook elevation efforts",
+    "Opponent is not actively sitting to butterfly guard, which would require different attacking pathway selection"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Progressive Hip-Walk Consolidation",
+      "description": "The standard variant where hooks are extracted one at a time while the top player incrementally walks their hips around the opponent's body from behind to perpendicular side control alignment. Each phase maintains at least one control point before advancing, prioritizing positional security over speed of execution.",
+      "when_to_use": "Against opponents with strong turtle defense who are patient and technically sound. Best when you have established dominant crossface and can maintain continuous upper body pressure throughout the slow transition."
+    },
+    {
+      "variant_name": "Sprawl-and-Collapse Transition",
+      "description": "A more aggressive variant where both hooks are extracted near-simultaneously as the top player sprawls their legs back and drives heavy chest-to-back pressure to flatten the opponent. The sprawl eliminates the opponent's turtle base, and the top player then slides laterally into side control as the opponent collapses from turtle to flat.",
+      "when_to_use": "When the opponent's turtle base is already weakened and a decisive push can collapse their structure. Effective against fatigued opponents or those with narrow base width who cannot sustain pressure when hooks are removed and replaced with sprawl weight."
+    },
+    {
+      "variant_name": "Knee-Wedge Side Control Entry",
+      "description": "A variation where after extracting the far-side hook, the top player inserts their knee across the opponent's near hip as a wedge that prevents guard recovery before extracting the second hook. The knee wedge replaces the hook as a lower body control mechanism while establishing the perpendicular alignment characteristic of side control.",
+      "when_to_use": "Against opponents who are quick to insert knee shields during transitions. The knee wedge preemptively occupies the space the opponent needs for guard recovery, making the subsequent hook extraction and side control consolidation significantly safer."
     }
   ],
-  "position_integration": "TODO: Write position integration for Double Jump to Side Control.",
+  "position_integration": "The Double Jump to Side Control transition connects the specialized turtle attack system to the fundamental positional control hierarchy in BJJ. From Double Jump Top, the primary advancement chain flows through back control to rear naked choke, but this lateral consolidation path provides an essential alternative when that chain is disrupted by elite turtle defense. Once side control is established, the practitioner accesses the full suite of top-game options including mount advancement, knee on belly transitions, and submissions such as americana, kimura, and arm triangle. This transition reinforces the strategic principle that every attacking position should have multiple advancement pathways, preventing opponents from developing single-solution defenses. By developing this consolidation alongside back-take and truck entries from Double Jump, practitioners create a complete multi-pronged attack system from turtle that eliminates safe defensive options and ensures every positional investment yields a return.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Double Jump",
+      "relationship": "Source position - bilateral leg hook control from turtle top serving as the transition starting point"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position - perpendicular dominant control established through lateral consolidation from hook control"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position - reached when defender successfully reverses during the transition attempt"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary alternative advancement - higher-percentage target from Double Jump when back is accessible"
+    },
+    {
+      "name": "Double Jump to Mount",
+      "relationship": "Sister transition - alternative consolidation targeting mount when opponent flattens rather than maintaining active turtle"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Parent position context - Double Jump enters from turtle top attacks and this transition continues the attack chain"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative lateral control option using similar leg-based mechanics with single hook emphasis"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Follow-up advancement available after successful side control establishment from this transition"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative dominant position accessible from side control once lateral consolidation is complete"
     }
   ],
   "attacker": {
     "name": "Double Jump to Side Control Attacker",
-    "description": "TODO: Write attacker description for Double Jump to Side Control.",
-    "overview": "TODO: Write attacker overview for Double Jump to Side Control.",
+    "description": "Learn to execute the Double Jump to Side Control transition. Step-by-step guide covering hook extraction, lateral hip-walk, and side control consolidation from turtle top.",
+    "overview": "Executing the Double Jump to Side Control transition requires strategic awareness to recognize when back-take attempts are being effectively neutralized by tight turtle defense, and technical precision to extract bilateral leg hooks while maintaining continuous upper body control throughout the lateral transition. Unlike the mount transition which targets a flattened opponent through a step-over, the side control transition involves walking the hips laterally around an active turtle defender to achieve perpendicular alignment. The key challenge lies in the transition window itself—the moment between removing hooks and establishing side control grips creates a brief vulnerability that the bottom player will attempt to exploit through sit-outs, guard recovery, or granby rolls. Success depends on maintaining constant crossface pressure and chest-to-back connection while systematically repositioning from behind the opponent to beside them, ensuring no gap in control allows defensive scrambles.",
     "key_principles": [
-      "TODO"
+      "Establish and maintain dominant crossface or seatbelt control as the primary anchor before initiating any hook extraction to prevent defensive scrambles",
+      "Extract hooks sequentially from far-side first to near-side, ensuring at least one lower body control point remains active at every moment during the transition",
+      "Walk hips laterally around the opponent's body using small controlled steps rather than large jumping movements that create momentary gaps in pressure",
+      "Drive continuous chest-to-back pressure forward and downward throughout the transition to prevent the opponent from rebuilding turtle base or sitting to guard",
+      "Collapse the opponent's turtle base incrementally as each hook is removed by replacing hook control with sprawl weight and hip pressure against their near hip",
+      "Treat the transition as a positional consolidation rather than an attack—secure the position first, then advance to submissions from established side control"
     ],
     "setup_requirements": [
-      "TODO"
+      "Bilateral leg hooks established inside opponent's thighs from Double Jump Top position with feet controlling hip positioning",
+      "Upper body control secured through deep crossface, seatbelt harness, or overhook before initiating any hook extraction sequence",
+      "Recognition that back-take pathway is effectively defended after multiple attempts, indicating side control consolidation is the higher-percentage option",
+      "Opponent maintaining active turtle defense with tucked elbows and sealed back, not flattened belly-down which favors mount transition instead",
+      "Sufficient chest-to-back pressure established to prevent opponent from creating distance or sitting to guard during the extraction sequence"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess defensive posture and select transition direction",
+        "description": "Evaluate the bottom player's turtle defense from Double Jump position. Confirm they are maintaining an active turtle shell with elbows tucked and back sealed, effectively preventing hook elevation to back control. Select the side for side control establishment based on your dominant upper body control and the direction offering the strongest crossface angle."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure dominant upper body control",
+        "description": "Before initiating any hook extraction, establish a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control. This crossface becomes your primary positional anchor for the entire transition. Alternatively, maintain tight seatbelt grip with one arm over the shoulder and one under the armpit. This control must remain unbroken throughout."
+      },
+      {
+        "step_number": 3,
+        "action": "Extract far-side hook and post foot",
+        "description": "Remove the hook furthest from your intended side control direction first, sliding your foot free from inside the opponent's thigh. Immediately post that freed foot flat on the mat behind you to create a stable base for the lateral transition. The far-side extraction first ensures you maintain the near-side hook as continued lower body influence during the critical early phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin lateral hip walk toward side control alignment",
+        "description": "Using the posted foot, begin walking your hips around the opponent's body from behind toward a perpendicular angle. Take small controlled steps rather than large movements, maintaining constant chest pressure into the opponent's upper back throughout. Each step should bring your hips closer to the final side control position while your crossface drives the opponent's head away from you."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive opponent's turtle base flat with hip pressure",
+        "description": "As your hips reach approximately a forty-five degree angle to the opponent's body, use the combined force of your hip pressure and crossface to begin collapsing their turtle base. Drive your near hip into their near hip while the crossface forces their head down and away, flattening them from hands-and-knees onto their side or belly. This base collapse eliminates their primary escape options."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract near-side hook and establish perpendicular alignment",
+        "description": "With the opponent's base significantly compromised, remove the remaining hook while maintaining continuous chest pressure across their upper back. Immediately transition your hip position to full perpendicular alignment with your chest driving across the opponent's torso. Your legs should sprawl to create the wide base characteristic of stable side control positioning."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish side control grips and block hip",
+        "description": "Secure standard side control grip configuration with crossface control on the far side and your near hand blocking the opponent's far hip to prevent knee insertion and guard recovery. Drop your hips low and heavy against the opponent's hips, eliminating all space between your bodies. Your head should be positioned on the far side of the opponent's head for maximum crossface effect."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate position with settled weight distribution",
+        "description": "Distribute weight strategically across the opponent's torso through your chest and hips, settling into heavy stable side control. Verify that all escape routes are blocked: crossface prevents turning toward you, hip block prevents knee insertion, chest pressure prevents sitting up, and your sprawled base prevents bridge escapes. Only after full consolidation should you begin planning submission or advancement attacks."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent executes sit-out reversal during hook extraction, exploiting momentary loss of bilateral hip control to scramble to top position",
+        "effectiveness": "High",
+        "your_response": "If opponent initiates sit-out as you extract the far hook, immediately abandon the side control transition and redirect to crab ride or back take by following their sitting motion with your remaining hook and upper body control",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent retucks into tight turtle shell and reestablishes defensive base before hooks can be fully extracted and side control achieved",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Re-insert the extracted hook to return to full Double Jump position and pursue alternative attacks such as back take or truck entry, or attempt the side control transition from a different angle",
+        "targets_outcome": "Double Jump/Top"
+      },
+      {
+        "counter": "Opponent performs granby roll toward your transition direction, using your lateral momentum shift to invert and recover guard position",
+        "effectiveness": "Medium",
+        "your_response": "When you feel the opponent initiating a roll, post your lead hand on the mat and redirect your weight sprawling back rather than following the roll, maintaining chest pressure to prevent the inversion from completing",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent inserts knee frame between bodies during the lateral hip walk phase, preventing perpendicular alignment and forcing half guard engagement",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to a knee slice or smash pass sequence to complete the pass through half guard rather than fighting to remove the knee and return to the side control transition",
         "targets_outcome": "Double Jump/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extracting both hooks simultaneously rather than sequentially during the transition",
+        "consequence": "Complete loss of all lower body control allows opponent to freely scramble, sit to guard, or perform granby roll reversal without any hip influence restricting their movement",
+        "correction": "Always extract the far-side hook first while maintaining the near-side hook as continued lower body influence, ensuring at least one control point is active at every moment throughout the transition"
+      },
+      {
+        "error": "Releasing crossface control during hook extraction to use hands for balance or base",
+        "consequence": "Opponent immediately turns to face you, sits to butterfly guard, or recovers active turtle position without the crossface restricting their head and shoulder movement",
+        "correction": "Maintain the crossface as a non-negotiable anchor throughout the entire transition, using leg posting and hip position for balance rather than releasing the upper body grip"
+      },
+      {
+        "error": "Walking hips laterally with large jumping steps rather than small controlled movements",
+        "consequence": "Large movements create momentary gaps in chest-to-back pressure where the opponent can exploit space to rebuild base, insert frames, or initiate guard recovery",
+        "correction": "Take small shuffling steps during the lateral hip walk, maintaining constant chest pressure into the opponent's upper back throughout each micro-movement around their body"
+      },
+      {
+        "error": "Attempting the side control transition when opponent has an active turtle base with strong arm posts",
+        "consequence": "Opponent uses their intact base to counter the lateral transition with sit-outs or turns that create scrambles, often resulting in complete position loss rather than consolidation",
+        "correction": "Only initiate the side control transition after sufficient base degradation through sustained Double Jump pressure, or when the opponent's turtle defense is focused entirely on back protection leaving lateral pathways open"
+      },
+      {
+        "error": "Failing to block the opponent's far hip immediately upon reaching side control alignment",
+        "consequence": "Opponent inserts knee between bodies during the brief settling phase, recovering half guard and nullifying the entire transition effort",
+        "correction": "As soon as perpendicular alignment is achieved, the near hand must immediately block the opponent's far hip to prevent any knee insertion, treating hip blocking as the first priority of side control establishment"
+      },
+      {
+        "error": "Maintaining an upright posture during the lateral transition rather than driving weight downward",
+        "consequence": "Creates space beneath your chest that the opponent exploits with frames, hip escapes, and guard recovery movements that prevent side control consolidation",
+        "correction": "Drive weight forward and downward through your chest and hips throughout the entire transition, keeping your body low and heavy against the opponent at every phase"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Hook extraction sequence and lateral hip-walk technique",
+        "description": "Practice the sequential hook extraction and lateral hip walk on a compliant partner from established Double Jump position. Focus on maintaining continuous crossface pressure throughout, keeping hips low during the walk-around, and settling side control grips immediately upon reaching perpendicular alignment. Perform 20 repetitions per side with zero resistance."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying when to abandon back take for side control consolidation",
+        "description": "With a partner providing 30% resistance in turtle defense, practice reading the defensive posture to determine whether back control or side control is the higher-percentage option. Partner alternates between sealed-back turtle defense and more open turtle positions. Develop the tactical judgment to select the appropriate pathway based on defensive configuration."
+      },
+      {
+        "phase": "Phase 3: Pressure Maintenance",
+        "focus": "Sustaining control through the entire transition under resistance",
+        "description": "Partner provides 50-70% resistance attempting sit-outs, granby rolls, and guard recovery during the transition. Focus on maintaining unbroken crossface connection and continuous chest pressure while completing the lateral hip walk. Track which phase of the transition creates the most defensive opportunities and develop solutions."
+      },
+      {
+        "phase": "Phase 4: Counter-Response Integration",
+        "focus": "Adapting to defensive reactions during the transition",
+        "description": "Partner randomly applies different counters during the transition including sit-out, granby roll, knee frame insertion, and turtle base recovery. Practice automatic redirection to appropriate responses: abandon to crab ride, re-insert hooks, switch to passing sequence, or complete the side control consolidation based on what the defender presents."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application within the Double Jump attack system",
+        "description": "Timed rounds starting from Double Jump Top with the goal of achieving side control, mount, or back control within 45 seconds. Partner provides full defensive resistance. Track conversion rates to side control versus other positions and identify patterns in opponent defensive responses that signal side control availability."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "When is the optimal timing to abandon back-take attempts and transition to side control from Double Jump?",
+        "answer": "The optimal timing is when the opponent has successfully defended multiple back-take attempts by maintaining a tight turtle shell with elbows tucked, chin protected, and hips sealed against hook elevation. The transition should be initiated while you still have strong upper body control through crossface or harness—not after the position has begun deteriorating. If the opponent's defense is focused entirely on preventing back exposure with a sealed posture, the lateral pathway to side control is typically open."
+      },
+      {
+        "question": "What upper body control must be established before beginning the hook extraction sequence?",
+        "answer": "You must establish either a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control, or a tight seatbelt grip with one arm over the shoulder and one under the armpit. This upper body control serves as your primary positional anchor during the entire transition—without it, removing your leg hooks eliminates hip control without any compensating mechanism, allowing the opponent to freely scramble or recover guard."
+      },
+      {
+        "question": "Which hook should you extract first during the lateral transition and why?",
+        "answer": "Extract the far-side hook first—the hook furthest from your intended side control direction. This allows you to post that freed foot on the mat behind you for stability while maintaining the near-side hook as continued lower body influence during the critical early lateral hip-walk phase. Extracting the near-side hook first would eliminate control on the transition side and leave you without base for the lateral movement."
+      },
+      {
+        "question": "Your opponent begins a sit-out as you extract your first hook—how do you adjust?",
+        "answer": "Immediately abandon the side control transition and follow the opponent's sitting motion to take the back or enter crab ride. Their sit-out actually exposes their back more than the sealed turtle did. Use your remaining hook and upper body control to follow their movement, redirecting from the lateral transition to a rear control entry. Forcing the side control path against an actively sitting opponent typically results in half guard or a scramble."
+      },
+      {
+        "question": "What is the critical direction of force during the lateral hip-walk phase of this transition?",
+        "answer": "The primary force direction is lateral and downward, walking your hips around the opponent's body while driving continuous chest pressure forward and down into their upper back and near shoulder. The crossface drives the opponent's head away from you toward the mat, which simultaneously creates the angle for perpendicular alignment and collapses their turtle base. Your hips should stay heavy against their near hip throughout the walk-around."
+      },
+      {
+        "question": "What grip configuration should you establish immediately upon reaching side control alignment?",
+        "answer": "Upon reaching perpendicular alignment, immediately establish standard side control grips: crossface with your far arm driving forearm across the opponent's neck and face, and your near hand blocking the opponent's far hip to prevent knee insertion and guard recovery. The hip block is the highest priority grip because it closes the primary escape pathway. Drop your hips low and heavy against their hips while sprawling your legs wide for stable base."
+      },
+      {
+        "question": "The transition stalls because your opponent keeps recovering turtle base after partial hook extraction—what do you do?",
+        "answer": "If the opponent successfully retucks after partial extraction, you have two options: re-insert the extracted hook to return to full Double Jump and attempt the transition from a different angle after further base degradation, or switch to a more aggressive approach by sprawling heavy weight onto their back to collapse the turtle before attempting hook extraction again. You can also redirect to a completely different attack pathway such as crab ride or truck entry."
+      },
+      {
+        "question": "How does this transition create a strategic dilemma within the broader Double Jump attack system?",
+        "answer": "The side control transition creates a dilemma because it punishes the exact defensive posture that prevents back takes. When the opponent seals their back tightly with tucked elbows and chin to defend hook elevation to back control, they inadvertently expose the lateral pathway to side control. If they widen their base to prevent the lateral transition, they create gaps for the primary back-take entries. This dual threat forces the defender into narrow defensive corridors where protecting against one pathway opens the other."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Double Jump to Side Control."
+    "safety_considerations": "Double Jump to Side Control is a positional transition without direct submission threat, making it relatively safe during training. The primary safety concern involves maintaining controlled pressure during the lateral hip walk to avoid sudden weight drops onto the opponent's ribcage or spine. The crossface pressure maintained throughout the transition can stress the defender's cervical spine if applied with excessive force. Partners should communicate about pressure intensity during drilling. When extracting hooks, move deliberately rather than explosively to prevent the opponent's knees or ankles from being torqued by sudden hook removal. During live sparring, be aware that the rapid positional change from turtle to side control can disorient the defender."
   },
   "defender": {
     "name": "Double Jump to Side Control Defender",
-    "description": "TODO: Write defender description for Double Jump to Side Control.",
-    "overview": "TODO: Write defender overview for Double Jump to Side Control.",
+    "description": "Defend against the Double Jump to Side Control transition. Recognition cues, timing windows, and escape strategies to prevent side control from turtle bottom.",
+    "overview": "Defending the Double Jump to Side Control transition requires recognizing the critical moment when the top player shifts from back-take attempts to lateral consolidation, then exploiting the inherent vulnerability created by sequential hook extraction. The transition window when the top player removes their leg hooks and walks their hips laterally presents the best opportunity for defensive action, as bilateral hip control is temporarily reduced to unilateral or eliminated entirely. Unlike defending the mount transition which requires preventing a step-over, defending the side control transition demands disrupting a lateral weight shift that unfolds more gradually but with continuous pressure throughout.\n\nThe defender must understand that maintaining a sealed, static turtle position—while effective against back takes—is precisely the posture that makes the lateral side control transition viable. Active defensive engagement requires reading the transition cues and initiating counter-movements during the extraction window rather than waiting for side control to be established. The mechanical reality of side control bottom is significantly worse than turtle bottom: the defender loses base, mobility, and faces far more submission threats. Prevention during the transition is dramatically more effective than escape after establishment.",
     "key_principles": [
-      "TODO"
+      "Recognize hook extraction and lateral weight shift as the primary defensive window before side control consolidation closes all recovery options",
+      "Maintain active hip movement and base rebuilding throughout the transition to prevent the top player from collapsing your turtle structure",
+      "Initiate defensive counter-movements during hook extraction when bilateral hip control is compromised rather than after side control establishes",
+      "Protect against the crossface which serves as the primary anchor enabling the entire lateral transition sequence",
+      "Use the top player's commitment to lateral movement as an opportunity for sit-outs or guard recovery in the opposite direction",
+      "Prioritize guard recovery through knee insertion and framing over passive turtle maintenance once the lateral transition begins"
     ],
     "recognition_cues": [
-      "TODO"
+      "One leg hook begins withdrawing from inside your thigh while crossface pressure simultaneously intensifies across your neck and jaw",
+      "The top player's chest pressure shifts from centered on your spine toward one shoulder, indicating the direction of lateral consolidation",
+      "You feel the top player's hips beginning to walk around your body in small steps rather than maintaining the stationary bilateral hook position behind you",
+      "Hip pressure changes from the symmetric pull of bilateral hooks to asymmetric sprawl-like weight driving into your near hip from one side",
+      "The top player's freed foot posts on the mat beside or behind you after hook extraction, creating the base platform for their lateral walk-around"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Execute sit-out reversal toward the opposite direction of the lateral transition by posting your far hand and rotating your hips away",
+        "when_to_use": "During the first hook extraction when the top player's hip control is halved and their attention is focused on the lateral walk-around rather than preventing sit-outs",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Create scramble that disrupts the lateral transition and recover to guard position on top, completely reversing the positional hierarchy",
+        "risk": "Mistimed sit-out against a player who still has strong hook and crossface control may expose your back further or result in being flattened"
+      },
+      {
+        "action": "Retuck and rebuild active turtle base by driving up to hands and knees while clamping elbows tight against the extracted hook side",
+        "when_to_use": "When you feel the first hook extracting but before the lateral hip walk has progressed beyond a shallow angle, preventing the consolidation from advancing",
         "targets_outcome": "Double Jump/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Force the top player to re-insert hooks and restart their attack from Double Jump position, resetting the exchange and buying time",
+        "risk": "If base recovery is incomplete, the top player may accelerate the transition or redirect to mount by exploiting the widened posture"
+      },
+      {
+        "action": "Perform granby roll toward the direction of the lateral transition, inverting underneath the top player's weight shift to recover guard",
+        "when_to_use": "When the top player has committed their weight laterally and is midway through the hip walk with compromised balance on one side",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The inversion disrupts the lateral consolidation and positions you face-up with the ability to establish frames and recover guard before side control settles",
+        "risk": "Incomplete granby may leave you flat on your back with the opponent already in side control position, worsening the outcome"
+      },
+      {
+        "action": "Insert knee frame between bodies as the top player approaches perpendicular alignment, blocking side control establishment with a structural barrier",
+        "when_to_use": "In the final phase when the top player is reaching side control alignment but has not yet settled hips and blocked your far hip",
+        "targets_outcome": "Double Jump/Top",
+        "if_successful": "The knee frame prevents full side control consolidation and creates a pathway to recover half guard or create enough space for a guard pull",
+        "risk": "Late insertion after the top player has already blocked your hip allows them to collapse the knee frame with shoulder pressure and complete the pass"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a sit-out or granby roll during the hook extraction phase when the top player's bilateral hip control is compromised by sequential hook removal. The moment between first hook extraction and the lateral hip walk reaching forty-five degrees represents your optimal counter-window. Use the top player's lateral momentum commitment against them by moving in the opposite direction to create the scramble that leads to guard recovery on top."
+      },
+      {
+        "outcome": "Double Jump/Top",
+        "how": "Immediately rebuild active turtle base by driving up to hands and knees the moment you feel the first hook extracting. Clamp your elbows tight to your body and widen your knee base to create a stable platform that resists the lateral flattening pressure. By reestablishing a strong turtle shell before the lateral walk progresses, you force the top player to re-insert hooks and restart their attack sequence from the beginning."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining in static sealed turtle position as the top player walks hips laterally around your body",
+        "consequence": "Allows the complete lateral consolidation to side control without any defensive disruption, resulting in heavy side control where escape is dramatically more difficult than from turtle",
+        "correction": "Initiate active defensive movement the moment you recognize the lateral transition cues—static turtle defense that works against back takes is precisely what enables the side control consolidation"
+      },
+      {
+        "error": "Reaching back with arms to prevent hook extraction rather than maintaining tight defensive structure",
+        "consequence": "Extended arms behind you create immediate kimura and armlock vulnerabilities while providing the top player easy limb isolation opportunities for submission or further control",
+        "correction": "Keep elbows clamped tight to your body throughout the defense. Address hook extraction through hip movement and base positioning rather than arm reaching that compromises your defensive integrity"
+      },
+      {
+        "error": "Attempting to defend only after side control is fully established rather than during the transition",
+        "consequence": "The defensive window during hook extraction and lateral walk closes completely once side control is consolidated with crossface and hip block, and escape success rates drop dramatically",
+        "correction": "Recognize hook extraction as the defensive trigger and initiate counter-movements during the transition phase when the top player's control is transitionally weakened rather than waiting for establishment"
+      },
+      {
+        "error": "Flattening onto belly in response to the lateral pressure rather than maintaining knee base or turning to face opponent",
+        "consequence": "A flat belly-down position eliminates all hip mobility needed for guard recovery and makes the side control consolidation trivially easy for the top player",
+        "correction": "When you feel lateral pressure, actively turn toward the opponent to recover guard rather than collapsing flat. Turning to face them inserts your knee line between bodies and enables half guard recovery"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that the opponent is transitioning from Double Jump to side control rather than continuing back-take attempts?",
+        "answer": "The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while crossface pressure simultaneously intensifies, the top player's chest pressure shifting from centered on your spine toward one shoulder indicating the lateral direction, and feeling their hips begin to walk around your body in small steps rather than maintaining the stationary position behind you. The combination of hook withdrawal with increased upper body pressure signals the side control transition."
+      },
+      {
+        "question": "During which phase of the transition is defensive action most likely to succeed?",
+        "answer": "The most effective defensive window occurs during the first hook extraction, when bilateral hip control is reduced to unilateral. This creates a brief period where the top player's lower body influence is halved while they are repositioning. Sit-outs, granby rolls, and base recovery attempts have the highest success probability during this extraction phase before the lateral hip walk establishes new pressure angles."
+      },
+      {
+        "question": "Your opponent has extracted one hook and is walking their hips laterally—what is your immediate defensive response?",
+        "answer": "Immediately initiate a sit-out in the opposite direction of their lateral movement, using the asymmetric weight distribution to your advantage. Post your far hand on the mat and rotate your hips away from the direction they are walking. Their commitment to the lateral path makes it difficult to follow your opposite-direction movement. If the sit-out timing has passed, turn to face the opponent and insert your knee frame between bodies before they reach perpendicular alignment."
+      },
+      {
+        "question": "Why is static sealed turtle defense ineffective against the side control transition despite being effective against back takes?",
+        "answer": "Static sealed turtle with tucked elbows and protected back prevents hook elevation to back control by closing the pathways the top player needs for traditional back-take entries. However, this same sealed posture leaves the lateral pathway completely open because the defender is not actively resisting the hip walk-around. The tight defensive shell that blocks back access creates a stable surface for the top player to maintain pressure while walking their hips to side control alignment."
+      },
+      {
+        "question": "How can you exploit the top player's lateral weight commitment to create a reversal opportunity?",
+        "answer": "When the top player commits weight laterally for the side control transition, their balance is temporarily biased toward one side with reduced ability to follow movement in the opposite direction. Execute a sit-out or turn toward the opposite side of their weight commitment, using their own directional commitment against them. The further they have progressed in the lateral walk, the more difficult it becomes for them to redirect and follow your opposite-direction movement, creating the scramble opportunity for guard recovery."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying side control transition cues from turtle bottom",
+        "description": "Partner performs the Double Jump to Side Control transition at slow speed while you focus on identifying each recognition cue: hook extraction sensation, lateral weight shift, chest pressure direction change, hip walking movements. Call out each cue as you feel it to build tactile awareness before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Defensive action timing during hook extraction window",
+        "description": "Partner performs the transition at moderate speed while you practice initiating sit-outs, base recovery, and guard pulls at the exact moment of first hook extraction. Focus on reacting to the initial hook withdrawal as your defensive trigger rather than waiting for the lateral walk to progress. Partner provides feedback on timing quality."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Selection",
+        "focus": "Choosing appropriate defense based on transition phase and angle",
+        "description": "Practice all four defensive options against the transition at increasing resistance: sit-out reversal, turtle base recovery, granby roll, and knee frame insertion. Partner varies their transition speed, angle, and pressure level to force different defensive selections. Develop automatic pattern recognition for which defense matches which transition phase."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense with realistic competition-intensity pressure",
+        "description": "Positional rounds starting from Double Jump Bottom with the attacker pursuing side control. Defend at full resistance for two-minute rounds, tracking successful defenses versus side control establishments. Integrate recognition, timing, and option selection into fluid defensive responses under match-realistic pressure."
       }
     ]
   }

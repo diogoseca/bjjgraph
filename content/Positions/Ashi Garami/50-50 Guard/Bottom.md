@@ -44,8 +44,8 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
@@ -217,7 +217,7 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ### [[Extract legs and stand up]] (23% of attempts)
 
-### [[Straight Ankle Lock]] (4% of attempts)
+### [[Straight Ankle Lock Entry]] (4% of attempts)
 
 ### [[Kneebar entry]] (5% of attempts)
 
@@ -340,8 +340,8 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 **Q7**: How should you manage energy when stuck in 50-50 Guard Bottom for extended periods?
 **A**: Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts.
 
-**Q8**: What signals indicate opponent is about to attack with heel hook, and how do you preemptively defend?
-**A**: Signals include opponent securing two-handed grip on your heel area, rotating their hips to create breaking angle, pulling your heel toward their chest, or transitioning to belly-down position. Preemptively defend by keeping your knee bent and rotated inward, maintaining grip fighting to prevent their control, and staying ready to immediately strip grips when they reach for your heel.
+**Q8**: After partially escaping a heel hook by stripping one of opponent's grips, how do you complete the defense and recover to a safe position?
+**A**: After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment.
 
 
 
@@ -371,9 +371,9 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 - **[[Inside Heel Hook]]** - Primary submission threat from opponent when you are on bottom
 - **[[Single Leg X-Guard]]** - Preferred transformation target offering better offensive options
 - **[[Ashi Garami]]** - Related leg entanglement position with similar defensive requirements
-- **[[Saddle]]** - Related leg lock position with similar submission threats
+- **[[Honey Hole]]** - Related leg lock position with similar submission threats
 - **[[Outside Ashi-Garami]]** - Alternative leg entanglement with different control dynamics
-- **[[Heel Hook Variations]]** - Submission attacks you must defend against from this position
+- **[[Heel Hook]]** - Submission attacks you must defend against from this position
 
 
 </section>

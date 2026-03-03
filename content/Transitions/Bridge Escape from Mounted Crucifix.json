@@ -1,12 +1,15 @@
 {
   "name": "Bridge Escape from Mounted Crucifix",
-  "description": "TODO: Write 150-160 character SEO description for Bridge Escape from Mounted Crucifix.",
+  "description": "Master the bridge escape from mounted crucifix in BJJ. Learn explosive bridging mechanics, arm extraction timing, and systematic guard recovery methods.",
   "tags": [
     "bjj",
     "transition",
     "escape",
     "mount",
-    "mounted-crucifix"
+    "mounted-crucifix",
+    "bridge",
+    "defensive",
+    "advanced"
   ],
   "from_position": "Mounted Crucifix/Bottom",
   "outcomes": [
@@ -27,114 +30,371 @@
     }
   ],
   "success_rate": 30,
-  "overview": "TODO: Write overview for Bridge Escape from Mounted Crucifix.",
+  "overview": "The bridge escape from mounted crucifix is among the most challenging defensive techniques in Brazilian Jiu-Jitsu, requiring precise timing, explosive hip mechanics, and strategic sequencing to escape one of the sport's most dominant control positions. The mounted crucifix neutralizes the bottom player's primary defensive tools by trapping one or both arms with the top player's legs, making traditional mount escapes impossible without first addressing the arm entanglement. This forces the bottom player to rely entirely on hip-based mechanics to create disruption and escape opportunities.\n\nThe technique centers on using an explosive directional bridge to momentarily disrupt the top player's balance and loosen the leg-based arm control. Unlike standard mount escapes where frames provide incremental space creation, the mounted crucifix bridge must generate sufficient force in a single explosive movement to compromise the top player's arm entanglement. The bridge direction is critical — bridging toward the trapped arm side creates the greatest mechanical disruption to the leg entanglement, as it drives the top player's weight away from the anchor point of their arm control.\n\nSuccess requires understanding that the bridge itself rarely completes the escape. Instead, it creates a brief window — typically less than one second — during which the bottom player must execute arm extraction and begin transitioning toward a recoverable position. The most common successful pathway leads to half guard, where the bottom player can establish frames and begin standard guard recovery sequences. Failed bridges result in energy depletion and often tighter control, making timing and full commitment essential rather than repeated desperate attempts.",
   "conditions": [
-    "TODO"
+    "Trapped in mounted crucifix with at least one arm isolated by opponent's legs",
+    "At least one foot can be planted flat on the mat for bridge leverage",
+    "Opponent has established stable mounted crucifix control with weight on torso",
+    "Sufficient energy reserves remain for explosive bridging movement",
+    "Neck is not currently under active deep choke requiring immediate tap"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Directional Bridge to Trapped Arm Side",
+      "description": "Bridge specifically toward the side where your arm is trapped, creating maximum disruption to the leg entanglement by driving the opponent's weight and hips away from the anchor point of their arm control. This is the highest-percentage variation because it exploits the structural weakness inherent in the crucifix configuration.",
+      "when_to_use": "Default variation when one arm is clearly trapped and you can identify the entanglement side. Most effective when the opponent's weight is centered or shifted slightly toward the free arm side."
+    },
+    {
+      "variant_name": "Bridge to Turtle Recovery",
+      "description": "When full guard recovery is unavailable after the bridge, accept turtle position as an intermediate recovery point. The bridge creates enough disruption to free arms and turn to all fours, prioritizing arm freedom over positional idealism. From turtle with free arms, standard guard recovery and standing sequences become available.",
+      "when_to_use": "When the bridge disrupts control enough to free arms but the opponent maintains enough weight to prevent half guard insertion. Also useful when the opponent's reaction to the bridge drives them forward over your head."
+    },
+    {
+      "variant_name": "Incremental Bridge Series",
+      "description": "Instead of committing to a single maximum-effort bridge, use multiple smaller bridges timed to the opponent's adjustments, gradually loosening arm control through cumulative disruption. Each small bridge forces the opponent to readjust, and the accumulated positional shifts create extraction opportunities without the energy cost of full explosive attempts.",
+      "when_to_use": "When energy reserves are low and a single explosive bridge is unlikely to generate sufficient force. Also effective against opponents who spread their base proactively, as repeated smaller disruptions erode their control gradually."
     }
   ],
-  "position_integration": "TODO: Write position integration for Bridge Escape from Mounted Crucifix.",
+  "position_integration": "The bridge escape from mounted crucifix occupies a critical emergency position within the broader defensive hierarchy of bottom mount escapes. It connects the most compromised mounted position — where arms are trapped and submission danger is extreme — to recoverable positions like half guard or standard mount bottom. This technique fits within the escape chain that includes arm recovery from crucifix, upa escapes from mount, and elbow escape to guard, representing the first link in a sequential defensive chain. Understanding this escape is essential for any practitioner developing a complete defensive game, as it addresses the worst-case scenario of mount defense and provides pathways back into the broader guard recovery system. The technique also reinforces fundamental bridging mechanics that transfer across all bottom position escapes.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Mounted Crucifix",
+      "relationship": "Source position from which this escape is attempted"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary successful escape destination providing guard recovery platform"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome position when arms are freed but guard recovery is incomplete"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Related control position sharing arm-trapping mechanics relevant to understanding escape principles"
+    },
+    {
+      "name": "Arm Recovery from Crucifix",
+      "relationship": "Complementary escape technique focusing on arm extraction without full positional change"
+    },
+    {
+      "name": "Upa Escape",
+      "relationship": "Related bridge-based escape mechanic used from standard mount bottom"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Follow-up escape technique used after recovering to mount bottom or half guard"
+    },
+    {
+      "name": "Armbar from Crucifix",
+      "relationship": "Primary submission threat the top player may attack during escape attempts"
+    },
+    {
+      "name": "Choke from Crucifix",
+      "relationship": "Neck submission threat requiring defensive priority before bridge attempt"
+    },
+    {
+      "name": "Mounted Crucifix Armbar",
+      "relationship": "Specific armbar variation threatening from mounted crucifix during escape"
     }
   ],
   "attacker": {
     "name": "Bridge Escape from Mounted Crucifix Attacker",
-    "description": "TODO: Write attacker description for Bridge Escape from Mounted Crucifix.",
-    "overview": "TODO: Write attacker overview for Bridge Escape from Mounted Crucifix.",
+    "description": "Execute the bridge escape from mounted crucifix in BJJ. Step-by-step guide covering explosive bridging mechanics, arm extraction sequences, and half guard recovery techniques.",
+    "overview": "Executing the bridge escape from mounted crucifix demands precise coordination between explosive hip movement, directional commitment, and arm extraction timing. As the bottom player, your arms are trapped by the opponent's legs, eliminating standard defensive frames and forcing complete reliance on hip-based mechanics to create escape opportunities. The technique requires loading your bridge by planting both feet flat, then exploding toward the trapped arm side to maximally disrupt the leg-based arm control. The brief moment of disruption must be exploited immediately for arm extraction, as the top player will quickly re-establish tighter control if the window is wasted. Every element of the escape — bridge direction, extraction timing, frame establishment, and guard recovery — must flow as one continuous sequence rather than discrete steps.",
     "key_principles": [
-      "TODO"
+      "Bridge direction determines escape success — always bridge toward the side of the trapped arm to create maximum disruption to the leg entanglement",
+      "Timing bridges to opponent's weight shifts or attack initiations multiplies their effectiveness by catching the top player in transitional balance",
+      "Arm extraction must be simultaneous with or immediately follow the bridge peak — the disruption window lasts less than one second before control re-establishes",
+      "Commit fully to each bridge attempt rather than using half-measures that waste energy without creating sufficient disruption to the arm trap",
+      "Protect the neck throughout the escape by maintaining chin-to-chest position, as choke attempts often follow failed bridge escapes",
+      "Chain the bridge directly into guard recovery movement — extracting arms without immediately establishing frames wastes the opportunity created"
     ],
     "setup_requirements": [
-      "TODO"
+      "At least one foot planted flat on the mat with heel close to buttocks for maximum bridge leverage and hip extension power",
+      "Neck defense established with chin tucked tightly to chest preventing immediate choke submission during escape attempt",
+      "Assessment completed of which arm or arms are trapped and the specific configuration of opponent's leg entanglement",
+      "Opponent's weight shift or attack initiation identified as timing trigger for bridge explosion",
+      "Mental commitment made to bridge direction — toward the trapped arm side for maximum mechanical disruption of the leg control"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess Entanglement Configuration",
+        "description": "Identify which arm or arms are trapped by the opponent's legs and note the specific leg positioning creating the control. Determine which side offers the greatest mechanical advantage for disruption — typically the side where your arm is most deeply trapped. This assessment must be rapid, occurring within seconds of reaching mounted crucifix before the opponent settles full control."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Neck Defense",
+        "description": "Tuck your chin tightly to your chest and elevate shoulders toward your ears to create a defensive barrier against choke attacks. Use any available mobility in your free arm to protect the front of your neck and fight any grip attempts near your collar or throat. This defensive posture must be maintained throughout the entire escape sequence to prevent submission before escape is achieved."
+      },
+      {
+        "step_number": 3,
+        "action": "Plant Feet for Bridge Base",
+        "description": "Walk both feet in close to your buttocks with feet flat on the mat, approximately hip-width apart. This positioning maximizes the vertical and lateral force you can generate during the bridge by optimizing the leverage angle of your legs. Avoid having feet too far from your hips, which dramatically reduces bridge power and makes the explosive movement insufficient to disrupt established crucifix control."
+      },
+      {
+        "step_number": 4,
+        "action": "Time Bridge to Opponent Movement",
+        "description": "Wait for the opponent to shift their weight forward for a submission attempt, adjust their leg positioning, or reach for a grip. These transitional moments create brief windows where their base is compromised and the bridge will have maximum disruptive effect on their balance and leg-based arm control. Patience here is critical — an optimally timed bridge at 80% power outperforms a poorly timed bridge at 100% power."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute Explosive Directional Bridge",
+        "description": "Drive your hips explosively upward and toward the trapped arm side using full leg extension and maximum hip thrust. The bridge must generate enough force to lift and laterally shift the opponent's weight, disrupting their leg entanglement on your trapped arm. Commit fully to the direction without hedging — half-hearted bridges that split between directions fail against established crucifix control because they generate insufficient lateral force."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract Trapped Arm During Disruption",
+        "description": "As the bridge peaks and the opponent's leg control loosens momentarily, pull your trapped arm free by rotating your shoulder inward and sliding the arm underneath the disrupted leg. This extraction must happen within the sub-second window created by the bridge before the opponent recovers balance and re-tightens their leg control. Pre-plan the extraction movement so it executes as a continuation of the bridge rather than a separate action."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Frame and Insert Knee Shield",
+        "description": "Immediately use the extracted arm to create a frame against the opponent's hip or torso, then insert your knee between your body and the opponent to form a knee shield barrier. This frame-to-shield sequence prevents the opponent from re-settling their weight and re-capturing the freed arm. The knee shield creates the structural barrier necessary to begin creating distance for guard recovery."
+      },
+      {
+        "step_number": 8,
+        "action": "Complete Half Guard Recovery",
+        "description": "With frames established and knee shield inserted, hip escape away from the opponent to create additional distance. Secure half guard by trapping one of the opponent's legs between yours using both legs in a figure-four or pinch configuration. Once half guard is established with proper underhook or knee shield positioning, begin standard half guard bottom offensive and defensive sequences to improve position further."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent widens base and drops hips when feeling bridge initiation through the mat",
+        "effectiveness": "High",
+        "your_response": "Feint the bridge to draw the base-widening reaction, then immediately execute a full bridge when the opponent starts to re-narrow their base to attack. Alternatively, use the incremental bridge series to gradually erode their widened base position.",
+        "targets_outcome": "Mounted Crucifix/Bottom"
+      },
+      {
+        "counter": "Opponent attacks armbar or choke during bridge attempt when arms momentarily become exposed",
+        "effectiveness": "High",
+        "your_response": "Maintain chin-to-chest protection throughout and immediately retract any exposed arm close to the body if a submission threat is detected. If the choke is deep, address the submission defense before reattempting the bridge escape.",
+        "targets_outcome": "Mounted Crucifix/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to standard mount by voluntarily releasing leg control and re-settling weight during the disruption",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Accept the transition to mount bottom as a significant positional improvement — your arms are free and all standard mount escapes become available. Immediately begin elbow escape or upa sequences before the opponent re-establishes heavy control.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent drives chest pressure forward and flattens during bridge to ride through the upward movement",
+        "effectiveness": "Medium",
+        "your_response": "Use the opponent's forward weight commitment to create space underneath on the opposite side and attempt arm extraction through the gap created by their lean. Their forward drive often loosens the leg control on the side away from their weight shift.",
         "targets_outcome": "Mounted Crucifix/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Bridging straight upward without directional commitment toward the trapped arm side",
+        "consequence": "Opponent easily rides the vertical bridge by posting hands, maintaining leg control throughout without any disruption to the arm entanglement",
+        "correction": "Always bridge with strong lateral commitment toward the trapped arm side, directing force to maximally disrupt the specific leg entanglement rather than just lifting the opponent vertically"
+      },
+      {
+        "error": "Attempting the bridge escape while actively being choked without addressing neck defense first",
+        "consequence": "The bridge creates additional space for the choke to sink deeper as the chin separates from the chest during spinal extension, accelerating the submission",
+        "correction": "Establish chin-to-chest defense and neutralize or weaken the choke grip before committing energy to the bridge escape sequence"
+      },
+      {
+        "error": "Repeated explosive bridges without waiting for timing windows between attempts",
+        "consequence": "Rapid energy depletion with each successive bridge generating less force, leaving no reserves for a properly timed escape when a genuine opportunity arrives",
+        "correction": "Conserve energy between attempts, time each bridge to the opponent's weight shifts or positional adjustments, and commit fully to each individual effort with maximum force"
+      },
+      {
+        "error": "Failing to extract the arm during the brief disruption window created by the bridge",
+        "consequence": "The bridge creates momentary space that is wasted, and the opponent re-establishes tighter control with adjusted leg positioning that is harder to disrupt on subsequent attempts",
+        "correction": "Pre-plan the arm extraction movement so it executes simultaneously with the bridge peak — treat the bridge and extraction as one combined movement rather than separate sequential actions"
+      },
+      {
+        "error": "Extracting the arm but not immediately establishing frames and knee shield",
+        "consequence": "Opponent re-captures the freed arm or transitions to mount-based submissions before any defensive structure is established, wasting the successful extraction",
+        "correction": "Chain the arm extraction directly into frame establishment and knee shield insertion as one continuous movement sequence with no pause between steps"
+      },
+      {
+        "error": "Bridging toward the free arm side instead of the trapped arm side",
+        "consequence": "Bridge generates force in the wrong direction, compressing rather than disrupting the leg entanglement and often tightening the arm trap further",
+        "correction": "Always bridge toward the trapped arm side where the leg entanglement creates a structural weakness that directional lateral force can exploit for arm extraction"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Bridge Mechanics",
+        "focus": "Directional bridge power development",
+        "description": "Practice explosive bridges from flat back position with partner in mounted crucifix at zero resistance. Focus on foot placement close to hips, hip drive direction toward the trapped arm side, and generating maximum upward and lateral force. Repeat 10 bridges per direction with emphasis on proper form and full commitment."
+      },
+      {
+        "phase": "Phase 2: Arm Extraction Timing",
+        "focus": "Coordinating bridge with arm extraction",
+        "description": "Partner maintains light crucifix control at 25% resistance. Execute the bridge and practice sliding the trapped arm free during the peak of disruption. Focus on the simultaneous coordination of hip explosion and shoulder rotation for extraction within the sub-second window. Reset and repeat 15 times per side."
+      },
+      {
+        "phase": "Phase 3: Full Escape Sequence",
+        "focus": "Chaining bridge to guard recovery",
+        "description": "Execute the complete escape sequence from bridge through arm extraction to frame establishment and half guard recovery against moderate resistance. Partner provides 50-75% effort to maintain position, simulating realistic timing pressure. Practice the entire chain as one continuous movement 10 times per round."
+      },
+      {
+        "phase": "Phase 4: Live Resistance Integration",
+        "focus": "Applying escape under competition conditions",
+        "description": "Positional sparring starting from mounted crucifix. Top player attacks submissions and maintains control at full intensity. Bottom player works the bridge escape with all timing, technique, and energy management principles under competition-realistic pressure. Three-minute rounds with reset on escape or submission."
+      },
+      {
+        "phase": "Phase 5: Scenario Recognition",
+        "focus": "Identifying optimal bridge timing in live rolls",
+        "description": "During regular sparring, when mounted crucifix occurs naturally, practice reading the opponent's weight shifts and attack patterns to identify optimal bridge timing windows. Develop the instinct for when to commit fully versus when to maintain defensive posture and wait for a better opportunity."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why must you bridge toward the trapped arm side rather than the free arm side?",
+        "answer": "Bridging toward the trapped arm side creates maximum disruption to the leg entanglement because it drives the opponent's weight and hips away from the anchor point of their leg control. This direction exploits the structural weakness in the crucifix configuration where the trapping leg must maintain pressure against your arm. Bridging the opposite direction compresses the entanglement tighter, making extraction more difficult and wasting the explosive effort entirely."
+      },
+      {
+        "question": "What is the approximate time window for arm extraction after a successful bridge?",
+        "answer": "The extraction window is typically less than one second — the brief moment where the bridge has disrupted the opponent's balance and loosened their leg control before they can re-establish position. This extremely narrow window is why the arm extraction must be pre-planned and executed as a simultaneous or immediately sequential movement with the bridge, not as a separate action attempted after the bridge settles back down."
+      },
+      {
+        "question": "Your opponent attacks a choke as you prepare to bridge — how do you adjust your escape sequence?",
+        "answer": "Address the choke threat before committing to the bridge escape. Tuck your chin tightly to chest, elevate shoulders to close gaps around the neck, and use any available arm mobility to fight the choking grip. Only after neutralizing or weakening the choke threat should you proceed with the bridge. Bridging during an active choke can deepen the submission by creating space for the choking arm as your chin lifts during spinal extension."
+      },
+      {
+        "question": "What should you do immediately after extracting your trapped arm from the crucifix?",
+        "answer": "Immediately establish a frame against the opponent's hip or torso using the freed arm, then insert your knee between your body and the opponent to create a knee shield. This frame-to-shield sequence prevents the opponent from re-capturing your arm or transitioning to submission attacks on the newly freed limb. The extracted arm must go directly into a defensive structural frame — any delay allows the opponent to re-establish arm control or attack the exposed limb."
+      },
+      {
+        "question": "How should you manage energy when multiple bridge attempts are needed?",
+        "answer": "Avoid continuous explosive bridging, which depletes energy exponentially with each attempt. Maintain constant subtle hip movement between attempts to prevent the opponent from settling perfectly, but reserve explosive energy for moments when the opponent's weight shifts or they initiate attacks. Each bridge should be timed to a specific window rather than thrown randomly. Rest between attempts by focusing on positional defense while reading the opponent's next movement for optimal timing."
+      },
+      {
+        "question": "What distinguishes a successful bridge escape from an unsuccessful one in terms of physical commitment?",
+        "answer": "Successful bridges require full directional commitment with maximum hip extension and strong lateral drive toward the trapped arm side. Half-hearted bridges that hedge between directions or do not fully extend the hips generate insufficient force to disrupt established crucifix control. The top player's legs create a mechanical lock that only yields to substantial force applied in the correct direction. Full commitment also ensures the extraction window is at its widest at the bridge peak."
+      },
+      {
+        "question": "When should you accept transitioning to mount bottom rather than continuing to fight for half guard recovery?",
+        "answer": "Accept mount bottom when your arm extraction succeeds but you cannot establish frames quickly enough to prevent the opponent from re-settling their weight. Mount bottom with free arms is significantly better than mounted crucifix — you regain all standard escape options including upa, elbow escape, and hip escape. Continuing to fight for half guard while the opponent re-establishes control risks returning to crucifix. Take the positional improvement and immediately begin standard mount escape sequences."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Bridge Escape from Mounted Crucifix."
+    "safety_considerations": "Bridge escapes from mounted crucifix involve explosive spinal extension under significant load from the opponent's body weight. Warm up the lower back and hips thoroughly before drilling this technique. During training, communicate clearly with your partner if you feel any neck compression or breathing restriction during the crucifix position. Tap immediately to any choke or joint lock threat — the mounted crucifix creates extremely fast submission finishes with minimal reaction time available. Partners maintaining the crucifix position should control their weight distribution and avoid dropping full weight suddenly onto the trapped practitioner's chest or face. Begin drilling at low intensity and gradually increase resistance across training sessions."
   },
   "defender": {
     "name": "Bridge Escape from Mounted Crucifix Defender",
-    "description": "TODO: Write defender description for Bridge Escape from Mounted Crucifix.",
-    "overview": "TODO: Write defender overview for Bridge Escape from Mounted Crucifix.",
+    "description": "Defend against the bridge escape from mounted crucifix in BJJ. Learn to maintain crucifix control, counter escape attempts, and capitalize on submission opportunities during bridge defense.",
+    "overview": "Defending the bridge escape from mounted crucifix means maintaining one of the most dominant control positions in Brazilian Jiu-Jitsu against your opponent's most desperate escape attempt. As the top player, you must recognize bridge initiation cues — feet planting, hip loading, directional head turn — and respond with base adjustments that neutralize the explosive force before it disrupts your leg-based arm control. Your structural advantages include gravity, superior positioning, and the ability to transition between maintaining control and attacking submissions. The key is riding the bridge by lowering your center of gravity and spreading your base rather than fighting rigidly against the upward force, then using the opponent's failed attempt as an opportunity to deepen control or attack exposed limbs and neck.",
     "key_principles": [
-      "TODO"
+      "Recognize bridge initiation cues early — feet planting flat, hip muscles tensing, head turning to one side — and adjust base proactively before the explosion",
+      "Ride the bridge by lowering your center of gravity and spreading your base wide rather than rigidly fighting against the upward and lateral force",
+      "Maintain tight knee pressure on trapped arms throughout any positional adjustment to prevent arm extraction during the disruption window",
+      "Use the opponent's bridge attempt as an offensive opportunity — arm extraction attempts expose limbs to armbar and the bridge itself can lift the chin for neck access",
+      "Stay heavy through your hips rather than posting on hands, as hand posts create space underneath that facilitates arm extraction",
+      "Accept transitioning to standard mount if arm control is genuinely compromised — maintaining a dominant position is always preferable to losing everything chasing the crucifix"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent plants both feet flat on the mat with heels close to buttocks, indicating bridge base establishment and imminent explosive attempt",
+      "Opponent's hip muscles tense visibly and their core engages, signaling the loading phase before explosive upward movement",
+      "Opponent turns their head to one side, revealing the intended direction of the bridge toward their trapped arm",
+      "Opponent takes a deep breath or noticeably changes breathing pattern, often preceding maximum effort explosive attempts",
+      "Opponent's free arm repositions toward the trapped arm side, preparing to assist in arm extraction during the bridge disruption"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Widen base and drop hips immediately when bridge initiation cues are detected",
+        "when_to_use": "As soon as you feel feet planting, hip muscles engaging, or detect the head turn indicating bridge direction — before the explosion occurs",
         "targets_outcome": "Mounted Crucifix/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bridge is neutralized without creating any meaningful space, opponent wastes significant energy on failed attempt while your control deepens",
+        "risk": "If timed too late after the bridge initiates, the explosive force may still create momentary space sufficient for partial arm extraction"
+      },
+      {
+        "action": "Attack armbar on exposed arm during bridge attempt when extraction movement reveals the limb",
+        "when_to_use": "When the opponent's bridge creates arm exposure as they attempt to rotate and slide their arm free from leg entanglement",
+        "targets_outcome": "Mounted Crucifix/Bottom",
+        "if_successful": "Opponent must abandon escape attempt to defend the submission threat, returning their focus to survival rather than continuing escape",
+        "risk": "Overcommitting to the submission may compromise your mount base if the bridge is powerful enough to shift your weight during the armbar transition"
+      },
+      {
+        "action": "Transition smoothly to standard mount control if arm entanglement becomes compromised beyond recovery",
+        "when_to_use": "When the opponent has successfully extracted one arm and you cannot re-trap it without risking complete position loss during the struggle",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Maintain dominant mount position with full weight control, preventing guard recovery and retaining all mount-based submission options",
+        "risk": "Lose the significant crucifix control advantage, though standard mount remains a highly dominant position worth 4 points"
+      },
+      {
+        "action": "Drive chest pressure forward and attack the neck immediately during the opponent's post-bridge recovery phase",
+        "when_to_use": "Immediately after the opponent's bridge attempt collapses and they settle back to the mat, during the brief recovery window when defenses are weakest",
+        "targets_outcome": "Mounted Crucifix/Bottom",
+        "if_successful": "Deepen overall control and create immediate submission threat during opponent's recovery phase, forcing them into pure survival mode",
+        "risk": "Forward weight shift may be exploited if the opponent chains a second bridge attempt immediately, catching you in transitional balance"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Mounted Crucifix/Bottom",
+        "how": "Maintain tight leg entanglement throughout the bridge by spreading base wide, lowering hips immediately, and squeezing knees together on trapped arms. Ride the opponent's hip movement rather than fighting rigidly against it, allowing your weight to naturally resettle as their bridge collapses. Use the post-bridge recovery window to deepen control or initiate submission attacks."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "If arm extraction occurs despite your defensive adjustments, immediately release the compromised leg entanglement and reset to standard mount positioning with hips heavy on the opponent's torso. Drive weight through hips to prevent guard recovery and begin standard mount submission sequences before the opponent can establish defensive frames with their newly freed arms."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Posting hands on the mat to maintain base during the bridge rather than using hip weight",
+        "consequence": "Creates space between your torso and the opponent's body that facilitates arm extraction, undermining the primary leg-based control mechanism",
+        "correction": "Keep weight heavy through hips and lower your center of gravity by spreading knees wider rather than posting hands. Use grapevine legs or wide knee base for stability against the bridge force"
+      },
+      {
+        "error": "Attempting to forcefully re-trap a partially extracted arm against the opponent's momentum and escape direction",
+        "consequence": "Creates a scramble dynamic that may result in complete position loss as you fight for one arm while the opponent's hips escape underneath",
+        "correction": "If the arm is more than halfway extracted, accept the loss and transition immediately to standard mount control rather than chasing the crucifix configuration"
+      },
+      {
+        "error": "Maintaining rigid leg position without adjusting to the lateral direction of the bridge force",
+        "consequence": "The bridge's lateral component can sweep you off balance if your legs do not adapt to the directional commitment, potentially resulting in full position loss",
+        "correction": "Adjust your base in the direction of the bridge by widening the knee on the side being driven toward while maintaining arm control with the opposite leg"
+      },
+      {
+        "error": "Abandoning mounted crucifix prematurely when the bridge does not actually threaten your position",
+        "consequence": "Voluntarily giving up the most dominant control position in the game when the escape attempt was insufficient to create genuine danger",
+        "correction": "Evaluate the actual threat level of each bridge before overreacting. Small bridges that do not compromise your balance or loosen your leg control do not require major positional changes — simply squeeze tighter and maintain"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the primary recognition cues that indicate your opponent is about to attempt a bridge escape?",
+        "answer": "The most reliable cues are feet planting flat on the mat with heels close to buttocks, visible hip muscle tension and core engagement, the head turning to one side indicating bridge direction, changes in breathing pattern suggesting maximum effort preparation, and repositioning of any free arm toward the trapped arm side. Recognizing these cues early allows proactive base adjustment before the explosive movement, which is significantly more effective than reactive defense after the bridge initiates."
+      },
+      {
+        "question": "When should you abandon mounted crucifix control and accept standard mount instead?",
+        "answer": "Transition to standard mount when the opponent has successfully extracted one arm and you cannot re-trap it without risking complete position loss through the scramble. Also transition if repeated bridges have loosened your leg control to the point where maintaining the crucifix requires excessive energy that could be better spent attacking from mount. Standard mount with full weight control is still worth 4 points and offers diverse submission opportunities, making it a strong fallback from a compromised crucifix."
+      },
+      {
+        "question": "How do you use an opponent's bridge attempt to create submission opportunities?",
+        "answer": "When the opponent bridges, they often expose their arms during the extraction attempt and their neck becomes accessible as their chin separates from the chest due to spinal extension. Attack the exposed arm with immediate armbar pressure when they attempt extraction, or sink a choking arm around their neck during the moment their chin lifts. The key timing is during the bridge's peak when the opponent is most committed to escape and least able to switch to submission defense."
+      },
+      {
+        "question": "What is the optimal weight distribution response when you feel a powerful bridge initiating beneath you?",
+        "answer": "Drop your hips immediately and spread your knees wider to create a more stable triangular base. Do not post your hands, as this creates exploitable space underneath. Instead, drive your weight through your pelvis directly into the opponent's midsection. If the bridge has significant lateral force, shift your weight slightly toward the direction of the bridge to counterbalance. The goal is to ride the movement like a wave rather than resist it rigidly, allowing your weight to naturally resettle as the bridge collapses."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying bridge initiation cues through tactile feedback",
+        "description": "Partner performs bridge escapes from mounted crucifix with verbal countdown before each attempt. Practice identifying the physical cues — feet planting, hip loading, head turning — before the verbal signal. Develop sensitivity to detect escape attempts through feeling weight shifts rather than relying on visual observation."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Pressure",
+        "focus": "Riding explosive bridges without losing positional control",
+        "description": "Partner performs full-intensity bridge escapes while you focus exclusively on maintaining crucifix control through base adjustments. No submission attacks allowed — pure control maintenance against maximum effort. Develop the reflexive base-widening and hip-drop response to bridge initiation through repetition."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Transitioning from defense to offense during escape attempts",
+        "description": "Combine bridge defense with immediate submission attacks during the escape recovery phase. Practice flowing from base maintenance into armbar or choke entries when the bridge creates arm or neck exposure. Develop the ability to maintain control and attack simultaneously without sacrificing position."
+      },
+      {
+        "phase": "Phase 4: Transition Decision-Making",
+        "focus": "Choosing between crucifix retention and mount transition",
+        "description": "Practice recognizing when crucifix control is compromised beyond recovery and smoothly transitioning to standard mount without hesitation. Develop the tactical judgment for when to fight for crucifix retention versus accepting mount as a strong fallback position. Include scenarios with partial arm extraction and compromised leg control."
       }
     ]
   }

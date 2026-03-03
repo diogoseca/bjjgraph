@@ -101,17 +101,27 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Bridge and Roll]]** (9% of attempts)
 
-- **[[Turtle Transition]]** (21% of attempts)
+- **[[Roll to Turtle]]** (45% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (11% of attempts)
 
-- **[[Arm Extraction]]** (19% of attempts)
+- **[[Arm Extraction]]** (13% of attempts)
 
-- **[[Ghost Escape]]** (12% of attempts)
+- **[[Ghost Escape]]** (7% of attempts)
+
+- **[[Explosive Bridge to Guard Recovery]]** (2% of attempts)
+
+- **[[Side Control Escape]]** (0% of attempts)
+
+- **[[Bridge Escape from Modified Scarf Hold]]** (0% of attempts)
+
+- **[[Bridge from Modified Scarf Hold]]** (0% of attempts)
+
+- **[[Escape Modified Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +178,25 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Americana]]** (14% of attempts)
+- **[[Americana]]** (12% of attempts)
 
-- **[[Kimura]]** (13% of attempts)
+- **[[Kimura]]** (11% of attempts)
 
-- **[[Armbar Finish]]** (12% of attempts)
+- **[[Armbar Finish]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Side Control to Mount]]** (23% of attempts)
 
-- **[[Side Control to North-South]]** (14% of attempts)
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[North-South Choke]]** (11% of attempts)
+- **[[North-South Choke]]** (9% of attempts)
 
-- **[[Armbar on Free Arm]]** (10% of attempts)
+- **[[Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Arm Triangle]]** (11% of attempts)
+- **[[Arm Triangle]]** (9% of attempts)
+
+- **[[Modified Scarf to Kesa Gatame]]** (4% of attempts)
+
+- **[[Modified Scarf to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

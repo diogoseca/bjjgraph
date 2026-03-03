@@ -1,10 +1,14 @@
 {
   "name": "Posture Up from Triangle",
-  "description": "TODO: Write 150-160 character SEO description for Posture Up from Triangle.",
+  "description": "Master the Posture Up from Triangle escape in BJJ. Break triangle control with systematic posture recovery to reach open guard safely and effectively.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "triangle defense",
+    "posture recovery",
+    "escape technique",
+    "guard defense",
+    "triangle escape"
   ],
   "from_position": "Triangle Control/Top",
   "outcomes": [
@@ -25,114 +29,370 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Posture Up from Triangle.",
+  "overview": "Posture Up from Triangle is a fundamental defensive technique executed when caught in an opponent's triangle choke from the top position. The escape centers on recovering spinal alignment and driving upward through the hips to create enough vertical space to relieve arterial compression and begin working free from the leg configuration. This technique addresses the most immediate survival need in triangle control—relieving the choking pressure—while creating a pathway to transition into open guard top position where the previously trapped player can begin guard passing.\n\nThe mechanics of posturing up require coordinating multiple body systems simultaneously. The trapped player must connect their hands together behind the opponent's lower back or hips, tuck their chin to protect the neck, and drive their spine into extension using the powerful posterior chain. The critical insight is that posture recovery is hip-driven rather than neck-driven—the feeling should resemble a deadlift or hip extension against the resistance of the opponent's legs. This hip-first approach generates substantially more force than neck muscles alone and creates a structural advantage that the bottom player's leg compression cannot easily overcome.\n\nStrategic timing is critical for success. Attempting to posture too early before securing proper grips and base wastes energy, while waiting too long allows the bottom player to optimize their choking angle and hip extension. The ideal window opens when the triangle is locked but the bottom player has not yet achieved their 30-45 degree angle adjustment, as this is the phase where the choking mechanics are least efficient and posture recovery faces the least resistance. The posture-up functions as part of a complete triangle defense system alongside stacking, lateral clearing, and grip fighting escapes.",
   "conditions": [
-    "TODO"
+    "Caught in opponent's triangle control with one arm trapped inside the leg configuration",
+    "Triangle is locked but not yet at maximum tightness with full hip extension and optimal angle",
+    "Sufficient consciousness and energy to execute sustained posture recovery effort",
+    "Base available through knees or feet to generate hip-driven upward force",
+    "Ability to establish connected grip behind opponent's hips or lower back"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Standing Posture-Up",
+      "description": "When the opponent stands up while in the triangle rather than remaining on their knees, they use full leg drive to power posture recovery. This standing variation generates significantly more force but sacrifices base stability, making sweeps more available for the triangle holder.",
+      "when_to_use": "When kneeling posture-up has stalled and additional force is needed, or when the match situation favors a riskier but more powerful escape attempt"
+    },
+    {
+      "variant_name": "Stack-to-Posture Combination",
+      "description": "Rather than posturing straight up, this variant combines forward stacking pressure with gradual posture recovery. The stacking compresses the triangle configuration first by driving the opponent's hips over their shoulders, then posture recovery becomes easier as the bottom player's legs are structurally compromised from the stack.",
+      "when_to_use": "When the triangle holder has very strong downward pulling grips that prevent direct upward posture—forward stacking neutralizes their pulling mechanics before transitioning to vertical posture"
+    },
+    {
+      "variant_name": "No-Gi Posture Recovery",
+      "description": "In no-gi settings without collar grips available, the posture-up relies entirely on body-on-body contact. The connected grip placement shifts to around the opponent's waist or legs, and the escape incorporates more active neck positioning and shoulder walking to create escape angles less available in gi-based triangle configurations.",
+      "when_to_use": "No-gi grappling situations where the absence of gi grips changes the control dynamics and creates different posture recovery opportunities"
     }
   ],
-  "position_integration": "TODO: Write position integration for Posture Up from Triangle.",
+  "position_integration": "Posture Up from Triangle is a critical component of the complete triangle defense system, functioning alongside the stack defense, lateral clearing techniques, and grip fighting escapes as complementary approaches to surviving and escaping triangle control. This technique specifically addresses the most fundamental aspect of triangle vulnerability—broken posture—and its success creates a direct pathway to open guard top where the previously trapped player can begin guard passing. The posture-up connects to the broader defensive framework by serving as the first-line response that, even when partially successful, creates space for secondary escape techniques. In the positional hierarchy, successfully completing the posture-up represents a significant improvement from a high-risk submission position to a neutral guard engagement.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Triangle Control",
+      "relationship": "Source position where this escape technique is initiated from the top defensive role"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary target position reached upon successful posture recovery and triangle extraction"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when triangle holder sweeps during posture-up attempt"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Related defensive concept sharing core posture mechanics applicable across guard positions"
+    },
+    {
+      "name": "Complete Triangle Escape from Top",
+      "relationship": "Comprehensive escape sequence that may incorporate posture-up as initial phase"
+    },
+    {
+      "name": "Stack Defense",
+      "relationship": "Alternative triangle defense that combines with posture-up in chain escapes"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "The primary submission threat being defended against through posture recovery"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Secondary threat position the triangle holder may transition to during posture-up"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Common position reached if posture recovery is partial and triangle is cleared incompletely"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternate submission threat when posture-up creates stacking angle for triangle holder"
     }
   ],
   "attacker": {
     "name": "Posture Up from Triangle Attacker",
-    "description": "TODO: Write attacker description for Posture Up from Triangle.",
-    "overview": "TODO: Write attacker overview for Posture Up from Triangle.",
+    "description": "Execute the Posture Up from Triangle escape in BJJ. Step-by-step guide to recovering posture through hip drive, connected grips, and systematic spine extension against triangle control.",
+    "overview": "As the player caught in the triangle, your primary objective is recovering spinal alignment to relieve arterial compression and create a pathway out of the submission. The posture-up is the most direct approach to triangle defense, using the powerful posterior chain muscles to overcome the leg compression that maintains the choke. This technique requires disciplined grip establishment before generating force, systematic hip-driven extension rather than neck-based pulling, and constant attention to the opponent's angle adjustment that determines choking efficiency. Success depends on addressing both the vertical component (posture height) and the angular component (squaring your shoulders to opponent's hips) simultaneously, as partial solutions in either dimension leave the choke effective enough to threaten consciousness.",
     "key_principles": [
-      "TODO"
+      "Drive posture through hip extension rather than pulling head up with neck muscles—the posterior chain generates far more force than the cervical extensors",
+      "Establish connected grips behind opponent's hips before generating upward force to create a unified structural frame for posture recovery",
+      "Tuck chin to chest before and throughout posturing to minimize neck exposure and reduce effectiveness of the choking angle",
+      "Keep elbows tight to body throughout the posture-up to prevent opponent from isolating the trapped arm for armbar transitions",
+      "Address the choking angle by squaring your shoulders to opponent's hips rather than allowing them to maintain perpendicular positioning",
+      "Use incremental posture gains with controlled extension rather than explosive jerking that compromises base and invites sweeps"
     ],
     "setup_requirements": [
-      "TODO"
+      "Trapped in triangle control with one arm inside and one arm outside the opponent's leg configuration",
+      "Chin tucked to chest to protect neck and reduce immediate choking pressure before beginning escape",
+      "Connected grip established behind opponent's lower back or hips using Gable grip or S-grip",
+      "Base stabilized through knees and feet with weight centered to prevent being swept during upward drive",
+      "Assessment of opponent's angle and lock tightness to confirm posture-up is viable versus requiring alternative escape"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure Connected Grip Behind Hips",
+        "description": "Before attempting any upward movement, connect both hands together behind your opponent's lower back or hips using a Gable grip (palm-to-palm) or S-grip. This connected grip creates a unified structural frame that distributes the force of your posture-up across your entire upper body rather than relying on individual arm strength. The grip placement at hip level is critical—too high allows the opponent to pull your head down more effectively, while proper hip-level placement gives you leverage to drive their hips away as you posture."
+      },
+      {
+        "step_number": 2,
+        "action": "Tuck Chin and Align Spine",
+        "description": "Before generating upward force, tuck your chin firmly to your chest and bring your shoulders together to minimize the space between your neck and shoulder on the trapped side. This chin tuck reduces the effectiveness of the choking angle by limiting the arterial compression the opponent's legs can create. Simultaneously, engage your core and back extensors to prepare for the posture-up drive. This preparatory alignment is essential—attempting to posture without it results in neck-first extension that worsens the choke."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive Hips Forward and Upward",
+        "description": "Initiate the posture recovery by driving your hips forward and upward toward your opponent's hips rather than pulling your head backward. This hip-first drive is the key mechanical principle—the posterior chain generates substantially more force than neck muscles. Walk your knees forward slightly to get your hips underneath your shoulders as you drive upward. The feeling should resemble a deadlift or hip extension movement against the resistance of your opponent's legs pulling your head down."
+      },
+      {
+        "step_number": 4,
+        "action": "Square Shoulders to Opponent's Hips",
+        "description": "As you gain posture height, actively work to square your shoulders relative to your opponent's hips. The triangle choke achieves maximum pressure at 30-45 degrees off your centerline—by squaring up, you directly address the choking geometry and reduce arterial compression. Use your connected grip to push their hips flat while driving your torso upright. This squaring movement often requires walking your knees laterally to reposition your body alignment relative to their hip angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Stack and Compress Triangle Configuration",
+        "description": "Once you have recovered partial posture with squared shoulders, continue driving upward and slightly forward to begin stacking your opponent's hips over their shoulders. This stacking motion reverses the pressure dynamic—instead of them pulling you down, you are driving them backward and compromising their hip extension capability. Maintain your connected grip throughout and keep your trapped arm's elbow tight to prevent armbar transitions. The stacking creates breathing room and reduces choking pressure by compressing the bottom player's leg configuration."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract Head from Triangle",
+        "description": "With sufficient posture recovered and the triangle loosened through stacking, begin working your head free from the triangle configuration. Push their top leg away from your neck using your free hand while maintaining posture through your connected grip. As your head clears the triangle, immediately establish distance and wide base to prevent any last-second sweep attempts as you exit the submission. Keep your weight centered and hips low during extraction to maintain balance."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Open Guard Top Position",
+        "description": "Upon successfully extracting from the triangle, immediately establish strong open guard top positioning by controlling your opponent's legs or hips to prevent them from re-establishing any guard variation. Push their knees together or pin one leg while stepping back to create safe distance. Your priority shifts from escape to guard management—the bottom player will attempt to re-establish grips and pull you back into a dangerous configuration. Maintain posture, establish your own grips, and begin your guard passing sequence."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent pulls head down aggressively and extends hips to maximize choking pressure as you begin to posture",
+        "effectiveness": "High",
+        "your_response": "Maintain connected grip behind hips and focus entirely on hip drive rather than fighting the head pull directly—the posterior chain will overpower their pulling force if your grip and base are solid and you drive incrementally",
         "targets_outcome": "Triangle Control/Top"
+      },
+      {
+        "counter": "Opponent adjusts angle by hip-walking to re-establish 30-45 degree position as you attempt to square up",
+        "effectiveness": "High",
+        "your_response": "Follow their angle adjustment by walking your knees laterally to match their hip movement, maintaining your squaring effort as an ongoing process rather than a one-time correction",
+        "targets_outcome": "Triangle Control/Top"
+      },
+      {
+        "counter": "Opponent isolates the trapped arm and begins transitioning to armbar during posture recovery",
+        "effectiveness": "Medium",
+        "your_response": "Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up—address the arm isolation by pushing their hip down with your free hand before resuming upward drive",
+        "targets_outcome": "Triangle Control/Top"
+      },
+      {
+        "counter": "Opponent uses hip bump or scissor motion to sweep as your weight shifts upward during posture attempt",
+        "effectiveness": "Medium",
+        "your_response": "Maintain wide base through your knees with weight centered—use incremental posture gains rather than explosive movements that shift your center of gravity laterally and compromise balance",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling head backward using neck muscles instead of driving hips forward through posterior chain",
+        "consequence": "Strains neck muscles, provides minimal force against leg compression, and often worsens choke angle as head extension opens the front of the neck to increased pressure",
+        "correction": "Initiate posture through hip drive and posterior chain engagement—think deadlift mechanics rather than neck extension, keeping chin tucked while driving hips up and forward"
+      },
+      {
+        "error": "Attempting posture-up with disconnected hands rather than establishing connected grip first",
+        "consequence": "Individual arm strength is insufficient against leg compression, allows opponent to break your frame by attacking one arm at a time, and wastes energy without meaningful posture gain",
+        "correction": "Always establish connected grip (Gable grip or S-grip) behind opponent's hips before attempting any upward drive—the unified frame multiplies your effective force"
+      },
+      {
+        "error": "Extending chin upward or looking up during posture recovery instead of maintaining chin tuck",
+        "consequence": "Exposes the front of the neck to maximum choking pressure, increases arterial compression angle, and can result in rapid unconsciousness if the triangle is tight",
+        "correction": "Maintain chin firmly tucked to chest throughout the entire posture-up sequence—the chin tuck is a non-negotiable safety element protecting the carotid arteries during escape"
+      },
+      {
+        "error": "Posturing up explosively without first establishing base underneath center of gravity",
+        "consequence": "Explosive upward movement without proper base shifts weight backward, creating sweep opportunities for the bottom player and often resulting in being rolled to bottom position",
+        "correction": "Build posture incrementally by walking knees forward first to establish base under your center of gravity, then drive upward in a controlled manner that maintains balance throughout"
+      },
+      {
+        "error": "Ignoring the angle of opponent's body and only focusing on vertical posture height",
+        "consequence": "Opponent maintains optimal 30-45 degree choking angle, meaning even significant posture recovery does not relieve choking pressure effectively",
+        "correction": "Address both posture height and opponent's angle simultaneously—square your shoulders to their hips as you posture, using your grip to push their hips flat and eliminate their angular advantage"
+      },
+      {
+        "error": "Neglecting to keep trapped arm's elbow tight to ribcage during the posture-up sequence",
+        "consequence": "Creates space for opponent to isolate the trapped arm and transition to armbar, losing the escape opportunity and entering a new submission threat",
+        "correction": "Maintain elbow-to-ribcage connection on the trapped side throughout the entire escape—this protects against both choke tightening and armbar transitions simultaneously"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Basic posture recovery mechanics and grip placement",
+        "description": "Practice connected grip placement and hip drive motion against a partner with triangle locked at 30% resistance. Focus on chin tuck, Gable grip establishment behind hips, and the feeling of driving through the posterior chain rather than pulling with the neck. Complete 10 repetitions each side with emphasis on correct body mechanics."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Recognizing optimal windows for posture recovery",
+        "description": "Partner applies triangle at varying tightness levels and angles. Practice identifying when posture-up is viable versus when alternative escapes like stacking or lateral clearing are more appropriate. Develop sensitivity to opponent's angle and lock tightness as cues for technique selection."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Maintaining posture against active defensive responses",
+        "description": "Partner actively counters the posture-up by adjusting angle, pulling head down aggressively, and threatening armbar transitions. Practice maintaining posture gains while addressing each counter response in real time. Progressive resistance from 50% to 80% intensity."
+      },
+      {
+        "phase": "Phase 4: Chain Sequences",
+        "focus": "Connecting posture-up to complete escape sequences",
+        "description": "Practice flowing from posture-up attempt into stacking, head extraction, and open guard top consolidation as a complete chain. If posture-up stalls, chain into alternative escapes like stack defense or triangle clear to side. Build automatic decision-making based on partner resistance."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from triangle control",
+        "description": "Positional sparring starting in triangle control top. Attempt posture-up and all available escapes while partner works to finish or transition to secondary attacks at full competition intensity. Reset on successful escape or submission. Build competitive-speed execution and decision-making."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary force generation mechanism for the posture-up, and why is it more effective than using neck muscles?",
+        "answer": "The primary force comes from the posterior chain through hip extension—glutes, hamstrings, and back extensors working together. This muscle group generates substantially more force than the cervical extensors and creates a structural advantage because the hip drive addresses the core control mechanism of the triangle rather than fighting the symptom. The posterior chain can produce hundreds of pounds of extension force versus the limited capacity of isolated neck muscles."
+      },
+      {
+        "question": "Your opponent has a tight triangle locked and begins extending their hips for maximum pressure—should you attempt to posture up immediately?",
+        "answer": "No. Attempting to posture against maximum hip extension and optimal angle is the lowest-percentage timing. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear."
+      },
+      {
+        "question": "What connected grip options are available for the posture-up, and where should the grip be placed?",
+        "answer": "The primary grip options are Gable grip (palm-to-palm), S-grip (fingers interlocked), and butterfly grip (overlapping fingers). The grip should be placed behind the opponent's lower back at hip level—not around their neck or upper back. Hip-level placement provides the best leverage for driving their hips away and gives direct mechanical advantage against their leg configuration. The connected grip is essential because it creates a unified structural frame distributing force across your entire upper body."
+      },
+      {
+        "question": "During the posture-up, your opponent begins pulling your trapped arm across their body—what is the immediate response?",
+        "answer": "Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up. The arm isolation indicates an armbar transition attempt, which takes priority over continuing posture recovery. Use your free hand to push their hip or leg down while keeping the elbow tight. Only resume the posture-up once you have secured the elbow position and prevented the arm from being pulled across. The armbar threat is immediate and must be addressed before continuing escape."
+      },
+      {
+        "question": "Why is squaring your shoulders to the opponent's hips a critical step during posture recovery?",
+        "answer": "The triangle choke achieves maximum pressure when the bottom player angles their body 30-45 degrees off your centerline, creating optimal compression geometry against the carotid arteries. Squaring your shoulders directly to their hips eliminates this angular advantage, reducing the effectiveness of the choke even before you achieve full posture height. Addressing the angle is as important as addressing the height—a squared position with moderate posture may be safer than full height with the opponent maintaining optimal angle."
+      },
+      {
+        "question": "What body positioning adjustments maintain your base during the posture-up and prevent being swept?",
+        "answer": "Keep your knees wide on the mat for a broad base, with weight centered between your knees rather than shifted to one side. Walk your knees forward incrementally to keep your hips under your shoulders as you drive upward—this prevents your center of gravity from moving behind your base. Avoid explosive upward jerking that shifts weight backward. Use controlled incremental gains that maintain balance throughout. If you feel balance compromising, pause and re-establish base before continuing."
+      },
+      {
+        "question": "If the posture-up attempt stalls and you cannot gain further height, what chain options are available?",
+        "answer": "If posture recovery stalls, chain into: stack defense by driving forward over the opponent to compress their triangle configuration and relieve pressure through forward stacking. Triangle clear to side by using partial posture gained to begin working laterally. Alternatively, the stall may indicate you have not adequately squared the angle or your grip has slipped—reset the grip and address angle before reattempting. The posture-up is one option in a complete triangle defense system, not an isolated technique."
+      },
+      {
+        "question": "What is the most critical safety consideration when attempting to posture up from a tight triangle?",
+        "answer": "The most critical safety consideration is recognizing when the choke is tight enough to cause unconsciousness and tapping before losing consciousness. A properly locked triangle with optimal angle and hip extension compresses the carotid arteries, and unconsciousness can occur in 4-8 seconds without warning signs. If you feel significant bilateral neck pressure, tunnel vision, lightheadedness, or visual changes, tap immediately. Never fight a fully locked triangle past the point of safety—the posture-up is an early-to-mid-stage escape, not a survival technique against a fully sunk choke."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Posture Up from Triangle."
+    "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Always tap early if you feel significant bilateral neck pressure, tunnel vision, or lightheadedness. When drilling, communicate with your partner about pressure levels and establish clear tap signals. Never attempt to fight through a fully locked triangle with maximum pressure—recognize when the choke has progressed past the escape window and accept the tap. Training safety requires honest assessment of position severity and willingness to reset rather than risk injury or loss of consciousness."
   },
   "defender": {
     "name": "Posture Up from Triangle Defender",
-    "description": "TODO: Write defender description for Posture Up from Triangle.",
-    "overview": "TODO: Write defender overview for Posture Up from Triangle.",
+    "description": "Defend against the Posture Up from Triangle in BJJ. Maintain triangle control by preventing posture recovery through angle management, head control, and active hip extension.",
+    "overview": "As the triangle holder, your primary defensive objective against the posture-up attempt is maintaining broken posture and preventing your opponent from recovering spinal alignment. The posture-up represents the most fundamental escape your opponent will attempt, making your response to it a critical skill for finishing triangles consistently. Your defensive system relies on three interconnected mechanisms: active head control that resists the upward drive, hip extension that maintains choking pressure, and angle preservation that ensures optimal compression geometry even as the opponent fights for posture. Understanding that the opponent's posture-up is hip-driven rather than neck-driven informs your response—you must address their hip movement and connected grip rather than simply pulling their head down. The most effective defense combines constant downward pull on the head with sustained hip extension and rapid angle adjustment to make posture recovery progressively more difficult and energy-expensive for the escaping player.",
     "key_principles": [
-      "TODO"
+      "Maintain constant downward pull on opponent's head using grips on the back of the head, neck, or gi collar to resist their hip-driven posture attempt",
+      "Extend hips actively and squeeze knees together when sensing upward drive to maximize choking pressure during their escape attempt",
+      "Preserve your 30-45 degree angle off centerline by hip-walking whenever opponent attempts to square their shoulders to your hips",
+      "Control the trapped arm by gripping their wrist or sleeve and pulling it across their neck to maintain choke amplification throughout their escape",
+      "Read the opponent's grip establishment as the earliest cue for posture-up and attack their connected grip before they generate upward force",
+      "Use free leg and hip mobility to constantly readjust angle and pressure rather than relying on static leg squeeze alone"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent connects both hands together behind your lower back or hips, establishing a Gable grip or S-grip frame",
+      "Opponent tucks their chin firmly to their chest and begins shifting weight forward through their knees",
+      "Opponent walks their knees forward to reposition their base underneath their shoulders for upward drive",
+      "Opponent's back begins to straighten and spine extends as they generate upward force through hip extension",
+      "Opponent attempts to square their shoulders to your hips rather than remaining at the 30-45 degree angle you established"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Pull head down aggressively while extending hips and squeezing knees to maximize choking pressure",
+        "when_to_use": "Immediately when you feel opponent establishing connected grip or beginning any upward drive",
         "targets_outcome": "Triangle Control/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent's posture-up is defeated, maintaining full triangle control with submission threat intact",
+        "risk": "If grip on head is broken by strong hip drive, opponent may achieve partial posture quickly"
+      },
+      {
+        "action": "Hip-walk to maintain 30-45 degree angle as opponent attempts to square their shoulders to your hips",
+        "when_to_use": "When opponent begins squaring their shoulders during posture attempt, reducing choke effectiveness",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "Maintains optimal choking geometry despite opponent's efforts to neutralize the angle",
+        "risk": "Hip movement may create momentary looseness in triangle lock during angle adjustment"
+      },
+      {
+        "action": "Transition to armbar by isolating the trapped arm when posture-up creates space that loosens the triangle",
+        "when_to_use": "When opponent gains partial posture and the triangle choke becomes less effective but the arm remains trapped",
+        "targets_outcome": "Triangle Control/Top",
+        "if_successful": "Creates new armbar submission threat from their escape attempt, forcing them to address a different danger",
+        "risk": "If armbar transition fails, opponent may complete posture recovery during the positional change"
+      },
+      {
+        "action": "Time a hip bump sweep using opponent's elevated center of gravity during their upward drive",
+        "when_to_use": "When opponent's weight shifts upward and laterally during posture attempt, compromising their base",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Sweeps opponent using their own upward momentum, reversing the position entirely",
+        "risk": "If sweep fails, the triangle may be loosened and opponent achieves full posture recovery"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Open Guard/Top",
-        "how": "TODO"
+        "outcome": "Triangle Control/Top",
+        "how": "Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working simultaneously. Attack the opponent's connected grip by breaking it with your hands or using your legs to restrict their arm movement. The combination of head control, sustained leg pressure, and angle management creates compounding resistance that makes each successive posture attempt more exhausting for the opponent."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip bump or scissor sweep when the opponent's weight shifts upward during their posture attempt. Their elevated center of gravity during the posture-up makes them vulnerable to lateral displacement. Use your triangle leg configuration to redirect their momentum sideways while their balance is compromised by the upward drive."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Relying only on pulling head down without extending hips or maintaining angle simultaneously",
+        "consequence": "Opponent's posterior chain easily overpowers isolated arm pulling force, allowing gradual posture recovery that eventually breaks the triangle control",
+        "correction": "Combine head pull with active hip extension and knee squeeze—the three mechanisms together create compounding resistance that is much harder to overcome than any single element alone"
+      },
+      {
+        "error": "Maintaining static angle position without adjusting as opponent works to square their shoulders",
+        "consequence": "Opponent neutralizes the choking geometry by squaring shoulders to your hips, reducing choke effectiveness even with the triangle still locked",
+        "correction": "Actively hip-walk to maintain your 30-45 degree angle whenever you feel the opponent attempting to square up—angle preservation is equally important as leg pressure for choke effectiveness"
+      },
+      {
+        "error": "Panic-squeezing with maximum leg force when first sensing the posture-up attempt",
+        "consequence": "Rapid fatigue of leg muscles from explosive squeezing, leading to diminished control over the next 30-60 seconds and progressively easier escape for the opponent",
+        "correction": "Apply steady, sustained compression rather than explosive bursts—the submission and control come from constant accumulated pressure over time, not single burst efforts that fatigue the legs quickly"
+      },
+      {
+        "error": "Releasing head control to attack opponent's connected grip behind your back with both hands",
+        "consequence": "Opponent immediately capitalizes on released head control to drive posture upward, gaining significant height before you can re-establish downward pulling control",
+        "correction": "Address opponent's connected grip using your legs and hip adjustment rather than releasing head control—break their grip with one hand while maintaining head pull with the other, or use knee squeeze to restrict their arm movement"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the three interconnected defensive mechanisms for preventing the posture-up, and why must they work together?",
+        "answer": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off centerline. They must work together because each individually is insufficient—head control alone is overpowered by posterior chain hip drive, hip extension without proper angle is mechanically weak, and angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts."
+      },
+      {
+        "question": "You feel your opponent connecting their hands behind your hips—what is the earliest defensive response to prevent their posture-up?",
+        "answer": "The earliest response is to attack their connected grip before they can generate upward force. Use one hand to grip their outside wrist and pull it toward you, disrupting the Gable grip connection. Simultaneously increase hip extension and pull their head down to increase pressure before they establish their posture recovery frame. Preventing the grip connection is far easier than fighting a fully connected posture-up drive that has already built momentum."
+      },
+      {
+        "question": "Your opponent has gained partial posture despite your defensive efforts—what transitional options prevent the complete escape?",
+        "answer": "With partial posture, transition your offensive focus from triangle finish to secondary attacks that exploit their escape position. The armbar becomes available as their posture creates space but their arm remains inside the triangle. The omoplata transition works if they stack forward with partial posture. If the triangle is clearly compromised, maintain hip control and transition to open guard bottom with active grips rather than fighting a losing position—defensive awareness prevents giving up more than necessary."
+      },
+      {
+        "question": "How does understanding that the opponent's posture-up is hip-driven inform your defensive strategy?",
+        "answer": "Understanding hip-driven mechanics means your defense must address their hip movement rather than just fighting the head position. If they were pulling back with neck muscles alone, simple head control would suffice. Against hip drive, you need to prevent their hips from moving forward and up—use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, and squeeze your knees together to compress their shoulder structure. The defensive focus shifts from head-versus-head to hip-versus-hip engagement."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying posture-up attempts at earliest stage",
+        "description": "Partner attempts posture-up from triangle at 30% speed. Practice recognizing the earliest cues—grip establishment, chin tuck, knee walking—and initiating defensive response before they generate meaningful upward force. Build pattern recognition for the most common posture-up setup sequence."
+      },
+      {
+        "phase": "Phase 2: Active Defense",
+        "focus": "Coordinating the three defensive mechanisms together",
+        "description": "Partner attempts posture-up at progressive resistance from 50% to 70%. Practice coordinating head pull, hip extension, and angle adjustment as an integrated system. Focus on maintaining all three simultaneously rather than relying on any single mechanism to prevent the escape."
+      },
+      {
+        "phase": "Phase 3: Transition Integration",
+        "focus": "Chaining defensive responses into secondary attacks",
+        "description": "Partner attempts posture-up at full resistance. When posture-up is partially successful, practice transitioning to armbar, omoplata, or back take rather than fighting a losing position. Develop the judgment to know when to maintain triangle defense versus when to transition to a secondary offensive opportunity."
+      },
+      {
+        "phase": "Phase 4: Competition Simulation",
+        "focus": "Full speed positional sparring defending all triangle escapes",
+        "description": "Start with triangle locked at competition intensity. Opponent uses all available escapes including posture-up, stacking, and lateral clearing. Practice maintaining control and finishing or transitioning based on opponent's escape selection. Build competitive-speed decision making and submission finishing."
       }
     ]
   }

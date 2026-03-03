@@ -1,10 +1,14 @@
 {
   "name": "New York Pass to Side Control",
-  "description": "TODO: Write 150-160 character SEO description for New York Pass to Side Control.",
+  "description": "Master the New York pass to side control in BJJ. Complete guide to escaping rubber guard with systematic posture recovery and pressure passing technique.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "guard pass",
+    "rubber guard escape",
+    "pressure passing",
+    "New York escape",
+    "10th Planet defense",
+    "side control transition",
+    "no-gi passing"
   ],
   "from_position": "New York/Top",
   "outcomes": [
@@ -25,114 +29,392 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for New York Pass to Side Control.",
+  "overview": "The New York Pass to Side Control is a systematic guard passing technique for escaping 10th Planet's Rubber Guard system. When trapped in the New York position with your arm caught in a deep overhook and your posture broken by the opponent's shin across your back, this pass provides a methodical pathway to achieve dominant side control through sequential posture recovery, grip fighting, and pressure application. The pass prioritizes patient, step-by-step dismantling of the rubber guard controls over explosive escape attempts that typically fail against competent guard players.\n\nThe fundamental mechanics involve first establishing a wide, stable base to resist sweeps, then systematically attacking the opponent's shin grip to create the opening for posture recovery. Once posture is partially recovered, the trapped arm is extracted through a corkscrew motion while maintaining constant forward pressure to prevent re-establishment of control. The final phase drives the knee through the centerline and consolidates side control with crossface pressure before the bottom player can recover guard or transition to alternative rubber guard positions.\n\nStrategically, this pass is most effective when the bottom player has committed to static New York control rather than actively transitioning to more advanced positions like Invisible Collar or Zombie. The pass exploits moments when the bottom player's shin grip weakens or when they initiate offensive transitions that momentarily compromise their structural control. The 55% success rate reflects the technical difficulty of escaping an established rubber guard but increases substantially when the passer maintains methodical execution and avoids the common error of rushing the arm extraction before securing adequate posture.",
   "conditions": [
-    "TODO"
+    "Opponent has established full New York control with deep overhook and shin across back",
+    "Top player has at least one free hand available for grip fighting the shin control",
+    "Sufficient mat space to establish wide base without wall or boundary restriction",
+    "Top player retains enough energy to execute methodical multi-step escape sequence"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Stack Pass Variation",
+      "description": "Instead of recovering posture upward, drive forward to stack the bottom player by walking your knees toward their head. This compresses their hips and neutralizes the flexibility advantage that makes rubber guard effective. The stacking pressure forces the shin to slide off your back naturally, eliminating the need to grip-fight the shin control before extracting your arm.",
+      "when_to_use": "When the bottom player has exceptional hip flexibility that makes standard posture recovery ineffective, or when they actively pull you forward creating momentum you can redirect into the stack."
+    },
+    {
+      "variant_name": "Backstep Pass Variation",
+      "description": "After extracting the trapped arm, instead of driving the knee through the centerline, backstep the free leg around the bottom player's guard to achieve side control from the opposite side. This avoids the half guard recovery that many rubber guard players use as a last-ditch defense when the standard pass is initiated.",
+      "when_to_use": "When the bottom player consistently recovers half guard during the knee-through phase, or when their leg dexterity makes direct passing through the centerline unreliable."
+    },
+    {
+      "variant_name": "Grip Break to Pressure Pass",
+      "description": "Focus the entire initial sequence on breaking the opponent's grip on their own shin using both hands simultaneously rather than grip fighting with one hand. Once the shin grip breaks, immediately drop heavy chest pressure and windshield-wiper the trapped leg free while the bottom player scrambles to re-establish control.",
+      "when_to_use": "When the opponent's shin grip is their primary control mechanism and their overhook is relatively shallow, making the grip break the most efficient path to freedom."
     }
   ],
-  "position_integration": "TODO: Write position integration for New York Pass to Side Control.",
+  "position_integration": "The New York Pass to Side Control occupies a critical role in the defensive toolkit against 10th Planet's Rubber Guard system. It connects the trapped New York Top position to the dominant Side Control Top position, converting a significant positional disadvantage into a scoring opportunity. This pass integrates with the broader guard passing system by teaching practitioners how to address flexible guard structures that cannot be overcome with standard pressure or speed-based passing. The skills developed in executing this pass—base establishment, grip fighting, methodical posture recovery, and pressure consolidation—transfer directly to escaping other advanced guard positions including Mission Control, Invisible Collar, and other rubber guard variants. Mastery of this pass is essential for any practitioner who regularly faces rubber guard players in competition or training.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "New York",
+      "relationship": "Source position where the pass begins with the passer trapped in rubber guard control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position achieved on successful completion of the pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position if the bottom player recovers guard during the pass"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent guard system containing New York and related positions"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related rubber guard position that precedes New York in the system progression"
+    },
+    {
+      "name": "Guard Pass from New York Control",
+      "relationship": "Alternative passing technique from the same trapped position"
+    },
+    {
+      "name": "New York Control Escape",
+      "relationship": "Related escape that returns to closed guard rather than passing to side control"
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Advanced rubber guard position the bottom player may transition to during pass attempt"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Intermediate posture position achieved during the passing sequence"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Fallback position if pass stalls but posture is partially recovered"
     }
   ],
   "attacker": {
     "name": "New York Pass to Side Control Attacker",
-    "description": "TODO: Write attacker description for New York Pass to Side Control.",
-    "overview": "TODO: Write attacker overview for New York Pass to Side Control.",
+    "description": "Complete guide to executing the New York pass to side control. Learn systematic posture recovery, grip fighting sequences, and pressure passing mechanics to escape rubber guard and achieve dominant side control.",
+    "overview": "The attacker in the New York Pass to Side Control is the top player currently trapped in the New York rubber guard position. Despite being in a defensive situation, the attacker must adopt a methodical offensive mindset focused on systematically dismantling each control point in the correct sequence. The pass requires exceptional patience and discipline, as the most common failure pattern involves rushing the arm extraction before establishing the base and posture needed to support it. Successful execution demands reading the bottom player's grip strength and transition timing to identify optimal windows for each phase of the escape-to-pass sequence. The attacker who maintains calm, sequential execution while constantly monitoring submission threats achieves side control at significantly higher rates than those who rely on explosive movement.",
     "key_principles": [
-      "TODO"
+      "Base before posture, posture before extraction—the sequential order is non-negotiable and skipping steps guarantees failure",
+      "Grip fight the shin-controlling hand as the primary unlock for the entire passing sequence",
+      "Corkscrew the trapped elbow downward and toward your hip rather than pulling straight back against the overhook",
+      "Maintain constant forward pressure throughout the pass to prevent re-establishment of broken controls",
+      "Drive the knee through the centerline immediately after arm extraction before the bottom player can recover guard",
+      "Monitor submission threats continuously since the majority of rubber guard submissions occur during escape attempts",
+      "Use your free hand as both a grip fighting tool and a frame against the hip to control distance"
     ],
     "setup_requirements": [
-      "TODO"
+      "Wide base established with knees spread apart creating stable triangular foundation against sweep attempts",
+      "Free hand positioned to attack opponent's shin grip near the ankle where leverage is greatest",
+      "Core fully engaged to resist the constant forward pulling force from the shin across your back",
+      "Weight distributed evenly across both knees rather than concentrated on the trapped arm side",
+      "Mental commitment to sequential execution rather than explosive single-movement escape"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish wide base",
+        "description": "Spread your knees apart as wide as possible to create a stable triangular base that resists sweep attempts from the bottom player. Your weight should be distributed evenly across both knees with your toes curled under for additional traction. This base is the foundation for everything that follows and must be solid before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Grip fight the shin control",
+        "description": "Use your free hand to attack the opponent's grip on their own shin near the ankle. Peel their fingers or strip the grip by driving your wrist underneath their hand and levering it away. This is the critical unlock for the entire pass because the shin across your back is what prevents posture recovery. Work persistently rather than explosively."
+      },
+      {
+        "step_number": 3,
+        "action": "Recover posture incrementally",
+        "description": "As the shin grip weakens or breaks, begin recovering your posture by engaging your posterior chain and driving your hips forward while lifting your chest. Do not attempt to snap upright in one movement. Instead, recover posture in small increments, consolidating each gain before pressing further. Keep your base wide throughout this phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Extract trapped arm via corkscrew motion",
+        "description": "With partial posture recovered, begin extracting your trapped arm by circling your elbow downward toward your hip in a corkscrew motion rather than pulling straight backward against the overhook. This rotational movement is biomechanically superior because it attacks the weakest angle of the overhook grip. Maintain forward pressure with your chest while extracting."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive knee through centerline",
+        "description": "The instant your arm comes free, immediately drive your knee through the centerline between the opponent's legs to prevent them from recovering any form of guard. Your free leg steps over while your formerly trapped leg slides through. Speed is critical here because the bottom player will attempt to close guard or establish half guard the moment they feel the overhook break."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish crossface and consolidate side control",
+        "description": "As your knee clears, immediately establish crossface pressure with your forearm or bicep across the opponent's neck and face. Drop your hips low and heavy against their hips to eliminate space. Your far hand controls their far hip to prevent knee insertion and guard recovery. Settle your weight and establish full side control before attempting any further advancement."
+      },
+      {
+        "step_number": 7,
+        "action": "Prevent guard recovery attempts",
+        "description": "In the first five seconds of side control establishment, the bottom player will make their most desperate guard recovery attempts including hip escaping, framing, and knee insertion. Maintain heavy hip pressure and active crossface control while using your near-side hand to block their far hip. Anticipate and shut down each recovery attempt to solidify the pass completion."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bottom player re-grips shin and pulls posture back down before arm extraction can begin",
+        "effectiveness": "High",
+        "your_response": "Maintain your base width and immediately re-engage grip fighting on their shin-controlling hand. Consider switching to the stack pass variation by driving your weight forward to compress their hips, neutralizing the shin control through stacking pressure rather than grip fighting.",
+        "targets_outcome": "New York/Top"
+      },
+      {
+        "counter": "Bottom player shoots leg over your shoulder for triangle as your arm begins extracting from the overhook",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Keep your extracted elbow tight to your body pointing downward to prevent the triangle lock from closing. Immediately posture toward the choking leg side while stacking forward to flatten their hips and neutralize the triangle angle. Use the stacked position to continue working the pass.",
+        "targets_outcome": "New York/Top"
+      },
+      {
+        "counter": "Bottom player times a hip bump sweep during posture recovery when your weight shifts backward",
+        "effectiveness": "Medium",
+        "your_response": "Maintain forward pressure throughout posture recovery rather than shifting weight backward. Recover posture through hip drive forward and chest lift rather than leaning back. If swept, immediately establish defensive frames and work to recover guard position.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to Invisible Collar by swimming hand behind your head during the grip fight",
+        "effectiveness": "High",
+        "your_response": "Tuck your chin and drive your head toward the mat on the overhook side to deny the hand position behind your head. If they establish Invisible Collar, return to base establishment and address the new control configuration before continuing the pass attempt.",
         "targets_outcome": "New York/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to extract the trapped arm before recovering posture and establishing base",
+        "consequence": "Bottom player easily sweeps with hip bump since your base is compromised, or advances to triangle submission as your arm comes partially free in a vulnerable position",
+        "correction": "Follow strict sequence: base first, grip fight shin second, recover posture third, then extract arm. Never skip steps regardless of how close freedom seems."
+      },
+      {
+        "error": "Pulling backward to create distance while the overhook and shin control remain intact",
+        "consequence": "Bottom player uses your backward momentum to sweep forward or follow your movement to maintain control, often advancing to more dominant rubber guard positions",
+        "correction": "Drive forward and down rather than backward. Address each control point through grip fighting and leverage at close range rather than trying to create distance."
+      },
+      {
+        "error": "Maintaining narrow base with knees together during the escape attempt",
+        "consequence": "Bottom player easily off-balances with minimal hip movement, resulting in sweeps to mount or back take transitions",
+        "correction": "Spread knees as wide as possible to create stable triangular base. Your base width directly determines your resistance to sweeps during every phase of the pass."
+      },
+      {
+        "error": "Using explosive single-movement escape attempts instead of methodical progression",
+        "consequence": "Each explosive failure opens different submission pathways while rapidly depleting energy, and the bottom player can anticipate and counter explosive movements more easily than steady pressure",
+        "correction": "Commit to methodical, pressure-based execution. Calm systematic approaches succeed significantly more often than explosive attempts against established rubber guard."
+      },
+      {
+        "error": "Failing to immediately establish crossface after arm extraction, creating a gap before side control",
+        "consequence": "Bottom player recovers guard during the transition window between arm extraction and side control establishment, nullifying the entire pass",
+        "correction": "Train the arm extraction to crossface establishment as one continuous movement. The moment your arm comes free, it goes directly to crossface position without pause."
+      },
+      {
+        "error": "Ignoring submission threats while focused purely on passing mechanics",
+        "consequence": "Getting submitted by triangle, omoplata, or armbar during escape attempt because defensive awareness was abandoned in favor of passing focus",
+        "correction": "Maintain constant peripheral awareness of submission threats throughout. Each phase of the pass has specific submission dangers that must be monitored while executing."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Sequential Mechanics",
+        "focus": "Learning the correct order and body mechanics of each phase",
+        "description": "Partner establishes New York control with minimal resistance. Practice the full sequence at slow speed with emphasis on correct body positioning at each stage. Complete 20-30 full repetitions per session focusing on base, grip fight, posture, extraction, knee drive, and consolidation."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting Proficiency",
+        "focus": "Developing effective shin grip breaks and overhook escape mechanics",
+        "description": "Partner maintains active grips while you focus exclusively on breaking the shin grip and extracting the arm against moderate resistance. Isolate these two skills as the critical bottleneck of the pass. Develop multiple grip breaking techniques including peeling, levering, and redirecting."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing the full pass against increasing levels of defensive resistance",
+        "description": "Partner provides escalating resistance from 50% to 90%, including active re-gripping, sweep attempts, and submission threats. Track success rate to measure improvement and identify which phase breaks down under pressure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the pass in realistic conditions with full resistance and unpredictable responses",
+        "description": "Start from established New York position in positional sparring rounds. Bottom player uses full offensive toolkit including transitions to Invisible Collar, Zombie, and submission attempts. Top player scores by achieving side control. Develop the ability to read which passing variation to apply based on real-time opponent reactions."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting the New York pass with broader guard passing and top game strategy",
+        "description": "Practice the pass as part of longer rolling sequences where New York appears naturally from the opponent pulling rubber guard. Integrate pass failures into alternative escape paths and develop automatic responses to each counter. Build the pass into your complete top game system."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal moment to initiate the arm extraction phase of this pass?",
+        "answer": "The optimal moment is after posture has been partially recovered and the opponent's shin grip has been significantly weakened or broken. You should feel your spine approaching a 45-degree angle or greater from the mat, and your base must be wide and stable. Attempting extraction before this point almost always fails because the shin leverage across your back keeps the arm pinned in the overhook. Wait for the moment when you feel the downward pressure from the shin release before committing to the corkscrew extraction."
+      },
+      {
+        "question": "What base configuration must exist before you attempt posture recovery?",
+        "answer": "Your knees must be spread wide apart creating a stable triangular base with your toes curled under for traction. Weight should be distributed evenly across both knees rather than concentrated on the trapped arm side where your base is naturally weaker. Your free hand should be posted or actively grip-fighting while your core is fully engaged. This wide base provides the platform needed to resist hip bumps and sweep attempts that the bottom player will inevitably attempt when they feel you beginning to recover posture."
+      },
+      {
+        "question": "How should you extract the trapped arm from the overhook?",
+        "answer": "Use a corkscrew motion by circling your elbow downward toward your hip rather than pulling straight backward against the overhook. This rotational extraction attacks the weakest angle of the overhook grip where the opponent has minimal resistance. As you rotate, keep your elbow tight to your body and maintain forward chest pressure to prevent the bottom player from following your arm movement. The corkscrew should feel like you are trying to touch your elbow to your opposite hip pocket while your shoulder drives forward."
+      },
+      {
+        "question": "What happens if you attempt arm extraction before recovering adequate posture?",
+        "answer": "The shin across your back provides leverage that keeps the arm pinned in the overhook regardless of how hard you pull. Without sufficient posture recovery, the overhook operates at maximum mechanical advantage because your broken posture loads your arm weight directly into their control. Additionally, premature extraction attempts typically involve pulling backward, which shifts your weight and creates sweep opportunities. The bottom player may capitalize with a hip bump sweep or transition directly to a triangle as your arm partially exits."
+      },
+      {
+        "question": "Which grip must you break first to begin the passing sequence?",
+        "answer": "The opponent's grip on their own shin is the primary target because it maintains the shin across your back that prevents posture recovery. Breaking this grip unlocks the entire passing sequence since without the shin control, their overhook becomes significantly less effective and your posture becomes recoverable. Attack the grip near the ankle where your leverage is greatest, using wrist insertion and levering motions rather than trying to pull their fingers open. The overhook itself becomes manageable once the shin is cleared."
+      },
+      {
+        "question": "In which direction should you drive your body when completing the knee-through phase?",
+        "answer": "Drive forward and slightly toward the crossface side at a diagonal angle. This direction accomplishes multiple objectives simultaneously: it prevents the bottom player from closing guard because your forward pressure flattens their hip movement, it creates the angle needed for your knee to clear the centerline, and it positions you to immediately establish crossface pressure upon reaching side control. Driving straight down or backward during this phase allows the bottom player time and space to recover guard."
+      },
+      {
+        "question": "Your opponent re-grips their shin during your posture recovery, pulling your posture back down—how do you respond?",
+        "answer": "Immediately re-engage your grip fighting on their shin-controlling hand rather than trying to muscle through the posture recovery against their re-established grip. Consider switching to the stack pass variation by driving your weight forward to compress their hips, which neutralizes the shin control by eliminating the hip flexibility they need to maintain it. If stacking is not available, return to your wide base and work the grip fight again patiently. Never try to maintain partial posture against a re-established shin grip as this burns energy without progress."
+      },
+      {
+        "question": "If the direct pass attempt fails and you remain in New York, what alternative attacks can you chain?",
+        "answer": "Chain into a stack defense that compresses their hips to eliminate rubber guard effectiveness, then look for guard opening sequences to return to closed guard where you can restart your passing approach. You can also transition to the backstep pass variation if their leg control has loosened, or shift to posture recovery leading to a standard closed guard pass. Each failed attempt should weaken one of their control points, so subsequent attempts become progressively higher percentage. The key is never returning to a completely reset starting position."
+      },
+      {
+        "question": "Why do explosive escape attempts fail more often than methodical approaches against New York control?",
+        "answer": "Explosive movements are predictable and create momentum that the bottom player can redirect for sweeps or use to advance to submissions. The interconnected nature of rubber guard control means that explosive movement against one control point typically reinforces another—pulling explosively against the overhook drives your posture further into the shin control. Additionally, explosive attempts deplete grip strength and energy significantly faster than methodical work, and the bottom player's structural control means they expend less energy maintaining position than you spend trying to escape explosively."
+      },
+      {
+        "question": "How should you defend against the triangle threat during your arm extraction?",
+        "answer": "Keep your extracted elbow tight to your body pointing downward rather than flaring out as it exits the overhook. The triangle requires your arm to be positioned away from your body with the shoulder exposed. Simultaneously drive your weight forward to flatten the opponent's hips because triangles require hip elevation and angle to close effectively. If you feel the leg beginning to shoot over your shoulder, immediately stack forward and turn toward the choking leg to relieve pressure while your arm is still partially free and can be pulled to safety."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for New York Pass to Side Control."
+    "safety_considerations": "This pass involves significant pressure on the opponent's neck and spine during the stacking variation, so monitor your partner's comfort and respond to verbal or tap signals immediately. The arm extraction phase creates torque on both your own shoulder and the opponent's arm-controlling structures, requiring controlled movement rather than violent jerking. Avoid cranking your neck to escape the shin across your back, as this can cause cervical strain. During training, communicate with your partner about pressure levels and progress methodically rather than explosively to prevent injuries to both practitioners."
   },
   "defender": {
     "name": "New York Pass to Side Control Defender",
-    "description": "TODO: Write defender description for New York Pass to Side Control.",
-    "overview": "TODO: Write defender overview for New York Pass to Side Control.",
+    "description": "Complete guide to defending against the New York pass from rubber guard bottom. Learn recognition cues, grip retention, counter-sweeps, and submission threats to maintain guard control.",
+    "overview": "The defender in the New York Pass to Side Control is the bottom player maintaining New York rubber guard control while the top player attempts to escape and pass to side control. The defender's primary objective is to maintain the overhook and shin control that define the New York position, preventing posture recovery and arm extraction. Effective defense requires proactive grip maintenance, early recognition of passing attempts, and the ability to transition between offensive attacks that punish escape attempts. The defender holds a structural advantage since maintaining control requires less energy than escaping it, but must remain active because static defense eventually allows the top player to methodically dismantle each control point. The best defense from this position is a relentless offense that forces the top player to abandon their passing attempts and return to defending against submissions and sweeps.",
     "key_principles": [
-      "TODO"
+      "Maintain the shin grip as your primary control mechanism—without it, the top player can recover posture and the position collapses",
+      "Deepen the overhook whenever you feel the arm beginning to rotate or extract by driving your shoulder tighter against their armpit",
+      "Convert every escape attempt into an offensive opportunity—their movement creates openings for transitions and submissions",
+      "Keep your hips active and angled to maintain the structural advantage that makes rubber guard effective",
+      "Use the top player's energy expenditure against them—they fatigue faster trying to escape than you do maintaining control",
+      "Transition to advanced positions like Invisible Collar or Zombie when the top player's escape attempts create openings",
+      "Never allow a static stalemate—cycle through offensive threats every 5-10 seconds to keep the top player reactive"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player begins spreading their knees significantly wider, establishing a broad triangular base that signals preparation for posture recovery",
+      "Top player's free hand moves to attack your shin grip near the ankle, indicating they are targeting the primary control mechanism",
+      "Top player's spine begins straightening as they engage their posterior chain to fight for posture against your shin control",
+      "Top player drives hips forward and down while lifting chest, showing the beginning of methodical posture recovery",
+      "Top player's trapped elbow begins rotating downward in a corkscrew motion, signaling the arm extraction phase has begun"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Re-grip and pull shin control deeper while engaging hip flexors to increase downward pressure on their back",
+        "when_to_use": "As soon as you feel the top player's free hand attacking your shin grip or their posture beginning to straighten",
         "targets_outcome": "New York/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Top player's posture collapses back to broken position and you maintain full New York control with the option to advance to offensive transitions",
+        "risk": "If you over-focus on the grip fight, you may miss the opportunity to transition to a higher-percentage attack"
+      },
+      {
+        "action": "Shoot leg over their shoulder for triangle setup as their arm begins extracting from the overhook",
+        "when_to_use": "When the top player's arm is partially extracted and positioned inside your guard creating the triangle angle",
+        "targets_outcome": "New York/Top",
+        "if_successful": "Triangle is locked or the threat forces them to abandon the arm extraction and reset, returning to full New York control",
+        "risk": "If the triangle attempt fails, the top player may use the space created by your leg movement to complete the pass"
+      },
+      {
+        "action": "Time a hip bump sweep as the top player shifts their weight backward during posture recovery",
+        "when_to_use": "When you feel the top player's weight shifting backward or upward during their posture recovery attempt",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Top player is swept to their back and you achieve a dominant top position, often landing in mount or side control",
+        "risk": "If the top player maintains their base, the hip bump wastes energy and may create space they can exploit to accelerate the pass"
+      },
+      {
+        "action": "Transition to Invisible Collar by swimming free hand behind their head during their grip fighting distraction",
+        "when_to_use": "When the top player commits both their attention and free hand to breaking your shin grip",
+        "targets_outcome": "New York/Top",
+        "if_successful": "Advance to deeper rubber guard control with additional choke threats, making their escape significantly more difficult",
+        "risk": "Releasing your shin grip to swim the hand may allow momentary posture recovery if the transition is not fast enough"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "New York/Top",
+        "how": "Maintain active shin grip and overhook pressure throughout the escape attempt. Re-grip immediately when you feel the shin being stripped. Deepen the overhook by driving your shoulder into their armpit whenever they attempt arm extraction. Cycle through offensive transitions to force them back into pure defense."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip bump sweep during the posture recovery phase when the top player's weight shifts backward. The passing attempt disrupts their base stability and creates the weight shift needed for the sweep. Alternatively, transition to an omoplata attempt that rolls them past your guard into an inferior position."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Gripping the shin passively without actively pulling to maintain downward pressure on the opponent's back",
+        "consequence": "Top player gradually recovers posture despite the shin being in position because the grip provides no active pulling force",
+        "correction": "Continuously engage your hip flexors and grip to maintain active pulling pressure through the shin, treating the grip as a dynamic control mechanism rather than a passive hold"
+      },
+      {
+        "error": "Allowing the overhook to become shallow by not tightening shoulder-to-armpit contact as the arm rotates",
+        "consequence": "Top player successfully corkscrews the arm free from the overhook, advancing immediately to the knee-through phase of the pass",
+        "correction": "Feel for any rotational movement in the trapped arm and immediately deepen the overhook by driving your shoulder tighter against their armpit and pulling your elbow across their back"
+      },
+      {
+        "error": "Remaining static in New York without transitioning to attacks when the top player begins their escape",
+        "consequence": "Top player systematically dismantles each control point without facing offensive threats, eventually completing the pass",
+        "correction": "Use every escape attempt as a trigger for offensive transitions—their movement creates openings for triangle, omoplata, or advancement to Invisible Collar that punish the escape and force them to reset"
+      },
+      {
+        "error": "Relaxing hip engagement when the top player appears to pause their escape attempt",
+        "consequence": "Top player immediately exploits the relaxation to recover posture or strip the shin grip in a single explosive movement",
+        "correction": "Maintain constant core and hip engagement throughout the entire exchange, resting only after transitioning to a more secure control position or after successfully sweeping"
+      },
+      {
+        "error": "Over-committing to a single defensive response without reading the top player's actual passing variation",
+        "consequence": "Top player switches to an alternative passing variation that bypasses your committed defense, such as switching from standard pass to stack pass",
+        "correction": "Read the top player's body mechanics to determine which passing variation they are executing, and match your defensive response to their specific approach rather than defaulting to a single counter"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that the top player is initiating this pass?",
+        "answer": "The earliest cue is the top player significantly widening their base by spreading their knees apart. This base establishment precedes all other phases of the pass and signals their intent to build a stable platform for posture recovery. Recognizing this cue gives you the maximum time to proactively tighten your controls, deepen the overhook, and begin cycling offensive threats before they can progress to the grip fighting phase."
+      },
+      {
+        "question": "What is the most important grip to maintain when defending against this pass?",
+        "answer": "The shin grip is the most important control to maintain because it keeps the shin across the top player's back, which is the primary mechanism preventing posture recovery. Without the shin control, the overhook alone cannot prevent posture recovery since the top player can use their entire posterior chain to straighten their spine. If you feel the grip being attacked, prioritize re-gripping with maximum strength and consider using your opposite hand to temporarily reinforce the grip while transitioning to an offensive response."
+      },
+      {
+        "question": "When does the best counter-sweep opportunity present itself during the opponent's pass attempt?",
+        "answer": "The optimal sweep window occurs during the posture recovery phase when the top player's weight shifts backward and upward as they engage their posterior chain to straighten their spine. This backward weight shift temporarily compromises their forward base and creates the momentum needed for a successful hip bump sweep. The window is narrow—typically lasting only 1-2 seconds—so you must recognize the posture recovery attempt immediately and commit to the sweep with full hip drive and body extension."
+      },
+      {
+        "question": "How can you threaten a triangle submission during the opponent's arm extraction attempt?",
+        "answer": "As the top player begins the corkscrew arm extraction, their arm is positioned inside your guard at an angle that creates the triangle configuration. Shoot your leg over their shoulder on the extracting arm side while maintaining hip elevation and angle. The partially extracted arm cannot effectively defend the triangle because it is committed to the extraction motion. Timing is critical—the triangle must be initiated while the arm is mid-extraction, not after it is fully free."
+      },
+      {
+        "question": "If the opponent partially recovers posture but their arm remains trapped, what is your immediate priority?",
+        "answer": "Your immediate priority is to re-establish the shin across their back to collapse their recovered posture. Re-grip your shin with maximum depth near the ankle and pull aggressively with your hip flexors to drag their shoulders back down. Simultaneously, test whether the partial posture has created an opening for offensive transitions—sometimes partial posture recovery creates better angles for omoplata or Carni entries than fully broken posture does."
+      },
+      {
+        "question": "What defensive adjustment should you make when you recognize the stack pass variation?",
+        "answer": "When the top player drives forward to stack rather than recovering posture upward, create a frame with your free hand against their hip or belt line to prevent them from walking their knees forward to compress your hips. Simultaneously, use your hips to scoot away from their driving pressure, maintaining the space needed for your rubber guard to function. If the stacking pressure becomes too great, transition to a triangle or armbar attempt that uses their forward momentum against them rather than trying to maintain New York against overwhelming forward pressure."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Grip Maintenance",
+        "focus": "Identifying pass attempts early and maintaining critical control grips under attack",
+        "description": "Partner attempts the pass with moderate resistance while you focus exclusively on recognizing the initiation cues and maintaining shin grip and overhook integrity. No offensive counters yet—pure defensive grip retention. Track how long you can maintain full control under escalating grip fighting pressure."
+      },
+      {
+        "phase": "Phase 2: Counter-Attacks from Defense",
+        "focus": "Converting defensive moments into offensive transitions and submissions",
+        "description": "Partner attempts the pass while you practice specific counters: triangle setup during arm extraction, hip bump sweep during posture recovery, and Invisible Collar transition during grip fighting. Each counter is practiced in isolation first, then combined into a reactive defensive system."
+      },
+      {
+        "phase": "Phase 3: Variation-Specific Defense",
+        "focus": "Developing different defensive responses for each passing variation",
+        "description": "Partner alternates between standard pass, stack pass, and backstep pass without announcement. You must read the variation and apply the appropriate counter. Develops pattern recognition and variation-specific defensive responses under realistic conditions."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Maintaining New York and defending all pass attempts in live rolling conditions",
+        "description": "Full resistance positional sparring starting from New York. Defender scores for maintaining position past 60 seconds, achieving a sweep, or landing a submission. Attacker scores for completing the pass. Builds real-time decision making and pressure management under competitive intensity."
       }
     ]
   }

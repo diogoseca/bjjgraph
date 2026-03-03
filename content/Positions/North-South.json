@@ -365,7 +365,7 @@
     ],
     "overview": "North-South bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you face your opponent while trapped beneath their chest-to-chest pressure with heads pointing in opposite directions. The crushing weight across your upper body, combined with limited arm mobility and restricted breathing, makes this position particularly difficult to escape without proper technique and timing.\n\nThe fundamental challenge of North-South bottom stems from the opponent's ability to distribute their entire body weight across your chest and shoulders while controlling your arms. This pressure not only restricts movement but also creates a psychological burden as breathing becomes labored under sustained pressure. Unlike side control where you can face your opponent and use frames more easily, the perpendicular alignment of North-South limits your visual awareness and framing options.\n\nSuccessful escape from North-South bottom requires a combination of hip mobility, strategic frame creation, and explosive timing. You must generate space through precise hip movement while preventing your opponent from securing arm control or transitioning to mount. The key is understanding that small movements compound over time - each minor hip escape or frame adjustment brings you closer to a full escape sequence.\n\nThe position demands mental toughness and technical precision. Panic and explosive scrambling typically fail against experienced top players who can ride out frantic movements and reestablish control. Instead, systematic escape sequences focusing on hip mobility, shoulder frames, and knee insertion create reliable pathways back to guard or neutral positions. Understanding your opponent's weight distribution and balance points allows you to time your escape attempts when they're most vulnerable during submission attacks or position transitions.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -571,7 +571,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Turtle Transition",
+        "transition": "Bridge and Turn to Turtle",
         "attempt_probability": 17
       },
       {

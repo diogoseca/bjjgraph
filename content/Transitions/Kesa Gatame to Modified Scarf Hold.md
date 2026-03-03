@@ -195,9 +195,9 @@ This transition sits at the center of the scarf hold positional family, connecti
 
 - [[Side Control]] - Parent positional family
 
-- [[Transition to Kesa Gatame]] - Preceding transition in the scarf hold chain
+- [[Side Control to Kesa Gatame]] - Preceding transition in the scarf hold chain
 
-- [[Transition to Reverse Kesa-Gatame]] - Alternative transition from the same starting position
+- [[Kesa Gatame to Reverse Kesa-Gatame]] - Alternative transition from the same starting position
 
 - [[Americana]] - Primary submission threat during and after transition
 

@@ -322,7 +322,7 @@
       },
       {
         "transition": "Takedown to Grounded Back Control",
-        "attempt_probability": 16
+        "attempt_probability": 18
       },
       {
         "transition": "Body Triangle Lock",
@@ -353,8 +353,8 @@
         "attempt_probability": 7
       },
       {
-        "transition": "Transition to Seat Belt Control Back",
-        "attempt_probability": 4
+        "transition": "Back Control to Seat Belt Control Back",
+        "attempt_probability": 2
       },
       {
         "transition": "Bow and Arrow Setup from Standing Back",
@@ -377,7 +377,7 @@
     ],
     "overview": "Standing Back Control Bottom represents one of the most vulnerable defensive positions in Brazilian Jiu-Jitsu, where your opponent has achieved back control while both practitioners remain on their feet. This position is characterized by the opponent's chest against your back, typically with some form of harness or seat belt grip (one arm over the shoulder, one under the armpit), and hooks or body triangle attempting to secure the position. The standing variant is particularly dangerous because it combines the submission threats of back control with the potential for forceful takedowns and slams in certain rulesets.\n\nFrom a strategic perspective, Standing Back Control Bottom is a transitional position that demands immediate defensive action. Unlike grounded back control where you can use the mat for additional leverage and defense, the standing position offers limited defensive options and requires you to simultaneously defend against strangulation attempts, maintain your balance, and work toward escaping to a more favorable position. The primary goals are grip fighting to prevent choking sequences, creating space to remove hooks or body control, and transitioning to either a grounded position where you have more defensive tools or separating entirely to return to neutral.\n\nSuccess in this position relies on understanding the mechanical principles of back exposure, the timing windows for defensive hand fighting, and the sequential nature of escapes. Beginners often panic and make the position worse through frantic movement, while advanced practitioners use systematic approaches to address immediate threats first (defending the neck), then working to improve position through hip movement, grip breaks, and technical transitions that exploit the inherent instability of standing back control. The position requires calm decision-making under pressure, technical precision in grip fighting, and understanding of multiple escape pathways depending on opponent's control configuration.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",

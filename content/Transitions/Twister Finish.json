@@ -57,11 +57,11 @@
       "relationship": "Positional alternative when Twister defense is too strong"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair Finish",
       "relationship": "Related 10th Planet system submission from similar leg entanglement"
     },
     {
-      "name": "Rear Naked Choke",
+      "name": "Russian Cowboy RNC",
       "relationship": "Alternative high-percentage finish from Russian Cowboy back control"
     },
     {
@@ -69,7 +69,7 @@
       "relationship": "Bottom half guard position that feeds into the Twister system"
     },
     {
-      "name": "Twister",
+      "name": "Twister from Twister SC",
       "relationship": "Parent submission that this transition finishes"
     }
   ],
@@ -162,7 +162,7 @@
         "counter": "Opponent tucks chin and blocks head control arm from establishing position under their head",
         "effectiveness": "Low",
         "your_response": "Wrap the entire head and shoulder as one unit rather than trying to isolate the chin. The Twister works through spinal rotation created by opposing shoulder rotation against hip anchor, not through neck control specifically. Cup under the chin or accept the head wrap and focus on pulling the far shoulder across their body to maximize the rotation angle.",
-        "targets_outcome": "Game Over"
+        "targets_outcome": "game-over"
       }
     ],
     "common_errors": [

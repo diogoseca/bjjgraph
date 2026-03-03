@@ -21,37 +21,37 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Heel Hook",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Inside Ashi Entry",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Backside 50-50 Entry from Ashi",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,31 +212,33 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 ## Available Escapes
 
-### [[Kneebar Finish]] (38% of attempts)
+### [[Kneebar Finish]] (41% of attempts)
 
-### [[Inside Ashi Entry]] (8% of attempts)
+### [[Heel Hook]] (11% of attempts)
 
-### [[Outside Ashi Entry]] (6% of attempts)
+### [[Inside Ashi Entry]] (7% of attempts)
 
-### [[50-50 Entry from Standing]] (5% of attempts)
-
-### [[Heel Hook]] (10% of attempts)
-
-### [[Straight Ankle Lock]] (6% of attempts)
+### [[Ankle Lock Finish]] (7% of attempts)
 
 ### [[Toe Hold]] (6% of attempts)
 
-### [[Single Leg X Entry]] (5% of attempts)
+### [[Backside 50-50 Entry from Ashi]] (6% of attempts)
 
-### [[X-Guard Sweep]] (3% of attempts)
+### [[Outside Ashi Entry]] (5% of attempts)
 
-### [[Transition to Backside 50-50]] (6% of attempts)
+### [[50-50 Entry from Standing]] (4% of attempts)
 
-### [[Guard Recovery]] (5% of attempts)
+### [[Single Leg X Entry]] (4% of attempts)
+
+### [[Ashi Garami Escape]] (4% of attempts)
+
+### [[X-Guard Sweep]] (2% of attempts)
 
 ### [[Straighten Leg Kneebar Defense]] (1% of attempts)
 
 ### [[Turn and Extract from Kneebar]] (1% of attempts)
+
+### [[Reversal from Kneebar Control]] (1% of attempts)
 
 
 

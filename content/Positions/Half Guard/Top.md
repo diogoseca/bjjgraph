@@ -21,37 +21,37 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 87% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,47 +212,37 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (87% of attempts)
+### [[Knee Slice Pass]] (30% of attempts)
 
-### [[Smash Pass]] (6% of attempts)
+### [[Smash Pass]] (15% of attempts)
 
-### [[Underhook Pass]] (4% of attempts)
+### [[Underhook Pass]] (12% of attempts)
 
-### [[Long Step Pass]] (1% of attempts)
+### [[Long Step Pass]] (8% of attempts)
 
-### [[Crossface Pass]] (1% of attempts)
+### [[Crossface Pass]] (5% of attempts)
 
-### [[Kimura]] (0% of attempts)
+### [[Back Step Pass]] (5% of attempts)
 
-### [[Back Step Pass]] (0% of attempts)
+### [[Over-Under Pass]] (4% of attempts)
 
-### [[Crossface to Combat Base]] (0% of attempts)
+### [[Kimura]] (3% of attempts)
 
-### [[Transition to Double Jump]] (0% of attempts)
+### [[Half Guard to Double Jump]] (3% of attempts)
 
-### [[Transition to Flattened Half Guard]] (0% of attempts)
+### [[Half Guard to Flattened Half Guard]] (3% of attempts)
 
-### [[Transition to Pocket Half Guard]] (0% of attempts)
+### [[Crossface to Combat Base]] (2% of attempts)
 
-### [[Transition to Quarter Guard]] (0% of attempts)
+### [[Headquarters Pass]] (2% of attempts)
 
-### [[Transition to Triangle Escape Position]] (0% of attempts)
+### [[Half Guard to Leg Hook]] (2% of attempts)
 
-### [[Over-Under Pass]] (0% of attempts)
+### [[Half Guard to Pocket Half Guard]] (2% of attempts)
 
-### [[Headquarters Pass]] (0% of attempts)
+### [[Half Guard to Quarter Guard]] (2% of attempts)
 
-### [[Half Guard to Double Jump]] (0% of attempts)
-
-### [[Half Guard to Flattened Half Guard]] (0% of attempts)
-
-### [[Half Guard to Leg Hook]] (0% of attempts)
-
-### [[Half Guard to Pocket Half Guard]] (0% of attempts)
-
-### [[Half Guard to Quarter Guard]] (0% of attempts)
-
-### [[Half Guard to Triangle Escape Position]] (1% of attempts)
+### [[Half Guard to Triangle Escape Position]] (2% of attempts)
 
 
 

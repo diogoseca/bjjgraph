@@ -1,10 +1,14 @@
 {
   "name": "Butterfly Guard Pull",
-  "description": "TODO: Write 150-160 character SEO description for Butterfly Guard Pull.",
+  "description": "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip sequences, timing, and hook insertion for pulling directly into butterfly guard from standing.",
   "tags": [
     "bjj",
+    "butterfly guard",
+    "guard pull",
+    "standing to guard",
+    "butterfly guard entry",
     "transition",
-    "TODO"
+    "guard pull technique"
   ],
   "from_position": "Standing Position/Bottom",
   "outcomes": [
@@ -19,120 +23,389 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Butterfly Guard Pull.",
+  "overview": "The Butterfly Guard Pull is a tactical transition from standing position directly into butterfly guard, bypassing the generic open guard phase to immediately establish hooks and an offensive sweeping platform. Unlike standard guard pulls that land in closed guard or seated guard, the butterfly guard pull places you in a position with immediate sweeping capability, making it a preferred choice for guard players who want to dictate the pace from the moment ground engagement begins.\n\nThis technique requires precise timing and grip management to ensure both hooks insert cleanly as you sit. The pull must be executed with purpose — sitting to butterfly guard without proper grips or hook placement results in an easily passed open guard. The key is to coordinate upper body connection (collar and sleeve in gi, or collar tie and wrist control in no-gi) with the simultaneous insertion of both feet as hooks under the opponent's thighs during the descent.\n\nStrategically, the butterfly guard pull is especially effective against aggressive opponents who drive forward, as their forward momentum feeds directly into the elevator mechanics of butterfly sweeps. Entering butterfly guard from standing creates immediate offensive pressure that keeps opponents defensive from the first second of ground engagement, denying them the chance to settle into a comfortable passing base.",
   "conditions": [
-    "TODO"
+    "Both practitioners standing within engagement distance where grips can be established and maintained",
+    "At least one controlling grip secured on opponent before initiating the sit",
+    "Opponent not actively sprawling backward or disengaging beyond grip range",
+    "Sufficient mat space behind you to complete the sit safely",
+    "Opponent's weight neutral or committed forward rather than already settled back defensively"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Collar and Sleeve Pull to Butterfly",
+      "description": "Gi-specific variant using a strong cross collar grip and same-side sleeve grip to maintain maximum control throughout the descent. The collar grip breaks posture while the sleeve grip prevents the opponent from posting or framing during the transition.",
+      "when_to_use": "When training in the gi and you have established dominant collar and sleeve grips during standing grip fighting"
+    },
+    {
+      "variant_name": "Arm Drag to Butterfly Pull",
+      "description": "Uses an arm drag to off-balance the opponent laterally before sitting to butterfly guard. The arm drag creates a momentary angle advantage and disrupts the opponent's base, making it significantly harder for them to stuff the pull or sprawl effectively.",
+      "when_to_use": "When opponent has strong forward posture that resists a direct pull, or when you want to enter butterfly guard with an immediate back take threat"
+    },
+    {
+      "variant_name": "No-Gi Collar Tie Pull",
+      "description": "No-gi adaptation using a collar tie and wrist control to maintain connection during the sit. The collar tie provides head control that forces the opponent to follow you down, while wrist control prevents them from posting or creating separation.",
+      "when_to_use": "In no-gi situations where traditional gi grips are unavailable and you need upper body connection for the pull"
+    },
+    {
+      "variant_name": "Seated Guard to Butterfly Conversion",
+      "description": "Two-phase pull where you first sit to a generic seated guard position, then insert butterfly hooks once seated. Sacrifices the explosive entry of a direct pull but offers greater control and lower risk of landing in a compromised position.",
+      "when_to_use": "Against opponents who sprawl aggressively on direct pull attempts, or when you are less confident in your hook insertion timing"
     }
   ],
-  "position_integration": "TODO: Write position integration for Butterfly Guard Pull.",
+  "position_integration": "The Butterfly Guard Pull serves as the critical bridge between standing engagement and offensive guard play. It connects the standing game directly to butterfly guard's sweep-heavy system, bypassing transitional guard positions that offer less immediate offensive threat. From butterfly guard, the practitioner accesses the full spectrum of modern guard attacks including butterfly sweeps, arm drags to back takes, X-Guard transitions, and single leg X entries. This makes the guard pull not merely a defensive retreat from standing but a deliberate tactical choice to enter the most dynamic sweeping platform in BJJ. The technique integrates with standing grip fighting sequences, competition timing strategy, and the broader seated guard ecosystem, functioning as a high-percentage entry point for practitioners who prefer bottom game.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Butterfly Guard",
+      "relationship": "Target position achieved on successful execution of the pull"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Starting position from which the guard pull is initiated"
+    },
+    {
+      "name": "Guard Pull",
+      "relationship": "Related generic guard pull transition sharing similar standing-to-ground mechanics"
+    },
+    {
+      "name": "Basic Butterfly Sweep",
+      "relationship": "Primary offensive follow-up technique from achieved butterfly guard position"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "High-percentage follow-up attack from established butterfly guard"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common fallback position if butterfly hooks do not fully establish during the pull"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Generic guard position resulting from partially successful or countered pull attempts"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Downstream transition target accessible from established butterfly guard"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative downstream transition from butterfly guard when opponent stands"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Standing engagement position that may precede grip establishment for the pull"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Defensive transition from butterfly if flattened under pressure after the pull"
+    },
+    {
+      "name": "Sumi Gaeshi",
+      "relationship": "Sacrifice throw sharing similar sitting mechanics and grip configurations"
     }
   ],
   "attacker": {
     "name": "Butterfly Guard Pull Attacker",
-    "description": "TODO: Write attacker description for Butterfly Guard Pull.",
-    "overview": "TODO: Write attacker overview for Butterfly Guard Pull.",
+    "description": "Execute the Butterfly Guard Pull in BJJ. Master grip sequences, timing windows, and hook insertion mechanics for pulling directly into butterfly guard from standing.",
+    "overview": "As the attacker executing the Butterfly Guard Pull, your objective is to transition from standing directly into butterfly guard with both hooks established and immediate offensive capability. This requires coordinating your grip fighting, timing the sit, and inserting both hooks cleanly under the opponent's thighs in a single fluid motion. The pull is not a passive retreat to the ground — it is an aggressive tactical choice that immediately places your opponent in a defensive scenario where they must address your hooks, grips, and sweeping threat simultaneously. Success depends on maintaining upper body connection throughout the transition so you arrive in butterfly guard with your posture upright, hooks active, and grips intact for immediate sweep attempts.",
     "key_principles": [
-      "TODO"
+      "Establish controlling grips before initiating the sit to maintain connection throughout the entire pull",
+      "Time the pull when the opponent is advancing or pressuring forward to exploit their forward momentum",
+      "Insert both hooks simultaneously during the descent rather than sitting first and then fishing for hooks",
+      "Maintain upright seated posture immediately upon landing to preserve sweeping leverage",
+      "Keep elbows tight to your body during the transition to prevent arm drags and maintain structural integrity",
+      "Use the pull momentum to generate immediate off-balancing rather than settling into a static guard position"
     ],
     "setup_requirements": [
-      "TODO"
+      "At least one dominant grip established — collar grip and sleeve grip in gi, or collar tie and wrist control in no-gi",
+      "Opponent within engagement range where grips can control their posture and movement throughout the descent",
+      "Opponent not actively disengaging, sprawling, or retreating beyond effective grip range",
+      "Clear mat space behind you to sit without obstruction from walls, other practitioners, or mat edges",
+      "Opponent's weight committed forward or neutral — pulling against a heavily back-weighted opponent creates separation"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Primary Grips",
+        "description": "From standing engagement, secure your primary controlling grips. In gi, establish a strong cross collar grip with your dominant hand and a same-side sleeve grip with your other hand. In no-gi, obtain a collar tie and wrist control or a two-on-one arm configuration. These grips must be firm enough to maintain connection throughout the entire sitting motion without slipping, as any loss of contact during the descent allows the opponent to disengage."
+      },
+      {
+        "step_number": 2,
+        "action": "Break Opponent's Posture Forward",
+        "description": "Use your established grips to pull your opponent's weight slightly forward and downward, compromising their upright posture. This forward weight commitment serves two purposes: it makes it harder for them to retreat when you initiate the sit, and it pre-loads their momentum in the direction you want for subsequent butterfly sweeps. A slight off-balance is sufficient — you do not need a dramatic pull that telegraphs your intention."
+      },
+      {
+        "step_number": 3,
+        "action": "Step Inside and Initiate the Sit",
+        "description": "Step one foot between your opponent's feet while simultaneously beginning to sit backward. Your stepping foot becomes your first butterfly hook as it slides under their thigh during the descent. Maintain strong grip tension to pull your opponent down with you rather than allowing them to remain standing above you. The sit must be controlled and deliberate — do not simply drop your weight, as this creates separation that allows the opponent to disengage or begin passing immediately."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert Both Hooks During Descent",
+        "description": "As your hips approach the mat, insert both feet as hooks under your opponent's inner thighs with the instep or ball of the foot making contact. The hook insertion must happen during the descent, not after you have already sat flat on the mat. Both hooks should engage simultaneously or within a fraction of a second of each other to prevent the opponent from addressing them individually. Flare your knees outward as you insert to create maximum depth and elevation potential."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish Upright Seated Posture",
+        "description": "The moment your hips contact the mat, drive your chest forward and sit up tall with active core engagement. Your hooks should already be providing elevator pressure under the opponent's thighs. Adjust your grips to an optimal butterfly guard configuration — typically an underhook on one side with a collar or sleeve grip on the other. Your posture must be upright and active, not reclined or flat, as the upright position is what generates the leverage required for effective butterfly sweeps."
+      },
+      {
+        "step_number": 6,
+        "action": "Apply Immediate Offensive Pressure",
+        "description": "Without pausing in a static position, begin applying sweep pressure through your hooks while testing the opponent's balance with your grips. The transition from standing to butterfly guard should flow directly into your first sweep threat, giving the opponent no time to establish a stable combat base or secure passing grips. This immediate pressure is what makes the butterfly guard pull superior to generic guard pulls that land in passive positions."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle and Consolidate Position",
+        "description": "Based on the opponent's reaction to your initial offensive pressure, make final adjustments to hook depth, grip placement, and seated angle. If they resist your first sweep direction, use their defensive reaction to redirect or deepen hooks for an alternative attack. Ensure your butterfly guard is fully established with controlling grips and deep hooks before the opponent can begin implementing a structured passing strategy against your guard."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent sprawls and drives hips back immediately upon recognizing the pull initiation",
+        "effectiveness": "High",
+        "your_response": "If they sprawl early before you commit, abort the pull and return to standing. If you are mid-descent, convert to a different guard entry such as De La Riva by hooking their lead leg as they sprawl, or transition to seated guard with feet on hips to maintain distance control.",
         "targets_outcome": "Standing Position/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively and applies heavy top pressure to flatten you before hooks establish",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward momentum against them by timing an immediate elevator sweep as they drive in. If hooks are shallow, frame with forearms against their shoulders and work to insert hooks deeper. If you cannot establish butterfly, transition to closed guard or half guard to prevent the pass.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips grips and creates distance to disengage during the sit",
+        "effectiveness": "High",
+        "your_response": "If grips break during descent, immediately transition to feet on hips guard to maintain distance control and re-establish grips from seated position. Use your hooks as frames rather than elevators until upper body connection is re-established. Alternatively, pursue a technical standup to reset.",
+        "targets_outcome": "Standing Position/Bottom"
+      },
+      {
+        "counter": "Opponent stuffs hooks by driving knees together and pinning your feet to the mat",
+        "effectiveness": "Medium",
+        "your_response": "If hooks are denied entirely, do not fight for them against a strong knee-together defense. Instead, transition immediately to closed guard if you have waist connection, use arm drags from seated position to take the back, or work for a front headlock if they are driving their head low.",
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Sitting without first establishing controlling grips on the opponent",
+        "consequence": "Complete disconnection during the pull allows opponent to remain standing and begin passing freely against a guard with no upper body control, negating all offensive capability",
+        "correction": "Always establish at least one strong controlling grip before initiating the sit — the grip is your tether that keeps the opponent connected throughout the descent and prevents disengagement"
+      },
+      {
+        "error": "Landing flat on the back instead of in an upright seated position",
+        "consequence": "Eliminates butterfly guard offensive capability entirely, allows opponent to drive forward with pressure passing, and removes the elevation leverage that makes butterfly sweeps possible",
+        "correction": "Drive your chest forward as you land and immediately sit up with active core engagement — treat the pull as sitting TO a position, not falling to the ground"
+      },
+      {
+        "error": "Inserting hooks sequentially after sitting rather than during the descent",
+        "consequence": "Opponent can address each hook individually, pinning one leg while clearing the other, preventing full butterfly guard establishment and often resulting in half guard or worse",
+        "correction": "Coordinate hook insertion with the descent — both feet should be sliding under thighs as your hips reach the mat, making the sit and hook insertion a single fluid motion"
+      },
+      {
+        "error": "Initiating the pull from too far away without adequate grip connection",
+        "consequence": "Creates excessive space between you and opponent, making it impossible to maintain grip tension and allowing the opponent to disengage or establish dominant passing position before guard forms",
+        "correction": "Initiate the pull only when within arm's reach with secure grips — step forward to close distance before sitting if necessary to ensure grips hold throughout"
+      },
+      {
+        "error": "Sitting straight down without pulling the opponent's weight forward",
+        "consequence": "Opponent remains standing tall above you with their base fully intact, creating a disadvantageous guard situation where they have postural advantage and can begin passing immediately",
+        "correction": "Use grip tension to pull the opponent's weight forward and downward as you sit — the pull and the sit are one coordinated motion that compromises their posture during your descent"
+      },
+      {
+        "error": "Pausing in a static position after landing instead of applying immediate offensive pressure",
+        "consequence": "Gives the opponent time to establish combat base, secure passing grips, and begin implementing their guard passing strategy from a position of readiness and composure",
+        "correction": "Flow directly from the pull into your first sweep threat — the initial attack should begin before you finish settling, using pull momentum to generate the first off-balancing attempt"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Sitting motion and hook insertion timing",
+        "description": "Practice the solo motion of sitting from standing to butterfly guard position without a partner. Focus on smooth controlled descent, immediate upright posture on landing, and the timing of flaring knees outward for hook insertion. Use a wall for balance reference if needed. Build muscle memory for the sit-to-upright-posture sequence."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Grip integration and partner connection",
+        "description": "Drill with a completely cooperative partner who follows the pull. Practice various grip configurations (collar/sleeve, double collar, underhook/wrist) and maintain tension throughout the entire descent. Focus on arriving in butterfly guard with grips intact, hooks inserted, and upright posture established. Partner provides zero resistance."
+      },
+      {
+        "phase": "Phase 3: Timing and Chain Development",
+        "focus": "Reading opponent movement and chaining attacks",
+        "description": "Partner moves freely in standing while you identify optimal pull timing windows — when they step forward, push, or commit weight forward. Practice aborting the pull when timing is wrong and re-engaging. Chain the pull directly into sweep attempts so the transition flows continuously from standing to butterfly to sweep."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Executing against increasing defensive reactions",
+        "description": "Partner provides gradually increasing resistance: first defending grips, then sprawling lightly, then actively trying to stuff the pull. Develop problem-solving for each defensive reaction — converting to alternative guards, adjusting hook angles, and maintaining offensive intent despite defensive pressure."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance guard pulling in positional sparring",
+        "description": "Positional sparring starting from standing where you must pull to butterfly guard against full competitive resistance. Score for achieving established butterfly guard with hooks and grips within five seconds. Partner scores for stuffing the pull or passing within ten seconds of the pull completing. Develop judgment for when the butterfly pull is tactically optimal versus other entries."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What grips must you establish before initiating the butterfly guard pull and why?",
+        "answer": "You must establish at least one dominant controlling grip before initiating the sit. In gi, a cross collar grip combined with a same-side sleeve grip controls both the opponent's posture and one arm. In no-gi, a collar tie with wrist control provides equivalent connection. The grip serves as the physical tether that maintains connection throughout the descent — without it, the sitting motion creates separation that allows the opponent to disengage, sprawl, or begin passing before your guard structure forms. The grip also enables you to pull the opponent's weight forward during the sit, preventing them from maintaining a strong upright base."
+      },
+      {
+        "question": "Your opponent begins stepping backward as you start to sit — how do you adjust?",
+        "answer": "If the opponent retreats as you initiate the sit, your response depends on timing. If you have not committed your hips past the point of no return, abort the pull and return to standing to re-engage from a better distance. If you are already committed to sitting, accelerate the pull by driving your feet forward between their legs to chase the hooks while using maximum grip tension to prevent full disengagement. You can also convert to a seated guard with feet on their hips to maintain distance control, then work to re-establish butterfly hooks from the seated position once you recover the connection."
+      },
+      {
+        "question": "What is the most critical body position during the landing phase of the butterfly guard pull?",
+        "answer": "The most critical position is maintaining an upright seated posture with your chest driven forward toward the opponent immediately upon landing. Your spine should be vertical or slightly inclined forward, with your core fully engaged and your head up. This upright posture is essential because it preserves the biomechanical leverage needed for butterfly sweeps — the hooks can only generate effective elevation when your torso provides a counterbalancing pull through your grips. Landing flat on your back eliminates this leverage entirely and converts an offensive guard pull into a defensive scramble against an opponent with postural advantage."
+      },
+      {
+        "question": "When is the optimal timing window for executing the butterfly guard pull?",
+        "answer": "The optimal window is when your opponent is advancing forward with their weight committed, such as stepping in to engage grips, driving forward with collar pressure, or responding to your forward feint. This forward momentum compounds with your pulling motion, making it extremely difficult for them to sprawl or disengage in time. The worst timing is when the opponent is retreating, circling laterally, or has their weight settled back on their heels with a wide base. Reading weight distribution and forward commitment through your grip connection is the primary skill for identifying the pull window."
+      },
+      {
+        "question": "How do you prevent your hooks from being denied during the descent?",
+        "answer": "The key is coordinating hook insertion with the descent rather than inserting them after sitting. As your hips drop, your knees should flare outward and your feet should drive under the opponent's thighs in the same continuous motion. Maintaining strong grip tension throughout the pull keeps the opponent close enough for hooks to reach their inner thighs. If the opponent tries to squeeze their knees together to deny hooks, redirect one foot to their hip as a temporary frame while working the other hook in from the outside, then address the second hook. Speed of insertion during the dynamic descent phase is far more effective than fighting for hooks from a static seated position."
+      },
+      {
+        "question": "Your opponent immediately applies heavy top pressure after you pull — what is your response?",
+        "answer": "If they drive forward with heavy pressure immediately after the pull, this forward momentum actually feeds your butterfly sweeps. Time an elevator sweep by driving one hook upward while pulling their upper body in the same direction with your grips to create rotational force. If the pressure is too heavy and too fast for an immediate sweep, absorb it by framing with your forearms against their shoulders while maintaining hook contact under their thighs. If hooks are compromised under extreme pressure, transition to deep half guard by swimming under their chest toward their far hip while keeping at least one leg entanglement to prevent a clean pass."
+      },
+      {
+        "question": "What distinguishes the butterfly guard pull from a standard closed guard pull in terms of execution?",
+        "answer": "The butterfly guard pull differs in three critical execution details. First, you land in a seated upright posture rather than on your back, which preserves immediate offensive sweeping capability. Second, you insert hooks under the opponent's thighs rather than closing your legs around their waist, requiring more precise foot placement during the descent but providing superior elevation leverage for sweeps. Third, the butterfly pull creates immediate offensive pressure from the moment you land, whereas closed guard pulls typically require additional grip adjustment and posture breaking before attacking. The tradeoff is that butterfly guard pull demands tighter timing and more precise hook coordination."
+      },
+      {
+        "question": "After achieving butterfly guard from the pull, what should your first offensive action be?",
+        "answer": "Your first action should be testing the opponent's balance by applying elevator pressure through your hooks while pulling with your upper body grips in a sweeping direction. This serves dual purposes — if the opponent is still off-balance from the pull, an immediate sweep attempt may succeed before they establish defensive base. If they resist the sweep direction, their defensive reaction reveals their weight distribution pattern and balance tendencies, directly informing your subsequent attack selection. The critical principle is zero pause between completing the pull and initiating the first sweep threat, denying the opponent time to settle into a comfortable combat base."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Butterfly Guard Pull."
+    "safety_considerations": "The Butterfly Guard Pull is generally a low-risk technique since it involves transitioning to a seated ground position rather than applying joint locks or chokes. However, practitioners should be aware of knee stress from improper hook insertion angles, particularly when hooks catch awkwardly on the opponent's legs during the descent. Ensure adequate mat space behind you before pulling to avoid sitting into walls, other practitioners, or the mat edge. Communicate with training partners when drilling guard pulls to prevent unexpected collapses that can injure both people. Avoid pulling guard when the standing partner is not expecting it, as the sudden downward force through grips can strain shoulders and neck."
   },
   "defender": {
     "name": "Butterfly Guard Pull Defender",
-    "description": "TODO: Write defender description for Butterfly Guard Pull.",
-    "overview": "TODO: Write defender overview for Butterfly Guard Pull.",
+    "description": "Defend the Butterfly Guard Pull in BJJ. Recognize pull initiation cues, maintain standing position, and counter with sprawls, immediate passing, and hook denial.",
+    "overview": "As the defender facing a Butterfly Guard Pull, your primary objective is to prevent your opponent from successfully establishing butterfly guard with active hooks and offensive grips. The guard pull represents a deliberate tactical decision by your opponent to bring the fight to the ground on their terms, and your defensive response must deny them the advantageous position they seek. Early recognition of pull initiation cues — grip tightening, weight shifting backward, a foot stepping between yours — allows you to either stuff the pull entirely by sprawling and maintaining standing position, or immediately begin passing before their guard structure is fully established. The critical defensive window is the transition phase itself, because a fully established butterfly guard with upright posture and deep hooks is significantly harder to deal with than a half-completed pull where hooks are shallow and posture is compromised.",
     "key_principles": [
-      "TODO"
+      "Recognize guard pull initiation cues within the first second to maximize your defensive response time",
+      "Maintain forward pressure and hip engagement to deny clean hook insertion during the pull descent",
+      "Immediately begin a passing sequence if the opponent completes the sit before you can stuff the pull",
+      "Keep your base wide and weight forward to resist being pulled off-balance during the transition",
+      "Control the opponent's upper body grips to prevent them from establishing the connections needed for sweeps",
+      "Exploit the transitional chaos of the pull when the opponent's guard structure is at its weakest"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent tightens grip tension sharply on collar and sleeve while their weight begins shifting backward and hips start to drop",
+      "One foot steps between your legs as the opponent begins lowering their level toward the mat in preparation for sitting",
+      "Sudden shift from active hand fighting to committed grip establishment on one or both sides, indicating readiness to pull",
+      "Opponent's chest drops forward and shoulders round as they begin the sitting motion with their center of gravity moving backward",
+      "Opponent's eyes glance downward toward your legs while their knees begin to bend more deeply than normal standing engagement"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Sprawl and drive hips forward to stuff the pull before hooks can insert under your thighs",
+        "when_to_use": "Early in pull initiation, before the opponent's hips reach the mat and before hooks engage your inner thighs",
         "targets_outcome": "Standing Position/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent fails to complete the pull and must scramble back to standing or accept a disadvantaged ground position without guard structure",
+        "risk": "If timed late and hooks are already inserting, your forward drive feeds directly into their elevator sweep mechanics"
+      },
+      {
+        "action": "Strip grips and create lateral distance to disengage completely from the pull",
+        "when_to_use": "At any point during the pull when you feel their controlling grips tightening on your collar or sleeves",
+        "targets_outcome": "Standing Position/Bottom",
+        "if_successful": "Opponent sits to the mat without controlling grips, giving you dominant standing position over an uncontrolled guard with immediate passing initiative",
+        "risk": "Re-engagement may allow opponent to establish a different guard variation, and grip fighting from standing may resume"
+      },
+      {
+        "action": "Drive forward immediately with knee between their legs to begin pressure passing before butterfly guard establishes",
+        "when_to_use": "After the opponent has committed to sitting but before hooks are fully seated and posture is upright",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You enter a passing sequence against an incomplete guard structure, converting their butterfly attempt into a generic open guard or half guard you can pass",
+        "risk": "Forward drive against established hooks powers their sweep — this defense requires accurate timing during the narrow transition window"
+      },
+      {
+        "action": "Drive knees together and apply top pressure to deny hook insertion while the opponent sits",
+        "when_to_use": "When you feel the opponent's feet beginning to slide toward your inner thighs during the descent",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Hooks are denied entirely, leaving the opponent in a weak seated guard position without the elevation capability that makes butterfly dangerous",
+        "risk": "Narrowing your base by squeezing knees together can compromise your balance if the opponent redirects to a different sweep angle"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Butterfly Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Standing Position/Bottom",
+        "how": "Sprawl immediately when you feel grip tension increase and weight shift backward. Drive your hips forward and down while posting your hands on their shoulders to prevent them from completing the sit. Break their grips and disengage to return to standing where you maintain a neutral or advantageous position with the initiative."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Time your forward drive to arrive at the opponent's body before their hooks fully insert under your thighs. Drive your near knee between their legs and apply heavy top pressure immediately, converting their attempted butterfly guard into a generic open guard position where you have passing initiative and they lack the specific hook structure needed for high-percentage sweeps."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling away and creating distance when the opponent initiates the guard pull",
+        "consequence": "Gives the opponent an easy seated guard entry with space to establish hooks and grips at their leisure without any defensive pressure, resulting in a fully established butterfly guard",
+        "correction": "Drive forward into the pull rather than retreating — forward pressure is the most effective counter because it denies the space needed for hook insertion and upright seated posture establishment"
+      },
+      {
+        "error": "Standing still without reacting and allowing the opponent to complete the full pull uncontested",
+        "consequence": "Opponent achieves fully established butterfly guard with deep hooks, controlling grips, and upright posture — the most difficult butterfly guard configuration to pass",
+        "correction": "React immediately to the first recognition cue — any defensive action within the first second is exponentially more effective than the same action two seconds later when the guard is already formed"
+      },
+      {
+        "error": "Reaching forward with extended arms to push the opponent away during the pull descent",
+        "consequence": "Extended arms are vulnerable to arm drags, which convert your defensive action into an immediate back take opportunity for the pulling opponent",
+        "correction": "Keep elbows tight to your body when engaging defensively. Use hip and shoulder pressure rather than arm extension to counter the pull — drive with your body structure, not isolated arm pushes"
+      },
+      {
+        "error": "Allowing the opponent's controlling grips to remain established after the pull is completed",
+        "consequence": "The opponent's grips are the foundation of their butterfly sweep game — leaving them intact means every sweep variation in their arsenal is immediately available with full leverage",
+        "correction": "Strip grips as your first priority after the pull completes. Address the most dangerous grip first — usually the underhook or deep collar grip — before attempting to initiate any passing sequence"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most effective immediate response when you feel your opponent's grips tighten and their weight begins shifting backward?",
+        "answer": "The most effective response is an immediate sprawl combined with forward hip drive. Drop your hips toward the mat while driving your weight forward into the opponent's chest and shoulders. This prevents them from completing the sit by loading your weight onto them, and it denies the space needed for hook insertion under your thighs. The sprawl must happen within the first second of recognizing the pull initiation — the effectiveness of this defense drops dramatically once the opponent's hips pass the halfway point to the mat, because hooks begin inserting during the final descent phase."
+      },
+      {
+        "question": "Your opponent has completed the sit but their hooks are not fully established yet — what immediate action gives you the best chance of preventing butterfly guard?",
+        "answer": "Drive forward aggressively with your near knee aimed between their legs while applying heavy crossface or shoulder pressure on their chest. This forward drive flattens their upright posture, removing the leverage needed for butterfly sweeps, while your knee between their legs prevents full hook insertion. Simultaneously control one of their arms to prevent underhook establishment. The goal is to convert the situation from butterfly guard into a passing position — half guard or headquarters — before they can settle their hooks and establish the upright posture that powers their sweep game."
+      },
+      {
+        "question": "How do you prevent the opponent from executing an immediate sweep right after completing the guard pull?",
+        "answer": "Lower your center of gravity by bending your knees and widening your base the moment you feel their hooks engage your inner thighs. Keep your weight distributed evenly through both feet rather than committed to one side, as butterfly sweeps specifically exploit unilateral weight commitment to generate rotational force. Control at least one of their wrists or sleeves to break the pull-and-lift coordination that powers butterfly elevation. Most critically, do not lean forward into their hooks — this is the single most common error that feeds the elevator sweep mechanic, as your forward weight provides the momentum they need to complete the sweep."
+      },
+      {
+        "question": "What distinguishes defending a butterfly guard pull from defending a standard closed guard pull?",
+        "answer": "The key difference is that butterfly guard requires hook insertion under your thighs, which you can actively deny by driving your knees together and forward toward the opponent's centerline. Against a closed guard pull, once the opponent's legs close behind your back, you are in closed guard regardless of your response. Against butterfly, you have a meaningful defensive window where preventing hook establishment fundamentally changes the outcome — the opponent ends up in a weak seated guard rather than a powerful butterfly position. This hook-denial window does not exist against closed guard pulls, making butterfly guard pull uniquely defensible during the transition phase."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying guard pull initiation cues at speed",
+        "description": "Partner executes butterfly guard pulls at various speeds while you practice recognizing the initiation cues — grip tightening, weight shift, foot placement between your legs. Do not counter initially, simply identify and verbally call out the moment the pull begins. Build pattern recognition speed until you can detect the pull within the first half-second of initiation."
+      },
+      {
+        "phase": "Phase 2: Sprawl and Stuff Defense",
+        "focus": "Timing the sprawl response against cooperative pulls",
+        "description": "Partner pulls guard at moderate speed while you practice the sprawl response with emphasis on hip timing. Focus on when to drive forward versus when to strip grips and retreat. Progress from slow cooperative drilling to moderate resistance where the partner attempts to complete the pull against your sprawl defense."
+      },
+      {
+        "phase": "Phase 3: Immediate Passing Conversion",
+        "focus": "Converting stuffed or completed pulls into passing sequences",
+        "description": "Partner completes the pull while you practice immediately transitioning to passing sequences against the forming butterfly guard. Start with cooperative drilling and progress to moderate resistance. Score for achieving a recognized passing position within five seconds of the pull completing. Develop the habit of attacking during the transition rather than waiting for full guard establishment."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Full resistance guard pull defense with tactical decision-making",
+        "description": "Positional sparring starting from standing where the partner must pull butterfly guard against your full defensive efforts. Defender scores for maintaining standing position, stuffing the pull entirely, or passing within ten seconds of pull completion. Develop the ability to choose between sprawl, forward drive, grip strip, and knee-squeeze defense in real time based on the specific pull variation the partner attempts."
       }
     ]
   }

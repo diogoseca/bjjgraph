@@ -4,7 +4,7 @@
 
 ---
 title: "Combat Base | BJJ Position Guide | BJJ Graph"
-description: "Master Combat Base in BJJ. Essential neutral position for guard passing with 70% retention rate. Complete guide covering control principles and passing entries."
+description: "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control."
 ---
 
 
@@ -20,8 +20,8 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Knee Slide from Combat Base",
+      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,38 +32,38 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Combat Base to Headquarters",
+      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Long Step Pass",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Standing Up from Combat Base",
+      "text": "From this position, attempt Standing Up from Combat Base. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Double Under Pass",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -135,7 +135,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Combat Base",
-  "description": "Master Combat Base in BJJ. Essential neutral position for guard passing with 70% retention rate. Complete guide covering control principles and passing entries.",
+  "description": "Master Combat Base in BJJ. Essential guard passing platform with 72% retention rate. Complete guide to maintaining base, passing entries, and position control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -231,21 +231,21 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Available Techniques and Transitions
 
-### [[Knee Slice Pass]] (20% of attempts)
+### [[Knee Slide from Combat Base]] (22% of attempts)
 
 ### [[Toreando Pass]] (18% of attempts)
 
-### [[Long Step Pass]] (12% of attempts)
-
-### [[Double Under Pass]] (10% of attempts)
-
 ### [[Leg Drag Pass]] (15% of attempts)
 
-### [[Headquarters Pass]] (10% of attempts)
+### [[Combat Base to Headquarters]] (13% of attempts)
 
-### [[Smash Pass]] (10% of attempts)
+### [[Long Step Pass]] (10% of attempts)
 
-### [[Stack Pass]] (5% of attempts)
+### [[Standing Up from Combat Base]] (8% of attempts)
+
+### [[Smash Pass]] (7% of attempts)
+
+### [[Double Under Pass]] (7% of attempts)
 
 
 
@@ -261,23 +261,23 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Knee Slide from Combat Base]]** → [[Side Control]] (Probability: 55%)
 - Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
 - Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 45%)
+- Execute **[[Combat Base to Headquarters]]** → [[Headquarters Position]] (Probability: 45%)
 
 
-**If opponent creates distance and extends legs defensively with feet pushing hips:**
+**If opponent creates distance with strong frames and extends legs to push hips away:**
 - Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Standing Up from Combat Base]]** → [[Standing Position]] (Probability: 55%)
 
 
-**If opponent pulls knees to chest in defensive posture or inverts:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 50%)
+**If opponent pulls knees to chest in defensive posture or inverts to retain guard:**
+- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
 
 
 
@@ -394,13 +394,13 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 - **[[Side Control]]** - Primary transition target - Most common destination from combat base passing
 - **[[Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
 - **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
-- **[[Knee Slice Pass]]** - Primary transition technique - High-percentage pressure pass from combat base
+- **[[Knee Slide from Combat Base]]** - Primary transition technique - High-percentage pressure pass from combat base
 - **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
 - **[[Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
-- **[[X-Guard]]** - Counter position - Opponent's elevation-based guard option against combat base
 - **[[Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
 - **[[Half Guard]]** - Common destination - Position often reached when passes are partially defended
 - **[[Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
+- **[[Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
 
 
 </section>

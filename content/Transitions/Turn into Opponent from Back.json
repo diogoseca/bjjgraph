@@ -1,10 +1,14 @@
 {
   "name": "Turn into Opponent from Back",
-  "description": "TODO: Write 150-160 character SEO description for Turn into Opponent from Back.",
+  "description": "Master turning into your opponent from back control in BJJ. Complete guide to rotation mechanics, hand fighting, and closed guard recovery techniques.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "escape",
+    "back-control",
+    "guard-recovery",
+    "defensive",
+    "fundamental"
   ],
   "from_position": "Back Control/Bottom",
   "outcomes": [
@@ -19,120 +23,361 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Mount/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Turn into Opponent from Back.",
+  "overview": "Turn into Opponent from Back is a fundamental back control escape where the bottom player rotates their body to face the opponent, transitioning from the highly disadvantageous back control position into closed guard. This escape addresses the core defensive problem of back control: the inability to see or directly counter the opponent's attacks. By systematically stripping the opponent's grips, clearing hooks, and executing a controlled rotation, the escaping player converts a position of maximum vulnerability into one of offensive potential.\n\nThe technique operates on the principle that back control depends on three interconnected control mechanisms: hooks for hip control, seatbelt grip for upper body control, and chest-to-back connection for weight distribution. The turn into opponent escape attacks these mechanisms sequentially rather than simultaneously. First, the defender secures their neck through hand fighting and chin protection. Second, they strip or weaken the seatbelt grip using two-on-one control. Third, they clear the bottom hook through hip movement. Finally, they execute the rotation toward the underhook side, completing the turn before the opponent can re-establish control or transition to mount.\n\nAt the competition level, this escape is most effective when combined with other back escape options to create an unpredictable escape system. When the opponent anticipates a turn attempt and tightens hooks, the back door escape becomes available. When they defend the back door, the turn becomes accessible. This multi-directional approach prevents the controlling player from preemptively shutting down any single escape direction, making each individual escape significantly more effective within the broader back defense system.",
   "conditions": [
-    "TODO"
+    "Neck defense secured with chin tucked and at least one hand controlling the choking arm",
+    "Bottom hook cleared or being actively addressed through hip movement",
+    "Hip angle created by scooting toward the underhook side of opponent's control",
+    "Sufficient energy reserves for sustained multi-step rotation sequence",
+    "Opponent's seatbelt grip partially stripped or weakened through hand fighting"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Underhook-Side Turn",
+      "description": "The standard and highest percentage variation where you rotate toward the arm that passes under your armpit. The underhook side offers less resistance to rotation because the seatbelt's weaker axis is oriented in the direction of your turn, and the underhook arm has less leverage to block the rotation.",
+      "when_to_use": "Default choice in most back control escape scenarios, particularly when opponent's underhook grip is weaker than the overhook or when you have already created a hip angle toward that side"
+    },
+    {
+      "variant_name": "Overhook-Side Cross Turn",
+      "description": "A less common variation where you rotate toward the arm passing over your shoulder. This direction is inherently riskier because it drives into the opponent's stronger controlling arm, but it catches opponents who over-commit to defending the standard underhook-side turn by loading their weight and hooks toward that direction.",
+      "when_to_use": "When opponent strongly anticipates and blocks the underhook-side turn by loading weight and tightening hooks on that side, creating an opening in the opposite direction"
+    },
+    {
+      "variant_name": "Bridge and Turn Combination",
+      "description": "An explosive variant combining a strong upward bridge with the rotational turn to create more space against opponents with very tight chest-to-back connection. The bridge momentarily lifts the opponent's weight off your back, creating a gap that enables the rotation even when standard hip scooting has been blocked.",
+      "when_to_use": "When opponent maintains extremely tight chest-to-back pressure that prevents the hip scoot needed for the standard turn, particularly against heavier opponents who use weight advantage to flatten you"
     }
   ],
-  "position_integration": "TODO: Write position integration for Turn into Opponent from Back.",
+  "position_integration": "Turn into Opponent from Back occupies a central role within the back escape system as the most direct path from back control to a neutral guard position. This technique connects the back defense hierarchy to the closed guard offensive system, bridging the gap between BJJ's worst defensive scenario and a position of significant offensive potential. The escape chains naturally with complementary back escapes including the back door escape, shoulder walk, and hip escape to form a multi-directional escape web. When the opponent defends one escape direction, another becomes available, making each individual technique more effective within the system. This interconnection means practitioners must drill the turn into opponent alongside its complementary escapes to develop the reactive decision-making required for effective back defense at competition pace.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Back Control",
+      "relationship": "Source position from which this escape is initiated when trapped in back control bottom"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary target position achieved through successful rotation and guard closure"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter position opponent may achieve by following the turn and establishing mount"
+    },
+    {
+      "name": "Hip Escape from Back Control",
+      "relationship": "Alternative escape technique using hip movement without full rotation toward opponent"
+    },
+    {
+      "name": "Elbow Escape from Back",
+      "relationship": "Related escape method using elbow frames to create space for positional improvement"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Complementary escape in opposite direction creating multi-directional escape system"
+    },
+    {
+      "name": "Shoulder Walk Escape from Back",
+      "relationship": "Alternative escape using shoulder walking movement to create angle for exit"
+    },
+    {
+      "name": "Scoot Hips to Guard from Back",
+      "relationship": "Related guard recovery technique using hip movement to establish guard position"
+    },
+    {
+      "name": "Back Control Maintenance",
+      "relationship": "Opponent's primary response technique to prevent this escape and maintain dominant position"
+    },
+    {
+      "name": "Restore Back Control",
+      "relationship": "Opponent's recovery technique used if escape is partially successful but not completed"
     }
   ],
   "attacker": {
     "name": "Turn into Opponent from Back Attacker",
-    "description": "TODO: Write attacker description for Turn into Opponent from Back.",
-    "overview": "TODO: Write attacker overview for Turn into Opponent from Back.",
+    "description": "Learn to execute the turn into opponent escape from back control in BJJ. Step-by-step rotation mechanics, hand fighting sequences, and guard recovery.",
+    "overview": "Executing the turn into opponent escape from back control requires systematic dismantling of your opponent's control points before committing to the rotation. As the person trapped in back control, your immediate priorities are neck defense and hand fighting, followed by progressive hook removal and space creation. The turn itself exploits a narrow window where your opponent's grip transitions or hook adjustments create momentary openings for rotation. Success depends on disciplined sequencing rather than explosive movement: secure neck defense, establish two-on-one grip control, create hip angle, clear hooks, then execute the controlled turn toward your opponent's underhook side. The escape converts maximum defensive disadvantage into a neutral guard position where you can begin offensive operations. Rushing any stage of this sequence, particularly attempting the turn before clearing hooks or defending the neck, consistently results in either submission or failed escape with wasted energy.",
     "key_principles": [
-      "TODO"
+      "Neck defense takes absolute priority over all rotation attempts; never begin turning until chin is tucked and choking arm is controlled",
+      "Two-on-one grip control on the choking arm must be maintained throughout the entire rotation sequence to prevent submission during the vulnerable turning phase",
+      "Hip angle creation through scooting toward the underhook side provides the mechanical foundation for the rotational turn",
+      "Sequential hook clearing before rotation prevents the hooks from anchoring your hips and blocking the turn",
+      "Controlled rotation speed allows you to maintain grip control and respond to opponent's defensive adjustments during the turn",
+      "Immediate guard closure upon completing the turn prevents opponent from transitioning to mount or re-establishing back control"
     ],
     "setup_requirements": [
-      "TODO"
+      "Chin tucked with neck protected against immediate choking attacks through hand positioning",
+      "Two-on-one grip established on opponent's choking arm with top hand on wrist and bottom hand on forearm",
+      "Hip angle created by scooting laterally toward the underhook side of opponent's seatbelt",
+      "Bottom hook cleared or neutralized through foot trap, hip elevation, or knee wedge technique",
+      "Sufficient space created between your back and opponent's chest to allow rotational movement"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure Neck Defense",
+        "description": "Immediately tuck your chin tightly to your chest and bring both hands to your neck area, establishing primary protection against rear naked choke and other choking attacks before initiating any escape movement sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Two-on-One Grip Control",
+        "description": "Grip the opponent's choking arm with both hands in a two-on-one configuration, placing your top hand on their wrist and your bottom hand controlling their forearm or elbow, creating a lever that prevents choke entry and assists rotation."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Hip Angle Toward Underhook Side",
+        "description": "Scoot your hips laterally toward the side where your opponent's arm passes under your armpit, creating a diagonal angle between your body and theirs that provides the mechanical pathway for the subsequent rotational movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the Bottom Hook",
+        "description": "Use your bottom-side foot and knee to push against your opponent's bottom hook, stripping it from inside your thigh by driving their foot toward the mat while maintaining two-on-one grip control on their choking arm throughout."
+      },
+      {
+        "step_number": 5,
+        "action": "Begin Controlled Rotation",
+        "description": "With the bottom hook cleared, rotate your shoulders and torso toward your opponent's underhook side while driving your top hip forward, using the two-on-one grip as both neck protection and leverage to power the turn."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete Turn and Face Opponent",
+        "description": "Continue the rotation until your chest faces your opponent, using frames on their shoulder and hip to create separation space while preventing them from climbing to mount during the transition between back control and guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Close Guard and Secure Position",
+        "description": "Wrap your legs around your opponent's waist immediately upon completing the turn, locking your ankles behind their back to establish closed guard, then break their posture downward with collar or head control to secure the position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent re-establishes hooks by driving feet back inside thighs during rotation attempt",
+        "effectiveness": "High",
+        "your_response": "Pause the rotation and return to hook clearing phase; use hip bridge to create space against the re-inserted hook before reattempting, or switch to back door escape direction",
         "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows the turn and swings leg over to transition to mount as you rotate",
+        "effectiveness": "Medium",
+        "your_response": "Accelerate guard closure by immediately clamping knees together and wrapping legs before opponent's leg clears your body; use elbow frame on their hip to block the mount transition",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent tightens seatbelt grip and drives chest forward to eliminate rotation space",
+        "effectiveness": "High",
+        "your_response": "Continue hand fighting to strip the seatbelt rather than forcing the turn; create hip angle through persistent scooting, or switch to back door escape when they overcommit chest pressure forward",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent releases hooks and rapidly transitions to side control or north-south during scramble",
+        "effectiveness": "Low",
+        "your_response": "Use the space created by hook release to accelerate your turn and immediately establish frames; even partial guard recovery is better than allowing free passage to side control",
+        "targets_outcome": "Mount/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to turn before defending neck and establishing two-on-one grip control",
+        "consequence": "Exposes neck during the rotation, allowing opponent to sink rear naked choke or arm triangle during the most vulnerable phase of the escape",
+        "correction": "Always establish complete neck defense with chin tucked and two-on-one grip on choking arm before initiating any hip movement or rotation sequence"
+      },
+      {
+        "error": "Forcing the rotation while bottom hook is still engaged inside the thigh",
+        "consequence": "The engaged hook anchors your hips and prevents the rotation from completing, wasting energy and allowing opponent to re-tighten upper body control",
+        "correction": "Clear the bottom hook completely through foot trap or knee wedge before committing to the rotational turn; confirm the hook is cleared before rotating"
+      },
+      {
+        "error": "Turning toward the overhook side rather than the underhook side",
+        "consequence": "Drives your neck directly into the opponent's stronger choking arm, dramatically increasing submission risk during the turn and fighting against their strongest axis of control",
+        "correction": "Rotate toward the underhook side where the opponent's arm passes under your armpit; this direction works against the weaker axis of their seatbelt control"
+      },
+      {
+        "error": "Releasing two-on-one grip prematurely to post on the mat or frame during rotation",
+        "consequence": "Frees the opponent's choking arm to attack the neck during the turn, creating immediate submission vulnerability at the moment when your neck is most exposed",
+        "correction": "Maintain two-on-one grip throughout the entire rotation until guard is closed and posture is broken; never sacrifice grip control for posting or framing"
+      },
+      {
+        "error": "Completing the turn but failing to close guard immediately, leaving legs open",
+        "consequence": "Allows opponent to pass directly to mount or side control from the open position, converting a successful escape into an even worse positional outcome",
+        "correction": "Close guard by wrapping legs and locking ankles behind opponent's back within one to two seconds of completing the rotation; prioritize guard closure over grip fighting"
+      },
+      {
+        "error": "Using explosive jerking movements rather than controlled progressive rotation",
+        "consequence": "Wastes energy rapidly and creates uncontrolled scrambles where the more dominant position player typically prevails; also risks neck injury from sudden movements",
+        "correction": "Execute a steady, controlled rotation maintaining grip control throughout; patient progressive turning is more successful than explosive bursts against skilled opponents"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Isolated movement pattern and grip sequence",
+        "description": "Practice the complete sequence with a compliant partner: neck defense, two-on-one grip, hip scoot, hook clear, rotation, guard closure. Perform 20 repetitions per side focusing on smooth transitions between each stage. Partner provides zero resistance to allow muscle memory development."
+      },
+      {
+        "phase": "Phase 2: Timing and Sensitivity",
+        "focus": "Recognizing windows and reacting to opponent's movements",
+        "description": "Partner applies moderate back control (40-50% resistance) and periodically loosens hooks or adjusts grips. Practice recognizing these windows and initiating the escape sequence immediately. Focus on feeling when the opponent's control weakens rather than visually identifying openings."
+      },
+      {
+        "phase": "Phase 3: Chaining with Complementary Escapes",
+        "focus": "Multi-directional escape system integration",
+        "description": "Practice combining the turn into opponent with back door escape, shoulder walk, and hip escape in response to opponent's defensive adjustments. When the turn is blocked, immediately transition to an alternative escape direction. Develop the reactive decision-making that makes each escape more effective."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance competition-pace execution",
+        "description": "Positional sparring starting from back control with full resistance. Apply the turn into opponent escape alongside the complete back escape system under realistic pressure. Track success rate and identify specific failure points for targeted improvement. Include rounds against different body types and back control styles."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window to initiate the turn into your opponent from back control?",
+        "answer": "The best timing is when your opponent loosens their seatbelt grip to attempt a choke entry or switches between grip configurations. During the transition between one grip and another, their control is momentarily weakened, creating a window where your rotation faces less resistance. Additionally, when they shift weight to attack your neck, their hook control often loosens as they commit their upper body to the choke attempt, opening the window for hip movement and hook clearing."
+      },
+      {
+        "question": "What conditions must be established before attempting to turn into your opponent?",
+        "answer": "You must have your neck defense secured with chin tucked and at least one hand controlling the opponent's choking arm in a two-on-one configuration. The bottom hook should be cleared or neutralized, and you should have created a hip angle by scooting toward the underhook side. Attempting to turn without these prerequisites exposes your neck during rotation and dramatically increases submission risk, making the escape attempt more dangerous than remaining in back control."
+      },
+      {
+        "question": "What is the critical hip movement that enables successful rotation during this escape?",
+        "answer": "The hip escape toward the underhook side is the foundational movement. You must scoot your hips toward the side where your opponent's arm passes under your armpit, creating an angle that allows your shoulders and torso to rotate toward them. Without this initial hip angle, your rotation is blocked by their chest-to-back connection and hook leverage, making the turn mechanically impossible against a connected opponent who maintains proper positioning."
+      },
+      {
+        "question": "What is the most common reason this escape fails at the moment of rotation?",
+        "answer": "Failing to clear the bottom hook before rotating is the primary failure point. When the bottom hook remains engaged inside your thigh during the turn attempt, it acts as an anchor that prevents your hips from completing the rotation and allows your opponent to follow your movement while maintaining back control. The hook must be stripped or bypassed through hip elevation before committing to the rotational turn to avoid this common mechanical failure."
+      },
+      {
+        "question": "What grip configuration must you maintain throughout the turning sequence?",
+        "answer": "Maintain two-on-one control on the opponent's choking arm throughout the entire rotation. Your top hand grips their wrist while your bottom hand controls their forearm or elbow. This grip prevents them from sinking a choke during the vulnerable rotation phase and provides a lever to assist your turn. Releasing this grip prematurely to post or frame is the most common error leading to submission during the escape attempt."
+      },
+      {
+        "question": "In which direction should you drive your rotation and why?",
+        "answer": "Rotate toward the underhook side, turning your body to face the arm that passes under your armpit. This direction is mechanically advantageous because it works against the weaker axis of their seatbelt control and brings you toward their arm that has less leverage to resist your rotation. Turning toward the overhook side drives into their stronger controlling arm and often exposes your neck directly to the choking hand, significantly increasing submission risk."
+      },
+      {
+        "question": "Your opponent feels you beginning to rotate and tightens both hooks while driving their chest forward - how do you adjust?",
+        "answer": "Pause the rotation attempt and return to the hand fighting phase. Use your hips to create pressure against their top hook by bridging slightly, then work to strip the re-tightened hook with your foot or knee while maintaining your two-on-one grip. Do not force the rotation against tightened hooks as this wastes energy and may expose your neck. Wait for the next window when they loosen control to attack, then resume the sequence with fresh hip escape and hook clearing."
+      },
+      {
+        "question": "If your initial turn attempt is stopped and you are pushed back to full back control, what follow-up escape should you chain?",
+        "answer": "Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Turn into Opponent from Back."
+    "safety_considerations": "This escape involves rotational movement of the neck and spine under load from your opponent's body weight and control pressure. Never jerk your head or neck explosively during the turn; maintain controlled movement throughout the rotation. If you feel your opponent has a deep choking grip during the rotation, pause and return to hand fighting rather than forcing the turn with a partially locked choke. During training, communicate with your partner about resistance levels and tap immediately if any neck compression occurs during the rotation phase. Avoid this technique if you have existing cervical spine injuries without medical clearance."
   },
   "defender": {
     "name": "Turn into Opponent from Back Defender",
-    "description": "TODO: Write defender description for Turn into Opponent from Back.",
-    "overview": "TODO: Write defender overview for Turn into Opponent from Back.",
+    "description": "Defend against the turn into opponent escape from back control. Recognition cues, hook retention strategies, and mount transition techniques for BJJ.",
+    "overview": "Defending against the turn into opponent escape requires maintaining all three layers of back control: hook engagement, seatbelt grip, and chest-to-back connection. As the back control top player, you must recognize the early stages of this escape attempt, particularly the hip scoot and two-on-one grip establishment that precede the rotation. Your primary defensive tools include tightening hooks when you feel hip movement, re-establishing seatbelt grip before it is fully stripped, and driving forward with chest pressure to eliminate rotation space. When the escape becomes inevitable and hooks are compromised, transitioning proactively to mount during the rotation preserves your positional advantage rather than clinging to a deteriorating back control position. Understanding when to fight for back control versus when to transition to mount is a critical decision point that separates advanced back control players from those who lose position entirely during escape attempts.",
     "key_principles": [
-      "TODO"
+      "Maintain constant chest-to-back pressure to eliminate the space needed for rotational hip movement and angle creation",
+      "Tighten hooks immediately upon sensing any lateral hip scooting, driving feet deeper into the thighs to anchor the opponent's hips",
+      "Re-establish seatbelt grip proactively when opponent begins two-on-one hand fighting rather than waiting for the grip to be fully stripped",
+      "Recognize the transition point where maintaining back control becomes impossible and proactively move to mount to preserve positional dominance",
+      "Use active hand fighting to prevent the two-on-one grip configuration that initiates the escape sequence"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins scooting their hips laterally toward your underhook side, creating a diagonal angle between their body and yours",
+      "Opponent establishes two-on-one grip on your choking arm with both hands controlling your wrist and forearm",
+      "Opponent uses their bottom-side foot or knee to push against your bottom hook, attempting to strip it from inside their thigh",
+      "Opponent's shoulders begin rotating toward you as they initiate the turning movement after clearing space"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Tighten hooks and drive chest forward to re-establish full back control",
+        "when_to_use": "Early in the escape when opponent has only begun the hip scoot and has not yet cleared hooks or completed two-on-one grip",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent returns to full back control bottom with escape attempt reset and energy wasted",
+        "risk": "If you over-commit chest pressure forward, opponent may use your momentum to accelerate their rotation"
+      },
+      {
+        "action": "Follow the turn and transition to mount by swinging your top leg over the opponent's body",
+        "when_to_use": "When hooks are compromised and the rotation is progressing past the point of back control recovery",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You establish mount position, maintaining dominant 4-point position with direct control and submission opportunities",
+        "risk": "If you transition too early, opponent may block with knee shield and recover to half guard instead of being caught in mount"
+      },
+      {
+        "action": "Re-establish seatbelt grip and attack the neck during the rotation to force a defensive reset",
+        "when_to_use": "When opponent releases two-on-one grip prematurely during the turn to post or frame",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Opponent must abandon the rotation attempt and return to neck defense priority, resetting the escape sequence entirely",
+        "risk": "If the choke attempt fails, you may lose grip positioning and hooks simultaneously during the attack"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Back Control/Bottom",
+        "how": "Maintain back control by tightening hooks immediately when you sense hip scooting, driving chest forward into opponent's back to eliminate rotation space, and actively hand fighting to prevent two-on-one grip establishment on your choking arm"
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When hooks are lost and the turn is progressing, release remaining hook control proactively and swing your top leg over the opponent's body to establish mount before they can close guard, timing the transition to arrive in mount as they complete the rotation"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Clinging to back control after hooks are stripped and rotation is well underway",
+        "consequence": "Lose both back control and the opportunity to transition to mount, often ending up in closed guard with no positional advantage",
+        "correction": "Recognize the point of no return for back control and proactively transition to mount during the rotation rather than fighting for a position that is already lost"
+      },
+      {
+        "error": "Loosening hooks to attack the neck before the opponent's escape sequence is neutralized",
+        "consequence": "Creates exactly the opening the opponent needs by sacrificing hip control for a premature submission attempt that fails due to hand fighting defense",
+        "correction": "Maintain hook control as the foundation of back control; only release hooks for submission when the opponent's escape has been fully shut down and their defensive posture is broken"
+      },
+      {
+        "error": "Leaning back and pulling rather than driving forward with chest pressure",
+        "consequence": "Creates space between your chest and their back that enables the hip scoot and rotation needed for the escape",
+        "correction": "Drive your chest forward into their back with constant pressure, keeping your hips close to theirs and your weight driving forward rather than pulling backward"
+      },
+      {
+        "error": "Allowing the two-on-one grip to be established without active hand fighting resistance",
+        "consequence": "Once the opponent has two-on-one control on your choking arm, the escape sequence is initiated and your primary control mechanism is compromised",
+        "correction": "Actively fight hands to prevent the second grip from connecting on your choking arm; use your free hand to strip their bottom hand or control their wrist before the two-on-one is completed"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "How do you recognize that your opponent is about to attempt a turn into you from back control?",
+        "answer": "Key recognition cues include the opponent scooting their hips toward your underhook side, beginning to strip your seatbelt grip with a two-on-one hand configuration, attempting to clear your bottom hook with their foot or knee, and initiating shoulder rotation toward you. The hip scoot is typically the earliest indicator and provides the most reaction time for defensive adjustment before the escape gains momentum."
+      },
+      {
+        "question": "What is the most effective response when you feel your opponent beginning to rotate toward you?",
+        "answer": "Immediately tighten your bottom hook by driving it deeper and clamping your knee against their hip. Simultaneously drive your chest forward into their back to eliminate the space needed for rotation. Re-establish your seatbelt grip if it has been partially stripped, prioritizing the choking arm control over the shoulder. The combination of tightened hooks and forward chest pressure makes the rotation mechanically impossible without first re-creating space."
+      },
+      {
+        "question": "When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?",
+        "answer": "Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage."
+      },
+      {
+        "question": "How does your defensive approach change when you have body triangle locked versus standard hooks?",
+        "answer": "With body triangle, the rotation escape is significantly harder for your opponent because the locked legs prevent the initial hip scoot and hook clearing that enables the turn. Focus on maintaining your body triangle lock and attacking the neck rather than worrying about hook defense. If they do begin to rotate despite the body triangle, the locked legs follow their rotation automatically, often maintaining back control through the turn attempt without requiring manual hook adjustment."
+      },
+      {
+        "question": "What grip adjustments prevent the two-on-one strip that initiates this escape?",
+        "answer": "Keep your choking arm's elbow tight against their body rather than reaching loosely around their neck, which gives them a lever to grip. Establish a deep collar grip or chin strap rather than a loose neck wrap that is easily controlled with two hands. Use your free hand to cross-grip their wrist or forearm, preventing them from establishing the second hand on your choking arm. Active hand fighting that disrupts their grip establishment is more effective than static grip holding."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying escape initiation cues",
+        "description": "Partner performs the turn into opponent escape at slow speed while you focus on identifying each stage: hip scoot, grip stripping, hook clearing, rotation initiation. Practice calling out each stage as you recognize it. Develop the tactile sensitivity to feel escape attempts through body contact rather than relying on visual cues."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Applying defensive responses at each escape stage",
+        "description": "Partner attempts the escape at moderate speed while you practice tightening hooks when you feel hip movement, re-establishing seatbelt when grips are attacked, and driving chest forward to eliminate space. Focus on matching the correct defensive response to each specific escape stage with appropriate timing."
+      },
+      {
+        "phase": "Phase 3: Mount Transition Decision-Making",
+        "focus": "Recognizing the transition point and executing mount climb",
+        "description": "Partner completes the escape sequence against your back control while you practice identifying when back control is lost and transitioning proactively to mount. Develop the judgment to recognize the point of no return and the technical ability to climb to mount during the opponent's rotation before they can close guard."
       }
     ]
   }

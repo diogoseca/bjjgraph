@@ -103,17 +103,23 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (15% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Technical Stand-up]]** (13% of attempts)
+- **[[Technical Stand-up]]** (10% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (18% of attempts)
+- **[[Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Turtle Transition]]** (21% of attempts)
+- **[[Arm Extraction to Turtle]]** (31% of attempts)
 
-- **[[Rolling to Guard]]** (16% of attempts)
+- **[[Rolling to Guard]]** (13% of attempts)
+
+- **[[Escape Twister Side Control]]** (4% of attempts)
+
+- **[[Frame from Twister Side Control]]** (2% of attempts)
+
+- **[[Turn In from Twister Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,25 +180,29 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Twister Finish]]** (9% of attempts)
+- **[[Twister Finish]]** (12% of attempts)
+
+- **[[Back Take]]** (14% of attempts)
 
 - **[[Darce Choke]]** (10% of attempts)
 
-- **[[Anaconda Choke]]** (10% of attempts)
-
-- **[[Kimura]]** (11% of attempts)
-
-- **[[Turtle to Truck]]** (11% of attempts)
-
-- **[[Back Take]]** (11% of attempts)
+- **[[Kimura]]** (10% of attempts)
 
 - **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (10% of attempts)
+- **[[Anaconda Choke]]** (8% of attempts)
 
-- **[[Arm Triangle]]** (8% of attempts)
+- **[[Arm Triangle]]** (7% of attempts)
 
-- **[[Calf Slicer]]** (8% of attempts)
+- **[[Side Control to Mount]]** (8% of attempts)
+
+- **[[Turtle to Truck]]** (7% of attempts)
+
+- **[[Calf Slicer]]** (5% of attempts)
+
+- **[[Twister SC to Back Take]]** (4% of attempts)
+
+- **[[Twister SC to Truck]]** (3% of attempts)
 
 
 ### Common Mistakes

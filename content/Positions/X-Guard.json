@@ -89,39 +89,43 @@
     "transitions": [
       {
         "transition": "Smash Pass",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 46
+        "attempt_probability": 61
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Saddle Entry from Top",
         "attempt_probability": 6
       },
       {
-        "transition": "Outside Ashi Entry",
+        "transition": "Saddle Entry from Top",
         "attempt_probability": 4
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 2
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 4
+        "attempt_probability": 2
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Knee Pin from X-Guard",
-        "attempt_probability": 1
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Step Over from X-Guard",
+        "attempt_probability": 0
       },
       {
         "transition": "Smash Pass from X-Guard",
@@ -129,10 +133,6 @@
       },
       {
         "transition": "Standing Escape from X-Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Step Over from X-Guard",
         "attempt_probability": 1
       }
     ],
@@ -355,8 +355,8 @@
         "attempt_probability": 16
       },
       {
-        "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 12
+        "transition": "X-Guard to Ashi Garami",
+        "attempt_probability": 13
       },
       {
         "transition": "Technical Stand Up to Single Leg",
@@ -377,10 +377,6 @@
       {
         "transition": "X-Guard Technical Stand Up",
         "attempt_probability": 2
-      },
-      {
-        "transition": "X-Guard to Ashi Garami",
-        "attempt_probability": 1
       },
       {
         "transition": "X-Guard to Single Leg X",
@@ -412,7 +408,7 @@
             "probability": 70
           },
           {
-            "technique": "X-Guard to Ashi Transition",
+            "technique": "X-Guard to Ashi Garami",
             "target": "Ashi Garami",
             "probability": 60
           }
@@ -437,7 +433,7 @@
         "condition": "If opponent attempts to step over the outside leg while trapped leg remains controlled",
         "actions": [
           {
-            "technique": "X-Guard to Ashi Transition",
+            "technique": "X-Guard to Ashi Garami",
             "target": "Ashi Garami",
             "probability": 75
           },

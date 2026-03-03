@@ -21,37 +21,37 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,17 +204,21 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Available Escapes
 
-### [[Arm Extraction]] (19% of attempts)
+### [[Arm Extraction]] (25% of attempts)
 
-### [[Triangle Escape]] (17% of attempts)
+### [[Triangle Escape]] (14% of attempts)
 
-### [[Rolling Escape to Guard]] (15% of attempts)
+### [[Rolling Escape to Guard]] (12% of attempts)
 
-### [[Stack Defense]] (16% of attempts)
+### [[Stack Defense]] (13% of attempts)
 
-### [[Posture Recovery]] (15% of attempts)
+### [[Posture Recovery]] (12% of attempts)
 
-### [[Hand Fighting from Back]] (18% of attempts)
+### [[Hand Fighting from Back]] (15% of attempts)
+
+### [[Grip Fight Escape from Rear Triangle]] (6% of attempts)
+
+### [[Posture Defense from Rear Triangle]] (3% of attempts)
 
 
 
@@ -393,7 +397,7 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 - **[[Triangle Control]]** - Opponent's position - top perspective of similar triangle configuration
 - **[[Back Control]]** - Common transition target after successful arm extraction
-- **[[Triangle Choke]]** - Primary submission threat from this position
+- **[[Rear Triangle Choke Finish]]** - Primary submission threat from this position
 - **[[Armbar Control]]** - Common transition position when opponent switches from triangle
 - **[[Turtle]]** - Escape target position for defensive recovery
 - **[[Triangle Escape]]** - Primary escape technique from this position

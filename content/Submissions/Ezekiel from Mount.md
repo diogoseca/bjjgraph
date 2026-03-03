@@ -259,11 +259,8 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 ## Related Submissions
 
-- [[Ezekiel Choke]]
 - [[Arm Triangle]]
 - [[Cross Collar Choke]]
-- [[Rear Naked Choke]]
-- [[Guillotine Choke]]
 - [[Breadcutter Choke]]
 - [[Baseball Bat Choke]]
 - [[Americana from Mount]]
@@ -271,8 +268,9 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 - [[Americana from Side Control]]
 - [[Armbar from Side Control]]
 - [[Brabo Choke]]
-- [[Darce Choke]]
 - [[Americana]]
+- [[Armbar from High Mount]]
+- [[Cross Collar Choke from High Mount]]
 
 
 </section>
@@ -285,14 +283,14 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 - [[High Mount]] - Superior position variation that makes the choke more effective
 - [[Technical Mount]] - Alternative position from which this choke can be applied with excellent control
 - [[S Mount]] - Advanced mount variation allowing armbar transitions when Ezekiel is defended
-- [[Ezekiel Choke]] - Parent technique with variations including reverse Ezekiel and no-gi adaptations
 - [[Armbar from Mount]] - Primary combination attack when opponent defends Ezekiel by grabbing your arm
 - [[Americana from Mount]] - Alternative submission when opponent extends arms to defend Ezekiel
 - [[Cross Collar Choke]] - Related gi-based choke from mount using similar leverage principles
 - [[Arm Triangle]] - Related choke from top positions using similar bilateral pressure concepts
-- [[Rear Naked Choke]] - Similar bilateral carotid compression mechanics from different position
-- [[Guillotine Choke]] - Alternative neck submission using different grip configuration
 - [[Half Guard]] - Common position reached when defender successfully counters the Ezekiel attempt
+- [[Modified Mount]] - Mount variation providing enhanced base stability during Ezekiel setup
+- [[Armbar from High Mount]] - High-percentage alternative submission from the same elevated mount platform
+- [[Cross Collar Choke from High Mount]] - Complementary gi choke creating submission dilemma alongside Ezekiel threat
 
 
 </section>

@@ -21,37 +21,37 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
       "text": "From this position, attempt S-Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 16% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (20% of attempts)
+### [[Mount to Armbar]] (39% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
-
-### [[Americana]] (14% of attempts)
-
-### [[Mounted Triangle]] (12% of attempts)
-
-### [[Kimura]] (12% of attempts)
+### [[Mounted Triangle]] (8% of attempts)
 
 ### [[S-Mount Transition]] (8% of attempts)
 
-### [[Side Control to North-South]] (8% of attempts)
+### [[Back Take]] (10% of attempts)
 
-### [[Back Take]] (12% of attempts)
+### [[Consolidate Mount]] (16% of attempts)
+
+### [[High Mount Transition]] (8% of attempts)
+
+### [[Cross Collar Choke]] (6% of attempts)
+
+### [[3-4 Mount to S Mount]] (3% of attempts)
+
+### [[3-4 Mount to Technical Mount]] (2% of attempts)
 
 
 

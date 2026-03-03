@@ -101,7 +101,7 @@ The position demands different strategic approaches based on whether you're esta
 
 - **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Turtle Transition]]** (17% of attempts)
+- **[[Bridge and Turn to Turtle]]** (17% of attempts)
 
 - **[[Hip Escape to Guard]]** (14% of attempts)
 

@@ -21,37 +21,37 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
     {
       "@type": "HowToStep",
       "name": "Execute Basic Butterfly Sweep",
-      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 59% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,31 +209,29 @@ This position represents an evolution in half guard theory, popularized by pract
 
 ## Available Escapes
 
-### [[Basic Butterfly Sweep]] (11% of attempts)
+### [[Basic Butterfly Sweep]] (15% of attempts)
 
-### [[Old School Sweep]] (59% of attempts)
+### [[Old School Sweep]] (22% of attempts)
 
-### [[Hook Sweep]] (6% of attempts)
+### [[Hook Sweep]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (8% of attempts)
+### [[Underhook Sweep from Half]] (12% of attempts)
 
-### [[Deep Half Entry]] (8% of attempts)
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (4% of attempts)
+### [[Butterfly Guard to X-Guard]] (6% of attempts)
 
-### [[Elevator Sweep]] (1% of attempts)
+### [[Elevator Sweep]] (4% of attempts)
 
-### [[Kimura from Half Guard]] (2% of attempts)
+### [[Kimura from Half Guard]] (5% of attempts)
 
-### [[Transition to Half Butterfly]] (0% of attempts)
+### [[Half Butterfly Sweep]] (4% of attempts)
 
-### [[Half Butterfly Sweep]] (0% of attempts)
+### [[Half Butterfly to Dogfight]] (5% of attempts)
 
-### [[Half Butterfly to Dogfight]] (0% of attempts)
+### [[Reguard from Half Butterfly]] (3% of attempts)
 
-### [[Reguard from Half Butterfly]] (0% of attempts)
-
-### [[Rolling Back Take from Half Butterfly]] (1% of attempts)
+### [[Rolling Back Take from Half Butterfly]] (2% of attempts)
 
 
 
@@ -260,7 +258,7 @@ This position represents an evolution in half guard theory, popularized by pract
 
 **Else if opponent's weight shifts to free-leg side defending butterfly hook:**
 - Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Rolling Back Take from Half Butterfly]]** → [[Back Control]] (Probability: 40%)
 
 
 

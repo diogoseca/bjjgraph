@@ -1,10 +1,14 @@
 {
   "name": "Consolidation to Knee on Belly",
-  "description": "TODO: Write 150-160 character SEO description for Consolidation to Knee on Belly.",
+  "description": "Master the Consolidation to Knee on Belly transition in BJJ. Learn optimal timing, grip transfers, and knee placement for dynamic top advancement.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "side-control",
+    "knee-on-belly",
+    "positional-advancement",
+    "top-control",
+    "pressure"
   ],
   "from_position": "Side Control Consolidation/Top",
   "outcomes": [
@@ -25,114 +29,374 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Consolidation to Knee on Belly.",
+  "overview": "The Consolidation to Knee on Belly transition represents a critical positional advancement in the top-game hierarchy, bridging the gap between the static grinding pressure of consolidated side control and the dynamic mobile pressure of knee on belly. This technique allows the top player to upgrade their position from a holding pattern to an active attacking platform that scores additional competition points and opens multiple submission pathways including baseball bat chokes, armbars, and cross collar chokes.\n\nThe fundamental challenge in this transition lies in the brief but critical moment when the top player must sacrifice chest-to-chest connection to elevate their hips and insert their knee onto the opponent's torso. This window of reduced pressure is precisely when the bottom player has their best opportunity to escape, re-guard, or initiate scrambles. Expert execution minimizes this vulnerability through precise timing coordinated with the opponent's breathing rhythm, efficient grip transfers that maintain control throughout the movement, and explosive hip elevation that replaces chest pressure with knee pressure before the bottom player can react.\n\nStrategically, mastering this transition transforms consolidated side control from a static holding position into a launching pad for an entire offensive system. The ability to threaten the knee on belly transition forces the bottom player to defend preemptively, which in turn creates openings for alternative attacks and transitions directly from side control. This dilemma-based approach exemplifies the principle that positional advancement threats are often as valuable as the advancements themselves.",
   "conditions": [
-    "TODO"
+    "Consolidated side control established with strong crossface and underhook or far-side control",
+    "Opponent's defensive frames largely neutralized through sustained pressure application",
+    "Opponent flat on back with limited hip mobility and reduced defensive activity",
+    "Stable wide-knee base providing platform for the hip elevation required during knee insertion",
+    "At least one dominant grip secured that will persist through the transition"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Quick Switch Knee on Belly",
+      "description": "Rapid transition using an explosive hip pop to insert the knee while pulling up on the opponent's collar. Emphasizes speed over methodical progression, replacing chest pressure with knee pressure in a single explosive motion. The collar pull serves as both a control anchor and a mechanism to keep the opponent flat during insertion.",
+      "when_to_use": "When the opponent is momentarily stunned or exhausted from sustained pressure, and their defensive reactions are delayed. Ideal after a failed escape attempt when their energy is depleted."
+    },
+    {
+      "variant_name": "Slide Knee Insertion",
+      "description": "Rather than popping the hips to create space for knee insertion, the knee slides across the opponent's torso from the side control position while maintaining constant body contact. The sliding motion preserves pressure continuity and eliminates the gap that explosive transitions create.",
+      "when_to_use": "Against technically proficient opponents who exploit the gap created by explosive transitions. Effective when the opponent has strong frame timing and reacts immediately to any pressure reduction."
+    },
+    {
+      "variant_name": "Far-Side Knee on Belly",
+      "description": "Instead of inserting the near-side knee, the top player steps over the opponent's torso with the far leg to place the far-side knee on belly. This variation creates a different pressure angle and often catches defenders off-guard because it approaches from an unexpected direction. Requires strong hip mobility and balance.",
+      "when_to_use": "When the opponent has strong near-side framing that blocks standard knee insertion, or when you want to set up far-side attacks like the far-side armbar or cross collar choke from an unusual angle."
     }
   ],
-  "position_integration": "TODO: Write position integration for Consolidation to Knee on Belly.",
+  "position_integration": "This transition serves as the primary gateway between the consolidation phase of side control and the dynamic attacking platform of knee on belly within the top-game positional hierarchy. From knee on belly, the practitioner accesses high-percentage submissions such as the baseball bat choke, armbar from knee on belly, and cross collar choke, along with positional advancements to mount and back control. The ability to cycle between side control consolidation and knee on belly creates a dynamic pressure system that prevents the bottom player from settling into static defensive patterns, forcing them to address multiple threats simultaneously rather than developing a single defensive strategy.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Side Control Consolidation",
+      "relationship": "Source position from which this transition originates after establishing dominant control"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Target position achieved upon successful transition, providing dynamic attacking platform"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position where the bottom player recovers guard during the transition window"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position category encompassing the consolidation phase where this transition begins"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative positional advancement from side control and common follow-up from knee on belly"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative advancement option when knee on belly transition is not available due to opponent positioning"
+    },
+    {
+      "name": "Armbar from Knee on Belly",
+      "relationship": "High-percentage submission attack available immediately after achieving knee on belly position"
+    },
+    {
+      "name": "Cross Collar Choke from KOB",
+      "relationship": "Primary gi choke threat from knee on belly that punishes passive defense under pressure"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Powerful submission accessible from knee on belly that capitalizes on collar grip established during transition"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Alternative side control variation that offers different transition pathways when standard knee on belly entry is blocked"
     }
   ],
   "attacker": {
     "name": "Consolidation to Knee on Belly Attacker",
-    "description": "TODO: Write attacker description for Consolidation to Knee on Belly.",
-    "overview": "TODO: Write attacker overview for Consolidation to Knee on Belly.",
+    "description": "Master attacking the Consolidation to Knee on Belly transition. Complete guide to timing, grip transfers, and explosive knee placement for seamless positional advancement from consolidated side control.",
+    "overview": "Executing the Consolidation to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.",
     "key_principles": [
-      "TODO"
+      "Maintain at least one dominant grip connection throughout the entire transition to prevent the bottom player from capitalizing on the positional adjustment",
+      "Time the knee insertion during the opponent's exhalation when their defensive strength is reduced and reaction time is slower",
+      "Replace chest pressure with knee pressure in one explosive motion, minimizing the window where neither control mechanism is fully engaged",
+      "Transfer your control grip configuration before elevating, ensuring head and hip control persist through the movement",
+      "Drive the knee to the solar plexus or lower ribs immediately upon placement, establishing diaphragm pressure before the bottom player can create frames",
+      "Extend the base leg wide immediately after knee placement to create the stable tripod structure that resists sweeps and escape attempts"
     ],
     "setup_requirements": [
-      "TODO"
+      "Consolidated side control with deep crossface establishing head control that prevents the opponent from turning into you or creating defensive angles",
+      "Opponent's defensive frames collapsed or neutralized through sustained chest and hip pressure application over multiple breathing cycles",
+      "Far-side underhook or hip control preventing the opponent from bridging, rotating, or generating momentum during the transition",
+      "Wide base with knees spread providing a stable platform for the hip elevation required during knee insertion",
+      "Collar or lapel grip established on the far side to maintain a connection anchor during the grip transfer phase of the transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify Consolidation Quality",
+        "description": "Before initiating the transition, confirm that your crossface is deep and controlling the opponent's head rotation, your underhook or far-side control is preventing bridging, and the opponent's defensive frames have been eliminated through sustained pressure. Rushing this transition from an unconsolidated position is the primary cause of failure and allows easy escape."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Transition Grip",
+        "description": "While maintaining crossface pressure, walk your far-side hand from the underhook position to the opponent's far-side collar or belt line. This grip becomes your primary control anchor during the transition. In no-gi, cup the far hip or secure a wrist tie. This grip must be firmly established before you proceed to the next phase."
+      },
+      {
+        "step_number": 3,
+        "action": "Walk Hips Toward Head",
+        "description": "Maintaining chest pressure, scoot your hips slightly toward the opponent's head through small knee increments. This repositions your body so that when you elevate, your knee naturally lands on the solar plexus rather than too low on the hips. This hip walk also increases crossface pressure as a secondary benefit, further suppressing defensive reactions."
+      },
+      {
+        "step_number": 4,
+        "action": "Explosive Hip Pop and Knee Insertion",
+        "description": "In one explosive motion, elevate your hips off the mat and drive your near-side knee across the opponent's torso, targeting the solar plexus or lower ribcage. The shin should land perpendicular to their centerline. This movement must be fast enough that the opponent cannot insert defensive frames during the brief moment your chest lifts off their body."
+      },
+      {
+        "step_number": 5,
+        "action": "Plant Base Leg Wide",
+        "description": "Simultaneously with the knee insertion, extend your far leg wide with the foot firmly planted on the mat, toes pointing away from the opponent. This creates the tripod base structure essential for maintaining knee on belly stability. The wider the base leg, the more resistant the position becomes to sweeps and turning escapes from the bottom player."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive Pressure Downward Through Knee",
+        "description": "Once the knee is placed and the base leg is posted, immediately channel your bodyweight downward through the knee into the opponent's diaphragm. Sit your hips slightly back and down to maximize the downward force vector. Your upper body weight should flow through the knee contact point, creating concentrated pressure that restricts the opponent's breathing."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure Final Grip Configuration",
+        "description": "Complete the transition by establishing the standard knee on belly grip configuration: near-side hand controls the opponent's collar for choke threats and head control, while the far-side hand controls the opponent's far-side pants or belt to prevent turning away. These dual grips create the control system that enables sustained pressure, submission threats, and transition readiness."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish Offensive Posture",
+        "description": "Rise to an upright posture with your chest forward and hips high, creating the optimal angle for downward knee pressure while maintaining mobility for rapid transitions. Begin reading the opponent's defensive reactions to determine your next attack: if they push on the knee, attack the arms; if they turn away, take the back; if they remain flat, threaten chokes or advance to mount."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent frames on knee with both hands and pushes to displace it from their torso",
+        "effectiveness": "High",
+        "your_response": "Attack the extended arms immediately with armbar setup or kimura grip. Their straightened arms during the push create the exact arm isolation needed for submission entries. Alternatively, collapse the frames by driving the knee deeper while controlling one wrist.",
+        "targets_outcome": "Side Control Consolidation/Top"
+      },
+      {
+        "counter": "Opponent turns to the side and shrimps hips away during or immediately after knee placement",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Follow their hip movement by adjusting knee position and maintaining collar grip as an anchor. If they create significant distance, transition to mount by stepping over their turning body. Use their rotation momentum to advance rather than fighting against it.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent bridges explosively during the transition moment before the knee is fully planted",
+        "effectiveness": "High",
+        "your_response": "Maintain the collar grip as your primary anchor and ride the bridge rather than fighting it. As the opponent descends from the bridge apex, immediately replant the knee with full pressure. If the bridge is too powerful, abandon the knee insertion entirely and re-consolidate side control with heavy chest pressure.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent inserts near-side elbow frame between your bodies during the brief chest lift",
+        "effectiveness": "Medium",
+        "your_response": "Drive the knee through or over the frame using concentrated downward pressure, or use the framing arm as a target for kimura or americana attacks. If the frame is too strong, settle back to side control and re-collapse the frame before attempting the transition again.",
         "targets_outcome": "Side Control Consolidation/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting the transition before fully consolidating side control with frames still active",
+        "consequence": "The bottom player exploits the unconsolidated control during the transition to recover half guard or full guard, wasting the positional advantage gained from the guard pass",
+        "correction": "Invest 10-30 seconds in systematic pressure application to collapse all defensive frames before attempting knee insertion. Verify that the opponent's breathing is labored and defensive activity has diminished before proceeding."
+      },
+      {
+        "error": "Lifting the chest too high and too slowly during knee insertion, creating an extended gap in pressure",
+        "consequence": "The prolonged pressure gap gives the bottom player ample time to insert frames, initiate hip escapes, or bridge to create scramble situations that neutralize positional advantage",
+        "correction": "Execute the hip pop and knee insertion as one explosive movement. The chest should lift only the minimum distance required for the knee to pass underneath, and knee pressure should establish within a fraction of a second."
+      },
+      {
+        "error": "Placing the knee too low on the opponent's hips or upper thighs instead of the solar plexus",
+        "consequence": "Significantly reduced pressure effectiveness because the hip area can absorb and redirect force more easily than the diaphragm. The opponent maintains normal breathing and retains full defensive capacity.",
+        "correction": "Walk hips toward the opponent's head before initiating the transition so the knee naturally lands on the solar plexus. Aim for the soft area between the ribcage and navel where diaphragm pressure is maximized."
+      },
+      {
+        "error": "Keeping the base leg narrow and close to the opponent's body after knee placement",
+        "consequence": "Weak tripod base makes the position immediately vulnerable to sweeps, and the opponent can easily create rotation by pushing against the narrow base structure",
+        "correction": "Extend the base leg wide with the foot planted firmly and toes pointing away from the opponent. The wider the base, the more stable the position and the more difficult it becomes for the bottom player to generate sweep leverage."
+      },
+      {
+        "error": "Releasing all grips simultaneously during the transition, losing all connection points",
+        "consequence": "The bottom player escapes freely during the moment of zero control, often recovering guard or creating a scramble before the new grip configuration can be established",
+        "correction": "Transfer grips sequentially rather than simultaneously. Maintain the crossface grip until the new collar grip is secured, ensuring at least one control point is active at all times throughout the transition."
+      },
+      {
+        "error": "Settling into a static knee on belly position without immediately threatening submissions or transitions",
+        "consequence": "The bottom player has time to assess the situation, develop escape plans, and execute coordinated defensive strategies that progressively improve their position",
+        "correction": "Begin threatening submissions or positional advancements within 2-3 seconds of establishing knee on belly. The position's value comes from dynamic pressure and attack threats, not from static holding."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Knee placement accuracy and base positioning",
+        "description": "Practice the transition with a compliant partner focusing exclusively on correct knee placement on the solar plexus, proper base leg extension, and smooth grip transfers. Repeat 20-30 repetitions per side until the movement feels fluid and automatic without requiring conscious thought about each component."
+      },
+      {
+        "phase": "Phase 2: Timing and Breathing",
+        "focus": "Coordinating transition with opponent's breathing rhythm",
+        "description": "Partner provides passive resistance while you develop sensitivity to their breathing patterns. Practice timing the explosive knee insertion with their exhalation, when defensive strength is at its lowest. Develop the ability to feel the subtle chest rise and fall beneath you and use it as your transition trigger."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition",
+        "focus": "Identifying and defeating common defensive responses",
+        "description": "Partner attempts specific counters (framing, bridging, shrimping) at 50% resistance while you practice maintaining or recovering position. Develop automatic responses to each counter: attack extended arms, ride bridges, follow hip movement. Build a decision tree of responses that becomes reflexive."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Linking transition with follow-up attacks and alternative pathways",
+        "description": "Practice flowing from consolidation to knee on belly to immediate submission threats or mount transitions. If knee on belly is denied, chain to alternative advancements such as mount transition or north-south. Develop the ability to use the transition threat itself to create openings for other attacks."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from side control consolidation",
+        "description": "Begin in consolidated side control with full resistance. Score points for achieving knee on belly and additional points for submissions or further advancement. Partner scores for escaping to half guard or recovering full guard. This develops the competitive timing and pressure management required for match situations."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the knee on belly transition from consolidated side control?",
+        "answer": "The optimal window is during the opponent's exhalation phase, when their diaphragm is contracted and defensive strength is temporarily reduced. After 3-4 breath cycles of progressively increasing consolidation pressure, the opponent's defensive frames weaken and reaction time slows. The ideal moment is when you feel their chest deflate beneath you and their frame pressure drops. Additionally, immediately after a failed escape attempt is excellent timing, as the opponent has expended energy and needs a recovery beat."
+      },
+      {
+        "question": "Your opponent starts to frame with their far arm as you begin elevating your hips for the knee insertion - how do you adjust?",
+        "answer": "Do not fight the frame directly during the transition, as this creates a stalemate that stalls your movement. Instead, you have two options: first, if the frame is weak, drive through it by accelerating the knee insertion and using your bodyweight to collapse the frame as the knee lands. Second, if the frame is strong, abort the knee insertion, settle back to side control, and use the exposed framing arm as a submission target for kimura or americana before reattempting the transition once the arm is controlled or retracted."
+      },
+      {
+        "question": "What grip must be maintained throughout the transition and why is it the critical anchor point?",
+        "answer": "The collar grip on the far side serves as the critical anchor because it provides continuous head control that prevents the opponent from sitting up, turning, or generating the posture needed for effective escape movements. This grip persists through all phases of the transition: it controls head positioning during the hip elevation, prevents the opponent from following your movement to create scrambles, and transitions directly into the standard knee on belly control grip for choke threats and continued head management."
+      },
+      {
+        "question": "Where exactly should the knee be placed for maximum effectiveness and what happens if placement is too high or too low?",
+        "answer": "The knee should be placed directly on the solar plexus, the soft area between the lower ribcage and the navel, with the shin perpendicular to the opponent's centerline. Placement too high on the sternum or chest reduces pressure effectiveness because the ribcage provides structural support that absorbs force, and it brings your weight too far forward, compromising base stability. Placement too low on the hips or upper thighs allows the opponent to absorb force through their pelvic structure and hip muscles, maintaining normal breathing capacity and full defensive strength."
+      },
+      {
+        "question": "Your first attempt fails because the opponent bridges during your hip elevation - what sequence do you follow next?",
+        "answer": "Immediately re-consolidate side control by dropping your chest back onto the opponent and re-establishing crossface pressure. Do not chase the knee on belly from a compromised position, as this typically results in further positional degradation. Once re-consolidated, increase pressure for another 2-3 breathing cycles to re-suppress the opponent's defensive capacity. On the second attempt, use the opponent's anticipation of knee on belly against them by feinting the transition to bait a premature bridge, then inserting the knee as they descend from the bridge apex when their hips are weakest."
+      },
+      {
+        "question": "What is the critical difference between chest pressure in side control and knee pressure in knee on belly that makes the transitional moment vulnerable?",
+        "answer": "Chest pressure in side control distributes force across a broad surface area through the pectoral muscles and ribcage, creating comprehensive but diffuse control. Knee pressure concentrates force through a single small contact point, creating intense localized pressure on the diaphragm. The vulnerability exists because transitioning between these two pressure types requires momentarily lifting the broad chest contact before the concentrated knee contact is established. This gap, typically lasting half a second in expert execution, is when the opponent faces the least pressure and has maximum escape potential."
+      },
+      {
+        "question": "The opponent successfully frames and pushes your knee off during the transition - what chain attack becomes available from their defensive reaction?",
+        "answer": "When the opponent extends their arms to push the knee, their arms become isolated and vulnerable. The extended pushing arm is perfectly positioned for an armbar finish by capturing the wrist, pivoting your hips, and swinging your leg over their head. Alternatively, if they push with the far arm, the exposed elbow creates a kimura entry point. If they push with both arms, their neck becomes unprotected for cross collar choke or baseball bat choke entries. Every pushing reaction creates a specific submission pathway that the attacker should be prepared to exploit immediately."
+      },
+      {
+        "question": "What physical cue from the opponent indicates they are ready to be transitioned on and what cue signals you should wait?",
+        "answer": "Transition when you observe: labored breathing with visible chest heaving, frame collapse where their arms no longer maintain structural resistance, reduced hip activity indicating they have stopped attempting hip escapes, and a flat body position with shoulders fully pinned to the mat. Wait when you observe: active framing with structural integrity in their arms, rhythmic hip escape attempts indicating preserved energy, controlled breathing suggesting they are managing the pressure effectively, or their body angled on their side rather than flat. The opponent's energy state determines whether the transition window is open."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Consolidation to Knee on Belly."
+    "safety_considerations": "This transition involves placing concentrated pressure on the opponent's solar plexus and diaphragm through the knee. In training, insert the knee with controlled force rather than dropping full bodyweight explosively onto the contact point. Monitor your partner's breathing and facial expressions for signs of respiratory distress. Never bounce on the knee to increase pressure during drilling. When practicing with smaller or less experienced partners, reduce initial pressure and allow them to acclimate to the sensation before applying full training intensity. Tap immediately if you feel any sharp pain or cannot breathe during defensive drilling."
   },
   "defender": {
     "name": "Consolidation to Knee on Belly Defender",
-    "description": "TODO: Write defender description for Consolidation to Knee on Belly.",
-    "overview": "TODO: Write defender overview for Consolidation to Knee on Belly.",
+    "description": "Master defending the Consolidation to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control.",
+    "overview": "Defending the Consolidation to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.",
     "key_principles": [
-      "TODO"
+      "Recognize the transition before it completes by feeling the top player's hip elevation and weight shift toward your head as they prepare for knee insertion",
+      "Create frames preemptively when you sense the opponent preparing to transition, as frames established before knee placement are significantly more effective than those attempted after",
+      "Time your primary escape attempt to the exact moment when chest pressure lifts and before knee pressure establishes on your torso",
+      "Never push against the knee with extended arms once it is fully planted, as this exposes your arms to armbar and kimura attacks",
+      "Turn to your side immediately if knee placement occurs, reducing the surface area exposed to pressure and creating the hip angles necessary for escape",
+      "Chain multiple defensive responses together rather than relying on a single escape, using each attempt to create incremental positional improvement"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player's hips begin to elevate as chest pressure momentarily lightens, creating a subtle but detectable reduction in the weight pressing into your torso",
+      "Opponent's crossface grip shifts or transfers to a collar grip on the far side, signaling a grip reconfiguration designed for knee on belly control rather than side control maintenance",
+      "Top player walks their hips toward your head while maintaining pressure, repositioning their body angle for optimal knee placement trajectory",
+      "Weight distribution shifts from broad chest-to-chest pressure to more localized pressure points concentrated through the shoulder and arm, indicating the opponent is preparing to lift their torso"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Insert near-side elbow frame between bodies during the hip elevation phase",
+        "when_to_use": "The instant you feel the opponent's chest lift off your torso as they begin elevating their hips for knee insertion",
         "targets_outcome": "Side Control Consolidation/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Prevents the knee from landing cleanly on your torso and forces the opponent back to side control consolidation, buying time and resetting the sequence",
+        "risk": "If mistimed or the frame is weak, the knee drives through the frame and the arm becomes trapped under the knee, worsening your position"
+      },
+      {
+        "action": "Hip escape and insert knee shield during the transition window",
+        "when_to_use": "During the brief gap between chest lift and knee placement when overall pressure is at its lowest point in the sequence",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover to half guard with knee shield established, significantly improving defensive position and creating offensive sweep and back take options",
+        "risk": "Failed hip escape with hips exposed and no guard structure may accelerate a mount transition instead of knee on belly"
+      },
+      {
+        "action": "Push knee laterally off hip line with far-side frame immediately after placement",
+        "when_to_use": "Immediately after the knee lands on your torso, before the opponent can fully establish wide base and dual grip control",
+        "targets_outcome": "Side Control Consolidation/Top",
+        "if_successful": "Displaces the knee from your torso and forces the opponent to settle back to side control or waste time attempting re-insertion",
+        "risk": "Extended pushing arm becomes vulnerable to armbar or kimura if the opponent captures your wrist instead of recovering position"
+      },
+      {
+        "action": "Bridge and turn toward the opponent to prevent knee from settling with full weight",
+        "when_to_use": "As soon as the knee contacts your torso, before the opponent establishes the wide base leg and secures their collar and pants grips",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Creates enough space and body angle to insert a knee between your bodies and recover half guard before the opponent can stabilize",
+        "risk": "If the opponent maintains knee position and follows your turning momentum, they may transition directly to mount or expose your back"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Knee on Belly/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hip escape to the exact moment the top player lifts their chest to insert the knee. Bridge toward them to create an angle, then shrimp your hips away and insert your near-side knee between your bodies. Immediately establish a knee shield to prevent re-passing. This exploits the transition's inherent vulnerability: the brief moment when neither chest pressure nor knee pressure is fully established."
+      },
+      {
+        "outcome": "Side Control Consolidation/Top",
+        "how": "Create a strong near-side elbow frame the instant you detect the opponent's hip elevation. The frame prevents clean knee insertion, and combined with turning your body slightly away, forces the opponent to abandon the transition attempt and re-settle into side control. While this returns you to a disadvantageous position, you have successfully prevented the positional upgrade and can continue working your side control escape plan."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining flat and passive during the transition, waiting until the knee is fully established before initiating any defensive response",
+        "consequence": "The knee settles with full weight on the diaphragm, grips are established, and the base leg is extended, making escape exponentially more difficult and energy-intensive than prevention would have been",
+        "correction": "Develop sensitivity to the pre-transition cues (hip elevation, grip shifts, weight changes) and create frames proactively the moment you detect movement, rather than waiting for the fully established position"
+      },
+      {
+        "error": "Pushing against the planted knee with straight extended arms attempting to bench press it off your torso",
+        "consequence": "Extended arms are immediately vulnerable to armbar and kimura attacks from the top player, who can simply capture the outstretched limb rather than fighting to maintain knee position",
+        "correction": "Keep elbows tight to your body and use bent-arm structural frames against the opponent's hip or thigh line rather than attempting to push the knee vertically. The goal is creating angle for hip escape, not lifting the opponent's weight."
+      },
+      {
+        "error": "Panicking under the sudden concentrated diaphragm pressure and expending energy on uncoordinated flailing escape attempts",
+        "consequence": "Rapid energy depletion without meaningful positional improvement, often exposing limbs and neck to submission attacks during the uncontrolled movement",
+        "correction": "Accept that knee on belly pressure is intense but survivable with proper breathing technique. Turn to your side to reduce pressure impact, take controlled breaths, and execute a systematic escape sequence rather than reacting emotionally to the discomfort."
+      },
+      {
+        "error": "Failing to turn to the side after knee placement, accepting maximum full-torso pressure while remaining flat on back",
+        "consequence": "Maximum surface area exposed to the knee pressure makes breathing extremely difficult and eliminates all hip mobility required for escape mechanics",
+        "correction": "Immediately turn toward or away from the opponent after knee placement to reduce the contact surface area. Turning creates the hip angles necessary for shrimping and also shifts the pressure point from the center of the diaphragm to the ribs, which is more tolerable."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is transitioning from side control consolidation to knee on belly?",
+        "answer": "The earliest cue is a subtle lightening of chest pressure combined with a hip elevation movement. Before the knee moves, the opponent must lift their hips to create clearance for insertion. You will feel their chest begin to lift off your torso and their weight shift toward your head as they reposition. Additionally, grip changes such as their far hand moving from underhook to collar indicate the transition is being prepared. Reacting at this earliest stage gives you maximum time to establish defensive frames."
+      },
+      {
+        "question": "Why is extending your arms to push against the opponent's knee considered a critical defensive error?",
+        "answer": "Extended arms during a push create perfect arm isolation for the attacker. The straightened limb is precisely the configuration needed for an armbar or kimura attack, and the opponent can simply capture the exposed arm rather than fighting to maintain knee position. Additionally, vertical pushing is biomechanically inefficient against a loaded knee because the opponent's full bodyweight flows through that contact point. The correct approach uses bent-arm structural frames that create lateral angles for hip escape rather than attempting to lift the opponent's weight vertically."
+      },
+      {
+        "question": "Your opponent has just placed their knee on your belly with full weight - what is your immediate priority before attempting any escape?",
+        "answer": "The immediate priority is turning to your side to reduce the pressure footprint and create breathing space. When flat on your back, the knee drives into the center of your diaphragm with maximum force. Turning even slightly shifts the contact point to the ribs and reduces the exposed surface area. Once on your side, establish a bent-arm frame against their hip or thigh to prevent them from following your turn. Only after managing the pressure through positioning should you commit energy to an escape sequence."
+      },
+      {
+        "question": "How does the optimal defensive timing differ between preventing the knee placement versus escaping after placement has occurred?",
+        "answer": "Prevention timing targets the transition gap, the half-second window when the opponent's chest lifts but the knee has not yet landed. During this window, even a moderate frame or hip escape is sufficient because the opponent has no established pressure point. Post-placement escape requires significantly more energy and technical precision because you must overcome concentrated diaphragm pressure, displacement of the knee against grip resistance, and the opponent's wide tripod base. Prevention requires 30 percent of the effort that post-placement escape demands, making early recognition and proactive framing the highest-value defensive skill for this transition."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying pre-transition cues and weight shifts",
+        "description": "Partner consolidates side control and randomly attempts the knee on belly transition. Defender focuses exclusively on recognizing the early cues: hip elevation, grip changes, weight shifts toward the head. Call out the cue verbally before the knee lands. No escape attempts during this phase, just developing the sensory awareness needed for effective defense."
+      },
+      {
+        "phase": "Phase 2: Frame Timing",
+        "focus": "Building defensive frame reflexes during the transition window",
+        "description": "Partner announces they will attempt knee on belly within 10 seconds. Defender practices inserting an elbow frame or initiating a hip escape at the precise moment chest pressure lifts. Focus on the timing of the defensive response rather than the strength of it. Success is measured by whether the frame engages before the knee lands, not by whether the escape is completed."
+      },
+      {
+        "phase": "Phase 3: Escape Chains",
+        "focus": "Linking multiple defensive responses into continuous sequences",
+        "description": "Partner establishes knee on belly at 70% resistance. Defender practices chaining responses: first attempt frame and push knee, if blocked then hip escape to half guard, if blocked then turn away and recover to turtle or deep half. Develop the reflex to continue moving through multiple options rather than stopping after a failed first attempt."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Defense",
+        "focus": "Integrated defensive sparring from the consolidation phase",
+        "description": "Start with partner in consolidated side control applying full pressure. Defender must survive and escape, with the partner using all tools including knee on belly transitions, mount attempts, and submission threats. Score escapes to half guard or better. This develops the decision-making and composure required to defend under realistic competitive conditions."
       }
     ]
   }

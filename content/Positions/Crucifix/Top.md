@@ -21,37 +21,37 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Control Maintenance",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Choke from Crucifix",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 40% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Armbar from Crucifix",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,21 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (18% of attempts)
+### [[Rear Naked Choke]] (8% of attempts)
 
-### [[Neck Crank]] (12% of attempts)
+### [[Kimura]] (6% of attempts)
 
-### [[Armbar on Free Arm]] (15% of attempts)
+### [[Back Control Maintenance]] (19% of attempts)
 
-### [[Kimura]] (13% of attempts)
+### [[Choke from Crucifix]] (40% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Armbar from Crucifix]] (16% of attempts)
 
-### [[Back Control Maintenance]] (15% of attempts)
+### [[Side Control to Mount]] (6% of attempts)
 
-### [[Side Control to North-South]] (13% of attempts)
+### [[Crucifix Maintenance]] (3% of attempts)
+
+### [[Crucifix to Mount]] (2% of attempts)
 
 
 

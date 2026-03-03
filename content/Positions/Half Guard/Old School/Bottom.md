@@ -21,37 +21,37 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 46% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep from Bottom",
-      "text": "From this position, attempt Old School Sweep from Bottom. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep from Bottom. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,21 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (41% of attempts)
+### [[Old School Sweep]] (46% of attempts)
 
-### [[Electric Chair Transition]] (15% of attempts)
+### [[Electric Chair Transition]] (14% of attempts)
 
-### [[Half Guard to Back Take]] (13% of attempts)
+### [[Half Guard to Back Take]] (12% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Dogfight Position]] (10% of attempts)
+### [[Dogfight Position]] (9% of attempts)
 
-### [[Old School Sweep from Bottom]] (5% of attempts)
+### [[Old School Sweep from Bottom]] (4% of attempts)
 
-### [[Old School to Half Guard]] (3% of attempts)
+### [[Old School to Half Guard]] (2% of attempts)
+
+### [[Old School Position Sweep]] (1% of attempts)
 
 
 

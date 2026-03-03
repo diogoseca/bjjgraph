@@ -21,13 +21,13 @@ description: "Master Side Control Consolidation Top position with 80% retention 
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Side Control Consolidation Top position with 80% retention 
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,25 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Side Control to Mount]] (33% of attempts)
 
-### [[Side Control to North-South]] (14% of attempts)
+### [[Side Control to North-South]] (10% of attempts)
 
 ### [[Knee on Belly]] (14% of attempts)
 
-### [[Kimura]] (13% of attempts)
+### [[Kimura]] (9% of attempts)
 
-### [[Americana]] (12% of attempts)
+### [[Americana]] (8% of attempts)
 
-### [[Arm Triangle]] (12% of attempts)
+### [[Arm Triangle]] (8% of attempts)
 
-### [[Armbar Finish]] (11% of attempts)
+### [[Armbar Finish]] (7% of attempts)
 
-### [[North-South Choke]] (10% of attempts)
+### [[North-South Choke]] (6% of attempts)
+
+### [[Consolidation to Knee on Belly]] (3% of attempts)
+
+### [[Consolidation to Mount]] (2% of attempts)
 
 
 
@@ -399,8 +403,8 @@ Start in early side control with opponent maintaining defensive posture. Top par
 - **[[Knee on Belly]]** - Dynamic transition option when opponent turns into you
 - **[[Kesa Gatame]]** - Alternative side control variation with head control
 - **[[Side Control Consolidation Bottom]]** - Opposite perspective - defensive counterpart position
-- **[[Kimura]]** - Primary submission option from consolidated control
-- **[[Americana]]** - High-percentage submission when near arm isolated
+- **[[Kimura Trap]]** - Primary submission control option from consolidated position
+- **[[Americana from Side Control]]** - High-percentage submission when near arm isolated
 - **[[Arm Triangle]]** - Choke attack when opponent brings arm across
 
 

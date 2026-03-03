@@ -1,42 +1,399 @@
 {
   "name": "Sweep from Inverted Guard",
-  "description": "Master the Sweep from Inverted Guard in BJJ. Learn how to use inverted positioning to off-balance and sweep opponents, transitioning to back control.",
-  "tags": ["bjj", "transition", "sweep", "inverted-guard", "guard", "back-take"],
+  "description": "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hip mechanics create powerful sweeping angles for transitioning directly to back control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "inverted-guard",
+    "guard",
+    "back-take",
+    "inversion",
+    "modern-jiu-jitsu"
+  ],
   "from_position": "Inverted Guard/Bottom",
   "outcomes": [
-    {"to": "Back Control/Top", "probability": 45, "result": "success"},
-    {"to": "Inverted Guard/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Back Control/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Inverted Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Inverted Guard is a dynamic transitional technique that leverages the unique angles created by the inverted position to disrupt the opponent's base and establish back control. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.\n\nThe technique requires precise timing and grip coordination. The sweeper must establish controlling grips on the opponent's pants, belt, or sleeves while simultaneously inserting hooks behind the opponent's legs or around their hips. The sweep relies on hip rotation rather than upper body strength, making it effective against larger opponents when executed with proper mechanics. The rotational force generated from the hips, combined with strategic grip placement, creates a mechanical advantage that compromises the opponent's base regardless of their size or strength advantage.\n\nThis sweep integrates naturally into the modern guard retention and back attack system, functioning as both an offensive weapon and a counter-passing tool. When the opponent attempts to pass the inverted guard, the sweep becomes available as a counter that transforms a defensive situation into dominant back control. The technique has been refined extensively through competition evolution, particularly within berimbolo-based systems, and serves as a critical link between guard retention sequences and systematic back attack chains.",
+  "conditions": [
+    "Established inverted guard with hips elevated and shoulders in contact with the mat",
+    "At least one controlling grip on opponent's pants, belt, or sleeve secured before initiating sweep",
+    "Opponent within reach and engaged with guard interaction rather than fully disengaged at distance",
+    "Sufficient hip mobility to generate rotational force in the sweep direction",
+    "Hook placement available behind opponent's leg or around their hip to create mechanical lever"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Berimbolo Back Take Sweep",
+      "description": "Uses the full berimbolo rotation to sweep underneath the opponent, threading your body beneath their center of gravity while maintaining belt or pants grip. The rotation continues until you arrive directly behind the opponent with immediate access to back control hooks. This variant emphasizes continuous circular motion rather than a single explosive displacement.",
+      "when_to_use": "When the opponent drives their weight forward while attempting to pass, providing the forward momentum needed to initiate the rotation underneath them. Best against opponents who lean into the inverted guard rather than maintaining distance."
+    },
+    {
+      "variant_name": "Direct Hook Sweep",
+      "description": "A more immediate sweep variation that uses a deep hook behind the opponent's far knee combined with a strong hip drive to displace their base laterally. Rather than rotating fully underneath the opponent, you use the hook as a lever and your hip rotation to dump them to one side, then follow to establish back control during the scramble.",
+      "when_to_use": "Against opponents with a wide base who resist rotational sweeps. The lateral displacement targets the width of their stance rather than their forward-backward balance, making it effective against sprawl-heavy passers."
+    },
+    {
+      "variant_name": "Kiss of the Dragon Variation",
+      "description": "A spinning back take variation where you thread underneath the opponent by inverting between their legs, using collar and pants grips to pull yourself through to the far side. Rather than sweeping the opponent off balance, you relocate yourself behind them by spinning through the gap between their legs and arriving at their back.",
+      "when_to_use": "When the opponent maintains a square stance with both feet planted, creating the space between their legs needed for the threading motion. Particularly effective from reverse De La Riva guard transitions into inversion."
+    }
+  ],
+  "position_integration": "The Sweep from Inverted Guard occupies a critical node within the modern guard retention and back attack system. It connects the inverted guard position directly to back control, creating a high-value pathway from defensive inversion to the most dominant position in BJJ. This sweep functions as both a standalone technique and a component of larger berimbolo and inversion-based attack sequences. When chained with other inverted guard transitions such as berimbolo entries, leg entanglement entries, and guard recovery movements, it creates a comprehensive threat matrix that forces the top player to address multiple attack vectors simultaneously. The technique's integration into guard retention systems means that failed passing attempts can be immediately punished with back takes, adding significant risk to aggressive guard passing approaches against modern guard players.",
+  "related_content": [
+    {
+      "name": "Inverted Guard",
+      "relationship": "Source position from which this sweep is initiated"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position achieved through successful sweep completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome position when sweep fails and opponent passes"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common entry position that transitions into inverted guard for sweep setups"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Related guard position with inversion pathways that connect to this sweep"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Closely related back take technique sharing rotational mechanics and grip structures"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative back control entry from similar inverted angles"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Alternative sweep position accessible when inverted guard sweep is defended"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative sweep-oriented guard system with different mechanical principles"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Inverted Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Inverted Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the Sweep from Inverted Guard as the attacker. Complete guide covering setup grips, hip rotation mechanics, hook placement, and systematic techniques for sweeping to back control.",
+    "overview": "As the sweeper executing from inverted guard, your primary advantage lies in the unconventional angles and rotational mechanics that the inverted position provides. The opponent's traditional base and posture become liabilities against the sweep because they cannot easily address the rotational force generated from beneath their center of gravity. Success depends on establishing proper grips before initiating the sweep, maintaining shoulder-and-back contact with the mat throughout the rotation, and committing fully to the directional change once momentum is generated. The sweep rewards precise timing over raw athleticism, making it accessible to practitioners who develop the specific hip mobility and spatial awareness required for effective inversion. Your attack plan follows a clear sequence: establish grips, insert hook, generate rotation, and follow through to back control without pausing at any intermediate stage.",
+    "key_principles": [
+      "Establish controlling grips on pants and belt before initiating any sweeping motion to ensure force transmission through connection points",
+      "Generate sweep power through hip rotation rather than upper body pulling, using your core as the primary engine for rotational displacement",
+      "Insert hooks deep behind the opponent's leg to create a secure mechanical lever that prevents them from simply stepping away",
+      "Commit fully to the rotational direction once momentum is generated, as hesitation allows the opponent to re-base and neutralize the sweep",
+      "Maintain shoulder blade contact with the mat throughout the sweep to protect the cervical spine and preserve rotational mobility",
+      "Transition immediately from sweep grips to back control grips upon arriving behind the opponent without any pause that allows escape"
+    ],
+    "setup_requirements": [
+      "Inverted guard established with hips elevated above shoulder level and weight distributed across shoulder blades",
+      "Far-side pants grip at the knee or ankle secured to control sweep direction and pull angle",
+      "Secondary grip on belt, collar, or near-side sleeve established for generating rotational pull",
+      "Near-side leg positioned to thread behind opponent's far leg for hook insertion",
+      "Opponent engaged within sweeping range rather than fully disengaged at standing distance"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Inverted Guard Position",
+        "description": "From open guard, invert your body by rolling onto your shoulders while keeping your upper back firmly in contact with the mat. Elevate your hips toward the ceiling, positioning your legs between you and your opponent. Distribute weight across your shoulder blades, never on your cervical spine, while maintaining active hip elevation and rotational readiness."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Controlling Grips",
+        "description": "Establish a grip on the opponent's far-side pants at the knee or ankle with your near hand while your other hand controls their belt, collar, or near-side sleeve. These grips must be secured before initiating any sweeping motion, as they provide the connection points through which rotational force is transmitted to displace the opponent's base."
+      },
+      {
+        "step_number": 3,
+        "action": "Insert Hook Behind Opponent's Leg",
+        "description": "Thread your near-side leg behind the opponent's far leg, hooking behind their knee or thigh with your foot actively pulling toward you. This hook serves as the primary mechanical lever for the sweep, creating a connection that allows your hip rotation to directly influence the opponent's base stability and prevents them from simply stepping away."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate Rotational Hip Movement",
+        "description": "Initiate the sweep by rotating your hips forcefully in the direction of the hook while pulling with your far-side grip simultaneously. The rotation should come from your core and hips rather than your upper body, creating a centrifugal sweeping force that circles underneath the opponent's center of gravity and disrupts their weight distribution laterally."
+      },
+      {
+        "step_number": 5,
+        "action": "Disrupt Opponent's Base",
+        "description": "As your rotation gains momentum, use the combination of your hook and grip pull to break the opponent's base to one side. Continue rotating underneath them, following the direction of your initial hip movement. The opponent should begin falling or stepping in the direction of your sweep as their base collapses under the rotational pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete Rotation to Back Position",
+        "description": "Follow the sweep through by continuing your rotation until you arrive behind the opponent. Release your hook from behind their leg and begin transitioning to back control hooks as you come up behind them. Your grips should shift from sweep controls to seatbelt configuration during this phase, maintaining continuous contact throughout the transition."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Back Control",
+        "description": "Once behind the opponent, immediately establish a seatbelt grip with one arm over their shoulder and the other under their armpit. Insert both hooks inside their thighs and press your chest firmly against their back. Secure the position fully before considering any submission attacks, following the position-before-submission principle to maximize control retention."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent sprawls and drives hips down to eliminate hook insertion angle",
+        "effectiveness": "High",
+        "your_response": "Redirect to berimbolo entry by using your grips to pull yourself underneath rather than threading a hook, or transition to single leg X-guard where the sprawl creates the space needed for leg elevation",
+        "targets_outcome": "Inverted Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps and circles away from the hook side to remove sweeping angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with hip rotation and re-establish the hook on the new angle, or use their lateral movement to enter crab ride or De La Riva guard on the opposite side",
+        "targets_outcome": "Inverted Guard/Bottom"
+      },
+      {
+        "counter": "Opponent stacks forward through your legs and applies crushing pressure to flatten your inversion",
+        "effectiveness": "High",
+        "your_response": "Granby roll away from the stack pressure to recover guard, or redirect their forward momentum into the sweep by using their drive as the rotational energy for a berimbolo entry",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent strips both grips and disengages from range to reset the interaction",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-establish grips before they fully disengage, or use the space created by their disengagement to recover to seated guard or standing position for a reset",
+        "targets_outcome": "Inverted Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Resting weight on the neck instead of the shoulder blades during inversion",
+        "consequence": "Risk of cervical spine injury and inability to generate the hip rotation needed for the sweep due to compromised base of support",
+        "correction": "Actively press shoulder blades into the mat, tuck chin toward chest, and elevate hips higher to shift weight distribution away from the neck onto the upper back"
+      },
+      {
+        "error": "Attempting the sweep before securing both controlling grips",
+        "consequence": "Sweep lacks the connection points needed to transmit rotational force, resulting in the opponent easily stepping free or maintaining their base through the attempt",
+        "correction": "Establish pants grip and belt or collar grip completely before initiating any rotational movement, treating grip establishment as a non-negotiable prerequisite"
+      },
+      {
+        "error": "Using upper body pulling strength instead of hip rotation to generate sweep force",
+        "consequence": "Rapid energy depletion with insufficient force production, and the pulling motion telegraphs the sweep direction to the opponent allowing easy defense",
+        "correction": "Focus on driving the sweep through forceful hip rotation from the core, using grips only to maintain connection while the hips provide the primary power source"
+      },
+      {
+        "error": "Inserting the hook too shallow behind the opponent's leg",
+        "consequence": "Opponent can easily extract their leg from the hook by stepping forward or laterally, neutralizing the sweep's primary mechanical lever before rotation begins",
+        "correction": "Thread the hook deep behind the opponent's knee or lower thigh with active pulling through the foot, creating a shelf that prevents forward stepping"
+      },
+      {
+        "error": "Hesitating mid-rotation instead of committing fully to the sweep direction",
+        "consequence": "Loss of rotational momentum allows the opponent to re-base, adjust their weight distribution, and neutralize the sweep while you remain in a compromised inverted position",
+        "correction": "Once rotation begins, commit fully to the sweep direction without pausing or second-guessing, treating the sweep as a single continuous motion from initiation to back control"
+      },
+      {
+        "error": "Pausing between completing the sweep and establishing back control grips",
+        "consequence": "Opponent uses the gap to turn and face you, recover guard, or scramble free before you can consolidate the dominant position earned by the sweep",
+        "correction": "Transition from sweep grips to seatbelt and hooks in one fluid motion, maintaining constant chest-to-back contact throughout the transition without any pause"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Inversion Mechanics",
+        "focus": "Safe inversion technique and hip mobility",
+        "description": "Develop comfortable inversion mechanics without a partner. Practice rolling onto shoulders with proper weight distribution across shoulder blades. Build hip elevation strength and rotational mobility through solo drills including granby rolls, inversion flows, and hip circles while inverted. Establish safe habits before adding resistance."
+      },
+      {
+        "phase": "Phase 2: Grip and Hook Coordination",
+        "focus": "Establishing grips and hooks from inverted position",
+        "description": "With a cooperative partner, practice securing pants and belt grips from inverted guard and threading hooks behind the opponent's leg. Focus on the mechanical connection between grip placement and hook insertion. Drill the grip-to-hook sequence until it becomes automatic without needing to look at hand placement."
+      },
+      {
+        "phase": "Phase 3: Sweep Execution with Cooperative Partner",
+        "focus": "Full sweep mechanics with controlled resistance",
+        "description": "Execute the complete sweep sequence from grip establishment through back control consolidation with a partner providing light to moderate resistance. Emphasize the hip rotation as the primary power source and the continuous flow from sweep initiation to back control. Increase resistance gradually as mechanics solidify."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks and Counter-Recovery",
+        "focus": "Integrating sweep with alternative attacks when defended",
+        "description": "Practice transitioning between the inverted sweep and alternative attacks when the opponent successfully defends. Chain to berimbolo entries, single leg X entries, and guard recovery options. Develop the ability to read the opponent's defensive reaction and redirect to the appropriate follow-up technique."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Applying sweep in positional sparring and live rolling",
+        "description": "Apply the sweep in positional sparring starting from inverted guard against fully resisting opponents. Track success rate and identify the most common defensive responses encountered in live training. Refine timing and grip selection based on real-time feedback from competition-intensity sparring rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the sweep from inverted guard?",
+        "answer": "The optimal timing is when the opponent commits their weight forward while attempting to pass or control your inverted position. Their forward momentum creates the rotational inertia needed for the sweep. If the opponent maintains distance with a low, wide base, the sweep requires significantly more effort and has lower success probability. The window opens specifically when their weight shifts forward of their base of support."
+      },
+      {
+        "question": "What grips must be established before attempting the sweep from inverted guard?",
+        "answer": "You need a controlling grip on the opponent's far-side pants at the knee or ankle with your near hand, and a secondary grip on their belt, collar, or near-side sleeve with your other hand. The pants grip is critical for directing the sweep angle, while the secondary grip provides the pull necessary to generate rotational momentum. Attempting the sweep without both grips results in slipping off the opponent without displacing their base."
+      },
+      {
+        "question": "How should you position your hook behind the opponent's leg for maximum sweep effectiveness?",
+        "answer": "The hook should be placed deep behind the opponent's far knee or lower thigh, with your foot actively pulling toward you rather than simply resting behind their leg. The hook depth determines the amount of control you have over their base. A shallow hook allows the opponent to step free easily. Your shin should create a shelf behind their leg that blocks forward stepping and serves as the primary lever for rotational displacement."
+      },
+      {
+        "question": "Your opponent sprawls when you attempt hook insertion - how do you adjust your approach?",
+        "answer": "When the opponent sprawls, their hips drop and eliminate the space needed for hook insertion. Adjust by switching to a berimbolo-style entry where you use your grips to pull yourself underneath them rather than threading a hook from outside. Alternatively, abandon the inverted sweep temporarily and transition to single leg X-guard or De La Riva guard where you can re-establish offensive positions from a different angle that does not require the space the sprawl eliminated."
+      },
+      {
+        "question": "What is the most critical hip movement during the sweep execution?",
+        "answer": "The decisive hip movement is a forceful lateral rotation toward the hook side combined with a simultaneous pulling motion through your grips. Your hips must rotate as a unified structure rather than segmenting, generating torque that transfers through the hook to destabilize the opponent's base. The rotation should feel like spinning on your shoulder blades while your legs sweep the opponent in an arc beneath their center of gravity, with continuous momentum throughout."
+      },
+      {
+        "question": "What is the primary direction of force application during the sweep?",
+        "answer": "The primary force direction is lateral and slightly downward relative to the opponent's base, creating a rotational displacement that circles underneath their center of gravity. The force is not straight backward but follows a circular arc that takes the opponent's base out from under them while positioning you behind them. The combination of grip pull and hook drive creates a composite force vector that cannot be resisted by bracing in any single direction."
+      },
+      {
+        "question": "If your initial sweep attempt fails and the opponent maintains balance, what chain attacks are available?",
+        "answer": "If the sweep fails but you retain grips, immediately transition to a berimbolo entry by continuing your rotation underneath the opponent. If the hook is stripped, switch to single leg X-guard or X-guard entries using your remaining grip to elevate the opponent's leg. If both grips are broken, execute a granby roll to recover De La Riva guard or seated guard. The key is maintaining transitional momentum rather than resetting to static inverted guard and losing initiative."
+      },
+      {
+        "question": "How do you maintain back control once the sweep successfully places you behind the opponent?",
+        "answer": "Immediately after arriving behind the opponent, establish a seatbelt grip with your choking arm over their shoulder and your underhook arm beneath their armpit. Simultaneously insert both hooks inside their thighs before they can turn to face you. Press your chest firmly against their back and lower your hips to prevent them from sitting back into you. The transition from sweep grips to back control configuration must happen in one continuous motion without any pause that allows the opponent to begin escape sequences."
+      }
+    ],
+    "safety_considerations": "Inverted guard sweeps carry inherent risk of cervical spine compression if weight is placed on the neck during inversion. Always maintain weight on shoulder blades, never on the cervical spine. Practitioners with pre-existing neck injuries or limited cervical mobility should avoid this technique until adequate flexibility is developed. During training, communicate clearly with partners about neck comfort and immediately abandon any sweep attempt if neck pressure is felt. Build inversion comfort progressively through dedicated mobility work before attempting sweeps under resistance. Training partners should avoid applying sudden stack pressure that could compress the inverted practitioner's neck."
   },
   "defender": {
     "name": "Sweep from Inverted Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Inverted Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Inverted Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to defend the Sweep from Inverted Guard. Recognition cues, base adjustments, grip stripping, and counter-passing strategies to shut down inverted sweeps effectively.",
+    "overview": "As the top player defending against the Sweep from Inverted Guard, your primary concern is recognizing the sweep attempt before rotational momentum becomes unstoppable. The inverted opponent generates sweeping force through hip rotation and hook placement, meaning your defense must focus on controlling their hips, preventing hook insertion, and maintaining a wide stable base that resists rotational displacement. Early recognition is critical because once the sweep gains momentum, defensive options narrow dramatically. Your best defense combines immediate grip control to prevent the opponent from establishing the connections needed for the sweep with base adjustments that remove the angles the sweep requires to function effectively.",
+    "key_principles": [
+      "Prevent the opponent from establishing controlling grips on your pants or belt, as these are the connection points through which sweep force is transmitted",
+      "Maintain a wide base with low center of gravity to resist the rotational displacement that the inverted sweep generates",
+      "Recognize inversion and hook insertion attempts early, responding with immediate counter-pressure before the sweep is fully loaded",
+      "Control the opponent's hips to prevent the hip rotation that generates sweeping momentum and makes the technique effective",
+      "Step away from hook placement rather than driving forward into the sweep direction, removing the lever the sweeper needs",
+      "Apply stack pressure when the opponent commits to inversion to flatten their position and eliminate their rotational capability"
+    ],
+    "recognition_cues": [
+      "Opponent inverts onto their shoulders and begins threading their near-side leg behind your far leg, indicating hook insertion attempt",
+      "Opponent grips your pants at the knee or ankle while maintaining inverted positioning, establishing the primary sweep connection point",
+      "Opponent's hips begin rotating laterally while in inverted position with active grip and hook engagement, signaling sweep initiation",
+      "Opponent grips your belt or collar with their free hand while already controlling your pants, completing the dual-grip setup required for the sweep"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sprawl and drive hips down to eliminate the hook insertion angle and flatten the opponent's inverted position",
+        "when_to_use": "When you feel the opponent beginning to thread their leg behind yours but before they have secured a deep hook",
+        "targets_outcome": "Inverted Guard/Bottom",
+        "if_successful": "Opponent's inverted position flattens, removing their ability to generate rotational force and forcing them to abandon the sweep attempt",
+        "risk": "If you drive forward too aggressively, the opponent may redirect your momentum into a berimbolo entry using your forward weight against you"
+      },
+      {
+        "action": "Backstep and circle away from the hook side to remove the sweeping angle entirely",
+        "when_to_use": "When the opponent has secured a grip but has not yet generated rotational momentum or inserted a deep hook",
+        "targets_outcome": "Inverted Guard/Bottom",
+        "if_successful": "The hook loses its angle and the opponent must release and reset their sweep setup from scratch",
+        "risk": "Creates space that the opponent may use to transition to other guard positions like single leg X-guard or seated guard"
+      },
+      {
+        "action": "Stack pass through the inverted guard by driving forward with shoulder pressure to fold the opponent and complete the pass",
+        "when_to_use": "When the opponent has fully committed to inversion with hips elevated but has not yet generated significant rotational momentum",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent is folded flat under stack pressure and you complete the pass to side control, converting their offensive attempt into your positional gain",
+        "risk": "If the stack is incomplete or the opponent retains grip control, they may use your forward drive to power their rotation and complete the sweep"
+      },
+      {
+        "action": "Strip both grips immediately and disengage to reset the interaction from standing distance",
+        "when_to_use": "Early in the sweep setup before hooks and grips are consolidated, while you still have time to create distance",
+        "targets_outcome": "Inverted Guard/Bottom",
+        "if_successful": "All connection points are removed and the opponent must re-engage and re-establish grips from scratch, giving you time to adjust your passing strategy",
+        "risk": "Opponent may use the disengagement to recover to seated guard or standing position, but this is preferable to being swept to back control"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the opponent commits to deep inversion with elevated hips, immediately apply stack pressure by driving your shoulder into their legs and folding their hips toward their head. Maintain continuous forward pressure while working your hips past their legs to consolidate side control. This converts their offensive inversion into a passing opportunity for you."
+      },
+      {
+        "outcome": "Inverted Guard/Bottom",
+        "how": "Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstipping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving weight forward directly into the sweep direction when the opponent initiates rotation",
+        "consequence": "Provides the exact forward momentum the sweeper needs to complete the rotational sweep, essentially doing their work for them and accelerating the back take",
+        "correction": "Drop hips down and sprawl rather than driving forward. If the sweep has already initiated, move laterally rather than resisting the rotation directly, and work to re-base from a new angle"
+      },
+      {
+        "error": "Failing to address the opponent's grips before they consolidate both connection points",
+        "consequence": "Once the sweeper establishes controlling grips on both pants and belt, the sweep becomes extremely difficult to prevent because all force transmission channels are connected",
+        "correction": "Immediately break grip controls when you recognize the opponent inverting. Prioritize stripping the pants grip first as it controls the sweep angle, then address the belt or collar grip"
+      },
+      {
+        "error": "Standing tall with a narrow base when facing an inverted guard player",
+        "consequence": "Creates an unstable platform that is easily displaced by the rotational force of the sweep, with high center of gravity providing maximum leverage for the sweeper",
+        "correction": "Widen your stance, lower your center of gravity by bending at the knees, and keep your weight on your back foot to resist forward displacement from the sweep's rotational force"
+      },
+      {
+        "error": "Loading weight toward the hook side instead of shifting away from it",
+        "consequence": "Placing weight on the same side as the opponent's hook gives the sweeper maximum leverage and makes the rotational sweep nearly unavoidable once momentum builds",
+        "correction": "Shift your weight away from the hook side and actively work to strip the hook before the sweep gains momentum. If the hook is deep, backstep to the opposite side to remove the sweeping angle"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest visual cues that an opponent is setting up a sweep from inverted guard?",
+        "answer": "The earliest cues are the opponent beginning to thread their near-side leg behind your far leg while establishing a grip on your pants at knee level. You may also notice them gripping your belt or collar with their other hand while their hips elevate and rotate toward the sweep direction. The combination of grip establishment and leg threading is the clearest indicator that a sweep attempt is imminent and requires immediate defensive action."
+      },
+      {
+        "question": "How should you adjust your base when facing an inverted guard player who is actively threatening sweeps?",
+        "answer": "Widen your stance significantly with feet staggered rather than parallel, lower your center of gravity by bending at the knees, and position your hips back rather than over the opponent. Distribute weight primarily on your back foot to prevent forward displacement. Avoid standing upright with a narrow base as this creates an unstable platform easily disrupted by the rotational force the inverted sweep generates from below."
+      },
+      {
+        "question": "Your opponent has secured a hook behind your leg and gripped your pants - what is your immediate defensive priority?",
+        "answer": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstipping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
+      },
+      {
+        "question": "When is stack passing the correct defensive response to an inverted guard sweep attempt?",
+        "answer": "Stack passing is appropriate when the opponent has fully committed to inversion with hips elevated high but has not yet generated significant rotational momentum. Drive forward through their legs, folding their hips toward their head with shoulder pressure. This is most effective when the opponent's grips are incomplete, as a fully gripped and hooked opponent can redirect your stack pressure into the sweep. The timing window is narrow and requires immediate commitment."
+      },
+      {
+        "question": "What is the biggest mistake defenders make when an inverted sweep is mid-execution and gaining momentum?",
+        "answer": "The biggest mistake is fighting the sweep direction by pushing against the rotational force rather than moving with it and re-basing. Once the sweep has significant momentum, attempting to resist directly wastes energy and typically fails because the rotational force exceeds what static resistance can counter. Instead, move with the sweep direction, post your hands to prevent being fully swept, and use the resulting scramble to re-establish a defensive position rather than trying to completely stop a sweep already in progress."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying sweep setup cues from inverted guard",
+        "description": "Partner cycles through inverted guard setups including grip establishment, hook threading, and rotation initiation. Practice identifying each setup phase and verbalizing the defensive response required. Build pattern recognition before adding any physical defensive response."
+      },
+      {
+        "phase": "Phase 2: Base Defense and Grip Stripping",
+        "focus": "Maintaining base and removing sweep connection points",
+        "description": "Partner establishes inverted guard grips and hooks with moderate resistance. Practice stripping grips, sprawling to remove hook angles, and maintaining wide base under rotational pressure. Focus on preventing the sweep from loading rather than defending once initiated."
+      },
+      {
+        "phase": "Phase 3: Counter-Passing Integration",
+        "focus": "Converting sweep defense into passing opportunities",
+        "description": "Partner attempts inverted guard sweeps while you practice defensive responses that transition directly into passing sequences. Stack passes, backstep passes, and toreando movements should flow naturally from successful sweep prevention. Build the habit of immediately attacking after defending."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Defending inverted sweeps under full resistance",
+        "description": "Positional sparring rounds starting with the partner in inverted guard. Defend sweep attempts against full resistance and work to pass the guard. Track which defensive responses succeed most frequently and refine timing based on real-time feedback from competitive exchanges."
+      }
+    ]
   }
 }

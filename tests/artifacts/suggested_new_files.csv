@@ -1,0 +1,2 @@
+triggered_by,category,suggested_name,reason
+validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)

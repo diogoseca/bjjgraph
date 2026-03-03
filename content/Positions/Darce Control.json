@@ -493,31 +493,35 @@
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 25
+        "attempt_probability": 27
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Counter Roll to Top",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Step Over Escape",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Frame Escape from Darce",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [

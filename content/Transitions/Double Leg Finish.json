@@ -57,8 +57,8 @@
       "relationship": "Follow-up transition - common positional advancement after establishing side control from the finish"
     },
     {
-      "name": "Takedown Defense",
-      "relationship": "Primary counter system - understanding defensive mechanics helps execute finish before opponent can react"
+      "name": "Break Clinch",
+      "relationship": "Defensive clinch technique - understanding clinch escape mechanics helps time the finish before opponent can disengage"
     },
     {
       "name": "Guillotine Choke",
@@ -326,7 +326,7 @@
       {
         "action": "Accept the takedown but immediately pull guard by hooking legs around opponent's waist during the descent",
         "when_to_use": "When the takedown is clearly going to succeed and defensive options to prevent it have been exhausted, typically when opponent has full hip extension and your base is completely compromised",
-        "targets_outcome": "Clinch/Top",
+        "targets_outcome": "Side Control/Top",
         "if_successful": "You establish closed guard upon landing rather than conceding side control, maintaining a defensive position with submission and sweep threats rather than being pinned",
         "risk": "Guard pull timing must be precise - too early and opponent adjusts to pass, too late and they have already established side control before you can close your guard"
       }

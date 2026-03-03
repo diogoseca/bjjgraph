@@ -1,150 +1,498 @@
 {
   "name": "Guillotine from Butterfly Guard",
-  "description": "TODO: Write 150-160 character SEO description for Guillotine from Butterfly Guard.",
+  "description": "Master the guillotine choke from butterfly guard in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and training drills.",
   "tags": [
-    "bjj",
-    "submission",
-    "TODO"
+    "guillotine choke",
+    "butterfly guard submission",
+    "front headlock attack",
+    "neck submission",
+    "no-gi choke",
+    "guard submission"
   ],
   "submission_category": "Choke",
-  "submission_type": "Choke",
+  "submission_type": "Guillotine Choke",
   "target_area": "Neck",
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
-  "from_positions": ["Butterfly Guard", "Closed Guard", "Half Guard"],
+  "success_rate": 45,
+  "overview": "The guillotine choke from butterfly guard is one of the highest-percentage submissions available from the bottom position, combining the dynamic control of butterfly hooks with the devastating finishing power of the guillotine grip. This submission capitalizes on the opponent's forward pressure or head-down posture, which is a natural consequence of defending butterfly guard sweeps. When the top player drives forward to neutralize hooks or bases against sweep attempts, they expose their neck to the snap-down and guillotine entry that defines this attack.\n\nThe butterfly guard creates an ideal platform for the guillotine because the hooks provide both elevation control and the ability to prevent the opponent from simply pulling their head free. Unlike guillotines from closed guard where the legs primarily hold the opponent in place, the butterfly hooks allow the attacker to dynamically adjust angle and elevation during the finishing sequence. The choking-side hook in particular serves as a critical lever, enabling the attacker to elevate the opponent's weight off their base while simultaneously creating the downward angle necessary for maximum choking pressure on the carotid arteries.\n\nAt the competitive level, the guillotine from butterfly guard has become a cornerstone of modern no-gi grappling strategy. The position creates a powerful offensive dilemma: the opponent must choose between defending the guillotine and defending butterfly sweeps, and committing to one defense often opens the other attack. Elite practitioners chain guillotine attempts directly into sweep sequences, making this one of the most dangerous attacking combinations available from any guard position.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Tracheal compression or bruising from direct forearm pressure on the windpipe",
+        "severity": "High",
+        "recovery_time": "1-4 weeks depending on severity of tissue damage"
+      },
+      {
+        "injury": "Cervical spine strain from forced neck flexion during choke application and resistance",
+        "severity": "Medium",
+        "recovery_time": "1-3 weeks with rest and physical therapy"
+      },
+      {
+        "injury": "Loss of consciousness from bilateral carotid artery compression if tap is delayed",
+        "severity": "High",
+        "recovery_time": "Immediate recovery if released promptly, medical evaluation recommended"
+      },
+      {
+        "injury": "Laryngeal cartilage damage from aggressive or improperly positioned forearm pressure on throat",
+        "severity": "CRITICAL",
+        "recovery_time": "4-8 weeks, may require medical intervention and imaging"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Apply choking pressure gradually to allow training partner time to recognize the threat and tap. The guillotine tightens rapidly once the grip is properly set and hips are engaged, so controlled incremental pressure is essential to prevent injury.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, their body, or the mat",
+      "Physical foot tap on mat or partner with either foot",
+      "Any unusual vocalization, gurgling, or distress sound indicating airway compromise"
+    ],
+    "release_protocol": [
+      "Release grip immediately upon any tap signal without hesitation or delay",
+      "If opponent appears to lose consciousness, release immediately and place in recovery position with airway clear",
+      "If in doubt about whether a tap occurred, release the choke - the position can always be re-established safely",
+      "After release, allow opponent adequate time to recover breathing and orientation before resuming training"
+    ],
+    "training_restrictions": [
+      "Beginners should drill grip mechanics and positional control without applying finishing pressure until confident in their control and partner communication",
+      "Never apply guillotine with explosive or jerking motion - always build pressure progressively through controlled hip engagement",
+      "Practitioners with existing neck or cervical spine injuries should avoid this technique or train only with minimal resistance under supervision",
+      "Full competition-intensity finishing should only be applied during supervised sparring with experienced partners who understand tap timing"
+    ]
+  },
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 45,
+      "probability": 25,
       "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Guillotine from Butterfly Guard.",
-  "safety_considerations": {
-    "injury_risks": [
-      {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
-      }
-    ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
-    "tap_signals": [
-      "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
-    ],
-    "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
-    ],
-    "training_restrictions": [
-      "TODO"
-    ]
-  },
+  "from_positions": [
+    "Butterfly Guard",
+    "Closed Guard",
+    "Half Guard",
+    "Open Guard"
+  ],
+  "related_submissions": [
+    "Arm in Guillotine",
+    "Chin Strap Guillotine",
+    "Anaconda Choke",
+    "Brabo Choke",
+    "Arm Triangle",
+    "Armbar from Guard"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Butterfly Guard",
+      "relationship": "Primary starting position providing hooks and elevation leverage for guillotine setup"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Intermediate control position reached when guillotine grip is locked but finish is not yet complete"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related control position sharing similar head-and-arm neck control mechanics"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative guard position where guillotine can be applied with locked legs for stability"
+    },
+    {
+      "name": "Arm in Guillotine",
+      "relationship": "Common variation applied when opponent's arm is trapped inside the guillotine grip"
+    },
+    {
+      "name": "Anaconda Choke",
+      "relationship": "Related front headlock choke that chains naturally from failed guillotine attempts"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "High Elbow Guillotine (Marcelotine)",
+      "description": "The high elbow variation involves driving the choking elbow upward toward the ceiling while maintaining a palm-to-palm or gable grip. This creates a tighter choking angle by directing pressure primarily into the carotid arteries rather than the trachea, producing a faster blood choke finish with less reliance on compression strength.",
+      "when_to_use": "When you have a deep grip around the neck and your opponent is not posturing effectively, allowing you to establish the high elbow angle before they can defend"
+    },
+    {
+      "variation_name": "Arm-In Guillotine from Butterfly",
+      "description": "When the opponent's arm is trapped inside the guillotine grip along with their neck, the arm-in variation compresses both the brachial plexus and carotid artery simultaneously. The butterfly hooks prevent the opponent from circling away to the trapped-arm side, which is the primary escape route for this variation.",
+      "when_to_use": "When opponent reaches across your body with their far arm during the head snap, naturally trapping their arm inside the choking configuration alongside their neck"
+    },
+    {
+      "variation_name": "Power Guillotine with Hook Elevation",
+      "description": "This variation emphasizes using the choking-side butterfly hook to aggressively elevate the opponent while simultaneously pulling the guillotine grip tight. The elevation breaks the opponent's base and creates acute downward pressure on the neck as their body weight shifts over the fulcrum of your forearm.",
+      "when_to_use": "Against opponents who maintain heavy downward pressure to resist the choke, as the hook elevation removes their base and amplifies choking force through leverage"
     }
   ],
   "attacker": {
     "name": "Guillotine from Butterfly Guard Attacker",
-    "description": "TODO: Write attacker description for Guillotine from Butterfly Guard.",
-    "overview": "TODO: Write attacker overview for Guillotine from Butterfly Guard.",
+    "description": "Learn to execute the guillotine choke from butterfly guard with precise setup mechanics, grip configurations, hook elevation techniques, and finishing sequences that force the tap.",
+    "overview": "Executing the guillotine from butterfly guard requires precise coordination between your upper body choking mechanics and your lower body hook control. The attack begins when your opponent drops their head, either from a failed takedown attempt, forward driving pressure to neutralize your hooks, or a deliberate snap-down that you initiate. Your ability to immediately secure a deep grip around the neck, lock your hands in the appropriate configuration, and engage your butterfly hooks to control the opponent's base determines whether you achieve a finish or merely delay the inevitable escape. The most critical element is understanding that the guillotine from butterfly guard is a full-body submission where your hips, hooks, and arms must work as a unified system to generate maximum choking pressure while preventing your opponent from creating the space or angle needed to defend.",
     "key_principles": [
-      "TODO"
+      "Secure a deep grip around the neck before the opponent can posture, positioning the blade of your forearm directly across the throat or under the jawline for maximum choking surface",
+      "Use the butterfly hooks as active elevation tools that break the opponent's base and create downward finishing angle, not as passive barriers holding position",
+      "Create a closed system by connecting your chest to the back of the opponent's head, eliminating the space they need to extract their head from the grip",
+      "Angle your hips toward the choking side to create diagonal pressure that maximizes carotid compression and prevents the flat-back position that weakens the finish",
+      "Chain the guillotine threat with butterfly sweep attempts to create compound dilemmas where defending one attack necessarily opens the other",
+      "Control the opponent's posture throughout the entire attack sequence, preventing them from generating the upward drive needed to relieve choking pressure"
     ],
     "setup_requirements": [
-      "TODO"
+      "Opponent's head positioned below your chin level, either from forward pressure, snap-down, or failed shot attempt creating neck exposure",
+      "At least one butterfly hook actively engaged under opponent's thigh to control their base and provide elevation leverage for finishing",
+      "Choking arm inserted deep around opponent's neck with the blade of the forearm positioned across the throat or under the chin",
+      "Hands connected in secure grip configuration such as gable grip, palm-to-palm, or chin strap with elbows pulled tight against your body",
+      "Upright or slightly reclined seated posture with core engaged, providing the structural base to generate pulling force through the choking grip"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Snap down and control head",
+        "description": "From butterfly guard, use your collar grip, overhook, or behind-the-head control to snap your opponent's head down below your chin level. Time this with their forward pressure or initiate it when they reach for grips. Your other hand should be ready to wrap immediately around their exposed neck.",
+        "timing": "Immediate - must be explosive to catch opponent before posture recovery"
+      },
+      {
+        "step_number": 2,
+        "action": "Insert choking arm deep around neck",
+        "description": "As the opponent's head drops, thread your choking arm around their neck so that the blade of your forearm (the radial bone side) sits directly across the front of their throat or under their chin. The depth of this arm insertion is critical - a shallow grip that only catches the chin will not produce sufficient compression for a finish.",
+        "timing": "Within 1 second of head snap - speed is critical before opponent recognizes the threat"
+      },
+      {
+        "step_number": 3,
+        "action": "Lock hands in finishing grip configuration",
+        "description": "Connect your hands in a strong grip configuration. For the standard guillotine, use a gable grip or palm-to-palm lock. For the high elbow variation, use a palm-to-palm grip while driving the choking elbow upward. Pull both elbows tight against your ribs to eliminate slack in the grip and begin compressive pressure.",
+        "timing": "Immediately after arm insertion - do not allow any gap between grip and lock"
+      },
+      {
+        "step_number": 4,
+        "action": "Establish chest-to-head connection",
+        "description": "Pull the opponent's head tight against your chest, closing the space between your sternum and the back of their skull. This creates the sealed compression system where your forearm applies pressure from the front while your chest prevents backward escape. Round your shoulders slightly forward to maximize the seal.",
+        "timing": "Simultaneous with grip lock - builds the closed choking system"
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust hip angle toward choking side",
+        "description": "Shift your hips approximately 30-45 degrees toward the choking arm side. This diagonal angle transforms the choke from a compression squeeze into a directional shearing force across the carotid arteries. The angle also prevents you from being flat on your back, which would weaken the choke significantly.",
+        "timing": "1-2 seconds after establishing grip - critical adjustment before finishing"
+      },
+      {
+        "step_number": 6,
+        "action": "Engage choking-side butterfly hook for elevation",
+        "description": "Drive your choking-side butterfly hook deep under the opponent's thigh and use it to elevate their weight off their knees. This elevation removes their base and creates downward gravitational pressure on their neck against your forearm. The hook acts as a fulcrum, amplifying the choking force without requiring additional arm strength.",
+        "timing": "Coordinated with hip angle - the hook and angle work together as the finishing system"
+      },
+      {
+        "step_number": 7,
+        "action": "Drive hips forward and arch back",
+        "description": "Extend your hips forward while simultaneously arching your upper back away from the opponent. This creates a stretching force that pulls the opponent's neck across your forearm while your hips drive their body weight downward into the choke. The back arch generates the finishing torque that compresses the carotid arteries.",
+        "timing": "Final finishing sequence - smooth progressive drive, not explosive jerking"
+      },
+      {
+        "step_number": 8,
+        "action": "Complete the squeeze with full-body compression",
+        "description": "Combine the arm squeeze, hip drive, back arch, and hook elevation into one unified compressive force. Pull your elbows toward your hips while driving the choking forearm upward into the neck. Maintain the chest-to-head seal throughout. The opponent should feel pressure building from all directions simultaneously with no space to relieve it.",
+        "timing": "Hold sustained pressure for 3-5 seconds - tap should come within this window"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent postures up explosively before grip is locked, creating distance and extracting head",
+        "effectiveness": "High",
+        "your_response": "Follow the posture-up with a hip bump sweep since their weight is shifting backward, or immediately re-snap the head down and reattempt the grip before they can fully establish posture",
+        "targets_outcome": "Butterfly Guard/Bottom"
+      },
+      {
+        "counter": "Opponent passes to the choking-arm side toward side control, threatening Von Flue choke",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Release the guillotine grip before they complete the pass and immediately recover butterfly hooks or transition to closed guard. Never hold the guillotine against a completed pass to side control.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent stacks and drives forward aggressively, pinning your shoulders to the mat",
+        "effectiveness": "High",
+        "your_response": "Close your guard to prevent the pass while maintaining the guillotine grip. Use the closed guard to control their posture and reattempt the finish with hip extension from closed guard position.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent hand-fights to strip the choking grip by peeling fingers or breaking the grip lock",
+        "effectiveness": "Medium",
+        "your_response": "Squeeze elbows tighter and re-lock the grip immediately. If the grip breaks, transition to an arm drag or snap-down to re-establish head control rather than chasing the grip.",
         "targets_outcome": "Butterfly Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Shallow grip that only catches the chin rather than wrapping deep around the neck",
+        "consequence": "Insufficient compression on the carotid arteries results in a jaw crank that causes pain but rarely produces a tap against experienced opponents",
+        "correction": "Ensure the choking arm threads deep enough that the forearm blade sits directly across the front of the throat before locking the hands, using the snap-down to create the depth window"
+      },
+      {
+        "error": "Maintaining guillotine grip while opponent passes to side control",
+        "consequence": "Exposes you to the Von Flue choke where the opponent's shoulder pressure combined with your own grip compresses your carotid artery, reversing the submission",
+        "correction": "Release the guillotine immediately when opponent's hips clear past your guard frames. If you cannot finish before they pass, abandon the grip and recover guard"
+      },
+      {
+        "error": "Squeezing only with arm strength without engaging hips, hooks, and back arch",
+        "consequence": "Rapid arm fatigue with insufficient pressure to finish the choke, allowing opponent time to posture up or defend while your grip weakens",
+        "correction": "Treat the guillotine as a full-body submission: engage hip extension, butterfly hook elevation, and back arch to generate choking force through leverage rather than muscular effort alone"
+      },
+      {
+        "error": "Staying flat on back instead of angling hips toward the choking side",
+        "consequence": "Flat-back position produces a compression squeeze that is inefficient and easily defended, requiring significantly more strength to finish",
+        "correction": "Angle hips 30-45 degrees toward the choking arm side to create diagonal shearing pressure across the carotid arteries, which is mechanically superior and requires less strength"
+      },
+      {
+        "error": "Releasing butterfly hooks before the choke is fully secured and finish is initiated",
+        "consequence": "Without hook control, the opponent can freely adjust posture, stack, or pass without resistance, neutralizing the submission attempt entirely",
+        "correction": "Maintain at least the choking-side butterfly hook throughout the finishing sequence, using it actively for elevation even as you focus on the upper body choking mechanics"
+      },
+      {
+        "error": "Attempting the guillotine without first breaking the opponent's posture through snap-down",
+        "consequence": "Opponent maintains upright posture making it impossible to wrap a deep grip, resulting in scrambles or partial grips that waste energy",
+        "correction": "Always break posture first with a committed snap-down or collar pull before threading the choking arm. The head must be below your chin level before you attempt the grip"
+      },
+      {
+        "error": "Chin positioned too high allowing opponent to drive into your chest and stack",
+        "consequence": "Opponent uses your elevated chin to create space, driving forward to relieve pressure and begin their passing sequence",
+        "correction": "Tuck your chin over the back of the opponent's head to seal the closed system and prevent them from creating upward space through forward pressure"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Developing proper guillotine grip depth, hand connection, and forearm positioning",
+        "description": "Practice the snap-down to guillotine grip entry in isolation with a compliant partner. Focus on achieving consistent forearm blade placement across the throat, proper hand lock configuration, and elbow squeeze. Drill 50 repetitions per session until the grip feels automatic."
+      },
+      {
+        "phase": "Phase 2: Hook Integration",
+        "focus": "Coordinating butterfly hook control with the guillotine grip",
+        "description": "Add butterfly hook engagement to the grip drill. Practice elevating your partner with the choking-side hook while maintaining the guillotine grip. Focus on timing the hook drive with the grip lock so both elements engage simultaneously rather than sequentially."
+      },
+      {
+        "phase": "Phase 3: Finishing Details",
+        "focus": "Hip angle, back arch, and full-body finishing mechanics",
+        "description": "With grip and hooks established, practice the complete finishing sequence: hip angle adjustment, hip extension, back arch, and sustained squeeze. Partner provides light resistance and gives feedback on when they feel the choke tighten. Refine the angle and timing of each element."
+      },
+      {
+        "phase": "Phase 4: Defense Recognition",
+        "focus": "Recognizing and countering common defensive responses during guillotine attempts",
+        "description": "Partner actively defends using posture recovery, stacking, grip stripping, and passing attempts. Practice adjusting your guillotine in response to each defense. Learn when to release and transition versus when to persist with adjusted mechanics."
+      },
+      {
+        "phase": "Phase 5: Chain Attacks",
+        "focus": "Integrating guillotine with butterfly sweeps and other submissions",
+        "description": "Practice flowing between guillotine attempts and butterfly sweeps. When the opponent defends the guillotine by posturing, immediately attack with a butterfly sweep. When they defend the sweep by driving forward, re-enter the guillotine. Develop the offensive cycle until both attacks flow naturally."
+      },
+      {
+        "phase": "Phase 6: Live Application",
+        "focus": "Applying guillotine from butterfly guard in positional sparring and live rolling",
+        "description": "Start positional sparring rounds from butterfly guard with the specific goal of finishing the guillotine or sweeping from the guillotine threat. Progress to full live rolling where you actively seek butterfly guard and set up guillotine entries against fully resisting opponents."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structures does the guillotine choke primarily compress to produce a submission?",
+        "answer": "The guillotine primarily compresses the carotid arteries on both sides of the neck, restricting blood flow to the brain and causing rapid loss of consciousness if held. Secondarily, the forearm applies pressure to the trachea, restricting airflow. The most effective guillotine finish targets the carotid arteries through proper forearm blade positioning and hip angle, producing a blood choke that works faster and more reliably than pure tracheal compression.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent begins posturing up while you have a partially locked guillotine grip - what immediate action prevents the escape?",
+        "answer": "Immediately pull your elbows tight to your ribs while driving the choking-side butterfly hook upward to elevate their weight and break their posture. Simultaneously, tuck your chin over the back of their head to prevent them from creating upward space. If they continue to posture successfully, transition immediately to a hip bump sweep since their weight is shifting backward and their base is compromised. Never chase a losing guillotine grip when a sweep opportunity presents itself.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why are butterfly hooks essential for finishing the guillotine rather than simply closing guard around the opponent's waist?",
+        "answer": "Butterfly hooks provide dynamic elevation capability that closed guard cannot match. The choking-side hook elevates the opponent's body weight off their base, creating downward gravitational pressure on their neck against your forearm. This amplifies choking force through leverage rather than requiring pure arm strength. Additionally, hooks allow the attacker to adjust angle and elevation throughout the finishing sequence, while closed guard only provides static containment without the ability to manipulate the opponent's weight distribution.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the guillotine application does the choke become extremely difficult for the defender to escape?",
+        "answer": "The choke reaches the point of near-inescapability when the attacker has achieved three simultaneous conditions: the forearm blade is positioned deep across the carotid arteries with a locked grip, the hips are angled toward the choking side creating diagonal shearing pressure, and the choking-side butterfly hook is actively elevating the opponent's weight off their base. Once all three elements converge, the defender has virtually no space or leverage to posture, strip the grip, or pass, making the tap inevitable within seconds.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why does relying solely on arm strength to squeeze the guillotine often fail to produce a tap?",
+        "answer": "Pure arm squeezing creates a bilateral compression that is relatively easy to resist by tucking the chin and engaging neck muscles. Without hip angle and extension, the force direction is inefficient, pressing into the front of the neck rather than shearing across the carotid arteries. Arms fatigue rapidly under sustained isometric contraction, degrading grip strength within 10-15 seconds. The correct approach uses hip extension, back arch, and hook elevation to generate choking force through skeletal leverage, which is sustainable and mechanically superior to muscular squeezing alone.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent tucks their chin tightly against the guillotine grip - what adjustment allows you to still finish the choke?",
+        "answer": "When the opponent tucks their chin, switch to the high elbow guillotine variation by driving your choking elbow upward toward the ceiling. This changes the angle of pressure from direct front compression to an upward shearing motion that slides the forearm under the chin and into the carotid arteries regardless of chin position. The high elbow angle also increases the mechanical advantage of the grip, compressing the arteries even through the chin tuck defense. Simultaneously, increase hook elevation to prevent the opponent from settling their weight down to resist.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the immediate steps you must take if your training partner loses consciousness during a guillotine choke?",
+        "answer": "Release the grip immediately and carefully lower them to the mat on their back. Elevate their legs slightly above heart level to promote blood flow to the brain. Ensure their airway is clear and they are breathing. They should regain consciousness within 10-20 seconds. Do not shake them or pour water on their face. If they do not regain consciousness within 30 seconds, place them in the recovery position and seek emergency medical assistance immediately. After they wake, allow full recovery time and monitor for any signs of confusion or disorientation before allowing them to continue training.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, how should you adjust your guillotine finishing strategy when your opponent is aggressively trying to pass to your choking-arm side?",
+        "answer": "When the opponent commits to passing toward the choking-arm side, you must make an immediate decision: if your grip is deep and the angle is set, accelerate the finish by driving your hook into their thigh and arching hard before they complete the pass. If the pass is nearly complete and your grip is marginal, release the guillotine immediately to avoid the Von Flue choke counter where their shoulder pressure combined with your own grip compresses your carotid. Transitioning to guard recovery is always preferable to holding a lost guillotine against a completed side control pass.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does angling your hips toward the choking side improve guillotine finishing mechanics compared to remaining flat on your back?",
+        "answer": "Angling the hips 30-45 degrees toward the choking side transforms the choking force from a bilateral compression into a diagonal shearing force across the carotid arteries. The angle creates a fulcrum effect where the forearm blade presses into one side of the neck while the shoulder and chest press from the opposite diagonal, maximizing vascular compression with less total force required. The flat-back position distributes force evenly across the front of the throat, which is less effective for blood restriction and more likely to produce a painful but non-finishing tracheal compression.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the relationship between the guillotine threat and butterfly sweep effectiveness, and how do you exploit this connection?",
+        "answer": "The guillotine and butterfly sweep create a mutually reinforcing offensive dilemma. When the opponent drives forward to resist butterfly sweep elevation, they lower their head into optimal guillotine range. When they posture up to defend the guillotine, they shift their weight backward and compromise their base against butterfly sweeps. Elite practitioners exploit this by initiating the guillotine grip to force the posture-up reaction, then immediately converting to a butterfly sweep as the opponent's weight shifts. This offensive cycling forces constant defensive decisions that eventually create an opening for one or both attacks.",
+        "safety_critical": false
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Guillotine from Butterfly Guard."
+    ]
   },
   "defender": {
     "name": "Guillotine from Butterfly Guard Defender",
-    "description": "TODO: Write defender description for Guillotine from Butterfly Guard.",
-    "overview": "TODO: Write defender overview for Guillotine from Butterfly Guard.",
+    "description": "Learn to recognize, defend, and escape the guillotine choke from butterfly guard with proven defensive techniques, posture recovery, grip stripping, and counter-attack strategies.",
+    "overview": "Defending the guillotine from butterfly guard requires immediate recognition of the threat and decisive action before the grip is fully locked. The defender's primary advantage is that the butterfly guard position inherently provides passing opportunities that can neutralize the choke if executed before the attacker establishes the full finishing system of grip, angle, and hook elevation. The most critical defensive principle is posture maintenance: keeping your head above your opponent's chest level prevents them from establishing the deep neck grip required for a finishing guillotine. When caught in the guillotine grip, your defensive strategy shifts to preventing the opponent from creating the closed-system compression needed for the finish while working to pass to the non-choking side where pressure is relieved and dominant position can be established.",
     "key_principles": [
-      "TODO"
+      "Maintain posture at all times when in butterfly guard top to deny the head-below-chin position that the guillotine requires for grip establishment",
+      "When caught, immediately address the choking grip before it is fully locked by fighting hands and creating space under the chin with jaw pressure",
+      "Drive toward the choking-arm side to pass to side control, which relieves choking pressure and creates the Von Flue counter opportunity",
+      "Keep chin tucked and neck muscles engaged to create structural resistance against the compressive force of the forearm across your throat",
+      "Never panic-pull your head straight backward out of the grip, as this often tightens the choke by driving your neck deeper into the forearm blade",
+      "Control the opponent's hips and butterfly hooks to prevent them from establishing the elevation and diagonal angle needed for the finishing sequence"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent snaps your head down suddenly with collar grip or behind-the-head control, indicating immediate setup for neck attack entry",
+      "Feeling an arm threading around your neck from the front, with the forearm blade making contact across your throat or under your jawline",
+      "Opponent's chest pressing firmly against the back of your head while their arms begin connecting around your neck in a grip configuration",
+      "Opponent shifting their hips to one side while maintaining neck control, indicating they are establishing the diagonal finishing angle",
+      "Progressive tightness developing around your neck with increasing difficulty breathing or swallowing, indicating active choking pressure being applied"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Immediate posture recovery by posting hands on opponent's hips and driving chest upward",
+        "when_to_use": "Early defense before the grip is fully locked, when you still have enough space to generate upward posturing force",
         "targets_outcome": "Butterfly Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Breaks the choking system and returns to neutral butterfly guard position where passing can resume",
+        "risk": "If grip is already deep, posturing may tighten the choke further before you can break free"
+      },
+      {
+        "action": "Pass to choking-arm side toward side control using shoulder drive and hip clearing",
+        "when_to_use": "When grip is locked and posture recovery is not possible, passing to side control relieves pressure and opens Von Flue counter",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Establishes side control on the choking side where opponent's guillotine grip becomes a liability rather than a weapon",
+        "risk": "Must clear the butterfly hooks during the pass, and the choke intensifies briefly during the transition"
+      },
+      {
+        "action": "Stack and drive forward while hand-fighting to strip the choking grip",
+        "when_to_use": "When opponent has a moderate grip but you still have base and can generate forward driving pressure to pin their shoulders",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "Pins opponent flat and compresses their guard structure, reducing their ability to generate finishing angle and hip extension",
+        "risk": "Driving forward feeds the choke initially and may allow opponent to close guard with the guillotine still locked"
+      },
+      {
+        "action": "Hand-fight and strip grip before lock is completed by peeling fingers and creating chin-to-chest space",
+        "when_to_use": "Earliest possible defense when you recognize the arm beginning to wrap, before hands connect in finishing configuration",
+        "targets_outcome": "Butterfly Guard/Bottom",
+        "if_successful": "Prevents the guillotine from being established and returns to neutral position with initiative",
+        "risk": "Requires fast recognition and two-hand commitment to grip stripping, temporarily abandoning base defense"
       }
+    ],
+    "escape_paths": [
+      "Drive head toward the mat on the choking-arm side and circle hips to pass to side control, using shoulder pressure to relieve the choke angle and establish dominant top position with Von Flue counter available",
+      "Create posture by posting both hands firmly on opponent's hips and driving chest upward with maximum force, breaking the closed compression system and extracting your head from the grip before they can re-establish",
+      "Stack the opponent by driving forward and pinning their shoulders flat to the mat, compressing their butterfly guard structure and removing the hip space needed to generate finishing angle and extension"
     ],
     "favorable_outcomes": [
       {
+        "outcome": "Side Control/Bottom",
+        "how": "Pass to the choking-arm side during active guillotine defense, clearing the butterfly hooks and establishing side control. The opponent's maintained guillotine grip becomes a liability, exposing them to the Von Flue choke counter while you consolidate top position."
+      },
+      {
         "outcome": "Butterfly Guard/Bottom",
-        "how": "TODO"
+        "how": "Successfully strip the guillotine grip through posture recovery or hand fighting, resetting to the neutral butterfly guard top position where you can resume your passing strategy without the neck threat."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling head straight backward to extract from the guillotine grip",
+        "consequence": "The backward pull drives the throat deeper across the forearm blade, actually tightening the choke and accelerating the submission rather than escaping it",
+        "correction": "Instead of pulling back, drive forward and to the choking-arm side. Circle your head toward the mat and pass to side control, which naturally creates the angle that relieves choking pressure"
+      },
+      {
+        "error": "Staying square in front of the opponent instead of angling toward the choking side to pass",
+        "consequence": "Remaining square keeps you in the optimal choking angle where the opponent can engage both hooks and full hip extension to finish",
+        "correction": "Immediately begin passing toward the choking-arm side when caught, driving your shoulder into their chest while clearing the near-side butterfly hook to advance to side control"
+      },
+      {
+        "error": "Panicking and using explosive strength to escape rather than applying technical defense",
+        "consequence": "Explosive movement burns energy rapidly, often tightens the choke through erratic head positioning, and creates scramble situations where the opponent can re-lock the grip",
+        "correction": "Stay calm and execute the technical defense sequence methodically: tuck chin, establish hand position on opponent's hips, then drive posture or initiate passing movement with controlled, purposeful force"
+      },
+      {
+        "error": "Ignoring early warning cues and allowing the guillotine grip to be fully locked before reacting",
+        "consequence": "Once the grip is locked, hip angle is set, and hooks are engaged, escape difficulty increases dramatically and the window for successful defense narrows to seconds",
+        "correction": "React immediately to the first recognition cue, whether it is the head snap, arm wrapping, or posture break. The highest percentage defense occurs before the grip lock, not after"
+      },
+      {
+        "error": "Attempting to push away from the opponent with straight arms to create distance",
+        "consequence": "Pushing away with straight arms breaks your base, eliminates your connection to the opponent's body, and allows them to use your extended arms as additional leverage for the finish",
+        "correction": "Keep arms tight and connected to the opponent's body throughout the defense. Drive INTO the opponent rather than away, using forward pressure and angled passing to relieve the choke"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a guillotine is being attempted from butterfly guard?",
+        "answer": "The earliest cue is the opponent snapping your head down suddenly with a collar grip or behind-the-head pull. This precedes the arm wrap and signals the beginning of the guillotine entry. The moment you feel your head being pulled below your opponent's chin level, you should immediately begin posture recovery or grip prevention before the choking arm can thread around your neck.",
+        "safety_critical": false
+      },
+      {
+        "question": "When caught in a guillotine from butterfly guard, why is passing to the choking-arm side more effective than pulling your head straight back?",
+        "answer": "Passing to the choking-arm side naturally changes the angle of the forearm across your neck, reducing compression on the carotid arteries. The lateral movement also breaks the sealed compression system between the opponent's chest and your head. Pulling straight back, by contrast, drives the throat deeper into the forearm blade and tightens the choke. Additionally, passing to side control creates a Von Flue counter opportunity where the opponent's own guillotine grip becomes a weapon against them.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point should you tap during a guillotine attempt in training rather than continuing to fight the escape?",
+        "answer": "You should tap immediately when you feel the choke fully locked with the forearm blade across your throat, the opponent's hips angled, and their hooks engaged with elevation pressure. If you feel lightheadedness, vision narrowing, or difficulty breathing, tap without hesitation. In training, tapping early preserves your neck health and allows you to reset and practice the defense from an earlier stage. The few seconds of additional resistance gained by fighting a fully locked guillotine do not justify the risk of injury or loss of consciousness.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the Von Flue choke and how does it relate to defending the guillotine from butterfly guard?",
+        "answer": "The Von Flue choke is a counter-submission where the defender passes to side control while the attacker maintains their guillotine grip. In side control, the defender's shoulder pressure combined with the attacker's own grip compresses the attacker's carotid artery against their own arm, reversing the submission. This makes passing to the choking-arm side during guillotine defense both an escape and a potential counter-attack, as the attacker must choose between releasing the guillotine and risking being submitted by their own grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to address the guillotine grip immediately rather than waiting to see if the opponent can finish?",
+        "answer": "The guillotine from butterfly guard has an extremely rapid progression from grip lock to submission finish once the attacker establishes their hip angle and hook elevation. The window between a fully locked guillotine and loss of consciousness from carotid compression can be as short as 3-5 seconds. Early intervention when the grip is still forming or before the angle is set provides the highest probability of successful defense, while waiting allows the attacker to establish all three finishing elements, making escape exponentially more difficult.",
+        "safety_critical": true
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Prevention",
+        "focus": "Identifying guillotine setups early and maintaining defensive posture",
+        "description": "Practice maintaining posture in butterfly guard top while partner attempts snap-downs and guillotine entries. Focus on recognizing the head-snap cue and immediately recovering posture before the grip can be established. Drill 30 repetitions of posture recovery against progressively faster snap-downs."
+      },
+      {
+        "phase": "Phase 2: Grip Defense",
+        "focus": "Stripping and preventing the guillotine grip from being fully locked",
+        "description": "Starting from the moment the choking arm begins wrapping, practice hand fighting to prevent the grip lock. Work on tucking your chin, getting your hand inside the grip to create space, and peeling fingers before the hands can connect. Partner applies moderate resistance while you develop timing and hand speed."
+      },
+      {
+        "phase": "Phase 3: Escape Mechanics",
+        "focus": "Executing the side control pass escape and stacking defense against locked guillotines",
+        "description": "Partner locks a full guillotine from butterfly guard and you practice the technical escape sequence: tuck chin, drive toward choking side, clear the near-side hook, and pass to side control. Build familiarity with the brief increase in choking pressure during the pass so you can commit to the escape without panicking."
+      },
+      {
+        "phase": "Phase 4: Live Defense Application",
+        "focus": "Defending guillotine attempts in positional sparring with full resistance",
+        "description": "Positional sparring from butterfly guard top where your partner specifically hunts for the guillotine. Score for successful defenses and passes, opponent scores for taps or sweeps. Develop the ability to maintain passing pressure while staying aware of guillotine threats throughout the exchange."
       }
     ]
   }

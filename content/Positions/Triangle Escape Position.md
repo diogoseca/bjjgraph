@@ -95,21 +95,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Stack Pass]]** (24% of attempts)
+- **[[Stack Pass]]** (30% of attempts)
 
-- **[[Triangle Escape]]** (18% of attempts)
+- **[[Triangle Escape]]** (17% of attempts)
 
-- **[[Posture Recovery]]** (18% of attempts)
+- **[[Posture Recovery]]** (17% of attempts)
 
-- **[[Pass to Side Control]]** (8% of attempts)
+- **[[Pass to Side Control]]** (7% of attempts)
 
-- **[[Arm Extraction]]** (14% of attempts)
+- **[[Arm Extraction]]** (13% of attempts)
 
-- **[[Standing up in Base]]** (12% of attempts)
+- **[[Standing up in Base]]** (11% of attempts)
 
-- **[[Complete Triangle Escape]]** (4% of attempts)
+- **[[Complete Triangle Escape]]** (3% of attempts)
 
-- **[[Posture in Triangle Escape]]** (2% of attempts)
+- **[[Posture in Triangle Escape]]** (1% of attempts)
+
+- **[[Reversal from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +172,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Stack Pass]]** (18% of attempts)
+- **[[Stack Pass]]** (17% of attempts)
 
-- **[[Posture Recovery]]** (27% of attempts)
+- **[[Posture Recovery]]** (33% of attempts)
 
-- **[[Triangle Escape]]** (18% of attempts)
+- **[[Triangle Escape]]** (17% of attempts)
 
-- **[[Arm Extraction]]** (13% of attempts)
+- **[[Arm Extraction]]** (12% of attempts)
 
-- **[[Pass to Side Control]]** (6% of attempts)
+- **[[Pass to Side Control]]** (5% of attempts)
 
-- **[[Standing up in Base]]** (13% of attempts)
+- **[[Standing up in Base]]** (12% of attempts)
 
-- **[[Complete Triangle Escape from Top]]** (3% of attempts)
+- **[[Complete Triangle Escape from Top]]** (2% of attempts)
 
-- **[[Posture in Triangle]]** (2% of attempts)
+- **[[Posture in Triangle]]** (1% of attempts)
+
+- **[[Guard Pass from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes

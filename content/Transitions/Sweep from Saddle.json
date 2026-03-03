@@ -1,42 +1,400 @@
 {
   "name": "Sweep from Saddle",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "sweep", "leg entanglement", "saddle", "reversal"],
+  "description": "Master the sweep from saddle bottom in BJJ. Use leg entanglement leverage, precise timing, and explosive bridges to reverse position into side control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "leg entanglement",
+    "saddle",
+    "reversal",
+    "escape",
+    "bottom game"
+  ],
   "from_position": "Saddle/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 35, "result": "success"},
-    {"to": "Saddle/Bottom", "probability": 40, "result": "failure"},
-    {"to": "Saddle/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 35,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Saddle represents one of the highest-risk, highest-reward defensive options available when trapped in the saddle leg entanglement. Rather than attempting traditional escapes that focus on leg extraction and guard recovery, this technique weaponizes the entanglement itself, using the structural connection between both players as a lever to reverse position. The sweep exploits moments when the top player's weight distribution becomes compromised—typically during submission attempts, grip transitions, or positional adjustments—to generate rotational force that rolls the opponent and allows the bottom player to emerge in a dominant top position.\n\nThe fundamental mechanics of this sweep rely on the same perpendicular alignment that makes the saddle dangerous for the bottom player. When the top player commits their weight to attack a heel hook or tighten their control, they momentarily sacrifice base stability. The bottom player capitalizes on this by coordinating a bridge with directional rotation, using frames against the opponent's hips and shoulders to amplify the sweeping force. The leg entanglement, paradoxically, becomes an anchor that prevents the top player from disengaging and posting to stop the sweep.\n\nThis technique demands precise timing, composure under pressure, and thorough understanding of the opponent's weight distribution patterns. It is not a desperation move—rushed attempts without proper setup will fail and potentially accelerate submission finishes. The sweep works best as part of a broader saddle defense strategy where grip fighting and frame creation set up the sweeping opportunity. At purple belt and above, the ability to threaten sweeps from leg entanglements transforms the defensive dynamic, forcing the attacker to allocate attention to base maintenance rather than committing fully to submissions.",
+  "conditions": [
+    "Opponent has saddle control but has not yet secured a finishing grip on your heel",
+    "At least one frame established against opponent's hip or shoulder",
+    "Opponent's weight is shifting forward or laterally during submission setup or grip transition",
+    "Free leg has posting capability with foot planted on the mat",
+    "You have identified the direction of opponent's weight commitment"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Roll-Through Sweep",
+      "description": "Using the entanglement as an anchor point, perform a forward roll through the connection, emerging on the opposite side in top position. The bottom player curls their body forward and uses shoulder-driven rotation to carry themselves over the opponent, maintaining the leg connection throughout.",
+      "when_to_use": "When the opponent's weight is committed forward toward your trapped leg during a heel hook attempt, creating space behind them for the roll-through trajectory."
+    },
+    {
+      "variant_name": "Bridge-Over Sweep",
+      "description": "Classical bridge and rotation using explosive hip extension to lift the opponent and roll them laterally, leveraging the leg connection as the fulcrum point. The bridge drives upward while the frames guide the opponent's body in the rotation direction.",
+      "when_to_use": "When the opponent has settled their weight but is reaching for heel grip with both hands, temporarily removing their ability to post and stop the rotation."
+    },
+    {
+      "variant_name": "Sit-Up Sweep",
+      "description": "Coming to a seated position by posting on the elbow and then the hand, using upper body grips on the opponent's collar, belt, or body to drive them backward over their own posted legs. This variant requires the opponent to be relatively upright rather than driving weight forward.",
+      "when_to_use": "When the opponent maintains an upright posture with their weight centered rather than driving forward, creating the angle needed for a seated sweep where you can use upper body leverage."
+    }
+  ],
+  "position_integration": "The Sweep from Saddle occupies a critical niche in the defensive hierarchy of leg entanglement positions. While traditional saddle escapes prioritize guard recovery through leg extraction and hip clearing, the sweep offers an alternative pathway that bypasses these intermediate steps entirely, taking the bottom player from the worst leg entanglement directly to a dominant top position. This technique integrates with the broader leg lock defense framework by adding a credible reversal threat that forces the top player to respect base maintenance, indirectly making other escape options more viable by dividing the opponent's attention between finishing submissions and preventing sweeps.",
+  "related_content": [
+    {
+      "name": "Saddle",
+      "relationship": "Source position where this sweep is initiated from bottom"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position upon successful sweep completion"
+    },
+    {
+      "name": "Forward Roll from Saddle",
+      "relationship": "Related sweep variant using forward rolling mechanics from same position"
+    },
+    {
+      "name": "Boot Scoot Escape from Saddle",
+      "relationship": "Alternative defensive escape option from saddle bottom"
+    },
+    {
+      "name": "Fight to Inside Ashi from Saddle",
+      "relationship": "Alternative defensive transition reducing entanglement danger"
+    },
+    {
+      "name": "Leg Pummeling from Saddle",
+      "relationship": "Related leg entanglement technique used in defensive sequences"
+    },
+    {
+      "name": "Sweep from Honey Hole",
+      "relationship": "Equivalent sweep from the same position under alternative naming convention"
+    },
+    {
+      "name": "Counter Sweep from Leg Entanglement",
+      "relationship": "Related sweeping concept from broader leg entanglement category"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Fallback position if sweep only partially succeeds"
+    },
+    {
+      "name": "Saddle Fallback to Inside Ashi",
+      "relationship": "Alternative escape pathway from saddle to less dangerous entanglement"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent entanglement category providing systematic framework"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Saddle Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Saddle/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the sweep from saddle bottom in BJJ. Step-by-step guide covering bridge mechanics, timing windows, frame establishment, and position consolidation for leg entanglement reversals.",
+    "overview": "Executing the Sweep from Saddle requires the bottom player to transform a defensive crisis into an offensive opportunity. The attacker must read the top player's weight distribution, identify when their base is compromised during submission setups or grip transitions, and coordinate explosive bridge mechanics with directional rotation. Success depends on using the leg entanglement as a structural connector rather than fighting against it. The sweep is most effective when integrated into a broader defensive framework where grip fighting and frame creation precede the sweep attempt, ensuring the opponent cannot simply reset after a failed attempt. The psychological impact of threatening sweeps from bottom saddle is substantial—it forces the top player to divide attention between finishing and maintaining position.",
+    "key_principles": [
+      "Time sweep attempts to coincide with opponent's weight shifts during submission setups or grip transitions",
+      "Use the leg entanglement as structural leverage rather than attempting to fight free before sweeping",
+      "Establish frames against opponent's hips and shoulders before initiating the sweeping motion",
+      "Coordinate bridge mechanics with rotational direction to maximize force generation",
+      "Protect your heel throughout the sweep—never sacrifice joint safety for positional advancement",
+      "Commit fully to the sweep once initiated; half-attempts allow the opponent to reset and tighten control"
+    ],
+    "setup_requirements": [
+      "At least one frame established against opponent's hip or shoulder to guide sweep direction",
+      "Opponent's weight committed forward or laterally, creating exploitable imbalance",
+      "Free leg positioned with foot flat on mat near hip to generate bridging force",
+      "Heel protected from finishing grip—sweep must not be attempted during active submission danger",
+      "Grip control on opponent's upper body or leg to guide the sweep trajectory"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect the heel",
+        "description": "Before attempting any sweep, ensure your heel is hidden by rotating your knee inward and controlling your own foot with your hands if necessary. This prevents the opponent from exploiting your movement to accelerate a submission finish during the sweep attempt."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish directional frames",
+        "description": "Place your inside arm frame against the opponent's near hip and your outside arm against their shoulder or chest. These frames serve dual purposes: preventing the opponent from driving weight forward and creating directional guides for the sweeping motion that follows."
+      },
+      {
+        "step_number": 3,
+        "action": "Position free leg for bridge",
+        "description": "Plant your free foot flat on the mat close to your hip, creating a strong posting platform for bridge generation. The angle of the foot placement determines the direction of the bridge and subsequently the sweep trajectory—angle it toward your intended sweep direction."
+      },
+      {
+        "step_number": 4,
+        "action": "Read weight distribution",
+        "description": "Sense where the opponent's weight is concentrated through your frames and body contact. The optimal sweep timing is when they shift weight toward your trapped leg for a submission attempt, as this removes their posting ability on the opposite side and creates the imbalance you need."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute coordinated bridge and rotation",
+        "description": "Drive explosively through your posted foot, extending your hips upward while simultaneously rotating your body in the direction the opponent's weight is already moving. Use your frames to amplify the directional force, converting their natural weight shift into a full roll that they cannot stop once momentum is established."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to top position",
+        "description": "As the opponent rolls, maintain connection through the leg entanglement and follow them over, using the sweep momentum to establish chest-to-chest contact from the top. Do not release the entanglement prematurely—maintain it until you have secured a controlling position on top."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Once on top, immediately establish crossface control and drive your hips into the opponent to prevent them from recovering guard or creating new leg entanglement entries. Transition to standard side control mechanics with perpendicular pressure, weight distribution, and hip-to-hip contact to secure the position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts hand or elbow on the mat to block the sweep direction",
+        "effectiveness": "High",
+        "your_response": "Redirect the sweep angle to the opposite direction, or use their extended posting arm as a target for an arm drag that pulls their weight into the sweep. If the post is too strong, abandon the sweep and use the positional disruption to advance grip fighting.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight and drives forward to flatten you before bridge generates momentum",
+        "effectiveness": "Medium",
+        "your_response": "Convert to a forward roll variation, pulling them over you rather than bridging them to the side. Use their forward pressure against them by framing on their shoulders and channeling the momentum overhead rather than laterally.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent immediately tightens entanglement and attacks heel hook during the sweep motion",
+        "effectiveness": "High",
+        "your_response": "Abandon sweep attempt immediately and return to heel protection protocol. The opponent is using your movement to accelerate their submission mechanics. Never continue a sweep when heel is exposed to finishing grips—prioritize joint safety over positional gain.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent hooks or pins free leg to eliminate the bridging platform",
+        "effectiveness": "Medium",
+        "your_response": "Without the free leg bridge, the primary sweep mechanic is neutralized. Transition to grip fighting and alternative escapes such as hip clearing or leg extraction. If the opponent has committed a hand to controlling your free leg, their submission grips are weakened—exploit this opening.",
+        "targets_outcome": "Saddle/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting sweep while heel is exposed to finishing grip",
+        "consequence": "Rotational forces generated during the sweep magnify heel hook mechanics, dramatically increasing risk of severe knee ligament damage",
+        "correction": "Always verify heel is protected before initiating sweep. If opponent has heel grip, address it through grip fighting and knee rotation before any sweeping attempt."
+      },
+      {
+        "error": "Bridging straight upward without directional rotation",
+        "consequence": "Opponent absorbs the vertical bridge by posting and immediately re-settles with tighter control, wasting energy and telegraphing future attempts",
+        "correction": "Always combine vertical hip extension with horizontal rotation toward the direction of opponent's weight shift. The bridge must move the opponent laterally, not just upward."
+      },
+      {
+        "error": "Releasing frames to grab opponent during sweep initiation",
+        "consequence": "Opponent collapses weight into the freed space, flattening you and eliminating the structural leverage needed for the sweep",
+        "correction": "Maintain frame contact throughout the sweeping motion. Convert frames to control grips only after rotational momentum is firmly established and the opponent is already moving."
+      },
+      {
+        "error": "Half-committing to the sweep attempt",
+        "consequence": "Exposes movement pattern without generating sufficient force, teaching the opponent your tells and allowing them to prepare defensive responses for future attempts",
+        "correction": "Commit fully once the sweep is initiated. If conditions are not optimal, continue building through grip fighting and frame creation rather than attempting a tentative sweep."
+      },
+      {
+        "error": "Sweeping against the direction of opponent's weight distribution",
+        "consequence": "Working against the opponent's base requires far more force and reduces success probability dramatically while wasting critical energy reserves",
+        "correction": "Always sweep in the direction the opponent's weight is already shifting. Their submission setups create predictable weight patterns that can be read and exploited."
+      },
+      {
+        "error": "Failing to consolidate top position after successful sweep",
+        "consequence": "Opponent scrambles to guard recovery or re-establishes leg entanglement from bottom, completely negating the positional gain from the sweep",
+        "correction": "Follow through immediately to side control with crossface and hip pressure. Release the leg entanglement only after top control is fully established with perpendicular alignment."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Bridge Mechanics",
+        "focus": "Developing explosive bridge with directional rotation",
+        "description": "Practice bridging drills from supine position with emphasis on combining hip extension with directional rotation. Partner sits on hips at varying weights. Focus on generating maximum force with minimum telegraph and integrating rotational angles."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying sweep windows during opponent's attacks",
+        "description": "Partner establishes saddle and works through standard submission sequences. Bottom player focuses solely on identifying moments when base is compromised without attempting sweeps. Verbal callouts for timing practice to develop pattern recognition."
+      },
+      {
+        "phase": "Phase 3: Controlled Execution",
+        "focus": "Full technique execution with graduated resistance",
+        "description": "Partner provides resistance from zero to moderate levels. Practice complete sweep sequence including heel protection, frame establishment, bridge execution, and top position consolidation. Reset after each attempt regardless of outcome."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Applying sweep in positional sparring",
+        "description": "Begin rounds in saddle position with both players at 70-80% intensity. Bottom player works complete defensive protocol including sweep attempts when genuine opportunities arise. Focus on decision-making between sweep, escape, and grip fighting options."
+      },
+      {
+        "phase": "Phase 5: Chain Defense Development",
+        "focus": "Integrating sweep into complete saddle defense system",
+        "description": "Full sparring starting from various leg entanglement positions. Develop ability to flow between heel protection, grip fighting, escape attempts, and sweep opportunities based on opponent reactions. The sweep becomes one tool in a comprehensive defensive toolkit."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical safety check before attempting a sweep from saddle?",
+        "answer": "Verify that your heel is not exposed to a finishing grip. If the opponent has established heel control with rotational pressure, attempting a sweep will amplify the joint destruction through the movement. Always address heel protection through grip fighting and knee rotation before initiating any sweeping motion from this position."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the sweep?",
+        "answer": "The best timing is when the opponent shifts their weight forward or laterally during a submission setup, grip transition, or positional adjustment. These moments temporarily compromise their base and posting ability, creating a window where coordinated bridge and rotation can generate sufficient force to complete the sweep before they can recover."
+      },
+      {
+        "question": "Your opponent posts their hand when you attempt the sweep—how do you adjust?",
+        "answer": "Redirect the sweep angle to the opposite direction where they cannot post, or use their extended posting arm as a handle for an arm drag that pulls their weight back into the sweep direction. If the post is too structurally sound to overcome, abandon the sweep and use the positional disruption to advance grip fighting or begin an alternative escape sequence."
+      },
+      {
+        "question": "What role does the free leg play in the sweep execution?",
+        "answer": "The free leg provides the posting platform for generating bridge force. Plant it flat on the mat close to your hip with the foot angled in the intended sweep direction. The quality of the bridge, and therefore the sweep, is directly determined by foot placement, angle, and explosive extension through the hip. Without proper free leg positioning, insufficient force is generated."
+      },
+      {
+        "question": "Why is it critical to maintain frames throughout the sweep rather than grabbing the opponent?",
+        "answer": "Frames create structural leverage that guides the sweep direction and prevents the opponent from collapsing their weight into your space. Releasing frames to grab the opponent removes this structural advantage and allows them to flatten you, eliminating the sweeping angle entirely. Convert frames to grips only after rotational momentum is firmly established."
+      },
+      {
+        "question": "How does the direction of the bridge relate to the opponent's weight distribution?",
+        "answer": "Always bridge in the direction the opponent's weight is already shifting. Working against their weight requires exponentially more force and telegraphs your intention. Their submission setups create predictable weight patterns—a heel hook attempt shifts weight toward your trapped leg while a grip transition creates lateral movement. Read these patterns and sweep with them."
+      },
+      {
+        "question": "What should you do immediately after successfully completing the sweep?",
+        "answer": "Establish side control immediately by driving your crossface across the opponent's neck, settling your hips against their hips, and distributing weight across their torso. Release the leg entanglement only after top control is secure. Pausing without consolidating position allows the opponent to scramble to guard or re-establish a leg entanglement from bottom."
+      },
+      {
+        "question": "Your opponent begins applying rotational pressure to your heel during your sweep setup—what is your response?",
+        "answer": "Abandon the sweep attempt immediately and prioritize heel protection. Return to the defensive hierarchy: hide the heel by rotating your knee inward, address the opponent's grips with systematic grip fighting, and re-establish frames. Never continue a sweep when submission mechanics are actively engaged, as the sweeping motion will accelerate joint damage significantly."
+      }
+    ],
+    "safety_considerations": "This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary."
   },
   "defender": {
     "name": "Sweep from Saddle Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Saddle/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Saddle/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend against sweeps from saddle top position in BJJ. Recognition cues, base maintenance during submissions, and counter techniques to prevent reversals from leg entanglements.",
+    "overview": "Defending against sweeps from saddle requires the top player to maintain base awareness while simultaneously attacking with leg submissions. The primary challenge is that submission setups naturally shift weight distribution in ways that compromise base stability, creating sweep opportunities for technically skilled bottom players. The top player must develop the ability to recognize pre-sweep indicators—frame establishment, free leg repositioning, and directional hip shifts—while maintaining enough positional awareness to post or adjust weight before the sweep generates full momentum. This defensive skill becomes increasingly important at higher belt levels where bottom players integrate sweep threats into their saddle defense systems, forcing the top player to balance aggression with positional security.",
+    "key_principles": [
+      "Maintain wide base with at least one hand ready to post during all submission attempts from saddle",
+      "Recognize pre-sweep indicators including frame establishment, foot repositioning, and directional hip angle changes",
+      "Keep weight centered over the opponent rather than overcommitting to one side during submission setups",
+      "Use head positioning and shoulder pressure to limit the bottom player's ability to generate rotational force",
+      "Be willing to temporarily abandon submission attempts to preserve positional control when sweep threat is recognized",
+      "Control the opponent's free leg proactively to eliminate their primary bridging platform before they can use it"
+    ],
+    "recognition_cues": [
+      "Bottom player establishes frames against your hips or shoulders instead of fighting the leg entanglement directly",
+      "Bottom player repositions their free foot flat on the mat close to their hip, creating a bridging platform",
+      "Bottom player's hips begin shifting directionally rather than simply defending against the entanglement pressure",
+      "Bottom player grips your gi, belt, or body rather than protecting their own heel, indicating offensive rather than defensive intent",
+      "Bottom player's breathing pattern shifts from defensive tension to focused exhalation, signaling imminent explosive movement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post hand on mat to block sweep direction",
+        "when_to_use": "When you feel the bottom player's bridge beginning to generate rotational momentum through your body",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Sweep is neutralized and you maintain saddle control with ability to resume submission attacks after re-establishing grips",
+        "risk": "Posting arm is temporarily unavailable for submission grips, creating a brief window where heel control is reduced"
+      },
+      {
+        "action": "Lower hips and drive weight into opponent to flatten them",
+        "when_to_use": "When you recognize frame establishment and pre-sweep positioning before the bridge is initiated",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Flattens the opponent and eliminates the space needed for bridge generation, killing the sweep before it develops any momentum",
+        "risk": "Forward weight commitment can be exploited if bottom player redirects to a forward roll sweep variation pulling you overhead"
+      },
+      {
+        "action": "Accelerate submission attempt to force defensive reset",
+        "when_to_use": "When sweep setup is in early stages and you have already established a strong heel grip with finishing position",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Forces opponent to abandon sweep attempt entirely and return to heel protection, resetting the defensive dynamic in your favor",
+        "risk": "Rushing submission without optimal control reduces finishing probability and may create additional sweep openings if the submission fails"
+      },
+      {
+        "action": "Control opponent's free leg to eliminate bridging platform",
+        "when_to_use": "Proactively when you notice opponent positioning free foot flat on mat, or reactively after recognizing initial sweep setup indicators",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Removes the primary mechanical driver of the sweep, making effective bridging impossible regardless of the bottom player's timing or technique",
+        "risk": "Using a hand to control the free leg reduces grips available for submission and entanglement maintenance"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Recognize sweep indicators early—frame establishment, foot repositioning, directional weight shifts—and preemptively adjust base by posting or lowering hips before the sweep generates momentum. Maintain at least one hand ready to post during all submission sequences, and control the opponent's free leg when possible to eliminate their bridging platform at its mechanical source."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overcommitting weight to one side during submission attempts without maintaining posting ability",
+        "consequence": "Creates predictable weight shift that the bottom player exploits with a timed bridge and rotation, resulting in a successful sweep to side control",
+        "correction": "Keep weight centered and maintain at least one hand available for posting throughout submission sequences. Develop ability to attack submissions with distributed rather than fully committed weight."
+      },
+      {
+        "error": "Ignoring bottom player's frame establishment against your body",
+        "consequence": "Frames provide the structural leverage essential for generating sweep force; allowing them to establish unchallenged dramatically increases sweep success probability",
+        "correction": "Actively strip or redirect frames as they are established. Treat frame creation as a defensive action requiring immediate response, not passive positioning to be tolerated."
+      },
+      {
+        "error": "Releasing entanglement control to chase submission finishes aggressively",
+        "consequence": "Loose entanglement gives the bottom player room to generate rotational force for the sweep and may allow leg extraction during the sweeping motion",
+        "correction": "Maintain tight leg entanglement throughout all submission sequences. If entanglement loosens during a submission attempt, re-establish positional control before continuing the attack."
+      },
+      {
+        "error": "Failing to control opponent's free leg when it is planted in bridging position",
+        "consequence": "The free leg provides the bridging platform essential for sweep generation—leaving it uncontrolled is providing the opponent their primary weapon",
+        "correction": "Use your top leg or spare hand to pin, hook, or redirect the opponent's free leg, particularly when their foot is planted flat in a position that enables explosive bridge generation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest indicators that your opponent is setting up a sweep from saddle bottom?",
+        "answer": "Watch for frame establishment against your hips or shoulders, repositioning of the free foot flat on the mat near their hip, directional hip shifts rather than standard escape movements, and changes in grip pattern from defensive heel protection to offensive body gripping. These indicators typically appear one to three seconds before the sweep attempt, giving you time to adjust base or strip frames preemptively."
+      },
+      {
+        "question": "How should you balance submission commitment with sweep defense from saddle top?",
+        "answer": "Maintain at least one hand ready to post at all times during submission sequences. Develop techniques that allow attacking with distributed weight rather than fully committed weight. If you recognize pre-sweep indicators, pause your submission attempt and re-establish base before continuing. The saddle position is sustainable enough that momentarily pausing attacks to reset base is always preferable to being swept to bottom."
+      },
+      {
+        "question": "Your opponent successfully bridges and begins rotating you—what is your recovery protocol?",
+        "answer": "If the sweep is already in motion, your first priority is posting your hand on the mat to stop the rotation. If posting fails, consider releasing the leg entanglement to facilitate a scramble rather than being swept cleanly to bottom side control. Once the sweep completes, immediately establish guard frames rather than attempting to re-enter the leg entanglement. Focus on landing in the best possible defensive position."
+      },
+      {
+        "question": "Why is controlling the opponent's free leg a critical defensive priority against sweeps?",
+        "answer": "The free leg provides the posting platform that generates all bridging force for the sweep. Without the ability to plant their foot and drive through their hip, the bottom player cannot generate sufficient force for a successful sweep regardless of their timing or technique quality. Controlling the free leg neutralizes the sweep threat at its mechanical root rather than trying to reactively stop the completed sweeping motion."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying pre-sweep indicators from saddle top",
+        "description": "Partner establishes saddle bottom and sets up sweeps with clear telegraphing at slow speed. Top player practices identifying frame establishment, foot repositioning, and weight shift indicators. Verbal callouts when indicators are recognized to build pattern awareness."
+      },
+      {
+        "phase": "Phase 2: Preventive Response",
+        "focus": "Preemptive base adjustments and frame stripping",
+        "description": "Partner attempts sweeps with moderate speed and force. Top player practices posting, lowering hips, and stripping frames in response to sweep indicators. Focus on timing the response to the earliest possible indicator rather than reacting to the completed sweep motion."
+      },
+      {
+        "phase": "Phase 3: Submission-Defense Integration",
+        "focus": "Maintaining sweep defense during active submission attempts",
+        "description": "Top player works standard heel hook and ankle lock sequences while partner threatens sweeps at realistic timing. Develop ability to pause attacks, adjust base, and resume submission sequences without losing positional control or entanglement integrity."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full integration under realistic competitive conditions",
+        "description": "Both players start in saddle at 80-100% intensity. Top player works to maintain position and finish submissions while bottom player uses full range of defensive options including sweep attempts. Focus on developing instinctive sweep recognition during active attacking sequences."
+      }
+    ]
   }
 }

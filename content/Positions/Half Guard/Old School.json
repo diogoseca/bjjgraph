@@ -297,31 +297,35 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 28
+        "attempt_probability": 33
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Lockdown Break and Pass",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Darce from Lockdown Counter",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Crossface from Old School",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Defend Old School Sweep",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Old School Pass",
+        "attempt_probability": 1
       }
     ]
   },
@@ -586,31 +590,35 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 41
+        "attempt_probability": 46
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Dogfight Position",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Old School Sweep from Bottom",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Old School to Half Guard",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Old School Position Sweep",
+        "attempt_probability": 1
       }
     ]
   }

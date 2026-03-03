@@ -78,7 +78,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "counter"
     }
@@ -96,11 +96,8 @@
     "Knee on Belly"
   ],
   "related_submissions": [
-    "Ezekiel Choke",
     "Arm Triangle",
     "Cross Collar Choke",
-    "Rear Naked Choke",
-    "Guillotine Choke",
     "Breadcutter Choke",
     "Baseball Bat Choke",
     "Americana from Mount",
@@ -108,8 +105,9 @@
     "Americana from Side Control",
     "Armbar from Side Control",
     "Brabo Choke",
-    "Darce Choke",
-    "Americana"
+    "Americana",
+    "Armbar from High Mount",
+    "Cross Collar Choke from High Mount"
   ],
   "related_content": [
     {
@@ -129,10 +127,6 @@
       "relationship": "Advanced mount variation allowing armbar transitions when Ezekiel is defended"
     },
     {
-      "name": "Ezekiel Choke",
-      "relationship": "Parent technique with variations including reverse Ezekiel and no-gi adaptations"
-    },
-    {
       "name": "Armbar from Mount",
       "relationship": "Primary combination attack when opponent defends Ezekiel by grabbing your arm"
     },
@@ -149,16 +143,20 @@
       "relationship": "Related choke from top positions using similar bilateral pressure concepts"
     },
     {
-      "name": "Rear Naked Choke",
-      "relationship": "Similar bilateral carotid compression mechanics from different position"
-    },
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Alternative neck submission using different grip configuration"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Common position reached when defender successfully counters the Ezekiel attempt"
+    },
+    {
+      "name": "Modified Mount",
+      "relationship": "Mount variation providing enhanced base stability during Ezekiel setup"
+    },
+    {
+      "name": "Armbar from High Mount",
+      "relationship": "High-percentage alternative submission from the same elevated mount platform"
+    },
+    {
+      "name": "Cross Collar Choke from High Mount",
+      "relationship": "Complementary gi choke creating submission dilemma alongside Ezekiel threat"
     }
   ],
   "attacker": {
@@ -244,7 +242,7 @@
         "counter": "Bridging explosively to create space or escape mount",
         "effectiveness": "Medium",
         "your_response": "Keep your weight distributed forward with head over their head to minimize bridge effectiveness. Widen your base momentarily to absorb the bridge, then immediately return to tight mount. Post your free hand if necessary for balance while maintaining the sleeve grip for the choke.",
-        "targets_outcome": "Half Guard"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Grabbing and controlling the choking arm with both hands",
@@ -412,7 +410,7 @@
       {
         "action": "Bridge explosively toward the side of the threading arm while simultaneously hip escaping to create angle and space",
         "when_to_use": "When the arm has been threaded but the pulling hand has not yet been secured behind your head - you still have a brief window to disrupt the structure",
-        "targets_outcome": "Half Guard",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "The bridge disrupts the attacker's base and the hip escape creates enough angle to recover half guard or prevent the bilateral compression needed for the choke",
         "risk": "If the bridge fails or is mistimed, the attacker may advance to high mount where the Ezekiel becomes even tighter"
       },
@@ -442,7 +440,7 @@
         "how": "Disrupt the sleeve grip or arm threading early through active hand fighting on the bicep, forcing the attacker to abandon the choke and return to basic mount control without submission threat"
       },
       {
-        "outcome": "Half Guard",
+        "outcome": "Half Guard/Top",
         "how": "Time an explosive bridge during the threading phase combined with hip escape to insert your knee and recover half guard, escaping the mount entirely while the attacker's hands are committed to the choke"
       }
     ],

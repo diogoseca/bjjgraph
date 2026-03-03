@@ -1,42 +1,411 @@
 {
   "name": "Kimura from Diamond Guard",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "submission-entry", "diamond-guard", "kimura", "bottom-player"],
+  "description": "Master the Kimura from Diamond Guard in BJJ. Convert overhook control into a powerful Kimura grip attack for sweeps and submission entries from closed guard.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission-entry",
+    "diamond-guard",
+    "kimura",
+    "bottom-player",
+    "closed-guard-variation",
+    "sweep"
+  ],
   "from_position": "Diamond Guard/Bottom",
   "outcomes": [
-    {"to": "Kimura Trap/Top", "probability": 45, "result": "success"},
-    {"to": "Diamond Guard/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Closed Guard/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Kimura Trap/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Diamond Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Kimura from Diamond Guard exploits the unique grip architecture of the diamond frame to transition from overhook-based control into a powerful Kimura figure-four attack. The bottom player already possesses one of the most critical prerequisites for a Kimura: a deep overhook controlling the opponent's arm across their body. By releasing head control and securing the opponent's wrist with the freed hand, the bottom player converts the existing overhook into a figure-four shoulder lock configuration without ever losing arm control during the transition.\n\nThis technique functions primarily as a positional control tool and sweep mechanism rather than an immediate submission finish from bottom. The broken posture established by the diamond frame combined with the Kimura grip creates a powerful lever for hip bump-style sweeps that displace the opponent's base. The opponent, already compromised by the diamond frame's posture break, finds it exceptionally difficult to resist the combined forces of the Kimura pull and hip drive, typically resulting in the attacker achieving Kimura Trap top position.\n\nThe Kimura from Diamond Guard occupies a critical junction in the diamond guard attacking system. When opponents defend triangle entries by keeping elbows tight and resist omoplata entries by controlling their posture angle, the Kimura attack specifically punishes these defensive postures by targeting the arm already trapped in the overhook. This creates a complete three-way offensive cycle where every defensive choice within diamond guard opens a different attack pathway, embodying the dilemma-based approach central to effective closed guard play.",
+  "conditions": [
+    "Deep overhook established past the opponent's tricep with elbow pulled tight to ribs",
+    "Opponent's posture is broken with head below shoulder line from diamond frame pressure",
+    "Closed guard ankles remain locked with active heel pressure into opponent's lower back",
+    "Opponent's free arm is occupied with grip fighting or posting rather than controlling your hips"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "No-Gi Wrist Control Variation",
+      "description": "In no-gi, the wrist control during transition uses a C-grip or monkey grip on the opponent's wrist rather than sleeve grips. The overhook tends to be shallower without gi friction, so the bottom player compensates by clamping the overhook arm tighter using the bicep and forearm as a vise. The figure-four locks on bare skin with wrist-to-wrist grip.",
+      "when_to_use": "No-gi grappling or when opponent has short sleeves that prevent reliable sleeve gripping"
+    },
+    {
+      "variant_name": "Immediate Finish Attempt",
+      "description": "Rather than sweeping to top, the bottom player secures the Kimura grip and immediately attacks the shoulder joint by pulling the opponent's wrist toward the ceiling while pinching elbows together. This is lower percentage from bottom but can catch opponents who freeze after the grip locks. Works best when the opponent's arm is already extended and their posture is deeply compromised.",
+      "when_to_use": "When the opponent's arm is fully extended and they are not defending actively, or when element of surprise is available"
+    },
+    {
+      "variant_name": "Sweep-Priority Hip Bump",
+      "description": "Prioritizes the sweeping motion over the submission grip by initiating the hip bump immediately as the Kimura grip is secured, before the opponent has time to brace. The bottom player plants their foot and bridges explosively into the opponent while the grip is still being tightened, using momentum rather than settled control to achieve the sweep.",
+      "when_to_use": "Against opponents who react quickly to Kimura grips and would successfully defend if given time to establish defensive posture"
+    }
+  ],
+  "position_integration": "The Kimura from Diamond Guard integrates into the broader diamond guard offensive system as the third major attack option alongside triangle and omoplata entries. It specifically punishes opponents who defend the triangle by keeping their elbows tight and who resist the omoplata by maintaining forward posture — the exact defensive postures that expose the trapped arm to Kimura attack. This creates a complete three-way dilemma system within diamond guard that forces opponents into progressively worse positions regardless of their defensive choices. The technique also connects diamond guard to the Kimura Trap system, opening an entirely new chain of sweeps, back takes, and submissions available from the Kimura grip once top position is achieved.",
+  "related_content": [
+    {
+      "name": "Diamond Guard",
+      "relationship": "Source position — the diamond frame's overhook provides the foundation for the Kimura grip transition"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Primary success destination — achieving Kimura Trap Top opens systematic finishing and positional chains"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Fallback position when diamond controls are broken during Kimura attempt"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Shares identical hip mechanics — the sweeping motion for the Kimura from diamond uses the same hip drive pattern"
+    },
+    {
+      "name": "Kimura from Half Guard",
+      "relationship": "Related Kimura entry from a different guard position using similar figure-four grip mechanics"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Alternative attack from diamond guard that creates the dilemma system with the Kimura"
+    },
+    {
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Third option in the diamond guard attack triangle complementing Kimura and triangle threats"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Shares the overhook control mechanism that serves as foundation for the Kimura grip"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Alternative shoulder attack destination if Kimura grip transition converts to omoplata rotation"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative top position reachable via hip bump when Kimura grip is not fully secured during sweep"
+    }
+  ],
   "attacker": {
     "name": "Kimura from Diamond Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Diamond Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Execute the Kimura from Diamond Guard as the bottom player. Step-by-step guide to converting overhook control into Kimura grip for sweeps and submissions from closed guard.",
+    "overview": "The Kimura from Diamond Guard Attacker converts the established overhook control of the diamond frame into a Kimura figure-four grip, using the broken posture and trapped arm as a foundation for a powerful sweep-to-submission sequence. The attack capitalizes on the opponent's compromised structure within diamond guard, where their arm is already controlled and their posture is broken, making the transition to Kimura grip a natural evolution of the existing control. Success requires precise timing during the grip switch from head control to wrist control, maintaining the overhook throughout to prevent the opponent from recovering posture during the brief transition window. The attacker must coordinate hip movement with grip establishment to generate the sweeping force needed to arrive in Kimura Trap top position.",
+    "key_principles": [
+      "Never release the overhook during the entire grip transition — it is your constant anchor that prevents arm escape",
+      "The head control release is the moment of highest vulnerability — minimize the transition window by having a direct path to the wrist",
+      "Sweep first, submit second — attempting to finish the Kimura from bottom against a defending opponent is low percentage",
+      "The Kimura grip amplifies the sweeping power of a hip bump by eliminating the opponent's ability to post their trapped arm",
+      "Maintain closed guard until the Kimura grip is fully locked to prevent the opponent from creating distance during transition",
+      "Use the angle created by hip escape to load sweeping power — a flat back generates no sweep momentum"
+    ],
+    "setup_requirements": [
+      "Deep overhook established past the opponent's tricep with your elbow pulled tight against your ribs to prevent arm extraction",
+      "Opponent's posture broken by the diamond frame with their head pulled below their shoulder line toward your chest",
+      "Closed guard actively maintained with ankles locked and heels pulling into opponent's lower back for posture reinforcement",
+      "Opponent's free arm occupied with grip fighting, posting, or defending rather than controlling your hips or establishing crossface",
+      "Sufficient space between your head control hand and the opponent's trapped wrist for a direct grip transition path"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify Diamond Frame Integrity",
+        "description": "Confirm your overhook is deep past the opponent's tricep with your elbow pulled tight to your ribs, and your head control is actively pulling their forehead toward your chest. Your closed guard ankles must be locked with heels actively pulling into their lower back. All diamond controls must be fully established before initiating the grip transition — a shallow overhook will fail during conversion."
+      },
+      {
+        "step_number": 2,
+        "action": "Release Head Control to Target Wrist",
+        "description": "Release your head control grip from behind the opponent's neck and immediately reach for their wrist on the overhook side. Your hand travels directly from their neck down along their trapped arm to grip their wrist with a thumb-in grip. This transition must be explosive because releasing head control temporarily weakens the diamond frame and creates a narrow posture recovery window for the opponent."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure Wrist Grip on Trapped Arm",
+        "description": "Grip the opponent's wrist firmly using the hand that was controlling their head, establishing a strong thumb-in or monkey grip. Pull their wrist toward your hip on the overhook side while maintaining the deep overhook with your other arm. The wrist grip combined with the maintained overhook now forms the preliminary Kimura control structure that prevents arm escape."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread Figure-Four Configuration",
+        "description": "Slide your overhook arm deeper under the opponent's tricep until your hand can reach and grip your own wrist on the wrist-controlling hand. Lock the figure-four by gripping your own wrist firmly, creating the classic Kimura configuration with your forearm positioned perpendicular to their upper arm near the elbow joint. This deep placement maximizes both control and finishing leverage."
+      },
+      {
+        "step_number": 5,
+        "action": "Create Angle with Hip Escape",
+        "description": "With the Kimura grip locked, open your guard and hip escape slightly toward the overhook side, shifting your hips approximately thirty degrees off-center. Plant your outside foot flat on the mat and position your body at an angle relative to the opponent. This angle is essential for generating sweeping power and prevents the opponent from simply driving forward to flatten you against the mat."
+      },
+      {
+        "step_number": 6,
+        "action": "Load Hips for Sweep",
+        "description": "From the angled position with your outside foot planted, begin loading your hips for the sweep by engaging your glutes and core. Simultaneously pull the opponent's trapped arm behind their back using the Kimura grip, forcing their shoulder into external rotation. The combination of your loaded hip position and the arm manipulation creates converging forces that compromise the opponent's base from two directions."
+      },
+      {
+        "step_number": 7,
+        "action": "Execute Hip Bump Sweep",
+        "description": "Drive explosively through your planted foot and bridge your hips into the opponent while rotating the Kimura grip to force their trapped shoulder toward the mat. The opponent cannot post with their controlled arm, and their already broken posture from the diamond frame prevents effective base recovery with their free hand. Follow their momentum as they topple to the side, keeping your chest connected to their torso throughout the sweep."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate Kimura Trap Top Position",
+        "description": "As you arrive on top, immediately establish heavy chest pressure on the opponent's torso while keeping the Kimura grip locked deep near their elbow. Walk your feet in an arc toward their head to create the optimal finishing angle for the Kimura submission. Ensure your weight distribution pins their far shoulder to the mat, preventing them from rolling, while your sprawled base provides stability and mobility for the finishing sequence."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tucks elbow tight against ribs to deny figure-four grip depth",
+        "effectiveness": "High",
+        "your_response": "Maintain wrist control and use your overhook arm to pry the elbow away from their body through progressive leverage. If the elbow remains locked, switch to an omoplata entry by shooting your leg over the tucked arm — the tight elbow actually assists the omoplata rotation.",
+        "targets_outcome": "Diamond Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs own belt, pants, or lapel to prevent arm rotation behind their back",
+        "effectiveness": "High",
+        "your_response": "Do not attempt to muscle through the defensive grip. Instead, use your free leg to kick their gripping hand free by threading your foot between their arm and body, or transition to the hip bump sweep using the existing grip pressure — their defensive hand commitment removes their ability to post against the sweep.",
+        "targets_outcome": "Diamond Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives hips forward and postures explosively during head control release window",
+        "effectiveness": "Medium",
+        "your_response": "If you already have the wrist, use their forward drive momentum to accelerate the hip bump sweep — their posture recovery attempt moves their center of gravity forward over your hips. If you have not yet secured the wrist, re-establish head control and return to diamond guard to reset the sequence.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent straightens trapped arm to prevent figure-four lock from closing",
+        "effectiveness": "Medium",
+        "your_response": "A straightened arm from inside your overhook creates a long lever arm that is actually easier to manipulate. Use the extended arm to initiate a straight armbar by shooting your hips up and throwing your leg over their head, or bend the arm by driving your overhook elbow downward while pulling the wrist upward with your grip hand.",
+        "targets_outcome": "Diamond Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the overhook before the wrist-controlling hand has secured a firm grip on the opponent's wrist",
+        "consequence": "The opponent's arm is momentarily free from both controls, allowing them to retract the arm to safety, recover posture, and escape the diamond frame entirely",
+        "correction": "Always maintain the overhook as a constant anchor throughout the transition. Only begin threading the figure-four after the wrist grip is locked — the overhook stays until the figure-four replaces it as the primary arm control"
+      },
+      {
+        "error": "Locking the Kimura grip shallow near the opponent's wrist rather than deep near the elbow",
+        "consequence": "Shallow grip provides weak control and minimal leverage for both the sweep and submission, allowing the opponent to straighten their arm and extract it from the figure-four",
+        "correction": "Thread your overhook arm deep under the opponent's tricep until your hand reaches past their elbow before gripping your own wrist. The figure-four should sit snug against the proximal end of the forearm for maximum mechanical advantage"
+      },
+      {
+        "error": "Opening guard before the Kimura figure-four grip is fully locked and secured",
+        "consequence": "Opening guard without the Kimura locked creates separation that the opponent exploits to recover posture, stand up, or begin guard passing sequences while your only remaining control is a partial grip",
+        "correction": "Keep guard closed throughout the entire grip transition phase. Only open guard after the figure-four is fully locked and you are ready to create the sweeping angle — the closed guard maintains proximity during the vulnerable transition window"
+      },
+      {
+        "error": "Attempting to finish the Kimura submission from bottom without sweeping to top first",
+        "consequence": "Finishing the Kimura from bottom is extremely low percentage against a resisting opponent who can use gravity and base to defend. The wasted effort exhausts the attacker and often results in losing the grip entirely",
+        "correction": "Treat the Kimura grip as a sweeping tool first and a submission second. Use the grip to execute the hip bump sweep to top position, then finish the Kimura from the dominant Kimura Trap Top position where gravity and weight assist the submission"
+      },
+      {
+        "error": "Staying flat on your back while attempting the hip bump sweep instead of creating an angle first",
+        "consequence": "A flat back generates no hip elevation or rotational power for the sweep, allowing the opponent to simply drive their weight down through the flat position and stall the attack",
+        "correction": "Hip escape to create a thirty-degree angle before initiating the sweep. Plant your outside foot firmly and bridge from the angled position, which generates both upward and rotational force that displaces the opponent's base effectively"
+      },
+      {
+        "error": "Losing the Kimura grip during the sweep transition as you come to top position",
+        "consequence": "Arriving on top without the Kimura grip wastes the entire attack sequence and leaves you in a scramble rather than a dominant control position with immediate submission threat",
+        "correction": "Maintain death-grip tension on the figure-four throughout the sweep. Keep your elbows pinched tight to your body during the rotation and consciously squeeze your grip tighter as you transition to top — the sweep is only valuable if you arrive with the Kimura grip intact"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Transition Mechanics",
+        "focus": "Isolating the overhook-to-Kimura grip conversion",
+        "description": "Partner holds diamond guard position statically with no resistance. Practice releasing head control and securing the wrist grip, then threading the figure-four, with focus on speed and maintaining overhook depth throughout. Perform 20 repetitions per side, timing each transition to minimize the window. Target under 2 seconds from head control release to figure-four lock."
+      },
+      {
+        "phase": "Phase 2: Sweep Integration",
+        "focus": "Combining Kimura grip with hip bump sweep mechanics",
+        "description": "With Kimura grip already established, practice the angle creation, foot plant, and hip bump sweep in isolation. Partner provides 30% resistance to develop timing and force direction. Focus on coordinating the Kimura pull with hip drive so forces converge simultaneously. 15 repetitions per side with progressive resistance up to 60%."
+      },
+      {
+        "phase": "Phase 3: Full Sequence with Resistance",
+        "focus": "Complete transition from diamond guard through sweep to Kimura Trap top",
+        "description": "Execute the full sequence from diamond guard entry through Kimura grip transition through sweep to top consolidation. Partner defends at 50-70% intensity, forcing the attacker to solve real-time defensive reactions. Practice flowing to alternative attacks when Kimura is defended. 3-minute rounds with reset after each successful sweep or defense."
+      },
+      {
+        "phase": "Phase 4: Live Integration and Chain Attacks",
+        "focus": "Incorporating the Kimura from Diamond Guard into live rolling and attack chains",
+        "description": "During positional sparring starting from closed guard, work to establish diamond guard and threaten the full triangle-omoplata-Kimura chain. Partner defends at full resistance. Focus on reading which defensive reaction the opponent gives and selecting the correct attack from the three-way dilemma system. Track success rate across rounds to identify weaknesses in the chain."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal moment to release head control and initiate the Kimura grip transition?",
+        "answer": "The optimal moment is when the opponent's posture is maximally broken with their head at chest level and their trapped arm is extended forward or across your body from the overhook. Their free hand should be occupied with grip fighting, posting on the mat, or defending another threat rather than available to assist arm recovery. Initiating during a moment of defensive distraction — such as immediately after they fail to strip the overhook — provides the safest transition window."
+      },
+      {
+        "question": "How does the existing overhook facilitate the Kimura grip establishment compared to starting from scratch?",
+        "answer": "The overhook provides continuous arm control throughout the grip transition, eliminating the most difficult aspect of Kimura attacks — initially isolating and controlling the opponent's arm. Without the overhook, you must simultaneously break grips, control the arm, and thread the figure-four against active resistance. The diamond guard overhook has already accomplished arm isolation, so you only need to add the wrist control and convert the overhook into the second half of the figure-four, making the transition significantly faster and higher percentage."
+      },
+      {
+        "question": "What hip movement generates the sweeping power during the Kimura from Diamond Guard?",
+        "answer": "The sweep uses a hip bump motion where the attacker plants their outside foot flat on the mat after creating a thirty-degree angle via hip escape. The explosive bridge drives through the planted foot, elevating the hips into the opponent while the Kimura grip simultaneously pulls their arm behind their back. The combination of upward hip drive and rotational Kimura pull creates converging forces that topple the opponent over the controlled arm side. The angle is critical — bridging from a flat position generates insufficient rotational force."
+      },
+      {
+        "question": "Your opponent straightens their trapped arm to resist the figure-four lock — how do you adjust?",
+        "answer": "A straightened arm inside your overhook creates a long lever that can be exploited rather than fought. You have two high-percentage options: first, use the extended arm as a fulcrum for a straight armbar by shooting your hips up and throwing your leg over their head while controlling the wrist; second, bend the arm by driving your overhook elbow downward toward the mat while pulling their wrist upward with your gripping hand, using opposing forces to fold the arm back into the figure-four configuration. Never try to muscle a straight arm into a bent position against resistance."
+      },
+      {
+        "question": "What grip configuration provides maximum control during the figure-four transition?",
+        "answer": "The optimal configuration has your wrist-controlling hand using a thumb-in grip on the opponent's wrist for rotational control, while your overhook arm threads deep under their tricep with your hand gripping your own wrist in a same-side configuration. The figure-four should sit near the opponent's elbow rather than mid-forearm or wrist. Your elbows must be pinched tight to your body to prevent the opponent from creating space within the lock. Keeping the grip close to the elbow maximizes both control and the mechanical advantage for both sweeping and finishing."
+      },
+      {
+        "question": "How do you prevent the opponent from posturing up during the grip transition window?",
+        "answer": "The transition window between releasing head control and locking the Kimura grip is your most vulnerable moment. Mitigate it by increasing heel pressure with your closed guard legs immediately before releasing head control — the downward pull from your heels compensates for the lost head control and buys time. Execute the hand transition as a single explosive movement rather than a slow crawl. If the opponent begins posturing before you secure the wrist, abandon the attempt and re-establish head control to restore the diamond frame."
+      },
+      {
+        "question": "Your opponent tucks their elbow tight to resist the Kimura — what chain attack do you threaten?",
+        "answer": "A tucked elbow defending the Kimura creates the setup for an omoplata. The tight elbow position places the opponent's arm in exactly the configuration needed for you to shoot your leg over their shoulder and rotate into omoplata control. Release the Kimura grip attempt and immediately transition to the omoplata entry by opening your guard on the overhook side and swinging your leg over their tucked arm and shoulder. This is the core dilemma of diamond guard — defending the Kimura opens the omoplata, and defending the omoplata opens the triangle."
+      },
+      {
+        "question": "What is the critical direction of force when using the Kimura grip to sweep to top?",
+        "answer": "The force must be applied in two simultaneous vectors: your hips drive upward and toward the opponent through the hip bump bridge, while the Kimura grip pulls the opponent's arm behind their back and toward the mat on the controlled arm side. These converging forces create a rotational torque that tips the opponent over the side where their arm is trapped and cannot post. Applying the Kimura pull without the hip drive results in a stalled submission attempt from bottom, while the hip bump without the Kimura pull allows the opponent to post and resist the sweep."
+      },
+      {
+        "question": "Why must the guard remain closed during the initial grip transition phase?",
+        "answer": "The closed guard serves three critical functions during the transition: it maintains proximity so the opponent cannot create distance and escape the grip transition range, it continues applying downward posture pressure through heel pull to compensate for the temporarily released head control, and it prevents the opponent from standing up or initiating guard passing sequences during the vulnerable transition window. Opening guard before the Kimura grip is locked removes all three safety mechanisms simultaneously, creating unacceptable risk of losing the position entirely."
+      },
+      {
+        "question": "Your opponent defends by grabbing their own belt with their trapped hand — how do you break this defensive grip?",
+        "answer": "Do not engage in a direct grip-breaking battle which wastes energy against a mechanically strong defensive position. Instead, use your free leg to thread between their arm and body, using your foot or knee as a wedge to pry their grip loose. Alternatively, abandon the submission angle temporarily and use the Kimura grip to initiate the hip bump sweep — their hand committed to belt grip cannot post against the sweep, making their defensive choice work against them. The sweep often breaks the belt grip automatically as they scramble to recover base during the topple."
+      }
+    ],
+    "safety_considerations": "The Kimura targets the shoulder joint through rotational force on the glenohumeral joint and can cause serious injury if applied explosively. Apply submission pressure gradually and progressively during drilling, never cranking suddenly. Release immediately upon tap or verbal submission. During the sweeping component, ensure controlled descent to the mat to prevent impact injuries. Practitioners with existing shoulder injuries, instability, or reduced range of motion should communicate limitations to training partners before drilling. When drilling the grip transition, avoid excessive force on the wrist during the control phase. Always warm up shoulders thoroughly before Kimura-focused training sessions."
   },
   "defender": {
     "name": "Kimura from Diamond Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Diamond Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Diamond Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend against the Kimura from Diamond Guard in BJJ. Recognition cues, escape timing, and defensive strategies for the top player caught in a Kimura grip transition from diamond guard.",
+    "overview": "Defending the Kimura from Diamond Guard requires recognizing the transition window when the bottom player releases head control to reach for your wrist, and acting decisively before the figure-four grip is fully locked. This brief moment between head control release and Kimura grip establishment represents both your greatest vulnerability and your best escape opportunity. Once the figure-four is locked, the combined sweeping and submission threat becomes extremely difficult to counter from inside the diamond frame. Effective defense prioritizes immediate arm extraction during the transition window, followed by posture recovery and base establishment if the grip does lock. The defender must understand that the Kimura from diamond guard is primarily a sweep setup, so defending the arm rotation is less important than maintaining base and preventing the hip bump from completing.",
+    "key_principles": [
+      "React immediately to head control release — this is your primary escape window before the Kimura grip locks",
+      "Prioritize arm extraction over posture recovery during the initial transition moment",
+      "If the grip locks, defend the sweep rather than the submission — they will try to sweep first and finish from top",
+      "Widen your base and lower your center of gravity the moment you feel the figure-four configuration forming",
+      "Use your free hand to post and maintain base rather than fighting the grip directly",
+      "Keep your trapped elbow pinched tight to your ribs to deny figure-four depth and reduce both sweep and submission leverage"
+    ],
+    "recognition_cues": [
+      "Bottom player releases their head control grip from behind your neck — their hand moves away from your head toward your trapped arm",
+      "You feel a new grip on your wrist or forearm on the overhook side where previously only the overhook existed",
+      "The bottom player's body shifts and begins creating an angle by hip escaping to one side rather than pulling you straight down",
+      "You feel a figure-four configuration forming under your arm as the overhook hand connects with the wrist-controlling hand",
+      "The bottom player's guard opens slightly as they prepare to plant a foot for the sweeping motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Immediate arm retraction during head control release window",
+        "when_to_use": "The instant you feel head control release from behind your neck — before the wrist grip is established",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Your arm escapes the overhook control, neutralizing the Kimura threat and forcing the bottom player to re-establish diamond guard or fall back to basic closed guard",
+        "risk": "If you fail to extract the arm in time, the wrist grip locks and you are now in a worse position with a partially established Kimura against you"
+      },
+      {
+        "action": "Drive hips forward and recover posture explosively",
+        "when_to_use": "During the head control release window when the diamond frame is temporarily weakened by the loss of one control point",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You break the diamond frame by recovering posture above the bottom player's control range, reducing them to standard closed guard without the enhanced offensive capability",
+        "risk": "If the bottom player secures the wrist during your posture attempt, your forward drive can actually assist their hip bump sweep"
+      },
+      {
+        "action": "Grab own belt, lapel, or opposite wrist to block arm rotation",
+        "when_to_use": "When the Kimura figure-four is locked but the sweep has not yet been initiated — you have seconds to establish the defensive grip",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Your defensive grip prevents the arm from being rotated behind your back, stalling the Kimura threat and forcing the attacker to either break your grip or abandon the Kimura for another attack",
+        "risk": "Your grip-fighting hand is committed to defense and cannot post against the sweep, making you vulnerable to the hip bump if you do not also widen your base"
+      },
+      {
+        "action": "Widen base and post free hand to resist sweep",
+        "when_to_use": "When the bottom player has locked the Kimura grip and begins loading their hips for the sweep — your arm is controlled but you can still defend positionally",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Your wide base and posted hand prevent the hip bump sweep from completing, forcing the attacker to either attempt a low-percentage finish from bottom or release the grip",
+        "risk": "If you post too far to one side, the attacker can redirect the sweep angle or use your posted position to create a different attack such as an omoplata"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Exploit the head control release window by driving your hips forward and recovering upright posture before the Kimura grip locks. Swim your trapped arm free by circling your elbow outward and pulling it to your body while your posture breaks the weakened diamond frame. This escape reduces the position from the dangerous diamond guard to standard closed guard where the offensive threat level is significantly lower."
+      },
+      {
+        "outcome": "Diamond Guard/Bottom",
+        "how": "Prevent the Kimura grip from fully locking by immediately tucking your elbow tight to your ribs and retracting your arm toward your body when you feel the wrist grip being established. Even if you cannot fully extract the arm, denying figure-four depth stalls the attack and forces the bottom player back to the diamond guard position without the Kimura threat, allowing you to work standard diamond guard escapes."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Freezing when head control is released instead of immediately reacting to extract the trapped arm",
+        "consequence": "The brief transition window closes and the Kimura figure-four locks, leaving you defending a fully established grip with both sweep and submission threats active",
+        "correction": "Train the immediate reaction to head control release as a defensive reflex — the instant you feel the hand leave your neck, begin retracting your trapped arm by pulling your elbow tight and circling it toward your body"
+      },
+      {
+        "error": "Fighting the Kimura grip by pulling your arm straight back against the figure-four configuration",
+        "consequence": "Pulling straight back against a locked figure-four is biomechanically disadvantaged and wastes energy. The bottom player can maintain the grip with minimal effort while you exhaust yourself",
+        "correction": "Circle your elbow downward and inward rather than pulling straight back. Use rotational movement to create slack in the figure-four, or redirect your defensive effort to base and sweep prevention which is more effective than grip fighting"
+      },
+      {
+        "error": "Keeping a narrow base when the Kimura grip is established instead of widening stance for sweep defense",
+        "consequence": "A narrow base is easily displaced by the hip bump sweep. The attacker's combined Kimura pull and hip drive easily topples you when your weight is concentrated on a small base area",
+        "correction": "Immediately widen your base by spreading your knees and posting your free hand on the mat when you feel the Kimura grip lock. Lower your center of gravity by driving your hips down toward the mat to become heavier and more difficult to sweep"
+      },
+      {
+        "error": "Attempting to posture up while the Kimura grip is locked without first addressing the arm control",
+        "consequence": "Posturing with a locked Kimura grip often straightens the trapped arm, giving the attacker even more leverage for both the sweep and the submission finish",
+        "correction": "Address the arm control first by either extracting the arm, establishing a defensive grip, or tucking the elbow tight. Only attempt posture recovery after neutralizing or reducing the immediate Kimura threat to prevent creating additional leverage for the attacker"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is transitioning from diamond guard control to a Kimura attack?",
+        "answer": "The earliest cue is the release of head control from behind your neck. In a standard diamond guard, the bottom player maintains both an overhook and head control simultaneously. When the head control hand releases and moves down toward your trapped arm rather than back to your neck, this signals the Kimura grip transition has begun. You have approximately one to two seconds from this release to react before the figure-four locks. Secondary cues include feeling a new grip on your wrist and the bottom player beginning to create an angle by hip escaping."
+      },
+      {
+        "question": "How do you prevent the bottom player from completing the Kimura grip once they release head control?",
+        "answer": "Immediately retract your trapped arm by pulling your elbow tight against your ribs and circling it inward toward your body. Simultaneously drive your hips forward to exploit the temporarily weakened diamond frame from the head control release. Your arm extraction must be fast and decisive — a half-committed pull that fails leaves you in a worse position with a partially locked grip. If you cannot extract the arm, immediately tuck your elbow as tight as possible to deny the figure-four grip depth needed for effective sweep and submission mechanics."
+      },
+      {
+        "question": "Your opponent has secured the Kimura grip from diamond guard — what is your immediate priority?",
+        "answer": "Your immediate priority is defending the sweep rather than fighting the grip or defending the submission. The Kimura from Diamond Guard functions primarily as a sweep mechanism — the attacker will hip bump to top position and finish from Kimura Trap Top where they have gravity and weight assisting the submission. Widen your base immediately, post your free hand, and lower your center of gravity by driving your hips toward the mat. A wide, low base prevents the hip bump from displacing you, which is more important than the arm position in the short term."
+      },
+      {
+        "question": "Why is posture recovery particularly critical when defending the Kimura from Diamond Guard?",
+        "answer": "Broken posture is what makes the Kimura from Diamond Guard effective in the first place. The diamond frame breaks your posture, which sets up the grip transition by positioning your arm within easy reach. Recovering posture during the head control release window simultaneously removes the arm from Kimura range, breaks the diamond frame's control structure, and re-establishes your defensive base. Posture recovery is the only defensive action that addresses all three threat vectors of the diamond guard system — Kimura, triangle, and omoplata — simultaneously."
+      },
+      {
+        "question": "What defensive option provides the best risk-reward balance against the Kimura from Diamond Guard?",
+        "answer": "Immediate arm retraction during the head control release window provides the best risk-reward balance because it addresses the threat at its source before it fully develops. The window is narrow but the reward is complete neutralization of the Kimura attack. If successful, you deny the entire technique chain. If unsuccessful, you are in the same position you would be in regardless — defending a locked Kimura grip. The alternative of posture recovery is also excellent but carries the risk that forward hip drive can be exploited by the attacker for the sweep if they already have the wrist grip. Arm retraction is a lower-risk first option before committing to posture recovery."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying the transition cues from diamond guard to Kimura",
+        "description": "Partner establishes diamond guard and randomly alternates between maintaining standard diamond controls and initiating the Kimura transition. Defender must call out when they detect the Kimura initiation based on head control release and grip changes. Build pattern recognition without physical defense first. 20 repetitions focusing on identification speed."
+      },
+      {
+        "phase": "Phase 2: Escape Window Drilling",
+        "focus": "Arm extraction timing during the transition window",
+        "description": "Partner initiates the Kimura transition at controlled speed. Defender practices immediate arm retraction the instant head control releases. Partner provides 30-50% resistance to develop timing and mechanics. Track success rate of arm extraction before grip locks. 15 repetitions per side with progressive speed increases."
+      },
+      {
+        "phase": "Phase 3: Post-Grip Defense",
+        "focus": "Defending after the Kimura grip is fully established",
+        "description": "Partner locks Kimura grip from diamond guard and attempts the sweep. Defender practices base widening, posting, and defensive grip establishment to prevent the hip bump sweep from completing. Progress from static defense to defending against dynamic sweep attempts at 60-80% intensity. Focus on maintaining base position throughout the sweep attempt."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Integration",
+        "focus": "Full resistance defense within live positional sparring",
+        "description": "Positional sparring starting in diamond guard with attacker attempting any diamond guard attack chain. Defender must identify and defend the Kimura specifically while also handling triangle and omoplata threats. Full resistance with rounds starting from established diamond guard position. Track which defensive option succeeds most often and identify timing patterns."
+      }
+    ]
   }
 }

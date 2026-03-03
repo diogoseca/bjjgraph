@@ -1,42 +1,412 @@
 {
   "name": "Escape from Crab Ride",
-  "description": "Master the Escape from Crab Ride in BJJ. Learn systematic techniques to clear hooks, recover posture, and transition to a dominant position.",
-  "tags": ["bjj", "transition", "escape", "crab-ride", "positional-escape", "defense"],
+  "description": "Master the Escape from Crab Ride in BJJ. Learn systematic techniques to strip hooks, recover guard, and prevent back takes from this critical defensive position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "crab-ride",
+    "positional-escape",
+    "defense",
+    "guard-recovery",
+    "turtle-defense"
+  ],
   "from_position": "Crab Ride/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 40, "result": "success"},
-    {"to": "Crab Ride/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Back Control/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Crab Ride/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Escape from Crab Ride is a critical defensive transition addressing one of modern grappling's most dangerous intermediate positions. When an opponent establishes crab ride, sitting perpendicular to your turtle with a hook controlling your hip and upper body grips limiting movement, you face an urgent positional crisis. Crab ride serves as a launching pad for back takes, crucifix entries, and submission attacks, making immediate escape action essential rather than optional. The position deteriorates rapidly if left unaddressed, as the top player systematically works to insert a second hook and consolidate full back control.\n\nThe escape methodology centers on three sequential priorities: first, prevent advancement to full back control by blocking the second hook and managing upper body grips; second, strip the existing hook through coordinated hip movement and hand fighting; third, create enough separation to recover guard or establish a neutral position. The technical challenge lies in executing these steps while the opponent applies constant forward pressure and threatens multiple attack vectors simultaneously. Each priority must be addressed in order, as skipping steps typically results in positional degradation rather than improvement.\n\nStrategically, this escape functions as a race condition. The bottom player must disrupt the crab ride control structure faster than the top player can consolidate it. Timing is paramount because the highest percentage escape windows occur during grip transitions, weight shifts, and moments when the top player commits to advancing position. Practitioners who wait passively find the position deteriorating rapidly toward full back control, while those who act with technical precision during transitional moments achieve guard recovery at significantly higher rates. The escape integrates hip movement, frame creation, and directional changes to systematically dismantle the crab ride control structure.",
+  "conditions": [
+    "Opponent has established crab ride with at least one hook under your hip from a perpendicular angle",
+    "You are in turtle or quadruped position with opponent controlling from the side",
+    "Opponent has upper body control through grips on your collar, shoulder, or belt area",
+    "Your base is partially compromised but you maintain at least hands-and-knees position",
+    "You can identify which side the opponent's hook is inserted and their grip configuration"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll Escape",
+      "description": "An inversion-based escape where the bottom player rolls through underneath the opponent's control, using shoulder rotation and hip momentum to create separation and recover guard. The roll disrupts the perpendicular alignment that gives crab ride its control effectiveness and lands the escaper facing their opponent.",
+      "when_to_use": "When opponent's weight is shifted forward and their chest pressure is high on your shoulders, creating the space and momentum needed for the inversion. Most effective when opponent reaches for the second hook."
+    },
+    {
+      "variant_name": "Sit-Out Escape",
+      "description": "A wrestling-based escape where the bottom player explosively sits through toward the hooked side, using the hip switch to clear the hook and create a scramble situation. The sit-out redirects momentum perpendicular to the opponent's control direction, exploiting the one-sided nature of crab ride.",
+      "when_to_use": "When opponent has loose upper body control and you can free your near arm for the sit-out motion. Particularly effective against opponents who rely primarily on the hook rather than chest pressure for control."
+    },
+    {
+      "variant_name": "Peterson Roll Escape",
+      "description": "A wrestling reversal technique where the bottom player reaches across to control the opponent's far wrist, then rolls over the near shoulder to reverse position. This technique uses the opponent's committed weight against them, converting their forward pressure into rotational momentum.",
+      "when_to_use": "When opponent extends their far arm for grips or posts, creating the opening to secure wrist control. Best used when opponent's weight is committed forward and their base leg is elevated or poorly positioned."
+    }
+  ],
+  "position_integration": "The Escape from Crab Ride occupies a critical defensive node in the BJJ positional hierarchy, sitting between turtle defense and back control prevention. This escape connects directly to the broader turtle defense system, where practitioners must address multiple attack positions including crab ride, cross body ride, and direct back takes. Successful execution feeds into guard recovery pathways, particularly half guard and butterfly guard, while failure channels into the back control escape chain. Understanding this escape is essential for any practitioner who encounters crab ride during scrambles and guard passing sequences, as it represents the last reliable intervention point before full back control is established.",
+  "related_content": [
+    {
+      "name": "Crab Ride",
+      "relationship": "Starting position from which this escape is executed"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position threatened if escape fails and opponent advances"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary successful escape destination for guard recovery"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Parent defensive position where crab ride is typically established"
+    },
+    {
+      "name": "Crab Ride Escape to Guard",
+      "relationship": "Related guard recovery transition from the same starting position"
+    },
+    {
+      "name": "Peterson Roll",
+      "relationship": "Wrestling-based reversal technique applicable from crab ride bottom"
+    },
+    {
+      "name": "Sit Through Escape",
+      "relationship": "Alternative escape technique using wrestling sit-out mechanics"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Inversion-based escape alternative for guard recovery"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Fundamental escape movement used as component of this technique"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Related escape methodology used if position degrades to full back control"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative threat position the opponent may transition to from crab ride"
+    }
+  ],
   "attacker": {
     "name": "Escape from Crab Ride Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Crab Ride/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the Escape from Crab Ride in BJJ. Step-by-step guide covering hook stripping, hip movement, guard recovery, and defensive positioning against crab ride control.",
+    "overview": "Executing the Escape from Crab Ride requires a systematic approach that addresses the three layers of control the top player maintains: the hook under your hip, the upper body grips, and the chest-to-back pressure. As the escaper, your primary objective is to strip the hook and recover guard before the opponent can insert a second hook and consolidate full back control. The escape demands coordinated movement between your upper and lower body, combining frame creation and grip fighting with explosive hip displacement. Understanding the mechanical vulnerabilities of crab ride, particularly its reliance on a single hook and perpendicular alignment, allows you to exploit specific windows where the control structure is weakest. Successful execution typically results in half guard recovery, though well-timed attempts can yield more favorable positions including butterfly guard or even scramble opportunities.",
+    "key_principles": [
+      "Address the hook first because it is the primary anchor preventing your escape and enabling all other control",
+      "Create directional hip movement away from the hooked side to generate separation and reduce hook depth",
+      "Maintain defensive posture throughout the escape with chin tucked and elbows tight to prevent submission openings",
+      "Time escape attempts with opponent's grip transitions and weight shifts when their control is momentarily compromised",
+      "Combine upper body frame creation with lower body hook stripping for coordinated multi-point escape",
+      "Commit fully to each escape attempt with explosive movement rather than making tentative half-efforts that waste energy"
+    ],
+    "setup_requirements": [
+      "Identify the location and depth of opponent's hook under your hip to determine escape direction",
+      "Establish defensive chin tuck and neck protection against choke threats before initiating escape",
+      "Maintain base on at least three points with two hands and one knee minimum for structural stability",
+      "Determine opponent's grip configuration on your upper body to select appropriate escape sequence",
+      "Create initial defensive frames with elbows and forearms against opponent's chest and arms"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Defensive Posture",
+        "description": "Immediately tuck your chin and bring your elbows tight to your body to prevent choke entries and arm isolation. Ensure your weight is distributed through your hands and knees with a solid base. This defensive foundation must be established before any escape movement begins, as rushing the escape without defensive posture exposes you to submissions during the transition."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify Hook Position and Grip Configuration",
+        "description": "Quickly assess which side the opponent's hook is inserted and what grips they have on your upper body. Feel the depth of the hook under your hip and identify whether they are controlling your far side collar, underhooking, or using a seatbelt grip. This assessment determines which escape variant to use and which direction your hip movement should travel."
+      },
+      {
+        "step_number": 3,
+        "action": "Control Opponent's Upper Body Grips",
+        "description": "Use your hands to address the opponent's most threatening upper body grip. If they have a collar grip, strip it by peeling their fingers with both hands. If they have an underhook, overhook their arm and clamp it to your body. Managing the upper body grips prevents the opponent from using them to follow your hip movement and reduces their ability to advance to back control."
+      },
+      {
+        "step_number": 4,
+        "action": "Create Hip Separation",
+        "description": "Drive your hips explosively away from the hooked side using a strong shrimp or hip escape motion. The direction of movement should angle your hips away from the hook while simultaneously reducing the hook's depth. Your far knee drives into the mat as an anchor point while your near hip lifts and moves. This hip displacement is the primary mechanical action that breaks the hook's control."
+      },
+      {
+        "step_number": 5,
+        "action": "Strip the Hook",
+        "description": "As your hip movement reduces the hook's depth, use your same-side hand to cup the opponent's ankle or heel from the inside and push it away from your body toward the mat. Time this hand action with your continuing hip escape to combine two forces acting on the hook simultaneously. If the hook does not release immediately, repeat the hip escape motion rather than fighting the hook statically with arm strength alone."
+      },
+      {
+        "step_number": 6,
+        "action": "Block Second Hook Insertion",
+        "description": "As you strip the first hook, the opponent will urgently attempt to establish the second hook or reinsert the original. Use your far leg actively to kick and block any incoming hook attempts. Keep your knees pinched together on the exposed side to deny entry points. This defensive action must happen simultaneously with the hook strip to prevent the opponent from simply switching hooks."
+      },
+      {
+        "step_number": 7,
+        "action": "Create Separation and Turn",
+        "description": "With the hook cleared, immediately drive your hips further away and begin turning to face the opponent. Use frames on their shoulder and hip to maintain the separation you created. Your goal is to get your hips past the point where they can reestablish the perpendicular crab ride alignment. Turn toward the opponent rather than away to prevent them from taking your back during the rotation."
+      },
+      {
+        "step_number": 8,
+        "action": "Recover Guard Position",
+        "description": "Complete the turn by inserting your near knee between your body and the opponent to establish half guard. Lock the half guard immediately by triangling your legs around their trapped leg. From this recovered guard position, work to establish frames, create distance, and begin playing your guard game. If half guard is not available, recover to butterfly guard by inserting both hooks under the opponent's thighs as you face them."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent deepens hook and increases chest pressure to prevent hip separation",
+        "effectiveness": "High",
+        "your_response": "Switch to Granby roll escape using the opponent's forward pressure as momentum for the inversion, or change direction and attempt a sit-out toward the hooked side",
+        "targets_outcome": "Crab Ride/Bottom"
+      },
+      {
+        "counter": "Opponent follows hip movement and inserts second hook during escape attempt",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to back control escape protocol with chin defense and two-on-one grip fighting, treating it as a new positional problem rather than continuing the crab ride escape",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent releases hook voluntarily and transitions to crossface sprawl to re-flatten",
+        "effectiveness": "Medium",
+        "your_response": "Capitalize on the momentary absence of the hook by immediately recovering guard before they can re-establish any hook control, using the freed hip to create maximum distance",
+        "targets_outcome": "Crab Ride/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to crucifix by trapping your near arm during escape movement",
+        "effectiveness": "Medium",
+        "your_response": "Keep elbows tight throughout the escape and avoid reaching back with your near arm, which creates the opening for crucifix entry. If arm is trapped, immediately work arm recovery before continuing escape",
+        "targets_outcome": "Crab Ride/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching back with both hands to fight the hook while neglecting neck defense",
+        "consequence": "Opponent secures rear naked choke or collar choke as your neck is completely exposed during the hook fighting sequence",
+        "correction": "Always maintain chin tuck and address upper body grips before fighting the hook. One hand manages their choking threat while the other addresses the hook."
+      },
+      {
+        "error": "Attempting to escape by moving away from the opponent rather than toward them",
+        "consequence": "Creates the exact angle the opponent needs to complete the back take, as moving away exposes your back further and allows easy hook insertion",
+        "correction": "Escape direction should ultimately turn you to face the opponent. Hip escape creates lateral separation, but the final movement must turn you toward them to deny back exposure."
+      },
+      {
+        "error": "Making tentative or half-committed escape attempts without full explosive effort",
+        "consequence": "Fails to generate enough separation to clear the hook while wasting energy, and alerts the opponent to your escape direction so they can prepare counters",
+        "correction": "Commit fully to each escape attempt with maximum explosive effort. Better to make three fully committed attempts with recovery between than ten weak efforts that accomplish nothing."
+      },
+      {
+        "error": "Staying flat on hands and knees without generating any hip movement or direction change",
+        "consequence": "Allows opponent unlimited time to consolidate control, work grip sequences, and systematically advance to full back control without any disruption",
+        "correction": "Begin addressing the position immediately upon recognizing crab ride. Even small hip shifts and frame adjustments disrupt the opponent's offensive sequencing and create escape windows."
+      },
+      {
+        "error": "Fighting the hook with arm strength alone without coordinating hip escape movement",
+        "consequence": "Hook remains anchored because the opponent's leg is stronger than your arm, and the static fighting drains energy rapidly while accomplishing nothing",
+        "correction": "Always combine hip escape movement with hand-assisted hook removal. The hip displacement reduces hook depth first, then the hand assists in clearing the now-shallow hook."
+      },
+      {
+        "error": "Failing to block the second hook after successfully stripping the first",
+        "consequence": "Opponent immediately reinserts a hook on the opposite side, often achieving an even deeper position than before your escape attempt",
+        "correction": "Treat the second hook block as an integral part of the hook strip sequence. As one hand clears the hook, your legs must immediately close the entry points for replacement hooks."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Hook identification and hip escape coordination",
+        "description": "Partner establishes crab ride at zero resistance. Practice identifying hook position, establishing defensive posture, and coordinating hip escape with hand-assisted hook removal. Repeat each escape direction 20 times per side with no resistance to build movement patterns."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Recognizing escape windows during opponent movement",
+        "description": "Partner maintains crab ride with light resistance and periodically shifts grips or weight as they would when advancing position. Practice identifying these transitional moments and timing escape attempts to coincide with grip changes, weight shifts, and hook adjustments."
+      },
+      {
+        "phase": "Phase 3: Integration",
+        "focus": "Chaining escape variants based on opponent response",
+        "description": "Partner provides moderate resistance and actively counters initial escape attempts. Practice switching between escape variants when the primary attempt is stuffed. If hip escape is blocked, transition to Granby roll. If Granby is countered, attempt sit-out. Build fluid transitions between escape options."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Positional sparring under full resistance",
+        "description": "Start from crab ride bottom against fully resisting partner. Three-minute rounds where bottom player works exclusively on escape while top player works for back control or submission. Track escape success rate and identify which variants work best against different body types and styles."
+      },
+      {
+        "phase": "Phase 5: Contextual Drilling",
+        "focus": "Entering and escaping crab ride within broader rolling context",
+        "description": "Begin from turtle with partner working to establish crab ride. Practice both prevention of crab ride establishment and escape once it is established. Develop awareness of the transition from general turtle defense into crab ride-specific escape protocol."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority when you recognize your opponent has established crab ride?",
+        "answer": "The first priority is establishing defensive posture by tucking your chin, tightening your elbows, and protecting your neck from choke threats. Before any escape movement begins, you must ensure that your neck is safe and your base is solid on at least three points. Rushing into escape attempts without this defensive foundation exposes you to submissions during the transition."
+      },
+      {
+        "question": "Why should you combine hip escape movement with hand-assisted hook stripping rather than using arms alone?",
+        "answer": "The opponent's hooking leg is significantly stronger than your arm in a static pulling contest. Hip escape movement reduces the hook's depth by moving your hip away from the foot, decreasing the leverage the hook has on your body. Once the hook is shallow from hip displacement, a hand assist easily clears it. Without hip movement, you fight the full strength of their leg hook with just your arm, which drains energy and rarely succeeds against a committed opponent."
+      },
+      {
+        "question": "Your opponent deepens their hook and increases chest pressure when you attempt to shrimp away - how do you adjust?",
+        "answer": "When the opponent commits forward pressure and deepens the hook in response to your shrimp, switch to a Granby roll escape. Their forward weight commitment actually helps the inversion by providing momentum, and their deep hook means their base is compromised on the far side. The key is recognizing that their counter to one escape variant creates the opening for a different variant. Alternatively, a sit-out toward the hooked side can exploit their forward commitment."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the hook stripping phase?",
+        "answer": "The hand must cup the opponent's ankle or heel from the inside, pushing it toward the mat and away from your hip crease in the same direction your hip is escaping. Grabbing from the outside or pulling upward fights against the hook's natural mechanics. The inside grip combined with the outward push follows the path of least resistance for hook removal. This must happen simultaneously with hip escape movement, not as a separate sequential action."
+      },
+      {
+        "question": "Why is blocking the second hook insertion as important as stripping the first?",
+        "answer": "Stripping the first hook without blocking the second is a net-zero exchange that wastes energy. Opponents immediately attempt to reinsert a hook on the now-exposed side, often achieving a deeper position because your escape movement has changed the angle. By keeping your knees pinched and far leg active during and immediately after the hook strip, you deny entry points and maintain the positional improvement you earned from the strip."
+      },
+      {
+        "question": "When is the optimal timing window to attempt the escape from crab ride?",
+        "answer": "The highest percentage windows occur when the opponent adjusts their grips, shifts weight to establish a new control point, or reaches for the second hook. These transitional moments temporarily reduce at least one layer of their three-point control system. The worst time to attempt escape is when the opponent is settled with all three controls active and stable. Developing the tactile sensitivity to feel these grip transitions is what separates successful escapers from those who fight the position continuously with brute force."
+      },
+      {
+        "question": "Your escape attempt fails and you feel the opponent inserting a second hook - what is the immediate protocol?",
+        "answer": "Immediately abandon the crab ride escape and transition to back control defensive protocol. Tuck chin aggressively, establish two-on-one grip control on whichever arm threatens your neck, and begin the back escape sequence of protecting neck first, then addressing hooks and upper body control. Continuing to fight the crab ride escape once the second hook is in wastes time in a now-different and more dangerous position."
+      },
+      {
+        "question": "How should you manage energy expenditure during crab ride escape attempts?",
+        "answer": "Each explosive escape attempt consumes significant energy, so you must be strategic about when you commit. Maintain active defensive posture between attempts while waiting for specific trigger moments. When you commit to an escape, make it fully explosive rather than gradual. If it fails, immediately return to solid defensive posture and recover for three to five seconds before the next attempt. Three fully committed attempts with recovery between yield better results than continuous low-intensity struggling."
+      },
+      {
+        "question": "What direction should your final rotation face when completing the escape?",
+        "answer": "You must turn toward the opponent rather than away from them. Turning away exposes your back further and creates the angle needed for back control reestablishment. Turning toward the opponent allows you to insert your knee for half guard and establish a face-to-face position where their back control mechanics no longer function. The entire escape sequence should culminate in facing your opponent with at least half guard established."
+      },
+      {
+        "question": "What grip should you prioritize controlling on the opponent's upper body before initiating the escape?",
+        "answer": "Prioritize controlling whichever grip threatens your neck most directly. If they have a collar grip or seatbelt configuration, the choking arm must be managed first through two-on-one control or stripping. If they have an underhook, overhook it and clamp it to your body. The upper body grip management prevents the opponent from following your hip movement during the escape and reduces submission threats during the transition."
+      }
+    ],
+    "safety_considerations": "The Escape from Crab Ride involves explosive hip movement and directional changes that can strain the lower back and hip flexors if performed without proper warm-up. When drilling, start at low intensity and build progressively to avoid impact injuries from the hip escape and rolling motions. Partners maintaining crab ride should not crank the hook aggressively, as excessive torque on the hooking leg can injure the bottom player's hip or knee. During Granby roll variants, be cautious of neck positioning to avoid cervical spine compression. Always tap immediately if any choke is applied during escape attempts rather than fighting through a locked submission."
   },
   "defender": {
     "name": "Escape from Crab Ride Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Crab Ride/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Crab Ride/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to counter the Escape from Crab Ride in BJJ. Guide covering hook retention, pressure maintenance, and position advancement when your opponent attempts to escape crab ride.",
+    "overview": "As the defender against the Escape from Crab Ride, your role is the crab ride top player working to maintain control and advance position while your opponent attempts to strip your hook and recover guard. Your objective is twofold: prevent the escape from succeeding by retaining your hook and upper body control, and capitalize on the opponent's escape movements to advance to full back control or other dominant positions. The escape attempt itself creates opportunities because the bottom player must compromise their defensive structure to generate the hip movement needed for the escape. Understanding how to read escape attempts and respond with appropriate counters transforms the opponent's escape effort into your positional advancement. Maintaining heavy chest pressure, following hip movement with hook adjustments, and timing your second hook insertion with the opponent's escape direction are the core skills that determine whether you retain or lose the position.",
+    "key_principles": [
+      "Maintain constant chest-to-back pressure to limit the space available for hip escape movement",
+      "Keep the hook deep and actively engaged under the opponent's hip rather than passively resting",
+      "Follow the opponent's hip movement with your own hip adjustment to maintain perpendicular alignment",
+      "Control the far side of the opponent's body to prevent them from turning to face you during escape",
+      "Time second hook insertion attempts with the opponent's escape movements when their defense is occupied",
+      "Read the direction of escape attempts to anticipate and cut off recovery pathways before they develop"
+    ],
+    "recognition_cues": [
+      "Opponent's hips begin shifting away from the hooked side, indicating shrimp escape preparation",
+      "Opponent reaches with their same-side hand toward your hooking foot or ankle to initiate strip",
+      "Opponent tucks their chin aggressively and tightens elbows, signaling they are about to commit to an escape sequence",
+      "Opponent's weight shifts forward onto their hands, potentially setting up a Granby roll or sit-out",
+      "Opponent begins rotating their shoulders to face you, indicating a turning escape attempt"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen hook and increase chest pressure when opponent begins hip escape",
+        "when_to_use": "Immediately upon feeling the opponent's hips begin to shift away from the hooked side",
+        "targets_outcome": "Crab Ride/Bottom",
+        "if_successful": "Opponent's escape attempt is stuffed and they return to defensive crab ride bottom position",
+        "risk": "Over-committing forward pressure can expose you to Granby roll counter if opponent redirects"
+      },
+      {
+        "action": "Follow hip movement and insert second hook during escape transition",
+        "when_to_use": "When opponent creates lateral separation through hip escape, opening space on the far side for hook entry",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Convert crab ride to full back control with both hooks established and seatbelt grip",
+        "risk": "If second hook insertion fails, you may lose the first hook during the transition attempt"
+      },
+      {
+        "action": "Switch to crossface sprawl if hook is partially stripped",
+        "when_to_use": "When the hook is becoming shallow and further fighting for it will result in losing position entirely",
+        "targets_outcome": "Crab Ride/Bottom",
+        "if_successful": "Re-flatten opponent into turtle and re-establish crab ride from a fresh angle with a new hook",
+        "risk": "Abandoning the hook temporarily gives opponent a window to complete guard recovery"
+      },
+      {
+        "action": "Transition to front headlock or anaconda grip when opponent turns toward you",
+        "when_to_use": "When opponent successfully strips the hook and begins rotating to face you, exposing their neck",
+        "targets_outcome": "Crab Ride/Bottom",
+        "if_successful": "Establish new controlling position that prevents guard recovery and creates submission threats",
+        "risk": "If the transition is slow, opponent completes the turn and recovers full guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Time your second hook insertion with the opponent's hip escape movement. When they create lateral space to strip your hook, their far hip opens up for your free leg to thread through. Follow their hip movement rather than fighting it, using their escape direction as your pathway to the second hook."
+      },
+      {
+        "outcome": "Crab Ride/Bottom",
+        "how": "Maintain heavy chest pressure and an active deep hook while following the opponent's hip movement with corresponding adjustments to your perpendicular alignment. Address each escape component as it develops rather than waiting for the full escape to materialize. Re-flatten after any failed escape attempt to reset your control structure."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing the hook to become passive and shallow without actively maintaining depth",
+        "consequence": "Opponent easily strips the hook with minimal effort and recovers guard before you can respond or insert a replacement hook",
+        "correction": "Actively drive the hook deeper by flexing your foot and pressing your heel into the mat behind the opponent's thigh. The hook should be an active control tool, not a passive resting position."
+      },
+      {
+        "error": "Lifting chest off opponent's back to reach for the second hook",
+        "consequence": "Creates the space the opponent needs for their escape and removes your primary weight-based control mechanism",
+        "correction": "Maintain chest-to-back connection throughout all transitions. The second hook must be inserted while maintaining upper body pressure, threading the leg through without lifting your torso."
+      },
+      {
+        "error": "Staying static and relying solely on the hook without creating offensive threats",
+        "consequence": "Gives the opponent unlimited time to assess the position and execute a measured, well-timed escape without time pressure",
+        "correction": "Constantly threaten back advancement, submission entries, or position changes to keep the opponent reactive and defensive, reducing their ability to plan and execute escape sequences."
+      },
+      {
+        "error": "Fighting the opponent's hip movement directly rather than following and using it",
+        "consequence": "Creates a strength battle that exhausts your control energy and often results in losing the hook to explosive movement",
+        "correction": "Follow the opponent's hip direction with your own adjustment, maintaining perpendicular alignment. Their movement can actually help your second hook insertion if you ride with it rather than resist it."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most important control element to maintain when the opponent begins their escape attempt?",
+        "answer": "Chest-to-back pressure is the most important element because it limits the space available for hip escape movement, slows the escape, and maintains your weight advantage. While the hook provides the anchor, it is the chest pressure that prevents the explosive hip displacement needed to strip the hook. Opponents who can create space between your chest and their back have dramatically higher escape success rates regardless of hook depth."
+      },
+      {
+        "question": "How should you respond when you feel the opponent's hips shift away from your hook?",
+        "answer": "Follow their hip movement with your own hip adjustment rather than fighting it statically. As they shrimp away, slide your hips in the same direction to maintain perpendicular alignment and hook depth. Simultaneously look for the second hook insertion opportunity, as their hip movement often opens the far hip. Increase chest pressure forward during this sequence to prevent them from completing the turn."
+      },
+      {
+        "question": "When is the optimal time to attempt inserting the second hook during an escape attempt?",
+        "answer": "The best moment is when the opponent commits their hands to stripping your first hook, leaving their far side undefended. Their focus on the hook strip means they cannot simultaneously block the second hook insertion. Also, their hip escape movement creates the lateral space needed for your free leg to thread through on the far side. The escape attempt itself creates the opening you need for advancement."
+      },
+      {
+        "question": "Your opponent successfully strips your hook - what is the immediate recovery protocol?",
+        "answer": "Immediately increase upper body control through crossface pressure and far-side grips to prevent the turn. Sprawl your hips back to flatten the opponent and re-establish a new hook from a fresh angle. If the opponent is already turning, transition to front headlock or anaconda control rather than chasing the hook from behind, as their rotation makes re-insertion of the original hook very difficult."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Control Maintenance",
+        "focus": "Maintaining crab ride against progressive escape resistance",
+        "description": "Partner attempts escapes at progressive resistance levels starting at 25% and building to 100%. Focus on maintaining hook depth, chest pressure, and perpendicular alignment. Track how long you maintain control before the escape succeeds. Build the sensitivity to feel escape initiation and respond immediately."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Timing second hook insertion with escape attempts",
+        "description": "Partner attempts escapes at moderate resistance. Focus specifically on reading escape direction and timing your second hook insertion to coincide with their hip movement. Practice the transition from crab ride to full back control during live escape attempts. Measure back control conversion rate."
+      },
+      {
+        "phase": "Phase 3: Positional Sparring",
+        "focus": "Full resistance crab ride retention and advancement",
+        "description": "Three-minute positional rounds starting from crab ride. Top player works to maintain position or advance to back control while bottom player works escape. Track retention time, back take rate, and escape rate to measure improvement. Alternate partners to experience different body types and escape styles."
+      }
+    ]
   }
 }

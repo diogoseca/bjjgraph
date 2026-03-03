@@ -21,37 +21,37 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Take from Kesa Gatame",
+      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 28% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,23 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (15% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (16% of attempts)
+### [[Elbow Escape to Guard]] (13% of attempts)
 
-### [[Hip Escape to Guard]] (12% of attempts)
+### [[Hip Escape to Guard]] (9% of attempts)
 
-### [[Back Take from Bottom]] (10% of attempts)
+### [[Back Take from Kesa Gatame]] (10% of attempts)
 
-### [[Bridge and Turn to Turtle]] (17% of attempts)
+### [[Bridge and Turn to Turtle]] (28% of attempts)
 
-### [[Ghost Escape]] (15% of attempts)
+### [[Ghost Escape]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (10% of attempts)
+
+### [[Bridge Escape from Kesa Gatame]] (3% of attempts)
+
+### [[Frame to Guard from Kesa Gatame]] (3% of attempts)
 
 
 
@@ -241,13 +245,13 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
 - Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 50%)
 - Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 35%)
+- Execute **[[Back Take from Kesa Gatame]]** → [[Back Control]] (Probability: 35%)
 
 
 **If opponent releases head control to attack far-side arm for Americana or other submissions:**
 - Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Half Guard Recovery]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Frame to Guard from Kesa Gatame]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Bridge Escape from Kesa Gatame]]** → [[Half Guard]] (Probability: 45%)
 
 
 **If opponent's base becomes narrow or they post their far arm for stability:**

@@ -581,39 +581,43 @@
     "transitions": [
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 27
+        "attempt_probability": 34
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Rolling to Guard",
         "attempt_probability": 15
       },
       {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 14
+      },
+      {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Sit Through Escape",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Roll from Rodeo Ride",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Shake Off Rodeo Ride",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Escape from Rodeo Ride",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

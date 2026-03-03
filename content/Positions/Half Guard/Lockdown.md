@@ -107,13 +107,11 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Lockdown Recovery]]** (4% of attempts)
 
-- **[[Transition to Vaporizer]]** (2% of attempts)
+- **[[Lockdown to Vaporizer]]** (3% of attempts)
 
-- **[[Transition to Old School]]** (6% of attempts)
+- **[[Half Guard to Old School]]** (6% of attempts)
 
 - **[[Back Take from Lockdown Defense]]** (4% of attempts)
-
-- **[[Lockdown to Vaporizer]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,15 +184,13 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Leg Extraction to Combat Base]]** (37% of attempts)
 
-- **[[Transition to Z-Lock Half Guard]]** (8% of attempts)
+- **[[Lockdown to Z-Lock Half Guard]]** (9% of attempts)
 
 - **[[Lockdown Break and Pass]]** (10% of attempts)
 
 - **[[Darce from Lockdown Counter]]** (3% of attempts)
 
 - **[[Lockdown Whizzer Pass]]** (1% of attempts)
-
-- **[[Lockdown to Z-Lock Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

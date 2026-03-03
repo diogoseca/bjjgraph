@@ -1,10 +1,13 @@
 {
   "name": "Backstep from Deep Half",
-  "description": "TODO: Write 150-160 character SEO description for Backstep from Deep Half.",
+  "description": "Master the backstep from deep half guard in BJJ. Complete guide to setup mechanics, step-by-step execution, defensive counters, and training progressions.",
   "tags": [
-    "bjj",
+    "backstep",
+    "deep-half-guard",
+    "back-take",
+    "guard-passing",
     "transition",
-    "TODO"
+    "bjj"
   ],
   "from_position": "Deep Half Guard/Top",
   "outcomes": [
@@ -25,114 +28,378 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Backstep from Deep Half.",
+  "overview": "The backstep from deep half guard is a dynamic transitional technique where the top player, caught in the bottom player's deep half guard, abandons the conventional forward extraction approach and instead swings their free leg backwards over the bottom player's body to establish back control. This counter-intuitive movement exploits a fundamental vulnerability of deep half guard: the bottom player's deep positioning underneath creates exposure to back attacks when the top player redirects their movement behind rather than forward. By stepping backwards over the entangled position, the top player converts a defensive predicament into an offensive opportunity, bypassing the powerful sweep mechanics that make deep half guard so dangerous.\n\nStrategically, the backstep represents a high-reward alternative to traditional deep half guard passing methods such as crossface passes and smash passes. While conventional approaches attempt to extract the trapped leg through forward pressure and weight distribution, the backstep acknowledges that the bottom player's deep positioning makes forward extraction difficult and instead uses angular redirection to circumvent their control entirely. This technique is particularly effective when the bottom player has established strong underhook control that makes conventional passing increasingly difficult, as the backstep direction is perpendicular to their primary sweep vectors.\n\nThe backstep from deep half requires precise timing, proper base management during the stepping phase, and immediate hook insertion upon completion. The transition is most effective when initiated before the bottom player commits fully to a sweep attempt, as the momentary weight shift required creates a brief window of vulnerability. Advanced practitioners integrate this technique into their deep half guard passing system as a surprise option that keeps the bottom player guessing about the direction of the pass, preventing them from committing fully to sweep setups designed to counter forward passing pressure.",
   "conditions": [
-    "TODO"
+    "Top player is caught in deep half guard with one leg trapped by bottom player's deep underhook",
+    "Crossface or head control is available to limit bottom player's ability to follow the rotation",
+    "Free leg has solid base on the mat for initiating the stepping motion",
+    "Bottom player's sweep attempt is not fully loaded, creating a window for redirection",
+    "Posted hand position available on the far side of the bottom player for pivot base"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Speed Backstep",
+      "description": "Explosive version where the entire backstep motion is performed as a single fast movement without pausing at intermediate positions. Relies on speed and commitment rather than methodical step-by-step progression. The crossface is used as a momentary anchor rather than sustained control.",
+      "when_to_use": "When the bottom player is momentarily distracted by grip adjustments or has just failed a sweep attempt, creating a brief window where their defensive awareness is reduced."
+    },
+    {
+      "variant_name": "Backstep to Crab Ride",
+      "description": "Instead of immediately inserting standard back control hooks after the backstep, the top player establishes crab ride position by hooking the far leg with their foot while maintaining chest-to-back pressure. This creates a different control angle that offers access to both back takes and leg attacks.",
+      "when_to_use": "When the bottom player is actively defending hook insertion by keeping their knees tight together, making standard back control establishment difficult after the rotation."
+    },
+    {
+      "variant_name": "Rolling Backstep",
+      "description": "A variation where the backstep is combined with a forward roll over the bottom player's body rather than a pure stepping motion. The top player rolls diagonally over the bottom player's shoulder line, ending behind them. This is more fluid but requires greater spatial awareness and timing.",
+      "when_to_use": "Against bottom players who aggressively follow standard backstep rotations with their hips, as the rolling momentum makes it harder for them to track and follow the movement direction."
     }
   ],
-  "position_integration": "TODO: Write position integration for Backstep from Deep Half.",
+  "position_integration": "The backstep from deep half guard occupies a unique tactical niche in the BJJ positional hierarchy, serving as a bridge between guard passing and back taking systems. It connects the deep half guard passing game directly with the back control attacking system, creating a pathway from a traditionally difficult passing position to the most dominant control position in grappling. This technique integrates with backstep concepts used across multiple guard positions including De La Riva, K-Guard, and Single Leg X-Guard, forming part of a broader backstep methodology applicable whenever an opponent's guard creates rear exposure. The technique also creates a powerful threat dilemma for the deep half player: defending forward passes opens backstep vulnerability, while defending the backstep weakens their resistance to conventional passing pressure.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Deep Half Guard",
+      "relationship": "Starting position where this transition initiates from the top player perspective"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary target position achieved through successful backstep execution"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when bottom player successfully defends the backstep"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Conceptually similar backstep technique applied from a different guard position"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Related passing technique using similar backstep mechanics from different contexts"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Alternative forward passing option available from deep half guard top"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Intermediate position bottom player may reach when scrambling during backstep"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative back control entry point accessible during backstep rotation"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Control configuration established immediately after successful backstep to back"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Alternative pressure-based passing approach from deep half guard top"
     }
   ],
   "attacker": {
     "name": "Backstep from Deep Half Attacker",
-    "description": "TODO: Write attacker description for Backstep from Deep Half.",
-    "overview": "TODO: Write attacker overview for Backstep from Deep Half.",
+    "description": "Learn to execute the backstep from deep half guard as the top player. Step-by-step guide covering setup, mechanics, timing, and common mistakes for this back take transition.",
+    "overview": "As the top player caught in deep half guard, the backstep offers a direct pathway to the most dominant position in BJJ without fighting through the bottom player's strongest defensive structures. Rather than engaging in the grinding forward extraction battle where the deep half player holds mechanical advantage, the backstep redirects your movement behind them, converting their deep positioning into a liability. This technique requires you to maintain composure in an uncomfortable position, recognize the correct timing window, and commit fully to the rotational movement. The reward is immediate access to back control with hooks and seat belt, bypassing the entire guard passing sequence and jumping directly to a dominant attacking position.",
     "key_principles": [
-      "TODO"
+      "Establish crossface or head control before initiating the backstep to prevent the bottom player from following the rotation and reguarding",
+      "Post the free hand firmly on the mat to create a stable pivot point for the stepping motion, maintaining base throughout the entire transition",
+      "Commit fully to the backstep rotation once initiated because half-committed attempts leave you exposed to sweeps in an unstable intermediate position",
+      "Time the backstep when the bottom player is loading a sweep or adjusting grips, exploiting their momentary commitment to forward-facing defense",
+      "Immediately establish chest-to-back connection and at least one hook upon completing the rotation before the bottom player can turn to face you",
+      "Control the trapped leg extraction through the rotation rather than fighting it independently because the backstep naturally frees the leg as you rotate behind"
     ],
     "setup_requirements": [
-      "TODO"
+      "Crossface or head control established on the bottom player to limit their ability to follow the rotation",
+      "Free leg posted with solid base on the mat, positioned to generate stepping power backwards over the bottom player",
+      "Bottom player's sweep attempt momentarily neutralized or not yet fully loaded, creating a safe window for the backstep",
+      "Weight distribution centered or slightly backward to facilitate the stepping motion without being swept forward during transition",
+      "Posted hand position identified on the far side of the bottom player's body for stable pivot base during rotation"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Crossface Control",
+        "description": "From deep half guard top, drive your shoulder and forearm across the bottom player's jaw to establish crossface pressure. This prevents them from looking up and initiating sweep mechanics while also limiting their ability to follow your movement during the backstep. Secure your crossface arm tight against their face to create an anchor point for the rotation."
+      },
+      {
+        "step_number": 2,
+        "action": "Post Free Hand for Base",
+        "description": "Plant your free hand firmly on the mat on the far side of the bottom player's body, creating a tripod base with your free leg and posted hand. This posting hand serves as the pivot point for your entire backstep rotation and must remain anchored throughout the stepping phase to prevent you from being swept during the weight transfer."
+      },
+      {
+        "step_number": 3,
+        "action": "Load the Free Leg",
+        "description": "Shift your weight onto your posted hand and crossface arm, unweighting your free leg in preparation for the backstep. Your free leg should lift slightly off the mat, ready to swing backwards in an arc over the bottom player's torso. Keep the knee slightly bent to maintain control and balance throughout the stepping motion."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute the Backstep",
+        "description": "Swing your free leg backwards in a wide arc over the bottom player's body, stepping it behind their back on the far side. The motion should be smooth and fully committed rather than hesitant. Drive your leg all the way through the arc and your hips will naturally rotate as your leg swings, bringing your chest toward the bottom player's back."
+      },
+      {
+        "step_number": 5,
+        "action": "Settle Hip Position and Extract Trapped Leg",
+        "description": "As your stepping leg lands behind the bottom player, immediately drop your hips close to their body and begin sliding your chest onto their back. Your trapped leg should begin extracting naturally as your hips rotate to face the same direction as the bottom player. If the trapped leg remains caught, use a small hip wiggle to free it while maintaining forward pressure on their back."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert First Hook",
+        "description": "Before the bottom player can turn to face you, immediately insert your bottom hook by sliding your instep inside their top thigh. This first hook is critical as it prevents them from rotating toward you and establishes the foundational back control. Drive your hook deep inside their thigh rather than resting it superficially near their hip."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Seat Belt and Second Hook",
+        "description": "Secure the seat belt grip with one arm over their shoulder and the other under their armpit, clasping your hands together at their chest. Simultaneously work to insert your second hook on the far side. Both hooks and seat belt must be established before the bottom player can mount an escape attempt from the transitional chaos."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate Back Control",
+        "description": "With both hooks and seat belt established, tighten your chest-to-back connection and settle your weight. Pull the bottom player slightly toward the underhook side to establish the choking angle. You have now completed the transition from deep half guard top to full back control and can begin your submission attack sequence."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bottom player follows the rotation with their hips, turning to face the passer and reguarding into deep half or half guard",
+        "effectiveness": "High",
+        "your_response": "Accelerate the rotation and intensify crossface pressure to pin them flat before they can follow. If they begin tracking your movement, switch direction to a smash pass or crossface pass instead of completing the backstep.",
+        "targets_outcome": "Deep Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player hooks the stepping leg with their free leg during the backstep arc, preventing the step from completing",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Keep the stepping leg tight to their body during the arc rather than swinging wide. If hooked, use your posted hand to strip their hooking leg while continuing the rotation, or abort and settle into a leg entanglement position.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player bridges explosively into the weight shift moment, sweeping the top player before the backstep can complete",
+        "effectiveness": "High",
+        "your_response": "Maintain strong posting hand base throughout the weight transfer. If you feel a bridge loading, pause the backstep and drive your weight back down to neutralize the sweep before re-attempting when the bridge energy is spent.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player releases underhook and frames against hips to create distance and prevent chest-to-back connection",
+        "effectiveness": "Medium",
+        "your_response": "If they release the underhook, immediately switch strategy and extract your trapped leg forward for a conventional pass since their primary deep half control mechanism is gone. Their frame creates distance but they have abandoned their strongest weapon.",
         "targets_outcome": "Deep Half Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the backstep without establishing crossface or head control first",
+        "consequence": "Bottom player easily follows the rotation with their hips and reguards, nullifying the backstep entirely and potentially ending up in a worse position than before",
+        "correction": "Always secure crossface pressure before beginning the backstep. The crossface pins the bottom player's head and prevents them from tracking your movement, which is the single most important setup requirement."
+      },
+      {
+        "error": "Half-committing to the backstep by not swinging the free leg fully through the arc",
+        "consequence": "Getting stuck in an intermediate position with your leg hovering over the bottom player, leaving you exposed to sweeps with compromised base and no control in either direction",
+        "correction": "Once you initiate the backstep, commit fully to the rotation. Drive the free leg all the way through and behind the bottom player's back. If you cannot commit, abort entirely and return to your starting position rather than pausing halfway."
+      },
+      {
+        "error": "Posting hand positioned too close to your own body instead of on the far side of the bottom player",
+        "consequence": "Narrow base creates instability during the weight transfer phase, making you highly susceptible to sweeps and unable to generate sufficient pivot leverage for the rotation",
+        "correction": "Plant your posting hand on the mat on the far side of the bottom player's body, creating the widest possible base. This hand is your anchor and pivot point for the entire movement."
+      },
+      {
+        "error": "Failing to insert hooks immediately after completing the backstep rotation",
+        "consequence": "Bottom player has a window to turn, scramble to turtle, or reguard before back control is established. The positional advantage gained by the backstep is wasted without immediate hook insertion.",
+        "correction": "Treat hook insertion as the continuation of the backstep, not a separate subsequent action. As your stepping leg lands, your bottom leg should already be threading for the first hook. Speed of hook insertion determines whether the backstep succeeds."
+      },
+      {
+        "error": "Attempting the backstep when the bottom player has a sweep fully loaded and ready to execute",
+        "consequence": "The weight transfer required for the backstep provides exactly the momentum shift the bottom player needs to complete their sweep, resulting in being swept and ending up on bottom",
+        "correction": "Time the backstep during grip adjustments, between sweep attempts, or when the bottom player is resetting their position. Never backstep into a loaded sweep. If you feel sweep energy building, neutralize it first with pressure and base before attempting the backstep."
+      },
+      {
+        "error": "Neglecting to extract the trapped leg during the rotation and leaving it entangled after completing the step",
+        "consequence": "Even with chest-to-back connection, remaining leg entanglement gives the bottom player leverage to prevent full back control and creates escape pathways through leg manipulation",
+        "correction": "Use the hip rotation naturally generated by the backstep to extract the trapped leg simultaneously. A small hip wiggle or circular knee motion during the rotation frees the leg without requiring a separate extraction effort."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Movement Mechanics",
+        "focus": "Solo backstep motion and balance",
+        "description": "Practice the backstep rotation on a grappling dummy or solo with shadow movement. Focus on the posting hand placement, free leg arc, hip rotation, and landing position. Develop comfort with the rotational movement and balance throughout the stepping phase. Perform 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Full technique with passive partner",
+        "description": "Partner assumes deep half guard bottom with no resistance. Practice the complete sequence from crossface establishment through hook insertion and seat belt. Focus on smooth transitions between each phase and proper hand/foot placement. Partner provides positional feedback on weight and pressure. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and commitment under increasing defense",
+        "description": "Partner provides 25%, then 50%, then 75% resistance from deep half guard bottom, including following the rotation and attempting to hook the stepping leg. Develop timing for when to initiate the backstep and learn to read defensive reactions. Practice aborting and re-attempting when countered. 3-minute rounds at each resistance level."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Combining backstep with other passing options",
+        "description": "Start in deep half guard top and flow between crossface pass, smash pass, and backstep based on partner's defensive reactions. Partner provides realistic resistance and varies their defense between sweep attempts and guard retention. Develop automatic recognition of backstep windows within the broader passing system. 5-minute positional sparring rounds."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Full resistance live application",
+        "description": "Positional sparring starting from deep half guard with full resistance. Top player attempts any pass including the backstep while bottom player works sweeps and back takes. Track success rates and identify patterns in timing and setup. Analyze failures to refine technique under pressure. 3-minute rounds with 1-minute rest."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the backstep from deep half guard?",
+        "answer": "The optimal window is when the bottom player is between sweep attempts, adjusting their grips, or resetting their position after a failed sweep. During these moments, their weight is not loaded for a sweep and their defensive awareness is focused on re-establishing control rather than tracking your movement. Initiating during a loaded sweep invites disaster because your weight shift provides the momentum they need to complete the sweep."
+      },
+      {
+        "question": "What conditions must exist before you can safely attempt the backstep from deep half?",
+        "answer": "You must have crossface or head control established to prevent the bottom player from following the rotation. Your free leg must have solid base on the mat for stepping power. The bottom player's sweep must not be fully loaded. You need a clear posting hand position on the far side of their body. Without crossface control specifically, the backstep should not be attempted as the bottom player will simply rotate with you."
+      },
+      {
+        "question": "What is the most critical body positioning detail during the stepping phase of the backstep?",
+        "answer": "The posting hand placement on the far side of the bottom player is the most critical detail. This hand serves as both your pivot point and your primary base during the entire weight transfer. If it is positioned too close to your body or too far from the bottom player, you lack the structural support needed to complete the rotation safely. It must be planted firmly with fingers spread for maximum surface area and grip."
+      },
+      {
+        "question": "What is the most common reason the backstep from deep half fails?",
+        "answer": "The most common failure is half-committing to the stepping motion. When the top player hesitates midway through the arc, they end up in an intermediate position with compromised base and no control in either direction. The bottom player can then sweep or reguard easily. The backstep demands full commitment once initiated. The second most common failure is attempting the backstep without crossface control, allowing the bottom player to follow the rotation."
+      },
+      {
+        "question": "What grip must be maintained throughout the backstep to prevent the bottom player from following your rotation?",
+        "answer": "The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react."
+      },
+      {
+        "question": "In which direction should your free leg travel during the backstep, and why is this path important?",
+        "answer": "The free leg should travel in a wide backward arc over the bottom player's torso, landing behind their back on the far side. This arc path is important because it generates the hip rotation needed to bring your chest onto their back, it clears their body without getting caught in their legs, and it positions your landing foot behind them where you can immediately begin establishing hooks. A tight or upward path risks getting your leg caught."
+      },
+      {
+        "question": "Your opponent begins hip-escaping to follow your backstep rotation - how do you adjust mid-technique?",
+        "answer": "If the bottom player begins following your rotation, you have two primary adjustments. First, accelerate the backstep and drive increased crossface pressure downward to pin them before they can complete their hip escape. Second, if they are already matching your speed, abort the backstep entirely by returning your foot to the mat and immediately switch to a forward passing direction such as a smash pass or crossface pass, exploiting the fact that their hips are now angled away from the forward pass defense."
+      },
+      {
+        "question": "If your initial backstep is blocked because the bottom player hooks your stepping leg, what should you do next?",
+        "answer": "If your stepping leg is hooked, do not try to forcefully pull it free as this creates instability. Instead, use your posted hand to strip their hooking leg while maintaining your crossface anchor. If the hook cannot be stripped, settle your weight down and transition to a leg entanglement or half guard top position using the leg contact. Alternatively, reverse the stepping direction and extract your original trapped leg forward for a conventional pass, since their focus on hooking your step created a defensive gap on the forward side."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Backstep from Deep Half."
+    "safety_considerations": "The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer."
   },
   "defender": {
     "name": "Backstep from Deep Half Defender",
-    "description": "TODO: Write defender description for Backstep from Deep Half.",
-    "overview": "TODO: Write defender overview for Backstep from Deep Half.",
+    "description": "Defend against the backstep from deep half guard bottom. Recognition cues, defensive options, and counter techniques to maintain your guard position and prevent the back take.",
+    "overview": "As the deep half guard bottom player, the backstep represents one of the most dangerous threats to your position because it bypasses your primary sweep mechanics entirely and attacks from a direction your deep half structure is not designed to defend. Your deep underhook and head positioning create excellent forward-facing leverage for sweeps, but this same deep positioning exposes your back when the top player redirects behind you. Defending the backstep requires early recognition of setup cues, immediate hip adjustment to follow the rotation, and maintaining your underhook connection throughout the defensive sequence. The key insight is that your best defense mirrors the attack - you must rotate with the top player rather than trying to resist the rotation from a static position.",
     "key_principles": [
-      "TODO"
+      "Develop sensitivity to the weight shift patterns that precede a backstep attempt, particularly the posting hand placement and unweighting of the free leg",
+      "Maintain awareness of your back exposure at all times while playing deep half guard, recognizing that deep positioning creates vulnerability to rear attacks",
+      "Follow backstep rotations with your hips immediately rather than trying to resist from a static position, as matching the rotation prevents back exposure",
+      "Keep your deep underhook grip tight throughout defensive reactions because it serves as both your primary control mechanism and your connection to the top player",
+      "Create preemptive defensive frames with your free hand against the top player's far hip to sense and slow rotational movement before it develops",
+      "Prioritize maintaining deep half guard position over attempting sweeps when you detect backstep setup cues, as a failed sweep during a backstep window guarantees back exposure"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player posts their free hand firmly on the mat beside or beyond your body, creating a wider base than normal deep half defense requires",
+      "Weight shifts from forward downward pressure to lateral loading onto the posted hand, creating a noticeable lightening of the free leg on the mat",
+      "Top player's crossface pressure suddenly intensifies as they anchor their upper body before initiating the stepping motion",
+      "Free leg begins lifting off the mat or the top player's hip angle changes as they prepare to swing the leg backwards over your torso"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Follow the rotation by hip-escaping in the same direction as the backstep, turning to face the passer and reguarding",
+        "when_to_use": "As soon as you feel the weight shift to the posted hand and the free leg begins lifting, before the step clears your body",
         "targets_outcome": "Deep Half Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Reguard into deep half or transition to standard half guard, maintaining your offensive position with sweep opportunities intact",
+        "risk": "If you follow too slowly, the top player establishes chest-to-back connection before you can turn, and you give your back with worse positioning than if you had stayed still"
+      },
+      {
+        "action": "Hook the stepping leg with your free leg during the backstep arc, catching it before it clears your body",
+        "when_to_use": "When the free leg begins its backward arc over your torso and is within reach of your top leg",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Entangle their stepping leg in a half guard configuration, disrupting the backstep and creating a scramble opportunity where you can work to sweep",
+        "risk": "You may lose your deep underhook control during the hooking motion, compromising your deep half position and leaving you in a weakened half guard"
+      },
+      {
+        "action": "Bridge explosively into the weight shift moment, sweeping the top player before the backstep can complete",
+        "when_to_use": "The instant you feel the top player's weight commit to the posted hand, before the free leg lifts off the mat",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Sweep the top player using their compromised base during the weight transfer, ending up in a dominant top position",
+        "risk": "If the bridge is mistimed and comes too late, it can actually accelerate the backstep by providing additional rotational momentum to the top player"
+      },
+      {
+        "action": "Release underhook and frame against the top player's hips to push them away, creating distance to scramble or turtle",
+        "when_to_use": "When you recognize the backstep early but cannot match the rotation speed and need to create emergency separation",
+        "targets_outcome": "Deep Half Guard/Top",
+        "if_successful": "Create enough distance to prevent chest-to-back connection and either reguard or establish turtle position for secondary defense",
+        "risk": "Releasing the underhook eliminates your primary deep half control mechanism and all sweep opportunities, leaving you in a compromised guard position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Back Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a bridge or leg hook during the weight shift phase of the backstep. The top player's commitment to swinging their leg creates a brief window where their base is compromised on the posting hand. Use this window to sweep by driving into their momentum direction, or hook their stepping leg to prevent the rotation from completing and establish half guard entanglement."
+      },
+      {
+        "outcome": "Deep Half Guard/Top",
+        "how": "Follow the rotation with your hips immediately when you feel the weight shift, keeping your deep underhook tight and turning to face the passer. By staying connected and rotating with them, you prevent the backstep from completing and either maintain your deep half guard position or transition to a standard half guard with offensive options intact."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Failing to recognize backstep cues and remaining committed to forward-facing sweep mechanics while the top player rotates behind",
+        "consequence": "Top player completes the backstep unopposed and establishes back control with hooks and seat belt before any defensive reaction is possible",
+        "correction": "Develop sensitivity to weight shifts and hand posting patterns that signal backstep initiation. Use your free hand on the top player's far hip as a sensor to detect rotational movement early. Pause sweep loading when you detect backstep cues."
+      },
+      {
+        "error": "Over-committing to following the rotation without maintaining deep underhook control on the trapped leg",
+        "consequence": "You turn to face the passer but lose your primary control mechanism, ending up in a weakened guard position with no sweep leverage and compromised connection",
+        "correction": "Keep the deep underhook grip tight as you follow the rotation. The underhook simultaneously prevents backstep completion by maintaining connection and preserves your offensive options if the backstep is abandoned."
+      },
+      {
+        "error": "Panicking and releasing all grips to push the top player away when sensing the backstep initiation",
+        "consequence": "Abandoning grips eliminates your connection and control, making it easier for them to complete the rotation or switch to a conventional forward pass against your now-weakened guard",
+        "correction": "Maintain your underhook connection and use controlled hip movement rather than arm pushing to counter the backstep. Your grips are your defense, not an obstacle to defense."
+      },
+      {
+        "error": "Bridging in the wrong direction during the weight shift, driving into the top player's base rather than into their compromised side",
+        "consequence": "Bridge is completely ineffective against their strong base side and may provide rotational momentum that assists the backstep completion",
+        "correction": "Bridge toward the direction the top player is stepping, targeting their posted hand side where their base is committed and narrow. Driving into their momentum disrupts the rotation rather than reinforcing it."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that indicate a backstep attempt from deep half guard top?",
+        "answer": "The earliest cues are the top player posting their free hand firmly on the mat beyond your body and a noticeable weight shift from forward downward pressure to lateral loading onto that posted hand. You may also feel the free leg lighten on the mat as they prepare to lift it. These preparatory movements occur before the actual stepping motion and provide your best window for defensive reaction."
+      },
+      {
+        "question": "If you recognize the backstep too late and your opponent has already stepped over, what is your best defensive option?",
+        "answer": "If the step has already cleared your body, immediately turtle by pulling your knees to your chest and getting to all fours before they can establish hooks. Turtle is a significantly better defensive position than being flat on your back with an opponent landing on your back. From turtle, you have established defensive sequences for preventing hook insertion and recovering guard. Do not remain flat as this guarantees full back control."
+      },
+      {
+        "question": "How does your underhook grip management change when you suspect a backstep rather than a forward pass attempt?",
+        "answer": "When you suspect a backstep, your underhook should grip tighter and pull the trapped leg closer to your chest rather than using it as a sweep lever. This increased tension makes it harder for the top player to rotate freely because their trapped leg acts as an anchor keeping them connected to your front-facing position. Additionally, use your free hand to monitor their far hip rather than preparing sweep grips, as the hip contact provides early warning of rotational movement."
+      },
+      {
+        "question": "What positioning adjustment makes you most resistant to backstep attempts while maintaining deep half guard?",
+        "answer": "Keeping your hips angled toward the top player rather than perpendicular to them makes you most resistant to backsteps. When your hips face the top player, any backstep rotation forces them to travel a longer arc to reach your back, giving you more time to follow. Additionally, maintaining your free hand as a frame on their far hip rather than reaching for sweep grips provides both early warning and physical resistance to rotational movement."
+      },
+      {
+        "question": "Your opponent posts their hand and begins shifting weight for what appears to be a backstep - should you follow the rotation or bridge to sweep?",
+        "answer": "The answer depends on timing. If you detect the weight shift early before the free leg lifts, bridge into the compromised base to attempt the sweep, as their weight commitment to the posted hand creates vulnerability. If the free leg has already begun lifting, following the rotation with your hips is safer because a late bridge may provide momentum that helps complete the backstep. The bridge is higher reward but requires earlier recognition, while following the rotation is the safer default response."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying backstep setup cues through feel",
+        "description": "Partner alternates between standard deep half top pressure adjustments and backstep setup motions (posting hand, weight shift, leg lift) without completing the step. Bottom player calls out when they detect backstep setup versus normal movement. Develop sensitivity to the specific pressure changes that precede backstep attempts. 20 repetitions per round."
+      },
+      {
+        "phase": "Phase 2: Defensive Response Practice",
+        "focus": "Executing specific counters with cooperative partner",
+        "description": "Partner performs slow-motion backstep attempts while you practice each defensive response individually: following the rotation, hooking the stepping leg, and bridging into the weight shift. Partner provides feedback on timing and maintains slow speed until responses are automatic. 10 repetitions of each defense per side."
+      },
+      {
+        "phase": "Phase 3: Mixed Attack Defense",
+        "focus": "Responding to both backstep and forward pass attempts",
+        "description": "Partner randomly alternates between backstep attempts and conventional forward passes from deep half guard top. Bottom player must read the direction and apply the appropriate defense: follow rotation for backstep or maintain sweeping structure for forward passes. Develops correct pattern recognition under uncertainty. 5-minute rounds."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance application from deep half guard",
+        "description": "Positional sparring starting from deep half guard bottom with full resistance. Top player uses all available passing options including backstep. Bottom player works sweeps while maintaining awareness of backstep threats. Track how often backstep attempts succeed versus defended. 3-minute rounds with analysis between rounds."
       }
     ]
   }

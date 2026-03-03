@@ -21,7 +21,7 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
@@ -211,7 +211,7 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (41% of attempts)
+### [[Butterfly Sweep]] (42% of attempts)
 
 ### [[Elevator Sweep]] (7% of attempts)
 
@@ -225,7 +225,7 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ### [[Single Leg X Entry]] (6% of attempts)
 
-### [[Transition to Butterfly Hook Control]] (1% of attempts)
+### [[Butterfly Guard to Butterfly Hook Control]] (2% of attempts)
 
 ### [[Deep Half Entry]] (4% of attempts)
 
@@ -235,11 +235,9 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ### [[Snap Down to Front Headlock]] (1% of attempts)
 
-### [[Omoplata]] (2% of attempts)
+### [[Omoplata]] (1% of attempts)
 
 ### [[Hook Sweep]] (2% of attempts)
-
-### [[Butterfly Guard to Butterfly Hook Control]] (1% of attempts)
 
 
 

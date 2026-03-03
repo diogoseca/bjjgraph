@@ -1,42 +1,400 @@
 {
   "name": "Guard Recovery from Leg Entanglement",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "escape", "leg-entanglement"],
+  "description": "Master guard recovery from leg entanglement in BJJ. Complete guide to extracting legs, reguarding techniques, and defending against leg lock advancement.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "leg-entanglement",
+    "guard-recovery",
+    "defense",
+    "no-gi",
+    "leg-locks"
+  ],
   "from_position": "Leg Entanglement/Bottom",
   "outcomes": [
-    {"to": "Half Guard/Bottom", "probability": 40, "result": "success"},
-    {"to": "Leg Entanglement/Bottom", "probability": 40, "result": "failure"},
-    {"to": "Inside Ashi-Garami/Top", "probability": 20, "result": "counter"}
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Leg Entanglement/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "Guard recovery from leg entanglement is one of the most critical defensive skills in modern no-gi Brazilian Jiu-Jitsu. As leg lock systems have become increasingly sophisticated and systematized, the ability to extract yourself from ashi garami configurations and recover to a safe guard position determines whether practitioners can engage in leg lock exchanges with confidence or must avoid them entirely. This transition involves systematically dismantling your opponent's entanglement structure — clearing heel exposure, breaking the knee line control, stripping hooks, and extracting the trapped leg — all while managing constant submission threats during the extraction process.\n\nThe recovery demands precise sequencing and prioritization. Whether facing inside ashi, outside ashi, saddle, or neutral 50-50 positions, the recovering player must first address the immediate submission threat by protecting the heel, then break the opponent's positional control through grip stripping and hip movement, and finally extract the leg to establish half guard or open guard. Rushing extraction without first neutralizing heel exposure or hip control leads to submissions or deeper entanglements. The systematic approach of threat neutralization, control dismantling, and positional recovery separates effective defenders from those who simply scramble and hope.\n\nStrategic mastery of guard recovery from leg entanglements connects directly to the broader offensive game. Practitioners who develop reliable recovery methods can attack with leg locks knowing they have defensive pathways when positions become compromised, creating a complete game where offensive entries are balanced by extraction capabilities. This bidirectional competence defines the modern leg lock practitioner.",
+  "conditions": [
+    "Opponent has established a leg entanglement controlling one or both of your legs through hooks, triangles, or figure-four configurations",
+    "Your heel is not yet fully committed to a finishing grip or you retain enough defensive structure to strip existing grips",
+    "You have at least one hand free to address the opponent's grips and create defensive frames",
+    "You retain sufficient hip mobility to create extraction angles despite the entanglement",
+    "The opponent has not yet secured a dominant entanglement like deep saddle with both hooks set"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Escape Recovery",
+      "description": "Uses sequential hip escape mechanics to create incremental distance from the entanglement while systematically stripping hooks. Each hip escape clears space to address one element of the control structure, working from heel protection to hook removal to full extraction. Relies on traditional shrimping mechanics adapted for leg entanglement contexts.",
+      "when_to_use": "When opponent maintains tight control but you have enough hip mobility to create small increments of distance, particularly effective against inside ashi and standard ashi garami configurations."
+    },
+    {
+      "variant_name": "Standing Recovery",
+      "description": "Posts on the free leg and drives upward to break the entanglement from above using gravity and base advantages. The standing player uses their elevated position to strip hooks more effectively and create downward pressure that compromises the bottom player's control structure. Requires clearing at least one hook before attempting to stand.",
+      "when_to_use": "When you have successfully cleared the opponent's inside hook and can post your free leg solidly, particularly effective in competition settings where standing creates referee reset opportunities."
+    },
+    {
+      "variant_name": "Inversion Recovery",
+      "description": "Uses inversion mechanics to rotate underneath and around the entanglement, changing the angle of engagement to neutralize the opponent's control. By inverting, you alter the directional force the opponent has on your knee and heel, creating momentary windows to extract. Higher risk but effective when conventional extraction fails.",
+      "when_to_use": "When standard hip escape recovery is blocked because the opponent is following your movement effectively, or when you need to quickly change the dynamic of a deteriorating position."
+    }
+  ],
+  "position_integration": "Guard recovery from leg entanglement serves as the essential bridge between the modern leg lock positional system and traditional guard-based grappling. It connects the leg entanglement family — ashi garami, saddle, 50-50, honey hole — back to half guard and open guard systems, providing the defensive escape pathways that make offensive leg lock engagement viable. Without reliable recovery methods, practitioners must either avoid leg lock exchanges entirely or accept submission risk without defensive recourse. This transition is the counterbalance that completes the leg lock game: just as guard passing connects top position to side control, guard recovery connects leg entanglements back to the guard retention chain. Mastery of this transition directly enables more aggressive leg lock entries because the practitioner trusts their ability to recover when attacks are defended.",
+  "related_content": [
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Source position from which guard recovery is initiated"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary recovery target position after successful leg extraction"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Specific entanglement configuration requiring adapted recovery mechanics"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative entanglement requiring different extraction angles"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent entanglement family encompassing positions requiring guard recovery"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Alternative recovery target when half guard insertion is not possible"
+    },
+    {
+      "name": "Heel Hook Defense Escape",
+      "relationship": "Complementary defensive technique addressing submission threat before recovery"
+    },
+    {
+      "name": "Leg Extraction Escape from Entanglement",
+      "relationship": "Related escape focusing on leg extraction as primary objective"
+    },
+    {
+      "name": "Inversion Escape from Leg Entanglement",
+      "relationship": "Alternative escape method using inversion mechanics"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Dominant entanglement requiring most urgent recovery response"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Neutral entanglement where recovery competes with counter-attack options"
+    }
+  ],
   "attacker": {
     "name": "Guard Recovery from Leg Entanglement Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Leg Entanglement/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Complete guide to executing guard recovery from leg entanglement. Step-by-step extraction techniques, grip breaking, and reguarding methods for escaping ashi garami positions.",
+    "overview": "Executing guard recovery from leg entanglement requires a systematic approach to dismantling your opponent's control structure while managing active submission threats. The recovering player must address three critical elements in strict sequence: first neutralize the immediate heel hook or ankle lock threat by protecting the heel, then break the opponent's leg control structure through grip stripping and hip movement, and finally extract the trapped leg to establish a guard position. Rushing any phase exposes you to submissions or deeper entanglements. The process demands patience, precise timing, and understanding of which defensive mechanics to prioritize based on the specific entanglement configuration being faced. Skilled practitioners develop automatic responses to each entanglement variant, allowing them to begin recovery immediately upon recognizing the positional threat.",
+    "key_principles": [
+      "Address heel exposure as the absolute first priority before any extraction attempt — a hidden heel cannot be attacked",
+      "Control the opponent's hips to prevent them from following your extraction movement and re-establishing entanglement",
+      "Use both hands and legs in coordinated sequence to systematically dismantle each element of the control structure",
+      "Create extraction angles through hip movement rather than attempting straight-line pulls against the entanglement",
+      "Time extraction attempts during the opponent's grip adjustments or transition attempts when their control is momentarily weakened",
+      "Maintain connection to the opponent during and after recovery to prevent immediate re-entry into leg entanglement"
+    ],
+    "setup_requirements": [
+      "Identify the specific entanglement configuration (inside ashi, outside ashi, saddle, 50-50) to determine the correct recovery sequence",
+      "Ensure your heel is protected by tucking it against your own body or stripping the opponent's heel grip before beginning extraction",
+      "Establish at least one defensive frame against the opponent's hips using your free leg or hands to control distance",
+      "Assess your knee line position relative to the opponent's control to determine the viable extraction path",
+      "Verify that the opponent has not secured a finishing grip — if they have, address the submission defense before attempting positional recovery"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect the heel",
+        "description": "Use both hands to immediately strip any grip the opponent has on your heel or foot. Pull your foot tight against your own buttock or thigh, turning your toes inward to hide the heel behind your calf. This eliminates the immediate submission threat and must be completed before any extraction work begins."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip frame",
+        "description": "Place your free foot on the opponent's hip, bicep, or shoulder to create a frame that prevents them from following your movement. This frame is critical because it creates the distance needed for extraction while preventing the opponent from closing the gap as you work to free your trapped leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip the inside hook",
+        "description": "Using your hands, push the opponent's inside leg (the one crossing your hip) away from your body and drive it toward the mat. Coordinate this with a hip escape in the opposite direction to add your body's lateral force to the strip. Removing the inside hook significantly weakens the entire entanglement structure."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the knee line",
+        "description": "Rotate your hips and use your free leg to pummel your knee above the opponent's entanglement structure. The goal is to get your knee above their controlling legs so they can no longer maintain the entanglement. Use hip escape mechanics to generate the angle needed for knee clearance while maintaining your hip frame."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract the trapped leg",
+        "description": "Once the inside hook and knee line are cleared, straighten your trapped leg forcefully while pulling it away from the opponent's remaining control. Use your hip frame to push off their body simultaneously, creating the final distance needed for complete extraction. Do not release defensive frames until the leg is fully free."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert knee for half guard",
+        "description": "Immediately after extracting your leg, drive your inside knee between you and the opponent to establish half guard. Hook their closest leg with your bottom leg while your top knee creates a shield. This prevents the opponent from immediately re-entering the leg entanglement by creating a barrier between their legs and yours."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate guard position",
+        "description": "Secure upper body grips and establish your preferred guard configuration. Control the opponent's posture with collar, sleeve, or wrist grips, ensure your knee shield or half guard hooks are properly set, and create enough distance to prevent immediate re-entry into leg entanglement. Only after consolidation is complete should you consider offensive options."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-pummels inside leg across hip as you attempt to strip it",
+        "effectiveness": "High",
+        "your_response": "Immediately re-address the inside hook with both hands. If they consistently re-pummel, change strategy to hip escape deeply first to weaken their angle before stripping, or transition to inversion recovery to change the dynamic entirely.",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent secures heel grip during extraction when foot becomes momentarily exposed",
+        "effectiveness": "High",
+        "your_response": "Stop all extraction movement immediately and return to step one — protect the heel by stripping the grip with both hands before continuing. Never continue extracting while the opponent has heel control, as this creates finishing opportunities for them.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Opponent follows hip movement by scooting forward and re-establishes entanglement distance",
+        "effectiveness": "Medium",
+        "your_response": "Use your hip frame more aggressively by pushing off their hip with your free foot to create separation. If they continue following, change direction with a hip escape in the opposite direction or use the momentum to attempt a sweep rather than continuing pure extraction.",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to a different entanglement variant during your escape attempt",
+        "effectiveness": "Medium",
+        "your_response": "Pause and reassess the new configuration before continuing extraction. Each entanglement variant has different control elements — blindly continuing the recovery sequence for the wrong variant exposes you to different submission threats. Reset your defensive priorities for the new position.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to extract the leg before protecting the heel from submission grips",
+        "consequence": "Extraction movement exposes the heel further and creates ideal finishing angle for the opponent's heel hook or ankle lock, often resulting in submission",
+        "correction": "Always address heel protection as the absolute first step. Strip all grips on your foot and tuck the heel against your body before any extraction movement begins."
+      },
+      {
+        "error": "Trying to stand up without first clearing hooks and the knee line",
+        "consequence": "Standing with hooks still engaged gives the opponent leverage to sweep you or transition to a more dominant entanglement as you expose your balance",
+        "correction": "Clear at least the inside hook and establish a strong hip frame before attempting to post and stand. Standing recovery requires partial extraction first."
+      },
+      {
+        "error": "Using only hands to strip hooks while keeping hips static and flat on the mat",
+        "consequence": "Without hip movement, hand-stripping alone cannot generate enough force to break the entanglement, and the opponent easily re-pummels hooks back into position",
+        "correction": "Coordinate hand stripping with hip escape mechanics. Each hip escape should accompany a hook strip, using the directional force of the hip movement to add power to the grip break."
+      },
+      {
+        "error": "Turning away from the opponent during extraction to create distance",
+        "consequence": "Turning away exposes your back and creates pathways for the opponent to advance to back control or deeper entanglements like saddle or truck",
+        "correction": "Face the opponent throughout the recovery. Use hip escaping to create distance while maintaining visual and physical connection. Your frames should push them away rather than you turning away."
+      },
+      {
+        "error": "Rushing extraction without establishing a hip frame against the opponent's body",
+        "consequence": "The opponent follows your movement, maintains connection, and immediately re-establishes the entanglement after each extraction attempt",
+        "correction": "Always establish your free foot on the opponent's hip as a frame before beginning extraction. This frame creates the separation needed and prevents them from following your movement."
+      },
+      {
+        "error": "Failing to consolidate guard position immediately after successful extraction",
+        "consequence": "The opponent immediately re-enters the leg entanglement through the same pathway because no guard barrier was established between their legs and yours",
+        "correction": "The moment your leg is free, insert your knee between you and the opponent. Establish half guard hooks or knee shield before anything else — guard recovery is not complete until you have a stable guard position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Heel Protection Mechanics",
+        "focus": "Developing automatic heel hiding and grip stripping responses",
+        "description": "Partner establishes basic ashi garami with various heel grips. Practice stripping each grip type (C-grip, figure-four, two-on-one) and tucking the heel against your body. No extraction attempts — purely develop the reflexive response to protect the heel immediately when entanglement is established. Build speed and confidence over 2-3 weeks."
+      },
+      {
+        "phase": "Phase 2: Hook Stripping and Hip Mechanics",
+        "focus": "Coordinating hand stripping with hip escape movement",
+        "description": "From established entanglement with heel protected, practice stripping the inside hook while hip escaping. Partner provides 30-50% resistance on hook retention. Focus on timing the hip escape with the hand strip for maximum effectiveness. Develop the ability to strip and immediately frame against the opponent's hip."
+      },
+      {
+        "phase": "Phase 3: Full Extraction to Guard Recovery",
+        "focus": "Completing the entire recovery sequence against progressive resistance",
+        "description": "Execute the complete sequence from heel protection through hook stripping to leg extraction and guard consolidation. Partner increases resistance from 50% to 75% over sessions. Focus on maintaining the correct sequence even under pressure and immediately establishing guard position after extraction."
+      },
+      {
+        "phase": "Phase 4: Live Recovery with Counter Management",
+        "focus": "Applying recovery against actively attacking opponents in positional sparring",
+        "description": "Positional sparring starting in leg entanglement. Opponent attacks freely while you work guard recovery. Develop the ability to read opponent's attacks, interrupt with recovery attempts during grip transitions, and manage counters when they re-pummel or change entanglement variants. Build toward competition-speed recovery."
+      },
+      {
+        "phase": "Phase 5: Integration with Offensive Game",
+        "focus": "Combining guard recovery with counter-attacks and sweeps",
+        "description": "Practice transitioning directly from guard recovery into offensive sequences — sweeping from recovered half guard, threatening submissions during extraction that force opponent to release control, and using recovery attempts to create scramble opportunities that favor you."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent has inside ashi garami with a C-grip on your heel — what is your first action before attempting any extraction?",
+        "answer": "Strip the C-grip on your heel immediately using both hands. Grab your own foot and pull it toward your buttock while peeling their fingers off the heel bone. Do not attempt any leg extraction or hip escape until the heel grip is completely broken, because any extraction movement with the heel exposed creates ideal finishing angles for ankle locks and heel hooks. Only after the heel is secured against your own body should you begin the extraction sequence."
+      },
+      {
+        "question": "Why is establishing a hip frame with your free foot critical before attempting leg extraction?",
+        "answer": "The hip frame prevents the opponent from following your extraction movement and immediately re-establishing the entanglement. Without this frame, every hip escape you perform allows the opponent to scoot forward and maintain the same distance, making extraction impossible. The free foot on their hip creates a fixed point of separation — as you hip escape away, their body stays pinned at the frame point, creating the incremental distance needed to strip hooks and clear the knee line."
+      },
+      {
+        "question": "Your opponent strips your hip frame and begins advancing from basic ashi to saddle during your recovery attempt — how do you respond?",
+        "answer": "Stop the extraction sequence immediately and address the positional advancement as the new priority. The saddle is a significantly more dominant entanglement with multiple submission pathways, so preventing its establishment takes precedence over continuing your recovery. Re-establish your hip frame by fighting their advancing leg, use your hands to block their far leg from crossing over your trapped leg, and hip escape to create the angle needed to prevent the saddle configuration from completing."
+      },
+      {
+        "question": "What is the most critical mechanical detail when stripping the opponent's inside hook from across your hip?",
+        "answer": "The strip must be coordinated with a hip escape in the direction away from the hook. Using hands alone to push the hook away is insufficient because the opponent can simply re-pummel with hip pressure. By hip escaping simultaneously, you add your entire body's lateral force to the hand strip, creating a directional mismatch the opponent cannot easily counter. Push their inside leg toward the mat with both hands while hip escaping in the opposite direction to create maximum separation force."
+      },
+      {
+        "question": "After successfully extracting your leg, your opponent immediately shoots to re-entangle your freed leg — how do you prevent re-entry?",
+        "answer": "Insert your knee between you and the opponent immediately upon extraction, establishing half guard before they can secure any grip on your freed leg. If they have already grabbed the leg, sprawl your hips back to create distance while framing on their head or shoulder. Guard recovery is not complete when the leg comes free — it is complete when you have established a defensive guard structure that blocks re-entry. The knee shield or half guard hook creates this barrier."
+      },
+      {
+        "question": "When is standing recovery from leg entanglement appropriate versus hip escape recovery?",
+        "answer": "Standing recovery is appropriate after you have already cleared the opponent's inside hook and can post your free leg solidly with good base. Attempting to stand with hooks still engaged gives the opponent leverage for sweeps and transitions to dominant entanglements. Hip escape recovery is the default approach when the inside hook is still engaged or when your base is compromised. Standing offers advantages in competition where it may force a referee standup and in no-gi situations where the elevated position creates gravity-based advantages for final hook clearance."
+      },
+      {
+        "question": "Your opponent aggressively re-pummels their inside hook every time you strip it — what alternative approach should you take?",
+        "answer": "Switch from direct hook stripping to an angle-based approach. Instead of fighting the hook head-on, hip escape deeply to change your angle relative to the opponent, which weakens their hook's effectiveness even without fully stripping it. From the new angle, the inside hook loses its purchase across your hip because your hip is no longer square to their control. Alternatively, transition to inversion recovery to completely change the dynamic — the opponent's re-pummeling pattern is calibrated for your current angle, and inversion disrupts this pattern entirely."
+      },
+      {
+        "question": "How should you manage energy during an extended guard recovery attempt against an opponent who keeps re-establishing control?",
+        "answer": "Use intervals of intense effort followed by positional maintenance rather than continuous maximum exertion. Make explosive extraction attempts during moments when the opponent adjusts grips or transitions between entanglement variants, then rest in protected defensive positions between attempts. Keep your heel hidden and maintain minimal frames during rest phases to prevent submission threats while conserving energy. The opponent maintaining the entanglement also costs them energy — if you are efficient in your defensive posture, they may fatigue faster as they work to advance position and finish submissions."
+      }
+    ],
+    "safety_considerations": "Guard recovery from leg entanglement involves managing active submission threats to the knee and ankle joints. Never attempt explosive extraction when the opponent has a secured heel hook grip, as the sudden movement combined with rotational force can cause catastrophic knee ligament damage. If a heel hook or toe hold is locked in during your recovery attempt, address the submission defense first by stripping grips carefully — tap immediately if you cannot strip the grip before pressure is applied. Practice recovery drills at controlled intensity with trusted training partners who understand leg lock safety protocols."
   },
   "defender": {
     "name": "Guard Recovery from Leg Entanglement Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Leg Entanglement/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Leg Entanglement/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Complete guide to preventing guard recovery from leg entanglement. Retention techniques, re-pummeling, and advancement strategies to maintain ashi garami control.",
+    "overview": "Defending against guard recovery attempts from leg entanglement means maintaining your entanglement structure and submission threats while your opponent systematically works to extract their trapped leg. As the leg lock attacker, your goal is either to retain the current entanglement for continued submission attempts or to advance to a more dominant configuration when the opponent creates openings during their escape. This requires recognizing each phase of the recovery attempt — heel hiding, hook stripping, hip escaping — and applying the appropriate counter-retention technique at each stage. The most effective defenders use their opponent's escape attempts as triggers for positional advancement rather than simply fighting to maintain the status quo.",
+    "key_principles": [
+      "Maintain heel access as the highest retention priority — re-secure heel grips immediately when they are stripped",
+      "Follow the opponent's hip movement by scooting forward to prevent distance creation during their extraction attempts",
+      "Use active leg pummeling to re-establish hooks immediately when they are stripped rather than passively holding position",
+      "Recognize guard recovery attempts early and accelerate submission threats to force defensive pauses in the extraction",
+      "Convert opponent's escape attempts into advancement opportunities by transitioning to more dominant entanglements when openings appear",
+      "Keep constant chest-to-leg connection on the trapped limb to prevent the opponent from creating space for extraction"
+    ],
+    "recognition_cues": [
+      "Opponent begins tucking their heel against their body, rotating their foot inward, or using both hands to address your heel grip",
+      "Opponent places their free foot on your hip, shoulder, or bicep to establish a pushing frame for distance creation",
+      "Opponent initiates hip escape movement away from you, creating incremental distance in the entanglement",
+      "Opponent uses both hands to push your inside leg away from their hip, attempting to strip your primary control hook",
+      "Opponent's posture shifts from defensive stillness to active movement with coordinated hand and hip engagement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-pummel inside hook and re-secure heel grip immediately when stripped",
+        "when_to_use": "As soon as the opponent begins stripping your inside hook or heel control — immediate response prevents them from progressing to the next phase of extraction",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Opponent remains trapped in the entanglement with submission threats intact and must restart their recovery sequence from the beginning",
+        "risk": "Over-focusing on re-pummeling may allow the opponent to create enough angle change that your hook lacks its original effectiveness"
+      },
+      {
+        "action": "Advance to Inside Ashi-Garami by driving inside leg deeper and securing tighter heel control",
+        "when_to_use": "When the opponent's extraction attempt creates a momentary opening in their defensive structure — their hands are occupied stripping hooks and cannot defend heel exposure",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "Position advances to a more specific and dominant entanglement with clearer submission pathways and stronger control mechanics",
+        "risk": "Aggressive advancement during opponent's active escape may create scramble opportunities if the transition is not clean"
+      },
+      {
+        "action": "Accelerate submission attack to force opponent to abandon extraction and return to defending",
+        "when_to_use": "When the opponent's extraction movement momentarily exposes their heel or creates an angle favorable for ankle lock or toe hold finish",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Opponent must abandon their recovery sequence and return to defending the submission, resetting the positional dynamic in your favor",
+        "risk": "Premature submission attempt without proper positioning may fail and create a better extraction opportunity for the opponent"
+      },
+      {
+        "action": "Follow hip movement and re-close distance by scooting forward as opponent hip escapes away",
+        "when_to_use": "When opponent begins hip escaping to create distance — match their movement speed to maintain zero distance throughout their escape attempt",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Opponent's hip escape generates no actual distance because you followed their movement, wasting their energy while your control position is maintained",
+        "risk": "Following movement may cause you to overextend and lose structural control if the opponent suddenly changes direction"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Entanglement/Bottom",
+        "how": "Maintain heel control and re-pummel hooks immediately when stripped. Follow opponent's hip movement to prevent distance creation. Use submission threats to interrupt extraction sequences and force the opponent to restart their recovery from the beginning."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "Capitalize on openings created during the opponent's extraction attempt by advancing your inside leg deeper across their hip and securing a tighter entanglement configuration. When they focus on stripping one hook, use the opportunity to advance to Inside Ashi-Garami where your control and submission access improve significantly."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding the entanglement without actively re-pummeling when hooks are stripped",
+        "consequence": "Opponent systematically dismantles your control structure one element at a time, eventually extracting their leg and recovering guard",
+        "correction": "Treat every hook strip as an emergency requiring immediate re-pummeling response. Your inside leg and heel control must be actively fought for, not passively maintained."
+      },
+      {
+        "error": "Remaining stationary while opponent hip escapes away to create distance",
+        "consequence": "Opponent creates enough separation to clear the knee line and extract their leg from the weakened entanglement",
+        "correction": "Follow every hip escape by scooting your own hips forward in sync. Maintain zero distance between your control points and their trapped leg throughout their movement."
+      },
+      {
+        "error": "Forcing a low-percentage submission instead of maintaining positional control during escape attempts",
+        "consequence": "Failed submission attempt creates the exact opening the opponent needs to complete their extraction, losing both the submission and the position",
+        "correction": "Only commit to submission finishes when you have secure control and proper angle. Use submission threats strategically to interrupt extraction rather than forcing low-percentage finishes."
+      },
+      {
+        "error": "Ignoring the opponent's hip frame foot and allowing them to push freely off your body",
+        "consequence": "The hip frame gives the opponent consistent distance management that enables systematic hook stripping and eventual extraction",
+        "correction": "Address the opponent's hip frame by stripping their foot from your hip or trapping it against your body. Remove their ability to push off and the extraction loses its primary distance-creation mechanism."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your opponent strips your C-grip on their heel and tucks their foot against their buttock — what is your immediate response?",
+        "answer": "Immediately re-attack the heel by reaching around or under their leg to re-establish the grip. If the heel is fully hidden, switch your offensive priority to the knee line — drive your inside leg deeper across their hip to strengthen positional control while you work to re-expose the heel. You can also threaten a toe hold or kneebar on the exposed portion of the leg, which forces them to address the new submission threat and often re-exposes the heel in their defensive reaction."
+      },
+      {
+        "question": "How do you prevent the opponent from successfully establishing a hip frame on your body during their recovery attempt?",
+        "answer": "Strip their framing foot from your hip by pushing it away with your hand or trapping it against your body with an overhook grip. If they successfully establish the frame, collapse the distance by driving your hips forward while controlling the framing leg — this neutralizes the pushing force. You can also change your angle relative to the frame by circling to the side, which makes their straight-line push ineffective. The goal is to deny them any point of leverage to create distance."
+      },
+      {
+        "question": "When should you attempt to advance from general leg entanglement to Inside Ashi-Garami during the opponent's recovery attempt?",
+        "answer": "Advance when the opponent commits both hands to stripping your hooks, leaving their heel momentarily undefended. Their extraction sequence creates predictable windows — specifically when they push your inside leg away, their attention shifts to that hook and their heel protection weakens. This is the optimal moment to re-secure heel control while simultaneously driving your inside leg deeper across their hip. Advancement during their escape is higher percentage than against a static, fully-defended opponent because their defensive resources are divided."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Retention Fundamentals",
+        "focus": "Maintaining entanglement against systematic extraction attempts",
+        "description": "Partner performs the guard recovery sequence at 50% speed and resistance. Practice re-pummeling hooks immediately when stripped, following hip movement to maintain distance, and re-securing heel grips when broken. Focus on developing automatic responses to each phase of the recovery attempt."
+      },
+      {
+        "phase": "Phase 2: Counter-Retention with Submission Threats",
+        "focus": "Using submission threats to interrupt extraction sequences",
+        "description": "Add submission attacks to your retention game — when opponent begins extraction, threaten ankle lock or toe hold finishes that force them to pause and defend. Practice reading the moments when extraction movement creates submission openings and timing attacks to those windows."
+      },
+      {
+        "phase": "Phase 3: Positional Advancement During Recovery",
+        "focus": "Converting opponent's escape attempts into position upgrades",
+        "description": "Practice advancing from general leg entanglement to Inside Ashi-Garami or Saddle during the opponent's recovery attempt. Read the openings their extraction creates and use them to improve your entanglement rather than simply maintaining. Develop the ability to punish escape attempts with positional advancement."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed retention and advancement against resisting opponents",
+        "description": "Positional sparring starting in leg entanglement. Opponent works full-speed guard recovery while you work retention and advancement. Develop competition-speed responses to all recovery variants and build the ability to chain retention, submission threats, and positional advancement fluidly."
+      }
+    ]
   }
 }

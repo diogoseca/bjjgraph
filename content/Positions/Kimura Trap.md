@@ -188,9 +188,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Knee on Belly]]** (8% of attempts)
 
-- **[[Transition to Reverse Scarf Hold]]** (0% of attempts)
-
-- **[[Guard Recovery]]** (8% of attempts)
+- **[[Arm Triangle Setup]]** (8% of attempts)
 
 - **[[Americana]]** (6% of attempts)
 

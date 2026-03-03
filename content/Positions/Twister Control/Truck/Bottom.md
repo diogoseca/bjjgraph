@@ -21,37 +21,37 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Forward Roll",
-      "text": "From this position, attempt Forward Roll. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Forward Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,25 +210,27 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (34% of attempts)
+### [[Granby Roll to Guard]] (42% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Leg Extraction to Guard]] (15% of attempts)
+### [[Leg Extraction to Guard]] (14% of attempts)
 
-### [[Rolling Back Take Reversal]] (9% of attempts)
+### [[Rolling Back Take Reversal]] (8% of attempts)
 
-### [[Forward Roll]] (11% of attempts)
+### [[Forward Roll]] (10% of attempts)
 
-### [[Back Door Escape]] (7% of attempts)
+### [[Back Door Escape]] (6% of attempts)
 
-### [[Defensive Roll]] (5% of attempts)
+### [[Defensive Roll]] (4% of attempts)
 
-### [[Hip Escape from Truck]] (2% of attempts)
+### [[Hip Escape from Truck]] (1% of attempts)
 
-### [[Leg Extraction from Truck]] (1% of attempts)
+### [[Leg Extraction from Truck]] (0% of attempts)
 
-### [[Roll to Guard from Truck]] (1% of attempts)
+### [[Roll to Guard from Truck]] (0% of attempts)
+
+### [[Escape from Truck]] (1% of attempts)
 
 
 
@@ -240,7 +242,7 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
 - Execute **[[Hand Fighting from Back]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 35%)
 
 
 **Else if opponent is attacking trapped leg with calf slicer:**
@@ -251,7 +253,7 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 **Else if opponent has boot control but loose upper body control:**
 - Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
 
 
 **Else if opponent is transitioning to back control (inserting hooks):**

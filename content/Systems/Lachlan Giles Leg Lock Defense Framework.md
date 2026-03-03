@@ -332,11 +332,11 @@ The Lachlan Giles framework emphasizes progressive resistance drilling that buil
 - [[Ashi Garami]] (Position) - Foundational position where most defensive sequences begin and prevention is most effective
 - [[Single Leg X-Guard]] (Position) - Entry position for many leg attacks, key area for prevention strategies
 - [[Knee Shield Half Guard]] (Position) - Defensive guard structure that helps prevent initial leg entanglement entries
-- [[Saddle Defense]] (Transition) - Core defensive technique for the most dangerous leg lock position
+- [[Ankle Lock Escape to Standing]] (Transition) - Key defensive transition for escaping ankle lock control and returning to a safe standing position
 - [[Ashi Garami Escape]] (Transition) - Fundamental clearing sequence taught as first defensive technique in the system
 - [[Outside Ashi Entry]] (Transition) - Common attack entry that must be recognized and prevented or defended against
 - [[Inside Ashi Entry]] (Transition) - High-danger entry pattern requiring specific prevention strategies
-- [[X-Guard to Ashi Transition]] (Transition) - Common transition that creates leg entanglement opportunities to defend
+- [[Ashi Entry from Leg Entanglement]] (Transition) - Common transition pathway creating leg entanglement opportunities that must be recognized and defended
 - [[Knee Slice Pass]] (Transition) - Passing technique that can expose legs to entanglement if performed without proper defense awareness
 - [[Defensive Strategy]] (Principle) - Overarching strategic framework that informs all defensive decision-making
 - [[Submission Defense]] (Principle) - General defensive principles that apply specifically to leg lock scenarios

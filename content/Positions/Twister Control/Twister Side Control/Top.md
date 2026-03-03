@@ -21,37 +21,37 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Twister Finish",
-      "text": "From this position, attempt Twister Finish. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Twister Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
       "text": "From this position, attempt Darce Choke. This technique is attempted in 10% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Anaconda Choke",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,25 +212,29 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Available Attacks
 
-### [[Twister Finish]] (9% of attempts)
+### [[Twister Finish]] (12% of attempts)
+
+### [[Back Take]] (14% of attempts)
 
 ### [[Darce Choke]] (10% of attempts)
 
-### [[Anaconda Choke]] (10% of attempts)
-
-### [[Kimura]] (11% of attempts)
-
-### [[Turtle to Truck]] (11% of attempts)
-
-### [[Back Take]] (11% of attempts)
+### [[Kimura]] (10% of attempts)
 
 ### [[Side Control to North-South]] (12% of attempts)
 
-### [[Side Control to Mount]] (10% of attempts)
+### [[Anaconda Choke]] (8% of attempts)
 
-### [[Arm Triangle]] (8% of attempts)
+### [[Arm Triangle]] (7% of attempts)
 
-### [[Calf Slicer]] (8% of attempts)
+### [[Side Control to Mount]] (8% of attempts)
+
+### [[Turtle to Truck]] (7% of attempts)
+
+### [[Calf Slicer]] (5% of attempts)
+
+### [[Twister SC to Back Take]] (4% of attempts)
+
+### [[Twister SC to Truck]] (3% of attempts)
 
 
 
@@ -401,8 +405,8 @@ Start from various positions (truck, side control, failed back take). Partner pr
 - **[[Darce Choke]]** - High-percentage submission option when bottom player turns into top player
 - **[[Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Back Control]]** - Common transition when bottom player exposes back during escape attempts
-- **[[Kimura]]** - Submission option when bottom player extends arm to frame
-- **[[Calf Slicer]]** - Leg attack available from established leg entanglement
+- **[[Kimura Trap]]** - Submission control option when bottom player extends arm to frame
+- **[[Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
 - **[[Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
 
 

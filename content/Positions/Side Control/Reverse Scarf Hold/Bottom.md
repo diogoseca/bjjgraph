@@ -21,37 +21,37 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -157,7 +157,7 @@ description: "Master defensive strategies and systematic escapes from Reverse Sc
 
 <section id="overview" class="content-section">
 
-Reverse Scarf Hold Bottom (Reverse Kesa Gatame Bottom) represents one of the more challenging defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves on their back with the opponent controlling from a reverse scarf hold position. Unlike traditional scarf hold where the top player faces toward the bottom player's legs, reverse scarf hold has the top player facing toward the head, creating unique control mechanics and escape challenges. This position is particularly difficult because the top player's weight distribution and control points create significant pressure on the chest and shoulders while limiting hip mobility.
+Reverse Scarf Hold Bottom represents one of the more challenging defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves on their back with the opponent controlling from a reverse scarf hold position. In reverse scarf hold the top player faces away from the bottom player's head toward their legs, creating unique control mechanics and escape challenges. This position is particularly difficult because the top player's weight distribution and control points create significant pressure on the chest and shoulders while limiting hip mobility.
 
 The bottom player in reverse scarf hold faces several interconnected problems: restricted breathing due to chest compression, limited hip movement preventing standard shrimping escapes, and the constant threat of arm attacks including kimura, americana, and straight armbar variations. The position demands patience, precise framing, and systematic escape sequences rather than explosive movements. Understanding the biomechanics of how the top player maintains control is essential for developing effective defensive responses.
 
@@ -170,7 +170,7 @@ Success in this position requires prioritizing survival first, then creating fra
 ## Position Definition
 
 - Bottom player on their back with shoulders and upper back pinned to the mat, chest compressed by top player's torso weight creating breathing restriction and postural control
-- Top player's hips positioned alongside bottom player's chest/shoulder area with reverse orientation (facing toward head), distributing weight through hip and torso compression against ribcage
+- Top player's hips positioned alongside bottom player's chest/shoulder area with reverse orientation (facing toward legs, away from head), distributing weight through hip and torso compression against ribcage
 - Bottom player's near arm typically controlled or trapped by top player's underhook or overhook, limiting defensive framing options and creating submission vulnerability
 - Bottom player's far arm either trapped under top player's body weight or struggling to create defensive frames against shoulder and neck pressure
 - Top player's legs sprawled or posted to prevent bottom player from creating angles or hip escapes, with base distributed to maintain heavy chest pressure
@@ -210,17 +210,23 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (20% of attempts)
+### [[Elbow Escape to Guard]] (31% of attempts)
 
-### [[Bridge and Roll]] (15% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Hip Escape to Guard]] (13% of attempts)
 
-### [[Frame and Shrimp to Guard]] (17% of attempts)
+### [[Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (13% of attempts)
+### [[Technical Stand-up]] (10% of attempts)
 
-### [[Shrimp Escape]] (18% of attempts)
+### [[Shrimp Escape]] (14% of attempts)
+
+### [[Escape Reverse Scarf Hold]] (4% of attempts)
+
+### [[Frame from Reverse Scarf Hold]] (2% of attempts)
+
+### [[Bridge Escape from Reverse Scarf Hold]] (1% of attempts)
 
 
 
@@ -241,7 +247,7 @@ Success in this position requires prioritizing survival first, then creating fra
 
 
 **If opponent attempts to advance to mount or north-south:**
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 65%)
+- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 65%)
 - Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
 
 

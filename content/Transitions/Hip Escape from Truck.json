@@ -1,13 +1,404 @@
 {
   "name": "Hip Escape from Truck",
-  "description": "",
-  "tags": [],
+  "description": "Master the hip escape from truck position in BJJ. Step-by-step escape mechanics to recover half guard while defending against twister and calf slicer.",
+  "tags": [
+    "escape",
+    "truck",
+    "hip-escape",
+    "half-guard-recovery",
+    "defensive",
+    "10th-planet",
+    "leg-entanglement"
+  ],
   "from_position": "Truck/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 100,
+      "probability": 45,
       "result": "success"
+    },
+    {
+      "to": "Truck/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The hip escape from truck is a fundamental positional escape that uses shrimping mechanics to extract the trapped leg and recover half guard from one of BJJ's most dangerous back-attack positions. The technique exploits windows of opportunity created when the truck top player's upper body control loosens, particularly during transitions between submission attempts or when boot pressure has been partially addressed. By creating lateral distance through systematic hip movement and addressing the opponent's boot pressure as the primary obstacle, the bottom player methodically works toward a recoverable guard position where the positional threat is dramatically reduced.\n\nThe strategic value of this escape lies in its reliability as a moderate-risk, controlled option compared to more dynamic alternatives like the granby roll. While rolling escapes offer higher reward potential through complete guard recovery or scrambles, the hip escape provides a more predictable path with lower risk of additional back exposure during execution. The technique demands patience, proper timing coordinated with the opponent's weight shifts, and sequential use of frames followed by hip movement to succeed against a competent truck player.\n\nAt purple belt and above, the hip escape from truck functions as part of an integrated escape system rather than a standalone technique. A partially successful hip escape that fails to fully extract the leg naturally sets up subsequent granby roll attempts by creating the angles needed for rotation. The framing sequences developed during the hip escape can transition into leg extraction entries or forward roll setups. Building this interconnected escape network transforms truck bottom from a panic position into a manageable problem with systematic solutions.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Boot-Clearing Hip Escape",
+      "description": "Prioritizes removing the opponent's boot pressure from the hip before initiating the shrimping sequence. The bottom player uses their free hand to fight the boot while simultaneously beginning to create a hip angle. Once boot pressure is reduced or eliminated, the standard hip escape sequence becomes dramatically more effective because the primary torque-generating mechanism has been neutralized.",
+      "when_to_use": "When opponent maintains strong boot pressure that prevents effective shrimping. Most effective when upper body control is relatively loose but boot pressure is the primary obstacle to escape."
+    },
+    {
+      "variant_name": "Frame-First Hip Escape",
+      "description": "Establishes strong forearm frames against the opponent's upper body before initiating hip movement. The frames create initial separation and prevent the opponent from following the hip escape with chest pressure. This variant works well against opponents who use chest pressure to maintain control and can chain directly into a full guard recovery when the framing creates enough space.",
+      "when_to_use": "When opponent relies heavily on upper body pressure and weight distribution rather than boot pressure alone. Particularly effective against heavier opponents whose weight makes direct shrimping difficult without initial frame-based separation."
+    },
+    {
+      "variant_name": "Incremental Hip Escape",
+      "description": "Uses multiple small hip escape movements rather than one large shrimping motion. Each micro-shrimp creates a small amount of space and slightly adjusts the angle of the trapped leg. Over three to four repetitions, the cumulative effect loosens the leg entanglement enough for extraction. This variant conserves energy and is harder for the top player to counter because each individual movement is small.",
+      "when_to_use": "When opponent has tight overall control and large movements are immediately countered. Effective in extended exchanges where energy conservation is critical and the opponent is actively readjusting to prevent escape."
+    }
+  ],
+  "position_integration": "The hip escape from truck occupies a critical position within the truck bottom escape hierarchy as the fundamental movement-based option alongside rolling escapes (granby roll) and leg extraction techniques. It connects the truck position to the half guard system, which itself opens pathways to sweeps, back takes, and full guard recovery. Within the broader positional framework, this escape represents the application of universal shrimping mechanics to one of the most constrained defensive positions in BJJ. Mastery of this technique reinforces the principle that hip movement is the primary escape mechanism across all bottom positions, from side control to mount to specialized control positions like the truck. The technique also integrates with the 10th Planet defensive system, where understanding truck escapes is essential given the system's emphasis on truck entries from lockdown and crab ride positions.",
+  "conditions": [
+    "Opponent's upper body control has loosened or is not fully established",
+    "Boot pressure is manageable or has been partially addressed through hand fighting",
+    "Neck is protected with chin tucked and hands defending collar or choking threats",
+    "Free leg can post on the mat to initiate hip escape movement",
+    "Sufficient energy remains for sustained sequential hip escape movements"
+  ],
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Starting position requiring escape"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary escape destination after successful leg extraction"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when opponent transitions during escape attempt"
+    },
+    {
+      "name": "Escape from Truck",
+      "relationship": "Related general escape technique from truck position"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Submission threat that motivates urgency for escape"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Primary submission threat position accessible from truck"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape destination through different escape routes"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative recovery position accessible via forward roll from truck"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related back attack position with similar escape mechanics"
+    },
+    {
+      "name": "Hip Escape from Back Control",
+      "relationship": "Similar escape mechanics applied from traditional back control"
+    }
+  ],
+  "attacker": {
+    "name": "Hip Escape from Truck Attacker",
+    "description": "Execute the hip escape from truck position to recover half guard. Systematic guide covering boot clearing, framing sequences, and leg extraction mechanics for escaping the truck.",
+    "overview": "As the person executing the hip escape from truck, your objective is to systematically dismantle the opponent's control structure and extract your trapped leg to recover half guard. This requires a sequential approach: first protect against immediate submission threats, then address the opponent's primary control mechanism (boot pressure), create distance through hip escape movement, and finally extract the trapped leg to establish half guard. The technique rewards patience and systematic execution over explosive movements, as the truck position's strength lies in its ability to punish panicked escape attempts with back control transitions or submission entries.",
+    "key_principles": [
+      "Protect the neck first before any escape attempt—the twister threatens serious spinal injury and must be defended as the absolute priority",
+      "Address boot pressure systematically as it is the foundation of all truck control—reducing boot pressure weakens every other aspect of the opponent's position",
+      "Use hip escape mechanics generated from core and legs rather than pushing with arms, which exhausts quickly against leg entanglement resistance",
+      "Time escape initiation to coincide with opponent's weight shifts during submission setups or positional adjustments",
+      "Create angles through sequential shrimping rather than attempting one large explosive movement that is easily countered",
+      "Maintain connection with the opponent during escape to prevent them from readjusting—complete disconnection allows them to re-establish full control"
+    ],
+    "setup_requirements": [
+      "Neck protection established with chin tucked and at least one hand defending against collar grips or twister setup",
+      "Boot pressure partially addressed through hand fighting or hip positioning that reduces torque on the body",
+      "Free leg posted on mat with foot flat to provide the base necessary for hip escape movement generation",
+      "Upper body frames in place or ready to deploy against opponent's chest and shoulder to prevent them from following your hip movement",
+      "Mental composure maintained with controlled breathing to enable systematic escape rather than panic-driven wasted movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish neck defense and assess position",
+        "description": "Immediately tuck chin and position at least one hand near the neck to defend against twister grips and choking attempts. Assess the opponent's control: identify where their boot pressure is focused, which arm they are controlling, and whether they are setting up upper or lower body submissions. This assessment determines which hip escape variant to employ."
+      },
+      {
+        "step_number": 2,
+        "action": "Fight boot pressure with free hand",
+        "description": "Use your free hand (the one not defending neck) to fight the opponent's boot that is pressing against your hip. Push the foot toward the floor or angle it away from your hip to reduce the torque they generate through your body. Even partial reduction of boot pressure significantly improves your ability to shrimp and creates the foundation for the subsequent escape sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish forearm frame against upper body",
+        "description": "Place your forearm frame across the opponent's chest, shoulder, or bicep to create initial separation between your upper bodies. This frame prevents them from following your hip escape movement with their chest pressure. The frame should be positioned with elbow tight to your body for structural strength rather than extended, which would allow them to collapse or swim past it."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute first hip escape movement",
+        "description": "Drive off your posted free foot to execute a hip escape (shrimp) movement away from the opponent. The direction should be perpendicular to their body, creating lateral distance that loosens the leg entanglement. Keep your trapped leg active during this movement, using ankle rotation and knee bending to begin creating space within the entanglement rather than just dragging the trapped leg along passively."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow with second hip escape to create extraction angle",
+        "description": "Perform a second hip escape to increase the angle and distance created. This second shrimp is critical because the first movement alone rarely creates sufficient space for leg extraction against a competent opponent. The cumulative distance from two sequential hip escapes typically opens enough space to begin pulling the trapped leg free. Maintain your frame throughout to prevent the opponent from closing the gap."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped leg using circular motion",
+        "description": "With sufficient angle and distance created, extract your trapped leg by circling the knee outward and pulling the foot free from the entanglement. Avoid pulling straight back, which fights directly against the opponent's leg control. Instead, use a circular or corkscrew motion with your ankle and knee that spirals the leg out of the entanglement. The rotation takes advantage of the space created by your hip escapes."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover half guard position immediately",
+        "description": "As your leg clears the entanglement, immediately reclamp it around the opponent's nearest leg to establish half guard. Do not leave space between extraction and guard recovery, as this gap allows the opponent to pass or re-establish truck. Trap their leg between both of yours at the knee level, securing the fundamental half guard entanglement that provides the control and offensive options of the half guard system."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate half guard with upper body control",
+        "description": "Once half guard is established, immediately fight for the underhook on the trapped leg side and establish a knee shield or other frame to prevent the opponent from re-entering truck or smashing past your guard. Turn to face the opponent fully, establishing the hip angle and upper body positioning that characterizes effective half guard bottom. Do not relax after extraction—consolidation prevents the opponent from immediately re-attacking."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent increases boot pressure and leg entanglement tightness during escape attempt",
+        "effectiveness": "High",
+        "your_response": "Switch to incremental micro-shrimps rather than large movements. Address boot pressure more aggressively with hand fighting before attempting subsequent hip escapes. Consider transitioning to granby roll if boot pressure makes shrimping ineffective.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to back control by inserting hooks during hip escape movement",
+        "effectiveness": "High",
+        "your_response": "If you feel hooks being inserted, immediately address the hooks using standard back control escape mechanics. The hip escape has partially weakened their truck control, so even if they achieve back control, the transition may leave their hooks shallow and escapable.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent attacks calf slicer on trapped leg during extraction attempt",
+        "effectiveness": "Medium",
+        "your_response": "Bend the trapped knee sharply to reduce calf slicer pressure while continuing the circular extraction motion. The extraction movement itself can relieve calf slicer pressure by changing the angle of compression. If slicer is locked, tap immediately to prevent knee injury.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent follows hip escape movement with matching pressure to close distance",
+        "effectiveness": "Medium",
+        "your_response": "Maintain frames actively and immediately execute second hip escape before opponent can settle their weight. Chain hip escapes rapidly when opponent is in motion rather than allowing them to re-establish static pressure. Use their forward movement momentum against them.",
+        "targets_outcome": "Truck/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting hip escape without first protecting the neck from twister threats",
+        "consequence": "Opponent capitalizes on the movement and exposed position to lock up twister grip, potentially causing serious cervical spine injury",
+        "correction": "Always establish neck defense as the first priority before any escape movement. Tuck chin and position at least one hand to defend against twister grips before initiating shrimping sequence."
+      },
+      {
+        "error": "Using only upper body pushing to create distance without engaging hip movement",
+        "consequence": "Rapid energy depletion with minimal effective distance creation. Arms alone cannot generate sufficient force to overcome leg entanglement resistance, and extended arms become vulnerable to isolation.",
+        "correction": "Generate all primary movement from hip escape mechanics using core and legs. Arms serve as frames to maintain distance, not as primary movers. Drive from posted foot through hip rotation."
+      },
+      {
+        "error": "Attempting one large explosive hip escape rather than sequential controlled movements",
+        "consequence": "Single explosive movement is easily countered by opponent tightening control. Burns significant energy in one attempt with low success rate against competent truck players.",
+        "correction": "Use two to four sequential hip escape movements, each building on the angle and distance created by the previous one. Systematic progression is more effective than explosive single attempts."
+      },
+      {
+        "error": "Pulling trapped leg straight backward during extraction instead of using circular motion",
+        "consequence": "Fights directly against the strongest axis of opponent's leg entanglement. Leg remains trapped and energy is wasted pulling against mechanical advantage.",
+        "correction": "Extract the trapped leg using a circular or corkscrew motion, spiraling the knee outward and ankle free. The rotation exploits gaps in the entanglement that a straight pull cannot access."
+      },
+      {
+        "error": "Failing to consolidate half guard immediately after leg extraction",
+        "consequence": "Opponent passes the guard or re-enters truck position through the momentary gap between extraction and guard establishment. Escape effort is wasted.",
+        "correction": "Clamp half guard immediately as the leg clears entanglement. There should be zero delay between extraction and guard recovery. Practice the extraction-to-half-guard transition as one continuous movement."
+      },
+      {
+        "error": "Neglecting to fight boot pressure before attempting hip escape",
+        "consequence": "Boot pressure generates torque that directly counteracts shrimping motion. Hip escapes become ineffective or dramatically weakened when boot remains fully engaged.",
+        "correction": "Address boot pressure with hand fighting before or simultaneously with initial hip escape. Even partial boot reduction significantly improves escape effectiveness."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Hip escape movement and leg extraction without resistance",
+        "description": "Partner holds truck position statically with no resistance. Practice the full sequence: neck defense, boot fighting, framing, hip escape, leg extraction, half guard recovery. Focus on smooth mechanics and proper sequencing. Perform 20-30 repetitions per side to develop muscle memory for the movement pattern."
+      },
+      {
+        "phase": "Phase 2: Light Resistance Integration",
+        "focus": "Executing escape against 30-40% resistance with timing development",
+        "description": "Partner maintains truck position with light resistance, providing boot pressure and basic upper body control without actively countering escape attempts. Bottom player practices identifying the correct timing windows and adjusting hip escape angles based on partner's positioning. Develop sensitivity to when boot pressure is lightest."
+      },
+      {
+        "phase": "Phase 3: Counter Recognition",
+        "focus": "Identifying and responding to opponent's counters during escape",
+        "description": "Partner at 50-60% resistance actively counters escape attempts by tightening control, transitioning to back control, or threatening submissions. Bottom player practices recognizing these counters and adjusting approach: switching between hip escape variants, chaining into granby rolls, or resetting defense when countered."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance escape application with chain escapes",
+        "description": "Start in truck bottom with partner at full resistance. Bottom player works to escape using hip escape as primary option while chaining into alternative escapes when countered. Track success rate over multiple rounds and identify specific situations where escape fails for targeted improvement. Minimum 10 rounds of 2-minute positional sparring."
+      },
+      {
+        "phase": "Phase 5: Entry-to-Escape Integration",
+        "focus": "Recognizing truck entries and initiating escape before position consolidates",
+        "description": "Start from turtle, scramble, or half guard positions where partner can enter the truck. Practice recognizing truck entries early and initiating hip escape mechanics before the position is fully consolidated. Early escape attempts during transition have significantly higher success rates than escaping from an established truck."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the hip escape from truck?",
+        "answer": "The optimal timing window occurs when the truck top player shifts their weight during submission setup transitions—specifically when they move from threatening upper body attacks to lower body attacks or vice versa. During these transitions, boot pressure momentarily decreases and upper body control loosens as they reposition. Secondary windows occur when the opponent adjusts their grips or when their weight shifts forward during submission attempts."
+      },
+      {
+        "question": "What conditions must exist before you can successfully execute the hip escape from truck?",
+        "answer": "Four conditions must be established: neck defense is active with chin tucked and hands protecting against twister grips, boot pressure has been partially addressed through hand fighting reducing the torque on your body, your free leg is posted on the mat providing the base for hip escape generation, and you have sufficient energy reserves for the sustained sequential movement required. Attempting the escape without these prerequisites dramatically reduces success probability."
+      },
+      {
+        "question": "What is the critical mechanical difference between successful and unsuccessful leg extraction?",
+        "answer": "Successful extraction uses a circular or corkscrew motion spiraling the knee outward and ankle free from the entanglement, exploiting gaps in the opponent's leg control. Unsuccessful extraction attempts to pull the leg straight backward, which fights directly against the strongest axis of the opponent's entanglement and mechanical advantage. The circular motion changes the angle of resistance with each degree of rotation, while straight pulling maintains constant maximum resistance."
+      },
+      {
+        "question": "Why does the hip escape frequently fail against competent truck players, and how do you address this?",
+        "answer": "The hip escape fails primarily because a single large shrimping motion is easily read and countered by the top player tightening boot pressure and following the movement. The solution is using sequential incremental hip escapes—two to four smaller movements that each create partial distance and angle. This approach is harder to counter because each individual movement is small enough to execute before the opponent can fully react, and the cumulative effect creates sufficient space for extraction."
+      },
+      {
+        "question": "What grip adjustments are necessary during each phase of the escape sequence?",
+        "answer": "During neck defense phase, one hand guards the neck while the other fights the boot. During the framing phase, the boot-fighting hand transitions to a forearm frame against the opponent's upper body. During hip escape, both arms maintain frames while legs drive the movement. During extraction, the near-side hand may assist the circular leg motion while the far-side hand maintains the upper body frame. After extraction, hands immediately transition to half guard grips—underhook and knee shield frame."
+      },
+      {
+        "question": "In what direction should the hip escape movement travel relative to the opponent's body?",
+        "answer": "The hip escape should travel perpendicular to the opponent's body orientation, creating lateral distance that loosens the leg entanglement. Moving directly away from the opponent by pulling straight backward is less effective because it maintains the opponent's control angles. The perpendicular shrimping motion changes the geometry of the leg entanglement by creating an angle that the opponent's hooks were not configured to control, making extraction possible."
+      },
+      {
+        "question": "Your opponent tightens boot pressure every time you attempt to shrimp—how do you adjust your escape strategy?",
+        "answer": "When the opponent consistently counters hip escapes with increased boot pressure, switch to the boot-clearing variant: dedicate more time and effort to hand fighting the boot before attempting any shrimping. Alternatively, use the hip escape attempt as a feint to draw the opponent's attention to boot maintenance, then immediately chain into a granby roll while they are focused on pressing the boot. The opponent cannot simultaneously increase boot pressure and prevent the rolling escape."
+      },
+      {
+        "question": "What chain attacks or alternative escapes should you prepare if the hip escape is blocked?",
+        "answer": "The primary chain option is transitioning to a granby roll, as the angles created by even a partially successful hip escape position your body well for rolling. Secondary options include leg extraction by circling the trapped leg independently using ankle flexibility, or a forward roll entry toward deep half guard. If all movement-based escapes fail, resetting to defensive posture and hand fighting to re-address boot pressure before attempting again is preferable to forcing a blocked escape."
+      }
+    ],
+    "safety_considerations": "The hip escape from truck must be practiced with awareness of the twister and calf slicer threats inherent to the position. During training, always tap immediately if the opponent locks a twister grip and begins spinal rotation—cervical spine injuries from the twister can be severe and occur with minimal warning. Similarly, tap early to calf slicer pressure during leg extraction attempts, as the changing angles during escape can accelerate compression on the knee joint. Partners should apply submissions slowly during escape drilling to allow time for tapping. Begin all training with static drilling at zero resistance before progressing to live positional sparring."
+  },
+  "defender": {
+    "name": "Hip Escape from Truck Defender",
+    "description": "Counter the hip escape from truck as the top player. Maintain truck control through boot pressure management, leg entanglement adjustments, and strategic transitions to back control.",
+    "overview": "As the truck top player defending against the hip escape, your objective is to maintain the dominant truck position by neutralizing the bottom player's shrimping mechanics and preserving the leg entanglement that enables your submission attacks. The hip escape represents the bottom player's most methodical escape attempt, and countering it requires understanding the sequential nature of their escape mechanics. By maintaining strong boot pressure, following their hip movement with matching pressure, and recognizing when to transition to back control rather than fighting to maintain truck, you can keep the positional advantage regardless of their escape attempts.",
+    "key_principles": [
+      "Maintain constant boot pressure as the foundation of all truck control—boot pressure directly counteracts shrimping mechanics and must be your first priority",
+      "Follow the bottom player's hip escape movement with matching upper body pressure to prevent distance creation and maintain chest-to-back connection",
+      "Recognize when truck position is becoming compromised and transition proactively to back control rather than fighting a losing battle to maintain truck",
+      "Tighten leg entanglement reactively when you feel the bottom player beginning extraction movements—preemptive tightening prevents the circular motion they need",
+      "Use submission threats to disrupt escape sequences—attacking the twister or calf slicer forces the bottom player to abandon escape and return to defense",
+      "Stay connected to the bottom player throughout their movement rather than allowing separation that they can exploit to complete the escape"
+    ],
+    "recognition_cues": [
+      "Bottom player begins fighting your boot with their free hand, pushing your foot away from their hip or attempting to redirect the pressure angle",
+      "Bottom player establishes forearm frames against your chest or shoulder, creating separation in the upper body connection",
+      "Bottom player's hips begin lateral movement away from you through shrimping motion, with their free leg posting on the mat for drive",
+      "Bottom player's trapped leg becomes active with ankle rotation or knee circling motions indicating preparation for extraction",
+      "Bottom player's breathing pattern changes to controlled deep breaths, suggesting they are preparing for a systematic escape sequence rather than panicking"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase boot pressure and drive hips forward to counteract shrimping",
+        "when_to_use": "As soon as you detect the bottom player posting their free foot or beginning lateral hip movement. Apply immediately to prevent the first hip escape from creating any distance.",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player's hip escape is neutralized and they remain in truck with your control fully intact, allowing continued submission hunting",
+        "risk": "Over-committing weight forward can expose you to a granby roll counter if the bottom player reads your forward pressure"
+      },
+      {
+        "action": "Transition to back control by inserting hooks during hip escape movement",
+        "when_to_use": "When the bottom player has created enough distance through hip escapes that the truck entanglement is loosening and leg extraction appears imminent. Proactively transition rather than losing position entirely.",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You maintain dominant position through back control with hooks, preserving your positional advantage even though truck was lost",
+        "risk": "Hook insertion may be shallow if timed poorly, giving the bottom player immediate escape opportunity from back control"
+      },
+      {
+        "action": "Attack calf slicer on trapped leg during extraction attempt",
+        "when_to_use": "When bottom player begins circular leg extraction motion. Their movement creates angles that can be exploited for calf slicer by extending their trapped leg while they are focused on escape mechanics.",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player must abandon escape and defend the calf slicer, resetting you to full truck control with submission pressure",
+        "risk": "Committing to the calf slicer attack may loosen your overall control if the submission fails and the bottom player continues extraction"
+      },
+      {
+        "action": "Tighten leg entanglement and re-establish upper body control",
+        "when_to_use": "When bottom player has created partial distance but has not yet begun leg extraction. Close the gap by following their movement and re-establishing the connections that were loosened.",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Position is fully restored to starting control level, negating the bottom player's escape progress and forcing them to restart",
+        "risk": "Following movement aggressively may result in scramble if bottom player is further along in escape than you estimated"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Truck/Bottom",
+        "how": "Maintain strong boot pressure throughout the escape attempt, follow the bottom player's hip movement with matching pressure, and tighten leg entanglement when you feel extraction attempts beginning. Use submission threats to interrupt systematic escape sequences."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Recognize when the truck position is becoming untenable and proactively transition to back control by inserting hooks during the bottom player's hip escape movement. Accept the positional change as a strategic improvement over losing control entirely."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing boot pressure to decrease while focusing on upper body submissions",
+        "consequence": "Bottom player's hip escapes become dramatically more effective without the torque from boot pressure, and escape success rate increases substantially",
+        "correction": "Maintain boot pressure as non-negotiable priority even during submission attacks. The boot is the foundation of all truck control and must be maintained through every action."
+      },
+      {
+        "error": "Not following the bottom player's lateral movement with matching pressure",
+        "consequence": "Distance accumulates with each hip escape, eventually creating enough space for leg extraction and guard recovery",
+        "correction": "Match every hip escape movement by driving your body to follow theirs. Maintain chest-to-back connection and close any gaps created by their shrimping before they can compound the distance."
+      },
+      {
+        "error": "Fighting to maintain truck position when it is clearly compromised rather than transitioning to back control",
+        "consequence": "Lose both truck position and back control opportunity, ending up in a scramble or the bottom player's guard with no positional advantage",
+        "correction": "Recognize the point of diminishing returns and proactively transition to back control. A secure back control position is better than a desperate truck hold."
+      },
+      {
+        "error": "Reacting to escape attempts only after significant distance has been created",
+        "consequence": "Late reactions allow the bottom player to compound advantages through sequential hip escapes, making each subsequent counter more difficult",
+        "correction": "React immediately to the first sign of escape: hand fighting the boot, posting the free foot, or beginning to frame. Early intervention is far more effective than late counters."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing a hip escape from truck?",
+        "answer": "The earliest cue is the bottom player fighting your boot with their free hand, attempting to push your foot away from their hip or redirect the pressure angle. This hand fighting precedes the actual hip escape movement and indicates they are addressing the primary obstacle before initiating shrimping. Recognizing this allows you to increase boot pressure preemptively before they begin moving their hips."
+      },
+      {
+        "question": "When should you transition from maintaining truck to establishing back control during an escape attempt?",
+        "answer": "Transition to back control when the bottom player has created enough distance through hip escapes that your leg entanglement is loosening and their trapped leg shows active extraction movement. The decision point is when maintaining truck requires more energy and creates more risk than transitioning. If you feel their knee circling or ankle rotating within your entanglement, the truck is compromised and back control insertion should begin immediately."
+      },
+      {
+        "question": "How do you use submission threats to disrupt the bottom player's systematic hip escape sequence?",
+        "answer": "When you recognize the bottom player beginning their escape sequence, immediately threaten a submission that requires them to redirect their defensive attention. A twister grip attempt forces them to stop shrimping and protect their neck. A calf slicer pressure on the trapped leg forces them to abandon extraction and address the compression. These threats break the sequential nature of their escape, forcing them to restart from the defensive phase rather than progressing through their escape checklist."
+      },
+      {
+        "question": "What is the most effective counter when the bottom player successfully creates distance with their first hip escape?",
+        "answer": "Follow their movement immediately by driving your hips forward and re-establishing chest-to-back connection before they can execute a second hip escape. The bottom player's escape depends on cumulative distance from sequential shrimps, so closing the gap after the first movement resets their progress. Simultaneously increase boot pressure and tighten leg entanglement to make their second attempt more difficult than their first."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Control Maintenance Basics",
+        "focus": "Maintaining truck position against cooperative escape attempts",
+        "description": "Bottom player performs the hip escape at slow speed with minimal force. Top player practices maintaining boot pressure, following hip movement, and tightening leg entanglement. Focus on developing sensitivity to movement cues and building automatic maintenance responses. 20+ repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Counter Recognition and Response",
+        "focus": "Identifying escape initiation and applying appropriate counter",
+        "description": "Bottom player increases escape intensity to 40-50% resistance. Top player practices reading escape cues and choosing between maintaining truck (boot pressure, following movement) and transitioning to back control. Develop decision-making framework for when each response is appropriate."
+      },
+      {
+        "phase": "Phase 3: Submission Integration",
+        "focus": "Using submission threats to disrupt escape sequences",
+        "description": "Bottom player attempts escape at 60-70% resistance. Top player practices timing submission threats (twister grip, calf slicer pressure) to interrupt escape sequences while maintaining position. Learn to balance between holding position and attacking without compromising control."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Live application of all truck top retention skills against full escape attempts",
+        "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes. Track retention rate and submission rate over multiple rounds. Identify specific escape patterns that cause position loss for targeted counter development."
+      }
+    ]
+  }
 }

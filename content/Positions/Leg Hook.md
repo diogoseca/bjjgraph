@@ -91,25 +91,27 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (26% of attempts)
+- **[[Deep Half Entry]]** (34% of attempts)
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Old School Sweep]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (8% of attempts)
+- **[[Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Shin Shield Recovery]]** (16% of attempts)
+- **[[Shin Shield Recovery]]** (15% of attempts)
 
-- **[[Half Guard Recovery]]** (10% of attempts)
+- **[[Half Guard Recovery]]** (9% of attempts)
 
-- **[[Guard Recovery]]** (8% of attempts)
+- **[[Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (8% of attempts)
+- **[[Butterfly Hook Recovery]]** (7% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (8% of attempts)
+- **[[Frame and Shrimp to Guard]]** (7% of attempts)
 
-- **[[Counter Leg Hook]]** (4% of attempts)
+- **[[Counter Leg Hook]]** (3% of attempts)
 
-- **[[Escape Leg Hook]]** (2% of attempts)
+- **[[Escape Leg Hook]]** (1% of attempts)
+
+- **[[Sweep from Leg Hook]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,7 +182,7 @@ This position requires precise understanding of weight distribution, hip positio
 
 - **[[Pressure Pass]]** (10% of attempts)
 
-- **[[Transition to Flattened Half Guard]]** (8% of attempts)
+- **[[Back Step Pass]]** (8% of attempts)
 
 - **[[Leg Hook to Half Guard]]** (4% of attempts)
 

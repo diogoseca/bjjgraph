@@ -337,7 +337,7 @@ Begin with static positional drilling where partner has back control but doesn't
 - [[Hip Escape to Guard]] (Transition) - Fundamental movement for creating space during escapes
 - [[Granby Roll to Guard]] (Transition) - Advanced escape option when hooks are partially cleared
 - [[Technical Stand-up]] (Transition) - Recovery option when opponent creates distance during escape
-- [[Turtle Transition]] (Transition) - Transitional position during back escape sequence
+- [[Back Door Escape]] (Transition) - Key escape transition used during back control escape sequences
 - [[Guard Recovery]] (Transition) - Final phase of escape protocol returning to guard
 - [[Hand Fighting from Back]] (Principle) - Critical defensive skill for preventing chokes from back control
 - [[Chin Protection]] (Principle) - First priority in back defense protocol

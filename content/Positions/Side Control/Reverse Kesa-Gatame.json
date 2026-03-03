@@ -19,8 +19,8 @@
       "relationship": "Traditional scarf hold with forward-facing orientation - parent position in scarf hold family"
     },
     {
-      "name": "Scarf Hold Position",
-      "relationship": "General category encompassing all scarf hold variations"
+      "name": "Reverse Scarf Hold",
+      "relationship": "General category encompassing reverse scarf hold variations"
     },
     {
       "name": "Kuzure Kesa-Gatame",
@@ -229,7 +229,7 @@
         "relationship": "Traditional scarf hold variation - parent position with forward-facing orientation"
       },
       {
-        "name": "Scarf Hold Position",
+        "name": "Reverse Scarf Hold",
         "relationship": "Alternative scarf hold variation with similar control mechanics"
       },
       {
@@ -363,7 +363,7 @@
     ],
     "overview": "Reverse Kesa-Gatame Bottom is a defensive position where the practitioner is pinned underneath an opponent who has secured reverse scarf hold control. Unlike traditional Kesa Gatame where the top player's hips face toward the bottom player's head, in Reverse Kesa-Gatame the top player's hips face toward the legs, creating a different set of control mechanics and escape opportunities. This position is characterized by the top player sitting on the bottom player's chest and shoulder area while controlling the near arm and facing toward the bottom player's hips and legs.\n\nThe bottom player faces significant challenges in this position as their mobility is severely restricted, with one arm typically trapped and their upper body compressed. However, the position offers distinct escape pathways that differ from traditional scarf hold escapes, primarily exploiting the top player's weight distribution and the direction of their control. The key to survival and escape lies in maintaining defensive frames with the free arm, creating space through hip movement, and capitalizing on the top player's tendency to sit too high or commit too heavily to submissions.\n\nFrom a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defensive action to prevent the position from consolidating into more dominant pins like North-South or Mount. The bottom player must prioritize hip escape mechanics, frame construction with the free arm, and systematic space creation before attempting to recover guard or transition to a neutral position. Understanding the biomechanics of this pin and the specific vulnerabilities it creates is essential for developing an effective escape system.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -415,7 +415,7 @@
             "probability": 55
           },
           {
-            "technique": "Frame and Shrimp to Guard",
+            "technique": "Shrimp Escape",
             "target": "Open Guard",
             "probability": 40
           }
@@ -430,7 +430,7 @@
             "probability": 60
           },
           {
-            "technique": "Frame and Shrimp to Guard",
+            "technique": "Shrimp Escape",
             "target": "Closed Guard",
             "probability": 35
           }
@@ -512,7 +512,7 @@
         "relationship": "Similar defensive position with different escape mechanics"
       },
       {
-        "name": "Scarf Hold Position",
+        "name": "Reverse Scarf Hold",
         "relationship": "Related pinning position family"
       },
       {
@@ -566,31 +566,35 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 28
+        "attempt_probability": 33
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 19
+        "attempt_probability": 18
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 17
+        "transition": "Shrimp Escape",
+        "attempt_probability": 16
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Bridge from Reverse Kesa-Gatame",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Escape Reverse Kesa-Gatame",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Turn In from Reverse Kesa",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

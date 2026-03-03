@@ -95,17 +95,23 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (18% of attempts)
+- **[[Arm Extraction]]** (40% of attempts)
 
-- **[[Arm Extraction]]** (21% of attempts)
+- **[[Shrimp Escape]]** (12% of attempts)
 
-- **[[Back Take from Bottom]]** (13% of attempts)
+- **[[Defensive Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Explosive Bridge to Turtle]]** (15% of attempts)
 
-- **[[Shrimp Escape]]** (20% of attempts)
+- **[[Roll to Guard]]** (9% of attempts)
 
-- **[[Standing Escape]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (7% of attempts)
+
+- **[[Arm Recovery from Crucifix]]** (3% of attempts)
+
+- **[[Crucifix Choke Defense]]** (1% of attempts)
+
+- **[[Hip Escape from Crucifix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,19 +172,21 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (18% of attempts)
+- **[[Rear Naked Choke]]** (8% of attempts)
 
-- **[[Neck Crank]]** (12% of attempts)
+- **[[Kimura]]** (6% of attempts)
 
-- **[[Armbar on Free Arm]]** (15% of attempts)
+- **[[Back Control Maintenance]]** (19% of attempts)
 
-- **[[Kimura]]** (13% of attempts)
+- **[[Choke from Crucifix]]** (40% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Armbar from Crucifix]]** (16% of attempts)
 
-- **[[Back Control Maintenance]]** (15% of attempts)
+- **[[Side Control to Mount]]** (6% of attempts)
 
-- **[[Side Control to North-South]]** (13% of attempts)
+- **[[Crucifix Maintenance]]** (3% of attempts)
+
+- **[[Crucifix to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -1,10 +1,14 @@
 {
   "name": "Kimura Counter via Roll",
-  "description": "TODO: Write 150-160 character SEO description for Kimura Counter via Roll.",
+  "description": "Master the Kimura Counter via Roll in BJJ. Defensive rolling technique from Kimura Trap bottom to re-establish closed guard when opponent escapes the grip.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "kimura-trap",
+    "counter",
+    "roll",
+    "guard-recovery",
+    "defensive"
   ],
   "from_position": "Kimura Trap/Bottom",
   "outcomes": [
@@ -19,120 +23,368 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Kimura Counter via Roll.",
+  "overview": "The Kimura Counter via Roll is a defensive transition technique employed from the Kimura Trap Bottom position when the top player begins successfully defending or extracting their arm from the Kimura grip. Rather than fighting a losing battle for grip retention that risks complete position loss, the bottom player redirects the remaining grip leverage into a rolling motion that transitions them into closed guard, preserving guard integrity and maintaining offensive options.\n\nThis technique represents a critical decision point within the Kimura Trap system. When the top player postures aggressively, stacks pressure, or begins systematically extracting their trapped arm, the bottom player must recognize the diminishing returns of maintaining the Kimura grip. The roll uses the opponent's defensive momentum against them—their pulling, posturing, or driving force becomes the energy source for the bottom player's hip rotation, allowing them to swing their legs around the opponent's waist and establish closed guard before the position deteriorates further.\n\nStrategically, the Kimura Counter via Roll serves as an essential safety valve that allows practitioners to commit fully to Kimura Trap attacks knowing they have a reliable exit when the grip fails. Without this technique, failed Kimura attempts from bottom often result in guard passes and significant positional losses. By converting a deteriorating Kimura Trap into closed guard, the bottom player maintains an offensive platform for sweeps, submissions, and re-entry into the Kimura system, creating a sustainable cycle of attack and recovery.",
   "conditions": [
-    "TODO"
+    "Opponent is actively defending or extracting their arm from your Kimura grip",
+    "You still maintain at least partial Kimura grip control with figure-four intact",
+    "Sufficient hip mobility exists to execute the rolling motion underneath your opponent",
+    "Opponent has not yet fully flattened your hips or consolidated a passing position"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Quick Hip Switch Roll",
+      "description": "A rapid version where the bottom player explosively switches hip direction and rolls when the opponent suddenly jerks their arm free. Uses the explosive momentum of the arm extraction as fuel for the roll rather than fighting it. Requires excellent hip dexterity and timing.",
+      "when_to_use": "When opponent yanks their arm back suddenly rather than methodically extracting it"
+    },
+    {
+      "variant_name": "Gi Collar-Assisted Roll",
+      "description": "In gi training, the bottom player grabs the opponent's far lapel or collar with their non-Kimura hand before initiating the roll. This secondary grip provides an additional pulling mechanism that helps complete the rotation and makes establishing closed guard more reliable by preventing the opponent from creating distance during transition.",
+      "when_to_use": "In gi grappling when you can secure a collar grip before the Kimura grip fully deteriorates"
+    },
+    {
+      "variant_name": "No-Gi Underhook Transition Roll",
+      "description": "In no-gi situations, the bottom player threads an underhook on the far side as they release the Kimura grip, using the underhook to maintain upper body connection throughout the roll. This prevents the opponent from disengaging during the transition and provides a natural entry point for closed guard control.",
+      "when_to_use": "In no-gi grappling where collar grips are unavailable and additional connection is needed"
     }
   ],
-  "position_integration": "TODO: Write position integration for Kimura Counter via Roll.",
+  "position_integration": "The Kimura Counter via Roll integrates into the broader Kimura Trap system as a critical exit strategy that preserves guard position when the Kimura grip is failing. It connects the Kimura Trap Bottom directly to Closed Guard Bottom, creating a safety net that allows practitioners to aggressively pursue Kimura attacks knowing they have a reliable fallback. This technique pairs with the Old School Sweep and Rolling Kimura as complementary options from the same position, ensuring the bottom player always has directional choices regardless of the opponent's defensive reaction. Understanding this transition eliminates the fear of grip failure that prevents many practitioners from committing fully to the Kimura Trap system, thereby increasing the effectiveness of the entire Kimura offense.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Kimura Trap",
+      "relationship": "Source position from which this counter-roll is initiated"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary target position on successful completion of the roll"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position reached when opponent successfully counters the roll attempt"
+    },
+    {
+      "name": "Rolling Kimura",
+      "relationship": "Related rolling technique from Kimura Trap that aims for top position rather than guard recovery"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Alternative sweep from Kimura Trap Bottom when opponent widens base"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Foundational grip and submission that anchors the Kimura Trap system"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Alternative transition when opponent turns into the Kimura grip defensively"
+    },
+    {
+      "name": "Kimura Sweep",
+      "relationship": "Related sweep using Kimura grip mechanics from bottom positions"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Complementary leg control often combined with Kimura Trap that must be released for the roll"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative high-value target from Kimura Trap system when opponent exposes their back"
     }
   ],
   "attacker": {
     "name": "Kimura Counter via Roll Attacker",
-    "description": "TODO: Write attacker description for Kimura Counter via Roll.",
-    "overview": "TODO: Write attacker overview for Kimura Counter via Roll.",
+    "description": "Execute the Kimura Counter via Roll from bottom. Step-by-step rolling technique to convert a failing Kimura Trap into closed guard, preserving offensive guard position.",
+    "overview": "As the attacker executing the Kimura Counter via Roll, your objective is to convert a deteriorating Kimura Trap position into a sustainable closed guard before the opponent fully extracts their arm and advances past your guard. This requires precise timing—you must recognize the moment when maintaining the Kimura grip transitions from viable offense to diminishing returns, then redirect the remaining grip leverage into rotational momentum. The roll is not a concession of defeat but a tactical repositioning that preserves your offensive capabilities. Your success depends on reading your opponent's escape patterns, maintaining hip mobility under pressure, and executing a smooth transition that denies them the positional advancement they expect when they feel the Kimura weakening. The best practitioners make this transition seamlessly, arriving in closed guard with posture-breaking grips already established before the opponent realizes the Kimura threat has ended.",
     "key_principles": [
-      "TODO"
+      "Recognize the critical threshold where the Kimura grip shifts from viable offense to diminishing returns, and commit to the roll before position deteriorates further",
+      "Use the opponent's arm extraction force and posturing energy as fuel for your rolling motion rather than fighting against it",
+      "Maintain continuous hip-to-hip connection throughout the transition to prevent the opponent from disengaging or creating passing angles",
+      "Time the leg release and swing precisely—release lockdown or half guard hooks only when sufficient rotational momentum is established",
+      "Transition grip configuration from Kimura to closed guard control grips during the roll itself, not after completing it",
+      "Keep the rolling motion tight and controlled to minimize the exposure window between positions"
     ],
     "setup_requirements": [
-      "TODO"
+      "Active Kimura grip still intact with at least partial figure-four control, even if opponent is beginning to extract",
+      "Hips turned toward opponent with enough mobility to initiate rotational movement despite bottom position",
+      "Leg connection through lockdown, half guard hook, or butterfly hook providing an anchor for generating roll momentum",
+      "Free arm positioned to assist the roll or prepared to establish immediate closed guard grips upon completion",
+      "Awareness that Kimura grip is failing and continued grip fighting will result in complete position loss"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Recognize grip deterioration",
+        "description": "Monitor the tension in your Kimura grip and feel for the opponent's arm beginning to slip free or their posture strengthening beyond your ability to control. Key indicators include their elbow straightening, wrist rotating out of your grip, or successful posturing that breaks your hip connection. This recognition moment determines whether you transition to the roll or continue fighting for the Kimura."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure hip connection and base",
+        "description": "Before initiating any rolling motion, verify that your hips are turned toward your opponent with active leg connection through lockdown, half guard hooks, or butterfly hook. Plant your outside foot flat on the mat to create a posting point for generating rotational force. This connection provides the anchor point that converts your hip drive into the rolling momentum needed to complete the transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Redirect grip energy into lateral rotation",
+        "description": "Rather than pulling the Kimura grip upward toward submission or fighting to maintain static control against the opponent's extraction, redirect the remaining grip pressure laterally across your body toward your opposite hip. This converts the opponent's resistance vector into rotational momentum that powers the roll, using their defensive force against them rather than opposing it directly."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate hip rotation with bridge",
+        "description": "Drive your bottom hip upward in a bridge while simultaneously rotating your torso toward your opponent, using the redirected Kimura grip as a steering mechanism for their upper body. Your hip movement should create a smooth arc that brings your body underneath and around the opponent's base, generating the centripetal force needed to swing your legs into closed guard position."
+      },
+      {
+        "step_number": 5,
+        "action": "Release leg hooks and swing legs around waist",
+        "description": "As your hip rotation creates sufficient momentum and spatial clearance, release the lockdown or half guard hook and swing your legs in a circular motion around the opponent's waist. Time this release precisely—releasing too early loses the rotational anchor that powers the swing, while releasing too late prevents the legs from clearing around their body and completing the guard closure."
+      },
+      {
+        "step_number": 6,
+        "action": "Lock ankles and establish closed guard",
+        "description": "Cross your ankles behind the opponent's lower back as your legs complete the wrap around their waist. Squeeze your knees together immediately to establish control and prevent the opponent from posturing away or disengaging before you consolidate the position. Pull your heels into their lower back to break their posture and establish the characteristic closed guard control pressure."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition to closed guard grips and break posture",
+        "description": "Release the Kimura grip configuration and immediately establish standard closed guard control grips. In the gi, secure cross collar and sleeve control. In no-gi, establish a collar tie and wrist control or overhook. Break the opponent's posture aggressively within the first two seconds of establishing closed guard to capitalize on their momentary disorientation from the positional transition."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent bases out wide and posts free hand to resist the rolling force",
+        "effectiveness": "High",
+        "your_response": "Abandon the roll attempt and immediately re-engage the Kimura grip if still available, or transition to an underhook sweep from half guard. Their wide base often exposes them to Old School Sweep mechanics.",
+        "targets_outcome": "Kimura Trap/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively to flatten your hips before the roll initiates",
+        "effectiveness": "High",
+        "your_response": "Use their forward pressure to fuel a Rolling Kimura instead, which converts their drive into sweeping momentum. Alternatively, frame on their shoulder and re-establish hip angle before reattempting.",
+        "targets_outcome": "Kimura Trap/Bottom"
+      },
+      {
+        "counter": "Opponent strips the Kimura grip during the rolling transition before closed guard is established",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Immediately transition to half guard retention by inserting your knee shield and establishing frames. Prioritize preventing the pass rather than completing the roll to closed guard.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back and pressures down through crossface to kill the rotational momentum",
+        "effectiveness": "Medium",
+        "your_response": "Convert the roll attempt into a deep half guard entry by sliding underneath their sprawled hips. Their backward hip movement creates the space needed for a deep half entry.",
         "targets_outcome": "Kimura Trap/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the roll too early while the Kimura grip is still viable for sweeps or submissions",
+        "consequence": "Wastes a high-value offensive position by transitioning to the less advantageous closed guard when the Kimura Trap still offered sweep and submission opportunities",
+        "correction": "Only commit to the counter-roll when you feel genuine grip deterioration or when the opponent's posture recovery makes Kimura attacks low-percentage. Exhaust sweep and submission options before transitioning."
+      },
+      {
+        "error": "Releasing leg hooks before generating sufficient rotational momentum with the hips",
+        "consequence": "Loss of the anchor point needed to power the leg swing, resulting in legs dangling without reaching around the opponent's waist. Often leads to the opponent passing to side control.",
+        "correction": "Maintain lockdown or half guard hooks until your hip bridge and rotation have generated clear momentum. Only release legs when you feel the rotational force is sufficient to carry your legs around their waist."
+      },
+      {
+        "error": "Rolling away from the opponent instead of rolling into them and around their base",
+        "consequence": "Creates separation that the opponent exploits to establish top position or pass guard. The roll should bring you closer, not farther from the opponent.",
+        "correction": "Direct the rolling motion into and around the opponent by pulling with the Kimura grip across your body. Your chest should rotate toward their chest, not away from it."
+      },
+      {
+        "error": "Failing to establish closed guard grips immediately after locking ankles",
+        "consequence": "Opponent postures up in the new closed guard position and immediately begins guard opening sequences while you are still recovering from the transition",
+        "correction": "Begin reaching for closed guard control grips during the leg swing itself, not after. Your hands should be transitioning to collar and sleeve as your ankles are crossing behind their back."
+      },
+      {
+        "error": "Attempting the roll when hips are completely flattened by opponent's pressure with no space for rotation",
+        "consequence": "Roll attempt fails and exposes your back or creates scramble opportunities that favor the top player who already has positional dominance",
+        "correction": "Create hip space first through shrimping or bridging before committing to the roll. If your hips are completely pinned, focus on frame creation and hip escape before attempting any rolling technique."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip rotation and leg swing coordination",
+        "description": "Practice the rolling motion solo on the mat, focusing on bridging into hip rotation and swinging legs in a circular path. Develop the muscle memory for the transition between lying on your side with hips turned and arriving in a closed guard position. Drill 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Partner Drilling with No Resistance",
+        "focus": "Complete technique sequence with cooperative partner",
+        "description": "With a partner in top position allowing you to maintain a light Kimura grip, practice the full sequence from grip recognition through closed guard establishment. Focus on smooth transitions, proper timing of leg release, and immediate grip establishment in closed guard. Partner remains neutral."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and adaptation under realistic pressure",
+        "description": "Partner actively works to extract their arm from the Kimura grip at 50-70% intensity. Practice reading the grip deterioration cues and initiating the roll at the correct moment. Partner should vary their extraction methods—pulling back, posturing, driving forward—to develop your recognition of different triggers."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Incorporating the roll into full Kimura Trap system sparring",
+        "description": "During positional sparring from Kimura Trap Bottom, work the complete system: attempt sweeps and submissions first, then transition to the counter-roll when the Kimura grip fails. Emphasize decision-making between maintaining the Kimura, attempting other techniques, and using the counter-roll as a bailout."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Kimura Counter via Roll?",
+        "answer": "The optimal window is when you feel the opponent's arm extraction becoming inevitable but before the Kimura grip is completely broken. Key indicators include their elbow straightening past 90 degrees, their wrist beginning to rotate free, or their posture recovering to a point where your hips disconnect. Initiating too early wastes viable Kimura position, while initiating too late means the grip breaks before the roll generates sufficient momentum to reach closed guard."
+      },
+      {
+        "question": "What is the most critical hip movement during the Kimura Counter via Roll?",
+        "answer": "The bridge-to-rotation transition is the most critical movement. Your bottom hip must drive upward in a bridge while simultaneously rotating your torso toward the opponent. This combined upward and rotational force creates the momentum needed to swing your legs around their waist. Without the bridge component, you lack the elevation to clear your legs. Without the rotation, you cannot direct the momentum into the guard-closing path."
+      },
+      {
+        "question": "Your opponent posts their free hand on the mat to resist the roll - how do you adjust?",
+        "answer": "When the opponent posts their hand, they create a tripod base that is extremely resistant to the rolling force. Rather than forcing through their post, abandon the roll and redirect to an alternative from Kimura Trap. Their posted hand often leaves their far side exposed for an Old School Sweep, or you can redirect the Kimura pressure toward the posted arm side to break their three-point base. Forcing a roll against a solid post wastes energy and exposes you to position loss."
+      },
+      {
+        "question": "What grip adjustments are necessary as you transition from Kimura grip to closed guard control?",
+        "answer": "Begin transitioning grips during the roll itself rather than after. As your legs swing around, your top hand releases the wrist grip and reaches for the collar (gi) or behind their head (no-gi). Your bottom hand releases the figure-four and moves to control their sleeve or wrist. The transition should be seamless—there should be no dead time where you have neither Kimura control nor closed guard grips, as this gap allows the opponent to posture and begin immediate guard opening."
+      },
+      {
+        "question": "What direction should the rolling force be applied relative to your opponent's base?",
+        "answer": "The rolling force should be directed diagonally into and under your opponent's base, pulling them toward your hip on the side of the Kimura grip. This diagonal vector both closes distance (preventing separation) and creates the angular momentum needed for your legs to clear around their waist. Rolling directly sideways creates too much separation, while rolling straight into them stalls against their forward pressure and base."
+      },
+      {
+        "question": "Your opponent drives forward with heavy crossface pressure as you attempt the roll - how do you respond?",
+        "answer": "Use their forward drive as fuel for the technique by converting the roll into a Rolling Kimura sweep instead, which leverages their forward momentum to come up on top. Alternatively, frame on their crossface shoulder with your free arm to create just enough space for hip rotation, then time the roll to coincide with a surge in their forward pressure. Their own momentum, properly redirected, powers the transition more effectively than your own force."
+      },
+      {
+        "question": "If the roll is partially blocked and you cannot establish closed guard, what is your fallback chain?",
+        "answer": "If the roll stalls mid-transition, immediately prioritize half guard retention by inserting your knee shield between your bodies and establishing a cross-face frame. From knee shield half guard, you can reattempt the Kimura grip if the opponent's arm remains accessible, transition to butterfly half guard for sweep options, or work standard half guard recovery. The worst outcome is getting stuck mid-roll with no guard structure—always have a positional fallback."
+      },
+      {
+        "question": "How do you prevent the opponent from capitalizing on the transition window between Kimura release and closed guard establishment?",
+        "answer": "Minimize the transition window by overlapping the grip change with the leg swing—your hands should be moving to closed guard grips while your legs are still completing the wrap. Keep your chest pressed tight against their torso throughout the roll to deny space for posturing. The moment your ankles cross, immediately pull your heels into their lower back and squeeze your knees to break their posture before they can orient to the new position."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Kimura Counter via Roll."
+    "safety_considerations": "The Kimura Counter via Roll involves rapid rotational movement that can stress the neck, shoulders, and spine. During the grip transition phase, the shoulder joint remains under residual Kimura pressure and sudden movement can cause injury if the grip is not released smoothly. Always practice at controlled speed before attempting in live sparring. Communicate with training partners before drilling to prevent unexpected rolls that could cause collision injuries. If you experience sharp pain in the shoulder or neck during execution, stop immediately and assess before continuing. Partners should avoid resisting with rigid, locked-out arms during the Kimura phase, as the rolling motion can amplify joint pressure unpredictably."
   },
   "defender": {
     "name": "Kimura Counter via Roll Defender",
-    "description": "TODO: Write defender description for Kimura Counter via Roll.",
-    "overview": "TODO: Write defender overview for Kimura Counter via Roll.",
+    "description": "Defend against the Kimura Counter via Roll. Recognition cues, defensive positioning, and strategies to capitalize when the bottom player attempts to roll from Kimura Trap.",
+    "overview": "As the defender against the Kimura Counter via Roll, you are the top player in a Kimura Trap position who has been working to extract your arm or advance past the bottom player's guard. When the bottom player recognizes their Kimura grip is failing, they will attempt to roll into closed guard rather than simply lose position. Your objective is either to prevent the roll entirely, keeping them in the deteriorating Kimura Trap where you can continue extracting your arm, or to capitalize on the rolling motion to advance your position beyond what the Kimura Trap normally allows. Understanding this technique's mechanics allows you to read the setup, time your defensive response, and convert the bottom player's transitional vulnerability into positional advancement. The roll creates a brief window where the bottom player's legs are neither in half guard nor closed guard—exploiting this window is the key to successful defense.",
     "key_principles": [
-      "TODO"
+      "Recognize pre-roll indicators early to prepare defensive positioning before the rolling motion begins",
+      "Maintain heavy hip pressure and base to deny the bottom player the space needed to generate rotational momentum",
+      "Control the Kimura grip hand and wrist to prevent the bottom player from redirecting grip energy into the roll",
+      "Post and widen base when you feel rotational force beginning, creating a tripod that resists the rolling vector",
+      "Capitalize on the transition window when the bottom player's legs are in between positions and vulnerable to passing",
+      "Drive forward through the roll attempt rather than retreating, as forward pressure collapses the rotational mechanics"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player's Kimura grip pressure shifts from upward (toward submission) to lateral (across their body), indicating redirection into roll",
+      "Bottom player plants their outside foot flat on the mat, establishing a posting point for bridge-to-rotation movement",
+      "Hip angle changes from static control to loading for explosive bridge, with the bottom player's hips shifting toward you",
+      "Bottom player's free hand moves from framing position to reaching for your collar or behind your head, preparing post-roll grips"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Post free hand wide and sprawl hips back to kill rotational momentum",
+        "when_to_use": "When you feel the first signs of lateral grip redirection and hip loading before the roll fully initiates",
         "targets_outcome": "Kimura Trap/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Roll attempt is stuffed and bottom player remains in Kimura Trap with a now-weaker grip, allowing continued arm extraction or guard passing",
+        "risk": "If you post too wide, you may expose your back to a back take if they redirect to a different Kimura Trap technique"
+      },
+      {
+        "action": "Drive forward with heavy crossface pressure to flatten their hips and deny bridging space",
+        "when_to_use": "When bottom player begins loading their hips for the bridge that powers the roll",
+        "targets_outcome": "Kimura Trap/Bottom",
+        "if_successful": "Bottom player's hips are flattened, eliminating the space needed for any rolling or sweeping motion from the Kimura Trap",
+        "risk": "Excessive forward drive can be redirected into a Rolling Kimura sweep if the bottom player maintains strong grip"
+      },
+      {
+        "action": "Strip the Kimura grip during the transition window when hands are changing configuration",
+        "when_to_use": "During the brief moment when the bottom player begins releasing the Kimura grip to transition to closed guard grips",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Bottom player loses both Kimura control and fails to establish closed guard, leaving them in half guard without offensive grips",
+        "risk": "Timing must be precise—attempting too early when grip is still strong wastes your extraction effort"
+      },
+      {
+        "action": "Backstep over their legs during the roll to prevent closed guard establishment and advance to side control",
+        "when_to_use": "When the roll is already in motion and prevention is no longer possible, capitalize on their legs being in transition",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You bypass the closed guard entirely and land in half guard top or side control, converting their recovery attempt into position loss",
+        "risk": "Mistimed backstep can result in you falling into their closed guard with poor posture, worsening your position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Capitalize on the transition window when the bottom player's legs are releasing from half guard hooks but have not yet closed around your waist. Strip the weakening Kimura grip with a sharp two-on-one break, then immediately drive your knee across their thigh line to establish half guard top before their legs can reconnect. Use your freed arm to crossface and flatten them, consolidating half guard top where the failed roll has left them without grips or defensive structure."
+      },
+      {
+        "outcome": "Kimura Trap/Bottom",
+        "how": "Prevent the roll entirely by recognizing the setup cues and immediately sprawling your hips back while posting your free hand wide. Drive heavy shoulder pressure into their chest to flatten their hips against the mat, eliminating the bridge space needed to generate roll momentum. Maintain forward crossface pressure and continue methodically extracting your arm from the now-weakened Kimura grip."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Retreating hips backward when feeling the roll initiate instead of driving forward through it",
+        "consequence": "Creates the exact space the bottom player needs to complete the hip rotation and leg swing into closed guard",
+        "correction": "Drive hips forward and down when you feel the roll beginning, collapsing the space needed for rotation. Forward pressure through the roll kills the technique mechanically."
+      },
+      {
+        "error": "Pulling arm back explosively without controlling body position when the Kimura grip weakens",
+        "consequence": "The explosive extraction provides the exact momentum the bottom player redirects into the counter-roll, essentially powering their technique for them",
+        "correction": "Extract your arm methodically with controlled pressure while maintaining heavy top position. Deny them the sudden energy burst they need to fuel the rolling motion."
+      },
+      {
+        "error": "Failing to recognize the pre-roll indicators and being caught mid-transition without a defensive plan",
+        "consequence": "Roll succeeds easily because you had no base adjustment, posting, or pressure ready to counter the rotational force",
+        "correction": "Study the four key recognition cues—lateral grip shift, foot plant, hip loading, and hand repositioning. When you see any two of these simultaneously, immediately post wide and sprawl."
+      },
+      {
+        "error": "Attempting to stand up and disengage when feeling the roll rather than maintaining connection and pressure",
+        "consequence": "Standing creates space underneath that makes the roll even easier, and you lose the weight pressure that is your primary defense against bottom-player techniques",
+        "correction": "Stay connected with chest and shoulder pressure throughout. Your weight on top of them is your greatest defensive asset—removing it by standing surrenders your primary advantage."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that your opponent is about to attempt the Kimura Counter via Roll?",
+        "answer": "The four primary cues are: their Kimura grip pressure shifting from upward toward submission to lateral across their body, their outside foot planting flat on the mat as a bridging post, their hips loading and shifting toward you in preparation for explosive rotation, and their free hand moving from framing to reaching for your collar or head. Seeing any two of these simultaneously indicates an imminent roll attempt and should trigger immediate defensive positioning."
+      },
+      {
+        "question": "How should you position your hips to resist the rolling motion effectively?",
+        "answer": "Drop your hips heavy and forward, sprawling your legs back at approximately 45 degrees to create a wide, low base. Your hip bone should press into their torso, pinning them flat and eliminating the space they need for the bridge that initiates the roll. Avoid keeping your hips high or square, as this creates the elevation gap the bottom player exploits. The lower and heavier your hips, the more force they need to generate rotation."
+      },
+      {
+        "question": "Your opponent initiates the roll but you feel their legs starting to swing around your waist - what is your immediate response?",
+        "answer": "Immediately backstep your far leg over their swinging legs before they can lock ankles behind your back. Simultaneously, drive your near knee across their hip line to block the leg closure. If you cannot prevent the ankle lock, posture up explosively the instant their ankles cross, establishing hands on their hips before they can break your posture. The first two seconds after guard closure determine whether you can posture and begin opening or get broken down."
+      },
+      {
+        "question": "How do you use your arm extraction to prevent the roll rather than fuel it?",
+        "answer": "Extract your arm with steady, controlled pressure rather than explosive jerking. Maintain constant forward chest pressure while methodically straightening your elbow and rotating your wrist toward their thumb line—the weakest point of any grip. The key is removing your arm without creating the energy spike the bottom player redirects into roll momentum. Think slow constant pressure rather than sudden explosive pulling."
+      },
+      {
+        "question": "What is the most advantageous position to achieve when the roll attempt fails mid-transition?",
+        "answer": "Half guard top with crossface control is the most advantageous realistic outcome. When the roll stalls mid-transition, the bottom player's legs are between half guard and closed guard—neither fully locked nor fully free. Drive your knee through this gap to establish half guard top, immediately crossface to flatten them, and begin passing. They will be grip-less and structurally compromised from the failed roll, making the pass significantly easier than from a stable Kimura Trap."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying pre-roll cues in live movement",
+        "description": "From Kimura Trap top position, have your partner attempt the counter-roll at various speeds while you focus purely on recognizing the four setup indicators. Do not attempt to stop the roll initially—just call out when you see the cues. Develop pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Defensive Positioning Drill",
+        "focus": "Base and pressure adjustments to prevent the roll",
+        "description": "Partner signals the roll attempt, and you practice the defensive response: sprawl, post, and forward pressure. Work at 50% speed with partner providing honest resistance. Focus on hip positioning, posting mechanics, and maintaining weight distribution that kills rotational momentum."
+      },
+      {
+        "phase": "Phase 3: Capitalizing on Failed Rolls",
+        "focus": "Transitioning to advantageous position when roll attempt stalls",
+        "description": "Partner attempts the roll at 70% intensity while you practice both preventing the roll and advancing position when it fails. Work the backstep timing, knee insertion to half guard top, and immediate crossface consolidation. Develop the instinct to advance rather than simply defend."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Integrating defense into complete Kimura Trap top game",
+        "description": "Full-speed positional sparring starting from Kimura Trap with top player working arm extraction while defending all bottom player options including the counter-roll. Develop fluid decision-making between extraction, defense, and position advancement under realistic conditions."
       }
     ]
   }

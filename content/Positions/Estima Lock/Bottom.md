@@ -21,37 +21,37 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 38% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Sweep",
-      "text": "From this position, attempt Counter Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Counter Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Angle Change Escape",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,19 +208,21 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (24% of attempts)
+### [[Ashi Garami Escape]] (23% of attempts)
 
-### [[Leg Extraction]] (33% of attempts)
+### [[Leg Extraction]] (38% of attempts)
 
-### [[Counter Sweep]] (4% of attempts)
+### [[Counter Sweep]] (3% of attempts)
 
-### [[Saddle Defense]] (14% of attempts)
+### [[Angle Change Escape]] (13% of attempts)
 
-### [[Standing Escape]] (14% of attempts)
+### [[Standing Escape]] (13% of attempts)
 
-### [[50-50 Entry]] (9% of attempts)
+### [[50-50 Entry]] (8% of attempts)
 
-### [[Estima Lock Counter Roll]] (2% of attempts)
+### [[Estima Lock Counter Roll]] (1% of attempts)
+
+### [[Counter from Estima Lock]] (1% of attempts)
 
 
 
@@ -237,7 +239,7 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 **If opponent has deep grip with full inversion and hip pressure established:**
 - Execute **[[Counter Sweep]]** → [[Estima Lock]] (Probability: 35%)
-- Execute **[[Saddle Defense]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Angle Change Escape]]** → [[Half Guard]] (Probability: 65%)
 
 
 **If free leg can establish hooks or frames on opponent's body:**
@@ -332,11 +334,11 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 **Q2**: Your opponent tightens their grip and begins applying rotational pressure—what physical signals indicate you should tap?
 **A**: Tap signals include: sharp pain in the ankle joint or Achilles tendon area, sensation of the ankle being twisted beyond normal range, inability to reduce pressure through counter-rotation, loss of hip mobility preventing escape attempts, and recognition that the mechanical completion of the lock has occurred. When any of these signals appear, immediate tap preserves joint health and training longevity.
 
-**Q3**: Why is keeping a slight bend in the trapped knee important during escape attempts?
-**A**: A slight knee bend reduces the linear force transmission through the leg, decreasing the mechanical advantage of the Estima Lock. A completely straight leg creates a direct line of force that dramatically increases ankle pressure and accelerates submission. The bent knee also preserves options for circular hip movements that can reduce lock pressure and create escape angles.
+**Q3**: Your trapped knee straightens during an escape attempt and you immediately feel increased pressure on your ankle—what happened and how do you correct this?
+**A**: A straight knee creates a direct line of force transmission that dramatically amplifies the Estima Lock's mechanical advantage on your ankle joint. The increased pressure occurs because all of the opponent's rotational force now transfers directly through the ankle without any absorption from the bent knee. Immediately re-bend your knee to reduce this linear force transmission. Use circular hip movements rather than linear pushing to restore your escape angles while protecting the joint.
 
-**Q4**: How should you use your free leg when defending the Estima Lock position?
-**A**: The free leg is your most important defensive tool. Use it to push opponent's hips to create distance, hook their legs to set up sweeps or create structural instability, create butterfly hooks for elevation opportunities, or post on the mat for technical standup escapes. A passive free leg surrenders your primary leverage point and allows the opponent to advance or maintain control without resistance.
+**Q4**: Your opponent tightens their grip and you realize your free leg is flat on the mat doing nothing—what immediate adjustment do you make?
+**A**: Activate the free leg immediately by positioning your foot on the opponent's hip, inner thigh, or behind their knee. This leg is your primary escape lever and leaving it passive surrenders critical defensive capability. Push their hips to create distance, hook their leg to generate structural instability, or establish a butterfly hook for potential elevation. The opponent's ability to maintain control depends heavily on restricting your hip mobility, and an active free leg is the most effective tool for generating the space and angles needed for extraction.
 
 **Q5**: Your opponent's grip momentarily loosens as they adjust their position—what is the correct response?
 **A**: Immediately capitalize on grip loosening by initiating leg extraction before they can re-establish tight control. Simultaneously create frames on their hips to generate additional space and use your free leg to push or hook. The moment of grip adjustment is your best escape window—act decisively rather than waiting for a better opportunity that may not come.
@@ -347,8 +349,8 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 **Q7**: What happens if you attempt an explosive roll or spin without first establishing proper frames?
 **A**: Explosive movements without proper setup increase torque on the trapped ankle dangerously and can cause self-inflicted injury. The opponent typically follows the movement while maintaining the lock, resulting in worse position with the same or greater submission pressure. Controlled technical movements with frames established first allow incremental position improvements rather than explosive gambling that often backfires.
 
-**Q8**: How do you maintain upper body mobility while defending the Estima Lock?
-**A**: Keep posting hands active and ready to create frames, turn your shoulders toward the trapped leg to maintain hip mobility, and avoid being flattened onto your back. Upper body activity preserves the escape angles necessary for successful leg extraction. If the opponent flattens you completely, hip mobility is eliminated and all escapes become significantly more difficult or impossible.
+**Q8**: Your shoulders flatten to the mat during the defense and you lose your angle toward the trapped side—how do you recover your mobility?
+**A**: Post immediately with your far hand (the hand on the side away from the trapped leg) and drive your elbow into the mat to create a posting base. Turn your shoulders back toward the trapped leg side by bridging slightly and using the posted hand as a pivot point. Simultaneously activate your free leg to push the opponent's hips and create space that allows your upper body to recover its angle. Being flattened eliminates the hip mobility required for extraction, so recovering this angle is an urgent priority before continuing any escape attempt.
 
 
 

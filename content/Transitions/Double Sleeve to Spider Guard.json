@@ -1,10 +1,15 @@
 {
   "name": "Double Sleeve to Spider Guard",
-  "description": "TODO: Write 150-160 character SEO description for Double Sleeve to Spider Guard.",
+  "description": "Master the Double Sleeve to Spider Guard transition in BJJ. Complete guide to grip mechanics, bicep hook placement, and timing for this essential guard evolution.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard-evolution",
+    "spider-guard",
+    "double-sleeve",
+    "open-guard",
+    "gi",
+    "sleeve-control"
   ],
   "from_position": "Double Sleeve Guard/Bottom",
   "outcomes": [
@@ -25,114 +30,379 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Double Sleeve to Spider Guard.",
+  "overview": "The Double Sleeve to Spider Guard transition is one of the most fundamental guard evolutions in gi jiu-jitsu, representing the natural upgrade from basic bilateral sleeve control to one of the most powerful open guard configurations available. From an established Double Sleeve Guard, the bottom player repositions their feet from the opponent's hips to their biceps while maintaining firm cuff grips on both sleeves, creating the extended pushing frames that define Spider Guard. This transition capitalizes on existing grip infrastructure to upgrade positional control without releasing primary connection points, making it lower risk than transitions requiring grip conversion.\n\nThe strategic significance of this transition lies in the dramatic increase in offensive capability that spider guard provides over double sleeve guard alone. Where double sleeve guard primarily controls distance and prevents the top player from establishing their own grips, spider guard adds the ability to manipulate the opponent's posture through bicep pressure, creating immediate sweep and submission threats through triangles, omoplatas, and technical sweeps. The leg-against-arm asymmetry of spider guard means the bottom player's stronger leg muscles control the opponent's weaker arm muscles, creating a favorable energy exchange that rewards the guard player over extended exchanges.\n\nThe key challenge lies in maintaining control during the transition itself. The moment your feet leave the opponent's hips to travel toward their biceps, you temporarily lose your primary distance management frame. Skilled opponents recognize this vulnerability and will attempt to strip grips or close distance during this window. Successful execution requires precise timing coordinated with grip tension, typically initiated when the opponent extends their arms during grip fighting or postures up to create space. The transition rewards practitioners who develop sensitivity to their opponent's weight shifts and arm positioning rather than those who attempt to force the entry against a settled, well-postured opponent.",
   "conditions": [
-    "TODO"
+    "Both sleeve grips firmly established at opponent's cuffs with deep four-finger pistol grips",
+    "Opponent kneeling or standing within guard engagement range with arms accessible",
+    "Opponent's arms extended or extendable through pulling tension, not retracted behind their hips",
+    "Sufficient hip mobility to reposition feet from hips to biceps without losing grip tension",
+    "At least one foot maintaining contact with opponent's body as a frame during the transition"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Sequential Single-Side Entry",
+      "description": "Place one foot on the opponent's bicep first while keeping the other foot firmly on their hip as a distance management frame. Once the first bicep hook is secured and stable, transition the second foot. This sequential approach maintains control throughout and is the safest entry method.",
+      "when_to_use": "Default entry method for most situations, particularly against opponents with strong passing pressure who will exploit any momentary loss of frame control"
+    },
+    {
+      "variant_name": "Simultaneous Double Bicep Jump",
+      "description": "Move both feet from the hips to the biceps in one explosive motion, using a sharp pull on both sleeves to extend the opponent's arms while simultaneously jumping feet to biceps. Faster but riskier than sequential entry.",
+      "when_to_use": "When the opponent extends both arms simultaneously during a grip break attempt, creating a brief window where both biceps are accessible at optimal range"
+    },
+    {
+      "variant_name": "Lasso-Spider Hybrid Entry",
+      "description": "Thread one leg under the opponent's arm into a lasso configuration while placing the other foot on the opposite bicep, creating an asymmetric lasso-spider hybrid rather than classic bilateral spider guard. Provides different sweep angles and stronger unilateral control.",
+      "when_to_use": "When the opponent circles laterally during the transition, making standard bilateral spider guard difficult to establish from the resulting angle"
     }
   ],
-  "position_integration": "TODO: Write position integration for Double Sleeve to Spider Guard.",
+  "position_integration": "The Double Sleeve to Spider Guard transition occupies a critical junction in the open guard evolution system, serving as the primary upgrade path from basic bilateral sleeve control to one of gi jiu-jitsu's most powerful guard configurations. This transition connects the Double Sleeve Guard hub to the Spider Guard hub, opening access to the full spider guard attack tree including triangle entries, omoplata setups, and technical sweeps. It exists alongside Double Sleeve to Lasso and Double Sleeve to De La Riva as the three primary guard evolution pathways from the double sleeve position, with the specific choice dictated by the opponent's posture, arm positioning, and passing strategy. Mastery of all three pathways creates a guard switching system where the bottom player can cycle between guard configurations based on defensive reactions, maintaining constant offensive pressure without committing to any single guard that the opponent can solve.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Spider Guard",
+      "relationship": "Target position achieved when bicep hooks and sleeve grips are fully established"
+    },
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Starting position providing the bilateral sleeve control foundation for this transition"
+    },
+    {
+      "name": "Double Sleeve to Lasso",
+      "relationship": "Alternative guard evolution from double sleeve targeting asymmetric lasso control"
+    },
+    {
+      "name": "Double Sleeve to De La Riva",
+      "relationship": "Alternative guard evolution from double sleeve targeting hook-based control against standing opponents"
+    },
+    {
+      "name": "Collar Sleeve to Spider Guard",
+      "relationship": "Related transition reaching same target position from collar sleeve starting point"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Complementary guard reachable via lasso-spider hybrid entry variant"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category and counter outcome position when grips are stripped during transition"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related sleeve-based guard sharing grip foundations and transition pathways"
+    },
+    {
+      "name": "Armbar Setup from Double Sleeve",
+      "relationship": "Alternative offensive option from the same starting position targeting submission"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Primary submission entry available from spider guard after successful transition"
     }
   ],
   "attacker": {
     "name": "Double Sleeve to Spider Guard Attacker",
-    "description": "TODO: Write attacker description for Double Sleeve to Spider Guard.",
-    "overview": "TODO: Write attacker overview for Double Sleeve to Spider Guard.",
+    "description": "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-by-step bicep hook placement, grip management, and timing for this essential open guard evolution.",
+    "overview": "Executing the Double Sleeve to Spider Guard transition requires the bottom player to reposition their feet from the opponent's hips to their biceps while maintaining uninterrupted sleeve tension throughout the movement. The transition leverages existing cuff grips as the constant anchor point while the legs do the repositioning work, upgrading from passive distance management to active postural manipulation. The attacker must coordinate the pulling action of their arms with the pushing placement of their feet, creating the opposing forces that define spider guard control. Success depends on recognizing the timing window when the opponent's arms are extended and exploiting it before they can retract or strip grips.",
     "key_principles": [
-      "TODO"
+      "Maintain constant pulling tension on both sleeves throughout the entire foot transition to prevent grip breaks and keep biceps accessible",
+      "Move one foot at a time from hip to bicep, keeping the other foot as an active frame to maintain distance control during the transition",
+      "Time the foot placement to coincide with the opponent's arm extension during grip fighting or posture recovery",
+      "Target the ball of the foot to the bicep just above the elbow crease for maximum pushing leverage and mechanical advantage",
+      "Coordinate push-pull mechanics immediately after establishing both hooks, pushing with feet while pulling sleeves to break opponent's posture",
+      "Keep hips elevated and mobile throughout the transition to facilitate quick foot repositioning and prevent being flattened"
     ],
     "setup_requirements": [
-      "TODO"
+      "Both sleeve grips established at or near the opponent's cuffs with deep four-finger pistol grips providing firm control",
+      "Feet positioned on the opponent's hips with balls of feet creating active pushing frames for distance management",
+      "Opponent in kneeling or standing position within guard engagement range with arms accessible for bicep hook placement",
+      "Hip mobility sufficient to smoothly reposition feet from hips to biceps without releasing grip tension or collapsing the guard frame",
+      "Opponent's arms extended or extendable through pulling action, not retracted tight to their chest"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure bilateral cuff grips",
+        "description": "Establish firm four-finger pistol grips on both of the opponent's sleeve cuffs with your knuckles contacting the inside of the cuff opening. Pull elbows tight to your ribs to create a strong grip structure reinforced by your arm position rather than isolated finger strength."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish active hip frames",
+        "description": "Place both feet firmly on the opponent's hips with the balls of your feet pressing into their hip bones. Create a stable distance management framework by extending your legs to approximately 70% extension, keeping hips elevated off the mat and ready to pivot."
+      },
+      {
+        "step_number": 3,
+        "action": "Generate sleeve tension and arm extension",
+        "description": "Pull both sleeves sharply toward your hips while simultaneously pushing with your feet on the opponent's hips. This opposing force stretches the opponent forward and extends their arms away from their body, creating the space needed for foot-to-bicep placement."
+      },
+      {
+        "step_number": 4,
+        "action": "Transition first foot to bicep",
+        "description": "When the opponent's arms extend, lift your dominant-side foot from their hip and place the ball of your foot on the same-side bicep just above the elbow crease. Maintain pulling tension on that sleeve throughout the movement to keep the bicep accessible and prevent arm retraction."
+      },
+      {
+        "step_number": 5,
+        "action": "Stabilize single-hook position",
+        "description": "Momentarily stabilize in the hybrid position with one foot on the bicep and one on the hip. Use the remaining hip frame to maintain distance while adjusting your hip angle slightly toward the bicep-hooked side. Increase pulling tension on the opposite sleeve to prepare for the second foot transition."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition second foot to bicep",
+        "description": "Lift your remaining foot from the opponent's hip and place the ball of your foot on their other bicep above the elbow crease. Execute this movement quickly to minimize the window where neither foot provides a hip frame, pulling both sleeves firmly throughout the placement."
+      },
+      {
+        "step_number": 7,
+        "action": "Extend and engage full spider guard",
+        "description": "Fully extend both legs while pulling sleeves tight to your ribs, creating the characteristic spider guard structure with strong bilateral pushing frames that control the opponent's posture and arm positioning. Both feet should press firmly through the biceps with legs near full extension."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish offensive angle",
+        "description": "Angle your hips slightly to one side to create the asymmetric positioning needed for sweep and submission entries. This breaks the bilateral symmetry that allows the opponent to maintain balanced posture, immediately threatening technical sweeps and triangle or omoplata entries from the established spider guard."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent strips one or both sleeve grips during the foot transition window using wrist rotation or two-on-one breaks",
+        "effectiveness": "High",
+        "your_response": "If one grip is stripped, immediately abort the transition and re-establish the grip from double sleeve guard before reattempting. If both grips are lost, use feet on hips to push the opponent away and recover grips before they can establish passing position.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent retracts arms tight to their chest, denying bicep access and preventing foot placement",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Increase pulling tension on sleeves to draw their arms back out, or change strategy to attempt a sweep from double sleeve guard that punishes their retracted arm position. Their retracted posture may also open lasso entry opportunities.",
+        "targets_outcome": "Double Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward explosively to collapse the guard structure during the transition when feet are between hips and biceps",
+        "effectiveness": "High",
+        "your_response": "Immediately return the transitioning foot to the hip to reestablish the distance frame. If they achieve forward momentum, use their energy for a balloon sweep or transition to closed guard if they close distance completely.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent circles laterally to create an angle that prevents clean bilateral foot placement on biceps",
+        "effectiveness": "Medium",
+        "your_response": "Follow their lateral movement with your hips to maintain perpendicular orientation. Consider transitioning to lasso guard on the side they are circling toward, or use the angled position for a De La Riva hook entry instead of forcing bilateral spider guard.",
         "targets_outcome": "Double Sleeve Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing grip tension on sleeves while repositioning feet from hips to biceps",
+        "consequence": "Opponent strips grips during the transition, leaving you in compromised open guard with no sleeve control and vulnerable to immediate passing pressure",
+        "correction": "Maintain constant pulling force on sleeves throughout the entire foot transition by keeping elbows pinned to your ribs and using bicep curl mechanics to sustain tension"
+      },
+      {
+        "error": "Moving both feet simultaneously off the opponent's hips",
+        "consequence": "Complete loss of distance management frame allows opponent to drive forward through the guard, collapsing your structure and achieving smash passing position",
+        "correction": "Always transition one foot at a time, keeping one foot firmly on the hip as an active distance frame while the other moves to the bicep"
+      },
+      {
+        "error": "Placing feet on the opponent's forearms or wrists instead of the biceps above the elbow",
+        "consequence": "Reduced pushing leverage and mechanical advantage makes sweeps ineffective and allows the opponent to easily retract their arms out of the hook",
+        "correction": "Target the bicep just above the elbow crease with the ball of your foot for maximum lever arm length and pushing power"
+      },
+      {
+        "error": "Failing to extend legs after placing feet on biceps, keeping knees bent",
+        "consequence": "Insufficient pushing pressure allows the opponent to collapse forward through bent-leg frames and establish chest pressure passing position",
+        "correction": "Actively push through your legs to near-full extension once both feet are placed on biceps, creating maximum distance and structural tension through the spider guard frame"
+      },
+      {
+        "error": "Attempting the transition when the opponent's arms are retracted tight to their body",
+        "consequence": "Cannot reach biceps with feet, resulting in a failed transition that wastes energy and telegraphs your intentions to the opponent",
+        "correction": "Use sharp pulling action on sleeves to extend the opponent's arms first, or wait for natural arm extension during their grip fighting attempts before initiating the foot transition"
+      },
+      {
+        "error": "Keeping hips flat on the mat during the transition instead of elevated and mobile",
+        "consequence": "Flat hips severely limit the ability to redirect feet accurately to biceps, slow the transition speed, and make you vulnerable to stack passes if the opponent drives forward",
+        "correction": "Keep hips elevated throughout the transition with your weight on your upper back and shoulders, enabling quick foot repositioning and hip angle adjustments"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Foot-to-bicep placement accuracy",
+        "description": "Practice placing feet from hips to biceps with a fully compliant partner. Focus on ball-of-foot contact at the correct bicep location, maintaining grip tension during the movement, and sequential foot transition. No resistance. 50 repetitions per side until the movement is smooth and automatic."
+      },
+      {
+        "phase": "Phase 2: Timing and Coordination",
+        "focus": "Coordinating pull-then-place sequence",
+        "description": "Partner provides light resistance (30%) while you practice timing the foot transition to coincide with arm extension. Emphasize the pull-sleeves-then-place-feet sequence and maintaining frame control with the stationary foot. Work on reading when the opponent's arms are accessible."
+      },
+      {
+        "phase": "Phase 3: Transition Under Pressure",
+        "focus": "Completing transition against active grip fighting",
+        "description": "Partner actively attempts to retract arms, strip grips, and close distance during your transition attempts at 60-70% resistance. Practice recognizing the optimal timing window and completing the transition quickly. Include failure recovery drills where you abort and reset to double sleeve guard."
+      },
+      {
+        "phase": "Phase 4: Offensive Chaining",
+        "focus": "Connecting transition to immediate attacks",
+        "description": "Full positional sparring starting from double sleeve guard. Practice transitioning to spider guard and immediately launching sweep or submission attempts within 3 seconds of establishing both bicep hooks. Focus on eliminating the pause between guard establishment and first attack."
+      },
+      {
+        "phase": "Phase 5: Guard Flow Integration",
+        "focus": "Multi-guard switching system",
+        "description": "Flow between double sleeve, spider guard, lasso, and De La Riva based on opponent reactions at full resistance. Develop the ability to select the optimal guard transition in real-time and chain between systems when initial attempts are defended."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Your opponent postures up and pulls their arms back to break your double sleeve grips - when exactly should you initiate the foot transition to spider guard?",
+        "answer": "Initiate the transition immediately after your pulling counterforce extends their arms back toward you. As they pull back, match their pull with your own tension, and as their momentum reverses and arms extend forward, their biceps become accessible. The optimal window is during this arm extension phase before they can retract again. Never attempt the transition while their arms are pulled tight to their body, as you cannot reach the biceps with your feet."
+      },
+      {
+        "question": "What grip position and depth is required on the sleeves before attempting the transition to spider guard?",
+        "answer": "Grips must be established at or near the cuffs using a four-finger pistol grip with knuckles touching the inside of the sleeve opening. This deep cuff grip provides maximum leverage for both pulling tension during the transition and maintaining connection while feet reposition. Shallow grips on the mid-forearm provide insufficient control and are easily stripped during the vulnerable moment when your feet are between hips and biceps."
+      },
+      {
+        "question": "What is the most critical foot placement detail when transitioning from hip frame to bicep hook?",
+        "answer": "Place the ball of your foot on the opponent's bicep just above the elbow crease, not on the forearm, wrist, or shoulder. This specific placement maximizes pushing leverage because you use the longest effective lever arm against the opponent's arm. Contact with the ball of the foot rather than the heel or instep allows precise adjustment and quick repositioning if the opponent attempts to dislodge the hook through arm movement."
+      },
+      {
+        "question": "You begin transitioning your first foot to the bicep but your opponent immediately drives forward into your guard - how do you recover?",
+        "answer": "Immediately return your transitioning foot to the opponent's hip to reestablish the distance management frame. Do not attempt to force the spider guard entry against forward pressure, as you lack the structural integrity of full spider guard to resist being smashed. Once the hip frame is reestablished, use push-pull dynamics to break their forward momentum and create distance. Wait for another arm extension opportunity before reattempting the transition."
+      },
+      {
+        "question": "Why must you maintain constant pulling tension on both sleeves throughout the entire foot transition?",
+        "answer": "Constant pulling tension serves two critical functions during the transition. First, it prevents the opponent from retracting their arms away from your feet, keeping the biceps accessible as placement targets throughout the movement. Second, it prevents them from stripping your grips during the vulnerable moment when your feet are in transit between hips and biceps. Without this tension, the opponent gains a free window to either break grips or close distance."
+      },
+      {
+        "question": "What direction of force should your feet apply once both are placed on the opponent's biceps in spider guard?",
+        "answer": "Your feet should push diagonally outward and away from your body, creating extension that stretches the opponent's arms wide and breaks their posture forward. The pushing force vector should angle slightly outward from centerline rather than straight forward, which widens the opponent's arm position and compromises their ability to retract or posture up. Coordinate this pushing force with constant pulling tension on the sleeves for maximum postural disruption."
+      },
+      {
+        "question": "Your opponent begins circling to their left as you attempt to place your right foot on their right bicep - how do you adjust?",
+        "answer": "Follow their lateral movement with your hips, pivoting on your upper back to maintain perpendicular orientation to their body. Your right foot should chase their right bicep by angling your hips to match their movement direction. Simultaneously increase pulling tension on their right sleeve to prevent the arm from escaping laterally. If they circle too far for comfortable bilateral placement, consider placing your left foot on their left bicep first, or redirect to a lasso entry on the circling side."
+      },
+      {
+        "question": "You successfully establish spider guard but your opponent immediately begins stripping your right sleeve grip - what chain attacks should you pursue?",
+        "answer": "If the right grip is threatened, transition the left side into a lasso by threading your left leg under their left arm and over their shoulder, converting to a lasso-spider hybrid that maintains strong unilateral control. Alternatively, release the threatened right grip voluntarily and shoot for a triangle setup by pulling their left arm across your centerline while swinging your right leg over their head. A third option is converting to collar-sleeve guard by releasing the right sleeve and grabbing their collar for mixed grip control."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Double Sleeve to Spider Guard."
+    "safety_considerations": "The Double Sleeve to Spider Guard transition is generally low-risk for both practitioners. The primary safety concern involves hyperextension pressure on the elbows when the bottom player applies excessive pushing force through the bicep hooks with fully extended legs. Both practitioners should communicate regarding elbow comfort, particularly during high-intensity drilling. Wrist and finger strain from sustained sleeve gripping is common during extended practice sessions. Practitioners should vary grip intensity, take adequate rest between drilling rounds, and avoid death-gripping during initial learning phases to prevent repetitive strain injuries in the fingers and forearms."
   },
   "defender": {
     "name": "Double Sleeve to Spider Guard Defender",
-    "description": "TODO: Write defender description for Double Sleeve to Spider Guard.",
-    "overview": "TODO: Write defender overview for Double Sleeve to Spider Guard.",
+    "description": "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn recognition cues, grip breaking timing, and counter-strategies to prevent the guard upgrade.",
+    "overview": "Defending the Double Sleeve to Spider Guard transition requires the top player to recognize the bottom player's intention to elevate their feet from the hips to the biceps and act decisively during the brief transition window. The key defensive principle is that spider guard is significantly harder to deal with than double sleeve guard alone, so preventing the upgrade is strategically critical. The defender must choose between preemptive grip breaking before the transition begins, aggressive distance closing during the foot repositioning window, or systematic arm retraction that denies bicep access. Understanding the timing and mechanics of this transition allows the top player to exploit the momentary vulnerability when the bottom player's feet are neither on the hips nor on the biceps, creating opportunities to break free of sleeve control and initiate passing sequences.",
     "key_principles": [
-      "TODO"
+      "Recognize early signs of the transition and act before feet reach the biceps, as spider guard is exponentially harder to dismantle than double sleeve guard",
+      "Keep arms retracted with elbows tight to your ribs to deny bicep hook placement and minimize the exposed arm surface available for foot contact",
+      "Exploit the transition window when feet leave hips but have not reached biceps, as this is the moment of maximum vulnerability in the bottom player's guard structure",
+      "Maintain strong upright posture with hips back to prevent being pulled forward during the sleeve tension that precedes the transition attempt",
+      "Use lateral movement and angle changes during the transition to create a moving target that makes accurate foot-to-bicep placement difficult",
+      "Strip grips aggressively when the bottom player commits to the foot transition, as their focus on foot placement reduces their grip recovery speed"
     ],
     "recognition_cues": [
-      "TODO"
+      "Increased pulling tension on both sleeves as the bottom player loads up grip force to maintain control during the foot transition",
+      "Bottom player's hips elevate higher off the mat and angle slightly as they prepare to reposition feet from hips to biceps",
+      "One foot begins sliding upward from your hip toward your arm area or lifts off the hip entirely",
+      "Bottom player's elbows tighten against their ribs and their pulling angle shifts from horizontal to slightly downward, indicating they are preparing to redirect your arms",
+      "Momentary pause in the bottom player's sweeping threats as they focus attention on executing the guard transition rather than attacking"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Strip sleeve grip using wrist rotation or two-on-one break during the foot transition window",
+        "when_to_use": "When the opponent lifts their first foot off your hip, as their attention shifts to foot placement and their grip maintenance momentarily weakens",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Break free of sleeve control and immediately establish passing grips on their legs before they can re-grip",
+        "risk": "If the grip strip fails, the opponent may accelerate the second foot placement and establish spider guard more quickly"
+      },
+      {
+        "action": "Retract arms tight to your chest with bent elbows and step back to deny bicep hook access",
+        "when_to_use": "When you feel increased pulling tension indicating an imminent transition attempt, preemptively removing the bicep target before feet begin moving",
         "targets_outcome": "Double Sleeve Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Deny bicep hook placement entirely, forcing the opponent to remain in double sleeve guard or attempt a different guard transition",
+        "risk": "Pulling arms back may give the opponent the arm extension they need if timed poorly, and creates temporary inability to establish your own grips"
+      },
+      {
+        "action": "Drive forward explosively to collapse the guard structure during the transition",
+        "when_to_use": "When both of the opponent's feet are between hips and biceps during the transition, representing maximum vulnerability in their frame structure",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Collapse the guard and begin immediate passing sequence before opponent can reestablish any frame control",
+        "risk": "If timed poorly when one foot is already on the bicep, the opponent can catch you in a sweep or redirect your forward momentum into a triangle entry"
+      },
+      {
+        "action": "Circle laterally while working grip breaks to create an angle that prevents bilateral foot placement",
+        "when_to_use": "When the opponent begins foot repositioning, as lateral movement makes accurate foot-to-bicep placement significantly harder from the resulting angle",
+        "targets_outcome": "Double Sleeve Guard/Bottom",
+        "if_successful": "Prevent clean spider guard establishment and create a passing angle on one side",
+        "risk": "Lateral movement with sleeve grips intact may create sweep opportunities if the opponent redirects to a sweep attempt rather than completing the spider guard transition"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Spider Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Strip both sleeve grips during the transition window when the opponent's feet are between hips and biceps, exploiting the momentary reduction in frame control to break free. Immediately establish passing grips on their legs before they can re-grip your sleeves."
+      },
+      {
+        "outcome": "Double Sleeve Guard/Bottom",
+        "how": "Retract arms tight to your body with bent elbows and deny bicep hook placement entirely. While remaining in double sleeve guard is not ideal, it is significantly easier to manage than spider guard and preserves your passing options."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing feet to reach both biceps without any resistance or intervention",
+        "consequence": "Spider guard is established cleanly, dramatically increasing the difficulty of passing and giving the bottom player access to triangle, omoplata, and sweep attacks that were unavailable from double sleeve",
+        "correction": "React immediately to the first foot movement off your hip by either stripping the same-side grip, retracting that arm, or driving forward to disrupt the transition before the second foot can reach"
+      },
+      {
+        "error": "Pulling arms back with fully extended straight arms to deny bicep hooks",
+        "consequence": "Fully extended arms create the exact arm positioning the bottom player needs for spider guard placement, and the straightened elbows become vulnerable to armbar and omoplata entries",
+        "correction": "Retract arms by bending elbows and bringing hands close to your chest with compact posture, reducing exposed arm surface while keeping elbows tight to deny foot placement"
+      },
+      {
+        "error": "Remaining stationary during the transition instead of creating movement",
+        "consequence": "Provides a stable, predictable target that makes foot-to-bicep placement easy for the bottom player, as stationary arms are simple to hook",
+        "correction": "Use lateral movement, forward pressure, or backward stepping during the transition to create a moving target that requires the bottom player to chase with their feet"
+      },
+      {
+        "error": "Focusing defensive effort on only one arm while the other foot reaches the bicep unopposed",
+        "consequence": "Successfully defending one side while losing the other creates a half-spider position that still provides significant guard control and immediate attack options for the bottom player",
+        "correction": "Address both arms simultaneously by using compact posture with both elbows tight, or prioritize defending the side where foot placement is most imminent while keeping the other arm mobile"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is attempting to transition from double sleeve to spider guard?",
+        "answer": "The earliest cue is increased pulling tension on both sleeves combined with the bottom player's hips rising higher off the mat. Before the feet actually move, the opponent needs to load their grip tension to maintain control during the transition. This pre-loading phase gives you a one-to-two second warning window to act preemptively by stripping grips, retracting your arms, or initiating forward pressure before the feet begin their journey to your biceps."
+      },
+      {
+        "question": "Why is it critical to prevent the spider guard transition rather than simply dealing with spider guard after it is established?",
+        "answer": "Spider guard is substantially more dangerous than double sleeve guard because the bicep hooks create a favorable strength asymmetry where the bottom player's legs work against your arms. Spider guard enables immediate sweep threats through technical sweeps, triangle entries from arm isolation, and omoplata attacks that are not available from basic double sleeve control. The energy cost of passing spider guard is significantly higher than double sleeve guard, making prevention far more efficient than cure."
+      },
+      {
+        "question": "Your opponent has placed one foot on your bicep but the second foot is still on your hip - what should you do in this critical moment?",
+        "answer": "This is the most important intervention window. Address the foot that already reached your bicep by either stripping the same-side sleeve grip with a two-on-one break or stepping that arm back while keeping your elbow tight to your body to dislodge the foot. Simultaneously maintain forward pressure against the remaining hip frame. Do not allow the second foot to reach your other bicep, as once both hooks are established the defensive challenge increases dramatically and you will need to reset entirely."
+      },
+      {
+        "question": "How should you position your arms to make the spider guard transition as difficult as possible?",
+        "answer": "Keep your elbows tight to your ribs with arms bent at approximately 90 degrees, hands close to your chest or actively controlling your opponent's legs at the knees. This tucked arm position minimizes the exposed bicep surface area and reduces the lever arm available for the bottom player's foot placement. Avoid extending your arms forward or reaching toward the opponent, as any arm extension creates the exact target they need to place their feet on your biceps."
+      },
+      {
+        "question": "After successfully preventing the spider guard transition, what should your immediate next action be?",
+        "answer": "Immediately capitalize on the prevented transition by establishing your own passing grips. The bottom player expended energy and focus on the failed transition, creating a window where their grip tension may momentarily relax and their guard structure is not fully settled. Strip at least one sleeve grip and establish a controlling grip on their pants at the knee or ankle. Begin your passing sequence before they can regroup and attempt the transition again or redirect to an alternative guard evolution."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying pre-transition cues",
+        "description": "Partner slowly executes the transition from double sleeve to spider guard while you practice identifying the early cues including increased sleeve tension, hip elevation, and foot lift-off. No defensive actions initially. Purely observational awareness building to develop the recognition speed needed for timely intervention."
+      },
+      {
+        "phase": "Phase 2: Timing Windows",
+        "focus": "Defensive intervention timing",
+        "description": "Partner executes the transition at moderate speed while you practice intervening at the optimal moment. Work on grip strips, arm retraction, and forward drives during the transition window. Partner provides 40% resistance to your defensive actions. Focus on identifying which defensive option works best based on the specific moment of intervention."
+      },
+      {
+        "phase": "Phase 3: Reactive Defense",
+        "focus": "Quick response under unpredictable conditions",
+        "description": "Partner varies between maintaining double sleeve guard and attempting spider guard transitions at random intervals. You must recognize and react to transition attempts in real-time while also managing the double sleeve guard position. 70% resistance. Develops the quick pattern recognition needed for live rolling."
+      },
+      {
+        "phase": "Phase 4: Competition Integration",
+        "focus": "Full integration with passing strategy",
+        "description": "Full positional sparring where the bottom player works from double sleeve guard with freedom to transition to any guard variation including spider, lasso, and De La Riva. Top player must defend all transitions while maintaining forward passing pressure. Full resistance with position resets after pass or sweep."
       }
     ]
   }

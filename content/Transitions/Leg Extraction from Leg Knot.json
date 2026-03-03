@@ -1,13 +1,406 @@
 {
   "name": "Leg Extraction from Leg Knot",
-  "description": "",
-  "tags": [],
+  "description": "Master Leg Extraction from Leg Knot in BJJ. Systematic technique for disengaging from complex leg entanglements to establish dominant Half Guard Top position.",
+  "tags": [
+    "leg-extraction",
+    "leg-knot",
+    "leg-entanglement",
+    "guard-pass",
+    "half-guard",
+    "positional-advancement",
+    "escape",
+    "top-game"
+  ],
   "from_position": "Leg Knot/Top",
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Leg Knot/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "Leg Extraction from Leg Knot is a fundamental positional advancement technique where the top player systematically frees their trapped leg from a complex leg entanglement to establish Half Guard Top. Unlike the backstep pass which aims for side control, this extraction focuses on controlled disengagement into a manageable passing position, making it the conservative but reliable option when the leg knot configuration is deteriorating or when the top player wants to exit the leg lock exchange entirely without committing to a dramatic passing movement.\n\nThe technique relies on a combination of hip pressure, systematic peel mechanics, and precise timing to strip the opponent's hooks and weaves without creating space for counter-attacks. The key mechanical principle is using forward pressure and weight distribution to flatten the opponent's hip mobility while incrementally freeing the trapped leg segment by segment — ankle first, then knee, then full extraction. This methodical approach contrasts with explosive extraction attempts that often tighten the entanglement or create scramble situations favoring the bottom player.\n\nStrategically, the leg extraction occupies an important role in the leg knot subsystem as the safe exit option. When heel hook and toe hold attacks are being effectively defended, when energy is depleting from sustained entanglement warfare, or when the bottom player is threatening counter-entanglements, the leg extraction to Half Guard Top provides a reliable reset into a well-understood passing position. From Half Guard Top, the top player retains positional advantage with multiple passing options while eliminating the mutual submission danger inherent in leg entanglement exchanges.",
+  "conditions": [
+    "Top player has established Leg Knot Top with at least partial upper body control",
+    "Opponent's entanglement has not consolidated into Saddle or deeper Inside Ashi configuration",
+    "Top player maintains sufficient hip mobility to apply forward pressure during extraction",
+    "At least one hand is free to control opponent's hip or create frames that assist extraction",
+    "Opponent's hooks are not fully locked around the trapped leg's knee joint"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Limp Leg Extraction",
+      "description": "Rather than forcefully pulling the leg free, the top player completely relaxes the trapped leg, removing all tension from the muscles. This 'dead weight' approach allows the leg to slip through gaps in the opponent's hooks that would catch a tensed leg. The relaxed leg slides through the entanglement while the top player maintains upper body pressure.",
+      "when_to_use": "When the opponent has tight hooks that catch on a tensed leg, particularly effective against opponents who rely on squeezing pressure rather than structural hooks"
+    },
+    {
+      "variant_name": "Peel and Pin Extraction",
+      "description": "The top player uses one hand to systematically peel each of the opponent's hooks off the trapped leg individually, pinning each freed hook to the mat with knee or shin pressure before addressing the next. This deliberate sequential approach ensures each hook stays clear once removed.",
+      "when_to_use": "When the opponent has multiple layered hooks creating a complex entanglement, particularly in gi where sleeve and pants grips supplement leg hooks"
+    },
+    {
+      "variant_name": "Windshield Wiper Extraction",
+      "description": "The top player rotates the trapped foot in a windshield wiper motion — internally then externally rotating the hip — to progressively work past each hook point. The alternating rotation breaks the opponent's static control structure by attacking it from changing angles.",
+      "when_to_use": "When the entanglement is centered on the ankle or lower leg rather than the knee, and the opponent is using foot hooks that can be circumvented through rotation"
+    }
+  ],
+  "position_integration": "Leg Extraction from Leg Knot serves as the primary conservative exit from the leg entanglement subsystem into the classical top-game passing subsystem. While the backstep aims for side control and carries higher reward but higher risk, the leg extraction reliably delivers Half Guard Top — a well-understood position with numerous established passing sequences. This technique connects the modern leg lock game to traditional half guard passing, allowing practitioners who prefer positional advancement over submission exchanges to smoothly transition between these systems. The extraction also functions as a strategic reset when leg lock attacks stall, preserving energy and positional advantage rather than forcing low-percentage finishes from deteriorating entanglements.",
+  "related_content": [
+    {
+      "name": "Leg Knot",
+      "relationship": "Source position from which the extraction is initiated"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful leg extraction"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position recovered by defender when extraction is countered with distance creation"
+    },
+    {
+      "name": "Backstep from Leg Knot",
+      "relationship": "Higher-risk alternative disengagement that targets side control instead of half guard"
+    },
+    {
+      "name": "Pressure Pass from Leg Knot",
+      "relationship": "Complementary passing option that works through the entanglement rather than extracting"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Parent category of positions containing the leg knot configuration"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related disengagement technique from other leg entanglement configurations"
+    },
+    {
+      "name": "Leg Extraction from Cross Ashi",
+      "relationship": "Similar extraction technique from a different leg entanglement position"
+    },
+    {
+      "name": "Leg Extraction from Inside Ashi",
+      "relationship": "Related extraction technique sharing core peel mechanics"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "High-percentage follow-up pass from the resulting Half Guard Top"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Deeper entanglement that must be avoided during extraction timing decisions"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement the opponent may transition to during failed extraction"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Extraction from Leg Knot Attacker",
+    "description": "Execute Leg Extraction from Leg Knot to escape leg entanglements and reach Half Guard Top. Systematic peel mechanics and pressure strategies for advanced practitioners.",
+    "overview": "As the attacker executing Leg Extraction from Leg Knot, your objective is to methodically free your trapped leg from the opponent's entanglement and consolidate Half Guard Top. This is a controlled, deliberate technique that prioritizes maintaining positional advantage throughout the extraction rather than explosively ripping free. The decision to extract typically comes when your leg lock attacks are being neutralized, when energy management demands a positional reset, or when the entanglement configuration favors extraction over continued submission hunting. Success depends on applying constant forward pressure to limit the opponent's hip mobility while systematically addressing each hook point that maintains the entanglement, working from the ankle up through the knee until the leg is fully cleared.",
+    "key_principles": [
+      "Apply constant forward upper body pressure to flatten the opponent's hips and limit their ability to re-hook during extraction",
+      "Work the extraction systematically from ankle to knee rather than attempting to free the entire leg at once",
+      "Use your free leg as a posting base and counter-pressure tool throughout the extraction sequence",
+      "Maintain crossface or head control to prevent the opponent from sitting up and following your extraction movement",
+      "Relax the trapped leg muscles rather than tensing to allow the leg to slip past hook points more easily",
+      "Commit to half guard consolidation immediately once the leg clears rather than attempting to pass directly through",
+      "Keep hips heavy and low throughout to deny the opponent space for re-entanglement or guard recovery"
+    ],
+    "setup_requirements": [
+      "Established Leg Knot Top position with your leg entangled in the opponent's leg configuration",
+      "Upper body has sufficient forward position to apply chest or shoulder pressure on the opponent's torso",
+      "At least one hand available to assist with hook peeling or to maintain crossface control during extraction",
+      "Opponent's entanglement has not progressed to Saddle or consolidated Inside Ashi where extraction becomes significantly more difficult",
+      "Free leg is posted on the mat providing base and the ability to drive forward pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish upper body dominance",
+        "description": "Before beginning any leg extraction, secure your upper body position by driving your chest forward into the opponent's torso and establishing a crossface or collar tie. This prevents the opponent from sitting up or following your leg movement during extraction. Your weight should be distributed forward through your chest and shoulder, not sitting back on your hips where the entanglement has leverage."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify the primary hook points",
+        "description": "Assess exactly how your leg is entangled — identify whether the opponent is using ankle hooks, knee pinches, figure-four configurations, or combinations. Map the path your leg needs to travel to clear each hook point. This assessment determines whether you use limp leg, peel and pin, or windshield wiper extraction mechanics. Rushing past this step leads to fighting against the entanglement geometry rather than working with it."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive hips forward and flatten opponent",
+        "description": "Push your hips forward while maintaining upper body pressure, driving the opponent's hips flat to the mat. When their hips are flat, their ability to maintain active hooks and chase your leg movement is severely diminished. Use your posted free leg to generate forward drive. The opponent's hook strength is directly proportional to their hip mobility — eliminate the mobility and the hooks weaken dramatically."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin ankle-level extraction",
+        "description": "Address the lowest hook point first by rotating your foot to clear ankle hooks. Relax the muscles in your lower leg and allow the foot to slip past the opponent's hook rather than pulling forcefully. If using the peel method, use your free hand to strip the opponent's foot or ankle grip from your lower leg and immediately pin their freed hook with your knee pressure to prevent re-hooking."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear knee-level entanglement",
+        "description": "Once the ankle is free, work upward to clear the knee-level entanglement. Extend your knee while maintaining forward hip pressure to create the extraction angle. The opponent will attempt to clamp down with their knees or re-hook at this level — counter by driving your knee toward the mat on the outside of their legs while keeping your upper body heavy. This is the most contested phase of the extraction where timing and pressure are critical."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete the extraction and establish leg position",
+        "description": "As your knee clears the entanglement, immediately slide your shin across the opponent's thigh to begin establishing half guard top configuration. Do not attempt to clear completely to side control — secure the half guard first. Your shin should cross their thigh with your knee driving toward the mat, creating the characteristic half guard top pinning structure that prevents the opponent from re-inserting hooks."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Half Guard Top",
+        "description": "Settle your weight into established Half Guard Top by driving your crossface shoulder into the opponent's jaw, flattening their back to the mat. Ensure your hips are heavy against theirs with your trapped leg's knee pinned to the mat. Block their far hip with your near hand to prevent knee shield insertion. Confirm your free leg is posted for base. From this consolidated position, you can begin working your preferred half guard passing sequence."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-hooks your ankle with their inside hook as you begin extraction",
+        "effectiveness": "High",
+        "your_response": "Pause the extraction and re-apply forward hip pressure to flatten their hips before trying again. The re-hook succeeds because the opponent has hip mobility — remove it with pressure first. Consider switching to limp leg mechanics if the peel approach is being consistently countered.",
+        "targets_outcome": "Leg Knot/Top"
+      },
+      {
+        "counter": "Opponent sits up and establishes an underhook during the extraction transition",
+        "effectiveness": "Medium",
+        "your_response": "Drive your crossface shoulder forward to flatten them back down immediately. If the underhook is already established, switch to a whizzer and use it to maintain top pressure while continuing the extraction. Accept arriving in half guard with an active underhook battle rather than trying to eliminate it during extraction.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent frames and hip escapes to create distance, recovering to open guard",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip escape by advancing your hips and maintaining chest contact. If significant distance is created, accept the open guard position and immediately begin a standing or combat base passing approach rather than diving back into entanglement range.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent counter-entangles by transitioning to 50-50 as your leg starts to clear",
+        "effectiveness": "High",
+        "your_response": "If you feel the opponent triangling your extracting leg, immediately retract it back into the original knot rather than completing extraction into 50-50. Reset forward pressure and try again when their configuration loosens. Entering 50-50 unintentionally gives up your top position advantage.",
+        "targets_outcome": "Leg Knot/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped leg out explosively using hip and arm strength",
+        "consequence": "The explosive movement tightens the opponent's hooks through stretch reflex and often pulls the opponent's hips off the mat, restoring their mobility and enabling re-entanglement or guard recovery",
+        "correction": "Use steady forward pressure combined with relaxed leg extraction mechanics. The leg should slip free through positioning and weight advantage, not through pulling force."
+      },
+      {
+        "error": "Sitting back on hips during extraction instead of maintaining forward pressure",
+        "consequence": "Gives the opponent space and hip mobility to actively re-hook, sit up, or transition to counter-entanglement positions",
+        "correction": "Keep chest and shoulders driving forward into the opponent throughout the entire extraction. Your weight should be distributed through your upper body onto the opponent, not sitting on your own base."
+      },
+      {
+        "error": "Attempting to extract the entire leg simultaneously rather than working segment by segment",
+        "consequence": "The leg catches on multiple hook points at once, making extraction impossible and exhausting grip strength and hip drive",
+        "correction": "Work from ankle upward, clearing each hook point individually before addressing the next. Pin each freed section with knee or shin pressure before advancing."
+      },
+      {
+        "error": "Neglecting upper body control to focus both hands on leg extraction",
+        "consequence": "Opponent sits up, establishes underhook or frames, and either sweeps or recovers full guard during the extraction attempt",
+        "correction": "Maintain crossface or head control with at least one arm throughout the extraction. If both hands are needed briefly for hook peeling, re-establish upper body control immediately after."
+      },
+      {
+        "error": "Trying to pass directly to side control instead of consolidating half guard first",
+        "consequence": "The overambitious passing attempt creates scramble situations where the opponent can re-establish guard, recover leg entanglement, or sweep during transition",
+        "correction": "Accept Half Guard Top as the immediate goal. Consolidate the position fully before initiating any passing sequence. Half guard top is a significant improvement over leg knot and provides multiple reliable passing options."
+      },
+      {
+        "error": "Tensing the trapped leg muscles during extraction",
+        "consequence": "A tensed, rigid leg catches on hook points that a relaxed leg would slip past, making the extraction geometrically more difficult",
+        "correction": "Consciously relax the muscles of the trapped leg. A limp leg with reduced diameter slips through entanglements more easily. Let the upper body pressure and free leg posting do the work."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hook Identification and Peel Mechanics",
+        "focus": "Understanding entanglement geometry and basic peel technique",
+        "description": "With a cooperative partner in leg knot, practice identifying each hook point and systematically peeling them one at a time. No resistance from partner. Focus on mapping the extraction path, relaxing the trapped leg, and using proper peel mechanics for ankle hooks, knee pinches, and figure-four configurations. 20-30 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Pressure Integration",
+        "focus": "Combining forward pressure with extraction mechanics",
+        "description": "Add upper body pressure to the drilling. Practice driving forward with chest and crossface while simultaneously executing the extraction sequence. Partner provides light hook resistance. Develop the coordination of maintaining top pressure while freeing the leg segment by segment. Focus on not sitting back at any point during extraction."
+      },
+      {
+        "phase": "Phase 3: Counter-Response Training",
+        "focus": "Handling re-hooking and defensive reactions",
+        "description": "Partner actively attempts to re-hook, sit up, and counter-entangle at 50-75% effort during extraction attempts. Practice resetting forward pressure when re-hooked, driving crossface when opponent sits up, and following hip escapes. Build pattern recognition for the opponent's most common defensive reactions and automatic responses."
+      },
+      {
+        "phase": "Phase 4: Live Positional Rounds",
+        "focus": "Full resistance extraction with consolidation",
+        "description": "Begin in leg knot with full resistance. Top player works to extract to Half Guard Top, bottom player defends with all available options. Track success rate over 10+ rounds to measure proficiency. Add the requirement of completing at least one half guard pass after successful extraction to reinforce the full sequence."
+      },
+      {
+        "phase": "Phase 5: Decision-Making Integration",
+        "focus": "Choosing extraction versus submission versus backstep based on context",
+        "description": "Open-ended positional sparring from leg knot where the top player must read the situation and choose between heel hook attack, toe hold, backstep to side control, or leg extraction to half guard based on the opponent's defensive posture. Develop the decision-making framework for when extraction is the optimal choice versus continuing leg lock exchanges."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal direction of force application during leg extraction — pulling backward or driving forward?",
+        "answer": "Forward driving pressure is the correct application. Pulling backward gives the opponent hip mobility and space to re-hook. Forward pressure through the chest and shoulders flattens the opponent's hips to the mat, severely diminishing their ability to maintain active hooks. The leg extracts as a consequence of superior positioning and pressure, not through pulling force."
+      },
+      {
+        "question": "Your opponent re-hooks your ankle every time you begin extraction — how do you adjust your approach?",
+        "answer": "Switch from direct peel extraction to limp leg mechanics. Completely relax the muscles of the trapped leg so it has a smaller profile and reduced rigidity that hooks can catch. Simultaneously increase forward hip pressure to flatten the opponent's hips before each attempt. If the opponent's hooks are structurally strong, use the windshield wiper rotation to work past the hook angle rather than pulling through it directly."
+      },
+      {
+        "question": "Why should you consolidate Half Guard Top instead of passing directly through to side control?",
+        "answer": "Attempting to pass directly creates a scramble window where the opponent can re-entangle, recover guard, or sweep during the transition. Half Guard Top is already a significant positional improvement over Leg Knot — you have eliminated mutual submission danger and established a dominant passing platform. Consolidating first ensures you do not lose the positional gains from the extraction. From stable Half Guard Top, you can then execute high-percentage passes with full control."
+      },
+      {
+        "question": "What grip and body positioning prevents your opponent from sitting up during the extraction?",
+        "answer": "A crossface with your shoulder driving into the opponent's jaw combined with chest-to-chest pressure pins their shoulders to the mat and prevents them from sitting up. Your weight must be distributed forward through your upper body, not sitting back on your hips. If the opponent begins to sit up, drive the crossface shoulder forward immediately. The crossface must be maintained throughout the entire extraction sequence, not released to assist with leg peeling."
+      },
+      {
+        "question": "Your opponent starts counter-entangling toward 50-50 as your leg begins clearing — what is the correct response?",
+        "answer": "Immediately retract your extracting leg back into the original leg knot configuration rather than completing the extraction into 50-50. Entering 50-50 unintentionally sacrifices your top position advantage and creates a symmetric entanglement where neither player is dominant. Reset the forward pressure, re-establish upper body control, and attempt extraction again when the opponent's configuration loosens. Prevention is far easier than escaping an established 50-50."
+      },
+      {
+        "question": "In what order should you address the hook points during systematic extraction?",
+        "answer": "Work from the lowest hook point upward: clear ankle hooks first, then address knee-level entanglement, then complete full extraction. Each cleared section should be immediately pinned with shin or knee pressure to prevent re-hooking before addressing the next level. Working top-down is incorrect because the knee-level hooks provide structural support for the ankle hooks — removing upper hooks first still leaves the lower hooks intact and the upper ones can be re-established."
+      },
+      {
+        "question": "When is leg extraction the better strategic choice compared to continuing heel hook attacks from Leg Knot?",
+        "answer": "Extraction is the better choice when the opponent has strong heel hook defense and is effectively hiding the heel, when you are expending more energy than the opponent in the entanglement exchange, when the entanglement is neutral and neither player has a clear submission advantage, in points-based competition where positional advancement yields reliable scoring, or when the opponent is threatening counter-entanglement to a position that would worsen your situation."
+      },
+      {
+        "question": "What role does the free (non-trapped) leg play during the extraction sequence?",
+        "answer": "The free leg serves as the primary base and forward drive generator throughout the extraction. It should be posted firmly on the mat, providing the structural foundation that allows forward pressure application through the upper body. As the extraction progresses, the free leg drives the hips forward to maintain pressure and prevent the opponent from creating space. It also serves as a balance point during the transition to half guard top, where it becomes the posted base leg in the consolidated position."
+      }
+    ],
+    "safety_considerations": "Leg extraction from entanglements involves forces applied to both practitioners' knee and ankle joints during the disengagement process. Always begin drilling at controlled speeds — explosive extraction attempts can torque training partners' knees at unsafe angles. If your trapped leg feels locked in a position where extraction creates lateral knee pressure, reset the position rather than forcing through. Communicate with your partner when pressure changes feel uncomfortable. Be particularly cautious when the entanglement involves crossed legs or figure-four configurations, as extraction forces can transfer unexpectedly to the opponent's knee joint. In training, tap and reset if either practitioner feels joint stress rather than continuing to fight the entanglement."
+  },
+  "defender": {
+    "name": "Leg Extraction from Leg Knot Defender",
+    "description": "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cues, re-entanglement strategies, and guard recovery techniques for advanced practitioners.",
+    "overview": "As the defender against the Leg Extraction from Leg Knot, you occupy the bottom position in the entanglement and your primary objective is to prevent the top player from successfully freeing their leg and consolidating Half Guard Top. While Leg Knot Bottom is not your preferred position, it is significantly better than being stuck under a consolidated half guard pass where your submission threats from leg entanglement vanish entirely. Your defensive strategy follows a clear hierarchy: first, maintain the entanglement by re-hooking during extraction attempts; second, if the leg begins clearing, transition to counter-entanglement positions like 50-50 or Outside Ashi; third, if positional retention fails entirely, create maximum distance for full guard recovery. Early recognition that the opponent is choosing extraction over submission hunting is critical — the moment their focus shifts from heel grips to upper body pressure signals the extraction attempt.",
+    "key_principles": [
+      "Maintain active hooks with constant tension rather than passive leg positioning that allows the opponent to peel incrementally",
+      "Keep hips mobile and off the mat to preserve the ability to re-hook and chase the opponent's extracting leg",
+      "Monitor the opponent's upper body weight shift — increased forward pressure signals extraction rather than submission hunting",
+      "Use your free leg aggressively to frame against the opponent's hips and prevent the forward drive that enables extraction",
+      "When re-entanglement fails, immediately transition defensive priority to guard recovery rather than fighting for a lost position",
+      "Attack counter-entanglements proactively when you feel the opponent beginning to disengage rather than waiting until the extraction is nearly complete",
+      "Maintain grip on the opponent's foot or ankle with your hands to supplement leg hooks and create redundant control points"
+    ],
+    "recognition_cues": [
+      "Opponent shifts from controlling your foot or heel to establishing crossface or upper body pressure, indicating a strategy change from submissions to passing",
+      "You feel the opponent's trapped leg begin to relax and go limp rather than actively engaging in the entanglement, signaling limp leg extraction mechanics",
+      "Opponent drives their hips forward with increased pressure, attempting to flatten your hips to the mat and remove your hooking leverage",
+      "One of the opponent's hands releases leg control and reaches for your collar, far hip, or head, establishing the upper body control prerequisite for extraction",
+      "You feel the opponent's ankle beginning to rotate or slide past your lowest hook point, indicating segment-by-segment extraction has begun"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-hook the extracting leg by chasing with your inside hook and clamping down at the ankle level",
+        "when_to_use": "At the first sign of extraction when the opponent's ankle begins sliding past your hooks but has not cleared the knee level yet",
+        "targets_outcome": "Leg Knot/Top",
+        "if_successful": "Returns both players to the leg knot configuration with the entanglement intact, nullifying the extraction attempt",
+        "risk": "Chasing too aggressively can over-extend your own legs and create passing opportunities if the re-hook fails"
+      },
+      {
+        "action": "Initiate counter-entanglement to 50-50 by triangling the opponent's partially extracted leg before it clears",
+        "when_to_use": "When the opponent's leg is mid-extraction and partially clear of your hooks but not yet in half guard position",
+        "targets_outcome": "Leg Knot/Top",
+        "if_successful": "Transitions the exchange into 50-50 guard where you have equal entanglement control and can restart offensive leg lock attacks",
+        "risk": "Failed counter-entanglement may accelerate the extraction by opening space the opponent can use to clear entirely"
+      },
+      {
+        "action": "Frame with both arms and hip escape to maximum distance for full open guard recovery",
+        "when_to_use": "When the extraction is nearly complete and the opponent's leg has cleared your hooks but crossface has not been fully consolidated",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Creates enough distance to insert both feet on the opponent's hips and recover a full open guard position",
+        "risk": "If frames are too weak or hip escape is too slow, the opponent drives through to consolidated half guard or side control"
+      },
+      {
+        "action": "Elevate hips and use butterfly hook to prevent forward pressure that enables extraction",
+        "when_to_use": "When you recognize early extraction signals such as upper body weight shifting forward before the leg has begun sliding",
+        "targets_outcome": "Leg Knot/Top",
+        "if_successful": "Disrupts the forward pressure that is prerequisite for extraction, forcing the opponent to re-establish their base before trying again",
+        "risk": "The elevation may create space underneath that the opponent uses to change extraction angle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Knot/Top",
+        "how": "React immediately to extraction signals by re-hooking at the ankle level and clamping down with your inside hook. Chase the opponent's ankle with your own foot, maintaining redundant control through both leg hooks and hand grips on their foot. The earlier you catch the extraction attempt, the easier re-entanglement becomes."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When the extraction progresses past the point of no return and the opponent's leg is clearing your hooks, immediately commit fully to guard recovery. Frame hard against both shoulders with your forearms, execute a strong hip escape away from the opponent, and insert both feet on their hips before they can drive crossface. Speed and full commitment are essential — half-efforts at both retention and recovery succeed at neither."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining passive hooks without active tension or grip reinforcement",
+        "consequence": "The opponent peels each hook easily through incremental pressure, completing extraction without meaningful resistance",
+        "correction": "Keep hooks actively engaged with constant clamp pressure and supplement with hand grips on the opponent's foot or ankle. Hooks should be dynamic and responsive, adjusting to the opponent's extraction angle."
+      },
+      {
+        "error": "Allowing hips to be flattened to the mat by the opponent's forward pressure",
+        "consequence": "Flat hips eliminate the hip mobility needed to maintain hooks and chase the extracting leg, making re-entanglement mechanically impossible",
+        "correction": "Stay on your side with active hip positioning. Use your free leg to frame against the opponent's hips and resist the flattening pressure. If partially flattened, immediately hip escape to restore side positioning."
+      },
+      {
+        "error": "Attempting offensive leg lock attacks during the opponent's extraction rather than prioritizing retention",
+        "consequence": "Reaching for heel hooks or toe holds opens your leg structure, accelerating the extraction and leaving you in a worse position with arms extended",
+        "correction": "Once you recognize extraction rather than submission exchange, switch to retention-first defense. Offensive attacks from a deteriorating entanglement are extremely low-percentage. Retain the position first, then resume attacks."
+      },
+      {
+        "error": "Splitting defensive effort between retention and guard recovery instead of committing to one",
+        "consequence": "Half-hearted re-hooking that fails followed by delayed guard recovery attempts result in the worst outcome — consolidated half guard top with no defensive setup",
+        "correction": "Make a clear decision point: if the extraction is in the early phase, commit fully to re-hooking. If past the tipping point, abandon retention entirely and commit completely to guard recovery. The worst outcome comes from doing both poorly."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest sign that your opponent is attempting leg extraction rather than continuing to hunt submissions?",
+        "answer": "The earliest sign is a change in grip focus from your foot or heel to your upper body. When the opponent releases ankle and heel control and instead establishes crossface, collar tie, or far hip grips, they are preparing to extract rather than submit. Additionally, increased forward pressure through their chest and a relaxation of their trapped leg tension indicate limp leg extraction mechanics are beginning."
+      },
+      {
+        "question": "Your re-hooking attempts keep failing because the opponent's forward pressure flattens your hips — how do you address this?",
+        "answer": "Use your free leg to frame against the opponent's hips, creating a structural barrier that resists the forward flattening pressure. If already partially flat, perform a strong hip escape to restore your side positioning before attempting re-hooks. You can also use your hands on the opponent's hips to push them back enough to create re-hooking space. The fundamental issue is hip mobility — restore it through framing and hip escaping before attempting any re-entanglement."
+      },
+      {
+        "question": "The opponent's leg has cleared your ankle hooks but is still at knee level — should you fight for re-entanglement or begin guard recovery?",
+        "answer": "At the knee level, you still have a meaningful window for re-entanglement or counter-entanglement. Attempt to triangle their partially extracted leg by crossing your legs around their knee to initiate 50-50 entry. This is the optimal transition point because the leg is exposed enough to target but not yet cleared. If the triangle attempt fails and the knee also clears, immediately commit to guard recovery rather than chasing a lost position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hook Retention Drilling",
+        "focus": "Maintaining entanglement against controlled extraction attempts",
+        "description": "Partner executes slow extraction attempts while you practice maintaining hooks through active tension and re-hooking. Focus on keeping hips mobile, using hand grips to supplement leg hooks, and identifying which hooks are most critical to maintain. No resistance from extractor initially — develop the movement patterns first."
+      },
+      {
+        "phase": "Phase 2: Recognition and Decision Training",
+        "focus": "Identifying extraction attempts early and choosing correct defensive response",
+        "description": "Partner alternates between submission hunting and extraction attempts from leg knot. Defender practices recognizing the strategy shift and immediately activating the appropriate defense — retention against early extraction, counter-entanglement against mid-phase extraction, guard recovery against late-phase extraction. Build the decision hierarchy through repetition."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Rounds",
+        "focus": "Defending against increasingly committed and skilled extraction attempts",
+        "description": "Partner increases extraction speed and pressure from 50% to full resistance. Defender develops timing, identifies personal defensive strengths, and builds automatic responses to each extraction variant (limp leg, peel and pin, windshield wiper). Track which defensive option succeeds most frequently against each extraction type."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Complete defensive sequences under full competition conditions",
+        "description": "Begin in leg knot with full resistance from both players. Bottom player works to prevent extraction or recover guard, top player attempts extraction or submissions. After successful defense, bottom player should immediately counterattack to develop the habit of transitioning from defense to offense. Measure defensive success rate over multiple rounds."
+      }
+    ]
+  }
 }

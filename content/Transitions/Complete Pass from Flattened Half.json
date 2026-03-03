@@ -1,10 +1,15 @@
 {
   "name": "Complete Pass from Flattened Half",
-  "description": "TODO: Write 150-160 character SEO description for Complete Pass from Flattened Half.",
+  "description": "Master the complete guard pass from flattened half guard to side control. Step-by-step leg extraction, pressure maintenance, and pass completion techniques.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard passing",
+    "half guard",
+    "pressure passing",
+    "flattened half guard",
+    "side control",
+    "leg extraction"
   ],
   "from_position": "Flattened Half Guard/Top",
   "outcomes": [
@@ -25,114 +30,381 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Complete Pass from Flattened Half.",
+  "overview": "Complete Pass from Flattened Half Guard is the definitive guard-passing sequence executed when the top player has already collapsed the bottom player's frames and established chest-to-chest control with one leg still trapped in the half guard hook. This transition represents the final phase of the pressure-passing sequence, where the technical challenge shifts from maintaining dominant control to extracting the trapped leg without surrendering the positional advantage that was so methodically earned. The pass completion requires a precise balance between sustaining forward pressure that keeps the bottom player pinned and creating just enough angle to free the leg through the half guard entanglement.\n\nThe strategic significance of this transition lies in its position within the passing hierarchy. By the time the top player reaches flattened half guard, they have already won the underhook battle, established the crossface, and driven the bottom player flat. Abandoning this advantage through a sloppy extraction attempt would reset the entire passing sequence, potentially returning the bottom player to an active half guard with frames and offensive options. The complete pass therefore demands that every movement preserves the pressure investment already made, treating the leg extraction as a surgical procedure performed under the cover of sustained, suffocating chest and hip pressure.\n\nFrom a systems perspective, the complete pass connects the pressure-passing chain to the side control attacking platform. Successful execution opens the entire side control submission tree including Americana, Kimura, arm triangle, and positional advances to mount or knee on belly. The pass also earns three points in IBJJF competition, making it a high-value transition that combines tactical advancement with scoring opportunity. Understanding when to initiate the extraction, which angle to create, and how to maintain control throughout the movement separates practitioners who can flatten opponents from those who can actually finish the pass.",
   "conditions": [
-    "TODO"
+    "Top player has established chest-to-chest contact with opponent's back flat on mat",
+    "Crossface or equivalent head control is secured preventing opponent from turning in",
+    "Bottom player's frames have been collapsed with no active knee shield or forearm structure",
+    "One leg remains trapped in bottom player's half guard hook below the knee",
+    "Top player has won the underhook battle or neutralized opponent's underhook attempt"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Knee Slice Completion",
+      "description": "Drive the trapped knee diagonally across the bottom player's thigh line while maintaining crossface pressure, slicing through the half guard entanglement by creating an angle that makes the hook impossible to maintain. The knee travels from between the legs to the far side of the hip in one continuous motion.",
+      "when_to_use": "When you have strong crossface control and can create a diagonal angle with your hips, particularly effective against opponents who rely on the hook alone without additional frames."
+    },
+    {
+      "variant_name": "Hip Switch Extraction",
+      "description": "Shift your hips from one side to the other while maintaining chest pressure, using the directional change to pop the trapped leg free from the hook. The hip switch creates a brief window where the angle of your leg changes relative to the hook, breaking the entanglement through geometry rather than force.",
+      "when_to_use": "When the opponent has a particularly tight hook that resists direct extraction, or when you need to change the angle of attack after a failed knee slice attempt."
+    },
+    {
+      "variant_name": "Backstep Extraction",
+      "description": "Step the trapped leg backward and around the bottom player's hook while driving your hips forward to maintain pressure. This creates a circular extraction path that avoids the direct resistance of the hook by moving perpendicular to its grip direction.",
+      "when_to_use": "Against opponents with strong lockdown-style hooks or when the standard forward extraction is consistently being caught by re-hooking attempts."
     }
   ],
-  "position_integration": "TODO: Write position integration for Complete Pass from Flattened Half.",
+  "position_integration": "Complete Pass from Flattened Half Guard serves as the critical bridge between the pressure-passing sequence and the side control attacking platform. Within the broader guard-passing system, this transition represents the culmination of a chain that typically begins with establishing top position in half guard, winning the underhook and crossface battle, collapsing the bottom player's frames to achieve flattened half guard, and finally extracting the trapped leg to complete the pass. The transition connects directly to the Side Control submission tree including Americana, Kimura, arm triangle, knee on belly transitions, and mount advances. It also integrates with the knee slice passing system and smash passing methodology as the final completion step when those passes stall in the flattened half guard position.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Flattened Half Guard",
+      "relationship": "Starting position where this transition is executed from top control"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position bottom player recovers to if pass attempt fails and frames are re-established"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary passing technique that often leads to flattened half guard when partially completed"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Complementary passing technique using similar pressure mechanics and crossface control"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Alternative target position accessible during pass completion with modified angle"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Advanced target position if pass completion momentum allows direct mount transition"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Position bottom player attempts to recover to during failed pass attempts"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Counter position bottom player may enter if top player lifts pressure during extraction"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Related pressure-passing technique sharing similar control mechanics"
+    },
+    {
+      "name": "Underhook Pass",
+      "relationship": "Alternative passing approach that can chain with this technique"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative extraction method using backstep mechanics to free trapped leg"
     }
   ],
   "attacker": {
     "name": "Complete Pass from Flattened Half Attacker",
-    "description": "TODO: Write attacker description for Complete Pass from Flattened Half.",
-    "overview": "TODO: Write attacker overview for Complete Pass from Flattened Half.",
+    "description": "Learn to complete the guard pass from flattened half guard. Expert techniques for leg extraction, pressure maintenance, and seamless transition to side control.",
+    "overview": "As the attacker executing the Complete Pass from Flattened Half Guard, you have already accomplished the hardest part of the pressure-passing sequence: collapsing your opponent's frames, establishing the crossface, and driving them flat. The remaining challenge is extracting your trapped leg from their half guard hook without surrendering any of the positional advantage you earned. This requires understanding that the extraction is not a separate event from the pressure maintenance but rather a continuation of the same systematic pressure that got you here. Every movement must serve the dual purpose of advancing the pass while sustaining the control that keeps your opponent pinned. The moment you separate these objectives and focus solely on freeing your leg, you create the space your opponent needs to recover frames and reset the entire passing sequence.",
     "key_principles": [
-      "TODO"
+      "Maintain chest-to-chest pressure throughout the entire extraction sequence - never lift your torso to free the leg",
+      "Create angular displacement rather than direct force to overcome the half guard hook",
+      "Use the crossface as an anchor point that pins your opponent while your lower body works the extraction",
+      "Time your extraction attempt when the opponent is focused on surviving pressure rather than actively defending the hook",
+      "Drive your hips forward and down during extraction to prevent space creation beneath you",
+      "Treat the pass completion as a continuous flow rather than a discrete step - settle into side control without pause",
+      "Control your opponent's far hip with your free hand to prevent them from following your hip movement during extraction"
     ],
     "setup_requirements": [
-      "TODO"
+      "Crossface firmly established with forearm or bicep pressure turning opponent's head away from the pass direction",
+      "Chest-to-chest contact maintained with forward pressure through sternum and ribcage",
+      "Bottom player's frames collapsed with no active knee shield, forearm wedge, or elbow frame in place",
+      "Underhook battle resolved in your favor or opponent's underhook neutralized through shoulder pressure",
+      "Stable base established with your free leg posted for mobility and angle creation",
+      "Bottom player's far hip controlled or blocked to prevent them from following your extraction movement"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate upper body control",
+        "description": "Before initiating any leg extraction, verify that your crossface is secure with your forearm driving across your opponent's jaw line, your chest is heavy on their sternum, and your shoulder pressure is pinning their near shoulder to the mat. Your free hand should be controlling their far hip or posted on the mat for base. Settle your weight and take a controlled breath."
+      },
+      {
+        "step_number": 2,
+        "action": "Block the far hip",
+        "description": "Place your free hand on your opponent's far hip, pushing it toward the mat. This prevents them from shrimping toward you when you begin the extraction and eliminates their primary defensive movement. The hip block is the critical preparation that makes the extraction possible by removing their ability to follow your leg movement."
+      },
+      {
+        "step_number": 3,
+        "action": "Create the extraction angle",
+        "description": "Shift your hips slightly toward the side of the trapped leg while maintaining chest pressure. This diagonal hip movement changes the angle of your trapped leg relative to the hook, making it significantly easier to extract. Do not lift your chest during this shift - think of rotating your lower body while your upper body remains pinned to your opponent."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive the knee through",
+        "description": "With the angle established, drive your trapped knee diagonally across your opponent's thigh, slicing through the half guard hook in one deliberate motion. The knee travels from between their legs toward their far hip. Increase your chest pressure during this movement to compensate for the slight instability the leg motion creates. Your opponent will feel the hook breaking and may attempt to re-hook - the forward pressure prevents them from adjusting."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the foot",
+        "description": "As your knee clears the hook, immediately pull your foot free by curling your heel toward your buttock. Do not extend your leg straight as this allows your opponent to catch the ankle with a last-ditch re-hook. The curling motion makes your leg compact and difficult to recapture. Continue driving your hips forward through the extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish hip-to-hip contact",
+        "description": "The instant your leg is free, drive your hips into your opponent's near hip to establish the hip-to-hip connection that defines side control. This eliminates the space between your bodies that your opponent would use for guard recovery. Your hips should arrive before your opponent can insert a knee or frame."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle into side control",
+        "description": "Transition your crossface and upper body control into standard side control configuration. Spread your base with your legs for stability, maintain heavy hip pressure, and control their far arm or hip with your free hand. Do not rush past this settling phase - take one to two seconds to consolidate complete side control before considering any advancement or submission attacks."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Re-hooking the leg during extraction by catching the ankle or calf",
+        "effectiveness": "High",
+        "your_response": "Curl your heel tight to your buttock during extraction to make re-hooking extremely difficult. If they catch your ankle, drive your hips forward and re-attempt the knee slice from the new angle rather than pulling the leg back.",
         "targets_outcome": "Flattened Half Guard/Top"
+      },
+      {
+        "counter": "Hip escape during extraction to create space for knee shield recovery",
+        "effectiveness": "Medium",
+        "your_response": "Block the far hip before initiating extraction to prevent the shrimp. If they manage to create space, immediately increase chest pressure and re-flatten before reattempting the extraction. Do not chase the leg - control the upper body first.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Underhook recovery when pressure shifts during leg extraction",
+        "effectiveness": "Medium",
+        "your_response": "Maintain heavy shoulder pressure throughout the extraction to prevent underhook insertion. If they begin to establish an underhook, drive your shoulder into their chin and use a whizzer to neutralize it before continuing the pass.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Deep half entry by diving underneath during momentary pressure reduction",
+        "effectiveness": "Medium",
+        "your_response": "Keep your hips low and heavy throughout extraction - never allow your hips to rise above your opponent's hip line. If they begin threading underneath, immediately sprawl your hips back down and re-establish chest pressure to collapse the deep half attempt.",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting chest to create space for leg extraction rather than maintaining pressure throughout",
+        "consequence": "Opponent immediately inserts elbow frame or knee shield, recovering to active half guard and resetting the entire passing sequence",
+        "correction": "Keep your chest welded to your opponent's chest during the entire extraction. Use angular hip movement and knee slice mechanics to free the leg without any reduction in upper body pressure."
+      },
+      {
+        "error": "Attempting to yank the trapped leg straight back through direct force against the hook",
+        "consequence": "Hook becomes tighter as your opponent clamps down reflexively, wastes significant energy, and telegraphs your passing intention giving them time to prepare defensive frames",
+        "correction": "Create an angle with your hips first, then slice the knee diagonally across rather than pulling straight back. Angular displacement overcomes the hook through geometry, not force."
+      },
+      {
+        "error": "Neglecting to block the far hip before initiating extraction",
+        "consequence": "Opponent shrimps toward you during the extraction, following your movement and maintaining the hook or recovering to knee shield half guard",
+        "correction": "Always control the far hip with your free hand before beginning any extraction attempt. This pin prevents the shrimp that is their primary defensive movement."
+      },
+      {
+        "error": "Pausing between clearing the hook and establishing side control",
+        "consequence": "Creates a window where the opponent can insert a knee, recover half guard, or establish frames before you consolidate the new position",
+        "correction": "Treat the extraction and side control establishment as one continuous motion. The moment your leg clears, your hips drive into theirs to establish hip-to-hip contact with zero delay."
+      },
+      {
+        "error": "Extending the freed leg straight during extraction instead of curling the heel",
+        "consequence": "Opponent catches the extended ankle with a last-ditch re-hook, resetting you back to flattened half guard and wasting the extraction attempt",
+        "correction": "Always curl your heel toward your buttock as the knee clears the hook. This makes your leg compact and impossible to re-hook while also positioning it correctly for side control base."
+      },
+      {
+        "error": "Releasing the crossface during transition to side control",
+        "consequence": "Opponent turns into you, recovers guard frames, or begins an escape sequence before you can consolidate side control",
+        "correction": "Maintain crossface continuously from flattened half guard through the extraction and into side control settlement. The crossface is your anchor throughout the entire transition."
+      },
+      {
+        "error": "Rushing to attack submissions immediately after completing the pass without consolidating position",
+        "consequence": "Opponent exploits the incomplete control to recover guard or create scramble situations",
+        "correction": "Settle into side control for at least one to two seconds with full hip pressure and crossface before considering any offensive advancement. Consolidation prevents escape and maximizes your control advantage."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Leg extraction technique without resistance",
+        "description": "Practice the complete extraction sequence with a cooperative partner. Focus on maintaining chest pressure while creating the hip angle, driving the knee through, curling the heel, and flowing into side control. Perform 20 repetitions on each side with emphasis on smooth, connected movement rather than speed."
+      },
+      {
+        "phase": "Phase 2: Pressure Integration",
+        "focus": "Combining extraction with sustained pressure control",
+        "description": "Partner provides passive resistance through the hook while you practice maintaining heavy chest and hip pressure throughout the entire extraction. Partner gives feedback on any pressure reduction they feel during the movement. Focus on eliminating all gaps in pressure."
+      },
+      {
+        "phase": "Phase 3: Counter Defense",
+        "focus": "Maintaining pass against active defensive responses",
+        "description": "Partner actively defends using specific counters: re-hooking, hip escaping, underhook recovery, and deep half entries. Practice recognizing each counter and applying the appropriate response while maintaining forward progress toward completing the pass. Increase resistance gradually."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Connecting extraction to passing chains and follow-up attacks",
+        "description": "Begin from standing or from active half guard top and work through the full sequence: win underhook battle, establish crossface, flatten opponent, extract leg, settle side control. Chain failed extraction attempts into alternative passes. Practice transitioning immediately to side control attacks after settling."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Executing the complete pass in positional sparring",
+        "description": "Positional sparring starting from flattened half guard with full resistance. Top player works to complete the pass within 60 seconds. Bottom player uses all available defenses. Track success rate and identify which counters give you the most trouble for targeted drilling."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why is it critical to block the far hip before initiating the leg extraction?",
+        "answer": "Blocking the far hip prevents the bottom player from executing a hip escape (shrimp) that would follow your leg movement during extraction. Without the hip block, the opponent can shrimp toward you as you create the extraction angle, maintaining the hook or recovering enough space to re-establish frames and knee shield. The hip block removes their primary defensive movement and makes the extraction significantly higher percentage."
+      },
+      {
+        "question": "What is the optimal direction to drive your knee during extraction and why?",
+        "answer": "Drive your knee diagonally across the opponent's thigh toward their far hip rather than pulling straight back. This diagonal angle works with the geometry of the hook rather than against it, making extraction require minimal force. Pulling straight back tightens the hook through the opponent's reflexive clamping response and telegraphs your intention, while the diagonal slice changes the angle of your leg relative to the hook in a way that the hook cannot effectively grip."
+      },
+      {
+        "question": "Your opponent catches your ankle with a re-hook as you attempt extraction. How do you respond?",
+        "answer": "Do not pull the leg back and reset. Instead, drive your hips forward to maintain pressure and re-attempt the knee slice from the new angle created by your initial extraction attempt. The forward hip drive prevents the opponent from consolidating the re-hook, and the adjusted angle makes the second extraction attempt higher percentage. If re-hooking persists, switch to a hip switch extraction or backstep variant to change the extraction geometry entirely."
+      },
+      {
+        "question": "Why should you curl your heel toward your buttock during extraction rather than extending the leg straight?",
+        "answer": "Curling the heel makes your lower leg compact and spherical, which is extremely difficult for the opponent to catch with a last-ditch re-hook. An extended straight leg presents the ankle and calf as easy targets for re-hooking. Additionally, the curled position places your leg in the correct configuration for establishing side control base immediately upon clearing the hook, eliminating the pause between extraction and position consolidation."
+      },
+      {
+        "question": "What is the primary risk of lifting your chest during the extraction attempt?",
+        "answer": "Lifting the chest creates space between your torso and the opponent's body that they will immediately fill with frames, typically an elbow wedge or knee shield insertion. This single error can reset the entire passing sequence, returning the opponent to active half guard with defensive structure intact. All the work invested in winning the underhook battle, establishing the crossface, and flattening the opponent is lost in the moment you lift your chest."
+      },
+      {
+        "question": "How do you time the extraction attempt for maximum success probability?",
+        "answer": "Initiate the extraction when your opponent is focused on managing your upper body pressure rather than actively defending the leg hook. After establishing heavy crossface and chest pressure, wait for your opponent to adjust their breathing or attempt to move their head, then begin the extraction during that moment of divided attention. Avoid attempting extraction when the opponent has just settled into a defensive posture with full attention on maintaining the hook."
+      },
+      {
+        "question": "Your opponent begins threading underneath you for a deep half guard entry during your extraction attempt. What adjustment do you make?",
+        "answer": "Immediately sprawl your hips down toward the mat and increase forward chest pressure to collapse the deep half entry before it develops. The deep half requires the opponent to get their head underneath your hip line, which is only possible if your hips rise during the extraction. After stopping the deep half attempt, re-settle your pressure and reattempt the extraction with a more deliberate focus on keeping hips low throughout the movement."
+      },
+      {
+        "question": "What distinguishes the knee slice completion variant from the hip switch extraction variant?",
+        "answer": "The knee slice completion drives the trapped knee diagonally across the opponent's thigh in one continuous forward motion, relying on angular displacement and forward pressure to break the hook. The hip switch extraction shifts the hips from one side to the other while maintaining chest pressure, using the directional change to pop the leg free through a change in the angle of the leg relative to the hook. The knee slice is the primary option when you have strong crossface control and can create a diagonal angle. The hip switch is better against tight hooks that resist forward extraction."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Complete Pass from Flattened Half."
+    "safety_considerations": "The Complete Pass from Flattened Half Guard is a relatively low-risk transition from an injury perspective, as no joint locks or chokes are directly applied during the movement. However, the sustained chest pressure can be uncomfortable and restrict breathing for the bottom player, so training partners should be attentive to tapping for pressure and should release immediately when tapped. During the knee slice extraction, avoid driving your knee aggressively into the opponent's inner thigh as this can cause bruising or soft tissue injury. When drilling, establish clear communication about pressure intensity levels."
   },
   "defender": {
     "name": "Complete Pass from Flattened Half Defender",
-    "description": "TODO: Write defender description for Complete Pass from Flattened Half.",
-    "overview": "TODO: Write defender overview for Complete Pass from Flattened Half.",
+    "description": "Defend the guard pass from flattened half guard. Recognition cues, frame recovery tactics, and re-hooking techniques to prevent pass completion to side control.",
+    "overview": "As the defender against the Complete Pass from Flattened Half Guard, you are in one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. Your frames have been collapsed, your back is flat on the mat, and your opponent is working to extract the one remaining barrier that prevents them from achieving full side control. Your defensive strategy must operate on two simultaneous tracks: maintaining the half guard hook that prevents the pass while systematically working to recover frames and escape the flattened position. The critical insight is that simply holding the hook is a losing strategy over time, as a skilled top player will eventually find the angle to extract their leg. Your defense must be active, combining hook retention with frame recovery attempts that force the top player to choose between maintaining their pressure and completing the extraction.",
     "key_principles": [
-      "TODO"
+      "The hook alone is a temporary barrier - use the time it buys to recover frames rather than relying on it as your sole defense",
+      "Fight for the underhook on the far side even while accepting the crossface, as it prevents full flattening and creates escape structure",
+      "Time your hip escape to coincide with the opponent's extraction attempt when their focus is divided between pressure and leg movement",
+      "Keep your knees active and ready to insert as frames the moment any space appears during the extraction sequence",
+      "Breathe tactically with small controlled breaths timed to your micro-movements rather than fighting for deep breaths under pressure",
+      "Monitor the angle of your opponent's hips as the primary indicator that an extraction attempt is beginning"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent shifts their hips to one side while maintaining chest pressure, creating a diagonal angle with their trapped leg",
+      "Opponent's free hand moves to control your far hip, pinning it to prevent your shrimp",
+      "Opponent drives their knee forward and diagonally across your thigh rather than simply maintaining the trapped position",
+      "You feel a reduction in the hook's effectiveness as the angle of the trapped leg changes relative to your grip",
+      "Opponent increases crossface pressure suddenly, which often precedes an extraction attempt to prevent you from reacting"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Hip escape toward the trapped leg side at the moment of extraction to recover knee shield or half guard frames",
+        "when_to_use": "When you feel the opponent begin their hip shift or knee drive indicating extraction is starting, and you have enough space to shrimp",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover active half guard with frames re-established, resetting the entire passing sequence and forcing them to start over",
+        "risk": "If mistimed, the shrimp can accelerate the pass if the opponent rides your movement to complete the extraction"
+      },
+      {
+        "action": "Clamp the hook tighter by squeezing your knees together and turning your hips to face your opponent during the extraction",
+        "when_to_use": "When the opponent begins the knee slice and you need to buy time to set up a more complete defensive response",
         "targets_outcome": "Flattened Half Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The extraction fails and the opponent remains in flattened half guard, giving you more time to work on frame recovery",
+        "risk": "Only delays the pass rather than improving your position, and burns energy in the legs that could be used for recovery"
+      },
+      {
+        "action": "Insert elbow frame during the moment of extraction when the opponent's pressure necessarily shifts",
+        "when_to_use": "When the opponent lifts their chest even slightly during the extraction attempt or shifts their weight to drive the knee through",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Frame creates space for full knee shield recovery or return to active half guard with offensive capabilities restored",
+        "risk": "Extending the arm for the frame can expose it to Kimura or Americana attacks if the extraction succeeds despite your defense"
+      },
+      {
+        "action": "Thread underneath for deep half guard entry during the opponent's extraction movement",
+        "when_to_use": "When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options",
+        "risk": "If the opponent recognizes the entry and sprawls, you may end up in a worse flattened position with less defensive structure"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hip escape to coincide with the opponent's extraction attempt. As they shift their hips to create the extraction angle, shrimp toward the trapped leg side and immediately insert your knee as a frame. The opponent's divided attention between maintaining pressure and extracting the leg creates the window you need to recover frames and return to active half guard."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Focusing entirely on clamping the hook without attempting frame recovery",
+        "consequence": "The hook provides only temporary defense. A skilled top player will eventually find the angle to extract, and without any frame recovery progress, you will be passed to side control with no defensive structure in place.",
+        "correction": "Use the hook as a time-buying mechanism while actively working to recover frames. Every second you maintain the hook should include a micro-adjustment toward inserting an elbow frame, recovering the underhook, or creating space for a knee shield."
+      },
+      {
+        "error": "Attempting explosive bridge escapes without any frames established",
+        "consequence": "Burns massive energy without creating meaningful change, as the opponent simply rides the bridge with their chest pressure and resettles heavier after you exhaust yourself.",
+        "correction": "Save explosive energy for moments when you have at least one frame established that can leverage the bridge into actual positional change. Unframed bridges against settled pressure are nearly always futile."
+      },
+      {
+        "error": "Turning away from opponent during escape attempt, exposing the back",
+        "consequence": "Skilled top players anticipate this turning motion and transition directly to back control, which is significantly worse than being passed to side control.",
+        "correction": "Always shrimp toward the trapped leg side, keeping your chest facing your opponent throughout. Create space by moving away from them rather than turning to face away."
+      },
+      {
+        "error": "Panicking under pressure and abandoning systematic defense for frantic scrambling",
+        "consequence": "Uncontrolled movement creates openings the top player exploits, accelerating the pass and potentially exposing limbs to submission attacks during the chaos.",
+        "correction": "Accept the discomfort of the position and maintain disciplined, incremental defensive work. Tactical breathing and systematic micro-adjustments are far more effective than desperate explosive movements."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why is simply holding the hook a losing defensive strategy against a skilled passer?",
+        "answer": "A skilled top player will methodically create angles through hip shifting, knee slicing, and backstep mechanics that eventually overcome any hook no matter how tightly you clamp. The hook is a time-buying mechanism, not a permanent solution. The time it provides must be used for active frame recovery - inserting elbows, recovering underhooks, or creating space for knee shield insertion. Without this progressive recovery work, the hook only delays the inevitable pass."
+      },
+      {
+        "question": "What is the primary recognition cue that your opponent is about to attempt the extraction?",
+        "answer": "The most reliable cue is feeling your opponent shift their hips to one side while maintaining chest pressure. This hip shift creates the diagonal angle necessary for knee slice extraction and is the preparatory movement that precedes the actual extraction drive. A secondary cue is their free hand moving to control your far hip, which indicates they are preparing to prevent your shrimp during the extraction. Recognizing these cues early gives you the time needed to begin your defensive response."
+      },
+      {
+        "question": "How should you time your hip escape relative to the opponent's extraction attempt?",
+        "answer": "Execute your hip escape at the moment the opponent begins their knee drive, not before. If you shrimp too early, they can adjust their angle and follow your movement. If you shrimp during the knee drive, their attention and energy are committed to the extraction, and they cannot simultaneously maintain full pressure and follow your hip escape. This timing exploits the fundamental conflict between extraction mechanics and pressure maintenance that the top player faces."
+      },
+      {
+        "question": "Your opponent has both crossface and far hip control as they begin extraction. What is your best defensive option?",
+        "answer": "With both controls established, your best option is to attempt a deep half guard entry if their hips rise during the extraction, or to clamp the hook as tightly as possible while working your inside elbow toward their hip line to create a frame. The far hip control limits your shrimp, so you must look for the micro-opportunities when their hand shifts or their pressure adjusts. Focus on getting your inside elbow to their hip as the immediate priority, as this single frame can create enough space for a follow-up shrimp."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying extraction attempts through tactile and visual cues",
+        "description": "Partner performs multiple extraction attempts while you focus on recognizing the cues: hip shift, far hip control, knee drive. Call out each cue as you feel it without attempting any defense. Build the pattern recognition that enables timely defensive responses."
+      },
+      {
+        "phase": "Phase 2: Hook Retention",
+        "focus": "Maintaining the half guard hook against progressive extraction attempts",
+        "description": "Partner attempts extractions with increasing technical sophistication while you practice maintaining the hook through clamping, angle adjustment, and re-hooking. Focus on buying maximum time with the hook while building the reflexive re-hooking response."
+      },
+      {
+        "phase": "Phase 3: Frame Recovery Under Pressure",
+        "focus": "Combining hook retention with systematic frame recovery",
+        "description": "Partner maintains flattened half guard pressure while you practice the dual task of maintaining the hook and recovering frames through micro-adjustments. Focus on inserting the elbow frame, recovering the underhook, and creating space for knee shield insertion while under realistic pressure."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense against complete pass attempts",
+        "description": "Positional sparring starting from flattened half guard with full resistance. Defender scores by recovering to active half guard or better position. Track which extraction variants give you the most trouble and drill specific counters for those patterns."
       }
     ]
   }

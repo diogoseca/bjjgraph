@@ -95,29 +95,31 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (8% of attempts)
+- **[[Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Inside Ashi Entry]]** (8% of attempts)
+- **[[Inside Ashi Entry]]** (7% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (5% of attempts)
+- **[[X-Guard to Ashi Garami]]** (4% of attempts)
 
-- **[[Saddle Defense]]** (38% of attempts)
+- **[[Heel Hook Defense Escape]]** (48% of attempts)
 
-- **[[Outside Ashi Entry]]** (8% of attempts)
+- **[[Outside Ashi Entry]]** (7% of attempts)
 
-- **[[Standing Escape]]** (3% of attempts)
+- **[[Standing Escape]]** (2% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (6% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
-- **[[Transition to Backside 50-50]]** (8% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (7% of attempts)
 
-- **[[Counter heel hook]]** (6% of attempts)
+- **[[Counter heel hook]]** (5% of attempts)
 
-- **[[Leg Extraction]]** (8% of attempts)
+- **[[Leg Extraction]]** (7% of attempts)
 
-- **[[Counter Entangle from Cross Ashi]]** (1% of attempts)
+- **[[Counter Entangle from Cross Ashi]]** (0% of attempts)
 
-- **[[Leg Extraction from Cross Ashi]]** (1% of attempts)
+- **[[Leg Extraction from Cross Ashi]]** (0% of attempts)
+
+- **[[Sweep from Cross Ashi-Garami]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -190,7 +192,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Kneebar entry]]** (8% of attempts)
 
-- **[[Transition to Backside 50-50]]** (3% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
 - **[[Heel Hook]]** (8% of attempts)
 

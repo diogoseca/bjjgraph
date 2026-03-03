@@ -59,7 +59,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium to Long |
 
-**Key Difference:** Perpendicular angle maximizes control leverage
+**Key Difference:** One-sided hooks force urgent escape-or-lose tempo
 
 
 
@@ -93,21 +93,21 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (32% of attempts)
+- **[[Hip Escape to Guard]]** (39% of attempts)
 
-- **[[Granby Roll to Guard]]** (19% of attempts)
+- **[[Granby Roll to Guard]]** (21% of attempts)
 
-- **[[Turtle to Standing]]** (14% of attempts)
+- **[[Turtle to Standing]]** (13% of attempts)
 
-- **[[Guard Recovery]]** (9% of attempts)
+- **[[Peterson Roll]]** (8% of attempts)
 
-- **[[Peterson Roll]]** (9% of attempts)
+- **[[Sit Through Escape]]** (10% of attempts)
 
-- **[[Sit Through Escape]]** (11% of attempts)
+- **[[Rolling Back Take]]** (3% of attempts)
 
-- **[[Rolling Back Take]]** (4% of attempts)
+- **[[Crab Ride Escape to Guard]]** (4% of attempts)
 
-- **[[Crab Ride Escape to Guard]]** (2% of attempts)
+- **[[Escape from Crab Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -168,7 +168,7 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Crab Ride to Back]]** (39% of attempts)
+- **[[Crab Ride to Back]]** (40% of attempts)
 
 - **[[Darce from Turtle]]** (7% of attempts)
 
@@ -180,9 +180,9 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 - **[[Crucifix from Turtle]]** (11% of attempts)
 
-- **[[Transition to Cross Body Ride]]** (7% of attempts)
+- **[[Back Control to Cross Body Ride]]** (7% of attempts)
 
-- **[[Transition to Rodeo Ride]]** (9% of attempts)
+- **[[Turtle to Rodeo Ride]]** (8% of attempts)
 
 - **[[Rolling Back Take]]** (4% of attempts)
 

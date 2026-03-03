@@ -87,19 +87,21 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (25% of attempts)
+- **[[Arm Extraction]]** (27% of attempts)
 
-- **[[Granby Roll to Guard]]** (15% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Back Door Escape]]** (12% of attempts)
+- **[[Back Door Escape]]** (11% of attempts)
 
-- **[[Counter Roll to Top]]** (8% of attempts)
+- **[[Counter Roll to Top]]** (7% of attempts)
 
-- **[[Step Over Escape]]** (15% of attempts)
+- **[[Step Over Escape]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Rolling to Guard]]** (10% of attempts)
+- **[[Rolling to Guard]]** (9% of attempts)
+
+- **[[Frame Escape from Darce]]** (4% of attempts)
 
 
 ### Common Mistakes

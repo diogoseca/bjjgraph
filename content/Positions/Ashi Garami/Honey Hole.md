@@ -93,23 +93,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Inversion Escape]]** (15% of attempts)
+- **[[Inversion Escape]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (8% of attempts)
+- **[[Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Saddle Defense]]** (10% of attempts)
+- **[[Angle Change Escape]]** (9% of attempts)
 
-- **[[Ashi Garami Escape]]** (8% of attempts)
+- **[[Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (30% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (37% of attempts)
 
-- **[[Counter heel hook]]** (4% of attempts)
+- **[[Counter heel hook]]** (3% of attempts)
 
-- **[[Reverse the entanglement to Outside Ashi]]** (9% of attempts)
+- **[[Reverse the entanglement to Outside Ashi]]** (8% of attempts)
 
-- **[[Grip Break]]** (14% of attempts)
+- **[[Grip Break]]** (13% of attempts)
 
-- **[[Standing Escape]]** (2% of attempts)
+- **[[Standing Escape]]** (1% of attempts)
+
+- **[[Sweep from Honey Hole]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,7 +188,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Estima Lock]]** (3% of attempts)
 
-- **[[Transition to Backside 50-50]]** (3% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
 - **[[Calf Slicer]]** (2% of attempts)
 

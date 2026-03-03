@@ -91,25 +91,27 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (11% of attempts)
+- **[[Old School Sweep]]** (10% of attempts)
 
-- **[[Half Guard to Back Take]]** (10% of attempts)
+- **[[Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (11% of attempts)
+- **[[Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Deep Half Entry]]** (11% of attempts)
 
-- **[[Rolling Back Take]]** (9% of attempts)
+- **[[Rolling Back Take]]** (8% of attempts)
 
-- **[[Electric Chair Transition]]** (7% of attempts)
+- **[[Electric Chair Transition]]** (6% of attempts)
 
-- **[[Knee Shield Retention]]** (25% of attempts)
+- **[[Knee Shield Retention]]** (33% of attempts)
 
-- **[[Lockdown Recovery]]** (10% of attempts)
+- **[[Lockdown Recovery]]** (9% of attempts)
 
-- **[[Knee Shield from Quarter Guard]]** (3% of attempts)
+- **[[Knee Shield from Quarter Guard]]** (2% of attempts)
 
-- **[[Recover Full Guard from Quarter Guard]]** (2% of attempts)
+- **[[Recover Full Guard from Quarter Guard]]** (1% of attempts)
+
+- **[[Sweep from Quarter Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

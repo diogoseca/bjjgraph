@@ -23,6 +23,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 **Type**: Leg Lock
 **Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
 **Starting Position**: [[Standing Guard]]
+**From Position**: [[Standing Position]] ()
 **Success Rate**: 40%
 
 </section>

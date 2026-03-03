@@ -1,10 +1,14 @@
 {
   "name": "Standing Back Control Entry",
-  "description": "TODO: Write 150-160 character SEO description for Standing Back Control Entry.",
+  "description": "Master the Standing Back Control Entry in BJJ. Learn to follow opponents to standing while maintaining hooks, seatbelt grip, and chest-to-back connection.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "back control",
+    "standing transition",
+    "position retention",
+    "hooks management",
+    "harness control",
+    "standing grappling",
+    "back attack system"
   ],
   "from_position": "Back Control/Top",
   "outcomes": [
@@ -25,114 +29,376 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Standing Back Control Entry.",
+  "overview": "Standing Back Control Entry is the critical transition of following your opponent from grounded back control to standing back control as they attempt to rise to their feet. This technique occurs most frequently when an opponent in bottom back control uses a standing escape strategy, driving upward from the ground to break the controlling player's hooks and create separation. Rather than abandoning back control during this positional change, the skilled practitioner rides the movement, adjusting hooks, maintaining seatbelt grip, and preserving chest-to-back connection throughout the vertical transition.\n\nThe strategic importance of this entry cannot be overstated. Grounded back control offers stability but limits certain attacking angles and takedown options. Standing back control opens pathways to forceful mat returns, standing rear naked choke attempts, and body lock takedowns that are unavailable on the ground. However, the transition itself represents a window of vulnerability where the controlling player must adapt to a fundamentally different balance paradigm while the opponent gains mobility and base strength from having feet underneath them. The timing and mechanical precision required to maintain all three control points during the plane change from horizontal to vertical separates advanced practitioners from intermediate ones.\n\nThis transition integrates into the broader back attack system as a critical retention skill. When opponents recognize that standing escape attempts will not free them from back control, their escape options narrow significantly. The ability to follow to standing transforms what many opponents view as their best escape route into simply another controlled position within your attacking framework, creating the psychological pressure that forces defensive errors across the entire back control sequence.",
   "conditions": [
-    "TODO"
+    "Opponent initiates or prepares to initiate standing sequence from grounded back control",
+    "Secure seatbelt or harness grip established on opponent's upper body with hands clasped",
+    "At least one hook maintained inside opponent's inner thigh with active foot engagement",
+    "Chest-to-back connection intact with no space between your torso and opponent's spine"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Reactive Follow Entry",
+      "description": "The standard version where you follow your opponent's stand-up attempt by riding their upward movement with your hips and hooks. You react to their initiative and synchronize your vertical movement with theirs, maintaining all control points throughout the transition.",
+      "when_to_use": "When your opponent initiates the stand-up and you detect the movement early enough to match their timing. This is the most common variation and requires reading hip loading cues to begin your follow before the opponent gains momentum."
+    },
+    {
+      "variant_name": "Proactive Lift Entry",
+      "description": "An aggressive variation where you initiate the standing transition yourself by driving your opponent upward using your hooks and hip drive. Rather than waiting for the opponent to stand, you force the positional change to access standing back control attacks such as mat returns and standing chokes.",
+      "when_to_use": "When your grounded back attack sequence has stalled and the opponent has established strong defensive grips preventing submissions. The standing transition creates new attacking angles and forces the opponent to deal with balance challenges they were not expecting."
+    },
+    {
+      "variant_name": "Body Lock Transition",
+      "description": "A modified entry using a body lock grip around the opponent's waist instead of the traditional seatbelt. The body lock provides more secure connection during the vertical transition at the cost of reduced choking threat, and works particularly well when the opponent has been effectively fighting the seatbelt grip.",
+      "when_to_use": "When the opponent has compromised your seatbelt grip through persistent hand fighting and you need a more secure upper body connection to survive the standing transition. The body lock is also preferred when you intend to immediately execute a mat return rather than attack standing submissions."
     }
   ],
-  "position_integration": "TODO: Write position integration for Standing Back Control Entry.",
+  "position_integration": "Standing Back Control Entry occupies a crucial role in the back attack system as a positional retention tool that prevents opponents from using stand-up as an escape route. It bridges grounded back control with standing back control, maintaining the attacker's four-point positional advantage through the transition. This technique connects directly to the mat return system, standing rear naked choke attacks, and body lock takedown sequences, while its mastery eliminates one of the bottom player's primary escape pathways. Within the broader positional hierarchy, it reinforces the principle that back control is the most dominant position regardless of whether the engagement is on the ground or standing, and forces opponents to seek alternative, often lower-percentage escape routes that the back control top player can more easily predict and counter.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Back Control",
+      "relationship": "Source position from which this transition originates when opponent attempts to stand from grounded back control"
+    },
+    {
+      "name": "Standing Back Control",
+      "relationship": "Target position achieved upon successful completion of this transition"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Primary grip configuration that must be maintained throughout the standing transition for upper body control"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Alternative leg control configuration that can be established during or after the standing transition for enhanced stability"
+    },
+    {
+      "name": "Harness",
+      "relationship": "Upper body control mechanism fundamental to maintaining back control during the vertical transition"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position where the attacker may end up if the transition fails and the opponent escapes"
+    },
+    {
+      "name": "Mat Return from Standing Rear Clinch",
+      "relationship": "Follow-up technique used to bring the fight back to the ground after achieving standing back control"
+    },
+    {
+      "name": "Back Control Maintenance",
+      "relationship": "Complementary retention technique for maintaining grounded back control when the standing transition is not pursued"
+    },
+    {
+      "name": "Bow and Arrow Setup from Standing Back",
+      "relationship": "Gi-based attack pathway available after successfully achieving standing back control"
+    },
+    {
+      "name": "Body Lock Takedown",
+      "relationship": "Takedown option available from standing back control using body lock grip variation"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common position the opponent may attempt to reach during the transition to avoid standing back control"
+    },
+    {
+      "name": "Shoulder Walk Escape from Back",
+      "relationship": "Defensive technique the opponent may attempt that can precede or replace their standing escape attempt"
     }
   ],
   "attacker": {
     "name": "Standing Back Control Entry Attacker",
-    "description": "TODO: Write attacker description for Standing Back Control Entry.",
-    "overview": "TODO: Write attacker overview for Standing Back Control Entry.",
+    "description": "Master the attacker perspective for Standing Back Control Entry in BJJ. Learn to follow opponents to standing with systematic hook management, seatbelt retention, and chest connection.",
+    "overview": "From the attacker perspective, Standing Back Control Entry requires precise coordination of hooks, harness grip, and hip movement to follow your opponent's standing attempt without losing any control points. The key challenge lies in adapting from a stable horizontal control platform to an inherently unstable vertical one while your opponent gains mechanical advantages from having their feet planted. Successful execution demands anticipation of the stand-up, immediate hip engagement to match their upward drive, and constant adjustment of hook depth and seatbelt tension throughout the transition. The reward is maintaining your dominant position and opening new attack pathways including mat returns, standing choke sequences, and body lock takedowns that are unavailable from grounded back control.",
     "key_principles": [
-      "TODO"
+      "Maintain all three control points simultaneously throughout the transition: hooks for hip control, seatbelt for upper body control, and chest-to-back connection for weight distribution",
+      "Anticipate the stand-up by reading hip loading cues and begin your upward engagement before the opponent fully commits to standing",
+      "Use hip-to-hip connection as the primary mechanism for following vertical movement rather than relying on arm strength or grip alone",
+      "Adjust hook depth continuously during the angle change from horizontal to vertical as gravity shifts the mechanics of leg control",
+      "Make an immediate tactical decision upon reaching standing to attack, consolidate, or return to ground before the positional advantage degrades",
+      "Drive chest pressure forward into opponent's spine throughout every phase of the transition to prevent any separation or space creation"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established back control with seatbelt or harness grip securely locked with hands clasped together",
+      "At least one hook positioned inside opponent's inner thigh with secure foot placement and active heel engagement",
+      "Chest-to-back connection intact with no space between your torso and opponent's spine allowing direct weight transfer",
+      "Opponent initiating or preparing to initiate standing sequence with feet planted or hips loading upward",
+      "Sufficient mat space for safe vertical transition without obstruction from walls or other training pairs"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Recognize opponent's intention to stand",
+        "description": "Monitor your opponent's hips and leg positioning for signs of a stand-up attempt. Key indicators include feet planted flat on the mat, hips loading forward, and hands pushing against the ground. Early recognition allows you to preemptively tighten your controls before the upward movement begins."
+      },
+      {
+        "step_number": 2,
+        "action": "Tighten seatbelt grip and lock controls",
+        "description": "Before the transition begins, cinch your seatbelt grip tighter by pulling your elbows into your body and squeezing your forearms against opponent's chest. Ensure your choking arm is positioned high across the collarbone and your underhook arm is deep under the armpit with hands clasped firmly together."
+      },
+      {
+        "step_number": 3,
+        "action": "Set hooks deep and engage hip follow",
+        "description": "Drive your hooks deeper into opponent's inner thighs by extending your toes and curling your heels inward. Engage your hips tight against opponent's lower back so there is zero space between your pelvis and their hips. This hip connection is the foundation for following their upward movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Match opponent's upward drive with synchronized hip movement",
+        "description": "As your opponent drives upward, use your hips to follow their vertical movement synchronously. Do not push yourself up with your arms or release the seatbelt. Let your hips ride on their hips, using hook connection and chest pressure to travel with them as your legs adjust to the changing angle."
+      },
+      {
+        "step_number": 5,
+        "action": "Maintain chest-to-back connection through vertical transition",
+        "description": "Throughout the entire rising sequence, keep your chest glued to opponent's back with active forward pressure. The most common failure point is the mid-transition when the angle changes from horizontal to forty-five degrees. Drive your sternum forward into their spine continuously through this critical phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish stable standing base with adjusted hook position",
+        "description": "Once both practitioners are standing, widen your stance slightly for balance and adjust hook depth for the vertical plane. Your feet should remain inside their thighs with weight distributed through chest pressure. If hooks have become shallow, immediately deepen them or transition to body triangle for more secure control."
+      },
+      {
+        "step_number": 7,
+        "action": "Evaluate and execute immediate attack or consolidation",
+        "description": "Immediately assess whether to attack with a standing rear naked choke, execute a mat return to take the fight back down, or consolidate position by adjusting grips and hooks. Standing back control favors the attacker only briefly, so decisive action prevents the defender from organizing their escape."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent strips hooks during vertical transition by straightening legs and pushing feet outward with hands",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to body lock around waist if hooks are stripped, then retake hooks once standing or execute mat return before losing all lower body control",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent breaks seatbelt grip by stripping the underhook arm during stand-up when torso angle shifts",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Reattach seatbelt immediately by swimming the underhook arm back through or transition to body lock grip while maintaining chest connection and hook control",
         "targets_outcome": "Back Control/Top"
+      },
+      {
+        "counter": "Opponent drops hips explosively back to seated position to prevent standing transition",
+        "effectiveness": "Low",
+        "your_response": "Follow their hips back down maintaining all controls and return to standard grounded back control, then be prepared for their next escape attempt with tighter hooks",
+        "targets_outcome": "Back Control/Top"
+      },
+      {
+        "counter": "Opponent turns shoulders toward attacker during mid-transition to face them and break back exposure",
+        "effectiveness": "Medium",
+        "your_response": "Follow the rotation by circling with opponent while tightening seatbelt. If rotation progresses significantly, transition to front headlock or body lock control rather than fighting a losing back position",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing seatbelt grip to post hands on the ground during the standing transition",
+        "consequence": "Creates immediate opportunity for opponent to turn and face you, stripping your back control entirely during the most vulnerable phase of transition",
+        "correction": "Never release seatbelt grip for any reason during transition. Use your hips and hook connection to follow opponent's upward movement without needing hands for balance or support"
+      },
+      {
+        "error": "Hooks positioned too shallow at ankle level instead of deep inside opponent's thighs",
+        "consequence": "Opponent easily clears shallow hooks by straightening legs or pushing feet away, losing all lower body control during the critical standing transition phase",
+        "correction": "Before transition begins, drive hooks deep inside opponent's thighs with heels curled inward. Shallow hooks must be deepened before attempting to follow the stand-up sequence"
+      },
+      {
+        "error": "Failing to match opponent's upward timing and getting left behind on the ground",
+        "consequence": "Creates separation between your hips and opponent's hips, making it impossible to follow the movement and resulting in lost back control as they stand away from you",
+        "correction": "Anticipate the stand-up by reading hip loading cues and begin your upward hip engagement simultaneously with or slightly before opponent's drive to stay synchronized throughout"
+      },
+      {
+        "error": "Creating space between chest and opponent's back during the mid-transition angle change",
+        "consequence": "Space during mid-transition allows opponent to slip out of controls, turn to face you, or insert defensive frames that prevent reestablishing chest connection",
+        "correction": "Drive your sternum forward into opponent's spine continuously throughout the transition. The angle change from horizontal to vertical is the most common failure point requiring active chest engagement"
+      },
+      {
+        "error": "Standing too tall with a narrow base after achieving standing position",
+        "consequence": "Narrow base creates instability that opponent exploits through directional changes, level drops, or throwing attempts that compromise your balance and control",
+        "correction": "Once standing, immediately widen your stance for stability, bend your knees slightly, and distribute weight through both chest pressure and a stable base. Keep your center of gravity low"
+      },
+      {
+        "error": "Attempting to lift opponent rather than following their natural standing movement",
+        "consequence": "Requires excessive energy, risks injury to both practitioners, and often results in an uncontrolled transition where hooks and seatbelt lose proper positioning",
+        "correction": "Follow your opponent's natural standing movement rather than trying to lift them. Let their energy create the transition while you focus on maintaining your control points throughout"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Movement Patterns",
+        "focus": "Hip follow mechanics and coordination",
+        "description": "Practice the hip engagement and vertical follow movement without a partner. Start seated with legs extended, then practice rising while maintaining a forward hip drive. Build muscle memory for the coordinated hip and leg movement required during the transition."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Control maintenance through transition",
+        "description": "Partner stands up slowly from back control while you practice following with all controls maintained. Focus on keeping seatbelt tight, hooks deep, and chest connected. No resistance initially, building to light resistance over multiple repetitions."
+      },
+      {
+        "phase": "Phase 3: Reactive Timing",
+        "focus": "Reading stand-up cues and matching timing",
+        "description": "Partner initiates stand-up at random intervals during back control rounds. Practice recognizing the cues including hip loading and feet planting, then immediately engaging your follow sequence. Partner provides moderate resistance during the transition."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Maintaining control under defensive pressure",
+        "description": "Partner uses increasingly aggressive escape tactics during the standing transition including hook stripping, grip breaking, and directional changes. Practice adapting your controls in real-time and completing the transition under competitive resistance."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Incorporating entry into full back attack sequences",
+        "description": "During positional sparring from back control, look for standing transition opportunities and execute them in live rolling. Practice transitioning to standing submissions, mat returns, or body lock takedowns after achieving standing back control."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the three primary control points that must be maintained throughout the Standing Back Control Entry?",
+        "answer": "The three control points are hooks inside the opponent's thighs for hip control, seatbelt or harness grip for upper body control, and chest-to-back connection for weight distribution and positional dominance. All three must be maintained simultaneously throughout the transition from horizontal to vertical, as losing any single control point during the transition creates escape windows the opponent will exploit."
+      },
+      {
+        "question": "At what phase of the transition is back control most vulnerable to defensive escape?",
+        "answer": "Back control is most vulnerable during the mid-transition phase when the angle changes from approximately horizontal to forty-five degrees. At this angle, hook depth is compromised by leg straightening, the seatbelt must adapt to the changing torso angle, and chest connection is hardest to maintain because the body alignment shifts significantly between horizontal and vertical positions."
+      },
+      {
+        "question": "Your opponent plants their feet and begins loading their hips to stand - what is your immediate response?",
+        "answer": "Immediately tighten your seatbelt grip by pulling elbows in, drive hooks deeper inside their thighs, and engage your hips flush against their lower back to eliminate any space. Begin your upward hip engagement before they fully commit to the stand-up so you are synchronized with their movement rather than reacting to it after they have already created separation."
+      },
+      {
+        "question": "How does hook position need to change between grounded and standing back control?",
+        "answer": "In grounded back control, hooks are positioned with feet inside the opponent's thighs at a comfortable angle supported by the ground. When transitioning to standing, hooks must be deepened with heels curled tighter against the inner thighs because gravity now works to pull your legs downward away from the control position. Stronger hamstring engagement and a wider foot placement inside the thighs prevents hooks from sliding down during vertical transition."
+      },
+      {
+        "question": "When should you choose to follow your opponent to standing versus pulling them back down?",
+        "answer": "Follow to standing when your opponent has committed to the stand-up and has their feet solidly planted, as fighting their upward momentum wastes energy and often creates the separation you are trying to prevent. Pull them back down only in the early phase before they have established base with their feet, when a simple hip pull and hook drive can collapse their stand-up attempt before it develops momentum."
+      },
+      {
+        "question": "What grip adjustment is most important if your seatbelt loosens during the standing transition?",
+        "answer": "If the seatbelt loosens during transition, immediately switch to a body lock by clasping your hands around the opponent's waist or lower ribcage. The body lock provides a temporary but secure control point that prevents separation while you work to reestablish the proper seatbelt configuration. Never chase the seatbelt grip with extended arms, as this creates space and vulnerability to escape."
+      },
+      {
+        "question": "Your opponent strips one hook during the mid-transition - how do you prevent losing position entirely?",
+        "answer": "Immediately tighten the remaining hook by driving it deeper and curling your heel inward while increasing chest-to-back pressure. Use your free leg to either reinsert the hook from a different angle or transition to a body triangle by wrapping that leg around the opponent's waist. Simultaneously consider executing an immediate mat return while you still have partial control rather than continuing the standing transition with compromised leg control."
+      },
+      {
+        "question": "Why is hip-to-hip connection more important than arm grip strength during the standing transition?",
+        "answer": "Hip-to-hip connection transfers your entire body weight to the opponent and creates a mechanical bond that is far stronger than any grip. Arms fatigue quickly under load and can be stripped through hand fighting, but hip connection uses your core and structural alignment to maintain position. The hips also serve as the primary following mechanism during the vertical transition, allowing you to track the opponent's upward movement through physical contact rather than chasing them with your upper body."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Standing Back Control Entry."
+    "safety_considerations": "Standing back control transitions involve significant fall risk for both practitioners. Never attempt to slam or suplex the opponent during the transition, which is illegal in most rulesets and extremely dangerous. Both practitioners should be aware of their surroundings and mat space to avoid falling off elevated surfaces or into other training pairs. When drilling, start with slow cooperative movement before adding resistance, and always ensure adequate mat coverage beneath the training area. The attacker should never hang their full weight on the opponent's neck or use excessive force to prevent standing."
   },
   "defender": {
     "name": "Standing Back Control Entry Defender",
-    "description": "TODO: Write defender description for Standing Back Control Entry.",
-    "overview": "TODO: Write defender overview for Standing Back Control Entry.",
+    "description": "Master defending the Standing Back Control Entry in BJJ. Learn to exploit the mid-transition vulnerability window with systematic hook strips, grip breaks, and escape timing.",
+    "overview": "From the defender perspective, the opponent's attempt to follow you to standing during your escape creates a critical window where their control is most vulnerable. The transition from horizontal to vertical disrupts the attacker's hook depth, challenges their balance, and temporarily loosens their seatbelt grip as they must redistribute weight and adjust body mechanics. Recognizing these moments of weakened control and timing your defensive actions to coincide with the attacker's adjustment phase gives you the best chance of escaping. Understanding that the attacker is most vulnerable during the mid-transition, not at the beginning or end, allows you to focus your defensive energy at the optimal moment rather than wasting it fighting fully consolidated control.",
     "key_principles": [
-      "TODO"
+      "Time defensive actions to the mid-transition phase when the attacker's controls are weakest during the angle change from horizontal to vertical",
+      "Strip hooks during the vertical transition when gravity naturally compromises the attacker's leg control and hook depth",
+      "Fight the seatbelt grip continuously throughout the transition rather than accepting it and waiting for standing where the attacker can consolidate",
+      "Use explosive directional changes and weight drops during the transition to disrupt the attacker's balance and create separation",
+      "Maintain constant neck defense with at least one hand throughout the entire standing transition regardless of other defensive priorities",
+      "Accept a controlled return to grounded back control over allowing uncontested establishment of standing back control when escape fails"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker tightens seatbelt grip and hooks simultaneously, indicating preparation to follow your upward movement during escape",
+      "Attacker's hips press flush against your lower back with increased forward pressure, creating the connection needed for vertical follow",
+      "Attacker adjusts hook depth by driving heels deeper inside your thighs, securing leg control before the standing phase begins",
+      "Attacker's chest pressure increases against your back as they shift weight forward to ride your upward movement"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Strip hooks during mid-transition by straightening legs and pushing attacker's feet outward",
+        "when_to_use": "When the transition reaches approximately forty-five degrees and the attacker's hooks are loosening due to the vertical angle change",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Attacker loses lower body control and you can turn to face them, recover guard, or establish a neutral position",
+        "risk": "Releasing hands from neck defense to address hooks exposes you to immediate choking attacks during the transition"
+      },
+      {
+        "action": "Explosive sit-back to collapse the standing attempt and return to grounded position",
+        "when_to_use": "Early in the transition before the attacker has fully committed to the vertical follow and adjusted their weight distribution",
         "targets_outcome": "Back Control/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Returns the engagement to grounded back control where you have more escape options and mat-based defensive leverage",
+        "risk": "May deepen the attacker's hooks and tighten their chest connection if your timing is late or the attacker anticipates the sit-back"
+      },
+      {
+        "action": "Hip turn and shoulder rotation to face the attacker during the transition",
+        "when_to_use": "When the attacker's seatbelt grip loosens during the angle change of the mid-transition phase and their upper body control is compromised",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Breaks back exposure and creates opportunity to establish guard, reach clinch, or achieve neutral position",
+        "risk": "If the turn is incomplete, the attacker can use your rotation to tighten their controls from a different angle"
+      },
+      {
+        "action": "Grip strip the seatbelt underhook arm while maintaining neck defense with opposite hand",
+        "when_to_use": "When attacker's underhook arm loosens during the positional angle change between ground and standing positions",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Breaking the seatbelt reduces attacker's upper body control significantly, enabling follow-up hip turn and guard recovery",
+        "risk": "One-handed neck defense is vulnerable to the attacker's choking arm if the grip strip takes too long to complete"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Back Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time hook strips and hip turns to the mid-transition phase when the attacker's controls are weakest. Strip at least one hook during the angle change, then immediately turn your hips and shoulders toward the attacker to break back exposure. Follow with hip escape and leg insertion to establish half guard before the attacker can recapture back control."
+      },
+      {
+        "outcome": "Back Control/Top",
+        "how": "Execute an explosive sit-back early in the transition before the attacker commits their weight to the upward follow. Drop your hips directly downward while pulling the attacker's hooks deeper, collapsing the standing attempt and returning to grounded back control where more escape routes and mat-based leverage are available."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to stand up explosively without addressing the attacker's grip and hook control first",
+        "consequence": "Provides the attacker with the exact vertical movement they need to follow into standing back control, and your explosive energy is absorbed by their control points rather than creating escape",
+        "correction": "Fight grips and hooks during the standing movement. Use the transition as an escape opportunity by addressing control points while moving, not simply standing and hoping to outrun the attacker's follow"
+      },
+      {
+        "error": "Neglecting neck defense during the transition to focus entirely on hook and grip removal",
+        "consequence": "Attacker sinks rear naked choke during the mid-transition when your hands are fighting hooks instead of protecting your neck, resulting in immediate submission",
+        "correction": "Maintain at least one hand on neck defense throughout the entire transition. Address hooks and grips with the other hand and only use both hands for grip fighting when the neck is structurally protected by chin tuck and shoulder position"
+      },
+      {
+        "error": "Panicking during the transition and making wild uncontrolled movements without systematic defense",
+        "consequence": "Wastes energy rapidly, makes movements predictable, and typically tightens the attacker's controls rather than creating legitimate escape opportunities",
+        "correction": "Stay calm and work a systematic defensive sequence: protect neck, identify the weakest control point during the transition, time your defensive action to the mid-transition vulnerability window, and commit fully to one escape direction"
+      },
+      {
+        "error": "Remaining passive and allowing the attacker to complete the transition to established standing back control",
+        "consequence": "Once standing back control is fully established, the attacker gains access to mat returns, standing submissions, and body lock takedowns that are harder to defend than the transition itself",
+        "correction": "Act during the transition phase when controls are weakest. The window of vulnerability is brief, so you must be proactive rather than waiting for the position to stabilize before attempting defense"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "When during the Standing Back Control Entry transition is the attacker most vulnerable to your defensive actions?",
+        "answer": "The attacker is most vulnerable during the mid-transition phase when the body angle is changing from horizontal to approximately forty-five degrees. At this point, their hooks must adapt to the leg angle change, their seatbelt tension is disrupted by the torso angle shift, and their balance is compromised between two stable platforms. This window lasts only one to two seconds, so defensive timing must be precise."
+      },
+      {
+        "question": "Which control point should you prioritize attacking during the standing transition?",
+        "answer": "Prioritize attacking hooks during the mid-transition because gravity naturally works against the attacker's hook retention in the vertical plane. Hooks that are secure on the ground become vulnerable when the legs straighten during standing. Stripping even one hook during the transition significantly compromises the attacker's ability to maintain position and opens immediate escape pathways through hip turns and guard recovery."
+      },
+      {
+        "question": "What is the primary risk of dropping back to seated position when the attacker is following you to standing?",
+        "answer": "The primary risk is that your downward movement may help the attacker consolidate their controls. If they anticipate the sit-back, they can use your downward momentum to drive their hooks deeper and tighten their chest-to-back connection, resulting in more secure grounded back control than they had before the transition attempt. The sit-back is only effective when the attacker has already committed their weight and balance to the upward follow."
+      },
+      {
+        "question": "How should you coordinate neck defense with escape attempts during the standing transition?",
+        "answer": "Maintain constant neck defense with at least one hand throughout the entire transition. The chin must stay tucked against the chest with the lead hand controlling the attacker's choking arm wrist. Use your free hand to address hooks or seatbelt grip, alternating which hand defends the neck if needed. Never remove both hands from neck defense simultaneously, as the attacker will capitalize on even brief exposure to sink a choke during the chaotic transition."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Timing",
+        "focus": "Identifying transition vulnerability windows",
+        "description": "Partner initiates standing back control entry from grounded position. Practice identifying the mid-transition vulnerability window without attempting escapes. Focus on reading the attacker's timing cues and recognizing when their controls are weakest during the angle change."
+      },
+      {
+        "phase": "Phase 2: Cooperative Escape Drilling",
+        "focus": "Executing defensive actions during transition",
+        "description": "Partner follows you to standing at moderate pace. Practice hook strips, grip breaks, and hip turns during the mid-transition phase. Partner provides light resistance to allow technique development. Alternate between different defensive options to build versatility."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Defense",
+        "focus": "Defending under increasing pressure",
+        "description": "Partner attempts the standing back control entry with progressively increasing intensity at twenty-five, fifty, seventy-five, and full resistance levels. Focus on maintaining calm defensive methodology under pressure and timing actions to the vulnerability window."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Integrating defense into live rolling",
+        "description": "Start in grounded back control bottom and work escape attempts. When partner follows to standing, apply defensive actions in real-time against fully resisting partner. Evaluate which defensive option works best against different attacker styles and adjust approach."
       }
     ]
   }

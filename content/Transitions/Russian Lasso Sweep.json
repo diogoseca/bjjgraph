@@ -1,10 +1,15 @@
 {
   "name": "Russian Lasso Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Russian Lasso Sweep.",
+  "description": "Master the Russian Lasso Sweep from lasso guard in BJJ. Step-by-step execution guide covering grips, hip mechanics, and sweep timing for side control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "sweep",
+    "russian-leg-lasso",
+    "lasso-guard",
+    "rotational-sweep",
+    "guard-offense",
+    "advanced"
   ],
   "from_position": "Russian Leg Lasso/Bottom",
   "outcomes": [
@@ -19,120 +24,380 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Russian Lasso Sweep.",
+  "overview": "The Russian Lasso Sweep is a high-percentage rotational sweep executed from the Russian Leg Lasso guard, leveraging the deep lasso configuration to generate powerful torque that breaks the opponent's base and deposits the sweeper in side control. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.\n\nWhat distinguishes this sweep from standard lasso sweeps is the enhanced force generation made possible by the Russian variation's deeper lasso threading and strategic grip placement. The far-side collar grip provides the directional pull that breaks posture, while the sleeve grip prevents the opponent from posting or creating base. When the sweeper elevates their hips and initiates the rotation, the combined mechanical advantage from these three control points creates a sweep that is extremely difficult to resist once properly loaded.\n\nTiming is the critical variable—the sweep achieves maximum effectiveness when the opponent commits their weight forward to address the lasso threat or reaches to break the collar grip, creating the momentary base disruption that allows rotational mechanics to overcome their stability. Elite practitioners use the sweep threat as the primary forcing function within the Russian Leg Lasso system, where the opponent's defensive reactions to the sweep open secondary attack paths into triangles, omoplatas, and back takes.",
   "conditions": [
-    "TODO"
+    "Deep Russian Leg Lasso established with foot positioned near or past opponent's shoulder",
+    "Far-side collar grip secured providing posture control and directional pull",
+    "Sleeve grip maintained on lasso-side arm preventing posting and base creation",
+    "Opponent's weight shifted forward or posture compromised through grip fighting",
+    "Non-lasso leg positioned for hip elevation and secondary push force"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Overhead Russian Lasso Sweep",
+      "description": "Uses the opponent's forward momentum to sweep them overhead and behind you rather than to the side. The sweeper drives hips high and pulls the collar grip over their head while extending the lasso leg upward, creating a backward rolling sweep that lands you in mount or knee on belly.",
+      "when_to_use": "When the opponent drives forward aggressively with pressure to flatten you or break the lasso, committing their weight over your centerline."
+    },
+    {
+      "variant_name": "Russian Lasso to Back Take",
+      "description": "When the opponent bases heavily to the side to prevent the standard rotational sweep, use the initial rotation to spin underneath them and take the back. Instead of completing the sweep to side control, continue the hip rotation to come up behind them, establishing seat belt control.",
+      "when_to_use": "When the opponent posts strongly with their free hand on the mat, creating a wide base that blocks the side sweep but exposes their back."
+    },
+    {
+      "variant_name": "Scissor Kick Russian Lasso Sweep",
+      "description": "Combines the lasso fulcrum with a scissor kick motion where the non-lasso leg chops across the opponent's far knee while the lasso leg elevates. The simultaneous high-low action magnifies the rotational torque, making the sweep effective even against opponents with strong base.",
+      "when_to_use": "Against opponents who maintain wide stance and good base that resists the standard pull-push sweep mechanics."
     }
   ],
-  "position_integration": "TODO: Write position integration for Russian Lasso Sweep.",
+  "position_integration": "The Russian Lasso Sweep sits at the offensive core of the Russian Leg Lasso guard system, serving as the primary high-percentage sweep that forces the top player to defend and opens secondary attack chains. When the opponent successfully defends the sweep, they typically expose themselves to triangle, omoplata, or back take entries, making the sweep threat essential for activating the full Russian Leg Lasso attacking system. The technique integrates with the broader lasso guard family, sharing mechanical principles with standard lasso sweeps while offering greater rotational force through the Russian variation's enhanced grip configurations. Within the open guard ecosystem, the Russian Lasso Sweep represents an advanced tool that rewards practitioners who have invested in developing the nuanced grip and hip mechanics specific to the Russian Leg Lasso position.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Russian Leg Lasso",
+      "relationship": "Source position from which this sweep is executed"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Parent guard system sharing fundamental lasso mechanics and sweep principles"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Lasso Sweep",
+      "relationship": "Related sweep from standard lasso guard using similar rotational mechanics"
+    },
+    {
+      "name": "Inverted Lasso Sweep",
+      "relationship": "Alternative lasso sweep variation with different angle and force vector"
+    },
+    {
+      "name": "Omoplata from Lasso",
+      "relationship": "Chain attack when opponent defends sweep by posting hand"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Degraded guard position resulting from counter when lasso is stripped"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard for transitions when Russian Leg Lasso is compromised"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related guard sharing grip configurations and transition pathways"
+    },
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Alternative lasso configuration with different mechanical properties"
     }
   ],
   "attacker": {
     "name": "Russian Lasso Sweep Attacker",
-    "description": "TODO: Write attacker description for Russian Lasso Sweep.",
-    "overview": "TODO: Write attacker overview for Russian Lasso Sweep.",
+    "description": "Complete attacking guide for the Russian Lasso Sweep. Master grip sequences, hip mechanics, and rotational timing to execute this high-percentage sweep from Russian Leg Lasso guard into dominant side control.",
+    "overview": "The Russian Lasso Sweep from the attacker's perspective demands precise coordination of the lasso fulcrum, collar grip pull, and hip elevation to generate the rotational force that topples the opponent. The sweeper must first establish the three-point control system—deep lasso, far-side collar grip, and sleeve control—then systematically break the opponent's posture through grip fighting before exploiting the momentary weight displacement. The sweep's effectiveness relies on the fulcrum principle: the lasso leg creates the pivot point while the collar grip directs the force vector and the non-lasso leg provides the secondary push that completes the rotation. Success requires loading the sweep before committing—rushing the rotation without proper posture disruption results in the opponent simply basing out and settling their weight.",
     "key_principles": [
-      "TODO"
+      "Use the lasso as an active fulcrum by driving the lasso leg upward during the sweep to amplify rotational force rather than treating it as a passive hold",
+      "Collar grip timing determines sweep success—the downward pull must coincide precisely with hip elevation to generate maximum torque across the opponent's base",
+      "Non-lasso leg creates the secondary force vector through a push against the opponent's far hip or thigh that completes the rotational mechanics",
+      "Break opponent's posture before initiating rotation—an upright opponent with stable base will absorb the sweep regardless of technique quality",
+      "Hip elevation is the engine of the sweep—without driving hips high off the mat, the lasso fulcrum cannot generate sufficient leverage to overcome the opponent's weight",
+      "Commit fully to the sweep direction once initiated because half-committed sweeps telegraph your intent and allow the opponent to adjust their base"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep Russian Leg Lasso established with shin crossing opponent's tricep and foot positioned near or past the shoulder for maximum binding effect",
+      "Far-side collar grip secured below the opponent's neck, providing both posture control and directional pulling force for the sweep",
+      "Sleeve grip on the lasso-side arm preventing the opponent from extracting their arm, posting, or creating base during the sweep",
+      "Opponent's weight shifted forward or posture broken through active grip fighting, creating the vulnerability needed for rotational sweep mechanics",
+      "Non-lasso leg positioned with foot on opponent's far hip or hooked behind their thigh, ready to push and create the secondary force vector"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate three-point control",
+        "description": "Verify all three control points are established before beginning sweep mechanics. Confirm deep lasso with foot high near the shoulder, far-side collar grip below the neck, and sleeve grip on the lasso-side arm. If any control point is missing or weak, re-establish it before proceeding—attempting the sweep with incomplete control wastes energy and telegraphs your intent."
+      },
+      {
+        "step_number": 2,
+        "action": "Break opponent's posture",
+        "description": "Use the collar grip to pull the opponent's head and upper body forward and down toward your chest while simultaneously driving your lasso leg upward into their trapped arm. This forward weight shift disrupts their base and loads their weight over the fulcrum point. The posture break is the most critical setup element—without it, the sweep lacks sufficient mechanical advantage to overcome a stable base."
+      },
+      {
+        "step_number": 3,
+        "action": "Elevate hips off the mat",
+        "description": "Drive your hips upward and toward the sweep direction while maintaining tight lasso contact against the opponent's arm. Your back should come off the mat as your hips rise, creating the elevation that transforms the lasso from a static control into an active lever. This hip elevation is the engine that powers the entire sweep—think of bridging into the lasso rather than pulling with your arms."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate rotational pull",
+        "description": "Pull sharply with the collar grip in the sweep direction—laterally and slightly downward—while simultaneously extending the lasso leg to maximize the fulcrum's leverage. Your upper body should begin rotating in the sweep direction as your hips drive the motion. The collar grip provides the directional vector while the lasso amplifies the force through mechanical advantage."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive secondary push with non-lasso leg",
+        "description": "Push forcefully with the non-lasso leg against the opponent's far hip or thigh in coordination with the collar pull. This secondary force vector creates the combined pull-push torque that overwhelms the opponent's remaining base. The non-lasso leg push is what differentiates successful sweeps from failed attempts—single-vector force from the lasso alone is rarely sufficient against a prepared opponent."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through the rotation",
+        "description": "Continue the rotational motion without releasing any grips, using your entire body's momentum to carry through the sweep as the opponent falls to the side. Your hips should turn over completely, following the opponent down to the mat. Maintaining grip contact throughout prevents them from posting a hand to stop the sweep and ensures you arrive in top position with control already established."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure side control",
+        "description": "As the sweep completes and you arrive on top, immediately release the lasso configuration and transition to standard side control grips. Drive your shoulder into the opponent's jaw for crossface pressure while your near hand blocks their far hip to prevent guard recovery. Settle your weight low across their torso to consolidate the position before they can re-establish any defensive structures or frames."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent posts free hand on the mat to block the rotational sweep",
+        "effectiveness": "High",
+        "your_response": "Immediately transition to omoplata entry on the posting arm—the extended post creates the perfect angle for the omoplata. Alternatively, use the post as a lever point to switch to an overhead sweep in the opposite direction.",
+        "targets_outcome": "Russian Leg Lasso/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back and drops weight to resist forward pull",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Their backward weight shift opens the overhead sweep direction since their center of gravity is already behind their base. Switch to an overhead Russian Lasso Sweep or use their retreat to enter triangle setup by releasing the collar and shooting the lasso leg across their neck.",
+        "targets_outcome": "Russian Leg Lasso/Bottom"
+      },
+      {
+        "counter": "Opponent strips the sleeve grip and begins extracting arm from the lasso",
+        "effectiveness": "High",
+        "your_response": "As the arm extraction creates space, immediately transition to triangle setup by shooting the lasso leg across their neck, or switch to De La Riva Guard using the non-lasso leg before losing all control points. Never allow a full extraction without immediately threatening another attack.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles laterally away from the sweep direction to change the angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow their movement with hip adjustment to maintain the lasso angle, then use their circling momentum to enter a back take by continuing the rotation underneath them. The lateral movement often exposes the back when they commit to moving around the lasso.",
         "targets_outcome": "Russian Leg Lasso/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting the sweep without first breaking the opponent's posture through collar grip pull",
+        "consequence": "The opponent's upright base and stable weight distribution make the rotational mechanics insufficient to complete the sweep, wasting energy and telegraphing the attack for future defense",
+        "correction": "Always pull the opponent's posture down with the collar grip and verify their weight has shifted forward before initiating the rotational sweep mechanics"
+      },
+      {
+        "error": "Insufficient hip elevation during the sweep—hips stay on the mat while arms do the work",
+        "consequence": "The sweep becomes a flat push rather than a lever-powered rotation, giving the opponent time to base out, settle weight, and potentially begin stripping grips",
+        "correction": "Drive hips high off the mat before initiating rotation—bridge into the lasso arm to create the elevation that powers the fulcrum mechanism and generates mechanical advantage"
+      },
+      {
+        "error": "Releasing the collar grip too early during the sweep before top position is secured",
+        "consequence": "The opponent can post their free hand to stop the rotation mid-sweep, and you lose the directional control needed to complete the movement and arrive in dominant position",
+        "correction": "Maintain the collar grip throughout the entire sweep sequence until you have fully transitioned to side control and established crossface pressure"
+      },
+      {
+        "error": "Non-lasso leg remains passive during the sweep without providing secondary push force",
+        "consequence": "Single-vector force from the collar pull and lasso alone is insufficient against a prepared opponent with reasonable base, resulting in stalled sweeps and wasted energy",
+        "correction": "Actively drive the non-lasso leg into the opponent's far hip or thigh simultaneously with the collar pull to create combined pull-push torque that overwhelms their base"
+      },
+      {
+        "error": "Attempting the sweep when the opponent has strong upright posture and a wide stable base",
+        "consequence": "The sweep fails against a prepared opponent, depletes energy reserves, reveals your attacking intent, and gives the opponent confidence to begin systematic grip breaking and passing",
+        "correction": "Use feints, alternative attacks, and systematic grip fighting to disrupt the opponent's posture and base before committing to the sweep—create the opening first, then exploit it"
+      },
+      {
+        "error": "Allowing the lasso foot to slip down to the opponent's elbow rather than maintaining position near the shoulder",
+        "consequence": "Dramatically reduces the binding effect and lever arm of the lasso, cutting rotational force generation by more than half and making the sweep easy to defend",
+        "correction": "Maintain active hip elevation to keep the lasso foot high near the opponent's shoulder throughout the setup and execution, adjusting constantly as the opponent moves"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Mechanical Foundation",
+        "focus": "Hip elevation and rotation mechanics",
+        "description": "Solo drilling of the hip bridge into lasso position, focusing on driving hips high and rotating the body in the sweep direction. Use a resistance band attached to a post to simulate the lasso fulcrum. Build the muscle memory for the hip-driven rotation that powers the sweep."
+      },
+      {
+        "phase": "Phase 2: Grip Coordination",
+        "focus": "Timing collar pull with hip elevation",
+        "description": "Partner drilling at 30% resistance with cooperative training partner. Establish full Russian Leg Lasso and practice the coordination of collar pull, hip elevation, and non-lasso leg push. Focus on the timing sequence rather than force—the pull must precede the push by a fraction of a second."
+      },
+      {
+        "phase": "Phase 3: Against Resistance",
+        "focus": "Sweep execution with progressive defense",
+        "description": "Partner provides 50-70% resistance including realistic defensive reactions like posting, sprawling, and grip fighting. Develop the ability to read which defense the opponent chooses and adjust sweep mechanics accordingly. Practice transitioning to alternative attacks when the sweep is blocked."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Sweep as part of attack system",
+        "description": "Full positional sparring from Russian Leg Lasso where the sweep is integrated with triangle setups, omoplata entries, and back takes. The sweep should function as the primary threat that opens all secondary attacks. Practice recognizing when to commit to the sweep versus when to transition."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Live application under full resistance",
+        "description": "Timed rounds starting from Russian Leg Lasso with full resistance. Focus on creating sweep opportunities through grip fighting and posture disruption, executing under pressure, and completing to side control. Track success rates and identify patterns in defensive responses."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What three control points must be established before initiating the Russian Lasso Sweep?",
+        "answer": "The three essential control points are: the deep lasso with foot positioned high near the opponent's shoulder creating the fulcrum mechanism, the far-side collar grip below the neck providing posture control and directional pull for the sweep, and the sleeve grip on the lasso-side arm preventing extraction and posting. Without all three points established, the sweep cannot generate sufficient mechanical advantage to overcome the opponent's base."
+      },
+      {
+        "question": "Why must you break the opponent's posture before initiating the rotational sweep mechanics?",
+        "answer": "An opponent with upright posture maintains their center of gravity directly over their base of support, making them extremely resistant to rotational forces regardless of technique quality. The collar grip pull shifts their weight forward over the lasso fulcrum, creating the mechanical vulnerability the sweep exploits. Without this posture disruption, the sweep becomes a low-percentage strength move rather than a leverage-based technique."
+      },
+      {
+        "question": "Your opponent posts their free hand to stop the sweep mid-rotation—what is your immediate response?",
+        "answer": "Transition immediately to an omoplata entry on the posting arm. The extended post creates the perfect angle for the omoplata because the opponent's arm is extended and their weight is committed to the post. Alternatively, use the post as a pivot point to redirect the sweep in the opposite direction toward an overhead sweep. Never simply abandon the attack and reset—always convert defensive reactions into new offensive threats."
+      },
+      {
+        "question": "What role does the non-lasso leg play during the sweep execution?",
+        "answer": "The non-lasso leg provides the critical secondary force vector by pushing against the opponent's far hip or thigh simultaneously with the collar pull. This creates combined pull-push torque that overwhelms the opponent's base from two directions. Single-vector force from the lasso and collar grip alone is often insufficient against a prepared opponent—the non-lasso leg push is what differentiates successful sweeps from stalled attempts that waste energy."
+      },
+      {
+        "question": "How does hip elevation function as the engine of the Russian Lasso Sweep?",
+        "answer": "Hip elevation transforms the lasso from a static control point into an active lever by raising the fulcrum point above the opponent's center of gravity. When the sweeper bridges their hips high off the mat, it creates the lift and rotational leverage needed to overcome the opponent's weight. Without hip elevation, the sweeper relies on arm strength rather than body mechanics, producing a flat push instead of a powered rotation."
+      },
+      {
+        "question": "The opponent sprawls their hips back to resist your forward pull—how do you adapt?",
+        "answer": "Their backward weight shift means their center of gravity is now behind their base of support, which opens the overhead sweep direction. Switch from the lateral rotation to an overhead sweep by driving hips high and pulling the collar grip over your head. Alternatively, use the increased space their retreat creates to shoot the lasso leg across their neck for a triangle entry. The key principle is converting their defensive reaction into a new attacking angle."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the Russian Lasso Sweep?",
+        "answer": "The sweep is most effective when the opponent's base is momentarily disrupted—specifically when they commit weight forward to address the lasso, reach with their free hand to break the collar grip, or transition between passing positions. These moments create brief windows where their weight is in motion and their base is unstable. Initiating during these transitions multiplies the sweep's effectiveness because you are adding force to an already unbalanced system."
+      },
+      {
+        "question": "Why should you maintain all grips throughout the sweep until side control is fully established?",
+        "answer": "Releasing grips prematurely—especially the collar grip—during the sweep allows the opponent to post a hand, create a frame, or recover guard before you consolidate top position. The collar grip provides continuous directional control throughout the rotation, and the sleeve grip prevents posting that would halt the sweep. Only release the lasso configuration after your weight is settled across the opponent's torso with crossface established."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Russian Lasso Sweep."
+    "safety_considerations": "The Russian Lasso Sweep applies significant rotational force to the opponent's body and the arm trapped in the lasso configuration. The lasso can stress the shoulder joint of the trapped arm during aggressive sweep execution. Always train with controlled force and clear communication with your partner. Release the lasso immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive full-speed execution against inexperienced training partners who may land awkwardly or fail to breakfall properly. Be especially cautious with the overhead variant, which involves more dramatic elevation and rotation."
   },
   "defender": {
     "name": "Russian Lasso Sweep Defender",
-    "description": "TODO: Write defender description for Russian Lasso Sweep.",
-    "overview": "TODO: Write defender overview for Russian Lasso Sweep.",
+    "description": "Complete defensive guide against the Russian Lasso Sweep. Learn recognition cues, prevention strategies, and recovery techniques when facing this rotational sweep from Russian Leg Lasso guard.",
+    "overview": "Defending the Russian Lasso Sweep requires early recognition of the setup conditions and systematic prevention of the mechanical advantages that make the sweep possible. The defender—the top player caught in the Russian Leg Lasso—must maintain upright posture with hips back, aggressively fight to prevent or break the collar grip that provides directional control, and position their base wide enough to resist the rotational forces the sweep generates. Understanding the fulcrum principle behind the sweep allows intelligent defenders to position themselves where the lasso's mechanical advantage is neutralized rather than trying to muscle through the sweep once it is loaded. Prevention is far more energy-efficient than recovery—once the sweeper has broken your posture and loaded all three control points, the sweep becomes extremely difficult to stop through strength alone.",
     "key_principles": [
-      "TODO"
+      "Maintain upright posture with hips driven back to prevent the forward weight shift that the sweep mechanics require to function",
+      "Grip fight aggressively against the collar grip as first priority—without it, the sweeper loses directional control and the sweep cannot generate sufficient force",
+      "Wide base with weight distributed through both legs creates the foundation needed to resist rotational forces from the lasso fulcrum",
+      "Recognize sweep loading cues early because once the sweeper has broken posture, elevated hips, and initiated rotation, defensive options become severely limited",
+      "Post immediately with the free hand when rotation begins rather than trying to resist the sweep through core strength or pulling back",
+      "Address the lasso through positional adjustments and angle creation rather than attempting to yank the trapped arm free with strength"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent pulls collar grip aggressively downward, attempting to break your upright posture and shift your weight forward over the lasso fulcrum",
+      "Guard player elevates hips off the mat and drives the lasso leg upward into your trapped arm, loading the fulcrum mechanism",
+      "Non-lasso leg repositions to your far hip or hooks behind your thigh, preparing the secondary push force",
+      "Guard player's body angle shifts as they begin turning their hips toward the sweep direction, indicating imminent commitment",
+      "Increased tension and upward pressure on your trapped arm through the lasso as the guard player loads mechanical advantage"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Post free hand on the mat on the sweep side to create a structural block against the rotation",
+        "when_to_use": "The moment you feel the rotational pull initiating and your base beginning to shift—post immediately rather than trying to recover posture",
         "targets_outcome": "Russian Leg Lasso/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Sweep rotation is physically blocked, allowing you to resettle your base and return to passing position with the lasso still in place",
+        "risk": "Extended posting arm may be attacked with omoplata or armbar if you post too far from your body or keep the arm extended"
+      },
+      {
+        "action": "Sprawl hips back and drive weight downward to counter the forward pull and eliminate lasso leverage",
+        "when_to_use": "When you feel the collar grip pulling your posture forward before the sweep is fully loaded—this is a preventive measure rather than a reaction",
+        "targets_outcome": "Russian Leg Lasso/Bottom",
+        "if_successful": "Your posture is maintained and the lasso fulcrum is neutralized by removing the forward weight that powers it",
+        "risk": "If you sprawl too aggressively, the opponent may redirect to an overhead sweep that exploits your backward weight commitment"
+      },
+      {
+        "action": "Strip the collar grip using a two-on-one grip break to remove the directional control powering the sweep",
+        "when_to_use": "During the grip fighting phase before the sweep is fully loaded—prioritize this when you feel the opponent beginning to pull posture down",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Without the collar grip, the sweep loses directional control and force generation, and the Russian Leg Lasso is degraded toward basic open guard",
+        "risk": "Momentary loss of base during the grip break may open a window for the sweep or alternative attacks"
+      },
+      {
+        "action": "Circle laterally away from the sweep direction to change the angle and neutralize rotational mechanics",
+        "when_to_use": "When you recognize the sweep angle and have time to adjust before the sweeper commits to the rotation",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Lateral movement makes the lasso configuration mechanically disadvantaged and may strip the lasso entirely",
+        "risk": "Circling may expose your back or create angles for alternative sweep directions or back take entries"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Russian Leg Lasso/Bottom",
+        "how": "Maintain upright posture with hips back, aggressively strip or prevent the collar grip, and keep a wide stable base that absorbs rotational forces. Post immediately when rotation begins rather than fighting the sweep force directly."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the collar grip and extract arm from the lasso during the defensive sequence by creating angles that make the lasso untenable. Circle away from the lasso side to degrade the opponent's guard to basic open guard without the mechanical advantages of the Russian Leg Lasso configuration."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Leaning forward into the sweep direction to try to pressure through the lasso and flatten the guard player",
+        "consequence": "Forward weight commitment amplifies the rotational force exponentially by loading your weight directly over the lasso fulcrum, making the sweep nearly impossible to stop regardless of strength or base width",
+        "correction": "Drive hips back and maintain upright posture throughout—never commit weight forward when the opponent has an active lasso with collar grip control"
+      },
+      {
+        "error": "Ignoring the collar grip and focusing exclusively on extracting the trapped arm from the lasso",
+        "consequence": "The collar grip continues to pull posture down and provide directional control for the sweep regardless of lasso management, and the forward reaching motion to extract the arm further loads your weight over the fulcrum",
+        "correction": "Address the collar grip as first priority in every defensive sequence—without it, the sweep loses both directional control and the ability to break your posture"
+      },
+      {
+        "error": "Maintaining a narrow base with feet close together when caught in Russian Leg Lasso",
+        "consequence": "Narrow base provides insufficient foundation to resist the rotational torque generated by the combined lasso, collar pull, and secondary leg push, resulting in easy sweeps even with mediocre technique",
+        "correction": "Immediately widen your stance when you recognize the Russian Leg Lasso configuration, distributing weight through both legs to create the broadest possible base against rotational forces"
+      },
+      {
+        "error": "Attempting to resist the sweep through core strength once the rotation has been fully initiated",
+        "consequence": "The mechanical advantage of the loaded sweep overwhelms muscular resistance, wastes energy rapidly, and the delayed response prevents using positional defenses like posting that would have been effective earlier",
+        "correction": "Post with the free hand immediately when rotation begins rather than trying to muscle through the sweep—structural defenses are far more effective than strength-based resistance against lever mechanics"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most important grip to prevent or break when defending the Russian Lasso Sweep?",
+        "answer": "The far-side collar grip is the highest priority because it provides both posture control and directional force for the sweep. Without the collar grip, the sweeper cannot break your posture forward over the lasso fulcrum or direct the rotational force in a specific sweep direction. Strip this grip before addressing the lasso—a lasso without a collar grip is a control tool, not a sweep threat."
+      },
+      {
+        "question": "Why is posting with the free hand more effective than trying to resist the sweep with core strength?",
+        "answer": "Once the sweep is loaded with broken posture, hip elevation, and initiated rotation, the mechanical advantage of the lasso fulcrum combined with the collar pull generates more torque than core muscles can resist. Posting creates a structural block—your arm becomes a pillar that physically prevents rotation regardless of the force applied. The post should come immediately when rotation begins, not after failed muscular resistance has depleted energy."
+      },
+      {
+        "question": "You feel the guard player begin to elevate their hips while pulling your collar down—what should your immediate response be?",
+        "answer": "Immediately sprawl your hips back and down to counter the forward pull, removing your weight from over the lasso fulcrum. Simultaneously work to break or strip the collar grip using your free hand in a two-on-one grip break. Widen your stance to increase base stability. These actions must happen together in the first one to two seconds—waiting longer allows the sweep to reach the point where only posting can save you."
+      },
+      {
+        "question": "What are the earliest recognition cues that a Russian Lasso Sweep is being loaded?",
+        "answer": "The earliest cues are an aggressive downward pull on your collar grip combined with increased upward pressure on your trapped arm through the lasso. The guard player's hips will begin lifting off the mat and their body angle will shift toward the sweep direction. Recognizing these loading cues before the sweep is fully committed gives you the widest range of defensive options including sprawl, grip break, or lateral movement."
+      },
+      {
+        "question": "How should you adjust your base when you recognize you are caught in Russian Leg Lasso with sweep threats?",
+        "answer": "Widen your stance immediately to create the broadest possible base against rotational forces. Keep weight distributed evenly through both legs rather than favoring one side. Drive hips back to maintain upright posture and keep your center of gravity behind your base of support. Your feet should be positioned with the toes pointing slightly outward for maximum stability, and you should be prepared to post with your free hand at the first sign of rotation."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sweep setup cues",
+        "description": "Partner establishes Russian Leg Lasso and loads sweep at 50% speed. Focus solely on identifying the visual and tactile cues that indicate sweep initiation—collar pull, hip elevation, angle shift, and increased lasso pressure. Call out each cue as you recognize it without attempting defensive responses yet."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Grip fighting and posture maintenance",
+        "description": "Partner attempts to establish sweep conditions with progressive resistance. Practice grip fighting to prevent or break the collar grip, maintaining upright posture against pulls, and positioning your base to resist rotational forces. Success is measured by preventing the sweep setup rather than defending the sweep itself."
+      },
+      {
+        "phase": "Phase 3: Reactive Defense",
+        "focus": "Posting and recovery under pressure",
+        "description": "Partner loads and initiates the sweep at 70-80% speed and commitment. Practice posting immediately when rotation begins, sprawling against forward pulls, and recovering base after partial sweeps. Develop automatic defensive responses that activate without conscious decision-making."
+      },
+      {
+        "phase": "Phase 4: Counter-Offensive Integration",
+        "focus": "Transitioning from defense to passing",
+        "description": "Full positional sparring from Russian Leg Lasso where you combine sweep defense with guard passing strategies. After successfully defending the sweep, immediately transition to passing sequences while the opponent is recovering their guard structure. Develop the ability to use sweep defense as a passing entry point."
       }
     ]
   }

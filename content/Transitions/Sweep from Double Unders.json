@@ -1,42 +1,409 @@
 {
   "name": "Sweep from Double Unders",
-  "description": "Master the Sweep from Double Unders in BJJ. Learn counter-sweeping techniques when opponent has double underhooks to reverse position.",
-  "tags": ["bjj", "transition", "sweep", "double-unders", "guard", "reversal"],
+  "description": "Master the Sweep from Double Unders in BJJ. Learn to use your opponent's stacking pressure against them with overhead and hip-based counter-sweeps to reverse.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "double-unders",
+    "guard",
+    "reversal",
+    "counter-offense",
+    "pressure-passing-defense"
+  ],
   "from_position": "Double Unders/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 40, "result": "success"},
-    {"to": "Double Unders/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Double Unders/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Double Unders is a high-reward counter-offensive technique executed from one of the most disadvantaged bottom positions in Brazilian Jiu-Jitsu. When an opponent establishes double underhooks under your legs and drives forward with stacking pressure, their mechanical advantage for guard passing is severe. However, this same forward weight commitment creates a fundamental vulnerability: their base becomes compromised in the direction of their momentum. An educated bottom player can exploit this by redirecting the opponent's energy through precisely timed sweeping mechanics, converting a desperate defensive situation into immediate top position.\n\nThe core principle behind this sweep is using the opponent's committed forward pressure as the primary engine for the reversal. When the top player drives their weight forward to stack you, they necessarily sacrifice lateral and rearward base stability. By establishing grips on their hips, belt, or pants and timing your hip extension or bridge with their forward drive, you harness their own energy to complete the reversal. The overhead variant capitalizes on extreme forward pressure by extending your legs upward and guiding the opponent over your head, while the lateral bridge variant uses a hip switch to dump them to one side when their weight is centered but not fully stacked.\n\nThis sweep occupies a unique position in the double unders defensive hierarchy. While most responses from double unders bottom focus on guard recovery through framing, deep half entries, or strategic position acceptance via granby rolls, the sweep offers the distinctive advantage of completely reversing the positional dynamic. The threat of the sweep also serves as a powerful deterrent that forces opponents to moderate their forward pressure, indirectly supporting other escape pathways by creating hesitation in the passer's commitment.",
+  "conditions": [
+    "Opponent has established double underhooks under your legs with hands meeting behind your back or gripping belt",
+    "Opponent is driving forward stacking pressure, committing weight over your centerline",
+    "At least one arm is free to establish grip control on opponent's hips, belt, or pants",
+    "Your hips are elevated with sufficient mobility to extend legs or bridge directionally",
+    "Opponent's base is compromised in at least one direction due to their forward pressure commitment"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Overhead Sweep (Balloon Sweep)",
+      "description": "When the opponent drives extreme forward stacking pressure, secure grips on their belt or hips, plant your feet on their hips or extend your legs upward, and guide them over your head using their own momentum. You roll through and come up directly into top position, typically landing in mount or side control. This variant requires full commitment and works best against aggressive stackers who overcommit their weight forward beyond their center of gravity.",
+      "when_to_use": "When opponent is driving maximum forward pressure and their weight passes beyond your centerline, making them top-heavy and vulnerable to being tipped overhead"
+    },
+    {
+      "variant_name": "Lateral Bridge Sweep (Hip Switch)",
+      "description": "When the opponent's weight is centered rather than fully stacked forward, bridge explosively to one side while controlling their upper body with frames or grips. The bridge disrupts their bilateral base and dumps them laterally. Secure an underhook on the side you bridge toward to assist the rotation and immediately come up to establish side control. This variant works when overhead extension is not viable because the opponent maintains a more conservative pressure angle.",
+      "when_to_use": "When opponent maintains moderate pressure without extreme forward commitment, or when you cannot establish the grips needed for the overhead variant"
+    },
+    {
+      "variant_name": "Leg Hook Reversal",
+      "description": "When you can free one leg from the opponent's double underhook control, insert a butterfly hook on their inner thigh and use it as a lever to create rotational momentum. Combined with a grip on their collar or behind their head, the hook provides the mechanical advantage to elevate and rotate the opponent off you. This variant transitions into a butterfly-style sweep finish and works particularly well when the opponent's grip is weakening or they shift to a single-side passing attempt.",
+      "when_to_use": "When one leg has partial freedom from the opponent's control and you can establish a butterfly hook, typically during grip transitions or when opponent adjusts from double unders toward an over-under configuration"
+    }
+  ],
+  "position_integration": "The Sweep from Double Unders occupies a unique role in the pressure passing defense system as the only option that converts the worst-case bottom position directly into dominant top position. While the primary defensive hierarchy from double unders prioritizes guard recovery through framing and deep half entries, the sweep serves as both a direct reversal tool and a strategic deterrent. Its mere threat forces opponents to moderate their forward pressure commitment, which paradoxically makes other escape pathways more viable. The technique chains naturally with the full double unders defensive system: failed frame attempts may create the grips needed for the sweep, and failed sweep attempts may generate enough momentum for deep half entry or guard recovery. Understanding when to attempt the sweep versus when to pursue guard recovery is a critical decision-making skill that separates intermediate from advanced practitioners in pressure passing defense scenarios.",
+  "related_content": [
+    {
+      "name": "Double Unders",
+      "relationship": "Starting position where the sweep is initiated from the bottom role"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful sweep completion"
+    },
+    {
+      "name": "Guard Recovery from Double Unders",
+      "relationship": "Alternative defensive option from the same starting position when sweep is not viable"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative escape destination that chains with failed sweep attempts using generated momentum"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Related guard position whose sweep mechanics inform the leg hook reversal variant"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Fallback defensive position accessible if sweep partially succeeds but full reversal fails"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative escape position from double unders when sweep and guard recovery both fail"
+    },
+    {
+      "name": "Butterfly Hook Sweep",
+      "relationship": "Related sweeping technique sharing similar hip elevation and hook mechanics"
+    },
+    {
+      "name": "Homer Simpson Sweep",
+      "relationship": "Related sweep concept using opponent's forward pressure as the primary sweeping engine"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Guard recovery target that may result from partially successful sweep disrupting opponent's control"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Double Unders Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Double Unders/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Complete guide to executing the Sweep from Double Unders as the bottom player. Step-by-step mechanics for overhead, lateral bridge, and leg hook sweep variants against pressure passers.",
+    "overview": "As the attacker executing the Sweep from Double Unders, you are the bottom player trapped under double underhook pressure who converts a desperate defensive position into an offensive reversal. Your primary weapon is the opponent's own committed forward energy, which you redirect through grip control and precisely timed hip mechanics. This position demands rapid assessment of the opponent's weight distribution, immediate grip acquisition, and total commitment to the sweep direction. Half-measures result in failed sweeps that can accelerate the pass completion, making decisiveness critical. The sweep requires reading which variant is available based on the opponent's pressure angle: overhead when they drive forward aggressively, lateral bridge when their weight is centered, or leg hook when you achieve partial leg freedom. Mastering the timing window between the opponent's pressure commitment and your explosive response is the defining skill of this technique.",
+    "key_principles": [
+      "Use the opponent's forward momentum as the primary engine for the reversal rather than trying to generate force against their pressure direction",
+      "Establish grips on the opponent's hips, belt, or pants before initiating any sweep attempt to ensure directional control throughout the movement",
+      "Commit fully and explosively to the chosen sweep direction with no hesitation, as partial commitment allows the opponent to base out and recover",
+      "Time the sweep execution to coincide with the opponent's maximum forward pressure commitment when their base is most compromised",
+      "Follow through immediately after the sweep to establish top position before the opponent can recover guard or scramble",
+      "Maintain hip mobility throughout by avoiding flat-back positioning, which eliminates both sweep angles and the ability to generate bridging power"
+    ],
+    "setup_requirements": [
+      "Opponent has committed forward stacking pressure through double underhooks, moving their center of gravity beyond their base",
+      "At least one arm is free with sufficient mobility to reach opponent's belt, hips, or pants for grip establishment",
+      "Hips retain enough mobility to bridge or extend, meaning you have not been completely flattened onto your shoulders",
+      "Opponent's hands are occupied controlling your legs, limiting their ability to base out with their hands preemptively",
+      "You have identified the opponent's weight distribution and selected the appropriate sweep variant before initiating"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Defensive Frames",
+        "description": "Create initial space by placing forearms against the opponent's face, neck, or shoulders. These frames serve dual purpose: they prevent complete flattening while buying time to establish the grips needed for the sweep. Use skeletal alignment rather than muscular pushing to conserve energy."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Grip Control",
+        "description": "Thread one or both hands to grip the opponent's belt, pants waistband, or hips. In no-gi, secure an overhook around their torso or grip behind their neck. The grip must be deep and secure enough to maintain directional control throughout the entire sweep motion. Prioritize the grip on the side corresponding to your chosen sweep direction."
+      },
+      {
+        "step_number": 3,
+        "action": "Read Opponent's Weight Distribution",
+        "description": "Assess whether the opponent's weight is driving forward aggressively (overhead sweep), centered with moderate pressure (lateral bridge), or shifting to one side (leg hook reversal). This read determines which variant you execute and must happen rapidly, within one to two seconds of grip establishment."
+      },
+      {
+        "step_number": 4,
+        "action": "Load the Sweep",
+        "description": "For the overhead variant, plant your feet on the opponent's hips and begin extending legs upward. For the lateral bridge, angle your hips toward the sweep direction and coil your bridge. For the leg hook variant, insert your freed butterfly hook on the opponent's inner thigh. This loading phase should be explosive and immediate once the weight read is complete."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the Sweep",
+        "description": "Drive explosively through the chosen mechanic: extend legs overhead while pulling with grips to guide the opponent over you, bridge powerfully to one side while maintaining upper body control to dump them laterally, or elevate with the butterfly hook while rotating your body to generate sweeping momentum. The execution must be committed and explosive with maximum power in the first second."
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain Control Through Transition",
+        "description": "As the opponent's weight shifts past the tipping point, maintain your grip control throughout the rolling or turning motion. Do not release grips prematurely in anticipation of arriving on top. Your connection to the opponent through the grips is what ensures you arrive in a controlled top position rather than a scramble."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow Through to Top Position",
+        "description": "Come up to your knees immediately as the opponent lands on their back. Drive your chest forward to establish upper body control before they can recover any guard position. Your momentum from the sweep should carry you directly into a dominant passing or control position without pause."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate Side Control",
+        "description": "Establish crossface with your forearm across the opponent's jaw, drop your hips low against their hips, and secure underhook or hip control with your near hand. The window between sweep completion and guard recovery is narrow, so consolidation must be immediate and decisive. Settle your weight before the opponent can insert frames or create angles."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent bases out with hands on the mat when feeling the sweep initiation",
+        "effectiveness": "High",
+        "your_response": "If they post a hand, they must release one underhook, which weakens their control. Immediately attack the opened side by inserting a knee shield or butterfly hook to recover guard, or switch to the lateral sweep variant targeting the side where their hand is posted.",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent drives through aggressively, using your sweep attempt momentum to accelerate the guard pass",
+        "effectiveness": "High",
+        "your_response": "If they drive through your overhead attempt, immediately transition to deep half guard entry on the side they pass toward, using the momentum of their drive-through as your entry energy. Alternatively, granby roll away from the passing direction to recover turtle.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent releases underhooks and backs away to reset when sensing the sweep setup",
+        "effectiveness": "Medium",
+        "your_response": "Their disengagement is actually favorable since it relieves the pressure and gives you space to recover guard. Immediately establish frames, insert butterfly hooks, or recover to open guard before they re-engage with a new passing approach.",
+        "targets_outcome": "Double Unders/Bottom"
+      },
+      {
+        "counter": "Opponent drops hips low and flattens you before you can generate sweep momentum",
+        "effectiveness": "High",
+        "your_response": "When they sprawl their hips to kill your sweep, their chest pressure necessarily lightens. Use this pressure shift to create frames on their shoulders and work hip escapes toward guard recovery rather than continuing the sweep attempt. The position change from stacking to sprawling opens different escape pathways.",
+        "targets_outcome": "Double Unders/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without establishing secure grips on the opponent's hips or belt first",
+        "consequence": "The sweep has no directional control, allowing the opponent to base out freely or simply drive through without being guided by your grips, typically resulting in an accelerated guard pass",
+        "correction": "Always secure grips on belt, pants waistband, or hips before initiating any sweep motion. The grips are what convert your hip extension into directional force on the opponent's body."
+      },
+      {
+        "error": "Timing the sweep against the opponent's settled base rather than their forward pressure commitment",
+        "consequence": "The sweep meets maximum resistance and fails, wasting critical energy and potentially exposing you to pass completion as you are now fatigued in an already disadvantageous position",
+        "correction": "Wait for the opponent to commit their weight forward with an active drive before executing. The sweep should coincide with their momentum, not fight against their established base."
+      },
+      {
+        "error": "Half-committing to the sweep with partial effort or hesitating midway through execution",
+        "consequence": "A partial sweep generates enough disruption to alert the opponent but insufficient force to complete the reversal, allowing them to adjust their base and potentially accelerate the pass with your exposed position",
+        "correction": "Commit fully and explosively once you initiate. The sweep is binary: total commitment or do not attempt. There is no benefit to a tentative sweep attempt."
+      },
+      {
+        "error": "Failing to follow through to top position after successfully off-balancing the opponent",
+        "consequence": "The opponent recovers guard or scrambles to neutral position despite being successfully swept, negating the positional advantage you created through the reversal",
+        "correction": "Maintain grips throughout the transition and immediately drive forward to establish side control or mount. Do not pause after the sweep connects. Your first action upon arriving on top should be establishing crossface."
+      },
+      {
+        "error": "Telegraphing the sweep by reaching for grips slowly or adjusting position obviously before the attempt",
+        "consequence": "The opponent recognizes the setup and preemptively adjusts their base, releases pressure, or accelerates the pass before you can execute, eliminating the surprise element essential for success",
+        "correction": "Establish grips smoothly within your normal defensive framing movement. The transition from defensive frame to sweep grip should be seamless and rapid, giving the opponent minimal time to read and react."
+      },
+      {
+        "error": "Attempting the overhead sweep when the opponent has moderate rather than extreme forward pressure",
+        "consequence": "Insufficient momentum from the opponent means you cannot generate enough force to send them over your head, resulting in a failed sweep that leaves you in a worse position with arms extended and hips exposed",
+        "correction": "Read the opponent's pressure angle accurately and select the appropriate variant. Use overhead only against aggressive forward stackers. For moderate pressure, use the lateral bridge variant instead."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Isolated sweep mechanics without resistance",
+        "description": "Practice each sweep variant in isolation with a compliant partner. Focus on grip placement, hip extension or bridge timing, and follow-through to top position. Partner provides the correct pressure angle for each variant without resisting. Develop muscle memory for the three core movement patterns: overhead extension, lateral bridge, and leg hook elevation."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Reading pressure and timing execution with progressive resistance",
+        "description": "Partner applies realistic forward pressure at 50-60% intensity. Practice reading which sweep variant is appropriate based on their pressure angle and timing the execution to coincide with their forward drive. Begin developing the ability to seamlessly transition from defensive framing to sweep grip acquisition. Introduce light resistance to sweep attempts."
+      },
+      {
+        "phase": "Phase 3: Integration",
+        "focus": "Chaining sweeps with guard recovery options",
+        "description": "Practice the sweep as part of the full double unders defensive sequence. If the sweep fails, chain immediately to deep half entry, guard recovery, or granby roll. Partner provides 70-80% resistance and may counter with base posting or drive-through. Develop decision-making for when to sweep versus when to pursue alternative escapes."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Positional sparring from double unders bottom",
+        "description": "Full resistance positional sparring starting from double unders bottom. Score points for successful sweeps, guard recoveries, and escapes. Partner scores for pass completion. Develop the ability to execute sweeps under genuine competitive pressure with unpredictable opponent reactions. Track success rates across sweep variants to identify personal strengths."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Sweep execution under fatigue and time pressure",
+        "description": "Practice sweep attempts after extended rounds of guard retention work to simulate mid-match fatigue. Add time pressure constraints to force quick decision-making. Work the sweep from various double unders entries (from half guard, butterfly, seated guard) to develop versatility in recognizing and executing across different setup scenarios."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the overhead sweep variant from double unders bottom?",
+        "answer": "The optimal window is the moment the opponent commits maximum forward stacking pressure, driving their weight past your centerline. At this point their center of gravity has moved beyond their base of support, making them vulnerable to being tipped overhead. Attempting the sweep before this commitment meets too much resistance, and attempting after they settle into a stacked position means their weight is already stabilized. You must read the forward drive as it happens and execute simultaneously with their maximum pressure commitment."
+      },
+      {
+        "question": "What grip configuration provides the best directional control for completing the overhead sweep?",
+        "answer": "A deep grip on the opponent's belt or pants waistband with both hands provides optimal directional control. In no-gi, an overhook grip around their torso with hands clasped on their far hip serves the same function. The grip must be deep enough that your forearms are positioned behind their hip line, allowing you to guide their trajectory overhead rather than simply pushing. Shallow grips on the front of their body provide insufficient leverage to redirect their weight through the overhead arc."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat when they feel your sweep initiation - how do you adjust?",
+        "answer": "When the opponent posts a hand to base out, they must release one underhook, fundamentally weakening their double unders control. Immediately exploit this structural change by inserting a knee shield or butterfly hook on the opened side to begin guard recovery. Alternatively, switch to the lateral bridge sweep targeting the side where their hand is posted, since their base is now asymmetric and vulnerable to lateral force on the non-posted side. The hand post is actually a positive development since it breaks the bilateral control that makes double unders so dangerous."
+      },
+      {
+        "question": "What is the most critical hip movement in the lateral bridge sweep variant?",
+        "answer": "The critical movement is the explosive unilateral bridge toward the sweep direction combined with a simultaneous hip turn. Your hips must rotate to face the direction you are sweeping toward, not simply bridge straight upward. This rotational bridge creates angular momentum that the opponent cannot resist with their bilateral underhook structure, which is designed to handle forward-backward forces but is vulnerable to angular displacement. The bridge must be explosive and sustained, driving through the opponent rather than bouncing off them."
+      },
+      {
+        "question": "What conditions must exist before you should attempt the sweep rather than pursuing guard recovery or deep half entry?",
+        "answer": "The sweep should be attempted when three conditions align: you have secure grip control on the opponent's hips or belt, the opponent is actively driving forward pressure rather than settled statically, and your hips retain enough mobility to generate explosive bridging or extension power. If any condition is missing, guard recovery through framing or deep half entry is the safer option. Additionally, the sweep should not be your first response to double unders - establish frames first, then transition to sweep grips if the opportunity presents. Attempting the sweep as your primary response without frames as backup creates excessive risk."
+      },
+      {
+        "question": "How should you adjust your sweep attempt if the opponent drives through aggressively rather than being swept?",
+        "answer": "If the opponent accelerates their drive through your sweep attempt, you must immediately abandon the sweep and transition to an alternative escape. The most effective option is deep half guard entry on the side they are passing toward, using their forward drive as momentum for your rotation underneath their hips. Thread your bottom arm under their near leg and commit to rotating your body underneath them. Alternatively, if deep half is not available, granby roll away from the passing direction toward turtle position. The key is recognizing the failed sweep early and not continuing to fight for a reversal that has already been neutralized."
+      },
+      {
+        "question": "What is the primary direction of force you must generate for each sweep variant?",
+        "answer": "For the overhead variant, force must be directed vertically upward through your legs and then guided over your head in an arc, redirecting the opponent's horizontal forward pressure into vertical and then backward momentum. For the lateral bridge variant, force is directed laterally and slightly upward through an angular bridge, creating rotational displacement perpendicular to the opponent's forward pressure vector. For the leg hook variant, force is generated as an upward elevator motion through the butterfly hook combined with rotational torque from your body turn. Each variant redirects force along a different axis, which is why reading the opponent's pressure angle determines which variant is mechanically viable."
+      },
+      {
+        "question": "Your sweep successfully off-balances the opponent but they begin recovering to their knees during the transition - what must you do?",
+        "answer": "You must maintain your grip control and drive your chest forward aggressively to beat them to the top position. The window between successful off-balance and opponent recovery is approximately one to two seconds. Release your sweep grips only after you have established chest-to-chest contact in the top position. If they are already recovering to their knees, switch from seeking side control to establishing a front headlock or snap-down position to maintain top pressure. Never allow a pause between the sweep completion and position consolidation, as any hesitation allows them to re-establish base and neutralize the positional gain."
+      }
+    ],
+    "safety_considerations": "The Sweep from Double Unders involves significant spinal loading during the stacking phase that precedes the sweep attempt. Never attempt explosive overhead sweeps if you are experiencing neck pain or have cervical spine issues, as the stacking position compresses the cervical vertebrae under the opponent's weight. During the overhead variant, ensure your training partner knows how to fall safely by tucking their chin and rolling over their shoulder rather than landing on their head. In the lateral bridge variant, avoid hyperextending your lower back by keeping your core engaged throughout the bridge. Always tap immediately if you feel excessive neck compression during the stacking phase rather than fighting for a sweep from a position that threatens spinal injury. Practice sweep mechanics at controlled intensity before adding speed and resistance."
   },
   "defender": {
     "name": "Sweep from Double Unders Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Double Unders/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Double Unders/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Complete guide to defending the Sweep from Double Unders as the top player. Learn to recognize sweep setups, maintain base, and counter-attack to complete the guard pass.",
+    "overview": "As the defender against the Sweep from Double Unders, you are the top player who has established double underhooks and is working to complete the guard pass when the bottom player attempts to reverse your position. Your primary objective is to recognize sweep attempts early, maintain or recover your base, and ideally use the opponent's sweep attempt as an opportunity to advance the pass. The key defensive principle is base management: your double underhooks create tremendous forward pressure, but this same commitment makes you vulnerable if you allow your center of gravity to move beyond your base of support. Defending the sweep requires balancing aggressive forward pressure with the ability to widen your base instantly when you feel the bottom player loading a reversal attempt. Understanding the bottom player's grip requirements and timing cues allows you to preemptively deny sweep opportunities while maintaining your dominant passing position.",
+    "key_principles": [
+      "Maintain awareness of your center of gravity relative to your base throughout forward pressure application, never committing weight beyond recovery range",
+      "Monitor the bottom player's hand activity constantly since grip acquisition on your belt or hips is the prerequisite for every sweep variant",
+      "Keep at least one foot available for emergency base posting when you feel any lateral or overhead force from the bottom player",
+      "Control forward pressure progressively rather than explosively to avoid creating the momentum surges that overhead sweeps exploit",
+      "Tighten underhook control and compress the opponent's legs when you sense sweep setup to deny them the hip mobility needed for execution",
+      "Use the opponent's sweep attempt as a passing opportunity by driving through their movement when they commit to a direction"
+    ],
+    "recognition_cues": [
+      "Bottom player's hands reach past your hips toward your belt, waistband, or behind your back rather than framing against your face and shoulders",
+      "Bottom player's hips angle to one side or their legs begin extending upward rather than remaining compressed under your pressure",
+      "Bottom player plants feet on your hips and begins straightening their legs, loading the overhead sweep mechanism",
+      "Bottom player bridges explosively to one side rather than shrimping away, indicating a lateral sweep attempt rather than a guard recovery attempt",
+      "Bottom player inserts a butterfly hook on your inner thigh after freeing one leg from your underhook control"
+    ],
+    "defensive_options": [
+      {
+        "action": "Widen base by posting one hand on the mat and stepping one foot out laterally",
+        "when_to_use": "When you feel the initial loading phase of any sweep variant through lateral or upward force on your body",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "The sweep attempt fails completely and you maintain double unders control, though you may temporarily release one underhook to post",
+        "risk": "Posting a hand requires releasing one underhook momentarily, which may allow the bottom player to insert a knee shield or butterfly hook for guard recovery"
+      },
+      {
+        "action": "Drive through the sweep attempt aggressively to accelerate the guard pass",
+        "when_to_use": "When you recognize the bottom player has committed to a sweep direction and their hips have turned, opening a clear passing lane on the exposed side",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You use the bottom player's committed sweep motion against them, completing the pass through the opening they created by turning their hips",
+        "risk": "If your timing is wrong and the sweep has genuine momentum, driving forward adds energy to their sweep and you may be swept more forcefully"
+      },
+      {
+        "action": "Drop hips low and sprawl to kill sweep momentum before it develops",
+        "when_to_use": "When you detect early grip acquisition on your belt or hips but the sweep has not yet been loaded or initiated",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "You flatten the bottom player completely and eliminate the hip mobility they need for any sweep variant, maintaining dominant control",
+        "risk": "Sprawling shifts your chest pressure slightly, which may create enough space for the bottom player to establish frames for guard recovery"
+      },
+      {
+        "action": "Strip the sweep grips before the bottom player can load the sweep",
+        "when_to_use": "Immediately upon sensing the bottom player's hands reaching for your belt, waistband, or behind your hips",
+        "targets_outcome": "Double Unders/Bottom",
+        "if_successful": "Without grips the bottom player cannot direct the sweep, neutralizing the threat entirely while you maintain underhook control",
+        "risk": "Attempting to strip grips may require momentarily releasing underhook pressure, creating a window for guard recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the bottom player commits to a sweep direction and turns their hips, they create a passing lane on the exposed side. Drive through aggressively in the direction they turned, maintaining your underhook on the far side while establishing crossface with your free arm. Their sweep commitment becomes your passing opportunity as their turned hips cannot recover guard structure in time."
+      },
+      {
+        "outcome": "Double Unders/Bottom",
+        "how": "Recognize the sweep setup early through grip monitoring and immediately widen your base by posting a hand or stepping a foot out laterally. Alternatively, drop your hips low and sprawl to eliminate the bottom player's hip mobility before they can load the sweep. Strip their grips on your belt or hips preemptively whenever possible to deny the control they need for any sweep variant."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Overcommitting forward pressure without maintaining any base for emergency recovery",
+        "consequence": "Creates exactly the vulnerability the overhead sweep exploits, as your center of gravity moves past your base of support and the bottom player can tip you overhead with minimal additional force",
+        "correction": "Apply forward pressure progressively while keeping at least one foot positioned for lateral posting. Your stacking pressure should be driven by body weight and angle rather than explosive forward lunges that move your base behind you."
+      },
+      {
+        "error": "Ignoring the bottom player's hand activity while focused solely on maintaining underhook position",
+        "consequence": "Bottom player establishes deep grips on your belt or hips undetected, allowing them to load and execute the sweep before you recognize the threat",
+        "correction": "Monitor the bottom player's hands continuously throughout the double unders exchange. Any hand movement toward your belt, waistband, or behind your hips is a sweep setup that must be addressed immediately through grip stripping or base adjustment."
+      },
+      {
+        "error": "Attempting to resist the sweep by stiffening your entire body rather than adjusting base dynamically",
+        "consequence": "A rigid body is easier to sweep than a dynamically adjusting one. The sweep works by redirecting force, and a stiff body transmits force efficiently in the sweep direction",
+        "correction": "Respond to sweep attempts with dynamic base adjustments: step a foot out, drop hips, or redirect your weight to the opposite side. Stay loose and mobile in your base while maintaining tight arm connection through the underhooks."
+      },
+      {
+        "error": "Backing away from the double unders position entirely when sensing a sweep threat",
+        "consequence": "Surrenders the dominant passing position voluntarily, allowing the bottom player to recover guard without executing the sweep. This rewards their grip acquisition and teaches them that threatening sweeps neutralizes your passing",
+        "correction": "Address the sweep threat while maintaining position rather than disengaging. Strip grips, adjust base, or drive through the sweep attempt. Only disengage if the sweep has genuine momentum that you cannot counter from your current position."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest indicator that the bottom player is setting up a sweep rather than attempting guard recovery?",
+        "answer": "The earliest indicator is the bottom player's hands moving toward your belt, waistband, or behind your hips rather than framing against your face, neck, or shoulders. Guard recovery attempts use frames that push you away, while sweep setups require grips that pull you in a specific direction. When you feel hands reaching past your hips or gripping your belt, the bottom player has transitioned from defensive escape to offensive reversal. This grip transition should trigger immediate base adjustment or grip stripping before the sweep can be loaded."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you detect the bottom player loading an overhead sweep?",
+        "answer": "Immediately shift your weight backward and downward by dropping your hips toward the mat and stepping at least one foot back. This moves your center of gravity behind the tipping point that the overhead sweep requires. Simultaneously, tighten your underhook squeeze to compress the bottom player's legs together, which reduces their ability to extend and generate the upward force needed for the overhead motion. The key is moving your center of gravity rearward without releasing underhook control, which means hip adjustment rather than posture change."
+      },
+      {
+        "question": "When is it tactically advantageous to drive through the sweep attempt rather than defend it?",
+        "answer": "Drive through when the bottom player has committed to a lateral sweep direction and turned their hips, because their hip turn creates a passing lane that did not exist before the sweep attempt. The bottom player's commitment to the sweep means their hips are oriented away from you on one side, making guard retention on that side mechanically impossible. By driving through aggressively on the side they turned away from, you convert their offensive attempt into your passing opportunity. This counter-attack is only safe when the sweep has a clear directional commitment rather than an overhead trajectory."
+      },
+      {
+        "question": "What is the relationship between your forward pressure intensity and your vulnerability to the overhead sweep?",
+        "answer": "Forward pressure intensity and overhead sweep vulnerability have a direct proportional relationship: the harder you drive forward, the more vulnerable you become to being tipped overhead. Extreme forward stacking pressure moves your center of gravity past your base, creating the exact condition the overhead sweep exploits. The solution is not to reduce pressure, but to apply pressure through body angle and weight placement rather than explosive forward driving. Progressive, controlled pressure allows you to maintain your center of gravity over your base while still generating the stacking force needed for passing. Think of settling weight rather than pushing forward."
+      },
+      {
+        "question": "How should you respond if the bottom player successfully inserts a butterfly hook during the sweep attempt?",
+        "answer": "When a butterfly hook is inserted, the bottom player has gained a powerful sweeping lever that changes the threat from an overhead sweep to a hook sweep. Immediately address the hook by driving your knee inside their hook to collapse it, or shift your hips laterally away from the hook side to reduce its mechanical advantage. If the hook is established too deeply to collapse, transition your passing approach from double unders to an over-under or leg weave configuration that addresses the hook directly. Do not continue attempting to maintain double unders when a butterfly hook has been successfully inserted, as this creates a high-percentage sweep position for the bottom player."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setups from the top position",
+        "description": "Practice maintaining double unders while partner alternates between guard recovery attempts and sweep setups. Focus on recognizing the transition from defensive framing to sweep grip acquisition. Partner signals when they are setting up a sweep so you can develop pattern recognition. No live sweep attempts initially, just recognition drilling."
+      },
+      {
+        "phase": "Phase 2: Base Recovery",
+        "focus": "Dynamic base adjustment under sweep threat",
+        "description": "Partner establishes sweep grips and loads sweep attempts at 50% speed and intensity. Practice base widening, hip dropping, and grip stripping responses to each sweep variant. Develop the ability to maintain underhook control while adjusting base. Build automatic responses to specific sweep cues: hand on belt triggers hip drop, leg extension triggers base post."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack",
+        "focus": "Converting sweep defense into pass completion",
+        "description": "Partner executes full sweep attempts at 70-80% intensity. Practice driving through lateral sweep attempts to complete the pass, and maintaining position against overhead attempts through base management. Develop the tactical judgment for when to defend versus when to counter-attack through the sweep."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense against sweep attempts",
+        "description": "Positional sparring from double unders with partner fully committed to sweep attempts. Top player works to complete the pass while defending sweeps. Track success rates for sweep defense and passing completion. Develop comfort maintaining offensive pressure while remaining defensively aware of sweep threats."
+      }
+    ]
   }
 }

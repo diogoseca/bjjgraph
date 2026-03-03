@@ -21,19 +21,19 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 54% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,31 +211,31 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Available Attacks
 
-### [[Heel Hook]] (54% of attempts)
+### [[Heel Hook]] (40% of attempts)
 
-### [[Outside Heel Hook]] (2% of attempts)
+### [[Outside Heel Hook]] (5% of attempts)
 
-### [[Straight Ankle Lock Entry]] (11% of attempts)
+### [[Straight Ankle Lock Entry]] (10% of attempts)
 
 ### [[Toe Hold]] (9% of attempts)
 
-### [[Kneebar]] (2% of attempts)
+### [[Kneebar]] (3% of attempts)
 
-### [[Back Take from Ashi]] (7% of attempts)
+### [[Back Take from Ashi]] (10% of attempts)
 
-### [[Cross Ashi Transition]] (5% of attempts)
+### [[Cross Ashi Transition]] (6% of attempts)
 
-### [[Transition to Backside 50-50]] (5% of attempts)
+### [[Backside 50-50 Entry from Ashi]] (5% of attempts)
 
-### [[Calf Slicer]] (2% of attempts)
+### [[Calf Slicer]] (3% of attempts)
 
 ### [[Estima Lock]] (2% of attempts)
 
-### [[Fallback to Inside Ashi-Garami]] (0% of attempts)
+### [[Fallback to Inside Ashi-Garami]] (3% of attempts)
 
 ### [[Heel Hook from Saddle]] (0% of attempts)
 
-### [[Saddle Fallback to Inside Ashi]] (1% of attempts)
+### [[Saddle Fallback to Inside Ashi]] (4% of attempts)
 
 
 

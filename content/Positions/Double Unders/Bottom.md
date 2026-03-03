@@ -21,37 +21,37 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Hook Recovery",
-      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Hook Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Double Unders",
-      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,17 +206,19 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (41% of attempts)
+### [[Deep Half Entry]] (43% of attempts)
 
-### [[Granby Roll to Guard]] (16% of attempts)
+### [[Granby Roll to Guard]] (15% of attempts)
 
-### [[Butterfly Hook Recovery]] (13% of attempts)
+### [[Butterfly Hook Recovery]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (13% of attempts)
+### [[Hip Escape to Guard]] (12% of attempts)
 
-### [[Roll to Turtle]] (11% of attempts)
+### [[Roll to Turtle]] (10% of attempts)
 
-### [[Guard Recovery from Double Unders]] (6% of attempts)
+### [[Guard Recovery from Double Unders]] (5% of attempts)
+
+### [[Sweep from Double Unders]] (3% of attempts)
 
 
 

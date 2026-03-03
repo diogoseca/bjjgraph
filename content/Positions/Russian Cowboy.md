@@ -93,21 +93,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (12% of attempts)
+- **[[Technical Stand-up]]** (11% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** (12% of attempts)
+- **[[Rolling Back Take]]** (11% of attempts)
 
-- **[[Turtle Transition]]** (26% of attempts)
+- **[[Arm Extraction to Turtle]]** (32% of attempts)
 
-- **[[Guard Recovery]]** (12% of attempts)
+- **[[Arm Recovery to Guard]]** (11% of attempts)
 
-- **[[Hip Escape from Russian Cowboy]]** (6% of attempts)
+- **[[Hip Escape from Russian Cowboy]]** (5% of attempts)
 
-- **[[Roll Escape from Russian Cowboy]]** (3% of attempts)
+- **[[Roll Escape from Russian Cowboy]]** (2% of attempts)
+
+- **[[Escape from Russian Cowboy]]** (1% of attempts)
 
 
 ### Common Mistakes

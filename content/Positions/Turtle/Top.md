@@ -21,7 +21,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 69% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 65% of exchanges from this position.",
       "position": 1
     },
     {
@@ -51,7 +51,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck Entry",
-      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,7 +204,7 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (69% of attempts)
+### [[Turtle to Back Control]] (65% of attempts)
 
 ### [[Front Headlock to Anaconda]] (5% of attempts)
 
@@ -214,7 +214,7 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ### [[Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Turtle to Truck Entry]] (0% of attempts)
+### [[Turtle to Truck Entry]] (2% of attempts)
 
 ### [[Front Headlock to Guillotine]] (3% of attempts)
 
@@ -224,13 +224,9 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ### [[Turtle to Standing]] (3% of attempts)
 
-### [[Transition to Matrix]] (0% of attempts)
+### [[Turtle Attack Sequence]] (1% of attempts)
 
-### [[Transition to Rodeo Ride]] (0% of attempts)
-
-### [[Turtle Attack Sequence]] (0% of attempts)
-
-### [[Turtle to Matrix]] (0% of attempts)
+### [[Turtle to Matrix]] (1% of attempts)
 
 ### [[Turtle to Rodeo Ride]] (1% of attempts)
 

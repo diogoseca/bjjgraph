@@ -21,37 +21,37 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,21 +216,25 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 
 ## Available Escapes
 
-### [[Arm Extraction]] (20% of attempts)
+### [[Arm Extraction]] (32% of attempts)
 
-### [[Bridge and Roll]] (14% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (16% of attempts)
+### [[Elbow Escape to Guard]] (14% of attempts)
 
-### [[Upa Escape]] (11% of attempts)
+### [[Upa Escape]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Hip Escape to Guard]] (12% of attempts)
 
-### [[Explosive Bridge to Turtle]] (12% of attempts)
+### [[Explosive Bridge to Turtle]] (10% of attempts)
 
-### [[Arm Drag Sweep]] (5% of attempts)
+### [[Arm Drag Sweep]] (3% of attempts)
 
-### [[Rolling Escape to Guard]] (8% of attempts)
+### [[Rolling Escape to Guard]] (6% of attempts)
+
+### [[Hip Escape from Mounted Crucifix]] (1% of attempts)
+
+### [[Bridge Escape from Mounted Crucifix]] (1% of attempts)
 
 
 
@@ -243,7 +247,7 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 **If opponent attacks neck with choke while arms are trapped:**
 - Execute **[[Chin Protection and Shoulder Defense]]** → [[Mounted Crucifix]] (Probability: 70%)
 - Execute **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Probability: 25%)
-- Execute **[[Tap Out]]** → [[game-over]] (Probability: 5%)
+- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 5%)
 
 
 **If opponent isolates free arm for submission attempt:**

@@ -21,37 +21,37 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Knee Shield Retention",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Shield Retention",
-      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,19 +205,25 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (17% of attempts)
+### [[Elbow Escape to Guard]] (42% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Hip Escape to Guard]] (10% of attempts)
 
-### [[Shrimp Escape]] (16% of attempts)
+### [[Deep Half Entry]] (5% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Knee Shield Retention]] (11% of attempts)
 
-### [[Knee Shield Retention]] (16% of attempts)
+### [[Technical Stand-up]] (4% of attempts)
 
-### [[Technical Stand-up]] (10% of attempts)
+### [[Frame and Shrimp to Guard]] (10% of attempts)
 
-### [[Frame and Shrimp to Guard]] (14% of attempts)
+### [[Hip Escape to Turtle]] (9% of attempts)
+
+### [[Frame and Shrimp from Knee on Belly]] (3% of attempts)
+
+### [[Push Knee and Reguard from Knee on Belly]] (3% of attempts)
+
+### [[Turn to Turtle from Knee on Belly]] (3% of attempts)
 
 
 
@@ -233,7 +239,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 
 **If opponent lifts knee to transition to mount or north-south:**
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 60%)
 - Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 55%)
 
 

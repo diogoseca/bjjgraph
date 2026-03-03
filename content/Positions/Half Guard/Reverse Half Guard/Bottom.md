@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 41% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Sweep",
-      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,23 +209,25 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (10% of attempts)
+### [[Old School Sweep]] (9% of attempts)
 
-### [[Half Guard to Back Take]] (34% of attempts)
+### [[Half Guard to Back Take]] (41% of attempts)
 
-### [[Underhook Sweep from Half]] (8% of attempts)
+### [[Underhook Sweep from Half]] (7% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Deep Half Entry]] (9% of attempts)
 
-### [[Half Guard Recovery]] (14% of attempts)
+### [[Half Guard Recovery]] (13% of attempts)
 
-### [[Kimura Sweep]] (10% of attempts)
+### [[Kimura Sweep]] (9% of attempts)
 
-### [[Guard Recovery]] (8% of attempts)
+### [[Guard Recovery]] (7% of attempts)
 
-### [[Escape Reverse Half Guard]] (4% of attempts)
+### [[Escape Reverse Half Guard]] (3% of attempts)
 
-### [[Invert from Reverse Half Guard]] (2% of attempts)
+### [[Invert from Reverse Half Guard]] (1% of attempts)
+
+### [[Sweep from Reverse Half Guard]] (1% of attempts)
 
 
 

@@ -1,13 +1,411 @@
 {
   "name": "Backstep Pass from Reverse X-Guard",
-  "description": "",
-  "tags": [],
+  "description": "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete guide covering execution, timing, and counters for clearing inverted guard hooks.",
+  "tags": [
+    "backstep pass",
+    "guard passing",
+    "reverse x-guard",
+    "leg entanglement defense",
+    "side control",
+    "no-gi",
+    "passing technique"
+  ],
   "from_position": "Reverse X-Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Reverse X-Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 55,
+  "overview": "The Backstep Pass from Reverse X-Guard is a rotational passing technique where the top player uses a backstep to clear the opponent's inverted hook entanglement and arrive in side control. This pass exploits the structural weakness of the Reverse X-Guard configuration: because the guard player's hooks are committed to one side, the top player can rotate away from the hooks, extracting the trapped leg through a controlled arc and landing perpendicular to the opponent.\n\nThe backstep pass is particularly effective when the opponent commits strongly to elevation sweeps, as their hook extension creates space for the rotation. Timing is critical—initiating the backstep when the opponent's hooks are at maximum extension reduces the resistance encountered during the rotation. The technique requires precise weight transfer to the posting leg, controlled hip rotation, and immediate consolidation upon landing to prevent guard recovery.\n\nThis technique has become a staple in modern passing systems against inverted guards and leg entanglement positions. Its value lies in its directness: rather than attempting to fight through hooks or disengage entirely, the backstep converts the opponent's leg control into a passing angle. The primary risk is the opponent following the rotation with an inversion to take the back, making upper body control and rotation speed essential components of successful execution.",
+  "conditions": [
+    "Opponent has established Reverse X-Guard with active hooks on your near leg",
+    "At least one leg trapped by opponent's primary hook behind the knee",
+    "You maintain upright posture with at least one foot grounded as stable base",
+    "Sufficient grip control on opponent's upper body to prevent them from following your rotation"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Backstep to Leg Drag",
+      "description": "Instead of landing directly in side control, the passer drags the opponent's legs across their body during the backstep, finishing in leg drag control. This adds an extra control layer against guard recovery.",
+      "when_to_use": "When the opponent has particularly active hips and you anticipate immediate guard recovery attempts after the pass"
+    },
+    {
+      "variant_name": "Backstep to Knee Slice",
+      "description": "The passer initiates the backstep rotation but transitions mid-movement into a knee slice through the opponent's legs. The backstep creates the angle, and the knee slice provides the finishing pass mechanic.",
+      "when_to_use": "When the opponent defends the full backstep by tracking your hips but leaves space between their legs for the knee to slice through"
+    },
+    {
+      "variant_name": "Double Backstep",
+      "description": "A two-stage backstep where the initial rotation is partial, drawing the opponent's defensive reaction, followed by a second complete backstep in the same direction to finish the pass.",
+      "when_to_use": "Against experienced guard players who follow the first backstep with inversion—the pause resets their timing before the second step completes the pass"
+    }
+  ],
+  "position_integration": "The Backstep Pass from Reverse X-Guard occupies a critical node in the modern passing hierarchy against inverted and leg entanglement guards. It connects the defensive challenge of being caught in Reverse X-Guard to the dominant side control position, bypassing the need for extended hook fighting or disengagement sequences. This pass integrates with the broader backstep passing system that includes entries from De La Riva, Single Leg X, and Deep Half Guard, creating a unified rotation-based passing methodology. Mastery of this technique strengthens the entire passing game against bottom players who rely on leg entanglement systems.",
+  "related_content": [
+    {
+      "name": "Reverse X-Guard",
+      "relationship": "Source position where the pass initiates"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position upon successful pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Secondary outcome when pass is partially completed"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome if opponent inverts during backstep"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Related fundamental backstep passing technique"
+    },
+    {
+      "name": "Backstep from Single Leg X",
+      "relationship": "Similar backstep pass from related leg entanglement guard"
+    },
+    {
+      "name": "Backstep from De La Riva",
+      "relationship": "Similar backstep pass from DLR guard"
+    },
+    {
+      "name": "Backstep from Deep Half",
+      "relationship": "Backstep pass from another bottom-side guard"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position with similar hook structures"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Guard the opponent may transition to during failed pass"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative neutral passing position if backstep stalls"
+    }
+  ],
+  "attacker": {
+    "name": "Backstep Pass from Reverse X-Guard Attacker",
+    "description": "Complete guide to executing the Backstep Pass from Reverse X-Guard. Step-by-step instructions for clearing inverted guard hooks and establishing side control through controlled rotation.",
+    "overview": "The attacker executing the Backstep Pass from Reverse X-Guard must combine precise timing with controlled rotational mechanics to clear the opponent's hook entanglement. The technique begins from the compromised position of Reverse X-Guard Top, where the opponent's hooks threaten sweeps and leg attacks. Rather than fighting directly against the hooks, the attacker uses the backstep rotation to redirect the opponent's control structure, converting their hook commitment into a passing angle. Success requires controlling the opponent's upper body throughout the rotation to prevent them from following the movement with an inversion, and immediately consolidating side control upon landing before the opponent can recover guard.",
+    "key_principles": [
+      "Control the opponent's upper body before initiating the backstep to prevent them from following your rotation with an inversion",
+      "Transfer weight completely to the posting leg before beginning the backstep to maintain balance throughout the rotation",
+      "Rotate hips away from the opponent's hooks in a single committed motion rather than tentative partial steps",
+      "Time the backstep when the opponent's hooks are at maximum extension during a sweep attempt for least resistance",
+      "Maintain head position facing the opponent throughout the rotation to prevent exposing your back",
+      "Immediately establish crossface pressure upon landing to prevent guard recovery before consolidating side control"
+    ],
+    "setup_requirements": [
+      "Upright posture maintained with at least one foot firmly planted as a stable posting base",
+      "Grip control established on opponent's collar, sleeve, or upper body to prevent inversion follow-through",
+      "Free leg positioned wide enough to serve as the rotation axis without compromising balance",
+      "Opponent's hook pressure identified and mapped so you can time the backstep during maximum hook extension",
+      "Upper body angle prepared slightly toward the backstep direction to load the rotation"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Upper Body Control",
+        "description": "Secure grip control on the opponent's collar, sleeve, or wrist on the hook side. In no-gi, control the wrist or establish a collar tie. This grip prevents the opponent from inverting and following your backstep rotation. Without this control, the opponent will take your back during the rotation."
+      },
+      {
+        "step_number": 2,
+        "action": "Shift Weight to Posting Leg",
+        "description": "Transfer your weight completely to the free leg (the leg not trapped by the opponent's hooks). This leg becomes the axis of rotation. Position it slightly behind your center of gravity so it can support the rotational movement without stumbling. Keep your base wide and stable before committing."
+      },
+      {
+        "step_number": 3,
+        "action": "Break Hook Pressure",
+        "description": "Use your free hand to push down on the opponent's primary hook behind your knee, creating momentary slack. Alternatively, rotate your trapped knee outward to reduce the bite of their hook. This doesn't fully clear the hook but creates enough space for the rotation to complete the extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate Backstep Rotation",
+        "description": "Drive your trapped leg backward in an arc away from the opponent's hooks while pivoting on your posting foot. The rotation should be committed and fluid—a hesitant backstep allows the opponent to adjust their hooks and track your movement. Turn your hips fully away from the opponent's guard structure."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear Trapped Leg Through Rotation Arc",
+        "description": "As your hips rotate past the opponent's hook control, extract your trapped leg by stepping it behind and past their body. The rotational momentum combined with the broken hook pressure allows the leg to clear. Drive the knee toward the mat on the far side of the opponent to complete the extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Land Perpendicular to Opponent",
+        "description": "Complete the backstep by landing with your chest perpendicular to the opponent's torso. Your near hip should drop immediately to the mat beside the opponent's hip. Maintain the upper body grip throughout the landing to prevent them from turning into you or recovering guard with their now-free legs."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control",
+        "description": "Immediately establish crossface pressure with your near arm across the opponent's face and neck. Drive your hips low against their hips to eliminate space. Block their far hip with your near hand to prevent knee insertion. Settle your weight and transition from the backstep landing into stable side control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent inverts and follows the backstep rotation to take the back",
+        "effectiveness": "High",
+        "your_response": "Accelerate the rotation speed and maintain strong upper body grip control to prevent the opponent from completing the inversion. If they begin inverting, immediately sit through and face them rather than completing the backstep with your back exposed.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent extends hooks fully and resists rotation by stiffening legs",
+        "effectiveness": "Medium",
+        "your_response": "Use the hook extension against them by changing direction—instead of continuing the backstep, collapse forward into a smash pass over the extended legs. The stiffened legs become easier to control when you drive pressure downward.",
+        "targets_outcome": "Reverse X-Guard/Top"
+      },
+      {
+        "counter": "Opponent transitions to Single Leg X-Guard during the backstep by rethreading hooks",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the guard change immediately and adjust your backstep angle. If they rethreaded hooks into Single Leg X, continue the backstep with a wider arc to clear the new hook configuration, or transition to a backstep from Single Leg X technique.",
+        "targets_outcome": "Reverse X-Guard/Top"
+      },
+      {
+        "counter": "Opponent grabs your ankle to prevent the backstep completion",
+        "effectiveness": "Low",
+        "your_response": "Strip the ankle grip with your free hand before or during the backstep rotation. If the grip is strong, use the rotation itself to torque against their grip angle, breaking it through angular pressure rather than direct pulling.",
+        "targets_outcome": "Reverse X-Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the backstep without controlling the opponent's upper body first",
+        "consequence": "Opponent freely inverts and follows the rotation, taking your back as you complete the step with no grip to prevent their movement",
+        "correction": "Always establish collar, sleeve, or wrist control on the hook side before beginning the backstep rotation to anchor their upper body in place"
+      },
+      {
+        "error": "Performing a tentative half-backstep instead of a committed full rotation",
+        "consequence": "Opponent adjusts hooks mid-step and retains guard control, often in a stronger configuration than before the attempt",
+        "correction": "Commit fully to the backstep with a single fluid rotation. Once you initiate, complete the full arc without hesitation"
+      },
+      {
+        "error": "Failing to transfer weight to the posting leg before rotating",
+        "consequence": "Loss of balance during the backstep causes stumbling or falling into the opponent's sweep, often resulting in being swept to bottom",
+        "correction": "Shift weight completely to the free leg and establish it as a stable axis before initiating any rotational movement"
+      },
+      {
+        "error": "Not consolidating side control immediately after landing the backstep",
+        "consequence": "Opponent recovers guard with their now-free legs before you establish crossface and hip control, wasting the successful pass",
+        "correction": "Drop hips immediately upon landing and establish crossface pressure within one second of completing the backstep rotation"
+      },
+      {
+        "error": "Backstep rotation too wide, creating excessive space between you and opponent",
+        "consequence": "Large gap allows opponent to insert frames, recover guard, or create scramble opportunities before you can close distance for side control",
+        "correction": "Keep the backstep arc tight by maintaining proximity throughout the rotation. Your chest should stay within arm's length of the opponent at all times"
+      },
+      {
+        "error": "Looking away from the opponent during the backstep rotation",
+        "consequence": "Losing visual contact allows opponent to change position without your awareness, often resulting in back exposure or unexpected guard recovery",
+        "correction": "Maintain head position facing the opponent throughout the entire rotation by turning your head back toward them as your hips rotate"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Movement",
+        "focus": "Backstep rotation mechanics",
+        "description": "Practice the backstep rotation pattern without a partner. Work on weight transfer to the posting leg, full hip rotation, and landing in side control position. Drill 50 repetitions per side focusing on smooth, committed rotations."
+      },
+      {
+        "phase": "Cooperative Drilling",
+        "focus": "Timing and technique integration",
+        "description": "Partner establishes Reverse X-Guard with no resistance. Walk through each step of the backstep pass focusing on grip placement, hook clearing, and consolidation. Gradually increase speed while maintaining technical precision."
+      },
+      {
+        "phase": "Progressive Resistance",
+        "focus": "Adapting to defensive reactions",
+        "description": "Partner provides increasing resistance from 30% to 80%. Focus on reading defensive reactions and adjusting backstep timing accordingly. Practice countering the inversion follow-through and hook re-threading attempts."
+      },
+      {
+        "phase": "Positional Sparring",
+        "focus": "Live application from Reverse X-Guard",
+        "description": "Start from Reverse X-Guard with full resistance. Top player attempts backstep pass while bottom player works sweeps and transitions. 3-minute rounds with position resets. Integrate backstep with other passing options."
+      },
+      {
+        "phase": "Full Integration",
+        "focus": "Chain passing with backstep as primary option",
+        "description": "During live rolling, actively seek Reverse X-Guard situations and attempt the backstep pass. Track success rate and identify which defensive reactions give you trouble. Develop secondary options off failed backstep attempts."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window to initiate the backstep pass from Reverse X-Guard?",
+        "answer": "The optimal timing is when the opponent's hooks are at maximum extension during an active sweep attempt. At this point, their hooks have the least bite and are stretched thin, reducing the resistance your trapped leg encounters during the rotation. Initiating during the opponent's attack also disrupts their offensive timing and converts their committed position into vulnerability."
+      },
+      {
+        "question": "What grip must be established before beginning the backstep rotation?",
+        "answer": "Upper body grip control on the opponent's collar, sleeve, or wrist on the hook side must be established before rotating. In no-gi, a wrist control or collar tie serves this purpose. This grip anchors the opponent's upper body and prevents them from inverting and following your backstep rotation to take your back, which is the highest-percentage counter to this technique."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the backstep clears the hooks successfully?",
+        "answer": "Complete weight transfer to the posting leg before initiating the rotation is the most critical mechanical detail. Without full weight on the free leg, you cannot generate a committed, fluid backstep arc. Partial weight transfer leads to a hesitant step that allows the opponent to track your movement and adjust their hooks. The posting leg must serve as a stable axis for the entire rotation."
+      },
+      {
+        "question": "Your opponent begins inverting to follow your backstep—how do you respond?",
+        "answer": "If the opponent begins inverting early in the backstep, immediately accelerate the rotation and tighten your upper body grip to outpace their inversion. If they have already partially inverted, abort the backstep by sitting through toward them and re-establishing a face-to-face position rather than completing the rotation with your back exposed. Prevention through grip control is always preferable to mid-rotation adjustments."
+      },
+      {
+        "question": "What direction of force should you apply through the backstep rotation?",
+        "answer": "The primary force direction is a circular arc away from the opponent's hooks, not a linear backward step. The rotation should carry your trapped leg in a sweeping arc behind the opponent's body while your posting leg pivots on the ball of the foot. Simultaneously, downward pressure through your grips pins the opponent's upper body to the mat, creating a scissors-like action between your rotating lower body and pinned upper body control."
+      },
+      {
+        "question": "What grip requirements change between gi and no-gi for this backstep pass?",
+        "answer": "In gi, the ideal grip is a same-side collar grip combined with a sleeve grip, which provides maximum upper body control during rotation. In no-gi, the collar grip is replaced by a collar tie or head control, and the sleeve grip becomes a wrist control or overhook. No-gi requires more emphasis on head position and shoulder pressure to compensate for the reduced friction and grip options available without the gi fabric."
+      },
+      {
+        "question": "The backstep fails and your opponent retains Reverse X-Guard—what are your immediate chain options?",
+        "answer": "After a failed backstep, your most immediate options are to re-establish base and attempt a smash pass by driving weight forward into the opponent's hooks, transition to a long step pass using the angular position created by the failed backstep, or attempt a second backstep with adjusted timing. The failed backstep often disrupts the opponent's original hook configuration, creating different vulnerabilities. Avoid repeatedly attempting the same backstep without adjusting your setup."
+      },
+      {
+        "question": "Why must you consolidate side control immediately upon completing the backstep rather than pausing?",
+        "answer": "The backstep landing creates a brief window where the opponent's legs are free but their upper body is still controlled by your grip. If you pause, the opponent uses their now-free legs to reinsert hooks, establish frames, or recover any form of guard within one to two seconds. Immediate crossface and hip pressure eliminates this recovery window. The consolidation must happen as a continuation of the rotation, not as a separate action."
+      },
+      {
+        "question": "Your opponent stiffens their legs and extends hooks to resist the backstep—how do you adjust?",
+        "answer": "Extended, stiffened hooks create a different opportunity: collapse forward over the extended legs into a smash pass rather than continuing the backstep. The stiffened position eliminates the opponent's ability to retract and adjust, making them vulnerable to direct pressure passing. Alternatively, use the extension to strip hooks more easily since straight legs have less hooking power than bent legs. The opponent's defensive reaction should dictate your passing approach."
+      }
+    ],
+    "safety_considerations": "The Backstep Pass from Reverse X-Guard is generally a low-risk technique with no direct submission threat. However, the rotation can create torque on the trapped knee if the opponent's hooks do not release cleanly during the backstep arc. Practitioners should avoid forcing the rotation against deeply set hooks and instead focus on creating hook slack before committing to the step. Training partners should release hooks that are being rotated against to prevent knee ligament strain. In drilling, start with cooperative releases and gradually increase resistance."
+  },
+  "defender": {
+    "name": "Backstep Pass from Reverse X-Guard Defender",
+    "description": "Complete defensive guide for the Backstep Pass from Reverse X-Guard. Learn recognition cues, defensive reactions, and how to retain guard or take the back when opponent backsteps.",
+    "overview": "Defending the Backstep Pass from Reverse X-Guard requires early recognition of the top player's rotational intent and immediate follow-through to maintain guard structure or capitalize on back exposure during the rotation. The defender's primary advantage is that the backstep inherently turns the passer's back partially toward them, creating back-taking opportunities if the defender can follow the rotation with hip movement and inversion. Effective defense combines maintaining active hook pressure to delay the rotation, following the passer's movement with coordinated hip rotation, and transitioning to alternative guards or back takes when the pass cannot be fully prevented. The defender must distinguish between moments to fight for hook retention and moments to flow with the movement toward a better position.",
+    "key_principles": [
+      "Maintain active hook pressure throughout the opponent's backstep attempt, never allowing hooks to become passive or disconnected",
+      "Follow the passer's rotation with your hips rather than remaining static—hip rotation in the same direction as the backstep maintains connection",
+      "Recognize the backstep initiation early through grip and weight shift changes to prepare defensive or counter-offensive responses",
+      "Prioritize back-taking over hook retention when the backstep is nearly complete—the passer's exposed back is a higher-value target than guard retention",
+      "Maintain sleeve or wrist control on the passer to anchor your connection and prevent them from completing the rotation freely",
+      "Use inversion mechanics to follow the backstep rotation and transition from guard control to back control"
+    ],
+    "recognition_cues": [
+      "Opponent establishes strong upper body grip (collar, sleeve, or wrist) while maintaining upright posture—this grip precedes the backstep",
+      "Weight shifts noticeably to one leg as the opponent loads their posting foot, reducing pressure through the trapped leg",
+      "Opponent's hips begin rotating away from your hooks, creating a twisting sensation in your hook connection",
+      "Free hand pushes down on your primary hook behind the knee, attempting to create slack before the rotation",
+      "Opponent's head turns to look over their shoulder toward the backstep direction, indicating commitment to the rotation"
+    ],
+    "defensive_options": [
+      {
+        "action": "Follow the backstep with inversion to take the back",
+        "when_to_use": "When you recognize the backstep early and the opponent has committed to the rotation—their turning back creates a direct path to back control",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You establish back control with hooks as the passer's rotation exposes their back during the backstep arc",
+        "risk": "If your inversion is too slow, the passer completes the backstep and you end up flat with no hooks and no guard"
+      },
+      {
+        "action": "Increase hook pressure and resist rotation by bending knees and pulling hooks tight",
+        "when_to_use": "Early in the backstep attempt when the opponent has not yet committed fully to the rotation—strong hooks can stall or abort the backstep",
+        "targets_outcome": "Reverse X-Guard/Top",
+        "if_successful": "Opponent's backstep stalls and they remain in your Reverse X-Guard, often with compromised posture from the failed attempt",
+        "risk": "If the opponent's rotation is already committed, excessive hook stiffness can create knee torque on your own legs"
+      },
+      {
+        "action": "Transition to Single Leg X-Guard by rethreading hooks during the rotation",
+        "when_to_use": "When your primary hooks are being cleared but you can quickly reclassify leg control into a Single Leg X configuration as the passer rotates",
+        "targets_outcome": "Reverse X-Guard/Top",
+        "if_successful": "You retain leg entanglement control in a new guard configuration, maintaining your offensive position despite the passing attempt",
+        "risk": "Rethreading hooks during the backstep rotation requires excellent timing—too slow and the passer clears all hooks"
+      },
+      {
+        "action": "Use sleeve grip to off-balance passer during rotation and initiate sweep",
+        "when_to_use": "When you have strong sleeve or wrist control and the opponent's weight transfers to their posting leg—pulling the grip disrupts their balance mid-backstep",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Passer loses balance during rotation and you recover to at least half guard with favorable grips",
+        "risk": "If the grip fails or breaks, you lose your best connection point and the passer completes the backstep freely"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Follow the backstep rotation with an inversion, maintaining hook connection as long as possible, then transition hooks from guard control to back hooks as the passer's back turns toward you. Secure seatbelt control immediately upon establishing back position."
+      },
+      {
+        "outcome": "Reverse X-Guard/Top",
+        "how": "Increase hook pressure and resist the rotation early by bending knees and pulling the passer's trapped leg tight. Combine with sleeve or collar grip control to anchor their upper body and prevent the rotation from gaining momentum. Use the failed backstep to off-balance the passer for a sweep."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static with passive hooks as the opponent initiates the backstep rotation",
+        "consequence": "Hooks are easily cleared during the rotation and the passer lands in side control without resistance, wasting the guard position entirely",
+        "correction": "As soon as you detect weight shifting or hip rotation, actively increase hook pressure and begin following the movement with your own hip rotation"
+      },
+      {
+        "error": "Attempting to hold hooks rigidly instead of flowing with the backstep into a back take",
+        "consequence": "Hooks break under the rotational force and you end up flat on your back with no guard and no counter-offensive position",
+        "correction": "Recognize when hook retention is failing and immediately transition to inversion and back-taking rather than fighting a losing grip battle"
+      },
+      {
+        "error": "Releasing upper body grips to reach for the opponent's legs during the backstep",
+        "consequence": "Loss of connection to the passer's upper body eliminates your ability to follow their rotation or off-balance them during the backstep",
+        "correction": "Maintain sleeve, wrist, or collar control throughout the backstep defense. Upper body connection is your primary tool for following the rotation and creating back-taking opportunities"
+      },
+      {
+        "error": "Inverting too late after the backstep is already complete",
+        "consequence": "Passer has already established side control crossface and hip pressure before your inversion begins, resulting in an inverted position under dominant control",
+        "correction": "Begin inversion the moment you recognize the backstep is committed, not after it completes. The back exposure only exists during the rotation, not after the passer has settled"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a backstep pass?",
+        "answer": "The earliest cue is the opponent establishing a strong upper body grip (collar, sleeve, or wrist) combined with a noticeable weight shift to their free leg. This grip-and-shift combination precedes the rotation by one to two seconds. The grip anchors their upper body control, and the weight shift loads the posting leg as the rotation axis. Recognizing this setup phase gives you maximum time to prepare your defensive or counter-offensive response."
+      },
+      {
+        "question": "Why is following the backstep with inversion more effective than simply resisting with hook pressure?",
+        "answer": "The backstep rotation generates significant angular force that progressively degrades hook control. Fighting this force with static hook pressure expends energy against a mechanical disadvantage. Inversion converts the opponent's rotational energy into your own offensive transition—their turning back becomes your pathway to back control. The backstep inherently creates back exposure, making inversion a higher-percentage response than static resistance against committed rotations."
+      },
+      {
+        "question": "When should you abandon hook retention and commit to a back-taking inversion?",
+        "answer": "Commit to inversion when the opponent's rotation has passed the midpoint and your hook connection is degrading despite active resistance. At this point, hook retention becomes increasingly unlikely while the back exposure window is at its maximum. The critical decision point is when your primary hook behind the knee loses its bite—this signals that the extraction is imminent and you should redirect your energy from guard retention to back-taking before the window closes."
+      },
+      {
+        "question": "What role does your sleeve grip play in defending the backstep pass?",
+        "answer": "The sleeve or wrist grip serves as your primary tether to the opponent during the backstep rotation. It prevents the passer from completing a clean rotation by anchoring your connection to their upper body. This grip enables you to follow their movement, create off-balancing pulls during weight transfer, and maintain the connection needed for inversion to back control. Without this grip, the passer rotates freely and you cannot follow effectively."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Training",
+        "focus": "Identifying backstep initiation cues",
+        "description": "Partner alternates between establishing grips for backstep and grips for other passes from Reverse X-Guard Top. Practice identifying which setup leads to a backstep based on weight shift and grip patterns. Call out the recognition before the partner moves."
+      },
+      {
+        "phase": "Reaction Drilling",
+        "focus": "Defensive responses at various stages",
+        "description": "Partner performs backstep at 50% speed. Practice three defensive responses: early hook resistance, mid-rotation inversion to back take, and late-stage guard recovery to Single Leg X. Develop the ability to select the appropriate response based on timing."
+      },
+      {
+        "phase": "Counter-Offensive Integration",
+        "focus": "Converting defense into back takes",
+        "description": "Focus specifically on the inversion to back take counter. Partner performs committed backsteps while you practice following the rotation with hip movement and establishing back hooks. Gradually increase resistance and speed until you can execute the counter in live conditions."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full-speed defense and counter-offense",
+        "description": "Start from Reverse X-Guard with full resistance. Defend backstep attempts while maintaining offensive guard threats. Track which defensive response you default to and develop the ability to choose optimally based on the passer's commitment level and timing."
+      }
+    ]
+  }
 }

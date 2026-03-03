@@ -21,37 +21,37 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 46% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 61% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,29 +206,29 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ## Available Attacks
 
-### [[Smash Pass]] (14% of attempts)
+### [[Smash Pass]] (12% of attempts)
 
-### [[Knee Slice Pass]] (46% of attempts)
+### [[Knee Slice Pass]] (61% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Long Step Pass]] (6% of attempts)
 
-### [[Saddle Entry from Top]] (6% of attempts)
+### [[Saddle Entry from Top]] (4% of attempts)
 
-### [[Outside Ashi Entry]] (4% of attempts)
+### [[Outside Ashi Entry]] (2% of attempts)
 
-### [[Leg Weave Pass]] (8% of attempts)
+### [[Leg Weave Pass]] (6% of attempts)
 
-### [[Back Step]] (4% of attempts)
+### [[Back Step]] (2% of attempts)
 
-### [[Stack Pass]] (8% of attempts)
+### [[Stack Pass]] (6% of attempts)
 
-### [[Knee Pin from X-Guard]] (1% of attempts)
+### [[Knee Pin from X-Guard]] (0% of attempts)
+
+### [[Step Over from X-Guard]] (0% of attempts)
 
 ### [[Smash Pass from X-Guard]] (0% of attempts)
 
-### [[Standing Escape from X-Guard]] (0% of attempts)
-
-### [[Step Over from X-Guard]] (1% of attempts)
+### [[Standing Escape from X-Guard]] (1% of attempts)
 
 
 

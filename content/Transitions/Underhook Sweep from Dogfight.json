@@ -1,13 +1,417 @@
 {
   "name": "Underhook Sweep from Dogfight",
-  "description": "",
-  "tags": [],
+  "description": "Master the Underhook Sweep from Dogfight in BJJ. Use deep underhook control to topple opponents and achieve dominant top position. Step-by-step guide.",
+  "tags": [
+    "bjj",
+    "sweep",
+    "dogfight",
+    "half-guard",
+    "underhook",
+    "transition",
+    "technique",
+    "bottom-game"
+  ],
   "from_position": "Dogfight Position/Bottom",
   "outcomes": [
     {
-      "to": "Mount/Top",
-      "probability": 100,
+      "to": "Side Control/Top",
+      "probability": 35,
       "result": "success"
+    },
+    {
+      "to": "Mount/Top",
+      "probability": 20,
+      "result": "success"
+    },
+    {
+      "to": "Dogfight Position/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 55,
+  "overview": "The Underhook Sweep from Dogfight is a high-percentage reversal that converts the bottom player's underhook advantage into a complete positional reversal. From the dogfight position—an elevated half guard scramble where both players are on their knees—this technique exploits the mechanical advantage created by a deep underhook to off-balance the top player and drive them to the mat. The sweep targets the opponent's far-side base, using the underhook as a primary lever to rotate them over their trapped knee while simultaneously blocking their ability to post and recover balance.\n\nStrategically, this sweep functions as a core weapon in the dogfight arsenal alongside back takes and forward drives. Its effectiveness depends on timing the execution to coincide with moments when the opponent's weight shifts backward or laterally, creating a window where their base is compromised. The sweep rewards practitioners who understand the push-pull dynamics of the underhook battle—applying consistent forward pressure through the underhook forces the opponent to commit defensive resources to their whizzer side, and the sweep capitalizes on the resulting structural weaknesses in their far-side posting ability.\n\nAt higher levels, the Underhook Sweep chains seamlessly with other dogfight options. When the opponent defends this sweep by posting their far hand wide, the back take becomes available as they expose their far side. When they overcommit to whizzer defense anticipating this sweep, the forward drive sweep opens as their weight shifts rearward. This creates a three-way dilemma from dogfight where the underhook sweep serves as the primary threat that sets up secondary attacks, making it an essential technique for anyone developing a serious half guard bottom game.",
+  "conditions": [
+    "Deep underhook established reaching at minimum the opponent's far lat, ideally their far shoulder blade",
+    "Elevated kneeling posture maintained with hips off the mat in dogfight configuration",
+    "Opponent's weight is not fully loaded forward through the whizzer, allowing space for the drive",
+    "Free hand is available and not trapped, enabling far-side hip or knee control",
+    "Outside posting leg has mat contact and ability to generate forward driving force"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Inside Trip Underhook Sweep",
+      "description": "Combines the underhook drive with an inside trip on the opponent's near leg. As you drive forward, your inside leg (the one trapped in half guard) hooks behind the opponent's near ankle, removing their near-side base simultaneously. This creates a two-point base removal that makes the sweep nearly impossible to defend through posting alone.",
+      "when_to_use": "Use when the opponent has a wide base with both knees spread far apart, making a pure forward drive insufficient to topple them. The inside trip removes the near-side anchor while the underhook handles the far side."
+    },
+    {
+      "variant_name": "Far Ankle Pick Variation",
+      "description": "Instead of controlling the far hip, the free hand reaches down to grab the opponent's far ankle and lifts it while driving forward with the underhook. Elevating the ankle eliminates the opponent's far-side post completely, converting the sweep from a contested battle into a controlled takedown where gravity does most of the work.",
+      "when_to_use": "Use when the opponent posts their far leg relatively close to you and their ankle is within reaching distance. Particularly effective against opponents who keep a narrow base in dogfight."
+    },
+    {
+      "variant_name": "Lateral Roll Variation",
+      "description": "Rather than driving forward, the sweeper angles laterally and uses the underhook to roll the opponent sideways over their trapped knee. The free hand controls the near-side collar or head, and the roll generates rotational momentum that bypasses the opponent's forward-backward posting defenses entirely.",
+      "when_to_use": "Use when the opponent is defending the forward drive by posting strongly with their far hand. The lateral angle attacks a different plane of balance that their forward-facing post cannot defend effectively."
+    }
+  ],
+  "position_integration": "The Underhook Sweep from Dogfight sits at a critical junction in the half guard bottom system, serving as the primary positional reversal tool from the dogfight scramble position. It connects the defensive half guard bottom game to the offensive top control game, bridging the gap between guard retention and guard passing. Within the dogfight subsystem, this sweep forms one leg of a three-way offensive triangle alongside the back take and forward drive sweep. When the opponent defends one option, they expose themselves to another, creating an interconnected attacking network. The sweep's primary outcomes—side control or mount—are both high-value positions that immediately put the sweeper in an offensive posture with submission and passing opportunities. Mastery of this sweep is essential for completing the half guard cycle of establishing underhook, coming to dogfight, and converting to a dominant top position.",
+  "related_content": [
+    {
+      "name": "Dogfight Position",
+      "relationship": "Source position where this sweep initiates from elevated kneeling half guard"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary success outcome when the sweep drives fully over the opponent"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Most common success outcome when the sweep topples opponent laterally"
+    },
+    {
+      "name": "Dogfight Sweep",
+      "relationship": "Complementary sweep from same position using different mechanics and timing"
+    },
+    {
+      "name": "Forward Drive Sweep from Dogfight",
+      "relationship": "Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system"
+    },
+    {
+      "name": "Back Take",
+      "relationship": "Alternative attack from dogfight when opponent overdefends the sweep by posting wide"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Counter outcome when opponent successfully drives you back down from dogfight"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position system from which dogfight and this sweep originate"
+    },
+    {
+      "name": "Re-flatten from Dogfight",
+      "relationship": "Top player's counter technique that this sweep must overcome or avoid"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Fallback position when the sweep fails and opponent applies heavy forward pressure"
+    }
+  ],
+  "attacker": {
+    "name": "Underhook Sweep from Dogfight Attacker",
+    "description": "Execute the Underhook Sweep from Dogfight to reverse position in BJJ. Step-by-step guide to using deep underhook control for sweeping opponents from the dogfight position.",
+    "overview": "As the attacker executing the Underhook Sweep from Dogfight, you are the bottom player in a dogfight position who has established a deep underhook and is looking to convert that grip advantage into a complete positional reversal. Your primary task is to use the underhook as a lever to rotate the opponent over their trapped knee while simultaneously removing their far-side posting ability. The sweep requires coordinating three elements: forward pressure through the underhook, far-side base removal with your free hand, and explosive leg drive from your outside posting leg. Timing is critical—the sweep works best when the opponent's weight is neutral or shifting backward, not when they are driving forward with heavy whizzer pressure. Read the opponent's weight distribution through tactile feedback in the underhook and initiate the sweep during windows of compromised balance.",
+    "key_principles": [
+      "Depth of underhook determines sweep leverage—a shallow underhook to the near hip provides insufficient rotational force to complete the sweep",
+      "Remove far-side posting ability before initiating the primary drive; sweeping without controlling the far side allows easy defense through posting",
+      "Use leg power through your outside posting leg as the primary force generator, not upper body pulling through the underhook arm",
+      "Angle the driving force diagonally across the opponent's body rather than straight forward to attack their weakest balance plane",
+      "Commit fully once initiated—half-committed sweeps allow the opponent to recover base and potentially counter with flattening pressure",
+      "Head position drives body direction; keep your head pressed tight against the opponent's chest or shoulder, driving in the direction of the sweep"
+    ],
+    "setup_requirements": [
+      "Deep underhook established with your arm reaching around the opponent's torso to at minimum their far lat, ideally reaching the far shoulder blade for maximum leverage",
+      "Elevated kneeling posture in dogfight with hips off the mat and weight distributed through both knees and your outside posting leg",
+      "Free hand positioned to control the opponent's far hip, far knee, or far ankle to prevent posting during the sweep",
+      "Outside leg firmly planted on the mat with the ball of the foot engaged, ready to generate explosive forward and diagonal driving force",
+      "Opponent's whizzer pressure manageable and not fully collapsing your posture—if the whizzer is overwhelming, address it first before attempting the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify underhook depth and adjust",
+        "description": "Confirm your underhook arm has penetrated deep around the opponent's torso. Your hand should reach their far lat or shoulder blade. If shallow, re-pummel to deepen the grip before proceeding. A shallow underhook lacks the rotational leverage needed to complete the sweep against resistance."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish far-side control with free hand",
+        "description": "Reach your free hand across to control the opponent's far hip, far knee, or far ankle. The specific target depends on distance—grab whatever far-side anchor is available. This control point is critical as it prevents the opponent from posting their far leg or hand to stop the sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Load outside posting leg for drive",
+        "description": "Position your outside leg with the ball of the foot firmly planted on the mat, knee bent at approximately 90 degrees. This leg serves as your primary force generator. Shift your weight slightly backward to load the leg like a spring before the explosive drive phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive head into opponent's chest and angle body",
+        "description": "Press your head firmly into the opponent's chest or shoulder on the underhook side. Angle your body slightly toward the direction you intend to sweep—diagonally across the opponent's centerline rather than straight forward. This diagonal angle attacks a weaker balance plane."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute explosive forward-diagonal drive",
+        "description": "Simultaneously drive off your outside leg, pull with the underhook, and lift or block the far-side post. The force should travel diagonally through the opponent's body, rotating them over their trapped knee. Commit maximum explosive power—this is the decisive moment of the sweep."
+      },
+      {
+        "step_number": 6,
+        "action": "Maintain far-side control through the rotation",
+        "description": "As the opponent begins to tip, maintain your free hand's control on their far side throughout the rotation. Releasing the far-side grip prematurely allows them to post and recover even mid-sweep. Keep pulling or lifting their far-side anchor until they are past the tipping point."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through to top position",
+        "description": "Continue driving through the sweep until you land in a dominant top position. Do not stop at the tipping point or pause mid-sweep. Your momentum should carry you into side control or mount depending on how far the rotation travels. Keep your chest connected to the opponent throughout."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate top position immediately",
+        "description": "Upon landing in the top position, immediately establish crossface control or underhook and drive your weight through your hips into the opponent. Free your inside leg from the half guard entanglement if it remains trapped. Secure dominant grips before the opponent can re-guard or scramble away."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts far hand wide on the mat to create a tripod base against the sweep direction",
+        "effectiveness": "High",
+        "your_response": "Switch immediately to back take as the wide post exposes their far side—circle your underhook to seatbelt grip and drive toward their exposed back rather than continuing the sweep",
+        "targets_outcome": "Dogfight Position/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively with whizzer and crossface to flatten you before the sweep initiates",
+        "effectiveness": "High",
+        "your_response": "Redirect their forward momentum into a deep half guard entry by ducking under their pressure, or absorb the drive momentarily and explode into the sweep as their weight shifts forward past their base",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent hip switches away from the underhook and circles their hips to neutralize the leverage angle",
+        "effectiveness": "Medium",
+        "your_response": "Follow the hip switch with your underhook, maintaining chest-to-chest contact, and re-angle your sweep direction to match their new hip orientation—their movement creates a new off-balance angle to exploit",
+        "targets_outcome": "Dogfight Position/Bottom"
+      },
+      {
+        "counter": "Opponent sits back heavily, dropping their weight low to create a wide stable base resistant to forward drives",
+        "effectiveness": "Low",
+        "your_response": "Their backward weight shift opens the forward drive sweep—use the space created by their retreat to drive straight forward through their weakened base, or transition to the inside trip variation targeting their now-lightened near leg",
+        "targets_outcome": "Dogfight Position/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Shallow underhook that only reaches the opponent's near hip or ribcage",
+        "consequence": "Insufficient rotational leverage to complete the sweep, allowing the opponent to easily resist the drive and potentially strip the underhook entirely, leading to loss of offensive position",
+        "correction": "Re-pummel before attempting the sweep to ensure your underhook hand reaches at minimum the opponent's far lat—use your outside hand to swim your underhook arm deeper before committing to the sweep"
+      },
+      {
+        "error": "Initiating the drive without establishing far-side control on the opponent's hip, knee, or ankle",
+        "consequence": "Opponent simply posts their far hand or foot to stop the sweep with minimal effort, wasting your energy on a telegraphed attack that had no chance of success",
+        "correction": "Always secure far-side control with your free hand before initiating the explosive drive—treat this as a non-negotiable prerequisite, not an optional step"
+      },
+      {
+        "error": "Driving straight forward instead of at a diagonal angle across the opponent's centerline",
+        "consequence": "The opponent can resist the sweep by simply bracing forward against your linear force, turning it into a strength contest rather than a leverage-based technique",
+        "correction": "Angle your drive diagonally—aim to send the opponent over their trapped knee rather than straight backward, attacking the weakest point in their triangular base"
+      },
+      {
+        "error": "Using primarily upper body pulling strength through the underhook arm instead of explosive leg drive",
+        "consequence": "Rapid arm fatigue, insufficient force generation to topple a heavier or stronger opponent, and telegraphing the sweep through visible upper body strain",
+        "correction": "Generate the primary sweeping force through your outside posting leg—explode off the ball of your foot and drive your hips forward while the underhook arm maintains direction and connection"
+      },
+      {
+        "error": "Stopping midway through the sweep once the opponent begins to tip instead of committing fully",
+        "consequence": "The opponent recovers balance at the tipping point and immediately counters by driving you back to flat half guard, often with improved grips from the scramble",
+        "correction": "Commit fully to the sweep once you have passed the initiation phase—continue driving until you have landed in a clear top position with chest-to-chest pressure"
+      },
+      {
+        "error": "Allowing head to drop below the opponent's shoulder level during the sweep attempt",
+        "consequence": "Loss of driving angle and structural integrity, allowing the opponent to guillotine or snap down on your exposed head position",
+        "correction": "Keep your head pressed firmly into the opponent's chest or shoulder throughout the sweep—your head should drive in the direction of the sweep, never dropping below their shoulder line"
+      },
+      {
+        "error": "Failing to free the inside leg from half guard after completing the sweep to top position",
+        "consequence": "Opponent immediately recovers half guard from bottom, negating the positional advantage gained from the sweep and forcing you to pass their guard",
+        "correction": "Immediately work to extract your trapped leg upon landing in top position—use a knee slide, hip switch, or leg extraction technique to clear the half guard before opponent consolidates bottom grips"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Underhook depth, driving angle, and far-side control coordination",
+        "description": "Practice the sweep against a compliant partner at 0% resistance. Focus on establishing deep underhook, securing far-side control, and executing the diagonal drive with proper head position. Repeat 20 reps per side emphasizing form over speed. Partner provides feedback on underhook depth and driving angle."
+      },
+      {
+        "phase": "Phase 2: Progressive Resistance",
+        "focus": "Timing the drive against opponent posting and whizzer defense",
+        "description": "Partner provides 30-50% resistance, posting their far hand and applying light whizzer pressure. Practice recognizing the timing window when posting is weak or weight shifts. Develop sensitivity to when the sweep is available versus when to wait or chain to another technique."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Combining underhook sweep with back take and forward drive options",
+        "description": "Partner defends the underhook sweep with realistic resistance. When they post wide to defend, switch to back take. When they overcommit whizzer, switch to forward drive. Practice reading which defense they choose and flowing seamlessly to the correct follow-up attack without resetting."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Live application from dogfight with full resistance and scoring",
+        "description": "Start every round in dogfight position and spar live with the objective of completing the underhook sweep or any chain attack. Track success rates across rounds to identify defensive patterns you struggle against. Vary training partners to experience different body types and defensive styles."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Entering dogfight from flat half guard and completing the full sequence under pressure",
+        "description": "Begin from flat half guard bottom and work the complete chain: establish underhook, come to dogfight, execute underhook sweep. Partner starts from top half guard with full resistance. This replicates competition conditions where you must earn the dogfight position before attacking."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the minimum depth required for the underhook before attempting the sweep, and why does a shallow underhook fail?",
+        "answer": "The underhook must reach at minimum the opponent's far lat, ideally their far shoulder blade. A shallow underhook that only contacts the near hip or ribcage lacks sufficient lever length to generate the rotational force needed to topple the opponent over their trapped knee. The deeper the underhook penetrates, the greater the mechanical advantage and the harder it is for the opponent to strip the grip through whizzer pressure."
+      },
+      {
+        "question": "Why must you control the opponent's far-side hip, knee, or ankle before initiating the drive?",
+        "answer": "Far-side control removes the opponent's primary defense against the sweep—posting their far hand or leg to create a tripod base. Without this control, even a powerful drive is easily stopped by a simple far-side post. Controlling the far side collapses their base from a stable triangle to an unstable line, making the diagonal drive effective with significantly less force required."
+      },
+      {
+        "question": "Your opponent defends the underhook sweep by posting their far hand wide on the mat. How do you respond?",
+        "answer": "The wide far-hand post exposes their far side and creates an immediate back take opportunity. Rather than forcing the sweep against their reinforced base, circle your underhook toward a seatbelt grip, drive your chest into their exposed back, and begin establishing back control. The wide post that defends the sweep simultaneously removes their primary defense against the back take, creating a built-in offensive chain."
+      },
+      {
+        "question": "What is the optimal direction of force for the sweep and why is a straight-forward drive less effective?",
+        "answer": "The optimal force direction is diagonal—across the opponent's centerline and over their trapped knee. A straight-forward drive attacks the opponent's strongest balance axis, where they can brace against linear force using their entire body structure. The diagonal drive attacks the weakest point in their base, rotating them over the trapped knee where they have no posting ability, converting the contest from a strength match into a leverage-based technique."
+      },
+      {
+        "question": "Where should your primary force generation come from during the explosive drive phase?",
+        "answer": "The primary force should come from your outside posting leg, driving off the ball of your foot with an explosive hip drive forward. The underhook arm provides direction and connection but not the primary force. Generating power through leg drive produces significantly more force than arm pulling, fatigues more slowly, and does not telegraph the sweep through visible upper-body strain that alerts the opponent."
+      },
+      {
+        "question": "Your opponent drives forward with heavy whizzer and crossface pressure as you attempt to set up the sweep. What adjustment do you make?",
+        "answer": "Rather than fighting their forward pressure head-on, redirect it by either entering deep half guard underneath their momentum or by absorbing the drive momentarily and timing a counter-sweep as their weight shifts past their base. If the whizzer pressure is manageable, use their forward commitment against them by loading your drive in the opposite direction of their force, catching them off-balance as their center of gravity moves too far forward."
+      },
+      {
+        "question": "What happens if you stop the sweep at the tipping point instead of committing fully through the rotation?",
+        "answer": "Stopping at the tipping point allows the opponent to recover their base by posting or adjusting their weight distribution, negating all the setup work. Worse, the pause gives them an opportunity to counter-drive and flatten you to half guard bottom with improved grips from the scramble. Once the sweep passes the initiation phase, full commitment is essential—drive through until you land in a clear top position with chest-to-chest pressure established."
+      },
+      {
+        "question": "How does the underhook sweep integrate with other dogfight attacks to create a three-way offensive dilemma?",
+        "answer": "The underhook sweep, back take, and forward drive sweep form a triangle of attacks from dogfight. Defending the underhook sweep by posting far creates a back take opening. Defending the back take by keeping hips low and whizzer tight opens the forward drive. Defending the forward drive by posting backward opens the underhook sweep. Each defense to one attack creates vulnerability to another, making it impossible for the opponent to defend all three simultaneously and ensuring the bottom player always has an available offensive option."
+      }
+    ],
+    "safety_considerations": "The Underhook Sweep involves explosive forward driving pressure channeled through the underhook grip. Avoid excessive rotational force on the opponent's trapped knee during the sweep. Control the descent when the opponent falls to prevent impact injuries to their head, shoulder, or elbow. During training, communicate with your partner about the intensity of the drive. Be mindful of knee stress on the inside leg that remains trapped in the half guard configuration during rotation. When drilling, start at low intensity and increase gradually."
+  },
+  "defender": {
+    "name": "Underhook Sweep from Dogfight Defender",
+    "description": "Defend against the Underhook Sweep from Dogfight in BJJ. Learn to recognize sweep cues, maintain base through posting, and counter to regain top control.",
+    "overview": "As the defender against the Underhook Sweep from Dogfight, you are the top player in a dogfight position where your opponent has established a deep underhook and is threatening to drive you over for a positional reversal. Your primary objectives are to maintain your base through active posting, deny the sweeper's far-side control, and ideally counter-attack to flatten them back to half guard or advance your own passing position. Defense requires recognizing the sweep setup early through tactile cues in the underhook pressure and the opponent's free hand movement, then deploying the appropriate counter before the explosive drive phase begins. Reactive defense after the drive initiates is significantly less effective than proactive base maintenance and grip denial.",
+    "key_principles": [
+      "Maintain a wide, active base with your far leg posted well outside the sweep direction to create a stable triangular foundation",
+      "Keep your whizzer active and pulling downward to limit the opponent's underhook depth and rotational leverage",
+      "Deny far-side control by keeping your far hip or knee away from the sweeper's free hand through distance or grip fighting",
+      "Drive crossface pressure with your near-side shoulder to collapse the sweeper's posture and prevent them from generating the angular drive",
+      "Post immediately and decisively when you feel forward pressure through the underhook—delayed posting allows the sweeper to pass the tipping point"
+    ],
+    "recognition_cues": [
+      "Opponent's underhook deepens noticeably, reaching past your ribs toward your far lat or shoulder blade with increased grip intensity",
+      "Opponent's free hand reaches across to grab your far hip, far knee, or far ankle—this is the clearest pre-sweep indicator",
+      "Forward pressure through the underhook increases suddenly with a diagonal angle rather than the steady forward pressure of position maintenance",
+      "Opponent's outside posting leg shifts position to load weight, often with the ball of the foot pressing firmly into the mat in preparation for explosive drive"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post far hand wide on the mat and widen base with far knee to create a stable tripod against the sweep direction",
+        "when_to_use": "As soon as you feel the opponent's free hand reaching for your far side or an increase in diagonal pressure through the underhook",
+        "targets_outcome": "Dogfight Position/Bottom",
+        "if_successful": "The sweep attempt stalls as your tripod base absorbs the diagonal drive, returning to neutral dogfight where you can work to flatten or pass",
+        "risk": "Wide posting exposes your back to a back take if the opponent reads your post and switches attacks"
+      },
+      {
+        "action": "Drive forward aggressively with whizzer and crossface to flatten the opponent before the sweep develops",
+        "when_to_use": "When you recognize sweep setup cues early—before the opponent has secured far-side control or loaded their outside leg for the drive",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "You flatten the opponent back to half guard bottom, eliminating the dogfight position entirely and returning to a passing scenario",
+        "risk": "Overcommitting forward can be redirected into a forward drive sweep or deep half entry if the opponent reads your pressure"
+      },
+      {
+        "action": "Hip switch away from the underhook side while maintaining whizzer control to neutralize the sweeping angle",
+        "when_to_use": "When the opponent has already loaded their drive and direct posting would be too late to establish a stable base",
+        "targets_outcome": "Dogfight Position/Bottom",
+        "if_successful": "Your hip switch changes the angle of engagement, neutralizing the opponent's diagonal drive and creating a new neutral dogfight orientation",
+        "risk": "The hip switch creates space that the opponent may use to deepen their underhook further or circle to your back"
+      },
+      {
+        "action": "Strip the opponent's free hand from your far-side control point before they can secure it",
+        "when_to_use": "At the earliest recognition cue—when you see or feel the opponent's free hand reaching for your far hip, knee, or ankle",
+        "targets_outcome": "Dogfight Position/Bottom",
+        "if_successful": "Without far-side control, the opponent's sweep lacks the base-removal component and becomes a pure forward drive that is much easier to defend through basic posting",
+        "risk": "Reaching to strip the grip may momentarily weaken your whizzer or crossface control, creating a brief window for the sweep"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Recognize the sweep setup early and immediately drive forward with heavy whizzer and crossface pressure before the opponent can secure far-side control. Use your body weight and forward angle to collapse their upright posture and drive them flat to the mat, re-establishing top half guard where you can work guard passes."
+      },
+      {
+        "outcome": "Dogfight Position/Bottom",
+        "how": "Maintain active posting with your far hand and wide base with your far knee throughout the exchange. Deny the opponent's free hand access to your far-side control points through grip fighting and distance management. Keep your whizzer active and pulling downward to limit underhook depth. The opponent remains in dogfight bottom without completing the sweep, giving you continued opportunities to pass or flatten."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Keeping a narrow base with both knees close together during the dogfight exchange",
+        "consequence": "A narrow base provides minimal resistance to the diagonal sweep force, allowing the opponent to topple you with relatively little effort even without perfect far-side control",
+        "correction": "Maintain a wide base by posting your far knee well outside your shoulder width, creating a stable triangle that requires significantly more force to overcome"
+      },
+      {
+        "error": "Relaxing the whizzer grip when the sweep threat appears to subside",
+        "consequence": "The opponent immediately deepens their underhook to shoulder-blade depth, gaining the mechanical advantage needed for a high-percentage sweep attempt",
+        "correction": "Keep constant downward pressure through your whizzer throughout the entire dogfight exchange—the whizzer is your primary tool for limiting underhook depth and sweep leverage"
+      },
+      {
+        "error": "Failing to address the opponent's free hand reaching for far-side control",
+        "consequence": "Once the opponent secures your far hip or knee, they have met all prerequisites for the sweep and can execute with high probability of success regardless of your base width",
+        "correction": "Prioritize stripping or preventing far-side control as your most urgent defensive action—this single grip is the difference between a high-percentage and low-percentage sweep"
+      },
+      {
+        "error": "Posting reactively after the explosive drive has already begun instead of proactively maintaining base",
+        "consequence": "Reactive posting during the drive phase arrives too late—your weight is already past the tipping point and the post cannot generate sufficient counterforce to stop the sweep",
+        "correction": "Maintain proactive posting throughout the exchange rather than waiting for the drive to begin. Your far hand should already be near posting position whenever you sense dogfight underhook pressure building"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest and most reliable recognition cue that the Underhook Sweep is being set up?",
+        "answer": "The earliest and most reliable cue is the opponent's free hand reaching across to control your far hip, far knee, or far ankle. While increased underhook pressure can indicate a sweep, it could also indicate a back take or general position fight. The free hand reaching for far-side control is the clearest specific indicator of the underhook sweep, as no other dogfight attack requires this particular grip setup."
+      },
+      {
+        "question": "Why is proactive base maintenance more effective than reactive posting against this sweep?",
+        "answer": "The underhook sweep relies on an explosive drive that generates momentum rapidly. Once the drive initiates and your weight begins shifting past the tipping point, reactive posting arrives too late to generate sufficient counterforce. Proactive base maintenance means your far-side post is already established before the drive begins, distributing your weight across a stable triangle that can absorb the force without requiring a rapid positional adjustment under pressure."
+      },
+      {
+        "question": "Your opponent has established deep underhook and just grabbed your far knee with their free hand. What is your immediate priority?",
+        "answer": "Your immediate priority is stripping their free hand from your far knee before they can initiate the drive. Once they have both the deep underhook and far-side control, all sweep prerequisites are met and the probability of a successful sweep increases dramatically. Use your near-side hand to peel their grip while simultaneously widening your base and driving your whizzer downward. If you cannot strip the grip in time, immediately drive forward with maximum crossface pressure to flatten them before they can execute the explosive drive phase."
+      },
+      {
+        "question": "How do you balance defending the underhook sweep without exposing yourself to the back take?",
+        "answer": "The key is using your whizzer and crossface as your primary defense rather than relying solely on far-side posting. A wide far-side post defends the sweep effectively but exposes your back. Instead, keep your whizzer active and pulling downward to limit underhook depth, drive crossface pressure to collapse posture, and maintain your far-side post at moderate width rather than maximum extension. This balanced defensive posture addresses both the sweep and back take threats simultaneously without overcommitting to either."
+      },
+      {
+        "question": "What is the best counter-attack available when you successfully defend the Underhook Sweep?",
+        "answer": "The best counter-attack is to immediately drive forward with whizzer and crossface pressure to flatten the opponent back to half guard bottom. After a failed sweep attempt, the sweeper's weight is typically shifted forward and off-balance from the drive, creating a window where forward pressure can collapse their posture before they can reset to neutral dogfight. This counter converts a defensive success into an offensive opportunity by taking advantage of the opponent's post-sweep vulnerability."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Cue Recognition",
+        "focus": "Identifying sweep setup through tactile and visual feedback",
+        "description": "Partner sets up the underhook sweep at slow speed while you practice identifying each recognition cue: underhook deepening, free hand reaching for far side, outside leg loading, and pressure angle changing. Call out each cue as you feel it to build automatic recognition patterns."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Pressure",
+        "focus": "Maintaining stable posting and wide base against progressive sweep attempts",
+        "description": "Partner attempts the underhook sweep at 30-50% intensity while you focus exclusively on proactive base maintenance. Practice keeping your far-side post active, whizzer pulling downward, and base wide throughout sustained pressure. Increase resistance gradually across rounds."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Transitioning from sweep defense to flattening or passing counter-attacks",
+        "description": "After successfully defending the sweep, immediately counter with forward drive to flatten the opponent. Practice the defensive-to-offensive transition timing, recognizing the window after a failed sweep when the opponent is vulnerable to being driven backward to half guard bottom."
+      },
+      {
+        "phase": "Phase 4: Live Dogfight Defense",
+        "focus": "Defending all dogfight attacks including sweep, back take, and forward drive",
+        "description": "Full-resistance positional sparring from dogfight with you defending from top. The opponent attempts underhook sweep, back take, and forward drive sweep in random order while you practice reading which attack is coming and deploying the correct defensive response for each."
+      }
+    ]
+  }
 }

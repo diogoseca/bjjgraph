@@ -2,7 +2,7 @@
   "name": "Half Butterfly",
   "slug": "half-butterfly",
   "description": "Master Half Butterfly guard in BJJ. Hybrid position combining butterfly hooks with half guard control. Learn sweeps, transitions, and retention strategies with expert analysis.",
-  "variant_uniqueness": "Butterfly hook adds elevation to half guard",
+  "variant_uniqueness": "Hook trades leg retention for sweep elevation",
   "overview": "Half Butterfly is a dynamic hybrid guard position that combines elements of traditional butterfly guard with half guard retention mechanics. The bottom practitioner uses one butterfly hook on the opponent's inner thigh while maintaining half guard control on the opposite leg, creating a powerful platform for sweeps and transitions. This position offers superior mobility compared to traditional half guard while providing more structural control than standard butterfly guard.\n\nThe asymmetric nature of Half Butterfly creates natural leverage advantages for sweeps and allows seamless transitions to deep half guard, x-guard, or traditional butterfly guard. Originally popularized by wrestlers transitioning to BJJ, this position has become fundamental to modern no-gi grappling and is particularly effective against pressure passers who attempt to flatten the bottom player.\n\nFrom the top perspective, Half Butterfly Top represents a critical transitional moment in the guard passing sequence where the passer has achieved partial success but not complete control. The top player must neutralize the remaining butterfly hook's lifting mechanism through precise weight distribution and pressure angles while simultaneously advancing the pass. This position requires careful weight distribution to prevent the butterfly hook from generating lifting power while maintaining forward pressure to complete the pass. Understanding both perspectives is essential for modern competitive grappling, as this position frequently appears in high-level matches and represents a key battleground between guard player and passer.",
   "key_principles": [
     "Maintain constant upward pressure through butterfly hook to prevent opponent from establishing heavy top pressure",
@@ -269,27 +269,27 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 39
+        "attempt_probability": 35
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 16
+        "attempt_probability": 18
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 8
+        "attempt_probability": 10
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": 8
       },
       {
-        "transition": "Transition to Flattened Half Guard",
-        "attempt_probability": 12
+        "transition": "Half Guard to Flattened Half Guard",
+        "attempt_probability": 10
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 4
+        "attempt_probability": 5
       },
       {
         "transition": "Leg Weave Pass",
@@ -301,7 +301,7 @@
       },
       {
         "transition": "Smash Half Butterfly",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -322,8 +322,8 @@
         "answer": "Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them attempting to turn away and shoot their outside arm under your hips, immediately sprawl your hips back and drive weight forward to flatten them. Maintaining constant chest pressure prevents them from creating the angle needed to enter deep half."
       },
       {
-        "question": "What grip priorities should guide your passing sequence from half butterfly top?",
-        "answer": "Prioritize crossface control first to control their head and prevent them from turning into you. Second priority is controlling their near arm to eliminate frames. Third is far hip or leg control to prevent guard recovery. Only after establishing these control points should you begin actively working passing mechanics. Rushing to pass without these controls results in being swept or stalled."
+        "question": "What base errors most commonly lead to being swept from half butterfly top?",
+        "answer": "The three most common base errors are: keeping knees too close together which creates a narrow platform easily tipped by hook elevation, allowing hips to rise above shoulder level which shifts your center of gravity above the hook's fulcrum point, and posting weight on your hands instead of distributing through your chest and hips. Each error gives the hook maximum mechanical advantage for sweeps."
       },
       {
         "question": "The bottom player gets an underhook and starts coming up - what technique chain prevents the sweep?",
@@ -438,7 +438,7 @@
             "probability": 45
           },
           {
-            "technique": "Rolling Back Take",
+            "technique": "Rolling Back Take from Half Butterfly",
             "target": "Back Control",
             "probability": 40
           }
@@ -548,55 +548,51 @@
     "transitions": [
       {
         "transition": "Basic Butterfly Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 15
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 59
+        "attempt_probability": 22
       },
       {
         "transition": "Hook Sweep",
-        "attempt_probability": 6
+        "attempt_probability": 10
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 8
+        "attempt_probability": 12
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 8
+        "attempt_probability": 12
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 4
+        "attempt_probability": 6
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Kimura from Half Guard",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Transition to Half Butterfly",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Half Butterfly Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Half Butterfly to Dogfight",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Reguard from Half Butterfly",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Rolling Back Take from Half Butterfly",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

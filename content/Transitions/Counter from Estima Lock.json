@@ -1,42 +1,394 @@
 {
   "name": "Counter from Estima Lock",
-  "description": "Master the Counter from Estima Lock in BJJ. Learn defensive techniques to relieve foot lock pressure and recover to open guard.",
-  "tags": ["bjj", "transition", "escape", "estima-lock", "foot-lock-defense", "counter"],
+  "description": "Master the Counter from Estima Lock in BJJ. Complete guide to counter-rotation mechanics, systematic grip breaking, and guard recovery from inverted footlock.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "estima-lock",
+    "foot-lock-defense",
+    "counter",
+    "leg-entanglement-defense"
+  ],
   "from_position": "Estima Lock/Bottom",
   "outcomes": [
-    {"to": "Open Guard/Bottom", "probability": 40, "result": "success"},
-    {"to": "Estima Lock/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Estima Lock/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Counter from Estima Lock is a critical defensive transition performed when caught in the bottom position of an Estima Lock, one of the most dangerous inverted footlock threats in modern grappling. The Estima Lock attacks the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration, creating defensive challenges distinct from conventional straight ankle locks. This counter addresses those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process.\n\nSuccess in this counter depends on understanding the biomechanical principles underlying the Estima Lock's effectiveness and exploiting its structural vulnerabilities. The inverted grip creates powerful rotational torque but requires precise hand positioning that becomes vulnerable when disrupted through proper framing and hip movement. Counter-rotating the ankle immediately reduces joint strain and buys time for the remaining escape sequence, while active use of the free leg creates the pushing force necessary to generate space between the escaping practitioner and their opponent's controlling structure.\n\nThis transition connects the Estima Lock defensive position to open guard recovery and represents an essential skill within comprehensive leg lock defense systems. The escape integrates counter-rotation principles found in other footlock defenses with grip-breaking mechanics specific to the Estima Lock's figure-four configuration. Practitioners who develop proficiency in this counter can engage more confidently in leg entanglement exchanges, knowing they possess reliable defensive options when opponents secure the characteristic inverted footlock grip.",
+  "conditions": [
+    "Opponent has secured Estima Lock grip with inverted foot orientation on your foot",
+    "Your ankle and foot are controlled but not yet at tap-worthy pressure levels",
+    "Your free leg remains mobile and available for defensive use",
+    "You have sufficient upper body mobility to establish frames on opponent's body"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Base Counter",
+      "description": "Instead of working the escape from your back, use frames and free leg to achieve a seated position, then technical standup to break the opponent's grip through superior leverage. Standing creates significant advantage because gravity assists your weight pulling away from the lock while the opponent must support your entire leg weight against your upward drive.",
+      "when_to_use": "When you have established strong frames and the opponent's grip is not fully consolidated, allowing you to achieve upright posture without excessive ankle strain"
+    },
+    {
+      "variant_name": "Rolling Counter",
+      "description": "Execute a controlled roll in the direction of the lock's rotation rather than fighting against it, removing the torque on the ankle while creating a scramble position. The roll must be precise because rolling the wrong direction dramatically increases pressure. Follow the roll by immediately establishing top position or extracting the foot during the transitional chaos.",
+      "when_to_use": "When the opponent has deep grip control but is over-committed to rotational pressure, making a controlled roll safer than fighting the grip directly"
+    },
+    {
+      "variant_name": "Grip Strip to Butterfly Recovery",
+      "description": "Prioritize aggressive two-handed grip breaking using wedge movements to separate the opponent's figure-four configuration, then immediately insert butterfly hooks rather than recovering to standard open guard. The butterfly hooks provide an immediate sweep threat that prevents the opponent from re-engaging with leg attacks and shifts momentum to offense.",
+      "when_to_use": "When you have successfully disrupted the opponent's hip-to-calf contact and need an offensive guard recovery rather than simply disengaging to neutral"
+    }
+  ],
+  "position_integration": "The Counter from Estima Lock connects the defensive Estima Lock bottom position to open guard recovery within the broader leg lock defense framework. This technique serves as a critical survival link when leg entanglement exchanges result in compromised foot position under inverted footlock control. Proficiency in this counter enables practitioners to engage more confidently in modern leg lock systems, providing a reliable escape pathway that integrates counter-rotation principles with systematic grip disruption and guard recovery mechanics specific to the Estima Lock's unique inverted configuration.",
+  "related_content": [
+    {
+      "name": "Estima Lock",
+      "relationship": "Source position where this counter is initiated from the bottom"
+    },
+    {
+      "name": "Estima Lock Finish",
+      "relationship": "The submission threat being escaped through this counter technique"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary recovery target position upon successful counter execution"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position reached if opponent transitions to guard pass during failed counter"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related leg entanglement escape sharing counter-rotation and extraction principles"
+    },
+    {
+      "name": "Counter Rotation from Toe Hold",
+      "relationship": "Similar counter-rotation escape mechanics applied to a different footlock threat"
+    },
+    {
+      "name": "Ankle Lock Escape to Standing",
+      "relationship": "Related footlock escape using standing base to generate extraction leverage"
+    },
+    {
+      "name": "Boot Defense from Toe Hold",
+      "relationship": "Complementary foot defense technique with overlapping ankle protection principles"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Common preceding position where Estima Lock threats frequently develop"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Broader positional category encompassing the Estima Lock position"
+    }
+  ],
   "attacker": {
     "name": "Counter from Estima Lock Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Estima Lock/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Master the attacker perspective for countering the Estima Lock in BJJ. Step-by-step guide to counter-rotation, grip breaking, framing, and guard recovery from inverted footlock.",
+    "overview": "Executing the Counter from Estima Lock requires a systematic approach to escaping one of the most dangerous inverted footlock positions in grappling. As the person caught in the Estima Lock bottom position, your priority sequence begins with immediate ankle protection through counter-rotation, progresses through strategic framing and grip disruption, and concludes with controlled foot extraction and guard recovery. The technique demands calm execution under significant submission pressure, where panic or explosive movements can worsen joint strain and lead to injury. Understanding the specific mechanical vulnerabilities of the Estima Lock's figure-four grip configuration is essential for efficient escape, and the entire sequence must be executed with awareness that the opponent will actively adjust to maintain control throughout your escape attempt.",
+    "key_principles": [
+      "Counter-rotate the ankle immediately upon recognizing the Estima Lock grip to reduce strain on the joint and Achilles tendon before attempting extraction",
+      "Establish frames on opponent's hips and torso before attempting grip breaks to prevent them from consolidating pressure and following your movement",
+      "Keep the free leg constantly active as your primary escape lever through pushing, hooking, and posting against the opponent's body",
+      "Address the rotational component of the lock through counter-rotation before attempting linear foot extraction to prevent worsening joint strain",
+      "Work systematically from ankle protection to grip disruption to space creation to foot extraction rather than attempting shortcuts",
+      "Maintain controlled breathing and measured movements throughout the escape to prevent self-injury and preserve energy for the full sequence"
+    ],
+    "setup_requirements": [
+      "Recognition that opponent has established Estima Lock grip with inverted foot orientation on your foot",
+      "Free leg available and mobile for defensive framing, pushing, and hooking against opponent's body",
+      "Upper body mobility sufficient to create frames on opponent's hips or torso using forearms",
+      "Sufficient awareness of the inverted grip configuration and its pressure vectors to begin counter-rotation before pressure deepens"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize and Counter-Rotate",
+        "description": "Immediately identify the Estima Lock grip configuration where your foot is inverted with heel higher than toes. Counter-rotate your ankle by turning your toes outward and driving your heel downward, reducing the rotational pressure on the ankle joint and Achilles tendon. This buys critical time before the lock deepens and must happen before any other escape action."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Hip Frames",
+        "description": "Place both hands on the opponent's hips or torso, creating structural frames that prevent them from driving forward and consolidating pressure. Use forearms rather than extended arms to maintain strength and prevent your arms from being isolated for submissions. The frames must create a rigid structure between your body and theirs."
+      },
+      {
+        "step_number": 3,
+        "action": "Activate Free Leg",
+        "description": "Position your free foot on the opponent's hip, inner thigh, or behind their knee and push firmly to create distance between your hips and their body. This reduces the mechanical advantage of their lock by disrupting the hip-to-calf contact that serves as the fulcrum for the submission. The free leg is your strongest escape tool and must remain active throughout."
+      },
+      {
+        "step_number": 4,
+        "action": "Disrupt Grip Configuration",
+        "description": "With frames established and free leg creating pressure, address the opponent's figure-four grip. Use your hands to wedge between their grip and your foot, breaking the weakest link in their configuration, typically where the supporting hand meets the primary grip hand. Work the grip break systematically rather than attempting to rip your foot free."
+      },
+      {
+        "step_number": 5,
+        "action": "Create Space Through Hip Movement",
+        "description": "Execute a controlled hip escape away from the opponent while maintaining your frames and free leg pressure. Shrimp diagonally rather than straight backward, as diagonal movement makes it harder for the opponent to follow your hips. The combination of pushing with your free leg and hip escaping creates the space necessary for foot extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract Trapped Foot",
+        "description": "With the grip disrupted and space created, pull your trapped foot through the opening by retracting your knee toward your chest. Maintain counter-rotation throughout the extraction to prevent the opponent from re-catching the foot in the inverted position. The extraction must be decisive once the window opens, as hesitation allows grip re-establishment."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover to Open Guard",
+        "description": "Immediately establish open guard structure by placing both feet on the opponent's hips or knees and creating distance with active leg frames. Secure at least one grip on their sleeve, collar, or wrist to prevent them from immediately closing distance and re-establishing leg entanglement. Active guard recovery prevents the opponent from capitalizing on the transitional moment."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent re-tightens grip and increases rotational pressure when sensing counter-rotation",
+        "effectiveness": "High",
+        "your_response": "Maintain counter-rotation and re-establish frames rather than fighting the grip directly; if pressure becomes dangerous, tap immediately and reset",
+        "targets_outcome": "Estima Lock/Bottom"
+      },
+      {
+        "counter": "Opponent follows hip escape movement to maintain hip-to-calf contact",
+        "effectiveness": "Medium",
+        "your_response": "Change direction of hip escape or use free leg to create a hook that prevents them from following; angle changes disrupt their tracking ability",
+        "targets_outcome": "Estima Lock/Bottom"
+      },
+      {
+        "counter": "Opponent releases grip and transitions to guard pass when sensing imminent escape",
+        "effectiveness": "High",
+        "your_response": "Immediately recover guard frames with both legs as soon as grip pressure releases; the transition moment is your window to establish active open guard",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent switches to toe hold grip when your counter-rotation exposes toes",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the grip change and apply boot defense by pointing toes and flexing ankle; address the new submission threat before continuing escape sequence",
+        "targets_outcome": "Estima Lock/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Straightening the trapped leg and pushing directly into the lock",
+        "consequence": "Dramatically increases pressure on ankle joint by creating a direct line of force transmission, accelerating submission and risking injury before tap can be recognized",
+        "correction": "Keep slight bend in knee and use circular hip movements to reduce linear pressure on the ankle while working escape angles through counter-rotation"
+      },
+      {
+        "error": "Grabbing opponent's hands or wrists without first establishing body frames",
+        "consequence": "Wastes energy on ineffective grip fighting while opponent maintains superior structural position and can simply re-grip while keeping the same mechanical advantage",
+        "correction": "Prioritize creating frames on opponent's hips or torso to generate space first, then address grips systematically while maintaining your defensive structure"
+      },
+      {
+        "error": "Leaving the free leg passive and flat on the mat during escape attempts",
+        "consequence": "Surrenders the most powerful escape lever available, allowing opponent to control both legs and maintain lock without resistance from your strongest limb",
+        "correction": "Actively position free foot on opponent's hip, inner thigh, or behind their knee and push firmly to create distance and disrupt their positional control"
+      },
+      {
+        "error": "Attempting explosive rolling or spinning movements without proper frame setup",
+        "consequence": "Increases torque on trapped ankle dangerously and can cause self-inflicted injury; opponent typically follows the movement while maintaining the lock",
+        "correction": "Execute controlled technical movements with frames established first, using incremental position improvements rather than explosive gambling that often worsens the situation"
+      },
+      {
+        "error": "Neglecting upper body positioning and allowing shoulders to flatten to the mat",
+        "consequence": "Eliminates hip mobility required for all escape sequences, making foot extraction significantly harder and removing the ability to generate directional movement",
+        "correction": "Post with far hand and turn shoulders toward trapped leg side; maintain active posture that preserves hip mobility throughout the escape attempt"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Counter-Rotation Mechanics",
+        "focus": "Isolated ankle counter-rotation under controlled pressure",
+        "description": "Partner establishes Estima Lock at 20-30% pressure while you practice counter-rotating the ankle to reduce joint strain. Focus exclusively on the mechanical action of turning toes outward and driving heel downward. Build muscle memory for the counter-rotation response before integrating other escape components."
+      },
+      {
+        "phase": "Phase 2: Frame and Free Leg Integration",
+        "focus": "Combining framing with free leg activation",
+        "description": "Partner maintains Estima Lock at 40% pressure. Practice establishing hip frames while simultaneously activating the free leg to push against opponent's body. Focus on coordinating upper and lower body defensive structures. Progress from static framing to dynamic frame adjustment as partner applies varying pressure."
+      },
+      {
+        "phase": "Phase 3: Full Escape Sequence",
+        "focus": "Complete counter from recognition to guard recovery",
+        "description": "Execute the full seven-step escape sequence against progressive resistance. Start at 50% and gradually increase to 80%. Partner provides realistic defensive adjustments but allows successful escapes when proper technique is applied. Reset after each successful escape or failed attempt for immediate repetition."
+      },
+      {
+        "phase": "Phase 4: Chain Defense Under Pressure",
+        "focus": "Handling opponent transitions during escape attempts",
+        "description": "Partner actively transitions between Estima Lock, toe hold, and guard pass attempts while you adapt your defensive response in real time. Develops decision-making under pressure and builds the ability to read opponent's adjustments during your escape. Resistance at 70-80%."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Full resistance escape with timing and decision-making",
+        "description": "Positional sparring starting from established Estima Lock at full resistance. Bottom player works to escape, top player fights to maintain control and finish. Integrate tap awareness and safety decision-making under realistic pressure. Track escape success rate to measure improvement over training cycles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first mechanical action you should take when you recognize an Estima Lock has been secured on your foot?",
+        "answer": "Immediately counter-rotate your ankle by turning your toes outward and driving your heel downward. This reduces the rotational pressure on the ankle joint and Achilles tendon that makes the Estima Lock dangerous. Counter-rotation must happen before any extraction attempt because pulling the foot out without addressing rotation can increase torque and cause injury."
+      },
+      {
+        "question": "Your opponent tightens their Estima Lock grip and you feel increasing pressure on your ankle—what signals indicate you should tap rather than continue escaping?",
+        "answer": "Tap immediately when you experience sharp pain in the ankle joint or Achilles tendon, feel the ankle being twisted beyond normal range of motion, lose the ability to counter-rotate effectively, or recognize that the opponent's mechanical completion of the lock leaves no viable escape angle. Preserving joint health and training longevity always takes priority over escaping any single submission attempt."
+      },
+      {
+        "question": "Why must you establish frames on the opponent's hips before attempting to break their grip on your foot?",
+        "answer": "Framing on the opponent's hips prevents them from driving forward and consolidating pressure while you work the grip break. Without frames, breaking the grip becomes a pure hand-fighting contest where the opponent maintains superior structural position and can simply re-grip while maintaining the same mechanical advantage. Frames create the structural foundation for all subsequent escape mechanics."
+      },
+      {
+        "question": "You begin counter-rotating but your free leg is flat on the mat doing nothing—what immediate adjustment improves your escape chances?",
+        "answer": "Position your free foot on the opponent's hip, inner thigh, or behind their knee and push firmly to create distance. The free leg is your most powerful escape tool because it generates pushing force that reduces the opponent's mechanical advantage on your trapped foot. An active free leg creates the space needed for grip disruption and extraction while making it harder for the opponent to maintain tight hip-to-calf contact."
+      },
+      {
+        "question": "What is the optimal direction for your hip escape during the space creation phase of this counter?",
+        "answer": "Hip escape diagonally away from the opponent's controlling grip rather than moving straight backward. Diagonal movement creates space between your trapped foot and their grip structure while simultaneously making it harder for them to follow your hip movement. Shrimping directly away often allows the opponent to simply follow, while diagonal movement forces them to adjust their entire body position to maintain contact."
+      },
+      {
+        "question": "Your opponent releases the Estima Lock grip and immediately drives forward to pass your guard—how do you respond?",
+        "answer": "Immediately establish open guard structure by placing both feet on their hips and creating distance with active leg frames before they can close the gap. The moment of grip release is a critical transition window where you must prioritize guard recovery over any other action. Secure at least one upper body grip on their sleeve, collar, or wrist to prevent uncontested distance closure and passing pressure."
+      },
+      {
+        "question": "Which part of the opponent's figure-four grip configuration is typically the weakest point for breaking during your escape?",
+        "answer": "The junction where the supporting hand meets the primary gripping hand is typically the weakest structural point in the figure-four configuration. Wedging your hand or forearm into this junction while simultaneously pushing with your free leg creates divergent forces that separate the grip components. Attacking the weakest link is more energy-efficient than trying to overpower the entire grip structure simultaneously."
+      },
+      {
+        "question": "During your escape attempt, your opponent transitions from the Estima Lock to a toe hold—what changes in your defensive response?",
+        "answer": "Switch immediately from counter-rotation to boot defense by pointing your toes and flexing your ankle to prevent the toe hold grip from achieving proper rotational angle on the metatarsals. The toe hold attacks a different mechanical axis than the Estima Lock, requiring adjusted ankle positioning and different grip-fighting angles. Address the new submission threat before continuing your escape sequence, as the grip transition creates a momentary window where neither submission is fully consolidated."
+      }
+    ],
+    "safety_considerations": "The Estima Lock attacks the ankle joint and Achilles tendon with rotational force that can cause serious ligament and tendon injury. Always tap early when pressure reaches dangerous levels rather than risking structural damage. During training, communicate clearly with partners about pressure levels and maintain controlled movements throughout escape attempts to prevent self-injury from explosive reactions. Never continue escaping when sharp pain indicates the lock has been mechanically completed. Ankle injuries from inverted footlocks can require months of recovery and significantly impact training consistency."
   },
   "defender": {
     "name": "Counter from Estima Lock Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Estima Lock/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Estima Lock/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend against Counter from Estima Lock attempts in BJJ. Strategies for maintaining Estima Lock control, grip adjustment, and transitioning when opponent initiates escape.",
+    "overview": "Defending against the Counter from Estima Lock means maintaining your submission control when your opponent initiates a systematic escape from the bottom Estima Lock position. As the practitioner holding the Estima Lock, your defensive priority is recognizing early escape indicators such as counter-rotation, frame establishment, and free leg activation, then responding with appropriate adjustments to maintain grip integrity, positional pressure, and submission threat. When the primary lock becomes compromised, transitioning to alternative attacks or positional advancement preserves offensive momentum rather than wasting energy forcing an ineffective submission. The defender must balance between finishing the submission and maintaining positional control, choosing the option that offers the highest probability of success based on the current state of the exchange.",
+    "key_principles": [
+      "Maintain two-handed grip control throughout all escape attempts, never releasing one hand to chase secondary control points",
+      "Follow the opponent's hip movement with your own body position to prevent space creation and maintain hip-to-calf fulcrum contact",
+      "Increase rotational pressure gradually when opponent's counter-rotation weakens rather than applying explosive force that risks injury",
+      "Keep hips pressed firmly against opponent's calf as the primary fulcrum for the lock's mechanical advantage throughout the exchange",
+      "Recognize when the primary lock is compromised beyond recovery and transition immediately to alternative attacks or guard pass"
+    ],
+    "recognition_cues": [
+      "Opponent begins turning their foot outward, counter-rotating against the inverted position to relieve ankle and Achilles tendon pressure",
+      "Opponent places hands on your hips or torso, establishing structural frames designed to generate pushing distance and prevent consolidation",
+      "Opponent's free leg activates from a passive position, pushing against your hip or hooking behind your knee to create space",
+      "Opponent initiates hip escape movement, creating lateral space between their body and yours to enable grip disruption and foot extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-tighten grip and increase rotational pressure while driving hips forward",
+        "when_to_use": "When opponent begins counter-rotation but has not yet established frames or activated free leg",
+        "targets_outcome": "Estima Lock/Bottom",
+        "if_successful": "Opponent's escape attempt fails and submission pressure deepens toward tap",
+        "risk": "Over-committing to rotation may allow opponent to use momentum for a rolling counter escape"
+      },
+      {
+        "action": "Follow hip escape movement and re-establish hip-to-calf contact by adjusting body position",
+        "when_to_use": "When opponent hip escapes to create space but your grip remains intact",
+        "targets_outcome": "Estima Lock/Bottom",
+        "if_successful": "Space creation is negated and lock control is maintained with renewed fulcrum contact",
+        "risk": "Chasing movement may compromise your own base stability and create opportunities for sweep"
+      },
+      {
+        "action": "Release grip and immediately transition to guard pass by driving into opponent",
+        "when_to_use": "When grip has been significantly compromised and foot extraction is imminent",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Opponent ends up under side control rather than recovering to open guard",
+        "risk": "If pass attempt fails, opponent recovers to open guard and you lose all positional advantage"
+      },
+      {
+        "action": "Transition to toe hold grip when opponent's counter-rotation exposes metatarsals",
+        "when_to_use": "When opponent's counter-rotation changes the foot angle to expose toe hold opportunity",
+        "targets_outcome": "Estima Lock/Bottom",
+        "if_successful": "New submission threat forces opponent to address different defensive angle, resetting their escape progress",
+        "risk": "Grip transition creates momentary vulnerability where opponent may extract foot completely"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Estima Lock/Bottom",
+        "how": "Maintain tight figure-four grip, follow opponent's hip movement to prevent space creation, and gradually increase rotational pressure when counter-rotation weakens to force the tap"
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When grip is compromised beyond recovery, immediately release and drive forward into guard pass using the positional proximity from the leg entanglement to establish side control before opponent recovers guard"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing one hand to control opponent's free leg while maintaining lock with single hand",
+        "consequence": "Breaks figure-four grip structure that provides the mechanical foundation for rotational pressure, allowing immediate foot extraction and complete escape",
+        "correction": "Manage opponent's free leg through body positioning and your own legs rather than sacrificing hand control on the locked foot"
+      },
+      {
+        "error": "Remaining static when opponent creates space through hip escape without following their movement",
+        "consequence": "Allows opponent to accumulate space incrementally, eventually creating enough distance for complete grip disruption and foot extraction",
+        "correction": "Follow opponent's hip movement immediately by adjusting your body position to maintain hip-to-calf contact and close any gaps created through their shrimping"
+      },
+      {
+        "error": "Continuing to force the submission when grip has been significantly compromised",
+        "consequence": "Wastes energy on low-percentage finish attempt while opponent completes escape to open guard, losing both the submission opportunity and positional control",
+        "correction": "Recognize when grip integrity is compromised beyond recovery and transition immediately to guard pass or alternative leg attack while you still have positional proximity"
+      },
+      {
+        "error": "Applying explosive force to finish the lock quickly rather than gradual controlled pressure",
+        "consequence": "Risk of injuring training partner through uncontrolled force, loss of positional control due to overcommitment, and potential reversal if explosive movement fails",
+        "correction": "Apply submission pressure gradually and in a controlled manner, allowing the opponent time to tap while maintaining stable base and grip structure throughout the application"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that your opponent is beginning to counter your Estima Lock?",
+        "answer": "The earliest cues are counter-rotation of their trapped ankle with toes turning outward, hands moving to your hips to establish frames, and their free leg activating from a passive position to push against your body. Counter-rotation is usually the very first indicator because it is the instinctive protective response to rotational ankle pressure and occurs before any other escape action."
+      },
+      {
+        "question": "Your opponent establishes strong frames on your hips and begins creating space—how do you maintain Estima Lock control?",
+        "answer": "Follow their hip movement by adjusting your own body position to maintain hip-to-calf contact, which is the fulcrum for the lock's mechanical advantage. Increase rotational pressure gradually rather than trying to out-muscle their frames. If significant space has been created despite your adjustments, consider transitioning to a guard pass rather than forcing the submission from a compromised position."
+      },
+      {
+        "question": "When should you abandon the Estima Lock and transition to a guard pass instead of continuing to fight for the submission?",
+        "answer": "Transition when the opponent has successfully disrupted your grip configuration, created significant space through hip movement, and their free leg is actively preventing you from re-establishing control. Continuing to force a submission from a compromised position wastes energy and allows the opponent to complete their escape to open guard. Transitioning to a pass while you still have positional proximity preserves offensive momentum and scoring opportunity."
+      },
+      {
+        "question": "Your opponent begins pulling their foot free after partially breaking your grip—what is the correct response to prevent complete extraction?",
+        "answer": "Re-address the foot control immediately by clearing any defensive frames with your legs or free hand, closing the space gap by driving your hips forward toward their trapped leg, and re-establishing the figure-four grip before they can complete extraction. The key is recognizing partial extraction early and committing to either re-securing the grip or transitioning to a guard pass before the foot is completely free."
+      },
+      {
+        "question": "How does releasing one hand to control the opponent's free leg typically compromise your Estima Lock position?",
+        "answer": "Releasing one hand breaks the figure-four grip structure, which is the mechanical foundation of the Estima Lock's rotational pressure. A single-handed grip cannot generate sufficient torque to maintain a real submission threat, and the opponent can immediately exploit the weakened grip to extract their foot. The free leg should be managed through your body positioning and your own legs rather than sacrificing the hand control that makes the lock effective."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Maintenance",
+        "focus": "Maintaining figure-four grip under escape pressure",
+        "description": "Partner attempts counter-rotation and grip breaks at 40-50% resistance while you focus exclusively on maintaining tight figure-four grip and hip-to-calf contact. Build grip endurance and learn the feeling of proper grip structure under dynamic pressure without worrying about finishing the submission."
+      },
+      {
+        "phase": "Phase 2: Position Following",
+        "focus": "Following opponent's hip movement to maintain control",
+        "description": "Partner hip escapes and creates movement at 60% while you practice adjusting your body position to follow their hips and maintain the fulcrum contact. Develop the ability to read directional movement and respond with matching body adjustments that close gaps before they become escape openings."
+      },
+      {
+        "phase": "Phase 3: Transition Recognition",
+        "focus": "Identifying when to abandon lock and transition to alternative attacks",
+        "description": "Partner works full escape sequences at 70-80% resistance. Practice recognizing the decision point where maintaining the lock becomes lower percentage than transitioning to a guard pass or alternative leg attack. Build decision-making skills for choosing between finishing, re-gripping, and transitioning."
+      },
+      {
+        "phase": "Phase 4: Live Maintenance",
+        "focus": "Full resistance Estima Lock control against trained escape attempts",
+        "description": "Positional sparring from established Estima Lock at full resistance. Practice the complete defensive toolkit including grip maintenance, position following, submission finishing, and transition to alternatives. Track retention rate and finish rate to measure improvement over training cycles."
+      }
+    ]
   }
 }

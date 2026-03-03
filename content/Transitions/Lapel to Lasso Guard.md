@@ -195,7 +195,7 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 
 - [[De La Riva Guard]] - Alternative pathway - use if opponent steps over threading attempt
 
-- [[Lapel to Spider Transition]] - Parallel technique - alternative guard retention from lapel
+- [[Lapel to Spider Guard]] - Parallel technique - alternative guard retention from lapel
 
 - [[Lasso Guard Pass]] - Opponent's counter-technique - primary passing method against established lasso
 

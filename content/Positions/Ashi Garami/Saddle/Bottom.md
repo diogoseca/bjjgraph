@@ -21,37 +21,37 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 46% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 56% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 1% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Leg Entanglement",
+      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Inversion Escape",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,19 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (46% of attempts)
+### [[Ashi Garami Escape]] (56% of attempts)
 
-### [[Standing up in Base]] (0% of attempts)
+### [[Standing up in Base]] (1% of attempts)
 
-### [[Guard Recovery]] (8% of attempts)
+### [[Guard Recovery from Leg Entanglement]] (7% of attempts)
 
-### [[Frame and Shrimp to Guard]] (3% of attempts)
+### [[Frame and Shrimp to Guard]] (8% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (8% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (10% of attempts)
 
-### [[Saddle Defense]] (14% of attempts)
+### [[Inversion Escape]] (11% of attempts)
 
-### [[Inversion Escape]] (9% of attempts)
-
-### [[Leg Extraction to Guard]] (11% of attempts)
+### [[Leg Extraction to Guard]] (6% of attempts)
 
 ### [[Boot Scoot Escape from Saddle]] (0% of attempts)
 
@@ -232,7 +230,9 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ### [[Forward Roll from Saddle]] (0% of attempts)
 
-### [[Leg Pummeling from Saddle]] (1% of attempts)
+### [[Leg Pummeling from Saddle]] (0% of attempts)
+
+### [[Sweep from Saddle]] (1% of attempts)
 
 
 

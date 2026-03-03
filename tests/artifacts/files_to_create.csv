@@ -1,0 +1,2 @@
+type,name,severity,message
+missing_transition,Guard Recovery,error,Missing transition: 'Guard Recovery' (referenced but no file)

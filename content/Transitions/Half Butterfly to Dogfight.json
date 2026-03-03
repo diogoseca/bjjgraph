@@ -1,10 +1,15 @@
 {
   "name": "Half Butterfly to Dogfight",
-  "description": "TODO: Write 150-160 character SEO description for Half Butterfly to Dogfight.",
+  "description": "Master the Half Butterfly to Dogfight transition. Learn underhook mechanics, butterfly hook elevation, and timing to rise from half guard to dynamic dogfight.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "half-guard",
+    "half-butterfly",
+    "dogfight",
+    "underhook",
+    "elevation",
+    "guard-play"
   ],
   "from_position": "Half Butterfly/Bottom",
   "outcomes": [
@@ -19,120 +24,361 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Flattened Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Half Butterfly to Dogfight.",
+  "overview": "The Half Butterfly to Dogfight transition is one of the most important positional improvements available from bottom half guard. By combining the underhook battle with butterfly hook elevation, the bottom player rises from a relatively passive half butterfly position to the dynamic dogfight, where both practitioners compete on roughly equal terms. This transition epitomizes the modern half guard philosophy of coming up rather than fighting from your back, and it creates immediate offensive threats including sweeps, back takes, and further positional advances.\n\nThe mechanics rely on coordinating two primary force vectors: the underhook drives diagonally into the opponent's torso while the butterfly hook elevates from below, creating a combined upward-and-forward force that brings the bottom player to their knees. Timing is critical—the best entries occur when the top player's weight shifts or when they commit to a passing attempt, as their forward pressure can be redirected into the elevation. The half guard legs must maintain their squeeze throughout to prevent the top player from extracting their trapped leg during the transition.\n\nFrom a systems perspective, this transition connects the half butterfly guard system to the entire dogfight offensive chain. Once established in dogfight, the practitioner has access to sweeps, back takes, and deep half entries. Failing to complete the transition typically results in returning to half butterfly, while a strong counter by the top player can flatten the bottom player into a compromised half guard position where passing becomes significantly easier.",
   "conditions": [
-    "TODO"
+    "Deep underhook established on the butterfly hook side, reaching toward opponent's far shoulder",
+    "Active butterfly hook loaded under opponent's inner thigh with foot planted on mat",
+    "Half guard legs maintaining squeeze on opponent's trapped leg",
+    "Bottom player not fully flattened—hips retain some mobility and body can turn toward opponent",
+    "Sufficient space between chests to initiate the turning and elevation movement"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Underhook-Drive Entry",
+      "description": "Prioritize establishing the deepest possible underhook before initiating any elevation. Drive forward and upward primarily through the underhook arm and head pressure, using the butterfly hook as secondary lift. This variation produces a tighter dogfight with immediate forward pressure advantage.",
+      "when_to_use": "When opponent is light on their hips or has poor whizzer defense, allowing a deep underhook penetration before they can react"
+    },
+    {
+      "variant_name": "Hook-Elevation Entry",
+      "description": "Lead with a powerful butterfly hook elevation to disrupt opponent's balance before driving the underhook. The hook lifts the opponent's weight off you first, creating space and momentum to come to your knees. This is more explosive and can catch opponents who are applying heavy top pressure.",
+      "when_to_use": "When opponent is driving heavy chest pressure and the underhook is shallow, use the hook elevation to create space before deepening the underhook during the rise"
+    },
+    {
+      "variant_name": "Collar Drag to Dogfight (Gi)",
+      "description": "In gi grappling, use a cross-collar drag grip to pull the opponent's weight forward and off-balance while simultaneously coming up to dogfight. The collar grip replaces some of the underhook's function by controlling the opponent's posture and creating forward momentum that assists the elevation.",
+      "when_to_use": "In gi situations where the opponent is defending the underhook aggressively but leaving their collar exposed to gripping"
     }
   ],
-  "position_integration": "TODO: Write position integration for Half Butterfly to Dogfight.",
+  "position_integration": "The Half Butterfly to Dogfight transition sits at the critical junction between defensive and offensive half guard play. It connects the half butterfly guard system—which offers sweeps and retention—to the dogfight position's explosive sweep and back take chains. This transition is essential to the modern half guard game because it represents the fundamental positional improvement of coming up from bottom. Without this pathway, half butterfly players remain reactive; with it, they access the full offensive arsenal of dogfight sweeps, back takes, and further transitions to deep half or single leg attacks. Mastering this entry transforms half butterfly from a holding position into a launching platform.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Half Butterfly",
+      "relationship": "Source position - the hybrid guard from which this transition initiates"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Target position - the dynamic kneeling position reached on success"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position family - dogfight is an elevated half guard variation"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition from half butterfly when opponent pressures too heavily to allow dogfight entry"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Related guard system sharing the butterfly hook mechanics used in the elevation"
+    },
+    {
+      "name": "Dogfight Sweep",
+      "relationship": "Primary follow-up technique once dogfight is established"
+    },
+    {
+      "name": "Forward Drive Sweep from Dogfight",
+      "relationship": "Follow-up sweep available after successful dogfight entry"
+    },
+    {
+      "name": "Back Take",
+      "relationship": "High-value follow-up when opponent over-commits to whizzer defense in dogfight"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Counter outcome position when top player successfully drives bottom player back down"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative half guard configuration that can also lead to dogfight entries"
     }
   ],
   "attacker": {
     "name": "Half Butterfly to Dogfight Attacker",
-    "description": "TODO: Write attacker description for Half Butterfly to Dogfight.",
-    "overview": "TODO: Write attacker overview for Half Butterfly to Dogfight.",
+    "description": "Master executing the Half Butterfly to Dogfight transition. Complete guide to underhook mechanics, butterfly hook elevation, timing windows, and chaining into dogfight offense.",
+    "overview": "As the attacker, you are the bottom player in half butterfly guard working to elevate to the dogfight position. Your primary tools are the deep underhook and the butterfly hook, which must work in concert to generate the upward and forward momentum needed to rise to your knees. The transition demands precise timing—rushing without proper grips results in being flattened, while waiting too long allows the top player to consolidate pressure. Success depends on coordinating the butterfly hook elevation with the underhook drive while maintaining half guard leg control throughout the rise. Once you reach dogfight, you have immediate access to sweeps, back takes, and further transitions that make this one of the highest-value positional improvements from bottom half guard.",
     "key_principles": [
-      "TODO"
+      "Establish a deep underhook before attempting any elevation—the depth of the underhook determines your control throughout the entire transition",
+      "Coordinate butterfly hook elevation with underhook forward drive to create combined upward-and-diagonal force that the top player cannot resist from a single angle",
+      "Maintain half guard leg squeeze throughout the rise to prevent the top player from extracting their trapped leg and passing during the transition",
+      "Drive your head into the opponent's chest or shoulder as you come up—head position determines who controls the dogfight configuration",
+      "Time the elevation to coincide with the opponent's weight shift, passing attempt, or grip adjustment when their base is momentarily compromised",
+      "Commit fully to the transition once initiated—half-hearted attempts leave you in a worse position than where you started"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep underhook on the butterfly hook side, arm threaded around opponent's torso reaching toward their far shoulder or lat",
+      "Butterfly hook actively loaded with foot planted on the mat and shin angled under opponent's inner thigh for maximum elevation leverage",
+      "Half guard legs maintaining firm squeeze on opponent's trapped leg with no slack that would allow extraction",
+      "Body turned onto the side facing the opponent rather than flat on back, creating proper alignment for the diagonal drive upward",
+      "Head positioned inside the opponent's body (not crossfaced to the outside) with forehead or temple against their chest"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish deep underhook",
+        "description": "Thread your arm deep around the opponent's torso on the butterfly hook side, reaching toward their far shoulder or lat. Fight past any frames or overhook attempts to get maximum depth. The deeper this underhook penetrates, the more control and leverage you generate throughout the entire transition."
+      },
+      {
+        "step_number": 2,
+        "action": "Load the butterfly hook",
+        "description": "Plant your butterfly hook foot firmly on the mat with your heel drawn toward your own hip, creating a loaded spring position. Your shin should angle under the opponent's inner thigh so that when you extend your hip, the hook lifts their weight directly upward. Ensure the hook is positioned for maximum mechanical advantage."
+      },
+      {
+        "step_number": 3,
+        "action": "Turn onto your side",
+        "description": "Rotate your torso toward the opponent so your chest faces their side rather than pointing at the ceiling. This angle alignment is essential because it converts your hip extension into forward-and-upward drive rather than pushing ineffectively straight up into the opponent's weight."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate coordinated elevation",
+        "description": "Simultaneously extend your hips through the butterfly hook and drive forward with your underhook arm. These two force vectors—upward from the hook and diagonal from the underhook—create combined momentum that disrupts the top player's base and brings you toward your knees. Time this with the opponent's weight shift for maximum effect."
+      },
+      {
+        "step_number": 5,
+        "action": "Rise to kneeling position",
+        "description": "Come up to your inside knee while keeping the half guard squeeze tight on the opponent's trapped leg. Your outside leg posts with the foot flat on the mat to establish your base. Drive your head firmly into the opponent's chest or shoulder throughout the rise to prevent them from crossfacing you back down to the mat."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure forward pressure in dogfight",
+        "description": "Once kneeling, immediately deepen your underhook and press your head and upper chest into the opponent's body. Establish the dogfight configuration by fighting for superior head position—your head should be level with or above theirs. Drive constant forward pressure to prevent them from settling into a stable whizzer counter."
+      },
+      {
+        "step_number": 7,
+        "action": "Control far hip and initiate offense",
+        "description": "Use your free hand to grip the opponent's far hip, belt line, or waistband to prevent them from circling away or establishing a deep whizzer. This control point completes the dogfight entry and immediately sets up your first offensive action—whether a sweep, back take attempt, or further positional improvement."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Top player drives heavy crossface and sprawls hips back to flatten bottom player during elevation attempt",
+        "effectiveness": "High",
+        "your_response": "If you feel the crossface coming, accelerate your elevation and turn harder into the opponent rather than trying to rise straight up. Use the butterfly hook to lift sharply and redirect their sprawl pressure. If already flattened, abandon the dogfight attempt and work back to proper half butterfly frames before retrying.",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Top player establishes deep whizzer overhook and uses it to peel the underhook while driving shoulder pressure",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "When you feel the whizzer locking in, continue driving forward rather than pulling back. A committed forward drive makes the whizzer less effective. If the whizzer is too deep, consider transitioning to deep half guard by ducking under or switching to an electric chair entry that uses the whizzer against the opponent.",
+        "targets_outcome": "Half Butterfly/Bottom"
+      },
+      {
+        "counter": "Top player backsteps or shifts weight laterally to avoid the elevation and begin extracting their trapped leg",
+        "effectiveness": "Medium",
+        "your_response": "Follow the backstep by adjusting your angle and maintaining the half guard squeeze. If they create enough space, transition your butterfly hook to a different guard entry point such as single leg X or deep half rather than forcing the dogfight. Use their lateral movement as an opportunity to off-balance them in the direction they are already moving.",
         "targets_outcome": "Half Butterfly/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to rise without establishing a deep underhook first",
+        "consequence": "Without the underhook as your primary control anchor, the top player can easily crossface you back to the mat or strip your upper body connection, leaving you in a worse position than where you started",
+        "correction": "Always secure the underhook as the first step in the transition sequence. If you cannot get the underhook, work on grip fighting and re-pummeling before attempting any elevation"
+      },
+      {
+        "error": "Rising straight upward instead of driving diagonally into the opponent",
+        "consequence": "A vertical rise creates space between you and the opponent, allowing them to insert frames, establish crossface, or begin passing. You end up elevated but without connection or control",
+        "correction": "Drive at a diagonal angle—forward and up simultaneously—so that as you rise, you close distance and apply pressure. Your underhook and head should make contact with the opponent throughout the entire movement"
+      },
+      {
+        "error": "Releasing the half guard squeeze during the elevation phase",
+        "consequence": "The top player extracts their trapped leg and immediately begins passing, often completing the pass before you can recover guard since you are now in an awkward half-risen position",
+        "correction": "Consciously maintain the half guard leg squeeze throughout the transition. The trapped leg is your anchor point—without it, the dogfight position cannot be established. Drill the rise with emphasis on leg tension"
+      },
+      {
+        "error": "Not loading the butterfly hook before attempting to come up",
+        "consequence": "Without the loaded spring position, you lack the elevation power to disrupt the top player's base. The transition becomes a pure arm-and-neck strength battle that favors the top player's gravity advantage",
+        "correction": "Before initiating the rise, ensure your butterfly hook foot is planted on the mat with your heel drawn toward your hip. The hip extension through this loaded hook provides the primary elevation force"
+      },
+      {
+        "error": "Allowing head to drop below opponent's chest level during the rise",
+        "consequence": "Low head position invites the crossface and allows the top player to drive your head to the mat, killing the transition and flattening you into a worse half guard position",
+        "correction": "Drive your head firmly into the opponent's chest or shoulder throughout the rise. Your head should travel upward with your body, maintaining constant pressure against their torso to prevent the crossface"
+      },
+      {
+        "error": "Initiating the transition when the top player has already consolidated heavy chest pressure and crossface",
+        "consequence": "Trying to rise against an established heavy top position burns significant energy and has very low success probability, often resulting in being flattened worse than before the attempt",
+        "correction": "First use frames and the butterfly hook to disrupt the top player's pressure and create space. Only initiate the dogfight entry when you have broken their weight distribution and created enough room to thread the underhook"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Isolated Mechanics",
+        "focus": "Underhook-to-elevation coordination",
+        "description": "Partner provides zero resistance from half butterfly top. Practice the complete sequence: establish underhook, load hook, turn, elevate, secure dogfight. Focus on smooth coordination between the underhook drive and butterfly hook elevation. Perform 20 repetitions per side, emphasizing body mechanics over speed."
+      },
+      {
+        "phase": "Phase 2: Timing and Entry Recognition",
+        "focus": "Reading opponent's weight shifts for optimal entry windows",
+        "description": "Partner applies light passing pressure (30-40%) from half butterfly top and randomly shifts weight for passing attempts. Practice recognizing when the weight shift creates an opening for the dogfight entry. Develop sensitivity to the moments when the top player is most vulnerable to being elevated."
+      },
+      {
+        "phase": "Phase 3: Overcoming Defensive Resistance",
+        "focus": "Executing against crossface and whizzer counters",
+        "description": "Partner actively defends the dogfight entry with realistic crossface and whizzer resistance at 60-70% intensity. Practice adjusting your entry based on the specific counter—driving through whizzers, redirecting around crossfaces, and chaining failed attempts into alternative positions like deep half guard."
+      },
+      {
+        "phase": "Phase 4: Live Integration and Chaining",
+        "focus": "Flowing from dogfight entry into offensive chains",
+        "description": "Full positional sparring starting from half butterfly bottom. Focus on executing the dogfight entry and immediately chaining into sweeps or back takes rather than pausing in dogfight. Track success rate across rounds and identify which counters you struggle with most for targeted practice."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What must be established before you attempt to rise to dogfight from half butterfly?",
+        "answer": "A deep underhook on the butterfly hook side is the absolute prerequisite. The underhook must reach around the opponent's torso toward their far shoulder or lat—a shallow underhook that only touches the near hip provides insufficient control and is easily stripped by a whizzer. Additionally, the butterfly hook must be loaded with your foot planted on the mat, and your half guard squeeze must be tight on the trapped leg. Without all three elements secured, the transition has extremely low success probability."
+      },
+      {
+        "question": "Your opponent drives a hard crossface just as you begin to elevate—how do you adjust your entry?",
+        "answer": "Rather than abandoning the attempt or trying to power through the crossface head-on, accelerate your turn into the opponent and drive your butterfly hook elevation sharply upward. The key is redirecting the crossface force by changing your angle—turn harder into them so the crossface slides across your back rather than pinning your face. If the crossface is already too deep, abandon the dogfight entry momentarily, use frames to reset space, and reattempt when the crossface pressure weakens."
+      },
+      {
+        "question": "What are the two primary force vectors that create the elevation in this transition?",
+        "answer": "The two vectors are the butterfly hook's upward lift through hip extension and the underhook's diagonal forward drive into the opponent's torso. The butterfly hook generates vertical force by extending the hip and elevating the opponent's weight, while the underhook creates horizontal forward pressure that drives you into the opponent. When these two vectors combine, they produce a diagonal force that is extremely difficult for the top player to resist because they must defend both upward displacement and forward penetration simultaneously."
+      },
+      {
+        "question": "Why must you maintain the half guard leg squeeze throughout the entire transition?",
+        "answer": "The half guard squeeze on the trapped leg serves as your anchor point throughout the transition. If you release the squeeze during the rise, the top player can extract their leg and immediately begin passing—often completing the pass before you can recover because you are in an awkward half-risen position with no guard retention. The trapped leg also prevents the top player from backstopping or circling away from your underhook drive, ensuring your elevation force translates into forward progress."
+      },
+      {
+        "question": "Your opponent applies a heavy whizzer as you begin driving forward—what are your options?",
+        "answer": "Against a committed whizzer, you have three primary options. First, continue driving forward aggressively because the whizzer loses effectiveness when you maintain constant forward pressure and stay tight. Second, use the whizzer against them by ducking under into deep half guard, where their overhook commitment actually assists your entry. Third, if the whizzer is combined with a limp-arm escape, transition to an electric chair setup by controlling their far leg and using the whizzer as a pivot point for the sweep."
+      },
+      {
+        "question": "What is the optimal timing window for initiating this transition?",
+        "answer": "The best timing window occurs when the top player shifts their weight for a passing attempt—typically a knee slice, smash pass, or hip switch. During these moments, their weight distribution is uneven and their base is temporarily compromised, making them more vulnerable to the butterfly hook elevation. Other good windows include when they adjust grips (momentary loss of control), when they post a hand to the mat (reduced ability to crossface), or when they attempt to extract the trapped leg (their weight shifts backward, opening the elevation path)."
+      },
+      {
+        "question": "Your opponent backsteps and begins extracting their trapped leg as you initiate the rise—how do you counter?",
+        "answer": "Follow the backstep by adjusting your angle to match their movement direction rather than continuing to drive straight forward into empty space. Tighten your half guard squeeze immediately to prevent full leg extraction. If they create significant space, redirect your butterfly hook toward a single leg X-guard entry or deep half guard entry using their lateral momentum against them. The key is maintaining some form of leg entanglement—if you lose all leg control, recover to open guard frames before they can consolidate the pass."
+      },
+      {
+        "question": "What direction should your head face and drive as you come up to dogfight?",
+        "answer": "Your head should drive directly into the opponent's chest or the shoulder on the underhook side, maintaining firm pressure throughout the entire rise. The head acts as a third control point alongside the underhook and butterfly hook, preventing the opponent from creating space or establishing crossface. Once in dogfight, your head should be level with or above the opponent's head—dropping below their head level invites being driven backward and flattened. Think of your head as a battering ram that leads the transition and secures your position once you arrive."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Half Butterfly to Dogfight."
+    "safety_considerations": "This transition involves rising from a supine position to kneeling under an opponent's weight, which places stress on the neck and lower back. Avoid explosive jerking movements without proper underhook security, as sudden load changes can strain the cervical spine or shoulder joint. Partners should communicate when applying heavy crossface pressure during drilling to prevent neck compression injuries. When training the butterfly hook elevation, gradually increase resistance to allow the body to adapt to the loading patterns. Tap immediately if neck pressure becomes excessive during failed attempts."
   },
   "defender": {
     "name": "Half Butterfly to Dogfight Defender",
-    "description": "TODO: Write defender description for Half Butterfly to Dogfight.",
-    "overview": "TODO: Write defender overview for Half Butterfly to Dogfight.",
+    "description": "Learn to defend the Half Butterfly to Dogfight transition. Recognition cues, crossface timing, whizzer mechanics, and flattening techniques to shut down the elevation.",
+    "overview": "As the defender, you are the top player in half butterfly working to prevent the bottom player from rising to the dogfight position. Your primary objective is to deny the underhook, maintain heavy chest pressure, and neutralize the butterfly hook's elevation power before the bottom player can coordinate their rise. The dogfight position is significantly more dangerous for the top player than half butterfly top, so preventing this transition is a high priority. Early recognition of the setup cues—particularly the underhook attempt and hook loading—gives you the best chance to shut down the transition before it gains momentum. Once the bottom player begins rising, your options narrow rapidly, making proactive defense far more effective than reactive recovery.",
     "key_principles": [
-      "TODO"
+      "Deny the underhook as your first priority—without it, the bottom player cannot generate the forward drive needed for the transition",
+      "Maintain heavy forward chest pressure to reduce the space available for the bottom player to turn and load their butterfly hook",
+      "Drive your hips low and forward to minimize the butterfly hook's elevation leverage by positioning your weight below its optimal lift angle",
+      "React immediately to the first sign of elevation—early intervention when the bottom player begins turning is far more effective than trying to flatten them once they are already rising",
+      "Use the whizzer aggressively when the underhook is established, pulling down and back to prevent the bottom player from converting the underhook into upward drive",
+      "Control the head position battle by driving your crossface shoulder across their face to prevent their head from reaching your chest"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player's arm threads around your torso seeking the underhook, particularly on the butterfly hook side where it provides maximum leverage for the transition",
+      "Butterfly hook foot plants firmly on the mat with heel drawn toward their hip, indicating the hook is being loaded as a spring for elevation",
+      "Bottom player begins turning onto their side toward you, rotating their chest to face your body rather than the ceiling—this angle change precedes the elevation drive",
+      "Bottom player's head drives forward into your chest or shoulder with increasing pressure, signaling they are about to initiate the upward movement"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive heavy crossface and sprawl hips back to flatten the bottom player before they can complete the elevation",
+        "when_to_use": "At the earliest sign of the underhook attempt or body rotation—most effective when applied before the bottom player has fully loaded their butterfly hook",
         "targets_outcome": "Half Butterfly/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bottom player is driven back to flat half butterfly with their underhook stripped and crossface pressure preventing re-attempts",
+        "risk": "If timed late, the crossface slides off as the bottom player's elevation momentum carries them through to dogfight"
+      },
+      {
+        "action": "Establish deep whizzer overhook on the underhook arm and drive shoulder pressure downward while circling the hips away from the hook",
+        "when_to_use": "When the bottom player has already secured the underhook and is beginning to turn—the whizzer counters the underhook's forward drive directly",
+        "targets_outcome": "Half Butterfly/Bottom",
+        "if_successful": "The whizzer peels the underhook or neutralizes its driving power, stalling the transition and allowing you to re-establish chest pressure",
+        "risk": "An overly committed whizzer can expose your back if the bottom player times a back take during the whizzer application"
+      },
+      {
+        "action": "Shift weight onto the butterfly hook side and drive hips aggressively forward to kill the hook's elevation angle while driving the bottom player flat",
+        "when_to_use": "When you feel the butterfly hook loading beneath you and the bottom player is about to initiate the elevation—this kills the hook's mechanical advantage",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "The butterfly hook is neutralized and the bottom player is driven flat onto their back in a compromised flattened half guard where passing becomes significantly easier",
+        "risk": "Committing weight forward creates vulnerability to deep half guard entries if the bottom player redirects under your hips"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Dogfight Position",
-        "how": "TODO"
+        "outcome": "Half Butterfly/Bottom",
+        "how": "Apply immediate crossface pressure and whizzer control at the first sign of the underhook attempt. Maintain heavy chest pressure and keep your hips low to deny the space needed for the bottom player to turn and load their butterfly hook. Strip the underhook by driving your shoulder across their face and swimming your arm inside."
+      },
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "When the bottom player begins their elevation attempt, drive your weight forward and sprawl your hips back aggressively. Use the crossface to drive their head to the mat while simultaneously shifting your hips onto the butterfly hook side to kill its elevation angle. The combination of head control and hip pressure flattens them into a compromised position."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing the underhook to be established without immediately fighting for the whizzer or crossface",
+        "consequence": "The bottom player secures the primary control grip for the transition and can begin loading the butterfly hook and turning with minimal resistance, making the dogfight entry highly likely",
+        "correction": "React to the underhook attempt within the first second—either strip it by swimming your arm inside, establish a whizzer to counter it, or drive a crossface to prevent the body rotation that follows"
+      },
+      {
+        "error": "Posturing upright instead of driving weight forward when sensing the transition attempt",
+        "consequence": "Creates space between your chest and the bottom player's body, which is exactly what they need to load the butterfly hook and generate elevation. An upright posture also makes the hook's lift angle optimal",
+        "correction": "Drive your chest and shoulder pressure forward and down into the bottom player the moment you sense them attempting to come up. Keep your hips low and heavy to reduce the hook's mechanical advantage"
+      },
+      {
+        "error": "Relying solely on the whizzer without combining it with hip pressure and crossface",
+        "consequence": "A whizzer alone can be driven through by a committed bottom player, and an isolated whizzer without hip control exposes your back to back take attempts during the scramble",
+        "correction": "Combine the whizzer with forward hip pressure and crossface control. The three tools together create a comprehensive defense—the whizzer counters the underhook, the hips kill the hook, and the crossface prevents the head from driving forward"
+      },
+      {
+        "error": "Attempting to hold position statically instead of actively pressuring the bottom player down",
+        "consequence": "Static defense allows the bottom player to incrementally improve their grips, angle, and hook position until the accumulated advantage makes the elevation unstoppable",
+        "correction": "Apply constant forward and downward pressure rather than trying to hold still. Active pressure forces the bottom player to defend rather than build their setup, and any gap in their frames can be exploited to flatten them"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that the bottom player is setting up the dogfight entry?",
+        "answer": "The earliest cue is the underhook attempt—when you feel their arm threading around your torso on the butterfly hook side, this signals the transition setup has begun. This occurs before the hook loading, body rotation, and head drive that follow. Responding at this stage gives you the maximum time and positional advantage to shut down the transition, as the bottom player has not yet coordinated their other components."
+      },
+      {
+        "question": "Why is the crossface the primary defensive tool against dogfight entries?",
+        "answer": "The crossface prevents the bottom player from driving their head into your chest, which is the critical control point that anchors their forward and upward drive. Without head contact against your body, the bottom player's underhook and hook elevation lack a stable reference point and their force dissipates laterally rather than converting into effective elevation. The crossface also turns their face away from you, making it biomechanically difficult to generate the rotation needed to come to their knees."
+      },
+      {
+        "question": "The bottom player has a deep underhook and is beginning to rise despite your whizzer—what adjustment prevents the sweep?",
+        "answer": "When the whizzer alone is failing, immediately add hip pressure by driving your hips forward and low on the butterfly hook side to kill the hook's elevation angle. Simultaneously lower your level by bending your knees and driving your shoulder into their head or upper chest. If they continue rising, consider abandoning the whizzer fight and transitioning to a crossface from the opposite side to change the angle of resistance they must overcome."
+      },
+      {
+        "question": "What is the most effective pressure angle to prevent the bottom player from elevating to dogfight?",
+        "answer": "The most effective angle is a diagonal forward-and-downward drive with your chest and shoulder pressure aimed at the bottom player's upper chest and chin, combined with hips driving low and forward on the butterfly hook side. This diagonal pressure simultaneously pins their upper body to the mat and removes the butterfly hook's optimal lifting angle. Driving straight down is less effective because it loads directly into the hook's strongest lifting position."
+      },
+      {
+        "question": "You successfully flatten the bottom player back down—what should you do immediately to prevent a second attempt?",
+        "answer": "Immediately consolidate your position by establishing a strong crossface with your shoulder driving across their face, killing any space for re-pummeling the underhook. Strip their underhook by swimming your arm inside to establish your own underhook or overhook control. Drive your chest heavy onto their upper body and begin working to neutralize or extract the butterfly hook. The goal is to remove all three prerequisites for the transition—underhook, loaded hook, and side-facing angle—before they can rebuild their setup."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying transition setup cues",
+        "description": "Partner slowly sets up the dogfight entry from half butterfly while you practice identifying each cue in sequence: underhook attempt, hook loading, body rotation, head drive. Call out each cue as you recognize it. No resistance applied—focus purely on developing sensitivity to the tactile and visual indicators."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Applying crossface and whizzer at optimal moments",
+        "description": "Partner attempts the dogfight entry at 40-50% speed and intensity. Practice applying the crossface at the earliest recognition cue and the whizzer when the underhook is established. Focus on timing your defensive response to the specific stage of the transition rather than applying generic pressure."
+      },
+      {
+        "phase": "Phase 3: Combined Defense Under Pressure",
+        "focus": "Coordinating crossface, whizzer, and hip pressure against committed attempts",
+        "description": "Partner attacks the dogfight entry at 70-80% intensity with full commitment. Practice combining all three defensive tools—crossface to control head, whizzer to counter underhook, hip drive to kill the hook. Develop the ability to read which tool is most needed based on the attacker's specific entry variation."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying defensive skills in full-resistance exchanges",
+        "description": "Full positional sparring from half butterfly top. Bottom player attempts dogfight entry and all other half butterfly attacks. Top player defends the dogfight specifically while also working toward passing. Track how often the bottom player reaches dogfight to measure defensive improvement over time."
       }
     ]
   }

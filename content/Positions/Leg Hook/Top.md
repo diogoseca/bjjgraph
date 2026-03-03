@@ -50,8 +50,8 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Flattened Half Guard",
-      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,7 +216,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ### [[Pressure Pass]] (10% of attempts)
 
-### [[Transition to Flattened Half Guard]] (8% of attempts)
+### [[Back Step Pass]] (8% of attempts)
 
 ### [[Leg Hook to Half Guard]] (4% of attempts)
 

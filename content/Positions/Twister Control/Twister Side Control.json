@@ -237,11 +237,11 @@
         "relationship": "Common transition when bottom player exposes back during escape attempts"
       },
       {
-        "name": "Kimura",
-        "relationship": "Submission option when bottom player extends arm to frame"
+        "name": "Kimura Trap",
+        "relationship": "Submission control option when bottom player extends arm to frame"
       },
       {
-        "name": "Calf Slicer",
+        "name": "Calf Slicer from Truck",
         "relationship": "Leg attack available from established leg entanglement"
       },
       {
@@ -267,51 +267,51 @@
     "transitions": [
       {
         "transition": "Twister Finish",
-        "attempt_probability": 7
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Back Take",
+        "attempt_probability": 14
       },
       {
         "transition": "Darce Choke",
-        "attempt_probability": 8
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Side Control to North-South",
+        "attempt_probability": 12
       },
       {
         "transition": "Anaconda Choke",
         "attempt_probability": 8
       },
       {
-        "transition": "Kimura",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 25
+        "transition": "Arm Triangle",
+        "attempt_probability": 7
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": 8
       },
       {
-        "transition": "Arm Triangle",
-        "attempt_probability": 6
+        "transition": "Turtle to Truck",
+        "attempt_probability": 7
       },
       {
         "transition": "Calf Slicer",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Twister SC to Back Take",
-        "attempt_probability": 3
+        "attempt_probability": 4
       },
       {
         "transition": "Twister SC to Truck",
-        "attempt_probability": 2
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -361,7 +361,7 @@
     ],
     "overview": "The bottom position in Twister Side Control presents one of the most challenging defensive scenarios in modern no-gi grappling, requiring simultaneous management of multiple high-percentage submission threats while navigating limited escape pathways. The defensive player faces immediate pressure from leg entanglement, shoulder control, and rotational torque that restricts traditional escape mechanics.\n\nUnlike traditional side control bottom where the primary concern is preventing mount or back take, Twister Side Control bottom demands constant attention to spinal integrity and submission defense. The leg entanglement characteristic of the position severely limits hip mobility, eliminating many conventional escape routes. Defenders must instead focus on creating separation at the upper body, protecting the spine from rotational attacks, and systematically dismantling the control structure before attempting full positional escapes.\n\nThe psychological aspect of defending Twister Side Control cannot be understated. The position's unfamiliar mechanics and the immediate threat of the twister submission create significant mental pressure, particularly for practitioners inexperienced with 10th Planet systems. This mental load often leads to defensive errors, as practitioners may panic or attempt explosive escapes that worsen their position. Successful defense requires calm, systematic problem-solving and acceptance that escape may require extended defensive sequences rather than single explosive movements.\n\nDefensive priorities in Twister Side Control follow a clear hierarchy: first protect the spine and prevent the full twister setup, second create upper body frames to reduce shoulder pressure, third systematically extract the legs from entanglement, and fourth create sufficient space to re-guard or achieve a neutral position. Attempting to skip steps in this hierarchy typically results in submission or transition to worse positions. The defensive player must resist the temptation to address all threats simultaneously and instead focus on methodically solving each layer of control.\n\nEnergy management becomes critical in Twister Side Control bottom, as the position's structural disadvantages create high energy demands for defensive movement. Explosive escape attempts that fail leave the defender exhausted and more vulnerable to submissions. Experienced defenders learn to move efficiently, using small adjustments and strategic timing rather than constant muscular effort. The goal is to gradually improve position through incremental gains while conserving energy for the final escape sequence when opportunity presents.\n\nThe learning curve for defending Twister Side Control is steep, with beginners often unable to identify correct defensive priorities or recognize submission threats until it's too late. Intermediate practitioners develop better defensive awareness and can maintain relatively safe positioning, though escapes remain challenging. Advanced practitioners understand the position's mechanics deeply enough to not only defend submissions but also create opportunities for counter-attacks or positional reversals, occasionally even advancing to advantageous positions through well-timed technical stand-ups or granby rolls.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -550,35 +550,39 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Turtle Transition",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Rolling to Guard",
         "attempt_probability": 14
       },
       {
+        "transition": "Arm Extraction to Turtle",
+        "attempt_probability": 31
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 13
+      },
+      {
         "transition": "Escape Twister Side Control",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Frame from Twister Side Control",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Turn In from Twister Side Control",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

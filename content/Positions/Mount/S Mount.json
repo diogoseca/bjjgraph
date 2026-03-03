@@ -375,7 +375,7 @@
     ],
     "overview": "Being trapped in S Mount bottom represents one of the most dangerous defensive scenarios in Brazilian Jiu-Jitsu. The bottom practitioner faces immediate threat of submission, primarily armbar, while dealing with severely limited mobility and escape options. This position demands technical precision, disciplined defensive posture, and strategic escape mechanics to avoid submission while creating opportunities to return to a more favorable position.\n\nThe primary challenge from S Mount bottom is the mechanical disadvantage created by the opponent's perpendicular body position. With one leg extended over your head and the other across your torso, the top practitioner has created a structural framework that simultaneously controls your upper body while isolating your near arm for attack. Your defensive priority must be protecting the arm first, then creating space for positional escape, as exposing the arm guarantees submission against any competent opponent.\n\nDefensive strategy from S Mount bottom revolves around maintaining defensive frames, keeping your elbows tight to your body, and preventing the opponent from fully extending your arm across their body. The critical defensive principle is never straightening your arm - bent arms are exponentially more difficult to attack than extended arms. You must also control the opponent's near leg with your free hand to prevent them from stepping over your head and securing full armbar position.\n\nEscape mechanics typically involve creating space through hip movement, establishing frames against the opponent's hips, and timing explosive movements to disrupt their base before they can secure the submission. The most common escape paths lead back to full mount, half guard, or in rare cases, complete escape to guard. Each escape option requires careful timing and technical execution, as premature or poorly timed escape attempts often result in giving up the submission.\n\nMental composure under pressure is perhaps the most critical factor in S Mount bottom survival. The position naturally creates claustrophobic pressure and the imminent threat of submission can lead to panic, which invariably results in technical breakdown and submission. Maintaining calm, focusing on defensive principles, and waiting for the correct moment to escape are essential skills for any practitioner facing this position. Understanding S Mount bottom defense is a fundamental component of comprehensive BJJ defensive systems and appears regularly in competition training.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -556,12 +556,12 @@
         "relationship": "Alternative escape destination - recovery target when full escape is possible"
       },
       {
-        "name": "Elbow Escape to Guard",
-        "relationship": "Core escape technique - fundamental movement pattern for creating space from mount"
+        "name": "Trap and Roll from S Mount",
+        "relationship": "Primary reversal technique - explosive escape designed specifically for S Mount configuration"
       },
       {
-        "name": "Hip Escape to Guard",
-        "relationship": "Essential movement - primary defensive motion for escaping S Mount pressure"
+        "name": "Bridge Escape from S Mount",
+        "relationship": "Bridge-based escape - disrupts opponent's perpendicular control to create escape opportunity"
       },
       {
         "name": "Turtle",
@@ -585,32 +585,20 @@
     },
     "transitions": [
       {
-        "transition": "Elbow Escape to Guard",
-        "attempt_probability": 31
-      },
-      {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": 24
-      },
-      {
-        "transition": "Bridge and Roll",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Bridge Escape from S Mount",
-        "attempt_probability": 4
+        "transition": "Trap and Roll from S Mount",
+        "attempt_probability": 30
       },
       {
         "transition": "Frame and Shrimp from S Mount",
-        "attempt_probability": 2
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Bridge Escape from S Mount",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 17
       }
     ],
     "knowledge_assessment": [

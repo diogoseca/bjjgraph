@@ -21,37 +21,37 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin Shield Recovery",
-      "text": "From this position, attempt Shin Shield Recovery. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Shin Shield Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,25 +206,27 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (26% of attempts)
+### [[Deep Half Entry]] (34% of attempts)
 
-### [[Old School Sweep]] (10% of attempts)
+### [[Old School Sweep]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] (8% of attempts)
+### [[Underhook Sweep from Half]] (7% of attempts)
 
-### [[Shin Shield Recovery]] (16% of attempts)
+### [[Shin Shield Recovery]] (15% of attempts)
 
-### [[Half Guard Recovery]] (10% of attempts)
+### [[Half Guard Recovery]] (9% of attempts)
 
-### [[Guard Recovery]] (8% of attempts)
+### [[Hip Escape to Guard]] (7% of attempts)
 
-### [[Butterfly Hook Recovery]] (8% of attempts)
+### [[Butterfly Hook Recovery]] (7% of attempts)
 
-### [[Frame and Shrimp to Guard]] (8% of attempts)
+### [[Frame and Shrimp to Guard]] (7% of attempts)
 
-### [[Counter Leg Hook]] (4% of attempts)
+### [[Counter Leg Hook]] (3% of attempts)
 
-### [[Escape Leg Hook]] (2% of attempts)
+### [[Escape Leg Hook]] (1% of attempts)
+
+### [[Sweep from Leg Hook]] (1% of attempts)
 
 
 

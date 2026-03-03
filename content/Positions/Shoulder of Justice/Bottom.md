@@ -21,37 +21,37 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,17 +208,23 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Available Escapes
 
-### [[Shrimp Escape]] (25% of attempts)
+### [[Shrimp Escape]] (36% of attempts)
 
-### [[Elbow Escape to Guard]] (22% of attempts)
+### [[Elbow Escape to Guard]] (18% of attempts)
 
-### [[Frame and Shrimp to Guard]] (18% of attempts)
+### [[Frame and Shrimp to Guard]] (15% of attempts)
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Bridge and Roll]] (10% of attempts)
 
-### [[Technical Stand-up]] (12% of attempts)
+### [[Technical Stand-up]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (10% of attempts)
+### [[Hip Escape to Guard]] (7% of attempts)
+
+### [[Escape Shoulder of Justice]] (3% of attempts)
+
+### [[Frame from Shoulder of Justice]] (1% of attempts)
+
+### [[Frame Escape from Shoulder of Justice]] (1% of attempts)
 
 
 

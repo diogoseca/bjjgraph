@@ -544,39 +544,43 @@
     "transitions": [
       {
         "transition": "Grip Break",
-        "attempt_probability": 32
+        "attempt_probability": 39
       },
       {
         "transition": "Sitting Guard Pull",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Whizzer",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
-        "transition": "Takedown Defense",
-        "attempt_probability": 8
+        "transition": "Sprawl Defense",
+        "attempt_probability": 7
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Escape Body Lock",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Pummeling Escape from Body Lock",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Reversal from Body Lock",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

@@ -15,6 +15,7 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Scramble Position",
+  "from_position": "Scramble Position/Bottom",
   "success_rate": 50,
   "overview": "The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated.\n\nThe technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The finishing mechanics mirror the traditional omoplata - hips perpendicular to the opponent's spine, leg across the head controlling posture, and progressive hip extension driving rotational torque into the shoulder joint. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games and chain attacks from failed sweep attempts into immediate submission threats.",
   "safety_considerations": {
@@ -86,67 +87,91 @@
     "Scramble Position",
     "Closed Guard",
     "Open Guard",
-    "Spider Guard",
     "De La Riva Guard",
     "Reverse De La Riva Guard",
     "Lasso Guard",
     "Butterfly Guard",
     "Half Guard",
-    "Inverted Guard"
+    "Inverted Guard",
+    "Collar Sleeve Guard"
   ],
   "related_submissions": [
-    "Omoplata",
-    "Omoplata from Guard",
-    "Triangle Choke",
-    "Triangle from Closed Guard",
+    "Omoplata from Spider Guard",
     "Baratoplata",
-    "Gogoplata",
+    "Gogoplata Finish",
     "Armbar from Guard",
-    "Kimura from Guard",
-    "Inverted Triangle",
-    "Tarikoplata",
-    "Monoplata"
+    "Mounted Triangle Finish",
+    "Buggy Choke Finish",
+    "Gift Wrap Armbar",
+    "Kimura from Kimura Trap"
   ],
   "related_content": [
     {
       "name": "Omoplata Control",
-      "relationship": "Control position - achieved before finishing the rolling omoplata submission"
+      "relationship": "Control position achieved before finishing the rolling omoplata submission"
     },
     {
       "name": "Triangle Control",
-      "relationship": "Alternative control position - transition target when omoplata is defended"
+      "relationship": "Alternative control position when omoplata is defended by grabbing belt or turning in"
     },
     {
       "name": "Back Control",
-      "relationship": "Positional transition - follow-up when opponent rolls through the omoplata"
-    },
-    {
-      "name": "Spider Guard",
-      "relationship": "Common setup position - spider guard creates ideal arm isolation for rolling entry"
+      "relationship": "Positional transition follow-up when opponent rolls through the omoplata"
     },
     {
       "name": "Reverse De La Riva Guard",
-      "relationship": "Setup position - RDLR provides excellent momentum for the rolling entry"
+      "relationship": "Setup position providing excellent momentum for the rolling entry against pressure passers"
     },
     {
       "name": "Inverted Guard",
-      "relationship": "Positional relationship - inverted positioning creates rolling omoplata opportunities"
+      "relationship": "Positional relationship where inverted positioning creates rolling omoplata opportunities"
     },
     {
       "name": "Closed Guard",
-      "relationship": "Related guard - traditional omoplata entries that inform rolling variations"
+      "relationship": "Related guard with traditional omoplata entries that inform rolling variations"
     },
     {
       "name": "Scramble Position",
-      "relationship": "Primary setup context - rolling omoplata capitalizes on scramble dynamics"
+      "relationship": "Primary setup context where rolling omoplata capitalizes on scramble dynamics"
     },
     {
       "name": "Kimura Trap",
-      "relationship": "Alternative attack - similar arm isolation principles with different finishing mechanics"
+      "relationship": "Alternative attack using similar arm isolation principles with different finishing mechanics"
     },
     {
       "name": "Half Guard",
-      "relationship": "Transitional position - half guard sweeps can load into rolling omoplata"
+      "relationship": "Transitional position where half guard sweeps can load into rolling omoplata entries"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Guard variation providing sleeve control that facilitates rolling omoplata arm isolation"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Rolling Omoplata from Failed Scissor Sweep",
+      "description": "When your scissor sweep is defended and opponent posts their far arm, use the momentum of your sweep attempt to roll under and capture the posted arm. Your scissor sweep motion naturally loads you into the rolling position.",
+      "when_to_use": "Ideal when opponent bases heavily on their far arm to defend your scissor sweep; creates a seamless offensive chain"
+    },
+    {
+      "variation_name": "Rolling Omoplata from Spider Guard",
+      "description": "From spider guard with foot on bicep, when opponent attempts to remove your foot and posts their hand, release the foot and immediately roll toward that posted arm while maintaining control with your other leg. The spider guard control sets up perfect arm isolation.",
+      "when_to_use": "Effective against aggressive spider guard passing attempts; opponent's posted arm is already extended"
+    },
+    {
+      "variation_name": "Rolling Omoplata to Triangle Chain",
+      "description": "If opponent defends the rolling omoplata by grabbing their belt or pulling their arm back, use your leg positioning to immediately transition to a triangle choke. Your legs are already in position around their head and arm.",
+      "when_to_use": "When facing opponents who know the rolling omoplata defense; creates an offensive dilemma"
+    },
+    {
+      "variation_name": "Rolling Omoplata from Reverse De La Riva",
+      "description": "From reverse De La Riva when opponent drives their weight forward, use your RDLR hook to off-balance them while rolling backward toward their posted arm. The RDLR position provides excellent momentum for the roll.",
+      "when_to_use": "Against pressure passing attempts from RDLR; uses opponent's forward pressure against them"
+    },
+    {
+      "variation_name": "Double Rolling Omoplata (Consecutive Rolls)",
+      "description": "If the first roll doesn't fully capture the shoulder, maintain arm control and execute a second roll to adjust your angle. This addresses situations where spatial awareness or initial positioning was slightly off.",
+      "when_to_use": "When the first roll gets you close but not perfectly positioned; requires excellent control maintenance"
     }
   ],
   "attacker": {
@@ -214,19 +239,19 @@
         "counter": "Rolling through to escape (forward roll)",
         "effectiveness": "Medium",
         "your_response": "Immediately post your outside hand on the mat and distribute your weight to block their forward momentum. Follow their roll by adjusting your leg position and maintaining hip pressure on the shoulder. Transition to back control if they complete the roll.",
-        "targets_outcome": "Scramble Position"
+        "targets_outcome": "Scramble Position/Bottom"
       },
       {
         "counter": "Grabbing their own belt or gi pants to prevent arm extension",
         "effectiveness": "High",
         "your_response": "Use your leg across their head to break their posture and prevent them from maintaining the defensive grip. Alternatively, transition to a triangle choke or switch to back-take as they defend. Apply pressure with your hips to make the defensive position uncomfortable.",
-        "targets_outcome": "Scramble Position"
+        "targets_outcome": "Scramble Position/Bottom"
       },
       {
         "counter": "Pulling arm back toward their body",
         "effectiveness": "High",
         "your_response": "Anticipate this defense during the setup phase. Secure wrist control before initiating the roll, or use your legs to hook their arm and prevent retraction. If they succeed in pulling the arm back, immediately transition to triangle control or back-take opportunities.",
-        "targets_outcome": "Scramble Position"
+        "targets_outcome": "Scramble Position/Bottom"
       },
       {
         "counter": "Stacking and driving forward pressure",
@@ -386,14 +411,14 @@
       {
         "action": "Retract your arm and pull elbow tight to your body immediately when you feel the rolling entry beginning",
         "when_to_use": "During the initial rolling phase before the attacker completes the roll and positions their legs - this is the highest percentage defense window",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Scramble Position/Bottom",
         "if_successful": "Denies the arm isolation entirely, returning both grapplers to a neutral scramble with no submission threat",
         "risk": "If you retract too late, you may end up in a worse position with your arm partially trapped and the attacker's legs already in position"
       },
       {
         "action": "Forward roll through the omoplata to escape shoulder pressure and scramble to top position",
         "when_to_use": "Once the attacker has completed the roll and positioned their legs but before they have secured the perpendicular angle and hip pressure on your shoulder",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Scramble Position/Bottom",
         "if_successful": "Escapes the omoplata and creates a scramble where you may achieve top position or at minimum reset to neutral",
         "risk": "Attacker may follow your roll and transition to back control; requires space and timing to execute safely without injuring your shoulder"
       },
@@ -407,7 +432,7 @@
       {
         "action": "Posture up explosively while stacking weight onto the attacker before they complete the rolling motion",
         "when_to_use": "During the early phase of the roll when the attacker is inverted and loading onto their shoulders",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Scramble Position/Bottom",
         "if_successful": "Disrupts the rolling momentum and prevents the attacker from completing the technique, returning to a scramble or achieving top pressure",
         "risk": "If the attacker has already completed most of the roll, your forward pressure may actually help them finish positioning their legs"
       }
@@ -419,7 +444,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Scramble Position",
+        "outcome": "Scramble Position/Bottom",
         "how": "Retract arm early before roll completion or execute a forward roll through the omoplata to reset to neutral positioning where neither player has established control"
       },
       {
@@ -498,32 +523,5 @@
         "description": "Positional sparring starting from guard situations and scrambles where the attacker is actively seeking rolling omoplata entries. Defend at full intensity, chaining recognition, early prevention, and late-stage escapes as needed. Track your success rate at each defensive stage. Develop the instinct to protect extended arms during scrambles without conscious thought."
       }
     ]
-  },
-  "variations_and_setups": [
-    {
-      "variation_name": "Rolling Omoplata from Failed Scissor Sweep",
-      "description": "When your scissor sweep is defended and opponent posts their far arm, use the momentum of your sweep attempt to roll under and capture the posted arm. Your scissor sweep motion naturally loads you into the rolling position.",
-      "when_to_use": "Ideal when opponent bases heavily on their far arm to defend your scissor sweep; creates a seamless offensive chain"
-    },
-    {
-      "variation_name": "Rolling Omoplata from Spider Guard",
-      "description": "From spider guard with foot on bicep, when opponent attempts to remove your foot and posts their hand, release the foot and immediately roll toward that posted arm while maintaining control with your other leg. The spider guard control sets up perfect arm isolation.",
-      "when_to_use": "Effective against aggressive spider guard passing attempts; opponent's posted arm is already extended"
-    },
-    {
-      "variation_name": "Rolling Omoplata to Triangle Chain",
-      "description": "If opponent defends the rolling omoplata by grabbing their belt or pulling their arm back, use your leg positioning to immediately transition to a triangle choke. Your legs are already in position around their head and arm.",
-      "when_to_use": "When facing opponents who know the rolling omoplata defense; creates an offensive dilemma"
-    },
-    {
-      "variation_name": "Rolling Omoplata from Reverse De La Riva",
-      "description": "From reverse De La Riva when opponent drives their weight forward, use your RDLR hook to off-balance them while rolling backward toward their posted arm. The RDLR position provides excellent momentum for the roll.",
-      "when_to_use": "Against pressure passing attempts from RDLR; uses opponent's forward pressure against them"
-    },
-    {
-      "variation_name": "Double Rolling Omoplata (Consecutive Rolls)",
-      "description": "If the first roll doesn't fully capture the shoulder, maintain arm control and execute a second roll to adjust your angle. This addresses situations where spatial awareness or initial positioning was slightly off.",
-      "when_to_use": "When the first roll gets you close but not perfectly positioned; requires excellent control maintenance"
-    }
-  ]
+  }
 }

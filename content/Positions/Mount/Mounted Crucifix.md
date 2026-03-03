@@ -101,21 +101,25 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (20% of attempts)
+- **[[Arm Extraction]]** (32% of attempts)
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (16% of attempts)
+- **[[Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Upa Escape]]** (11% of attempts)
+- **[[Upa Escape]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (12% of attempts)
+- **[[Explosive Bridge to Turtle]]** (10% of attempts)
 
-- **[[Arm Drag Sweep]]** (5% of attempts)
+- **[[Arm Drag Sweep]]** (3% of attempts)
 
-- **[[Rolling Escape to Guard]]** (8% of attempts)
+- **[[Rolling Escape to Guard]]** (6% of attempts)
+
+- **[[Hip Escape from Mounted Crucifix]]** (1% of attempts)
+
+- **[[Bridge Escape from Mounted Crucifix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +180,27 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (12% of attempts)
+- **[[Armbar Finish]]** (18% of attempts)
 
-- **[[Rear Naked Choke]]** (11% of attempts)
+- **[[Rear Naked Choke]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** (10% of attempts)
+- **[[Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Armbar on Free Arm]]** (10% of attempts)
+- **[[Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (11% of attempts)
+- **[[Gift Wrap to Technical Mount]]** (10% of attempts)
 
-- **[[Neck Crank]]** (6% of attempts)
+- **[[Neck Crank]]** (5% of attempts)
 
-- **[[Mount to Armbar]]** (10% of attempts)
+- **[[Mount to Armbar]]** (9% of attempts)
 
-- **[[Mounted Crucifix to S Mount]]** (10% of attempts)
+- **[[Mounted Crucifix to S Mount]]** (9% of attempts)
 
-- **[[Gift Wrap Transition]]** (9% of attempts)
+- **[[Gift Wrap Transition]]** (8% of attempts)
 
-- **[[Seat Belt Control Back]]** (11% of attempts)
+- **[[Back Take from Top]]** (10% of attempts)
+
+- **[[Seat Belt Control Back]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -241,9 +247,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[High Mount]]** - Common entry position - high mount facilitates arm isolation for crucifix
 
-- **[[S Mount]]** - Alternative mount variation - shares arm isolation principles
+- **[[Modified Mount]]** - Alternative mount variation - shares arm isolation principles
 
-- **[[Technical Mount]]** - Transition option - can flow between technical mount and mounted crucifix
+- **[[3-4 Mount]]** - Transition option - can flow between 3-4 mount and mounted crucifix
 
 - **[[Back Control]]** - Primary advancement - mounted crucifix provides excellent back take opportunities
 

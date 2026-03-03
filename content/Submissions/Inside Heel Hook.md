@@ -266,7 +266,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 - [[Ashi Garami]] - Parent position family for leg entanglement control
 - [[Inside Ashi-Garami]] - Primary control position for establishing heel hook
 - [[Ashi Garami Escape]] - Defensive counters to study for complete understanding
-- [[X-Guard to Ashi Transition]] - Alternative entry pathway from guard position
+- [[X-Guard to Ashi Garami]] - Alternative entry pathway from guard position
 - [[Saddle Entry from Top]] - Transition to dominant leg entanglement position
 - [[Leg Entanglement]] - Fundamental principle underlying all ashi-garami positions
 - [[Backside 50-50]] - Alternative leg entanglement position with inside heel hook opportunities

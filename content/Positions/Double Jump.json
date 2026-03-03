@@ -290,7 +290,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Transition to Rodeo Ride",
+        "transition": "Turtle to Rodeo Ride",
         "attempt_probability": 6
       },
       {
@@ -585,46 +585,50 @@
     "transitions": [
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 39
+        "attempt_probability": 48
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "100% Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Escape Double Jump",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Reguard from Double Jump",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Sweep from Double Jump",
         "attempt_probability": 1
       }
     ],

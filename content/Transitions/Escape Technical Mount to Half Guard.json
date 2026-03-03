@@ -1,13 +1,412 @@
 {
   "name": "Escape Technical Mount to Half Guard",
-  "description": "",
-  "tags": [],
+  "description": "Master the Escape from Technical Mount to Half Guard in BJJ. Complete guide covering hip escape timing, arm protection, and guard recovery from this dominant pin.",
+  "tags": [
+    "bjj",
+    "escape",
+    "technical-mount",
+    "half-guard",
+    "guard-recovery",
+    "defensive",
+    "hip-escape",
+    "mount-escape"
+  ],
   "from_position": "Technical Mount/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 100,
+      "probability": 40,
       "result": "success"
+    },
+    {
+      "to": "Technical Mount/Bottom",
+      "probability": 38,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 13,
+      "result": "counter"
+    },
+    {
+      "to": "Armbar Control/Bottom",
+      "probability": 9,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 40,
+  "overview": "The Escape from Technical Mount to Half Guard is one of the highest-priority defensive techniques in Brazilian Jiu-Jitsu, representing the primary guard recovery pathway from one of the most dangerous pinning positions in the art. Technical mount creates immediate armbar and triangle threats through the stepped leg configuration, making escape both urgent and technically demanding. The bottom player must coordinate arm protection, hip escape timing, and leg insertion to recover to the relative safety of half guard, where legitimate offensive options become available.\n\nThe success of this escape hinges on the fundamental principle that every attack creates a defensive opportunity. When the top player commits weight forward for submission setups, their hip pressure momentarily decreases, opening windows for the explosive hip escape movement that forms the core of this technique. The bottom player exploits this biomechanical reality by timing their shrimp movement to coincide with the top player's offensive weight shifts, threading their knee between bodies to establish half guard structure before the top player can re-settle.\n\nThis escape is particularly important because it transforms an extremely dangerous position into one with legitimate offensive options. Half guard bottom, while not dominant, provides sweeping opportunities, back takes, and further guard recovery pathways that are entirely unavailable from technical mount bottom. The ability to consistently execute this escape under pressure is a hallmark of competent defensive BJJ at purple belt and above, and distinguishes practitioners who can survive bad positions from those who can systematically recover from them.",
+  "conditions": [
+    "Bottom player is in Technical Mount with at least one arm not fully trapped in armbar position",
+    "Bottom player retains enough space to initiate bridge and hip escape movement despite top pressure",
+    "Top player's weight shifts during submission setup or position adjustment, creating momentary space at hips",
+    "Bottom player maintains defensive frames preventing complete flattening and chest-to-chest compression"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Knee Shield Recovery",
+      "description": "Insert knee shield across opponent's torso first to create a strong barrier and distance management tool before fully committing to half guard hooks. The shin acts as a frame that prevents the top player from re-settling into technical mount while you consolidate the half guard position.",
+      "when_to_use": "When the top player is heavy and likely to immediately attempt to re-pass, the knee shield provides a more defensible transitional structure than going straight to standard half guard."
+    },
+    {
+      "variant_name": "Underhook Escape",
+      "description": "Fight for the underhook on the nearside arm during the hip escape movement, establishing dominant upper body control simultaneously with the guard recovery. This creates an immediately offensive half guard position rather than a purely defensive one.",
+      "when_to_use": "When the top player's arm positioning leaves space for the underhook during the weight shift, or when you have confidence in your half guard sweeping game and want to arrive in an attacking position."
+    },
+    {
+      "variant_name": "Deep Half Entry",
+      "description": "Thread your head underneath the opponent during the hip escape to enter deep half guard directly rather than standard half guard. This bypasses the standard recovery and places you in a position with immediate sweeping leverage.",
+      "when_to_use": "When the top player drives heavy forward pressure during your escape attempt, using their momentum to pull them over your body and into the deep half configuration."
+    }
+  ],
+  "position_integration": "This escape serves as the primary defensive recovery pathway from one of BJJ's most dangerous positions. Technical Mount Bottom feeds directly into the Half Guard system, where the practitioner gains access to sweeps, back takes, and further guard recoveries. The escape bridges the gap between survival-mode defensive positioning and the rich offensive platform that Half Guard Bottom provides. Mastery of this technique is essential for any complete defensive BJJ game, as Technical Mount represents a common attacking position reached through mount offense and armbar setups. Without a reliable escape to half guard, practitioners remain trapped in a cycle of submission defense that inevitably fails against persistent attackers.",
+  "related_content": [
+    {
+      "name": "Technical Mount",
+      "relationship": "Starting position - the dominant mount variation from which this escape is initiated"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position - the guard recovered after successful escape execution"
+    },
+    {
+      "name": "Bridge from Technical Mount",
+      "relationship": "Complementary escape - uses bridge mechanics that can be combined with or precede this hip escape"
+    },
+    {
+      "name": "Back Turn from Technical Mount",
+      "relationship": "Alternative escape - turning into the top player rather than hip escaping away"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position - standard mount from which technical mount is derived"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter position - where the escaper ends up if the top player capitalizes on the turn"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Counter position - submission threat if arm protection fails during escape"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Recovery variation - half guard sub-position commonly established during this escape"
+    },
+    {
+      "name": "Armbar from Technical Mount",
+      "relationship": "Primary submission threat - the attack this escape must defend against during execution"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Related mount variation - shares stepped leg configuration with similar escape mechanics"
+    }
+  ],
+  "attacker": {
+    "name": "Escape Technical Mount to Half Guard Attacker",
+    "description": "Complete guide to escaping Technical Mount to Half Guard in BJJ. Learn hip escape timing, arm protection mechanics, and knee insertion techniques for reliable guard recovery.",
+    "overview": "From the bottom of Technical Mount, the escaping player faces one of BJJ's most urgent defensive scenarios. The stepped leg creates immediate armbar and triangle threats that demand a coordinated response combining arm protection, explosive hip movement, and precise leg insertion. The escape requires reading the top player's weight distribution and timing the hip escape to coincide with forward weight shifts during submission attempts. Success depends on maintaining disciplined arm protection throughout the entire sequence while generating enough hip movement to create space for the knee insertion that establishes half guard. This is not a technique that can be muscled through—it requires precise timing, proper mechanics, and the composure to execute under significant pressure.",
+    "key_principles": [
+      "Arm safety is non-negotiable throughout the entire escape sequence—a momentary lapse in elbow discipline converts escape attempts into finished armbars",
+      "Time the hip escape to coincide with the top player's forward weight shift during submission setup, exploiting the momentary decrease in hip pressure",
+      "Bridge before you shrimp—the bridge creates the initial space that makes the subsequent hip escape possible and effective",
+      "Escape toward the posted leg side where the top player's base is strongest but their ability to follow your hip movement is most limited",
+      "The knee insertion must be aggressive and committed—a half-inserted knee gets cleared easily and wastes the escape window",
+      "Arrive in half guard with immediate structure, not just entangled legs—establish frames or underhook before the top player can re-pass"
+    ],
+    "setup_requirements": [
+      "Threatened arm tucked tight with elbow against ribs and hand gripping own lapel, collar, or opposite shoulder to prevent isolation",
+      "Free arm positioned as a defensive frame against opponent's hip or chest with elbow bent at approximately 90 degrees",
+      "Hips loaded for explosive bridge and hip escape movement with feet positioned for maximum power generation",
+      "Mental recognition of opponent's weight distribution pattern, identifying when forward shifts create escape windows",
+      "Breathing control established despite chest compression to sustain the energy needed for explosive escape movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Protect Threatened Arm",
+        "description": "Immediately tuck the elbow of the arm closest to the stepped leg tight against your ribs. Grip your own lapel, collar, or opposite shoulder with that hand to create a structural lock that prevents the top player from straightening or isolating the arm. This grip must be maintained throughout the entire escape sequence without exception."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Defensive Frame",
+        "description": "Position your free arm as a frame against the top player's hip or chest with your elbow bent at approximately 90 degrees. The frame should be structural rather than muscular—use bone alignment to resist pressure rather than burning energy pushing. This frame prevents complete chest-to-chest compression and maintains the minimum space needed for escape."
+      },
+      {
+        "step_number": 3,
+        "action": "Read Weight Distribution",
+        "description": "Feel for the top player's weight shifts through your frame and body contact. When they commit weight forward toward armbar setup or shift laterally for submission angles, their hip pressure decreases momentarily. This is your escape window. Do not rush—premature attempts waste energy and expose your arm to attack."
+      },
+      {
+        "step_number": 4,
+        "action": "Bridge Explosively",
+        "description": "When you detect the weight shift, drive your hips upward explosively toward the ceiling and slightly toward the posted leg side. The bridge should come from hip extension, not neck strain. This movement disrupts the top player's settled weight, creates separation between your hips and the mat, and loads your body for the subsequent hip escape movement."
+      },
+      {
+        "step_number": 5,
+        "action": "Hip Escape Toward Posted Leg",
+        "description": "Immediately following the bridge apex, shrimp your hips away from the opponent toward the side of their posted leg. Drive off your far foot to generate lateral hip movement while maintaining your arm protection and frame. The hip escape creates the critical space between your torso and the opponent's body where your knee will be inserted."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert Knee Shield",
+        "description": "Thread your nearside knee into the space created by the hip escape, positioning your shin across the opponent's torso as a barrier between your bodies. The knee insertion must be aggressive and committed—drive the knee through rather than tentatively placing it. Your shin creates a structural frame that prevents the top player from re-settling their weight."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Half Guard Hooks",
+        "description": "Lock your legs around the opponent's nearest leg, trapping it between your thighs with your ankles crossed or feet hooked. Secure the entanglement at or below the knee to create the fundamental half guard structure. The leg lock should be tight enough to prevent immediate extraction but positioned to allow your own hip mobility for subsequent half guard offense."
+      },
+      {
+        "step_number": 8,
+        "action": "Recover Half Guard Posture",
+        "description": "Turn to face your opponent and establish proper half guard positioning. Fight for the underhook on the trapped leg side or establish a strong knee shield frame. Get onto your side rather than remaining flat on your back. The first two seconds of half guard determine whether you arrive in an offensive or defensive configuration—use them to establish structure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives heavy crossface pressure and hip control to prevent any space creation for hip escape",
+        "effectiveness": "High",
+        "your_response": "Use micro-bridges to test their weight commitment, wait for their offensive transition rather than forcing the escape, and maintain frame discipline until a genuine window opens",
+        "targets_outcome": "Technical Mount/Bottom"
+      },
+      {
+        "counter": "Top player immediately accelerates armbar attack when feeling hip escape initiation, using your movement to complete the submission",
+        "effectiveness": "High",
+        "your_response": "Maintain absolute arm protection throughout—if you feel the armbar accelerating, abort the escape and defend the submission with clasped hands and stacking defense before reattempting",
+        "targets_outcome": "Armbar Control/Bottom"
+      },
+      {
+        "counter": "Top player transitions to back control when bottom player turns to their side during hip escape, following the rotation",
+        "effectiveness": "Medium",
+        "your_response": "Keep your back as close to the mat as possible during the shrimp rather than turning fully to your side, and immediately establish half guard hooks before the top player can insert their own hooks",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Top player resets position by driving hips back down and re-establishing technical mount after initial escape attempt",
+        "effectiveness": "Medium",
+        "your_response": "Chain multiple hip escape attempts in sequence rather than relying on a single explosive movement—each attempt creates slightly more space that accumulates toward successful knee insertion",
+        "targets_outcome": "Technical Mount/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending the threatened arm to push or post during the escape attempt",
+        "consequence": "The straightened arm is immediately caught by the stepped leg configuration, converting the escape attempt into a finished armbar with high success rate",
+        "correction": "Keep the threatened arm bent with elbow welded to ribs throughout the entire escape sequence, gripping own lapel or opposite shoulder to create a structural lock against extension"
+      },
+      {
+        "error": "Attempting the hip escape without bridging first to create initial space",
+        "consequence": "The shrimp has no room to generate lateral movement because the opponent's weight pins the hips to the mat, wasting energy without meaningful position change",
+        "correction": "Always bridge before shrimping—the bridge lifts the opponent's weight and creates the vertical space that the subsequent hip escape converts into lateral distance"
+      },
+      {
+        "error": "Hip escaping away from the posted leg rather than toward it",
+        "consequence": "Escaping toward the hooked leg side moves into the opponent's strongest control and makes it easier for them to follow your hip movement and re-settle",
+        "correction": "Shrimp toward the posted leg side where the opponent's base structure limits their ability to pursue your hip escape and where the angular geometry favors knee insertion"
+      },
+      {
+        "error": "Inserting the knee tentatively or with insufficient commitment during the escape window",
+        "consequence": "A partially inserted knee is easily cleared by the top player, who re-settles into technical mount with the escape window now closed and your energy spent",
+        "correction": "Drive the knee through aggressively once the space is created—the insertion must be committed and forceful, establishing the shin as a solid barrier before the top player can react"
+      },
+      {
+        "error": "Failing to establish proper half guard structure immediately after knee insertion",
+        "consequence": "The top player passes the loosely established half guard within seconds, ending up in side control or re-establishing mount without meaningful resistance",
+        "correction": "Lock legs around the trapped leg immediately after insertion, then fight for underhook or establish knee shield within the first two seconds of arriving in half guard"
+      },
+      {
+        "error": "Panicking and making multiple rapid uncoordinated escape attempts without arm protection",
+        "consequence": "Wild movements expose arms, neck, and back to multiple submission and positional threats, burning energy while creating opportunities for the top player",
+        "correction": "Execute each escape attempt as a deliberate sequence—protect arm, bridge, shrimp, insert knee—rather than thrashing. Failed attempts should reset to protected position before reattempting"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics Isolation",
+        "focus": "Individual movement components",
+        "description": "Practice each component of the escape in isolation: arm protection grip, bridging mechanics, hip escape movement, and knee insertion. Partner holds technical mount statically while you drill each piece separately for 10 repetitions per side. No resistance—focus purely on body mechanics and muscle memory."
+      },
+      {
+        "phase": "Phase 2: Sequence Integration",
+        "focus": "Connecting the full escape chain",
+        "description": "Combine all components into the complete escape sequence with a cooperative partner. Drill the full chain—protect arm, bridge, shrimp, insert knee, establish half guard—as one fluid movement. Partner provides no resistance but maintains proper technical mount position. Complete 20 full repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Timing Development",
+        "focus": "Reading weight shifts and creating windows",
+        "description": "Partner adds light offensive pressure and occasional armbar attempts from technical mount. Practice timing the escape to coincide with weight shifts during their attacks. Resistance at 40-60%. Focus on recognizing the correct moment to initiate rather than forcing the escape on your own timing."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Executing under increasing pressure",
+        "description": "Partner applies 70-90% resistance with genuine submission attempts. Work 2-minute rounds starting from technical mount bottom. Track success rate and identify which phase of the escape fails most frequently. Adjust training focus based on failure patterns."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Applying the escape in sparring",
+        "description": "Positional sparring starting from technical mount. Both players go at full competitive intensity. Top player scores for submissions and maintaining position, bottom player scores for successful escapes to half guard or better. Three 3-minute rounds per training session."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the hip escape from Technical Mount Bottom?",
+        "answer": "The optimal window occurs when the top player shifts their weight forward to set up the armbar or triangle. This forward commitment decreases hip pressure on the bottom player's body, creating space for the hip escape. You should feel their weight move toward your head and shoulders, momentarily lightening the load on your hips. Initiating the hip escape during this weight shift exploits the brief mechanical disadvantage rather than trying to move against their settled weight."
+      },
+      {
+        "question": "Your opponent begins shifting weight forward to set up the armbar—how do you coordinate your escape with this movement?",
+        "answer": "Maintain your arm protection grip while using the forward weight shift as your trigger. Bridge explosively as their weight moves forward, riding their momentum upward. Immediately follow with the hip escape toward their posted leg side. The key is that their forward commitment makes it difficult for them to follow your lateral hip movement. You are converting their vertical weight shift into your lateral escape—their attack becomes your escape window. Never release arm protection during this coordination."
+      },
+      {
+        "question": "What is the most critical arm position throughout the entire escape sequence?",
+        "answer": "The threatened arm—the one closest to the stepped leg—must remain bent with the elbow tight against the ribs at all times. The hand should grip your own lapel, collar, or opposite shoulder to create a structural lock that prevents forced extension. This position must be maintained from the moment you recognize you are in technical mount until you have fully established half guard. Any momentary straightening of this arm during the escape creates an immediate armbar opportunity that the top player will exploit."
+      },
+      {
+        "question": "Why should you hip escape toward the posted leg side rather than away from it?",
+        "answer": "The posted leg is the top player's base—it provides their stability but also limits their lateral mobility on that side. When you shrimp toward the posted leg, the top player cannot easily follow your hip movement because their base structure prevents lateral pursuit in that direction. Conversely, escaping toward the hooked leg side moves you into their strongest control zone where they can follow your movement with their connected leg. The posted leg side also creates the optimal angle for inserting your knee between bodies."
+      },
+      {
+        "question": "What grip should your threatened hand maintain during the escape to prevent arm isolation?",
+        "answer": "Grip your own lapel at chest level, grab your opposite shoulder, or clasp both hands together in a gable grip if both arms are threatened. The lapel grip is generally preferred because it creates a structural anchor that the top player must break before they can extend your arm. The grip transforms arm protection from a muscular effort into a structural one—you are using fabric or bone alignment to resist extension rather than relying on bicep strength against their entire body leverage."
+      },
+      {
+        "question": "Your opponent recognizes your hip escape and begins transitioning to back control—what adjustment do you make?",
+        "answer": "Immediately prioritize establishing half guard hooks over continued hip escape. The moment you feel them shift to follow your rotation toward back control, stop the lateral shrimp and aggressively insert your knee to trap their leg. Half guard—even a poor half guard—prevents them from fully establishing back control by keeping one of their legs entangled. If you have already turned too far, fight to keep your back toward the mat rather than giving them a clean path to your back, and work to insert a butterfly hook to disrupt their hook insertion."
+      },
+      {
+        "question": "What role does the bridge play before the hip escape, and why is it insufficient as a standalone escape?",
+        "answer": "The bridge creates vertical space by lifting the opponent's weight off your hips, disrupting their settled base and making the subsequent hip escape possible. However, the bridge alone is insufficient because the opponent will simply ride the bridge and re-settle when you come back down—the asymmetric base of technical mount is specifically designed to resist bridging. The bridge must be immediately followed by the hip escape, which converts the temporary vertical space into permanent lateral distance. Together they form an integrated sequence; either movement alone fails against a competent top player."
+      },
+      {
+        "question": "After inserting your knee shield, what must you do immediately to prevent the top player from re-passing?",
+        "answer": "Lock your legs around the opponent's nearest leg to establish the half guard entanglement, then immediately fight for the underhook on the trapped leg side or reinforce your knee shield with proper shin-across-torso positioning. You must get onto your side facing the opponent rather than remaining flat on your back. The first two seconds after knee insertion determine whether you arrive in a functional half guard or a compromised position that gets passed immediately. Establishing structural control—either underhook or knee shield—before the top player adjusts is critical to making the escape permanent."
+      }
+    ],
+    "safety_considerations": "This escape carries moderate injury risk primarily from arm exposure during hip escape movements. If your arm becomes trapped during the escape attempt, immediately prioritize defending the armbar rather than continuing the escape—tap early if caught in a submission during the transition. Avoid explosive movements when your arm is not properly protected, as forced escapes under armbar threat can result in elbow hyperextension injuries. Bridge movements should come from hip extension, not neck strain, to prevent cervical injury. During training, communicate with partners about intensity level and practice at controlled speeds before adding resistance. Partners maintaining technical mount should apply submissions at training-appropriate speed to allow proper defensive recognition."
+  },
+  "defender": {
+    "name": "Escape Technical Mount to Half Guard Defender",
+    "description": "Defend against the Technical Mount to Half Guard escape in BJJ. Learn to maintain position, recognize escape attempts, and capitalize with submissions or back takes.",
+    "overview": "As the top player in Technical Mount facing an escape attempt to half guard, your objective is to maintain the dominant position while capitalizing on the escape attempt with submissions or positional upgrades. The bottom player's escape relies on coordinated hip escape timing and knee insertion, both of which create brief vulnerabilities you can exploit. Your defensive strategy combines heavy pressure maintenance to deny escape windows with immediate offensive transitions when you recognize escape initiation. Understanding the escape mechanics allows you to anticipate the bottom player's movements and position yourself to either shut down the escape entirely or convert their defensive movement into an offensive opportunity for armbar, back take, or position re-consolidation.",
+    "key_principles": [
+      "Maintain heavy hip-to-shoulder pressure that eliminates the space needed for bridging and hip escape initiation",
+      "Keep arm control tight throughout—the moment arm control is compromised, the escape becomes viable and your submission threat disappears",
+      "Recognize hip escape initiation through tactile cues and immediately decide between re-settling position or transitioning to submission",
+      "Use the bottom player's lateral movement against them by following their rotation into back control rather than fighting to hold mount",
+      "Control the bottom player's nearside hip with your posted leg positioning to limit the effectiveness of their shrimp movement",
+      "Maintain offensive pressure that forces the bottom player to defend submissions rather than execute escapes"
+    ],
+    "recognition_cues": [
+      "Bottom player begins bridging with increased hip drive, creating upward force against your settled weight—this typically precedes a hip escape attempt",
+      "Bottom player's far foot repositions to generate lateral pushing force, indicating preparation for shrimp movement toward your posted leg side",
+      "Bottom player's free arm shifts from passive defense to active framing against your hip or chest, creating the space architecture needed for escape",
+      "Bottom player's head turns away from the stepped leg as they prepare to shrimp, changing their body angle from flat to angled",
+      "Decreased resistance in arm control as bottom player prioritizes hip movement over arm protection during the escape sequence"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive heavy crossface and hip pressure to re-flatten the bottom player and eliminate escape space",
+        "when_to_use": "At the earliest recognition of bridge or hip escape initiation, before significant lateral movement occurs",
+        "targets_outcome": "Technical Mount/Bottom",
+        "if_successful": "Bottom player is flattened back to starting position with escape attempt neutralized and energy expended",
+        "risk": "Committing weight forward to re-flatten may briefly lighten hip pressure, potentially accelerating the escape if timing is off"
+      },
+      {
+        "action": "Immediately accelerate armbar attack by swinging leg over and sitting back as the bottom player's hip escape creates the ideal finishing angle",
+        "when_to_use": "When the bottom player initiates the escape and momentarily compromises arm protection during the hip escape movement",
+        "targets_outcome": "Armbar Control/Bottom",
+        "if_successful": "Convert the escape attempt directly into an armbar finish, capitalizing on the brief arm exposure during transition",
+        "risk": "If the arm is properly protected, the armbar attempt may fail and the resulting position change could assist their escape"
+      },
+      {
+        "action": "Follow the bottom player's rotation and transition to back control by establishing seat belt grip and inserting hooks",
+        "when_to_use": "When the bottom player successfully creates lateral distance and begins turning to their side during the hip escape",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Upgrade from technical mount to back control, trading one dominant position for another with fresh submission opportunities",
+        "risk": "If the bottom player establishes half guard hooks before you secure back control, you end up in a guard passing scenario"
+      },
+      {
+        "action": "Re-consolidate to standard mount by driving the posted leg back and re-establishing symmetric mount position",
+        "when_to_use": "When the escape attempt partially succeeds but knee insertion is incomplete, allowing you to clear the knee and resettle",
+        "targets_outcome": "Technical Mount/Bottom",
+        "if_successful": "Return to mount position with the option to reset technical mount or work from standard mount control",
+        "risk": "Transitioning back to mount may give the bottom player enough time to fully insert their knee and establish half guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Technical Mount/Bottom",
+        "how": "Maintain heavy settled pressure with strong arm control, deny space through hip-to-shoulder connection, and immediately re-flatten any bridging or hip escape attempts before they generate meaningful lateral distance"
+      },
+      {
+        "outcome": "Armbar Control/Bottom",
+        "how": "Recognize the escape initiation and immediately accelerate the armbar attack, using the bottom player's hip escape movement to create the ideal armbar finishing angle. Their lateral movement often exposes the arm they are trying to protect if the timing is right"
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "Allow the partial escape and follow the bottom player's rotation rather than fighting it. Release arm control, establish seat belt grip, and insert hooks as they turn to their side. Convert their escape momentum into your positional advancement"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static in technical mount without maintaining active offensive pressure",
+        "consequence": "The bottom player can rest, recover composure, and choose the optimal moment to execute their escape without time pressure",
+        "correction": "Maintain constant submission threat through arm control and armbar positioning, forcing the bottom player to divide attention between defense and escape"
+      },
+      {
+        "error": "Fighting the hip escape laterally by driving sideways instead of adjusting position",
+        "consequence": "Burns energy in a lateral tug-of-war that the bottom player often wins due to having the mat as a pushing surface, while creating scramble positions",
+        "correction": "Either re-settle weight vertically to flatten the escape or flow with the lateral movement into back control, converting the escape into a positional transition in your favor"
+      },
+      {
+        "error": "Releasing arm control prematurely to establish frames or grips during the escape attempt",
+        "consequence": "Eliminates the armbar threat that keeps the bottom player's arms busy, freeing them to use both arms for frames and accelerating the escape",
+        "correction": "Maintain wrist and elbow control on the threatened arm until you make a deliberate decision to transition to back control or re-consolidate mount"
+      },
+      {
+        "error": "Allowing the knee insertion without immediately addressing it through clearing or position adjustment",
+        "consequence": "Once the knee is fully inserted with half guard hooks established, the escape has succeeded and you face a guard passing scenario instead of a dominant mount position",
+        "correction": "The moment you feel a knee entering between your bodies, immediately work to clear it by driving your hip through or backstep to prevent half guard establishment"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing to escape to half guard?",
+        "answer": "The earliest cue is repositioning of the bottom player's far foot to generate pushing force for the hip escape. Before any visible hip movement occurs, the foot slides to a position that allows lateral driving. You may also feel increased tension through their bridge as they load their hips for the explosive movement. Recognizing this preparatory phase gives you time to increase pressure or begin your own transition before the escape attempt fully develops."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the bottom player begin to hip escape?",
+        "answer": "Drop your weight immediately by driving your hips toward the mat and increasing shoulder-to-chest pressure on the side the bottom player is escaping toward. Your posted leg should shift to block their hip movement by angling the shin to cut off their shrimp path. Simultaneously tighten your arm control to maintain the armbar threat—the combination of increased pressure and submission threat forces them to abort the escape or risk arm exposure. Avoid rising up, which creates the space they need."
+      },
+      {
+        "question": "Your opponent successfully inserts a knee between your bodies during the escape—what is your best immediate response?",
+        "answer": "You have a brief window before they establish full half guard hooks. First option: drive your hip through their knee shield aggressively to clear the knee and re-establish mount before they lock their legs. Second option: if the knee is too well-established to clear, immediately transition to half guard top with strong crossface and underhook, accepting the position change but maintaining top control. The worst response is sitting in a compromised position between technical mount and half guard—commit to either clearing the knee or establishing dominant half guard top."
+      },
+      {
+        "question": "When should you transition from maintaining technical mount to taking the back during an escape attempt?",
+        "answer": "Transition to back control when the bottom player has created enough lateral distance that re-flattening them requires significant energy expenditure, and they are turning to their side during the hip escape. The key indicator is when their far shoulder lifts off the mat—this rotation creates the pathway to their back. Release arm control, establish seat belt grip immediately, and follow their rotation. The decision must be made quickly—hesitating leaves you in no-man's land where you lose both technical mount control and the back take opportunity."
+      },
+      {
+        "question": "Why is maintaining offensive pressure critical for preventing the escape, even when you feel secure in technical mount?",
+        "answer": "Constant submission threat forces the bottom player to allocate their attention and arm positioning toward defense rather than escape. If you sit passively in technical mount, the bottom player can focus entirely on timing their hip escape and knee insertion without worrying about immediate submission danger. The armbar threat specifically keeps their threatened arm occupied with protection, which means they have fewer limbs available for framing and escape movement. Active offensive pressure creates a defensive tax that makes escape execution significantly more difficult."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Position Maintenance",
+        "focus": "Holding technical mount against escape attempts",
+        "description": "Partner attempts the hip escape to half guard at 50% resistance. Focus on recognizing escape initiation cues and immediately increasing pressure to shut down the attempt. Work 2-minute rounds maintaining technical mount without transitioning. Track how many escape attempts you can neutralize per round."
+      },
+      {
+        "phase": "Phase 2: Counter Recognition",
+        "focus": "Identifying optimal moments to counter-attack",
+        "description": "Partner attempts escapes at 70% resistance. Practice the decision tree: when to re-flatten, when to accelerate the armbar, and when to take the back. Each round, commit to one counter strategy and evaluate its effectiveness. Develop pattern recognition for which counter works against which escape timing."
+      },
+      {
+        "phase": "Phase 3: Transition Flow",
+        "focus": "Flowing between maintenance and counter-attacks",
+        "description": "Full resistance positional sparring from technical mount. Practice reading the escape attempt and seamlessly transitioning between maintaining position, attacking the armbar, and taking the back based on the bottom player's defensive choices. Score for successful submissions, position maintenance over 30 seconds, and clean transitions to back control."
+      }
+    ]
+  }
 }

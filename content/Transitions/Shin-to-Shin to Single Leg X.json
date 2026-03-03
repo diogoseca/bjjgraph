@@ -1,10 +1,15 @@
 {
   "name": "Shin-to-Shin to Single Leg X",
-  "description": "TODO: Write 150-160 character SEO description for Shin-to-Shin to Single Leg X.",
+  "description": "Master the Shin-to-Shin to Single Leg X-Guard transition in BJJ. Learn entry mechanics, hip threading, hook placement, and pathways to sweeps and leg attacks.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "shin-to-shin",
+    "single-leg-x-guard",
+    "guard-transition",
+    "open-guard",
+    "leg-entanglement",
+    "sweep-entry"
   ],
   "from_position": "Shin-to-Shin Guard/Bottom",
   "outcomes": [
@@ -25,114 +30,369 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Shin-to-Shin to Single Leg X.",
+  "overview": "The Shin-to-Shin to Single Leg X-Guard transition is one of the most critical entries in modern open guard systems, connecting the dynamic shin-to-shin position to the powerful sweeping and leg lock platform of Single Leg X-Guard. This transition exploits a fundamental biomechanical advantage: when the top player's weight loads onto their trapped leg during clearing attempts or natural weight shifts, the bottom player threads underneath to establish the SLX hook configuration. The entry capitalizes on the dilemma inherent in shin-to-shin guard—opponents who aggressively attempt to clear the shin expose the exact leg threading pathways needed for SLX entry, while passive opponents allow the bottom player to build the entry at their own pace.\n\nThe technical execution demands precise coordination between the inside leg wrap, hip repositioning, and upper body grip management. The bottom player must maintain enough shin pressure to keep the opponent's weight committed while simultaneously beginning the threading motion with their inside leg around the opponent's ankle. Success hinges on getting the hips underneath the opponent's center of gravity before they can retract or backstep away. Once the inside leg wraps the ankle and the outside foot hooks the hip, the position transforms from a distance management guard into an offensive platform threatening sweeps in multiple directions and direct entries to leg entanglements.\n\nWithin the broader guard system, this transition represents one branch of a decision tree that includes entries to X-Guard, outside ashi garami, and direct shin-to-shin sweeps. The ability to threaten multiple transitions from the same starting position creates the offensive dilemmas that make shin-to-shin effective at competition level. Practitioners who master this entry gain a reliable pathway from seated guard engagement to one of the most dominant attacking positions in modern grappling.",
   "conditions": [
-    "TODO"
+    "Active shin-to-shin connection with perpendicular pressure across opponent's lower tibia",
+    "Opponent standing or in combat base with weight loaded onto the trapped leg",
+    "At least one upper body grip controlling opponent's posture or preventing disengagement",
+    "Free leg positioned to thread underneath opponent's trapped leg without obstruction",
+    "Opponent's hips within threading range and not backing away beyond connection distance"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Heel Drag SLX Entry",
+      "description": "Using a heel drag on the mat to assist threading the inside leg underneath the opponent's trapped leg, reducing the hip travel distance needed and making the entry more compact against wide-stance opponents.",
+      "when_to_use": "When the opponent maintains a wide stance that creates additional clearance for the threading path but requires more hip travel to get underneath their center of gravity."
+    },
+    {
+      "variant_name": "Collar Drag to SLX",
+      "description": "Combining a sharp collar drag to break the opponent's posture forward, using their forward momentum to create the weight commitment and angle needed for immediate SLX entry without requiring prolonged shin pressure buildup.",
+      "when_to_use": "When the opponent maintains strong upright posture that resists normal weight loading through the shin connection, requiring an explosive pulling action to break their balance forward."
+    },
+    {
+      "variant_name": "Ankle Grip Assisted Entry",
+      "description": "Securing a direct hand grip on the opponent's ankle before initiating the inside leg thread, providing additional control that prevents the opponent from retracting their leg during the transition and allowing a more controlled entry sequence.",
+      "when_to_use": "When the opponent has been actively clearing the shin connection and you need additional control to prevent leg retraction during the threading phase."
     }
   ],
-  "position_integration": "TODO: Write position integration for Shin-to-Shin to Single Leg X.",
+  "position_integration": "The Shin-to-Shin to Single Leg X-Guard transition occupies a central node in the modern open guard ecosystem, serving as the primary pathway connecting distance management guards to powerful sweeping and leg attack platforms. This entry integrates with the broader guard retention system where shin-to-shin, butterfly, De La Riva, and X-Guard positions form an interconnected web of attacking options. Once in Single Leg X-Guard, practitioners can chain to sweeps, X-Guard transitions, or direct entries to ashi garami positions. Mastering this transition enables threatening multiple pathways from shin-to-shin, creating offensive dilemmas that force defensive reactions and open further attacking opportunities throughout the entire guard game.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Single Leg X-Guard",
+      "relationship": "Target position achieved on successful entry, providing sweeping and leg attack platform"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position accessible from SLX for additional sweep options and control"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary open guard sharing entry mechanics and sweeping principles"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Close-range alternative guard when opponent drops weight during shin-to-shin engagement"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Leg entanglement pathway accessible from SLX for heel hook attacks"
+    },
+    {
+      "name": "Shin-to-Shin Sweep",
+      "relationship": "Alternative sweeping attack from the same starting position"
+    },
+    {
+      "name": "SLX to Ashi Garami",
+      "relationship": "Follow-up transition chaining from target SLX position to leg locks"
+    },
+    {
+      "name": "Single Leg X Sweep",
+      "relationship": "Primary sweep attack available after achieving the SLX position"
+    },
+    {
+      "name": "Backstep from Single Leg X",
+      "relationship": "Opponent's primary counter-passing technique to defend against from SLX"
+    },
+    {
+      "name": "K-Guard to Single Leg X",
+      "relationship": "Alternative entry pathway to the same target position from different guard"
     }
   ],
   "attacker": {
     "name": "Shin-to-Shin to Single Leg X Attacker",
-    "description": "TODO: Write attacker description for Shin-to-Shin to Single Leg X.",
-    "overview": "TODO: Write attacker overview for Shin-to-Shin to Single Leg X.",
+    "description": "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Step-by-step guide covering shin pressure management, leg threading mechanics, and hook establishment for BJJ.",
+    "overview": "Executing the Shin-to-Shin to Single Leg X-Guard transition requires understanding the precise moment when your shin pressure creates enough weight commitment on the opponent's trapped leg to allow safe threading of your inside leg. The attacker must coordinate upper body grip control with lower body threading mechanics, maintaining constant pressure on the shin connection until the inside leg wrap secures the ankle. The transition is most effective when disguised within the flow of normal shin-to-shin guard activity, making it appear as a natural continuation of guard play rather than a telegraphed entry attempt. Mastering the timing, angle, and grip coordination transforms this from a forced entry into an opportunistic attack that capitalizes on the opponent's weight shifts and clearing reactions.",
     "key_principles": [
-      "TODO"
+      "Maintain active shin pressure until the inside leg begins threading to prevent early disengagement by the opponent",
+      "Use upper body grips as pulling anchors to commit the opponent's weight over their trapped leg during entry",
+      "Thread the inside leg smoothly and deeply around the ankle before attempting to establish the hip hook",
+      "Shift hips underneath the opponent's center of gravity simultaneously with the leg thread, not after",
+      "Establish the outside foot hip hook immediately after the inside leg secures the ankle wrap",
+      "Disguise the entry within normal shin-to-shin guard activity to prevent early defensive reactions"
     ],
     "setup_requirements": [
-      "TODO"
+      "Active shin-to-shin connection with perpendicular pressure across opponent's lower tibia maintaining constant base compromise",
+      "Upper body grip established on sleeve, collar, or wrist to prevent opponent from backing away and to load their weight",
+      "Opponent's weight loaded onto the trapped leg through natural stance or pressure induced by grips and shin connection",
+      "Free leg positioned with clear threading path underneath opponent's trapped leg without obstruction from their stance",
+      "Hips angled toward the trapped leg side to minimize the threading distance required for inside leg entry"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Reinforce Shin Connection",
+        "description": "Drive your shin across the opponent's lower tibia with increased perpendicular pressure, ensuring your foot hooks behind their calf to prevent them from simply stepping back and disengaging the connection entirely."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Upper Body Grips",
+        "description": "Establish a controlling grip on the opponent's same-side sleeve or wrist while your other hand controls their collar or far-side lapel, creating a pulling anchor that prevents disengagement and loads their weight forward over the trapped leg."
+      },
+      {
+        "step_number": 3,
+        "action": "Load Opponent's Weight",
+        "description": "Use your grips and shin pressure simultaneously to pull the opponent's weight onto their trapped leg, creating the biomechanical commitment that makes it difficult for them to retract the leg during your entry sequence."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate Hip Shift",
+        "description": "Begin sliding your hips underneath the opponent by angling toward their trapped leg side, creating the space needed for your inside leg to thread while maintaining your shin connection for as long as possible during the transition."
+      },
+      {
+        "step_number": 5,
+        "action": "Thread Inside Leg",
+        "description": "Release the shin connection and immediately thread your inside leg around the opponent's ankle and lower calf, wrapping deeply with your instep hooking behind their Achilles tendon to establish the primary SLX control point that prevents leg extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Hip Hook",
+        "description": "Plant your outside foot firmly on the opponent's far hip or inner thigh, creating the second control point that elevates their trapped leg and generates the off-balancing pressure characteristic of Single Leg X-Guard positioning."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate SLX Position",
+        "description": "With both hooks established, extend your hips upward to elevate the opponent's trapped leg while pulling their ankle toward your chest, creating maximum leverage for sweeps and establishing full Single Leg X-Guard control with active tension in both legs."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent clears shin connection before inside leg can thread by stepping back or circling away from the connection angle",
+        "effectiveness": "High",
+        "your_response": "Follow their retreat with hip movement to maintain connection range, or transition to a direct collar drag or ankle grip pull to prevent full disengagement and create an alternative entry angle",
+        "targets_outcome": "Shin-to-Shin Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps and changes angle to deny the threading path before the inside leg can wrap the ankle",
+        "effectiveness": "High",
+        "your_response": "Redirect to alternative entries such as X-Guard or De La Riva if the backstep exposes the far leg, or re-establish shin-to-shin from the new angle they have created",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent drives forward with heavy pressure to flatten your guard structure before the entry sequence can develop",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Use their forward momentum to accelerate the entry by allowing the pressure to push you underneath them, converting their drive into the hip positioning you need for SLX establishment",
+        "targets_outcome": "Shin-to-Shin Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips your upper body grips to eliminate the pulling anchor that maintains their weight commitment over the trapped leg",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-grip or switch to a direct ankle grip on the trapped leg to maintain connection, or accelerate the entry before the full grip break completes if threading has already begun",
         "targets_outcome": "Shin-to-Shin Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing shin pressure too early before the inside leg has begun threading around the ankle",
+        "consequence": "Opponent immediately retracts their leg or steps back, eliminating the entry pathway and forcing a complete reset of the guard position",
+        "correction": "Maintain shin contact until your inside leg is actively threading around the ankle—the shin connection should overlap with the beginning of the wrap, not end before it starts"
+      },
+      {
+        "error": "Neglecting upper body grip control during the threading phase of the transition",
+        "consequence": "Opponent backs away freely or postures up during the transition gap, creating distance that makes completing the entry impossible",
+        "correction": "Secure and maintain at least one strong upper body grip throughout the entire entry sequence to anchor the opponent's position and prevent disengagement"
+      },
+      {
+        "error": "Threading the inside leg too shallow with a loose wrap around the opponent's ankle",
+        "consequence": "Opponent easily extracts their leg from the loose wrap before you can establish the hip hook, resulting in a failed entry and potential guard pass vulnerability",
+        "correction": "Thread deeply with your instep hooking firmly behind the Achilles tendon, creating a tight wrap that mechanically prevents easy leg extraction"
+      },
+      {
+        "error": "Positioning hips too far from the opponent during entry instead of getting underneath their center of gravity",
+        "consequence": "Insufficient leverage for elevation and sweeping, allowing the opponent to drive their weight down and flatten your guard structure to initiate passing",
+        "correction": "Actively scoot your hips toward and underneath the opponent as you thread, prioritizing getting your pelvis directly beneath their trapped leg's hip joint"
+      },
+      {
+        "error": "Telegraphing the entry by making obvious preparatory movements before initiating the threading motion",
+        "consequence": "Opponent recognizes the entry attempt early and preemptively backsteps, clears the shin, or establishes defensive grips that prevent the transition",
+        "correction": "Disguise the entry within normal shin-to-shin guard activity—use sweep threats and grip changes as feints to mask the actual threading motion"
+      },
+      {
+        "error": "Attempting the entry against a retreating opponent who has already begun disengaging from the shin connection",
+        "consequence": "Chasing a withdrawing leg results in poor positioning, energy waste, and potential guard compromise as you extend beyond your effective control range",
+        "correction": "Only initiate the entry when the opponent's weight is committed forward or stationary on the trapped leg—if they begin retreating, transition to a pulling sweep or standing engagement instead"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Leg threading and hook placement",
+        "description": "Practice the entry sequence against a stationary, cooperative partner. Focus on proper shin release timing, inside leg threading depth, hip positioning underneath the opponent, and hip hook establishment. Perform 20 repetitions per side with emphasis on smooth, coordinated movement rather than speed."
+      },
+      {
+        "phase": "Phase 2: Timing and Weight Recognition",
+        "focus": "Reading opponent's weight distribution",
+        "description": "Partner provides light resistance and varies their weight placement. Practice recognizing when weight is committed to the trapped leg versus when they are preparing to disengage. Develop sensitivity to the optimal entry moment through tactile feedback from the shin connection."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Chaining entries with alternative attacks",
+        "description": "Partner actively defends the SLX entry using backsteps, shin clearing, and pressure. Practice transitioning between the SLX entry, direct shin-to-shin sweeps, and X-Guard entries based on the defensive reaction. Build a decision tree of responses to each counter."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition-speed execution under full resistance",
+        "description": "Positional sparring starting from shin-to-shin guard with full resistance. Focus on implementing the entry against resisting opponents, managing failed attempts, and chaining to follow-up attacks once SLX is established. Track success rate and adjust timing based on results."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the inside leg thread during this transition?",
+        "answer": "The optimal timing occurs when the opponent's weight is committed to their trapped leg—either during a natural stance adjustment, when they attempt to clear the shin with their upper body, or when they drive forward with pressure. Initiating during weight commitment prevents them from retracting the leg quickly enough to stop the thread from completing."
+      },
+      {
+        "question": "What grip configuration provides the strongest anchor for preventing opponent disengagement during the entry?",
+        "answer": "A same-side sleeve grip combined with a cross-collar or far-side lapel grip creates the strongest pulling anchor. The sleeve grip prevents the opponent from posting their hand to resist the weight loading, while the collar grip breaks their posture forward and commits their weight over the trapped leg. In no-gi, wrist control and collar tie serve the same function."
+      },
+      {
+        "question": "Your opponent begins stepping their trapped leg backward as you initiate the thread—how do you adjust?",
+        "answer": "If they begin retreating during the early threading phase, you can either follow with your hips to maintain connection range, or abandon the SLX entry and redirect to a pulling sweep that uses their backward momentum against them. If your inside leg has already begun wrapping, accelerate the thread and grip their ankle directly to prevent full retraction."
+      },
+      {
+        "question": "What is the critical mechanical detail that distinguishes a secure inside leg wrap from one the opponent can easily escape?",
+        "answer": "The depth of the wrap around the ankle is the critical factor. Your instep must hook behind their Achilles tendon with the wrap continuing above the ankle joint, not just resting loosely across the front of their shin. This deep hook creates a mechanical lock that requires the opponent to address the wrap specifically rather than simply pulling their leg free."
+      },
+      {
+        "question": "Which direction should your force be applied through the shin connection to optimally load the opponent's weight for entry?",
+        "answer": "Apply force diagonally upward and slightly toward the opponent's far side through the shin connection. This direction both elevates their leg slightly—making retraction harder—and shifts their weight laterally over the trapped leg. Pure forward pressure is less effective because it allows backsteps, while lateral loading commits their balance to a point they cannot easily recover from."
+      },
+      {
+        "question": "Your first SLX entry attempt is blocked by the opponent clearing your shin—what immediate chain attack should you pursue?",
+        "answer": "When the shin is cleared, the opponent often creates space by stepping back or circling. This movement frequently exposes opportunities for a collar drag to take them off-balance, a direct transition to De La Riva guard on the clearing leg, or a technical stand-up to single leg. The key is having a predetermined secondary attack so the failed entry flows immediately into the next threat."
+      },
+      {
+        "question": "How does the inside leg threading path differ when the opponent is in a wide stance versus a narrow stance?",
+        "answer": "Against a wide stance, the threading path has more clearance but requires greater hip travel to get underneath the opponent's center of gravity. Thread on a wider arc and prioritize scooting your hips further forward. Against a narrow stance, the threading distance is shorter but the path is tighter—use a more direct, compact threading motion and focus on depth of the ankle wrap rather than distance traveled."
+      },
+      {
+        "question": "What role does the free leg play during the transition from shin-to-shin to the hip hook position?",
+        "answer": "The free leg initially posts on the mat for hip mobility during the threading phase, providing the base needed to scoot underneath the opponent. Once the inside leg secures the ankle wrap, the free leg must immediately transition to the hip hook role by planting on the opponent's far hip or inner thigh. Any delay in establishing this second control point leaves you in a partial entry that is significantly easier to defend."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Shin-to-Shin to Single Leg X."
+    "safety_considerations": "This transition involves dynamic hip and leg movements that can stress the knees and ankles of both practitioners. Avoid explosive jerking motions when threading legs around the ankle to prevent knee torque injuries. If you feel resistance in your partner's knee during the entry, stop and adjust angle rather than forcing through. Practice at controlled speed before adding full resistance to develop proper mechanics that protect both partners' joints during the threading and hooking phases."
   },
   "defender": {
     "name": "Shin-to-Shin to Single Leg X Defender",
-    "description": "TODO: Write defender description for Shin-to-Shin to Single Leg X.",
-    "overview": "TODO: Write defender overview for Shin-to-Shin to Single Leg X.",
+    "description": "Learn to defend and counter the Shin-to-Shin to Single Leg X-Guard entry. Recognition cues, defensive timing, and counter-passing strategies for BJJ top position.",
+    "overview": "Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the setup cues early and acting decisively before the bottom player completes their leg thread and establishes hooks. The defender's primary objective is preventing the transition from the manageable shin-to-shin position to the far more dangerous SLX configuration, where sweeps and leg attacks become high-percentage threats. Effective defense combines proactive shin clearing, base management, and upper body grip fighting to remove the conditions necessary for the entry. The defender who waits until the thread is underway faces a significantly harder task than one who disrupts the setup before it develops, making early recognition the most valuable defensive skill in this exchange.",
     "key_principles": [
-      "TODO"
+      "Recognize shin-to-shin entry setups early through increased shin pressure and opponent hip angle changes",
+      "Maintain base with weight distributed away from the trapped leg to reduce weight loading vulnerability",
+      "Proactively clear or neutralize the shin connection before the threading window opens for the opponent",
+      "Control opponent's upper body grips to prevent the pulling anchor that commits your weight forward",
+      "Deny the threading path by keeping your leg alignment tight and ready to retract at any moment",
+      "React immediately to any threading attempt rather than waiting to see if it develops fully"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's shin pressure intensifies with increased upward and lateral force through the connection point",
+      "Opponent adjusts hip angle toward your trapped leg, closing the distance needed for threading their inside leg",
+      "Opponent establishes or tightens upper body pulling grips on your sleeve, collar, or wrist to load your weight",
+      "Opponent's free leg begins positioning to thread underneath your trapped leg in preparation for the wrap",
+      "Opponent's upper body starts reclining slightly as they prepare to slide their hips underneath your base"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Clear the shin connection by circling your trapped leg backward while controlling opponent's upper body to prevent re-establishment",
+        "when_to_use": "When you recognize increased shin pressure or hip angle adjustment indicating entry preparation before threading begins",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You establish an open guard passing position with the shin connection broken and superior upper body control for immediate passing",
+        "risk": "If too aggressive in circling, opponent may use your momentum to enter SLX from the opposite angle or transition to De La Riva"
+      },
+      {
+        "action": "Drive forward with controlled pressure to flatten opponent's guard structure before the thread initiates",
+        "when_to_use": "When opponent begins reclining and adjusting angle but has not yet started the inside leg thread motion",
         "targets_outcome": "Shin-to-Shin Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent's guard structure collapses, preventing the hip positioning needed for SLX entry and limiting their offensive options",
+        "risk": "Forward pressure without upper body control can be redirected into a butterfly sweep or elevation if applied recklessly"
+      },
+      {
+        "action": "Strip opponent's upper body grips to eliminate the pulling anchor before addressing the shin connection directly",
+        "when_to_use": "When opponent has strong sleeve or collar grips that are actively loading your weight onto the trapped leg",
+        "targets_outcome": "Shin-to-Shin Guard/Bottom",
+        "if_successful": "Without pulling grips, opponent cannot effectively commit your weight, removing the primary setup condition for the entry",
+        "risk": "Grip fighting takes focus and time during which opponent may initiate a quick entry attempt if threading path is already open"
+      },
+      {
+        "action": "Backstep away from the threading angle while maintaining upper body connection to prevent opponent from following",
+        "when_to_use": "When the inside leg thread has already begun but is not yet secured around your ankle with a deep wrap",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You create distance and angle that prevents the thread from completing, transitioning to an advantageous passing angle",
+        "risk": "Opponent may follow your backstep with a collar drag or switch to an alternative guard entry from the new angle"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Single Leg X-Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Clear the shin connection through systematic circling or backstep before the inside leg thread begins, then immediately advance into a passing sequence while the opponent is recovering from the disrupted entry attempt"
+      },
+      {
+        "outcome": "Shin-to-Shin Guard/Bottom",
+        "how": "Strip the opponent's pulling grips and apply controlled downward pressure to flatten their guard structure, preventing the hip angle and positioning needed for the SLX entry while maintaining your top position advantage"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the inside leg thread is fully wrapped around the ankle before attempting to defend the entry",
+        "consequence": "Once the ankle wrap is secured, defending becomes exponentially harder and often results in full SLX establishment with immediate sweep danger",
+        "correction": "Recognize entry cues during the setup phase and act to clear or disrupt before the threading motion begins—defense must be preventative rather than reactive"
+      },
+      {
+        "error": "Standing with weight heavily loaded on the trapped leg when the opponent has active shin pressure",
+        "consequence": "Creates the exact biomechanical condition the opponent needs—committed weight makes leg retraction slow and threading easy to complete",
+        "correction": "Distribute weight toward your free leg and keep your trapped leg light and mobile, ready to retract or circle at the first sign of an entry attempt"
+      },
+      {
+        "error": "Attempting to forcefully yank your leg free after the inside leg wrap has been established around the ankle",
+        "consequence": "Wastes energy and often tightens the opponent's wrap through your pulling force, while creating momentum that can be redirected into an immediate sweep",
+        "correction": "Address hooks systematically—push their inside knee away to break the wrap tension, then extract your leg with controlled movement rather than explosive pulling"
+      },
+      {
+        "error": "Ignoring upper body grip fighting while focusing exclusively on managing the shin connection",
+        "consequence": "Opponent's pulling grips continuously load your weight forward onto the trapped leg, making every clearing attempt temporary as they immediately re-establish entry conditions",
+        "correction": "Address grip control first or simultaneously with shin clearing—without their pulling anchor, the shin connection alone is insufficient to generate the weight commitment needed for entry"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that indicate your opponent is setting up a Shin-to-Shin to Single Leg X entry?",
+        "answer": "Watch for three converging signals: increased upward pressure through the shin connection that loads your weight onto the trapped leg, opponent adjusting their hip angle toward your trapped leg to close threading distance, and opponent tightening or establishing new pulling grips on your sleeve or collar. Any two of these three occurring simultaneously indicates imminent entry preparation."
+      },
+      {
+        "question": "Your opponent has already begun threading their inside leg around your ankle—what is your highest-percentage defensive response at this stage?",
+        "answer": "At this late stage, immediately push their threading knee laterally away from your ankle using your hand while simultaneously stepping your trapped leg backward in a circular motion. This combination disrupts the wrap angle and creates space for extraction. If the wrap is already secured, drop your weight and address the bottom hook first by pushing their knee to the mat before attempting to extract your leg."
+      },
+      {
+        "question": "How should your weight distribution differ when you recognize the opponent is preparing the SLX entry versus normal shin-to-shin engagement?",
+        "answer": "In normal shin-to-shin engagement, your weight can be relatively centered for passing purposes. When you recognize entry preparation, immediately shift weight toward your free leg and lighten the trapped leg, making it mobile and ready to retract or circle. This weight shift removes the biomechanical condition the opponent needs—committed weight on the trapped leg—and gives you the mobility to clear before the thread completes."
+      },
+      {
+        "question": "What is the relationship between your upper body grip control and the opponent's ability to successfully complete this transition?",
+        "answer": "Your opponent's upper body grips serve as pulling anchors that commit your weight over the trapped leg. Without these grips, the shin connection alone generates insufficient weight loading for a reliable entry. Stripping their sleeve or collar grip is often more effective than directly clearing the shin because it addresses the root cause of the weight commitment rather than just the symptom."
+      },
+      {
+        "question": "After successfully defending an SLX entry attempt, what should your immediate tactical objective be?",
+        "answer": "Immediately transition from defense to offense by capitalizing on the disrupted entry. Your opponent is momentarily out of position from the failed threading attempt, creating a window for passing. Advance into a knee slice, toreando, or leg drag before they can re-establish shin-to-shin guard structure. The worst outcome is allowing them to reset to shin-to-shin and attempt the entry again from an improved angle."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying entry setup cues before threading begins",
+        "description": "Partner slowly demonstrates the SLX entry from shin-to-shin while you identify each recognition cue verbally before they complete the entry. Practice at 30% speed, progressively increasing to 60% while maintaining accurate identification of the entry window timing."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Proactive shin clearing and grip fighting to deny entry conditions",
+        "description": "Partner attempts the SLX entry with moderate resistance. Focus on clearing the shin connection and stripping grips before the threading window opens. Measure success by whether you can prevent the inside leg from beginning the threading motion at all."
+      },
+      {
+        "phase": "Phase 3: Late-Stage Defense",
+        "focus": "Defending after threading has already begun",
+        "description": "Partner is allowed to begin the inside leg thread before you initiate defense. Practice knee pushing, backstep extraction, and hook clearing techniques against partially completed entries. Develop responses for each stage of entry completion."
+      },
+      {
+        "phase": "Phase 4: Counter-Attacking",
+        "focus": "Transitioning from successful defense to immediate guard passing",
+        "description": "After successfully defending the SLX entry, immediately chain into a guard passing sequence. Practice reading which passing option is most available based on how the opponent's guard structure is disrupted from the failed entry attempt."
       }
     ]
   }

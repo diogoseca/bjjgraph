@@ -114,7 +114,7 @@
             "probability": 55
           },
           {
-            "technique": "Roll to Truck",
+            "technique": "Banana Split",
             "target": "Game Over",
             "probability": 45
           }
@@ -124,7 +124,7 @@
         "condition": "Else if opponent defends lower body by straightening legs or clearing hooks",
         "actions": [
           {
-            "technique": "Twister",
+            "technique": "Twister Entry",
             "target": "Twister Control",
             "probability": 50
           },
@@ -294,24 +294,24 @@
     },
     "transitions": [
       {
-        "transition": "Twister",
-        "attempt_probability": 10
+        "transition": "Twister Entry",
+        "attempt_probability": 15
       },
       {
         "transition": "Calf Slicer",
-        "attempt_probability": 10
+        "attempt_probability": 12
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 41
+        "attempt_probability": 25
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Crab Ride to Back",
@@ -319,27 +319,23 @@
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Transition to Twister Side Control",
-        "attempt_probability": 2
+        "attempt_probability": 12
       },
       {
         "transition": "Truck Maintenance",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Truck to Back Control",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Truck to Twister Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [
@@ -433,7 +429,7 @@
           },
           {
             "technique": "Granby Roll to Guard",
-            "target": "Turtle",
+            "target": "Open Guard",
             "probability": 35
           }
         ]
@@ -468,7 +464,7 @@
           },
           {
             "technique": "Granby Roll to Guard",
-            "target": "Turtle",
+            "target": "Open Guard",
             "probability": 45
           }
         ]
@@ -603,42 +599,46 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 34
+        "attempt_probability": 42
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Rolling Back Take Reversal",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Forward Roll",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Defensive Roll",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Hip Escape from Truck",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Leg Extraction from Truck",
         "attempt_probability": 1
       },
       {
+        "transition": "Leg Extraction from Truck",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Roll to Guard from Truck",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Escape from Truck",
         "attempt_probability": 1
       }
     ],

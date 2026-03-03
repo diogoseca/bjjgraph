@@ -14,7 +14,7 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "overview": "The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.\n\nThis system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity\u2014both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.\n\nDeveloped and popularized by modern leg lock specialists, this chain has become a cornerstone of contemporary no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.",
+  "overview": "The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.\n\nThis system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity—both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.\n\nDeveloped and popularized by modern leg lock specialists, this chain has become a cornerstone of contemporary no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.",
   "key_principles": [
     "Position Before Submission - Establish and maintain ashi garami control throughout the chain",
     "Reaction-Based Transitions - Read opponent's defensive movements to determine submission selection",
@@ -330,7 +330,7 @@
       "relationship": "Understanding escapes improves position maintenance and transition timing"
     },
     {
-      "name": "X-Guard to Ashi Transition",
+      "name": "X-Guard to Ashi Garami",
       "content_type": "Transition",
       "relationship": "Common entry pathway from guard positions"
     },
@@ -341,8 +341,8 @@
     },
     {
       "name": "Leg Entanglement",
-      "content_type": "Principle",
-      "relationship": "Fundamental concept underlying position maintenance in chain"
+      "content_type": "Position",
+      "relationship": "Fundamental positional concept underlying control maintenance in chain"
     },
     {
       "name": "Submission Chains",
@@ -370,14 +370,14 @@
       "relationship": "Essential concept for maintaining position during transitions"
     },
     {
-      "name": "Leverage Principles",
+      "name": "Biomechanical Principles",
       "content_type": "Principle",
       "relationship": "Biomechanical principles underlying both submissions in chain"
     },
     {
-      "name": "System Building",
+      "name": "Drilling Methodology",
       "content_type": "Principle",
-      "relationship": "Meta-concept that guides development of interconnected techniques"
+      "relationship": "Training methodology that guides progressive skill development in the system"
     },
     {
       "name": "Danaher Leg Lock System",

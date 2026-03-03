@@ -230,7 +230,7 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ### [[Progression to Zombie]] (8% of attempts)
 
-### [[Rubber Guard Maintenance]] (9% of attempts)
+### [[Advance to Chill Dog]] (9% of attempts)
 
 
 
@@ -262,7 +262,7 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 **Opponent successfully extracts arm and begins to open guard:**
 - Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Rubber Guard Maintenance]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Advance to Chill Dog]]** → [[Chill Dog]] (Probability: 45%)
 
 
 

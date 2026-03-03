@@ -93,17 +93,19 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (41% of attempts)
+- **[[Deep Half Entry]]** (43% of attempts)
 
-- **[[Granby Roll to Guard]]** (16% of attempts)
+- **[[Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (13% of attempts)
+- **[[Butterfly Hook Recovery]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (13% of attempts)
+- **[[Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Roll to Turtle]]** (11% of attempts)
+- **[[Roll to Turtle]]** (10% of attempts)
 
-- **[[Guard Recovery from Double Unders]]** (6% of attempts)
+- **[[Guard Recovery from Double Unders]]** (5% of attempts)
+
+- **[[Sweep from Double Unders]]** (3% of attempts)
 
 
 ### Common Mistakes

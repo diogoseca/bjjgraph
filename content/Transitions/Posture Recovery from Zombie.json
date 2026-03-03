@@ -1,42 +1,419 @@
 {
   "name": "Posture Recovery from Zombie",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "guard-pass", "posture", "rubber-guard", "zombie"],
+  "description": "Learn to recover posture from the Zombie lockdown position in BJJ. Systematic approach to breaking lockdown control, re-establishing base, and advancing to side control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "posture",
+    "rubber-guard",
+    "zombie",
+    "10th-planet",
+    "lockdown",
+    "half-guard"
+  ],
   "from_position": "Zombie/Top",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 48, "result": "success"},
-    {"to": "Zombie/Top", "probability": 32, "result": "failure"},
-    {"to": "Closed Guard/Top", "probability": 20, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 48,
+      "result": "success"
+    },
+    {
+      "to": "Zombie/Top",
+      "probability": 32,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 48,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "Posture Recovery from Zombie is a critical transitional technique for the top player trapped in the 10th Planet Zombie lockdown half guard. When the bottom player has successfully broken the top player's posture using lockdown tension combined with underhook and head control, the top player must systematically work to re-establish structural integrity before any passing sequence becomes viable. This technique represents the essential first step in defeating the Zombie system from top position.\n\nThe recovery process requires a methodical approach combining crossface pressure, strategic weight distribution, and gradual spine extension to overcome the bottom player's pulling forces. Unlike simple posture recovery from closed guard, the lockdown adds significant mechanical resistance that prevents the top player from simply sitting upright. The trapped leg creates a fulcrum that the bottom player exploits to maintain broken posture, requiring the top player to address both upper body control and lower body extraction simultaneously.\n\nSuccess in this transition directly enables the top player to begin passing sequences toward side control, while failure leaves them vulnerable to sweeps, submissions, and continued positional stagnation. The technique exemplifies the importance of systematic positional recovery in BJJ, where rushing the process exposes the top player to the bottom player's strongest counterattacks including the Old School Sweep and Electric Chair submission.",
+  "conditions": [
+    "Top player's posture has been broken by the Zombie bottom player's lockdown and upper body control",
+    "Opponent has established lockdown on one of the top player's legs with active tension",
+    "Top player has lost upright structural alignment and is being pulled forward or down",
+    "Opponent maintains underhook or head control contributing to posture breakdown",
+    "Top player retains at least one free posting limb to initiate recovery sequence"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Whizzer-Based Posture Recovery",
+      "description": "Uses a deep whizzer on the opponent's underhook arm to neutralize their pulling power before driving hips back to re-establish posture. The whizzer creates a counter-lever against the underhook, reducing the force pulling you down.",
+      "when_to_use": "When the opponent has a deep underhook that is the primary mechanism breaking your posture and you cannot establish crossface control first"
+    },
+    {
+      "variant_name": "Backstep Posture Recovery",
+      "description": "Instead of driving forward, the top player backsteps the free leg wide and uses rotational movement to break the lockdown angle. This changes the plane of force from linear to rotational, defeating the lockdown's pulling mechanics.",
+      "when_to_use": "When the lockdown tension is too strong to overcome with direct forward pressure and the opponent's pulling angle prevents standard recovery"
+    },
+    {
+      "variant_name": "Swim-Through Recovery",
+      "description": "The top player swims their trapped-side arm under the opponent's controlling arm, transitioning from an inferior grip position to crossface control in one fluid motion while simultaneously driving weight forward to recover posture.",
+      "when_to_use": "When the opponent has established dominant upper body grips that prevent standard crossface establishment and you need to change the grip dynamic"
+    }
+  ],
+  "position_integration": "Posture Recovery from Zombie occupies a pivotal role in the half guard passing hierarchy, serving as the mandatory first step before any passing technique becomes viable against the Zombie lockdown system. This transition connects the defensive reality of having posture broken in Zombie Top to the offensive possibilities of half guard passing, bridging the gap between survival and advancement. Understanding this recovery is essential for any practitioner who faces 10th Planet or lockdown-heavy guard players, as it provides the foundation for all subsequent passing chains including crossface passes, knee slices, and leg weave sequences. The technique also teaches broader principles of posture recovery under tension that transfer to closed guard top, deep half guard defense, and any position where the bottom player uses leg entanglement to control the top player's spine alignment.",
+  "related_content": [
+    {
+      "name": "Zombie",
+      "relationship": "Source position where posture has been broken by bottom player's lockdown system"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Core defensive mechanic that must be overcome during posture recovery"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful posture recovery enables passing"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome when bottom player re-establishes full guard during recovery attempt"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position family containing the Zombie as a specialized variant"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative position bottom player may transition to during recovery attempts"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Related posture concept for maintaining structural integrity from top position"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related 10th Planet control position sharing lockdown-based mechanics"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Connected 10th Planet system where similar posture recovery principles apply"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary submission threat if posture recovery is executed poorly"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Worst-case outcome if recovery fails and opponent achieves back exposure"
+    }
+  ],
   "attacker": {
     "name": "Posture Recovery from Zombie Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Zombie/Top"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Master the systematic approach to recovering posture from the Zombie lockdown position. Step-by-step guide to defeating lockdown tension, re-establishing base, and transitioning to passing sequences.",
+    "overview": "As the attacker executing Posture Recovery from Zombie, your objective is to systematically dismantle the bottom player's lockdown control system and re-establish the upright structural posture necessary to initiate passing sequences. This requires defeating multiple layers of control simultaneously: the lockdown on your leg, the underhook pulling your upper body down, and the head control preventing you from creating distance. The recovery must be methodical rather than explosive, as rushing creates openings for the bottom player's strongest counterattacks. Your success depends on establishing dominant grips, neutralizing the lockdown's pulling angle through strategic weight distribution, and gradually rebuilding your spine alignment while maintaining enough pressure to prevent the bottom player from improving their position during the transition.",
+    "key_principles": [
+      "Address upper body control first by establishing crossface or whizzer before attempting to free the trapped leg from lockdown",
+      "Drive weight forward through hips and chest rather than pulling backward, which plays into the lockdown's designed resistance angle",
+      "Use skeletal alignment and gravity rather than muscular force to overcome lockdown tension during posture recovery",
+      "Maintain constant pressure on the opponent's upper body to prevent them from adjusting grips or initiating sweeps during recovery",
+      "Time the final posture extension with a moment when the opponent's lockdown tension is at its weakest point in their breathing cycle",
+      "Keep the free leg posted wide throughout recovery to maintain base against sweep attempts that exploit your transitional instability"
+    ],
+    "setup_requirements": [
+      "Identify which arm the opponent is using for underhook control and the depth of their grip",
+      "Assess the tightness of the lockdown by testing leg mobility with small movements before committing to recovery",
+      "Establish at least one controlling grip on the opponent's upper body before beginning recovery sequence",
+      "Position the free leg in a wide base post to provide stability throughout the recovery process",
+      "Ensure your weight is distributed forward through your chest rather than sitting back on your heels"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish crossface control",
+        "description": "Drive your forearm across the opponent's jaw and neck on the side of their underhook, turning their head away from you. This is the foundational control that prevents them from maintaining chest-to-chest connection and weakens their underhook pulling power by misaligning their spine."
+      },
+      {
+        "step_number": 2,
+        "action": "Neutralize the underhook",
+        "description": "Thread your arm over the opponent's underhook arm to establish a whizzer or overhook. Drive your elbow tight against their body and grip their wrist or forearm. This counter-lever removes their ability to pull your upper body down and creates the space needed to begin spine extension."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive weight forward and low",
+        "description": "Shift your bodyweight forward through your hips and chest, pressing heavily into the opponent's upper body while keeping your hips low. This forward drive reduces the lockdown's pulling leverage by changing the angle of force and flattens the opponent's shoulders toward the mat, limiting their defensive mobility."
+      },
+      {
+        "step_number": 4,
+        "action": "Post free leg wide for base",
+        "description": "Step your free leg out wide at approximately 45 degrees from your body, creating a tripod base that provides stability in multiple directions. This wide post is essential because the opponent will attempt sweeps during the recovery, and a narrow base makes you vulnerable to being tipped laterally by their lockdown stretches."
+      },
+      {
+        "step_number": 5,
+        "action": "Gradually extend spine upward",
+        "description": "While maintaining forward pressure through your chest and crossface, begin straightening your spine by driving your hips down and chest up simultaneously. This is not an explosive movement but a progressive extension that fights against the lockdown tension incrementally. Keep your elbows tight to prevent the opponent from re-establishing grips."
+      },
+      {
+        "step_number": 6,
+        "action": "Break lockdown tension through hip pressure",
+        "description": "With your posture partially recovered, drive your trapped-side hip downward into the mat while maintaining forward pressure. This compresses the space the lockdown needs to function and begins loosening the grip. The opponent's lockdown relies on being able to stretch your leg, which becomes impossible when your hip is driving it into the ground."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract trapped leg or initiate pass",
+        "description": "Once posture is sufficiently recovered and lockdown tension is reduced, either work to fully extract the trapped leg through knee slice motion or immediately transition into a passing sequence such as crossface pass or leg weave. The key is recognizing which option is available based on the opponent's remaining defensive structure rather than forcing a single approach."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate passing position",
+        "description": "As you complete the pass or leg extraction, immediately drive your chest into the opponent's upper body and establish side control grips. Do not leave space between your bodies during this final phase, as the opponent will attempt to re-establish guard frames or insert a knee shield if given any gap. Settle your weight and secure crossface and hip control to complete the transition."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens lockdown and initiates Old School Sweep during recovery",
+        "effectiveness": "High",
+        "your_response": "Immediately drop weight forward and drive heavy crossface pressure to flatten their shoulders. Widen your free leg base to counter the lateral sweeping force. If they get significant elevation, abandon recovery temporarily and re-establish base.",
+        "targets_outcome": "Zombie/Top"
+      },
+      {
+        "counter": "Opponent releases lockdown and shoots hips back to re-establish closed guard",
+        "effectiveness": "Medium",
+        "your_response": "The moment you feel lockdown release, immediately drive your hips forward and down to prevent them from closing their legs behind your back. If they do recover closed guard, you have at least achieved a more familiar passing position.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent deepens underhook and attempts to come up to dogfight position",
+        "effectiveness": "High",
+        "your_response": "Counter the underhook with a strong whizzer and crossface combination. Drive your weight into their shoulder to prevent them from sitting up. If they achieve dogfight, immediately sprawl and re-establish heavy top pressure.",
+        "targets_outcome": "Zombie/Top"
+      },
+      {
+        "counter": "Opponent transitions to Electric Chair attempt by splitting the legs",
+        "effectiveness": "Medium",
+        "your_response": "When you feel the opponent threading their arm between your legs for Electric Chair, immediately bring your knees together and drive forward. The Electric Chair requires space between your legs, which you deny by keeping them tight and your hips low.",
+        "targets_outcome": "Zombie/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to recover posture by pulling backward explosively against the lockdown",
+        "consequence": "The lockdown is specifically designed to resist backward pulling. Explosive backward movement wastes energy, fails to break the grip, and creates momentum the opponent can redirect into sweep attempts.",
+        "correction": "Drive weight forward and down first to change the angle of force, then gradually extend the spine upward. Work with gravity rather than against the lockdown's designed resistance vector."
+      },
+      {
+        "error": "Neglecting crossface control before attempting posture recovery",
+        "consequence": "Without crossface, the opponent maintains full head mobility and can adjust their pulling angle to counter every recovery attempt. Their underhook remains at full power, keeping you broken down indefinitely.",
+        "correction": "Always establish crossface or whizzer control as the very first step. Upper body control is the foundation that makes all subsequent recovery steps possible."
+      },
+      {
+        "error": "Keeping the free leg tucked close instead of posting wide for base",
+        "consequence": "A narrow base makes you extremely vulnerable to the Old School Sweep and other lateral sweep attempts that the opponent will launch the moment you begin recovery.",
+        "correction": "Post the free leg wide at 45 degrees from your body immediately upon beginning recovery. This creates a stable tripod that absorbs lateral forces and maintains your base throughout the transition."
+      },
+      {
+        "error": "Trying to extract the trapped leg before recovering upper body posture",
+        "consequence": "Focusing on leg extraction while posture is still broken allows the opponent to maintain underhook dominance and pull you back down. The lockdown grip stays tight because you haven't changed the pulling angle.",
+        "correction": "Follow the proper sequence: upper body control first, posture recovery second, leg extraction third. Each step creates the conditions for the next to succeed."
+      },
+      {
+        "error": "Rushing through recovery without maintaining continuous pressure on opponent",
+        "consequence": "Gaps in pressure during recovery allow the opponent to readjust grips, tighten the lockdown, or transition to alternative attacks. Each pause gives them a chance to reset their defensive structure.",
+        "correction": "Maintain constant forward pressure throughout the entire recovery sequence. Every position change should flow smoothly into the next with sustained chest and crossface pressure on the opponent."
+      },
+      {
+        "error": "Failing to recognize when the opponent releases lockdown during recovery",
+        "consequence": "Missing the lockdown release means missing the window to immediately pass. The opponent uses the release to transition to a different guard type, potentially a more dangerous position.",
+        "correction": "Stay alert to changes in leg tension throughout recovery. The moment lockdown pressure disappears, immediately accelerate your passing sequence before the opponent can re-establish a new defensive structure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Crossface and weight distribution fundamentals",
+        "description": "Practice establishing crossface from broken posture position with a compliant partner. Focus on hand placement, forearm angle across the jaw, and weight transfer from hands to hips. Drill the forward drive motion repeatedly until it becomes instinctive. No lockdown resistance in this phase."
+      },
+      {
+        "phase": "Phase 2: Against Lockdown",
+        "focus": "Posture recovery against progressive lockdown resistance",
+        "description": "Partner establishes Zombie lockdown at 50% tension. Practice the full recovery sequence with emphasis on timing the spine extension against lockdown pulls. Gradually increase partner's resistance to 80% as mechanics solidify. Track how long recovery takes and work to reduce time."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Handling sweep and guard recovery attempts during recovery",
+        "description": "Partner actively attempts Old School Sweep, Electric Chair, and closed guard recovery during your posture recovery attempts. Develop the ability to maintain recovery progress while defending counters. Practice identifying which counter is coming and adjusting your base accordingly."
+      },
+      {
+        "phase": "Phase 4: Passing Chain",
+        "focus": "Connecting recovery directly to passing sequences",
+        "description": "Chain posture recovery into immediate passing attempts. Practice flowing from recovered posture into crossface pass, knee slice, or leg weave without pausing. Partner provides full resistance. Measure success by percentage of recoveries that convert to completed passes within 10 seconds."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Full resistance positional sparring from Zombie Top",
+        "description": "Start every round in Zombie Top with partner at full resistance from Zombie Bottom. Apply complete posture recovery and passing game plan. Analyze failure points and develop contingency plans for each common counter. Focus on making the recovery automatic under competition conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why should you drive weight forward rather than pull backward when recovering posture from the Zombie?",
+        "answer": "The lockdown is biomechanically designed to resist backward pulling - the bottom player's legs create maximum tension when you try to sit back or pull away. Driving forward changes the angle of force, compressing the lockdown mechanism and reducing its leverage. Forward pressure also flattens the opponent's shoulders to the mat, weakening their underhook and limiting their ability to maintain pulling control. The forward drive works with gravity rather than against the lockdown's designed resistance vector."
+      },
+      {
+        "question": "What is the first grip you should establish before attempting posture recovery?",
+        "answer": "The crossface is the essential first grip. Drive your forearm across the opponent's jaw and neck on the underhook side, turning their head away from you. This grip serves multiple purposes: it prevents the opponent from maintaining chest-to-chest connection that powers their pulling control, it weakens the underhook by misaligning their spine, and it provides you with a control point from which to generate the forward pressure needed for recovery. Without crossface, every subsequent recovery step is significantly harder."
+      },
+      {
+        "question": "Your opponent initiates an Old School Sweep as you begin recovering posture - how do you respond?",
+        "answer": "Immediately drop your weight forward and drive heavy crossface pressure into their face and shoulder to flatten them back down. Simultaneously widen your free leg base to counter the lateral sweeping force the Old School generates. If they achieve significant elevation before you can counter, temporarily abandon the recovery and focus entirely on base defense. Once you have stopped the sweep, re-establish your recovery position and begin again. Never try to fight through an active sweep while mid-recovery."
+      },
+      {
+        "question": "What role does the free leg play during posture recovery from Zombie?",
+        "answer": "The free leg serves as your primary base and balance point throughout the entire recovery. It should be posted wide at approximately 45 degrees from your body, creating a stable tripod with your two contact points on the opponent. This wide post absorbs the lateral forces from sweep attempts, provides a platform for driving forward pressure, and gives you the structural stability needed to extend your spine upward. A narrow free leg position is the most common reason recovery attempts fail because it leaves you vulnerable to being tipped over."
+      },
+      {
+        "question": "What conditions must exist before you can successfully extract your trapped leg from the lockdown?",
+        "answer": "Three conditions must be met before leg extraction becomes viable: first, you must have established dominant upper body control through crossface and whizzer or underhook counter, removing the opponent's ability to pull you back down. Second, your posture must be at least partially recovered with your chest elevated and spine extending, which changes the angle making lockdown tension less effective. Third, your hips must be driving downward to compress the space the lockdown needs to function. Attempting extraction without all three conditions results in the opponent simply tightening the lockdown."
+      },
+      {
+        "question": "How do you differentiate between the opponent releasing lockdown intentionally versus lockdown naturally loosening during recovery?",
+        "answer": "An intentional lockdown release feels sudden and is accompanied by the opponent's hips shooting backward to create space for closed guard recovery. Their legs will immediately begin working to close behind your back. A natural loosening from your recovery pressure is gradual, with tension slowly decreasing as your posture improves. The critical difference in your response: if you feel sudden release with hip movement, immediately drive hips forward to prevent guard closure. If you feel gradual loosening, continue your systematic recovery and transition to passing when the lockdown is fully defeated."
+      },
+      {
+        "question": "What is the most critical direction of force during the spine extension phase of recovery?",
+        "answer": "The primary force direction is forward and upward simultaneously - driving your chest toward the opponent's face while extending your spine upward. This diagonal vector accomplishes two things: the forward component maintains pressure on the opponent preventing them from readjusting their defensive structure, while the upward component gradually rebuilds your posture. Driving purely upward without forward pressure allows the opponent to create space and re-establish pulling control. Driving purely forward without upward extension keeps you broken down."
+      },
+      {
+        "question": "Your opponent switches from lockdown to a deep underhook and starts coming up to dogfight during your recovery - what adjustment do you make?",
+        "answer": "This is a common transition the bottom player makes when they feel the lockdown losing effectiveness. Immediately counter by driving a deep whizzer over their underhook arm while simultaneously sprawling your hips back to create downward pressure on their shoulder. The sprawl prevents them from completing the sit-up to dogfight, while the whizzer removes their underhook leverage. If they manage to reach dogfight despite your counter, crossface aggressively and drive them back to the mat rather than engaging in the dogfight exchange where they have sweep opportunities."
+      }
+    ],
+    "safety_considerations": "Posture recovery from Zombie involves significant forces on the knee and ankle of the trapped leg due to lockdown tension. Never attempt explosive jerking motions to free the leg, as this can cause medial collateral ligament strain or ankle injuries. During training, communicate with your partner about lockdown tightness and tap if you feel sharp pain in the trapped knee. The crossface pressure used during recovery should be firm but controlled, avoiding direct pressure on the throat or windpipe. Partners playing Zombie bottom should gradually release lockdown tension if the top player signals discomfort rather than maintaining maximum grip."
   },
   "defender": {
     "name": "Posture Recovery from Zombie Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Zombie/Top", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Zombie/Top", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to prevent and counter the top player's posture recovery from Zombie position. Maintain lockdown control, threaten sweeps, and force the top player back into broken posture.",
+    "overview": "As the defender against Posture Recovery from Zombie, you are the Zombie bottom player working to maintain your hard-won positional control against the top player's systematic recovery attempts. Your lockdown and underhook have broken the opponent's posture, and your goal is to keep them broken down while threatening sweeps and submissions that punish recovery attempts. Effective defense requires recognizing the early stages of posture recovery and immediately countering with increased lockdown tension, grip adjustments, and offensive threats that force the top player to abandon their recovery and address immediate dangers. The defender who remains passive during the top player's recovery will inevitably lose position, but the defender who actively threatens during recovery attempts creates the dilemmas that make the Zombie system so effective.",
+    "key_principles": [
+      "Maintain active lockdown tension throughout, increasing stretch pressure the moment you feel the top player attempting to extend their spine",
+      "Use the underhook aggressively to pull the opponent's upper body toward you, countering their crossface and forward drive",
+      "Threaten Old School Sweep and Electric Chair transitions during recovery attempts to force the top player to abandon recovery and defend",
+      "Stay on your side rather than allowing yourself to be flattened, as lateral positioning preserves your offensive options and lockdown power",
+      "Time your counter-attacks to coincide with the top player's weight shifts during recovery when their base is most compromised",
+      "Maintain chest-to-chest connection as long as possible, as distance between your chest and theirs signals the beginning of successful recovery"
+    ],
+    "recognition_cues": [
+      "Top player drives forearm across your jaw attempting to establish crossface control and turn your head away",
+      "Top player's weight shifts forward and down rather than settling neutral, indicating preparation for spine extension",
+      "Top player's free leg begins posting wider than normal, creating a tripod base to support recovery attempts",
+      "Top player threads arm over your underhook attempting whizzer or overhook to neutralize your pulling control",
+      "You feel reduced lockdown tension as top player drives hips down to compress the space your lockdown needs"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase lockdown stretch and initiate Old School Sweep",
+        "when_to_use": "When you feel the top player beginning to extend their spine or post their free leg wide, indicating the start of posture recovery",
+        "targets_outcome": "Zombie/Top",
+        "if_successful": "Sweeps the top player or forces them to abandon recovery and fight the sweep, resetting to broken posture in Zombie",
+        "risk": "If the sweep fails and you have extended your lockdown fully, you may create space that helps their recovery"
+      },
+      {
+        "action": "Deepen underhook and pull opponent's chest to yours while tightening lockdown",
+        "when_to_use": "When the top player first begins establishing crossface, before they have settled their weight forward",
+        "targets_outcome": "Zombie/Top",
+        "if_successful": "Re-breaks the opponent's posture and maintains the lockdown control position with dominant grips",
+        "risk": "If their crossface is already deep, pulling into it may worsen your head position"
+      },
+      {
+        "action": "Release lockdown and shoot hips back to recover closed guard",
+        "when_to_use": "When you feel the lockdown losing effectiveness and the opponent's posture recovery is well advanced, making continued lockdown defense futile",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Transitions to closed guard where you have familiar offensive options rather than fighting a losing lockdown battle",
+        "risk": "If the opponent reads the transition, they may immediately pass before you can close your guard"
+      },
+      {
+        "action": "Transition to Electric Chair attack by threading arm between opponent's legs",
+        "when_to_use": "When the top player creates space between their legs during recovery, particularly during the spine extension phase",
+        "targets_outcome": "Zombie/Top",
+        "if_successful": "Forces the top player to completely abandon recovery to defend the submission threat, maintaining your positional advantage",
+        "risk": "Requires releasing some upper body control to attack the legs, potentially accelerating their posture recovery if the attack fails"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Zombie/Top",
+        "how": "Maintain aggressive lockdown tension while threatening sweeps whenever the top player shifts weight for recovery. Use the underhook to re-break their posture each time they begin extending. The combination of lockdown stretch, underhook pull, and sweep threats creates a system that forces the top player back to broken posture."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When the lockdown becomes untenable because the top player has advanced their recovery significantly, strategically release the lockdown and immediately shoot your hips back to wrap your legs around their waist. Time this release with a hip bump or push from your frames to create the space needed to close your guard before they can react."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining passive while the top player methodically works through recovery steps",
+        "consequence": "The top player completes posture recovery without resistance and immediately begins passing sequences from a position of structural advantage, leading to inevitable guard pass",
+        "correction": "Attack constantly during recovery attempts. Every time you feel them begin to extend, launch a sweep threat, tighten the lockdown, or deepen your underhook. Make them choose between recovery and survival."
+      },
+      {
+        "error": "Holding lockdown grip at maximum tension throughout without varying pressure",
+        "consequence": "Your legs fatigue rapidly from constant maximum effort, and the top player learns to time their recovery with your exhaustion cycles. Lockdown becomes progressively weaker until it breaks entirely.",
+        "correction": "Use intermittent maximum tension timed with their recovery attempts while maintaining moderate baseline tension between attempts. Save your peak effort for the moments when they commit to spine extension."
+      },
+      {
+        "error": "Allowing yourself to be flattened onto your back during the crossface pressure",
+        "consequence": "Losing your side position eliminates lockdown power, sweep angles, and underhook effectiveness. Once flat, the opponent can complete posture recovery and pass with minimal resistance.",
+        "correction": "Fight to stay on your side throughout the exchange. When you feel crossface pressure flattening your shoulders, shrimp your hips away and re-angle your body before the opponent can settle their weight."
+      },
+      {
+        "error": "Over-committing to a single sweep attempt without proper setup",
+        "consequence": "Failed sweep attempt creates momentum and space that the top player redirects into accelerated posture recovery. Your defensive structure is compromised by the failed attack.",
+        "correction": "Set up sweep attempts with proper off-balancing through lockdown manipulation and grip adjustments. Only commit to the sweep when you feel the opponent's weight shift creating genuine vulnerability."
+      },
+      {
+        "error": "Releasing lockdown too early in a panicked attempt to recover closed guard",
+        "consequence": "Premature lockdown release gives the top player immediate leg freedom while you have not created enough distance for closed guard. They pass before your legs can reconnect.",
+        "correction": "Only release lockdown as a deliberate tactical choice when you have created sufficient hip distance through framing and shrimping. The lockdown release should be accompanied by an immediate hip escape and guard closure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is beginning posture recovery?",
+        "answer": "The earliest cue is feeling their weight shift forward and down rather than settling neutral. Before they establish crossface or begin spine extension, you will feel increased chest pressure as they prepare their forward drive. This is the optimal moment to counter because their recovery sequence has not started yet. Secondary cues include feeling their forearm moving toward your face for crossface and their free leg beginning to post wider. Responding to the weight shift gives you the maximum window to counter."
+      },
+      {
+        "question": "When should you choose to release lockdown and recover closed guard versus maintaining lockdown control?",
+        "answer": "Release lockdown and recover closed guard when three conditions are met: the opponent has established strong crossface preventing you from maintaining chest-to-chest connection, your lockdown tension is diminishing because their posture recovery is well advanced, and you still have enough hip mobility to shrimp back and close your guard before they can react. If any of these conditions is not met, maintain lockdown. Releasing too early wastes the positional advantage you built, while releasing too late means you will not have the space needed to close guard."
+      },
+      {
+        "question": "How do you use the Old School Sweep threat to prevent posture recovery without fully committing to the sweep?",
+        "answer": "Initiate the Old School Sweep motion by posting on your far foot and driving your hips toward the opponent, creating the initial elevation that signals sweep danger. This forces the top player to immediately widen their base and drop weight forward to defend, which resets their recovery progress. You do not need to complete the sweep - the threat alone disrupts their recovery sequence. Return to your lockdown control position after they react defensively. This constant threatening keeps them defensive and unable to commit fully to recovery."
+      },
+      {
+        "question": "Your lockdown is starting to lose tension because the opponent is compressing your legs with hip pressure - what do you do?",
+        "answer": "First, re-engage the lockdown by hooking your foot deeper behind their calf and re-squeezing your thighs together with renewed effort. If the compression has advanced too far for re-engagement, immediately transition to one of two options: initiate a sweep attempt while you still have partial lockdown control, using whatever remaining tension you have to off-balance them, or begin the tactical lockdown release sequence by framing with your arms, shrimping your hips back, and working to close your guard. Never hold a failing lockdown passively."
+      },
+      {
+        "question": "What is the most dangerous phase of the opponent's posture recovery from your perspective as the defender?",
+        "answer": "The most dangerous phase is when the opponent has established crossface and begun driving their weight forward but has not yet extracted their leg from the lockdown. At this point, they have upper body control limiting your offensive options, but they are applying maximum downward pressure on your lockdown which is progressively weakening your leg grip. If you do not act during this window - either by launching an aggressive sweep or transitioning to closed guard - you will reach a point where both your lockdown and your upper body grips are compromised simultaneously, leading to the pass."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying posture recovery attempts early",
+        "description": "Partner begins posture recovery sequence at slow speed while you practice identifying each stage: crossface establishment, weight shift forward, spine extension, and leg extraction. Call out each stage as you feel it. Build the sensory awareness to recognize recovery attempts before they advance past the point of easy counter."
+      },
+      {
+        "phase": "Phase 2: Counter Timing",
+        "focus": "Timing lockdown tightening and sweep threats with recovery attempts",
+        "description": "Partner performs posture recovery at moderate speed while you practice timing your counters. Tighten lockdown when you feel spine extension beginning, threaten Old School when you feel their base shifting, pull underhook deeper when you feel crossface pressure. Develop automatic responses to each recovery stage."
+      },
+      {
+        "phase": "Phase 3: Offensive Defense",
+        "focus": "Launching sweep and submission threats during recovery windows",
+        "description": "Practice transitioning between defensive lockdown maintenance and offensive sweep attempts during partner's recovery. Develop the ability to threaten Old School Sweep, Electric Chair, and guard recovery in response to specific recovery stages. Partner provides full resistance on recovery attempts."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Complete defensive game plan under competition conditions",
+        "description": "Start in Zombie bottom with partner at full resistance attempting posture recovery and passing. Apply all defensive tools including lockdown maintenance, sweep threats, guard recovery, and transition options. Analyze success rate and identify which defensive responses work best against different recovery strategies."
+      }
+    ]
   }
 }

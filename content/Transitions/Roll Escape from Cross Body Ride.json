@@ -1,13 +1,411 @@
 {
   "name": "Roll Escape from Cross Body Ride",
-  "description": "",
-  "tags": [],
+  "description": "Master the Roll Escape from Cross Body Ride in BJJ. Complete guide to recovering half guard through explosive rolling mechanics from turtle bottom position.",
+  "tags": [
+    "bjj",
+    "escape",
+    "rolling-escape",
+    "cross-body-ride",
+    "turtle-defense",
+    "half-guard-recovery",
+    "defensive",
+    "guard-recovery"
+  ],
   "from_position": "Cross Body Ride/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 100,
+      "probability": 40,
       "result": "success"
+    },
+    {
+      "to": "Cross Body Ride/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 40,
+  "overview": "The Roll Escape from Cross Body Ride is a dynamic, momentum-based escape technique employed by the bottom player when trapped underneath perpendicular back pressure in the cross body ride configuration. Unlike the more conservative hip escape, the roll escape uses rotational momentum to redirect the rider's committed weight past the point of recovery, creating space to insert legs and establish half guard. The technique exploits a structural vulnerability inherent in cross body positioning: the rider's perpendicular weight commitment creates directional instability that a correctly timed roll can convert into decisive separation.\n\nStrategically, this escape occupies a specialized niche as a secondary option behind hip escapes and sit-throughs. Its value lies in unpredictability—opponents who have adapted to lateral hip escape patterns are often caught off guard by the rotational vector of the roll. The technique becomes the preferred choice when the rider has neutralized lateral hip movement through tight hip control but has left the rotational axis unguarded. Timing is the critical variable: initiating the roll during the rider's weight transition or grip adjustment window transforms a moderate-percentage escape into a high-reliability positional recovery.\n\nThe primary risk of the roll escape is back exposure. A poorly timed or mechanically unsound roll can allow the rider to follow the momentum and insert hooks, converting a bad position into a worse one. For this reason, the technique demands full commitment, precise directional choice, and immediate guard insertion upon completing the rotation. Half-hearted roll attempts that stall midway leave the escaper in a worse position than where they started, making the binary nature of this escape—full success or significant deterioration—its defining characteristic.",
+  "conditions": [
+    "Opponent has established cross body ride with perpendicular chest pressure across your back",
+    "Bottom player retains sufficient turtle base structure to generate rotational force",
+    "Opponent's weight is committed asymmetrically, creating a rollable direction",
+    "Bottom player's arms are not fully isolated or trapped in crucifix configuration",
+    "Neck is protected with chin tucked before initiating the roll",
+    "Lateral hip escape pathways are blocked or have been exhausted"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Granby Roll to Guard",
+      "description": "A forward-diagonal shoulder roll where the bottom player rolls over the near shoulder while tucking and inverting, landing in a guard position facing the opponent. The granby uses shoulder contact with the mat as the primary rotation axis rather than the hip, generating faster rotational speed.",
+      "when_to_use": "When the rider's weight is committed forward toward your head and their hips are elevated. The forward weight commitment makes them unable to follow the under-and-through rotation of the granby."
+    },
+    {
+      "variant_name": "Barrel Roll to Half Guard",
+      "description": "A lateral body roll where the bottom player rolls directly sideways away from the rider, using hip drive to generate momentum. The barrel roll travels along the transverse axis, carrying the body away from the perpendicular pressure rather than inverting through it.",
+      "when_to_use": "When the rider has tight chest connection but their far-side hip control is weak. The lateral roll direction exploits gaps in hip-to-hip control that the perpendicular rider cannot close without lifting their chest."
+    },
+    {
+      "variant_name": "Hip Roll to Butterfly Guard",
+      "description": "A controlled roll initiated from a hip-heavy coil where the bottom player drives the hips upward and over, using the resulting momentum to turn completely to face the opponent and insert butterfly hooks. This variant prioritizes facing the opponent over leg entanglement.",
+      "when_to_use": "Against lighter riders whose weight can be displaced with hip elevation, or when the rider is transitioning between grips and momentarily releases hip-level control."
+    }
+  ],
+  "position_integration": "The Roll Escape from Cross Body Ride occupies a specialized niche within the turtle escape hierarchy as a high-commitment, momentum-based alternative to the more conservative hip escape and sit-through sequences. It connects the cross body ride defensive state to the half guard system, enabling practitioners to transition from a survival position into an active guard with sweeping and submission opportunities. Within the broader defensive framework, this technique integrates with other turtle escapes by functioning as a secondary chain option when hip escapes are neutralized. Mastering the roll escape completes the turtle bottom practitioner's defensive repertoire by adding a rotational escape vector that complements lateral and rotational-sit escape directions, making the escape system multidirectional and significantly harder for the top player to predict and shut down.",
+  "related_content": [
+    {
+      "name": "Cross Body Ride",
+      "relationship": "Starting position from which this escape is initiated"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success outcome—recovering half guard bottom after completing the roll"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when the rider follows the roll and inserts hooks"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Parent defensive position that precedes cross body ride establishment"
+    },
+    {
+      "name": "Hip Escape from Cross Body Ride",
+      "relationship": "Primary alternative escape using lateral displacement rather than rolling"
+    },
+    {
+      "name": "Escape from Cross Body Ride",
+      "relationship": "Related escape family targeting side control reversal from cross body ride"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Adjacent controlling position the rider may transition to when ride is compromised"
+    },
+    {
+      "name": "Peterson Roll",
+      "relationship": "Related rolling escape technique from similar turtle-bottom scenarios"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Alternative guard recovery target if the roll creates sufficient distance"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard recovery using butterfly hooks after completing the roll"
+    }
+  ],
+  "attacker": {
+    "name": "Roll Escape from Cross Body Ride Attacker",
+    "description": "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step guide covering timing, rolling mechanics, and immediate half guard recovery from turtle bottom.",
+    "overview": "Executing the Roll Escape from Cross Body Ride demands precise timing, full commitment, and immediate post-roll guard insertion. As the bottom player trapped under perpendicular back pressure, your objective is to generate rotational momentum that displaces the rider's weight past the point of recovery, then immediately establish half guard entanglement before the rider can reattach control. The technique requires reading the rider's weight distribution to identify the optimal roll direction, then committing explosively to the rotation during a window of momentary instability. Unlike hip escapes which can be chained incrementally, the roll escape is binary—partial execution leaves you in a worse position, so the decision to roll must be definitive and the follow-through immediate.",
+    "key_principles": [
+      "Commit fully to the roll direction once initiated—half-measures expose the back without creating separation",
+      "Time the roll with the rider's weight transition, grip adjustment, or positional shift to exploit momentary instability",
+      "Protect the neck throughout the entire rolling motion by maintaining a tight chin tuck and defensive hand positioning",
+      "Roll toward the direction of the rider's committed weight to use their pressure against them",
+      "Insert legs for half guard immediately upon completing the rotation—the roll and guard recovery are one continuous motion",
+      "Keep elbows tight to ribs during the roll to prevent arm isolation or crucifix entry mid-rotation"
+    ],
+    "setup_requirements": [
+      "Sufficient turtle base structure to generate the initial rotational force for the roll",
+      "Chin tucked with hands positioned near the neck to protect against choke entries during rotation",
+      "Identification of the rider's weight distribution to determine the optimal roll direction",
+      "At least one hip free enough to initiate rotational momentum without being pinned flat",
+      "Lateral hip escapes blocked or ineffective, making the rotational escape the preferred option"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess rider's weight distribution and commit to roll direction",
+        "description": "Feel where the rider's chest pressure is heaviest across your back through tactile awareness. Identify whether their weight favors your head side, hip side, or is centered. Choose to roll toward the side where their weight is most committed, as this direction uses their own pressure against them and prevents them from following the rotation."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure neck protection and tighten defensive posture",
+        "description": "Tuck your chin firmly to your chest and bring both hands to your collar and neck area. Pin your elbows tightly against your ribs to prevent arm isolation during the upcoming rotation. This defensive shell must be established before initiating any rolling motion, as the neck is maximally exposed during the transition between turtle and guard."
+      },
+      {
+        "step_number": 3,
+        "action": "Load hips for explosive rotational force",
+        "description": "Shift your weight subtly onto the posting knee on the side you intend to roll toward. Coil your hips by angling them slightly in the roll direction while maintaining enough surface contact to disguise the setup from the rider. The loading phase must be brief and subtle to prevent the rider from reading the escape direction and preemptively adjusting."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the roll with explosive hip drive",
+        "description": "Drive your hips explosively in the chosen direction while simultaneously dropping your near shoulder toward the mat to create the rotational axis. The power comes from hip torque, not upper body movement. The near shoulder drops, the hips drive over, and the momentum carries your body through the rotation. Commit completely—any hesitation mid-roll stalls the motion and leaves you in a compromised intermediate position."
+      },
+      {
+        "step_number": 5,
+        "action": "Continue rotation and thread inside leg for guard entry",
+        "description": "As your body rotates through the roll, immediately begin threading your inside leg between the rider's legs. Your legs must be active and searching during the entire rolling motion rather than waiting until the roll completes. The inside leg hooks the rider's nearest thigh as you rotate, beginning the half guard entanglement before you have fully settled into your new orientation."
+      },
+      {
+        "step_number": 6,
+        "action": "Clamp half guard and pinch legs together",
+        "description": "The moment your inside leg contacts the rider's thigh or knee, clamp both legs around it to establish half guard entanglement. Pinch your knees together firmly and hook your outside foot behind their knee to lock the position. This clamping action must be immediate and aggressive—any delay allows the rider to extract their leg and re-establish dominant control before you can consolidate guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish frames and get onto your side",
+        "description": "Post your near-side forearm against the rider's chest or shoulder to create distance and prevent them from flattening you. Turn onto your side facing the rider rather than remaining flat on your back. The priority is creating the structural frames that define effective half guard bottom before the rider can consolidate their passing pressure from the new configuration."
+      },
+      {
+        "step_number": 8,
+        "action": "Secure underhook and stabilize half guard position",
+        "description": "Fight for the underhook on the trapped leg side by threading your arm underneath the rider's armpit. Once established, this underhook converts your defensive guard recovery into an offensive half guard position with sweeping and back-taking opportunities. With the underhook secured, you have fully transitioned from survival in cross body ride to active offense in half guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rider follows the roll momentum and immediately inserts hooks for back control",
+        "effectiveness": "High",
+        "your_response": "If you feel hooks entering during the roll, immediately switch priority to hand fighting the choking hand and stripping the near-side hook. Abandon the half guard insertion and transition to dedicated back escape protocol with hip escapes and hook clearing.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Rider sprawls heavy and drives chest pressure down to kill the roll before it generates momentum",
+        "effectiveness": "High",
+        "your_response": "If the roll is killed before generating sufficient rotation, immediately redirect to a hip escape in the opposite direction. The rider's forward sprawl commitment creates lateral space that hip escapes can exploit.",
+        "targets_outcome": "Cross Body Ride/Bottom"
+      },
+      {
+        "counter": "Rider shifts weight to the opposite side to block the roll direction and maintain perpendicular control",
+        "effectiveness": "Medium",
+        "your_response": "If the rider adjusts weight to block your intended roll direction, use their weight shift as an opening for a hip escape in the direction they just vacated. Their defensive adjustment to block the roll necessarily compromises their coverage on the opposite side.",
+        "targets_outcome": "Cross Body Ride/Bottom"
+      },
+      {
+        "counter": "Rider secures collar grip and threatens choke during the rolling transition when neck is momentarily exposed",
+        "effectiveness": "Medium",
+        "your_response": "If you feel a collar grip establishing during the roll, use two-on-one grip fighting to strip the choking hand immediately. Do not continue the roll with an active choke threat. Return to defensive turtle posture, strip the grip, then reassess escape options.",
+        "targets_outcome": "Cross Body Ride/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the roll without fully committing to the direction, stalling halfway through the rotation",
+        "consequence": "A stalled roll leaves you belly-up or at an awkward angle with your back fully exposed and no guard established, making back control trivially easy for the rider",
+        "correction": "The roll is all-or-nothing. Once you decide to roll, drive through the entire rotation with maximum hip power. Practice committing to the full rotation in drilling before attempting under resistance."
+      },
+      {
+        "error": "Rolling in the wrong direction—away from the rider's committed weight rather than into it",
+        "consequence": "The rider's weight is free to follow you in the direction of uncommitted balance, allowing them to maintain or tighten control throughout the roll",
+        "correction": "Always roll toward the side where the rider's weight is heaviest. Their committed pressure cannot redirect quickly enough to follow a roll into their own weight line."
+      },
+      {
+        "error": "Failing to protect the neck by leaving the chin up or hands away from the collar during the roll",
+        "consequence": "The rotation exposes the neck through multiple angles, allowing the rider to secure clock choke, anaconda, or collar grip entries mid-roll that finish before guard recovery",
+        "correction": "Chin must be welded to chest with at least one hand protecting the collar area throughout the entire rolling sequence. Neck protection is non-negotiable regardless of roll phase."
+      },
+      {
+        "error": "Completing the roll but pausing before inserting legs for half guard",
+        "consequence": "The brief gap between completing the roll and establishing guard allows the rider to re-attach control, flatten you from the new angle, or pass to side control",
+        "correction": "Thread legs for half guard during the roll itself, not after. The roll and guard insertion are one continuous motion. Your legs should be actively searching for entanglement from the moment rotation begins."
+      },
+      {
+        "error": "Extending arms during the roll to post or push the rider off",
+        "consequence": "Extended arms become levers for crucifix entry, kimura attacks, or arm isolation that the rider can exploit during the vulnerable mid-roll transition",
+        "correction": "Keep elbows pinned to ribs throughout the entire roll. Arms only extend after the roll completes and half guard is established, when frames are needed for distance management."
+      },
+      {
+        "error": "Attempting the roll when the rider has fully settled heavy stable pressure with no weight transition occurring",
+        "consequence": "The roll fails to generate sufficient momentum against settled weight, wasting energy and telegraphing the escape direction for future attempts",
+        "correction": "Only initiate the roll during weight transitions—when the rider adjusts grips, shifts to set up a transition, or moves to insert hooks. Never roll into settled, heavy pressure."
+      },
+      {
+        "error": "Remaining flat on the back after completing the roll instead of getting onto the side",
+        "consequence": "Flat back position in half guard allows the rider to immediately establish crossface pressure and begin a systematic pass, negating the positional recovery",
+        "correction": "As soon as half guard is clamped, immediately turn onto your side facing the rider and begin fighting for the underhook. Flat-on-back half guard is almost as bad as not having guard at all."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Rolling Mechanics",
+        "focus": "Rotational movement patterns and neck protection",
+        "description": "Practice the rolling motion without a partner on soft mats. Focus on maintaining chin-tucked posture, keeping elbows tight, and generating hip-driven rotation rather than upper body momentum. Drill both directions, emphasizing smooth continuous rotation that ends in a half guard recovery position."
+      },
+      {
+        "phase": "Cooperative Partner Drilling",
+        "focus": "Full sequence with no resistance",
+        "description": "Partner establishes cross body ride at zero resistance. Practice the complete sequence: weight assessment, defensive posture, roll initiation, guard threading, and half guard consolidation. Perform twenty repetitions per side with emphasis on making the roll and guard insertion one continuous fluid motion."
+      },
+      {
+        "phase": "Progressive Resistance",
+        "focus": "Timing and commitment under increasing pressure",
+        "description": "Partner increases ride pressure from 30% to 80% intensity across rounds. Develop the ability to time the roll with the partner's weight transitions and commit fully to the rotation under realistic pressure. Focus on identifying the correct moment to roll rather than forcing it against settled weight."
+      },
+      {
+        "phase": "Combination Drilling",
+        "focus": "Roll escape integrated with alternative escapes",
+        "description": "Practice the roll escape as part of an escape chain: attempt hip escape, if blocked redirect to roll escape, if the roll is blocked transition to sit-through. Partner provides realistic reactions. Build the automatic decision-making for when the roll is the right tool versus when alternatives are better."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full resistance application and escape selection",
+        "description": "Positional rounds starting from cross body ride bottom at full resistance. Bottom player works to escape using all available techniques including the roll escape. Top player actively maintains ride and advances. Track success rate of roll attempts versus other escape methods to calibrate usage in live situations."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the roll escape from cross body ride?",
+        "answer": "The optimal timing is during the rider's weight transitions—when they adjust grips, shift chest pressure to set up a back take or transition attempt, or begin inserting hooks. These micro-adjustments momentarily disrupt the rider's perpendicular pressure and create directional instability that the roll can exploit. Rolling during settled, heavy pressure wastes energy and has a much lower success rate. The key is developing the tactile sensitivity to feel pressure changes through your back and exploding the moment instability appears."
+      },
+      {
+        "question": "Which direction should you roll relative to the rider's weight distribution?",
+        "answer": "Roll toward the side where the rider's weight is most committed. If their chest pressure is heavy on your right shoulder, roll to the right. The rider's committed weight acts as an anchor that prevents them from following the rotation in that direction. Rolling away from their committed weight allows them to follow freely because their balance is already oriented to move in that direction. Think of it as pulling the rug out from under their pressure point rather than running away from it."
+      },
+      {
+        "question": "Your opponent has blocked your lateral hip escapes and is threatening a back take—how does this scenario make the roll escape more viable?",
+        "answer": "When the rider blocks lateral hip movement and begins transitioning toward back control, they typically shift their weight from perpendicular chest pressure to a more diagonal or rear-oriented position to insert hooks. This weight shift creates the exact rotational instability that the roll escape requires. The rider's commitment to the back take means their weight is moving in one direction, making it impossible for them to simultaneously resist a roll that exploits their transitional movement. The blocked hip escape actually sets up the roll by channeling the rider into a vulnerable weight distribution."
+      },
+      {
+        "question": "What is the most critical mechanical detail that distinguishes a successful roll from one that stalls mid-rotation?",
+        "answer": "Hip drive generates the primary rotational force, not upper body movement. Practitioners who try to roll using their shoulders and upper back as the engine produce insufficient momentum and stall at the halfway point. The correct mechanic is a powerful hip thrust in the roll direction with the near shoulder dropping to create the rotational axis. The hips drive over and the upper body follows. This hip-first sequencing generates enough force to carry the body through the full rotation even against significant rider weight."
+      },
+      {
+        "question": "Your first roll attempt is blocked and you feel the rider adjusting to prevent a second attempt in the same direction—what is your immediate response?",
+        "answer": "Do not attempt a second roll in the same direction. The rider's adjustment to block that direction creates an opening in the opposite direction, either for a hip escape or a roll in the reverse direction. The rider cannot simultaneously defend both rotational directions and lateral movement. Use the information from the failed attempt to redirect immediately: if they loaded weight to block your right-side roll, hip escape left or attempt a left-side roll. Chain escapes that force the rider into a defensive reaction loop rather than allowing them to settle and consolidate after stopping one attempt."
+      },
+      {
+        "question": "What grip configuration must you maintain on your defensive hands during the roll?",
+        "answer": "Both hands should be positioned near your collar and neck area with elbows pinned to ribs. One hand cups the back of your neck while the other protects the collar area to prevent choke entries. During the roll, this hand position naturally protects the neck through all rotational angles. After completing the roll and clamping half guard, the hands transition to framing against the opponent's chest and fighting for the underhook, but during the roll itself, neck protection takes absolute priority over any other grip consideration."
+      },
+      {
+        "question": "How do you prevent the rider from inserting hooks as you complete the roll and begin establishing half guard?",
+        "answer": "Speed and leg activity are the primary defenses against hook insertion during the transition. Thread your inside leg between the rider's legs during the roll itself rather than after—your legs should be searching for the half guard entanglement before the rotation completes. Once you clamp the half guard with both legs pinching the rider's thigh, their ability to insert hooks is structurally blocked by your leg entanglement. The gap between completing the roll and establishing guard is the vulnerability window, so eliminating that gap through continuous leg movement is essential."
+      },
+      {
+        "question": "In what scenario would you choose the roll escape over a hip escape from cross body ride?",
+        "answer": "Choose the roll escape when the rider has effectively neutralized lateral hip movement through tight hip control or hip-to-hip connection but has left the rotational axis unguarded. This typically occurs when the rider has adapted to your hip escape pattern by keeping their weight centered and following lateral displacement. The roll escape introduces a vector that their centered weight cannot counter. Also choose the roll when the rider is in transition between control configurations, as their momentary weight shift provides the instability that the roll requires for success."
+      }
+    ],
+    "safety_considerations": "Practice rolling escapes on properly padded mats to prevent shoulder and neck injuries from the rotational impact. Start with slow, controlled repetitions at minimal resistance before adding speed or partner pressure. The neck is the primary injury concern during this technique—maintain a strict chin-tuck throughout all training phases and never force a roll if you feel compression or strain on the cervical spine. If a training partner establishes a choke during the roll, tap immediately rather than attempting to power through the rotation. Gradually increase partner resistance over multiple sessions rather than jumping to full intensity. Warm up the neck, shoulders, and hips thoroughly before dedicated rolling escape drilling sessions."
+  },
+  "defender": {
+    "name": "Roll Escape from Cross Body Ride Defender",
+    "description": "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn recognition cues, weight adjustments, and strategies to maintain cross body control or capitalize for back control.",
+    "overview": "Defending against the Roll Escape from Cross Body Ride requires the top player to maintain balanced perpendicular pressure while staying alert to rotational escape attempts from the bottom player. Unlike lateral hip escapes which create progressive separation, the roll escape is an explosive all-or-nothing movement that can rapidly reverse the positional dynamic if undetected. The defender's primary objective is to prevent the roll from generating sufficient momentum by maintaining centered weight distribution and controlling the bottom player's hip mobility. When a roll attempt is detected, the defender faces a critical decision: drive weight to kill the rotation and maintain the ride, or flow with the roll momentum and transition to back control by inserting hooks as the bottom player rotates. Mastering this defensive decision point—maintain versus advance—is the key skill for riders facing roll escape attempts.",
+    "key_principles": [
+      "Maintain centered perpendicular pressure that does not over-commit to either side, removing the asymmetric weight distribution the roll exploits",
+      "Control the bottom player's near-side hip with your knee or hook to anchor them against rotational displacement",
+      "Recognize the loading phase of the roll before the explosive motion begins through tactile pressure sensitivity",
+      "Follow the roll momentum to advance to back control rather than fighting the rotation when it has already generated significant force",
+      "Keep harness grip connected to the bottom player's upper body so that even a successful roll does not break your control entirely",
+      "Use the bottom player's committed roll direction against them by inserting hooks into the space their rotation creates"
+    ],
+    "recognition_cues": [
+      "Bottom player's hips shift and load to one side in preparation for rotational force generation rather than lateral displacement",
+      "You feel the bottom player's weight briefly increase against your chest as they coil their hips before the explosive roll",
+      "Bottom player tucks elbows tighter and pulls hands to neck area—the universal setup posture preceding a committed roll attempt",
+      "The bottom player's near shoulder drops toward the mat, creating the rotational axis for the upcoming roll",
+      "A sudden change from incremental hip adjustments to a moment of loaded stillness signals the roll is imminent"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive chest weight down and sprawl hips to kill rotational momentum before the roll develops",
+        "when_to_use": "During the loading phase when you detect hip coiling or shoulder dropping but before explosive rotation has begun",
+        "targets_outcome": "Cross Body Ride/Bottom",
+        "if_successful": "The roll is smothered before generating momentum, and the bottom player returns to controlled position with their escape energy wasted",
+        "risk": "Over-committing weight forward opens vulnerability to a sit-through escape that exploits your forward momentum"
+      },
+      {
+        "action": "Follow the roll momentum and immediately insert hooks to transition to full back control",
+        "when_to_use": "When the roll has already generated significant rotational momentum that cannot be stopped, typically after the initial hip drive has begun",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "The bottom player's roll delivers them directly into your back control with hooks, converting their escape attempt into a worse position",
+        "risk": "If you chase hooks without maintaining upper body harness control, the bottom player may complete their guard recovery during the transition"
+      },
+      {
+        "action": "Adjust weight to the opposite side and re-center perpendicular pressure to block the intended roll direction",
+        "when_to_use": "When you detect the loading phase and can identify which direction the roll will go before it initiates",
+        "targets_outcome": "Cross Body Ride/Bottom",
+        "if_successful": "Your centered weight removes the asymmetric pressure the roll needs, forcing the bottom player to abort or stall mid-rotation",
+        "risk": "Shifting weight to block one direction may open a hip escape opportunity on the side you vacated"
+      },
+      {
+        "action": "Secure collar grip and threaten choke to freeze the bottom player before they can initiate the roll",
+        "when_to_use": "When you recognize pre-roll posture but the bottom player has not yet committed to the explosive rotation phase",
+        "targets_outcome": "Cross Body Ride/Bottom",
+        "if_successful": "The choke threat forces the bottom player to address the grip with their hands rather than executing the roll, resetting to defensive survival mode",
+        "risk": "Reaching for the collar may momentarily lighten chest pressure, giving the bottom player the exact weight transition they need to roll"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Cross Body Ride/Bottom",
+        "how": "Maintain centered perpendicular pressure without committing weight asymmetrically to either side. Control the bottom player's near-side hip with your knee to anchor them against rotational force. When you detect roll loading through hip coiling or shoulder drop, immediately drive your weight down and sprawl to smother the rotation before it generates momentum."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the roll has already generated momentum and stopping it would cost more energy than following it, maintain your harness grip on the upper body and flow with the bottom player's rotation. As their body turns, thread your hooks inside their thighs using the space their rotation creates. Arrive in back control before the bottom player can establish half guard entanglement. Their own escape momentum accelerates your advancement to the most dominant position in grappling."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining static pressure without adjusting to the bottom player's hip loading phase",
+        "consequence": "The roll generates full momentum before you react, giving the bottom player a high-percentage escape window that is nearly impossible to stop once initiated",
+        "correction": "Maintain dynamic pressure sensitivity through your chest contact. When you feel hip coiling or weight shifts that suggest rotational loading, immediately increase downward pressure and anchor the near-side hip to prevent the roll from initiating."
+      },
+      {
+        "error": "Over-committing weight to one side in an attempt to maintain the ride against lateral escapes",
+        "consequence": "Asymmetric weight distribution creates the exact condition the roll escape requires—committed directional weight that cannot resist rotational displacement",
+        "correction": "Keep your weight centered and distributed evenly across the bottom player's back. Use hip control and hooks to prevent escapes rather than shifting your entire weight to block one side."
+      },
+      {
+        "error": "Attempting to stop a roll that has already generated significant momentum by fighting the rotation with muscular resistance",
+        "consequence": "Wasting energy fighting physics while missing the opportunity to flow into back control. The roll completes anyway but you arrive in a worse position without hooks because you fought the momentum instead of using it",
+        "correction": "Recognize the decision point: if the roll has generated substantial rotational force, flow with it and insert hooks rather than fighting it. The transition to back control is more valuable than a failed attempt to maintain cross body ride."
+      },
+      {
+        "error": "Releasing harness grip or chest contact to post hands on the mat during the roll transition",
+        "consequence": "Disconnecting from the bottom player during the roll allows them to complete the guard recovery without interference, converting a controllable transition into a clean escape",
+        "correction": "Maintain harness grip and chest contact throughout the entire roll transition regardless of whether you are stopping it or flowing with it. Your upper body connection is the control thread that enables either defensive response."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing a roll rather than a hip escape?",
+        "answer": "The direction of force loading is the primary differentiator. A hip escape loads laterally—you feel the bottom player's hips pressing sideways against your chest contact. A roll loads rotationally—you feel the hips coiling with the near shoulder dropping toward the mat. The rotational loading creates a brief moment of increased pressure as the bottom player coils before exploding, whereas the hip escape produces more gradual lateral displacement. Additionally, the bottom player's arms tucking tight to their body and hands going to the neck signals a committed roll setup rather than a frame-based hip escape."
+      },
+      {
+        "question": "When should you follow the roll into back control versus fighting to maintain cross body ride?",
+        "answer": "The decision depends on how much rotational momentum the roll has generated. If you detect the loading phase before the explosive rotation begins, stopping it through increased downward pressure and hip control is the higher-percentage option. Once the hips have driven and the shoulder has dropped into the rotation, fighting the momentum becomes energy-inefficient and often fails. At that point, maintaining your harness grip and flowing with the rotation to insert hooks converts the escape attempt into a back control advancement that is actually a better outcome than maintaining the ride."
+      },
+      {
+        "question": "How do you prevent your weight distribution from becoming asymmetric, which is the condition the roll escape exploits?",
+        "answer": "Center your chest pressure across the middle of the bottom player's upper back rather than shifting toward either shoulder. Keep your hips back and slightly to the side with your base leg posted wide for stability in all directions. Use a near-side hip hook or knee to anchor the bottom player rather than shifting your bodyweight to one side. When adjusting grips or preparing transitions, maintain core engagement to prevent inadvertent weight shifts that create the asymmetry the roll requires. Think of your weight as a blanket covering their entire back rather than a point pressing into one side."
+      },
+      {
+        "question": "Your opponent successfully initiates a roll and you are following into back control—what is the critical grip you must maintain during the transition?",
+        "answer": "The harness or seatbelt grip on the upper body is the critical connection that must be maintained throughout the transition. Without this upper body control, the bottom player can complete their guard recovery during the roll even if you successfully follow their movement. The harness grip ensures that you arrive at the bottom player's back with control already established, allowing you to focus on hook insertion rather than re-establishing upper body grips from scratch. Prioritize the over-shoulder arm especially, as it provides both control and immediate choke threat upon arriving in back control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Drilling",
+        "focus": "Distinguishing roll attempts from hip escapes through tactile cues",
+        "description": "Partner alternates between roll escape attempts and hip escape attempts at 50% speed without announcing which one. Practice identifying the escape type through pressure sensitivity and calling out the correct escape before the partner completes the movement. Develop automatic recognition of the rotational loading pattern versus lateral displacement."
+      },
+      {
+        "phase": "Decision Point Training",
+        "focus": "Choosing between stopping the roll and flowing to back control",
+        "description": "Partner attempts roll escapes at increasing intensity. Practice the critical decision: stop the roll early with increased pressure when detected in the loading phase, or flow with the momentum and insert hooks when the roll has already generated significant force. Develop the judgment to make this decision in real-time under pressure."
+      },
+      {
+        "phase": "Back Take Conversion",
+        "focus": "Flowing from cross body ride to back control during roll attempts",
+        "description": "Partner executes committed roll escapes at full speed while you practice maintaining harness grip, following the rotation, and inserting hooks during the transition. Focus on arriving in full back control before the partner can establish half guard entanglement. Develop the timing of hook insertion during the roll's rotational window."
+      },
+      {
+        "phase": "Full Resistance Integration",
+        "focus": "Combining all defensive responses against diverse escape attempts",
+        "description": "Full-resistance positional sparring from cross body ride. Partner uses all available escape options including rolls, hip escapes, and sit-throughs. Practice reading which escape is being attempted and applying the appropriate defensive response. Develop automatic, fluid reactions that combine ride maintenance with back control advancement based on the escape type."
+      }
+    ]
+  }
 }

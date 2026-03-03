@@ -63,7 +63,7 @@
       "relationship": "Related transition technique with similar mechanics"
     },
     {
-      "name": "Japanese Necktie",
+      "name": "Japanese Necktie Setup",
       "relationship": "Alternative choke from front headlock position"
     },
     {
@@ -71,7 +71,7 @@
       "relationship": "Another head-and-arm choke option from turtle top"
     },
     {
-      "name": "Turtle to Back Control",
+      "name": "Front Headlock to Back",
       "relationship": "Positional alternative when submission setup fails"
     },
     {
@@ -142,31 +142,31 @@
         "counter": "Opponent sits back to guard before arm threading",
         "effectiveness": "High",
         "your_response": "Follow them back while maintaining head control, transitioning to guillotine attack or passing to side control by driving forward and circling to their back",
-        "targets_outcome": "Half Guard"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Opponent rolls through toward the choking arm side",
         "effectiveness": "Medium",
         "your_response": "Follow the roll while maintaining your grip, allowing them to give you their back or mounting them as they complete the roll. The anaconda grip transitions well to mounted position.",
-        "targets_outcome": "Anaconda Control"
+        "targets_outcome": "Anaconda Control/Top"
       },
       {
         "counter": "Opponent grabs your leg for single leg defense",
         "effectiveness": "Medium",
         "your_response": "Sprawl your hips back while maintaining the anaconda grip, using your free leg to whizzer their head or establish a front headlock ride. Alternatively, limp-leg out of the single leg attempt.",
-        "targets_outcome": "Front Headlock"
+        "targets_outcome": "Front Headlock/Top"
       },
       {
         "counter": "Opponent frames against your hip to create space",
         "effectiveness": "Low",
         "your_response": "Shift your weight more onto their upper back/head and adjust your angle to remove the frame's leverage. Drop your hips lower to eliminate the space they're trying to create.",
-        "targets_outcome": "Anaconda Control"
+        "targets_outcome": "Anaconda Control/Top"
       },
       {
         "counter": "Opponent tucks their near arm tight to their body",
         "effectiveness": "High",
         "your_response": "Switch to Darce choke setup (threading from the opposite direction) or transition to different front headlock attack like the guillotine. Can also work to flatten them first before attempting the arm capture.",
-        "targets_outcome": "Front Headlock"
+        "targets_outcome": "Front Headlock/Top"
       }
     ],
     "common_errors": [
@@ -312,39 +312,39 @@
       {
         "action": "Sit back to guard by driving your hips backward and sitting through to establish closed or half guard before the arm is threaded",
         "when_to_use": "At the earliest stage of the setup when the attacker is still working to break your posting arm or just beginning to thread. Your near arm must still be free to post and assist the guard pull.",
-        "targets_outcome": "Half Guard",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You recover to half guard or closed guard, neutralizing the anaconda threat entirely and resetting to a guard-based exchange where you have legitimate offensive options",
         "risk": "If timed too late, the attacker follows you down and completes the anaconda grip while you're transitioning, putting you in a worse position on your back with the choke partially locked"
       },
       {
         "action": "Tuck near arm tight and circle away from the choking arm side while fighting the threading wrist with your free hand",
         "when_to_use": "When the attacker has begun threading but hasn't secured the grip yet. Your near arm must be tucked so tightly that their arm cannot pass around it to complete the configuration.",
-        "targets_outcome": "Front Headlock",
+        "targets_outcome": "Front Headlock/Top",
         "if_successful": "You deny the arm-in configuration, forcing the attacker to either reset their front headlock attack or switch to a different technique like the Darce or guillotine, buying you time to improve position",
         "risk": "Circling away while the attacker maintains head control can expose your back if they follow your rotation, potentially leading to back control or a completed anaconda from a different angle"
       },
       {
         "action": "Explosive technical standup by posting hands, driving upward, and turning to face the opponent while maintaining chin tuck",
         "when_to_use": "When the attacker's weight is high on your back and their hips are elevated, giving you space underneath to stand. Most effective when their arm threading is shallow and the grip is not yet completed.",
-        "targets_outcome": "Front Headlock",
+        "targets_outcome": "Front Headlock/Top",
         "if_successful": "You neutralize the turtle position entirely, standing breaks the mechanics of most front headlock submissions, and you can circle away to disengage or shoot for a takedown of your own",
         "risk": "If the attacker has deep head control and heavy chest pressure, the standup attempt can stall halfway, leaving you in a compromised bent-over standing position where guillotine becomes the primary threat"
       },
       {
         "action": "Forward roll through the attacker's position to invert and recover guard, using their forward pressure against them",
         "when_to_use": "When the attacker overcommits their weight forward onto your back and their hips are high, making them vulnerable to being pulled over the top. Works best when they have not yet locked the grip.",
-        "targets_outcome": "Half Guard",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "You end up on your back in guard or half guard with the anaconda threat neutralized, and the attacker may end up scrambling to recover their position after being rolled",
         "risk": "If the attacker follows the roll while maintaining their grip, you may end up in mounted anaconda position which is worse than the original turtle setup"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Front Headlock",
+        "outcome": "Front Headlock/Top",
         "how": "Tuck your near arm tight to your ribs and fight the choking arm's wrist with your free hand to prevent deep threading. Circle away from the choking arm side while keeping your chin tucked. This denies the arm-in configuration and forces the attacker to reset from standard front headlock, where you have more defensive options available."
       },
       {
-        "outcome": "Half Guard",
+        "outcome": "Half Guard/Top",
         "how": "Sit back explosively before the arm threading is complete by driving your hips backward and turning into the attacker. Catch their leg with your legs as you sit through, establishing half guard. Alternatively, execute a forward roll when the attacker overcommits their weight, using their momentum to end up in guard position underneath them."
       }
     ],
@@ -426,9 +426,9 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Marce Choke Setup",
+      "variant_name": "Darce Choke Setup",
       "description": "A variation where instead of threading under the neck from the near side (anaconda), you thread from the far side and trap the far arm. The grip and finish are similar but the arm threading direction is reversed. This becomes available when the opponent tucks their near arm very tight to their body.",
-      "when_to_use": "When opponent defends the traditional anaconda by keeping their near arm tucked close to their ribs, making it impossible to trap. The Marce offers an alternative attack from the same front headlock position."
+      "when_to_use": "When opponent defends the traditional anaconda by keeping their near arm tucked close to their ribs, making it impossible to trap. The Darce offers an alternative attack from the same front headlock position."
     },
     {
       "variant_name": "Anaconda Setup from Failed Guillotine",

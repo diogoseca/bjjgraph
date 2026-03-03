@@ -21,37 +21,37 @@ description: "Master defensive strategies against New York Control from top posi
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Escape",
-      "text": "From this position, attempt Overhook Escape. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface to Combat Base",
-      "text": "From this position, attempt Crossface to Combat Base. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Crossface to Combat Base. This technique is attempted in 24% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,19 +214,21 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Available Attacks
 
-### [[Overhook Escape]] (16% of attempts)
+### [[Overhook Escape]] (15% of attempts)
 
-### [[Posture Recovery]] (15% of attempts)
+### [[Posture Recovery]] (14% of attempts)
 
-### [[Crossface to Combat Base]] (21% of attempts)
+### [[Crossface to Combat Base]] (24% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Stack Pass]] (11% of attempts)
 
-### [[Leg Extraction]] (16% of attempts)
+### [[Leg Extraction]] (15% of attempts)
 
-### [[Standing Escape]] (14% of attempts)
+### [[Standing Escape]] (13% of attempts)
 
-### [[New York Control Escape]] (6% of attempts)
+### [[New York Control Escape]] (5% of attempts)
+
+### [[Guard Pass from New York Control]] (3% of attempts)
 
 
 

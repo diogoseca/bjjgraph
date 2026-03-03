@@ -1,138 +1,397 @@
 {
   "name": "Reverse Scarf to Side Control",
-  "description": "TODO: Write 150-160 character SEO description for Reverse Scarf to Side Control.",
+  "description": "Master the Reverse Scarf Hold to Side Control transition in BJJ. Learn rotational mechanics, pressure maintenance, and timing for seamless positional advancement.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "positional-adjustment",
+    "top-control",
+    "side-control-entry",
+    "reverse-scarf-hold",
+    "pressure-transition"
   ],
   "from_position": "Reverse Scarf Hold/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": 60,
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 30,
+      "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Reverse Scarf to Side Control.",
+  "success_rate": 60,
+  "overview": "The Reverse Scarf to Side Control transition is a fundamental positional adjustment where the top player rotates from the reverse scarf hold orientation—facing the opponent's legs—to standard perpendicular side control. This transition addresses the primary limitation of reverse scarf hold: its inherently transitional nature and reduced visibility of the opponent's defensive movements. By rotating to standard side control, the top player gains access to a more stable control platform with superior submission chains and advancement pathways to mount, knee on belly, and north-south.\n\nThe technical challenge lies in maintaining continuous pressure throughout the rotation. The brief window during body rotation represents the highest-risk moment, as reduced hip pressure allows the bottom player to insert frames, recover guard, or initiate escape sequences. Successful execution requires coordinated hip switching, controlled weight transfer, and immediate establishment of crossface control upon completing the rotation. The transition is most effective when initiated proactively while the bottom player is still processing reverse scarf pressure, rather than as a reactive adjustment when control deteriorates.\n\nStrategically, this transition serves as a key link in the top-game control chain, connecting judo-derived pinning positions to the broader BJJ positional hierarchy. It allows practitioners to capitalize on the initial control advantage of reverse scarf hold while moving to a position offering more diverse offensive options including americana, kimura, arm triangle, and positional advancement sequences. The ability to execute this transition smoothly distinguishes competent top players from those who become stuck in transitional pins.",
   "conditions": [
-    "TODO"
+    "Established reverse scarf hold with hip pressure settled on opponent's upper torso",
+    "Control of opponent's near arm—either trapped across their body or pinned to the mat",
+    "Opponent's defensive frames neutralized or insufficient to prevent rotation",
+    "Wide leg base providing stability sufficient to rotate without being bridged off"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Quick Switch Rotation",
+      "description": "Rapid hip switch with immediate crossface establishment executed in a single explosive motion. Minimizes the transition window by completing the rotation before the opponent can process the positional change and mount defensive responses.",
+      "when_to_use": "When the opponent is passive, recovering from a failed escape attempt, or momentarily distracted by breathing restriction from reverse scarf pressure"
+    },
+    {
+      "variant_name": "Pressure Slide Transition",
+      "description": "Maintaining constant chest-to-torso contact throughout the rotation by sliding the body across the opponent rather than lifting and rotating. The hip bone traces an arc across their sternum, never losing contact. Slower but eliminates the pressure gap that creates escape windows.",
+      "when_to_use": "Against active opponents who exploit any pressure reduction with immediate frame insertion or hip escape attempts"
+    },
+    {
+      "variant_name": "Submission-Threatened Transition",
+      "description": "Initiating an americana or kimura grip before beginning the rotation, using the submission threat to freeze the opponent's defensive response during the transition. The opponent prioritizes arm defense over guard recovery, allowing an uncontested rotation to side control.",
+      "when_to_use": "When the opponent has demonstrated strong guard recovery skills and you need to occupy their attention during the transition window"
     }
   ],
-  "position_integration": "TODO: Write position integration for Reverse Scarf to Side Control.",
+  "position_integration": "This transition connects the judo-derived reverse scarf hold system to the broader BJJ side control ecosystem, serving as a critical pathway for practitioners who arrive at reverse scarf hold through scrambles, guard passes, or positional adjustments from other scarf hold variants. By completing this transition, the top player gains access to the full suite of side control submissions, mount transitions, and knee-on-belly sequences that form the backbone of dominant top-game methodology. The transition also demonstrates the principle that positional superiority in BJJ often requires fluid movement between related control positions rather than static maintenance of a single pin. Mastery of this rotational adjustment builds the positional awareness and pressure sensitivity that translate directly to all top-game transitions.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Reverse Scarf Hold",
+      "relationship": "Source position from which this transition initiates"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position providing superior control platform and diverse submissions"
+    },
+    {
+      "name": "Reverse Scarf to North-South",
+      "relationship": "Alternative transition from the same starting position toward head control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative advancement target from reverse scarf hold"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related scarf hold variant with similar rotational transition mechanics"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when bottom player recovers guard during transition"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Advancement option available after completing transition to side control"
+    },
+    {
+      "name": "Escape Reverse Scarf Hold",
+      "relationship": "Opponent's defensive transition that creates urgency for this positional adjustment"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Submission available from both reverse scarf hold and the target side control"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Natural advancement from side control after completing this transition"
     }
   ],
   "attacker": {
     "name": "Reverse Scarf to Side Control Attacker",
-    "description": "TODO: Write attacker description for Reverse Scarf to Side Control.",
-    "overview": "TODO: Write attacker overview for Reverse Scarf to Side Control.",
+    "description": "Master attacking mechanics for the Reverse Scarf to Side Control transition. Step-by-step rotational technique with pressure maintenance and crossface establishment for dominant control.",
+    "overview": "Executing the Reverse Scarf to Side Control transition requires precise coordination of hip rotation, weight transfer, and grip switching while maintaining unbroken pressure on your opponent. As the attacker, your goal is to rotate from the reverse-facing orientation to a perpendicular side control position without creating space that allows defensive frame insertion or guard recovery. The transition begins with securing your base and controlling your opponent's near arm, then progresses through a controlled hip switch that redirects your pressure angle while your upper body slides into crossface position. Timing is critical—initiating this transition while your opponent is still processing the reverse scarf pressure or recovering from a failed escape yields the highest success rates. The rotation should feel like a single coordinated movement rather than a sequence of separate adjustments, with your hip bone maintaining contact with their torso throughout the arc.",
     "key_principles": [
-      "TODO"
+      "Maintain unbroken chest-to-torso contact throughout the entire rotation to prevent frame insertion and guard recovery",
+      "Switch hips in a single coordinated motion rather than incremental adjustments that create multiple escape windows",
+      "Establish crossface control immediately upon completing rotation to prevent opponent from turning into you",
+      "Control opponent's near arm throughout the transition—never release one control point until the next is secured",
+      "Use the momentum of rotation to increase pressure rather than allowing any momentary weight reduction",
+      "Secure far hip control with your near hand as you complete the transition to prevent knee insertion and guard recovery"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established reverse scarf hold with hip pressure settled on opponent's upper torso and chest",
+      "Control of opponent's near arm—either trapped across their body or pinned by your underhook",
+      "Wide leg base providing stability sufficient to rotate without being bridged off balance",
+      "Opponent's defensive frames neutralized or insufficient to block your rotation path",
+      "Hip pressure low enough that rotation maintains continuous body-to-body contact throughout"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify control and base stability",
+        "description": "Before initiating rotation, confirm your near arm has firm control of opponent's trapped arm across their body and your far hand controls their far hip or belt. Ensure legs are in wide base position with near leg posted and far leg extended. This pre-rotation check prevents the common error of rotating with insufficient control that creates escape opportunities during the transition window."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate hip switch rotation",
+        "description": "Begin rotating your hips from the reverse-facing position toward perpendicular alignment by driving your near hip downward and forward while your far hip swings around. The key is maintaining your hip bone in contact with their chest throughout this motion—think of your hip as a pivot point that slides across their torso rather than lifting and replanting. Commit to a single coordinated rotation rather than incremental adjustments."
+      },
+      {
+        "step_number": 3,
+        "action": "Transfer upper body control to crossface",
+        "description": "As your hips rotate past the halfway point, begin switching your upper body grips. Release the far-side hip control and drive your forearm across their face to establish crossface. Your near arm maintains the arm trap until your crossface is secure, ensuring there is never a moment where both control points are released simultaneously. The crossface forearm should contact their jaw and neck area."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive crossface and turn opponent's head",
+        "description": "Drive your crossface forearm firmly across opponent's jaw and neck, turning their head away from you with heavy uncomfortable pressure. Your shoulder should drop heavy into their face and chest area. This crossface serves dual purposes: controlling their head position to prevent them from turning into you, and creating the discomfort pressure that defines effective side control and discourages escape attempts."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete perpendicular alignment",
+        "description": "Complete the rotation by bringing your chest perpendicular to opponent's torso with maximum surface contact. Your hips should now be positioned alongside their near hip with heavy downward pressure. Near leg posts with knee close to their hip to prevent guard recovery, far leg sprawls back for base and stability. Ensure your weight is distributed through chest and hips rather than posted on your hands."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure side control grips and eliminate space",
+        "description": "With rotation complete, finalize your grip configuration: crossface arm controlling head position, near arm either underhooking their far arm or blocking their far hip. Drop your weight fully and eliminate any remaining space between your bodies. Test your control by assessing opponent's breathing restriction and hip mobility—if either movement remains available, adjust pressure and positioning until both are addressed."
+      },
+      {
+        "step_number": 7,
+        "action": "Assess offensive options and advance",
+        "description": "Once side control is consolidated with stable perpendicular control, immediately assess available offensive options. Check whether opponent's near arm is isolated for americana or kimura, whether advancement to mount or knee on belly is available, and whether their defensive frames require additional pressure adjustments. The transition is complete when you have full offensive capability from a dominant side control platform."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent inserts forearm frame against your shoulder or neck during the rotation window before crossface is established",
+        "effectiveness": "High",
+        "your_response": "If frame is just initiating, accelerate rotation and drive your shoulder through the frame using rotational momentum before it becomes structural. If frame is already established with elbow-to-knee connection, abort rotation, re-settle reverse scarf pressure, and strip the frame before reattempting.",
+        "targets_outcome": "Reverse Scarf Hold/Top"
+      },
+      {
+        "counter": "Opponent shrimps hips away during the momentary pressure reduction of the hip switching phase to create distance",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Follow their hip escape by driving your hips forward to chase their retreating movement, using their escape direction to accelerate your rotation into perpendicular alignment at their new angle. Their hip escape paradoxically assists your transition if you follow rather than fight it.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent inserts near knee between your bodies during rotation to recover half guard hooks before you can consolidate",
+        "effectiveness": "High",
+        "your_response": "If knee is only partially inserted, immediately sprawl your trapped leg back and apply heavy crossface to flatten opponent before they establish full half guard structure. If fully inserted, accept half guard top and work systematic passing with crossface pressure.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent times an explosive bridge during the mid-rotation moment when your base is narrowest and most compromised",
+        "effectiveness": "Medium",
+        "your_response": "Post your far hand immediately and widen base to absorb the bridge force. If bridge is powerful enough to threaten your balance, abort transition and re-establish reverse scarf hold base with wide legs before attempting the rotation again with better timing.",
         "targets_outcome": "Reverse Scarf Hold/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting hips off opponent's chest during the rotation to create turning space",
+        "consequence": "Creates escape window where opponent can insert frames, execute hip escape, or recover guard hooks, often losing the dominant position entirely during the brief gap",
+        "correction": "Keep hip bone in contact with opponent's torso throughout rotation, sliding across their body in a continuous arc rather than lifting and replanting your weight"
+      },
+      {
+        "error": "Releasing opponent's trapped arm before establishing crossface control",
+        "consequence": "Opponent immediately creates defensive frames with their freed arm, preventing crossface establishment and beginning escape sequences that compromise the transition",
+        "correction": "Maintain arm trap with near hand until crossface forearm is fully driven across opponent's face and neck—only release when replacement control is fully secured"
+      },
+      {
+        "error": "Rotating in small incremental hip adjustments rather than a committed single motion",
+        "consequence": "Each small adjustment creates a new escape window, giving opponent multiple opportunities to insert frames, shrimp away, or recover guard structures",
+        "correction": "Commit to a single smooth rotation movement, completing the hip switch in one coordinated motion while maintaining constant pressure throughout the arc"
+      },
+      {
+        "error": "Completing hip rotation but settling into side control without immediately driving crossface",
+        "consequence": "Opponent can turn into you, establish underhook, and begin standard side control escape sequences before you establish head control and dominant pressure",
+        "correction": "The crossface should be your first priority upon completing rotation—drive your forearm across their jaw immediately as your hips settle into perpendicular position"
+      },
+      {
+        "error": "Landing with weight distributed on posted hands rather than through chest and hips",
+        "consequence": "Ineffective pressure allows opponent to escape underneath your body, insert defensive frames, or begin hip escape sequences that recover guard",
+        "correction": "Upon completing rotation, immediately drop all weight through your chest and hips onto opponent's torso, using hands only for grip control rather than weight bearing"
+      },
+      {
+        "error": "Neglecting to block opponent's far hip with near hand after completing the rotation",
+        "consequence": "Opponent inserts near knee for half guard recovery or creates hip angles that compromise your side control structure and enable escape",
+        "correction": "As rotation completes, near hand must immediately control opponent's far hip, blocking knee insertion paths and preventing the hip escape angles that lead to guard recovery"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Solo and cooperative rotation mechanics",
+        "description": "Practice the hip switch motion without resistance. Partner lies passive while you execute the rotation from reverse scarf to side control, focusing on maintaining hip contact throughout. Perform 20 repetitions per side, gradually increasing speed while ensuring continuous pressure contact across the full arc."
+      },
+      {
+        "phase": "Phase 2: Pressure Maintenance",
+        "focus": "Eliminating pressure gaps during rotation",
+        "description": "Partner provides real-time feedback on pressure gaps during your rotation by raising a hand whenever they feel pressure reduce below uncomfortable levels. Goal is completing the full rotation with zero detectable pressure drops. Progress from slow deliberate rotations to match-speed transitions while maintaining constant contact."
+      },
+      {
+        "phase": "Phase 3: Against Resistance",
+        "focus": "Completing transition against progressive defense",
+        "description": "Partner actively attempts frame insertion, hip escapes, and knee recovery during your transition. Start at 30% resistance and progress to 70% over multiple rounds. Develop ability to read defensive reactions and adjust rotation timing, speed, and pressure application accordingly."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Connecting transition to offensive sequences",
+        "description": "Complete transition to side control and immediately chain into submission attempts or positional advancement. Flow from reverse scarf to side control to americana, or reverse scarf to side control to mount. Develop automatic follow-up attacks that capitalize on the momentum and control established during the transition."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full application in competitive training",
+        "description": "Start every round in reverse scarf hold and work to transition to side control against fully resisting opponents. Track success rate over 20 repetitions and identify which defensive responses create the most difficulty. Use this data to refine specific aspects of your transition mechanics and timing."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the single most critical body contact point to maintain throughout the rotation from reverse scarf to side control?",
+        "answer": "The hip bone must maintain constant contact with the opponent's upper torso throughout the entire rotation. This contact point serves as the pivot around which the transition revolves. Lifting the hip even momentarily creates a pressure gap that allows frame insertion, knee recovery, or bridging escapes. The hip should slide across their chest like a wheel rolling over a surface rather than lifting and replanting."
+      },
+      {
+        "question": "Your opponent inserts a forearm frame against your neck as you begin rotating—how do you respond?",
+        "answer": "You have two options based on frame establishment. If the frame is weak or just initiating, accelerate your rotation and drive your shoulder through the frame using rotational momentum to collapse it before it becomes structural. If the frame is already established with strong elbow-to-knee connection, abort the rotation, re-settle reverse scarf hold pressure, strip the frame through pressure and grip fighting, then reattempt the transition."
+      },
+      {
+        "question": "What grip sequence ensures continuous arm control throughout the entire transition?",
+        "answer": "Begin with your near arm trapping opponent's arm across their body and your far hand controlling their far hip. During rotation, maintain the near arm trap while releasing your far hand to establish crossface. The crossface forearm drives across their face before you release the arm trap with your near hand, which then transitions to blocking their far hip. At no point are both control points released simultaneously—there is always one arm maintaining positional control."
+      },
+      {
+        "question": "When is the optimal timing window to initiate this transition from reverse scarf hold?",
+        "answer": "The optimal window is immediately after the opponent has expended energy on a failed escape attempt and is resettling or recovering breath. Their defensive alertness is lowest and their available energy for counter-movement is reduced. Alternatively, initiate during the pause between defensive sequences when they are reassessing options. Avoid transitioning when the opponent is actively bridging, framing, or showing high energy output that could power a counter."
+      },
+      {
+        "question": "Your opponent hip escapes and creates an angle during your rotation—what adjustment do you make?",
+        "answer": "Use their hip escape direction to your advantage by following their movement with your rotation rather than fighting against it. Their escape creates the perpendicular angle you need for side control alignment. Drive your hips forward to chase their retreating hips while accelerating your crossface establishment. Their hip escape paradoxically assists your transition if you follow their movement. Only if they create enough space for full knee insertion should you consider aborting to address half guard recovery."
+      },
+      {
+        "question": "What distinguishes a successful rotation from one that creates defensive openings for the opponent?",
+        "answer": "A successful rotation maintains constant downward pressure through the hip contact point, completes the hip switch in a single coordinated motion, and establishes crossface before releasing the arm trap. A rotation that creates openings typically involves lifting the hip during the turn, pausing mid-rotation in a compromised base position, or releasing control grips before establishing replacement grips. The difference is fluidity and full commitment versus hesitation and segmented movement."
+      },
+      {
+        "question": "If the opponent recovers half guard during your transition, what is your immediate response?",
+        "answer": "Accept the half guard top position rather than fighting to extract and return to reverse scarf. Immediately establish crossface and underhook from half guard top, then work systematic passing sequences such as knee slice or smash pass. Attempting to return to reverse scarf from a compromised half guard wastes energy and exposes you to sweeps. Half guard top still offers clear offensive pathways and maintains your positional advantage."
+      },
+      {
+        "question": "What role does your far leg play during each phase of the rotation sequence?",
+        "answer": "Your far leg provides the primary driving force for the rotation while maintaining base stability. As the rotation initiates, the far leg swings from its extended position around toward the opponent's head side, providing rotational momentum that powers the hip switch. Upon completing the rotation, this leg becomes your near leg in side control and posts with the knee close to opponent's hip to prevent guard recovery. The leg transitions from base provider to rotational driver to positional anchor throughout the sequence."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Reverse Scarf to Side Control."
+    "safety_considerations": "This transition involves controlled rotational movement that poses minimal injury risk when performed correctly. The primary safety concern is crossface pressure during establishment, which should be applied firmly for positional control but not with intent to cause pain beyond positional discomfort. During training, partners should communicate if the crossface creates excessive neck strain. When drilling at speed, ensure the rotation is controlled to prevent accidental knee-to-face contact during the hip switch. Both partners should be aware that the brief pressure reduction during rotation creates a window where sudden explosive defensive movement could result in collision or awkward entanglement."
   },
   "defender": {
     "name": "Reverse Scarf to Side Control Defender",
-    "description": "TODO: Write defender description for Reverse Scarf to Side Control.",
-    "overview": "TODO: Write defender overview for Reverse Scarf to Side Control.",
+    "description": "Learn to defend and counter the Reverse Scarf to Side Control transition. Recognition cues, frame timing, guard recovery techniques, and escape strategies from bottom position.",
+    "overview": "Defending the Reverse Scarf to Side Control transition requires recognizing the rotational movement early and exploiting the brief window of reduced pressure that occurs during the top player's hip switch. As the defender, you are on the bottom of reverse scarf hold when your opponent begins rotating toward standard side control. This transition creates your best escape opportunity from the pin—the rotational movement necessarily reduces the crushing hip pressure that characterizes reverse scarf hold, providing a window to insert frames, recover guard, or initiate reversals. Your defensive strategy should be pre-loaded before the transition begins, with frames already positioned so that immediate response is possible when you feel the hip pressure shift that signals rotation. Failing to capitalize on this window means accepting standard side control, which offers the top player superior submission chains, more advancement pathways, and a more stable long-term control platform than reverse scarf hold.",
     "key_principles": [
-      "TODO"
+      "Recognize the transition initiation through tactile cues—feel for the hip pressure shifting laterally across your chest before the rotation becomes visible",
+      "Pre-position defensive frames before the rotation begins by maintaining far-side forearm against opponent's shoulder or neck at all times",
+      "Time explosive defensive actions to the mid-rotation moment when opponent's base is narrowest and most compromised",
+      "Target knee insertion for half guard recovery as the primary defensive goal during the transition window",
+      "Maintain near-arm protection throughout—the arm remains vulnerable to isolation during and after the rotational grip change",
+      "Use the opponent's rotational momentum against them by framing in the direction they are turning to amplify the defensive effect"
     ],
     "recognition_cues": [
-      "TODO"
+      "Hip pressure on your chest shifts laterally from the reverse-facing direction toward perpendicular alignment as opponent begins rotating",
+      "Opponent's far leg begins swinging around toward your head side, visibly changing their base configuration and weight distribution",
+      "Near-arm control loosens momentarily as opponent adjusts grip configuration during the rotational transition",
+      "Upper body weight shifts from settled reverse scarf compression to a transitional sliding movement across your torso",
+      "You feel the opponent's chest angle changing from parallel to your body toward perpendicular alignment as the rotation progresses"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive far-side forearm into opponent's neck or shoulder as they begin rotating, creating a structural frame that blocks transition completion",
+        "when_to_use": "When you detect the initial hip shift signaling rotation, before the opponent builds rotational momentum",
         "targets_outcome": "Reverse Scarf Hold/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent cannot complete rotation and must re-settle reverse scarf hold or abandon the transition attempt entirely",
+        "risk": "If frame is inserted too late, opponent drives through with rotational momentum and establishes crossface over your frame"
+      },
+      {
+        "action": "Shrimp hips away from opponent during pressure reduction and insert near knee between bodies for half guard hook recovery",
+        "when_to_use": "During mid-rotation when opponent's hip pressure on your chest reaches its lowest point",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recover half guard bottom position with established hooks, gaining access to sweeps, back takes, and guard recovery sequences",
+        "risk": "If timed too early, opponent aborts rotation and re-establishes heavy reverse scarf pressure on your shrimped position"
+      },
+      {
+        "action": "Execute explosive bridge toward opponent's rotating direction during mid-transition when their base is narrowest",
+        "when_to_use": "When opponent commits to rotation and their weight shifts to a single narrow support point with compromised balance",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Create enough space and disruption for guard recovery or force opponent into scramble where half guard can be established",
+        "risk": "If bridge force is insufficient, opponent absorbs the energy and uses your upward movement to accelerate their transition"
+      },
+      {
+        "action": "Shoot near-side underhook as opponent releases arm control during their grip transition to crossface",
+        "when_to_use": "During the brief moment when opponent releases arm trap to switch to crossface grip, creating a gap in their control chain",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Establish underhook that prevents opponent from settling crossface, enabling guard recovery or sweep initiation from half guard",
+        "risk": "If opponent maintains arm control or establishes crossface first, your underhook attempt may leave your arm exposed to kimura"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time your hip escape to the mid-rotation moment when opponent's hip pressure reduces below the level needed to pin you. Shrimp away from their rotating direction, insert your near knee between their legs, and establish half guard hooks before they can complete the crossface. Pre-position your far-side frame against their shoulder before the transition begins so you have immediate leverage when the pressure window opens."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining flat and passive while opponent completes the full rotation without any defensive resistance",
+        "consequence": "Opponent establishes textbook side control with crossface and hip control, a significantly more dangerous position than reverse scarf hold with superior submission chains and advancement options",
+        "correction": "React immediately to the first tactile cue of rotation—the lateral hip pressure shift. Every fraction of a second of delay reduces your escape window as the opponent builds rotational momentum and approaches stable side control"
+      },
+      {
+        "error": "Extending arms to push opponent's torso away during the transition rather than creating structural forearm frames",
+        "consequence": "Extended arms become isolated and vulnerable to kimura or americana during or immediately after the transition, and lack the structural strength to resist body weight pressure",
+        "correction": "Create structural frames with forearm perpendicular to opponent's shoulder line, keeping elbows close to your body for maximum leverage and arm protection against submission threats"
+      },
+      {
+        "error": "Attempting explosive bridge before opponent has committed to rotation while they still have full reverse scarf hold base",
+        "consequence": "Wasted energy against a fully based opponent with wide leg support, and the exhaustion from the failed bridge reduces your ability to respond when the actual transition window opens moments later",
+        "correction": "Wait for tactile confirmation of rotation—the lateral hip pressure shift—before committing to any explosive defensive movement. Patience preserves energy for the moment of maximum opportunity"
+      },
+      {
+        "error": "Turning toward the opponent during their transition instead of creating distance through hip escape movement",
+        "consequence": "Creates back exposure as opponent completes rotation, potentially giving up back control instead of settling for standard side control which is less dangerous",
+        "correction": "Focus on creating distance through hip escape and frame insertion rather than turning into the opponent. Your priority is space creation and guard recovery, not facing them directly during the transition"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest tactile cue that tells you the opponent is beginning to transition from reverse scarf to side control?",
+        "answer": "The first cue is a lateral shift in the hip pressure on your chest. In reverse scarf hold, the pressure comes from the opponent's hip pointing toward your legs. When they initiate the transition, you feel the pressure begin sliding sideways across your sternum as their hip rotates toward perpendicular alignment. This shift precedes any visible rotation and provides the maximum response window for defensive action."
+      },
+      {
+        "question": "You successfully insert a frame against the opponent's neck during their rotation—what is your immediate next action?",
+        "answer": "After establishing the frame, immediately shrimp your hips away from the opponent in the direction opposite their rotation. The frame prevents them from following your hip escape with their upper body. As space opens, insert your near knee between their legs to begin half guard recovery. The sequence is: frame holds them in place, hips escape to create distance, knee inserts to establish guard structure. Do not release the frame until your knee is fully inserted and half guard hooks are established."
+      },
+      {
+        "question": "Why is the transition window from reverse scarf to side control your best escape opportunity from the pin?",
+        "answer": "During static reverse scarf hold, the opponent has settled weight, wide base, and full arm control. During the transition, they must rotate their body which requires shifting hip pressure, changing base configuration, and switching grip points between arm trap and crossface. Each change creates momentary vulnerability. The hip pressure reduction is the most significant—it provides the mobility to shrimp, frame, and insert guard recovery structures that are impossible under full reverse scarf compression."
+      },
+      {
+        "question": "If you fail to prevent the transition and the opponent establishes side control, how does your defensive strategy change?",
+        "answer": "In side control you face a more versatile opponent with better submission chains and advancement pathways than reverse scarf hold offered. Your defensive priority shifts to preventing mount advancement while working systematic escape sequences. Establish forearm frames against their hips and shoulder, protect your near arm from isolation for americana or kimura, and work hip escapes toward half guard or full guard recovery. While the position is more dangerous, your defensive toolkit for side control escapes is broader and more practiced."
+      },
+      {
+        "question": "Your near arm gets freed during the opponent's grip transition—should you reach for an underhook or protect the arm?",
+        "answer": "This depends on the opponent's grip progress. If they have not yet established crossface, shoot for the underhook immediately—it provides your strongest offensive recovery tool and prevents crossface establishment entirely. If the opponent has already driven their forearm toward your face for crossface, prioritize arm protection by bringing your elbow tight to your ribs. An underhook attempt against an established crossface exposes your arm to kimura attack. Read the opponent's grip progress before committing to either option."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying transition initiation cues through feel",
+        "description": "Partner alternates between maintaining static reverse scarf hold and initiating the transition to side control. Call out the transition the moment you feel the rotation beginning. Track detection speed over 20 repetitions, aiming to identify the movement within the first quarter of the rotation arc."
+      },
+      {
+        "phase": "Phase 2: Frame Timing",
+        "focus": "Inserting defensive frames during the optimal window",
+        "description": "Partner performs the transition at controlled speed while you practice inserting forearm frames during the rotation. Start with slow rotation speed and increase to realistic pace over multiple rounds. Focus on frame placement against their shoulder or neck that creates structural resistance to the rotation."
+      },
+      {
+        "phase": "Phase 3: Escape Execution",
+        "focus": "Completing guard recovery during the transition window",
+        "description": "Partner performs full-speed transitions while you combine frame insertion with hip escape and knee insertion for half guard recovery. Start at 50% resistance and progress to 80%. Track guard recovery success rate and identify which defensive sequence works most consistently for your body type and flexibility."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Defending transitions under full competitive pressure",
+        "description": "Begin every round in reverse scarf hold bottom. Partner can transition to side control, attack submissions, or advance to mount. Defend all threats while specifically targeting the transition window for escape attempts. Five-minute rounds with full resistance, tracking escape success rate per round."
       }
     ]
   }

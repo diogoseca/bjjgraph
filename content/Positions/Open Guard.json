@@ -286,43 +286,47 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 12
+        "attempt_probability": 17
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "X Pass",
         "attempt_probability": 9
       },
       {
+        "transition": "X Pass",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Smash Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Knee Cut Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Float Passing",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [
@@ -437,11 +441,6 @@
         "condition": "If opponent drives forward with pressure passing",
         "actions": [
           {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount",
-            "probability": 50
-          },
-          {
             "technique": "Butterfly Sweep",
             "target": "Mount",
             "probability": 60
@@ -450,6 +449,11 @@
             "technique": "Elevator Sweep",
             "target": "Mount",
             "probability": 50
+          },
+          {
+            "technique": "Collar Drag from Open Guard",
+            "target": "Back Control",
+            "probability": 45
           }
         ]
       },
@@ -482,7 +486,7 @@
             "probability": 50
           },
           {
-            "technique": "Scissor Sweep",
+            "technique": "Scissor Sweep from Open Guard",
             "target": "Mount",
             "probability": 50
           }
@@ -578,16 +582,16 @@
         "relationship": "Common transition when open guard is partially passed"
       },
       {
-        "name": "Scissor Sweep",
+        "name": "Scissor Sweep from Open Guard",
         "relationship": "Fundamental sweep technique from open guard"
-      },
-      {
-        "name": "Hip Bump Sweep",
-        "relationship": "High-percentage sweep when opponent pressures forward"
       },
       {
         "name": "Butterfly Sweep",
         "relationship": "Core sweeping technique from butterfly guard variation"
+      },
+      {
+        "name": "Collar Drag from Open Guard",
+        "relationship": "Off-balancing technique to create scramble or back take opportunities"
       }
     ],
     "position_metrics": {
@@ -619,103 +623,75 @@
     ],
     "transitions": [
       {
-        "transition": "Scissor Sweep",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": 0
-      },
-      {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 99
+        "attempt_probability": 27
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Tripod Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Closed Guard to Triangle",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Armbar Finish",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Float Passing",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Open Guard to Deep Half",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Collar Sleeve Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Double Sleeve Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Feet on Hips Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Collar Drag from Open Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Open Guard to Collar Sleeve Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Open Guard to De La Riva",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Open Guard to Double Sleeve Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Open Guard to Feet on Hips Guard",
-        "attempt_probability": 0
+        "transition": "Armbar Finish",
+        "attempt_probability": 2
       },
       {
         "transition": "Scissor Sweep from Open Guard",
-        "attempt_probability": 0
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Open Guard to Deep Half",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Open Guard to Collar Sleeve Guard",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Open Guard to De La Riva",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Open Guard to Double Sleeve Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Open Guard to Feet on Hips Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": 4
       },
       {
         "transition": "Scramble from Failed Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Technical Stand Up from Open Guard",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Transition to Clamp Guard",
         "attempt_probability": 1
       }
     ],

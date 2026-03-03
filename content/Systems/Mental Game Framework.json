@@ -325,9 +325,9 @@
       "relationship": "Strategic entry requiring mental commitment and clear game plan"
     },
     {
-      "name": "Takedown Defense",
-      "content_type": "Transition",
-      "relationship": "Defensive skill requiring calm decision-making under pressure"
+      "name": "Standing Defense Strategy",
+      "content_type": "System",
+      "relationship": "Defensive system requiring calm decision-making and composure under pressure from standing exchanges"
     }
   ]
 }

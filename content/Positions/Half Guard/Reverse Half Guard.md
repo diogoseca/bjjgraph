@@ -89,23 +89,25 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Old School Sweep]]** (9% of attempts)
 
-- **[[Half Guard to Back Take]]** (34% of attempts)
+- **[[Half Guard to Back Take]]** (41% of attempts)
 
-- **[[Underhook Sweep from Half]]** (8% of attempts)
+- **[[Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Deep Half Entry]]** (9% of attempts)
 
-- **[[Half Guard Recovery]]** (14% of attempts)
+- **[[Half Guard Recovery]]** (13% of attempts)
 
-- **[[Kimura Sweep]]** (10% of attempts)
+- **[[Kimura Sweep]]** (9% of attempts)
 
-- **[[Guard Recovery]]** (8% of attempts)
+- **[[Guard Recovery]]** (7% of attempts)
 
-- **[[Escape Reverse Half Guard]]** (4% of attempts)
+- **[[Escape Reverse Half Guard]]** (3% of attempts)
 
-- **[[Invert from Reverse Half Guard]]** (2% of attempts)
+- **[[Invert from Reverse Half Guard]]** (1% of attempts)
+
+- **[[Sweep from Reverse Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

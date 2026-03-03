@@ -1,10 +1,15 @@
 {
   "name": "Hand Fight to Turtle from Back",
-  "description": "TODO: Write 150-160 character SEO description for Hand Fight to Turtle from Back.",
+  "description": "Master hand fighting to escape back control and reach turtle position in BJJ. Systematic guide to grip stripping, hip movement, and defensive transitions.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "back control escape",
+    "hand fighting",
+    "turtle",
+    "defensive",
+    "grip fighting",
+    "back defense"
   ],
   "from_position": "Back Control/Bottom",
   "outcomes": [
@@ -19,120 +24,372 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Mount/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Hand Fight to Turtle from Back.",
+  "overview": "Hand Fight to Turtle from Back is a fundamental defensive transition used to escape the most dominant position in Brazilian Jiu-Jitsu. When an opponent has established back control with hooks and harness grip, the immediate priority is preventing the rear naked choke through chin protection and systematic grip fighting. Once neck defense is secured, the practitioner methodically strips the opponent's controlling grips using two-on-one hand fighting principles, then creates the hip movement necessary to rotate from back exposure into the turtle position.\n\nThe technique operates on the principle that turtle, while still requiring active defense, represents a significant positional improvement over back control bottom. In turtle the practitioner regains the ability to see the opponent's movements, can actively defend against hook re-insertion, and has access to guard recovery and standup options that are completely unavailable from back control. The hand fighting component is critical because attempting to physically escape without first addressing the opponent's grips typically results in tighter control or direct submission through the rear naked choke.\n\nThis transition integrates tightly with the broader back escape system, serving as a middle-ground option between the back door escape aimed at guard recovery and the shoulder walk escape targeting standing. The hand fight to turtle approach is particularly effective when the opponent has strong leg control through deep hooks or body triangle, making full guard recovery impractical, but their upper body control can be systematically stripped through persistent grip fighting. The counter risk involves the opponent following the rotation to take mount, making it critical to time the turn correctly and establish proper turtle defense immediately upon arriving.",
   "conditions": [
-    "TODO"
+    "Opponent has established back control with hooks or body triangle and harness grip",
+    "Neck is defended or can be immediately defended through chin tuck and hand positioning",
+    "At least one hand is available to begin grip fighting on opponent's controlling arm",
+    "Practitioner maintains composure sufficient for systematic grip stripping rather than panicked escape attempts",
+    "Hip mobility remains sufficient to initiate rotation despite opponent's leg control"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Two-on-One Choking Arm Strip",
+      "description": "Focuses entirely on isolating and stripping the choking arm using both hands in a two-on-one configuration, peeling the wrist away from the neck before addressing the under arm and hooks. Most systematic approach with highest success against strong harness grips.",
+      "when_to_use": "When opponent has a deep seatbelt with the choking arm threatening the neck and you can establish two-on-one control on their wrist"
+    },
+    {
+      "variant_name": "Shoulder Walk to Turtle",
+      "description": "Uses shoulder walking mechanics to create downward angle before rotating to turtle. The practitioner walks their shoulders toward the opponent's hips, reducing hook effectiveness, then turns into turtle from a lower position where the opponent has less leverage to follow to mount.",
+      "when_to_use": "When opponent has deep hooks but relatively loose upper body control, allowing progressive hip-level movement before the turn"
+    },
+    {
+      "variant_name": "Body Triangle Break to Turtle",
+      "description": "Specifically addresses the body triangle configuration by first turning toward the lock side to reduce squeeze pressure, then stripping the triangle by pushing the top foot through before rotating to turtle. Requires additional steps compared to the standard hook variation.",
+      "when_to_use": "When opponent has locked a body triangle rather than using standard hooks, requiring the triangle to be addressed before rotation is possible"
     }
   ],
-  "position_integration": "TODO: Write position integration for Hand Fight to Turtle from Back.",
+  "position_integration": "Hand Fight to Turtle from Back occupies a central role in the defensive hierarchy of back control escapes. It connects the back control bottom position to the turtle recovery platform, from which practitioners can access guard recovery through granby rolls, sit-throughs, and technical standups. The technique chains naturally with other back defense methods: if the hand fight stalls, the practitioner can shift to a back door escape or shoulder walk. If the turtle is achieved, it opens the entire turtle bottom escape system including guard pulls, wrestling-based standups, and inversion-based recoveries. Understanding this transition is essential for any practitioner facing high-level back attackers who systematically hunt the rear naked choke.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Back Control",
+      "relationship": "Starting position where this escape sequence begins"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Target position achieved after successful hand fighting and rotation"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Common back control configuration requiring specific grip stripping approach"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Back control variation that modifies the escape methodology"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Risk position if opponent follows rotation and counters the escape"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Alternative back escape targeting guard recovery rather than turtle"
+    },
+    {
+      "name": "Elbow Escape from Back",
+      "relationship": "Complementary escape technique that can chain with hand fighting"
+    },
+    {
+      "name": "Escape Seat Belt Control",
+      "relationship": "Related grip stripping technique specifically addressing seatbelt configuration"
+    },
+    {
+      "name": "Body Triangle Escape to Half Guard",
+      "relationship": "Alternative escape route when body triangle prevents turtle rotation"
+    },
+    {
+      "name": "Back Control Maintenance",
+      "relationship": "Opponent's retention technique that this escape must overcome"
     }
   ],
   "attacker": {
     "name": "Hand Fight to Turtle from Back Attacker",
-    "description": "TODO: Write attacker description for Hand Fight to Turtle from Back.",
-    "overview": "TODO: Write attacker overview for Hand Fight to Turtle from Back.",
+    "description": "Learn to execute the hand fight to turtle escape from back control. Step-by-step grip stripping, hip mechanics, and systematic escape sequences for BJJ practitioners.",
+    "overview": "As the practitioner trapped in back control, your primary objective is to systematically dismantle the opponent's controlling grips before rotating to turtle. This requires disciplined hand fighting that addresses the choking threat first, then the harness control, and finally the hook control. Each phase builds on the previous one, and rushing any step typically results in the opponent re-establishing control or finding a submission opening. The technique demands patience, precise grip manipulation, and coordinated hip movement timed to moments when the opponent's grip control is compromised. The two-on-one principle is your primary weapon: using both of your hands against one of theirs creates the mechanical advantage necessary to strip grips that a single hand cannot overcome.",
     "key_principles": [
-      "TODO"
+      "Defend the neck first through chin tuck and two-on-one control on the choking arm before initiating any escape sequence",
+      "Address opponent's grips in strict sequence: choking arm first, then harness connection, then hooks - skipping steps invites submission",
+      "Use two-on-one grip fighting to create mechanical advantage when stripping opponent's controls rather than matching strength against strength",
+      "Time hip movement to moments when opponent's grip control is compromised from your stripping efforts",
+      "Keep elbows tight to your body throughout the rotation to prevent opponent from re-establishing underhooks or harness control",
+      "Commit fully to the rotation once initiated and establish proper turtle defensive posture immediately upon arriving"
     ],
     "setup_requirements": [
-      "TODO"
+      "Chin tucked tightly to chest with neck defended against immediate choking threats from the rear naked choke",
+      "At least one hand positioned to begin two-on-one grip fighting on opponent's choking arm (the over arm in seatbelt configuration)",
+      "Awareness of opponent's grip configuration including which arm is the choking arm and whether hooks or body triangle are being used",
+      "Controlled breathing and mental composure sufficient to execute systematic multi-step escape rather than explosive panic movements",
+      "Sufficient hip mobility to initiate rotation once upper body control is partially stripped despite opponent's leg control"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish neck defense",
+        "description": "Immediately tuck your chin tightly to your chest and use both hands to control the opponent's choking arm at the wrist. Secure a two-on-one grip with your hands clasped around their wrist, preventing the arm from sliding under your chin. This neutralizes the immediate rear naked choke threat and creates the foundation for the grip stripping sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip the choking arm",
+        "description": "Using your two-on-one grip, peel the opponent's choking arm away from your neck by pulling their wrist toward your chest and away from your centerline. Drive their hand down toward your hip on the choking arm side, breaking the seatbelt connection. Maintain constant downward pressure on their wrist throughout the strip to prevent them from re-threading the arm around your neck."
+      },
+      {
+        "step_number": 3,
+        "action": "Pin the stripped arm",
+        "description": "Once the choking arm is stripped from your neck, pin it firmly against your chest with your top arm while your bottom arm secures their wrist. This prevents the opponent from re-establishing the harness grip and creates a window for hip movement. Your elbow should clamp tightly over their arm, trapping it between your arm and torso."
+      },
+      {
+        "step_number": 4,
+        "action": "Create hip angle",
+        "description": "With the harness partially neutralized, begin shifting your hips toward the side where the opponent's bottom hook is located. Use a hip escape motion to create an angle between your body and the opponent's centerline. This angle disrupts their hook leverage and creates the space needed to initiate the rotation. Keep your shoulders connected to the opponent during this movement to prevent them from re-establishing upper body control."
+      },
+      {
+        "step_number": 5,
+        "action": "Clear the bottom hook",
+        "description": "As you create the hip angle, use your near-side leg to push the opponent's bottom hook out of your thigh by extending your leg and trapping their foot against the mat. Simultaneously continue the hip escape motion to move your hips away from their remaining hook. The bottom hook must be addressed first because it is the primary barrier to rotation and is mechanically easier to clear from the angled position."
+      },
+      {
+        "step_number": 6,
+        "action": "Initiate rotation to turtle",
+        "description": "With the bottom hook cleared and upper body control disrupted, commit to rotating your body toward your knees. Drive your near-side knee under your body while turning your shoulders away from the opponent. This rotation should be decisive and continuous - hesitation allows the opponent to re-insert hooks or follow you to mount. Keep your elbows tight to your body throughout the turn."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear the remaining hook during rotation",
+        "description": "As you rotate, the far-side hook loses leverage naturally due to the angle change. Use your leg to push through and clear the remaining hook as your body transitions from supine to prone position. If the opponent attempts to maintain the hook, continue the rotation while using your hip to trap and strip their foot against the mat."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish defensive turtle posture",
+        "description": "Complete the rotation to hands and knees, immediately establishing a tight defensive turtle position. Round your back, tuck your chin to your chest, and press your elbows tightly against the insides of your knees. This creates the protective shell that prevents the opponent from immediately re-taking the back. From here, begin working toward guard recovery or standup before the opponent can re-establish dominant grips."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent immediately re-secures harness grip each time you strip it through persistent re-gripping",
+        "effectiveness": "High",
+        "your_response": "Maintain two-on-one control and repeat the grip strip. Each strip attempt weakens their grip endurance. After two to three failed strips, switch to peeling the under arm instead to change the problem and force them to adjust",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows your rotation and drives their hips over the top to transition to mount",
+        "effectiveness": "High",
+        "your_response": "If you feel the opponent riding over during your turn, immediately stop the rotation and return to back defense rather than conceding mount. Alternatively, accelerate the turn and establish turtle before they can complete the mount transition by getting your knees under you first",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent re-inserts hooks before you can complete the rotation to turtle",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Continue working the grip strip on the upper body while using your legs to fight the hooks simultaneously. Address the re-inserted hook with a hip escape to create angle, then resume the rotation sequence from the hook clearing step",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent switches to body triangle to prevent hip rotation when they sense the escape",
+        "effectiveness": "Medium",
+        "your_response": "Turn toward the lock side of the body triangle to reduce squeeze pressure, then work to push the top foot through the triangle gap. Once the triangle is broken, immediately resume the grip strip and rotation sequence before they can re-lock",
         "targets_outcome": "Back Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to rotate before defending the neck and stripping the harness grip",
+        "consequence": "Opponent sinks the rear naked choke during the escape attempt because the choking arm is free to slide under the chin while your body rotates",
+        "correction": "Always establish complete neck defense with chin tuck and two-on-one hand control, then fully strip the harness grip before initiating any hip movement or rotation"
+      },
+      {
+        "error": "Using explosive bridging and thrashing instead of systematic grip stripping",
+        "consequence": "Wastes energy rapidly and typically tightens the opponent's control as they react to your movements by squeezing hooks deeper and re-cementing their grips",
+        "correction": "Use controlled two-on-one grip fighting to methodically strip the opponent's controls. Save explosive movements for the committed rotation phase only"
+      },
+      {
+        "error": "Fighting the under arm of the seatbelt instead of the choking arm first",
+        "consequence": "The choking arm remains free to attack the neck while you address the less threatening grip, leaving you vulnerable to rear naked choke the entire time",
+        "correction": "Always identify and prioritize the choking arm first. This is the over arm in the seatbelt that threatens the neck. Stripping this arm neutralizes the submission before you address positional control"
+      },
+      {
+        "error": "Stopping mid-rotation in a partially turned position between back control and turtle",
+        "consequence": "Creates a vulnerable in-between position that is neither defendable back control nor proper turtle, allowing the opponent to easily re-establish full back control or transition to mount",
+        "correction": "Once you commit to the rotation, drive through it completely to turtle. Hesitation is the worst outcome. If the turn is blocked, return fully to back defense rather than stalling in the middle"
+      },
+      {
+        "error": "Failing to establish tight turtle defensive posture immediately after completing the rotation",
+        "consequence": "Opponent immediately re-takes the back from a loose turtle position, negating all the effort invested in the escape and often securing even deeper control than before",
+        "correction": "Complete the escape by establishing tight turtle with elbows pressed to knees, chin tucked, and back rounded before attempting guard recovery or standup. Defensive posture must be automatic"
+      },
+      {
+        "error": "Neglecting to address hooks before initiating the rotation to turtle",
+        "consequence": "Opponent maintains hook control throughout the rotation and follows you directly into turtle with hooks still in, which is functionally still back control",
+        "correction": "Clear at least the bottom hook through hip escape mechanics before committing to the full rotation. Use the hip angle created during grip stripping to facilitate hook removal"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Stripping Mechanics",
+        "focus": "Two-on-one hand fighting and harness strip technique",
+        "description": "Practice the two-on-one grip strip in isolation with a cooperative partner who maintains harness control. Focus on proper hand placement, peeling mechanics, and arm pinning. Perform 20-30 repetitions per side with no resistance, emphasizing the correct sequence of identifying the choking arm, establishing two-on-one control, and stripping to the hip."
+      },
+      {
+        "phase": "Phase 2: Rotation and Hook Clearing",
+        "focus": "Hip escape to angle creation and hook removal mechanics",
+        "description": "With a cooperative partner maintaining hooks but minimal upper body resistance, practice the hip escape to angle creation and hook clearing sequence. Focus on timing the bottom hook clear with the hip angle, then committing to the full rotation. Perform 15-20 repetitions, emphasizing smooth transitions between phases."
+      },
+      {
+        "phase": "Phase 3: Combined Sequence with Progressive Resistance",
+        "focus": "Full escape sequence against increasing resistance levels",
+        "description": "Combine grip stripping and rotation into a complete sequence. Partner provides 30% resistance initially, increasing to 50% and then 75% as technique improves. Practice full escape from back control to established turtle defense. Work 3-minute rounds, resetting each time escape succeeds or fails."
+      },
+      {
+        "phase": "Phase 4: Live Situational Sparring",
+        "focus": "Full-resistance escape from back control with follow-up",
+        "description": "Begin in back control with partner providing full resistance. Work complete escape sequences including the hand fight, rotation, and immediate turtle defense or guard recovery. Partner can attack submissions and follow escapes. Develop timing, chain escape capability, and the ability to read when to commit to the rotation."
+      },
+      {
+        "phase": "Phase 5: Chain Escape Integration",
+        "focus": "Combining hand fight to turtle with other back escape methods",
+        "description": "Practice switching between hand fight to turtle, back door escape, and shoulder walk escape based on opponent reactions. If hand fight stalls, transition to back door. If turtle is achieved, immediately chain into guard recovery. Develop fluid transitions between escape methods to become unpredictable."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the rotation to turtle during this escape?",
+        "answer": "The optimal timing window is immediately after successfully stripping the opponent's harness grip and pinning their choking arm to your chest. At this moment, their upper body control is compromised and they are likely focused on re-establishing the grip rather than adjusting their hooks. This creates a brief window where their reaction is split between upper and lower body control, making the rotation most likely to succeed."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the hand fight to turtle escape?",
+        "answer": "Three conditions must be met: first, your neck must be defended through chin tuck to prevent immediate submission during the escape; second, you must have at least one hand positioned to begin two-on-one control on the opponent's choking arm; and third, you must have sufficient composure to execute a systematic multi-step escape rather than explosive movements. Without neck defense, any movement risks submission. Without hand access, grip stripping is impossible. Without composure, the sequence breaks down."
+      },
+      {
+        "question": "What is the most critical mechanical detail when stripping the opponent's choking arm from the seatbelt?",
+        "answer": "The most critical detail is pulling the opponent's wrist downward toward your hip rather than outward away from your body. Pulling outward allows them to use arm strength to resist and re-thread. Pulling downward toward your hip uses gravity and your body weight as anchors, creating a mechanical advantage that is much harder for the opponent to resist. Your two-on-one grip should peel their hand off your neck and drive it down along your torso."
+      },
+      {
+        "question": "What are the most common failure points where this escape breaks down?",
+        "answer": "The three most common failure points are: attempting rotation before fully stripping the harness, which results in the choke tightening during the turn; failing to clear the bottom hook before rotating, which allows the opponent to maintain back control through the turn; and stopping mid-rotation in an in-between position, which gives the opponent time to readjust and either re-take the back or transition to mount. Each failure point corresponds to skipping a step in the sequence."
+      },
+      {
+        "question": "What grip configuration do you need to establish before beginning the strip sequence?",
+        "answer": "You need a two-on-one configuration on the opponent's choking arm. Both of your hands should control their wrist or forearm, with your fingers interlocked or layered around their wrist. Your chin must be tucked below their arm to prevent the choke from being set during the grip fight. The two-on-one gives you a decisive mechanical advantage since two arms against one can overcome the grip strength differential that makes single-hand fighting ineffective."
+      },
+      {
+        "question": "In which direction should you apply force when clearing the bottom hook during the rotation?",
+        "answer": "Force should be applied in an extending direction by straightening your leg to push the opponent's hooking foot toward the mat and away from your inner thigh. Simultaneously, your hips should escape laterally away from the hook side, creating an angle that reduces the opponent's hook leverage. The combination of leg extension and hip escape removes the hook more effectively than either motion alone, because the angle change makes the hook structurally weaker."
+      },
+      {
+        "question": "Your opponent re-secures the harness grip after your first strip attempt and starts squeezing their hooks tighter. How do you adjust your approach?",
+        "answer": "Rather than repeating the same strip, switch to addressing the under arm of the seatbelt to change the problem they must solve. Alternatively, target the harness connection point where their hands clasp together, breaking the clasp before peeling either arm. If grip fighting stalls completely, shift to a different escape methodology like the back door escape or shoulder walk, which attack different control points and force the opponent to adjust their defense."
+      },
+      {
+        "question": "You successfully reach turtle but the opponent still has one hook partially inserted. What should you do immediately?",
+        "answer": "Immediately establish a tight defensive turtle posture with elbows to knees and chin tucked, then kick back with the hooked leg to strip the remaining hook before the opponent can use it to flatten you or re-establish back control. Do not attempt guard recovery or standup until both hooks are fully cleared, because a single hook gives the opponent enough control to drag you back into full back control. Once the hook is cleared, immediately begin working toward your preferred turtle escape."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Hand Fight to Turtle from Back."
+    "safety_considerations": "Hand fighting from back control involves positions where the neck is vulnerable to choking techniques throughout the escape sequence. Always train with partners who respect tap signals and release immediately upon feeling the tap. Practice grip stripping at controlled intensity before increasing resistance to avoid finger and wrist injuries from aggressive grip fighting. Be aware that aggressive rotation attempts while the opponent maintains a deep choke grip can strain the cervical spine. If a choke becomes tight at any point during training, tap immediately rather than attempting to power through the escape. Communicate with your training partner about resistance levels during progressive drilling."
   },
   "defender": {
     "name": "Hand Fight to Turtle from Back Defender",
-    "description": "TODO: Write defender description for Hand Fight to Turtle from Back.",
-    "overview": "TODO: Write defender overview for Hand Fight to Turtle from Back.",
+    "description": "Learn to counter hand fighting escapes when you have back control. Grip retention, hook maintenance, and transition strategies to prevent turtle escape in BJJ.",
+    "overview": "As the practitioner maintaining back control, your objective is to prevent the opponent from successfully stripping your controlling grips and rotating to turtle. This requires understanding the escape sequence your opponent will follow and proactively countering each phase before momentum builds. The most effective defense combines persistent grip re-establishment with strategic positional transitions when control is compromised. Recognizing the early cues of this escape, particularly the deliberate two-on-one hand fighting and controlled hip shifting, allows you to address it proactively. When prevention fails, the ability to follow the opponent's rotation into mount rather than losing position entirely transforms a defensive failure into a positional transition that maintains your dominance.",
     "key_principles": [
-      "TODO"
+      "Maintain constant forward chest pressure against opponent's back to limit space for hip movement and rotation mechanics",
+      "Re-establish harness grip immediately when opponent strips it through persistent re-gripping and grip variation switching",
+      "Keep hooks deep inside opponent's thighs with active downward pressure to prevent the hip escape needed for turtle rotation",
+      "Recognize two-on-one hand fighting as the primary escape indicator and respond by attacking the neck or switching grip configurations",
+      "Be prepared to transition to mount by following the opponent's rotation rather than fighting a lost battle for compromised back control",
+      "Use submission threats to disrupt the opponent's systematic grip stripping rhythm and force them back to defensive priority"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent establishes deliberate two-on-one grip control on your choking arm rather than defending passively with single-hand fighting",
+      "Opponent's hips begin shifting laterally to create angle toward the bottom hook side, indicating preparation for rotation",
+      "Opponent's breathing becomes controlled and rhythmic rather than panicked, suggesting a systematic escape plan rather than reactive scrambling",
+      "Opponent successfully strips or loosens your harness grip and begins rotating their shoulders away from you",
+      "Opponent's bottom-side leg begins extending to clear your hook while they maintain upper body grip control"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Immediately re-establish harness grip using persistent re-gripping and grip variation switching",
+        "when_to_use": "When opponent strips your seatbelt but has not yet begun rotating their hips or creating significant angle",
         "targets_outcome": "Back Control/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Resets opponent's escape progress completely and forces them to restart the grip stripping sequence from the beginning",
+        "risk": "Opponent may strip the re-established grip faster each time as they learn your grip pattern and your forearms fatigue"
+      },
+      {
+        "action": "Follow opponent's rotation and drive hips over the top to transition to mount position",
+        "when_to_use": "When opponent has stripped upper body control and committed to turning toward turtle with sufficient rotation that back control retention is impractical",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Achieves mount position which scores 4 points and provides strong submission opportunities while denying the turtle escape entirely",
+        "risk": "Mistiming the mount transition may allow opponent to complete the turtle escape and begin guard recovery sequence"
+      },
+      {
+        "action": "Deepen hooks and immediately attack rear naked choke to force opponent back to neck defense priority",
+        "when_to_use": "Early in the escape when opponent begins hand fighting but has not yet stripped your grip and their focus is transitioning from defense to escape",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Forces opponent to abandon escape attempt entirely and return to desperate neck defense, resetting the positional dynamic",
+        "risk": "Overcommitting to the choke attempt while opponent has partial grip control may loosen your hooks and accelerate their escape"
+      },
+      {
+        "action": "Switch to body triangle to eliminate hip mobility needed for the rotation sequence",
+        "when_to_use": "When opponent successfully strips harness grip but you still maintain strong leg position, particularly if they begin creating hip angle",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Removes the opponent's ability to hip escape and rotate to turtle by locking their hips in place with the body triangle squeeze",
+        "risk": "Transitioning from hooks to body triangle creates a brief window where leg control is compromised and opponent may accelerate their escape"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Turtle/Bottom",
-        "how": "TODO"
+        "outcome": "Back Control/Bottom",
+        "how": "Persistently re-establish harness grip each time the opponent strips it, switching between seatbelt variations and grip configurations to exhaust their grip fighting. Maintain deep hook pressure with active downward force to prevent hip escape. Use submission threats to interrupt their systematic stripping rhythm."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When the opponent commits to the rotation and strips your upper body control, follow their turning body by driving your hips over the top of their rotating torso. As they turn to their knees, hook your legs over their hips and settle into mount before they can establish turtle defensive posture. This requires recognizing the commitment point and acting decisively."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Holding grips statically without adjusting position or switching grip configurations",
+        "consequence": "Opponent eventually strips your grips through persistent two-on-one fighting because static grips are easier to systematically attack",
+        "correction": "Constantly adjust grip position, switch between harness variations such as chinstrap and seatbelt, and re-grip aggressively and immediately when opponent loosens your control"
+      },
+      {
+        "error": "Refusing to transition to mount when back control is clearly compromised by the escape",
+        "consequence": "Opponent completes the escape to turtle while you futilely attempt to maintain a broken back control position, losing both back control and the mount opportunity",
+        "correction": "Recognize when back control is lost based on upper body separation and hook clearance, then proactively follow the opponent's rotation to mount rather than fighting a losing positional battle"
+      },
+      {
+        "error": "Attempting submissions during the escape when positional control is already compromised",
+        "consequence": "Loose positional control during the rushed submission attempt accelerates the opponent's escape and you lose both the submission and the position",
+        "correction": "If position is compromised, prioritize re-establishing control first. Only attack submissions when hooks and harness are fully secure. A re-secured position gives you unlimited future submission attempts"
+      },
+      {
+        "error": "Loosening hooks to chase upper body grip re-establishment",
+        "consequence": "Opponent clears hooks during your grip adjustment and completes the rotation to turtle or even guard recovery",
+        "correction": "Maintain hook pressure as the foundation of all control. Work upper body grip adjustments independently while keeping constant downward pressure through your hooks"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is initiating a hand fight to turtle escape rather than simply defending the choke?",
+        "answer": "The earliest cue is when your opponent establishes a deliberate two-on-one grip on your choking arm with controlled pulling mechanics rather than panicked single-hand neck defense. Passive choke defense typically involves tucking the chin and using both hands to block your arm from getting under the chin. Active escape initiation shows as systematic grip breaking where the opponent grabs your wrist with both hands and begins peeling it away from their neck with purpose and control."
+      },
+      {
+        "question": "When should you choose to follow your opponent to mount versus fighting to retain back control?",
+        "answer": "Follow to mount when two conditions are met: first, your harness grip has been fully stripped and re-gripping has failed on multiple attempts, and second, the opponent has cleared at least one hook and begun rotating their hips. At this point, the energy cost of fighting for back retention exceeds the likely success, while mount remains achievable by following their rotation. The decision point is when you feel their shoulders turning away from you with momentum."
+      },
+      {
+        "question": "How should you modify your grip strategy when your opponent consistently strips your seatbelt using two-on-one fighting?",
+        "answer": "Switch grip configurations to change the problem. If your standard seatbelt is being stripped, transition to a chinstrap grip where your choking hand controls under the chin rather than around the neck. Alternatively, switch to a short choke grip that is harder to strip with two-on-one mechanics. You can also transition to gift wrap control by threading your arm through theirs when they reach for your wrist, converting their stripping attempt into an arm trap that improves your control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Retention Drilling",
+        "focus": "Maintaining and re-establishing harness grip against progressive hand fighting",
+        "description": "Partner works two-on-one grip strips while you practice immediate re-gripping, grip variation switching, and maintaining hook pressure throughout. Start with light hand fighting resistance and increase progressively. Focus on developing the reflex to re-grip within one second of any strip attempt succeeding."
+      },
+      {
+        "phase": "Phase 2: Transition Recognition",
+        "focus": "Identifying escape commitment and practicing mount follow-through",
+        "description": "Partner performs the full hand fight to turtle escape at moderate speed while you practice recognizing the commitment point and transitioning to mount. Alternate between successfully re-establishing back control and following to mount based on how far the escape progresses. Develop the judgment to know which response is appropriate."
+      },
+      {
+        "phase": "Phase 3: Integrated Back Control Defense",
+        "focus": "Full-resistance defense against all back escape methods",
+        "description": "Positional sparring starting from back control where the partner can use any escape method. Practice maintaining control through submission threats, grip adjustments, positional transitions, and adaptive responses to the specific escape being attempted. Develop the ability to read and counter multiple escape types in real time."
       }
     ]
   }

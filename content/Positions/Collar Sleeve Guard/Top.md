@@ -20,38 +20,38 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Headquarters Pass",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Grip Break",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 12% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut Pass",
       "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 2
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toreando Pass",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 8% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
       "text": "From this position, attempt Stack Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 3% of exchanges from this position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
       "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -218,25 +218,25 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ## Available Attacks
 
-### [[Toreando Pass]] (8% of attempts)
-
-### [[Knee Cut Pass]] (10% of attempts)
-
-### [[Stack Pass]] (8% of attempts)
-
-### [[Double Under Pass]] (3% of attempts)
-
-### [[Leg Drag Pass]] (8% of attempts)
-
-### [[Pressure Pass]] (7% of attempts)
-
 ### [[Headquarters Pass]] (30% of attempts)
 
 ### [[Grip Break]] (12% of attempts)
 
-### [[Long Step Pass]] (4% of attempts)
+### [[Knee Cut Pass]] (10% of attempts)
+
+### [[Toreando Pass]] (8% of attempts)
+
+### [[Stack Pass]] (8% of attempts)
+
+### [[Leg Drag Pass]] (8% of attempts)
 
 ### [[X Pass]] (8% of attempts)
+
+### [[Pressure Pass]] (7% of attempts)
+
+### [[Long Step Pass]] (4% of attempts)
+
+### [[Double Under Pass]] (3% of attempts)
 
 ### [[Bull Pass from Collar Sleeve]] (1% of attempts)
 

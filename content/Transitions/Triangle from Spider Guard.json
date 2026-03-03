@@ -1,16 +1,20 @@
 {
   "name": "Triangle from Spider Guard",
-  "description": "TODO: Write 150-160 character SEO description for Triangle from Spider Guard.",
+  "description": "Master the Triangle from Spider Guard in BJJ. Learn to convert sleeve control into high-percentage triangle submissions with systematic setup sequences.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "spider-guard",
+    "triangle",
+    "submission-setup",
+    "guard-attack",
+    "gi-technique"
   ],
   "from_position": "Spider Guard/Bottom",
   "outcomes": [
     {
-      "to": "Triangle Control/Top",
-      "probability": 55,
+      "to": "Triangle Control/Bottom",
+      "probability": 50,
       "result": "success"
     },
     {
@@ -19,120 +23,401 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
-      "probability": 15,
+      "to": "Open Guard/Bottom",
+      "probability": 20,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Triangle from Spider Guard.",
+  "success_rate": 50,
+  "overview": "The Triangle from Spider Guard is one of the highest-percentage triangle entries in gi jiu-jitsu, leveraging the inherent arm isolation created by double sleeve control and bicep hooks. From Spider Guard Bottom, you already control both of the opponent's arms through sleeve grips while your feet maintain distance on their biceps. This existing control structure makes isolating one arm—the fundamental prerequisite for any triangle—a natural consequence of the position rather than something you must fight to create.\n\nThe entry works by converting the push-pull dynamic of spider guard into a triangle setup. You push one arm away with your foot while pulling the other arm across your centerline, simultaneously shooting your hips up and swinging your leg over the opponent's shoulder on the pulled-arm side. The mechanical advantage is significant: your legs are already extended and engaged with their arms, so transitioning one leg from bicep pressure to triangle position requires minimal additional movement compared to entries from closed guard or other positions.\n\nStrategically, this transition creates a powerful forcing mechanism within the spider guard attack system. The opponent must respect the triangle threat, which opens other attacks like omoplatas, sweeps, and armbars. When the opponent focuses on defending one threat, others become available. This technique connects directly to the broader spider guard offensive framework and serves as a centerpiece attack that makes all other spider guard techniques more dangerous by creating the constant threat of triangle entry.",
   "conditions": [
-    "TODO"
+    "Both sleeve grips firmly established at or above opponent's elbows with deep four-finger control",
+    "At least one foot actively positioned on opponent's bicep creating extension pressure and distance",
+    "Opponent's posture compromised or one arm extended forward beyond safe alignment",
+    "Sufficient hip mobility to elevate hips and swing leg over opponent's shoulder",
+    "Opponent within range where your leg can reach over their shoulder when hips are elevated"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Classic Push-Pull Entry",
+      "description": "The fundamental entry where you push one arm away with your foot while pulling the other arm across centerline with your grip, then immediately shoot your hips up and swing the freed leg over the opponent's shoulder. This is the highest-percentage variation because it uses opposing forces to create maximum arm separation.",
+      "when_to_use": "When you have strong bilateral sleeve grips and the opponent is in a stable stance without actively attempting to pass"
+    },
+    {
+      "variant_name": "Lasso-to-Triangle Entry",
+      "description": "Transition one spider guard hook into a lasso by threading your leg under and over the opponent's arm, then use the lasso control to pull them forward while swinging the opposite leg over for the triangle. The lasso provides superior arm isolation and posture breaking compared to the standard bicep hook.",
+      "when_to_use": "When the opponent maintains strong upright posture that resists the standard push-pull entry and you need deeper control to break them down"
+    },
+    {
+      "variant_name": "Pendulum Triangle Entry",
+      "description": "Use a pendulum hip swing to generate momentum for the triangle entry. Release one bicep hook and swing your hips aggressively toward the opposite shoulder while pulling the near arm across centerline. The pendulum momentum carries your leg over the shoulder even against a posturing opponent.",
+      "when_to_use": "When the opponent is actively posturing and resisting the pull but has committed their weight backward, making them vulnerable to the momentum-based entry"
     }
   ],
-  "position_integration": "TODO: Write position integration for Triangle from Spider Guard.",
+  "position_integration": "The Triangle from Spider Guard occupies a central role in the spider guard offensive system, functioning as both a primary attack and a forcing mechanism that enhances all other techniques from the position. When the opponent must respect the triangle threat, they become more susceptible to omoplatas, sweeps, and armbars from spider guard. This technique bridges the gap between the distance-management guard game and the close-range submission game, converting the open guard's mechanical advantages directly into finishing opportunities. It integrates with the broader triangle attack system, connecting spider guard to the triangle control hub position where multiple submission chains—triangle choke, armbar, omoplata, back take—become available. The technique also reinforces the spider guard retention game, as failed triangle attempts that maintain sleeve grips naturally return to spider guard position for immediate re-attack.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Spider Guard",
+      "relationship": "Source position providing the sleeve control framework for triangle entry"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Target position reached upon successful triangle lock establishment"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position when triangle attempt is countered and guard structure is lost"
+    },
+    {
+      "name": "Omoplata from Spider Guard",
+      "relationship": "Chain attack available when triangle entry is blocked but sleeve control is maintained"
+    },
+    {
+      "name": "Spider Sweep",
+      "relationship": "Complementary sweep from spider guard that forces reactions opening triangle entries"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Related guard variation serving as intermediate position for triangle setup"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Alternative guard with similar grip structure offering parallel triangle entries"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard system combining with spider guard in comprehensive open guard game"
+    },
+    {
+      "name": "Armbar Setup from Double Sleeve",
+      "relationship": "Related attack using similar bilateral sleeve control for submission entry"
+    },
+    {
+      "name": "Triangle from Open Guard",
+      "relationship": "Similar triangle entry from less structured open guard position"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Defensive fallback position and alternative platform for triangle attacks"
+    },
+    {
+      "name": "Double Sleeve Guard",
+      "relationship": "Grip configuration foundational to spider guard triangle setups"
     }
   ],
   "attacker": {
     "name": "Triangle from Spider Guard Attacker",
-    "description": "TODO: Write attacker description for Triangle from Spider Guard.",
-    "overview": "TODO: Write attacker overview for Triangle from Spider Guard.",
+    "description": "Complete guide to executing the Triangle from Spider Guard in BJJ. Step-by-step setup, push-pull mechanics, hip elevation timing, and chain attacks when blocked.",
+    "overview": "Executing the Triangle from Spider Guard requires mastering the push-pull mechanic that converts bilateral arm control into unilateral arm isolation. The key insight is that spider guard's fundamental structure—feet on biceps with sleeve grips—already creates the positional framework for triangle entry. Your task is to weaponize the asymmetry by driving one arm away while dragging the other across the centerline, then replacing your bicep hook with a triangle lock. Success depends on hip elevation timing, maintaining sleeve control through the transition phase, and immediately establishing the correct finishing angle once the lock is secured. The technique rewards precision over athleticism—proper mechanics make this entry available to practitioners of all body types.",
     "key_principles": [
-      "TODO"
+      "Use opposing forces through the push-pull mechanic: push one arm away with your foot while pulling the other arm across centerline with your grip to create maximum arm separation",
+      "Maintain at least one sleeve grip throughout the entire transition—the moment between releasing the bicep hook and locking the triangle is your most vulnerable window",
+      "Generate hip elevation through explosive hip extension rather than pulling with your arms, using the mat as your base to project your hips upward toward the opponent's shoulder",
+      "Time the entry when the opponent's arm is committed forward or extended, not when they are actively retracting or posturing",
+      "Immediately establish the finishing angle (30-45 degrees off centerline) once the triangle is locked rather than squeezing from a parallel position",
+      "Keep the non-triangle foot active throughout—it transitions from pushing the far arm to bracing on the opponent's hip to prevent stacking"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep four-finger sleeve grips established at or above the opponent's elbows on both arms",
+      "At least one foot firmly placed on the opponent's bicep with active pushing pressure creating distance",
+      "Opponent's posture broken or at least one arm extended forward beyond their knee line",
+      "Hips elevated off the mat with weight on upper back and shoulders for mobility",
+      "Identification of which arm to target—typically the arm that is more extended or committed forward"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish bilateral spider guard control",
+        "description": "Secure deep four-finger sleeve grips at or above both elbows with feet placed firmly on the corresponding biceps. Create active extension pressure through your legs while pulling with your grips to break the opponent's posture and prevent them from establishing a strong base. Your hips should be off the mat, weight resting on your upper back and shoulders."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify target arm and initiate push-pull",
+        "description": "Select the arm to pull across your centerline—typically the one more extended or committed forward. Begin the push-pull by driving the non-target arm away with your foot on that bicep while simultaneously pulling the target arm across your body with the corresponding sleeve grip. The opposing forces create the arm separation essential for the triangle entry."
+      },
+      {
+        "step_number": 3,
+        "action": "Release triangle-side foot from bicep",
+        "description": "Remove your foot from the target arm's bicep while maintaining your sleeve grip on that arm. This foot is now free to swing over the opponent's shoulder. The critical detail is maintaining the pulling grip on the sleeve—without it, the opponent immediately retracts their arm and the entry fails. Your other foot continues pushing the far arm away."
+      },
+      {
+        "step_number": 4,
+        "action": "Shoot hips upward and swing leg over shoulder",
+        "description": "Explosively elevate your hips toward the opponent's shoulder on the pulled-arm side, using the momentum to swing your now-free leg over their shoulder and behind their neck. The hip elevation must come from your core and the mat push, not from pulling with your arms. Your pulling grip guides the opponent's arm across your centerline as your leg travels over the shoulder."
+      },
+      {
+        "step_number": 5,
+        "action": "Close the triangle lock",
+        "description": "Once your leg crosses over the opponent's shoulder, immediately hook the back of your knee over the ankle of your other leg, or cross your ankles behind the opponent's neck to close the triangle. Pull your choking leg's heel down toward the mat while squeezing your knees together. The opponent's arm should be trapped across their own neck between your legs."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition non-triangle foot to hip brace",
+        "description": "Release the far-arm bicep hook with your other foot and place it against the opponent's hip or on the mat behind them. This foot now serves as a brace preventing the opponent from stacking you or driving forward to relieve the choking pressure. It also provides the anchor point for angle adjustment in the next step."
+      },
+      {
+        "step_number": 7,
+        "action": "Adjust angle to optimal finishing position",
+        "description": "Pivot your hips approximately 30-45 degrees off the opponent's centerline so that your choking leg's knee points toward the opponent's trapped shoulder. This angle maximizes arterial compression. Use your hip brace foot and your upper back to rotate into position. Pull the opponent's head downward with both hands to prevent posture recovery during the adjustment."
+      },
+      {
+        "step_number": 8,
+        "action": "Apply finishing pressure and control",
+        "description": "Elevate your hips off the mat using your shoulders and upper back as a base point, squeeze your knees together to compress the carotid arteries, and pull the opponent's head down and forward with both hands. Pull the trapped arm diagonally across their neck to amplify the compression. Apply sustained, steady pressure rather than explosive squeezing—the finish comes from consistent arterial compression over several seconds."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent postures explosively before the triangle is locked, straightening their spine to prevent the leg from crossing over the shoulder",
+        "effectiveness": "High",
+        "your_response": "If the leg has not crossed the shoulder, abort the triangle immediately, replace your foot on their bicep, and re-establish spider guard. Do not chase the triangle against a posturing opponent. If the leg is partially over, accelerate hip elevation and pull harder on the sleeve while using your other foot on their hip to prevent full posture recovery.",
         "targets_outcome": "Spider Guard/Bottom"
+      },
+      {
+        "counter": "Opponent stacks forward and drives weight down onto you, compressing your legs and eliminating the space needed for the triangle lock",
+        "effectiveness": "High",
+        "your_response": "Transition immediately to an omoplata by pivoting your hips and swinging the blocked leg under the opponent's arm. The stacking motion brings their shoulder into perfect position for the omoplata. Alternatively, use the forward pressure for a balloon sweep by extending both legs and elevating them overhead.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips the sleeve grip on the pulling side during the transition phase before the triangle is secured",
+        "effectiveness": "High",
+        "your_response": "Without the sleeve grip, the arm cannot be controlled across centerline. Immediately retract the swinging leg back to bicep hook position and re-establish the sleeve grip. If grip recovery is not possible, transition to lasso on the side where you still have control, or switch to a collar drag to create a new attacking angle.",
+        "targets_outcome": "Spider Guard/Bottom"
+      },
+      {
+        "counter": "Opponent circles away laterally and disengages from the spider guard structure as the triangle entry begins",
+        "effectiveness": "Medium",
+        "your_response": "Follow their lateral movement with your hips, maintaining at least one sleeve grip and contact point. If they disengage completely, use the remaining sleeve grip to pull them back into range or transition to a seated guard position. Their lateral movement often exposes opportunities for collar drag, arm drag, or single leg entries as they create angles.",
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing the sleeve grip on the target arm during the hip elevation phase",
+        "consequence": "The opponent immediately retracts their arm before the triangle is locked, leaving you with one leg in the air and no control—a prime position for them to pass your guard",
+        "correction": "Treat the pulling-side sleeve grip as non-negotiable throughout the entire entry. Your hand should feel welded to the sleeve. If grip strength is an issue, use a deeper four-finger grip at the elbow crease for maximum holding power during the transition"
+      },
+      {
+        "error": "Insufficient hip elevation when swinging the leg over the shoulder",
+        "consequence": "Your leg gets stuck against the opponent's shoulder or neck without clearing over it, resulting in a half-committed position where you have neither spider guard nor triangle control",
+        "correction": "Drive your hips explosively upward using your core and pressing through the mat with your upper back, not by pulling with your arms. Think of projecting your hip toward the ceiling on the target side. Practice hip elevation drills in isolation to build the necessary explosive power"
+      },
+      {
+        "error": "Attempting the triangle when both of the opponent's arms are inside your guard structure rather than isolating one arm first",
+        "consequence": "Both arms inside means the opponent can use two hands to frame and prevent the triangle from closing, and they retain the structural strength to posture out easily",
+        "correction": "The push-pull is essential—always drive one arm away before attempting the triangle. If you cannot isolate one arm through the push-pull, the conditions for the triangle are not met. Continue working from spider guard until the arm separation is achieved"
+      },
+      {
+        "error": "Leaving the non-triangle foot passive on the mat after releasing the bicep hook",
+        "consequence": "Without a hip brace, the opponent can stack you freely or drive forward, collapsing the triangle and potentially passing your guard",
+        "correction": "Immediately transition the non-triangle foot to the opponent's hip as a brace once the triangle leg is over the shoulder. This foot serves three critical functions: preventing the stack, providing an anchor for angle adjustment, and maintaining distance control"
+      },
+      {
+        "error": "Squeezing the triangle from a parallel position without adjusting to the 30-45 degree finishing angle",
+        "consequence": "A parallel triangle compresses from the wrong angle, making the choke significantly less effective and giving the opponent time to work escape sequences",
+        "correction": "Before applying finishing pressure, pivot your hips to create the 30-45 degree angle with your choking leg's knee pointed toward the opponent's trapped shoulder. Use your hip brace foot and upper back to rotate into position. The angle change is what converts a controlling hold into a finishing submission"
+      },
+      {
+        "error": "Telegraphing the triangle by removing the foot from the bicep before initiating the pull on the target arm",
+        "consequence": "The opponent recognizes the entry and postures immediately, having a full reaction window to defend before you generate the asymmetry needed for the triangle",
+        "correction": "The push-pull and foot removal must happen simultaneously, not sequentially. The opposing forces on both arms mask the triangle entry by giving the opponent two problems at once. Drill the timing so the foot release and the arm pull are a single coordinated action"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Push-pull isolation and hip elevation",
+        "description": "Drill the push-pull mechanic with a stationary partner in spider guard. Practice driving one arm away while pulling the other across centerline, then shooting hips upward and swinging the leg over the shoulder. Partner provides zero resistance. Complete 20 repetitions each side, focusing exclusively on the coordination of opposing forces and hip elevation timing."
+      },
+      {
+        "phase": "Phase 2: Timing and Recognition",
+        "focus": "Identifying entry windows against cooperative movement",
+        "description": "Partner moves naturally in spider guard top—posturing, attempting grip breaks, shifting weight. Attacker must identify the optimal moment to initiate the triangle entry based on arm extension, weight commitment, and posture. Partner provides 30% resistance. Focus on timing the entry when conditions are favorable rather than forcing it against poor timing."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Connecting failed triangles to follow-up attacks",
+        "description": "Partner actively defends the triangle at 60% resistance. When the triangle is stopped, immediately transition to omoplata, balloon sweep, scissor sweep, or re-attack the triangle from a different angle. Drill chains of 3-4 attacks flowing from the initial triangle attempt. This phase develops the ability to turn defensive reactions into new offensive opportunities."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying triangle entry against full resistance",
+        "description": "Positional sparring starting from spider guard. Attacker attempts triangle and chain attacks while defender uses full resistance to pass or defend. 3-minute rounds with reset after guard pass or submission. Track triangle entry success rate and identify which defensive responses cause the most difficulty for targeted improvement."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Incorporating triangle setup into full rolling sessions",
+        "description": "During regular sparring, actively seek spider guard and work the triangle entry system within the full context of a roll. Focus on transitioning to spider guard from various positions and recognizing triangle opportunities that arise naturally. This phase tests whether the technique integrates into your broader game or only works from isolated starting positions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the critical timing window for initiating the triangle entry from spider guard?",
+        "answer": "The optimal timing window opens when the opponent reaches forward with one arm or commits their weight to break a grip. This forward extension isolates that arm beyond the safe plane and creates the positional asymmetry needed for the triangle. Initiating the entry while the opponent is retracting or posturing gives them the momentum to resist. Wait for the forward commitment, then execute the push-pull immediately before they can recover their posture."
+      },
+      {
+        "question": "What grip and foot position conditions must exist before you attempt the triangle entry?",
+        "answer": "You need both sleeve grips established at or above the opponent's elbows, with at least one foot firmly on the corresponding bicep. The critical condition is having strong control of the arm you plan to pull across your centerline—this grip cannot be borderline or shallow. The other foot creates the push that drives the opposite arm away. Without bilateral sleeve control, the arm isolation that makes the triangle possible cannot be reliably achieved."
+      },
+      {
+        "question": "What is the most critical hip movement during the triangle entry from spider guard?",
+        "answer": "The critical movement is the explosive hip elevation that occurs as you remove your foot from the opponent's bicep and swing it over their shoulder. You must shoot your hips upward and toward the shoulder of the arm you are pulling, creating the height needed for your leg to clear their shoulder cleanly. This elevation comes from pressing through the mat with your upper back and core engagement, not from pulling with your arms. Without sufficient hip elevation, the leg catches on the shoulder and the entry stalls."
+      },
+      {
+        "question": "Why does the triangle from spider guard fail most commonly, and how do you prevent it?",
+        "answer": "The most common failure is releasing the sleeve grip on the pulling side during the hip elevation phase. When you remove your foot from the bicep to swing over the shoulder, you lose one point of physical control, so the remaining sleeve grip must compensate entirely. If that grip is lost during this transition, the opponent postures immediately and withdraws their arm before the triangle is established. Maintain a death grip on the pulling sleeve throughout the entire entry sequence—treat it as the single most important element."
+      },
+      {
+        "question": "What specific grip configuration maximizes your control during the transition from spider guard to triangle?",
+        "answer": "The pulling-side grip should be a deep four-finger sleeve grip at or above the elbow, allowing you to direct the arm across your centerline with mechanical authority. The pushing-side grip should be maintained until the triangle leg is fully over the shoulder, then can transition to a head-control grip pulling their head downward or a same-side collar grip. Never release both sleeve grips simultaneously—maintain at least one control point at all times during the transition."
+      },
+      {
+        "question": "Which direction should force be applied when isolating the arm for the triangle entry?",
+        "answer": "Force application follows a diagonal vector: the pulling arm comes across the opponent's centerline toward your opposite hip, while the pushing foot drives the other arm away at approximately 45 degrees from center. This creates the widest separation between the opponent's arms with minimal effort. Pulling directly across horizontally is less effective than the diagonal pull because it does not break the opponent's structural alignment as efficiently and gives them a stronger frame to resist."
+      },
+      {
+        "question": "Your opponent postures up explosively as you begin the triangle entry—how do you adjust?",
+        "answer": "If they posture before your leg crosses their shoulder, abort the triangle attempt immediately and re-establish your spider guard by replacing your foot on their bicep while maintaining both sleeve grips. Do not chase the triangle against a posturing opponent. If they posture after your leg is partially over their shoulder, accelerate your hip elevation, pull harder on the sleeve, and use your other foot on their hip to prevent them from straightening completely. The half-committed triangle is the most dangerous position—commit fully or abort cleanly."
+      },
+      {
+        "question": "What chain attacks become available if the opponent successfully defends the initial triangle entry?",
+        "answer": "If the triangle is blocked but you maintain sleeve grips, transition immediately to an omoplata on the pulled-arm side by pivoting your hips and swinging the blocked leg under their arm rather than over it. Alternatively, use the disrupted position to initiate a balloon sweep if they have committed weight forward to defend the triangle. If they pull the arm back aggressively, the momentum shift can set up a scissor sweep or collar drag. The key is having a predetermined follow-up so the failed triangle feeds directly into another attack."
+      },
+      {
+        "question": "How do you complete the triangle lock once your leg clears the opponent's shoulder?",
+        "answer": "Once your leg crosses over the shoulder, immediately hook the back of your knee over the ankle or shin of your other leg to close the triangle. Pull your choking leg's heel down toward the mat while squeezing your knees together to establish initial compression. Simultaneously transition your non-triangle foot from the far bicep to the opponent's hip as a brace. The lock must be closed within one to two seconds of the leg crossing—any delay gives the opponent time to posture and peel the leg off before it is secured."
+      },
+      {
+        "question": "What is the role of the non-triangle foot during each phase of the entry?",
+        "answer": "The non-triangle foot serves three sequential functions throughout the entry. First, it pushes the opponent's far arm away to create the arm isolation needed for entry. Second, as you transition to the triangle, it shifts from the bicep to the opponent's hip to prevent them from driving forward or stacking you during the vulnerable locking phase. Third, once the triangle is secured, it provides the anchor point for angle adjustment and can reinforce the lock by pressing on the opponent's hip. It must remain active throughout—a passive non-triangle foot leaves you vulnerable at every phase."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Triangle from Spider Guard."
+    "safety_considerations": "The triangle from spider guard places significant pressure on the opponent's neck and cervical spine during the entry phase. During training, control the speed of your hip elevation and leg swing to avoid striking the opponent's face or jaw with your knee or shin. When drilling the technique, communicate with your partner about neck discomfort and release immediately upon any tap signal. Be especially cautious with the pulling force on the sleeve grip, as sudden jerking can cause shoulder strain in the opponent. The triangle choke itself restricts blood flow to the brain—monitor your training partner for signs of consciousness loss and release within one second of a tap signal. Avoid cranking the neck to finish if the choking angle is incorrect."
   },
   "defender": {
     "name": "Triangle from Spider Guard Defender",
-    "description": "TODO: Write defender description for Triangle from Spider Guard.",
-    "overview": "TODO: Write defender overview for Triangle from Spider Guard.",
+    "description": "Complete guide to defending the Triangle from Spider Guard in BJJ. Recognition cues, prevention strategies, and escape sequences when caught in the entry.",
+    "overview": "Defending the Triangle from Spider Guard requires recognizing the setup before the attacker's leg crosses your shoulder. The critical defensive window is the moment the bottom player removes one foot from your bicep—this signals the triangle entry is beginning. Your primary defense is immediate posture recovery combined with grip stripping during the entry phase. Once the triangle is partially locked, your defensive options narrow dramatically, so early recognition and prevention are the highest-percentage defensive strategies. Understanding the push-pull mechanic the attacker uses allows you to deny the arm isolation that makes the triangle possible, keeping your elbows tight and your posture upright to eliminate the entry conditions entirely.",
     "key_principles": [
-      "TODO"
+      "Recognize the triangle entry at the earliest possible moment—the foot leaving your bicep is your primary alarm signal that demands immediate posture recovery",
+      "Maintain both elbows tight to your ribs to prevent arm isolation across the opponent's centerline, which is the fundamental prerequisite for the triangle",
+      "Keep strong upright posture with your spine aligned vertically—the triangle entry requires your head to be pulled forward and down into range",
+      "Strip the pulling-side sleeve grip as first priority if you cannot maintain posture, as this grip is the attacker's primary control point during the entry",
+      "Address the triangle during the entry phase before the lock is closed, when defense is an arm-versus-arm contest rather than a leg-versus-neck contest",
+      "When caught in a locked triangle, focus on squaring your hips to the opponent and preventing the 30-45 degree angle adjustment rather than fighting the lock directly"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent creates asymmetric pulling force on one sleeve while pushing the other arm away with their foot, generating the arm isolation needed for triangle entry",
+      "One foot lifts off your bicep and the opponent's hips begin elevating off the mat, signaling the leg is about to swing over your shoulder",
+      "Opponent's hip angle changes as they begin pivoting perpendicular to your centerline, creating the geometry required for the triangle lock",
+      "You feel your head being pulled downward through the connected sleeve grip as the opponent breaks your posture to create the entry window",
+      "Opponent's non-attacking foot shifts from your bicep to your hip, establishing a brace that indicates they are committed to the triangle entry"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Posture up immediately and retract the threatened elbow to your hip",
+        "when_to_use": "At the first sign of asymmetric pulling on one arm or when you feel one foot leaving your bicep—this must be reflexive, not deliberate",
         "targets_outcome": "Spider Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The triangle entry is denied entirely and you remain in spider guard top with passing opportunities",
+        "risk": "If you posture too late and the leg is already over your shoulder, posturing can actually help them close the lock by creating tension in their legs"
+      },
+      {
+        "action": "Strip the pulling-side sleeve grip using a two-on-one break while stepping backward",
+        "when_to_use": "When you feel strong pulling on one sleeve and cannot maintain elbow position against the pull—the grip break must happen before the hip elevation",
+        "targets_outcome": "Spider Guard/Bottom",
+        "if_successful": "Without the sleeve grip, the attacker cannot control your arm during the entry and must abort or reset their spider guard",
+        "risk": "Two-on-one grip break temporarily frees the opponent's other hand for a collar grip or alternative attack"
+      },
+      {
+        "action": "Stack forward and drive weight onto the opponent as the triangle entry begins",
+        "when_to_use": "When the opponent has already begun the hip elevation and you cannot prevent the leg from crossing your shoulder—the stack must be immediate and heavy",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Stacking compresses the opponent's triangle structure, prevents the angle adjustment, and can create passing opportunities as their guard structure collapses",
+        "risk": "If you stack without controlling the trapped arm, the opponent can transition to omoplata using your forward pressure"
+      },
+      {
+        "action": "Circle away laterally from the triangle side while maintaining base",
+        "when_to_use": "When the triangle entry begins but you still have reasonable posture and the lock is not yet closed—lateral movement denies the angle and creates distance",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The attacker's leg slides off your shoulder as you create lateral distance, and their spider guard structure is disrupted by the angle change",
+        "risk": "Circling away while the opponent maintains sleeve grip can expose you to armbar or omoplata entries from the disrupted position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Triangle Control/Top",
-        "how": "TODO"
+        "outcome": "Spider Guard/Bottom",
+        "how": "Maintain strong posture and prevent arm isolation by keeping both elbows tight to your ribs throughout the spider guard engagement. When you feel asymmetric pulling on one sleeve, immediately counter-pull that elbow back toward your hip rather than letting it drift across the opponent's centerline. This denies the fundamental prerequisite for the triangle and keeps the position in neutral spider guard where you retain passing options."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the sleeve grip early and immediately drive forward with stacking pressure as the opponent attempts the hip elevation. If the triangle entry is already committed, stack forward and pin their hips to the mat while working your trapped arm free. This disrupts their spider guard structure entirely and forces them into a generic open guard where you have superior passing opportunities."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing one arm to drift across the opponent's centerline without recognizing the triangle setup",
+        "consequence": "The arm is already isolated by the time you recognize the triangle entry, giving you almost no time to defend before the leg crosses your shoulder",
+        "correction": "Develop elbow discipline as a constant habit in spider guard—both elbows stay within the frame of your torso at all times. Treat any pulling force on a sleeve as a potential triangle setup and immediately counter-pull the elbow back to your hip"
+      },
+      {
+        "error": "Attempting to fight the triangle by pulling the trapped arm out explosively after the lock is closed",
+        "consequence": "Pulling the arm creates space for the opponent to tighten the lock and often worsens the choking angle by rotating your shoulder inward, amplifying the compression",
+        "correction": "If the triangle is locked, address posture and angle first. Work to square your hips to the opponent and prevent their angle adjustment. The arm extraction comes after you have neutralized the choking mechanics, not before"
+      },
+      {
+        "error": "Dropping your head forward when you feel the pulling force instead of actively posturing upward",
+        "consequence": "Forward head position is exactly what the attacker needs—it brings your neck into range for the leg to cross over and makes the triangle lock significantly easier to establish",
+        "correction": "Train a reflexive posture response to any pulling force from spider guard. The moment you feel your head being pulled forward, drive upward through your hips and spine. This must be automatic, not a conscious decision made after recognizing the specific technique"
+      },
+      {
+        "error": "Ignoring the foot leaving the bicep as a neutral event rather than a critical warning signal",
+        "consequence": "The one-to-two second window between the foot leaving the bicep and the leg crossing the shoulder is your entire defensive window—missing it means defending from inside a locked triangle",
+        "correction": "Program the foot-off-bicep cue as an immediate alarm trigger. Any time a spider guard foot leaves your arm, assume an attack is incoming and posture up immediately. Even if it is a guard transition rather than a triangle, posturing up is the correct defensive response"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest visual and tactile cues indicating a triangle attempt from spider guard?",
+        "answer": "The first cue is feeling asymmetric force on your arms—one arm being pulled harder than the other toward the opponent's opposite hip. The second cue is one foot lifting off your bicep, which signals the leg is about to swing over your shoulder. The third cue is the opponent's hips elevating off the mat as they generate the angle for the triangle entry. Recognizing any of these early signals gives you the critical one-to-two second window needed to prevent the triangle before it is established."
+      },
+      {
+        "question": "Why is stripping the sleeve grip before the entry more effective than defending after the triangle is partially locked?",
+        "answer": "Once the triangle is partially locked, you are fighting against the strongest muscles in the opponent's body—their legs and hips—with your neck and one arm. Before the entry, you only need to break a sleeve grip, which is an arm-versus-arm contest where your two hands against their one grip gives you the advantage. The defensive difficulty increases exponentially once the leg crosses your shoulder. Proactive grip fighting prevents the majority of triangle attempts, while reactive defense from a locked position has a significantly lower success rate."
+      },
+      {
+        "question": "Your opponent has already swung one leg over your shoulder—what is your immediate defensive priority?",
+        "answer": "Immediately posture upward while driving the threatened-side elbow toward the mat beside the opponent's hip, keeping it tight to your body. Do not allow them to close the triangle by keeping your head elevated and your trapped arm's elbow connected to your torso. If you can prevent the ankle lock behind your neck for even two to three seconds, the triangle often fails as the attacker loses the necessary compression. Simultaneously walk your knees backward to create distance and prevent them from controlling your posture with their hands."
+      },
+      {
+        "question": "How do you manage your posture to prevent the arm isolation that enables the triangle?",
+        "answer": "Keep both elbows tight to your ribs and maintain vertical spine alignment with your head above your hips. When you feel pulling force on one sleeve, immediately counter by pulling that elbow back toward your hip rather than letting it drift across the opponent's centerline. Use your non-controlled hand to frame on their hip or bicep to maintain distance. The triangle requires one arm across the opponent's centerline—if you prevent that arm isolation through posture discipline and elbow control, the triangle entry conditions cannot be met."
+      },
+      {
+        "question": "When caught in a locked triangle, what body positioning reduces the opponent's finishing effectiveness?",
+        "answer": "Square your shoulders to the opponent's hips rather than allowing them to achieve the 30-45 degree angle they need for optimal arterial compression. Tuck your chin toward your chest on the trapped-arm side to create space between your neck and their leg. Keep the trapped arm's hand pressing against the opponent's hip to prevent them from pulling it across your neck. Use your free hand to control the opponent's choking leg at the knee, pushing it away from your neck. Every degree you reduce from their optimal angle significantly decreases the choke's effectiveness."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying triangle entry signals from spider guard",
+        "description": "Partner drills triangle entries from spider guard at slow speed while you practice identifying the recognition cues: asymmetric pull, foot leaving bicep, hip elevation. Call out each cue as you recognize it. No defensive action yet—purely developing pattern recognition. 20 repetitions each side."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Posture maintenance and grip stripping against controlled entries",
+        "description": "Partner attempts triangle entries at 40% speed and resistance while you practice the prevention responses: posturing up, elbow retraction, grip stripping. Partner confirms whether your defensive timing was early enough to prevent the entry. Gradually increase partner speed to 70% while maintaining defensive timing."
+      },
+      {
+        "phase": "Phase 3: Escape Under Pressure",
+        "focus": "Developing escape sequences when triangle is partially or fully locked",
+        "description": "Partner establishes triangle at various stages—partially locked, fully locked, angle adjusted—at progressive resistance levels. Practice systematic escape sequences including posture recovery, squaring hips, and arm extraction. Focus on remaining calm under pressure and executing the escape progression in correct order."
+      },
+      {
+        "phase": "Phase 4: Counter-Offense",
+        "focus": "Turning triangle defense into passing opportunities",
+        "description": "After successfully defending or escaping the triangle attempt, immediately transition to a passing sequence rather than resetting to neutral. Partner allows the escape at 60-80% resistance, then defends the pass at full resistance. This phase develops the ability to capitalize on the disrupted guard structure that follows a failed triangle entry."
       }
     ]
   }

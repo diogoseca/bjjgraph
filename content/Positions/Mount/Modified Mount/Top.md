@@ -21,37 +21,37 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,23 +206,25 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (15% of attempts)
+### [[Mount to Armbar]] (19% of attempts)
 
-### [[S-Mount Transition]] (12% of attempts)
+### [[S-Mount Transition]] (11% of attempts)
 
-### [[Mounted Triangle]] (10% of attempts)
+### [[Mounted Triangle]] (9% of attempts)
 
-### [[High Mount Transition]] (13% of attempts)
+### [[High Mount Transition]] (12% of attempts)
 
-### [[Americana]] (10% of attempts)
+### [[Americana]] (9% of attempts)
 
-### [[Cross Collar Choke]] (10% of attempts)
+### [[Cross Collar Choke]] (9% of attempts)
 
-### [[Kimura]] (8% of attempts)
+### [[Kimura]] (7% of attempts)
 
-### [[Gift Wrap Transition]] (12% of attempts)
+### [[Gift Wrap Transition]] (11% of attempts)
 
-### [[Back Take from Top]] (10% of attempts)
+### [[Back Take from Top]] (9% of attempts)
+
+### [[Americana from Modified Mount]] (4% of attempts)
 
 
 

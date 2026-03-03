@@ -21,7 +21,7 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix Transition",
-      "text": "From this position, attempt Crucifix Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Position Entry",
-      "text": "From this position, attempt Truck Position Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Truck Position Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,27 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (18% of attempts)
+### [[Rear Naked Choke]] (30% of attempts)
 
 ### [[Takedown to Grounded Back Control]] (18% of attempts)
 
-### [[Body Triangle Lock]] (14% of attempts)
+### [[Body Triangle Lock]] (7% of attempts)
 
-### [[Armbar from Back Transition]] (7% of attempts)
+### [[Armbar from Back Transition]] (9% of attempts)
 
-### [[Crucifix Transition]] (10% of attempts)
+### [[Crucifix Transition]] (7% of attempts)
 
-### [[Truck Position Entry]] (13% of attempts)
+### [[Truck Position Entry]] (5% of attempts)
 
-### [[Snap Down to Front Headlock]] (8% of attempts)
+### [[Snap Down to Front Headlock]] (4% of attempts)
 
-### [[Follow to Back Control]] (12% of attempts)
+### [[Follow to Back Control]] (9% of attempts)
+
+### [[Mat Return to Back Mount]] (7% of attempts)
+
+### [[Back Control to Seat Belt Control Back]] (2% of attempts)
+
+### [[Bow and Arrow Setup from Standing Back]] (2% of attempts)
 
 
 

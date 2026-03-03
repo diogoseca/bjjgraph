@@ -1,13 +1,393 @@
 {
   "name": "Shake Off Rodeo Ride",
-  "description": "",
-  "tags": [],
+  "description": "Master the Shake Off Rodeo Ride escape in BJJ. Learn explosive base disruption mechanics to dislodge rider control and recover turtle position for guard recovery.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "rodeo-ride",
+    "turtle-defense",
+    "defensive-technique",
+    "base-disruption"
+  ],
   "from_position": "Rodeo Ride/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 100,
+      "probability": 35,
       "result": "success"
+    },
+    {
+      "to": "Standing Position/Bottom",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Rodeo Ride/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The Shake Off Rodeo Ride is an explosive base-disruption escape where the bottom practitioner uses rapid hip elevation, directional bucking, and coordinated posting to physically dislodge the rider's dynamic control and return to a neutral turtle position. Unlike rolling escapes that accept back exposure during rotation or the Escape from Rodeo Ride that targets side control through base collapse, the Shake Off works by attacking the rider's balance directly—using sharp hip extension and lateral movement to break the connection between the rider's hips and your back. The technique draws its mechanical principles from the same force generation used in bridge escapes from mount, adapted for the hands-and-knees base structure of turtle.\n\nThe Shake Off is most effective when the rider has not yet fully settled their weight or when they are transitioning between attack setups. Rodeo Ride depends on the rider maintaining constant hip-to-back contact with responsive pressure adjustments. The Shake Off exploits the moments when this contact is lightest—during grip transitions, attack initiations, or positional adjustments—by generating an explosive upward and lateral force that exceeds the rider's ability to maintain their asymmetric balance. The resulting separation creates a window where the bottom practitioner recovers clean turtle position without the rider's weight, enabling immediate follow-up with guard recovery, technical stand-up, or other escape sequences.\n\nThis technique occupies a specific role in the turtle escape hierarchy as the lowest-commitment escape option. It does not require rolling through vulnerable back-exposure angles or committing to a full positional change. Instead, it resets the situation to an uncontrolled turtle position where both practitioners restart the engagement. The trade-off is that the positional gain is modest—you remain in bottom turtle rather than achieving guard or top position—but the risk is correspondingly lower than higher-reward escapes. Advanced practitioners use the Shake Off as a disruption tool that creates the chaos and separation needed to chain into more decisive escapes like the sit-through or technical stand-up.",
+  "conditions": [
+    "Opponent's weight is not fully settled on your back, or they are transitioning between grips or attack setups",
+    "Your knees remain under your hips with sufficient base to generate explosive upward hip force",
+    "At least one arm retains posting capability to direct your lateral movement during the shake-off",
+    "Your turtle structure is intact with elbows tight and chin tucked before initiating explosive movement",
+    "The rider has not established hooks or deep seat belt control that would follow your movement"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Double-Hip Pop Shake Off",
+      "description": "A two-stage explosive movement where the first hip pop disrupts the rider's balance and the second, immediately following, completes the dislodging. The first pop forces the rider to adjust their base, and the second exploits the momentary instability before they can resettle. This variant is effective against riders who have good balance recovery but struggle with rapid sequential disruptions.",
+      "when_to_use": "When a single explosive movement is insufficient to fully dislodge the rider due to their superior balance or grip configuration. Particularly effective against heavier riders who absorb single impacts well."
+    },
+    {
+      "variant_name": "Lateral Angle Shake Off",
+      "description": "Instead of a purely upward hip extension, the bottom practitioner drives their hips laterally at a 45-degree angle away from the rider's posted leg side. This angular force vector attacks the weakest point in the rider's tripod base structure, where their posted leg cannot provide lateral support. The lateral component makes the shake-off harder to ride out than a purely vertical pop.",
+      "when_to_use": "When the rider has strong downward pressure but limited lateral stability, particularly when they are positioned perpendicular to your spine with one leg posted far to one side."
+    },
+    {
+      "variant_name": "Shake Off to Immediate Stand-Up",
+      "description": "A variation where the explosive hip pop transitions directly into a technical stand-up rather than resettling into turtle. As the rider's weight is disrupted, the bottom practitioner uses the created space to post one foot and drive to standing before the rider can re-establish contact. This variant sacrifices the safety of returning to turtle in exchange for a more decisive positional improvement.",
+      "when_to_use": "When the initial shake-off creates significant separation and the rider is momentarily disconnected from your back. Best deployed in no-gi where the rider cannot use collar grips to pull you back down during the stand-up phase."
+    }
+  ],
+  "position_integration": "The Shake Off Rodeo Ride functions as the entry-level disruption tool in the turtle escape hierarchy from Rodeo Ride bottom. While it does not achieve the positional improvement of the Escape from Rodeo Ride (which leads to side control top) or the guard recovery of the Roll from Rodeo Ride (which leads to half guard), it serves as the lowest-risk option that resets the engagement to neutral turtle. This reset is strategically valuable because it forces the top player to re-establish their Rodeo Ride control from scratch, consuming their energy and creating fresh opportunities for higher-percentage escapes. The Shake Off connects directly to the guard recovery chain—once clean turtle is recovered, the practitioner can immediately flow into sit-throughs, granby rolls, technical stand-ups, or rolling escapes with improved timing since the rider's grips have been disrupted.",
+  "related_content": [
+    {
+      "name": "Rodeo Ride",
+      "relationship": "Starting control position from which this escape is executed"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Primary recovery target after successfully dislodging the rider"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter position the opponent may achieve if they capitalize on failed shake-off"
+    },
+    {
+      "name": "Escape from Rodeo Ride",
+      "relationship": "Higher-reward escape from the same position that targets side control top"
+    },
+    {
+      "name": "Roll from Rodeo Ride",
+      "relationship": "Alternative rolling escape from Rodeo Ride that targets half guard recovery"
+    },
+    {
+      "name": "Calf Slicer from Rodeo Ride",
+      "relationship": "Submission threat from Rodeo Ride that motivates attempting this escape"
+    },
+    {
+      "name": "Rodeo Ride to Back Control",
+      "relationship": "Primary threat transition the top player attempts from Rodeo Ride"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related turtle attack position sharing similar disruption escape mechanics"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Alternative escape outcome achievable through the stand-up variant"
+    },
+    {
+      "name": "Granby Roll to Guard",
+      "relationship": "Follow-up escape technique available after recovering clean turtle"
+    }
+  ],
+  "attacker": {
+    "name": "Shake Off Rodeo Ride Attacker",
+    "description": "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explosive disruption mechanics, timing cues, and follow-up sequences to dislodge rider control from bottom turtle.",
+    "overview": "From the attacker perspective, executing the Shake Off requires generating explosive force from your turtle base to physically dislodge the rider's hip-to-back connection. Unlike rolling or rotation-based escapes, the Shake Off uses upward and lateral hip extension to break the rider's balance without committing your body to a directional escape that exposes your back. The technique relies on timing, explosive power, and immediate follow-up action during the brief window of separation created. Your tactical mindset should treat the Shake Off as the opening move in an escape sequence rather than a complete solution—the momentary disruption of the rider's control creates the conditions for more decisive escapes like the sit-through, guard recovery, or technical stand-up.",
+    "key_principles": [
+      "Generate explosive upward force through hip extension while maintaining hands-and-knees base structure",
+      "Time the explosive movement to coincide with the rider's lightest pressure moments during grip transitions or attack setups",
+      "Direct the force at an angle that attacks the weakest point of the rider's tripod base structure",
+      "Maintain turtle defensive integrity throughout the shake-off—do not sacrifice chin protection or arm position for power",
+      "Treat the shake-off as the beginning of an escape sequence, not the end—immediately chain into follow-up escapes during the separation window",
+      "Use rapid, repeated disruptions rather than a single sustained push to prevent the rider from adapting to your force direction"
+    ],
+    "setup_requirements": [
+      "Turtle base intact with knees under hips and hands under shoulders providing stable platform for explosive hip extension",
+      "Identification of the rider's posted leg position and primary pressure direction to determine optimal disruption angle",
+      "At least one arm with posting capability to stabilize your base during and after the explosive movement",
+      "Neck protected with chin tucked to prevent choke entries during the transitional moment when the rider scrambles to recover control",
+      "Assessment that the rider's hooks are not yet inserted—shake-off effectiveness drops dramatically against established back control"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess Rider Weight Distribution",
+        "description": "From defensive turtle under Rodeo Ride, use tactile feedback through your back and shoulders to map the rider's weight distribution. Identify where their hips are loaded on your torso, which side their posted leg is on, and the direction of their primary pressure. The shake-off will target the opposite direction from their posted leg, attacking the weakest point in their tripod support structure."
+      },
+      {
+        "step_number": 2,
+        "action": "Consolidate Turtle Base",
+        "description": "Before initiating the explosive movement, tighten your turtle structure by pulling your elbows tight to your ribs, ensuring your knees are directly under your hips, and shifting your weight slightly onto your hands. This consolidation loads your legs and hips for the explosive extension that follows. Your hands should be slightly wider than shoulder width to provide lateral stability during the disruption."
+      },
+      {
+        "step_number": 3,
+        "action": "Wait for Pressure Transition",
+        "description": "Be patient and wait for a moment when the rider's pressure lightens—during a grip change, an attack setup, or a positional adjustment. The Shake Off is far more effective against transitional pressure than against fully settled weight. Feel for the rider reaching for a new grip, shifting to set up a choke, or adjusting their angle, as these moments create the weight imbalance your explosion will exploit."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute Explosive Hip Pop",
+        "description": "Drive your hips explosively upward and laterally away from the rider's posted leg side using powerful knee and hip extension. The force vector should travel at approximately 45 degrees upward and to the side, simultaneously elevating the rider's hips off your back while pushing them toward their unsupported side. The movement is sharp and quick—like a mule kick without extending your legs—generating maximum force in minimum time."
+      },
+      {
+        "step_number": 5,
+        "action": "Redirect Your Base",
+        "description": "As the rider's weight lifts momentarily from the hip pop, immediately shift your base laterally away from them by moving your hands and knees in the direction opposite to where you displaced their weight. This creates separation between your back and their hips. Do not pause after the pop—the lateral base shift must be an immediate continuation of the explosive movement to maximize the separation before the rider can recover contact."
+      },
+      {
+        "step_number": 6,
+        "action": "Reset Turtle Structure",
+        "description": "Once separation is achieved, immediately consolidate a clean defensive turtle with tight elbows, tucked chin, and stable base. Verify that the rider has lost their primary control grips and hip contact. This clean turtle is your platform for follow-up actions. If the rider maintains partial contact, execute a second hip pop to fully dislodge them before resettling."
+      },
+      {
+        "step_number": 7,
+        "action": "Chain Into Follow-Up Escape",
+        "description": "With clean turtle re-established and the rider scrambling to reattach, immediately initiate a higher-percentage escape before they can re-establish Rodeo Ride control. Options include: sit-through to guard if the rider is behind you, technical stand-up if they are off-balance, or granby roll if they reach forward aggressively. The separation window is brief—act within the first second of recovered turtle position."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rider sinks hips low and heavy before the pop, making the explosive extension insufficient to dislodge settled weight",
+        "effectiveness": "High",
+        "your_response": "Switch to a different escape method. Against heavy settled pressure, the Shake Off loses effectiveness—transition to sit-back guard recovery, the Escape from Rodeo Ride rotation, or wait for the rider to initiate an attack that lightens their pressure before reattempting.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      },
+      {
+        "counter": "Rider follows the lateral displacement by posting wide and immediately re-establishing hip contact on the new angle",
+        "effectiveness": "Medium",
+        "your_response": "If the rider follows quickly, chain a second shake-off in the opposite direction to exploit their newly shifted weight, or immediately transition to a sit-through while they are resettling on the new angle. Their recovery movement creates its own timing window.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      },
+      {
+        "counter": "Rider uses the momentary lift to insert hooks and transition to back control while your hips are elevated",
+        "effectiveness": "High",
+        "your_response": "If you feel hooks threading during the shake-off, immediately sit your hips back down to trap the entering leg between your body and the mat. Abort the lateral shift and prioritize hook removal over the shake-off escape. Remaining in Rodeo Ride is far preferable to conceding back control.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Rider locks a tighter grip configuration during the disruption phase, converting the shake-off into a deeper control position",
+        "effectiveness": "Medium",
+        "your_response": "Address the new grip immediately through focused grip fighting before attempting another shake-off. If the rider has deepened their control, the shake-off window has closed—switch to systematic grip stripping followed by the Escape from Rodeo Ride rotation.",
+        "targets_outcome": "Rodeo Ride/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the shake-off against fully settled rider weight without waiting for a pressure transition",
+        "consequence": "Insufficient force to dislodge the rider, wasting energy and alerting them to your escape intention without creating any meaningful separation",
+        "correction": "Be patient and wait for the rider's pressure to lighten during grip changes, attack setups, or positional adjustments. The timing window is more important than the power of the explosion."
+      },
+      {
+        "error": "Extending legs fully backward during the hip pop, losing turtle base structure",
+        "consequence": "Flattening onto your stomach eliminates all escape options and creates ideal conditions for the rider to advance to mount or crucifix control",
+        "correction": "Keep knees under hips throughout the explosive movement. The hip pop uses knee and hip extension without straightening the legs—think of driving your hips upward and sideways while maintaining four-point contact."
+      },
+      {
+        "error": "Generating only vertical force without the lateral component that attacks the rider's unsupported side",
+        "consequence": "The rider simply rides the vertical pop and re-settles on your back since they can absorb pure vertical force with their tripod base structure",
+        "correction": "Direct the explosion at a 45-degree angle—upward AND toward the side opposite the rider's posted leg. The lateral component is what actually breaks their balance since it pushes them toward their unsupported side."
+      },
+      {
+        "error": "Pausing after the initial hip pop instead of immediately shifting base laterally to create separation",
+        "consequence": "The rider's weight returns to your back before you gain any distance, and you have expended energy without achieving separation or positional improvement",
+        "correction": "The lateral base shift must be an immediate continuation of the hip pop, not a separate action. Practice the pop-and-shift as one fluid motion where your hands and knees move laterally before the rider's weight returns."
+      },
+      {
+        "error": "Remaining in turtle after successfully dislodging the rider instead of immediately chaining into a follow-up escape",
+        "consequence": "The rider re-establishes Rodeo Ride control within seconds since you are still in bottom turtle, wasting the separation window the shake-off created",
+        "correction": "Treat the shake-off as step one of a two-step escape. The moment you recover clean turtle, immediately initiate a sit-through, technical stand-up, or rolling escape before the rider can reattach."
+      },
+      {
+        "error": "Lifting the chin or extending the neck during the explosive hip movement to look at the rider",
+        "consequence": "Exposes the neck to guillotine, clock choke, or snap-down entries during the transitional moment when the rider scrambles to recover position",
+        "correction": "Maintain chin tucked to chest throughout the entire shake-off sequence. Use tactile feedback to track the rider's position rather than visual confirmation."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hip Pop Mechanics",
+        "focus": "Developing explosive force generation from turtle base without losing structure",
+        "description": "Practice the explosive hip extension from turtle position without a partner, focusing on driving hips upward and laterally while keeping knees under hips and hands on the mat. Drill 20 repetitions per side, emphasizing sharp, quick force generation. Use a foam roller balanced on your lower back to provide tactile feedback on power and direction."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Timing and directional accuracy with light rider pressure",
+        "description": "Partner establishes Rodeo Ride with 25-30% pressure. Practice identifying the rider's posted leg, timing the pop to grip transitions, and executing the full pop-and-shift sequence. Partner provides light resistance and reacts naturally to the disruption. Focus on reading when pressure lightens rather than forcing the shake-off against settled weight."
+      },
+      {
+        "phase": "Phase 3: Shake Off to Follow-Up Chains",
+        "focus": "Connecting the shake-off to immediate follow-up escape sequences",
+        "description": "After executing the shake-off against moderate resistance, immediately chain into one of three follow-ups: sit-through to guard, technical stand-up, or rolling escape. Alternate the follow-up on each repetition to develop versatile chain responses. The partner re-engages at full speed after the shake-off to create urgency for the follow-up action."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Building effectiveness against increasing defensive quality",
+        "description": "Partner increases resistance from 50% to 80%, varying their response between settling weight deeper, following laterally, and attempting hooks. Develop the ability to read which counter the rider is using and adjust—second shake-off against followers, direction change against settlers, hip sit against hook attempts. Track success rate at each resistance level."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Deploying the shake-off within complete turtle escape game",
+        "description": "Full resistance positional sparring from Rodeo Ride bottom. Use the shake-off as one tool in a complete escape toolkit, choosing it when conditions favor disruption over committed escapes. Develop tactical judgment about when the shake-off is the right tool versus when rolling, rotation, or sit-back escapes offer better risk-reward profiles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Shake Off from Rodeo Ride?",
+        "answer": "The optimal timing window occurs when the rider's pressure lightens during grip transitions, attack setups, or positional adjustments. Feel for the rider reaching for a new grip, shifting to set up a choke, or adjusting their angle—these moments create the weight imbalance that the explosive hip pop can exploit. Attempting the shake-off against fully settled pressure is ineffective because the rider's tripod base can absorb vertical and lateral force when all three contact points are loaded."
+      },
+      {
+        "question": "Why must the explosive force include a lateral component rather than being purely vertical?",
+        "answer": "A purely vertical hip pop is absorbed by the rider's tripod base structure—their two contact points on either side of your back and their posted leg create a stable platform against vertical displacement. The lateral component pushes the rider toward their unsupported side, where their posted leg cannot provide stabilizing force. The 45-degree angle combining upward and lateral force creates a displacement vector that the rider's asymmetric balance cannot counter effectively, breaking their hip-to-back connection."
+      },
+      {
+        "question": "Your shake-off dislodges the rider but you remain in turtle—what should you do in the first second?",
+        "answer": "Immediately chain into a higher-percentage escape before the rider can re-establish Rodeo Ride control. The separation window created by a successful shake-off lasts approximately one to two seconds. Options include: sit-through to guard if the rider is scrambling behind you, technical stand-up if they are off-balance and disconnected, or granby roll if they lunge forward aggressively to reattach. Remaining in static turtle after a successful shake-off wastes the disruption window and allows the rider to simply re-establish their previous position."
+      },
+      {
+        "question": "The rider sinks their hips very low and heavy on your back—why does this make the shake-off ineffective?",
+        "answer": "When the rider fully settles with heavy low hip pressure, the force required to dislodge them exceeds what can be generated from the turtle base position without losing structural integrity. Their settled weight creates a lower center of gravity and wider pressure footprint that distributes force across your entire back rather than concentrating on a point that can be disrupted. Against heavy settled pressure, switch to the Escape from Rodeo Ride rotation which uses the rider's own weight against them, or the sit-back guard recovery which changes the positional relationship through backward hip movement."
+      },
+      {
+        "question": "You feel hooks threading into your hips during the shake-off—what is your immediate response?",
+        "answer": "Immediately abort the lateral base shift and sit your hips straight back down to the mat, trapping the entering leg between your body and the floor. Address hook removal through kick-back and hip rotation before reattempting any escape. Completing the shake-off with hooks entering guarantees back control for the opponent, which is dramatically worse than remaining in Rodeo Ride. The shake-off's hip elevation creates the space that facilitates hook insertion, so this counter must be addressed by canceling the elevation immediately."
+      },
+      {
+        "question": "How does the Shake Off fit into the broader Rodeo Ride escape hierarchy compared to rolling and rotation escapes?",
+        "answer": "The Shake Off occupies the lowest-risk, lowest-reward position in the escape hierarchy. The Escape from Rodeo Ride rotation offers the highest reward (side control top) but requires the most grip fighting and setup time. The Roll from Rodeo Ride offers moderate reward (half guard) with moderate risk (back exposure during rotation). The Shake Off offers the lowest reward (clean turtle, still on bottom) but with the lowest commitment and risk—no back exposure during execution. The Shake Off is best used as a disruption tool that creates the conditions for higher-percentage follow-up escapes."
+      },
+      {
+        "question": "Your first shake-off partially disrupts the rider but they follow laterally—how do you adjust?",
+        "answer": "Execute an immediate second shake-off in the opposite direction. The rider's lateral following movement has shifted their weight to accommodate your initial direction, which means their weight is now loaded toward the side they followed to. The reverse-direction shake-off exploits this new weight distribution asymmetry before they can re-center. This double-direction disruption is the core mechanic of the Double-Hip Pop variant and is effective against riders who have good single-direction recovery reflexes."
+      },
+      {
+        "question": "What base structure must you maintain throughout the shake-off to prevent flattening?",
+        "answer": "Knees must remain under your hips throughout the entire explosive movement. The hip pop uses knee and hip extension at the joint without straightening the legs to full extension, which would create a sprawl position that eliminates all escape options. Hands stay on the mat slightly wider than shoulder width for lateral stability. The explosive force is generated by driving your hips upward from a flexed-knee position, similar to the mechanics of a heavy kettlebell swing, keeping the four-point base structure intact while generating maximum upward and lateral force."
+      }
+    ],
+    "safety_considerations": "The explosive hip extension involved in the Shake Off can strain the lower back if performed without adequate warm-up or with poor mechanics. Progress from controlled-speed repetitions to full-speed execution gradually. Avoid hyperextending the spine during the hip pop—drive through the hips rather than arching the lower back. Training partners acting as the rider should be prepared for the sudden directional change and avoid bracing rigidly, which can cause shoulder or wrist injury on displacement. Tap immediately if neck position becomes compromised during the sequence. Communicate with training partners about intensity levels, particularly when practicing the double-hip pop variant which generates higher forces."
+  },
+  "defender": {
+    "name": "Shake Off Rodeo Ride Defender",
+    "description": "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn to recognize explosive disruption attempts, maintain rider control, and capitalize on failed shake-offs.",
+    "overview": "Defending against the Shake Off from Rodeo Ride requires the top player to maintain heavy, responsive hip pressure that denies the bottom practitioner the momentary lightness needed to generate explosive displacement. The primary defense involves recognizing the base consolidation and pressure-waiting patterns that precede the shake-off, then proactively increasing hip weight and grip depth to prevent the explosion from creating meaningful separation. When the shake-off partially succeeds, the defender must decide between immediately re-establishing Rodeo Ride control by following laterally and re-loading hip pressure, or capitalizing on the bottom practitioner's elevated hips to insert hooks for full back control advancement. The shake-off's hip elevation creates the same space that facilitates hook insertion, making it possible to convert the opponent's escape attempt into your own positional advancement.",
+    "key_principles": [
+      "Maintain constant heavy hip-to-back pressure to deny the lightness the bottom practitioner needs for explosive disruption",
+      "Recognize turtle base consolidation and stillness as precursors to explosive movement—increase pressure during these quiet moments",
+      "Keep hips low and heavy rather than riding high on the shoulders where you are vulnerable to upward displacement",
+      "Use the bottom practitioner's hip elevation as an opportunity to insert hooks rather than fighting to prevent the displacement",
+      "Maintain near-arm control throughout to limit the bottom practitioner's ability to direct their lateral base shift after the pop",
+      "Stay responsive to directional changes—the bottom practitioner may chain multiple shake-offs in different directions"
+    ],
+    "recognition_cues": [
+      "Bottom practitioner tightens their turtle structure noticeably—pulling elbows tight, widening hands, and consolidating their base in preparation for explosive movement",
+      "A brief moment of stillness or reduced grip fighting from the bottom practitioner as they load their body for the explosive hip extension",
+      "Subtle weight shift onto the hands as the bottom practitioner prepares to drive force through their hips and knees",
+      "The bottom practitioner's hips begin to shift laterally away from your posted leg side, targeting the weaker direction of your tripod base",
+      "Sudden explosive upward and lateral hip movement from the bottom practitioner, distinctly different from rolling or rotation patterns"
+    ],
+    "defensive_options": [
+      {
+        "action": "Sink hips low and increase downward pressure proactively when recognizing base consolidation patterns",
+        "when_to_use": "When you detect the bottom practitioner tightening their turtle and reducing movement in preparation for an explosive attempt",
+        "targets_outcome": "Rodeo Ride/Bottom",
+        "if_successful": "The shake-off cannot generate sufficient force against your settled weight, and the bottom practitioner has expended energy without creating separation",
+        "risk": "Overly static heavy pressure may create openings for rotation-based escapes like the Escape from Rodeo Ride that exploit committed forward weight"
+      },
+      {
+        "action": "Insert hooks during the bottom practitioner's hip elevation when they pop upward creating space between their body and the mat",
+        "when_to_use": "When the shake-off's hip pop creates visible space between the bottom practitioner's hips and the mat, providing the clearance needed for hook threading",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You advance from Rodeo Ride directly to full back control, converting the opponent's escape attempt into your positional advancement",
+        "risk": "If the bottom practitioner detects the hook attempt and immediately sits their hips down, your entering leg may be trapped awkwardly"
+      },
+      {
+        "action": "Follow the lateral displacement immediately by shifting your base in the same direction and re-loading hip pressure on the new angle",
+        "when_to_use": "When the shake-off creates lateral separation but you maintain chest-to-back contact and can quickly reposition to the new angle",
+        "targets_outcome": "Rodeo Ride/Bottom",
+        "if_successful": "You re-establish Rodeo Ride control on the new angle before the bottom practitioner can chain into a follow-up escape",
+        "risk": "Following too slowly allows the bottom practitioner to chain immediately into a sit-through or technical stand-up during the separation window"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the bottom practitioner pops their hips upward, use the space created between their body and the mat to thread your near-side hook inside their thigh. Secure a seat belt grip simultaneously and work the far-side hook as the bottom practitioner settles back down. Their own escape movement creates the space you need for hook insertion."
+      },
+      {
+        "outcome": "Rodeo Ride/Bottom",
+        "how": "Maintain heavy low hip pressure throughout the shake-off attempt by sinking your weight proactively when you recognize the preparatory base consolidation. Keep near-arm control locked to prevent the lateral base shift that creates separation. Follow any lateral displacement immediately by shifting your own base to match, re-loading pressure before the bottom practitioner can chain into a follow-up escape."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Riding with weight positioned high on the bottom practitioner's shoulders rather than loaded on the lower back and hip area",
+        "consequence": "High positioning is easily displaced by the upward hip pop since your weight has a higher center of gravity and less base contact",
+        "correction": "Keep hips low and heavy, distributing weight across the bottom practitioner's lower back and hip area where it is hardest to dislodge through vertical force."
+      },
+      {
+        "error": "Maintaining rigid static pressure that does not adjust to the bottom practitioner's movement",
+        "consequence": "A single well-timed shake-off easily dislodges rigid static pressure because you cannot redirect your base fast enough to match the explosive displacement",
+        "correction": "Maintain dynamic pressure that responds to the bottom practitioner's micro-movements. Constantly adjust your weight placement so that your pressure point follows their center of mass rather than staying fixed on one spot."
+      },
+      {
+        "error": "Attempting to re-establish Rodeo Ride from distance after being dislodged instead of immediately reattaching",
+        "consequence": "Gives the bottom practitioner the separation window they need to chain into a sit-through, stand-up, or guard recovery before you can reconnect",
+        "correction": "The moment you feel displacement, immediately follow the bottom practitioner's direction of movement and drive to re-establish chest contact. Never allow full separation—any gap becomes an escape window."
+      },
+      {
+        "error": "Releasing near-arm control during the scramble to brace against the displacement force with both hands",
+        "consequence": "The bottom practitioner's free arm enables their lateral base shift and follow-up escape, removing your primary tool for limiting their movement",
+        "correction": "Maintain near-arm control throughout the shake-off. Use your chest and hip pressure to absorb the displacement force rather than bracing with your arms, keeping the controlling grip as your anchor through the disruption."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom practitioner is preparing a Shake Off attempt?",
+        "answer": "The earliest cue is an unusual tightening and consolidation of their turtle structure—elbows pulling tight, hands widening slightly for base, and a brief moment of stillness or reduced grip fighting. This preparation phase is distinct from normal defensive posturing because it involves loading the body for explosive movement rather than simply protecting against attacks. When you feel the bottom practitioner become unusually still and solid after a period of active grip fighting, they are likely loading for the shake-off."
+      },
+      {
+        "question": "Why can the bottom practitioner's hip elevation during the shake-off actually benefit you as the rider?",
+        "answer": "The hip pop creates space between the bottom practitioner's body and the mat—the same space needed for hook insertion. When their hips elevate, there is a brief window where you can thread your near-side foot inside their thigh to establish the first hook for back control. Their escape attempt actually opens the pathway to the most dominant position in grappling. The key is recognizing this opportunity in real-time rather than fighting to prevent the elevation, converting their escape energy into your advancement."
+      },
+      {
+        "question": "How should you adjust your pressure distribution when you anticipate a shake-off to prevent it from succeeding?",
+        "answer": "Sink your hips lower and heavier onto the bottom practitioner's lower back and hip area rather than riding on their upper back and shoulders. Lower hip positioning creates a lower center of gravity that is harder to displace through vertical force. Additionally, widen your base by adjusting your posted leg to provide better lateral stability against the angular displacement the shake-off generates. Increase the downward component of your chest pressure during the quiet preparatory phase to load weight before the explosion occurs."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying shake-off preparation patterns through feel",
+        "description": "Partner attempts shake-offs from Rodeo Ride bottom at reduced speed while you focus exclusively on recognizing the preparatory cues—base consolidation, stillness, and weight loading. Call out when you detect the preparation phase. Build predictive awareness of the timing without yet working on physical counter responses."
+      },
+      {
+        "phase": "Phase 2: Prevention and Capitalization",
+        "focus": "Executing both defensive responses—prevention and hook insertion",
+        "description": "Partner attempts shake-offs at moderate speed. Practice both responses: sinking weight to prevent the shake-off, and using the hip elevation to insert hooks for back control. Alternate between prevention and capitalization on successive repetitions to develop proficiency with both options and the decision-making between them."
+      },
+      {
+        "phase": "Phase 3: Chain Defense",
+        "focus": "Handling multiple shake-offs in sequence and mixed escape patterns",
+        "description": "Partner chains double-direction shake-offs and mixes shake-offs with rolls, sit-throughs, and other escapes. Develop the ability to maintain control through sequential disruptions and correctly identify which escape type is being attempted to apply the appropriate counter for each."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Complete Rodeo Ride offense with shake-off defense integrated",
+        "description": "Full resistance positional sparring from Rodeo Ride top where the bottom player uses their complete escape toolkit. Maintain attacking pressure while defending against shake-offs and other escapes. Track your ability to either maintain Rodeo Ride or advance to back control against the full range of bottom player escape attempts."
+      }
+    ]
+  }
 }

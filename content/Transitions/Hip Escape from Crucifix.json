@@ -1,138 +1,406 @@
 {
   "name": "Hip Escape from Crucifix",
-  "description": "TODO: Write 150-160 character SEO description for Hip Escape from Crucifix.",
+  "description": "Master the hip escape from crucifix in BJJ. Complete guide to shrimping mechanics, arm extraction timing, and turtle recovery from bottom position.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "escape",
+    "crucifix",
+    "hip-escape",
+    "defensive",
+    "bottom",
+    "shrimping"
   ],
   "from_position": "Crucifix/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": 45,
       "result": "success"
     },
     {
       "to": "Crucifix/Bottom",
-      "probability": 30,
+      "probability": 35,
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
-      "probability": 15,
+      "to": "Back Control/Bottom",
+      "probability": 20,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Hip Escape from Crucifix.",
+  "success_rate": 45,
+  "overview": "The hip escape from crucifix is a fundamental defensive technique for recovering from one of BJJ's most dominant control positions. When trapped in crucifix with both arms compromised—one caught in the opponent's leg triangle and the other controlled by their hands—the hip escape uses the shrimping motion to change the angle of entrapment and create space for arm extraction. The technique prioritizes systematic hip movement over brute strength, exploiting the geometric relationship between hip angle and leg trap tightness.\n\nStrategically, the hip escape targets the weakest link in the crucifix structure: the angle-dependent nature of the leg triangle. By shrimping away from the trapped arm, the bottom player changes the leverage point of the leg trap, creating momentary slack that permits arm withdrawal. This must be combined with proper neck defense throughout, as the escape movement can inadvertently expose the neck to choke attacks if executed carelessly. The timing window opens when the top player commits attention to a submission attempt rather than purely maintaining control.\n\nThe technique serves as a critical survival skill in the crucifix escape hierarchy. While arm recovery and explosive bridging receive more attention, the hip escape offers a methodical, energy-efficient alternative that works even against opponents with strong leg lock configurations. Success depends on timing the hip movement to coincide with moments when the top player transitions between attacks, chaining multiple small shrimps rather than one explosive movement, and immediately converting the extracted arm into a turtle recovery without pause.",
   "conditions": [
-    "TODO"
+    "Bottom player has at least one arm trapped in opponent's leg triangle configuration",
+    "Free arm retains sufficient mobility for framing against opponent's body",
+    "Hips retain lateral mobility—not completely flattened under opponent's weight",
+    "Opponent has not fully consolidated maximum chest-to-back pressure",
+    "No active choke is being applied—neck defense must be established before initiating escape"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Standard Lateral Hip Escape",
+      "description": "Classic shrimping motion away from the trapped arm, using incremental hip movements to progressively change the leg trap angle. The most reliable and energy-efficient variant that works across all body types.",
+      "when_to_use": "Default escape when you have moderate hip mobility and the opponent is maintaining stable crucifix control without actively attacking"
+    },
+    {
+      "variant_name": "Bridge-to-Hip Escape Combination",
+      "description": "Initiate with an explosive bridge to disrupt the opponent's balance and create initial space, then immediately chain into a lateral hip escape while the opponent is recovering their base. The bridge creates a larger initial window for the subsequent shrimp.",
+      "when_to_use": "When the opponent's weight is heavy and direct hip escape alone cannot generate sufficient lateral movement"
+    },
+    {
+      "variant_name": "Directional Change Hip Escape",
+      "description": "Begin hip escaping in one direction to draw the opponent's corrective movement, then abruptly reverse direction to exploit the gap created by their over-correction. Requires precise timing and the ability to read the opponent's adjustment speed.",
+      "when_to_use": "When the opponent is actively following your hip movement and maintaining angle—use misdirection to outpace their adjustment"
     }
   ],
-  "position_integration": "TODO: Write position integration for Hip Escape from Crucifix.",
+  "position_integration": "The hip escape from crucifix integrates into the broader crucifix survival framework alongside arm recovery, bridge escapes, and choke defense. It serves as the primary methodical escape when explosive movements are not viable, connecting crucifix bottom to the turtle recovery pathway. From turtle, the practitioner can further recover to guard, stand up, or engage in standard turtle defense sequences. The technique reinforces fundamental shrimping mechanics that translate across all bottom positions in BJJ, making it a cornerstone movement that improves overall defensive capability. Understanding this escape also informs crucifix top players about vulnerabilities in their control structure, creating a reciprocal learning relationship between offensive and defensive crucifix play.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Crucifix",
+      "relationship": "Source position—the dominant pin this technique escapes from"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Primary success destination after completing the escape"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common counter outcome when opponent transitions during escape"
+    },
+    {
+      "name": "Arm Recovery from Crucifix",
+      "relationship": "Complementary escape technique focusing on direct arm extraction"
+    },
+    {
+      "name": "Crucifix Maintenance",
+      "relationship": "Opponent's primary retention technique—study to understand escape windows"
+    },
+    {
+      "name": "Crucifix Choke Defense",
+      "relationship": "Related defensive technique often needed before initiating escape"
+    },
+    {
+      "name": "Choke from Crucifix",
+      "relationship": "Primary submission threat that must be defended during escape"
+    },
+    {
+      "name": "Armbar from Crucifix",
+      "relationship": "Secondary submission threat requiring awareness during escape"
+    },
+    {
+      "name": "Mounted Crucifix",
+      "relationship": "Worse positional variant if escape attempt is poorly executed"
+    },
+    {
+      "name": "Hand Fight to Turtle from Back",
+      "relationship": "Related escape concept applicable after transitioning to back control"
     }
   ],
   "attacker": {
     "name": "Hip Escape from Crucifix Attacker",
-    "description": "TODO: Write attacker description for Hip Escape from Crucifix.",
-    "overview": "TODO: Write attacker overview for Hip Escape from Crucifix.",
+    "description": "Complete guide to executing the hip escape from crucifix in BJJ. Learn shrimping mechanics, arm extraction timing, and turtle recovery from this dominant pin.",
+    "overview": "Executing the hip escape from crucifix requires precise understanding of how lateral hip movement changes the geometry of the leg trap holding your arm. As the escaping player, your goal is to systematically create space through shrimping motions that exploit the angle-dependent nature of the crucifix control structure. This technique demands patience, proper neck defense throughout, and the ability to chain hip movements with arm extraction and immediate positional recovery. Unlike explosive bridge escapes, the hip escape relies on incremental space creation and technical precision, making it effective even when fatigued or outmatched in size and strength. The escape follows a strict hierarchy: defend the neck, create angle change through hip movement, extract the arm, and immediately recover to turtle without pause.",
     "key_principles": [
-      "TODO"
+      "Protect the neck before, during, and after every escape attempt—choke defense is non-negotiable throughout the entire sequence",
+      "Shrimp away from the trapped arm to change the angle of the leg triangle and create slack in the trap",
+      "Use incremental hip movements rather than one explosive motion to avoid telegraphing your intentions",
+      "Time escape attempts during opponent's transitions between attacks when control momentarily loosens",
+      "Chain arm extraction immediately into turtle recovery as one continuous motion without pausing",
+      "Keep the free arm active for framing against opponent's body and neck defense throughout the sequence",
+      "Maintain controlled breathing to preserve energy for the critical extraction moment"
     ],
     "setup_requirements": [
-      "TODO"
+      "Identify which arm is trapped in the leg triangle and assess the tightness of the configuration",
+      "Establish neck defense with free hand by tucking chin and raising shoulder to prevent choke",
+      "Assess hip mobility to determine how much lateral movement is available before initiating",
+      "Create initial frame with free arm against opponent's hip or leg to establish escape direction",
+      "Ensure no active choke is being applied—defend any choke completely before attempting escape"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish comprehensive neck defense",
+        "description": "Before any escape movement, secure your neck by tucking your chin tightly to your chest and raising the shoulder on the choking side. Use your free hand to protect your collar or fight any hand approaching your neck. This defensive posture must be maintained throughout the entire escape sequence to prevent submission during position recovery."
+      },
+      {
+        "step_number": 2,
+        "action": "Create initial frame with free arm",
+        "description": "Position your free arm against the opponent's hip, thigh, or the leg trapping your arm. This frame serves dual purpose: creating leverage for the hip escape and preventing the opponent from tightening their control as you begin moving. Keep your elbow tight to your body to prevent the free arm from being captured."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute first hip escape movement",
+        "description": "Shrimp your hips away from the trapped arm by driving off your feet and pushing your hips laterally along the mat. The direction is critical—move away from the side where your arm is trapped in the leg triangle. This changes the geometric angle of the leg trap and begins creating slack around your upper arm and shoulder."
+      },
+      {
+        "step_number": 4,
+        "action": "Perform second hip escape to increase angle change",
+        "description": "Execute a second shrimping motion to further increase the angle change on the leg trap. Each successive hip escape creates additional slack in the triangle configuration. Feel for the loosening around your trapped arm—when the compression decreases noticeably, the extraction window is opening and you should prepare for the next step."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract the trapped arm through created space",
+        "description": "As slack develops in the leg trap, begin withdrawing your trapped arm by pulling it toward your body while continuing to shrimp. Do not pull explosively against remaining resistance—combine arm withdrawal with continued hip movement so the arm slides free as the angle becomes unfavorable for the trap to maintain compression."
+      },
+      {
+        "step_number": 6,
+        "action": "Transition immediately to turtle position",
+        "description": "The moment your arm clears the leg trap, turn aggressively to your knees and establish a defensive turtle position with elbows tight to your sides, chin tucked, and rounded back. Speed of transition is critical because the opponent will immediately attempt to re-establish control or transition to back control during this window."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate defensive turtle posture",
+        "description": "Once on your knees, establish a tight defensive shell with elbows glued to the insides of your knees, chin to chest, and hips elevated. Begin hand fighting immediately to prevent the opponent from establishing seatbelt control or inserting hooks. Your defensive structure must be solid before the opponent can capitalize on the transition."
+      },
+      {
+        "step_number": 8,
+        "action": "Initiate turtle escape sequence",
+        "description": "Do not remain static in turtle—immediately work toward guard recovery or standing position. Choose your escape based on opponent's positioning: granby roll if weight is forward, technical standup if control is loose, or sit-through if they are reaching for grips. Continuous motion from crucifix escape through turtle escape prevents the opponent from settling."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent tightens leg triangle squeeze reactively during hip escape attempt",
+        "effectiveness": "High",
+        "your_response": "Pause the escape, re-establish your frame, and wait for the opponent to transition to a submission attempt—the loosening during their attack creates the next escape window",
         "targets_outcome": "Crucifix/Bottom"
+      },
+      {
+        "counter": "Opponent attacks the neck with choke during escape movement when neck becomes exposed",
+        "effectiveness": "High",
+        "your_response": "Immediately abandon the escape and prioritize two-on-one choke defense with your free hand; resume escape only after completely neutralizing the choke threat",
+        "targets_outcome": "Crucifix/Bottom"
+      },
+      {
+        "counter": "Opponent follows hip movement to maintain perpendicular alignment and preserve trap angle",
+        "effectiveness": "Medium",
+        "your_response": "Chain multiple rapid hip escapes in the same direction to outpace their adjustment, or execute a directional change to catch them mid-correction",
+        "targets_outcome": "Crucifix/Bottom"
+      },
+      {
+        "counter": "Opponent releases crucifix and transitions to standard back control as space is created",
+        "effectiveness": "Medium",
+        "your_response": "Accept back control as a significant positional improvement over crucifix and immediately begin standard back escape sequences from the more familiar position",
+        "targets_outcome": "Back Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling the trapped arm directly against the leg trap without leading with hip movement",
+        "consequence": "Wastes energy rapidly, tightens the trap through resistance, and alerts the opponent to the escape attempt",
+        "correction": "Always lead with hip escape movement to create angle change and slack before attempting any arm extraction"
+      },
+      {
+        "error": "Neglecting neck defense during the escape sequence",
+        "consequence": "Gets choked mid-escape when the neck becomes exposed during body shift and hip movement",
+        "correction": "Maintain chin tuck and shoulder raise throughout the entire sequence; keep free hand ready to defend neck at all times"
+      },
+      {
+        "error": "Executing one large explosive hip escape instead of incremental controlled movements",
+        "consequence": "Telegraphs the escape intention, allowing the opponent to counter by following hips or tightening control preemptively",
+        "correction": "Use two to three smaller controlled hip escapes that progressively change the angle without alerting the opponent"
+      },
+      {
+        "error": "Pausing after arm extraction instead of immediately transitioning to turtle",
+        "consequence": "Opponent re-captures the freed arm or secures back control hooks during the hesitation",
+        "correction": "Chain arm extraction directly into turtle recovery as one continuous motion—the freed arm tucks tight as you turn to knees"
+      },
+      {
+        "error": "Using the free arm to push against the mat rather than framing on the opponent",
+        "consequence": "Creates no leverage against the opponent's control structure and wastes the free arm's escape utility",
+        "correction": "Frame the free arm against opponent's hip, thigh, or leg to create push-pull leverage that amplifies the hip escape"
+      },
+      {
+        "error": "Attempting the hip escape while an active choke is being applied",
+        "consequence": "The escape movement often changes the angle in a way that tightens the choke, accelerating the submission",
+        "correction": "Always address active submission threats completely before initiating any positional escape attempt"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Basic hip escape movement from crucifix position",
+        "description": "Practice the shrimping motion from crucifix bottom with no resistance. Partner holds light crucifix and allows bottom player to feel angle changes created by hip movement. Focus on correct direction, hip drive mechanics, and understanding how angle affects leg trap tightness. Repeat 20 reps per side."
+      },
+      {
+        "phase": "Phase 2: Arm Extraction Timing",
+        "focus": "Combining hip escape with arm withdrawal",
+        "description": "Partner holds moderate crucifix while bottom player practices the full sequence of hip escape into arm extraction. Partner provides 50% resistance, allowing successful extraction but requiring proper mechanics. Emphasize feeling the moment when slack develops in the leg trap and initiating extraction without delay."
+      },
+      {
+        "phase": "Phase 3: Chained Escape Sequence",
+        "focus": "Hip escape to turtle to guard recovery as continuous motion",
+        "description": "Practice the complete escape chain from crucifix through turtle to guard recovery or standing. Partner provides 75% resistance and may attempt submissions during escape. Focus on maintaining neck defense throughout and transitioning between phases without pausing."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance escape from established crucifix",
+        "description": "Positional sparring starting from established crucifix. Bottom player uses hip escape alongside all available escapes against fully resisting partner. Top player actively attacks with submissions while maintaining control. Develop timing, sensitivity to slack, and decision-making under genuine pressure."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Escape under fatigue and psychological pressure",
+        "description": "Begin rounds with exhausting exercises like sprawls or burpees, then immediately enter crucifix escape scenario. Simulate competition fatigue and stress where crucifix is established late in a match. Develop the mental composure and physical efficiency needed when resources are depleted."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the critical direction of hip movement when performing the hip escape from crucifix?",
+        "answer": "Shrimp your hips away from the side where your arm is trapped in the leg triangle. This lateral movement changes the geometric angle of the leg trap, creating slack that allows arm extraction. Moving toward the trapped arm would tighten the configuration. The direction must be perpendicular to the opponent's body alignment for maximum angle change, not simply sliding backward along their body line."
+      },
+      {
+        "question": "Why must you defend the neck before initiating the hip escape from crucifix?",
+        "answer": "The hip escape movement can inadvertently expose the neck as your body shifts and creates new angles. If a choke is being applied or the neck is undefended, the escape motion may tighten the choke or create a better choking angle for the opponent. Neck defense through chin tuck, shoulder raise, and free hand protection must be established and maintained throughout the entire sequence to prevent submission during position recovery."
+      },
+      {
+        "question": "Your opponent tightens their leg squeeze every time you begin hip escaping—how do you adjust your approach?",
+        "answer": "When the opponent reactively tightens against hip escape attempts, use a bait-and-attack strategy. Begin a hip escape to draw their tightening response, then pause and wait for them to transition to a submission attempt. During that transition—when their focus shifts from control to attack—execute a rapid series of hip escapes through the momentary loosening. The opponent cannot simultaneously maximize squeeze and initiate submissions; exploit that window."
+      },
+      {
+        "question": "What grip or frame should your free arm establish before initiating the hip escape?",
+        "answer": "The free arm should frame against the opponent's hip, thigh, or the upper leg of the triangle trapping your arm. This frame creates a push-pull dynamic—as your hips shrimp away, the frame pushes against the opponent's structure to amplify space creation. Avoid framing on the mat, which provides no leverage against the opponent. Keep the elbow tight to your body to prevent the arm from being captured, which would make the position irreversible."
+      },
+      {
+        "question": "What is the most common reason practitioners fail to complete the arm extraction even after creating space with hip escapes?",
+        "answer": "The most common failure point is pausing between creating space and extracting the arm. Even brief hesitation allows the opponent to readjust their leg position and close the slack. The arm extraction must be initiated as soon as slack develops—ideally during the second or third hip escape while still in motion. The withdrawal should combine continued hip movement with arm pulling in a unified motion rather than treating them as separate sequential steps."
+      },
+      {
+        "question": "How do you determine whether to continue the hip escape or switch to a different crucifix escape method?",
+        "answer": "If two to three hip escape attempts fail to create noticeable slack in the leg trap, the opponent likely has excellent angle maintenance and is following your hip movement effectively. Switch to a complementary escape—an explosive bridge to disrupt their base, or work arm recovery through different mechanics. The hip escape works best when the opponent is stationary or focused on attacking; if they focus solely on maintaining the trap angle, a different escape vector is needed."
+      },
+      {
+        "question": "After extracting your arm, your opponent immediately reaches to control your far arm—what is your priority?",
+        "answer": "Your absolute priority is completing the transition to turtle before they can re-establish arm control. Tuck the freed arm tight to your body, turn aggressively to your knees, and establish the defensive turtle shell with elbows locked to your sides. If you pause to fight hands in the intermediate position, you risk being pulled back into crucifix or having a new arm isolated. Speed of transition from extraction to turtle is more critical than grip fighting at this moment."
+      },
+      {
+        "question": "What body positioning cue tells you the leg trap has loosened enough for arm extraction?",
+        "answer": "You will feel a distinct decrease in compression around your trapped upper arm and shoulder. The squeeze transitions from tight immobilizing pressure to a looser hold where you can rotate your arm within the triangle. Additionally, you may feel your shoulder beginning to clear the bottom leg of the triangle—when the shoulder can move past the leg's contact point, the extraction window is open. Begin extraction at the first sign of meaningful slack rather than waiting for complete freedom."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Hip Escape from Crucifix."
+    "safety_considerations": "The hip escape from crucifix is a defensive technique with low injury risk when performed correctly. However, the trapped arm may experience shoulder strain if pulled explosively against the leg trap—always lead with hip movement rather than forcing the arm. Neck vulnerability increases during the escape as body positioning changes, so maintain neck defense throughout. In training, top players should allow escape attempts at reduced resistance initially and never apply submissions at full speed against escaping partners. Tap immediately if any choke tightens during the escape attempt rather than continuing to fight the position."
   },
   "defender": {
     "name": "Hip Escape from Crucifix Defender",
-    "description": "TODO: Write defender description for Hip Escape from Crucifix.",
-    "overview": "TODO: Write defender overview for Hip Escape from Crucifix.",
+    "description": "Learn to counter the hip escape from crucifix in BJJ. Recognition cues, counter-techniques, and strategies for maintaining crucifix control against escape attempts.",
+    "overview": "As the crucifix controller defending against the hip escape, your objective is to prevent the bottom player from successfully changing the angle of your leg trap through lateral hip movement. The hip escape threatens your crucifix by altering the geometric relationship that keeps your triangle tight, so your primary focus is following their hip movement to maintain perpendicular alignment. Recognizing the early signs of a hip escape attempt allows you to preemptively tighten control or transition to a submission attack that punishes the escape movement. The most effective defense creates a dilemma: the bottom player must choose between defending the choke with their free hand or using it to frame for the escape, and either choice leaves them vulnerable to the other threat.",
     "key_principles": [
-      "TODO"
+      "Maintain perpendicular body alignment to the bottom player's torso to preserve optimal leg trap angle at all times",
+      "Follow hip movement immediately—any gap between their shrimp and your adjustment creates extraction space",
+      "Use submission threats as preemptive deterrents that force the bottom player to choose between defending and escaping",
+      "Tighten the leg triangle squeeze at the first sign of lateral hip escape movement",
+      "Control the bottom player's free arm to prevent effective framing against your body or legs",
+      "Keep chest-to-back pressure heavy to limit the hip mobility needed for effective shrimping",
+      "Be prepared to transition proactively to back control if the crucifix becomes untenable"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player's feet plant firmly on the mat—particularly the foot on the trapped arm side—generating the driving force for the upcoming shrimp",
+      "Free arm repositions from neck defense to framing against your hip, thigh, or leg, indicating a shift from survival mode to active escape",
+      "Bottom player's breathing transitions from rapid or panicked to controlled and deliberate, suggesting they are preparing a systematic escape attempt",
+      "Subtle lateral weight shift through the bottom player's hips as they prepare to push sideways away from the trapped arm",
+      "Bottom player's shoulder on the trapped side begins rotating within the leg triangle, testing for slack and extraction angles"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Tighten leg triangle and follow hip movement to maintain perpendicular alignment",
+        "when_to_use": "At the first sign of lateral hip escape movement before significant angle change occurs",
         "targets_outcome": "Crucifix/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Nullifies the escape attempt completely and maintains full crucifix control with no positional loss",
+        "risk": "Requires energy expenditure to follow hips; if you over-commit to one direction, they may reverse"
+      },
+      {
+        "action": "Attack the neck with choke during the escape attempt when neck becomes exposed",
+        "when_to_use": "When the bottom player's body shift during hip escape creates a new angle exposing the neck",
+        "targets_outcome": "Crucifix/Bottom",
+        "if_successful": "Forces the bottom player to abandon the escape and return free hand to neck defense, resetting the position",
+        "risk": "If the choke attempt fails, you may have loosened your overall positional control during the attack"
+      },
+      {
+        "action": "Transition proactively to standard back control with seatbelt and hooks",
+        "when_to_use": "When the hip escape has created enough space that the crucifix leg trap is significantly compromised",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Maintains a dominant position with back control even though crucifix was lost",
+        "risk": "The bottom player may use the transition moment to escape further toward turtle or guard recovery"
+      },
+      {
+        "action": "Control the free arm to prevent framing and eliminate escape leverage",
+        "when_to_use": "When you observe the free arm repositioning from neck defense toward framing on your body",
+        "targets_outcome": "Crucifix/Bottom",
+        "if_successful": "Removes their primary escape leverage and may create total arm isolation for submission opportunities",
+        "risk": "Redirecting your controlling hand to capture the free arm may momentarily loosen far arm control"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Turtle/Bottom",
-        "how": "TODO"
+        "outcome": "Crucifix/Bottom",
+        "how": "Follow the bottom player's hip movement by adjusting your perpendicular alignment, tighten the leg triangle squeeze, and threaten neck attacks to force them back to defensive mode. React to their first hip movement faster than they can create meaningful space."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "If the crucifix becomes untenable due to progressive space creation, transition proactively to standard back control by releasing the leg trap and immediately inserting hooks while maintaining seatbelt grip. This preserves dominant position and creates fresh attacking opportunities."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining static and relying solely on the initial leg trap tightness without active adjustment",
+        "consequence": "Progressive hip escapes create incremental space that eventually allows arm extraction and position recovery",
+        "correction": "Actively follow any hip movement by adjusting your body position to maintain perpendicular alignment with the bottom player's torso"
+      },
+      {
+        "error": "Focusing exclusively on preventing escape without threatening submissions",
+        "consequence": "Bottom player can methodically work the hip escape without urgency since their free hand is available for framing",
+        "correction": "Maintain constant submission pressure—the threat of choke forces them to use the free hand defensively rather than for escape framing"
+      },
+      {
+        "error": "Over-committing to following their hip escape in one direction",
+        "consequence": "Bottom player reverses direction suddenly, creating space on the opposite side that you cannot close in time",
+        "correction": "Maintain balanced positioning and be prepared for direction changes; use heavy chest pressure to limit overall mobility rather than chasing hip movement"
+      },
+      {
+        "error": "Loosening the leg triangle grip to initiate a submission attempt",
+        "consequence": "Creates exactly the slack needed for arm extraction during the transition between control maintenance and attack",
+        "correction": "Maintain leg squeeze throughout all submission attempts; use only your arms for neck attacks without compromising the leg triangle pressure"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a hip escape from crucifix bottom?",
+        "answer": "The earliest cue is feeling their feet plant firmly on the mat, particularly the foot on the trapped arm side. This foot placement generates the driving force for the shrimp. You may also feel a subtle weight shift in their hips as they prepare to push laterally. Before visible hip movement begins, this preparatory foot and weight positioning signals the escape attempt, giving you time to preemptively tighten your squeeze and adjust your angle."
+      },
+      {
+        "question": "Your opponent has completed one hip escape and you feel slight loosening in your leg trap—should you maintain the crucifix or transition?",
+        "answer": "Assess the degree of loosening. If the arm can still be maintained with a tighter squeeze and angle adjustment, maintain the crucifix and immediately follow their hips to restore the optimal trapping angle. If the arm has significant slack and continued hip escapes are imminent, proactively transition to back control before the arm is fully extracted. The transition should happen while you still have some control—waiting until the arm is free risks losing back control entirely."
+      },
+      {
+        "question": "How do you create a dilemma that discourages hip escape attempts from crucifix?",
+        "answer": "Combine control maintenance with active submission threats. When the bottom player has their free hand defending the neck, they cannot use it to frame for hip escapes. When they move the hand to frame, immediately attack the now-exposed neck. This creates an impossible choice—defend choke or escape position—that keeps the bottom player in a reactive defensive cycle. The dilemma is most effective when you vary between choke and armbar threats."
+      },
+      {
+        "question": "What adjustment prevents the bottom player from executing multiple rapid hip escapes in succession?",
+        "answer": "Heavy chest-to-back pressure is the primary tool for limiting successive hip escapes. By dropping your weight onto their upper back and shoulders, you reduce their ability to generate the hip drive needed for effective shrimping. Additionally, control their hip movement by hooking their near-side leg with yours or placing your knee against their hip as a physical barrier. The combination of upper body pressure and lower body blocking limits shrimping to ineffective micro-movements."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying hip escape attempts early through tactile and visual cues",
+        "description": "Partner performs hip escape attempts with increasing subtlety while you focus on recognizing preparatory movements—foot placement, weight shifts, breathing changes, and free arm repositioning. Call out the attempt before it begins. Build pattern recognition speed without worrying about the counter yet."
+      },
+      {
+        "phase": "Phase 2: Counter-Timing",
+        "focus": "Maintaining crucifix control during escape attempts through active adjustment",
+        "description": "Partner performs hip escapes at 50-75% intensity while you practice following their hip movement and tightening the leg triangle in response. Focus on maintaining perpendicular alignment and keeping constant chest pressure. Gradually increase partner resistance and escape complexity."
+      },
+      {
+        "phase": "Phase 3: Submission Integration",
+        "focus": "Threatening attacks during escape windows to create defensive dilemmas",
+        "description": "Practice initiating choke and armbar attacks timed to the bottom player's escape attempts. When they frame for escape, attack the neck. When they defend the neck, maintain control. Develop the ability to flow between control and attack without creating escape opportunities."
+      },
+      {
+        "phase": "Phase 4: Transition Decisions",
+        "focus": "Choosing between maintaining crucifix and transitioning to back control",
+        "description": "Full-speed positional sparring from crucifix with focus on recognizing when to fight for the crucifix versus when to proactively transition to back control. Develop the judgment to make this decision before the position deteriorates beyond recovery point."
       }
     ]
   }

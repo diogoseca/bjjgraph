@@ -21,37 +21,37 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 6% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
       "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break and Face",
-      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 13% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Controlled Descent",
       "text": "From this position, attempt Controlled Descent. This technique is attempted in 30% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Explosive Forward Roll",
+      "text": "From this position, attempt Explosive Forward Roll. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,23 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Available Escapes
 
-### [[Hip Escape to Turtle]] (13% of attempts)
+### [[Hip Escape to Turtle]] (10% of attempts)
 
-### [[Standing up in Base]] (10% of attempts)
-
-### [[Rolling to Guard]] (10% of attempts)
+### [[Rolling to Guard]] (6% of attempts)
 
 ### [[Granby Roll to Guard]] (5% of attempts)
 
-### [[Grip Break and Face]] (12% of attempts)
+### [[Grip Break and Face]] (13% of attempts)
 
 ### [[Controlled Descent]] (30% of attempts)
 
-### [[Explosive Forward Roll]] (6% of attempts)
+### [[Explosive Forward Roll]] (4% of attempts)
 
-### [[Turn In and Face]] (14% of attempts)
+### [[Turn In and Face]] (15% of attempts)
+
+### [[Arm Drag Escape]] (7% of attempts)
+
+### [[Standing up in Base]] (10% of attempts)
 
 
 

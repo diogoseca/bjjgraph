@@ -21,37 +21,37 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 26% of exchanges from this position.",
+      "name": "Execute Arm Extraction to Turtle",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 32% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Arm Recovery to Guard",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Granby Roll to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (12% of attempts)
+### [[Technical Stand-up]] (11% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Rolling Back Take]] (12% of attempts)
+### [[Rolling Back Take]] (11% of attempts)
 
-### [[Turtle Transition]] (26% of attempts)
+### [[Arm Extraction to Turtle]] (32% of attempts)
 
-### [[Guard Recovery]] (12% of attempts)
+### [[Arm Recovery to Guard]] (11% of attempts)
 
-### [[Hip Escape from Russian Cowboy]] (6% of attempts)
+### [[Hip Escape from Russian Cowboy]] (5% of attempts)
 
-### [[Roll Escape from Russian Cowboy]] (3% of attempts)
+### [[Roll Escape from Russian Cowboy]] (2% of attempts)
+
+### [[Escape from Russian Cowboy]] (1% of attempts)
 
 
 
@@ -241,7 +243,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 **If opponent advances hooking leg toward truck position:**
 - Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
 
 
 **If opponent loosens upper body control to adjust position:**
@@ -251,7 +253,7 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 **If opponent attempts to flatten you completely:**
 - Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Arm Recovery to Guard]]** → [[Closed Guard]] (Probability: 45%)
 
 
 

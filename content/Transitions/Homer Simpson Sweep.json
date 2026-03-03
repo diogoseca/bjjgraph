@@ -1,10 +1,14 @@
 {
   "name": "Homer Simpson Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Homer Simpson Sweep.",
+  "description": "Master the Homer Simpson Sweep from deep half guard. Detailed technical guide covering leverage mechanics, timing cues, defensive counters, and drill progressions.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "sweep",
+    "deep-half-guard",
+    "mount",
+    "leverage",
+    "come-up-sweep"
   ],
   "from_position": "Deep Half Guard/Bottom",
   "outcomes": [
@@ -19,120 +23,389 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Homer Simpson Sweep.",
+  "overview": "The Homer Simpson Sweep is a direct come-up sweep from deep half guard where the bottom player rises from underneath the opponent using a combination of deep underhook control and an over-the-back grip to drive the top player backward onto their back. Unlike the waiter sweep which redirects the opponent laterally through hip elevation, or the old school sweep which involves coming up to a single-leg position, the Homer Simpson Sweep drives straight through the centerline, using the bottom player's head and shoulder as the primary contact points to off-balance and topple the opponent directly backward into mount.\n\nThe sweep derives its mechanical power from the bottom player's positioning completely underneath the opponent's center of gravity. By maintaining a deep underhook on the far leg while reaching over the opponent's back with the free hand to grip the belt, waistband, or far hip, the bottom player creates a closed kinetic chain that prevents the top player from basing or circling away. The come-up motion then converts the bottom player's hip drive and forward momentum into a sweeping force that the top player cannot resist without abandoning their position entirely.\n\nStrategically, the Homer Simpson Sweep functions as a high-percentage complement to the waiter and old school sweeps within the deep half guard system. When opponents learn to defend lateral sweeps by widening their base or posting to the sides, the direct forward drive of the Homer Simpson Sweep exploits the gap in their defense. The sweep is particularly effective against opponents who commit heavy forward pressure from deep half guard top, as their own weight momentum feeds directly into the sweep mechanics. At the purple and brown belt level, chaining the Homer Simpson Sweep with the waiter sweep creates a binary dilemma that forces the top player to choose between defending lateral or forward sweeping threats.",
   "conditions": [
-    "TODO"
+    "Deep underhook established on opponent's far leg with arm wrapped around the thigh",
+    "Head and shoulder positioned underneath opponent's far hip creating lever fulcrum",
+    "Opponent's weight committed forward or centered above the bottom player",
+    "Free hand available to reach over opponent's back for belt or waistband grip",
+    "Sufficient space underneath opponent to initiate the rising and driving motion"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Gi Homer Simpson Sweep",
+      "description": "Uses the opponent's belt or far lapel as the over-the-back grip, providing a more secure handle for the driving phase. The gi grip allows sustained pulling force that keeps the opponent's weight loaded forward throughout the sweep motion. Particularly effective because the belt grip is difficult to strip while the bottom player is rising.",
+      "when_to_use": "In gi training when belt or far lapel is accessible and opponent's gi is not tucked tightly"
+    },
+    {
+      "variant_name": "No-Gi Homer Simpson Sweep",
+      "description": "Replaces the belt grip with a far hip overhook or a reaching grip on the opponent's far shoulder or lat. Requires more explosive timing because the grip is less secure without gi material. The free hand may also cup the far hip crease for directional control during the driving phase.",
+      "when_to_use": "In no-gi competition or training when fabric grips are unavailable and opponent has forward weight commitment"
+    },
+    {
+      "variant_name": "Homer Simpson to Back Take",
+      "description": "When the opponent defends the sweep by basing hard with their far hand and sprawling, the bottom player abandons the forward drive and instead uses the deep underhook to circle behind the opponent. The over-the-back grip transitions to a seatbelt or harness control as the bottom player emerges on the opponent's back side. This converts a failed sweep into a back take opportunity.",
+      "when_to_use": "When opponent successfully posts and prevents the forward sweep completion but creates back exposure in the process"
     }
   ],
-  "position_integration": "TODO: Write position integration for Homer Simpson Sweep.",
+  "position_integration": "The Homer Simpson Sweep occupies a critical role within the deep half guard offensive system as the direct forward-driving complement to lateral sweeps like the waiter and old school sweeps. While lateral sweeps exploit side-to-side weight shifts, the Homer Simpson attacks straight through the centerline, creating a three-directional sweeping threat that makes deep half guard bottom extremely difficult to defend from top. The sweep feeds directly into mount, one of the highest-value positions in BJJ, making it a high-reward technique that justifies the investment in deep half guard development. When combined with the electric chair submission threat and rolling back take options, the Homer Simpson Sweep completes a comprehensive attacking matrix from deep half that addresses every possible defensive posture the top player can adopt.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Deep Half Guard",
+      "relationship": "Starting position - sweep is executed from deep half guard bottom"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Waiter Sweep",
+      "relationship": "Complementary lateral sweep from same position creating directional dilemma"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Alternative sweep from deep half using single-leg style come-up mechanics"
+    },
+    {
+      "name": "Deep Half Sweep",
+      "relationship": "Related sweeping technique from the deep half guard system"
+    },
+    {
+      "name": "Electric Chair Entry from Deep Half",
+      "relationship": "Alternative offensive option when sweep path is blocked but leg control remains"
+    },
+    {
+      "name": "Rolling Back Take",
+      "relationship": "Chain attack option when opponent defends Homer Simpson by turning away"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Fallback position when Homer Simpson Sweep is countered and deep half lost"
+    },
+    {
+      "name": "Deep Half to X-Guard",
+      "relationship": "Transition option when opponent pulls far leg back to defend sweep"
+    },
+    {
+      "name": "Backstep from Deep Half",
+      "relationship": "Top player counter-technique that bypasses deep half entirely"
     }
   ],
   "attacker": {
     "name": "Homer Simpson Sweep Attacker",
-    "description": "TODO: Write attacker description for Homer Simpson Sweep.",
-    "overview": "TODO: Write attacker overview for Homer Simpson Sweep.",
+    "description": "Execute the Homer Simpson Sweep from deep half guard. Step-by-step come-up sweep guide with grip setups, driving mechanics, counter management, and mount finishing.",
+    "overview": "The Homer Simpson Sweep attacker operates from deep half guard bottom, using their positioning underneath the opponent's center of gravity to generate a powerful forward-driving sweep. The attacker's primary advantage is the mechanical leverage created by the deep underhook combined with the over-the-back grip, which forms a closed kinetic chain around the opponent's body. Success depends on timing the come-up motion to coincide with forward weight commitment from the top player, maintaining the underhook throughout the rising phase, and driving through to mount with sustained forward pressure rather than stopping at the midpoint.",
     "key_principles": [
-      "TODO"
+      "Maintain the deep underhook on the far leg throughout the entire sweep - releasing mid-sweep guarantees failure and potential back exposure",
+      "Establish the over-the-back grip before initiating the come-up to create a closed chain that prevents the opponent from basing or disengaging",
+      "Drive through the opponent rather than lifting them - the sweep succeeds through sustained forward momentum, not by elevating the opponent upward",
+      "Time the sweep initiation to coincide with the opponent's forward weight shift or immediately after they defend a lateral sweep threat",
+      "Block the opponent's near-side posting ability by controlling their near knee or blocking it with your hip during the come-up phase",
+      "Finish the sweep with immediate hip pressure in mount to prevent the opponent from re-guarding or rolling through"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep underhook secured on opponent's far leg with your arm fully wrapped around their thigh, pulling the leg tight to your chest",
+      "Head and shoulder wedged underneath opponent's far hip, creating the fulcrum point for the driving sweep mechanics",
+      "Free hand reaches over opponent's back and secures a grip on their belt, waistband, far hip, or far lapel in gi",
+      "Feet positioned to generate upward and forward drive, with at least one foot flat on the mat for pushing power",
+      "Opponent's near leg monitored or blocked to prevent them from posting and stopping the forward drive",
+      "Opponent's weight centered or shifted forward over your body, not sprawled back with hips low"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure deep underhook and establish wedge position",
+        "description": "From deep half guard bottom, ensure your deep underhook on the far leg is tight with your arm fully wrapped around the thigh. Your head and shoulder should be wedged underneath the opponent's far hip, creating the lever point. Pull the far leg close to your chest to limit their base width."
+      },
+      {
+        "step_number": 2,
+        "action": "Reach over the back and establish over-grip",
+        "description": "With your free hand, reach over the opponent's back and secure a firm grip on their belt, waistband, or far hip. In gi, the belt or far lapel provides the most secure handle. This over-the-back grip creates a closed chain around the opponent's body that prevents them from creating distance or disengaging from the sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Block opponent's near-side base",
+        "description": "Before initiating the come-up, use your hip, knee, or the positioning of your body to block the opponent's ability to post their near hand or step out with their near leg. This removes their primary escape route and ensures the forward drive will topple them rather than allowing them to simply base and resist."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the come-up with hip drive",
+        "description": "Plant your feet and begin driving your hips forward and upward, rising from underneath the opponent. The initial motion comes from your hips and legs, not your arms. Your head drives into the opponent's far hip as you begin to come up to your knees, keeping your spine aligned and using your whole body as a single driving unit."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive forward through the opponent's centerline",
+        "description": "Continue the forward drive by pushing through with your legs while pulling with your over-the-back grip and maintaining tight underhook control. Your head and shoulder act as the primary contact points pushing the opponent backward. Do not stop at the halfway point - sustained forward momentum is essential to complete the sweep."
+      },
+      {
+        "step_number": 6,
+        "action": "Topple opponent backward and follow to mount",
+        "description": "As the opponent's base collapses under the forward pressure, continue driving them onto their back. Your underhook hand controls their far leg to prevent them from posting, while your over-the-back grip pulls them into the sweep direction. Follow their falling body immediately rather than pausing at any intermediate position."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish mount with immediate hip pressure",
+        "description": "As the opponent lands on their back, immediately settle your hips into mount position with heavy downward pressure. Release your grips only after your knees are positioned on either side of their torso and your weight is fully committed to the mount. Grapevine if necessary to prevent immediate escape attempts triggered by the sweep momentum."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent sprawls hard and drives heavy crossface to flatten the bottom player",
+        "effectiveness": "High",
+        "your_response": "If caught early, abandon the come-up and switch to waiter sweep by redirecting your hips laterally. If partially committed, use the crossface pressure to spin underneath for a rolling back take instead of fighting the forward drive.",
+        "targets_outcome": "Deep Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts their near hand on the mat and widens base to resist the forward drive",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Attack the posting arm with a grip strip or redirect your driving angle slightly toward the posting side to collapse their support. Alternatively, switch to the Homer Simpson to back take variation by circling behind the opponent as their weight commits to the post.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent whizzers the far leg and backsteps to extract from deep half",
+        "effectiveness": "Medium",
+        "your_response": "Follow the retreating leg and transition to X-Guard or Single Leg X-Guard by hooking with your feet. If the whizzer is deep, switch to electric chair threat by controlling the whizzered leg with a lockdown and extending.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sits back and drops weight low to prevent the come-up from gaining momentum",
+        "effectiveness": "Medium",
+        "your_response": "Their backward weight shift opens the waiter sweep perfectly. Immediately redirect to a waiter sweep by elevating your hips and pushing their far leg over your body. The Homer Simpson threat forces the backward reaction that makes the waiter sweep high-percentage.",
         "targets_outcome": "Deep Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing the deep underhook during the come-up phase to reach for grips or post",
+        "consequence": "Loss of primary control mechanism allows opponent to sprawl, circle, or backstep free. The sweep immediately fails and the bottom player often ends up flattened in half guard or worse.",
+        "correction": "The deep underhook must be maintained from start to finish. Train the come-up with one arm glued to the far leg. Only release the underhook after mount is fully established with hip pressure."
+      },
+      {
+        "error": "Attempting to lift the opponent upward instead of driving forward through them",
+        "consequence": "Lifting motion exhausts the bottom player's energy rapidly and creates space for the opponent to base, sprawl, or disengage. The sweep stalls at the midpoint.",
+        "correction": "Direct the force vector forward and slightly upward, not straight up. Think of driving your head through where the opponent's hip is, not trying to stand up underneath them. The sweep works through horizontal displacement, not vertical lift."
+      },
+      {
+        "error": "Not blocking the opponent's near-side base before initiating the sweep",
+        "consequence": "Opponent simply posts their near hand or steps out with their near leg, creating a stable tripod that absorbs all the forward driving force without being swept.",
+        "correction": "Before initiating the come-up, use your hip or knee to block their near-side posting options. Your body position should occupy the space where their near hand would post."
+      },
+      {
+        "error": "Stopping the driving motion at the midpoint when encountering resistance",
+        "consequence": "Pausing at the midpoint leaves the bottom player in an unstable position where they are neither in deep half nor in mount. The opponent can easily drive them back down or take their back.",
+        "correction": "Commit fully to the sweep once initiated. If the drive is blocked, immediately chain to the Homer Simpson back take variation rather than trying to return to deep half. The midpoint is a dead zone - never stay there."
+      },
+      {
+        "error": "Poor head position during the drive, allowing the head to drop below the opponent's hip line",
+        "consequence": "Without the head driving into the opponent's far hip, there is no structural support for the forward drive. The opponent can crossface freely and flatten the bottom player.",
+        "correction": "Keep your head up and driving into the opponent's far hip throughout the come-up. Your head acts as both a structural post and a directional guide for the sweep. Think of driving the crown of your head toward the ceiling as you rise."
+      },
+      {
+        "error": "Initiating the sweep when opponent's weight is sprawled back rather than forward",
+        "consequence": "The sweep requires the opponent's weight to be centered or forward for the driving force to topple them. Against a sprawled opponent, the forward drive has nothing to push against and the bottom player simply extends into empty space.",
+        "correction": "Use feints or grip changes to draw the opponent's weight forward before initiating. Threatening the waiter sweep often causes the opponent to shift forward, creating the ideal window for the Homer Simpson come-up."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Basic come-up motion and grip placement",
+        "description": "Practice the come-up motion with a compliant partner at zero resistance. Focus on maintaining the deep underhook, establishing the over-the-back grip, and drilling the forward drive to mount. Perform 20 repetitions per side, emphasizing smooth mechanics over speed. Partner stays static in deep half top."
+      },
+      {
+        "phase": "Phase 2: Timing and Setup",
+        "focus": "Reading weight distribution and creating sweep windows",
+        "description": "Partner applies moderate defensive pressure from deep half top. Practice timing the sweep initiation to moments when partner's weight shifts forward. Incorporate the near-side base block and develop sensitivity to the correct moment to explode forward. Chain with waiter sweep fakes to draw forward weight."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Linking Homer Simpson with complementary sweeps and transitions",
+        "description": "Practice flowing between the Homer Simpson Sweep, waiter sweep, and back take based on partner's defensive reactions. When partner sprawls, switch to waiter. When partner bases to the side, switch to back take. Develop automatic transitions from each defensive response."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Full resistance application from deep half guard",
+        "description": "Start in deep half guard bottom with full resistance. Apply the Homer Simpson Sweep and all chain options in live positional rounds. Three-minute rounds, reset to deep half after any sweep, pass, or submission. Focus on successful application rate and transition speed when primary sweep is blocked."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Applying within full sparring context",
+        "description": "Enter deep half guard during regular rolling and apply the Homer Simpson Sweep as part of your complete deep half game. Track success rate and identify patterns in opponent defense that create the highest-percentage sweep windows. Develop the ability to chain into Homer Simpson from other positions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "When is the optimal timing window to initiate the Homer Simpson Sweep?",
+        "answer": "The optimal timing window is when the opponent's weight shifts forward over your body, either naturally as they apply pressure or in reaction to a lateral sweep threat like the waiter sweep. The forward weight commitment means their center of gravity is already moving in the direction of the sweep, requiring less force to complete. Initiating when the opponent is sprawled back with hips low dramatically reduces success rate because there is no forward momentum to exploit."
+      },
+      {
+        "question": "What grip configuration must be established before initiating the come-up motion?",
+        "answer": "Two grips must be secured: the deep underhook on the far leg with your arm wrapped fully around the thigh pulling it tight to your chest, and the over-the-back grip with your free hand on the opponent's belt, waistband, far hip, or far lapel. Both grips together create a closed kinetic chain around the opponent's body that prevents them from disengaging. Attempting the come-up without the over-the-back grip leaves the opponent free to base and resist the forward drive."
+      },
+      {
+        "question": "What role does your head position play during the driving phase of the sweep?",
+        "answer": "Your head serves as both a structural post and directional guide during the driving phase. It drives into the opponent's far hip, creating the primary contact point that transmits your forward momentum into their body. The head must stay up and pressing into the opponent throughout the rise. If the head drops below the opponent's hip line, the structural support for the drive collapses, the opponent can apply crossface freely, and the sweep loses all mechanical advantage."
+      },
+      {
+        "question": "What happens if you release your deep underhook while coming up during the sweep?",
+        "answer": "Releasing the underhook mid-sweep is the single most catastrophic error because it removes all control of the opponent's far leg and base. Without the underhook, the opponent can immediately sprawl their hips back, step their far leg out for a wide base, or circle away entirely. The bottom player ends up in an exposed position halfway between deep half and mount with no control, making them vulnerable to crossface pressure, back takes, and guard passes."
+      },
+      {
+        "question": "How does the over-the-back grip differ between gi and no-gi applications?",
+        "answer": "In gi, the belt provides the most secure grip because it wraps around the opponent's waist and cannot be easily stripped during the dynamic sweep motion. The far lapel is an alternative that provides similar security. In no-gi, the grip shifts to cupping the far hip crease, reaching over to control the far lat or shoulder, or securing an overhook on the far side of the body. No-gi grips are less secure, requiring more explosive timing and commitment to compensate for the reduced grip friction."
+      },
+      {
+        "question": "In what direction should you drive your body during the sweep completion?",
+        "answer": "The driving force should be directed forward and slightly upward through the opponent's centerline, not straight upward. Think of driving your head and shoulder through the space the opponent's far hip occupies. The horizontal component is the primary sweeping force that topples the opponent backward, while the slight upward component is necessary to clear your own body from underneath. Driving straight up wastes energy on a lifting motion that does not create the off-balancing force needed to complete the sweep."
+      },
+      {
+        "question": "Your opponent sprawls and drives heavy crossface as you begin to rise - how do you adjust?",
+        "answer": "If caught in the early phase before significant commitment, abandon the forward drive and immediately redirect to the waiter sweep by elevating your hips laterally instead of forward. The opponent's sprawling weight actually loads perfectly for the waiter sweep direction. If already partially committed to the come-up, use the crossface pressure as a pivot point to spin underneath the opponent and pursue a rolling back take. Never fight directly against a strong sprawl and crossface by trying to power through forward."
+      },
+      {
+        "question": "If your opponent successfully bases and prevents the Homer Simpson Sweep, what are your follow-up options?",
+        "answer": "The primary chain options are the waiter sweep if the opponent posts their weight backward to resist the forward drive, the rolling back take if the opponent turns to face you during the defense, and the electric chair threat if you still have lockdown control of the near leg. You can also retreat to deep half guard to reset by pulling the opponent back down with your underhook. Never remain stuck at the midpoint of the sweep - immediately transition to an alternative attack or reset to deep half."
+      },
+      {
+        "question": "What distinguishes the Homer Simpson Sweep from the Waiter Sweep in terms of sweep direction and mechanics?",
+        "answer": "The Homer Simpson Sweep drives directly forward through the opponent's centerline using a come-up motion with head and shoulder contact, ending in mount. The waiter sweep redirects the opponent laterally by elevating the hips and pushing the far leg sideways over the bottom player's body. The Homer Simpson requires an over-the-back grip and forward hip drive, while the waiter sweep requires hip elevation and a push-pull mechanism. They complement each other because defending one exposes the practitioner to the other."
+      },
+      {
+        "question": "How do you prevent your opponent from taking your back during the come-up phase?",
+        "answer": "Back exposure during the come-up is prevented primarily by maintaining the tight underhook on the far leg and keeping your head and shoulder driving into the opponent's hip. These contact points keep your back facing the mat rather than exposing it to the opponent. Additionally, the over-the-back grip pulls the opponent forward into the sweep rather than allowing them to circle behind you. If you feel back exposure developing, increase the speed of your forward drive rather than slowing down, as the forward momentum naturally protects the back."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Homer Simpson Sweep."
+    "safety_considerations": "The Homer Simpson Sweep is a positional sweeping technique with relatively low injury risk compared to joint locks and chokes. The primary safety concern is neck strain during the come-up phase if the head is positioned incorrectly or if the opponent applies heavy crossface pressure while the bottom player is mid-rise. Practitioners should develop neck strength gradually and avoid forcing the sweep against a fully sprawled and crossfacing opponent. If you feel neck compression or strain during the come-up, abort the sweep and return to deep half rather than powering through. Partners should avoid spiking down with elbows onto the rising player's spine or neck area. During drilling, start with low resistance to establish proper head placement mechanics before increasing intensity."
   },
   "defender": {
     "name": "Homer Simpson Sweep Defender",
-    "description": "TODO: Write defender description for Homer Simpson Sweep.",
-    "overview": "TODO: Write defender overview for Homer Simpson Sweep.",
+    "description": "Defend the Homer Simpson Sweep from deep half guard top. Recognition cues, base defense, crossface pressure, and position recovery strategies.",
+    "overview": "Defending the Homer Simpson Sweep requires the top player to recognize the sweep attempt early and deploy specific counter-mechanics that neutralize the forward driving force. The defender is in deep half guard top, an inherently precarious position where the opponent has already established significant leverage through their deep underhook and positioning underneath the hips. The Homer Simpson Sweep specifically threatens a direct forward toppling motion that ends in mount, making it one of the most dangerous sweep options from deep half guard.\n\nSuccessful defense requires understanding that the sweep's power comes from the closed kinetic chain created by the underhook and over-the-back grip working together. Breaking either grip degrades the sweep significantly, but the primary defensive tool is sprawling pressure combined with crossface control to prevent the bottom player from completing the come-up motion. The defender must also recognize when the Homer Simpson is being used as a setup for lateral sweeps or back takes, adjusting their defensive posture accordingly.",
     "key_principles": [
-      "TODO"
+      "Recognize the over-the-back grip establishment as the primary early warning of the Homer Simpson Sweep - defend the grip before the sweep initiates",
+      "Maintain heavy sprawling pressure with hips low and forward to prevent the bottom player from generating upward momentum for the come-up",
+      "Crossface aggressively when the bottom player begins to rise, driving their head and upper body back to the mat and removing the structural support for their forward drive",
+      "Keep base wide with the free leg posted far to the side, preventing lateral redirection to waiter sweep when Homer Simpson is blocked",
+      "Strip the over-the-back grip as first priority - without this grip the closed chain is broken and the sweep loses most of its power",
+      "Avoid sitting back with weight on your heels, as this lifts pressure off the bottom player and gives them space to initiate the come-up freely"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player's free hand reaches over your back toward your belt, waistband, or far hip, establishing the over-the-back grip that signals Homer Simpson Sweep setup",
+      "Increased upward pressure from the bottom player's head and shoulder against your inner thigh or hip, indicating they are loading for the come-up motion",
+      "Bottom player plants their feet flat on the mat rather than keeping them wrapped around your legs, creating the platform needed to generate forward driving force",
+      "Subtle shift in the bottom player's body angle from inverted underneath you to more perpendicular, positioning their spine to drive forward rather than sweep laterally",
+      "Bottom player tightens their deep underhook significantly, pulling your far leg closer to their chest to maximize leverage for the forward drive"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Sprawl hips back and apply heavy crossface pressure to flatten the bottom player",
+        "when_to_use": "As soon as you feel the bottom player begin to rise or when you detect the over-the-back grip being established",
         "targets_outcome": "Deep Half Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bottom player is driven back to the mat with their come-up motion neutralized, returning to standard deep half guard where you can work extraction",
+        "risk": "Heavy forward commitment to the crossface can be redirected into a waiter sweep if the bottom player changes direction. Maintain base awareness while pressuring."
+      },
+      {
+        "action": "Strip the over-the-back grip with your free hand and re-establish posture",
+        "when_to_use": "Early in the sweep setup phase when the bottom player first reaches over your back for the belt or waistband grip",
+        "targets_outcome": "Deep Half Guard/Bottom",
+        "if_successful": "Breaking the over-the-back grip removes the closed chain necessary for the sweep, degrading it from a high-percentage technique to a low-percentage attempt that can be resisted with basic base alone",
+        "risk": "Reaching to strip the grip momentarily reduces your base control, creating a brief window where a fast bottom player could accelerate the sweep or transition to an alternative attack"
+      },
+      {
+        "action": "Post near hand and circle hips away while driving crossface to extract from deep half",
+        "when_to_use": "When the sweep has partially initiated and you need to prevent the forward topple while simultaneously improving your position",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You extract your far leg from the deep underhook and transition to standard half guard top, eliminating all deep half sweep threats and establishing a passing position",
+        "risk": "The circling motion can expose your back if executed without maintaining crossface pressure, and a skilled bottom player may transition to rolling back take during your hip movement"
+      },
+      {
+        "action": "Drive weight down through your shoulder into opponent's chest while backstep extracting trapped leg",
+        "when_to_use": "When you feel the sweep is about to succeed and need an emergency defense to prevent being swept to mount",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Your weight drives the bottom player flat while your backstep extracts your trapped leg, transitioning directly through to half guard top or potentially side control",
+        "risk": "The backstep leaves you momentarily in a vulnerable position. If the underhook is maintained during the backstep, the bottom player may follow your leg and re-enter deep half or transition to X-Guard"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Counter the sweep by sprawling, applying crossface, and using the opponent's upward momentum against them to extract your trapped leg from the deep underhook. Circle your hips away while driving your shoulder into their chest to transition from deep half guard top to standard half guard top, where you have significantly better passing options and no sweep threats from the deep half system."
+      },
+      {
+        "outcome": "Deep Half Guard/Bottom",
+        "how": "Prevent the sweep in its early phases by stripping the over-the-back grip and applying heavy crossface pressure to drive the bottom player back to the mat. Maintain sprawling hip pressure to deny the space needed for the come-up motion. While still in deep half guard top, this outcome buys time to work systematic leg extraction and passing sequences."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Ignoring the over-the-back grip establishment and allowing the bottom player to complete their setup unchallenged",
+        "consequence": "Once both the underhook and over-the-back grip are secured, the sweep becomes extremely difficult to defend because the closed kinetic chain prevents basing or disengaging. The sweep success rate increases dramatically when both grips are established.",
+        "correction": "Treat the over-the-back reach as an immediate threat requiring response. The moment you feel the bottom player's free hand reaching over your back, address it by stripping the grip, posting your hip to block the reach, or immediately applying heavy crossface to abort their setup."
+      },
+      {
+        "error": "Sitting back on heels and shifting weight away from the bottom player to avoid the sweep",
+        "consequence": "Sitting back removes all pressure from the bottom player, giving them free space to complete the come-up without resistance. Additionally, backward weight shift loads perfectly for the waiter sweep, making you vulnerable to the lateral redirect.",
+        "correction": "Drive weight forward and down through your crossface and shoulder rather than retreating. Sprawl your hips to lower your center of gravity. Forward defensive pressure makes the come-up exponentially harder for the bottom player."
+      },
+      {
+        "error": "Attempting to base with the near hand too close to the body rather than posting wide",
+        "consequence": "A narrow base is easily overcome by the forward driving force of the sweep. The bottom player can drive through a narrow posting hand without significant resistance.",
+        "correction": "Post your near hand wide and far from your body, creating a wide triangular base between your two feet and posting hand. The wider the base, the more forward driving force is needed to topple you."
+      },
+      {
+        "error": "Focusing only on defending the Homer Simpson and neglecting the chain attack threat",
+        "consequence": "Successfully blocking the forward sweep while leaving yourself open to the waiter sweep redirect or rolling back take transition that the bottom player chains into",
+        "correction": "Defend with awareness of the full deep half attacking system. When you sprawl to block Homer Simpson, maintain wide base to defend waiter sweep simultaneously. When crossfacing, keep your back away from the bottom player to prevent back take transitions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that a Homer Simpson Sweep is being initiated rather than a waiter sweep?",
+        "answer": "The Homer Simpson Sweep is signaled by the bottom player reaching their free hand over your back to establish a belt or waistband grip, combined with their feet planting flat on the mat for forward driving power. The waiter sweep setup involves the bottom player's hips elevating laterally with their free hand gripping your far knee or pants rather than reaching over your back. The over-the-back grip and flat foot plant are the definitive indicators of Homer Simpson intent."
+      },
+      {
+        "question": "What base adjustment provides the strongest defense against the Homer Simpson come-up?",
+        "answer": "A wide base with hips sprawled low and forward, combined with heavy crossface pressure driving the bottom player's upper body to the mat. The free leg should post far to the side creating a wide triangular base. Weight should be distributed forward through the shoulder and crossface rather than sitting back on the heels. This combination removes the space needed for the come-up while providing structural resistance to the forward driving force."
+      },
+      {
+        "question": "How do you capitalize on a failed Homer Simpson Sweep attempt to improve your position?",
+        "answer": "When the bottom player commits to the Homer Simpson come-up and you successfully block it with sprawling crossface pressure, immediately work to extract your trapped leg while they are recovering from the failed attempt. Their failed drive forward momentarily disrupts their deep underhook tightness and body positioning. Use this recovery window to circle your hips, strip the underhook, and transition to half guard top or begin a backstep pass."
+      },
+      {
+        "question": "What distinguishes the defensive approach to Homer Simpson from defending the waiter sweep?",
+        "answer": "Homer Simpson defense requires forward sprawling pressure with heavy crossface to prevent the upward come-up motion, driving the bottom player back to the mat. Waiter sweep defense requires backward weight shift with low hips to prevent lateral hip elevation. These are opposite weight distribution responses, which is precisely why the two sweeps create a dilemma. The key is recognizing which sweep is being initiated through grip placement and foot positioning before committing to the appropriate defensive weight shift."
+      },
+      {
+        "question": "Your opponent begins the Homer Simpson come-up but you feel their underhook loosening - how do you exploit this?",
+        "answer": "A loosening underhook during the come-up is a critical defensive opportunity. Immediately drive your crossface pressure harder to flatten them while simultaneously circling your far knee upward and back to extract the trapped leg from the weakened underhook. The extraction should be a smooth circular motion - knee up, back, then down and out - rather than a straight pull. Complete the extraction to transition to half guard top or side control before the bottom player can re-secure the underhook."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying Homer Simpson Sweep setup cues",
+        "description": "Partner performs slow-motion Homer Simpson Sweep setups while you practice identifying the over-the-back grip reach, foot plant, and body angle changes that signal the sweep. Call out each cue as you feel it. No defensive response yet - purely developing the ability to recognize the sweep in its early phases."
+      },
+      {
+        "phase": "Phase 2: Counter-Timing",
+        "focus": "Applying defensive responses at the correct moment",
+        "description": "Partner performs Homer Simpson Sweep at moderate speed while you practice the defensive sequence: strip the over-the-back grip, apply crossface, sprawl hips. Focus on timing each defensive action to the correct phase of the sweep. Start with cooperative timing and progress to moderate resistance."
+      },
+      {
+        "phase": "Phase 3: Dilemma Defense",
+        "focus": "Defending Homer Simpson within the full deep half sweep system",
+        "description": "Partner chains between Homer Simpson Sweep, waiter sweep, and back take from deep half. Practice adjusting your defensive weight distribution in real time based on which sweep is being attempted. Develop the ability to defend the forward threat without opening yourself to the lateral sweep and vice versa."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense from deep half guard top",
+        "description": "Positional sparring starting in deep half guard top. Partner works the complete deep half offensive system including Homer Simpson Sweep. Focus on both defending sweeps and using defensive windows to extract your leg and pass. Three-minute rounds with full resistance, tracking sweep defense success rate."
       }
     ]
   }

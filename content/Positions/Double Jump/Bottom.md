@@ -21,37 +21,37 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 48% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,27 +211,29 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (39% of attempts)
+### [[Deep Half Entry]] (48% of attempts)
 
-### [[Old School Sweep]] (13% of attempts)
+### [[Old School Sweep]] (12% of attempts)
 
-### [[Waiter Sweep]] (9% of attempts)
+### [[Waiter Sweep]] (8% of attempts)
 
-### [[100% Sweep]] (8% of attempts)
+### [[100% Sweep]] (7% of attempts)
 
-### [[Half Guard to Back Take]] (8% of attempts)
+### [[Half Guard to Back Take]] (7% of attempts)
 
-### [[Electric Chair Transition]] (5% of attempts)
+### [[Electric Chair Transition]] (4% of attempts)
 
-### [[Lockdown Recovery]] (8% of attempts)
+### [[Lockdown Recovery]] (7% of attempts)
 
-### [[X-Guard Sweep]] (3% of attempts)
+### [[X-Guard Sweep]] (2% of attempts)
 
-### [[Single Leg X Entry]] (5% of attempts)
+### [[Single Leg X Entry]] (4% of attempts)
 
-### [[Escape Double Jump]] (1% of attempts)
+### [[Escape Double Jump]] (0% of attempts)
 
-### [[Reguard from Double Jump]] (1% of attempts)
+### [[Reguard from Double Jump]] (0% of attempts)
+
+### [[Sweep from Double Jump]] (1% of attempts)
 
 
 

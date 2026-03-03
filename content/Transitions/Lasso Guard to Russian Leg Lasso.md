@@ -203,7 +203,7 @@ The transition to Russian Leg Lasso occupies a critical escalation point within 
 
 - [[De La Riva Guard]] - Alternative guard system - if the Russian Leg Lasso transition fails, De La Riva provides a fallback option when the opponent creates distance
 
-- [[Transition to Inverted Lasso Guard]] - Sister transition - shares the same starting position and presents an alternative escalation path from standard lasso guard
+- [[Lasso Guard to Inverted Lasso Guard]] - Sister transition - shares the same starting position and presents an alternative escalation path from standard lasso guard
 
 
 </section>

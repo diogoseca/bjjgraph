@@ -95,31 +95,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Old School Sweep]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (7% of attempts)
+- **[[Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (9% of attempts)
+- **[[Deep Half Entry]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (6% of attempts)
+- **[[Half Guard to Back Take]]** (5% of attempts)
 
-- **[[Single Leg X Entry]]** (7% of attempts)
+- **[[Single Leg X Entry]]** (6% of attempts)
 
-- **[[Lumberjack Sweep]]** (6% of attempts)
+- **[[Lumberjack Sweep]]** (5% of attempts)
 
-- **[[Kimura]]** (5% of attempts)
+- **[[Kimura]]** (4% of attempts)
 
-- **[[Transition to Z-Guard]]** (3% of attempts)
+- **[[Knee Shield Retention]]** (51% of attempts)
 
-- **[[Knee Shield Retention]]** (40% of attempts)
-
-- **[[Elevator Sweep]]** (5% of attempts)
+- **[[Elevator Sweep]]** (4% of attempts)
 
 - **[[Knee Shield Half Guard to Z-Guard]]** (1% of attempts)
 
 - **[[Knee Shield to Closed Guard]]** (0% of attempts)
 
-- **[[Underhook from Knee Shield]]** (1% of attempts)
+- **[[Underhook from Knee Shield]]** (0% of attempts)
+
+- **[[Sweep from Knee Shield]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,27 +180,27 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (29% of attempts)
+- **[[Knee Slice from Half]]** (37% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (15% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Long Step Pass]]** (7% of attempts)
 
-- **[[Underhook Pass]]** (7% of attempts)
+- **[[Underhook Pass]]** (6% of attempts)
 
-- **[[Crossface Pass]]** (9% of attempts)
+- **[[Crossface Pass]]** (12% of attempts)
 
-- **[[Leg Weave Pass]]** (6% of attempts)
+- **[[Leg Weave Pass]]** (5% of attempts)
 
-- **[[Back Step Pass]]** (8% of attempts)
+- **[[Back Step Pass]]** (7% of attempts)
 
-- **[[Transition to Flattened Half Guard]]** (10% of attempts)
+- **[[Body Lock Pass]]** (7% of attempts)
 
-- **[[Body Lock Pass]]** (6% of attempts)
+- **[[Knee Slice from Knee Shield]]** (2% of attempts)
 
-- **[[Knee Slice from Knee Shield]]** (3% of attempts)
+- **[[Smash from Knee Shield]]** (1% of attempts)
 
-- **[[Smash from Knee Shield]]** (2% of attempts)
+- **[[Smash Pass from Knee Shield]]** (1% of attempts)
 
 
 ### Common Mistakes

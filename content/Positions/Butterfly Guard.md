@@ -56,7 +56,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Butterfly Guard]] | Medium | Medium | Medium | Medium | Explosive elevation over defensive stability |
 | [[Butterfly Hook Control]] | Medium | Medium to High | Medium | Medium | Active elevation hooks create instability |
-| [[Half Butterfly]] | Medium | Medium | Medium | Medium | Butterfly hook adds elevation to half guard |
+| [[Half Butterfly]] | Medium | Medium | Medium | Medium | Hook trades leg retention for sweep elevation |
 
 
 
@@ -90,7 +90,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (41% of attempts)
+- **[[Butterfly Sweep]]** (42% of attempts)
 
 - **[[Elevator Sweep]]** (7% of attempts)
 
@@ -104,7 +104,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Single Leg X Entry]]** (6% of attempts)
 
-- **[[Transition to Butterfly Hook Control]]** (1% of attempts)
+- **[[Butterfly Guard to Butterfly Hook Control]]** (2% of attempts)
 
 - **[[Deep Half Entry]]** (4% of attempts)
 
@@ -114,11 +114,9 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Snap Down to Front Headlock]]** (1% of attempts)
 
-- **[[Omoplata]]** (2% of attempts)
+- **[[Omoplata]]** (1% of attempts)
 
 - **[[Hook Sweep]]** (2% of attempts)
-
-- **[[Butterfly Guard to Butterfly Hook Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -183,29 +181,27 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Knee Slice Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** (3% of attempts)
+- **[[Double Under Pass]]** (2% of attempts)
 
-- **[[Butterfly Pass]]** (11% of attempts)
+- **[[Butterfly Pass]]** (10% of attempts)
 
-- **[[Long Step Pass]]** (3% of attempts)
+- **[[Long Step Pass]]** (2% of attempts)
 
-- **[[Over-Under Pass]]** (3% of attempts)
+- **[[Over-Under Pass]]** (2% of attempts)
 
-- **[[Toreando Pass]]** (2% of attempts)
+- **[[Toreando Pass]]** (1% of attempts)
 
-- **[[Butterfly Smash]]** (36% of attempts)
+- **[[Butterfly Smash]]** (47% of attempts)
 
-- **[[Body Lock Pass]]** (10% of attempts)
+- **[[Body Lock Pass]]** (9% of attempts)
 
-- **[[Transition to Butterfly Half Guard]]** (1% of attempts)
+- **[[Leg Drag Pass]]** (7% of attempts)
 
-- **[[Leg Drag Pass]]** (8% of attempts)
+- **[[Standing up in Base]]** (3% of attempts)
 
-- **[[Standing up in Base]]** (4% of attempts)
-
-- **[[X Pass]]** (6% of attempts)
+- **[[X Pass]]** (5% of attempts)
 
 - **[[Butterfly Guard to Butterfly Half Guard]]** (0% of attempts)
 

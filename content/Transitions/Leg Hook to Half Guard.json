@@ -1,10 +1,15 @@
 {
   "name": "Leg Hook to Half Guard",
-  "description": "TODO: Write 150-160 character SEO description for Leg Hook to Half Guard.",
+  "description": "Master the Leg Hook to Half Guard consolidation in BJJ. Learn weight transfer, upper body control, and systematic techniques to stabilize passing position.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "half-guard",
+    "leg-hook",
+    "passing",
+    "consolidation",
+    "top-position",
+    "positional-control"
   ],
   "from_position": "Leg Hook/Top",
   "outcomes": [
@@ -25,114 +30,370 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Leg Hook to Half Guard.",
+  "overview": "The Leg Hook to Half Guard transition represents a tactical consolidation within the half guard passing system. When the top player's leg hook position becomes contested or unstable, deliberately resetting to standard half guard top preserves positional advantage while creating a more stable platform for renewed passing attempts. This transition is particularly important because the leg hook is inherently a transient control point—remaining there too long without advancing invites counter-attacks, sweeps, and guard recoveries from the bottom player.\n\nStrategically, this consolidation prioritizes positional security over immediate advancement. The top player recognizes that forcing a pass from a deteriorating leg hook position risks being swept or reversed, and instead chooses to establish the proven half guard top control hierarchy: crossface, underhook or whizzer, and forward hip pressure. From half guard top, the full arsenal of passing techniques becomes available again, including knee slice, smash pass, and backstep variations.\n\nThe transition requires precise timing and weight management. The critical moment occurs during the leg repositioning phase, where the top player must shift from hook-based control to standard half guard entanglement without creating space for the bottom player to recover guard or initiate sweeps. Maintaining continuous upper body pressure throughout this transition is non-negotiable—any gap in chest-to-chest contact gives the bottom player the frame space needed to disrupt the consolidation.",
   "conditions": [
-    "TODO"
+    "Leg Hook Top position established but passing progression has stalled or become contested",
+    "Bottom player actively fighting the hook creating instability that threatens sweep or guard recovery",
+    "Upper body control sufficient to maintain pressure during leg repositioning phase",
+    "Risk assessment favors consolidation over continued passing attempts from deteriorating position",
+    "Bottom player's defensive frames are manageable but their leg activity is disrupting the hook"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Pressure Consolidation",
+      "description": "Heavy chest-to-chest smashing pressure maintained throughout the transition, using bodyweight to pin the bottom player flat while repositioning the legs. Effective against active bottom players who rely on hip movement.",
+      "when_to_use": "When bottom player is attempting to create space or angle for sweep entries and you need maximum control during the transition"
+    },
+    {
+      "variant_name": "Knee Slide Consolidation",
+      "description": "Combines the consolidation with knee slice mechanics, sliding the knee across during the leg repositioning to simultaneously consolidate and begin a passing sequence. More aggressive but carries higher counter risk.",
+      "when_to_use": "When bottom player's defensive structure is compromised and you can chain the consolidation directly into a pass attempt"
+    },
+    {
+      "variant_name": "Whizzer-Assisted Reset",
+      "description": "Uses a deep whizzer on the bottom player's underhook arm to control their upper body while repositioning the legs. Particularly effective when the bottom player has won the underhook battle during the leg hook exchange.",
+      "when_to_use": "When bottom player has established an underhook that prevents standard crossface control during the transition"
     }
   ],
-  "position_integration": "TODO: Write position integration for Leg Hook to Half Guard.",
+  "position_integration": "The Leg Hook to Half Guard transition occupies an essential role in the half guard passing ecosystem as a tactical reset mechanism. It connects the transitional leg hook control point back to the foundational half guard top position, ensuring that top players maintain positional hierarchy even when initial passing attempts stall. This transition creates a cyclical passing flow: Half Guard Top to Leg Hook to either pass completion or Half Guard Top reset, preventing the bottom player from capitalizing on stalled passing attempts. Understanding this consolidation pathway allows practitioners to maintain offensive initiative throughout extended half guard exchanges rather than deteriorating into defensive scrambles.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Leg Hook",
+      "relationship": "Source position from which this consolidation transition initiates"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position providing stable base for renewed passing sequences"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Bottom player's primary counter-transition target during the consolidation phase"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive structure bottom player may establish if consolidation creates space"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Ultimate passing target accessible from the consolidated half guard top position"
+    },
+    {
+      "name": "Counter Leg Hook",
+      "relationship": "Bottom player's technique for disrupting leg hook control that may trigger this consolidation"
+    },
+    {
+      "name": "Escape Leg Hook",
+      "relationship": "Bottom player's escape pathway that creates urgency for consolidation decision"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Alternative consolidation target offering different passing angles"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Bottom player's defensive entanglement that may develop during failed consolidation"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position arising when consolidation is contested with underhook battle"
     }
   ],
   "attacker": {
     "name": "Leg Hook to Half Guard Attacker",
-    "description": "TODO: Write attacker description for Leg Hook to Half Guard.",
-    "overview": "TODO: Write attacker overview for Leg Hook to Half Guard.",
+    "description": "Learn to execute the Leg Hook to Half Guard consolidation from top position. Master weight transfer, upper body control maintenance, and systematic leg repositioning for stable passing progression.",
+    "overview": "As the top player executing this consolidation, your objective is to transition from the transient leg hook control to the more stable half guard top position without sacrificing positional advantage. The leg hook is a powerful passing tool but becomes a liability when contested—the bottom player's active resistance can transform your control point into a sweep vulnerability. By deliberately consolidating to half guard top, you preserve your dominant position while resetting the passing sequence from a proven platform. The critical challenge is maintaining continuous pressure and control during the leg repositioning phase, as any gap creates opportunities for the bottom player to disrupt, reverse, or recover guard.",
     "key_principles": [
-      "TODO"
+      "Maintain continuous upper body pressure throughout the entire transition to prevent bottom player from creating frames or space",
+      "Secure crossface or head control before initiating any leg repositioning to anchor your upper body dominance",
+      "Transfer weight gradually from the hooked leg to standard half guard distribution rather than making sudden shifts that create openings",
+      "Monitor bottom player's underhook attempts and address them immediately during the vulnerable transition phase",
+      "Time the consolidation when bottom player is momentarily reactive rather than during their active offensive sequences",
+      "Keep hips low and driving forward throughout to prevent bottom player from inserting knee shield or creating distance"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established Leg Hook Top position with at least partial upper body control through crossface, underhook, or head position",
+      "Assessment that current leg hook position is becoming contested or that passing progression has stalled",
+      "Bottom player's defensive frames are manageable—if they have strong frames and distance, address those before consolidating",
+      "Sufficient base and balance to execute leg repositioning without being swept during the weight transfer phase",
+      "Bottom player's far leg activity is controlled enough that they cannot insert butterfly hooks or knee shield during transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure upper body control",
+        "description": "Before any leg movement, establish dominant crossface control by driving your shoulder into the bottom player's jaw and chin line. Your near-side arm secures the crossface while your far-side arm controls their hip or underhook arm. This upper body anchor must be locked in before proceeding, as it prevents the bottom player from capitalizing on the transitional instability."
+      },
+      {
+        "step_number": 2,
+        "action": "Flatten opponent with chest pressure",
+        "description": "Drive your chest and shoulder weight forward and down into the bottom player's upper body, working to flatten them from their side position onto their back. A flattened opponent has significantly reduced sweep and guard recovery capability. Use your head position and shoulder pressure to control their head movement and prevent them from turning into you."
+      },
+      {
+        "step_number": 3,
+        "action": "Control far hip",
+        "description": "Place your free hand on the bottom player's far hip to prevent hip escape movement during the leg transition. This grip serves as a secondary anchor that prevents the bottom player from creating the angular movement needed for deep half entries, underhook sweeps, or guard recovery sequences. Maintain this control throughout the leg repositioning phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin hook extraction",
+        "description": "Gradually disengage the hooked leg from its entangled position while maintaining maximum upper body pressure. The extraction should feel like sliding the leg out rather than jerking it free. Keep your hip heavy on the bottom player's torso throughout this phase to compensate for the momentary reduction in lower body control as the hook disengages."
+      },
+      {
+        "step_number": 5,
+        "action": "Reposition to standard half guard entanglement",
+        "description": "Guide your previously hooked leg into standard half guard top positioning—one leg trapped between the bottom player's legs at knee level, with your free leg posted wide for base. The trapped leg should be positioned so the bottom player's legs are controlling your knee or lower thigh, not your ankle, to prevent easy extraction by either party."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish half guard base",
+        "description": "Post your free leg wide with foot flat on the mat to create a stable base. Your weight distribution should flow through your hips and chest into the bottom player. Avoid posting on your hands—keep your weight on the bottom player with arms dedicated to control rather than support. The tripod of trapped leg, posted foot, and chest pressure creates maximum stability."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate control and assess passing options",
+        "description": "Confirm all control points are established: crossface driving their head away, hip control preventing escape, weight distributed through chest and hips, base solid with posted foot. From this consolidated half guard top, assess the bottom player's defensive structure and select the appropriate passing sequence—knee slice against a flat opponent, smash pass against knee shield, or backstep against deep half attempts."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Bottom player fights aggressively for underhook during leg repositioning",
+        "effectiveness": "High",
+        "your_response": "Immediately apply heavy shoulder pressure through the crossface and use a whizzer to neutralize the underhook. If they win the underhook, switch to overhook control and drive your weight across to prevent them from establishing the offensive angle.",
         "targets_outcome": "Leg Hook/Top"
+      },
+      {
+        "counter": "Bottom player attempts deep half guard entry during weight transfer",
+        "effectiveness": "High",
+        "your_response": "Drive hips forward and sprawl weight down to prevent them from getting underneath you. Use far hip control grip to stall their hip rotation. If they begin the entry, backstep immediately to prevent full deep half establishment and re-address from a standing position.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player inserts knee shield during the consolidation gap",
+        "effectiveness": "Medium",
+        "your_response": "Keep hips driving forward throughout the transition to prevent space for knee insertion. If the shield gets established, treat it as a half guard top variation and apply appropriate passing strategy—smash pass or over-under technique to collapse the shield before continuing.",
+        "targets_outcome": "Leg Hook/Top"
+      },
+      {
+        "counter": "Bottom player uses the transition momentum to attempt an old school sweep",
+        "effectiveness": "Medium",
+        "your_response": "Maintain heavy chest pressure and widen your posted foot for base. The sweep relies on catching you light during the transition—keeping your weight low and distributed prevents the necessary elevation. Drive your crossface deeper to flatten them and remove the sweeping angle.",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting upper body pressure during leg repositioning to focus on the hook extraction",
+        "consequence": "Bottom player creates frames, establishes underhook, or initiates sweep from the momentary space created by reduced pressure",
+        "correction": "Increase upper body pressure before and during leg movement. The crossface and chest pressure should intensify during extraction to compensate for reduced lower body control."
+      },
+      {
+        "error": "Rushing the transition with sudden jerky movements rather than controlled gradual repositioning",
+        "consequence": "Creates momentum that the bottom player can redirect for sweeps, and opens gaps in control that allow guard recovery or deep half entries",
+        "correction": "Execute the consolidation as a slow, pressure-driven sequence. Each phase should flow into the next with continuous contact maintained throughout."
+      },
+      {
+        "error": "Neglecting far hip control during the transition phase",
+        "consequence": "Bottom player hip escapes during the vulnerable period, recovering to knee shield or closed guard before half guard top can be established",
+        "correction": "Maintain far hip grip throughout the entire transition. This single control point prevents the majority of bottom player's escape options during the repositioning."
+      },
+      {
+        "error": "Attempting consolidation while bottom player has strong frames and distance established",
+        "consequence": "The consolidation fails because the bottom player uses existing frames to prevent half guard top establishment, potentially reversing the position",
+        "correction": "Address defensive frames before initiating the consolidation. Break grips, collapse frames, and re-establish chest pressure before attempting the leg repositioning."
+      },
+      {
+        "error": "Leaving the posted foot too narrow after consolidation, creating weak base",
+        "consequence": "Vulnerable to sweeps and off-balancing from the bottom player, particularly underhook-based techniques that exploit the narrow base",
+        "correction": "Post the free foot wide and flat on the mat, creating a wide base that resists sweeping forces from multiple directions. The posted foot is your primary stability point."
+      },
+      {
+        "error": "Telegraphing the consolidation by adjusting upper body control position before beginning leg movement",
+        "consequence": "Bottom player reads the transition intention and preemptively establishes defensive structures or initiates offensive attacks during the setup phase",
+        "correction": "The upper body control adjustments should flow naturally as part of continuous pressure maintenance, not as distinct preparatory movements that signal the consolidation."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Basic weight transfer and leg repositioning",
+        "description": "Practice the consolidation with a compliant partner, focusing on maintaining chest pressure throughout the leg extraction and repositioning sequence. Drill 20 repetitions per side with zero resistance to develop smooth movement patterns."
+      },
+      {
+        "phase": "Phase 2: Control Maintenance",
+        "focus": "Maintaining upper body dominance during transition",
+        "description": "Partner provides 50% resistance focusing on underhook attempts and frame creation during the consolidation. Attacker focuses on keeping crossface locked and pressure continuous. Drill until the transition can be completed without losing upper body control."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Responding to defensive reactions during consolidation",
+        "description": "Partner provides full resistance with specific counter-attacks: underhook fight, deep half entry, knee shield insertion, and sweep attempts. Attacker practices identifying and addressing each counter while completing or aborting the consolidation as appropriate."
+      },
+      {
+        "phase": "Phase 4: Decision Making",
+        "focus": "Recognizing when to consolidate versus continue passing",
+        "description": "Positional sparring starting from leg hook top. Attacker must read the situation and decide whether to attempt pass completion, consolidate to half guard top, or abandon the hook entirely. Develops the tactical judgment for when this transition is the correct choice."
+      },
+      {
+        "phase": "Phase 5: Live Integration",
+        "focus": "Applying consolidation in rolling context",
+        "description": "During regular sparring, consciously practice recognizing leg hook deterioration and executing the consolidation under full resistance. Track success rate and identify recurring problems that emerge under competition-speed conditions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical control point to establish before initiating any leg repositioning?",
+        "answer": "The crossface is the most critical control point. It must be firmly established before any leg movement begins because it anchors your upper body dominance and prevents the bottom player from turning into you, establishing an underhook, or creating the frames needed to disrupt the transition. Without crossface control, every subsequent step becomes significantly more difficult and risky."
+      },
+      {
+        "question": "Your opponent begins fighting hard for an underhook as you start extracting your hooked leg - how do you respond?",
+        "answer": "Immediately halt the leg extraction and address the underhook threat first. Apply heavy shoulder pressure through the crossface to drive their shoulder back to the mat. If needed, use a whizzer with your far arm to control their underhook attempt. Only resume the leg repositioning once the underhook is neutralized and upper body control is re-established. Continuing the leg transition while losing the underhook battle typically results in being swept."
+      },
+      {
+        "question": "Why should weight transfer during this transition be gradual rather than sudden?",
+        "answer": "Gradual weight transfer maintains continuous pressure on the bottom player throughout the transition, preventing the creation of space or momentum they could exploit for sweeps and guard recovery. Sudden movements create brief gaps in control where the bottom player can insert defensive structures, redirect momentum for sweeps, or initiate transitions to better positions. The slow, pressure-driven approach treats the consolidation as a continuous squeeze rather than a discrete movement."
+      },
+      {
+        "question": "What indicators tell you that consolidating to half guard top is the correct tactical decision?",
+        "answer": "Key indicators include: the leg hook becoming increasingly contested with diminishing control, the bottom player actively fighting the hook with increasing success, stalled passing progression with no clear path to completion, and the risk of being swept exceeding the probability of completing the pass. Additionally, if the bottom player begins threatening deep half entries or underhook sweeps that you cannot adequately address from the hook position, consolidation preserves your positional advantage."
+      },
+      {
+        "question": "What role does far hip control play during the transition phase?",
+        "answer": "Far hip control serves as a critical secondary anchor that prevents the bottom player's primary escape mechanism—hip escape—during the vulnerable leg repositioning phase. Without this control, the bottom player can shrimp away from you during the transition, recovering to knee shield half guard, closed guard, or creating enough distance to establish defensive frames. The far hip grip restricts their hip mobility and keeps them within your control sphere throughout the consolidation."
+      },
+      {
+        "question": "Your opponent inserts a knee shield just as you complete the leg repositioning - what do you do?",
+        "answer": "Accept the knee shield as part of the new positional reality and transition your approach to half guard top passing against knee shield. Apply appropriate techniques such as smash pass to collapse the shield, over-under pass to neutralize the frame, or long step pass to circumvent it. The consolidation still succeeded in establishing a more stable position than the deteriorating leg hook—you now have standard passing options available rather than the limited options from a contested hook."
+      },
+      {
+        "question": "How does chest pressure change during each phase of the consolidation?",
+        "answer": "Chest pressure should increase progressively throughout the consolidation: during the upper body control phase it establishes baseline pressure, during hook extraction it intensifies to compensate for reduced lower body control, and during the repositioning phase it maintains maximum to prevent any space creation. The pressure should never decrease at any point during the transition. Think of it as gradually turning up a dial rather than maintaining a static level—the most pressure occurs during the most vulnerable transition moment."
+      },
+      {
+        "question": "What is the optimal base position for the posted foot after completing the consolidation to half guard top?",
+        "answer": "The posted foot should be wide and flat on the mat, positioned roughly perpendicular to the bottom player's body to create maximum stability against sweeping forces from multiple directions. The foot should be far enough from your body to create a wide base but close enough that you can drive hip pressure forward into the bottom player. Avoid posting on toes, as this creates instability and reduces the surface area of your base. The posted foot, trapped leg, and chest pressure create a stable tripod."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Leg Hook to Half Guard."
+    "safety_considerations": "This transition is generally low-risk from a safety perspective as it involves positional consolidation rather than joint manipulation or choking mechanics. The primary safety concern is knee stress on both practitioners during the leg repositioning phase—avoid twisting or torquing the hooked leg during extraction. Communicate with training partners if knee discomfort occurs during the entanglement transition. During drilling, perform the transition at controlled speed to develop proper mechanics before increasing intensity."
   },
   "defender": {
     "name": "Leg Hook to Half Guard Defender",
-    "description": "TODO: Write defender description for Leg Hook to Half Guard.",
-    "overview": "TODO: Write defender overview for Leg Hook to Half Guard.",
+    "description": "Learn to defend and counter the Leg Hook to Half Guard consolidation from bottom. Master recognition cues, timing disruptions, and counter-attacks to prevent top player from establishing stable passing position.",
+    "overview": "As the bottom player, your opponent's attempt to consolidate from Leg Hook to Half Guard Top represents both a threat and an opportunity. The consolidation means they are acknowledging that their current passing attempt has stalled, which gives you a window to act. During the transition, the top player must momentarily reduce lower body control while repositioning their legs, creating brief but exploitable gaps in their control structure. Your defensive priority shifts from preventing the pass to either maintaining the more dynamic Leg Hook Bottom position—where you have better offensive options—or capitalizing on the transition to reverse the position entirely through sweeps or guard recovery. The key is recognizing the consolidation early through tactile and visual cues, then executing your response before the top player can establish stable half guard top control.",
     "key_principles": [
-      "TODO"
+      "Recognize the consolidation attempt early through changes in weight distribution and leg positioning before the top player completes the transition",
+      "Fight aggressively for the underhook during the transition window when the top player's control is momentarily weakened",
+      "Use the weight transfer phase as a sweep opportunity—the top player's base is weakest when shifting between control structures",
+      "Establish defensive frames immediately if the consolidation succeeds to prevent being flattened in half guard bottom",
+      "Time counter-attacks to coincide with the leg repositioning phase when the top player has the least stability",
+      "Maintain active hip movement throughout to prevent being pinned flat, preserving escape and sweep pathways"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player's hooked leg begins disengaging or changing pressure direction, shifting from active hook tension to extraction movement",
+      "Chest and shoulder pressure intensifies suddenly as the top player compensates for reduced lower body control during the transition",
+      "Top player's free hand moves to control your far hip, signaling imminent leg repositioning and consolidation intent",
+      "Weight distribution shifts from the hooked leg toward upper body and posted foot, creating brief lightness in the lower body control",
+      "Top player adjusts crossface depth or head position as preparation for the new half guard top configuration"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Fight for underhook during transition window",
+        "when_to_use": "As soon as you feel the hooked leg begin to disengage or the top player's weight shift upward, immediately attack the underhook on the trapped leg side",
         "targets_outcome": "Leg Hook/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Establish the underhook and use it to create sweeping angle or initiate back take sequence before half guard top is consolidated",
+        "risk": "If the underhook attempt fails, the top player may use the overcommitment to accelerate their consolidation and establish deeper crossface control"
+      },
+      {
+        "action": "Insert knee shield during the leg repositioning gap",
+        "when_to_use": "During the brief moment when the hooked leg is transitioning and the top player's lower body control is minimal, insert your inside knee across their body as a frame",
+        "targets_outcome": "Leg Hook/Top",
+        "if_successful": "Establish Knee Shield Half Guard which provides strong distance management and prevents the flat half guard top the opponent was seeking",
+        "risk": "If knee shield is too late, the top player may smash it flat and use the extended leg as leverage for a pressure pass"
+      },
+      {
+        "action": "Attempt deep half guard entry during weight transfer",
+        "when_to_use": "When the top player's weight shifts to upper body during hook extraction, use the momentary lightness in the lower body to duck underneath them and enter deep half",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Establish Deep Half Guard position with superior sweeping mechanics and off-balance the top player by getting underneath their center of gravity",
+        "risk": "If the entry is too slow, the top player can sprawl and drive you flat, achieving an even more dominant half guard top position"
+      },
+      {
+        "action": "Execute hip escape to recover guard during transition",
+        "when_to_use": "When far hip control is momentarily lost during the leg repositioning phase, explosively hip escape to create distance and recover to a stronger guard position",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Recover to closed guard or open guard with established distance and frames, completely resetting the passing sequence",
+        "risk": "A failed hip escape attempt may leave you flattened and out of position, accelerating the opponent's consolidation to dominant half guard top"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Capitalize on the transition window to execute a sweep by timing your underhook or hip escape to coincide with the top player's leg repositioning phase. The brief instability in their base during the weight transfer creates a sweep opportunity that does not exist in either the stable leg hook or stable half guard top positions."
+      },
+      {
+        "outcome": "Leg Hook/Top",
+        "how": "Disrupt the consolidation by maintaining active hook retention, aggressive frame fighting, and underhook battles that prevent the top player from completing the leg repositioning. Force them to remain in the Leg Hook position where your offensive options are better than in standard half guard bottom."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining passive during the transition instead of actively disrupting the consolidation",
+        "consequence": "Top player completes the consolidation to stable half guard top without resistance, establishing dominant control that is harder to escape than the original leg hook position",
+        "correction": "Treat the transition window as your primary opportunity to act. The moment you feel the weight shift or hook disengagement, immediately execute your chosen counter-technique."
+      },
+      {
+        "error": "Attempting to maintain the leg hook entanglement rather than transitioning to a better defensive position",
+        "consequence": "Wasted energy fighting for a position that the top player has already decided to abandon, without establishing the frames or controls needed for the next phase",
+        "correction": "If the top player is committed to abandoning the hook, redirect your energy to establishing underhook, knee shield, or deep half entry rather than trying to maintain the original entanglement."
+      },
+      {
+        "error": "Allowing yourself to be flattened to your back during the consolidation",
+        "consequence": "Eliminates all offensive options from the resulting half guard bottom position, leaving you in the worst possible defensive configuration with no sweep or escape capability",
+        "correction": "Maintain side positioning throughout the transition by actively hip escaping, using your bottom elbow as a post, and fighting the crossface. Being on your side preserves all offensive pathways."
+      },
+      {
+        "error": "Timing counter-attacks too late after the consolidation is already complete",
+        "consequence": "The top player has already established stable half guard top with crossface, base, and pressure, making your counter-techniques significantly less effective than during the transition window",
+        "correction": "Act during the transition itself, not after it completes. The window of opportunity is brief—recognition cues must trigger immediate action rather than delayed assessment."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary tactical opportunity that the opponent's consolidation attempt creates for you?",
+        "answer": "The consolidation requires the top player to momentarily reduce lower body control while repositioning their legs, creating a brief window where their base and control structure are weakened. This transitional instability can be exploited for underhook establishment, knee shield insertion, deep half entries, or sweep attempts that would not succeed against either a stable leg hook or stable half guard top position. Recognizing and acting during this window is the defender's primary opportunity."
+      },
+      {
+        "question": "You feel your opponent's hooked leg begin to disengage - what is your immediate priority?",
+        "answer": "Your immediate priority is to fight for the underhook on the trapped leg side before the top player can establish crossface control in the new half guard top position. The underhook is the single most important control for offensive half guard bottom play—it enables sweeps, back takes, and positional improvements. Establishing it during the transition window, when the top player's attention is split between upper and lower body control, is significantly easier than fighting for it against established half guard top pressure."
+      },
+      {
+        "question": "Why is it sometimes better to allow the consolidation and focus on establishing good half guard bottom rather than disrupting it?",
+        "answer": "If the transition window has already passed or the top player's upper body control is too strong to disrupt, attempting forced counter-attacks wastes energy and may result in worse positioning. In such cases, focusing on establishing strong half guard bottom fundamentals—maintaining side angle, fighting for underhook, establishing knee shield, keeping frames active—creates a sustainable defensive position from which you can launch offensive sequences. A well-organized half guard bottom is better than a failed counter-attack that leaves you flattened."
+      },
+      {
+        "question": "How do you prevent being flattened during the consolidation phase?",
+        "answer": "Use your bottom elbow as a posting point to maintain side angle, actively fight the crossface with your near-side hand by framing at the opponent's neck or shoulder, and keep your hips mobile through continuous micro-adjustments. If the opponent drives heavy pressure, use a butterfly hook with your free leg to create elevation and prevent chest-to-chest connection. The goal is to never allow both shoulders to touch the mat simultaneously during the transition."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying consolidation attempts through tactile cues",
+        "description": "Partner performs the consolidation at 50% speed while you focus on identifying the weight shift, hook disengagement, and upper body control changes that signal the transition. Call out each recognition cue as you feel it. Build pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Individual Counters",
+        "focus": "Drilling each defensive option in isolation",
+        "description": "Practice each counter-technique separately: underhook fight, knee shield insertion, deep half entry, and hip escape to guard recovery. Partner performs the consolidation while you execute the assigned counter. Build proficiency in each option before combining them."
+      },
+      {
+        "phase": "Phase 3: Reactive Defense",
+        "focus": "Selecting appropriate counter based on transition dynamics",
+        "description": "Partner varies the consolidation approach (pressure-heavy, quick, whizzer-assisted) while you select and execute the appropriate counter-technique in real time. Develops decision-making under pressure and the ability to read which counter has the highest probability of success."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Applying defensive options during positional sparring",
+        "description": "Positional sparring starting from Leg Hook Bottom. Both players operate at full intensity with the top player choosing when and how to consolidate. Bottom player practices recognizing and countering in a fully resistant environment. Track success rates for each counter option."
       }
     ]
   }

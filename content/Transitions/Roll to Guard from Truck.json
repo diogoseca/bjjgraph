@@ -1,13 +1,409 @@
 {
   "name": "Roll to Guard from Truck",
-  "description": "",
-  "tags": [],
+  "description": "Master the Roll to Guard escape from Truck position in BJJ. Complete guide covering timing, rolling mechanics, leg extraction, and guard recovery.",
+  "tags": [
+    "bjj",
+    "truck escape",
+    "guard recovery",
+    "roll escape",
+    "defensive transition",
+    "leg entanglement escape",
+    "10th planet",
+    "no-gi"
+  ],
   "from_position": "Truck/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
-      "probability": 100,
+      "to": "Half Guard/Bottom",
+      "probability": 35,
       "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 10,
+      "result": "success"
+    },
+    {
+      "to": "Truck/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The Roll to Guard from Truck is a forward rolling escape used when caught in the truck position bottom, where the opponent controls from a perpendicular angle with legs entangled in a figure-four configuration. The technique exploits moments when the truck top player commits their weight forward for upper body attacks such as the twister or bow and arrow choke, creating a brief window where the bottom player can initiate a forward rolling motion to disentangle the trapped leg and recover a guard position, most commonly half guard.\n\nThe escape works on the principle of redirecting rotational energy. Rather than fighting the opponent's torque directly, the bottom player channels the spinal rotation into a controlled forward roll that uses the opponent's committed pressure as momentum. The trapped leg extracts during the rotation as the figure-four configuration loosens when the angle of entanglement changes. Timing is critical: initiating too early allows the opponent to follow the roll and establish back control, while waiting too long means the submission attempt may already be locked in and the escape window closes.\n\nThis technique is considered a secondary escape option from the truck, with granby rolls and hip escapes being more frequently attempted. However, the Roll to Guard offers a direct path to an established guard position rather than the intermediate turtle or scramble, making it particularly valuable for practitioners with strong guard retention and offensive guard games. The technique requires comfort with inverted movement patterns and the ability to maintain defensive awareness during the rolling transition.",
+  "conditions": [
+    "Opponent has established truck position with boot pressure on hip",
+    "One leg is trapped in opponent's figure-four leg configuration",
+    "Opponent's weight is committed forward for an upper body attack or control adjustment",
+    "Sufficient space exists in front of your head to complete the rolling motion",
+    "At least one hand is available to post and guide the roll direction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Forward Roll to Half Guard",
+      "description": "The standard version where you roll forward over your near shoulder, extracting the trapped leg during rotation and immediately locking your free leg around the opponent's thigh to establish half guard. Most reliable variant because half guard provides immediate leg entanglement that prevents the opponent from passing.",
+      "when_to_use": "When opponent commits weight forward for twister setup and you have space to roll toward your head"
+    },
+    {
+      "variant_name": "Shoulder Roll to Open Guard",
+      "description": "A wider rolling arc that creates more separation from the opponent, ending in open guard with feet on hips or butterfly hooks rather than locking half guard. Requires more momentum but creates greater distance, making it harder for the opponent to immediately re-engage.",
+      "when_to_use": "When you have significant momentum and want maximum separation from the truck entanglement"
+    },
+    {
+      "variant_name": "Roll to Deep Half Entry",
+      "description": "Instead of completing the roll to guard, you dive underneath the opponent during the forward rotation, threading your body beneath their hips to establish deep half guard. This variant converts the escape into an immediate offensive position.",
+      "when_to_use": "When opponent's base is high and you can thread underneath during the roll rather than completing full rotation"
+    }
+  ],
+  "position_integration": "The Roll to Guard from Truck connects the truck escape system to the broader guard recovery framework. It provides a direct path from one of BJJ's most dangerous bottom positions into established guard positions where the escaping player can begin offensive sequences. This transition is part of the 10th Planet escape chain from truck bottom, alongside granby rolls, hip escapes, and leg extraction methods. The technique feeds into the half guard and open guard offensive systems, allowing practitioners to immediately transition from survival mode into their preferred guard game rather than accepting an intermediate scramble or turtle position.",
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Source position - the dangerous leg entanglement being escaped"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success destination - most common guard recovery position"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Secondary success destination - recovered with greater separation"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome - opponent follows roll and establishes back control"
+    },
+    {
+      "name": "Escape from Truck",
+      "relationship": "Related escape technique from the same starting position"
+    },
+    {
+      "name": "Hip Escape from Truck",
+      "relationship": "Alternative escape using shrimping motion instead of rolling"
+    },
+    {
+      "name": "Leg Extraction from Truck",
+      "relationship": "Complementary technique focusing on freeing the trapped leg"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative roll destination threading underneath opponent"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Intermediate position often reached during incomplete escape attempts"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related back attack position in the truck system"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Primary submission threat motivating the escape attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Roll to Guard from Truck Attacker",
+    "description": "Complete guide to executing the Roll to Guard escape from Truck bottom. Master the timing, rolling mechanics, leg extraction, and guard recovery to escape this dangerous position.",
+    "overview": "As the attacker executing the Roll to Guard, you are the bottom player in the truck position working to escape a highly dangerous leg entanglement. Your primary objective is to use a controlled forward rolling motion to extract your trapped leg from the opponent's figure-four configuration and recover an established guard position. Success requires reading your opponent's weight distribution, timing the roll to their forward commitment, and maintaining defensive awareness throughout the transition. The technique converts defensive survival energy into offensive guard recovery by channeling the opponent's rotational pressure into escape momentum.",
+    "key_principles": [
+      "Time the roll to the opponent's forward weight shift during attack setups rather than fighting against their base",
+      "Maintain neck protection throughout the entire rolling motion to prevent choke exposure during transition",
+      "Use the rolling momentum to extract the trapped leg rather than trying to muscle it free statically",
+      "Keep elbows tight to your body during the roll to prevent arm exposure and potential armbar or kimura catches",
+      "Commit fully to the roll once initiated - hesitation allows the opponent to adjust and follow your movement",
+      "Immediately establish guard grips upon completing the roll to prevent the opponent from passing or re-engaging truck"
+    ],
+    "setup_requirements": [
+      "Opponent's weight must be committed forward, typically during twister setup, bow and arrow attempt, or upper body control adjustment",
+      "Boot pressure on hip must be partially addressed or reduced through hand fighting to allow rotation",
+      "At least one hand must be free from neck defense to post and guide the rolling direction",
+      "Sufficient space must exist in front of your head to complete the forward rolling arc without obstruction",
+      "Hip mobility sufficient to initiate the forward rotation despite the leg entanglement restricting movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive position and assess timing",
+        "description": "From truck bottom, tuck your chin and protect your neck with your near hand while using your far hand to fight the boot pressure on your hip. Assess your opponent's weight distribution and identify when they shift forward to set up upper body attacks. This defensive frame is your launch position for the escape."
+      },
+      {
+        "step_number": 2,
+        "action": "Address boot pressure on hip",
+        "description": "Use your near-side hand to grip and push the opponent's boot (foot on your hip) away or downward, reducing the torque that locks the truck position. Even partial reduction of boot pressure creates enough slack in the leg entanglement to allow rotation. Do not abandon neck protection entirely while fighting the boot."
+      },
+      {
+        "step_number": 3,
+        "action": "Post hand and initiate forward roll",
+        "description": "When you feel the opponent commit their weight forward for an attack, post your far hand on the mat in front of your face and begin tucking your chin toward your chest. Drive your near shoulder forward and downward, initiating a controlled forward roll over that shoulder. The roll should be diagonal, not straight over your head."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive hips through the rotation",
+        "description": "As your shoulder contacts the mat, actively drive your hips over your head using your free leg and core muscles. The hip drive generates the momentum needed to carry you through the roll and simultaneously changes the angle of the leg entanglement, loosening the figure-four configuration on your trapped leg."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped leg during rotation",
+        "description": "As the rolling momentum changes the entanglement angle, actively pull your trapped leg free by bending your knee sharply and rotating your ankle. The figure-four loosens naturally during the roll because the perpendicular angle that locks it in place shifts. Time the extraction to the midpoint of the roll when the entanglement is loosest."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete roll and establish guard frame",
+        "description": "Finish the rolling motion facing your opponent. As you come through the roll, immediately get your hips underneath you and your feet between you and the opponent. Frame with both hands on their biceps or collar to create distance and prevent them from immediately closing the gap or diving for a pass."
+      },
+      {
+        "step_number": 7,
+        "action": "Lock guard position and secure grips",
+        "description": "Close your guard by locking your legs around the opponent's waist for closed guard, hooking one leg for half guard, or establishing butterfly hooks for open guard. Immediately secure controlling grips on collar and sleeve (gi) or behind the head and on the wrist (no-gi). Your first grip should prioritize preventing the opponent from posturing up and initiating a pass."
+      },
+      {
+        "step_number": 8,
+        "action": "Begin offensive guard sequence",
+        "description": "Once guard is established with controlling grips, immediately transition from defensive escape mentality to offensive guard play. Break the opponent's posture if in closed guard, or establish distance control if in open guard. The faster you launch your first sweep or submission threat, the less time the opponent has to stabilize and begin their passing game."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent follows the roll and maintains back attachment, transitioning to standard back control with hooks",
+        "effectiveness": "High",
+        "targets_outcome": "Back Control/Bottom",
+        "your_response": "If you feel the opponent following your roll, abort the guard recovery and immediately address the back control by fighting hooks and establishing hand defense on your neck. Alternatively, accelerate the roll to create enough separation that they cannot insert hooks before you face them."
+      },
+      {
+        "counter": "Opponent increases boot pressure and sprawls their weight back to prevent rotation from initiating",
+        "effectiveness": "High",
+        "targets_outcome": "Truck/Bottom",
+        "your_response": "Switch to an alternative escape such as hip escape or granby roll. If the opponent sprawls back heavily, their upper body control loosens, which may open a window for the granby roll in the opposite direction or a leg extraction escape."
+      },
+      {
+        "counter": "Opponent secures far arm control or deep collar grip preventing the posting hand needed to initiate the roll",
+        "effectiveness": "Medium",
+        "targets_outcome": "Truck/Bottom",
+        "your_response": "Fight the grip first by stripping their control on your far arm before attempting the roll. Use elbow pumping motion to break wrist grips. If they maintain the grip, redirect to hip escape or leg extraction instead of forcing the roll without a posting hand."
+      },
+      {
+        "counter": "Opponent releases upper body control and re-engages legs to reset the truck entanglement during your roll attempt",
+        "effectiveness": "Medium",
+        "targets_outcome": "Truck/Bottom",
+        "your_response": "If opponent releases upper body to re-engage legs, use that moment of reduced upper body control to accelerate through the roll before they can reset the figure-four. Their leg re-engagement takes longer than completing a committed roll."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the roll without first reducing boot pressure on the hip",
+        "consequence": "The boot pressure locks the figure-four entanglement in place, making leg extraction during the roll impossible. The roll stalls midway, leaving you in a worse position with back exposed and no guard recovery.",
+        "correction": "Always fight the boot pressure before rolling. Even partial reduction of boot pressure creates enough slack for the leg to extract during rotation. Use your near hand to push the boot down or away before committing to the roll."
+      },
+      {
+        "error": "Exposing the neck during the rolling motion by lifting the chin or extending the head",
+        "consequence": "Creates an opening for rear naked choke, guillotine, or bow and arrow during the most vulnerable phase of the escape when your back is turning toward the opponent.",
+        "correction": "Keep chin tucked firmly to chest throughout the entire roll. Your forehead should lead the rolling direction, not your chin. Practice the tuck position independently until it becomes automatic."
+      },
+      {
+        "error": "Rolling with insufficient commitment and momentum, performing a half-hearted roll attempt",
+        "consequence": "Incomplete rolls leave you in a scramble position with your back still partially exposed and no guard established. The opponent can easily follow a slow roll and establish back control with hooks.",
+        "correction": "Commit fully once you initiate. Drive your hips explosively over your head and use your free leg to generate maximum rotational momentum. A fast, committed roll is much harder for the opponent to follow than a tentative one."
+      },
+      {
+        "error": "Failing to establish guard grips immediately after completing the roll",
+        "consequence": "The opponent passes your legs before you can establish guard position, landing in side control or north-south. The escape succeeds in extracting from truck but fails to reach a safe guard position.",
+        "correction": "The moment your roll completes, your hands must immediately seek grips. Prioritize framing on biceps to prevent the pass, then lock your guard. Drill the transition from roll completion to guard establishment as one continuous motion."
+      },
+      {
+        "error": "Attempting the roll when the opponent has full upper body control with both arms secured",
+        "consequence": "Cannot post the hand needed to guide the roll direction. The roll either fails to initiate or goes in an uncontrolled direction, often resulting in the opponent transitioning to a mounted crucifix or tighter back control.",
+        "correction": "Ensure at least one arm is free before attempting the roll. If both arms are controlled, prioritize arm recovery through elbow pumping and grip fighting before attempting any rolling escape."
+      },
+      {
+        "error": "Rolling straight over the top of the head instead of diagonally over the near shoulder",
+        "consequence": "Straight rolls compress the cervical spine dangerously and provide less rotational leverage for leg extraction. The roll path also makes it easier for the opponent to follow directly behind you.",
+        "correction": "Always roll diagonally over your near shoulder. This protects the neck, creates a wider arc that loosens the figure-four more effectively, and angles your recovery away from the opponent's follow path."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Rolling Mechanics",
+        "focus": "Forward roll form and neck safety",
+        "description": "Practice forward rolls over both shoulders without a partner, focusing on chin tuck, diagonal roll path, and smooth hip drive. Build comfort with the inverted position and develop the muscle memory for the rolling motion that protects the cervical spine. Perform 20 rolls per side per session."
+      },
+      {
+        "phase": "Phase 2: Partner Drill with Light Resistance",
+        "focus": "Roll timing and leg extraction",
+        "description": "Partner establishes truck position with light control (25-30% resistance). Practice the complete escape sequence: fight boot, read weight, initiate roll, extract leg, catch guard. Partner provides just enough resistance to require proper technique without blocking the escape entirely. Focus on the timing of leg extraction during roll midpoint."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Training",
+        "focus": "Escape under increasing pressure",
+        "description": "Partner increases resistance incrementally from 50% to 75%. Practice reading the opponent's weight shifts and timing the roll to their forward commitments. Add the guard grip establishment as part of the sequence. Identify personal failure points and drill corrections for each."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring Integration",
+        "focus": "Live application with full resistance",
+        "description": "Start from truck bottom against full resistance. Work the complete escape chain including the roll to guard alongside other escape options like granby rolls and hip escapes. Develop the ability to read which escape is appropriate in the moment. Continue directly into guard offense after successful escapes."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Escape under fatigue and time pressure",
+        "description": "Practice the escape during the final minutes of extended rounds when fatigue affects decision-making. Simulate competition scenarios where you need to escape truck and immediately score or submit to win. Develop reliable execution under stress conditions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Roll to Guard from Truck?",
+        "answer": "The optimal timing window is when the opponent shifts their weight forward to set up an upper body attack such as the twister or bow and arrow choke. This forward commitment temporarily reduces their ability to sprawl back and follow your roll. Reading the weight shift through pressure sensitivity on your back and hips is the key timing cue."
+      },
+      {
+        "question": "Why must boot pressure be addressed before initiating the forward roll?",
+        "answer": "Boot pressure on the hip locks the figure-four leg entanglement in place by maintaining the perpendicular torque angle. Without reducing this pressure, the trapped leg cannot extract during the rolling motion because the entanglement angle stays locked. Even partial boot pressure reduction creates enough slack for the figure-four to loosen during the rotation."
+      },
+      {
+        "question": "What is the critical mechanical detail that enables leg extraction during the roll?",
+        "answer": "The forward rolling motion changes the angle of the figure-four entanglement from perpendicular to diagonal, which naturally loosens the configuration. The midpoint of the roll represents maximum angle change and therefore maximum slack in the entanglement. Timing the knee bend and ankle rotation to this midpoint allows extraction with minimal force."
+      },
+      {
+        "question": "Your opponent grips your far arm tightly as you attempt to post for the roll - how do you adjust?",
+        "answer": "If the far arm is controlled, you cannot safely post for the roll. Fight the grip first using an elbow pumping motion to strip their wrist control. If the grip is too strong to break, abandon the roll attempt and switch to a hip escape or leg extraction escape that does not require a posting hand. Forcing the roll without the posting arm risks neck injury."
+      },
+      {
+        "question": "What grip should you prioritize immediately after completing the roll?",
+        "answer": "Prioritize framing on the opponent's biceps with both hands to prevent them from immediately passing your legs. This frame creates space and buys time to lock your guard. Once the frame is established, transition to controlling grips: collar and sleeve in gi, or behind the head and wrist in no-gi. The bicep frame prevents the most common post-roll failure of getting passed before guard locks."
+      },
+      {
+        "question": "Why should the roll go diagonally over the shoulder rather than straight over the head?",
+        "answer": "Rolling diagonally over the near shoulder protects the cervical spine by avoiding vertical compression of the neck vertebrae. The diagonal path also creates a wider rotational arc that changes the leg entanglement angle more effectively, providing better leg extraction. Additionally, the diagonal roll angles your recovery away from the opponent's follow path, making it harder for them to maintain back attachment."
+      },
+      {
+        "question": "Your opponent follows your roll and starts inserting hooks for back control - what is your response?",
+        "answer": "If the opponent follows and begins inserting hooks, abandon guard recovery and immediately transition to back defense. Tuck your elbows, protect your neck with both hands, and fight the bottom hook first since it provides the foundation for their back control. Use your hips to shrimp away from their chest while hand fighting their choking arm. The roll has still improved your position from truck to back defense."
+      },
+      {
+        "question": "What conditions indicate you should choose a different escape instead of the Roll to Guard?",
+        "answer": "Choose a different escape when the opponent's weight is centered or back rather than committed forward, when both of your arms are controlled eliminating the posting hand, when there is insufficient space in front to complete the rolling arc, or when boot pressure is too strong to reduce. In these cases, granby roll, hip escape, or leg extraction offer better success probability because they do not require the same setup conditions."
+      }
+    ],
+    "safety_considerations": "The forward rolling motion involves cervical spine loading that requires proper technique to execute safely. Always roll diagonally over the shoulder rather than straight over the head to avoid neck compression injuries. Never force the roll if your neck feels jammed or your head is pinned to the mat. If the trapped leg does not extract during the roll, do not repeatedly crank or twist the knee joint - reset and attempt a different escape. Practice solo rolling drills extensively before attempting the technique with resistance. Tap immediately if a submission locks in during a failed escape attempt."
+  },
+  "defender": {
+    "name": "Roll to Guard from Truck Defender",
+    "description": "Defend against the Roll to Guard escape from Truck top position. Recognize escape attempts early, maintain boot pressure, and counter with back control transitions.",
+    "overview": "As the defender in the Roll to Guard from Truck, you are the top player maintaining the truck position and working to prevent the bottom player from escaping via a forward roll to guard recovery. Your primary objectives are maintaining boot pressure that locks the leg entanglement, recognizing the rolling escape attempt before it develops momentum, and either preventing the roll entirely or following it to transition into back control. Understanding the timing and mechanics of this escape allows you to shut it down at multiple stages or convert the escape attempt into an even more dominant position.",
+    "key_principles": [
+      "Maintain constant boot pressure on the hip as the primary mechanism preventing the roll from loosening the leg entanglement",
+      "Keep your weight centered rather than committed too far forward, which creates the timing window the bottom player needs",
+      "Monitor the bottom player's far hand for posting attempts that signal an incoming roll",
+      "Stay connected to the bottom player's upper body so you can follow any rolling motion they initiate",
+      "Use the bottom player's roll attempt as an opportunity to transition to traditional back control with hooks",
+      "Control at least one of the bottom player's arms to eliminate the posting hand required for a controlled roll"
+    ],
+    "recognition_cues": [
+      "Bottom player begins fighting your boot aggressively with their near hand, attempting to push your foot off their hip to reduce the torque that locks the entanglement",
+      "Bottom player posts their far hand on the mat in front of their face, establishing the base point needed to guide their forward roll direction",
+      "Bottom player tucks their chin sharply toward their chest and angles their near shoulder forward, the preparatory body position for initiating a diagonal forward roll",
+      "Bottom player's hips begin shifting forward and upward as they generate the momentum needed to drive over their shoulder into the roll",
+      "Bottom player stops defending the twister or upper body attacks and redirects all defensive effort toward the boot and leg entanglement, signaling they are preparing an escape rather than simply defending"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase boot pressure and sprawl hips back to flatten the bottom player",
+        "when_to_use": "At the earliest sign of roll attempt, before the bottom player generates momentum or posts their hand",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player is flattened with increased torque through the entanglement, unable to generate the forward momentum needed for the roll",
+        "risk": "If bottom player has already generated significant momentum, sprawling back may not stop the roll and you lose upper body connection"
+      },
+      {
+        "action": "Control the far arm to eliminate the posting hand needed for the roll",
+        "when_to_use": "Proactively when you sense the bottom player is preparing an escape, before they attempt to post",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Without the posting hand, the bottom player cannot perform a controlled forward roll and must abandon the escape attempt or risk an uncontrolled tumble",
+        "risk": "Reaching for the far arm may briefly reduce your upper body pressure, potentially opening other escape windows like the granby roll"
+      },
+      {
+        "action": "Follow the roll and transition to back control by inserting hooks during the rotation",
+        "when_to_use": "When the roll has already been initiated and stopping it is no longer possible",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You convert the escape attempt into traditional back control, which is often a stronger finishing position than the truck depending on your game",
+        "risk": "If you fail to insert hooks during the transition, the bottom player completes the roll to guard and you lose the dominant position entirely"
+      },
+      {
+        "action": "Release truck and immediately attack with a calf slicer as the bottom player initiates rotation",
+        "when_to_use": "When the roll is starting and the bottom player's leg position creates an opening for the calf slicer during rotation",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "The calf slicer threat forces the bottom player to abort the roll and defend the submission, returning to truck bottom defense",
+        "risk": "If the calf slicer does not lock before the roll completes, you may lose the truck position without finishing"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Truck/Bottom",
+        "how": "Recognize the escape attempt early by watching for boot fighting and far hand posting. Immediately increase boot pressure while sprawling your hips back to flatten the bottom player. Secure control of their far arm to eliminate the posting hand. The earlier you shut down the attempt, the more effectively you maintain the truck position."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "If the roll has already begun and cannot be stopped, stay connected to the bottom player's upper body and follow their rotation. As they roll through, use the momentum to insert your hooks and establish a seatbelt grip. Transition smoothly from truck to back control during their escape attempt, converting their escape into a position change that still favors you."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Committing weight too far forward during twister setups, creating the exact timing window the bottom player needs to initiate the roll",
+        "consequence": "Forward weight commitment provides the momentum and opportunity the bottom player reads to trigger their escape. Your own attacking pressure becomes the catalyst for their escape.",
+        "correction": "Maintain centered weight distribution even during upper body attack setups. Adjust your twister entries to work from a balanced position rather than driving forward. Use arm leverage rather than body weight to create submission pressure."
+      },
+      {
+        "error": "Ignoring the bottom player's boot fighting and far hand positioning as inconsequential defensive movements",
+        "consequence": "The bottom player successfully reduces boot pressure and posts their hand without resistance, setting up the roll with minimal opposition. By the time you recognize the escape, momentum is already generated.",
+        "correction": "Treat boot fighting as an immediate threat signal. When the bottom player addresses your boot, increase pressure and check their far arm. Proactive control of both the boot and the far arm eliminates the roll setup entirely."
+      },
+      {
+        "error": "Releasing upper body connection when the roll starts instead of following the motion to maintain control",
+        "consequence": "The bottom player completes the roll with full separation, establishing guard without any upper body connection from you. You lose the dominant position and face an established guard player.",
+        "correction": "When a roll starts that you cannot stop, immediately follow it by staying chest-to-back and preparing to insert hooks. Your seatbelt or upper body grip should stay connected through the entire rotation. Flow with the roll rather than fighting it or disengaging."
+      },
+      {
+        "error": "Attempting to hold the truck statically by squeezing harder rather than addressing the escape mechanics",
+        "consequence": "Static resistance burns energy rapidly and does not address the rotational mechanics of the escape. The bottom player can still generate enough momentum to roll through pure squeeze pressure.",
+        "correction": "Use active defensive techniques like sprawling, arm control, and weight repositioning rather than passive squeezing. Address the specific mechanics enabling the escape: boot on hip, posting hand, and forward momentum."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is preparing a Roll to Guard escape?",
+        "answer": "The earliest cue is aggressive boot fighting with the near hand. When the bottom player shifts from defending the neck and upper body to actively pushing your boot off their hip, they are prioritizing escape over submission defense. This boot fighting precedes the hand posting and chin tuck that immediately precede the roll, giving you the maximum response window."
+      },
+      {
+        "question": "Why does committing your weight forward during twister setups create vulnerability to the Roll to Guard?",
+        "answer": "Forward weight commitment is the primary timing window the bottom player reads to initiate the roll. When your weight shifts forward, you cannot sprawl back to prevent rotation, and your momentum actually assists their forward rolling motion. The bottom player uses your attacking pressure as the catalyst for their escape, converting your offensive energy into their escape momentum."
+      },
+      {
+        "question": "When is it better to follow the roll into back control rather than trying to prevent it?",
+        "answer": "Follow the roll when the bottom player has already generated significant forward momentum and your attempts to sprawl or block have failed. At this point, fighting the roll wastes energy and risks losing all control. Staying connected and flowing into back control converts the escape attempt into a position that still favors you, maintaining offensive pressure throughout the transition."
+      },
+      {
+        "question": "How does controlling the bottom player's far arm prevent the Roll to Guard escape?",
+        "answer": "The far arm is the posting hand that guides the roll direction and provides the base point for the forward rotation. Without this posting hand, the bottom player cannot perform a controlled diagonal roll over their shoulder. They are limited to uncontrolled tumbling that risks neck injury, which most practitioners will not attempt. Controlling this arm effectively eliminates the Roll to Guard as an option."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying pre-roll cues",
+        "description": "Partner announces when they will attempt the roll. From truck top, practice recognizing the boot fighting, hand posting, and chin tuck sequence. Develop the ability to identify the escape attempt at each stage. No resistance from top player initially - focus entirely on pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Prevention Techniques",
+        "focus": "Shutting down the roll at each stage",
+        "description": "Partner attempts the roll at 50% speed and intensity. Practice the three prevention responses: increasing boot pressure and sprawling, controlling the far arm, and following the roll to back control. Identify which prevention technique is appropriate at each stage of the escape attempt."
+      },
+      {
+        "phase": "Phase 3: Live Positional Sparring",
+        "focus": "Full-speed escape prevention and counter",
+        "description": "Full-speed positional sparring from truck position. Top player works to maintain truck and finish submissions while defending against all escape attempts including the Roll to Guard. Bottom player uses full resistance. Develop real-time decision making for prevention versus following the roll to back control."
+      }
+    ]
+  }
 }

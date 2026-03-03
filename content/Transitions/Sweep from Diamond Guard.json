@@ -1,42 +1,399 @@
 {
   "name": "Sweep from Diamond Guard",
   "description": "Master the Sweep from Diamond Guard in BJJ. Learn to leverage the diamond guard structure to off-balance opponents and achieve mount position.",
-  "tags": ["bjj", "transition", "sweep", "diamond-guard", "guard", "mount"],
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "diamond-guard",
+    "guard",
+    "mount",
+    "closed-guard",
+    "overhook"
+  ],
   "from_position": "Diamond Guard/Bottom",
   "outcomes": [
-    {"to": "Mount/Top", "probability": 45, "result": "success"},
-    {"to": "Diamond Guard/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Mount/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Diamond Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Diamond Guard exploits the structural advantages of the diamond frame — the overhook combined with head control — to create a high-percentage sweeping opportunity toward mount. Unlike standard closed guard sweeps that require isolating an opponent's posting arm, the diamond guard configuration already eliminates one posting option through the deep overhook, making the sweep mechanically simpler and more reliable against resisting opponents.\n\nThe sweep operates on a fundamental principle: when an opponent's posture is broken within the diamond frame, their weight is driven forward and their base is compromised on the overhook side. By angling the hips and executing an explosive sit-up motion toward that compromised side, the sweeper leverages the existing frame to redirect the opponent's forward momentum into a rotation that ends in mount. The opponent cannot post their trapped arm to prevent the sweep, and the head control prevents them from posturing away from the sweeping direction.\n\nThis technique occupies a critical role in the diamond guard offensive system. When opponents defend against triangle, omoplata, and kimura attacks by keeping their weight low and driving forward, the sweep becomes available as a natural consequence of their defensive posture. This creates a complete dilemma: posture forward to defend submissions and expose yourself to the sweep, or stay back and remain vulnerable to the submission chain. Advanced practitioners use this sweep as the positional pressure component that forces opponents into choosing which threat to address.",
+  "conditions": [
+    "Opponent's posture must be broken with head pulled below shoulder line within the diamond frame",
+    "Deep overhook established with elbow past opponent's tricep preventing arm posting on that side",
+    "Closed guard legs locked with active heel pressure maintaining proximity and preventing opponent from standing",
+    "Opponent's weight distributed forward due to diamond frame pull creating sweepable base alignment",
+    "Hips must be free to angle toward the overhook side without obstruction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Pendulum Kick Variation",
+      "description": "Uses a pendulum motion with the far leg swinging downward for additional momentum during the sit-up. The leg swing generates rotational force that supplements the hip drive, making the sweep effective even against heavier opponents who resist the standard sit-up motion.",
+      "when_to_use": "When the opponent has settled their weight low and the standard sit-up alone lacks sufficient force to complete the rotation"
+    },
+    {
+      "variant_name": "Hip Bump Sit-Up Variation",
+      "description": "Emphasizes an explosive upward hip thrust combined with the sit-up, driving the hips into the opponent's midsection before redirecting into the sweep rotation. This variant generates more vertical force before converting to horizontal rotation.",
+      "when_to_use": "When the opponent's weight is centered rather than forward, requiring additional upward displacement before the rotational sweep can complete"
+    },
+    {
+      "variant_name": "Flower Sweep Hybrid",
+      "description": "Incorporates a near-side leg hook behind the opponent's knee on the non-overhook side, pulling their leg out from under them during the sit-up. This addresses the opponent's remaining base point by attacking their leg structure simultaneously with the upper body sweep.",
+      "when_to_use": "When the opponent posts their free hand wide to prevent the standard sweep and maintains strong single-leg base on the non-overhook side"
+    }
+  ],
+  "position_integration": "The Sweep from Diamond Guard serves as the positional pressure component within the diamond guard submission chain. While triangle, omoplata, and kimura attacks threaten finishes, the sweep punishes the defensive posture opponents adopt to resist those submissions. This creates a complete offensive system where submission defense creates sweep opportunities and sweep defense creates submission openings. The sweep connects diamond guard to the mount position, where the top player gains access to an entirely new set of offensive chains including armbars, cross collar chokes, and ezekiel chokes from maximum positional dominance. Within the broader BJJ positional hierarchy, this transition represents one of the highest-value positional gains available from closed guard, jumping directly to a 4-point position.",
+  "related_content": [
+    {
+      "name": "Diamond Guard",
+      "relationship": "Source position providing the overhook and head control frame that enables this sweep"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary success destination where the sweeper establishes dominant top position"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Counter outcome destination if opponent passes guard during failed sweep attempt"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Parent position of diamond guard and fallback if diamond controls are stripped"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related guard sharing overhook control mechanics applicable to sweep setups"
+    },
+    {
+      "name": "Overhook Control Sweep",
+      "relationship": "Related sweep technique using overhook as primary control for off-balancing"
+    },
+    {
+      "name": "Overhook Guard Sweep",
+      "relationship": "Alternative sweep from overhook position with similar mechanical principles"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Chain attack option accessible when opponent posts free arm to defend the sweep"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related guard system using head control concepts that inform sweep timing"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Intermediate recovery point if sweep partially succeeds but mount is not fully established"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Diamond Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Diamond Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the Sweep from Diamond Guard in BJJ. Step-by-step guide to leveraging overhook and head control for explosive sit-up sweeps to mount.",
+    "overview": "Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up timing, and frame management into a single explosive motion. The sweep exploits the structural imbalance created by the diamond frame — one of the opponent's arms is trapped by the overhook, and their posture is broken by head control. Unlike standard hip bump sweeps where the opponent has two arms to post, the diamond configuration eliminates one posting option entirely, transforming this from a timing-dependent technique into a mechanically advantaged one. The key is recognizing when the opponent's weight shifts forward enough to become sweepable, then committing fully to the sit-up motion while maintaining frame control throughout the transition to mount.",
+    "key_principles": [
+      "Angle hips toward the overhook side before initiating the sweep to direct force toward the opponent's compromised base where they cannot post",
+      "Maintain the overhook throughout the entire sweep motion — releasing it to reach for the mat eliminates the posting restriction that makes the sweep work",
+      "Use the head control grip to redirect the opponent's forward momentum into rotational force during the sit-up phase",
+      "Commit fully to the sit-up motion with maximum explosiveness — half-committed attempts allow the opponent to re-base and settle back down",
+      "Drive through to mount immediately upon completing the sweep rotation — pausing in transition creates guard recovery opportunities for the opponent",
+      "Time the sweep when the opponent drives forward or attempts to strip diamond controls, converting their energy into sweep momentum"
+    ],
+    "setup_requirements": [
+      "Deep overhook established with elbow past opponent's tricep and pulled tight to your ribs preventing arm extraction",
+      "Head control grip behind opponent's neck with their posture broken and head below shoulder line",
+      "Closed guard locked with heels actively pulling into opponent's lower back maintaining proximity",
+      "Opponent's weight shifted forward from diamond frame pull creating a sweepable base alignment",
+      "Hips angled slightly toward overhook side with far hip elevated off the mat in preparation for the sit-up direction"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Verify Diamond Frame Integrity",
+        "description": "Confirm deep overhook with elbow past opponent's tricep and head control breaking their posture fully below shoulder line. Both controls must be active and secure before initiating the sweep attempt."
+      },
+      {
+        "step_number": 2,
+        "action": "Angle Hips Toward Overhook Side",
+        "description": "Shift your hips toward the side where your overhook controls the opponent's arm, rotating approximately 30-45 degrees. This positioning directs the sweeping force toward the opponent's compromised base where they cannot post."
+      },
+      {
+        "step_number": 3,
+        "action": "Plant Far Foot on Mat",
+        "description": "Place your far-side foot flat on the mat near your hip, creating a strong push-off platform for the sit-up motion. The foot position must be close enough to your body to generate maximum upward and forward drive."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute Explosive Sit-Up",
+        "description": "Drive your torso upward in an explosive sit-up motion, using the planted foot as your primary power source. Simultaneously pull forward with the overhook and head control to amplify the rotational force against the opponent's compromised base."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive Through the Rotation",
+        "description": "Continue driving forward past the vertical position, using the accumulated momentum to rotate the opponent onto their back. Maintain the overhook throughout to prevent any late posting attempt during the transitional phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Open Guard and Swing Leg Over",
+        "description": "As the opponent rotates to their back past the point of no return, unlock your guard and swing your far leg over their torso to establish mount. Settle hips immediately and establish base before they can bridge or recover guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Mount Position",
+        "description": "Release the diamond grips and transition to standard mount controls with hands posted on the mat or controlling the opponent's arms. Drive hips forward and settle weight to prevent any immediate bridge escape attempt."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts free hand wide on the mat to brace against the sweep rotation",
+        "effectiveness": "High",
+        "your_response": "Switch immediately to triangle entry by releasing head control and shooting legs up, or attack the posted arm with a kimura since it is now extended and isolated",
+        "targets_outcome": "Diamond Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight backward and sits on heels to deny forward momentum",
+        "effectiveness": "Medium",
+        "your_response": "Follow their backward motion with the pendulum kick variation for added momentum, or return to submission attacks since their extended posture opens triangle and omoplata entries",
+        "targets_outcome": "Diamond Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips the overhook by circling their trapped arm downward and pulling free",
+        "effectiveness": "High",
+        "your_response": "Abandon the sweep and immediately re-establish the diamond frame or transition to standard closed guard attacks before the opponent can fully posture and begin passing",
+        "targets_outcome": "Diamond Guard/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls legs back and drives aggressive crossface to flatten guard player during the sit-up",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward drive as momentum for the sweep by timing the sit-up to coincide with their pressure, or transition to submission entries that exploit their committed forward weight",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg",
+        "consequence": "Opponent immediately posts their freed arm, killing the sweep completely and potentially passing guard in the resulting scramble",
+        "correction": "Maintain the overhook throughout the entire sweep motion — your base and power come from the planted foot, not from posting your hand on the mat"
+      },
+      {
+        "error": "Attempting the sweep without properly angling hips toward the overhook side first",
+        "consequence": "Sweep force is directed centrally rather than toward the compromised base, allowing the opponent to resist with balanced posting on their free side",
+        "correction": "Angle hips 30-45 degrees toward the overhook side before initiating, ensuring force direction matches the opponent's structural weakness"
+      },
+      {
+        "error": "Half-committing to the sit-up with insufficient explosiveness or stopping partway through",
+        "consequence": "Opponent absorbs the partial movement and re-settles their weight, now alert to the sweep threat and better prepared to counter future attempts",
+        "correction": "Commit fully to the sit-up with maximum explosive power from the planted foot — treat it as a one-shot opportunity requiring total commitment"
+      },
+      {
+        "error": "Failing to immediately transition to mount after completing the sweep rotation",
+        "consequence": "Opponent recovers guard position during the transitional pause, negating the sweep entirely and returning to diamond guard or closed guard",
+        "correction": "Swing the far leg over immediately as the opponent rotates to their back, establishing mount before they can recompose their guard structure"
+      },
+      {
+        "error": "Initiating the sweep when the opponent's base is wide and settled rather than during a weight shift",
+        "consequence": "Opponent's stable base absorbs the sweep force easily, wasting energy and telegraphing the technique for their future defensive awareness",
+        "correction": "Time the sweep when the opponent shifts weight forward to strip grips, pushes into you, or adjusts position — attack during transitions, not stability"
+      },
+      {
+        "error": "Unlocking guard legs prematurely before generating sufficient sit-up momentum",
+        "consequence": "Without the closed guard anchor, the opponent can create distance and disengage before the sweep completes its rotation",
+        "correction": "Keep guard locked until the sit-up is well past vertical and the opponent is already rotating — only open to swing the leg for mount establishment"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Sit-up motion and hip angle fundamentals",
+        "description": "Practice the sit-up motion from diamond guard against a stationary partner. Focus on planting the far foot correctly, angling hips toward the overhook side, and driving through the vertical position. Complete 20 repetitions per side with no resistance, emphasizing form."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Recognizing sweep windows during resistance",
+        "description": "Partner provides forward pressure and grip fighting from top of diamond guard at 30% resistance. Practice identifying when their weight shifts forward and timing the sit-up to coincide with their forward momentum. Track successful timing versus premature attempts."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Submission-to-sweep chains under moderate resistance",
+        "description": "Combine sweep attempts with triangle and kimura threats from diamond guard at 60% resistance. Practice flowing between submissions and sweep when the opponent's defensive reactions create the sweep opportunity. Develop automatic transition recognition."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance implementation in rolling",
+        "description": "Incorporate the sweep into live rolling from diamond guard against fully resisting partners. Track success rate across multiple rounds and identify common defensive reactions that require adaptation or chain attack transitions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the sweep from diamond guard?",
+        "answer": "The optimal timing is when the opponent drives forward to resist the diamond frame pull or attempts to strip the overhook or head control. Their forward weight shift or grip fighting movement creates momentum you can redirect into the sweep rotation. Initiating during a static moment when the opponent has settled base dramatically reduces success probability because their weight is centered and both posting options remain available."
+      },
+      {
+        "question": "What conditions must exist before the sweep can be attempted from diamond guard?",
+        "answer": "The overhook must be deep with your elbow past the opponent's tricep, head control must have their posture broken below shoulder line, closed guard must be locked with active heel pressure, and the opponent's weight must be distributed forward due to the diamond frame pull. Missing any single condition significantly reduces sweep effectiveness because the technique depends on the integrated structural advantage of the complete diamond frame."
+      },
+      {
+        "question": "Why is hip angle toward the overhook side critical for the sweep's success?",
+        "answer": "The hip angle directs the sweeping force toward the opponent's structurally compromised side — the side where their arm is trapped by the overhook and cannot post. Sweeping centrally or toward the free-arm side allows the opponent to post with their free hand and resist the rotation. The overhook creates an asymmetric base weakness that must be targeted directionally for the sweep to overcome the opponent's remaining posting ability."
+      },
+      {
+        "question": "What is the most common mechanical failure when executing this sweep?",
+        "answer": "Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg. This immediately frees the opponent's trapped arm, allowing them to post and prevent the rotation. The overhook must be maintained throughout the entire sweep because the structural posting restriction is what makes the technique work. Base and power come from the planted far foot, not from posting the hand on the mat."
+      },
+      {
+        "question": "What grip adjustments are needed during the transition from sweep completion to mount establishment?",
+        "answer": "During the sweep, both hands maintain diamond frame controls — overhook and head control. As the opponent rotates past the point of no return, release the head control first to post your hand for base during the mount transition. The overhook can be maintained briefly to prevent the opponent from turning into you, then released once your hips are settled in mount and standard mount controls with hands posted or controlling arms are established."
+      },
+      {
+        "question": "In which direction should the primary force of the sweep be applied?",
+        "answer": "The force should drive diagonally forward and toward the overhook side at approximately 45 degrees. The sit-up provides upward and forward force while the hip angle directs it toward the side where the opponent's posting ability is eliminated. The overhook and head control add a pulling component that converts linear sit-up force into rotational momentum around the opponent's compromised base point."
+      },
+      {
+        "question": "Your opponent posts their free hand wide to stop the sweep rotation — how do you adjust?",
+        "answer": "Recognize that their posting arm is now extended and committed, meaning their only free limb is occupied with base rather than defense. Switch immediately to a triangle entry by releasing head control and shooting your legs up to the triangle position, or attack the posted arm with a kimura since it is isolated and extended. The posted arm creates its own vulnerability that can be exploited through chain attacks."
+      },
+      {
+        "question": "If the sweep is blocked and you cannot complete the rotation, what chain attacks are available?",
+        "answer": "Return to the diamond frame and attack the submission chain: triangle entry by releasing head control while maintaining overhook, omoplata rotation by switching to wrist control on the trapped arm, or kimura attack using the overhook as the initial control point. The failed sweep attempt often changes the opponent's weight distribution and defensive focus, creating new openings for submissions that were not previously available before the sweep attempt."
+      }
+    ],
+    "safety_considerations": "The sweep involves explosive rotational movement that can stress the opponent's shoulder in the overhook arm if the grip is excessively tight during rotation. Release overhook tension smoothly during the mount transition rather than maintaining maximum torque throughout the rotation. During training, allow the partner to rotate naturally with the sweep rather than holding the overhook rigidly and forcing the shoulder joint against its natural range of motion. Communicate with training partners about shoulder sensitivity before drilling this technique at speed."
   },
   "defender": {
     "name": "Sweep from Diamond Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Diamond Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Diamond Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to defend the Sweep from Diamond Guard in BJJ. Recognition cues, base maintenance, posting defense, and counter-passing strategies for top players.",
+    "overview": "Defending the Sweep from Diamond Guard requires recognizing the guard player's preparatory movements before the explosive sit-up phase begins. The defender's primary challenge is that the diamond frame has already eliminated one of their posting arms through the overhook, significantly reducing their ability to resist the sweep through standard posting mechanics. Effective defense focuses on disrupting the sweep prerequisites — maintaining posture, preventing the hip angle, and keeping base wide enough to absorb the rotational force. The defender must address the sweep threat without abandoning defensive posture against the diamond guard submission chain, creating a dual-threat management challenge that demands systematic prioritization and awareness of which threat is most immediate.",
+    "key_principles": [
+      "Maintain base width and keep hips low to resist the rotational force generated by the guard player's sit-up motion",
+      "Prevent the guard player from angling their hips by applying downward pressure on the overhook side and keeping weight centered",
+      "Address the sweep mechanics early — once the sit-up has momentum, defensive options decrease rapidly and dramatically",
+      "Keep center of gravity low and slightly posterior rather than driving forward to deny the guard player sweepable weight distribution",
+      "Strip or shallow the overhook whenever possible to restore posting ability on the trapped-arm side and eliminate the asymmetric base weakness",
+      "Recognize that sweep defense and submission defense require different weight distributions — manage both through systematic awareness of current threat priority"
+    ],
+    "recognition_cues": [
+      "Guard player plants their far foot flat on the mat near their hip, creating a visible push-off platform for the sit-up motion",
+      "Guard player's hips angle toward the overhook side with the far hip elevating off the mat to redirect sweep force",
+      "Guard player increases overhook tension and head control pull simultaneously, amplifying the forward pressure beyond normal diamond control",
+      "Guard player's closed guard pressure intensifies with heels driving harder into your lower back pulling you forward",
+      "Guard player's chest begins rising as they load weight onto the planted foot and initiate the sit-up motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive hips back and sit on heels to deny forward weight distribution while maintaining posture",
+        "when_to_use": "Early — when you feel the guard player angling hips or increasing pull tension before the explosive sit-up begins",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Guard player cannot generate sufficient momentum for the sit-up because your weight is centered back rather than forward over their frame",
+        "risk": "Extending posture backward may open space for submission entries as the diamond frame becomes less effective at breaking posture"
+      },
+      {
+        "action": "Post free hand wide on the mat on the sweep side to create a structural brace against rotation",
+        "when_to_use": "During the sit-up phase when you feel your weight being driven off-center toward the overhook side",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Posted hand prevents the rotation from completing, allowing you to drive weight back down into the guard player and re-settle",
+        "risk": "Posted arm becomes isolated and vulnerable to kimura or triangle entry if the guard player switches from sweep to submission attack"
+      },
+      {
+        "action": "Strip the overhook by circling your trapped arm downward and pulling it back across your body",
+        "when_to_use": "Before the sweep is initiated — proactively reducing the diamond frame's effectiveness and restoring base symmetry",
+        "targets_outcome": "Diamond Guard/Bottom",
+        "if_successful": "Restoring posting ability on both sides eliminates the asymmetric base weakness the sweep exploits entirely",
+        "risk": "Grip fighting to strip the overhook may momentarily compromise your base, creating the very weight shift the guard player needs for the sweep"
+      },
+      {
+        "action": "Drive crossface and sprawl legs back to flatten the guard player and kill the sit-up motion",
+        "when_to_use": "When you feel the guard player beginning to sit up — aggressive forward pressure counters the upward momentum directly",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Flattening the guard player prevents the sit-up and may create guard passing opportunities if their guard opens during the failed sweep",
+        "risk": "Aggressive forward drive can be redirected by the guard player to accelerate the sweep rotation if the timing is poorly matched"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Diamond Guard/Bottom",
+        "how": "Deny the sweep by sitting back on heels and maintaining low center of gravity while systematically working to strip the overhook and restore posting ability on both sides"
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Counter the sweep attempt by driving crossface and sprawling aggressively as the guard player opens their legs during the failed sweep, passing directly to side control during the transitional moment when guard structure is broken"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to resist the sweep by pulling straight backward without posting a hand for structural support",
+        "consequence": "Pulling back without posting creates an off-balance moment that the guard player can exploit for either the sweep or a submission entry as your base collapses",
+        "correction": "Post the free hand on the mat while simultaneously driving weight back — posting provides the structural support that backward weight shift requires for stability"
+      },
+      {
+        "error": "Ignoring early recognition cues and reacting only after the explosive sit-up phase has begun",
+        "consequence": "Once the sit-up has momentum, defensive options are severely limited and the sweep becomes very difficult to stop without conceding position or scrambling",
+        "correction": "Monitor for the primary sweep cues — foot plant, hip angle, and increased pull tension — and address the sweep proactively before the explosive phase begins"
+      },
+      {
+        "error": "Committing both arms to grip fighting the overhook while neglecting base maintenance",
+        "consequence": "Using both arms to fight grips removes all posting ability, making any weight shift from the guard player immediately sweepable with zero resistance",
+        "correction": "Keep one arm available for posting at all times — fight the overhook with one hand while maintaining base and structural posture with the other"
+      },
+      {
+        "error": "Tensing up and resisting the sweep with rigid posture instead of making dynamic base adjustments",
+        "consequence": "Rigid posture creates a single-axis resistance that the guard player can redirect with angle changes, and muscular tension depletes energy rapidly under sustained effort",
+        "correction": "Stay relaxed with dynamic base adjustments — move your base to match the guard player's angle changes rather than resisting through whole-body stiffness"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that a sweep from diamond guard is being initiated?",
+        "answer": "The three earliest cues are the guard player planting their far foot flat on the mat near their hip, their hips angling toward the overhook side with the far hip elevating, and an increase in both overhook tension and head control pull simultaneously. These preparatory adjustments occur before the explosive sit-up phase and represent the optimal defensive window for preventive action."
+      },
+      {
+        "question": "Why is posting the free hand a risky but sometimes necessary defensive option against this sweep?",
+        "answer": "Posting prevents the rotation from completing by creating a structural brace against the sweep direction. However, the posted arm becomes isolated and extended, creating vulnerability to kimura attacks or triangle entries if the guard player switches from sweep to submission. The defender must be prepared to retract the posted arm immediately if the guard player abandons the sweep and transitions to an arm attack targeting the posted limb."
+      },
+      {
+        "question": "How should you distribute your weight to prevent the sweep without opening submission opportunities?",
+        "answer": "Keep center of gravity low and slightly posterior, sitting on heels with hips back rather than driving forward into the diamond frame. This denies the forward weight distribution the sweep requires while maintaining sufficient base to prevent submission entries. Avoid fully extending backward as this opens space within the diamond frame and may create triangle or omoplata opportunities from the guard player."
+      },
+      {
+        "question": "What defensive priority hierarchy should you follow when the sweep is actively being initiated?",
+        "answer": "First, prevent the rotation by posting or driving weight back to deny sweep completion. Second, if the sweep partially succeeds and you are being elevated, fight for underhook position during the transition to prevent clean mount establishment. Third, if mount is established, immediately begin mount escape sequences rather than attempting to reverse the sweep momentum. Acting decisively at each cascading stage prevents compounding positional loss."
+      },
+      {
+        "question": "How can you counter a failed sweep attempt and convert the situation into a guard pass?",
+        "answer": "When the guard player opens their legs during a failed sweep attempt, immediately drive crossface pressure and sprawl your legs backward. Their momentarily open guard creates a passing window that aggressive forward pressure can exploit. Drive toward side control by clearing their legs and establishing chest-to-chest pressure before they can re-close their guard or re-establish the diamond frame controls."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setup cues before initiation",
+        "description": "Partner establishes diamond guard and cycles between submission threats and sweep setups at 30% speed. Practice identifying the three primary sweep cues — foot plant, hip angle, increased pull tension — and calling them out before the sit-up begins."
+      },
+      {
+        "phase": "Phase 2: Defensive Response",
+        "focus": "Posting and weight management mechanics",
+        "description": "Partner initiates sweep at 50% intensity. Practice the three primary defensive responses — sitting back on heels, posting free hand, driving crossface — and identify which response is appropriate based on the sweep's current phase and your base position."
+      },
+      {
+        "phase": "Phase 3: Counter Offense",
+        "focus": "Converting failed sweep defense into guard pass",
+        "description": "Partner alternates between sweep attempts and submissions at 70% resistance. Practice defending the sweep and immediately transitioning to guard pass when their guard opens during the failed sweep attempt. Focus on timing the pass during the transitional moment."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Full resistance defense in rolling scenarios",
+        "description": "Defend against sweep attempts from diamond guard during live rolling at full resistance. Track which defensive responses prove most effective and identify recurring patterns in partner setups that provide earlier recognition windows for preemptive defense."
+      }
+    ]
   }
 }

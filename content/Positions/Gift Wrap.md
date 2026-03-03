@@ -97,19 +97,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Gift Wrap Arm Recovery]]** (20% of attempts)
+- **[[Gift Wrap Arm Recovery]]** (28% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Roll to Turtle]]** (16% of attempts)
+- **[[Roll to Turtle]]** (15% of attempts)
 
-- **[[Technical Stand-up]]** (10% of attempts)
+- **[[Granby Roll to Guard]]** (4% of attempts)
 
-- **[[Counter Roll to Top]]** (9% of attempts)
+- **[[Shrimp Escape]]** (15% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (12% of attempts)
 
-- **[[Shrimp Escape]]** (16% of attempts)
+- **[[Back Door Escape]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -170,23 +170,23 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (12% of attempts)
+- **[[Rear Naked Choke]]** (36% of attempts)
 
-- **[[Armbar on Free Arm]]** (11% of attempts)
+- **[[Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (12% of attempts)
+- **[[Gift Wrap to Technical Mount]]** (14% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (11% of attempts)
+- **[[Short Choke Attack]]** (7% of attempts)
 
-- **[[Short Choke Attack]]** (10% of attempts)
+- **[[Bow and Arrow Choke Setup]]** (6% of attempts)
 
-- **[[Bow and Arrow Choke Setup]]** (9% of attempts)
+- **[[Body Triangle Lock]]** (7% of attempts)
 
-- **[[Body Triangle Lock]]** (13% of attempts)
+- **[[Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Kimura on Trapped Arm]]** (9% of attempts)
 
-- **[[Kimura on Trapped Arm]]** (10% of attempts)
+- **[[Gift Wrap Maintenance]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -21,37 +21,37 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 32% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame Creation",
-      "text": "From this position, attempt Frame Creation. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,17 +213,23 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Available Escapes
 
-### [[Upa Escape]] (15% of attempts)
+### [[Upa Escape]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (22% of attempts)
+### [[Elbow Escape to Guard]] (32% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Bridge and Roll]] (9% of attempts)
 
-### [[Shrimp Escape]] (15% of attempts)
+### [[Shrimp Escape]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (19% of attempts)
+### [[Hip Escape to Guard]] (15% of attempts)
 
-### [[Frame Creation]] (17% of attempts)
+### [[Frame and Shrimp to Guard]] (13% of attempts)
+
+### [[Bridge to Mount from High Mount]] (4% of attempts)
+
+### [[Frame Escape from High Mount]] (2% of attempts)
+
+### [[Trap and Roll from High Mount]] (1% of attempts)
 
 
 
@@ -250,7 +256,7 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 **If opponent maintains static control without immediate submission threat:**
 - Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 25%)
-- Execute **[[Frame Creation]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 30%)
 
 
 

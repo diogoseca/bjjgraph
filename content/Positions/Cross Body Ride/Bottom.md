@@ -21,37 +21,37 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 38% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Standing",
-      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,23 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ## Available Escapes
 
-### [[Rolling to Guard]] (16% of attempts)
+### [[Rolling to Guard]] (15% of attempts)
 
-### [[Turtle to Guard]] (32% of attempts)
+### [[Turtle to Guard]] (38% of attempts)
 
-### [[Turtle to Standing]] (16% of attempts)
+### [[Turtle to Standing]] (15% of attempts)
 
-### [[Sit Through to Guard]] (14% of attempts)
+### [[Sit Through to Guard]] (13% of attempts)
 
-### [[Peterson Roll]] (8% of attempts)
+### [[Peterson Roll]] (7% of attempts)
 
-### [[Hip Escape to Guard]] (8% of attempts)
+### [[Hip Escape to Guard]] (7% of attempts)
 
-### [[Hip Escape from Cross Body Ride]] (4% of attempts)
+### [[Hip Escape from Cross Body Ride]] (3% of attempts)
 
-### [[Roll Escape from Cross Body Ride]] (2% of attempts)
+### [[Roll Escape from Cross Body Ride]] (1% of attempts)
+
+### [[Escape from Cross Body Ride]] (1% of attempts)
 
 
 

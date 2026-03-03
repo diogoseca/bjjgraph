@@ -21,37 +21,37 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hitchhiker Escape",
-      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Hip Escape to Guard]] (13% of attempts)
 
-### [[Stack Defense]] (14% of attempts)
+### [[Stack Defense]] (13% of attempts)
 
-### [[Arm Extraction]] (12% of attempts)
+### [[Arm Extraction]] (11% of attempts)
 
-### [[Hitchhiker Escape]] (20% of attempts)
+### [[Hitchhiker Escape]] (23% of attempts)
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Rolling Escape to Guard]] (10% of attempts)
+### [[Rolling Escape to Guard]] (9% of attempts)
 
-### [[Hip Escape to Turtle]] (9% of attempts)
+### [[Hip Escape to Turtle]] (8% of attempts)
 
-### [[Armbar Defense]] (8% of attempts)
+### [[Armbar Defense]] (7% of attempts)
+
+### [[Hitchhiker Escape from Armbar]] (4% of attempts)
 
 
 

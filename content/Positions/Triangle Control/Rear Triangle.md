@@ -93,17 +93,21 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (19% of attempts)
+- **[[Arm Extraction]]** (25% of attempts)
 
-- **[[Triangle Escape]]** (17% of attempts)
+- **[[Triangle Escape]]** (14% of attempts)
 
-- **[[Rolling Escape to Guard]]** (15% of attempts)
+- **[[Rolling Escape to Guard]]** (12% of attempts)
 
-- **[[Stack Defense]]** (16% of attempts)
+- **[[Stack Defense]]** (13% of attempts)
 
-- **[[Posture Recovery]]** (15% of attempts)
+- **[[Posture Recovery]]** (12% of attempts)
 
-- **[[Hand Fighting from Back]]** (18% of attempts)
+- **[[Hand Fighting from Back]]** (15% of attempts)
+
+- **[[Grip Fight Escape from Rear Triangle]]** (6% of attempts)
+
+- **[[Posture Defense from Rear Triangle]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -168,17 +172,21 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Triangle Choke]]** (19% of attempts)
+- **[[Rear Triangle Choke Finish]]** (24% of attempts)
 
-- **[[Armbar from Back Transition]]** (17% of attempts)
+- **[[Armbar from Back Transition]]** (14% of attempts)
 
-- **[[Rear Naked Choke]]** (19% of attempts)
+- **[[Rear Naked Choke]]** (16% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (16% of attempts)
+- **[[Aoki Lock to Crucifix]]** (13% of attempts)
 
-- **[[Bow and Arrow Choke]]** (15% of attempts)
+- **[[Bow and Arrow Choke]]** (12% of attempts)
 
-- **[[Kimura from Back]]** (14% of attempts)
+- **[[Kimura from Back]]** (12% of attempts)
+
+- **[[Rear Triangle to Armbar]]** (6% of attempts)
+
+- **[[Back Control to Crucifix]]** (3% of attempts)
 
 
 ### Common Mistakes

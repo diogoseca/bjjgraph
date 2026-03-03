@@ -610,35 +610,39 @@
     "transitions": [
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 32
+        "attempt_probability": 38
       },
       {
         "transition": "Turtle to Standing",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Sit Through to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Hip Escape from Cross Body Ride",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Roll Escape from Cross Body Ride",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Escape from Cross Body Ride",
+        "attempt_probability": 1
       }
     ]
   }

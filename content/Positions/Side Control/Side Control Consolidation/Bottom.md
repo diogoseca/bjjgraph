@@ -20,38 +20,38 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Guard",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Angle Change Escape",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,23 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 ## Available Escapes
 
+### [[Frame and Shrimp to Guard]] (41% of attempts)
+
 ### [[Elbow Escape to Guard]] (19% of attempts)
 
-### [[Frame and Shrimp to Guard]] (21% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Bridge and Roll]] (10% of attempts)
 
-### [[Granby Roll to Guard]] (16% of attempts)
+### [[Technical Stand-up]] (9% of attempts)
 
-### [[Technical Stand-up]] (12% of attempts)
+### [[Angle Change Escape]] (5% of attempts)
 
-### [[Hip Escape to Guard]] (19% of attempts)
+### [[Escape Side Control Consolidation]] (2% of attempts)
+
+### [[Frame from Side Control Consolidation]] (1% of attempts)
+
+### [[Hip Escape from Side Control Consolidation]] (1% of attempts)
 
 
 
@@ -238,7 +244,7 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 **If opponent raises hips or adjusts position preparing for advancement:**
 - Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 50%)
 
 
 **If opponent extends base or posts hand creating structural vulnerability:**
@@ -391,7 +397,7 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 - **[[Half Guard]]** - Primary escape target and recovery position
 - **[[Turtle]]** - Alternative defensive position from granby roll escape
 - **[[Mount]]** - Position opponent advances to if consolidation successful
-- **[[Elbow Escape to Guard]]** - Primary escape technique from consolidated position
+- **[[Elbow Escape to Guard]]** - Related escape technique sharing shrimp and frame mechanics
 - **[[Frame and Shrimp to Guard]]** - Fundamental defensive movement for space creation
 - **[[Knee Shield Half Guard]]** - Common recovery position after successful escape
 - **[[Open Guard]]** - Guard recovery target after creating distance

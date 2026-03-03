@@ -287,7 +287,7 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 69
+        "attempt_probability": 65
       },
       {
         "transition": "Front Headlock to Anaconda",
@@ -307,7 +307,7 @@
       },
       {
         "transition": "Turtle to Truck Entry",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Front Headlock to Guillotine",
@@ -326,20 +326,12 @@
         "attempt_probability": 3
       },
       {
-        "transition": "Transition to Matrix",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Rodeo Ride",
-        "attempt_probability": 0
-      },
-      {
         "transition": "Turtle Attack Sequence",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Turtle to Matrix",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Turtle to Rodeo Ride",

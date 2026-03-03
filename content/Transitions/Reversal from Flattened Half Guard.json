@@ -1,42 +1,423 @@
 {
   "name": "Reversal from Flattened Half Guard",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "reversal", "flattened half guard", "half guard"],
+  "description": "Master the reversal from flattened half guard in BJJ. Learn underhook-based sweeps, bridge mechanics, and timing to escape bottom and achieve top position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "reversal",
+    "sweep",
+    "flattened half guard",
+    "half guard",
+    "underhook",
+    "bottom game"
+  ],
   "from_position": "Flattened Half Guard/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 40, "result": "success"},
-    {"to": "Flattened Half Guard/Bottom", "probability": 38, "result": "failure"},
-    {"to": "Mount/Bottom", "probability": 22, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Flattened Half Guard/Bottom",
+      "probability": 38,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 22,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Reversal from Flattened Half Guard is one of the most demanding yet rewarding techniques in the bottom half guard arsenal. When the top player has successfully collapsed your frames and settled chest-to-chest pressure, most bottom players resign themselves to a purely defensive frame recovery sequence. The reversal represents a fundamentally different strategic choice: rather than incrementally rebuilding guard structure, you exploit the top player's forward commitment to generate a sweep that lands you directly in a dominant top position. This approach requires precise timing, committed execution, and the willingness to accept risk in exchange for a dramatic positional improvement.\n\nThe technical foundation of this reversal rests on winning the underhook battle from a disadvantaged position. Even when flattened, the bottom player can fight for a deep underhook on the far side by using small hip escapes to create just enough space to thread the arm through. Once the underhook is secured, the bottom player combines a powerful bridge toward the underhook side with a drive from the trapped leg hook, using the top player's own forward pressure as the fulcrum for the sweep. The direction of force must travel diagonally toward the underhook side rather than straight upward, exploiting the top player's narrow base on that angle.\n\nThis reversal occupies a critical decision point in the flattened half guard game tree. Attempting the reversal too early without establishing the underhook risks immediate pass completion. Attempting it too late, after the top player has begun extracting the trapped leg, eliminates the leverage needed to complete the sweep. The optimal timing window occurs when the top player is focused on maintaining crossface pressure and has not yet committed to a specific passing sequence, creating a brief moment where their weight distribution is static and predictable. Advanced practitioners chain this reversal with frame recovery attempts, using the threat of one to create openings for the other.",
+  "conditions": [
+    "Bottom player has secured or is fighting for an underhook on the top player's far side",
+    "Trapped leg maintains a strong half guard hook preventing the top player from extracting their leg",
+    "Top player is committed to forward pressure through crossface and chest-to-chest contact",
+    "Bottom player has enough hip mobility to generate a meaningful bridge despite being flattened",
+    "Top player has not yet begun active leg extraction or passing sequence"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Deep Underhook Roll-Through",
+      "description": "When you achieve a particularly deep underhook reaching past the opponent's far hip, you can use it to generate a rolling motion that carries you completely over the top player. Rather than bridging diagonally, you dive your underhook arm deep and roll your body over their shoulder line, using momentum to complete the reversal even against heavier opponents.",
+      "when_to_use": "When the top player's weight is shifted high toward your head and you can thread an exceptionally deep underhook past their hip line"
+    },
+    {
+      "variant_name": "Bridge-and-Rotate Reversal",
+      "description": "A more explosive variant where the bottom player combines a powerful hip bridge with a sharp rotation toward the underhook side. Instead of steadily driving through the underhook, the bridge creates a momentary lift that breaks the chest-to-chest seal, and the rotation uses angular momentum to tip the top player over the fulcrum created by the trapped leg hook.",
+      "when_to_use": "When the top player has settled static weight and is not actively transitioning, allowing you to generate maximum bridge power before they can react"
+    },
+    {
+      "variant_name": "Lockdown-Assisted Reversal",
+      "description": "Uses the lockdown leg configuration to control the top player's trapped leg more securely before initiating the reversal. The lockdown prevents the top player from posting their leg wide to maintain base, making the bridge-and-drive far more effective. After establishing lockdown, the bottom player combines an Old School-style underhook drive with the lockdown's whip-up motion to generate the reversal.",
+      "when_to_use": "When you can transition to lockdown from standard half guard hook and the top player has not established crossface so aggressively that lockdown entry is blocked"
+    }
+  ],
+  "position_integration": "The Reversal from Flattened Half Guard sits at a critical fork in the bottom half guard decision tree. When flattened, the bottom player faces three strategic paths: frame recovery to rebuild guard structure, deep half entry to change the angle of engagement, or reversal to immediately claim a dominant top position. The reversal path carries the highest risk but also the highest reward, bypassing the intermediate recovery stages entirely. This technique integrates with the broader half guard system by serving as the offensive counterbalance to the defensive recovery sequences. When opponents learn to expect and counter frame recovery attempts, the threat of the reversal forces them to moderate their forward pressure, which paradoxically makes frame recovery easier. This creates a game theory dynamic where neither pure recovery nor pure reversal is optimal in isolation, but the credible threat of both creates genuine defensive dilemmas for the top player. The reversal also connects to the Old School sweep system, the lockdown game, and the Dogfight position as alternative sweep pathways from half guard bottom.",
+  "related_content": [
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Starting position where the bottom player initiates this reversal"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target dominant position achieved on successful reversal"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Worst-case counter outcome when top player capitalizes on failed reversal"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent position system that the flattened variation degrades from"
+    },
+    {
+      "name": "Recover Knee Shield from Flattened Half",
+      "relationship": "Alternative defensive approach from same starting position focused on frame recovery"
+    },
+    {
+      "name": "Deep Half Entry from Flattened",
+      "relationship": "Alternative offensive option from flattened half guard that changes the angle"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Related underhook-based sweep sharing similar mechanical principles from half guard"
+    },
+    {
+      "name": "Dogfight Sweep",
+      "relationship": "Follow-up sweep option if the reversal stalls in a Dogfight scramble"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Leg control system that can enhance reversal effectiveness from flattened position"
+    },
+    {
+      "name": "Complete Pass from Flattened Half",
+      "relationship": "The top player's primary objective that this reversal aims to preempt"
+    },
+    {
+      "name": "Knee Slide from Flattened Half",
+      "relationship": "Common top player passing technique that creates the urgency for reversal timing"
+    },
+    {
+      "name": "Elbow Escape from Flattened Half",
+      "relationship": "Defensive escape option that can be chained with reversal threats"
+    }
+  ],
   "attacker": {
     "name": "Reversal from Flattened Half Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Flattened Half Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the reversal from flattened half guard as the bottom player. Underhook mechanics, bridge timing, and sweep execution for achieving top position.",
+    "overview": "As the attacker executing this reversal, you are the bottom player in flattened half guard who has decided to pursue a direct positional reversal rather than incremental frame recovery. This offensive choice requires you to fight for an underhook from a compromised position, generate sufficient bridge power to disrupt the top player's base, and drive through the reversal with committed body mechanics. The technique demands a shift from survival mentality to offensive initiative while still operating under heavy pressure. Your success depends on winning the underhook battle, timing your bridge to coincide with the top player's static moments, and committing fully to the sweep direction once initiated. Half-measures result in energy waste and potential position loss, so the reversal must be executed with conviction once the prerequisites are established.",
+    "key_principles": [
+      "Win the underhook before initiating the bridge - the underhook is the non-negotiable prerequisite for any reversal attempt",
+      "Bridge diagonally toward the underhook side rather than straight up to exploit the top player's narrow lateral base",
+      "Use the trapped leg hook as an active lever rather than a passive anchor - drive with the hook during the bridge",
+      "Commit fully once the reversal is initiated - partial attempts waste energy and expose you to passing sequences",
+      "Time the reversal when the top player is statically maintaining pressure rather than actively transitioning",
+      "Chain the reversal threat with frame recovery to create a dual-threat that forces the top player to moderate pressure"
+    ],
+    "setup_requirements": [
+      "Secure an underhook on the top player's far side with enough depth to reach their lat or hip area",
+      "Maintain a strong half guard hook with the trapped leg to prevent extraction during the reversal",
+      "Create minimal hip mobility through micro-adjustments even while flattened to generate bridge power",
+      "Identify a static moment in the top player's pressure where their weight distribution is predictable and forward-committed",
+      "Position your free hand on the top player's hip or belt line to assist the driving motion during the sweep"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Fight for the underhook",
+        "description": "From the flattened position, use small hip escapes to create just enough space to thread your near arm under the top player's far armpit. Walk your fingers up their back toward the lat, securing a deep grip on their gi or body. This underhook must reach past their center line to generate adequate leverage for the reversal."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure the trapped leg hook",
+        "description": "Confirm that your half guard hook is tight and actively engaged around the top player's trapped leg. Squeeze your knees together to lock the hook and prevent any leg extraction attempt. The hook serves as the pivot point for the entire reversal, so it must be secure before committing to the bridge."
+      },
+      {
+        "step_number": 3,
+        "action": "Position the driving hand",
+        "description": "Place your free hand (the crossface side) on the top player's hip, belt, or pant grip on the near side. This hand serves two functions: it prevents the top player from posting their hand to maintain base during the sweep, and it provides additional driving force in the direction of the reversal."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate the diagonal bridge",
+        "description": "Drive your hips explosively upward and toward the underhook side at a forty-five degree angle. The bridge direction is critical - straight up allows the top player to resettle, but the diagonal angle attacks the narrow corridor where they have minimal base. Plant your far foot firmly and drive through your hip flexors and glutes to generate maximum lifting force."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive through with the underhook",
+        "description": "As the bridge breaks the chest-to-chest seal, immediately drive forward and upward with the underhook arm, pulling the top player's far side toward the mat. The underhook transitions from a static grip to an active driving force that continues the sweeping motion. Your body should begin rotating over the top player as their base collapses on the underhook side."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through to top position",
+        "description": "Continue driving through the sweep until you have completely reversed the position. As the top player's back approaches the mat, release your half guard hook and transition your legs to establish side control. Your underhook arm should end up controlling their far side while your chest settles perpendicular to their torso."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Immediately establish crossface control and hip pressure to secure the newly won side control position. The top player will attempt to recover guard in the first seconds after the reversal, so rapid consolidation is essential. Drive your shoulder into their chin, establish chest-to-chest pressure, and block their near hip with your hand to prevent knee insertion."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player wizards (overhooks) the underhook arm to neutralize it before the bridge",
+        "effectiveness": "High",
+        "your_response": "Switch to an elbow-push frame on their hip to create space for re-establishing the underhook at a deeper angle, or transition to a deep half guard entry where the overhook becomes less effective",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Top player posts their far hand wide to maintain base against the diagonal bridge direction",
+        "effectiveness": "High",
+        "your_response": "Use your driving hand to strip their posting hand off the mat by pushing it across their body, or redirect the bridge angle further toward their head where the post cannot reach",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Top player sprawls their hips back and drives crossface harder to flatten you during the bridge attempt",
+        "effectiveness": "Medium",
+        "your_response": "Use the increased forward pressure to accelerate the bridge timing - their forward commitment actually aids the reversal if your underhook is deep enough. Alternatively, abandon the reversal and use the space created by their sprawl to initiate frame recovery",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Top player extracts the trapped leg during the bridge when your hook loosens",
+        "effectiveness": "High",
+        "your_response": "If the leg begins to slip, immediately abort the reversal and transition to a Dogfight scramble or re-establish your hook. Continuing the reversal without the hook anchor results in the top player completing the pass to mount",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Top player transitions to knee slice pass timing the reversal attempt",
+        "effectiveness": "Medium",
+        "your_response": "Redirect the underhook energy into a frame against their hip to block the knee slice, then recover to knee shield half guard. The failed reversal creates enough movement to make frame recovery viable",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the bridge without first securing a deep underhook on the far side",
+        "consequence": "The bridge lifts the top player momentarily but has no directional force to complete the sweep, wasting energy and allowing the top player to resettle with even heavier pressure",
+        "correction": "Treat the underhook as a non-negotiable prerequisite. Spend the time and small movements necessary to thread the arm deep before initiating any bridge. The underhook depth directly determines reversal success probability."
+      },
+      {
+        "error": "Bridging straight up instead of diagonally toward the underhook side",
+        "consequence": "The top player can easily resettle onto you by posting their hands, as their base is widest in the vertical direction. No lateral displacement means the sweep generates lift without sweep direction.",
+        "correction": "Drive the bridge at a forty-five degree angle toward the underhook side. Plant the far foot and angle your hips to generate lateral force that attacks the narrow base corridor where the top player has minimal posting ability."
+      },
+      {
+        "error": "Releasing the half guard hook during the bridge to try to use both legs for the sweep",
+        "consequence": "Removing the hook eliminates the fulcrum point for the reversal and simultaneously frees the top player's leg, allowing them to step over and complete a pass directly to mount",
+        "correction": "Maintain the half guard hook throughout the entire reversal sequence. The hook serves as both the pivot point for the sweep and the insurance policy against catastrophic failure."
+      },
+      {
+        "error": "Half-committing to the reversal and stopping midway when meeting resistance",
+        "consequence": "Partial attempts waste significant energy without achieving positional improvement, and the movement telegraphs your intentions for future attempts, allowing the top player to prepare counters",
+        "correction": "Once you initiate the bridge with the underhook secured, commit fully to the sweep. If the prerequisites are met, drive through resistance rather than abandoning midway. Reserve the abort option for situations where the underhook slips or the hook is lost."
+      },
+      {
+        "error": "Neglecting to consolidate side control immediately after completing the reversal",
+        "consequence": "The top player recovers guard within the first two to three seconds after being swept, negating the entire positional gain and returning you to a neutral or disadvantaged position",
+        "correction": "The moment the sweep completes, immediately establish crossface and hip control in side control. Treat consolidation as the final step of the technique, not a separate action."
+      },
+      {
+        "error": "Attempting the reversal when the top player is actively transitioning or passing",
+        "consequence": "The dynamic movement of the passing sequence disrupts the timing and mechanics needed for the reversal, often resulting in the pass being completed faster as you abandon defensive frames to pursue the sweep",
+        "correction": "Time the reversal during static pressure moments when the top player is settled and maintaining position. Active passing sequences require frame recovery defense first."
+      },
+      {
+        "error": "Using arm strength alone to pull the top player over instead of driving with the hips and legs",
+        "consequence": "Arm strength is insufficient to move a resisting opponent's bodyweight. The attempt fatigues the arms without generating enough force, and the top player easily maintains position through superior leverage.",
+        "correction": "Generate primary force through the hip bridge and trapped leg drive, using the underhook arm as a directional guide rather than the primary power source. The legs and hips produce the sweep force."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Underhook Recovery Mechanics",
+        "focus": "Securing the underhook from the flattened position",
+        "description": "Partner establishes flattened half guard top with moderate pressure. Practice the micro hip escapes and arm threading needed to secure a deep underhook. No bridge attempts in this phase - focus entirely on winning the underhook battle against progressive resistance. Build the ability to consistently achieve the prerequisite underhook position."
+      },
+      {
+        "phase": "Phase 2: Bridge Direction and Power",
+        "focus": "Diagonal bridge mechanics with underhook coordination",
+        "description": "From a pre-established underhook position, practice the diagonal bridge with a cooperative partner. Focus on bridge direction (forty-five degree angle toward underhook side), hip drive timing, and coordination between bridge power and underhook pull. Partner provides minimal resistance to allow repetition of correct mechanics."
+      },
+      {
+        "phase": "Phase 3: Complete Reversal Sequence",
+        "focus": "Chaining underhook acquisition into the bridge and follow-through",
+        "description": "Combine the underhook fight with the bridge-and-drive into a complete reversal sequence. Partner provides moderate resistance at each phase - resisting the underhook, defending the bridge, and attempting guard recovery after being swept. Practice the full chain including side control consolidation."
+      },
+      {
+        "phase": "Phase 4: Decision Making Under Pressure",
+        "focus": "Choosing between reversal and frame recovery in live situations",
+        "description": "Positional sparring starting in flattened half guard bottom. Make real-time decisions about whether to pursue the reversal or default to frame recovery based on the top player's reactions. Develop the ability to read static pressure moments as reversal opportunities and active passing attempts as frame recovery triggers. Full resistance with open-ended outcomes."
+      },
+      {
+        "phase": "Phase 5: Integration and Chain Attacks",
+        "focus": "Using reversal threats to open other escape pathways",
+        "description": "Advanced positional sparring where you deliberately mix reversal attempts with frame recovery, deep half entries, and lockdown transitions. The goal is to make each option more effective by threatening the others, creating genuine uncertainty for the top player about your intentions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most critical prerequisite before initiating the bridge for this reversal?",
+        "answer": "A deep underhook on the top player's far side is the non-negotiable prerequisite. Without the underhook, the bridge generates vertical lift but no directional sweep force, allowing the top player to simply resettle. The underhook must reach past the top player's center line, ideally gripping their lat or far hip, to provide adequate leverage for the diagonal drive that completes the reversal."
+      },
+      {
+        "question": "Why must the bridge travel diagonally rather than straight upward during this reversal?",
+        "answer": "The diagonal bridge direction toward the underhook side attacks the narrow base corridor where the top player has minimal ability to post and maintain stability. A straight-up bridge allows the top player to simply resettle because their base is widest in the vertical plane. The forty-five degree angle exploits the lateral weakness in their position, combining the lifting force of the bridge with the directional sweep force from the underhook to tip them past their balance point."
+      },
+      {
+        "question": "Your opponent wizards your underhook arm before you can initiate the bridge - what are your options?",
+        "answer": "When the top player overhooks your underhook arm, you have two primary options. First, you can use your free hand to push on their hip, creating space to re-thread the underhook at a deeper angle below the wizard. Second, you can abandon the reversal and transition to a deep half guard entry, where the overhook becomes less effective because you are diving underneath their hips rather than driving through them. The key is recognizing the counter early and adapting rather than forcing the reversal without the underhook."
+      },
+      {
+        "question": "What role does the trapped leg hook play during the reversal, and what happens if it loosens?",
+        "answer": "The trapped leg hook serves as the critical fulcrum point for the entire reversal mechanics. It anchors the bottom player to the top player during the bridge, creating the lever arm that translates bridge force into sweeping motion. If the hook loosens during the bridge, the top player can extract their leg and step over to complete a pass directly to mount - the worst-case counter outcome. If you feel the hook slipping, abort the reversal immediately and either re-establish the hook or transition to a Dogfight scramble."
+      },
+      {
+        "question": "When is the optimal timing window to attempt this reversal?",
+        "answer": "The optimal timing occurs when the top player is maintaining static pressure without actively transitioning or initiating a passing sequence. During static moments, their weight distribution is predictable and forward-committed, making them vulnerable to the diagonal bridge. Attempting the reversal during active passing is dangerous because the dynamic movement disrupts your mechanics and may accelerate the pass. The ideal moment is when the top player settles their crossface and chest pressure and pauses before their next action."
+      },
+      {
+        "question": "How does threatening the reversal improve your frame recovery success rate?",
+        "answer": "The reversal threat creates a game theory dynamic that benefits frame recovery. When the top player believes a reversal is possible, they must moderate their forward pressure to maintain base against the diagonal bridge. This reduced pressure creates more space for frame recovery attempts. Conversely, when they commit fully to pressure to prevent frame recovery, they become more vulnerable to the reversal. The dual threat forces the top player into a compromise position that is weaker against both options than their response would be against either option in isolation."
+      },
+      {
+        "question": "Your bridge successfully breaks the chest-to-chest seal but the top player posts their far hand to stop the sweep - how do you respond?",
+        "answer": "Use your free hand to strip their posting hand off the mat by pushing it across their body toward the sweep direction, removing their base. If the post is too strong to strip, redirect your bridge angle further toward their head, attacking a line where the posting arm cannot reach. You can also use the space created by the partial bridge to transition to a Dogfight position by coming up to your knees, changing the technique from a sweep to a scramble where your underhook provides an advantage."
+      },
+      {
+        "question": "What distinguishes the grip requirements for this reversal from standard half guard underhook work?",
+        "answer": "The underhook for this reversal must be significantly deeper than a standard half guard underhook used for frame recovery. While a defensive underhook only needs to reach the armpit to prevent settling, the reversal underhook must reach past the opponent's center line to their far lat, hip, or belt. This depth provides the mechanical leverage necessary to generate directional sweep force during the bridge. A shallow underhook creates lift without sufficient rotational torque to complete the reversal."
+      },
+      {
+        "question": "After completing the sweep, your opponent immediately attempts to recover guard - what is your consolidation priority?",
+        "answer": "The immediate priority is establishing crossface control and driving your shoulder pressure into their chin to turn their head away, then settling your hips low against their near hip to block knee insertion. This must happen within the first two to three seconds of achieving top position. The crossface prevents them from turning into you, and the hip block stops the most common guard recovery method. Failing to consolidate rapidly negates the entire positional gain as skilled opponents can recover guard before you establish meaningful control."
+      }
+    ],
+    "safety_considerations": "This reversal involves explosive bridging movements under load, which places significant stress on the cervical spine, lumbar spine, and shoulders. Practitioners should develop adequate bridge strength and mobility before attempting the technique at full intensity. The diagonal bridging angle can strain the lower back if the hips are not properly engaged. When drilling, partners should communicate clearly about pressure levels and allow gradual progression to full resistance. Tap immediately if neck compression occurs during the bridge. Warm up thoroughly before practicing bridging-intensive techniques, and avoid this reversal if you have existing spinal or shoulder injuries."
   },
   "defender": {
     "name": "Reversal from Flattened Half Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Flattened Half Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Flattened Half Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to defend and prevent the reversal from flattened half guard as the top player. Recognize sweep attempts, maintain base, and counter to advance position.",
+    "overview": "As the defender against this reversal, you are the top player in flattened half guard who must prevent the bottom player from achieving a positional reversal to side control. Your primary task is recognizing the underhook acquisition that precedes every reversal attempt and addressing it before the bottom player can combine the underhook with a committed bridge. Skilled bottom players will disguise reversal setups as frame recovery attempts, making early recognition essential. Your defensive strategy operates on two levels: preventing the prerequisites from being established, and maintaining base if the bridge is initiated. The most effective defense is proactive - denying the underhook through sustained shoulder pressure and hip positioning that keeps the bottom player truly flat. When prevention fails, your reactive defense depends on posting, hip sprawling, and potentially capitalizing on the failed attempt to advance to mount.",
+    "key_principles": [
+      "Deny the underhook proactively through sustained crossface pressure and hip positioning that limits the bottom player's arm threading",
+      "Maintain dynamic base awareness so you can post immediately when you feel a bridge initiating under you",
+      "Keep your weight distributed forward through chest and hips to limit the bottom player's ability to generate bridge power",
+      "Recognize the difference between frame recovery attempts and reversal setups by monitoring the bottom player's underhook depth",
+      "Use the bottom player's reversal attempts as opportunities to advance position when their defensive frames are abandoned",
+      "Control the trapped leg situation by working extraction even while maintaining pressure to eliminate the sweep fulcrum"
+    ],
+    "recognition_cues": [
+      "Bottom player threads their near arm under your far armpit and begins walking fingers up your back toward a deep underhook grip",
+      "Bottom player plants their far foot flat on the mat with knee bent, indicating preparation for an explosive bridging movement",
+      "Bottom player's hips begin shifting toward the underhook side as they position for the diagonal bridge angle",
+      "Bottom player's free hand moves to your near hip or belt rather than framing on your shoulder, indicating sweep intent rather than frame recovery",
+      "Bottom player tightens their half guard hook significantly, locking knees together to secure the fulcrum point before initiating the bridge"
+    ],
+    "defensive_options": [
+      {
+        "action": "Wizard the underhook arm by overhooking it and driving your shoulder down to neutralize the grip depth",
+        "when_to_use": "As soon as you feel the bottom player threading the underhook - early intervention before they achieve full grip depth",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Bottom player loses the underhook prerequisite and must restart the setup process, returning to a purely defensive position under your pressure",
+        "risk": "The wizard position can create space that allows the bottom player to transition to deep half guard instead"
+      },
+      {
+        "action": "Post your far hand wide on the mat toward the underhook side to create a strong base against the diagonal bridge",
+        "when_to_use": "When you feel the bridge initiating and cannot prevent the underhook in time - reactive base defense",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Your posted hand absorbs the bridge force and prevents the sweep from completing, allowing you to resettle pressure",
+        "risk": "Posting the hand removes it from controlling the bottom player's hip, potentially allowing guard recovery through a different escape pathway"
+      },
+      {
+        "action": "Sprawl your hips back and drive increased crossface pressure to flatten the bottom player before the bridge reaches full power",
+        "when_to_use": "When you detect the bridge beginning but the bottom player has not yet generated full upward force",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Your increased forward pressure exceeds the bottom player's bridge power, pinning them back flat and nullifying the reversal attempt",
+        "risk": "Excessive forward commitment makes you more vulnerable if the bottom player has a deep underhook and uses your pressure as the sweep fulcrum"
+      },
+      {
+        "action": "Extract the trapped leg during the bridge attempt when the bottom player's hook loosens from the explosive movement",
+        "when_to_use": "During the reversal attempt when the bottom player's focus shifts to the bridge and their hook control momentarily weakens",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You complete the guard pass during their failed sweep attempt, achieving mount position as they have abandoned their defensive frames for the reversal",
+        "risk": "If the hook remains tight and you fail to extract, you have shifted your base into a position that may actually help the reversal succeed"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Capitalize on the bottom player's failed reversal by extracting your trapped leg while they are committed to the bridge. Their abandonment of defensive frames to pursue the sweep creates a window to step over and establish mount. Time the leg extraction to the peak of their bridge when their focus is on driving through the underhook rather than maintaining the hook."
+      },
+      {
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Prevent the reversal through early underhook denial using wizard control or sustained shoulder pressure, then resettle your dominant flattened half guard position. The bottom player expends significant energy on the failed attempt while you maintain your positional advantage with minimal energy cost."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Ignoring the underhook acquisition and continuing to focus only on passing sequence",
+        "consequence": "The bottom player establishes a deep underhook uncontested, achieving the primary prerequisite for the reversal and dramatically increasing sweep probability",
+        "correction": "Treat any underhook attempt as the highest priority threat. When you feel the arm threading under your armpit, immediately address it with a wizard, shoulder pressure increase, or hip adjustment before continuing your passing game."
+      },
+      {
+        "error": "Maintaining purely static forward pressure without dynamic base adjustment",
+        "consequence": "Static pressure creates a predictable weight distribution that the bottom player can exploit with proper bridge timing and angle",
+        "correction": "Keep your pressure dynamic by constantly making small adjustments to weight distribution and base width. Vary your pressure angle to prevent the bottom player from timing a bridge to a predictable weight position."
+      },
+      {
+        "error": "Overcommitting forward when you feel the bridge to counteract it with more pressure",
+        "consequence": "Your own forward momentum adds to the reversal force when combined with a deep underhook, actually making the sweep easier to complete",
+        "correction": "When you feel a bridge, post your far hand and drop your hips laterally rather than driving forward. Create base width rather than forward pressure to counter the diagonal bridge direction."
+      },
+      {
+        "error": "Attempting to extract the trapped leg at the wrong moment during the reversal defense",
+        "consequence": "Shifting your base to extract the leg during the bridge removes your stability, causing you to topple more easily in the sweep direction",
+        "correction": "Time leg extraction to moments when the bridge has failed and the bottom player is recovering, not during the peak of the bridge attempt. Extract the leg when you have re-established stable forward pressure."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a reversal attempt is developing rather than a frame recovery?",
+        "answer": "The key distinguishing cue is the depth and direction of the underhook. Frame recovery underhooks stay relatively shallow at armpit depth, while reversal underhooks drive deep past your center line toward your lat or far hip. Additionally, the bottom player's free hand positioning reveals intent - framing on your shoulder indicates recovery, while gripping your hip or belt indicates sweep intent. Recognizing underhook depth early gives you the most time to implement preventive measures."
+      },
+      {
+        "question": "Why is posting your far hand a reactive defense rather than a preventive one, and what are its limitations?",
+        "answer": "Posting the far hand only becomes necessary after the bridge has initiated, meaning you have already failed to prevent the reversal prerequisites. While effective at stopping the sweep, posting removes your hand from hip control duties, potentially allowing the bottom player to insert their knee for guard recovery through a different pathway. The limitation is that you trade one defensive problem for another, which is why proactive underhook denial is the superior strategy."
+      },
+      {
+        "question": "How should you adjust your base and pressure when you feel the bottom player tightening their half guard hook?",
+        "answer": "A tightening hook signals sweep preparation. Respond by widening your base slightly on the underhook side, increasing your crossface pressure to limit their ability to generate bridge power, and beginning active leg extraction work. Do not wait for the bridge to start. The hook tightening is a preparatory action that gives you a window to deny the prerequisites before the explosive phase begins. Work to loosen the hook through hip circling and knee positioning while maintaining chest pressure."
+      },
+      {
+        "question": "Your opponent executes the bridge and you feel yourself beginning to tip - what is the emergency recovery sequence?",
+        "answer": "If the bridge catches you and you begin to tip, immediately post your far hand as wide as possible to create emergency base. Simultaneously drop your hips toward the mat on the posting side to lower your center of gravity. If the sweep continues despite the post, prepare to recover guard rather than fighting the reversal from a losing position. The worst response is going stiff and toppling - staying relaxed and posting gives you the best chance of maintaining position or at minimum recovering to a neutral guard position rather than being swept to full side control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Underhook Denial Drill",
+        "focus": "Preventing the underhook from being established",
+        "description": "Partner fights for the underhook from flattened half guard bottom while you practice denying it through shoulder pressure, wizard control, and hip positioning. Focus on recognizing the threading attempt early and addressing it before depth is achieved. No bridge attempts in this phase."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Bridge",
+        "focus": "Reactive defense against the bridge-and-drive",
+        "description": "Partner has a pre-established underhook and initiates bridges. Practice posting, hip sprawling, and maintaining base against diagonal bridge attempts. Develop automatic reactions to the bridge force and build the ability to resettle pressure after absorbing the sweep attempt."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack from Failed Reversals",
+        "focus": "Capitalizing on failed sweep attempts to advance position",
+        "description": "Full positional sparring from flattened half guard where you focus on reading reversal attempts and timing your passing or mount advancement to coincide with failed sweeps. The bottom player's abandoned frames create windows for advancement that you learn to exploit consistently."
+      },
+      {
+        "phase": "Phase 4: Mixed Threat Defense",
+        "focus": "Defending reversals and frame recovery simultaneously",
+        "description": "Partner alternates between reversal attempts and frame recovery from flattened half guard. Develop the ability to distinguish between the two threats in real time and apply the correct defensive response to each. Full resistance with open outcomes."
+      }
+    ]
   }
 }

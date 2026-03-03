@@ -1,10 +1,14 @@
 {
   "name": "Omoplata from Lasso",
-  "description": "TODO: Write 150-160 character SEO description for Omoplata from Lasso.",
+  "description": "Master the Omoplata from Lasso Guard in BJJ. Complete guide to converting lasso control into shoulder lock position with sweep chains and transitions.",
   "tags": [
-    "bjj",
+    "omoplata",
+    "lasso guard",
     "transition",
-    "TODO"
+    "shoulder lock setup",
+    "guard attack",
+    "gi technique",
+    "sweep chain"
   ],
   "from_position": "Lasso Guard/Bottom",
   "outcomes": [
@@ -25,114 +29,390 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Omoplata from Lasso.",
+  "overview": "The Omoplata from Lasso Guard is a high-percentage transition that exploits the arm isolation already established by the lasso configuration. When the bottom player has their shin threaded across the opponent's tricep with a tight sleeve grip, the opponent's shoulder is already partially compromised and their arm mobility restricted. By pivoting the hips and swinging the lasso leg over the opponent's shoulder, the bottom player converts the lasso control directly into a full omoplata configuration without the typical struggle of isolating the arm that plagues omoplata entries from other guard positions.\n\nThis transition is particularly effective because it capitalizes on the opponent's natural defensive reactions to lasso guard pressure. When the top player drives forward to neutralize the lasso or attempts to strip the sleeve grip, their posture breaks and forward weight commitment create the exact angles needed for the omoplata entry. The sleeve grip maintained throughout the transition prevents arm retraction during the critical moment of hip rotation, making the entry far more reliable than standard omoplata setups.\n\nStrategically, the omoplata threat from lasso creates a powerful branching attack system. If the opponent defends the omoplata entry by posturing up, they become vulnerable to lasso sweeps. If they drive forward to prevent the hip rotation, they open themselves to triangle entries. This makes the mere threat of the omoplata as valuable as the technique itself, forcing the top player into a defensive dilemma where every reaction opens a different attacking pathway for the guard player.",
   "conditions": [
-    "TODO"
+    "Deep lasso control established with shin threaded across opponent's tricep area",
+    "Tight sleeve grip maintained on the lassoed arm preventing arm retraction",
+    "Hips angled at least 45 degrees perpendicular to opponent for rotation clearance",
+    "Opponent's posture compromised forward or opponent actively driving into the guard",
+    "Non-lasso leg free and available for posting on hip to create rotation momentum"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Direct Swing Omoplata",
+      "description": "The standard variation where the bottom player swings the lasso leg directly over the opponent's shoulder in one fluid motion when posture breaks forward. Relies on a strong hip pivot and maintaining sleeve control throughout the rotation.",
+      "when_to_use": "When opponent's posture breaks significantly forward under lasso pressure, creating space to swing the leg over the shoulder without obstruction"
+    },
+    {
+      "variant_name": "Push-Pull Omoplata Entry",
+      "description": "Uses the non-lasso foot on the opponent's hip as a pushing frame while simultaneously pulling the sleeve toward the mat. This creates a shearing force that separates the opponent's arm from their body and opens space for the lasso leg to clear over the shoulder.",
+      "when_to_use": "When opponent maintains moderate posture and refuses to drive forward, requiring active creation of the necessary angle through push-pull mechanics"
+    },
+    {
+      "variant_name": "Inverted Lasso to Omoplata",
+      "description": "The bottom player partially inverts under the opponent while maintaining lasso control, threading the leg over the shoulder from an inverted angle. This variation is harder to defend because the rotation happens below the opponent's visual field.",
+      "when_to_use": "Against experienced opponents who recognize and defend the standard lasso-to-omoplata entry by maintaining strict upright posture"
     }
   ],
-  "position_integration": "TODO: Write position integration for Omoplata from Lasso.",
+  "position_integration": "The Omoplata from Lasso Guard occupies a critical junction in the open guard attack system, connecting the lasso guard retention game to the omoplata control position. It serves as the primary submission-threat pathway from lasso guard, complementing the sickle sweep and triangle entry as the three main attacks from this position. The technique bridges sleeve-based guard control and shoulder lock submissions, integrating naturally with the broader omoplata system including sweeps, back takes, and chain submissions from omoplata control. Mastery of this transition significantly enhances the overall effectiveness of lasso guard by adding a direct submission pathway that forces opponents to respect the guard rather than patiently working to pass.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Lasso Guard",
+      "relationship": "Starting position providing the arm isolation and control foundation for the omoplata entry"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Target position on successful execution where shoulder lock finish and sweep options become available"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position if opponent successfully counters by breaking the lasso during the transition"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard system sharing similar sleeve control mechanics with alternative omoplata entry paths"
+    },
+    {
+      "name": "Lasso Sweep",
+      "relationship": "Complementary attack from lasso guard that creates a sweep-or-omoplata dilemma for the opponent"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Follow-up technique from omoplata control when opponent defends the shoulder lock finish"
+    },
+    {
+      "name": "Inverted Lasso Guard",
+      "relationship": "Variation position enabling alternative omoplata entries through inversion under the opponent"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Adjacent guard position that can transition to lasso for omoplata setups when collar control is established"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard system that can be combined with lasso for hybrid omoplata entries"
+    },
+    {
+      "name": "Russian Leg Lasso",
+      "relationship": "Advanced lasso variation with double leg threading that creates unique omoplata entry angles"
     }
   ],
   "attacker": {
     "name": "Omoplata from Lasso Attacker",
-    "description": "TODO: Write attacker description for Omoplata from Lasso.",
-    "overview": "TODO: Write attacker overview for Omoplata from Lasso.",
+    "description": "Learn to execute the Omoplata from Lasso Guard as the attacking bottom player. Step-by-step hip rotation mechanics, grip management, and chain attack sequences for converting lasso control into omoplata position.",
+    "overview": "As the attacker executing the Omoplata from Lasso, your primary advantage is that the lasso configuration has already done much of the arm isolation work required for omoplata entries. Your shin is across the opponent's tricep and your sleeve grip controls their wrist, meaning you need only rotate your hips and swing your leg over their shoulder to establish the omoplata. The key challenge lies in creating enough rotational space to clear your leg over the shoulder while maintaining continuous sleeve control. Timing this transition during the opponent's forward weight commitment or posture break dramatically increases success rates, as their own momentum assists your hip rotation. Understanding when to abandon the lasso for the omoplata versus when to maintain lasso control and attack with sweeps is the critical decision-making skill that separates competent attackers from those who telegraph the entry.",
     "key_principles": [
-      "TODO"
+      "Maintain unbroken sleeve control throughout the entire transition from lasso to omoplata configuration",
+      "Time the hip rotation to coincide with opponent's forward weight commitment or posture break for maximum efficiency",
+      "Use the non-lasso foot as an active frame on the opponent's hip to create rotation space and control distance",
+      "Commit fully to the rotation once initiated because half-committed entries allow the opponent to retract their arm",
+      "Keep your hips close to the opponent's shoulder throughout the transition to prevent space creation",
+      "Establish hip-to-shoulder contact immediately after completing the leg swing to secure the omoplata position",
+      "Chain the omoplata threat with lasso sweeps to create a dilemma that makes both attacks more effective"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep lasso control with shin threaded fully across the opponent's tricep, not just draped over the forearm",
+      "Strong sleeve grip on the lassoed arm maintained with a pistol grip or C-grip near the wrist",
+      "Hips angled at minimum 45 degrees perpendicular to the opponent to enable sufficient rotation arc",
+      "Non-lasso leg free and positioned to post on the opponent's hip or bicep for creating rotation momentum",
+      "Opponent's posture at least partially compromised or their weight committed forward into the guard"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Confirm lasso depth and sleeve grip",
+        "description": "Verify your shin is threaded deeply across the opponent's tricep area, not superficially draped over the forearm. Tighten your sleeve grip by pulling it toward your chest while extending your lasso leg to create maximum tension. The opponent's elbow should be trapped inside the angle of your knee."
+      },
+      {
+        "step_number": 2,
+        "action": "Post non-lasso foot on opponent's hip",
+        "description": "Place your non-lasso foot firmly on the opponent's same-side or cross-side hip. This foot serves three purposes: it prevents them from driving forward to stack you, it creates a pushing frame for generating rotation, and it controls the distance needed for your leg to clear their shoulder."
+      },
+      {
+        "step_number": 3,
+        "action": "Break opponent's posture and create rotation angle",
+        "description": "Pull the opponent's posture down and forward using a combination of lasso leg extension and sleeve pull toward the mat. Simultaneously push off their hip with your non-lasso foot to begin rotating your body perpendicular. Your hips must face away from the opponent to create the rotation arc."
+      },
+      {
+        "step_number": 4,
+        "action": "Release lasso leg and swing over shoulder",
+        "description": "In one decisive motion, release the lasso threading by pulling your shin free from across their arm and immediately swing that same leg up and over the opponent's shoulder and head. Your calf should land across the back of their neck and upper back. This must be a committed, explosive movement to prevent the opponent from retracting their arm."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete hip rotation to face same direction as opponent",
+        "description": "Pivot your hips a full 180 degrees so you are now facing the same direction as your opponent rather than facing them. Your leg across their back creates downward pressure on their shoulder while your sleeve grip prevents their arm from escaping. Use your non-lasso leg and free hand to post on the mat to assist the rotation."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure hip control and flatten opponent",
+        "description": "Immediately grab the opponent's belt, pants at the hip, or reach across their back to control their far hip. This grip prevents the forward roll escape that is the primary counter to the omoplata. Simultaneously, use your leg across their back to drive them flat and prevent them from posturing up or creating space."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish omoplata control position",
+        "description": "Sit up perpendicular to the opponent with your shin pressing across their upper back and their trapped arm fully extended between your legs. Your hips should be tight against their shoulder. From here, you are in full omoplata control with options to finish the shoulder lock, sweep, or transition to back control."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent postures up explosively and retracts trapped arm before rotation completes",
+        "effectiveness": "High",
+        "your_response": "If you feel the arm slipping during rotation, immediately switch to a triangle entry by throwing your non-lasso leg over their head while maintaining sleeve control, or return to lasso guard and reset with a tighter entry next attempt",
         "targets_outcome": "Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps over the rotating leg during the swing phase to prevent the omoplata from establishing",
+        "effectiveness": "High",
+        "your_response": "If they step over, immediately hook their stepping leg with your non-lasso leg and convert to a sweep by driving them laterally, or transition to De La Riva guard using the hooking leg as a DLR hook",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent stacks forward and drives weight onto you during the hip rotation to prevent completion",
+        "effectiveness": "Medium",
+        "your_response": "Use the stacking momentum against them by completing the rotation underneath their pressure and establishing omoplata control, or redirect their forward drive into a pendulum sweep motion by angling your hips",
+        "targets_outcome": "Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent rolls forward through the omoplata attempt immediately upon feeling the leg clear their shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll while maintaining your leg across their back and establish top position by using your belt grip to control the roll speed. Convert to mounted omoplata control or transition directly to back control by inserting hooks as they complete the roll",
+        "targets_outcome": "Omoplata Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing the sleeve grip during the hip rotation to use both hands for posting",
+        "consequence": "Opponent immediately retracts their arm when freed from sleeve control, completely negating the omoplata entry and leaving you in a compromised open guard with no grips",
+        "correction": "Maintain the sleeve grip as your highest priority throughout the entire transition. Post with only your free hand and use your legs for the remaining rotation support"
+      },
+      {
+        "error": "Attempting the omoplata entry when lasso control is shallow with the shin only across the forearm",
+        "consequence": "The opponent easily pulls their arm free during the rotation because the shallow lasso provides insufficient control over the arm during the critical transition moment",
+        "correction": "Ensure the lasso is deep with your shin across the tricep area before initiating the omoplata. If the lasso is shallow, re-thread it deeper before attempting the transition"
+      },
+      {
+        "error": "Telegraphing the entry by slowly rotating hips without first breaking the opponent's posture",
+        "consequence": "Opponent recognizes the omoplata attempt early and postures up explosively or steps over the rotating leg, easily defeating a slow and predictable entry",
+        "correction": "Break the opponent's posture first with a sharp sleeve pull and lasso extension, then execute the hip rotation decisively in one committed motion during their moment of compromised posture"
+      },
+      {
+        "error": "Swinging the leg over the shoulder but landing it too far from the opponent's neck",
+        "consequence": "The leg lands across the mid-back or lower back rather than the upper back and shoulder area, creating insufficient control and allowing the opponent to posture up and escape",
+        "correction": "Aim to land your calf across the opponent's neck and upper shoulder area. If your leg lands too low, immediately scoot your hips closer to their shoulder to tighten the position"
+      },
+      {
+        "error": "Failing to control the opponent's hip after completing the rotation",
+        "consequence": "Opponent executes the forward roll escape freely because there is no hip control preventing their rolling momentum, negating the omoplata entirely",
+        "correction": "Immediately grab the belt, pants at the hip, or reach across to their far hip the moment your rotation completes. This grip is the single most important control point for preventing the roll escape"
+      },
+      {
+        "error": "Keeping hips too far from the opponent's shoulder after establishing the omoplata configuration",
+        "consequence": "The gap between your hips and their shoulder creates enough space for them to sit up, posture, and extract their arm from the omoplata position",
+        "correction": "Scoot your hips tight against the opponent's shoulder immediately after completing the transition. There should be no daylight between your hip and their shoulder joint"
+      },
+      {
+        "error": "Attempting the omoplata when the opponent's posture is fully upright and their weight is back on their heels",
+        "consequence": "The rotation requires significant force against their posture and they easily pull their arm free or step over the leg during the slow, labored entry attempt",
+        "correction": "Wait for the opponent's posture to break forward or actively create the posture break using lasso pressure and sleeve pulls before initiating the omoplata entry"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Hip rotation and leg placement",
+        "description": "Practice the hip rotation and leg swing in isolation with a compliant partner. Focus on maintaining sleeve control throughout the rotation, landing the leg correctly across the upper back, and establishing tight hip-to-shoulder contact. No resistance. 50 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Entry timing with posture breaks",
+        "description": "Partner provides light forward pressure from lasso guard top. Practice recognizing the posture break and timing the omoplata entry to coincide with forward weight commitment. Focus on trigger recognition and explosive but controlled execution. 30% resistance."
+      },
+      {
+        "phase": "Phase 3: Chain Attacks",
+        "focus": "Omoplata-sweep-triangle combinations",
+        "description": "Partner defends the omoplata entry at 50-60% resistance using realistic counters. Practice chaining the omoplata attempt into lasso sweeps when they posture, triangle entries when they drive forward, and return to lasso when the entry fails. Develop the decision-making flowchart through repetition."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance situational sparring",
+        "description": "Start every round in established lasso guard bottom. Partner works to pass at full intensity while you attempt the omoplata and chain attacks. Track success rate across multiple rounds. Goal: landing the omoplata entry or chain attack at least 40% of attempts against similar skill level."
+      },
+      {
+        "phase": "Phase 5: Counter-Counter Integration",
+        "focus": "Defeating trained defenses",
+        "description": "Partner specifically trains the common counters to the omoplata from lasso. Practice your counter-counter responses: the triangle switch when they posture, the sweep conversion when they step over, and the follow-the-roll back take. Develop the complete attack tree from the initial omoplata threat."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the omoplata entry from lasso guard?",
+        "answer": "The optimal timing is when the opponent's posture breaks forward, either from your lasso pressure pulling them down or from their own forward drive attempting to pass or pressure the guard. Their forward weight commitment assists your hip rotation and makes it much harder for them to retract their arm. Attempting the entry against a fully postured opponent dramatically reduces success rate because they can easily pull their arm free."
+      },
+      {
+        "question": "What conditions must exist in your lasso control before you should attempt the omoplata entry?",
+        "answer": "The lasso must be deep with your shin across the opponent's tricep area rather than superficially over the forearm. Your sleeve grip must be tight and secure, ideally a pistol grip near the wrist. Your hips should be angled at least 45 degrees perpendicular to the opponent to provide the rotation arc. If any of these conditions are missing, improve your lasso control first before attempting the transition."
+      },
+      {
+        "question": "What is the most critical mechanical detail during the leg swing phase of the transition?",
+        "answer": "The most critical detail is maintaining the sleeve grip throughout the entire rotation. Your sleeve hand must never release to post or assist the rotation. The leg swing itself must be committed and explosive, clearing the opponent's shoulder and head in one motion. A tentative or slow swing allows the opponent time to retract their arm or step over the leg. The calf should land across the upper back and neck area."
+      },
+      {
+        "question": "What is the most common reason this technique fails at the intermediate level?",
+        "answer": "The most common failure point is attempting the entry with a shallow lasso where the shin is only across the forearm rather than deep across the tricep. This shallow control provides insufficient arm isolation during the critical rotation phase, allowing the opponent to pull their arm free before the omoplata establishes. The secondary failure point is releasing the sleeve grip during the rotation, which immediately frees the opponent's arm."
+      },
+      {
+        "question": "What specific grip is required on the lassoed arm and why is it critical to the entry?",
+        "answer": "A strong pistol grip or C-grip on the sleeve near the opponent's wrist is essential. This grip must be maintained continuously from lasso guard through the completed omoplata position. It serves as the only connection preventing the opponent from retracting their arm during the rotation. Without it, the opponent has a clear window to pull their arm back to their body when you release the lasso threading to swing your leg over."
+      },
+      {
+        "question": "Which direction should you apply force with your lasso leg and sleeve grip during the entry setup?",
+        "answer": "The lasso leg should extend and push against the opponent's tricep toward their far side while the sleeve grip pulls the wrist toward the mat and toward your chest. This creates opposing forces that off-balance the opponent forward and isolate their arm away from their body. The push-pull creates the rotational space needed for the leg swing. Both forces should be diagonal rather than linear to maximize the off-balancing effect."
+      },
+      {
+        "question": "Your opponent postures up strongly as you begin the hip rotation - how do you adapt?",
+        "answer": "If they posture explosively during your rotation, you have two primary options based on how far the rotation has progressed. If early in the rotation, abort and return to lasso guard, then use their upright posture to attack with a sickle sweep instead. If your leg has already partially cleared their shoulder, convert immediately to a triangle entry by swinging your non-lasso leg over their head while pulling their posture back down with the sleeve grip."
+      },
+      {
+        "question": "What chain attacks become available if the opponent successfully blocks the omoplata entry?",
+        "answer": "If they posture up to prevent the entry, attack with the sickle sweep or pendulum sweep using the lasso leverage. If they drive forward to stack, redirect into a triangle by throwing the non-lasso leg over their neck. If they step over the rotating leg, hook their leg and sweep laterally. If they retract the arm completely and break the lasso, transition to spider guard or De La Riva using whatever grip remains. Each defensive response opens a specific chain attack."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Omoplata from Lasso."
+    "safety_considerations": "The omoplata entry from lasso involves significant rotational force on the opponent's shoulder joint. During drilling, execute the hip rotation at controlled speed and pause before applying finishing pressure to allow your partner to tap or verbally signal discomfort. The transition from lasso to omoplata can happen quickly, and the shoulder can be compromised before either partner fully recognizes the danger. In competition, maintain control throughout the transition to prevent your own knee or ankle from being trapped during the rotation. Always tap early when caught in the omoplata position during training."
   },
   "defender": {
     "name": "Omoplata from Lasso Defender",
-    "description": "TODO: Write defender description for Omoplata from Lasso.",
-    "overview": "TODO: Write defender overview for Omoplata from Lasso.",
+    "description": "Learn to defend and counter the Omoplata from Lasso Guard as the top player. Recognition cues, posture management, escape timing, and counter-attack strategies for preventing the shoulder lock entry.",
+    "overview": "As the defender against the Omoplata from Lasso, your primary challenge is recognizing the entry early enough to prevent the hip rotation from completing. The lasso guard already compromises your trapped arm, and the omoplata entry exploits this existing vulnerability. Your defensive strategy must address the problem at multiple stages: preventing the posture break that enables the entry, disrupting the hip rotation during the transition, and escaping the omoplata position if it establishes. Early recognition is paramount because the window for effective defense narrows dramatically once the bottom player's leg clears your shoulder. Understanding which of your own movements trigger the omoplata attempt allows you to avoid presenting the opportunity while still working to pass the lasso guard.",
     "key_principles": [
-      "TODO"
+      "Maintain upright posture in lasso guard to prevent the forward weight commitment that enables the omoplata entry",
+      "Recognize the hip rotation initiation within the first quarter-turn and respond immediately before the leg clears your shoulder",
+      "Keep your trapped elbow tight to your body when you sense rotation, making it harder for the leg to clear over your shoulder",
+      "Control the bottom player's non-lasso hip to prevent them from creating the rotation angle needed for the entry",
+      "Use the step-over counter decisively when you feel the leg begin to lift toward your shoulder line",
+      "If the omoplata establishes, immediately address the hip control grip before attempting to roll or posture"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player's non-lasso foot posts on your hip or bicep and begins pushing to create rotation space",
+      "You feel a sharp pull on your trapped sleeve toward the mat combined with increased lasso leg pressure",
+      "Bottom player's hips begin rotating away from you with their torso turning perpendicular to your centerline",
+      "The lasso leg starts to lift and release from the threading across your arm, moving upward toward your shoulder and head",
+      "Bottom player's free hand posts on the mat behind them to assist the hip rotation"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Posture up immediately and retract the trapped arm by driving elbow to your hip",
+        "when_to_use": "At the earliest recognition of hip rotation initiation, before the lasso leg releases from the threading",
         "targets_outcome": "Lasso Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "You deny the omoplata entry and return to standard lasso guard passing position with arm partially freed",
+        "risk": "If posture attempt fails, your upward motion may create space that the bottom player exploits for the leg swing"
+      },
+      {
+        "action": "Step over the rotating leg with your near-side leg as it swings upward toward your shoulder",
+        "when_to_use": "During the mid-rotation phase when the lasso leg has released but has not yet cleared over your shoulder",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You clear the omoplata threat entirely and end up in a dominant passing position with the bottom player's guard broken",
+        "risk": "Mistiming the step-over can result in your leg being trapped, potentially worsening your position"
+      },
+      {
+        "action": "Drive forward and stack the bottom player by dropping your weight onto their chest and hips",
+        "when_to_use": "When you feel the initial posture pull but before full rotation begins, using your weight to compress the space needed for rotation",
+        "targets_outcome": "Lasso Guard/Bottom",
+        "if_successful": "You shut down the rotation space and collapse the bottom player's hip angle, forcing them to abandon the omoplata attempt",
+        "risk": "Driving forward into an advanced lasso player can feed directly into the omoplata if they redirect your momentum"
+      },
+      {
+        "action": "Roll forward through the established omoplata to escape shoulder pressure",
+        "when_to_use": "As a last resort when the omoplata has fully established and you cannot retract your arm or posture up",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You escape the shoulder lock and may end up in a scramble or top position depending on the bottom player's hip control",
+        "risk": "If the bottom player controls your hip with a belt or pants grip, the forward roll is blocked and you remain trapped"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Omoplata Control/Top",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Step over the rotating leg during the mid-transition phase or roll through an established omoplata when the bottom player lacks hip control, breaking free from the lasso and shoulder lock threat entirely to establish a clean passing position"
+      },
+      {
+        "outcome": "Lasso Guard/Bottom",
+        "how": "Posture up and retract the trapped arm early in the rotation, or stack forward to compress the rotation space. While still in lasso guard, you have prevented the more dangerous omoplata position and can resume your passing strategy"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Driving forward with pressure as a default response to lasso guard without recognizing the omoplata setup",
+        "consequence": "Forward pressure is exactly what enables the omoplata entry, as your weight commitment assists the bottom player's hip rotation and prevents you from retracting your arm",
+        "correction": "When in lasso guard, maintain upright posture and address the sleeve grip before applying forward pressure. Recognize that forward drives create omoplata opportunities"
+      },
+      {
+        "error": "Attempting to muscle the arm free by pulling straight back against the sleeve grip during the rotation",
+        "consequence": "Pulling straight back extends the bottom player's lasso further and actually increases their leverage. The arm rarely comes free this way and you waste significant energy",
+        "correction": "Circle your elbow down and toward your hip rather than pulling straight back. The circular motion breaks the grip angle more effectively than linear force"
+      },
+      {
+        "error": "Freezing when the leg begins to clear the shoulder instead of immediately responding",
+        "consequence": "The omoplata establishes fully during the hesitation period. Once the leg is over the shoulder and the bottom player completes their rotation, escape options decrease dramatically",
+        "correction": "Train an immediate response to the recognition cue of the leg lifting toward your shoulder. Step over or posture up within the first second of recognizing the entry"
+      },
+      {
+        "error": "Attempting the forward roll escape without first checking whether the bottom player has hip control",
+        "consequence": "The roll is completely blocked by the belt or hip grip, leaving you exhausted and still trapped in the omoplata with no escape progress",
+        "correction": "Before committing to the roll, fight to strip the hip control grip first. If you cannot remove it, posture up and work to extract your arm rather than rolling into a blocked escape"
+      },
+      {
+        "error": "Neglecting to control the bottom player's non-lasso leg when it posts on your hip",
+        "consequence": "The hip post provides the pushing frame that enables the entire rotation for the omoplata entry. Without neutralizing it, the bottom player freely generates the rotation they need",
+        "correction": "When you feel the non-lasso foot post on your hip, immediately grab it or pin it with your free hand. Removing this posting frame collapses their ability to generate the rotation"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that an omoplata from lasso is being initiated?",
+        "answer": "The earliest cue is the bottom player's non-lasso foot posting on your hip combined with an increased pull on your trapped sleeve toward the mat. This push-pull combination indicates they are creating the rotational space needed for the omoplata entry. Recognizing this early gives you the maximum response window before the leg clears your shoulder."
+      },
+      {
+        "question": "Why is driving forward with pressure a dangerous response when caught in lasso guard?",
+        "answer": "Forward pressure is dangerous because it is the exact weight commitment the bottom player needs to execute the omoplata entry. Your forward drive breaks your own posture and commits your weight over the bottom player, making it nearly impossible to retract your arm when they begin the hip rotation. The bottom player exploits your forward momentum to assist their rotation rather than having to generate all the movement themselves."
+      },
+      {
+        "question": "What defensive adjustment prevents the leg from clearing over your shoulder during the transition?",
+        "answer": "The most effective adjustment is immediately tucking your trapped elbow tight to your ribs and driving it toward your hip when you recognize the rotation beginning. This closes the space between your arm and body that the leg needs to clear over your shoulder. Combined with upright posture, this makes it physically difficult for the leg to pass over because there is no gap to thread through."
+      },
+      {
+        "question": "When is the forward roll escape appropriate and when should you avoid it?",
+        "answer": "The forward roll is appropriate only when the omoplata has fully established and you cannot extract your arm, but the bottom player has NOT secured hip control via belt, pants grip, or body lock. If they have hip control, the roll will be blocked and you waste energy. Before rolling, always check if their near hand is controlling your hip. If it is, strip that grip first or posture up instead of rolling."
+      },
+      {
+        "question": "How should you manage the lasso guard position to minimize the omoplata threat while still working to pass?",
+        "answer": "Address the sleeve grip systematically before applying forward pressure. Use grip breaks combined with posture to reduce the lasso's effectiveness. When the lasso is partially neutralized, pass laterally around the guard rather than driving forward through it. Stepping over the lasso leg or using backstep passes reduces the perpendicular angle that enables the omoplata entry. Never settle into a static position where the bottom player can optimize their lasso depth."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying omoplata entry cues from lasso",
+        "description": "Partner executes the omoplata from lasso at slow speed with verbal cues for each phase. Practice identifying the hip rotation initiation, non-lasso foot posting, and sleeve pull patterns. No active defense yet, purely developing recognition speed and awareness of the entry sequence."
+      },
+      {
+        "phase": "Phase 2: Early Prevention",
+        "focus": "Posture and arm retraction responses",
+        "description": "Partner initiates the omoplata entry at 40% speed. Practice the posture-up and elbow retraction defense at the earliest recognition cue. Focus on the timing of the defensive response relative to the entry stages. Goal is preventing the leg from ever clearing the shoulder through early intervention."
+      },
+      {
+        "phase": "Phase 3: Mid-Entry Counters",
+        "focus": "Step-over and stack defenses during rotation",
+        "description": "Partner completes the entry to the mid-rotation phase at moderate speed. Practice the step-over counter during the leg swing and the forward stack defense during the hip rotation. Increase speed and resistance progressively. Develop the correct timing for each counter based on the stage of the entry."
+      },
+      {
+        "phase": "Phase 4: Late Escapes",
+        "focus": "Escaping established omoplata position",
+        "description": "Partner establishes full omoplata control. Practice the forward roll escape after stripping hip control, the posture-up arm extraction, and the transition to combat base after escaping. Full resistance. Develop the complete defensive sequence from worst-case scenarios."
+      },
+      {
+        "phase": "Phase 5: Integrated Defense",
+        "focus": "Full resistance lasso guard defense with omoplata awareness",
+        "description": "Situational sparring starting in lasso guard top. Partner freely attacks with all lasso options including the omoplata. Practice integrating omoplata defense into your overall lasso passing strategy. Goal is passing the guard while defending all submission and sweep threats."
       }
     ]
   }

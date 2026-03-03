@@ -21,37 +21,37 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Control to Crucifix",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Short Choke",
+      "text": "From this position, attempt Short Choke. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Short Choke",
-      "text": "From this position, attempt Short Choke. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Back Control Maintenance",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,23 +210,31 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (25% of attempts)
+### [[Rear Naked Choke]] (38% of attempts)
 
-### [[Armbar from Back Transition]] (12% of attempts)
+### [[Armbar from Back Transition]] (10% of attempts)
 
-### [[Armbar Finish]] (5% of attempts)
+### [[Bow and Arrow Choke]] (6% of attempts)
 
-### [[Bow and Arrow Choke]] (10% of attempts)
+### [[Back Control to Crucifix]] (6% of attempts)
 
-### [[Back Control to Crucifix]] (8% of attempts)
+### [[Short Choke]] (5% of attempts)
 
-### [[Short Choke]] (7% of attempts)
+### [[Back Control Maintenance]] (13% of attempts)
 
-### [[Back Control Maintenance]] (20% of attempts)
+### [[Body Triangle Lock]] (6% of attempts)
 
-### [[Body Triangle Lock]] (8% of attempts)
+### [[Kimura from Back]] (3% of attempts)
 
-### [[Kimura from Back]] (5% of attempts)
+### [[Triangle from Back]] (3% of attempts)
+
+### [[Roll to Truck]] (3% of attempts)
+
+### [[Gift Wrap]] (5% of attempts)
+
+### [[Seat Belt to Body Triangle]] (1% of attempts)
+
+### [[Seat Belt to Full Back Control]] (1% of attempts)
 
 
 

@@ -1,16 +1,20 @@
 {
   "name": "Inverted Lasso Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Inverted Lasso Sweep.",
+  "description": "Master the Inverted Lasso Sweep in BJJ. Complete guide to sweep mechanics, overhead entries, berimbolo chains, and counter-defense from inverted lasso guard.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "sweep",
+    "inverted-lasso",
+    "advanced",
+    "sport-jiu-jitsu",
+    "overhead-sweep",
+    "guard-system",
+    "lasso-guard"
   ],
   "from_position": "Inverted Lasso Guard/Bottom",
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
@@ -19,120 +23,377 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
-      "probability": 15,
+      "to": "Open Guard/Bottom",
+      "probability": 20,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Inverted Lasso Sweep.",
+  "success_rate": 50,
+  "overview": "The Inverted Lasso Sweep is a high-percentage overhead sweep executed from inverted lasso guard that exploits the fulcrum effect created by the lasso hook and inverted body positioning. By threading the leg through the opponent's arm and rolling onto the shoulders, the bottom player generates rotational force that multiplies through the lasso connection, creating an overhead trajectory that dumps the opponent forward directly into mount. The technique requires precise timing, maintained lasso tension, and coordinated hip extension to succeed.\n\nThe technique's effectiveness stems from the geometric advantage of the inverted position. Traditional lasso sweeps generate lateral or diagonal force, but the inverted variation produces vertical lifting force that compounds with the opponent's forward weight. This makes the sweep particularly effective against opponents who drive forward to pressure pass, as their own momentum feeds into the sweep mechanics. The timing window opens when the opponent commits weight forward while attempting to establish passing pressure or when they lean in to address the lasso hook.\n\nStrategically, the Inverted Lasso Sweep serves as the anchor technique in a broader inverted lasso attack system. When opponents defend the overhead sweep by keeping weight back, berimbolo and kiss of the dragon entries open naturally. When they defend berimbolo by staying square and driving forward, the sweep angle reopens. This creates a binary dilemma that makes the inverted lasso position offensively viable despite its high energy cost, rewarding practitioners who develop sensitivity to weight shifts and the ability to chain between sweep and back take entries seamlessly.",
   "conditions": [
-    "TODO"
+    "Inverted lasso guard fully established with lasso hook threaded through opponent's arm",
+    "Same-side sleeve grip secured preventing opponent from retracting the lassoed arm",
+    "Bottom player has completed inversion onto shoulders with hips elevated",
+    "Opponent's weight is neutral or committed slightly forward rather than fully retreated",
+    "Free leg has posting position on opponent's hip or near-side thigh for directional control"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Direct Overhead Dump",
+      "description": "The standard variation where the lassoed leg extends vertically while the sleeve grip pulls downward, creating a direct overhead arc that lifts the opponent and dumps them forward into mount. Relies on pure vertical force generation through the lasso fulcrum without lateral redirection.",
+      "when_to_use": "When the opponent drives forward with pressure passing, as their forward momentum feeds directly into the vertical lift mechanics"
+    },
+    {
+      "variant_name": "Pendulum Sweep Variation",
+      "description": "Uses a pendulum swing of the free leg to generate additional rotational momentum before committing to the overhead sweep. The free leg swings laterally then converts into upward drive, compounding with the lasso extension to produce greater sweeping force against resistant opponents.",
+      "when_to_use": "Against opponents with wider base who resist the direct overhead force, as the pendulum momentum overcomes static base resistance"
+    },
+    {
+      "variant_name": "Berimbolo Feint to Sweep",
+      "description": "Initiates berimbolo rotation by threading the free leg behind the opponent's back, forcing a defensive weight shift forward to prevent the back take. Once the opponent commits weight forward to block berimbolo, the sweep direction reverses to overhead dump using their forward momentum.",
+      "when_to_use": "Against opponents who have learned to defend the direct sweep by keeping weight back, using the berimbolo threat to draw them forward into sweep range"
     }
   ],
-  "position_integration": "TODO: Write position integration for Inverted Lasso Sweep.",
+  "position_integration": "The Inverted Lasso Sweep integrates into the broader lasso guard system as the primary sweeping threat from the inverted position. It connects directly to standard lasso guard and collar sleeve guard entries, as the sweep setup naturally flows from upright guard transitions into inverted positioning. Failed sweep attempts convert into berimbolo back take entries or guard retention sequences, ensuring offensive pressure is maintained even when the sweep itself does not complete. The sweep's relationship with berimbolo creates the fundamental dilemma of inverted lasso guard: opponents must choose between defending the sweep by keeping weight back, which enables berimbolo rotation, or defending berimbolo by driving forward, which powers the sweep. This binary attack system makes the position offensively sustainable and chains naturally with De La Riva Guard sweeps, balloon sweep mechanics, and modern sport jiu-jitsu guard transition systems.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Inverted Lasso Guard",
+      "relationship": "Source position from which this sweep is executed"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Parent guard system providing foundational lasso mechanics"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary destination after successful sweep completion"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Adjacent guard system with complementary sweep mechanics and entries"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Complementary technique from same position creating binary dilemma"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative offensive target via berimbolo chain from same setup"
+    },
+    {
+      "name": "Balloon Sweep",
+      "relationship": "Related overhead sweep sharing similar force generation mechanics"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Related body positioning sharing inversion mechanics and flexibility demands"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position when inverted lasso structure is broken during sweep attempt"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Common entry pathway providing grips that transition into lasso guard systems"
     }
   ],
   "attacker": {
     "name": "Inverted Lasso Sweep Attacker",
-    "description": "TODO: Write attacker description for Inverted Lasso Sweep.",
-    "overview": "TODO: Write attacker overview for Inverted Lasso Sweep.",
+    "description": "Master the attacker perspective for the Inverted Lasso Sweep. Step-by-step execution, timing cues, grip sequences, and chain attacks for sweeping from inverted lasso guard.",
+    "overview": "Executing the Inverted Lasso Sweep requires precise coordination between the lasso hook, sleeve grip, hip rotation, and free leg positioning. The attacker must establish the inverted position with maintained tension on the lasso connection, then generate rotational momentum through hip extension and leg drive that lifts the opponent's weight over the fulcrum point created by the lasso hook. Success depends on timing the sweep to coincide with the opponent's forward weight commitment and connecting the body's rotational energy through the lasso connection rather than relying on isolated limb strength. The sweep creates a whole-body lever system where the shoulders serve as the pivot, the lassoed leg generates lift, and the sleeve grip prevents escape, producing force that dramatically exceeds what any single limb could generate in isolation.",
     "key_principles": [
-      "TODO"
+      "Maintain continuous lasso hook tension throughout the entire sweep motion, as any slack allows the opponent to extract their arm and collapse the lever system",
+      "Generate sweep force through hip extension and body rotation rather than isolated arm or leg pulling, connecting the kinetic chain through the lasso fulcrum",
+      "Time the sweep to coincide with the opponent's forward weight commitment, using their own momentum to multiply the sweep's effectiveness",
+      "Use the free leg as a steering mechanism to direct the opponent's falling trajectory toward mount rather than allowing them to roll through",
+      "Connect sleeve grip force to body movement so the entire kinetic chain operates as a unified system transmitting rotational energy",
+      "Complete the sweep by following through to mount position immediately, closing the gap before the opponent can recover guard"
     ],
     "setup_requirements": [
-      "TODO"
+      "Lasso hook fully threaded through opponent's arm with shin pressing against their tricep and foot crossing their back",
+      "Same-side sleeve grip secured with palm-up control preventing the opponent from retracting their lassoed arm",
+      "Inverted position established with body weight distributed across shoulder blades and upper back, never on the neck",
+      "Free leg posted on opponent's hip or near-side thigh providing distance control and directional leverage for the sweep",
+      "Opponent's weight neutral or slightly forward, not fully committed backward where overhead sweep angle is unavailable"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Inverted Position",
+        "description": "From standard lasso guard with hook and sleeve grip secured, initiate a controlled backward roll onto your shoulders while maintaining constant tension on the lasso hook. Distribute weight across the shoulder blades and upper back with chin tucked to chest, never loading the cervical spine. The roll must be fluid and committed rather than hesitant, as partial inversions telegraph the technique."
+      },
+      {
+        "step_number": 2,
+        "action": "Set Free Leg Position",
+        "description": "Post the non-lasso foot firmly on the opponent's hip or near-side thigh, creating a secondary control point that prevents them from stepping laterally to change the sweep angle. This foot serves as your steering mechanism throughout the sweep, directing where the opponent's weight travels. The posting pressure should be active and adjustable, not passive."
+      },
+      {
+        "step_number": 3,
+        "action": "Read Weight Distribution",
+        "description": "Before committing to the sweep, assess whether the opponent's weight is forward, neutral, or backward. Forward weight is ideal as it feeds directly into the overhead mechanics. Neutral weight can be drawn forward with a subtle sleeve pull. Backward weight signals you should switch to berimbolo entry instead. This read takes less than one second but determines your attack selection entirely."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate Rotational Force",
+        "description": "Simultaneously extend the lassoed leg upward while pulling downward with the sleeve grip and pushing with the free leg, creating a rotational force couple that lifts the opponent's center of gravity above the fulcrum point. The power comes from hip extension driving through the lasso hook, not from arm strength pulling the sleeve. Your entire body acts as a lever with the shoulders as the pivot point."
+      },
+      {
+        "step_number": 5,
+        "action": "Direct Sweep Trajectory",
+        "description": "As the opponent begins to lift, use the free leg to steer their body laterally so they land flat on their back rather than rolling through to a recoverable position. The steering direction should angle slightly to the side opposite the lasso, preventing them from posting with their free hand. This directional control is what separates clean mount finishes from scramble situations."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow Through to Mount",
+        "description": "As the opponent is swept overhead and their back approaches the mat, immediately hip forward out of the inverted position and transition to mount. Drive your hips onto their hips before they can establish any frames or defensive structures. The follow-through must be seamless with no pause between sweep completion and mount establishment, as any gap allows guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Mount Position",
+        "description": "Upon landing in mount, immediately drop weight through your hips, establish a wide base with your knees, and post hands for stability. Release the lasso hook and sleeve grip to establish proper mount grips. Prevent the opponent's initial escape attempt by settling heavy before they recover from the sweep disorientation. Transition from sweep mechanics to standard mount control as rapidly as possible."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent sits weight backward and drops hips low to resist the overhead lifting force",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to berimbolo entry by threading the free leg behind their back. Their retreated weight makes berimbolo rotation significantly easier since their center of gravity is already moving in the direction of the back take.",
+        "targets_outcome": "Inverted Lasso Guard/Bottom"
+      },
+      {
+        "counter": "Opponent strips the sleeve grip using a two-on-one grip break, severing the pulling connection",
+        "effectiveness": "High",
+        "your_response": "Immediately re-grip the sleeve before they extract the lassoed arm, or transition to omoplata or triangle entry using the remaining lasso hook to control their posture while you set up the submission angle.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent steps laterally to change the sweep angle and avoid the overhead trajectory",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Follow their lateral movement with hip rotation to maintain the sweep angle, or convert to De La Riva hook on their lead leg and transition to a different guard system that addresses their new angle.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts free hand on the mat behind them to create a structural brace against the sweep",
+        "effectiveness": "Medium",
+        "your_response": "Target the posting arm with your free hand to strip the post, or redirect the sweep angle slightly lateral to bypass the post entirely. The posting hand cannot defend both directions simultaneously.",
         "targets_outcome": "Inverted Lasso Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing lasso hook tension during the sweep motion as the body extends",
+        "consequence": "Opponent extracts their arm mid-sweep, collapsing the entire lever system and leaving the attacker stranded in a vulnerable inverted position without control",
+        "correction": "Maintain constant pulling pressure with the lassoed leg throughout the entire sweep, treating the hook as a fixed mechanical connection that never slackens regardless of body position changes"
+      },
+      {
+        "error": "Attempting the overhead sweep when opponent's weight is fully retreated backward",
+        "consequence": "Insufficient forward momentum to complete the overhead lift, resulting in a stalled sweep that wastes significant energy and telegraphs the technique for future attempts",
+        "correction": "Read weight distribution before committing to the sweep. If the opponent keeps weight back, switch to berimbolo entry instead of forcing the overhead trajectory against unfavorable mechanics"
+      },
+      {
+        "error": "Using isolated arm strength to pull on the sleeve grip rather than generating force through body rotation",
+        "consequence": "Grip failure under load as forearms fatigue rapidly, weak sweep force that the opponent easily resists with basic posture, and unsustainable energy expenditure",
+        "correction": "Connect the sleeve pull to hip extension and body rotation, using the grip as a transmission point for whole-body rotational force rather than an independent pulling mechanism"
+      },
+      {
+        "error": "Inverting with body weight concentrated on the neck instead of distributing across shoulders and upper back",
+        "consequence": "Cervical spine compression creating injury risk, eliminated hip mobility preventing force generation, and inability to rotate safely through the sweep arc",
+        "correction": "Roll weight onto shoulder blades with chin tucked to chest, maintaining a broad contact surface across the upper back that supports dynamic hip movement"
+      },
+      {
+        "error": "Failing to follow through to mount after the opponent is swept overhead",
+        "consequence": "Opponent recovers guard during the transition gap between sweep completion and mount establishment, completely negating the positional gain from the sweep",
+        "correction": "Immediately hip forward from the inverted position to mount as the opponent's back contacts the mat, prioritizing position establishment with zero pause between sweep and consolidation"
+      },
+      {
+        "error": "Leaving the free leg passive without actively posting on the opponent's hip during the sweep",
+        "consequence": "Reduced sweep power due to missing a force multiplier, no directional control over the opponent's trajectory, and the opponent can step around the sweep angle freely",
+        "correction": "Actively post the free foot on the opponent's hip throughout the sweep, using it as both a steering mechanism to direct their fall and an additional force vector pushing them over the fulcrum"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Inversion Mechanics",
+        "focus": "Safe inversion technique and lasso hook maintenance",
+        "description": "Practice inverting from lasso guard with maintained hook tension against a stationary partner. Focus on smooth shoulder rolls with proper weight distribution across the upper back, chin tucked, never loading the neck. 20 repetitions per session building body awareness for the inverted position."
+      },
+      {
+        "phase": "Phase 2: Sweep Timing and Force Generation",
+        "focus": "Coordinating hip extension with sleeve pull against cooperative resistance",
+        "description": "Drill the overhead sweep motion with a compliant partner who provides light forward weight. Learn to time the extension when weight commits forward, connecting the lasso leg lift with sleeve pull as one coordinated movement. 15 repetitions focusing on the moment of force generation."
+      },
+      {
+        "phase": "Phase 3: Follow-Through and Mount Establishment",
+        "focus": "Seamless transition from inverted sweep completion to mount consolidation",
+        "description": "Practice the full sweep-to-mount sequence, emphasizing the follow-through phase where you hip forward from inverted position to mount with zero pause. Partner offers moderate resistance to guard recovery. 10 complete sweep-to-mount repetitions per round."
+      },
+      {
+        "phase": "Phase 4: Chain Attack Integration",
+        "focus": "Building the sweep-berimbolo dilemma system",
+        "description": "Add berimbolo entry as an alternative when the partner defends the sweep by retreating weight. Develop sensitivity to weight shifts that signal which attack to execute. Partner alternates defensive responses between forward defense and backward defense."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Executing the sweep under progressive resistance in positional sparring",
+        "description": "Positional sparring starting in established inverted lasso guard with escalating resistance from 50% to full competition intensity. Integrate the sweep into complete guard sequences including entries from spider guard and lasso guard transitions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Inverted Lasso Sweep?",
+        "answer": "The optimal timing is when the opponent commits their weight forward, either through intentional pressure passing or reactive forward lean while addressing the guard. Forward weight transfers the opponent's center of gravity ahead of their base, making the overhead sweep dramatically more effective as the lasso hook only needs to redirect existing momentum rather than generate lift from neutral. Watch for the opponent's shoulders moving ahead of their hips as the primary timing cue, which typically occurs when they reach toward your grips or attempt to establish passing pressure."
+      },
+      {
+        "question": "What conditions must exist in your guard before you can attempt the Inverted Lasso Sweep?",
+        "answer": "Four conditions must be met simultaneously: the lasso hook must be fully threaded with shin pressure on the opponent's tricep and foot across their back creating a solid mechanical connection; the same-side sleeve grip must be secured preventing arm retraction; the inversion must be completed with weight on shoulders rather than neck; and the free leg must be positioned on the opponent's hip for steering and force multiplication. Missing any single element significantly reduces sweep probability and may leave you in a vulnerable inverted position without offensive capability."
+      },
+      {
+        "question": "What is the most critical mechanical detail that generates sweep force in this technique?",
+        "answer": "The force comes from simultaneous hip extension upward through the lassoed leg combined with downward pulling through the sleeve grip, creating a rotational couple that lifts the opponent over the fulcrum point. The body acts as a unified lever system where the shoulders serve as the pivot, the lassoed leg generates the lifting force, and the sleeve grip prevents the opponent from posturing away. This whole-body mechanical advantage dramatically exceeds what isolated limb strength can produce, which is why connecting body rotation to grip tension is essential."
+      },
+      {
+        "question": "What is the most common failure point during the Inverted Lasso Sweep execution?",
+        "answer": "The most common failure point is losing lasso hook tension during the sweep motion itself. As the body extends and rotates through the sweep arc, practitioners often inadvertently create slack in the lasso connection, allowing the opponent to retract their arm mid-sweep. This collapses the entire lever system and strands the attacker in a compromised inverted position. The correction is treating the lasso hook as a fixed mechanical connection that must maintain constant tension regardless of body position changes throughout the sweep's full range of motion."
+      },
+      {
+        "question": "What grip adjustments should you make if the opponent actively fights your sleeve control during setup?",
+        "answer": "If the opponent actively fights the sleeve grip, first reinforce it with a temporary two-on-one grip to break their resistance, then re-establish single-hand control. If the grip breaks entirely, you must either immediately re-grip before they extract the lassoed arm or transition to an alternative attack that does not require the sleeve connection, such as a triangle entry using the lasso hook to control their posture. Never attempt the sweep without the sleeve grip secured, as the pulling connection is essential for generating the rotational force that powers the overhead trajectory."
+      },
+      {
+        "question": "Which direction should force be applied during the sweep and why is the angle critical?",
+        "answer": "The primary force direction is upward and slightly diagonal through the lassoed leg extension, combined with downward and lateral pulling through the sleeve grip. This creates a rotational force vector rather than a linear push or pull. The diagonal component is critical because pure vertical lifting allows the opponent to post their free hand and resist, while the rotational aspect takes them off their base laterally where effective posting is geometrically impossible. The free leg on the hip provides the lateral steering that converts vertical lift into the rotational sweep trajectory."
+      },
+      {
+        "question": "Your opponent successfully defends the overhead sweep by sitting their weight backward. How do you adjust your attack?",
+        "answer": "When the opponent sits weight back to defend the overhead sweep, immediately transition to a berimbolo entry by threading the free leg behind their back and initiating hip rotation toward their back. Their retreated weight posture makes berimbolo rotation significantly easier because their center of gravity has already shifted backward, reducing their ability to drive forward to prevent the rotation. This creates the fundamental inverted lasso dilemma: defending the sweep enables berimbolo, defending berimbolo enables the sweep. Reading this weight shift and switching attacks within one second is the key skill."
+      },
+      {
+        "question": "If the sweep is partially completed but the opponent begins recovering guard before you establish mount, what chain attack follows?",
+        "answer": "If the opponent is partially swept but begins recovering before you establish mount, immediately transition to knee on belly or side control rather than fighting for full mount from a compromised angle. From knee on belly you maintain the positional advantage gained from the partial sweep while threatening submissions and further advancement. Alternatively, if the opponent turtles during their recovery attempt, follow with a back take by securing seat belt grip and inserting hooks. Never abandon the positional gain by resetting to neutral when partial completion still offers advancement opportunities."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Inverted Lasso Sweep."
+    "safety_considerations": "The Inverted Lasso Sweep involves inverted body positioning that places significant load on the cervical spine and shoulders. Always distribute weight across the shoulder blades and upper back rather than concentrating force on the neck vertebrae. Beginners should develop inversion comfort through progressive shoulder roll drills before attempting this technique under resistance. Training partners should avoid explosive stacking responses that could compress the inverted practitioner's spine. If any neck or shoulder discomfort occurs during drilling, immediately abandon the inverted position and return to upright guard. Controlled repetition at reduced intensity is essential before integrating into live sparring."
   },
   "defender": {
     "name": "Inverted Lasso Sweep Defender",
-    "description": "TODO: Write defender description for Inverted Lasso Sweep.",
-    "overview": "TODO: Write defender overview for Inverted Lasso Sweep.",
+    "description": "Master defense against the Inverted Lasso Sweep. Recognition cues, counter-timing, base maintenance, and counter-attack options for preventing the overhead sweep from inverted lasso guard.",
+    "overview": "Defending the Inverted Lasso Sweep requires early recognition of the inversion attempt and immediate base adjustment to prevent the overhead sweep mechanics from developing. The defender's primary challenge is managing forward weight distribution, as the sweep specifically exploits forward momentum to generate rotational force through the lasso fulcrum. Successful defense combines posture control, strategic weight placement, and systematic grip fighting to either prevent the sweep entirely or convert failed sweep attempts into guard passing opportunities. Understanding the attacker's dilemma system between sweep and berimbolo is essential, as naive defensive responses to one attack often directly enable the other, requiring a balanced defensive approach that addresses both threats simultaneously.",
     "key_principles": [
-      "TODO"
+      "Recognize inversion initiation within one to two seconds and respond immediately before the sweep angle is fully established",
+      "Manage forward weight carefully, maintaining a neutral center of gravity that neither feeds the sweep nor opens berimbolo entries",
+      "Control the free leg that is not involved in the lasso to eliminate the attacker's steering mechanism and offensive options",
+      "Work to extract the lassoed arm systematically through grip sequence rather than explosively ripping it free against the structure",
+      "Maintain connection with the bottom player rather than creating distance that enables re-engagement with better angles",
+      "Threaten counter-attacks and passing sequences to force the bottom player to use their grips defensively rather than offensively",
+      "Keep hips mobile and angled rather than squaring up, which makes you vulnerable to bilateral sweep mechanics from the inverted position"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player rolls backward onto shoulders while maintaining the lasso hook, transitioning from upright to inverted posture with visible shoulder contact on the mat",
+      "Free leg posts on your hip or begins threading behind your back, indicating either overhead sweep or berimbolo setup respectively",
+      "Increased pulling tension on the sleeve grip combined with upward pressure from the lassoed leg, creating the lifting force couple that powers the sweep",
+      "Bottom player's hips elevate significantly above mat level, establishing the fulcrum height needed for the overhead sweep trajectory",
+      "Sleeve grip tightens and begins pulling laterally and downward while the body inverts, creating the rotational force couple characteristic of the sweep entry"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drop weight backward and sprawl hips to remove forward momentum from the sweep mechanics",
+        "when_to_use": "Immediately upon recognizing the inversion initiation, before the sweep angle and lifting force are fully established",
         "targets_outcome": "Inverted Lasso Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Sweep force is neutralized and the bottom player must either hold a failed inverted position that drains energy or return to upright guard without having advanced",
+        "risk": "Excessive backward weight shift opens berimbolo entry as your center of gravity moves behind your base, creating the exact condition the berimbolo exploits"
+      },
+      {
+        "action": "Strip the sleeve grip using a two-on-one grip break while maintaining controlled forward pressure on the inverted opponent",
+        "when_to_use": "When the bottom player has established the inversion but has not yet generated full sweep momentum, creating a window for grip work",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Breaking the sleeve connection eliminates the pulling force needed for the sweep, degrading the position to basic open guard where standard passing applies",
+        "risk": "Time spent grip fighting may allow the bottom player to adjust their angle and transition to berimbolo or alternative attack before the grip breaks"
+      },
+      {
+        "action": "Control the free leg by grabbing the ankle or pinning it with your hip to eliminate the attacker's sweep steering mechanism",
+        "when_to_use": "When the bottom player posts their free foot on your hip during the sweep setup phase, before they commit to a specific attack direction",
+        "targets_outcome": "Inverted Lasso Guard/Bottom",
+        "if_successful": "Without the free leg providing directional force and hip control, sweep mechanics are severely weakened and the attacker cannot steer the sweep or initiate berimbolo",
+        "risk": "Dedicating one hand to free leg control reduces your own posting ability and limits the number of hands available for base recovery or arm extraction"
+      },
+      {
+        "action": "Follow the opponent's rotation with a cartwheel pass, matching their sweep movement with counter-rotation to neutralize the angle",
+        "when_to_use": "When the sweep motion has already begun and direct resistance against the established rotational force would feed into their momentum",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Cartwheel counter-rotation neutralizes the sweep angle completely and can lead directly to a passing position or back control on the far side",
+        "risk": "Mistimed cartwheel can result in losing base entirely and being swept more emphatically than a direct resistance attempt would produce"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Top",
-        "how": "TODO"
+        "outcome": "Open Guard/Bottom",
+        "how": "Strip the sleeve grip connection and systematically extract the lassoed arm to break down the inverted lasso structure entirely, forcing the bottom player into basic open guard where standard pressure passing and movement passing sequences can be applied effectively"
+      },
+      {
+        "outcome": "Inverted Lasso Guard/Bottom",
+        "how": "Neutralize the sweep attempt by managing weight distribution and controlling the free leg, keeping the bottom player stuck in an energetically demanding inverted position that drains their stamina rapidly without yielding any offensive results, eventually forcing them to abandon the inversion"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Driving forward pressure directly into the inverted opponent's elevated hips",
+        "consequence": "Feeds directly into the sweep mechanics by adding your own forward momentum to their rotational force, making the overhead sweep virtually unstoppable once your weight commits",
+        "correction": "Angle pressure toward their shoulders and chest rather than hips, or retreat weight slightly backward to remove the forward momentum component that the sweep requires to generate lift"
+      },
+      {
+        "error": "Pulling explosively to extract the lassoed arm without first addressing the grip sequence",
+        "consequence": "The lasso structure tightens under explosive force like a finger trap mechanism, wasting energy and potentially creating momentum the opponent can redirect into their sweep",
+        "correction": "Systematically address the ankle grip on your lassoed arm first to create slack in the lasso, then extract the arm with a controlled withdrawal once the structural tension is reduced"
+      },
+      {
+        "error": "Creating excessive distance by stepping far back away from the inverted guard player",
+        "consequence": "Opens significant space for berimbolo entries and allows the bottom player to disengage, re-establish better attacking angles, and reinvert with superior positioning",
+        "correction": "Stay connected with strategic pressure points on their shoulders while managing weight distribution carefully to prevent both the sweep and berimbolo without creating exploitable space"
+      },
+      {
+        "error": "Squaring hips directly facing the inverted opponent without maintaining a lateral angle",
+        "consequence": "Makes you equally vulnerable to sweep in both directions and provides the ideal mechanics for the overhead lift where force is applied symmetrically through your centerline",
+        "correction": "Maintain angled positioning with one hip slightly back, reducing bilateral sweep exposure and creating natural passing angles that the inverted position cannot address as effectively"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the first physical cue that indicates an Inverted Lasso Sweep is being attempted?",
+        "answer": "The first cue is the bottom player dropping their shoulders toward the mat while maintaining the lasso hook, initiating the backward roll into inverted position. This is accompanied by a sudden increase in sleeve grip tension as they prepare to generate rotational force. The shoulder drop typically occurs one to two seconds before the sweep mechanics fully develop, creating a critical reaction window. Recognizing this transitional movement rather than waiting for the completed inversion allows for preventive defense that is dramatically more effective than reactive countering."
+      },
+      {
+        "question": "Why is it dangerous to drive forward when you feel the opponent inverting beneath you?",
+        "answer": "Forward driving feeds directly into the sweep's mechanical design. The inverted lasso sweep exploits forward momentum by redirecting it upward through the lasso fulcrum. Your forward weight becomes their sweep energy, and the more aggressively you drive forward, the less effort the bottom player needs to generate the overhead rotation. Instead of driving forward, either maintain neutral weight with hips back or execute a controlled lateral movement that changes the sweep angle without adding forward momentum to their technique."
+      },
+      {
+        "question": "What defensive strategy addresses both the sweep and berimbolo threats from inverted lasso guard simultaneously?",
+        "answer": "The key strategy is controlling the opponent's free leg while maintaining neutral weight distribution. The free leg is the mechanism that differentiates sweep setup from berimbolo entry: posting on the hip for overhead sweep direction versus threading behind the back for berimbolo rotation. By controlling this leg with your hand or pinning it with your hip, you eliminate both offensive pathways simultaneously. Combined with systematic arm extraction work on the lasso, this addresses the fundamental attacking dilemma without exposing yourself to either attack vector."
+      },
+      {
+        "question": "Your opponent has fully established inverted lasso and begins the sweep motion. What is your highest-percentage defensive response at this point?",
+        "answer": "When the sweep motion has already started with established angle and momentum, direct resistance against the rotational force is low-percentage and energy-intensive. Your best response is to follow the sweep direction with a cartwheel or counter-rotation, converting their sweep momentum into your passing opportunity. By matching their rotational direction rather than fighting against it, you neutralize the angle advantage while potentially establishing a passing position. This requires committing fully to the counter-movement rather than half-resisting, which typically results in being swept anyway while wasting energy."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying inversion cues and developing reaction speed",
+        "description": "Partner drills inverted lasso entries at various speeds while the defender focuses solely on identifying the inversion initiation cue and calling it out within one second. No counter-techniques yet, purely developing the visual and tactile pattern recognition that enables effective defensive responses."
+      },
+      {
+        "phase": "Phase 2: Defensive Positioning",
+        "focus": "Maintaining neutral weight and controlling the free leg against cooperative attempts",
+        "description": "Practice maintaining neutral weight distribution and controlling the opponent's free leg against cooperative sweep attempts at fifty percent speed. Develop the ability to keep hips mobile and angled while addressing the lasso structure without feeding forward momentum into the sweep."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Development",
+        "focus": "Integrating cartwheel passes and systematic arm extraction against increasing resistance",
+        "description": "Add cartwheel counter-rotation and systematic arm extraction sequences against partners who provide progressive sweep resistance. Develop timing for each counter-technique and learn to select the appropriate response based on the sweep's development stage."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full-intensity positional sparring from established inverted lasso guard",
+        "description": "Positional sparring starting in established inverted lasso guard where the bottom player works all attacks while the defender integrates recognition, positioning, and counters at full competition intensity. Measure success by sweep prevention rate and passing conversion rate."
       }
     ]
   }

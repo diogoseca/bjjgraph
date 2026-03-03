@@ -1,13 +1,405 @@
 {
   "name": "Bridge Defense from Mounted Triangle",
-  "description": "",
-  "tags": [],
+  "description": "Master bridge defense from mounted triangle in BJJ. Explosive escape using bridge mechanics to disrupt triangle configuration and recover to safer position.",
+  "tags": [
+    "escape technique",
+    "mounted triangle defense",
+    "bridge escape",
+    "defensive transition",
+    "mount escape",
+    "survival technique"
+  ],
   "from_position": "Mounted Triangle/Bottom",
   "outcomes": [
     {
       "to": "Mount/Bottom",
-      "probability": 100,
+      "probability": 35,
       "result": "success"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 5,
+      "result": "success"
+    },
+    {
+      "to": "Mounted Triangle/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 25,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 35,
+  "overview": "The bridge defense from mounted triangle is a critical survival technique for escaping one of Brazilian Jiu-Jitsu's most dangerous hybrid positions. When caught in a mounted triangle, the bottom player faces simultaneous threats from triangle choke, armbar transitions, and positional advancement to back control. The bridge defense exploits a fundamental vulnerability in the mounted triangle configuration: the attacker's commitment to triangle mechanics necessarily compromises their mount stability, as the asymmetric leg positioning reduces the base width available for absorbing upward force.\n\nThe technique centers on explosive bridging at the precise moment the top player commits weight forward to finish the triangle or adjust their angle. By driving hips upward at a forty-five degree angle toward the weaker side of the opponent's base, the bottom player disrupts the triangle lock and creates space to extract the trapped shoulder and arm from the triangle configuration. The bridge must be timed with the opponent's finishing attempts or weight shifts, as a well-timed bridge against a committed finisher generates maximum positional disruption while a mistimed bridge wastes energy and may tighten the choke.\n\nStrategically, this technique serves as both a direct escape method and a positional disruption tool within a layered defensive system. Even unsuccessful bridges force the top player to address base stability, momentarily reducing their finishing pressure and creating windows for alternative escapes such as frame-based hip movement or arm extraction. Advanced practitioners chain the bridge defense with shrimp escapes and elbow-knee frames to create multi-layered defensive sequences that systematically degrade the mounted triangle control. The bridge is highest-percentage when executed early, before the triangle is fully locked and cinched, making recognition and reaction speed essential defensive attributes.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Angled Bridge to Weak Side",
+      "description": "Bridge at a forty-five degree angle specifically targeting the side where the opponent's bottom leg is posted. This direction attacks the narrowest base point in the mounted triangle configuration, maximizing the disruption generated per unit of force. Requires reading which side the opponent's weight is committed toward.",
+      "when_to_use": "When you can identify the opponent's weaker base side through weight distribution feel or visual recognition of their posting leg position."
+    },
+    {
+      "variant_name": "Bridge to Immediate Guard Recovery",
+      "description": "Combine the explosive bridge with an immediate hip escape and knee insertion during the disruption window. Rather than simply dislodging the triangle, this variant chains the bridge directly into half guard recovery by threading the near-side knee across the opponent's hip as the triangle loosens. Requires higher coordination but yields a superior defensive position.",
+      "when_to_use": "When the initial bridge creates sufficient space and the opponent's triangle lock loosens enough to allow knee insertion before they can re-settle."
+    },
+    {
+      "variant_name": "Posting Hand Trap Bridge",
+      "description": "Before bridging, trap the opponent's posting hand or wrist on the side you intend to bridge toward. This removes their primary base recovery tool, dramatically increasing the effectiveness of the bridge by preventing them from catching their balance. Requires the free arm to have access to the posting hand.",
+      "when_to_use": "When your free arm can reach and control the opponent's posting hand without exposing it to kimura or americana attacks during the trapping motion."
+    }
+  ],
+  "position_integration": "The bridge defense from mounted triangle occupies a critical niche within the defensive escape hierarchy from one of BJJ's most dangerous positions. It serves as both a standalone escape method and a positional disruption tool that opens windows for secondary escapes like hip movement and arm extraction. Within the broader mount defense system, the bridge represents the explosive option that complements frame-based and shrimp escapes, creating a multi-layered defensive approach. When chained with elbow escapes and frame-based movement, the bridge defense forces the top player to constantly address base stability, reducing their ability to commit fully to submission finishes. This technique connects to the fundamental bridging mechanics used in standard mount escapes but requires specific adaptations for the asymmetric triangle configuration.",
+  "conditions": [
+    "Bottom player is trapped in mounted triangle configuration with at least one arm inside the triangle structure",
+    "Triangle lock is not yet fully cinched with a deep figure-four configuration",
+    "Bottom player retains ability to plant at least one foot flat on the mat for bridge drive",
+    "Opponent's base has an identifiable weak direction due to asymmetric triangle leg positioning",
+    "Bottom player has sufficient energy reserves for an explosive movement"
+  ],
+  "related_content": [
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Source position where this escape is attempted from bottom"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary destination position on successful bridge escape"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternate favorable destination when bridge chains into guard recovery"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when opponent takes back during bridge attempt"
+    },
+    {
+      "name": "Upa Escape",
+      "relationship": "Related bridge-based escape sharing similar mechanics from mount positions"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Complementary systematic escape that chains well after a bridge disruption"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Fundamental bridging technique sharing core hip drive mechanics"
+    },
+    {
+      "name": "Mounted Triangle Finish",
+      "relationship": "Submission threat that drives the urgency for this escape technique"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Related mount variation from which mounted triangle is commonly entered"
+    },
+    {
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Alternative escape technique that can follow a partially successful bridge"
+    }
+  ],
+  "attacker": {
+    "name": "Bridge Defense from Mounted Triangle Attacker",
+    "description": "Master the bridge defense escape from mounted triangle. Step-by-step bridging mechanics, timing windows, and follow-up sequences for escaping triangle control from bottom.",
+    "overview": "The bridge defense from mounted triangle is executed by the bottom player trapped in the mounted triangle configuration. As the attacker executing this escape, your primary objective is to use explosive hip drive to disrupt the triangle structure and create enough space to either dislodge the triangle entirely or chain into secondary escapes. The technique requires precise timing coordinated with the top player's weight shifts and finishing attempts, combined with proper bridging mechanics that target the weakest point of the opponent's asymmetric base. Success depends on reading the opponent's commitment level, protecting yourself from submission during the bridge, and immediately capitalizing on any space created before the opponent can re-establish control.",
+    "key_principles": [
+      "Time the bridge to coincide with the opponent's forward weight commitment during finishing attempts",
+      "Bridge at a forty-five degree angle toward the opponent's weakest base point rather than straight upward",
+      "Maintain chin tuck throughout the bridge to prevent the choke from tightening during the explosive movement",
+      "Protect the trapped arm by keeping it bent and close to your body to prevent armbar transition",
+      "Follow through completely on the bridge rather than stopping at the peak of the movement",
+      "Immediately chain into secondary escapes when the bridge creates space rather than pausing",
+      "Conserve energy for one decisive bridge rather than multiple weak attempts"
+    ],
+    "setup_requirements": [
+      "Plant at least one foot flat on the mat close to your hips to generate maximum bridge power",
+      "Establish chin tuck and turn head toward trapped arm side to minimize choke pressure during bridge",
+      "Identify the opponent's weak base side by feeling their weight distribution through the triangle pressure",
+      "Protect trapped arm in bent position gripping own collar, opposite bicep, or opponent's leg",
+      "Wait for the opponent's weight to shift forward during a finishing attempt or angle adjustment"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive posture",
+        "description": "Immediately tuck your chin toward your chest and turn your head toward your trapped arm side. Bend the trapped arm tightly against your body, gripping your own collar or opposite bicep to prevent extension. Place your free hand as a frame against the opponent's hip on the side you plan to bridge toward. This defensive posture simultaneously reduces choking pressure and protects against armbar transition."
+      },
+      {
+        "step_number": 2,
+        "action": "Plant feet for bridge drive",
+        "description": "Position both feet flat on the mat as close to your hips as possible. If the triangle configuration restricts one leg, ensure at least one foot is solidly planted with the knee bent at approximately ninety degrees. Dig your heels into the mat to create a stable launching platform. Wider foot placement generates more lateral bridge power while closer placement maximizes vertical lift."
+      },
+      {
+        "step_number": 3,
+        "action": "Identify bridge direction",
+        "description": "Feel for the opponent's weight distribution through the triangle pressure on your shoulder and neck. The weak side is typically where their bottom posting leg is positioned, as this leg carries less weight than their triangle structure side. The asymmetric nature of the mounted triangle always creates a preferential bridge direction where the opponent has less base to resist your upward force."
+      },
+      {
+        "step_number": 4,
+        "action": "Trap opponent's posting point",
+        "description": "If accessible, use your free arm to control the opponent's posting hand or wrist on the side you intend to bridge toward. This removes their primary balance recovery tool and dramatically increases bridge effectiveness. If the posting hand is not accessible, frame on their hip to redirect force during the bridge. Do not overreach and expose your free arm to submission attacks during this setup phase."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute explosive bridge",
+        "description": "Drive your hips upward and toward the identified weak side at a forty-five degree angle using maximum hip extension force. Generate power from your planted feet through your hips in one explosive movement. The angle is critical because bridging straight up allows the opponent to settle back down, while the angled bridge attacks their base laterally where the mounted triangle provides the least structural resistance to force."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through bridge momentum",
+        "description": "Continue driving through the bridge rather than stopping at the peak of the movement. Your goal is to create enough displacement that the opponent must release or significantly loosen the triangle to recover their base. Turn your shoulders in the bridge direction to add rotational force to the linear hip drive. Maintain chin tuck throughout to prevent the choke from tightening during the explosive motion."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract from triangle structure",
+        "description": "As the triangle loosens from the bridge disruption, immediately work to extract your trapped shoulder and arm from the triangle configuration. Pull your trapped arm toward your hip while turning your body away from the triangle leg. Even partial extraction dramatically reduces the triangle's effectiveness and opens space for further escape movement through hip escape or guard recovery."
+      },
+      {
+        "step_number": 8,
+        "action": "Recover defensive position",
+        "description": "Immediately transition to the best available defensive position. If the triangle is fully disrupted, establish standard mount defense with elbow-knee frames. If space allows, insert your knee across the opponent's hip to recover half guard. Do not pause after the bridge to assess the situation because the opponent will use any hesitation to re-establish the mounted triangle or transition to an alternative attack."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts wide on the bridge side to absorb force and maintain base",
+        "effectiveness": "High",
+        "your_response": "If the initial bridge is absorbed, immediately chain into a hip escape on the opposite side while the opponent's weight is committed to their posting leg. The posting action opens space on the other side that you can exploit with shrimping movement.",
+        "targets_outcome": "Mounted Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent tightens triangle lock and drives hips forward during bridge attempt",
+        "effectiveness": "High",
+        "your_response": "Abandon the bridge immediately and return to defensive posture with reinforced chin tuck. Wait for the next finishing attempt before re-attempting. The tightening response often exhausts the opponent's squeeze, creating a better window on the subsequent attempt.",
+        "targets_outcome": "Mounted Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent releases triangle and transitions to back control as you bridge and turn",
+        "effectiveness": "Medium",
+        "your_response": "If you feel the triangle release and the opponent shifting to your back, immediately drop your hips flat, turn to face the opponent, and establish frames before they can secure hooks. Getting your back to the mat before hooks are inserted prevents the full back take.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent shifts to armbar by pivoting hips during your bridge setup",
+        "effectiveness": "Medium",
+        "your_response": "The armbar transition requires the opponent to release triangle pressure momentarily. Use this opening to bend your trapped arm aggressively and turn into the opponent. Their hip pivot during the armbar transition often creates space for you to recover to mount bottom or insert a knee for half guard.",
+        "targets_outcome": "Mount/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Bridging straight upward instead of at an angle toward the opponent's weak base side",
+        "consequence": "The opponent absorbs the vertical force easily by simply settling their weight back down, wasting your energy without creating meaningful disruption to the triangle configuration",
+        "correction": "Always bridge at a forty-five degree angle toward the side where the opponent's base is weakest, typically the side of their bottom posting leg in the triangle configuration"
+      },
+      {
+        "error": "Extending the trapped arm during the bridge attempt",
+        "consequence": "Creates an immediate armbar opportunity for the opponent who can transition to a mounted armbar finish as your arm extends during the explosive movement",
+        "correction": "Keep the trapped arm bent at ninety degrees and grip your own collar, opposite bicep, or opponent's leg throughout the entire bridge sequence"
+      },
+      {
+        "error": "Telegraphing the bridge with obvious foot repositioning and hip loading",
+        "consequence": "The opponent recognizes the setup and preemptively adjusts their base or tightens the triangle before you can generate full explosive force",
+        "correction": "Make foot positioning adjustments subtle and incremental. Set your feet during natural defensive movements rather than making an obvious preparation sequence"
+      },
+      {
+        "error": "Lifting the chin or turning the head away from the trapped arm during the bridge",
+        "consequence": "Exposes the neck to increased triangle pressure during the explosive movement, potentially causing the choke to tighten rather than loosen during the escape",
+        "correction": "Maintain aggressive chin tuck with head turned toward the trapped arm side throughout the entire bridge motion to minimize neck exposure"
+      },
+      {
+        "error": "Attempting multiple weak bridges instead of committing to one explosive effort",
+        "consequence": "Each weak bridge depletes energy without creating sufficient disruption, while training the opponent to anticipate and absorb your bridge timing",
+        "correction": "Conserve energy for one fully committed explosive bridge. Wait for optimal timing rather than throwing repeated half-hearted attempts"
+      },
+      {
+        "error": "Pausing after a successful bridge disruption instead of immediately chaining into guard recovery",
+        "consequence": "The opponent uses the pause to re-establish the triangle lock or transition to an alternative dominant position before you capitalize on the space created",
+        "correction": "Immediately chain the bridge into hip escape, knee insertion, or arm extraction without any pause to assess the situation"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Bridge Mechanics",
+        "focus": "Developing explosive hip drive and directional bridging",
+        "description": "Practice bridging from mounted triangle position with a compliant partner. Focus on planting feet correctly, generating maximum hip extension force, and driving at the proper forty-five degree angle. Partner holds static triangle without finishing pressure. Repeat twenty times per side, building power and angle consistency."
+      },
+      {
+        "phase": "Phase 2: Timing and Recognition",
+        "focus": "Reading opponent's weight shifts and identifying bridge windows",
+        "description": "Partner applies moderate triangle pressure and periodically shifts weight forward to simulate finishing attempts. Bottom player identifies weight shift moments and executes bridges during these optimal windows. Focus on patience between attempts and recognizing the difference between probing and committed weight shifts."
+      },
+      {
+        "phase": "Phase 3: Chain Escapes",
+        "focus": "Connecting bridge to secondary escapes and guard recovery",
+        "description": "After executing the bridge, immediately chain into hip escape and knee insertion for half guard recovery. Partner provides moderate resistance and attempts to re-establish triangle after bridge disruption. Develop the ability to flow from bridge to shrimp to guard recovery as one continuous movement sequence."
+      },
+      {
+        "phase": "Phase 4: Live Resistance",
+        "focus": "Executing the complete escape under full resistance",
+        "description": "Positional sparring starting from mounted triangle. Bottom player works to escape using bridge defense and all chained escapes against progressive resistance from seventy to one hundred percent. Top player actively finishes and transitions. Develop ability to execute the technique under realistic pressure and stress conditions."
+      },
+      {
+        "phase": "Phase 5: Integration Drilling",
+        "focus": "Incorporating bridge defense into complete mounted triangle defense system",
+        "description": "Flow between all mounted triangle escapes including bridge defense, frame-based escapes, arm extraction, and hip movement. Partner varies pressure and attack timing to force bottom player to select the appropriate escape. Develop automatic decision-making for when to bridge versus when to use alternative escapes."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for executing the bridge against a mounted triangle?",
+        "answer": "The optimal timing is when the opponent commits their weight forward to finish the triangle or adjusts their angle for a tighter choke. This forward weight commitment reduces their ability to post backward and absorb the upward bridge force. You feel this as increased pressure on your chest and neck accompanied by their hips lifting slightly to create finishing angle. Bridging during this commitment window catches them at their most vulnerable base position."
+      },
+      {
+        "question": "Why should you bridge at an angle rather than straight upward?",
+        "answer": "Bridging straight up allows the opponent to settle their weight back down using gravity, negating your effort. The forty-five degree angle attacks the weakest point of the mounted triangle base, typically the side where the opponent's posting leg provides less structural support. The asymmetric triangle configuration always creates a preferential direction where less base exists to resist lateral force, making angled bridges significantly more effective at disrupting the position."
+      },
+      {
+        "question": "What is the most critical defensive posture element to maintain throughout the bridge?",
+        "answer": "The chin tuck is the single most critical element. Throughout the entire bridge motion, the chin must remain tucked to the chest with the head turned toward the trapped arm side. Without the chin tuck, the explosive upward bridging motion can actually tighten the triangle choke by exposing more of the neck to the leg configuration. The chin tuck reduces available choking angle and prevents the bridge from becoming counterproductive."
+      },
+      {
+        "question": "How do you protect the trapped arm from armbar transition during the bridge?",
+        "answer": "Keep the trapped arm bent at approximately ninety degrees throughout the entire escape sequence, gripping your own collar in gi, your opposite bicep in no-gi, or the opponent's leg. Never allow the arm to extend during the bridge motion. The bent arm position prevents the opponent from isolating the limb for an armbar even if the triangle disruption creates transitional chaos. If you feel them pivot toward armbar, turn aggressively toward them while keeping the elbow tight."
+      },
+      {
+        "question": "Your opponent absorbs your bridge by posting wide on the bridge side - what is your immediate follow-up?",
+        "answer": "Immediately chain into a hip escape on the opposite side. When the opponent posts wide to absorb your bridge, their weight commits to that posting leg, opening space on the other side of their body. Use this asymmetry by hip escaping away from their committed post. This bridge-to-shrimp chain is more effective than repeating the bridge because the opponent's base adjustment for the bridge creates the vulnerability for the hip escape."
+      },
+      {
+        "question": "What should you do immediately after a successful bridge disrupts the triangle configuration?",
+        "answer": "Chain immediately into guard recovery without pausing. Insert your near-side knee across the opponent's hip to establish half guard, or continue the hip escape to create full guard recovery distance. Any pause allows the opponent to re-establish the triangle or transition to an alternative dominant position. The space created by a successful bridge is temporary and degrades within one to two seconds as the opponent adjusts, making immediate follow-up essential for converting the disruption into a meaningful positional escape."
+      },
+      {
+        "question": "How do you differentiate between when to attempt a bridge defense versus a frame-based escape from mounted triangle?",
+        "answer": "Use the bridge defense when the opponent is actively committing weight forward to finish, when the triangle is not yet fully locked, and when you have sufficient energy for an explosive effort. Use frame-based escapes when the opponent maintains stable pressure without committing to finishes, when the triangle is deeply locked making disruption unlikely, or when your energy is too depleted for explosive movement. The bridge is your high-risk, high-reward option while frame-based escapes offer a steadier but slower path to escape."
+      }
+    ],
+    "safety_considerations": "Bridge defense from mounted triangle requires careful awareness of neck positioning throughout the escape. Explosive bridging while trapped in a triangle can temporarily increase choking pressure if the chin tuck is not maintained. Never bridge directly into the triangle squeeze direction. Training partners should apply moderate triangle pressure during drilling rather than competition-level finishing force. Tap immediately if you feel lightheadedness, tingling, or loss of blood flow during practice. Partners should release immediately on any tap signal. Warm up the neck and spine thoroughly before drilling explosive bridging movements to prevent cervical strain."
+  },
+  "defender": {
+    "name": "Bridge Defense from Mounted Triangle Defender",
+    "description": "Counter the bridge escape from mounted triangle. Maintain triangle control, absorb bridge force, and capitalize on escape attempts with back takes and submission transitions.",
+    "overview": "As the defender maintaining the mounted triangle, your objective is to prevent the bottom player's bridge from disrupting your triangle configuration while capitalizing on their escape attempts to either maintain position or transition to an even more dominant control. The bridge defense creates a predictable moment of explosive movement from the bottom player that, when properly anticipated, can be absorbed through base adjustment or exploited through positional transitions. Understanding bridge mechanics from the top perspective allows you to recognize the setup, preemptively adjust your base, and convert failed escape attempts into tighter control or back take opportunities. The key insight is that the mounted triangle's asymmetric leg configuration creates a known weak direction that skilled bottom players will target, allowing you to prepare your base accordingly.",
+    "key_principles": [
+      "Anticipate bridge direction based on the bottom player's foot positioning and hip loading patterns",
+      "Maintain wide base with the posting leg on the weak side of your triangle configuration",
+      "Use head control with your free hand to reduce the bottom player's bridge effectiveness",
+      "Recognize bridge timing and preemptively shift weight to absorb upward force",
+      "Convert failed bridge attempts into tighter triangle configuration by re-settling immediately",
+      "Be ready to release triangle and transition to back control when the bridge creates turning momentum"
+    ],
+    "recognition_cues": [
+      "Bottom player begins repositioning feet flat on the mat close to their hips in preparation for bridge drive",
+      "Bottom player's hips load with tension and their lower back arches slightly as they prepare explosive upward movement",
+      "Bottom player's free arm reaches toward your posting hand or wrist attempting to trap your base point",
+      "Bottom player turns head aggressively toward trapped arm side and deepens chin tuck indicating imminent bridge attempt",
+      "Bottom player exhales sharply or takes a deep breath before the explosive movement"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post wide on the anticipated bridge side to absorb force and maintain base",
+        "when_to_use": "When you recognize the bottom player setting their feet and loading their hips for a bridge attempt",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "Bridge is absorbed with minimal disruption, you re-settle into triangle position and can immediately re-tighten the lock",
+        "risk": "Over-posting one direction leaves you vulnerable to hip escape on the opposite side"
+      },
+      {
+        "action": "Drive hips forward and tighten triangle squeeze during the bridge attempt",
+        "when_to_use": "When the bridge begins and you feel upward pressure but have sufficient base to resist the force",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "The increased triangle pressure discourages further bridge attempts and can accelerate the submission finish",
+        "risk": "Committing weight forward during a powerful bridge may result in being rolled if your base is insufficient"
+      },
+      {
+        "action": "Release triangle and transition to back control as bridge creates turning momentum",
+        "when_to_use": "When the bridge generates significant displacement and the bottom player's body begins turning during the movement",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You transition to back control with seat belt grip and hooks, upgrading from mounted triangle to an equally dominant position",
+        "risk": "Releasing the triangle without securing back grips may allow the bottom player to face you and recover guard"
+      },
+      {
+        "action": "Transition to armbar by catching the trapped arm as it extends during bridge motion",
+        "when_to_use": "When the bottom player's trapped arm extends or loosens during the explosive bridge movement",
+        "targets_outcome": "Mounted Triangle/Bottom",
+        "if_successful": "You transition to mounted armbar finish, converting their escape attempt into a different submission threat",
+        "risk": "The armbar transition requires releasing some triangle pressure, potentially giving the bottom player an escape window"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mounted Triangle/Bottom",
+        "how": "Maintain wide base on the anticipated bridge side, absorb the upward force through your posting leg, and immediately re-settle your weight and re-tighten the triangle once the bridge momentum dissipates. Use head control to prevent effective bridging angles."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the bridge creates significant momentum and the bottom player turns during the movement, release the triangle and flow with their turning motion. Establish seat belt grip over-under on their torso and insert hooks as they rotate. Their bridge energy becomes your transition fuel."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining a narrow base with posting leg close to the bottom player's body during finishing attempts",
+        "consequence": "The narrow base cannot absorb lateral bridge force, resulting in being displaced from the mounted triangle and potentially reversed",
+        "correction": "Keep posting leg wide on the weak side of your triangle configuration, especially when committing weight forward for finishing pressure"
+      },
+      {
+        "error": "Releasing head control to adjust triangle grip when sensing bridge preparation",
+        "consequence": "Without head control the bottom player can generate much more powerful bridges with unrestricted neck and upper body movement",
+        "correction": "Maintain head control as your primary defensive tool against bridges. Adjust triangle mechanics with your legs rather than sacrificing head control for grip changes"
+      },
+      {
+        "error": "Over-committing to triangle finish when the bottom player is actively loading for a bridge",
+        "consequence": "Forward weight commitment during finishing attempts is exactly when your base is most vulnerable to bridge disruption",
+        "correction": "Recognize bridge preparation cues and pause your finishing attempt to first address your base stability. Re-establish secure base before continuing the finish sequence"
+      },
+      {
+        "error": "Attempting to hold position rigidly rather than flowing with bridge momentum toward back take",
+        "consequence": "Fighting the bridge force head-on wastes energy and may result in complete position loss rather than transition to back control",
+        "correction": "When a bridge generates significant displacement, flow with the momentum and transition to back control rather than desperately trying to maintain an unstable mounted triangle"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "How do you identify which direction the bottom player will bridge from mounted triangle?",
+        "answer": "Watch for their foot positioning and hip loading patterns. The bridge will target the weakest point of your base, which is typically the side of your posting leg in the triangle configuration. You can feel their preparation through tension in their hips and see their feet repositioning flat on the mat close to their hips. Their free arm may also reach toward your posting hand on the anticipated bridge side. Recognizing these cues gives you time to widen your base preemptively."
+      },
+      {
+        "question": "When should you release the mounted triangle and transition to back control during a bridge attempt?",
+        "answer": "Release and transition when the bridge generates enough momentum that your mounted triangle position becomes unstable and difficult to maintain. The key indicator is when the bottom player's body begins turning significantly during the bridge motion, exposing their back. Rather than fighting a losing battle to maintain an unstable triangle, release the lock, establish a seat belt grip, and flow into back control. This converts their escape attempt into a transition to an equally dominant position."
+      },
+      {
+        "question": "What is your primary base adjustment when you anticipate a bridge from the bottom player?",
+        "answer": "Widen your posting leg on the anticipated bridge side, lowering your base closer to the mat and spreading the distance between your supporting points. This creates a wider structural foundation that can absorb the lateral force of an angled bridge. Simultaneously, use your free hand to control the bottom player's head by pushing it toward the mat, which reduces their ability to generate full bridging power by restricting their spinal extension and head movement."
+      },
+      {
+        "question": "How do you prevent the bottom player from chaining the bridge into a hip escape on the opposite side?",
+        "answer": "After absorbing the initial bridge by posting wide on one side, immediately re-center your weight and adjust your posting leg position to cover the opposite direction. The hip escape chain is the most dangerous follow-up to a failed bridge because your weight commits to one side during the posting adjustment. Address this by keeping your hips mobile and re-settling quickly after the bridge dissipates rather than maintaining a prolonged wide post that leaves the other side vulnerable."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Bridge Absorption",
+        "focus": "Developing base stability against explosive bridges",
+        "description": "Partner executes bridges from mounted triangle at increasing power levels. Practice maintaining position through proper posting and weight distribution. Focus on reading bridge direction and preemptively adjusting base width. Start with signaled bridges before progressing to unsignaled attempts."
+      },
+      {
+        "phase": "Phase 2: Counter Transitions",
+        "focus": "Converting bridge attempts into back takes and submission transitions",
+        "description": "Partner executes powerful bridges that create significant displacement. Rather than fighting to maintain mounted triangle, practice flowing with bridge momentum into back control with seat belt grip and hooks. Develop the recognition threshold for when to maintain versus when to transition."
+      },
+      {
+        "phase": "Phase 3: Predictive Defense",
+        "focus": "Recognizing bridge preparation cues and preemptive base adjustment",
+        "description": "Partner varies between bridge attempts, frame escapes, and passive defense. Practice reading the specific cues that indicate bridge preparation including foot positioning, hip loading, and free arm movement. Develop automatic base adjustment responses to bridge indicators before the explosive movement begins."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Maintaining mounted triangle against full escape attempts",
+        "description": "Full positional sparring from mounted triangle. Top player maintains position and works submissions while bottom player uses all available escapes including bridges. Develop ability to manage multiple escape threats simultaneously while progressing toward submission finish under realistic conditions."
+      }
+    ]
+  }
 }

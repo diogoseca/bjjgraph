@@ -21,37 +21,37 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Leg Attack",
-      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Extract to Half Guard",
-      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 26% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,21 +208,23 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Granby Roll to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (6% of attempts)
+### [[Technical Stand-up]] (5% of attempts)
 
-### [[Counter Leg Attack]] (10% of attempts)
+### [[Counter Leg Attack]] (9% of attempts)
 
-### [[Frame and Extract to Half Guard]] (22% of attempts)
+### [[Frame and Extract to Half Guard]] (26% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (18% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (17% of attempts)
 
-### [[Saddle Defense]] (7% of attempts)
+### [[Angle Change Escape]] (6% of attempts)
 
-### [[Ashi Garami Escape]] (8% of attempts)
+### [[Ashi Garami Escape]] (7% of attempts)
+
+### [[Sweep from Inside Sankaku]] (3% of attempts)
 
 
 

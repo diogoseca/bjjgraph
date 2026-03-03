@@ -21,13 +21,13 @@ description: "Control opponents with innovative lapel grips and configurations. 
     {
       "@type": "HowToStep",
       "name": "Execute Worm Guard Entry",
-      "text": "From this position, attempt Worm Guard Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Worm Guard Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Squid Guard Entry",
-      "text": "From this position, attempt Squid Guard Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Squid Guard Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Control opponents with innovative lapel grips and configurations. 
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Sweep to Back",
-      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Omoplata Entry",
-      "text": "From this position, attempt Lapel Omoplata Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Omoplata Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Triangle Setup",
-      "text": "From this position, attempt Lapel Triangle Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Triangle Setup. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,33 +214,27 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 ## Available Escapes
 
-### [[Worm Guard Entry]] (7% of attempts)
+### [[Worm Guard Entry]] (16% of attempts)
 
-### [[Squid Guard Entry]] (6% of attempts)
+### [[Squid Guard Entry]] (12% of attempts)
 
 ### [[Ringworm Guard Entry]] (5% of attempts)
 
-### [[Lapel Sweep to Back]] (43% of attempts)
+### [[Lapel Sweep to Back]] (22% of attempts)
 
-### [[Lapel Omoplata Entry]] (6% of attempts)
+### [[Lapel Omoplata Entry]] (8% of attempts)
 
-### [[Lapel Triangle Setup]] (5% of attempts)
+### [[Lapel Triangle Setup]] (6% of attempts)
 
-### [[Lapel to Lasso Transition]] (6% of attempts)
+### [[Lapel to Lasso Guard]] (7% of attempts)
 
-### [[Lapel to Spider Transition]] (8% of attempts)
+### [[Lapel to Spider Guard]] (7% of attempts)
 
-### [[Lapel to De La Riva]] (6% of attempts)
+### [[Lapel to De La Riva]] (7% of attempts)
 
-### [[Lapel Elevator Sweep]] (6% of attempts)
+### [[Lapel Elevator Sweep]] (8% of attempts)
 
-### [[Transition to Piranha Guard]] (1% of attempts)
-
-### [[Lapel Guard to Piranha Guard]] (0% of attempts)
-
-### [[Lapel to Lasso Guard]] (0% of attempts)
-
-### [[Lapel to Spider Guard]] (1% of attempts)
+### [[Lapel Guard to Piranha Guard]] (2% of attempts)
 
 
 
@@ -266,8 +260,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 
 **If opponent successfully strips primary lapel grip:**
-- Execute **[[Lapel to Spider Transition]]** → [[Spider Guard]] (Probability: 65%)
-- Execute **[[Lapel to Lasso Transition]]** → [[Lasso Guard]] (Probability: 60%)
+- Execute **[[Lapel to Spider Guard]]** → [[Spider Guard]] (Probability: 65%)
+- Execute **[[Lapel to Lasso Guard]]** → [[Lasso Guard]] (Probability: 60%)
 
 
 

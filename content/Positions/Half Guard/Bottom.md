@@ -21,37 +21,37 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 84% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Knee Shield Retention",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,43 +212,37 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Available Escapes
 
-### [[Underhook Sweep from Half]] (84% of attempts)
+### [[Underhook Sweep from Half]] (22% of attempts)
 
-### [[Old School Sweep]] (4% of attempts)
+### [[Half Guard to Back Take]] (12% of attempts)
 
-### [[Deep Half Entry]] (4% of attempts)
+### [[Deep Half Entry]] (10% of attempts)
 
-### [[Lockdown Recovery]] (0% of attempts)
+### [[Old School Sweep]] (8% of attempts)
 
-### [[Electric Chair Transition]] (0% of attempts)
+### [[Knee Shield Retention]] (8% of attempts)
 
-### [[Half Guard to Back Take]] (3% of attempts)
+### [[Lockdown Recovery]] (5% of attempts)
 
-### [[Kimura Sweep]] (1% of attempts)
+### [[Kimura Sweep]] (5% of attempts)
 
-### [[Knee Shield Retention]] (1% of attempts)
+### [[Deep Half Entry from Half Guard]] (5% of attempts)
 
-### [[Transition to K-Guard]] (0% of attempts)
+### [[Knee Torque Sweep]] (5% of attempts)
 
-### [[Transition to Old School]] (0% of attempts)
+### [[Half Guard to X-Guard]] (4% of attempts)
 
-### [[Guard Recovery]] (2% of attempts)
+### [[Dogfight Position]] (4% of attempts)
 
-### [[Dogfight Position]] (0% of attempts)
+### [[Half Guard Recovery]] (3% of attempts)
 
-### [[Transition to Z-Guard]] (0% of attempts)
+### [[Electric Chair Transition]] (3% of attempts)
 
-### [[Back Door Escape from Half Guard]] (0% of attempts)
+### [[Half Guard to K-Guard]] (2% of attempts)
 
-### [[Deep Half Entry from Half Guard]] (0% of attempts)
+### [[Back Door Escape from Half Guard]] (2% of attempts)
 
-### [[Half Guard to K-Guard]] (0% of attempts)
-
-### [[Half Guard to Old School]] (0% of attempts)
-
-### [[Half Guard to X-Guard]] (0% of attempts)
-
-### [[Knee Torque Sweep]] (1% of attempts)
+### [[Half Guard to Old School]] (2% of attempts)
 
 
 
@@ -281,7 +275,7 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 **If opponent attempts knee slice pass by driving knee across your thigh line:**
 - Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Half Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
 
 
 

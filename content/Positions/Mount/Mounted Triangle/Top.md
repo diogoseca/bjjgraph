@@ -21,37 +21,37 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Triangle",
-      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap",
-      "text": "From this position, attempt Gift Wrap. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,25 +210,29 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Available Attacks
 
-### [[Triangle Choke]] (11% of attempts)
+### [[Triangle Choke]] (24% of attempts)
 
-### [[Armbar Finish]] (11% of attempts)
+### [[Armbar Finish]] (9% of attempts)
 
-### [[Switch to Triangle]] (10% of attempts)
+### [[Switch to Triangle]] (8% of attempts)
 
-### [[Back Take]] (10% of attempts)
+### [[Back Take]] (8% of attempts)
 
-### [[Consolidate Mount]] (11% of attempts)
+### [[Consolidate Mount]] (9% of attempts)
 
-### [[Gift Wrap]] (8% of attempts)
+### [[Gift Wrap]] (6% of attempts)
 
-### [[Kimura to Back Take]] (8% of attempts)
+### [[Kimura to Back Take]] (6% of attempts)
 
-### [[S-Mount Transition]] (11% of attempts)
+### [[S-Mount Transition]] (9% of attempts)
 
-### [[Triangle to Armbar]] (11% of attempts)
+### [[Triangle to Armbar]] (9% of attempts)
 
-### [[Triangle to Back]] (9% of attempts)
+### [[Triangle to Back]] (7% of attempts)
+
+### [[Mounted Triangle Squeeze]] (3% of attempts)
+
+### [[Mounted Triangle to S Mount]] (2% of attempts)
 
 
 

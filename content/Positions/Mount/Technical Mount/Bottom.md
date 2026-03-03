@@ -21,32 +21,38 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Upa Escape",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Turn from Technical Mount",
+      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 1% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -200,15 +206,21 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (28% of attempts)
+### [[Elbow Escape to Guard]] (45% of attempts)
 
-### [[Upa Escape]] (20% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
-### [[Hip Escape to Guard]] (22% of attempts)
+### [[Upa Escape]] (15% of attempts)
 
-### [[Shrimp Escape]] (20% of attempts)
+### [[Shrimp Escape]] (15% of attempts)
 
-### [[Bridge and Roll]] (10% of attempts)
+### [[Bridge and Roll]] (6% of attempts)
+
+### [[Back Turn from Technical Mount]] (1% of attempts)
+
+### [[Bridge from Technical Mount]] (0% of attempts)
+
+### [[Escape Technical Mount to Half Guard]] (1% of attempts)
 
 
 

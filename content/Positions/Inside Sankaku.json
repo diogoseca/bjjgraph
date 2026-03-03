@@ -649,35 +649,39 @@
     "transitions": [
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Granby Roll to Guard",
         "attempt_probability": 14
       },
       {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 13
+      },
+      {
         "transition": "Technical Stand-up",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Counter Leg Attack",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Frame and Extract to Half Guard",
-        "attempt_probability": 22
+        "attempt_probability": 26
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
-        "transition": "Saddle Defense",
-        "attempt_probability": 7
+        "transition": "Angle Change Escape",
+        "attempt_probability": 6
       },
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 8
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Sweep from Inside Sankaku",
+        "attempt_probability": 3
       }
     ]
   }

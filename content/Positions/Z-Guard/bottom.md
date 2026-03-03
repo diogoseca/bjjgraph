@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,25 +211,27 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Available Escapes
 
-### [[Old School Sweep]] (22% of attempts)
+### [[Old School Sweep]] (30% of attempts)
 
-### [[Underhook Sweep from Half]] (12% of attempts)
+### [[Underhook Sweep from Half]] (11% of attempts)
 
-### [[Deep Half Entry]] (11% of attempts)
+### [[Deep Half Entry]] (10% of attempts)
 
-### [[Back Take from Bottom]] (10% of attempts)
+### [[Back Take from Bottom]] (9% of attempts)
 
-### [[Turtle to Truck]] (9% of attempts)
+### [[Turtle to Truck]] (8% of attempts)
 
-### [[X-Guard Sweep]] (11% of attempts)
+### [[X-Guard Sweep]] (10% of attempts)
 
-### [[Lockdown Recovery]] (10% of attempts)
+### [[Lockdown Recovery]] (9% of attempts)
 
-### [[Electric Chair Transition]] (9% of attempts)
+### [[Electric Chair Transition]] (8% of attempts)
 
-### [[Z-Guard Sweep]] (4% of attempts)
+### [[Z-Guard Sweep]] (3% of attempts)
 
-### [[Z-Guard to Half Guard]] (2% of attempts)
+### [[Z-Guard to Half Guard]] (1% of attempts)
+
+### [[Sweep from Z-Guard]] (1% of attempts)
 
 
 

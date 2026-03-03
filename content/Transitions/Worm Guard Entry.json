@@ -65,11 +65,11 @@
       "relationship": "Follow-up attack available from completed Worm Guard position"
     },
     {
-      "name": "Lapel to Lasso Transition",
+      "name": "Lapel to Lasso Guard",
       "relationship": "Fallback transition when lapel grip is maintained but Worm Guard is denied"
     },
     {
-      "name": "Lapel to Spider Transition",
+      "name": "Lapel to Spider Guard",
       "relationship": "Recovery option when lapel configuration is stripped during entry"
     },
     {

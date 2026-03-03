@@ -285,19 +285,9 @@
       "relationship": "Foundational psychological principles for competitive performance"
     },
     {
-      "name": "Match Strategy",
-      "content_type": "Principle",
-      "relationship": "Core tactical planning concepts applied during preparation"
-    },
-    {
-      "name": "Match Preparation",
-      "content_type": "Principle",
-      "relationship": "Immediate pre-match preparation protocols and routines"
-    },
-    {
       "name": "Game Planning",
       "content_type": "Principle",
-      "relationship": "Strategic framework development methodology"
+      "relationship": "Core tactical planning concepts applied during match strategy development"
     },
     {
       "name": "Energy Management System",
@@ -305,17 +295,22 @@
       "relationship": "Multi-match energy conservation and recovery protocols"
     },
     {
-      "name": "Risk Assessment",
+      "name": "Grip Fighting",
       "content_type": "Principle",
-      "relationship": "Tactical risk evaluation during match execution"
+      "relationship": "Essential competition skill for establishing tactical advantages from initial contact"
     },
     {
-      "name": "Pacing",
+      "name": "Defensive Strategy",
+      "content_type": "Principle",
+      "relationship": "Tactical risk evaluation and defensive decision-making during match execution"
+    },
+    {
+      "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Energy expenditure regulation across tournament duration"
     },
     {
-      "name": "Positional Hierarchy",
+      "name": "Control Point Hierarchy",
       "content_type": "Principle",
       "relationship": "Position selection priorities integrated into game planning"
     },
@@ -325,9 +320,9 @@
       "relationship": "Common competition opening strategy requiring specific preparation"
     },
     {
-      "name": "Takedown Defense",
+      "name": "Arm Drag from Standing",
       "content_type": "Transition",
-      "relationship": "Essential defensive skill for standing phase of matches"
+      "relationship": "Standing phase technique for offensive and defensive transitions in competition"
     },
     {
       "name": "Double Leg Entry",

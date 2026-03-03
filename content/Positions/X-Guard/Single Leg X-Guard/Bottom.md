@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Ashi Entry from Leg Entanglement",
+      "text": "From this position, attempt Ashi Entry from Leg Entanglement. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,29 +205,29 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Available Escapes
 
-### [[Single Leg X Sweep]] (8% of attempts)
+### [[Single Leg X Sweep]] (22% of attempts)
 
-### [[X-Guard to Ashi Transition]] (8% of attempts)
+### [[Ashi Entry from Leg Entanglement]] (12% of attempts)
 
-### [[Single Leg X Entry]] (8% of attempts)
+### [[Single Leg X Entry]] (3% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (7% of attempts)
+### [[Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (24% of attempts)
+### [[Butterfly Guard to X-Guard]] (5% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (8% of attempts)
+### [[De La Riva to X-Guard Transition]] (3% of attempts)
 
-### [[Ankle Pick Sweep]] (9% of attempts)
+### [[Ankle Pick Sweep]] (10% of attempts)
 
-### [[Inside Ashi Entry]] (7% of attempts)
+### [[Inside Ashi Entry]] (8% of attempts)
 
-### [[Standing to Single Leg X]] (8% of attempts)
+### [[Standing to Single Leg X]] (2% of attempts)
 
-### [[Heel Grab Sweep]] (8% of attempts)
+### [[Heel Grab Sweep]] (10% of attempts)
 
-### [[SLX to Ashi Garami]] (3% of attempts)
+### [[SLX to Ashi Garami]] (10% of attempts)
 
-### [[SLX to X-Guard]] (2% of attempts)
+### [[SLX to X-Guard]] (5% of attempts)
 
 
 
@@ -243,7 +243,7 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 
 **If opponent drives forward with heavy pressure attempting to smash pass:**
-- Execute **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]] (Probability: 55%)
+- Execute **[[Ashi Entry from Leg Entanglement]]** → [[Ashi Garami]] (Probability: 55%)
 - Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 50%)
 
 

@@ -20,38 +20,38 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Tripod Sweep",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Tomoe Nage",
+      "text": "From this position, attempt Tomoe Nage. This technique is attempted in 8% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Lumberjack Sweep",
+      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Push Sweep from Feet on Hips",
+      "text": "From this position, attempt Push Sweep from Feet on Hips. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
       "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 3% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 1% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 66% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,35 +206,35 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Available Escapes
 
-### [[De La Riva Sweep]] (2% of attempts)
+### [[Tripod Sweep]] (53% of attempts)
 
-### [[X-Guard Sweep]] (1% of attempts)
+### [[Sickle Sweep]] (14% of attempts)
+
+### [[Tomoe Nage]] (8% of attempts)
+
+### [[Lumberjack Sweep]] (6% of attempts)
+
+### [[Push Sweep from Feet on Hips]] (5% of attempts)
 
 ### [[Single Leg X Sweep]] (3% of attempts)
 
-### [[Elevator Sweep]] (1% of attempts)
+### [[De La Riva Sweep]] (3% of attempts)
 
-### [[Tripod Sweep]] (66% of attempts)
+### [[Arm Drag Sweep]] (2% of attempts)
 
-### [[Sickle Sweep]] (9% of attempts)
+### [[Balloon Sweep]] (2% of attempts)
 
-### [[Transition to Feet on Hips Guard]] (8% of attempts)
+### [[Elevator Sweep]] (2% of attempts)
 
-### [[Tomoe Nage]] (4% of attempts)
-
-### [[Lumberjack Sweep]] (3% of attempts)
-
-### [[Guard Pull]] (1% of attempts)
-
-### [[Balloon Sweep]] (1% of attempts)
-
-### [[Feet on Hips Sickle Sweep]] (0% of attempts)
-
-### [[Feet on Hips Tripod Sweep]] (0% of attempts)
+### [[X-Guard Sweep]] (1% of attempts)
 
 ### [[Feet on Hips to De La Riva]] (0% of attempts)
 
-### [[Push Sweep from Feet on Hips]] (1% of attempts)
+### [[Guard Pull]] (0% of attempts)
+
+### [[Feet on Hips Sickle Sweep]] (0% of attempts)
+
+### [[Feet on Hips Tripod Sweep]] (1% of attempts)
 
 
 
@@ -386,8 +386,8 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 **Q7**: How do you recover position after the opponent partially passes one foot off your hip?
 **A**: Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover.
 
-**Q8**: What is the coordination between pushing and pulling that makes feet on hips guard effective?
-**A**: Effective feet on hips guard requires constant push-pull coordination where your legs push the opponent away while your grips pull their upper body toward you. This creates rotational tension that breaks their posture and balance. When you push with your legs alone, they simply step back and remain balanced. When you pull with grips alone, they drive their weight forward into you. The combination of simultaneous pushing and pulling forces creates the off-balancing moment needed for sweeps and prevents them from establishing a stable passing position.
+**Q8**: You have been in feet on hips guard for over a minute and your legs are beginning to fatigue from constant pushing - how do you manage energy while maintaining guard effectiveness?
+**A**: Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely.
 
 
 

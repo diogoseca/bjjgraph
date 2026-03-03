@@ -89,21 +89,23 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (6% of attempts)
+- **[[Technical Stand-up]]** (5% of attempts)
 
-- **[[Counter Leg Attack]]** (10% of attempts)
+- **[[Counter Leg Attack]]** (9% of attempts)
 
-- **[[Frame and Extract to Half Guard]]** (22% of attempts)
+- **[[Frame and Extract to Half Guard]]** (26% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (18% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (17% of attempts)
 
-- **[[Saddle Defense]]** (7% of attempts)
+- **[[Angle Change Escape]]** (6% of attempts)
 
-- **[[Ashi Garami Escape]]** (8% of attempts)
+- **[[Ashi Garami Escape]]** (7% of attempts)
+
+- **[[Sweep from Inside Sankaku]]** (3% of attempts)
 
 
 ### Common Mistakes

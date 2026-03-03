@@ -199,7 +199,7 @@ Inside ashi entry serves as a critical gateway into the modern leg entanglement 
 
 - [[Single Leg X Entry]] - Prerequisite transition that facilitates easier inside ashi entry
 
-- [[X-Guard to Ashi Transition]] - Related transition connecting X-guard system to leg locks
+- [[X-Guard to Ashi Garami]] - Related transition connecting X-guard system to leg locks
 
 - [[Saddle Entry from Top]] - Follow-up transition from inside ashi to more dominant entanglement
 

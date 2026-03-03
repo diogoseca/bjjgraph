@@ -95,17 +95,21 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (22% of attempts)
+- **[[Elbow Escape to Guard]]** (24% of attempts)
 
-- **[[Bridge and Roll]]** (18% of attempts)
+- **[[Bridge and Roll]]** (13% of attempts)
 
-- **[[Shrimp Escape]]** (18% of attempts)
+- **[[Upa Escape]]** (17% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Explosive Bridge to Turtle]]** (10% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Upa Escape]]** (15% of attempts)
+- **[[Half Guard Recovery]]** (15% of attempts)
+
+- **[[Bridge Escape from 3-4 Mount]]** (5% of attempts)
+
+- **[[Elbow Escape from 3-4 Mount]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -166,21 +170,23 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (20% of attempts)
+- **[[Mount to Armbar]]** (39% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
-
-- **[[Americana]]** (14% of attempts)
-
-- **[[Mounted Triangle]]** (12% of attempts)
-
-- **[[Kimura]]** (12% of attempts)
+- **[[Mounted Triangle]]** (8% of attempts)
 
 - **[[S-Mount Transition]]** (8% of attempts)
 
-- **[[Side Control to North-South]]** (8% of attempts)
+- **[[Back Take]]** (10% of attempts)
 
-- **[[Back Take]]** (12% of attempts)
+- **[[Consolidate Mount]]** (16% of attempts)
+
+- **[[High Mount Transition]]** (8% of attempts)
+
+- **[[Cross Collar Choke]]** (6% of attempts)
+
+- **[[3-4 Mount to S Mount]]** (3% of attempts)
+
+- **[[3-4 Mount to Technical Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

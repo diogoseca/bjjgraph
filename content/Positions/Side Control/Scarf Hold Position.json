@@ -372,7 +372,7 @@
       }
     ],
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "Medium",
@@ -436,8 +436,8 @@
             "probability": 50
           },
           {
-            "technique": "Turtle Transition",
-            "target": "Back Control",
+            "technique": "Arm Extraction to Turtle",
+            "target": "Turtle",
             "probability": 40
           }
         ]
@@ -481,7 +481,7 @@
         "condition": "If opponent sits back heavily on their hip creating space between their chest and your hips",
         "actions": [
           {
-            "technique": "Turtle Transition",
+            "technique": "Arm Extraction to Turtle",
             "target": "Turtle",
             "probability": 60
           },
@@ -590,35 +590,39 @@
     "transitions": [
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Elbow Escape to Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Hip Escape to Guard",
         "attempt_probability": 12
       },
       {
+        "transition": "Elbow Escape to Guard",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Ghost Escape",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
-        "transition": "Turtle Transition",
-        "attempt_probability": 25
+        "transition": "Arm Extraction to Turtle",
+        "attempt_probability": 31
       },
       {
         "transition": "Bridge from Scarf Hold Position",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Escape Scarf Hold Position",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Bridge Escape from Scarf Hold",
+        "attempt_probability": 1
       }
     ]
   }

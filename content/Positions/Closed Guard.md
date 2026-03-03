@@ -4,7 +4,7 @@
 
 ---
 title: "Closed Guard | BJJ Position Guide | BJJ Graph"
-description: "Master closed guard in BJJ. Strategic guide covering both perspectives - bottom player's offensive control and top player's defensive strategy with complete technical analysis."
+description: "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing."
 ---
 
 
@@ -40,7 +40,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - Bottom player creates dilemmas where defending one attack opens another pathway
 
-- Top player must systematically progress: posture → grip control → guard opening → passing
+- Top player must systematically progress: posture, grip control, guard opening, then passing
 
 - Both perspectives require active engagement - passive play favors bottom player's offense
 
@@ -54,14 +54,9 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 
 
-| &nbsp; | Bottom | Top |
-|--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Defensive with offensive options |
-| **Risk Level** | Medium | Medium |
-| **Energy Cost** | Medium | Medium |
-| **Time** | Medium to Long | Medium |
-
-**Key Difference:** Bottom offensive despite being underneath
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
+|---------|-------------|----------|---------------|------------|----------------|
+| [[Closed Guard]] | Medium | Medium | Medium | Medium | Bottom offensive despite being underneath |
 
 
 
@@ -93,41 +88,47 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** (17% of attempts)
+- **[[Hip Bump Sweep]]** (33% of attempts)
 
-- **[[Scissor Sweep]]** (6% of attempts)
+- **[[Armbar from Guard]]** (11% of attempts)
+
+- **[[Scissor Sweep]]** (9% of attempts)
+
+- **[[Triangle Setup]]** (9% of attempts)
+
+- **[[Cross Collar Choke]]** (7% of attempts)
 
 - **[[Pendulum Sweep]]** (6% of attempts)
 
-- **[[Flower Sweep]]** (5% of attempts)
-
-- **[[Kimura to Back Take]]** (5% of attempts)
-
-- **[[Omoplata Sweep]]** (4% of attempts)
-
-- **[[Triangle Setup]]** (6% of attempts)
-
-- **[[Omoplata to Back]]** (3% of attempts)
-
-- **[[Elevator Sweep]]** (4% of attempts)
-
-- **[[Overhook Sweep]]** (4% of attempts)
-
-- **[[Kimura Sweep]]** (5% of attempts)
-
-- **[[Muscle Sweep]]** (3% of attempts)
-
-- **[[Transition to Overhook Guard]]** (3% of attempts)
-
-- **[[Lumberjack Sweep]]** (4% of attempts)
-
 - **[[Guillotine Setup]]** (5% of attempts)
 
-- **[[Armbar from Guard]]** (10% of attempts)
+- **[[Kimura Sweep]]** (4% of attempts)
 
-- **[[Cross Collar Choke]]** (6% of attempts)
+- **[[Flower Sweep]]** (3% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (4% of attempts)
+- **[[Kimura to Back Take]]** (3% of attempts)
+
+- **[[Elevator Sweep]]** (2% of attempts)
+
+- **[[Overhook Sweep]]** (2% of attempts)
+
+- **[[Omoplata Sweep]]** (2% of attempts)
+
+- **[[Lumberjack Sweep]]** (1% of attempts)
+
+- **[[Hip Bump Sweep V2]]** (1% of attempts)
+
+- **[[Closed Guard to Omoplata]]** (1% of attempts)
+
+- **[[Omoplata to Back]]** (0% of attempts)
+
+- **[[Muscle Sweep]]** (0% of attempts)
+
+- **[[Closed Guard to Overhook Guard]]** (0% of attempts)
+
+- **[[High Guard to Rubber Guard]]** (0% of attempts)
+
+- **[[Transition to Diamond Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,15 +187,19 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
+- **[[Posture Recovery]]** (33% of attempts)
+
 - **[[Guard Opening Sequence]]** (28% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Standing up in Base]]** (22% of attempts)
 
-- **[[Standing up in Base]]** (25% of attempts)
+- **[[Stack Pass]]** (10% of attempts)
 
-- **[[Posture Recovery]]** (30% of attempts)
+- **[[Stand Up in Closed Guard]]** (3% of attempts)
 
-- **[[Can Opener]]** (5% of attempts)
+- **[[Ezekiel from Closed Guard]]** (2% of attempts)
+
+- **[[Knee Slice from Closed Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -385,15 +385,14 @@ Competition preparation training follows progressive periodization with distinct
 - [[Mental Game Framework]] (System) - Psychological preparation methodology integrated into competition prep
 - [[IBJJF Strategy Guide]] (System) - Ruleset-specific preparation for IBJJF format tournaments
 - [[Competition Mindset]] (Principle) - Foundational psychological principles for competitive performance
-- [[Match Strategy]] (Principle) - Core tactical planning concepts applied during preparation
-- [[Match Preparation]] (Principle) - Immediate pre-match preparation protocols and routines
-- [[Game Planning]] (Principle) - Strategic framework development methodology
+- [[Game Planning]] (Principle) - Core tactical planning concepts applied during match strategy development
 - [[Energy Management System]] (Principle) - Multi-match energy conservation and recovery protocols
-- [[Risk Assessment]] (Principle) - Tactical risk evaluation during match execution
-- [[Pacing]] (Principle) - Energy expenditure regulation across tournament duration
-- [[Positional Hierarchy]] (Principle) - Position selection priorities integrated into game planning
+- [[Grip Fighting]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
+- [[Defensive Strategy]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
+- [[Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
+- [[Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
 - [[Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
-- [[Takedown Defense]] (Transition) - Essential defensive skill for standing phase of matches
+- [[Arm Drag from Standing]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for offensive standing game plans
 - [[Single Leg Entry]] (Transition) - Alternative takedown system for competition offensive strategies
 - [[Closed Guard]] (Position) - Fundamental competition position requiring strategic drilling

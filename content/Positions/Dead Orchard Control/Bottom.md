@@ -21,37 +21,37 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Escape Dead Orchard Control",
-      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,19 +206,21 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Available Escapes
 
-### [[Shrimp Escape]] (28% of attempts)
+### [[Shrimp Escape]] (33% of attempts)
 
-### [[Rolling to Guard]] (19% of attempts)
+### [[Rolling to Guard]] (18% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Granby Roll to Guard]] (11% of attempts)
 
-### [[Arm Extraction]] (20% of attempts)
+### [[Arm Extraction]] (19% of attempts)
 
-### [[Hip Escape to Guard]] (12% of attempts)
+### [[Hip Escape to Guard]] (11% of attempts)
 
-### [[Escape Dead Orchard Control]] (6% of attempts)
+### [[Escape Dead Orchard Control]] (5% of attempts)
 
-### [[Roll from Dead Orchard]] (3% of attempts)
+### [[Roll from Dead Orchard]] (2% of attempts)
+
+### [[Escape from Dead Orchard]] (1% of attempts)
 
 
 

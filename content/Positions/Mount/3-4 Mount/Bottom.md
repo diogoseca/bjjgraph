@@ -21,37 +21,37 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Upa Escape",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Explosive Bridge to Turtle",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Half Guard Recovery",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -161,7 +161,7 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
 
 The position occurs when the top player transitions between mount variations or when the bottom player begins defensive movements that shift the top player's base. Understanding 3-4 Mount Bottom is essential for mount escape development, as it represents a critical transitional state where proper defensive frames and hip movement can lead to successful escapes or guard recovery. The asymmetric nature of the position means that escape routes differ significantly from standard mount escapes, requiring specific technical knowledge.
 
-From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position worth -4 points in IBJJF competition, requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.
+From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensive position requiring immediate defensive action to prevent submissions and create escape opportunities. Success in this position depends on recognizing the specific 3-4 configuration, establishing proper defensive frames, and exploiting the inherent instability in the top player's asymmetric base.
 
 </section>
 
@@ -209,17 +209,21 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (22% of attempts)
+### [[Elbow Escape to Guard]] (24% of attempts)
 
-### [[Bridge and Roll]] (18% of attempts)
+### [[Bridge and Roll]] (13% of attempts)
 
-### [[Shrimp Escape]] (18% of attempts)
+### [[Upa Escape]] (17% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Explosive Bridge to Turtle]] (10% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Upa Escape]] (15% of attempts)
+### [[Half Guard Recovery]] (15% of attempts)
+
+### [[Bridge Escape from 3-4 Mount]] (5% of attempts)
+
+### [[Elbow Escape from 3-4 Mount]] (3% of attempts)
 
 
 

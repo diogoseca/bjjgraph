@@ -15,6 +15,7 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
+  "from_position": "Closed Guard/Bottom",
   "success_rate": 45,
   "overview": "The Tarikoplata is an advanced shoulder lock submission that combines the mechanics of the omoplata with additional wrist control and torque. Named after Tarik Hopstock, this technique represents an evolution of the traditional omoplata position, adding a second lever through wrist manipulation to create a devastating shoulder attack. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.",
   "safety_considerations": {
@@ -94,16 +95,16 @@
     "Half Guard"
   ],
   "related_submissions": [
-    "Omoplata from Guard",
+    "Omoplata from Spider Guard",
     "Baratoplata",
-    "Gogoplata",
-    "Triangle Choke",
-    "Triangle from Closed Guard",
+    "Gogoplata Finish",
+    "Rear Triangle Choke",
+    "Rolling Omoplata",
     "Armbar from Guard",
-    "Kimura from Guard",
+    "Kimura from Kimura Trap",
     "Americana",
-    "Omoplata",
-    "Kimura"
+    "Mounted Triangle Finish",
+    "Reverse Kimura"
   ],
   "related_content": [
     {
@@ -123,7 +124,7 @@
       "relationship": "Related shoulder lock variation using similar mechanics"
     },
     {
-      "name": "Gogoplata",
+      "name": "Gogoplata Control",
       "relationship": "Complementary rubber guard submission, creates submission chain"
     },
     {
@@ -143,8 +144,8 @@
       "relationship": "Advanced rubber guard position for tarikoplata transitions"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Foundation submission - must master before learning tarikoplata"
+      "name": "Omoplata from Spider Guard",
+      "relationship": "Related omoplata submission - master omoplata mechanics before learning tarikoplata"
     }
   ],
   "attacker": {
@@ -224,7 +225,7 @@
         "counter": "Posting free hand to create base and prevent forward pressure",
         "effectiveness": "Medium",
         "your_response": "Control their free arm before establishing wrist control. Use your free hand to grip their belt or pants, preventing the post. If they establish base, sweep them forward using your bottom leg hook before applying final pressure.",
-        "targets_outcome": "Closed Guard"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Straightening trapped arm to remove shoulder pressure",
@@ -236,7 +237,7 @@
         "counter": "Sitting back to create space and extract shoulder",
         "effectiveness": "Medium",
         "your_response": "Follow their backward movement with your hips, maintaining perpendicular angle. Use your bottom leg to prevent them from creating distance. Increase wrist rotation as they attempt to sit back - this often accelerates the tap.",
-        "targets_outcome": "Scramble Position"
+        "targets_outcome": "Scramble Position/Bottom"
       }
     ],
     "common_errors": [
@@ -379,21 +380,21 @@
       {
         "action": "Clasp hands together and tuck trapped wrist against your own chest to prevent wrist isolation",
         "when_to_use": "Immediately when you feel the opponent reaching for your wrist during omoplata setup, before they can establish the four-finger grip",
-        "targets_outcome": "Closed Guard",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Converts the tarikoplata attempt into a standard omoplata defense scenario where rolling and posture recovery become viable escape paths",
         "risk": "Both hands committed to grip defense leaves you unable to post, making you vulnerable to sweeps if the attacker drives forward"
       },
       {
         "action": "Drive posture upward explosively while the attacker is transitioning from omoplata to wrist control",
         "when_to_use": "During the brief window when the attacker releases hip control to reach for your wrist - their control is weakest during this grip transition",
-        "targets_outcome": "Closed Guard",
+        "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Breaks the omoplata structure entirely, returning you to a neutral closed guard or open guard position where you can reestablish defensive posture",
         "risk": "If the attacker has already secured wrist control, posturing can accelerate the shoulder stress and cause injury - only effective before wrist grip is established"
       },
       {
         "action": "Circle trapped arm inward toward your centerline while sitting back to extract shoulder from omoplata configuration",
         "when_to_use": "When the attacker has partial wrist contact but has not yet achieved full rotation - the extraction must happen before they coordinate hip drive with wrist torque",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Scramble Position/Bottom",
         "if_successful": "Extracts your arm from the submission entirely, creating a scramble situation where you can recover guard or establish top position",
         "risk": "Pulling the arm straight back feeds the omoplata finish; the arm must circle inward along your own body to reduce shoulder extension"
       }
@@ -405,11 +406,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard",
+        "outcome": "Closed Guard/Bottom",
         "how": "Recover posture during the wrist-seeking transition window before the attacker can establish the four-finger grip, breaking the omoplata structure and returning to neutral closed guard position"
       },
       {
-        "outcome": "Scramble Position",
+        "outcome": "Scramble Position/Bottom",
         "how": "Extract trapped arm by circling inward toward centerline while sitting back, creating a scramble where your base and posture recovery give you positional advantage over the attacker who has committed to the guard-based attack"
       }
     ],

@@ -1,42 +1,380 @@
 {
   "name": "Posture Recovery from Meathook",
-  "description": "Master the Posture Recovery from Meathook in BJJ. Learn how to strip the meathook grip, recover posture, and pass to side control.",
-  "tags": ["bjj", "transition", "escape", "meathook", "posture-recovery", "guard-pass"],
+  "description": "Master Posture Recovery from Meathook in BJJ. Learn systematic grip stripping, posture recovery mechanics, and guard passing from Rubber Guard control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "meathook",
+    "posture-recovery",
+    "guard-pass",
+    "rubber-guard-defense",
+    "10th-planet"
+  ],
   "from_position": "Meathook/Top",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 45, "result": "success"},
-    {"to": "Meathook/Top", "probability": 35, "result": "failure"},
-    {"to": "Back Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Meathook/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "Posture Recovery from Meathook is a critical defensive transition for the top player caught in the Rubber Guard's Meathook control. When the bottom player establishes a shin hook over the trapped arm while breaking posture with collar or head control, the top player faces escalating submission threats including Gogoplata, Triangle, and Omoplata. Posture recovery represents the systematic escape methodology that addresses both arm isolation and broken posture through a carefully sequenced approach prioritizing arm extraction before posture restoration.\n\nThe technique centers on rotational arm extraction mechanics combined with strategic base widening using the free arm. Unlike explosive escape attempts that often accelerate submissions by feeding into the bottom player's attack chains, posture recovery employs timed explosive movements during the bottom player's transitional moments—specifically when they shift attention from control maintenance to submission setup. The brief loosening of hook pressure during hip adjustments or grip transitions creates extraction windows that trained practitioners learn to recognize and exploit.\n\nSuccess leads to guard opening and Side Control passing opportunities, while failure keeps the top player trapped in Meathook's deteriorating submission web. The primary counter risk involves the bottom player taking the back during recovery attempts when the top player creates space without adequate hip control. Proper timing, rotational mechanics, and immediate posture consolidation after extraction are essential to avoid this counter. This transition integrates with the broader Rubber Guard defense system and connects to similar posture recovery sequences from other 10th Planet control positions like Carni and Mission Control.",
+  "conditions": [
+    "Top player's arm is trapped under bottom player's shin hook with posture broken",
+    "Bottom player has established controlling grip on head or collar preventing posture recovery",
+    "Top player retains at least one free arm capable of creating base and leverage",
+    "Top player recognizes Meathook establishment and shifts from passing mindset to escape mode"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Explosive Rotational Extraction",
+      "description": "A sudden, explosive posture recovery that combines arm spiral extraction with simultaneous base widening and upward drive. The top player loads energy through base compression, then explosively rotates the trapped arm while driving upward through the spine. Best executed when the bottom player momentarily loosens hook pressure during a transition.",
+      "when_to_use": "When the bottom player shifts attention to submission setup and hook pressure briefly decreases, creating a narrow extraction window"
+    },
+    {
+      "variant_name": "Incremental Grip Strip Recovery",
+      "description": "A methodical approach where the top player first addresses the controlling grip on the head or collar, then progressively works the trapped arm free through small rotational adjustments before recovering posture. Each micro-movement reduces control without triggering defensive tightening from the bottom player.",
+      "when_to_use": "Against opponents with very tight Meathook control where explosive extraction fails, or when energy conservation is critical in later rounds"
+    },
+    {
+      "variant_name": "Stack Pressure Recovery",
+      "description": "The top player drives forward and stacks the bottom player's hips over their shoulders, compressing the Rubber Guard configuration and reducing the mechanical advantage of the shin hook. The stacking angle changes the lever dynamics, making the hook less effective and creating extraction opportunities through the compressed position.",
+      "when_to_use": "Against flexible opponents who maintain deep hooks, or when the bottom player's hips are high and vulnerable to stacking pressure"
+    }
+  ],
+  "position_integration": "Posture Recovery from Meathook occupies a critical node in the Rubber Guard defensive system, serving as the primary escape pathway for top players caught in 10th Planet's arm isolation control chain. The transition connects backward to Meathook defense and forward to guard passing sequences through Side Control. It parallels similar posture recovery techniques from Carni, Mission Control, and other Rubber Guard controls, creating a transferable defensive skill set. Mastery of this recovery enables confident engagement with Rubber Guard players, removing the psychological advantage that Meathook's submission threats create and allowing the top player to maintain offensive pressure throughout guard passing exchanges.",
+  "related_content": [
+    {
+      "name": "Meathook",
+      "relationship": "Starting position where top player is trapped with broken posture and isolated arm"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary success target after posture recovery enables guard pass completion"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome risk when bottom player takes the back during recovery attempts"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Related Rubber Guard control position that often precedes Meathook in the attack chain"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Intermediate position after arm extraction where posture recovery continues before passing"
+    },
+    {
+      "name": "Posture Recovery from Carni",
+      "relationship": "Similar posture recovery technique from another Rubber Guard control position"
+    },
+    {
+      "name": "Posture Recovery from Diamond Guard",
+      "relationship": "Related posture recovery concept sharing mechanical principles of grip stripping and base creation"
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "Primary submission threat that makes posture recovery urgent from Meathook"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent guard system containing Meathook and related control positions"
+    }
+  ],
   "attacker": {
     "name": "Posture Recovery from Meathook Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Meathook/Top"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Master executing Posture Recovery from Meathook as the top player. Complete guide to arm extraction mechanics, base widening, grip stripping, and systematic posture restoration against Rubber Guard control.",
+    "overview": "As the attacker executing Posture Recovery from Meathook, you are the top player trapped in the Rubber Guard's arm isolation system. Your trapped arm is hooked under the bottom player's shin, your posture is broken by their collar or head grip, and multiple submission threats are escalating with every second you remain controlled. Your objective is to systematically extract your trapped arm through rotational mechanics, strip the controlling grip, and restore upright posture to resume guard passing. The execution demands precise timing—explosive extraction during the bottom player's transitional moments when hook pressure briefly loosens—combined with strategic base widening that generates the mechanical leverage needed to overcome the shin hook's resistance angle. Success requires accepting that maintaining top position during extraction may be impossible; conceding temporary guard recovery is preferable to remaining trapped in Meathook's submission web.",
+    "key_principles": [
+      "Arm extraction is the singular priority—all energy and attention must focus on freeing the trapped limb before any other objective",
+      "Base widening with the free arm creates the triangular leverage structure essential for generating extraction force against the shin hook",
+      "Rotational extraction mechanics exploit weakness in the hook angle that straight-line pulling cannot overcome",
+      "Timing explosive movements to the bottom player's transitional moments maximizes success and minimizes wasted energy",
+      "Sequential execution is mandatory—extract arm first, then recover posture, never attempt both simultaneously",
+      "Accepting temporary position loss to Closed Guard is strategically correct compared to remaining trapped in Meathook"
+    ],
+    "setup_requirements": [
+      "Free arm posted wide to create stable triangular base structure for leverage generation",
+      "Recognition that Meathook is established and immediate shift from passing mindset to escape mode",
+      "Identification of the bottom player's controlling grip type on head or collar for targeted stripping",
+      "Assessment of hook depth to determine whether explosive or incremental extraction approach is appropriate"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize Meathook and shift to escape mode",
+        "description": "Immediately identify that the bottom player has established shin hook over your arm with controlling grip on your head or collar. Stop all guard passing attempts and mentally commit to escape sequence. Every second of delay increases submission danger as the bottom player consolidates control and begins attack transitions."
+      },
+      {
+        "step_number": 2,
+        "action": "Widen base with free arm",
+        "description": "Post your free arm wide on the mat, creating a triangular base structure that generates mechanical leverage for the coming extraction. The posting hand should be placed far enough from your body to create significant opposing force against the shin hook. A narrow base provides zero mechanical advantage and guarantees failed extraction attempts regardless of strength."
+      },
+      {
+        "step_number": 3,
+        "action": "Address the controlling grip on head or collar",
+        "description": "Use your free hand to strip or weaken the bottom player's grip that is pulling your head down and preventing posture recovery. Target the grip specifically—if they have collar control, strip the fabric from their fingers; if overhook control, work to create slack. Breaking this grip reduces the opposing force keeping your posture broken and loosens the overall control system."
+      },
+      {
+        "step_number": 4,
+        "action": "Load rotational torque on trapped arm",
+        "description": "Begin creating spiral tension on your trapped arm by internally rotating your shoulder and bending your elbow. This rotational pre-loading changes the angle of force against the shin hook from its strongest resistance plane to a weaker diagonal. The spiral mechanic is critical—straight pulling aligns with the hook's maximum resistance and risks shoulder injury."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute explosive arm extraction during transitional moment",
+        "description": "Time your explosive extraction to the bottom player's transitional moment—when they adjust their hip angle for a submission, shift their grip, or reposition their hook. Combine the rotational pre-load with an explosive spiral pull, simultaneously driving your base arm into the mat for opposing leverage. The extraction should feel like corkscrewing your arm free rather than yanking it straight back."
+      },
+      {
+        "step_number": 6,
+        "action": "Immediately establish posture with both arms",
+        "description": "The instant your arm clears the shin hook, plant both hands on the mat or on the bottom player's hips and drive upward through your spine to recover posture. Do not pause or celebrate the extraction—the bottom player will immediately attempt to re-establish Rubber Guard control or transition to traditional Closed Guard attacks. Rapid posture recovery prevents re-capture."
+      },
+      {
+        "step_number": 7,
+        "action": "Strip remaining guard grips and create passing distance",
+        "description": "With posture recovered and both arms free, systematically strip any remaining grips the bottom player maintains on your collar, sleeves, or head. Create distance by straightening your spine and pushing their hips to the mat. Establish combat base or headquarters position to begin guard opening and passing sequences from a neutral posture."
+      },
+      {
+        "step_number": 8,
+        "action": "Execute guard pass to Side Control",
+        "description": "With posture recovered and grips stripped, transition immediately into a guard pass before the bottom player can re-establish any form of guard control. Knee slice, over-under, or toreando passes are all viable depending on the guard configuration remaining after recovery. Consolidate to Side Control with crossface and hip control to complete the transition."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-establishes shin hook during extraction by tightening legs and pulling shoulder forward",
+        "effectiveness": "High",
+        "your_response": "Reset base position and wait for next transitional moment. Attempting repeated extraction against a re-tightened hook wastes energy. Instead, use grip fighting to loosen the system incrementally before the next explosive attempt.",
+        "targets_outcome": "Meathook/Top"
+      },
+      {
+        "counter": "Bottom player pivots hips to take the back as top player creates space during posture recovery",
+        "effectiveness": "Medium",
+        "your_response": "Keep hips low and maintain hip-to-hip connection during recovery. If you feel the bottom player's hips rotating behind you, immediately sit back and address hooks before they establish back control. Prioritize denying the back over completing posture recovery.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to triangle setup as the arm comes free by throwing leg over the neck",
+        "effectiveness": "High",
+        "your_response": "As the arm extracts, keep your head posture high and chin up. If the leg comes over your head, immediately posture up with both hands on their hips before the triangle locks. Speed of posture recovery determines whether the triangle materializes or collapses.",
+        "targets_outcome": "Meathook/Top"
+      },
+      {
+        "counter": "Bottom player shifts to Gogoplata angle as top player begins posture recovery by adjusting shin to throat",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the hip shift toward Gogoplata early. If the shin begins moving toward your throat, tuck your chin aggressively and drive your weight laterally away from the shin. Stack if necessary to compress the angle and prevent the shin from reaching your throat.",
+        "targets_outcome": "Meathook/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pass guard while still trapped in Meathook rather than prioritizing arm extraction",
+        "consequence": "Forward passing pressure drives head into Gogoplata range and increases shin hook leverage, accelerating submission danger while making extraction harder",
+        "correction": "Immediately abandon passing mindset upon Meathook recognition. Arm extraction is the only objective—passing comes after posture is fully recovered and both arms are free"
+      },
+      {
+        "error": "Pulling trapped arm straight back without rotational mechanics",
+        "consequence": "Straight-line pulling aligns with the shin hook's strongest resistance angle, wasting energy without progress and risking shoulder strain from sustained tension against the lever",
+        "correction": "Spiral the arm during extraction by internally rotating the shoulder and corkscrewing the elbow free. Rotational force exploits the hook's weaker diagonal resistance angles"
+      },
+      {
+        "error": "Attempting arm extraction and posture recovery simultaneously",
+        "consequence": "Force is diluted across two objectives, achieving neither effectively while remaining trapped in the control system",
+        "correction": "Execute sequentially: first commit all force to arm extraction, then immediately recover posture with the newly freed limb. Each phase gets full mechanical commitment"
+      },
+      {
+        "error": "Narrow base with free arm posted close to the body",
+        "consequence": "No mechanical leverage for extraction, inability to create opposing force against the shin hook, and continued arm isolation despite repeated attempts",
+        "correction": "Post the free arm wide on the mat, creating a triangular base structure. The wider the base, the more leverage available for the rotational extraction movement"
+      },
+      {
+        "error": "Explosive panic movements without timing to bottom player's transitions",
+        "consequence": "Energy depletion without extraction progress, reactive opportunities created for the bottom player's attack chain, and position deterioration from uncontrolled movement",
+        "correction": "Maintain composure and time explosive extraction to moments when the bottom player adjusts position, shifts grips, or transitions between attacks. These transitions create brief windows of reduced hook pressure"
+      },
+      {
+        "error": "Pausing after successful arm extraction instead of immediately recovering posture",
+        "consequence": "Bottom player immediately re-captures the arm or transitions to traditional Closed Guard attacks while posture remains broken, negating the extraction effort entirely",
+        "correction": "Treat extraction and posture recovery as a continuous sequence with no gap. The instant the arm clears the hook, both hands establish base and drive posture upward without pause"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Extraction Mechanics",
+        "focus": "Rotational arm extraction technique",
+        "description": "Partner establishes Meathook with light resistance. Practice the spiral extraction motion focusing on internal shoulder rotation, elbow path, and corkscrew timing. No resistance on the hook—focus purely on building the correct movement pattern. 10 repetitions per side with reset between each."
+      },
+      {
+        "phase": "Phase 2: Base and Leverage",
+        "focus": "Free arm positioning and force generation",
+        "description": "Partner establishes moderate Meathook. Practice base widening with the free arm, feeling how different posting positions change the leverage available for extraction. Experiment with posting distance and angle. Begin combining base creation with extraction mechanics against light hook resistance."
+      },
+      {
+        "phase": "Phase 3: Timing Recognition",
+        "focus": "Identifying transitional windows",
+        "description": "Partner establishes Meathook and actively transitions between submission setups. Practice identifying the moments when hook pressure decreases during hip adjustments and grip changes. Execute extraction only during recognized windows. Build the ability to read transitions and time explosions accordingly."
+      },
+      {
+        "phase": "Phase 4: Full Sequence Under Resistance",
+        "focus": "Complete recovery chain against live opposition",
+        "description": "Partner establishes Meathook with full resistance and actively pursues submissions. Execute the complete sequence: recognize, widen base, strip grip, extract arm, recover posture, pass guard. 45-second rounds with the goal of completing recovery or tapping to submission. Track success rate across sessions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Your arm is trapped in Meathook and the bottom player has a deep collar grip pulling your head down—what is your immediate first action?",
+        "answer": "Post your free arm wide on the mat to create a triangular base structure before attempting anything else. Without base, you have no leverage for extraction and no platform for posture recovery. The wide post creates opposing force against the shin hook's lever system. Only after base is established should you begin addressing the collar grip and preparing for arm extraction."
+      },
+      {
+        "question": "Why is rotational arm extraction mechanically superior to straight pulling against the Meathook shin hook?",
+        "answer": "The shin hook creates a lever that resists force in the direct pull-back plane most effectively. Straight pulling aligns with this maximum resistance angle, wasting energy and risking shoulder strain. Rotational extraction—internally rotating the shoulder and spiraling the elbow—applies force along the hook's weaker diagonal angles, exploiting gaps in the lever mechanics that straight pulling cannot access. The corkscrew motion also changes the cross-section of the arm passing through the hook."
+      },
+      {
+        "question": "The bottom player begins adjusting their hip angle while you are trapped in Meathook—what does this signal and how should you respond?",
+        "answer": "Hip adjustment signals a transition between control maintenance and submission setup. During hip repositioning, the shin hook pressure briefly decreases as the bottom player redistributes weight and changes angles. This transitional moment is your optimal extraction window. Load your rotational pre-tension and execute the explosive spiral extraction timed precisely to their hip movement. Missing this window means waiting for the next transition."
+      },
+      {
+        "question": "After successfully extracting your trapped arm, what is the critical next action and why must it happen immediately?",
+        "answer": "Immediately recover posture by planting both hands and driving upward through the spine. There must be zero pause between extraction and posture recovery. The bottom player will instantly attempt to re-capture your arm, re-establish Rubber Guard, or transition to traditional Closed Guard attacks. Every fraction of a second with broken posture and a free arm is wasted opportunity—the window for posture recovery closes rapidly as the bottom player adapts."
+      },
+      {
+        "question": "You feel the bottom player's hips rotating behind you as you create space during posture recovery—what is happening and how do you respond?",
+        "answer": "The bottom player is attempting to take your back by following your space creation with hip rotation. This is the primary counter risk during posture recovery. Immediately sit your hips back and low to prevent them from threading hooks behind you. Address this back take threat before continuing posture recovery—losing the back is worse than remaining in Meathook temporarily. Re-establish hip-to-hip connection and restart the recovery sequence."
+      },
+      {
+        "question": "Why is accepting Closed Guard after arm extraction strategically correct compared to forcing an immediate pass?",
+        "answer": "Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage."
+      }
+    ],
+    "safety_considerations": "Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range."
   },
   "defender": {
     "name": "Posture Recovery from Meathook Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Meathook/Top", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Meathook/Top", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Master defending against Posture Recovery from Meathook as the bottom player. Learn how to maintain shin hook control, counter extraction attempts, and transition to submissions or back takes during opponent's escape.",
+    "overview": "As the defender resisting Posture Recovery from Meathook, you are the bottom player maintaining Rubber Guard's Meathook control while your opponent attempts to extract their trapped arm and recover posture. Your position begins with significant advantage—their arm is isolated under your shin hook, their posture is broken by your collar or head grip, and multiple submission pathways are available. Your objective is to either maintain the Meathook control long enough to advance to a finishing position, or capitalize on their recovery attempts by transitioning to submissions or taking the back. The defender must read the top player's escape timing and intentions, tightening control during extraction windows and flowing to attacks when escape movements create new openings. Every defensive response the top player makes should be channeled into your attack chain rather than simply resisted.",
+    "key_principles": [
+      "Constant shin hook pressure against the tricep prevents arm extraction—momentary loosening creates extraction windows your opponent will exploit",
+      "Hip angle adjustments must be rapid and purposeful, minimizing the transitional moments when hook pressure decreases",
+      "Read the top player's base widening and grip fighting as telegraphs of upcoming extraction attempts to pre-tighten control",
+      "Channel escape movements into submission entries rather than fighting to maintain static position",
+      "Maintain coordinated opposing forces between the shin hook and head/collar grip to keep the control system intact",
+      "Back take awareness during posture recovery attempts—when they create space, their hips become accessible for hook insertion"
+    ],
+    "recognition_cues": [
+      "Top player posts their free arm wide on the mat, creating distance from their body to build extraction leverage",
+      "Top player begins internally rotating or spiraling their trapped arm rather than pulling straight back",
+      "Top player's free hand moves to strip your controlling grip on their head or collar",
+      "Top player shifts weight backward and drops their hips, signaling the loading phase before explosive extraction"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten shin hook and pull shoulder forward as extraction attempt begins",
+        "when_to_use": "When you recognize pre-loading through arm rotation or base widening, immediately increase hook pressure and pull their shoulder deeper into the trap",
+        "targets_outcome": "Meathook/Top",
+        "if_successful": "Extraction attempt fails and opponent remains trapped with depleted energy, creating better submission opportunities",
+        "risk": "Over-tightening while neglecting head grip may allow partial posture recovery even with hook maintained"
+      },
+      {
+        "action": "Pivot hips to take the back as opponent creates space during recovery",
+        "when_to_use": "When the top player successfully extracts their arm and begins driving posture upward, creating space between your bodies that exposes their back",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Establish hooks and seatbelt control from behind, converting their escape attempt into a worse position for them",
+        "risk": "Failed back take attempt may result in losing Meathook control entirely and conceding guard pass"
+      },
+      {
+        "action": "Transition to triangle setup as the arm comes free by throwing leg over their neck",
+        "when_to_use": "When the trapped arm begins extracting and the top player's head remains low, the space between arm and head creates the triangle window",
+        "targets_outcome": "Meathook/Top",
+        "if_successful": "Triangle control established, converting their extraction success into a different submission trap",
+        "risk": "If top player recovers posture quickly, the triangle attempt fails and you may end up in open guard"
+      },
+      {
+        "action": "Shift to Gogoplata angle by repositioning shin toward throat during their upward drive",
+        "when_to_use": "When the top player drives posture upward after extraction, their throat becomes accessible as the head lifts away from chest protection",
+        "targets_outcome": "Meathook/Top",
+        "if_successful": "Gogoplata control locks in using their own upward momentum against them, creating a direct finishing threat",
+        "risk": "Repositioning shin from arm to throat creates a brief window where control is reduced, allowing fast opponents to complete posture recovery"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the top player creates space during posture recovery, follow their hip movement with your own hip pivot, threading your hooks behind their thighs as they drive upward. The space they need for posture recovery is the same space that allows you to establish back control. Time your hip rotation to their upward drive moment."
+      },
+      {
+        "outcome": "Meathook/Top",
+        "how": "Maintain coordinated shin hook and head grip pressure throughout extraction attempts. Read their base widening as a telegraph and pre-tighten the hook. During their explosive extraction attempt, absorb the force by pulling your knee toward your chest, deepening the hook angle. If they fail, their energy expenditure gives you a larger window for submission advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Static hip position during top player's extraction attempts without active adjustment",
+        "consequence": "Constant hook angle allows the top player to pre-load rotational force optimally, and static positioning eliminates your ability to flow to submissions when their escape creates openings",
+        "correction": "Actively adjust hip angle in response to extraction attempts. When they spiral, follow the rotation. When they drive upward, shift toward triangle or gogoplata angles. Dynamic hips both resist extraction and create attack opportunities."
+      },
+      {
+        "error": "Releasing head or collar grip to fight their free arm instead of maintaining the control system",
+        "consequence": "Losing the head grip allows immediate posture recovery even if the shin hook remains, collapsing the dual-control system that makes Meathook effective",
+        "correction": "The head or collar grip must remain constant throughout. Address their free arm with hip pressure and hook adjustments, never by sacrificing your primary posture-breaking grip."
+      },
+      {
+        "error": "Shallow shin hook placement allowing extraction through simple backward pulling",
+        "consequence": "Opponent pulls arm free without needing rotational mechanics, immediately recovers posture, and passes guard before any counter can be mounted",
+        "correction": "Ensure ankle crosses completely over the opponent's shoulder line with the shin creating downward lever pressure against the tricep. Deep hook placement creates a mechanical trap that requires rotational extraction—shallow hooks are functionally useless."
+      },
+      {
+        "error": "Focusing solely on maintaining Meathook rather than transitioning to attacks when extraction begins",
+        "consequence": "Even successful hook maintenance is temporary due to energy cost. Purely defensive holding eventually fails as fatigue degrades control, and missed attack opportunities cannot be recovered",
+        "correction": "Treat extraction attempts as submission entries. When they pull up, attack triangle. When they drive forward, attack gogoplata. When they spiral, attack omoplata. Their escape movements are your attack triggers."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "The top player posts their free arm wide and begins internally rotating their trapped shoulder—what are they preparing and how should you respond?",
+        "answer": "They are loading rotational pre-tension for an explosive spiral arm extraction. The wide base provides leverage and the internal rotation sets up the corkscrew motion. Respond immediately by tightening the shin hook pressure, pulling your knee toward your chest to deepen the hook angle, and reinforcing your head grip. Additionally, consider preemptive hip adjustment toward triangle angle so their extraction attempt feeds directly into your next submission."
+      },
+      {
+        "question": "Your opponent successfully extracts their arm from the Meathook and begins driving posture upward—what is your highest-percentage counter?",
+        "answer": "Follow their upward drive with a hip pivot to take their back. The space they create for posture recovery simultaneously exposes their hips for hook insertion. As they drive up, shoot your hips behind theirs and thread your hooks inside their thighs. Their posture recovery momentum actually assists your back take entry. This is why the back take counter has 20% probability in the outcome model—it is a real and dangerous threat during every recovery attempt."
+      },
+      {
+        "question": "Why is it critical to minimize the duration of hip adjustments when maintaining Meathook control?",
+        "answer": "Hip adjustments temporarily reduce shin hook pressure as you redistribute weight and change angles. Experienced top players time their explosive extraction attempts precisely to these transitional moments when your hook is weakest. Every hip adjustment must be executed rapidly and purposefully, minimizing the window of reduced pressure. Slow or unnecessary hip movements give the opponent repeated extraction opportunities with each adjustment."
+      },
+      {
+        "question": "The top player is attempting incremental grip stripping on your collar control rather than explosive extraction—how should you adapt your defense?",
+        "answer": "Against incremental grip stripping, you cannot simply wait—your energy cost in Meathook is high and time works against static holding. Accelerate your attack timeline. Begin transitioning toward your highest-percentage submission immediately rather than trying to outlast their systematic approach. The incremental strategy is designed to be patient, so force urgency by threatening finishes that demand their attention shift from grip stripping to survival."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Hook Maintenance Under Pressure",
+        "focus": "Maintaining shin hook against progressive extraction attempts",
+        "description": "Partner attempts arm extraction with increasing resistance levels. Practice deepening the hook, adjusting angle, and maintaining coordinated head grip throughout extraction attempts. Focus on feeling when hook pressure decreases and actively correcting before extraction completes. 10 attempts per side with reset."
+      },
+      {
+        "phase": "Phase 2: Counter Recognition and Flow",
+        "focus": "Reading extraction attempts and flowing to attacks",
+        "description": "Partner executes different extraction types: explosive spiral, incremental strip, and stack pressure. Practice recognizing each type and flowing to the appropriate counter—triangle for upward extraction, gogoplata for forward drive, back take for space creation. Emphasis on treating escape as attack trigger."
+      },
+      {
+        "phase": "Phase 3: Live Meathook Retention Sparring",
+        "focus": "Full resistance control maintenance and attack transition",
+        "description": "Start in Meathook with full resistance from both players. Bottom player works to either maintain control and submit, or take the back. Top player works to extract and recover posture. 60-second rounds. Track whether the round ends in submission, back take, posture recovery, or sustained control. Build competitive data across training sessions."
+      }
+    ]
   }
 }

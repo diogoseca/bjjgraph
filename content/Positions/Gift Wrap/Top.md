@@ -21,37 +21,37 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Gift Wrap to Technical Mount",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Short Choke Attack",
+      "text": "From this position, attempt Short Choke Attack. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Short Choke Attack",
-      "text": "From this position, attempt Short Choke Attack. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke Setup",
+      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke Setup",
-      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Body Triangle Lock",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,23 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (12% of attempts)
+### [[Rear Naked Choke]] (36% of attempts)
 
-### [[Armbar on Free Arm]] (11% of attempts)
+### [[Armbar on Free Arm]] (9% of attempts)
 
-### [[Aoki Lock to Crucifix]] (12% of attempts)
+### [[Gift Wrap to Technical Mount]] (14% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (11% of attempts)
+### [[Short Choke Attack]] (7% of attempts)
 
-### [[Short Choke Attack]] (10% of attempts)
+### [[Bow and Arrow Choke Setup]] (6% of attempts)
 
-### [[Bow and Arrow Choke Setup]] (9% of attempts)
+### [[Body Triangle Lock]] (7% of attempts)
 
-### [[Body Triangle Lock]] (13% of attempts)
+### [[Back Control to Crucifix]] (9% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Kimura on Trapped Arm]] (9% of attempts)
 
-### [[Kimura on Trapped Arm]] (10% of attempts)
+### [[Gift Wrap Maintenance]] (3% of attempts)
 
 
 

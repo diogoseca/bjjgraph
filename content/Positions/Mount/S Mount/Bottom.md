@@ -20,33 +20,27 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Trap and Roll from S Mount",
+      "text": "From this position, attempt Trap and Roll from S Mount. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 27% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp from S Mount",
+      "text": "From this position, attempt Frame and Shrimp from S Mount. This technique is attempted in 28% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Bridge Escape from S Mount",
+      "text": "From this position, attempt Bridge Escape from S Mount. This technique is attempted in 25% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 17% of exchanges from this position.",
-      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -206,15 +200,13 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (28% of attempts)
+### [[Trap and Roll from S Mount]] (30% of attempts)
 
-### [[Hip Escape to Guard]] (27% of attempts)
+### [[Frame and Shrimp from S Mount]] (28% of attempts)
 
-### [[Bridge and Roll]] (18% of attempts)
+### [[Bridge Escape from S Mount]] (25% of attempts)
 
-### [[Technical Stand-up]] (10% of attempts)
-
-### [[Frame and Shrimp to Guard]] (17% of attempts)
+### [[Bridge and Roll]] (17% of attempts)
 
 
 
@@ -383,8 +375,8 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 - **[[Armbar Control]]** - Primary threat from this position - studying armbar mechanics improves defensive understanding
 - **[[Half Guard]]** - Primary escape destination - most successful escapes lead to half guard position
 - **[[Closed Guard]]** - Alternative escape destination - recovery target when full escape is possible
-- **[[Elbow Escape to Guard]]** - Core escape technique - fundamental movement pattern for creating space from mount
-- **[[Hip Escape to Guard]]** - Essential movement - primary defensive motion for escaping S Mount pressure
+- **[[Trap and Roll from S Mount]]** - Primary reversal technique - explosive escape designed specifically for S Mount configuration
+- **[[Bridge Escape from S Mount]]** - Bridge-based escape - disrupts opponent's perpendicular control to create escape opportunity
 - **[[Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack by rolling
 
 

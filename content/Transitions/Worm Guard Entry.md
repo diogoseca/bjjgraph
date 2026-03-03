@@ -207,9 +207,9 @@ Worm Guard Entry occupies a central role in the modern gi guard hierarchy as the
 
 - [[Lapel Sweep to Back]] - Follow-up attack available from completed Worm Guard position
 
-- [[Lapel to Lasso Transition]] - Fallback transition when lapel grip is maintained but Worm Guard is denied
+- [[Lapel to Lasso Guard]] - Fallback transition when lapel grip is maintained but Worm Guard is denied
 
-- [[Lapel to Spider Transition]] - Recovery option when lapel configuration is stripped during entry
+- [[Lapel to Spider Guard]] - Recovery option when lapel configuration is stripped during entry
 
 - [[Lapel Elevator Sweep]] - Alternative sweep using lapel grip when opponent drives forward into entry
 

@@ -21,32 +21,38 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bridge from Reverse Kesa-Gatame",
+      "text": "From this position, attempt Bridge from Reverse Kesa-Gatame. This technique is attempted in 5% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -202,15 +208,21 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (25% of attempts)
+### [[Elbow Escape to Guard]] (33% of attempts)
 
-### [[Hip Escape to Guard]] (22% of attempts)
+### [[Hip Escape to Guard]] (18% of attempts)
 
-### [[Bridge and Roll]] (18% of attempts)
+### [[Bridge and Roll]] (14% of attempts)
 
-### [[Frame and Shrimp to Guard]] (20% of attempts)
+### [[Shrimp Escape]] (16% of attempts)
 
-### [[Technical Stand-up]] (15% of attempts)
+### [[Technical Stand-up]] (11% of attempts)
+
+### [[Bridge from Reverse Kesa-Gatame]] (5% of attempts)
+
+### [[Escape Reverse Kesa-Gatame]] (2% of attempts)
+
+### [[Turn In from Reverse Kesa]] (1% of attempts)
 
 
 
@@ -227,12 +239,12 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 **If opponent maintains tight chest-to-chest pressure with proper weight distribution:**
 - Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 40%)
 
 
 **If opponent begins transitioning to North-South or Mount:**
 - Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Shrimp Escape]]** → [[Closed Guard]] (Probability: 35%)
 
 
 **If opponent attacks trapped arm for submission:**
@@ -372,7 +384,7 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 ## Related Positions and Techniques
 
 - **[[Kesa Gatame]]** - Similar defensive position with different escape mechanics
-- **[[Scarf Hold Position]]** - Related pinning position family
+- **[[Reverse Scarf Hold]]** - Related pinning position family
 - **[[Side Control]]** - Parent category of pinning escapes
 - **[[North-South]]** - Common transition target from this position
 - **[[Half Guard]]** - Primary escape destination

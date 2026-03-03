@@ -621,7 +621,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Transition to K-Guard",
+        "transition": "Berimbolo Entry",
         "attempt_probability": 5
       }
     ]

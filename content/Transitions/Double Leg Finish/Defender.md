@@ -215,7 +215,7 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 ### 4. Accept the takedown but immediately pull guard by hooking legs around opponent's waist during the descent
 
 - **When to use**: When the takedown is clearly going to succeed and defensive options to prevent it have been exhausted, typically when opponent has full hip extension and your base is completely compromised
-- **Targets**: [[Clinch]]
+- **Targets**: [[Side Control]]
 - **If successful**: You establish closed guard upon landing rather than conceding side control, maintaining a defensive position with submission and sweep threats rather than being pinned
 - **Risk**: Guard pull timing must be precise - too early and opponent adjusts to pass, too late and they have already established side control before you can close your guard
 

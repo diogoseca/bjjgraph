@@ -63,7 +63,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 | [[Modified Mount]] | High | Low to Medium | High | Low | One leg posted for enhanced base stability |
 | [[S Mount]] | High | Low to Medium | High | Medium | Perpendicular body angle maximizes armbar leverage |
 | [[Technical Mount]] | High | Medium | High | Medium | Stepped leg creates armbar angle advantage |
-| [[Mounted Triangle]] | High | Medium to High | High | Medium | Mount pressure with triangle mechanics |
+| [[Mounted Triangle]] | High | Medium to High | High | Medium | Trades mount stability for submission access |
 | [[Mounted Crucifix]] | High | Low | High | Low | Mount stability with arm isolation control |
 | [[3-4 Mount]] | High | Low to Medium | High | Medium | Asymmetric leg configuration for submissions |
 
@@ -99,21 +99,21 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (46% of attempts)
+- **[[Elbow Escape from Mount]]** (35% of attempts)
 
-- **[[Upa Escape]]** (17% of attempts)
+- **[[Upa Escape]]** (22% of attempts)
 
-- **[[Hip Escape to Guard]]** (22% of attempts)
+- **[[Explosive Bridge to Guard Recovery]]** (15% of attempts)
 
-- **[[Explosive Bridge to Guard Recovery]]** (12% of attempts)
+- **[[Trap and Roll from Mount]]** (10% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (2% of attempts)
+- **[[Heel Drag Escape]]** (7% of attempts)
 
-- **[[Elbow Escape from Mount]]** (0% of attempts)
+- **[[Explosive Bridge to Turtle]]** (5% of attempts)
 
-- **[[Heel Drag Escape]]** (0% of attempts)
+- **[[Bridge and Roll]]** (4% of attempts)
 
-- **[[Trap and Roll from Mount]]** (1% of attempts)
+- **[[Mount Escape to Half Guard Back Take]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,39 +178,29 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Armbar from Mount]]** (8% of attempts)
+- **[[Mount to Armbar]]** (8% of attempts)
 
-- **[[Americana from Mount]]** (5% of attempts)
+- **[[Americana]]** (5% of attempts)
 
 - **[[Cross Collar Choke]]** (5% of attempts)
 
-- **[[Ezekiel from Mount]]** (2% of attempts)
-
 - **[[Gift Wrap to Technical Mount]]** (5% of attempts)
 
-- **[[S-Mount Transition]]** (3% of attempts)
+- **[[S-Mount Transition]]** (4% of attempts)
 
-- **[[High Mount Transition]]** (5% of attempts)
+- **[[High Mount Transition]]** (7% of attempts)
 
-- **[[Mounted Triangle]]** (2% of attempts)
+- **[[Mounted Triangle]]** (3% of attempts)
 
-- **[[Consolidate Mount]]** (64% of attempts)
+- **[[Consolidate Mount]]** (50% of attempts)
 
-- **[[Kimura from Mount]]** (0% of attempts)
+- **[[Mount Control]]** (3% of attempts)
 
-- **[[Loop Choke from Mount]]** (0% of attempts)
+- **[[Mount to 3-4 Mount]]** (3% of attempts)
 
-- **[[Monoplata from Mount]]** (0% of attempts)
+- **[[Mount to Knee on Belly]]** (3% of attempts)
 
-- **[[Mount Control]]** (0% of attempts)
-
-- **[[Transition to 3-4 Mount]]** (0% of attempts)
-
-- **[[Mount to 3-4 Mount]]** (0% of attempts)
-
-- **[[Mount to Knee on Belly]]** (0% of attempts)
-
-- **[[Mount to Technical Mount]]** (1% of attempts)
+- **[[Mount to Technical Mount]]** (4% of attempts)
 
 
 ### Common Mistakes

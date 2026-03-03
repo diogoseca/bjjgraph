@@ -21,37 +21,37 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Roll to Turtle",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 45% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,17 +213,27 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (18% of attempts)
+### [[Elbow Escape to Guard]] (12% of attempts)
 
-### [[Bridge and Roll]] (14% of attempts)
+### [[Bridge and Roll]] (9% of attempts)
 
-### [[Turtle Transition]] (21% of attempts)
+### [[Roll to Turtle]] (45% of attempts)
 
-### [[Frame and Shrimp to Guard]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (11% of attempts)
 
-### [[Arm Extraction]] (19% of attempts)
+### [[Arm Extraction]] (13% of attempts)
 
-### [[Ghost Escape]] (12% of attempts)
+### [[Ghost Escape]] (7% of attempts)
+
+### [[Explosive Bridge to Guard Recovery]] (2% of attempts)
+
+### [[Side Control Escape]] (0% of attempts)
+
+### [[Bridge Escape from Modified Scarf Hold]] (0% of attempts)
+
+### [[Bridge from Modified Scarf Hold]] (0% of attempts)
+
+### [[Escape Modified Scarf Hold]] (1% of attempts)
 
 
 
@@ -244,7 +254,7 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 
 **If pressure becomes unbearable and breathing is severely restricted:**
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Roll to Turtle]]** → [[Turtle]] (Probability: 60%)
 - Execute **[[Ghost Escape]]** → [[Standing Position]] (Probability: 25%)
 
 

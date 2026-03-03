@@ -93,25 +93,27 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (27% of attempts)
+- **[[Old School Sweep]]** (35% of attempts)
 
-- **[[Electric Chair Transition]]** (12% of attempts)
+- **[[Electric Chair Transition]]** (11% of attempts)
 
-- **[[Lockdown Recovery]]** (11% of attempts)
+- **[[Lockdown Recovery]]** (10% of attempts)
 
-- **[[Guard Recovery]]** (14% of attempts)
+- **[[Guard Recovery]]** (13% of attempts)
 
-- **[[Granby Roll to Guard]]** (10% of attempts)
+- **[[Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Rolling Back Take]]** (8% of attempts)
+- **[[Rolling Back Take]]** (7% of attempts)
 
-- **[[Roll to Truck]]** (7% of attempts)
+- **[[Roll to Truck]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (6% of attempts)
+- **[[Deep Half Entry]]** (5% of attempts)
 
-- **[[Escape Zombie Control]]** (3% of attempts)
+- **[[Escape Zombie Control]]** (2% of attempts)
 
-- **[[Turn to Face from Zombie]]** (2% of attempts)
+- **[[Turn to Face from Zombie]]** (1% of attempts)
+
+- **[[Sweep from Zombie Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

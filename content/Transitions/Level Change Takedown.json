@@ -1,10 +1,14 @@
 {
   "name": "Level Change Takedown",
-  "description": "TODO: Write 150-160 character SEO description for Level Change Takedown.",
+  "description": "Master the level change takedown in BJJ. Complete guide to penetration steps, finishing mechanics, counters, and chain wrestling from standing position.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "takedown",
+    "standing",
+    "wrestling",
+    "level-change",
+    "penetration-step"
   ],
   "from_position": "Standing Position/Bottom",
   "outcomes": [
@@ -25,114 +29,373 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Level Change Takedown.",
+  "overview": "The level change takedown is the most fundamental wrestling-based attack in Brazilian Jiu-Jitsu, serving as the primary method for bringing an opponent to the ground from standing. The technique centers on lowering your hips through knee flexion to create a penetration angle beneath your opponent's center of gravity, then driving forward to complete the takedown. This mechanic forms the foundation of both single leg and double leg takedown entries, making it the single most important standing skill for any BJJ competitor who engages from the feet.\n\nIn competition, the level change takedown creates a direct path from neutral standing engagement to dominant side control, bypassing the guard entirely and immediately establishing a scoring advantage. The technique's effectiveness depends on proper setup through grip fighting, feints, and movement that disguises the actual shot entry. Without adequate setup, even technically sound level changes become predictable and easily defended through sprawling or guillotine counters. The integration of chain wrestling concepts allows the attacker to flow between single leg, double leg, and alternative finishes based on defensive reactions, making the level change a gateway to an entire wrestling subsystem within BJJ competition.",
   "conditions": [
-    "TODO"
+    "Both practitioners in standing position with active engagement",
+    "Sufficient distance for penetration step entry without being jammed in clinch range",
+    "Opponent's weight distributed forward or centered, not heavily sprawled back on their heels",
+    "At least one controlling grip established or clear entry angle created through movement or feints"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Blast Double Leg",
+      "description": "Explosive straight-through finish driving opponent directly backward off their feet with maximum forward pressure and no angle change. Both hands lock behind the knees and the attacker drives through the opponent's centerline.",
+      "when_to_use": "When opponent is flat-footed with weight centered or leaning slightly forward, and a direct line to their hips is available without obstruction"
+    },
+    {
+      "variant_name": "Snatch Single Leg",
+      "description": "Quick level change capturing one leg with both arms wrapped tightly around the thigh, immediately elevating the leg to remove the opponent's base on that side. The attacker circles toward the captured leg to finish.",
+      "when_to_use": "When opponent has a staggered stance with lead leg exposed, or when they step forward into range during grip fighting exchanges"
+    },
+    {
+      "variant_name": "Low Single Ankle Pick",
+      "description": "Deep level change targeting a single ankle from extended range. The attacker drops very low and reaches for the far ankle while blocking the near knee, pulling the ankle toward them to trip the opponent.",
+      "when_to_use": "Against opponents who maintain wide stances or circle aggressively, creating distance that makes standard double leg entries difficult"
+    },
+    {
+      "variant_name": "Misdirection Level Change",
+      "description": "Feint in one direction such as a snap down or collar drag then immediately level change and shoot to the opposite side. Exploits the opponent's defensive weight shift to create an undefended shooting lane.",
+      "when_to_use": "Against experienced defenders who read standard shots well, requiring deception to create openings in their defensive structure"
     }
   ],
-  "position_integration": "TODO: Write position integration for Level Change Takedown.",
+  "position_integration": "The level change takedown sits at the heart of the BJJ standing game, connecting neutral standing engagement to ground-based positional dominance. It integrates directly with grip fighting sequences, as the grips established before the shot determine the specific finish available. The technique chains naturally into guard passing when the finish lands in half guard rather than clean side control, and links to the broader takedown ecosystem including body lock takedowns, ankle picks, and judo throws as complementary standing attacks. Mastery of the level change forces opponents to respect your standing game, opening opportunities for guard pulls and grip fighting strategies that exploit their defensive posture.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Standing Position",
+      "relationship": "Starting position for the level change takedown"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful takedown completion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome when opponent pulls guard or establishes leg frames during shot entry"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Alternative standing engagement that can set up level changes through collar ties and snapdowns"
+    },
+    {
+      "name": "Double Leg Finish",
+      "relationship": "Primary completion technique following double leg level change entry"
+    },
+    {
+      "name": "Single Leg Entry",
+      "relationship": "Alternative takedown sharing the same level change penetration mechanics"
+    },
+    {
+      "name": "Body Lock Takedown",
+      "relationship": "Complementary standing takedown using different finishing mechanics from similar range"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Low-level takedown that chains from failed level change attempts or misdirection setups"
+    },
+    {
+      "name": "Sprawl",
+      "relationship": "Primary defensive counter that must be overcome or avoided during execution"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Defensive position opponent may achieve when successfully stuffing the shot"
+    },
+    {
+      "name": "Guard Pull",
+      "relationship": "Opponent's alternative response to avoid the takedown by sitting to guard"
     }
   ],
   "attacker": {
     "name": "Level Change Takedown Attacker",
-    "description": "TODO: Write attacker description for Level Change Takedown.",
-    "overview": "TODO: Write attacker overview for Level Change Takedown.",
+    "description": "Master executing the level change takedown. Step-by-step guide covering penetration mechanics, finishing details, chain wrestling, and defeating sprawl defense.",
+    "overview": "Executing the level change takedown requires coordinating multiple technical elements into one explosive sequence. The attacker must disguise their intentions through grip fighting and movement, then drop their hips below the opponent's center of gravity using proper knee bend mechanics. The penetration step drives forward to close distance, and the finish depends on whether you secure a single leg, double leg, or transition to alternative attacks based on defensive reactions. Success demands understanding that the level change itself is the entry, and the actual takedown finish is a separate technical phase that varies based on your opponent's defensive response. At the highest levels, the level change becomes a platform for chain wrestling where each defensive reaction opens a new offensive path.",
     "key_principles": [
-      "TODO"
+      "Change levels by bending knees and dropping hips explosively, never by bending at the waist or rounding your back forward",
+      "Drive the penetration step through the opponent's centerline to close distance and establish chest-to-thigh contact",
+      "Maintain head position on the inside of your opponent's hip to control direction and prevent guillotine counters",
+      "Use setups and misdirection before shooting to prevent telegraphing your attack to an alert opponent",
+      "Continue forward drive after initial contact rather than stalling at the legs and allowing defensive recovery",
+      "Chain between single leg and double leg finishes based on opponent's defensive reactions without resetting to standing"
     ],
     "setup_requirements": [
-      "TODO"
+      "Establish grip fighting engagement or create a clear shooting lane through lateral movement and feints",
+      "Bring opponent's weight forward using collar ties, snap downs, or push-pull dynamics so they cannot sprawl preemptively",
+      "Create approximately arm's length distance for the penetration step to cover in a single explosive motion",
+      "Ensure a clear head position path to the inside of opponent's hip to avoid driving into crossface or guillotine",
+      "Position at least one foot forward in a staggered stance to generate maximum penetration step power and depth"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Setup and Entry Creation",
+        "description": "Begin with active grip fighting or feints to disguise your shooting intentions. Use a collar tie, arm drag, or snap down to create a reaction that brings your opponent's weight forward or disrupts their base. The setup phase is critical because shooting without adequate setup is the primary reason takedowns fail at higher belt levels where defensive awareness is sharp."
+      },
+      {
+        "step_number": 2,
+        "action": "Level Change",
+        "description": "Drop your hips by bending deeply at the knees while keeping your back straight and chest elevated. Your hips should drop below your opponent's hip line in one explosive movement. Do not bend at the waist, which exposes your neck to guillotines and reduces your forward driving power. Think of sitting into a deep squat while maintaining an upright torso."
+      },
+      {
+        "step_number": 3,
+        "action": "Penetration Step",
+        "description": "Drive your lead knee toward the mat between or outside your opponent's feet while simultaneously reaching for their legs. Your chest should make contact with their thigh or hip as you close the distance. The penetration step covers the gap between standing range and takedown range in a single explosive movement, landing with the ball of your foot rather than slamming your kneecap."
+      },
+      {
+        "step_number": 4,
+        "action": "Contact and Grip Establishment",
+        "description": "Secure both hands behind your opponent's knees or thighs for a double leg, or control a single leg with both arms wrapped tightly around the thigh. Your head must be positioned on the inside of their hip with your ear pressed against their body. Maintain chest-to-thigh contact throughout to prevent them from creating distance or sprawling away from your grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive and Finish",
+        "description": "Drive forward and upward through your opponent's base using your legs and hips as the primary force rather than pulling with your arms. For a double leg, lift and turn the corner to dump them to the side. For a single leg, run the pipe by circling toward the captured leg side. Keep your hips underneath you and your chest connected throughout the entire finishing sequence."
+      },
+      {
+        "step_number": 6,
+        "action": "Takedown Completion and Leg Clearing",
+        "description": "As your opponent hits the mat, immediately advance past their legs to prevent them from establishing guard. Do not remain between their legs or allow them to close guard around your waist. Drive your shoulder into their chest as they land and use your momentum to clear their leg frames, stepping over or around their legs to reach side control position."
+      },
+      {
+        "step_number": 7,
+        "action": "Side Control Consolidation",
+        "description": "Secure side control by establishing a tight crossface with your forearm across their jaw, underhooking their far arm, and driving your hip pressure low against their near hip. Block any immediate guard recovery attempts by keeping your weight distributed across their torso and your base wide. The takedown is not complete until you have established a dominant controlling position with stable pressure."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Sprawl defense where opponent drives hips back and drops weight onto your upper back",
+        "effectiveness": "High",
+        "your_response": "If opponent sprawls early, redirect to a single leg by capturing the near leg and circling to the side. Use your head position to prevent them from establishing front headlock control and keep driving forward to prevent them from settling their sprawl weight.",
+        "targets_outcome": "Standing Position/Bottom"
+      },
+      {
+        "counter": "Guillotine attempt wrapping your neck as you shoot with head exposed",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Crossface and hip check redirecting your shot angle before you secure legs",
+        "effectiveness": "Medium",
+        "your_response": "Change shooting angle by sliding your penetration step to the other side. Use the contact to transition from double leg to single leg on the far leg, or drop to an ankle pick. The crossface creates a pivot point you can work around rather than fighting through directly.",
+        "targets_outcome": "Standing Position/Bottom"
+      },
+      {
+        "counter": "Knee block or downward pressure stuffing the penetration step entry",
+        "effectiveness": "Low",
+        "your_response": "Drive through the block with superior forward pressure and hip drive. If the knee blocks your penetration step, angle off to the open side and finish as a single leg. Alternatively, use the stalled position to switch to an inside trip or body lock finish that bypasses the leg defense entirely.",
         "targets_outcome": "Standing Position/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Bending at the waist instead of dropping hips with knee flexion during the level change",
+        "consequence": "Exposes neck to guillotines, reduces forward driving power, and creates a poor angle of force that makes finishing the takedown extremely difficult even against lighter opponents",
+        "correction": "Initiate level change by bending knees deeply while keeping chest up and back straight, dropping hips below opponent's center of gravity like sitting into a deep squat"
+      },
+      {
+        "error": "Shooting without setup or misdirection from a static standing position",
+        "consequence": "Opponent reads the telegraphed shot easily and sprawls or counters before you close the distance, wasting energy and exposing yourself to front headlock or guillotine attacks",
+        "correction": "Always precede the shot with grip fighting, feints, snap downs, or collar ties that disrupt opponent's defensive positioning and create a window for entry"
+      },
+      {
+        "error": "Head positioned on the outside of opponent's hip during the shot entry",
+        "consequence": "Exposes neck to guillotine chokes and front headlock control, reduces ability to control the direction of the takedown, and gives opponent a choking angle",
+        "correction": "Drive your head to the inside of opponent's hip with ear pressed against their body, maintaining head pressure throughout the finish to control direction and protect your neck"
+      },
+      {
+        "error": "Stopping forward drive after initial contact with opponent's legs",
+        "consequence": "Opponent recovers balance and sprawls or stuffs the shot from a static position, turning a partial entry into a completely failed attempt that wastes energy",
+        "correction": "Continue driving forward with your legs after contact, using constant forward pressure and short choppy steps to prevent opponent from resettling their base"
+      },
+      {
+        "error": "Reaching for legs with arms extended while body remains upright and distant",
+        "consequence": "Creates no forward pressure, arms are easily batted away or trapped, and you end up bent over with no base in a compromised position vulnerable to front headlock",
+        "correction": "Close the distance with your entire body using the penetration step first, making contact with your chest and shoulders before your hands secure the legs"
+      },
+      {
+        "error": "Finishing between opponent's legs instead of advancing past them to side control",
+        "consequence": "End up in opponent's closed or open guard despite completing the takedown, negating the positional advantage and allowing them to immediately begin guard attacks",
+        "correction": "Turn the corner during the finish to land beside opponent's body, immediately clearing their legs and driving your shoulder into their chest to establish side control"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Penetration step and level change form",
+        "description": "Practice the basic level change and penetration step against a standing but non-resisting partner. Focus on proper knee bend, back posture, head placement, and driving mechanics. Drill the movement pattern hundreds of times until the sequence becomes automatic without conscious thought about individual body positions."
+      },
+      {
+        "phase": "Phase 2: Setups and Entries",
+        "focus": "Creating shooting opportunities through grip fighting and feints",
+        "description": "Integrate setup attacks including collar ties, snap downs, and feints before the level change. Partner provides moderate resistance to grip fighting while allowing the shot entry. Focus on timing the level change immediately after a successful setup that disrupts opponent's balance or attention."
+      },
+      {
+        "phase": "Phase 3: Chain Wrestling",
+        "focus": "Transitioning between finishes based on defensive reactions",
+        "description": "Partner defends actively with sprawls, hip checks, and guillotine attempts. Practice switching between double leg, single leg, ankle pick, and body lock finishes in response to specific defensive reactions. Develop the ability to flow between attacks without resetting to standing."
+      },
+      {
+        "phase": "Phase 4: Competition Application",
+        "focus": "Full-speed execution under realistic resistance and fatigue",
+        "description": "Live standing exchanges starting from grip fighting where both partners work offense and defense at competition intensity. Focus on implementing setups, timing the shot, finishing through defensive reactions, and consolidating the takedown position. Include energy management and strategic shot selection over multiple rounds."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical mechanical difference between a proper level change and an incorrect one?",
+        "answer": "A proper level change drops the hips by bending deeply at the knees while maintaining an upright torso and straight back. An incorrect level change bends at the waist, which raises the hips relative to the shoulders, exposes the neck to guillotines, and eliminates forward driving power. The knee bend creates a coiled position where leg drive generates explosive force through the opponent's center of gravity, while waist bending dissipates that force downward into the mat."
+      },
+      {
+        "question": "Your opponent sprawls and drops their hips back as you shoot - how do you adjust your attack?",
+        "answer": "Immediately redirect from the double leg to a single leg by capturing the nearest leg and circling toward that side. Use your head position to block their hip from fully sprawling back, and drive your shoulder into their thigh to prevent them from resettling their base. If the single leg stalls, transition to an ankle pick on the far leg or return to the double by pulling them forward off their sprawl base. The key is maintaining forward pressure and switching attacks rather than stalling."
+      },
+      {
+        "question": "Why must setups precede the level change rather than shooting from a static position?",
+        "answer": "Shooting without setup gives an alert opponent roughly 300 milliseconds to recognize the shot and react with a sprawl, making defense far easier than the attack. Setups like collar ties, snap downs, and feints create defensive reactions that momentarily occupy the opponent's attention and disrupt their base positioning. This disruption creates a timing window where the shot arrives before the opponent can mount an effective defensive response, dramatically increasing the takedown's success rate."
+      },
+      {
+        "question": "What grip configuration provides the highest percentage finish after completing the penetration step on a double leg?",
+        "answer": "Locking your hands behind both knees in a gable grip while your chest is pressed against their thighs provides the strongest finishing position. Your head should be on the inside of their hip with your ear pressed against their body. From this position, drive forward and turn the corner by stepping your outside foot behind their near leg, creating a trip that takes them directly to their back and allows immediate transition past their legs to side control."
+      },
+      {
+        "question": "During your shot entry, your opponent begins wrapping a guillotine around your neck - what determines whether you continue or abort?",
+        "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard."
+      },
+      {
+        "question": "What is the optimal distance from your opponent to initiate the penetration step?",
+        "answer": "The optimal shooting distance is approximately arm's length, where your extended hand can touch your opponent's shoulder. This distance allows the penetration step to cover the gap in a single explosive motion while being far enough that the opponent cannot easily react with a crossface or knee block. Closer than this requires a shortened entry that is easier to stuff, while farther requires covering too much distance which telegraphs the attack and allows defensive preparation."
+      },
+      {
+        "question": "How does the level change takedown integrate with guard pulling strategies in competition?",
+        "answer": "The level change takedown and guard pull create a complementary threat matrix from standing. When an opponent respects the takedown threat by maintaining defensive posture and sprawl readiness, their weight shifts backward, creating ideal conditions for a guard pull that exploits their rearward lean. Conversely, opponents who sit back defensively to prevent guard pulls present forward-leaning posture that is ideal for level change entries. Alternating between these threats prevents the opponent from committing fully to either defensive strategy."
+      },
+      {
+        "question": "Your penetration step lands but your opponent begins pushing your head down toward the mat - what adjustment prevents the defense from working?",
+        "answer": "Circle your head to the opposite hip rather than fighting the downward pressure directly. If they push your head down on the right side, swim your head to the left side of their body while maintaining your grip on their legs. This head switch removes their leverage point and often creates an opening for an inside trip finish. Keep constant forward pressure throughout the head switch to prevent them from creating distance or resettling their defensive base."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Level Change Takedown."
+    "safety_considerations": "Protect your knees during the penetration step by landing on the ball of your lead foot rather than slamming your kneecap directly into the mat. Wear knee pads during heavy takedown drilling sessions. Be aware of neck strain from sprawl defense contact - if your neck is compressed during a failed shot, tap and reset rather than fighting through a dangerous cervical position. When finishing takedowns in training, control your opponent's descent to prevent them from landing on their head or neck. Never slam or lift and drop opponents, which risks serious spinal injuries. During live drilling, ensure adequate mat space to prevent collisions with walls or other training pairs."
   },
   "defender": {
     "name": "Level Change Takedown Defender",
-    "description": "TODO: Write defender description for Level Change Takedown.",
-    "overview": "TODO: Write defender overview for Level Change Takedown.",
+    "description": "Master defending the level change takedown in BJJ. Recognition cues, sprawl mechanics, counter-attacks, and systematic strategies against wrestling shots.",
+    "overview": "Defending the level change takedown requires early recognition of the attack followed by immediate, decisive defensive action. The defender must read the cues that precede a shot entry - the forward weight shift, the eyes dropping to leg level, and the initial hip drop - then respond with the appropriate counter before the attacker completes the penetration step. The primary defensive tool is the sprawl, but effective defense extends beyond merely sprawling. It encompasses grip fighting to prevent clean entries, post-sprawl offense from front headlock position, and counter-attacks that punish failed shot attempts. At higher levels, the defender uses the attacker's forward commitment to create opportunities for guillotines, front headlock series, and go-behind counters that convert defensive moments into dominant offensive positions.",
     "key_principles": [
-      "TODO"
+      "Recognize the level change early through visual and tactile cues before the penetration step connects with your legs",
+      "Sprawl immediately by driving hips back and down, dropping your full weight onto the attacker's upper back and shoulders",
+      "Maintain your head position above the attacker's head to establish control and prevent them from driving through your defense",
+      "Never step backward when a shot comes - lateral movement or sprawling are effective while retreating gives penetration depth",
+      "Counter-attack immediately after stuffing the shot rather than passively returning to neutral standing",
+      "Use proactive grip fighting to deny clean entry angles and force the attacker to shoot from poor positions and longer distances"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent suddenly drops their hips and bends their knees while their posture breaks forward from their normal stance",
+      "Opponent's eyes shift downward toward your legs or hips rather than maintaining their usual chest-level focus",
+      "Forward weight transfer combined with hands releasing grips and reaching toward your lower body in a grabbing motion",
+      "Opponent uses a snap down, collar tie, or feint followed immediately by an explosive level change and forward step",
+      "Lead foot drives forward explosively toward the space between or outside your feet with the torso following"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Sprawl by driving hips back and down while posting hands on attacker's head and shoulders to kill forward momentum",
+        "when_to_use": "Immediately upon recognizing the level change, before the penetration step connects with your legs",
         "targets_outcome": "Standing Position/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Stuff the shot and establish front headlock position with opportunity for snap down attacks, guillotine, or go-behind",
+        "risk": "If sprawl timing is late, attacker may already have leg control and can finish through your sprawl attempt"
+      },
+      {
+        "action": "Guillotine counter by wrapping attacker's neck as they shoot with head exposed on the outside",
+        "when_to_use": "When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Establish guillotine control that forces attacker to defend the choke rather than complete the takedown",
+        "risk": "If grip is shallow or attacker drives through to side control, the guillotine becomes ineffective and you concede position"
+      },
+      {
+        "action": "Crossface and hip check to redirect the shot angle and prevent clean leg contact",
+        "when_to_use": "When attacker begins the penetration step but has not yet established full contact with your legs",
+        "targets_outcome": "Standing Position/Bottom",
+        "if_successful": "Redirect attacker's momentum past you, preventing the takedown and creating counter-offense opportunity from superior angle",
+        "risk": "If crossface is applied too high, attacker can duck under and finish the shot with inside head position"
+      },
+      {
+        "action": "Tactical guard pull to closed or butterfly guard when the shot is unavoidable and sprawl timing is missed",
+        "when_to_use": "When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Establish a controlled guard position rather than being taken down to side control where opponent scores and has dominant position",
+        "risk": "Concedes takedown points if scored before guard is established, and places you on bottom where you must work to escape"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Standing Position/Bottom",
+        "how": "Sprawl immediately upon recognizing the level change, driving your hips back and down while posting on the attacker's head. Once their shot is stuffed, circle toward their head to establish front headlock or spin behind for a back take rather than simply returning to neutral standing where they can shoot again."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, pull guard with the guillotine established. This converts their offensive shot into a defensive crisis where they must address the choke before attempting to pass, giving you immediate offensive initiative from bottom position."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Stepping backward when the shot comes instead of sprawling or moving laterally",
+        "consequence": "Gives the attacker additional penetration depth, allows them to drive through your retreating defense, and removes your ability to apply defensive weight on their upper body",
+        "correction": "Drive hips backward and down in a sprawl motion while maintaining or advancing your upper body position over the attacker to create a wall they must push through"
+      },
+      {
+        "error": "Standing upright with locked knees and high center of gravity when the shot arrives",
+        "consequence": "Cannot sprawl quickly enough from a tall position, giving the attacker time to complete the penetration step and secure leg control before your defense begins",
+        "correction": "Maintain an athletic stance with slight knee bend and weight on balls of feet at all times during standing engagement, allowing instant sprawl reaction"
+      },
+      {
+        "error": "Reaching down with arms to push attacker's head without moving hips backward",
+        "consequence": "Arms alone cannot stop a committed shot powered by full body momentum, and extended arms are vulnerable to being captured or bypassed during the takedown",
+        "correction": "Hip movement is the primary defense - drive hips back first, then use hands to control attacker's head and shoulders from the advantageous sprawl position"
+      },
+      {
+        "error": "Attempting guillotine counter without securing proper head position and sufficient grip depth",
+        "consequence": "Shallow guillotine fails to create choking pressure, and wrapping the neck without control gives the attacker favorable head positioning to drive through to side control",
+        "correction": "Only commit to the guillotine counter when attacker's head is clearly exposed on the outside and you can establish a deep chin strap grip before they establish chest-to-thigh contact"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest visual cue that indicates your opponent is about to shoot a level change takedown?",
+        "answer": "The earliest cue is the opponent's hips beginning to drop as their knees bend, often accompanied by a slight forward lean and their eyes dropping toward your lower body. This occurs fractions of a second before the penetration step begins and represents the optimal timing window for initiating your sprawl defense. The hip drop changes their silhouette noticeably and should trigger an automatic defensive reaction through trained pattern recognition."
+      },
+      {
+        "question": "Your opponent shoots a double leg and has both hands secured behind your knees - what is your defensive priority?",
+        "answer": "At this stage, sprawling alone may be insufficient since they already have leg control. Your priority shifts to getting your hips away from their driving force while establishing a whizzer overhook on their near arm and crossfacing with your other hand. Drive your hip into their shoulder to reduce their forward drive, then work to circle your hips away from their head side while fighting to peel their gripping hands off your legs one at a time."
+      },
+      {
+        "question": "How do you adjust your standing posture to make level change takedowns more difficult for your opponent?",
+        "answer": "Maintain a slightly lower athletic stance with knees bent and weight distributed toward the balls of your feet. Keep your hips back slightly so your center of gravity sits behind your front foot rather than directly over it. Maintain active hand fighting to deny clean gripping and entry angles. Use circular footwork to prevent the attacker from establishing a direct line to your legs. This combination of posture, distance, and movement forces attackers to shoot from poor angles and longer distances."
+      },
+      {
+        "question": "After successfully sprawling on your opponent's shot, what offensive option provides the highest positional return?",
+        "answer": "The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying takedown entry cues before the shot connects",
+        "description": "Partner demonstrates level changes and shots at slow speed while you practice recognizing the visual and tactile cues. No defensive movement initially - purely focus on reading the hip drop, eye shift, and weight transfer. Progress to calling out 'shot' the instant you recognize the entry to build pattern recognition speed."
+      },
+      {
+        "phase": "Phase 2: Sprawl Mechanics",
+        "focus": "Sprawl technique execution and timing under progressive speed",
+        "description": "Partner shoots at progressive speeds while you practice sprawl mechanics. Focus on hip drive backward and downward, hand posting on head and shoulders, and maintaining upper body position over the attacker. Drill the sprawl hundreds of times until it becomes a reflexive response to any level change recognition."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense",
+        "focus": "Attacking immediately after successful defensive sprawl",
+        "description": "After sprawling on partner's shot, immediately transition to front headlock, guillotine attempt, or go-behind rather than returning to neutral standing. Develop automatic offensive chains from successful defense into dominant position. Partner varies shot entries and angles to create different counter-attack opportunities."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Integrated defense under full competition pressure",
+        "description": "Full-speed standing exchanges where partner actively seeks takedowns while you implement the complete defensive system: recognition, sprawl, counter-offense, and strategic returns to standing. Both partners work at competition intensity with realistic grip fighting and varied setup attacks to simulate tournament conditions."
       }
     ]
   }

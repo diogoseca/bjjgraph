@@ -89,19 +89,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Shrimp Escape]]** (28% of attempts)
+- **[[Shrimp Escape]]** (33% of attempts)
 
-- **[[Rolling to Guard]]** (19% of attempts)
+- **[[Rolling to Guard]]** (18% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Arm Extraction]]** (20% of attempts)
+- **[[Arm Extraction]]** (19% of attempts)
 
-- **[[Hip Escape to Guard]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Escape Dead Orchard Control]]** (6% of attempts)
+- **[[Escape Dead Orchard Control]]** (5% of attempts)
 
-- **[[Roll from Dead Orchard]]** (3% of attempts)
+- **[[Roll from Dead Orchard]]** (2% of attempts)
+
+- **[[Escape from Dead Orchard]]** (1% of attempts)
 
 
 ### Common Mistakes

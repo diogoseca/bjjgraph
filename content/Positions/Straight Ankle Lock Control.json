@@ -306,31 +306,35 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 25
+        "attempt_probability": 27
       },
       {
         "transition": "Counter Entry to Opponent's Leg",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Hip Rotation Defense",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Knee Extraction",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Frame and Distance Creation",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Counter from Ankle Lock",
+        "attempt_probability": 4
       }
     ]
   },
@@ -604,7 +608,7 @@
         "attempt_probability": 11
       },
       {
-        "transition": "X-Guard to Ashi Transition",
+        "transition": "X-Guard to Ashi Garami",
         "attempt_probability": 6
       },
       {

@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,27 +207,27 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (29% of attempts)
+### [[Knee Slice from Half]] (37% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Smash Pass]] (15% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Long Step Pass]] (7% of attempts)
 
-### [[Underhook Pass]] (7% of attempts)
+### [[Underhook Pass]] (6% of attempts)
 
-### [[Crossface Pass]] (9% of attempts)
+### [[Crossface Pass]] (12% of attempts)
 
-### [[Leg Weave Pass]] (6% of attempts)
+### [[Leg Weave Pass]] (5% of attempts)
 
-### [[Back Step Pass]] (8% of attempts)
+### [[Back Step Pass]] (7% of attempts)
 
-### [[Transition to Flattened Half Guard]] (10% of attempts)
+### [[Body Lock Pass]] (7% of attempts)
 
-### [[Body Lock Pass]] (6% of attempts)
+### [[Knee Slice from Knee Shield]] (2% of attempts)
 
-### [[Knee Slice from Knee Shield]] (3% of attempts)
+### [[Smash from Knee Shield]] (1% of attempts)
 
-### [[Smash from Knee Shield]] (2% of attempts)
+### [[Smash Pass from Knee Shield]] (1% of attempts)
 
 
 

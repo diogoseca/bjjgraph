@@ -13,7 +13,7 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "overview": "The Danaher Leg Lock System represents a paradigmatic shift in modern Brazilian Jiu-Jitsu, transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Developed by John Danaher and perfected by his students at the Renzo Gracie Academy, this system treats leg entanglements as positions rather than submissions, establishing control hierarchies, transition pathways, and finishing mechanics that mirror traditional upper body systems.\n\nAt its core, the system is built upon the ashi-garami family of positions\u2014a spectrum of leg entanglements ranging from outside ashi-garami (least control) to inside sankaku (maximum control). Each position offers distinct control advantages, submission options, and transition pathways. The revolutionary aspect lies in treating these positions with the same systematic rigor as mount or back control, establishing clear objectives for control maintenance, position advancement, and systematic breaking before finishing.\n\nThe system's effectiveness stems from its emphasis on mechanical hierarchy over opportunism. Rather than attempting submissions from weak positions, practitioners learn to recognize positional deficiencies, advance through the hierarchy systematically, and only commit to finishing attempts from positions of overwhelming control. This approach has proven devastatingly effective in competition, with Danaher's students achieving unprecedented success through leg locks at the highest levels of no-gi grappling.",
+  "overview": "The Danaher Leg Lock System represents a paradigmatic shift in modern Brazilian Jiu-Jitsu, transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Developed by John Danaher and perfected by his students at the Renzo Gracie Academy, this system treats leg entanglements as positions rather than submissions, establishing control hierarchies, transition pathways, and finishing mechanics that mirror traditional upper body systems.\n\nAt its core, the system is built upon the ashi-garami family of positions—a spectrum of leg entanglements ranging from outside ashi-garami (least control) to inside sankaku (maximum control). Each position offers distinct control advantages, submission options, and transition pathways. The revolutionary aspect lies in treating these positions with the same systematic rigor as mount or back control, establishing clear objectives for control maintenance, position advancement, and systematic breaking before finishing.\n\nThe system's effectiveness stems from its emphasis on mechanical hierarchy over opportunism. Rather than attempting submissions from weak positions, practitioners learn to recognize positional deficiencies, advance through the hierarchy systematically, and only commit to finishing attempts from positions of overwhelming control. This approach has proven devastatingly effective in competition, with Danaher's students achieving unprecedented success through leg locks at the highest levels of no-gi grappling.",
   "key_principles": [
     "Position Before Submission - Establish dominant leg entanglement before attempting finishes",
     "Control Hierarchy - Recognize and advance through ashi-garami positional spectrum",
@@ -359,9 +359,9 @@
       "relationship": "Primary submission family for entire system with multiple variations"
     },
     {
-      "name": "Heel Hook",
+      "name": "Inside Heel Hook from Honey Hole",
       "content_type": "Submission",
-      "relationship": "Comprehensive heel hook techniques adapted to different ashi-garami positions"
+      "relationship": "Signature finish from maximum control position in the ashi-garami hierarchy"
     },
     {
       "name": "Toe Hold from 50-50",
@@ -374,7 +374,7 @@
       "relationship": "Secondary lower body attack from outside ashi-garami configurations"
     },
     {
-      "name": "X-Guard to Ashi Transition",
+      "name": "X-Guard to Ashi Garami",
       "content_type": "Transition",
       "relationship": "Critical entry pathway from X-guard positions to leg entanglements"
     },

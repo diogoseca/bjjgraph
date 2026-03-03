@@ -93,21 +93,27 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (22% of attempts)
+- **[[Rear Naked Choke]]** (42% of attempts)
 
-- **[[Armbar from Back Transition]]** (10% of attempts)
+- **[[Armbar from Back Transition]]** (7% of attempts)
 
-- **[[Bow and Arrow Choke]]** (12% of attempts)
+- **[[Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Short Choke]]** (10% of attempts)
+- **[[Short Choke]]** (8% of attempts)
 
-- **[[Triangle from Back]]** (8% of attempts)
+- **[[Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Back Control to Crucifix]]** (15% of attempts)
+- **[[Back Control Maintenance]]** (13% of attempts)
 
-- **[[Back Control Maintenance]]** (15% of attempts)
+- **[[Kimura from Back]]** (4% of attempts)
 
-- **[[Kimura from Back]]** (8% of attempts)
+- **[[Roll to Truck]]** (3% of attempts)
+
+- **[[Cross Collar Choke]]** (4% of attempts)
+
+- **[[Body Triangle Escape to Half Guard]]** (1% of attempts)
+
+- **[[Body Triangle Escape to Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,19 +174,21 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (18% of attempts)
+- **[[Hip Escape to Turtle]]** (14% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (9% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Triangle Clear to Side]]** (51% of attempts)
 
-- **[[Triangle Clear to Side]]** (23% of attempts)
+- **[[Standing up in Base]]** (5% of attempts)
 
-- **[[Standing up in Base]]** (12% of attempts)
+- **[[Rolling Back Take Reversal]]** (2% of attempts)
 
-- **[[Back Door Escape]]** (13% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (9% of attempts)
 
-- **[[Rolling Back Take Reversal]]** (6% of attempts)
+- **[[Back Door Escape]]** (9% of attempts)
+
+- **[[Body Triangle Squeeze]]** (1% of attempts)
 
 
 ### Common Mistakes

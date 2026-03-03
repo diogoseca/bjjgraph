@@ -95,27 +95,29 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (39% of attempts)
+- **[[Deep Half Entry]]** (48% of attempts)
 
-- **[[Old School Sweep]]** (13% of attempts)
+- **[[Old School Sweep]]** (12% of attempts)
 
-- **[[Waiter Sweep]]** (9% of attempts)
+- **[[Waiter Sweep]]** (8% of attempts)
 
-- **[[100% Sweep]]** (8% of attempts)
+- **[[100% Sweep]]** (7% of attempts)
 
-- **[[Half Guard to Back Take]]** (8% of attempts)
+- **[[Half Guard to Back Take]]** (7% of attempts)
 
-- **[[Electric Chair Transition]]** (5% of attempts)
+- **[[Electric Chair Transition]]** (4% of attempts)
 
-- **[[Lockdown Recovery]]** (8% of attempts)
+- **[[Lockdown Recovery]]** (7% of attempts)
 
-- **[[X-Guard Sweep]]** (3% of attempts)
+- **[[X-Guard Sweep]]** (2% of attempts)
 
-- **[[Single Leg X Entry]]** (5% of attempts)
+- **[[Single Leg X Entry]]** (4% of attempts)
 
-- **[[Escape Double Jump]]** (1% of attempts)
+- **[[Escape Double Jump]]** (0% of attempts)
 
-- **[[Reguard from Double Jump]]** (1% of attempts)
+- **[[Reguard from Double Jump]]** (0% of attempts)
+
+- **[[Sweep from Double Jump]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -188,7 +190,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 - **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Transition to Rodeo Ride]]** (6% of attempts)
+- **[[Turtle to Rodeo Ride]]** (6% of attempts)
 
 - **[[Sit to Half Guard]]** (8% of attempts)
 

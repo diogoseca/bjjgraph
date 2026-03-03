@@ -116,11 +116,11 @@
     ],
     "transitions": [
       {
-        "transition": "Armbar from Mount",
+        "transition": "Mount to Armbar",
         "attempt_probability": 8
       },
       {
-        "transition": "Americana from Mount",
+        "transition": "Americana",
         "attempt_probability": 5
       },
       {
@@ -128,60 +128,40 @@
         "attempt_probability": 5
       },
       {
-        "transition": "Ezekiel from Mount",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Gift Wrap to Technical Mount",
         "attempt_probability": 5
       },
       {
         "transition": "S-Mount Transition",
-        "attempt_probability": 3
+        "attempt_probability": 4
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 5
+        "attempt_probability": 7
       },
       {
         "transition": "Mounted Triangle",
-        "attempt_probability": 2
+        "attempt_probability": 3
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 64
-      },
-      {
-        "transition": "Kimura from Mount",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Loop Choke from Mount",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Monoplata from Mount",
-        "attempt_probability": 0
+        "attempt_probability": 50
       },
       {
         "transition": "Mount Control",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to 3-4 Mount",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Mount to 3-4 Mount",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Mount to Knee on Belly",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Mount to Technical Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [
@@ -209,17 +189,17 @@
         "condition": "If opponent extends arm to frame on face, neck, or chest creating isolation opportunity",
         "actions": [
           {
-            "technique": "Armbar from Mount",
+            "technique": "Mount to Armbar",
             "target": "Armbar Control",
             "probability": 70
           },
           {
-            "technique": "Americana from Mount",
+            "technique": "Americana",
             "target": "Game Over",
             "probability": 50
           },
           {
-            "technique": "Kimura from Mount",
+            "technique": "Kimura",
             "target": "Game Over",
             "probability": 45
           }
@@ -234,14 +214,14 @@
             "probability": 55
           },
           {
-            "technique": "Ezekiel from Mount",
-            "target": "Game Over",
-            "probability": 45
-          },
-          {
             "technique": "Mounted Triangle",
             "target": "Mounted Triangle",
             "probability": 40
+          },
+          {
+            "technique": "High Mount Transition",
+            "target": "High Mount",
+            "probability": 50
           }
         ]
       },
@@ -425,36 +405,36 @@
     ],
     "transitions": [
       {
-        "transition": "Elbow Escape to Guard",
-        "attempt_probability": 46
+        "transition": "Elbow Escape from Mount",
+        "attempt_probability": 35
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Hip Escape to Guard",
         "attempt_probability": 22
       },
       {
         "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Explosive Bridge to Turtle",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Elbow Escape from Mount",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Heel Drag Escape",
-        "attempt_probability": 0
+        "attempt_probability": 15
       },
       {
         "transition": "Trap and Roll from Mount",
-        "attempt_probability": 1
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Heel Drag Escape",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Explosive Bridge to Turtle",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Mount Escape to Half Guard Back Take",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -467,7 +447,7 @@
             "probability": 55
           },
           {
-            "technique": "Elbow Escape to Guard",
+            "technique": "Elbow Escape from Mount",
             "target": "Open Guard",
             "probability": 45
           }
@@ -482,7 +462,7 @@
             "probability": 45
           },
           {
-            "technique": "Hip Escape to Guard",
+            "technique": "Elbow Escape from Mount",
             "target": "Half Guard",
             "probability": 40
           }
@@ -492,12 +472,12 @@
         "condition": "If opponent isolates one arm and begins submission attack sequence",
         "actions": [
           {
-            "technique": "Hip Escape to Guard",
+            "technique": "Explosive Bridge to Guard Recovery",
             "target": "Half Guard",
             "probability": 60
           },
           {
-            "technique": "Explosive Bridge to Guard Recovery",
+            "technique": "Bridge and Roll",
             "target": "Closed Guard",
             "probability": 35
           }
@@ -527,8 +507,8 @@
             "probability": 55
           },
           {
-            "technique": "Elbow Escape to Guard",
-            "target": "Half Guard",
+            "technique": "Trap and Roll from Mount",
+            "target": "Closed Guard",
             "probability": 45
           }
         ]
@@ -607,16 +587,16 @@
         "relationship": "Advanced recovery option from mount when standard escapes are unavailable"
       },
       {
-        "name": "Elbow Escape to Guard",
-        "relationship": "Primary technical escape using hip movement and knee shield insertion"
+        "name": "Elbow Escape from Mount",
+        "relationship": "Primary technical escape using hip movement and knee shield insertion from mount"
       },
       {
         "name": "Upa Escape",
         "relationship": "Explosive bridge-and-roll reversal technique requiring arm and leg trap"
       },
       {
-        "name": "Hip Escape to Guard",
-        "relationship": "Fundamental shrimping escape to create space for guard recovery"
+        "name": "Bridge and Roll",
+        "relationship": "Fundamental bridge escape recovering guard through rotational momentum"
       }
     ],
     "position_metrics": {

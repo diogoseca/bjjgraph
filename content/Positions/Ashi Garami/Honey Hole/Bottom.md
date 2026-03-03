@@ -21,37 +21,37 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Defense",
-      "text": "From this position, attempt Saddle Defense. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Angle Change Escape",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 37% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,23 +208,25 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ## Available Escapes
 
-### [[Inversion Escape]] (15% of attempts)
+### [[Inversion Escape]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (8% of attempts)
+### [[Hip Escape to Guard]] (7% of attempts)
 
-### [[Saddle Defense]] (10% of attempts)
+### [[Angle Change Escape]] (9% of attempts)
 
-### [[Ashi Garami Escape]] (8% of attempts)
+### [[Ashi Garami Escape]] (7% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (30% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (37% of attempts)
 
-### [[Counter heel hook]] (4% of attempts)
+### [[Counter heel hook]] (3% of attempts)
 
-### [[Reverse the entanglement to Outside Ashi]] (9% of attempts)
+### [[Reverse the entanglement to Outside Ashi]] (8% of attempts)
 
-### [[Grip Break]] (14% of attempts)
+### [[Grip Break]] (13% of attempts)
 
-### [[Standing Escape]] (2% of attempts)
+### [[Standing Escape]] (1% of attempts)
+
+### [[Sweep from Honey Hole]] (1% of attempts)
 
 
 
@@ -243,7 +245,7 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 **If opponent has heel grip but has not yet applied breaking pressure:**
 - Execute **[[Grip Break]]** → [[Honey Hole]] (Probability: 20%)
 - Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 15%)
-- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 18%)
+- Execute **[[Angle Change Escape]]** → [[Outside Ashi-Garami]] (Probability: 18%)
 
 
 **If opponent has locked heel hook grip with triangle secured and begins applying pressure:**

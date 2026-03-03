@@ -218,15 +218,13 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ### [[Leg Extraction to Combat Base]] (37% of attempts)
 
-### [[Transition to Z-Lock Half Guard]] (8% of attempts)
+### [[Lockdown to Z-Lock Half Guard]] (9% of attempts)
 
 ### [[Lockdown Break and Pass]] (10% of attempts)
 
 ### [[Darce from Lockdown Counter]] (3% of attempts)
 
 ### [[Lockdown Whizzer Pass]] (1% of attempts)
-
-### [[Lockdown to Z-Lock Half Guard]] (1% of attempts)
 
 
 
@@ -351,8 +349,8 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 **Q4**: What are the essential grips and controls for maintaining top position against lockdown?
 **A**: The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles.
 
-**Q5**: How should you time your leg extraction attempts when trapped in lockdown?
-**A**: Time leg extraction when the opponent is defensive, adjusting position, or momentarily relaxes their lockdown grip to reset their attack. Watch for moments when they release tension to switch between underhook and overhook, or when they begin a failed sweep attempt. Never try to extract when they are actively extending or attacking, as their grip will be at maximum strength.
+**Q5**: You notice your opponent momentarily relaxes their lockdown tension to adjust their underhook grip - what should you do?
+**A**: This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking.
 
 **Q6**: Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?
 **A**: Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities.

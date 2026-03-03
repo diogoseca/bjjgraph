@@ -95,21 +95,23 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (13% of attempts)
+- **[[Hip Escape to Turtle]]** (10% of attempts)
 
-- **[[Standing up in Base]]** (10% of attempts)
-
-- **[[Rolling to Guard]]** (10% of attempts)
+- **[[Rolling to Guard]]** (6% of attempts)
 
 - **[[Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Grip Break and Face]]** (12% of attempts)
+- **[[Grip Break and Face]]** (13% of attempts)
 
 - **[[Controlled Descent]]** (30% of attempts)
 
-- **[[Explosive Forward Roll]]** (6% of attempts)
+- **[[Explosive Forward Roll]]** (4% of attempts)
 
-- **[[Turn In and Face]]** (14% of attempts)
+- **[[Turn In and Face]]** (15% of attempts)
+
+- **[[Arm Drag Escape]]** (7% of attempts)
+
+- **[[Standing up in Base]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +172,27 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (18% of attempts)
+- **[[Rear Naked Choke]]** (30% of attempts)
 
 - **[[Takedown to Grounded Back Control]]** (18% of attempts)
 
-- **[[Body Triangle Lock]]** (14% of attempts)
+- **[[Body Triangle Lock]]** (7% of attempts)
 
-- **[[Armbar from Back Transition]]** (7% of attempts)
+- **[[Armbar from Back Transition]]** (9% of attempts)
 
-- **[[Crucifix Transition]]** (10% of attempts)
+- **[[Crucifix Transition]]** (7% of attempts)
 
-- **[[Truck Position Entry]]** (13% of attempts)
+- **[[Truck Position Entry]]** (5% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (8% of attempts)
+- **[[Snap Down to Front Headlock]]** (4% of attempts)
 
-- **[[Follow to Back Control]]** (12% of attempts)
+- **[[Follow to Back Control]]** (9% of attempts)
+
+- **[[Mat Return to Back Mount]]** (7% of attempts)
+
+- **[[Back Control to Seat Belt Control Back]]** (2% of attempts)
+
+- **[[Bow and Arrow Setup from Standing Back]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -1,13 +1,403 @@
 {
   "name": "Bridge Escape from Kesa Gatame",
-  "description": "",
-  "tags": [],
+  "description": "Master the bridge escape from Kesa Gatame in BJJ. Complete guide to hip mechanics, timing, and half guard recovery from the scarf hold position.",
+  "tags": [
+    "escape",
+    "kesa-gatame",
+    "bridge",
+    "half-guard-recovery",
+    "scarf-hold",
+    "fundamental-escape",
+    "positional-escape"
+  ],
   "from_position": "Kesa Gatame/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 100,
+      "probability": 40,
       "result": "success"
+    },
+    {
+      "to": "Kesa Gatame/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
+      "to": "North-South/Bottom",
+      "probability": 10,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 40,
+  "overview": "The Bridge Escape from Kesa Gatame is a fundamental escape that exploits the structural vulnerability inherent in the scarf hold—the top player's perpendicular alignment creates a weak base toward the trapped arm side. By generating explosive hip extension directed into this weak angle while controlling the opponent's posting arm, the bottom player creates momentary displacement sufficient to insert a knee and recover half guard. This escape is one of the primary tools in any Kesa Gatame escape system and remains effective across all experience levels when properly timed and executed.\n\nThe technique's success hinges on preparation rather than raw power. Controlling the top player's far arm eliminates their ability to post and absorb the bridge, while proper foot placement close to the hips maximizes bridge height and displacement. The optimal timing window opens when the top player shifts weight to attempt a submission, adjusts their position, or momentarily reduces chest pressure. Without these preparatory elements, even powerful bridges are easily neutralized by a well-based opponent who simply spreads their legs and sinks their hips.\n\nWithin the broader Kesa Gatame escape framework, the bridge escape creates a valuable directional dilemma for the top player. While ghost escapes and back takes exploit the opponent's exposed back through turning away, the bridge escape attacks the base directly by turning into the opponent. This two-directional threat prevents the top player from committing their defensive resources entirely to either escape pathway, making both options more effective when integrated into a systematic escape strategy.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Bridge Escape",
+      "description": "Uses sleeve grip on the opponent's far arm at the wrist for superior posting prevention. The gi fabric provides a secure anchor that prevents the opponent from pulling their arm free, making the bridge more reliable. Additional lapel grips can be incorporated to pull the opponent's weight forward before bridging.",
+      "when_to_use": "In gi training and competition when sleeve grips are available and the opponent's far arm is accessible."
+    },
+    {
+      "variant_name": "No-Gi Wrist Control Bridge",
+      "description": "Relies on wrist control or an overhook on the opponent's far arm to prevent posting. The grip is less secure than gi grips, so the bridge must be more explosive and the timing more precise. Two-on-one wrist control provides the best no-gi anchor for this escape.",
+      "when_to_use": "In no-gi grappling or MMA contexts where fabric grips are unavailable."
+    },
+    {
+      "variant_name": "Bridge to Turtle Continuation",
+      "description": "Instead of stopping at half guard recovery, the bottom player continues the rotation from the bridge to achieve turtle position. After the bridge displaces the opponent's weight, the bottom player turns fully to their knees rather than inserting a knee shield. This is effective when the space created is insufficient for knee insertion but enough to complete a full turn.",
+      "when_to_use": "When the bridge creates movement but not enough space for knee insertion, or when the opponent's far arm cannot be controlled."
+    }
+  ],
+  "position_integration": "The Bridge Escape from Kesa Gatame occupies a critical role within the Kesa Gatame bottom escape system as the primary base-attack escape that complements turning escapes like the ghost escape and back take. While turning escapes exploit the opponent's exposed back by rotating away, the bridge escape attacks the opponent's base directly by driving upward and turning into them. This creates an escape dilemma: if the top player adjusts to defend turning escapes by sitting back heavily, they become more vulnerable to bridge escapes, and vice versa. The technique feeds naturally into the half guard system upon success, where the bottom player can immediately begin offensive sequences including underhook sweeps, deep half entries, and back take chains.",
+  "conditions": [
+    "Opponent has established Kesa Gatame with head and near arm control",
+    "At least one arm (preferably the far arm) is free or can be freed for controlling opponent's posting arm",
+    "Feet can be planted flat on the mat close to the hips for bridge power generation",
+    "Opponent's weight is distributed through chest pressure rather than settled back on their hips with wide base"
+  ],
+  "related_content": [
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Starting position from which this escape is executed"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position upon successful escape"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Related fundamental escape using similar bridge mechanics from different pins"
+    },
+    {
+      "name": "Back Take from Kesa Gatame",
+      "relationship": "Alternative escape that exploits opponent's exposed back through turning away"
+    },
+    {
+      "name": "Ghost Escape",
+      "relationship": "Complementary escape creating two-directional threat with bridge escape"
+    },
+    {
+      "name": "Bridge and Turn to Turtle",
+      "relationship": "Related escape technique using bridge to reach turtle instead of half guard"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Alternative guard recovery escape from Kesa Gatame using different mechanics"
+    },
+    {
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Frame-based escape alternative when bridge timing is unavailable"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter position opponent may achieve if bridge is poorly timed"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Counter position opponent may transition to during failed bridge attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Bridge Escape from Kesa Gatame Attacker",
+    "description": "Execute the bridge escape from Kesa Gatame to recover half guard. Step-by-step guide covering setup, timing, hip mechanics, and guard recovery techniques.",
+    "overview": "As the bottom player executing the bridge escape from Kesa Gatame, your objective is to generate explosive upward displacement that disrupts the top player's base, create space through hip rotation, and recover half guard by inserting your knee before the opponent can re-consolidate control. The escape requires systematic preparation—controlling the opponent's far arm, planting feet optimally, and identifying the correct timing window—before committing to the explosive bridge. Success depends on treating this as a coordinated sequence rather than a single explosive movement, with each preparatory step increasing the probability of the bridge generating enough displacement for guard recovery.",
+    "key_principles": [
+      "Control the opponent's far arm before bridging to eliminate their ability to post and absorb your bridge force",
+      "Bridge directionally toward your trapped arm side at a 45-degree angle where the opponent's base is weakest",
+      "Plant feet close to your hips with knees bent to maximize bridge height and explosive power generation",
+      "Time the bridge to coincide with the opponent's weight shifts, submission attempts, or momentary pressure reductions",
+      "Immediately insert your knee at the apex of the bridge—any delay allows the opponent to resettle their weight",
+      "Commit fully to completing the guard recovery once the bridge creates space rather than stopping in a halfway position"
+    ],
+    "setup_requirements": [
+      "Free your far arm from any control and establish it as your primary tool for controlling the opponent's posting arm",
+      "Plant both feet flat on the mat as close to your buttocks as possible with knees bent at approximately 90 degrees",
+      "Secure a grip on the opponent's far wrist, elbow, or sleeve to prevent them from posting during the bridge",
+      "Identify the timing window by monitoring the opponent's weight distribution and submission attempts",
+      "Tuck your chin to protect against choke attempts during the explosive bridge movement"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish Defensive Frame",
+        "description": "Use your free arm (far arm) to create a frame against the opponent's face, neck, or shoulder. This frame prevents smothering pressure and gives you breathing room to prepare the escape. If your far arm is being controlled, fight to free it first—the bridge escape requires at least one free arm for controlling the opponent's posting ability."
+      },
+      {
+        "step_number": 2,
+        "action": "Plant Feet and Load Hips",
+        "description": "Bring both feet flat on the mat as close to your buttocks as possible, with knees bent at approximately 90 degrees. This foot positioning maximizes bridge height and explosive power. Avoid extending your legs or planting feet too far from your hips, as this reduces the mechanical advantage of your bridge and may telegraph the escape attempt to an attentive opponent."
+      },
+      {
+        "step_number": 3,
+        "action": "Control Opponent's Far Arm",
+        "description": "Reach across with your free hand and grab the opponent's far wrist, elbow, or sleeve to eliminate their ability to post when you bridge. This is the most critical preparatory step—without controlling the posting arm, the opponent can simply extend their arm and absorb your bridge with minimal effort. In gi, grip the sleeve at the wrist; in no-gi, control the wrist directly or secure an overhook."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute Explosive Bridge",
+        "description": "Drive your hips explosively upward and toward the trapped arm side at a 45-degree angle, lifting the opponent's weight off your chest. The bridge direction must target your trapped arm side where the opponent's base is weakest due to their perpendicular alignment. Generate force through your legs and hips simultaneously, treating the movement as a single explosive hip extension rather than a gradual lift."
+      },
+      {
+        "step_number": 5,
+        "action": "Turn Hips and Create Space",
+        "description": "As the bridge reaches its peak and the opponent's weight shifts, immediately turn your hips toward the opponent. This rotation creates critical space between your hips and the mat where you can insert your knee. The turn must happen at the apex of the bridge—waiting even a fraction of a second allows the opponent to resettle their weight and close the space you created."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert Knee Shield",
+        "description": "Drive your near-side knee across the opponent's thigh or hip line as soon as space appears between your bodies. The knee must enter before the opponent can drive their weight back down and re-consolidate Kesa Gatame control. Aim to place your shin across their midsection or hip, creating a structural barrier that prevents them from re-flattening you and provides the foundation for half guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Half Guard",
+        "description": "Once your knee is inserted, immediately close your legs around the opponent's trapped leg to establish proper half guard entanglement. Get fully onto your side facing the opponent, establish an underhook or frame with your near arm, and secure a knee shield or standard half guard structure. Do not remain on your back with just a knee inserted—complete the transition fully to prevent the opponent from smashing through your knee and re-establishing a pin."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drops hips and widens base when feeling feet plant",
+        "effectiveness": "High",
+        "your_response": "If the opponent preemptively widens their base, the bridge becomes less effective. Chain to a ghost escape or back take attempt instead, as their widened base exposes their back. Alternatively, wait for them to narrow their base again before reattempting.",
+        "targets_outcome": "Kesa Gatame/Bottom"
+      },
+      {
+        "counter": "Opponent steps over to mount during the bridge rotation",
+        "effectiveness": "Medium",
+        "your_response": "Use your inside leg to hook their near leg as you bridge, creating a barrier that prevents them from stepping over. If they begin the mount transition, immediately redirect your knee insertion to block their leg and recover half guard rather than allowing full mount.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent floats to north-south position as bridge creates space",
+        "effectiveness": "Medium",
+        "your_response": "If the opponent releases Kesa Gatame and circles toward your head during the bridge, immediately follow them with your hips and work to insert frames before they can settle north-south. Turn to face them and get your arms inside to create distance for guard recovery.",
+        "targets_outcome": "North-South/Bottom"
+      },
+      {
+        "counter": "Opponent pulls their far arm free from your grip before you bridge",
+        "effectiveness": "High",
+        "your_response": "Without controlling their posting arm, the bridge is significantly weakened. Immediately re-fight for the grip or transition to the bridge-to-turtle variation where far arm control is less critical. You can also use a two-on-one grip on their far arm for stronger retention.",
+        "targets_outcome": "Kesa Gatame/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Bridging straight up instead of at a 45-degree angle toward the trapped arm side",
+        "consequence": "The bridge lifts the opponent but does not displace their base, allowing them to simply settle back into Kesa Gatame when you return to the mat",
+        "correction": "Direct the bridge at a 45-degree angle toward your trapped arm side where the opponent's base is weakest, driving them over their weak line rather than straight up"
+      },
+      {
+        "error": "Failing to control the opponent's far arm before initiating the bridge",
+        "consequence": "The opponent posts their far arm on the mat and easily absorbs the bridge force without losing position, wasting your energy",
+        "correction": "Always secure a grip on the opponent's far wrist, elbow, or sleeve before bridging—this is the single most important preparatory step for the escape"
+      },
+      {
+        "error": "Planting feet too far from the hips, reducing bridge power",
+        "consequence": "The bridge lacks sufficient height and explosiveness to displace the opponent's weight, resulting in a weak escape attempt that is easily shut down",
+        "correction": "Walk your feet as close to your buttocks as possible, keeping knees bent at roughly 90 degrees for maximum hip extension power"
+      },
+      {
+        "error": "Delaying knee insertion after the bridge creates space",
+        "consequence": "The opponent resettles their weight into Kesa Gatame during the delay, closing the window for guard recovery and wasting the energy spent on the bridge",
+        "correction": "Insert your knee immediately at the apex of the bridge—the space window lasts less than a second, so the bridge and knee insertion should feel like one continuous movement"
+      },
+      {
+        "error": "Stopping at knee insertion without completing the half guard recovery",
+        "consequence": "A single knee across the opponent's body without proper leg entanglement is easily smashed through, allowing the opponent to pass to side control or re-establish Kesa Gatame",
+        "correction": "Commit to completing the full half guard position by closing your legs around the trapped leg, getting onto your side, and establishing proper frames or underhook"
+      },
+      {
+        "error": "Telegraphing the bridge by visibly planting feet and grabbing the far arm in sequence",
+        "consequence": "An experienced opponent recognizes the setup and preemptively widens their base or transitions to a different pin before you can execute",
+        "correction": "Disguise preparation by maintaining movement—wiggle your hips, adjust frames, and secure the far arm grip casually before committing to the explosive bridge"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Solo Bridge Mechanics",
+        "focus": "Hip extension power and directional bridging",
+        "description": "Practice bridging drills without a partner, focusing on explosive hip extension, directional bridging at 45-degree angles, and immediate hip rotation at the apex. Perform sets of 10 bridges in each direction, emphasizing the connection between leg drive and hip lift."
+      },
+      {
+        "phase": "Cooperative Technical Drilling",
+        "focus": "Full sequence with compliant partner",
+        "description": "Partner establishes Kesa Gatame with minimal resistance. Execute the complete escape sequence from frame establishment through half guard consolidation. Perform 20-30 repetitions focusing on grip placement, bridge timing, knee insertion speed, and guard recovery. Partner provides feedback on bridge direction and timing."
+      },
+      {
+        "phase": "Progressive Resistance Drilling",
+        "focus": "Timing and adaptation under increasing pressure",
+        "description": "Partner gradually increases resistance from 25% to 75% over multiple rounds. Bottom player must find timing windows and adjust bridge power to match resistance level. Focus on recognizing when the opponent creates openings through weight shifts and submission attempts. 3-minute rounds with increasing resistance each round."
+      },
+      {
+        "phase": "Escape Chain Integration",
+        "focus": "Combining bridge escape with complementary escapes",
+        "description": "Start from Kesa Gatame bottom and chain the bridge escape with ghost escape, back take, and frame-to-guard escapes. When one escape is shut down, immediately transition to the next. Partner applies realistic resistance and capitalizes on mistakes. Develop automatic transitions between escape pathways based on opponent reactions."
+      },
+      {
+        "phase": "Live Positional Sparring",
+        "focus": "Full resistance application",
+        "description": "Start from Kesa Gatame with full resistance from both players. Bottom player works all available escapes with bridge escape as a primary option. Top player maintains position and threatens submissions. 2-minute rounds, alternating roles. Track escape success rate and identify which timing windows are most productive."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the bridge escape from Kesa Gatame?",
+        "answer": "The optimal window opens when the top player shifts weight to attempt a submission (such as reaching for an Americana), adjusts their position by lifting their hips, or momentarily reduces chest pressure to reposition their head control. These moments create brief reductions in downward pressure that allow your bridge to generate maximum displacement. Attempting the bridge against a fully settled, heavily based opponent dramatically reduces success probability."
+      },
+      {
+        "question": "Why is controlling the opponent's far arm the most critical preparatory step?",
+        "answer": "The opponent's far arm is their primary posting tool for absorbing bridge force. Without this arm available to post, a well-directed bridge displaces their entire weight because they have no structural support on the weak side. With the posting arm free, even a powerful bridge is easily absorbed—the opponent simply extends their arm to the mat and maintains their base throughout your bridge attempt, making the escape nearly impossible regardless of your bridge power."
+      },
+      {
+        "question": "What direction should you bridge and why does it matter?",
+        "answer": "Bridge at a 45-degree angle toward your trapped arm side—this is the direction where the opponent's base is weakest due to their perpendicular alignment in Kesa Gatame. The opponent has their weight distributed along a line from their posted leg to their head control side. Bridging toward the trapped arm side attacks perpendicular to their base line, where they have the least structural resistance. Bridging straight up or toward their posted leg attacks into their strongest base."
+      },
+      {
+        "question": "Your opponent widens their base after feeling your feet plant—how do you adjust your escape strategy?",
+        "answer": "When the opponent widens their base preemptively, the bridge escape becomes significantly less effective because their spread legs can absorb lateral force. Immediately chain to a ghost escape or back take attempt instead, as their widened base opens their back for turning escapes. You can also feint the bridge to draw the base-widening response, then immediately chain to the ghost escape while their attention is directed at defending the bridge direction."
+      },
+      {
+        "question": "What must happen immediately after the bridge creates space?",
+        "answer": "You must insert your near-side knee across the opponent's hip line within the fraction of a second that space exists at the bridge apex. The space window is extremely brief—the opponent's weight begins returning as soon as your bridge peaks. The knee insertion and bridge should feel like one continuous movement rather than two distinct actions. Any pause between the bridge peak and knee insertion allows the opponent to resettle and close the space."
+      },
+      {
+        "question": "How does the bridge escape complement the ghost escape from Kesa Gatame?",
+        "answer": "The bridge escape attacks the opponent's base by driving into them (turning toward the opponent), while the ghost escape attacks their exposed back by turning away. This creates a two-directional escape dilemma: if the opponent sits back heavily to defend ghost escapes, they become lighter on your chest and more vulnerable to bridges. If they drive forward with heavy pressure to prevent bridges, they expose their back further for ghost escapes. Training both escapes together forces the opponent to defend two opposing threats simultaneously."
+      },
+      {
+        "question": "Your bridge attempt fails and the opponent drives you flat again—what is your immediate follow-up?",
+        "answer": "Do not attempt a second immediate bridge as you will be exhausted and the opponent will be prepared. Instead, immediately chain to an alternative escape—attempt a ghost escape by turning away from the opponent, or use frames to create space for a hip escape toward guard recovery. The failed bridge may have created slight positional changes that make other escapes more viable. Return to your frame, recover your breathing briefly, and attack from a different angle rather than repeating the same failed attempt."
+      },
+      {
+        "question": "What grip should you prioritize on the opponent's far arm and why?",
+        "answer": "In gi, grip the sleeve at the wrist for maximum control over the posting arm with minimal effort—the sleeve grip provides a secure mechanical advantage that is difficult to strip. In no-gi, a two-on-one grip on the wrist gives the best control, though a single wrist grab works if the bridge is timed well. Avoid gripping above the elbow as this still allows the forearm and hand to post effectively. The further down toward the hand you control, the more completely you eliminate their posting ability."
+      }
+    ],
+    "safety_considerations": "Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury."
+  },
+  "defender": {
+    "name": "Bridge Escape from Kesa Gatame Defender",
+    "description": "Defend against the bridge escape from Kesa Gatame. Learn to recognize setup cues, maintain base, and capitalize on failed escape attempts with transitions.",
+    "overview": "As the top player defending against the bridge escape from Kesa Gatame, your objective is to recognize the escape setup early, maintain sufficient base to absorb the bridge force, and capitalize on the opponent's movement to advance your position or maintain control. The bridge escape is one of the most common escape attempts from Kesa Gatame, and experienced bottom players will disguise their preparation by fighting for grips and planting feet subtly. Your defensive awareness must begin before the explosive bridge—once a well-prepared bridge fires, reactive defense is significantly harder than proactive base adjustment. Understanding the mechanical requirements of the bridge escape allows you to systematically deny each prerequisite before the escape can develop.",
+    "key_principles": [
+      "Monitor the opponent's far arm activity—any attempt to grab your far wrist or sleeve signals an incoming bridge escape",
+      "Keep your far arm protected by pinning it to your own body or controlling the opponent's far hand preemptively",
+      "Maintain low hip position with weight distributed through your chest to make bridging mechanically difficult",
+      "Post your far leg wide at 45 degrees for maximum base against lateral bridge force",
+      "Be ready to flow to mount or north-south rather than fighting to maintain Kesa Gatame when a bridge creates movement",
+      "Use the opponent's bridge energy against them by transitioning to a better position during their escape attempt"
+    ],
+    "recognition_cues": [
+      "Bottom player plants both feet flat on the mat close to their hips with knees bent, loading their bridge",
+      "Bottom player's free hand reaches across your body targeting your far wrist, elbow, or sleeve",
+      "Bottom player's core tightens and hips load with visible tension before the explosive movement",
+      "Bottom player stops resisting your head control and instead focuses attention toward your far arm",
+      "Bottom player adjusts their angle slightly toward you, orienting their bridge direction at your weak base side"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drop hips and widen base to absorb bridge force",
+        "when_to_use": "As soon as you feel the opponent plant their feet or reach for your far arm—ideally before the bridge fires",
+        "targets_outcome": "Kesa Gatame/Bottom",
+        "if_successful": "The bridge is absorbed by your wide base and low center of gravity, opponent exhausts energy without creating displacement",
+        "risk": "If you widen base too early and the opponent chains to a ghost escape, your back becomes more exposed"
+      },
+      {
+        "action": "Transition to mount by stepping over as opponent bridges and turns",
+        "when_to_use": "When the opponent's bridge creates rotation and they turn their hips toward you, use their momentum to advance",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You convert their escape attempt into a positional advancement to mount, scoring additional points in competition",
+        "risk": "If the opponent catches your leg during the transition, they may recover half guard or insert a knee shield"
+      },
+      {
+        "action": "Float to north-south when bridge creates space",
+        "when_to_use": "When the bridge lifts your weight and you feel your Kesa Gatame control compromised, circle toward their head",
+        "targets_outcome": "North-South/Bottom",
+        "if_successful": "You maintain top control in north-south position, denying the escape while maintaining dominant pinning position",
+        "risk": "The transition creates a brief moment of reduced control where the opponent may insert frames or recover guard"
+      },
+      {
+        "action": "Protect far arm by pinning it to your own hip",
+        "when_to_use": "Preemptively when you feel the opponent's free hand searching for your far arm or wrist",
+        "targets_outcome": "Kesa Gatame/Bottom",
+        "if_successful": "The opponent cannot control your posting arm, which dramatically reduces bridge escape effectiveness and forces them to seek alternative escapes",
+        "risk": "Pinning your own arm to your hip reduces your submission options from Kesa Gatame temporarily"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kesa Gatame/Bottom",
+        "how": "Preemptively deny the escape by keeping hips low, far leg posted wide, and protecting your far arm from being controlled. When the bridge fires without your posting arm controlled, simply post your hand and absorb the force."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When the opponent bridges and turns toward you, use their rotation to step over into mount. As their hips come off the mat and they rotate, swing your far leg over their body and settle into mount before they can insert a knee shield. Their own bridge momentum assists your transition."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too high with narrow base when opponent begins loading their bridge",
+        "consequence": "An explosive bridge easily displaces your weight because your high center of gravity and narrow base provide insufficient resistance to lateral force",
+        "correction": "Maintain low hip position with your far leg posted wide at a 45-degree angle at all times in Kesa Gatame—proactive base maintenance is far more effective than reactive adjustment"
+      },
+      {
+        "error": "Leaving your far arm unprotected and accessible to the opponent's free hand",
+        "consequence": "The opponent secures your posting arm, which is the single most critical prerequisite for the bridge escape, dramatically increasing escape probability",
+        "correction": "Keep your far arm tucked against your hip or actively control the opponent's free hand to prevent them from securing the grip they need for the bridge setup"
+      },
+      {
+        "error": "Trying to hold static Kesa Gatame when the bridge creates significant movement",
+        "consequence": "Fighting to maintain a compromised Kesa Gatame against a strong bridge wastes energy and often results in losing position entirely as the opponent completes the escape",
+        "correction": "Accept the positional change and flow to mount or north-south during the bridge movement—use the opponent's energy to advance rather than fighting it"
+      },
+      {
+        "error": "Releasing head control to brace against the bridge",
+        "consequence": "Without head control, the opponent can freely turn and complete the escape or chain to a back take, losing your primary control mechanism",
+        "correction": "Maintain head control throughout the bridge defense—your base through your legs and hips should absorb the bridge, not your arms"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest signs that the bottom player is setting up a bridge escape?",
+        "answer": "The earliest signs are the bottom player planting both feet flat on the mat close to their hips (loading the bridge), their free hand reaching across your body to target your far wrist or sleeve, and a visible tightening of their core muscles. Often the grip fight for your far arm is the first indicator—if the bottom player is actively seeking your far arm rather than trying to create frames, they are likely preparing a bridge escape rather than a shrimping escape."
+      },
+      {
+        "question": "How should you adjust your base when you feel an explosive bridge beginning?",
+        "answer": "Immediately widen your far leg posting and drive your hips low, sinking your weight into the opponent's chest through gravity rather than muscular effort. Your far hand should post on the mat if it is not already controlled by the opponent. Drive your shoulder pressure into the opponent's face to limit their rotational ability. The key is lowering your center of gravity and widening your support base before the bridge reaches its peak force."
+      },
+      {
+        "question": "The bottom player bridges successfully and starts turning toward you—how do you capitalize on their movement?",
+        "answer": "Use their rotation as an opportunity to advance to mount. As they bridge and turn their hips toward you, their movement creates a natural pathway for you to step your far leg over their body. Swing your leg over while maintaining head control, settling into mount as their rotation brings their hips underneath you. This converts their escape attempt into a positional advancement, and their own bridge momentum assists the transition rather than hindering it."
+      },
+      {
+        "question": "What is the most common mistake top players make when a bridge escape is attempted from Kesa Gatame?",
+        "answer": "The most common mistake is maintaining a high center of gravity with a narrow base. Many practitioners sit upright in Kesa Gatame with their legs close together, which provides minimal resistance to an explosive directional bridge. By the time they react to the bridge, their weight has already been displaced past the point of recovery. Proactive base maintenance—keeping hips low and the far leg posted wide before any escape attempt—is the fundamental defense that prevents the bridge from generating sufficient displacement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition Training",
+        "focus": "Identifying bridge escape setup cues",
+        "description": "Partner executes bridge escape setups at slow speed while you verbally identify each preparatory step: foot planting, far arm grip, core loading. Develop the ability to recognize the escape intent before the explosive phase begins. 5-minute rounds focusing purely on observation and callouts."
+      },
+      {
+        "phase": "Base Adjustment Drilling",
+        "focus": "Reactive and proactive base defense",
+        "description": "Partner executes bridge escapes at 50% power while you practice base adjustment responses: dropping hips, widening legs, protecting far arm. Focus on making base adjustments feel automatic rather than requiring conscious thought. 3-minute rounds with progressive bridge intensity."
+      },
+      {
+        "phase": "Transition Capitalization",
+        "focus": "Converting failed escapes into positional advancement",
+        "description": "Partner executes full-power bridges while you practice flowing to mount or north-south rather than fighting to maintain Kesa Gatame. Develop the instinct to use the opponent's bridge energy for positional advancement. Chain bridge defense into mount transition into mount maintenance drilling."
+      },
+      {
+        "phase": "Live Kesa Gatame Maintenance",
+        "focus": "Full resistance positional sparring",
+        "description": "Start in Kesa Gatame with full resistance from both players. Top player maintains position and defends all escape attempts including bridge escapes, ghost escapes, and back takes. Track position maintenance time and transition success rate. 2-minute rounds alternating roles."
+      }
+    ]
+  }
 }

@@ -21,37 +21,37 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 30% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,21 +214,23 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Available Attacks
 
-### [[Posture Recovery]] (16% of attempts)
+### [[Posture Recovery]] (15% of attempts)
 
-### [[Arm Extraction and Pass]] (14% of attempts)
+### [[Arm Extraction and Pass]] (13% of attempts)
 
-### [[Stack Defense]] (14% of attempts)
+### [[Stack Defense]] (13% of attempts)
 
-### [[Standing up in Base]] (24% of attempts)
+### [[Standing up in Base]] (30% of attempts)
 
-### [[Arm Extraction]] (13% of attempts)
+### [[Arm Extraction]] (12% of attempts)
 
-### [[Guard Opening Sequence]] (11% of attempts)
+### [[Guard Opening Sequence]] (10% of attempts)
 
-### [[Posture Break from Mission Control]] (5% of attempts)
+### [[Posture Break from Mission Control]] (4% of attempts)
 
-### [[Stack Pass from Mission Control]] (3% of attempts)
+### [[Stack Pass from Mission Control]] (2% of attempts)
+
+### [[Posture Recovery from Mission Control]] (1% of attempts)
 
 
 

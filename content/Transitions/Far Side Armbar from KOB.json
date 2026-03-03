@@ -1,10 +1,14 @@
 {
   "name": "Far Side Armbar from KOB",
-  "description": "TODO: Write 150-160 character SEO description for Far Side Armbar from KOB.",
+  "description": "Master the far side armbar from knee on belly in BJJ. Complete guide covering setup, execution, counters, and defense for this dynamic submission attack.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "armbar",
+    "knee-on-belly",
+    "submission-setup",
+    "far-side-attack",
+    "arm-attack"
   ],
   "from_position": "Knee on Belly/Top",
   "outcomes": [
@@ -25,114 +29,381 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Far Side Armbar from KOB.",
+  "overview": "The far side armbar from knee on belly is a high-percentage submission setup that exploits the natural defensive reactions of the bottom player under intense diaphragm pressure. When the top player establishes knee on belly, the bottom player instinctively pushes against the knee or reaches across their body to alleviate the crushing weight — both reactions expose the far arm to isolation and attack. This technique capitalizes on that defensive vulnerability by reaching across to control the far wrist, then swinging the leg over the opponent's head to transition into armbar control.\n\nWhat makes the far side armbar particularly effective is the element of misdirection. Most practitioners defending knee on belly focus their awareness on near-side threats — the near arm is typically closer to baseball bat choke setups and standard armbar entries. The far side attack comes from an unexpected angle, catching opponents in the gap between their defensive awareness and the actual threat vector. The transition requires precise timing and weight management, as the attacker must maintain enough knee pressure to keep the opponent reactive while simultaneously freeing their hands and legs to execute the armbar entry.\n\nThe technique fits within a broader knee on belly attack system where each submission threat creates openings for others. When the opponent defends the baseball bat choke by tucking their chin, their arms naturally extend. When they frame against the knee, the far arm becomes available. This interconnected threat matrix transforms knee on belly from a simple pressure position into a sophisticated submission platform where the far side armbar serves as a key weapon that punishes the arm most defenders consider safe.",
   "conditions": [
-    "TODO"
+    "Established Knee on Belly with stable base and knee positioned on opponent's solar plexus",
+    "Opponent's far arm is not tucked tightly against their body — ideally extended or framing",
+    "Opponent is reacting to knee pressure by pushing, framing, or reaching across their body",
+    "Near hand has collar or lapel control to prevent opponent from turning away during setup",
+    "Base leg is posted wide enough to maintain balance during the grip transition and leg swing"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Spinning Far Side Armbar",
+      "description": "Instead of swinging one leg over the head from a static position, the attacker spins their entire body around the opponent's captured arm in a circular motion. This variation uses rotational momentum rather than a single leg swing, making it faster but requiring more precise timing and coordination.",
+      "when_to_use": "When the opponent is actively defending by trying to retract the arm and a fast, committed entry is needed before they can pull free"
+    },
+    {
+      "variant_name": "Collar-Controlled Far Side Armbar",
+      "description": "The attacker maintains their deep collar grip throughout the transition instead of releasing it early to capture the wrist. The collar control pins the opponent's posture while the attacker uses their far hand to control the far wrist and then steps over. This sacrifices early wrist control for sustained postural dominance during the setup phase.",
+      "when_to_use": "Against opponents with strong arm retraction who quickly tuck their elbows — the collar grip maintains pressure and control while the wrist capture is set up with the opposite hand"
+    },
+    {
+      "variant_name": "Far Side Armbar with Knee Slide",
+      "description": "Rather than sitting back into a standard armbar position, the attacker slides their knee across the opponent's face while maintaining arm control, transitioning through a modified S-mount position before completing the armbar. This path maintains top pressure throughout and reduces the risk of the opponent escaping during the sit-back phase.",
+      "when_to_use": "Against larger or stronger opponents where maintaining top weight throughout the transition is critical to preventing explosive escapes"
     }
   ],
-  "position_integration": "TODO: Write position integration for Far Side Armbar from KOB.",
+  "position_integration": "The far side armbar from knee on belly integrates into the KOB attack system as a secondary arm attack that complements the near-side armbar and baseball bat choke threats. It exploits the common defensive reaction of pushing against the knee, punishing the opponent's natural impulse to create space. This technique bridges the gap between positional control and submission hunting, fitting within a broader framework where KOB serves as a transitional attacking platform rather than a static hold. The far side armbar enriches the attack tree by threatening the arm most opponents consider safe, creating multi-directional danger that prevents predictable defensive patterns. When combined with cross collar chokes, baseball bat chokes, and near-side armbars, the far side armbar completes a comprehensive threat matrix that forces the bottom player to defend in all directions simultaneously.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Knee on Belly",
+      "relationship": "Starting position — the far side armbar launches from established KOB control"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Primary success destination — the armbar control position where the finish is executed"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter destination — where the attacker may end up if the opponent successfully disrupts the transition"
+    },
+    {
+      "name": "Armbar from Knee on Belly",
+      "relationship": "Related near-side armbar submission from the same starting position"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Follow-up finish transition from the armbar control position achieved by this technique"
+    },
+    {
+      "name": "Baseball Bat Choke",
+      "relationship": "Complementary attack from KOB that creates the defensive reactions exploited by the far side armbar"
+    },
+    {
+      "name": "Cross Collar Choke from KOB",
+      "relationship": "Alternative choke attack from KOB that forces arm extension when defended"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Adjacent position — common fallback if KOB is lost during setup"
+    },
+    {
+      "name": "Back Take from Top",
+      "relationship": "Alternative transition from KOB when the opponent turns away instead of pushing"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative advancement target from KOB that shares the attack-from-pressure philosophy"
     }
   ],
   "attacker": {
     "name": "Far Side Armbar from KOB Attacker",
-    "description": "TODO: Write attacker description for Far Side Armbar from KOB.",
-    "overview": "TODO: Write attacker overview for Far Side Armbar from KOB.",
+    "description": "Master the attacking mechanics of the far side armbar from knee on belly. Step-by-step execution, setup timing, grip transitions, and chain attacks for this high-percentage submission setup.",
+    "overview": "The far side armbar from knee on belly targets the opponent's arm furthest from you, exploiting the defensive reactions created by intense knee pressure on the diaphragm. As the top player, you leverage your dominant position to reach across the opponent's body, isolate their far wrist, and transition through a leg swing into armbar control. This attack is particularly effective because it targets the arm most opponents consider safe — their focus is typically on protecting the near-side arm from baseball bat chokes and standard armbars. The misdirection inherent in crossing to the far side catches experienced defenders off-guard, making this a valuable addition to any knee on belly attack system. Success depends on maintaining knee pressure throughout the transition, precise timing of the wrist capture, and smooth weight transfer during the leg swing over the head.",
     "key_principles": [
-      "TODO"
+      "Maintain constant knee pressure on the diaphragm throughout the setup to keep the opponent reactive and unable to mount coherent defense",
+      "Secure far wrist control before initiating the leg swing — premature commitment to the transition without arm control results in a scramble",
+      "Use the knee as a pivot point during the transition, transferring weight smoothly from knee on belly to armbar position without creating space for escape",
+      "Keep hips tight to the opponent's shoulder as you sit back, eliminating the gap that allows arm retraction and defensive posturing",
+      "Pin the opponent's near arm or torso with your inside leg to prevent them from turning into you during the transition",
+      "Coordinate the finish with hip elevation and wrist pull toward your chest, using your entire body's mechanical advantage against the isolated elbow"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established knee on belly position with knee placed on opponent's solar plexus and stable base leg posted wide",
+      "Collar or lapel grip with the near hand to control opponent's upper body and prevent turning away",
+      "Opponent's far arm accessible — either pushing against your knee, framing across their body, or reaching toward you",
+      "Sufficient base stability to release the far-side grip and reach across the opponent's body without losing balance",
+      "Opponent relatively flat on their back, not turned significantly to their side which would obstruct the leg swing path"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Knee on Belly Pressure",
+        "description": "Position your knee firmly on the opponent's solar plexus with your shin perpendicular to their centerline. Post your far foot wide for base stability. Grip the near collar with your inside hand and control the far hip or belt with your outside hand. Drive your weight downward through the knee to create intense diaphragm pressure that forces a defensive reaction from the bottom player."
+      },
+      {
+        "step_number": 2,
+        "action": "Provoke Far Arm Defensive Reaction",
+        "description": "Increase downward pressure through the knee to force the opponent to react with their arms. Watch for the far arm to extend — either pushing against your knee, reaching across their body to frame, or posting on the mat. This defensive movement exposes the far arm and creates the window for your attack entry. Threatening the near-side collar choke can accelerate this reaction."
+      },
+      {
+        "step_number": 3,
+        "action": "Capture the Far Wrist",
+        "description": "Release your collar grip and reach across the opponent's body to secure their far wrist with your near hand. Control at or just above the wrist joint, pulling the arm slightly toward you to begin isolation. Maintain full knee pressure with your body weight as your hands transition — do not lift the knee or reduce pressure during this critical grip-change phase."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure Two-Hand Arm Isolation",
+        "description": "Bring your far hand to reinforce control on the captured arm, establishing a two-hand grip with one hand at the wrist and one supporting above the elbow. This double control prevents the opponent from retracting the arm through the narrow window of single-hand control. Pull the arm across your centerline to complete the isolation before committing to the positional transition."
+      },
+      {
+        "step_number": 5,
+        "action": "Swing Far Leg Over Opponent's Head",
+        "description": "Lift your posting leg and swing it in a decisive arc over the opponent's face and head while keeping your knee on their torso as a pivot point. Your shin should land across their neck or upper chest area, immediately controlling their ability to sit up. This leg swing must be committed and fast — hesitation during the transition allows the opponent to turn into you and escape."
+      },
+      {
+        "step_number": 6,
+        "action": "Sit Back and Position Hips",
+        "description": "Lower your hips to the mat directly next to the opponent's shoulder as your leg completes the swing over their head. Pull the captured arm across your centerline with both hands maintaining firm wrist and forearm control. Your hip bone should contact their deltoid with zero gap — any space between your hips and their shoulder reduces leverage and creates escape opportunities for the opponent."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure Armbar Control Position",
+        "description": "Pinch your knees together tightly over the opponent's face and chest, with your heels hooking inward to prevent them from sitting up or turning. Ensure the opponent's thumb points upward for optimal elbow vulnerability. Your legs form a unified clamp controlling their upper body while both hands maintain wrist isolation. You have now established armbar control and can proceed to the finish with coordinated hip elevation and wrist pull."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent tucks far elbow tight against their body, preventing wrist capture",
+        "effectiveness": "High",
+        "your_response": "Increase knee pressure to force a reaction, or threaten the near-side arm first with a collar choke or near armbar to bait the far arm extension, then switch back to the far side attack",
         "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent bridges and turns toward you during the leg swing transition",
+        "effectiveness": "Medium",
+        "your_response": "Follow their turning motion by maintaining wrist control and adjusting your leg swing angle — their turn may actually assist your transition to armbar or expose their back for a back take",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent grabs their own wrist or lapel with the free hand to prevent arm isolation",
+        "effectiveness": "High",
+        "your_response": "Use two-on-one grip breaking to peel their defensive connection apart, or switch to an Americana attack that exploits the bent arm position they have created by linking their hands",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Opponent hip escapes away and begins recovering guard during the transition phase",
+        "effectiveness": "Medium",
+        "your_response": "Abort the armbar attempt and immediately transition back to knee on belly or drop to side control to re-establish pressure before attempting another attack from a stable base",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing knee pressure before securing the far wrist",
+        "consequence": "Opponent immediately escapes knee on belly, recovering to guard or creating distance that eliminates the armbar opportunity entirely",
+        "correction": "Maintain maximum knee pressure throughout the wrist capture phase — the knee serves as your anchor and the pressure is what keeps the opponent's far arm reactive and accessible"
+      },
+      {
+        "error": "Stepping over the head before establishing wrist control",
+        "consequence": "The leg swing without arm control becomes a scramble where the opponent can turn away, recover guard, or come up on top as you have committed your balance without securing the target",
+        "correction": "Always capture and control the far wrist with at least one hand before initiating the leg swing — arm control must precede positional commitment"
+      },
+      {
+        "error": "Landing hips too far from the opponent's shoulder after sitting back",
+        "consequence": "Gap between your hips and their shoulder eliminates the leverage needed for the armbar finish and gives the opponent space to retract their arm or sit up",
+        "correction": "Scoot your hips tight against their shoulder immediately upon sitting back — think of gluing your hip bone to their deltoid with zero gap between the two contact points"
+      },
+      {
+        "error": "Failing to pinch knees together during the finishing position",
+        "consequence": "Loose legs allow the opponent to create posture, turn into you, or extract their head from under your leg, escaping the armbar control entirely",
+        "correction": "Squeeze your knees together as a unit, creating a clamp that controls the opponent's head and torso — your legs are the primary control mechanism that enables the arm isolation"
+      },
+      {
+        "error": "Rushing the entire sequence without establishing each phase of control",
+        "consequence": "Speed without control creates openings at every transition point — the opponent exploits the gaps between incomplete control steps to escape or counter",
+        "correction": "Execute each phase deliberately: establish pressure, capture wrist, secure isolation, swing leg, sit back, control — real speed comes from eliminating wasted motion, not from skipping steps"
+      },
+      {
+        "error": "Neglecting to manage the opponent's near arm during the transition",
+        "consequence": "Opponent uses the free near arm to push your leg, frame against your body, or post to facilitate an escape during the most vulnerable moment of the leg swing",
+        "correction": "Use your inside leg or a brief hand placement to manage the near arm before committing to the swing — even momentary control of the near arm significantly improves transition success rate"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Individual movement patterns",
+        "description": "Practice the wrist capture and leg swing mechanics with a fully cooperative partner from static knee on belly. Focus on smooth weight transfer, proper knee pivot, and accurate hip placement next to the shoulder. Perform 20 repetitions per side with emphasis on correct body positioning at each stage."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Reading defensive reactions",
+        "description": "Partner applies increasing levels of defensive reaction (pushing the knee, framing, reaching) from knee on belly. Practice identifying the correct moment to initiate the far side armbar based on the partner's arm position. Develop sensitivity to when the far arm becomes available versus when it is tucked and protected."
+      },
+      {
+        "phase": "Phase 3: Resistance",
+        "focus": "Executing against active defense",
+        "description": "Partner defends the armbar attempt with moderate resistance including elbow tucking, wrist grabs, and hip escapes. Practice overcoming each defensive response while maintaining the fundamental mechanics. Introduce backup attacks when the primary entry is blocked to develop chain-attack reflexes."
+      },
+      {
+        "phase": "Phase 4: Integration",
+        "focus": "Combining with full KOB attack system",
+        "description": "Incorporate the far side armbar into complete knee on belly positional sparring. Flow between baseball bat choke, near side armbar, cross collar choke, and far side armbar based on the opponent's defensive reactions. Develop automatic threat recognition and appropriate attack selection within the KOB framework."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Live sparring implementation",
+        "description": "Apply the far side armbar during live rolling from knee on belly against fully resisting opponents. Track success rate and identify recurring defensive patterns that block the technique. Adjust timing, grip sequencing, and setup baits based on real-time feedback from competitive exchanges."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window to initiate the far side armbar from knee on belly?",
+        "answer": "The optimal timing is when the opponent extends their far arm to push against your knee or reaches across their body to frame. This defensive reaction exposes the far wrist and momentarily commits their arm away from their torso. Initiating before this reaction means the arm is tucked and inaccessible. Waiting too long allows the opponent to retract the arm after relieving pressure. The window is typically one to two seconds of arm extension."
+      },
+      {
+        "question": "What conditions must exist before you can successfully attempt the far side armbar from knee on belly?",
+        "answer": "You need established knee on belly with your knee on the solar plexus and a stable base, a collar or upper body grip with your near hand to prevent turning, the opponent's far arm extended or accessible rather than tucked tight, and sufficient balance to release your far hand and reach across without losing the position. If the opponent is already turned significantly to their side, the far arm angle makes this attack very difficult to execute."
+      },
+      {
+        "question": "What is the most critical hip movement during the transition from knee on belly to armbar control?",
+        "answer": "The most critical movement is using the knee on belly as a pivot point while swinging the leg over the head, then dropping your hips directly next to the opponent's shoulder with zero gap. Your hip bone should contact their deltoid immediately upon sitting back. If your hips land even a few inches away from the shoulder, the opponent can retract their arm or create enough space to begin an escape sequence that compromises the entire position."
+      },
+      {
+        "question": "What is the most common reason practitioners fail the far side armbar from knee on belly?",
+        "answer": "The most common failure is initiating the leg swing before establishing secure wrist control on the far arm. Without the wrist locked down, the leg swing becomes a positional sacrifice — you abandon knee on belly's dominant pressure without securing the submission pathway. The opponent can easily turn, recover guard, or scramble during the transition when their arm remains free and they have no reason to stay flat."
+      },
+      {
+        "question": "What specific grips are required at each phase of the far side armbar execution?",
+        "answer": "Phase one requires a collar grip with the near hand and belt or hip grip with the far hand for KOB stability. Phase two requires the near hand to release the collar and reach across to capture the far wrist while the far hand can briefly post for balance. Phase three requires both hands on the captured arm — one at the wrist and one supporting above the elbow — as you sit back into armbar control. The grip transitions must be smooth and deliberate to avoid creating defensive windows."
+      },
+      {
+        "question": "In which direction should you apply force when finishing the armbar after transitioning from knee on belly?",
+        "answer": "In the finishing position, force is applied in two coordinated vectors: hips drive upward against the back of the elbow while both hands pull the wrist downward toward your sternum. These opposing forces create the hyperextension leverage across the elbow joint. During the initial wrist capture, pull the far arm toward your body and across the opponent's centerline to begin isolation. During the leg swing, rotational momentum carries you perpendicular to the opponent's body."
+      },
+      {
+        "question": "Your opponent sees the far side armbar coming and immediately grabs their own wrist with their free hand — how do you adjust?",
+        "answer": "When the opponent links their hands defensively, you have several options. First, attempt a two-on-one break by controlling their defensive wrist and peeling it away. Second, switch to an Americana by keeping their arms bent and rotating the wrist toward the mat. Third, maintain armbar control and wait patiently — the defensive grip is energy-intensive and will fatigue, creating an opening. Fourth, use the arm connection as a handle to adjust your angle and break the grip through hip pressure and repositioning."
+      },
+      {
+        "question": "If the opponent successfully defends the far side armbar and you cannot complete the technique, what chain attacks are available?",
+        "answer": "If the armbar is blocked, you can transition to a triangle by releasing the arm and threading your leg under their neck. The Americana becomes available if their arm is bent in a defensive clasp. You can switch to a mounted triangle if you maintain leg control over their head. You can also abandon the submission entirely and return to knee on belly to re-establish pressure and attack again from a position of control. Reconsolidating to side control is the safest fallback option."
+      },
+      {
+        "question": "Why is the far side armbar more effective as a secondary attack rather than a first-option attack from knee on belly?",
+        "answer": "The far side armbar is most effective as a secondary attack because it exploits the defensive patterns created by primary threats. When the opponent focuses on defending the baseball bat choke or near-side armbar, they often extend or expose their far arm without realizing the danger. As a first option, the far arm is typically tucked and well-protected. The element of surprise and the opponent's divided attention between multiple threats creates the opening that makes this technique high-percentage when used in combination."
+      },
+      {
+        "question": "How does the angle of your knee placement on the opponent's torso affect the availability of the far side armbar?",
+        "answer": "Your knee should be positioned perpendicular to the opponent's centerline with your body angled slightly toward their far side. If your knee points toward their head, reaching across for the far wrist becomes difficult. If your knee points toward their hips, you lose the diaphragm pressure that forces the defensive arm reactions you need. The perpendicular angle provides the optimal balance between maintaining intense pressure and having the reach to capture the far arm without losing your base."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Far Side Armbar from KOB."
+    "safety_considerations": "The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught."
   },
   "defender": {
     "name": "Far Side Armbar from KOB Defender",
-    "description": "TODO: Write defender description for Far Side Armbar from KOB.",
-    "overview": "TODO: Write defender overview for Far Side Armbar from KOB.",
+    "description": "Master defending the far side armbar from knee on belly. Recognition cues, prevention tactics, and escape strategies for surviving and countering this dynamic submission attack.",
+    "overview": "Defending the far side armbar from knee on belly requires recognizing the threat before it develops, as the transition from pressure position to submission control happens rapidly once the attacker commits. The bottom player must identify the moment the top player reaches across for their far arm and respond immediately — either by tucking the elbow tight, gripping defensively, or using the transition as an opportunity to escape the knee on belly entirely. Understanding that the attacker must release established grips and shift their weight during this technique reveals the defensive windows available. The key defensive principle is denying arm isolation: without control of your far wrist, the top player cannot complete the armbar transition and must either return to knee on belly or risk losing the dominant position altogether. Early recognition and immediate response are far more effective than late-stage defense once armbar control has been established.",
     "key_principles": [
-      "TODO"
+      "Keep your far elbow tight against your body at all times under knee on belly — an extended far arm is the primary invitation for this attack",
+      "Recognize the far arm grab attempt immediately and pull your arm back before the attacker can establish secure wrist control",
+      "Use the attacker's weight shift during the transition as an escape opportunity — their commitment to the armbar compromises their knee on belly base",
+      "If the arm is captured, immediately bend your elbow and connect your hands to create a defensive frame that prevents full arm isolation",
+      "Bridge and turn toward the attacker during the leg swing to disrupt their transition angle and create scramble opportunities",
+      "Prioritize prevention over late defense — stopping the armbar before the attacker sits back is far easier than escaping from established armbar control"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker releases their collar grip with their near hand and reaches across your body toward your far arm or wrist",
+      "Attacker shifts weight forward through the knee while their far leg begins lifting off the mat to prepare for the swing over your head",
+      "Attacker's hips begin rotating as they pivot on the knee, turning their body perpendicular to yours in preparation for the armbar position",
+      "You feel the attacker's grip transition from controlling your upper body to specifically targeting and isolating your far wrist or forearm"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Immediately tuck your far elbow tight to your ribs and grip your own collar or belt with your far hand",
+        "when_to_use": "As soon as you feel the attacker reach across your body or sense their collar grip releasing — this is the earliest and most effective defensive window",
         "targets_outcome": "Knee on Belly/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The attacker cannot isolate your far arm and must return to standard knee on belly control, giving you time to work on escaping the position through standard KOB escape protocols",
+        "risk": "If the tuck is late, the attacker may still secure the wrist and use your bent arm position for an Americana variation instead of the armbar"
+      },
+      {
+        "action": "Bridge explosively toward the attacker and turn to your knees as they initiate the leg swing",
+        "when_to_use": "During the transition phase when the attacker lifts their far leg to swing over your head, creating a momentary base instability that can be exploited",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The bridge disrupts the attacker's balance during their most vulnerable moment, allowing you to come to your knees or recover half guard as they lose their dominant position",
+        "risk": "If mistimed, the bridge may accelerate the attacker into armbar position rather than disrupting it, worsening your defensive situation"
+      },
+      {
+        "action": "Grab your own wrist with your free hand and lock your arms together in a tight defensive grip",
+        "when_to_use": "When the attacker has already captured your far wrist but has not yet completed the leg swing or fully sat back into armbar control",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "The two-on-one defensive grip prevents full arm isolation and buys time to work an escape — the attacker cannot finish the armbar against properly linked hands",
+        "risk": "The grip is temporary and energy-intensive — the attacker will eventually break it through repositioning, so you must use this time to actively escape rather than merely survive"
+      },
+      {
+        "action": "Hip escape away from the attacker as they release controlling grips to reach across your body",
+        "when_to_use": "In the early phase when the attacker releases their controlling grips to reach for your far arm, before they have established any wrist control whatsoever",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Creating distance prevents the far arm capture entirely and may allow you to recover half guard or open guard as the attacker's knee on belly control degrades from the hip escape",
+        "risk": "If the hip escape is shallow, the attacker can chase with their knee and still capture the arm from a modified angle while maintaining top pressure"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Armbar Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Bridge and turn into the attacker during their leg swing transition. The weight shift required for the far side armbar creates a window where their base is compromised. A well-timed bridge combined with catching their swinging leg with your legs pulls the attacker off balance and into a half guard scramble where you recover to a more defensible position with the attacker in your half guard."
+      },
+      {
+        "outcome": "Knee on Belly/Top",
+        "how": "Deny the arm isolation by keeping your far elbow pinned to your body and gripping your own collar or belt. Without wrist control, the attacker must abandon the armbar attempt and return to standard knee on belly. While still disadvantageous, you have prevented a far worse outcome and maintained the opportunity to execute standard knee on belly escape sequences."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extending the far arm to push against the knee on belly pressure",
+        "consequence": "The extended arm is exactly what the attacker needs — your defensive push becomes the attack opportunity, and the arm is already isolated before you realize the far side armbar threat has materialized",
+        "correction": "Use forearm frames against the knee rather than pushing with extended arms. Keep your elbows close to your body and frame with the bone structure of your forearm and elbow rather than reaching with your hands."
+      },
+      {
+        "error": "Turning away from the attacker under knee on belly pressure",
+        "consequence": "Turning away exposes your far arm completely and may also expose your back for back take transitions, compounding the defensive problem into multiple threats",
+        "correction": "If you must turn, turn toward the attacker to close the distance and make it harder for them to reach your far arm. Turning toward the attacker also creates potential underhook and guard recovery opportunities."
+      },
+      {
+        "error": "Attempting to sit up without first controlling the attacker's leg crossing your face",
+        "consequence": "The attacker uses your upward movement to drive the leg over your head more easily, and your rising posture may actually help them establish the armbar angle faster",
+        "correction": "Before sitting up, control the leg that crosses your face by gripping behind the knee or pushing it toward their body. Only attempt to sit up once you have managed the leg that pins your upper body and controls your posture."
+      },
+      {
+        "error": "Keeping both arms extended or above shoulder level while under knee on belly",
+        "consequence": "Both arms become potential targets for various submission attacks, and the far arm is especially vulnerable as the attacker can freely choose which arm to attack based on accessibility",
+        "correction": "Default to elbows-tight defensive posture under knee on belly. Only extend arms with specific purpose for targeted defensive frames, and retract immediately after each frame is no longer needed."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that indicates a far side armbar attempt from knee on belly?",
+        "answer": "The earliest cue is the attacker releasing their collar grip with their near hand and reaching across your body. This grip transition happens before the leg swing and represents the point where prevention is easiest. If you see the attacker's hand leave your collar and cross your centerline toward your far arm, immediately tuck your far elbow and begin your defensive response before they can establish wrist control."
+      },
+      {
+        "question": "Why does bridging toward the attacker work as a defense during the leg swing phase?",
+        "answer": "During the leg swing, the attacker is balanced on their knee with one leg in the air and their weight shifting. This is their most unstable moment in the entire technique sequence. Bridging toward them puts force directly into their compromised base, disrupting their balance before they can establish the armbar control position. The bridge must be timed during the swing — too early and they have not committed yet, too late and they have already secured the position."
+      },
+      {
+        "question": "What should you prioritize if the attacker has already captured your far wrist and is beginning to sit back?",
+        "answer": "If the attacker is sitting back with your wrist captured, immediately bend your elbow and rotate your thumb toward the ceiling to strengthen the joint structure. Simultaneously reach your free hand to grip your own wrist, creating a two-hand defensive connection. Then focus on controlling the leg across your face by pushing it toward the attacker's body. Finally, bridge your hips and begin turning toward the trapped arm to initiate a stack defense or hitchhiker escape sequence."
+      },
+      {
+        "question": "How does keeping your elbows tight to your body prevent the far side armbar from developing?",
+        "answer": "Elbows-tight positioning eliminates the first requirement of the far side armbar: arm accessibility. The attacker needs your far arm extended or away from your body to capture the wrist and begin isolation. With your elbows pinned to your ribs and hands near your chest or gripping your own gi, the attacker cannot establish the wrist control needed to initiate the transition. They must either force your arm out through pressure changes, wasting time and energy, or abandon this attack for a different option."
+      },
+      {
+        "question": "What escape opportunities become available if you successfully prevent the far side armbar but remain under knee on belly?",
+        "answer": "After blocking the armbar attempt, the attacker's grip structure has been disrupted and they need to re-establish collar and belt control. This grip transition creates a window for standard knee on belly escapes: frame on the knee and hip escape to recover guard, turn into the attacker for an underhook, or use the momentary instability to initiate a technical stand-up. The failed armbar attempt actually improves your escape chances because the attacker must rebuild their entire control framework from scratch."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying attack cues",
+        "description": "Partner establishes knee on belly and alternates between standard control and far side armbar attempts without announcing which. Defender calls out 'armbar' when they recognize the attack initiation. No physical defense yet — focus entirely on visual and tactile recognition of the grip change, weight shift, and leg lift that signal the far side armbar attempt."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Stopping the attack before it develops",
+        "description": "Partner attempts the far side armbar with increasing commitment and speed. Defender practices immediate elbow tuck, defensive gripping, and hip escape responses upon recognition. Start at 25% speed and increase to 75%. Focus on reducing the time between recognition and physical defensive response to create automatic reactions."
+      },
+      {
+        "phase": "Phase 3: Late Defense",
+        "focus": "Escaping after armbar control is established",
+        "description": "Partner completes the far side armbar transition to armbar control position with moderate control. Defender practices hitchhiker escape, stack defense, and hand-linking defense from the fully established position. Develop calm decision-making under submission pressure and systematic escape execution under stress."
+      },
+      {
+        "phase": "Phase 4: Counter Integration",
+        "focus": "Converting defense into positional improvement",
+        "description": "Partner attempts the far side armbar with full commitment. Defender practices not just blocking the attack but actively converting the defense into guard recovery or positional reversal. Bridge-and-turn during the transition to catch the attacker off-balance and recover half guard or achieve a scramble to a neutral position."
       }
     ]
   }

@@ -97,7 +97,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 
 - **[[Sickle Sweep]]** (13% of attempts)
 
-- **[[Transition to Inverted Lasso Guard]]** (8% of attempts)
+- **[[Berimbolo Entry]]** (8% of attempts)
 
 - **[[Omoplata]]** (10% of attempts)
 

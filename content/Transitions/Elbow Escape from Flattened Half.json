@@ -1,10 +1,15 @@
 {
   "name": "Elbow Escape from Flattened Half",
-  "description": "TODO: Write 150-160 character SEO description for Elbow Escape from Flattened Half.",
+  "description": "Master the elbow escape from flattened half guard in BJJ. Systematic frame insertion and hip movement technique to recover active half guard under pressure.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "half-guard",
+    "escape",
+    "defensive",
+    "frame-recovery",
+    "flattened-half-guard",
+    "elbow-escape"
   ],
   "from_position": "Flattened Half Guard/Bottom",
   "outcomes": [
@@ -19,120 +24,375 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Elbow Escape from Flattened Half.",
+  "overview": "The Elbow Escape from Flattened Half Guard is the foundational recovery technique for bottom players who have been driven flat with their frames collapsed. When chest-to-chest pressure eliminates your hip mobility and breathing becomes labored, the elbow escape provides a systematic pathway back to a functional half guard position. Rather than relying on explosive bridging that telegraphs intent and wastes energy, this technique uses incremental space creation through precise elbow placement and coordinated hip escapes.\n\nThe mechanical principle underlying this escape centers on using the bottom elbow as a wedge between your torso and the opponent's body. By driving the elbow into the gap at the hip or shoulder line, you create a structural frame that cannot be easily collapsed by forward pressure alone. Each small space gained through an elbow insertion is immediately consolidated with a hip escape, preventing the top player from simply re-closing the distance. This incremental approach compounds micro-gains into meaningful positional recovery.\n\nUnderstanding the timing dimension of this escape separates intermediate from advanced practitioners. The top player's pressure is not constant but fluctuates as they adjust grips, shift weight for passing attempts, or respond to your defensive movements. The elbow escape is most effective when initiated during these natural pressure fluctuations, particularly when the top player shifts weight to begin a knee slice or adjusts their crossface. Recognizing and exploiting these windows transforms the escape from a grinding battle into a precise technical execution.",
   "conditions": [
-    "TODO"
+    "Bottom player's back is flat against the mat with opponent's chest-to-chest pressure established",
+    "At least one leg maintains the half guard hook preventing complete guard pass",
+    "Bottom player retains enough arm mobility to insert an elbow wedge between themselves and opponent",
+    "Top player has not yet isolated and begun extracting the trapped leg"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Knee Shield Recovery Escape",
+      "description": "Instead of recovering to standard half guard, the bottom player drives the knee directly into a shield position as the primary frame during the escape, creating maximum distance immediately upon recovering hip mobility.",
+      "when_to_use": "When opponent's pressure is moderate and you have enough hip mobility for the larger knee insertion movement that bypasses standard half guard recovery"
+    },
+    {
+      "variant_name": "Deep Half Transition Escape",
+      "description": "Combines the initial elbow wedge with a directional hip escape that takes you underneath the opponent's center of gravity, transitioning directly into deep half guard rather than standard half guard for immediate sweep opportunities.",
+      "when_to_use": "When opponent drives heavy forward pressure and their weight is committed over your centerline, making diving underneath more viable than pushing away laterally"
+    },
+    {
+      "variant_name": "Underhook Priority Escape",
+      "description": "Emphasizes winning the underhook on the far side as the primary structural objective during the elbow escape, using the recovered underhook as the foundation for the entire escape rather than relying on the elbow frame alone.",
+      "when_to_use": "When opponent's crossface is shallow and you can reach their far armpit during the initial space creation phase before they re-settle their weight"
     }
   ],
-  "position_integration": "TODO: Write position integration for Elbow Escape from Flattened Half.",
+  "position_integration": "The elbow escape from flattened half guard occupies a critical defensive node in the half guard system, serving as the primary recovery pathway when active half guard deteriorates under pressure. This technique connects the compromised flattened state back to the functional half guard ecosystem where sweeps, back takes, and guard transitions become available. It complements the frame and shrimp escape as an alternative recovery method, and its mechanics directly parallel the elbow escape from mount, reinforcing transferable movement patterns across positions. Mastering this escape is essential for any practitioner who plays half guard, as getting flattened is an inevitable consequence of engaging with skilled pressure passers.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Flattened Half Guard",
+      "relationship": "Starting position requiring escape from collapsed frames and chest-to-chest pressure"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful escape with functional frames recovered"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Intermediate recovery target providing maximum distance management after escape"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative recovery position accessible through deep half transition variant"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent achieves if escape fails and guard pass completes"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative leg control system that can stabilize flattened position before escape"
+    },
+    {
+      "name": "Complete Pass from Flattened Half",
+      "relationship": "Opponent's primary objective that this escape prevents"
+    },
+    {
+      "name": "Deep Half Entry from Flattened",
+      "relationship": "Related escape entering deep half from the same starting position"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Alternative escape concept from compromised half guard positions"
+    },
+    {
+      "name": "Quarter Guard",
+      "relationship": "Transitional position when escape is partially successful but guard not fully recovered"
     }
   ],
   "attacker": {
     "name": "Elbow Escape from Flattened Half Attacker",
-    "description": "TODO: Write attacker description for Elbow Escape from Flattened Half.",
-    "overview": "TODO: Write attacker overview for Elbow Escape from Flattened Half.",
+    "description": "Learn to execute the elbow escape from flattened half guard. Systematic frame insertion technique for recovering active half guard position under heavy top pressure in BJJ.",
+    "overview": "Executing the elbow escape from flattened half guard demands patience, precision, and the discipline to commit to incremental gains rather than explosive attempts. As the bottom player, you are operating under significant physical and psychological pressure with restricted breathing, limited visibility from the crossface, and severely compromised mobility. Your success depends on understanding the specific sequence of elbow placement, hip escape, and frame consolidation that progressively rebuilds the space your opponent has collapsed. The technique rewards practitioners who can remain calm under duress and execute methodical movement patterns while their opponent applies sustained forward pressure. Each repetition of the wedge-escape-consolidate cycle compounds your positional gains until functional half guard is restored.",
     "key_principles": [
-      "TODO"
+      "Use your elbow as a structural wedge rather than a push - skeletal alignment resists pressure more efficiently than muscular effort and can be maintained indefinitely",
+      "Every hip escape must be immediately consolidated with a frame insertion to prevent the top player from reclaiming the space you created",
+      "Move away from your opponent during escapes toward the trapped leg side rather than turning into them to prevent back exposure",
+      "Accept the crossface and prioritize the underhook battle as your primary structural recovery objective since the underhook provides the foundation for the entire escape",
+      "Time escape initiations with natural fluctuations in your opponent's weight distribution rather than fighting against maximum static pressure",
+      "Maintain the half guard hook throughout the entire escape sequence as your final barrier against the pass to side control"
     ],
     "setup_requirements": [
-      "TODO"
+      "Maintain at least one leg hooked in half guard configuration to prevent immediate pass to side control",
+      "Identify which arm has sufficient mobility to create the initial elbow wedge between your body and opponent's torso",
+      "Establish mental composure through controlled breathing despite chest compression from sustained top pressure",
+      "Assess opponent's crossface depth and weight distribution to determine optimal escape direction and timing window",
+      "Protect the underhook side to prevent opponent from achieving double-under control that eliminates viable escape paths"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Defensive Foundation",
+        "description": "Turn slightly to your side toward the trapped leg by engaging your core and using your bottom elbow as an initial wedge against the mat. This small angular change shifts you from completely flat to a slight angle that restores minimal hip mobility and prevents the worst-case scenario of being fully pinned symmetrically under direct chest pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Win the Underhook Battle",
+        "description": "Fight to insert your inside arm as an underhook on the opponent's far side, threading under their armpit while accepting the crossface on the near side. The underhook prevents the opponent from settling their full weight and creates the structural foundation for all subsequent escape movements in the sequence."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Initial Elbow Wedge",
+        "description": "Drive your bottom elbow into the space between your hip and your opponent's body, using the point of the elbow as a structural frame rather than pushing with arm muscles. This wedge creates a gap of two to three inches that the opponent cannot collapse by simply driving forward because your skeletal structure bears the load."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute First Hip Escape",
+        "description": "With the elbow wedge maintaining the initial space, perform a small controlled hip escape away from your opponent, sliding your hips two to three inches toward your trapped leg side. This directional movement creates space while keeping your chest oriented toward the opponent to prevent back exposure."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert Knee or Forearm Frame",
+        "description": "Immediately fill the space created by the hip escape with a more substantial frame by bringing your knee up toward a shield position or posting your forearm on the opponent's hip or shoulder. This frame consolidation prevents the opponent from simply following your hip escape and re-establishing full chest-to-chest pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute Second Hip Escape",
+        "description": "Perform a second hip escape building on the space secured by your inserted frame, creating enough distance to bring your inside knee fully between you and the opponent. This compounds the gains from the first escape and transitions you from pure survival into a recoverable position with active defensive structure."
+      },
+      {
+        "step_number": 7,
+        "action": "Recover Active Half Guard",
+        "description": "Complete the escape by establishing your knee shield or active framing structure, settling into a functional half guard position with your hips angled, underhook secured, and frames preventing chest-to-chest pressure. From here your full offensive half guard game including sweeps and back takes becomes available."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent drives hips forward immediately to collapse the space created by the elbow wedge before it can be consolidated",
+        "effectiveness": "High",
+        "your_response": "Time your hip escape to coincide with their forward drive, using their committed momentum to amplify the space creation as they overextend their weight distribution",
+        "targets_outcome": "Flattened Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent abandons crossface to whizzer the underhook arm, preventing structural recovery through overhook control",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Use the momentary loss of crossface pressure to execute a larger hip escape and rapidly insert the knee shield before they re-establish head control with the new grip",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent initiates knee slice pass during your hip escape movement, using your lateral motion to advance their passing angle",
+        "effectiveness": "High",
+        "your_response": "Immediately redirect your escape into a deep half entry by diving under their advancing knee, converting their passing energy into your positional recovery underneath them",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent drops weight heavily and uses crossface to turn your head, compressing your space gains back to zero through superior pressure angles",
+        "effectiveness": "Medium",
+        "your_response": "Maintain your elbow wedge as a structural pillar and wait for the next weight shift rather than fighting the pressure directly, then re-initiate the hip escape during their adjustment",
         "targets_outcome": "Flattened Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting an explosive bridge and roll rather than incremental elbow escape movements",
+        "consequence": "Burns massive energy with minimal positional improvement while telegraphing escape direction, allowing the top player to shift weight and counter easily",
+        "correction": "Commit to small controlled movements where each elbow placement and hip escape creates two to three inches of space that compounds over multiple repetitions"
+      },
+      {
+        "error": "Pushing with arm muscles instead of using the elbow as a structural skeletal wedge",
+        "consequence": "Arm strength depletes rapidly under body weight pressure, and the opponent can simply increase forward drive to collapse the muscular frame within seconds",
+        "correction": "Position the point of the elbow against the opponent's body or hip and use skeletal alignment to bear the load, requiring minimal muscular effort to maintain the frame"
+      },
+      {
+        "error": "Hip escaping toward the free leg side rather than toward the trapped leg side",
+        "consequence": "Exposes the back to the opponent, creating an immediate back take opportunity for skilled top players who anticipate this directional error",
+        "correction": "Always hip escape toward the trapped leg side, moving away from the opponent while keeping your chest facing them to maintain defensive orientation"
+      },
+      {
+        "error": "Releasing the half guard hook during the escape to attempt a full guard recovery prematurely",
+        "consequence": "Removes the final barrier preventing the guard pass, allowing the opponent to immediately advance to side control without resistance",
+        "correction": "Maintain the half guard hook throughout the entire escape sequence and only transition the leg configuration once functional frames are fully re-established"
+      },
+      {
+        "error": "Creating space with the elbow but failing to immediately consolidate with a frame or hip escape",
+        "consequence": "The momentary space collapses within one to two seconds as the opponent recognizes the gap and drives forward to close it before you can capitalize",
+        "correction": "Every elbow wedge must be immediately followed by a hip escape, and every hip escape must be immediately followed by a frame insertion in a continuous three-part sequence"
+      },
+      {
+        "error": "Holding breath and tensing entire body under pressure rather than maintaining controlled tactical breathing",
+        "consequence": "Creates rapid oxygen debt and fatigue that makes sustained escape attempts impossible, often triggering panic that leads to wild ineffective movements",
+        "correction": "Practice tactical breathing with small controlled breaths timed to your hip escape movements, maintaining mental composure throughout the systematic escape process"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Elbow Wedge Mechanics",
+        "focus": "Developing the structural elbow frame under static pressure",
+        "description": "Partner applies moderate chest pressure while you practice inserting your elbow as a wedge and maintaining the frame for ten-second holds. Focus on positioning the elbow point correctly and using skeletal alignment rather than muscular effort. Gradually increase partner pressure over sessions."
+      },
+      {
+        "phase": "Phase 2: Hip Escape Integration",
+        "focus": "Connecting the elbow wedge with coordinated hip escapes",
+        "description": "After establishing the elbow wedge, practice the full hip escape and frame consolidation sequence with partner applying fifty percent resistance. Emphasize the directional correctness of the hip escape toward the trapped leg side and the immediate frame insertion after each movement. Count repetitions needed to recover knee shield."
+      },
+      {
+        "phase": "Phase 3: Timing and Pressure Reading",
+        "focus": "Recognizing and exploiting natural pressure fluctuations",
+        "description": "Partner applies realistic pressure and periodically shifts weight for pass attempts. Practice initiating the elbow escape during these natural openings rather than against maximum static pressure. Develop sensitivity to weight distribution changes through the points of contact."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Executing the complete escape against fully resisting opponents",
+        "description": "Begin in flattened half guard with partner playing top at full competition intensity. Bottom player's objective is to recover active half guard using the elbow escape sequence. Top player works their normal passing game. Three-minute rounds with position reset. Track success rate and time to recovery."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting the escape to offensive half guard sequences",
+        "description": "Practice the full chain from flattened half guard through elbow escape to immediate offensive action from recovered half guard. The escape should flow directly into an underhook sweep attempt, back take entry, or guard transition without pause. Develops the habit of attacking immediately upon recovery."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary mechanical principle that makes the elbow wedge effective against heavy top pressure?",
+        "answer": "The elbow wedge uses skeletal alignment rather than muscular effort to resist the opponent's body weight. The point of the elbow creates a structural frame where bone supports bone, meaning the frame can be maintained indefinitely without significant energy expenditure. Pushing with arm muscles against body weight causes rapid fatigue, while the skeletal wedge leverages your body's structure against gravity and forward pressure."
+      },
+      {
+        "question": "Your opponent senses your hip escape and immediately drives forward to close the space - how do you respond?",
+        "answer": "Use their forward drive against them by timing your next hip escape to coincide with their weight commitment. As they drive forward, their weight shifts onto you in a predictable vector. Execute your hip escape perpendicular to their drive direction, using their momentum to amplify the space creation. The key is anticipating their reaction and having the next movement ready rather than pausing after each gain."
+      },
+      {
+        "question": "Why must you hip escape toward the trapped leg side rather than the free leg side during this escape?",
+        "answer": "Escaping toward the trapped leg side keeps your chest facing the opponent, maintaining defensive orientation and preventing back exposure. Moving toward the free leg side requires turning away from the opponent, which skilled top players recognize as a back take opportunity. They follow your rotation and secure hooks before you can complete the guard recovery, converting your escape into a worse positional outcome."
+      },
+      {
+        "question": "What conditions signal the optimal moment to initiate the elbow escape from flattened half guard?",
+        "answer": "The optimal initiation window occurs when the top player shifts weight during passing transitions, grip adjustments, or positional changes. Specifically, when they lighten chest pressure to begin a knee slice, adjust their crossface hand position, or shift hips for passing angle creation. These moments produce brief reductions in forward pressure that make the initial elbow wedge insertion significantly easier to establish."
+      },
+      {
+        "question": "You successfully recover to half guard but your opponent immediately begins pressure passing again - what should your first action be?",
+        "answer": "Immediately establish your knee shield or primary frame before the opponent can re-flatten you. The most common error is resting after the escape, which allows the opponent to re-initiate their pressure passing sequence. Your first action upon recovering half guard should be inserting the knee shield, securing the underhook, and threatening an immediate sweep or back take to force them into a defensive reaction rather than continued passing."
+      },
+      {
+        "question": "What is the correct breathing technique during the elbow escape when chest compression restricts your diaphragm?",
+        "answer": "Use tactical breathing by taking small controlled breaths timed with your hip escape movements. During each hip escape, the brief reduction in chest pressure as you create space provides a window for a small breath. Avoid attempting full deep breaths which are impossible under compression and trigger panic responses. Focus on maintaining steady oxygen flow through frequent small breaths rather than infrequent large ones."
+      },
+      {
+        "question": "Your opponent switches from crossface to a whizzer on your underhook arm during your escape attempt - how do you capitalize?",
+        "answer": "The switch from crossface to whizzer momentarily removes head control, creating a window for a larger hip escape. Use this instant to execute an aggressive hip escape and drive your knee up into a shield position before they re-establish head control with the new grip configuration. The whizzer alone cannot generate the same flattening pressure as crossface plus chest weight, so this grip change improves your escape prospects if you act immediately."
+      },
+      {
+        "question": "How many hip escapes does the elbow escape typically require to recover functional half guard, and why does this matter for training?",
+        "answer": "The complete escape typically requires four to eight individual hip escapes, each creating two to three inches of space that compounds with the previous gain. This matters for training because practitioners must develop the mental discipline to commit to this methodical process rather than expecting a single explosive movement to solve the position. Training drills should emphasize full repetition counts rather than practicing individual hip escapes in isolation."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Elbow Escape from Flattened Half."
+    "safety_considerations": "The elbow escape from flattened half guard is a low-risk positional recovery technique. However, practitioners should be aware that sustained chest compression can restrict breathing and elevate heart rate significantly. Partners drilling top pressure should communicate and immediately reduce pressure if the bottom player signals distress. Avoid using the elbow as a striking point against the opponent's body during wedge insertion, as this can cause rib injuries. During training, the top player should apply progressive resistance rather than full competition pressure when the bottom player is learning the technique to prevent unnecessary injury from panic responses under pressure."
   },
   "defender": {
     "name": "Elbow Escape from Flattened Half Defender",
-    "description": "TODO: Write defender description for Elbow Escape from Flattened Half.",
-    "overview": "TODO: Write defender overview for Elbow Escape from Flattened Half.",
+    "description": "Learn to prevent and counter the elbow escape from flattened half guard. Pressure maintenance techniques and passing strategies to capitalize when opponent attempts frame recovery.",
+    "overview": "As the top player defending against the elbow escape from flattened half guard, your objective is to maintain the positional advantage you have earned through successful pressure application while advancing toward completing the guard pass. The elbow escape threatens to undo your pressure passing work by systematically recovering the frames and hip mobility that you collapsed to achieve the flattened position. Your defensive strategy centers on recognizing escape attempts early through tactile cues, maintaining dynamic pressure that follows your opponent's movement rather than remaining static, and converting their escape attempts into passing opportunities by capitalizing on the space and angles their movements create. The best defense is often a timely offense, using their escape motion to complete your pass.",
     "key_principles": [
-      "TODO"
+      "Maintain dynamic forward pressure that follows opponent's hip escape movements rather than remaining static in one fixed position",
+      "The crossface is your highest-priority control point, preventing the opponent from turning to their side and initiating the escape sequence effectively",
+      "Recognize the elbow wedge insertion immediately and counter by driving hips forward before the frame can be consolidated with a hip escape",
+      "Use opponent's escape movements as triggers for your passing sequences, converting their lateral motion into your knee slice angle",
+      "Control the near hip to limit hip escape range and prevent the opponent from generating meaningful space through shrimping movements",
+      "Avoid lifting chest pressure to adjust grips or position, as any momentary weight reduction creates the exact window the escape requires"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins turning their bottom elbow toward the mat and inserting it between your bodies at the hip or shoulder line",
+      "Opponent's hips begin small lateral movements toward their trapped leg side, indicating hip escape initiation under your pressure",
+      "Opponent fights aggressively for the underhook on your far side, indicating they are establishing the structural foundation for the escape sequence",
+      "Opponent's breathing pattern changes from labored and shallow to more controlled and rhythmic, suggesting they have committed to a systematic escape plan",
+      "Opponent's inside knee begins driving upward toward your hip line, indicating they are preparing to insert a knee shield frame into the created space"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive hips forward to collapse the elbow wedge before it can be consolidated with a hip escape",
+        "when_to_use": "Immediately upon feeling the opponent's elbow begin to create space between your bodies at the hip or shoulder line",
         "targets_outcome": "Flattened Half Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent's elbow frame collapses and they return to fully flattened position with chest-to-chest contact re-established",
+        "risk": "Overcommitting forward pressure can create sweep vulnerability if opponent times an underhook reversal"
+      },
+      {
+        "action": "Initiate knee slice pass during the opponent's hip escape movement to convert their escape into your passing angle",
+        "when_to_use": "When opponent executes a hip escape creating lateral space and an angle that favors your knee slice trajectory",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Convert the opponent's lateral movement into your passing angle, completing the guard pass to side control",
+        "risk": "If knee slice fails, opponent may recover to half guard with better frames than before the attempt"
+      },
+      {
+        "action": "Switch to heavy crossface combined with near-hip control to prevent the lateral movement the escape requires",
+        "when_to_use": "When opponent begins winning the underhook battle and establishing the structural foundation for their escape",
+        "targets_outcome": "Flattened Half Guard/Bottom",
+        "if_successful": "Heavy crossface turns their head away while hip pressure prevents the lateral shrimping movement needed for the escape",
+        "risk": "Focusing on crossface adjustment may momentarily create space that accelerates their frame recovery"
+      },
+      {
+        "action": "Trap the escaping arm and transition to arm triangle setup when opponent extends arm during escape attempt",
+        "when_to_use": "When opponent extends their arm to push your hip or establish a frame during the space creation phase",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Convert the defensive arm extension into a submission threat that forces them to abandon the escape entirely",
+        "risk": "If arm triangle setup is not completed quickly, the positional change may create space that aids their escape"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Flattened Half Guard/Bottom",
+        "how": "Maintain maximum pressure by following escape attempts with increased forward hip drive, re-establishing chest-to-chest contact whenever the opponent creates space. Use the crossface to prevent them from achieving the side angle needed for the escape sequence to progress."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Capitalize on the opponent's hip escape movement by timing your knee slice pass to coincide with their lateral motion. Their escape creates the exact angle you need for passing, and their commitment to the escape means they cannot simultaneously defend the pass with full defensive attention."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining static with heavy pressure instead of actively following opponent's hip escape movements with your own positional adjustments",
+        "consequence": "Opponent's incremental escapes compound over time, gradually recovering enough space for full guard restoration despite your weight advantage",
+        "correction": "Treat pressure as dynamic rather than static by following every hip escape with your own hip advancement, closing the space immediately before they can consolidate with a frame"
+      },
+      {
+        "error": "Lifting chest pressure to adjust hand position or grips during the opponent's escape attempt",
+        "consequence": "Any momentary pressure reduction provides the exact window the escape requires for elbow wedge insertion and consolidated hip escape execution",
+        "correction": "Maintain constant chest-to-chest contact throughout all grip adjustments by moving your hands while keeping your torso settled, never creating vertical separation"
+      },
+      {
+        "error": "Focusing solely on preventing the escape rather than capitalizing on escape movements for passing advancement",
+        "consequence": "Purely defensive mindset leads to a grinding stalemate where the opponent eventually succeeds through persistence and systematic micro-adjustments",
+        "correction": "View escape attempts as passing opportunities and when opponent hip escapes immediately initiate your pass since their movement creates predictable angles you can exploit"
+      },
+      {
+        "error": "Allowing the opponent to secure the underhook without immediately countering with a whizzer or re-establishing crossface control",
+        "consequence": "The underhook provides the structural foundation for the entire escape sequence, making all subsequent defensive responses significantly more difficult to execute effectively",
+        "correction": "Fight the underhook aggressively with a whizzer or by driving shoulder pressure forward, and if they secure it immediately switch to crossface control and begin your passing sequence"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is initiating an elbow escape from flattened half guard?",
+        "answer": "The earliest cue is feeling the opponent's bottom elbow begin to turn toward the mat and press into the space between your hip and their body. This subtle movement precedes the visible hip escape and represents the initial structural wedge insertion. Recognizing this tactile cue through your chest and hip contact allows you to counter before the escape gains momentum by immediately driving your hips forward to collapse the developing frame."
+      },
+      {
+        "question": "Your opponent successfully creates a small space with their elbow wedge and begins a hip escape - what is your highest-percentage response?",
+        "answer": "Immediately initiate your knee slice pass by driving your trapped knee across their thigh line in the direction of their hip escape. Their lateral movement creates the exact angle you need for the knee slice, and their commitment to the escape means their attention and defensive structure are oriented toward space creation rather than pass defense. This converts their escape attempt into your passing opportunity, which is more effective than simply trying to re-flatten them."
+      },
+      {
+        "question": "Why is maintaining dynamic pressure more effective than maximum static pressure when defending against the elbow escape?",
+        "answer": "Maximum static pressure allows the opponent to map the pressure distribution and systematically work around it through incremental adjustments. Dynamic pressure that flows and follows their movements prevents them from establishing a predictable escape pattern. When you follow their hip escapes with your own positional adjustments, you deny them the space consolidation that the technique requires, while also preserving your own energy more efficiently."
+      },
+      {
+        "question": "How do you prevent the opponent from winning the underhook battle during their escape attempt?",
+        "answer": "Drive your near-side shoulder forward and down into their chest while maintaining crossface control with your far arm. If they begin threading their arm for the underhook, immediately apply a whizzer by overhooking their arm and driving your weight through the whizzer to flatten their shoulder back to the mat. The whizzer combined with crossface creates a double control point that makes the underhook functionally useless even if they achieve the grip."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Pressure Maintenance Under Movement",
+        "focus": "Following opponent's hip escapes without losing chest contact",
+        "description": "Partner performs slow hip escapes while you practice following their movement with your hips and chest. Focus on maintaining constant pressure throughout the movement rather than alternating between heavy and light contact. Develop sensitivity to directional changes and the ability to adjust weight distribution in real time."
+      },
+      {
+        "phase": "Phase 2: Escape Recognition and Counter Timing",
+        "focus": "Identifying escape initiation cues and timing defensive responses",
+        "description": "Partner attempts elbow escapes at varying speeds and intensity while you practice recognizing the initial elbow wedge insertion and countering with forward hip drive. Track how early you can detect the escape attempt and how quickly you can apply the counter. Gradually increase partner escape skill and speed."
+      },
+      {
+        "phase": "Phase 3: Passing Integration",
+        "focus": "Converting escape attempts into passing opportunities",
+        "description": "Partner attempts full elbow escapes while you practice timing your knee slice or crossface pass to coincide with their hip escape movements. The goal shifts from preventing the escape to actively using the escape to complete your guard pass. Track passing success rate from counter-escape sequences."
+      },
+      {
+        "phase": "Phase 4: Competition Intensity Drilling",
+        "focus": "Full-speed defense and passing under realistic conditions",
+        "description": "Begin in flattened half guard and engage in full-resistance positional sparring. Top player works to maintain the flattened position or complete the pass while bottom player attempts the elbow escape. Three-minute rounds with outcome tracking to develop competition-ready timing and pressure."
       }
     ]
   }

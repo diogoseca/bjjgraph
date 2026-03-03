@@ -20,51 +20,45 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Dogfight Sweep",
+      "text": "From this position, attempt Dogfight Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Forward Drive Sweep from Dogfight",
+      "text": "From this position, attempt Forward Drive Sweep from Dogfight. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Crossface from Dogfight",
+      "text": "From this position, attempt Crossface from Dogfight. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute John Wayne Sweep",
-      "text": "From this position, attempt John Wayne Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Re-flatten from Dogfight",
+      "text": "From this position, attempt Re-flatten from Dogfight. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Underhook Sweep from Dogfight",
+      "text": "From this position, attempt Underhook Sweep from Dogfight. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Re-pull Half Guard from Dogfight",
+      "text": "From this position, attempt Re-pull Half Guard from Dogfight. This technique is attempted in 10% of exchanges from this position.",
       "position": 7
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 7% of exchanges from this position.",
-      "position": 8
     }
   ],
   "totalTime": "PT2M"
@@ -114,7 +108,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
       "name": "What happens if you not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps The correct approach is: When executing sweeps like the Old School, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success"
+        "text": "The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps The correct approach is: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success"
       }
     },
     {
@@ -231,23 +225,19 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Available Techniques and Transitions
 
-### [[Old School Sweep]] (18% of attempts)
+### [[Dogfight Sweep]] (20% of attempts)
 
-### [[Back Take]] (18% of attempts)
+### [[Forward Drive Sweep from Dogfight]] (15% of attempts)
 
-### [[Deep Half Entry]] (15% of attempts)
+### [[Back Take]] (15% of attempts)
 
-### [[Waiter Sweep]] (10% of attempts)
+### [[Crossface from Dogfight]] (15% of attempts)
 
-### [[John Wayne Sweep]] (10% of attempts)
+### [[Re-flatten from Dogfight]] (15% of attempts)
 
-### [[Underhook Sweep from Half]] (10% of attempts)
+### [[Underhook Sweep from Dogfight]] (10% of attempts)
 
-### [[Electric Chair Transition]] (7% of attempts)
-
-### [[Hip Bump Sweep]] (7% of attempts)
-
-### [[Rolling to Guard]] (5% of attempts)
+### [[Re-pull Half Guard from Dogfight]] (10% of attempts)
 
 
 
@@ -259,28 +249,33 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 **If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Re-pull Half Guard from Dogfight]]** → [[Half Guard]] (Probability: 60%)
 - Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
 
 
 **If opponent's far leg is posted wide and vulnerable to being controlled:**
-- Execute **[[Old School Sweep]]** → [[Half Guard]] (Probability: 75%)
-- Execute **[[Waiter Sweep]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 60%)
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
 - Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 65%)
 
 
 **If opponent maintains upright posture and posts their free leg far out for base:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[John Wayne Sweep]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 50%)
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
 - Execute **[[Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Hip Bump Sweep]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 55%)
+
+
+**If you are the top player and opponent has deep underhook with forward pressure:**
+- Execute **[[Crossface from Dogfight]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Re-flatten from Dogfight]]** → [[Half Guard]] (Probability: 50%)
 
 
 
@@ -314,7 +309,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### 5. Not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out
 
 - ❌ **Consequence**: The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps
-- ✅ **Correction**: When executing sweeps like the Old School, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success
+- ✅ **Correction**: When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success
 
 ### 6. Giving up space by pulling backward instead of maintaining constant forward driving pressure
 
@@ -343,7 +338,7 @@ Partner starts in Dogfight with training partner applying progressive resistance
 
 ### Sweep Chain Flow Drill
 
-From Dogfight position, bottom player practices chaining together Old School sweep to John Wayne sweep to Waiter sweep to Deep Half entry in continuous sequence. Top player provides realistic progressive defense to first technique, forcing smooth transitions to second and third options without resetting to starting position. Emphasizes reading opponent's defensive reactions and flowing between techniques based on their weight distribution and posting patterns.
+From Dogfight position, bottom player practices chaining together Dogfight Sweep to Forward Drive Sweep to Underhook Sweep in continuous sequence. Top player provides realistic progressive defense to first technique, forcing smooth transitions to second and third options without resetting to starting position. Emphasizes reading opponent's defensive reactions and flowing between techniques based on their weight distribution and posting patterns.
 
 **Duration**: 3 minutes per person, 4 rounds
 
@@ -395,13 +390,13 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 - **[[Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
 - **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
 - **[[Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
-- **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration to enter Dogfight
+- **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
 - **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
 - **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
 - **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
 - **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
 - **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
-- **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward in Dogfight
+- **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
 
 
 </section>

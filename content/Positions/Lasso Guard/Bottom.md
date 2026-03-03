@@ -21,37 +21,37 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 60% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 48% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Omoplata from Lasso",
+      "text": "From this position, attempt Omoplata from Lasso. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,37 +216,31 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Available Escapes
 
-### [[Sickle Sweep]] (60% of attempts)
+### [[Sickle Sweep]] (48% of attempts)
 
-### [[Triangle Setup]] (13% of attempts)
+### [[Triangle Setup]] (12% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Omoplata Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] (7% of attempts)
+### [[De La Riva Sweep]] (5% of attempts)
 
-### [[Hook Sweep]] (5% of attempts)
+### [[Omoplata from Lasso]] (5% of attempts)
+
+### [[Hook Sweep]] (4% of attempts)
+
+### [[Lasso Sweep]] (4% of attempts)
 
 ### [[X-Guard Sweep]] (3% of attempts)
 
-### [[Armbar Finish]] (0% of attempts)
+### [[Berimbolo Entry]] (3% of attempts)
 
-### [[Kimura Sweep]] (0% of attempts)
+### [[Lasso Guard to Inverted Lasso Guard]] (3% of attempts)
 
-### [[Transition to Russian Leg Lasso]] (0% of attempts)
+### [[Armbar Finish]] (2% of attempts)
 
-### [[Transition to Inverted Lasso Guard]] (1% of attempts)
+### [[Kimura Sweep]] (2% of attempts)
 
-### [[Berimbolo Entry]] (0% of attempts)
-
-### [[Guard Recovery]] (0% of attempts)
-
-### [[Lasso Guard to Inverted Lasso Guard]] (0% of attempts)
-
-### [[Lasso Guard to Russian Leg Lasso]] (0% of attempts)
-
-### [[Lasso Sweep]] (0% of attempts)
-
-### [[Omoplata from Lasso]] (1% of attempts)
+### [[Lasso Guard to Russian Leg Lasso]] (1% of attempts)
 
 
 
@@ -263,7 +257,7 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 **If opponent drives forward with pressure attempting to smash or stack the guard:**
 - Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Transition to Inverted Lasso Guard]]** → [[Inverted Lasso Guard]] (Probability: 45%)
+- Execute **[[Lasso Guard to Inverted Lasso Guard]]** → [[Inverted Lasso Guard]] (Probability: 45%)
 
 
 **If opponent stands tall and attempts to disengage or pass from standing:**

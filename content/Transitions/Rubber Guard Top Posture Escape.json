@@ -1,10 +1,14 @@
 {
   "name": "Rubber Guard Top Posture Escape",
-  "description": "TODO: Write 150-160 character SEO description for Rubber Guard Top Posture Escape.",
+  "description": "Escape Rubber Guard from top by recovering posture and extracting trapped arm. Systematic protocol to break 10th Planet control and reach open guard.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "rubber guard escape",
+    "posture recovery",
+    "guard escape",
+    "10th planet defense",
+    "top position",
+    "arm extraction",
+    "no-gi defense"
   ],
   "from_position": "Rubber Guard/Top",
   "outcomes": [
@@ -25,114 +29,355 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Rubber Guard Top Posture Escape.",
+  "overview": "The Rubber Guard Top Posture Escape is a systematic defensive transition designed to free the top player from the highly controlling Rubber Guard position. When trapped in an opponent's Rubber Guard, the top player faces severe posture compromise with one arm isolated against the bottom player's chest by their elevated leg. This escape addresses the core mechanical problem: the bottom player's leg acting as a lever to break posture while simultaneously trapping the arm. The escape sequence prioritizes creating structural frames with the free hand, disrupting the bottom player's leg configuration, and systematically recovering upright posture before the opponent can advance through the 10th Planet positional hierarchy toward submissions.\n\nStrategically, this escape must be executed before the bottom player progresses from Mission Control to more advanced positions like New York, Invisible Collar, or Zombie, where submission threats multiply exponentially. The timing window narrows rapidly once the Rubber Guard is fully established, making early recognition and immediate defensive action critical. The escape integrates principles of pressure management, circular arm extraction rather than linear pulling, and controlled posture recovery that avoids triggering the submission chain reactions that punish common escape mistakes. Success requires understanding that the Rubber Guard system is designed to exploit predictable defensive reactions, so the escape must combine multiple defensive actions simultaneously rather than addressing threats sequentially.",
   "conditions": [
-    "TODO"
+    "Opponent has established Rubber Guard with leg elevated across your back and shin or foot secured",
+    "Your near-side arm is trapped against opponent's chest by their leg pressure",
+    "Your posture is broken with head pulled down toward opponent's torso",
+    "Opponent has not yet advanced to New York, Invisible Collar, or submission-ready configurations"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Elbow Push Frame Escape",
+      "description": "Uses the free hand to create a frame on the opponent's knee or shin of the controlling leg, pushing it down and away while simultaneously driving the hips back to create distance. This variant prioritizes breaking the leg configuration before recovering posture, making it effective against opponents with extreme flexibility who can maintain Mission Control even under moderate posture pressure.",
+      "when_to_use": "When opponent has strong shin-across-back control but their foot grip is accessible to your free hand"
+    },
+    {
+      "variant_name": "Stacking Posture Recovery",
+      "description": "Drives forward pressure through the shoulder while walking the knees up toward the opponent's hips, using the stacking angle to reduce the effectiveness of the elevated leg. The forward pressure compresses the bottom player's spine and limits their hip mobility, making it difficult for them to maintain the high guard configuration. Must be combined with awareness of omoplata counters.",
+      "when_to_use": "When opponent's flexibility is limited and they struggle to maintain high leg position under stacking pressure"
+    },
+    {
+      "variant_name": "Swim and Circle Extraction",
+      "description": "Uses a circular swimming motion with the trapped arm rather than pulling straight back, rotating the elbow inward and down to slip underneath the opponent's controlling leg. Combined with a slight lateral shift of the hips, this creates an angle that reduces the mechanical advantage of the leg trap. Particularly effective in no-gi where sweat reduces grip friction.",
+      "when_to_use": "When opponent relies heavily on arm isolation and you can create a momentary gap in their leg control through hip shifting"
     }
   ],
-  "position_integration": "TODO: Write position integration for Rubber Guard Top Posture Escape.",
+  "position_integration": "The Rubber Guard Top Posture Escape occupies a critical defensive node in the BJJ positional hierarchy, serving as the primary pathway from a compromised top position back to neutral guard engagement. This transition connects Rubber Guard defense to the broader open guard passing game, allowing the top player to reset the engagement on favorable terms. Without this escape capability, practitioners face a one-way progression through the 10th Planet submission hierarchy. The escape also integrates with posture recovery principles applicable across all guard positions, reinforcing fundamental defensive concepts that transfer to closed guard, high guard, and other posture-breaking scenarios.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Rubber Guard",
+      "relationship": "Source position from which this escape is executed"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Primary target position after successful posture recovery"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position if opponent sweeps during escape attempt"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Related fundamental transition sharing posture recovery mechanics"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Primary Rubber Guard sub-position this escape must neutralize"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Foundation position from which Rubber Guard originates and potential fallback"
+    },
+    {
+      "name": "Arm Extraction",
+      "relationship": "Related transition sharing arm freeing mechanics from guard control"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Stable position accessible after successful posture recovery from Rubber Guard"
     }
   ],
   "attacker": {
     "name": "Rubber Guard Top Posture Escape Attacker",
-    "description": "TODO: Write attacker description for Rubber Guard Top Posture Escape.",
-    "overview": "TODO: Write attacker overview for Rubber Guard Top Posture Escape.",
+    "description": "Execute the Rubber Guard posture escape from top position. Step-by-step protocol to extract your trapped arm, recover posture, and reach open guard safely.",
+    "overview": "As the attacker executing this escape, you are the top player trapped in your opponent's Rubber Guard with broken posture and one arm isolated. Your objective is to systematically dismantle the Rubber Guard control configuration by creating frames with your free hand, disrupting the leg positioning that maintains the arm trap, extracting your trapped arm through circular motion rather than linear pulling, and recovering full upright posture to re-engage from open guard top. The escape requires patience and technical precision because explosive movements trigger the submission chains the Rubber Guard system is designed to exploit. Every defensive action must address the opponent's control hierarchy in the correct sequence: first neutralize the leg control, then free the arm, then recover posture.",
     "key_principles": [
-      "TODO"
+      "Address the leg control mechanism first before attempting to free the trapped arm, as the leg creates the mechanical leverage holding everything together",
+      "Use circular arm extraction motion rather than straight pulling, which only tightens the opponent's leg configuration and telegraphs your escape direction",
+      "Maintain base with the free hand by posting or framing rather than reaching for the opponent's leg, which sacrifices your only remaining support structure",
+      "Control escape tempo deliberately to avoid creating the explosive reactions that trigger triangle, omoplata, and gogoplata entries in the Rubber Guard system",
+      "Keep elbows tight to your body throughout the escape to prevent additional limb isolation and limit submission entry angles",
+      "Recover posture incrementally through small gains rather than attempting a single explosive upward drive that the opponent can redirect"
     ],
     "setup_requirements": [
-      "TODO"
+      "Identify which specific Rubber Guard configuration the opponent has established (Mission Control, New York, Zombie) to select appropriate escape variation",
+      "Confirm your free hand is uncommitted and available for framing or posting before initiating escape sequence",
+      "Establish mental calm and avoid panic responses that lead to explosive pulling and trigger submission entries",
+      "Assess whether opponent has begun advancing toward submission-ready positions, which changes escape urgency and method",
+      "Ensure your base is stable with knees positioned to resist forward pulling and lateral sweeping forces"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Stabilize base and assess position",
+        "description": "Plant both knees wide on the mat with toes curled under for stability. Identify exactly how your arm is trapped and which Rubber Guard variation the opponent is using. Avoid any sudden movements that telegraph your escape intention and trigger the opponent's submission chains."
+      },
+      {
+        "step_number": 2,
+        "action": "Create frame with free hand",
+        "description": "Place your free hand on the opponent's hip or the knee of their controlling leg, creating a structural frame that prevents them from pulling you deeper into the position. This frame serves double duty as your primary tool for disrupting their leg configuration and your posting base against sweep attempts."
+      },
+      {
+        "step_number": 3,
+        "action": "Address the controlling leg",
+        "description": "Using your free hand frame on their knee or shin, push the controlling leg downward toward the mat while simultaneously shifting your hips laterally away from the trapped arm side. This reduces the mechanical advantage of their elevated leg and begins creating slack in the arm trap configuration."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin circular arm extraction",
+        "description": "As the leg pressure reduces from your frame work, rotate your trapped elbow inward toward your own centerline in a circular scooping motion rather than pulling straight back. This swim-through motion follows the path of least resistance underneath the opponent's controlling leg, progressively freeing your arm from the trap."
+      },
+      {
+        "step_number": 5,
+        "action": "Drive hips back to recover posture",
+        "description": "Once the arm begins to free, drive your hips backward and down while keeping your spine straight, using the backward hip movement to create distance and recover upright posture. Maintain the free hand frame on their hip or knee throughout this movement to prevent them from following your retreat with their guard structure."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract arm completely and establish distance",
+        "description": "Complete the arm extraction by pulling your elbow tight to your body as your posture rises. Immediately control the opponent's legs by gripping their knees or ankles to prevent them from re-establishing the Rubber Guard or transitioning to another controlling guard variation. Your posture should now be fully upright."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition to open guard engagement",
+        "description": "Establish open guard top position by standing or achieving combat base with proper distance management. Control the opponent's legs to prevent immediate re-engagement with Rubber Guard or other closed guard variants. Begin your guard passing sequence from the recovered open guard top position with full posture and base restored."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent tightens leg grip and re-pulls posture down during arm extraction attempt",
+        "effectiveness": "High",
+        "your_response": "Pause the arm extraction and reinforce the free hand frame on their knee. Push the controlling leg down more aggressively before reattempting the circular arm extraction. Do not fight the pull directly as this exhausts energy rapidly.",
+        "targets_outcome": "Rubber Guard/Top"
+      },
+      {
+        "counter": "Opponent transitions to triangle setup by releasing arm trap and shooting legs up",
+        "effectiveness": "High",
+        "your_response": "Immediately posture up explosively the moment the arm is freed and tuck the chin to prevent the triangle lock from closing. Drive the freed arm across their body to the opposite side to prevent proper triangle angle alignment.",
+        "targets_outcome": "Rubber Guard/Top"
+      },
+      {
+        "counter": "Opponent uses hip bump or bridge timing to sweep during posture recovery",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Widen your base by spreading your knees and posting the free hand when you feel the sweep attempt initiating. Lower your center of gravity rather than continuing upward posture recovery during the sweep attempt.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to omoplata by rotating hips and attacking the trapped shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Keep the trapped elbow tight to your body and drive forward pressure into the opponent to prevent the hip rotation needed for omoplata completion. If rotation begins, posture up immediately and roll forward to clear the leg.",
         "targets_outcome": "Rubber Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling the trapped arm straight back with explosive force",
+        "consequence": "Tightens the opponent's leg configuration, creates direct pathway to triangle choke, wastes energy rapidly, and telegraphs your escape direction allowing the opponent to set their counter",
+        "correction": "Use circular arm extraction by rotating the elbow inward and scooping underneath the controlling leg. The circular path follows the line of least resistance and does not trigger the opponent's submission reflexes"
+      },
+      {
+        "error": "Neglecting to address the controlling leg before attempting arm extraction",
+        "consequence": "The leg maintains full mechanical advantage over the arm trap, making extraction nearly impossible and every attempt tightening the opponent's control position further",
+        "correction": "Frame on the opponent's knee or shin with your free hand first and push the controlling leg down to reduce its leverage before initiating any arm extraction movement"
+      },
+      {
+        "error": "Posting the free hand on the mat instead of framing on opponent's body",
+        "consequence": "Surrenders your only tool for disrupting the leg control, allows opponent to advance to New York or Invisible Collar unopposed, and provides no resistance to their positional progression",
+        "correction": "Keep the free hand actively engaged on the opponent's hip, knee, or controlling leg. The frame must work against their control structure rather than simply supporting your own weight"
+      },
+      {
+        "error": "Attempting explosive upward posture recovery before freeing the trapped arm",
+        "consequence": "The arm trap acts as an anchor preventing full posture recovery, creating tremendous strain on neck and shoulder. The explosive upward drive also creates the momentum the opponent needs for omoplata or sweep entries",
+        "correction": "Free the arm first through gradual circular extraction, then recover posture incrementally. Sequence matters: leg control, arm extraction, posture recovery in that specific order"
+      },
+      {
+        "error": "Panicking and using maximum muscular effort without technical understanding",
+        "consequence": "Rapid energy depletion while remaining trapped, creation of jerky movements that trigger submission opportunities, increased injury risk to shoulder and neck from fighting against mechanical leverage",
+        "correction": "Remain calm and apply the systematic escape protocol step by step. Use leverage and positioning rather than strength. Controlled technical movements are significantly more effective than explosive bursts against Rubber Guard"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Circular arm extraction and frame positioning",
+        "description": "Practice the circular elbow rotation for arm extraction without resistance. Partner holds a loose Mission Control while you slowly work through the scooping motion. Focus on the free hand frame positioning on their knee and the direction of elbow rotation. Perform 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Sequencing",
+        "focus": "Full escape sequence with cooperative partner",
+        "description": "Chain the complete escape sequence: frame on knee, push leg down, circular arm extraction, hip drive back, posture recovery, leg control. Partner holds moderate Rubber Guard and releases naturally when correct pressure is applied. Focus on smooth transitions between each phase rather than speed."
+      },
+      {
+        "phase": "Phase 3: Timing and Resistance",
+        "focus": "Escape against progressive resistance",
+        "description": "Partner holds strong Rubber Guard at 60-80% resistance and attempts to advance to New York or Invisible Collar. Practice identifying the timing window for each escape phase and executing under pressure. Partner provides feedback on which movements triggered submission opportunities."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Positional sparring from Rubber Guard top",
+        "description": "Full positional sparring starting in Rubber Guard with full resistance. Top player works to escape to open guard top. Bottom player works full 10th Planet system including submissions. Track escape success rate and identify which defensive reactions need refinement against live opposition."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Why must you address the opponent's controlling leg before attempting to extract your trapped arm?",
+        "answer": "The controlling leg provides the mechanical leverage that holds the arm trap in place. Without reducing this leg pressure first through framing on the knee or shin, any arm extraction attempt fights against the full force of the leg lever, making escape nearly impossible and often tightening the control further. Breaking the leg control first removes the primary mechanism holding you in the position."
+      },
+      {
+        "question": "What is the critical difference between circular and linear arm extraction, and why does it matter?",
+        "answer": "Circular arm extraction rotates the elbow inward and scoops underneath the controlling leg, following the path of least resistance. Linear pulling straight back fights directly against the leg's mechanical advantage, tightens the control, and telegraphs your escape direction allowing the opponent to counter with triangle entries. The circular motion avoids triggering the opponent's submission reflexes that are designed to punish linear escape attempts."
+      },
+      {
+        "question": "Your opponent begins advancing from Mission Control toward New York position while you are still framing. How do you adjust your escape urgency?",
+        "answer": "Increase urgency immediately because the New York position adds omoplata threat and enhanced arm control that makes escape significantly more difficult. Accelerate the frame-and-push sequence on their controlling knee to disrupt the advancement before they can establish the New York grip configuration. If they complete the transition, you must address the new grip before continuing the standard escape protocol."
+      },
+      {
+        "question": "What base adjustment prevents the sweep counter during your posture recovery phase?",
+        "answer": "Widen your knees to create a broader base and curl your toes under for additional stability. As you drive your hips back to recover posture, keep your center of gravity low rather than rising too quickly. If you feel the opponent loading a hip bump or bridge, immediately lower your weight and post your free hand rather than continuing the upward posture recovery movement."
+      },
+      {
+        "question": "What are the grip requirements for your free hand throughout the escape sequence?",
+        "answer": "The free hand must frame on the opponent's knee or shin of the controlling leg to push it downward and reduce its leverage. It should never post on the mat during the escape as this surrenders your only tool for disrupting their control. After arm extraction, the free hand transitions to controlling the opponent's legs at the knees or ankles to prevent re-establishment of Rubber Guard or other guard configurations."
+      },
+      {
+        "question": "How should you manage your direction of force when driving hips back for posture recovery?",
+        "answer": "Drive hips backward and slightly downward rather than straight up. The backward-down direction creates distance from the opponent while keeping your center of gravity stable against sweep attempts. Driving straight up without backward movement keeps you within their control range and creates the upward momentum they can redirect into sweeps. The backward drive must be combined with maintaining the free hand frame to prevent the opponent from following your retreat."
+      },
+      {
+        "question": "Your opponent releases the arm trap suddenly as you begin extraction. What is the most likely threat and how do you respond?",
+        "answer": "The most likely threat is a triangle choke setup, as releasing the arm trap while keeping the high leg creates an immediate triangle entry when the freed arm crosses their centerline. Respond by tucking your chin immediately, driving the freed arm across to the opposite side of their body, and posturing up explosively. Do not celebrate the freed arm by reaching forward or pausing, as the triangle window opens in under two seconds."
+      },
+      {
+        "question": "What chain attacks should you prepare if your initial escape attempt fails and you remain in Rubber Guard?",
+        "answer": "If the initial escape fails, reassess before repeating. Try the stacking variation by driving forward pressure through your shoulder while walking knees up to compress their spine and reduce leg elevation effectiveness. If stacking fails, attempt the swim-and-circle extraction from a different angle. If all escapes fail, prioritize preventing advancement to submission-ready positions by maintaining the free hand frame on their knee while conserving energy for the next escape opportunity."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Rubber Guard Top Posture Escape."
+    "safety_considerations": "This escape involves movements around the neck and shoulder area while under posture-breaking pressure. Avoid explosive jerking of the trapped arm as this can cause shoulder impingement or rotator cuff strain. If neck pain develops from prolonged posture breaking, tap and reset rather than fighting through cervical compression. During training, partners holding Rubber Guard should release immediately if the top player reports neck discomfort, and both practitioners should warm up neck and shoulder mobility before drilling this escape."
   },
   "defender": {
     "name": "Rubber Guard Top Posture Escape Defender",
-    "description": "TODO: Write defender description for Rubber Guard Top Posture Escape.",
-    "overview": "TODO: Write defender overview for Rubber Guard Top Posture Escape.",
+    "description": "Defend against posture escape attempts from Rubber Guard bottom. Maintain Mission Control, prevent arm extraction, and counter with submissions or sweeps.",
+    "overview": "As the defender, you are the Rubber Guard bottom player working to maintain your control position against the top player's escape attempts. Your objective is to preserve the arm trap and posture control that define the Rubber Guard while advancing through the positional hierarchy toward submission entries. When the top player initiates a posture escape, you must recognize their specific escape method and apply the appropriate counter to either re-establish control, trigger a submission entry, or execute a sweep. The Rubber Guard system is specifically designed so that common escape reactions feed directly into submission chains: pulling the arm free opens the triangle, driving forward creates omoplata entries, and sitting back enables sweeps. Your defensive strategy leverages these built-in counters to make every escape attempt a potential offensive opportunity.",
     "key_principles": [
-      "TODO"
+      "Maintain constant downward leg pressure on the trapped arm to preserve the fundamental control mechanism against extraction attempts",
+      "Recognize specific escape methods early through tactile cues and preload the appropriate counter submission or positional advancement",
+      "Advance through the positional hierarchy (Mission Control to New York to Invisible Collar) whenever the opponent pauses their escape, increasing submission pressure progressively",
+      "Use hip mobility to follow the opponent's lateral shifts and prevent them from creating angles that reduce your leg leverage on their arm",
+      "Convert failed escape attempts into submission entries by capitalizing on the space and movement the opponent creates during their escape",
+      "Maintain closed guard lock as backup insurance so that even if Rubber Guard control is lost, you retain fundamental guard position"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player's free hand moves to frame on your knee or shin of the controlling leg rather than posting on the mat",
+      "Top player begins shifting hips laterally away from the trapped arm side, indicating circular extraction attempt",
+      "Top player drives forward with shoulder pressure while walking knees up, indicating stacking escape variation",
+      "Top player's trapped arm begins rotating inward with elbow scooping motion rather than pulling straight back",
+      "Top player's posture begins rising incrementally with backward hip drive, signaling progressive posture recovery attempt"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Increase leg pressure and re-break posture by pulling head down with free hand while driving shin deeper across their back",
+        "when_to_use": "When you detect the initial frame on your knee and the opponent begins the escape sequence before they gain momentum",
         "targets_outcome": "Rubber Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent is pulled back into full Rubber Guard control with broken posture, negating their escape progress entirely",
+        "risk": "If opponent has already freed significant arm slack, the re-pull may fail and waste your energy"
+      },
+      {
+        "action": "Release arm trap and immediately shoot for triangle by bringing the controlling leg across their neck while trapping the freed arm",
+        "when_to_use": "When opponent successfully begins circular arm extraction and their arm is coming free, converting the loss of control into a submission entry",
+        "targets_outcome": "Rubber Guard/Top",
+        "if_successful": "Direct triangle choke entry as the freed arm crosses their centerline, converting their escape into your submission",
+        "risk": "If opponent postures explosively during the transition window, the triangle may not close properly"
+      },
+      {
+        "action": "Execute hip bump sweep by bridging into the opponent as they drive hips back for posture recovery, using their backward momentum against them",
+        "when_to_use": "When opponent commits weight backward during the posture recovery phase, creating vulnerability to forward sweeping force",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Opponent is swept to bottom position as their backward momentum makes them unable to resist the forward bridge",
+        "risk": "If sweep fails, you may lose Rubber Guard entirely and end up in open guard with compromised grips"
+      },
+      {
+        "action": "Advance to New York or Invisible Collar position during the momentary pause between escape phases, increasing submission threat level",
+        "when_to_use": "When opponent pauses their escape to reassess or switches between escape variations, creating a window for positional advancement",
+        "targets_outcome": "Rubber Guard/Top",
+        "if_successful": "Position advances to higher-threat configuration that makes subsequent escape attempts more dangerous for the top player",
+        "risk": "Transitioning between positions requires momentary grip changes that could allow escape if timing is wrong"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Open Guard/Top",
-        "how": "TODO"
+        "outcome": "Rubber Guard/Top",
+        "how": "Detect the escape attempt early through recognition cues and immediately re-break posture by increasing leg pressure and pulling the head down. Advance through the positional hierarchy whenever the opponent pauses, making each subsequent escape attempt progressively more difficult and dangerous."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip bump sweep during the opponent's backward hip drive phase of posture recovery. As they shift weight backward, bridge forcefully forward and to the side, using their own momentum against them. Follow through to establish top position or recover to half guard bottom if the sweep is only partially successful."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Relying solely on leg strength to maintain control rather than using structural positioning and grip configurations",
+        "consequence": "Rapid fatigue in the controlling leg allows the opponent to outlast your muscular endurance and eventually escape through pure attrition",
+        "correction": "Use proper structural positioning with hip elevation and skeletal alignment to maintain the arm trap. Apply leg pressure in bursts during critical moments rather than constant maximum tension"
+      },
+      {
+        "error": "Failing to advance through positional hierarchy when opponent pauses their escape",
+        "consequence": "Missed opportunities to increase submission pressure, allowing the opponent multiple escape attempts from the same position without increasing difficulty",
+        "correction": "Whenever the opponent pauses or resets between escape phases, immediately begin transitioning to the next position in the system (Mission Control to New York to Invisible Collar) to increase the threat level"
+      },
+      {
+        "error": "Not maintaining closed guard lock as backup underneath the Rubber Guard configuration",
+        "consequence": "If Rubber Guard control is broken, you fall directly to open guard with no grips rather than retaining closed guard as a safety net",
+        "correction": "Keep your ankles crossed in closed guard configuration underneath the elevated Rubber Guard leg so that if control fails, you automatically retain closed guard position"
+      },
+      {
+        "error": "Chasing the escaping arm with your hands instead of using your legs to re-establish control",
+        "consequence": "Creates a hand-fighting scramble where the top player has leverage advantage, losing the fundamental leg-based control that defines Rubber Guard effectiveness",
+        "correction": "Use leg repositioning and hip adjustment to re-capture the escaping arm rather than reaching with hands. The legs provide superior leverage and control compared to hand fighting from bottom position"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal response when you feel the opponent's free hand framing on your controlling knee?",
+        "answer": "Immediately increase downward pressure with the controlling leg and pull the opponent's head down with your free hand to re-break posture before they can push your knee away. If the frame is already strong, adjust your hip angle to change the vector of their push, making their frame less effective. Consider advancing to New York position to add a secondary control point that makes the single-leg frame insufficient."
+      },
+      {
+        "question": "How do you convert a successful arm extraction by the opponent into a triangle entry?",
+        "answer": "As you feel the trapped arm beginning to free through circular extraction, release your foot grip and immediately swing the controlling leg across the opponent's neck while the freed arm is still crossing their centerline. The key timing is catching them during the extraction motion when the arm is in transition and they cannot yet tuck it safely. Lock the triangle by connecting your legs before they can posture up and pull the freed arm across."
+      },
+      {
+        "question": "When is the optimal moment to attempt a sweep against the escaping opponent?",
+        "answer": "The optimal sweep window is during the opponent's backward hip drive phase of posture recovery, when their weight shifts away from you and their base narrows. At this moment, a hip bump or bridge forward catches them during a weight transition where they cannot resist forward force effectively. Attempting the sweep too early while they still have forward pressure fails, and too late after posture is recovered means you have lost the leverage advantage."
+      },
+      {
+        "question": "What should you do if the opponent successfully recovers full posture and you lose Rubber Guard entirely?",
+        "answer": "If Rubber Guard is fully lost, immediately transition to your backup closed guard lock if ankles are still crossed. If not, recover to open guard by establishing foot-on-hip frames and sleeve or wrist control to prevent immediate guard passing. Do not attempt to re-establish Rubber Guard against a postured opponent as this requires broken posture as a prerequisite. Instead, work to break their posture again from closed or open guard before reattempting Rubber Guard entry."
+      },
+      {
+        "question": "Why is it important to maintain the closed guard lock underneath your Rubber Guard configuration?",
+        "answer": "The closed guard lock serves as a safety net that ensures you retain a viable guard position even if the Rubber Guard control fails. Without it, a successful posture escape drops you directly into open guard with no grips or control, giving the opponent immediate passing opportunities. With the backup lock in place, you transition smoothly to closed guard where you can re-break posture and reattempt Rubber Guard entry from a controlled position."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying escape attempt initiation cues",
+        "description": "Partner initiates different escape variations (frame escape, stacking, swim-and-circle) from your Rubber Guard. Practice identifying which escape method is being used within the first two seconds based on tactile and visual cues. Call out the escape type as you feel it. No countering yet, purely recognition drilling."
+      },
+      {
+        "phase": "Phase 2: Counter Selection",
+        "focus": "Matching appropriate counter to each escape type",
+        "description": "Partner performs each escape type at 50% speed while you practice applying the specific counter for that escape. Frame escape gets re-pull and leg pressure. Arm extraction gets triangle conversion. Backward posture recovery gets hip bump sweep. Build automatic counter-selection responses."
+      },
+      {
+        "phase": "Phase 3: Positional Advancement",
+        "focus": "Advancing through Rubber Guard hierarchy under pressure",
+        "description": "Partner attempts escapes while you work to advance from Mission Control through New York to Invisible Collar. Practice using the pause between the opponent's escape attempts to transition to more dominant positions. Focus on grip sequencing and timing of advancement."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance positional sparring maintaining Rubber Guard",
+        "description": "Positional sparring with full resistance starting in Rubber Guard. Bottom player works to maintain control and submit or sweep. Top player works to escape. Track retention rate, submission conversion rate, and how often the position advances through the hierarchy before resolution."
       }
     ]
   }

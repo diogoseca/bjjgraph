@@ -375,9 +375,9 @@ The Craig Jones Leg Lock System requires structured drilling progression startin
 - [[Saddle Entry from Top]] (Transition) - Entry sequence accessing saddle position from top game and passing positions
 - [[Inside Ashi Entry]] (Transition) - Direct entry pathway to saddle position from seated guard and k-guard configurations
 - [[Outside Ashi Entry]] (Transition) - Foundational entry technique establishing outside leg control before advancing to cross ashi
-- [[X-Guard to Ashi Transition]] (Transition) - Systematic conversion from sweeping position to submission attack when opponent defends elevation
+- [[Backstep from Single Leg X]] (Transition) - Systematic conversion from single leg x-guard sweeping position to ashi garami leg entanglement when opponent defends elevation
 - [[Ashi Garami Escape]] (Transition) - Essential defensive sequences for neutralizing opponent's leg attack attempts
-- [[Saddle Defense]] (Transition) - Critical defensive protocols for escaping opponent's saddle position control
+- [[Back Take from Ashi]] (Transition) - Critical transition converting leg entanglement control to back control when opponent successfully defends submissions
 - [[50-50 Entry from Standing]] (Transition) - Entry method for accessing 50-50 position from standing exchanges and guard pulls
 - [[Leg Entanglement]] (Principle) - Fundamental concept governing leg position control and submission mechanics throughout system
 - [[Dilemma Creation]] (Principle) - Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats

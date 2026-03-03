@@ -127,7 +127,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Transition to K-Guard]]** (5% of attempts)
+- **[[Berimbolo Entry]]** (5% of attempts)
 
 
 ### Common Mistakes

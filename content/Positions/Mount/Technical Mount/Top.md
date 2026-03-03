@@ -21,37 +21,37 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Control",
-      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,17 +211,23 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (30% of attempts)
+### [[Mount to Armbar]] (54% of attempts)
 
-### [[Back Take]] (25% of attempts)
+### [[Back Take]] (21% of attempts)
 
-### [[Consolidate Mount]] (15% of attempts)
+### [[Consolidate Mount]] (10% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Triangle Setup]] (6% of attempts)
 
-### [[Gift Wrap Control]] (10% of attempts)
+### [[Gift Wrap Control]] (4% of attempts)
 
-### [[High Mount Transition]] (8% of attempts)
+### [[High Mount Transition]] (3% of attempts)
+
+### [[Technical Mount to Back Control]] (1% of attempts)
+
+### [[Technical Mount to Mount]] (0% of attempts)
+
+### [[Technical Mount to S Mount]] (1% of attempts)
 
 
 
@@ -385,7 +391,7 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 - **[[Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
 - **[[Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
 - **[[Mount to Armbar]]** - Primary technique - main transition used from this position
-- **[[Armbar from Mount]]** - Primary submission - finish technique from this position
+- **[[Armbar from Technical Mount]]** - Primary submission - finish technique from this position
 
 
 </section>

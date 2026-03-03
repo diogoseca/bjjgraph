@@ -1,12 +1,15 @@
 {
   "name": "Body Triangle Escape to Side Control",
-  "description": "TODO: Write 150-160 character SEO description for Body Triangle Escape to Side Control.",
+  "description": "Master the body triangle escape to side control in BJJ. Complete guide to clearing the figure-four lock, protecting your neck, and recovering position.",
   "tags": [
     "bjj",
     "transition",
     "escape",
     "body-triangle",
-    "back-control"
+    "back-control",
+    "side-control",
+    "defense",
+    "positional-escape"
   ],
   "from_position": "Body Triangle/Bottom",
   "outcomes": [
@@ -27,114 +30,361 @@
     }
   ],
   "success_rate": 35,
-  "overview": "TODO: Write overview for Body Triangle Escape to Side Control.",
+  "overview": "The body triangle escape to side control is one of the most critical defensive techniques in Brazilian Jiu-Jitsu, addressing the challenge of escaping the most secure form of back control. Unlike standard hook-based back control where hip movement can systematically clear individual hooks, the body triangle's figure-four configuration creates a mechanical lock that demands a specific technical approach to dismantle. The escape targets the inherent weakness in the triangle structure: the foot tucked behind the opponent's own knee, which becomes vulnerable when proper angles and leverage are applied.\n\nThe technique begins from a deeply disadvantaged position where breathing is restricted, the neck is threatened, and hip mobility is severely limited. Success requires methodical execution under extreme physical and psychological pressure. The escaping practitioner must first secure neck defense, then systematically create space to attack the triangle lock, and finally use the opening to turn into side control. While arriving in side control bottom remains a defensive position, it represents a dramatic improvement from body triangle, removing the breathing restriction, the constant choking threat, and the severe positional disadvantage.\n\nThis escape is fundamental to any serious practitioner's defensive arsenal because the body triangle is increasingly common at all competitive levels. Without a reliable clearing method, practitioners who concede body triangle face an extremely high submission rate. The technique rewards patience, technical precision, and understanding of the lock's biomechanics over athletic scrambling or panicked explosive movement.",
   "conditions": [
-    "TODO"
+    "Opponent has body triangle locked around your torso with figure-four leg configuration",
+    "You are being controlled from behind with chest-to-back connection",
+    "Your breathing is restricted by the triangle squeeze on your ribcage and diaphragm",
+    "You have established initial neck defense and identified which side the triangle crosses"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Foot Push Clearing Method",
+      "description": "Direct attack on the locked ankle using hand pressure to push the foot out of the figure-four lock. Your near hand targets the opponent's ankle behind their knee and drives it downward while your hips create space. Most direct approach requiring precise hand placement and timing.",
+      "when_to_use": "When you can create sufficient space between your body and the opponent's legs to reach the locked foot, and the opponent's upper body attacks are momentarily paused"
+    },
+    {
+      "variant_name": "Hip Switch and Roll Escape",
+      "description": "Uses rapid hip switching toward the triangle leg combined with a controlled roll to break the lock's geometry. Rather than attacking the foot directly, this variant changes the angle of your body within the triangle to reduce its effectiveness and create an opening to slide out during the roll.",
+      "when_to_use": "When the opponent has very tight triangle making direct foot access difficult, or when your hands are occupied defending choke attempts and cannot reach the lock"
+    },
+    {
+      "variant_name": "Bridge and Clear Variation",
+      "description": "Utilizes a strong upward bridge to momentarily create space between your torso and the opponent's locked legs, then immediately attacks the lock during the brief opening. Requires explosive hip movement followed by precise hand placement on the ankle within a narrow timing window.",
+      "when_to_use": "When the opponent is relatively light or when you need a sudden burst to break a very tight triangle that resists gradual clearing methods"
     }
   ],
-  "position_integration": "TODO: Write position integration for Body Triangle Escape to Side Control.",
+  "position_integration": "The body triangle escape to side control occupies a critical position in the defensive hierarchy of Brazilian Jiu-Jitsu. It connects the back defense subsystem to the side control recovery game, providing a pathway from the most disadvantageous back control variation to a position where systematic guard recovery becomes possible. This escape integrates directly with the broader escape chain that includes turtle recovery, half guard insertion, and standing escape sequences from back control. Practitioners who develop this escape force opponents to reconsider the body triangle as their default back control configuration, which opens up escape opportunities against standard hooks as well.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Body Triangle",
+      "relationship": "Starting position - the back control variation being escaped"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position upon successful escape completion"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Parent position category that body triangle is a variation of"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Upper body control configuration commonly paired with body triangle"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape target through guard recovery sequences"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative intermediate escape position from back control"
+    },
+    {
+      "name": "Back Door Escape",
+      "relationship": "Complementary escape system addressing standard back control hooks"
+    },
+    {
+      "name": "Rear Triangle",
+      "relationship": "Alternative triangle configuration from back that uses similar escape principles"
     }
   ],
   "attacker": {
     "name": "Body Triangle Escape to Side Control Attacker",
-    "description": "TODO: Write attacker description for Body Triangle Escape to Side Control.",
-    "overview": "TODO: Write attacker overview for Body Triangle Escape to Side Control.",
+    "description": "Complete guide to executing the body triangle escape to side control. Learn the systematic approach to clearing the figure-four lock, managing breathing under pressure, and transitioning to side control.",
+    "overview": "As the attacker executing this escape, you are trapped in your opponent's body triangle with restricted breathing, limited mobility, and constant choking threats. Your task is to systematically dismantle the most secure form of back control in Brazilian Jiu-Jitsu. This requires exceptional composure under genuine physical duress, precise technical execution during moments of opportunity, and unwavering commitment to the escape sequence even when the position feels hopeless. The escape succeeds when you understand that the body triangle, despite its formidable control, has a specific mechanical vulnerability at the figure-four junction that can be exploited through proper positioning and leverage rather than raw strength.",
     "key_principles": [
-      "TODO"
+      "Protect your neck before attempting any clearing action. The escape sequence means nothing if you get choked during the attempt.",
+      "Turn toward the triangle leg side to reduce squeeze effectiveness and position yourself to attack the lock's structural weakness.",
+      "Attack the figure-four lock mechanically by targeting the foot behind the knee rather than trying to pry the legs apart with strength.",
+      "Create space through incremental hip adjustments rather than explosive bridging that triggers tighter squeeze responses from your opponent.",
+      "Time clearing attempts with opponent's grip transitions or submission setup adjustments when their attention is divided.",
+      "Maintain one hand on neck defense at all times during the clearing process to prevent opportunistic choke entries.",
+      "Complete the escape by immediately framing and turning once the lock breaks, preventing re-establishment of the triangle."
     ],
     "setup_requirements": [
-      "TODO"
+      "Neck defense established with chin tucked and hands controlling the opponent's choking arm through two-on-one grip fighting",
+      "Triangle side identified by feeling which leg crosses over your body to determine direction of escape movement",
+      "Breathing stabilized with controlled shallow chest breaths despite diaphragm restriction from the triangle squeeze",
+      "Mental composure maintained with acceptance that reduced oxygen is manageable and escape requires patience not panic",
+      "Opponent's immediate submission threat neutralized so one hand can be freed from neck defense to attack the lock"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Neck Defense",
+        "description": "Tuck your chin deep against your chest and establish two-on-one grip control on your opponent's choking arm. Both hands must secure the neck before any escape work begins. Control their wrist and forearm to prevent the rear naked choke from being locked in during subsequent steps."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify Triangle Side and Orient",
+        "description": "Feel which leg crosses over your body to identify the triangle side. Begin shifting your weight and attention toward the crossing leg side. This orientation is critical because turning toward the triangle leg reduces the squeeze angle and positions you to attack the figure-four lock directly."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Initial Hip Space",
+        "description": "Use controlled hip movement to shift your hips slightly toward the triangle leg side. This reduces the squeezing surface area and creates the first gap between your torso and the opponent's locked legs. Avoid large explosive movements that telegraph your intention and trigger tighter squeeze responses."
+      },
+      {
+        "step_number": 4,
+        "action": "Attack the Figure-Four Lock",
+        "description": "Transfer one hand from neck defense to target the foot tucked behind your opponent's knee. Push or pry the ankle out of the figure-four configuration while maintaining neck protection with your remaining hand. Apply steady pressure on the ankle rather than jerking movements for better mechanical advantage against the lock."
+      },
+      {
+        "step_number": 5,
+        "action": "Break the Triangle Lock",
+        "description": "As the foot begins to slide from behind the knee, increase your hip movement to widen the gap. The moment the figure-four breaks, immediately insert your elbow and forearm between your body and the opponent's legs to create a physical barrier that prevents re-locking. This must happen without any pause or hesitation."
+      },
+      {
+        "step_number": 6,
+        "action": "Frame and Begin Turning",
+        "description": "With the triangle cleared and your forearm creating a barrier, begin turning your body toward your opponent using hip escape mechanics. Frame against their body with both arms while rotating your hips and shoulders to transition from back exposure to a side-facing position. Maintain strong frames throughout the rotation."
+      },
+      {
+        "step_number": 7,
+        "action": "Complete Turn to Side Control",
+        "description": "Finish the rotation and establish defensive side control frames with your forearms positioned against the opponent's shoulder and hip. Keep your elbows tight to your body to prevent them from advancing to mount. Immediately begin working standard side control escape sequences from this dramatically improved position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent tightens squeeze when they feel you attacking the lock",
+        "effectiveness": "High",
+        "your_response": "Pause the direct clearing attempt and refocus on hip positioning to reduce squeeze angle. A tighter squeeze actually commits their legs more to the lock, making the foot position more predictable. Wait for them to relax slightly or redirect attention to neck attacks before resuming.",
+        "targets_outcome": "Body Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent attacks neck aggressively when your hand leaves defense to clear triangle",
+        "effectiveness": "High",
+        "your_response": "Immediately return to two-on-one neck defense and re-secure before reattempting. Use the opponent's attack commitment as a timing window for your next clearing attempt when they reset their grip. Never sacrifice neck safety for triangle clearing progress.",
+        "targets_outcome": "Body Triangle/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to standard hooks when triangle is loosening",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Recognize this as a significant victory since hooks are much easier to clear than body triangle. Immediately begin standard back escape sequences targeting hook removal through hip escapes. The transition period between triangle and hooks offers the best escape window.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent follows your hip movement to maintain alignment behind you",
+        "effectiveness": "Medium",
+        "your_response": "Use misdirection by shifting hips one direction to draw the opponent's adjustment, then quickly reverse direction to create the actual clearing angle. The opponent's adjustment creates momentum you can exploit to generate space on the opposite side.",
         "targets_outcome": "Body Triangle/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Panicking from breathing restriction and attempting explosive scrambling without technical approach",
+        "consequence": "Wastes critical energy reserves under already restricted breathing, creates submission openings as arms flail, and fails to address the structural problem of the figure-four lock",
+        "correction": "Accept the breathing restriction as manageable, take controlled shallow chest breaths, and commit to the systematic clearing sequence that targets the lock's specific mechanical weakness"
+      },
+      {
+        "error": "Removing both hands from neck defense simultaneously to attack the triangle lock",
+        "consequence": "Creates an immediate window for the opponent to sink a rear naked choke that cannot be defended once locked in, ending the match before the escape can succeed",
+        "correction": "Always maintain one hand on neck defense while the other attacks the triangle. Only free the second hand once the immediate choking threat is neutralized and the lock is substantially loosened"
+      },
+      {
+        "error": "Trying to pry the legs apart with strength rather than attacking the figure-four junction",
+        "consequence": "The locked figure-four structure is mechanically stronger than arm strength can overcome, resulting in exhaustion without progress while the opponent maintains comfortable control",
+        "correction": "Target the foot behind the knee specifically, using leverage and precise hand placement to dislodge the ankle from the figure-four configuration rather than fighting the entire leg structure"
+      },
+      {
+        "error": "Turning away from the triangle leg side during escape attempt",
+        "consequence": "Increases the triangle's squeezing effectiveness against your ribcage and moves you further from the lock's structural weakness, making clearing progressively harder",
+        "correction": "Always turn toward the triangle leg side where the crossing leg creates the lock. This reduces squeeze angle and positions your hand closest to the figure-four junction for clearing"
+      },
+      {
+        "error": "Pausing to rest after breaking the triangle lock before completing the turn",
+        "consequence": "Gives the opponent time to re-establish the figure-four lock or insert standard hooks, losing all escape progress and returning to the starting position",
+        "correction": "Treat the lock break as the beginning of the escape, not the end. Immediately insert your elbow as a barrier and begin turning without any pause. The opponent will re-lock within seconds if given the opportunity"
+      },
+      {
+        "error": "Reaching back blindly with both arms to grab at opponent's legs",
+        "consequence": "Exposes both arms to armbar and crucifix transitions while removing all neck defense, creating multiple simultaneous submission dangers",
+        "correction": "Only reach for the lock with one arm using deliberate, targeted movement while maintaining neck defense with the other. Feel for the foot position before committing your hand rather than grabbing randomly"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Lock Mechanics Understanding",
+        "focus": "Understanding the figure-four structure and its weakness",
+        "description": "Partner locks body triangle with no upper body attacks. Practice identifying the lock side, finding the foot behind the knee, and feeling how hip angle changes affect squeeze pressure. Work with zero resistance to develop technical understanding of the lock mechanics."
+      },
+      {
+        "phase": "Phase 2: Clearing Technique Development",
+        "focus": "Executing the clearing sequence with light resistance",
+        "description": "Partner maintains body triangle with moderate squeeze but allows clearing when proper technique is applied. Practice the full sequence from hip adjustment through foot clearing to turning. Add light upper body control but no aggressive submission attempts."
+      },
+      {
+        "phase": "Phase 3: Integration Under Pressure",
+        "focus": "Combining neck defense with clearing under realistic conditions",
+        "description": "Partner applies body triangle with upper body attacks at 60-70% intensity. Practice maintaining neck defense while finding clearing opportunities. Develop timing for when to shift from defense to escape. Build comfort with breathing restriction during technical work."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance escape attempts in sparring conditions",
+        "description": "Partner applies body triangle with full resistance and active submission hunting. Execute complete escape sequences under realistic pressure. Develop ability to chain escape attempts and recover from failed clearing attempts. Test timing and technique against various body types."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary mechanical weakness in the body triangle that you target during the escape?",
+        "answer": "The foot tucked behind the opponent's own knee is the structural vulnerability of the figure-four lock. The entire lock depends on this anchor point remaining secure. By creating space through hip adjustment and attacking the ankle position with your hand, you can break the lock without significant strength because the mechanical advantage shifts once the foot begins to slide out of position."
+      },
+      {
+        "question": "Why must you turn toward the triangle leg side rather than away from it during the escape?",
+        "answer": "Turning toward the triangle leg reduces the effective squeezing angle and surface area of the lock against your ribcage, immediately reducing pressure. It also positions your near hand to attack the figure-four junction directly while maintaining neck defense with the far hand. Turning away increases squeeze effectiveness, exposes your neck, and moves you further from the lock's weak point."
+      },
+      {
+        "question": "Your opponent squeezes the body triangle tighter when you begin attacking the lock - how do you adjust?",
+        "answer": "Stop the direct clearing attempt and refocus on incremental hip positioning to reduce the squeeze angle. A tighter squeeze actually commits the opponent's legs more firmly to the lock position, making the foot behind the knee more predictable and accessible. Wait for them to relax slightly or redirect attention to neck attacks before resuming the clearing attempt with precise targeting."
+      },
+      {
+        "question": "What grip configuration must you maintain during the escape and why is it critical?",
+        "answer": "One hand must remain defending your neck at all times through chin tuck reinforcement and grip fighting on the opponent's choking arm. The second hand transitions from neck defense to attacking the triangle lock only when the immediate choking threat is neutralized. Removing both hands simultaneously creates a window for rear naked choke entry that ends the match before the escape succeeds."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the body triangle clearing attempt?",
+        "answer": "The best window opens when the opponent transitions between upper body attack configurations, such as switching from seatbelt to collar grip or adjusting arm position for a different choke angle. During these grip transitions, their attention divides between maintaining upper body control and triangle positioning, and the momentary loosening of their overall system creates the space needed to attack the figure-four lock."
+      },
+      {
+        "question": "After clearing the triangle lock, what is the most critical immediate action?",
+        "answer": "Insert your elbow or forearm into the space between your body and the opponent's legs to create a physical barrier preventing re-locking. Do not pause to rest after breaking the lock. Continue turning into your opponent while maintaining this frame, because any hesitation of even two or three seconds allows the opponent to re-thread their foot and re-establish the figure-four configuration."
+      },
+      {
+        "question": "How should you manage breathing during the escape to maintain effectiveness under restriction?",
+        "answer": "Take controlled shallow chest breaths rather than attempting deep diaphragmatic breathing which the triangle restricts. Accept reduced oxygen availability and work in short, precise technical bursts rather than sustained maximum effort. Save explosive movement for the critical moment of clearing the lock, using calm measured technique for positioning phases to prevent accelerated oxygen depletion."
+      },
+      {
+        "question": "Your opponent transitions from body triangle to standard hooks as you begin clearing - what do you do?",
+        "answer": "Recognize this as a significant victory and immediately shift to standard back escape sequences. Hooks are dramatically easier to clear than the body triangle lock. Target the bottom hook first with hip escape mechanics, then address the top hook. The transition period between triangle and hooks offers the best escape window since the opponent's leg control is momentarily disrupted during the configuration change."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Body Triangle Escape to Side Control."
+    "safety_considerations": "Practice escape techniques under controlled conditions with progressive resistance before applying in live sparring. The breathing restriction from body triangle creates genuine physiological stress that can impair judgment and trigger panic responses. Always tap immediately if a choke is locked in during escape attempts rather than continuing to fight the triangle position. Neck strain can occur during aggressive turning movements, so develop the rotation gradually. Communicate with training partners about squeeze pressure intensity during drilling phases."
   },
   "defender": {
     "name": "Body Triangle Escape to Side Control Defender",
-    "description": "TODO: Write defender description for Body Triangle Escape to Side Control.",
-    "overview": "TODO: Write defender overview for Body Triangle Escape to Side Control.",
+    "description": "Guide to maintaining body triangle control when opponent attempts escape to side control. Covers recognition, counter-techniques, and strategies for capitalizing on escape attempts.",
+    "overview": "As the defender against this escape, you are the back controller with body triangle locked and must prevent your opponent from clearing the figure-four lock and turning to side control. Your position is one of the strongest in Brazilian Jiu-Jitsu, but it requires active maintenance and tactical awareness to prevent systematic clearing attempts. The key defensive principle is creating dilemmas where the opponent must choose between defending their neck and clearing the triangle, ensuring that any attention directed at the lock creates submission opportunities that force them back to defensive priorities. Skilled defenders treat escape attempts as offensive opportunities rather than positional threats.",
     "key_principles": [
-      "TODO"
+      "Maintain tight figure-four lock with foot positioned deep behind your knee to resist clearing attempts and preserve the mechanical advantage of the triangle.",
+      "Attack the neck aggressively whenever the opponent diverts a hand from neck defense to the triangle, creating a defensive dilemma that punishes escape attempts.",
+      "Follow opponent's hip movement with your own hip adjustments to maintain chest-to-back alignment and prevent them from creating the angle needed to attack the lock.",
+      "Use periodic squeeze pulses to prevent the opponent from settling into a comfortable position for systematic clearing work.",
+      "Coordinate upper body control with triangle squeeze to create multi-layered control that cannot be addressed simultaneously.",
+      "Recognize when the triangle is compromised and transition smoothly to standard hooks rather than losing back control entirely."
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins shifting hips toward the triangle leg side, reducing the squeeze angle and positioning to attack the lock",
+      "One hand moves from neck defense toward your legs or the figure-four junction, indicating clearing attempt initiation",
+      "Controlled deliberate breathing pattern replacing panicked breathing suggests mental preparation for systematic escape work",
+      "Opponent's torso begins angling toward the crossing leg side rather than remaining flat or turning away",
+      "Weight shifting in the opponent's body as they create incremental space between their torso and your legs"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Tighten squeeze and increase pressure when opponent begins hip shifting",
+        "when_to_use": "Immediately upon feeling opponent's hips begin to move toward the triangle side",
         "targets_outcome": "Body Triangle/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent is forced to stop hip movement and return to survival mode, resetting their escape progress",
+        "risk": "Sustained maximum squeeze drains your own leg energy, potentially loosening the lock over time"
+      },
+      {
+        "action": "Attack neck aggressively when opponent's hand leaves defense for clearing attempt",
+        "when_to_use": "The moment you feel one of the opponent's hands release from your choking arm to reach toward your legs",
+        "targets_outcome": "Body Triangle/Bottom",
+        "if_successful": "Opponent must abandon clearing attempt and return both hands to neck defense, or submit to the choke",
+        "risk": "Aggressive neck attack may momentarily loosen your own upper body control if not coordinated properly"
+      },
+      {
+        "action": "Transition to standard back control hooks if triangle lock is compromised",
+        "when_to_use": "When you feel the figure-four beginning to loosen and re-establishment is not immediately possible",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Maintain back control with hooks while working to re-establish body triangle from the hooks position",
+        "risk": "Standard hooks are easier for opponent to clear, so you must quickly work to re-lock triangle or advance attacks"
+      },
+      {
+        "action": "Follow hip movement and adjust angle to maintain alignment behind opponent",
+        "when_to_use": "When opponent uses incremental hip shifts to create angle for escape without immediately attacking the lock",
+        "targets_outcome": "Body Triangle/Bottom",
+        "if_successful": "Opponent's positioning work is negated, forcing them to restart their escape sequence from the beginning",
+        "risk": "Constant adjustment may create momentary looseness in the triangle that a quick opponent can exploit"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Bottom",
-        "how": "TODO"
+        "outcome": "Body Triangle/Bottom",
+        "how": "Maintain tight figure-four lock and punish every clearing attempt with aggressive neck attacks that force the opponent to prioritize survival over escape. Follow their hip movement to maintain alignment and use squeeze pulses to prevent settling."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "If the triangle begins to loosen, immediately transition to standard hooks before losing back control entirely. Insert hooks deep inside the opponent's thighs and re-establish seatbelt control. Work to re-lock the body triangle once hooks are secured and the escape attempt has been disrupted."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Ignoring opponent's hip movement and not adjusting position to maintain alignment",
+        "consequence": "Opponent successfully creates the angle needed to attack the figure-four lock, making the clearing attempt much easier and reducing the effectiveness of the squeeze",
+        "correction": "Follow any hip movement immediately by adjusting your own hip position to stay directly behind them. Increase squeeze momentarily during their movement to discourage further shifting."
+      },
+      {
+        "error": "Overcommitting to submission and loosening triangle squeeze during neck attacks",
+        "consequence": "Creates exactly the space the opponent needs to begin clearing the triangle, potentially losing the body triangle entirely during what should be an offensive moment",
+        "correction": "Maintain triangle squeeze pressure throughout submission attempts. Use upper body attacks that complement rather than compromise your leg control. Pulse squeeze during choke attempts for added pressure."
+      },
+      {
+        "error": "Failing to capitalize on exposed arms when opponent reaches back to clear triangle",
+        "consequence": "Misses high-percentage armbar and crucifix transition opportunities that the opponent's clearing attempt creates, allowing them to work on the escape without consequence",
+        "correction": "Immediately attack the reaching arm with armbar transitions or trap it for crucifix when the opponent diverts a hand from neck defense. Make every clearing attempt carry submission risk."
+      },
+      {
+        "error": "Maintaining body triangle at all costs when the lock is clearly compromised",
+        "consequence": "Loses back control entirely as the opponent completes the escape while you fight to maintain a triangle that has already been broken",
+        "correction": "Recognize when the triangle is beyond recovery and immediately transition to standard hooks. Back control with hooks is far better than losing the position entirely by clinging to a broken triangle."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What visual and tactile cues indicate your opponent is about to attempt a body triangle escape?",
+        "answer": "Watch for hip shifting toward your triangle leg side, hands moving from neck defense toward your legs, and a transition from panicked to controlled breathing indicating mental preparation. Tactile cues include reduced tension on your choking arm, weight shifting in their hips, and their torso beginning to angle toward your crossing leg rather than remaining flat against you."
+      },
+      {
+        "question": "Your opponent begins attacking the foot behind your knee - what is your immediate response?",
+        "answer": "Tighten the squeeze to recommit the lock while simultaneously attacking their now-exposed neck with aggressive choking arm insertion. When their hand leaves neck defense to attack your foot, exploit that opening immediately. This creates a defensive dilemma where they must choose between continuing the clearing attempt with an unprotected neck or abandoning the escape to re-establish defense."
+      },
+      {
+        "question": "When should you transition from body triangle to standard hooks during an opponent's escape attempt?",
+        "answer": "Transition when the figure-four lock begins to loosen and you cannot immediately re-establish the foot behind your knee. This is preferable to losing back control entirely while fighting for a compromised triangle. Insert hooks quickly before the opponent completes their turn, then work to re-establish the body triangle once stabilized with standard hook control."
+      },
+      {
+        "question": "How do you maintain body triangle control when your opponent turns toward the triangle side?",
+        "answer": "Follow their turning motion by adjusting your hip angle to stay directly behind them and increase momentary squeeze pressure to discourage further turning. Use your seatbelt or upper body control to pull them back toward a flatter position. If they persist in turning despite your resistance, prepare to transition to crucifix or armbar as their arm exposure increases during the turn."
+      },
+      {
+        "question": "What adjustment prevents your opponent from creating the initial hip space needed for the escape?",
+        "answer": "Maintain constant chest-to-back connection and follow any hip movement immediately by mirroring it with your own hip adjustment. Keep your hips positioned close to theirs rather than elevated or distant. Apply periodic squeeze pulses to prevent them from settling into a stable position for systematic clearing work, and attack the neck aggressively whenever you feel them shift focus from defense to escape."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Awareness",
+        "focus": "Identifying escape attempt initiation cues",
+        "description": "Partner attempts slow, telegraphed escapes while you practice recognizing the cues that indicate clearing attempts. Focus on feeling hip shifts, hand movement changes, and breathing patterns that signal escape initiation. No counterattacks yet, pure awareness development."
+      },
+      {
+        "phase": "Phase 2: Counter-Technique Development",
+        "focus": "Executing specific responses to escape attempts",
+        "description": "Partner attempts body triangle escapes with moderate effort while you practice specific counters including squeeze tightening, neck attacks during clearing attempts, and position following. Develop automatic responses to each stage of the escape sequence."
+      },
+      {
+        "phase": "Phase 3: Dilemma Creation",
+        "focus": "Combining submission threats with triangle retention",
+        "description": "Partner attempts escapes with increasing intensity while you practice creating dilemmas that force them to choose between neck defense and triangle clearing. Coordinate upper body attacks with triangle adjustments to maintain multi-layered control throughout their escape attempts."
+      },
+      {
+        "phase": "Phase 4: Transition Management",
+        "focus": "Smooth transitions when triangle is compromised",
+        "description": "Partner works full-effort escapes that succeed in loosening the triangle. Practice recognizing when to transition to hooks rather than fighting a compromised lock. Develop rapid hook insertion and re-establishment of back control to maintain position even when the triangle is cleared."
       }
     ]
   }

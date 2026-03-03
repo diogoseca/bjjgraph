@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Knot Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes and counter-attack options. Features 60% retention rate and reversal pathways."
+description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes, counter-attack options, and reversal pathways for advanced practitioners."
 ---
 
 
@@ -20,33 +20,39 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Clear leg and transition to X-Guard",
-      "text": "From this position, attempt Clear leg and transition to X-Guard. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Reverse the entanglement to Outside Ashi",
+      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Extract leg and establish Single Leg X",
-      "text": "From this position, attempt Extract leg and establish Single Leg X. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Extract leg and establish Single Leg X. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Limp leg extraction to Half Guard",
-      "text": "From this position, attempt Limp leg extraction to Half Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Limp leg extraction to Half Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse the entanglement to Outside Ashi",
-      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Clear leg and transition to X-Guard",
+      "text": "From this position, attempt Clear leg and transition to X-Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reversal from Leg Knot",
+      "text": "From this position, attempt Reversal from Leg Knot. This technique is attempted in 7% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -109,7 +115,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Knot Bottom",
-  "description": "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes and counter-attack options. Features 60% retention rate and reversal pathways.",
+  "description": "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes, counter-attack options, and reversal pathways for advanced practitioners.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -204,15 +210,17 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Available Escapes
 
-### [[Clear leg and transition to X-Guard]] (15% of attempts)
+### [[Reverse the entanglement to Outside Ashi]] (26% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (20% of attempts)
+### [[Counter-entangle to 50-50 Guard]] (18% of attempts)
 
-### [[Extract leg and establish Single Leg X]] (20% of attempts)
+### [[Extract leg and establish Single Leg X]] (18% of attempts)
 
-### [[Limp leg extraction to Half Guard]] (20% of attempts)
+### [[Limp leg extraction to Half Guard]] (18% of attempts)
 
-### [[Reverse the entanglement to Outside Ashi]] (25% of attempts)
+### [[Clear leg and transition to X-Guard]] (13% of attempts)
+
+### [[Reversal from Leg Knot]] (7% of attempts)
 
 
 
@@ -234,11 +242,11 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 **If opponent's grip loosens during transition:**
 - Execute **[[Extract leg immediately to Half Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Sit up and establish seated guard]]** → [[Seated Guard]] (Probability: 35%)
+- Execute **[[Sit up and establish open guard]]** → [[Open Guard]] (Probability: 35%)
 
 
 **If opponent establishes strong cross-body control:**
-- Execute **[[Granby roll to reverse position]]** → [[Ashi Garami]] (Probability: 40%)
+- Execute **[[Granby roll to reverse position]]** → [[Outside Ashi-Garami]] (Probability: 40%)
 - Execute **[[Counter-entangle to 50-50]]** → [[50-50 Guard]] (Probability: 45%)
 
 
@@ -398,7 +406,7 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 - **[[Single Leg X-Guard]]** - Offensive counter-position
 - **[[50-50 Guard]]** - Counter-entanglement option
 - **[[Inside Ashi-Garami]]** - Related leg entanglement threat
-- **[[Heel Hook]]** - Primary submission threat to defend
+- **[[Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
 - **[[Leg Entanglement]]** - Core conceptual framework
 
 

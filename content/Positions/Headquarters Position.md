@@ -20,26 +20,26 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Knee Cut from Headquarters",
+      "text": "From this position, attempt Knee Cut from Headquarters. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Toreando from Headquarters",
+      "text": "From this position, attempt Toreando from Headquarters. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Leg Drag from Headquarters",
+      "text": "From this position, attempt Leg Drag from Headquarters. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,14 +50,14 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Inversion from Headquarters",
+      "text": "From this position, attempt Inversion from Headquarters. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Shin-to-Shin from Headquarters",
+      "text": "From this position, attempt Shin-to-Shin from Headquarters. This technique is attempted in 6% of exchanges from this position.",
       "position": 7
     }
   ],
@@ -224,19 +224,19 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Available Techniques and Transitions
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Knee Cut from Headquarters]] (30% of attempts)
 
-### [[Long Step Pass]] (15% of attempts)
+### [[Toreando from Headquarters]] (18% of attempts)
 
-### [[Smash Pass]] (20% of attempts)
+### [[Leg Drag from Headquarters]] (17% of attempts)
 
-### [[Leg Weave Pass]] (10% of attempts)
+### [[Back Step Pass]] (12% of attempts)
 
 ### [[Body Lock Pass]] (10% of attempts)
 
-### [[Back Step Pass]] (10% of attempts)
+### [[Inversion from Headquarters]] (7% of attempts)
 
-### [[Crossface Pass]] (10% of attempts)
+### [[Shin-to-Shin from Headquarters]] (6% of attempts)
 
 
 
@@ -247,23 +247,23 @@ This position represents a fundamental evolution in guard passing theory, moving
 ## Decision Making from This Position
 
 **If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Leg Weave Pass]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Toreando from Headquarters]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Leg Drag from Headquarters]]** → [[Leg Drag Control]] (Probability: 60%)
 
 
 **If opponent turns toward trapped leg attempting to recover half guard or full guard structures:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Knee Cut from Headquarters]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 65%)
 
 
 **If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 80%)
+- Execute **[[Leg Drag from Headquarters]]** → [[Leg Drag Control]] (Probability: 80%)
 - Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 70%)
 
 
 **If opponent attempts deep half guard entry or commits to underhook sweep mechanics:**
 - Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Knee Cut from Headquarters]]** → [[Side Control]] (Probability: 60%)
 
 
 
@@ -321,7 +321,7 @@ Partner starts in headquarters with one leg trapped. Bottom player uses various 
 
 ### Headquarters Passing Cycle
 
-From established headquarters position, cycle through all primary passing options including knee slice, long step, smash pass, and leg weave based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.
+From established headquarters position, cycle through all primary passing options including knee cut, toreando, leg drag, and backstep based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.
 
 **Duration**: 5 minutes continuous flow, 2-3 rounds per partner
 
@@ -361,11 +361,11 @@ Start from compromised positions where opponent has frames, partial guard recove
 - **[[Side Control]]** - Primary target position for most passing sequences initiated from headquarters
 - **[[Deep Half Guard]]** - Common defensive entry opponent attempts from headquarters pressure
 - **[[Knee Shield Half Guard]]** - Defensive guard structure opponent may attempt to establish against headquarters
-- **[[Knee Slice Pass]]** - Primary offensive transition when opponent turns toward trapped leg
-- **[[Long Step Pass]]** - Primary offensive transition when opponent extends leg to create distance
-- **[[Smash Pass]]** - Primary offensive transition when opponent creates strong frames
+- **[[Knee Cut from Headquarters]]** - Primary offensive transition when opponent turns toward trapped leg
+- **[[Toreando from Headquarters]]** - Primary offensive transition when opponent extends leg to create distance
+- **[[Leg Drag from Headquarters]]** - Offensive transition when opponent creates strong frames or straightens leg
 - **[[Back Step Pass]]** - Counter transition when opponent attempts deep half or underhook attacks
-- **[[Mount]]** - Advanced target position achievable through leg weave or progressive passing
+- **[[Mount]]** - Advanced target position achievable through progressive passing sequences
 
 
 </section>

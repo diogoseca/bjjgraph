@@ -93,15 +93,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (28% of attempts)
+- **[[Elbow Escape to Guard]]** (45% of attempts)
 
-- **[[Upa Escape]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Hip Escape to Guard]]** (22% of attempts)
+- **[[Upa Escape]]** (15% of attempts)
 
-- **[[Shrimp Escape]]** (20% of attempts)
+- **[[Shrimp Escape]]** (15% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Bridge and Roll]]** (6% of attempts)
+
+- **[[Back Turn from Technical Mount]]** (1% of attempts)
+
+- **[[Bridge from Technical Mount]]** (0% of attempts)
+
+- **[[Escape Technical Mount to Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -158,17 +164,23 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (30% of attempts)
+- **[[Mount to Armbar]]** (54% of attempts)
 
-- **[[Back Take]]** (25% of attempts)
+- **[[Back Take]]** (21% of attempts)
 
-- **[[Consolidate Mount]]** (15% of attempts)
+- **[[Consolidate Mount]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (6% of attempts)
 
-- **[[Gift Wrap Control]]** (10% of attempts)
+- **[[Gift Wrap Control]]** (4% of attempts)
 
-- **[[High Mount Transition]]** (8% of attempts)
+- **[[High Mount Transition]]** (3% of attempts)
+
+- **[[Technical Mount to Back Control]]** (1% of attempts)
+
+- **[[Technical Mount to Mount]]** (0% of attempts)
+
+- **[[Technical Mount to S Mount]]** (1% of attempts)
 
 
 ### Common Mistakes

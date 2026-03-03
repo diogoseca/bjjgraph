@@ -1,13 +1,404 @@
 {
   "name": "Pressure Through Squid Guard",
-  "description": "",
-  "tags": [],
+  "description": "Master pressure passing through Squid Guard in BJJ. Systematic approach to neutralizing lapel control and advancing to half guard using weight and posture.",
+  "tags": [
+    "pressure-pass",
+    "squid-guard",
+    "guard-passing",
+    "lapel-guard",
+    "top-position",
+    "advanced"
+  ],
   "from_position": "Squid Guard/Top",
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "Pressure Through Squid Guard is a systematic pressure-based passing approach designed to neutralize the bottom player's lapel entanglement and asymmetric hook structure. Rather than attempting to quickly strip grips and race past the guard, this technique employs methodical weight distribution and forward drive to gradually compress the bottom player's guard structure, forcing them into increasingly compromised positions until the guard collapses into half guard or beyond.\n\nThe technique addresses the unique challenge posed by Squid Guard's lapel control system. While many passes against lapel guards focus on grip stripping, pressure passing works by making the bottom player's guard structure unsustainable under continuous load. The top player drives shoulder pressure through the bottom player's frames while maintaining a wide, heavy base that resists sweep attempts. This approach is particularly effective when the bottom player relies on maintaining distance and tension through the lapel, as sustained pressure eliminates the space their guard system requires.\n\nStrategic timing is essential for this pass. The optimal window opens when the bottom player's lapel tension creates a directional pull that the top player can redirect into forward pressure. By aligning their weight behind the line of the lapel pull rather than fighting against it, the passer converts the guard player's own control mechanism into a compression vector that collapses the guard from inside out.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Crossface Shoulder Drive",
+      "description": "Emphasizes establishing a deep crossface before applying forward pressure. The shoulder drives into the bottom player's jaw or neck while the hips stay low and heavy. This variant is most effective when the bottom player is already partially flat and their lapel tension has weakened.",
+      "when_to_use": "When the bottom player's head is accessible and they have not established a strong knee shield or frame preventing shoulder contact."
+    },
+    {
+      "variant_name": "Hip Switch Pressure",
+      "description": "Uses a hip switch mid-pass to change the angle of pressure application. The top player shifts from driving pressure on one side to switching hips and driving from the opposite angle, creating a windshield-wiper effect that destabilizes the bottom player's frame structure and lapel tension simultaneously.",
+      "when_to_use": "When the bottom player has strong frames on one side and the initial pressure direction is blocked, requiring an angle change to find the path of least resistance."
+    },
+    {
+      "variant_name": "Stacking Pressure Variant",
+      "description": "Drives the bottom player's hips over their shoulders by lifting their legs and walking forward while maintaining heavy chest-to-chest pressure. This compresses the guard player's spine and eliminates their hip mobility, making lapel retention and hook maintenance extremely difficult under the stacking load.",
+      "when_to_use": "When the bottom player's hooks are shallow and their lapel grip is compromised, allowing the top player to stack without significant sweep risk."
+    }
+  ],
+  "position_integration": "Pressure Through Squid Guard occupies a critical role in the guard passing hierarchy against modern lapel-based guards. It serves as the high-pressure complement to technical grip-stripping approaches like Pass Squid Guard, giving the top player a secondary strategy when the bottom player's grip retention is too strong for clean stripping. This technique chains naturally into half guard passing sequences once the initial guard structure is broken, connecting the open guard passing phase to the half guard passing game. Understanding this pressure approach is essential for any practitioner facing modern lapel guards, as it provides a reliable fallback when speed and grip fighting alone cannot overcome the bottom player's entanglement system.",
+  "conditions": [
+    "Top player has established base and posture against Squid Guard configuration",
+    "Bottom player's lapel is wrapped around top player's leg creating the characteristic Squid Guard tension",
+    "Top player has at least one free hand available for framing or grip fighting while the other manages the entanglement",
+    "Sufficient mat space exists for forward pressure application without risk of going out of bounds"
+  ],
+  "related_content": [
+    {
+      "name": "Squid Guard",
+      "relationship": "Starting position where this technique is applied from top"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary success outcome after pressure breaks through guard structure"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Failure outcome when bottom player retains guard and resets distance"
+    },
+    {
+      "name": "Pass Squid Guard",
+      "relationship": "Complementary passing technique using grip stripping rather than pressure"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Related guard system sharing hook mechanics with Squid Guard"
+    },
+    {
+      "name": "Lapel Guard",
+      "relationship": "Related lapel-based guard requiring similar pressure passing approaches"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Alternative lapel entanglement guard where pressure passing principles transfer"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Similar advanced lapel guard system requiring analogous pressure responses"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate passing position often reached during pressure application"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Risk position if pressure application exposes back during failed attempt"
+    }
+  ],
+  "attacker": {
+    "name": "Pressure Through Squid Guard Attacker",
+    "description": "Learn systematic pressure passing through Squid Guard. Step-by-step guide to neutralizing lapel entanglements, applying shoulder pressure, and advancing to half guard with methodical technique.",
+    "overview": "The attacker in Pressure Through Squid Guard is the top player who employs sustained, directional pressure to collapse the bottom player's Squid Guard structure. This approach prioritizes weight distribution and postural control over speed or grip fighting, creating an inexorable compression that gradually overwhelms the guard player's ability to maintain hooks, lapel tension, and framing simultaneously. The attacker must balance aggressive forward pressure with base maintenance to avoid being swept during the compression sequence, reading the bottom player's reactions to time the final breakthrough into half guard.",
+    "key_principles": [
+      "Drive weight through your chest and shoulder into the bottom player's frames rather than supporting yourself on your hands",
+      "Maintain a wide base with your free leg posted far enough to resist sweep attempts generated by lapel tension",
+      "Work the lapel entanglement progressively rather than trying to clear it in one motion, combining pressure with incremental grip loosening",
+      "Align your pressure vector with the direction of the lapel pull to convert their control into your passing momentum",
+      "Keep your hips low and heavy throughout the pass, never rising to create space the bottom player can exploit",
+      "Control the bottom player's free hand to prevent re-gripping or reinforcing their lapel configuration"
+    ],
+    "setup_requirements": [
+      "Established base in Squid Guard Top with weight centered over your hips and at least one foot posted wide for stability",
+      "Identification of the bottom player's lapel configuration including which leg is entangled and the direction of lapel tension",
+      "At least one controlling grip on the bottom player's upper body, sleeve, or collar to steer pressure application",
+      "Assessment of the bottom player's frame structure to identify the weakest point for initial pressure application",
+      "Mental commitment to sustained pressure rather than explosive movement, recognizing this is a methodical pass"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish heavy base and posture assessment",
+        "description": "Lower your center of gravity by widening your stance and dropping your hips. Post your free leg wide for base. Assess the bottom player's lapel configuration to identify which direction their tension pulls and where their frames are weakest. Establish at least one controlling grip on their collar or sleeve before initiating pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Control the free hand and prevent reinforcement",
+        "description": "Secure control of the bottom player's non-lapel hand through wrist control, sleeve grip, or pinning it to the mat. This prevents them from deepening their lapel wrap, establishing additional grips, or creating secondary frames that would increase the difficulty of the pressure pass. Prioritize this control before advancing."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate forward shoulder pressure",
+        "description": "Drive your shoulder into the bottom player's chest or jaw line while keeping your hips low and heavy. Direct your weight through your shoulder rather than supporting yourself on your hands. The pressure should compress their frames and reduce the space available for their guard mechanics. Maintain constant forward drive without pausing."
+      },
+      {
+        "step_number": 4,
+        "action": "Address the lapel entanglement under pressure",
+        "description": "While maintaining shoulder pressure, use your free hand to begin loosening the lapel wrap around your leg. Do not try to strip it completely in one motion. Instead, work it incrementally, sliding it down from knee toward ankle or unwinding one wrap at a time. The sustained pressure limits the bottom player's ability to re-tighten the lapel as you loosen it."
+      },
+      {
+        "step_number": 5,
+        "action": "Collapse the guard structure through compression",
+        "description": "As the lapel loosens and your pressure increases, the bottom player's hook and frame structure begins to fail. Drive your knee through the weakening guard, aiming to split their legs apart and isolate one leg for the half guard position. Keep your chest heavy on their upper body throughout this phase to prevent them from re-establishing distance or guard shape."
+      },
+      {
+        "step_number": 6,
+        "action": "Navigate to half guard position",
+        "description": "Once the Squid Guard structure collapses, immediately work to consolidate half guard top by trapping one of their legs between yours. Establish crossface or underhook control to prevent them from recovering full guard. Your weight should shift from shoulder pressure to hip pressure as you settle into the half guard top position."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate half guard top and clear remaining lapel",
+        "description": "From the newly established half guard top, fully clear any remaining lapel entanglement that followed you through the pass. Establish your preferred half guard passing configuration with crossface, underhook, or head control. Only after consolidating this position should you consider continuing the pass to side control or mount."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player inverts and threatens back take during pressure application",
+        "effectiveness": "High",
+        "your_response": "Immediately backstep and redirect pressure downward to flatten their inversion attempt. If they achieve significant rotation, abandon the pressure pass and reset to standing base in open guard.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Bottom player establishes knee shield to create frame against shoulder pressure",
+        "effectiveness": "Medium",
+        "your_response": "Switch to hip-switch pressure variant, changing the angle of your drive to go around the knee shield rather than through it. Use your free hand to control their shield leg at the knee, redirecting it downward while maintaining shoulder pressure.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Bottom player times a sweep using lapel tension during forward weight commitment",
+        "effectiveness": "High",
+        "your_response": "Maintain wide base with your free leg posted far enough to resist lateral sweeps. If you feel your balance compromised, immediately post your hand on the mat and reset your base before continuing pressure rather than trying to power through.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player releases lapel and transitions to De La Riva or Spider Guard",
+        "effectiveness": "Medium",
+        "your_response": "Capitalize on the transition window by accelerating your pressure pass while their guard structure is reorganizing. The transition between guard configurations creates a moment where neither guard is fully established, making pressure passing significantly easier.",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Dropping head into the bottom player's attack range while applying shoulder pressure",
+        "consequence": "Exposes the neck to guillotine, anaconda, or darce choke attempts from the bottom player who can capitalize on the head position",
+        "correction": "Keep your head up and to the side of the bottom player's body, driving with your shoulder and chest rather than leading with your head into their guard"
+      },
+      {
+        "error": "Attempting to strip the lapel completely before applying any pressure",
+        "consequence": "Allows the bottom player to maintain full guard structure and re-grip immediately, turning the pass into an endless grip fighting battle",
+        "correction": "Apply pressure first to compromise their guard structure, then address the lapel incrementally under pressure when they cannot easily re-grip"
+      },
+      {
+        "error": "Standing upright or rising to create space during the pressure sequence",
+        "consequence": "Creates space the bottom player exploits to re-establish full guard, insert hooks, or initiate sweeps with renewed leverage",
+        "correction": "Stay low and heavy throughout the entire passing sequence, only rising after fully consolidating half guard top or beyond"
+      },
+      {
+        "error": "Narrow base with feet close together during forward pressure application",
+        "consequence": "Extremely vulnerable to lateral sweeps when the bottom player redirects lapel tension to the side, toppling your base easily",
+        "correction": "Maintain a wide stance with your free leg posted far to the side, providing lateral stability against sweep attempts during forward pressure"
+      },
+      {
+        "error": "Rushing to complete the pass instead of methodically compressing the guard",
+        "consequence": "Creates scramble situations that favor the bottom player's guard retention skills and sweep timing",
+        "correction": "Commit to sustained, gradual pressure that systematically collapses the guard over 15-30 seconds rather than explosive bursts"
+      },
+      {
+        "error": "Ignoring the bottom player's free leg while focusing entirely on lapel clearance",
+        "consequence": "Bottom player uses free leg to create frames, insert butterfly hooks, or kick out to create distance that resets the guard",
+        "correction": "Monitor and control both the lapel entanglement and the bottom player's free leg simultaneously, using hip pressure to pin their free leg when possible"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Pressure Mechanics Foundation",
+        "focus": "Weight distribution and shoulder pressure",
+        "description": "Practice driving shoulder pressure into a partner in turtle or half guard position. Focus on keeping hips low, weight distributed through chest and shoulder, and hands light. Drill wide base positioning and maintaining pressure through transitions. 3 rounds of 3 minutes."
+      },
+      {
+        "phase": "Phase 2: Lapel Management Under Pressure",
+        "focus": "Incremental lapel clearing while maintaining forward drive",
+        "description": "Partner establishes Squid Guard configuration. Practice loosening the lapel wrap one stage at a time while maintaining constant shoulder pressure. Partner provides 30% resistance. Reset after each successful lapel clear. 5 minutes per side."
+      },
+      {
+        "phase": "Phase 3: Positional Sparring from Squid Guard",
+        "focus": "Complete pressure pass sequence against increasing resistance",
+        "description": "Start in Squid Guard Top. Execute the full pressure passing sequence from posture establishment through half guard consolidation. Partner increases resistance from 40% to 70% across rounds. Emphasize maintaining base against sweep attempts while applying forward pressure. 4 rounds of 3 minutes."
+      },
+      {
+        "phase": "Phase 4: Integration with Passing System",
+        "focus": "Chaining pressure pass with alternative passing options",
+        "description": "Open sparring starting from Squid Guard. If pressure pass stalls, chain to backstep, toreando, or grip strip approaches. Develop ability to read when pressure is working versus when to switch strategies. Full resistance. 5-minute rounds."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the pressure pass against Squid Guard?",
+        "answer": "The optimal window opens when the bottom player's lapel tension creates a clear directional pull on your trapped leg. Rather than fighting against this tension, align your weight behind the pull direction to convert their control into your forward momentum. Additionally, any moment the bottom player adjusts their grip or transitions between guard configurations creates a brief window where their structure is weakest."
+      },
+      {
+        "question": "What conditions must exist before you can successfully attempt this pressure pass?",
+        "answer": "You need established base with a wide stance, at least one controlling grip on the bottom player's upper body, and identification of the lapel configuration direction. Your free leg must be posted wide enough to resist lateral sweeps. Critically, you must have controlled or accounted for the bottom player's free hand to prevent them from deepening their entanglement as you begin pressuring forward."
+      },
+      {
+        "question": "What is the most critical mechanical detail that separates successful pressure passing from stalling?",
+        "answer": "The direction of your weight transfer must align with or redirect the lapel tension vector rather than fighting perpendicular to it. Driving your shoulder through the bottom player's frames while keeping your hips below your shoulders creates a downward compression angle that collapses their guard structure. If your hips rise above your shoulders, you lose the compression angle and create space they can exploit."
+      },
+      {
+        "question": "Your opponent establishes a strong knee shield as you begin applying pressure - how do you adjust?",
+        "answer": "Switch to the hip-switch pressure variant by rotating your hips to change the angle of your pressure application. Drive around the knee shield rather than directly into it. Use your free hand to control their shield leg at the knee, pushing it downward while your shoulder pressure redirects to the newly opened angle. If the knee shield remains impenetrable, consider transitioning to a backstep or long step pass instead of forcing the pressure."
+      },
+      {
+        "question": "What grip configuration provides the best control during the pressure application phase?",
+        "answer": "Ideally, one hand controls the bottom player's sleeve or wrist on their free hand to prevent re-gripping, while the other hand works incrementally on the lapel entanglement. Your shoulder and chest provide the primary pressure rather than your hands. If you must choose one grip, prioritize controlling their free hand because an uncontrolled free hand allows them to deepen entanglements faster than you can clear them under pressure."
+      },
+      {
+        "question": "In which direction should your primary force be applied during the guard compression phase?",
+        "answer": "Direct your force at a downward angle through the bottom player's centerline, driving your shoulder and chest diagonally into their torso. The force vector should aim to flatten them from their side onto their back while simultaneously compressing their frames. Avoid purely horizontal forward drive, which is easier to redirect into sweeps. The downward component pins their hips and eliminates the mobility they need for guard retention and sweep attempts."
+      },
+      {
+        "question": "Your opponent begins inverting during your pressure application, threatening a back take - what is your immediate response?",
+        "answer": "Immediately backstep your trapped leg to cut off their inversion angle while driving shoulder pressure downward to flatten their rotation. Do not continue forward pressure during an active inversion, as this feeds into their movement. If they achieve more than 45 degrees of rotation, disengage entirely by stepping back and resetting to standing base in open guard rather than risking back exposure by trying to recover mid-inversion."
+      },
+      {
+        "question": "The pressure pass stalls and the bottom player maintains their guard structure after 20 seconds - what chain attacks should you consider?",
+        "answer": "If sustained pressure does not collapse their guard within 20-30 seconds, transition to complementary passing approaches. Backstep to address their hook from behind, switch to a toreando by disengaging and attacking laterally, or attempt a grip strip pass while they are fatigued from resisting your pressure. The pressure expenditure weakens their guard even if it does not break it, making follow-up techniques significantly more likely to succeed."
+      },
+      {
+        "question": "Why is it important to consolidate half guard top before attempting to complete the full pass?",
+        "answer": "Half guard top provides a stable intermediate position where you can clear remaining lapel entanglements, establish dominant upper body control, and recover energy before continuing. Attempting to pass directly through Squid Guard to side control in one motion creates extended scramble sequences where the bottom player's guard recovery skills give them multiple opportunities to re-establish guard. The two-stage approach has a significantly higher cumulative success rate."
+      },
+      {
+        "question": "How do you prevent the bottom player from re-establishing Squid Guard after reaching half guard?",
+        "answer": "Immediately establish crossface or underhook control to prevent them from creating the space needed to re-thread their leg and feed the lapel. Strip any remaining lapel grips as your first priority in half guard top. Pin their far hip with your chest pressure to prevent them from turning to their side and re-inserting the threading leg. If their lapel is still partially engaged, clear it completely before attempting any further passing from half guard."
+      }
+    ],
+    "safety_considerations": "Pressure passing through Squid Guard involves sustained compressive force on the bottom player's torso and frames. The top player must be aware of their partner's breathing and avoid excessive stacking that loads the cervical spine. During training, apply pressure gradually rather than explosively to allow your partner to tap or verbally signal discomfort. Be especially careful when the bottom player's lapel is tightly wound around their own body, as pressure can restrict their movement and breathing simultaneously. Communicate clearly during drilling and release pressure immediately if your partner shows signs of distress."
+  },
+  "defender": {
+    "name": "Pressure Through Squid Guard Defender",
+    "description": "Defend against pressure passing through Squid Guard. Recognition cues, guard retention strategies, and sweep counters to maintain position against systematic pressure approaches.",
+    "overview": "The defender in Pressure Through Squid Guard is the bottom player maintaining Squid Guard while the top player applies systematic pressure to collapse the guard structure. Defense requires recognizing the pressure pass early and deploying specific retention strategies that exploit the top player's committed weight distribution. The defender's primary advantages are their lapel control, hook placement, and the top player's forward commitment, which creates sweep and back take opportunities when the pressure is redirected rather than absorbed.",
+    "key_principles": [
+      "Maintain active tension on the lapel wrap throughout the pressure application, never allowing it to go slack even under compression",
+      "Use frames dynamically rather than statically, adjusting frame angles to redirect pressure away from your centerline",
+      "Preserve hip mobility by staying on your side rather than allowing pressure to flatten you onto your back",
+      "Exploit the top player's forward weight commitment by threatening sweeps that use their momentum against them",
+      "Keep your free leg active as a secondary frame and sweep tool rather than letting it become trapped under pressure",
+      "Recognize when guard retention is failing and transition to alternative guard configurations before the structure collapses completely"
+    ],
+    "recognition_cues": [
+      "Top player lowers their center of gravity and widens their stance, preparing for sustained forward drive rather than quick passing movement",
+      "Top player begins driving shoulder into your frames with increasing forward pressure instead of attempting to strip grips or backstep",
+      "Top player controls or reaches for your free hand, attempting to prevent you from reinforcing lapel grips or creating additional frames",
+      "Top player's posture shifts from upright to forward-leaning with chest aimed at your torso, indicating commitment to pressure passing",
+      "Top player works the lapel incrementally rather than explosively, suggesting a methodical pressure-based approach rather than a speed pass"
+    ],
+    "defensive_options": [
+      {
+        "action": "Reinforce knee shield and redirect pressure laterally",
+        "when_to_use": "Early in the pressure application when the top player first begins driving forward and you still have space to insert your shin across their body",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Creates a structural barrier that converts the top player's forward pressure into lateral force, preventing guard collapse and maintaining distance for guard retention",
+        "risk": "If the knee shield is bypassed or smashed through, you lose your primary frame and the pressure pass accelerates with fewer defensive options remaining"
+      },
+      {
+        "action": "Invert underneath the pressure to threaten back take",
+        "when_to_use": "When the top player commits significant weight forward and their hips rise above their shoulders, creating space underneath for inversion",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Forces the top player to abandon the pressure pass to defend their back, creating a scramble where your guard skills give you the advantage to come up on top",
+        "risk": "If the inversion is read early, the top player backsteps and flattens you, potentially achieving a worse position than before the attempt"
+      },
+      {
+        "action": "Time a sweep using lapel tension during the top player's weight shift",
+        "when_to_use": "When the top player's weight commits to one side during pressure application, creating a momentary imbalance that your lapel control can amplify",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Uses the top player's forward pressure and committed weight against them to execute a sweep, ending with you in top position",
+        "risk": "Mistiming the sweep allows the top player to post and recover, potentially advancing their pressure pass further than before"
+      },
+      {
+        "action": "Release lapel and transition to alternative guard before structure collapses",
+        "when_to_use": "When your Squid Guard structure is clearly failing under sustained pressure and further retention attempts will result in being passed to half guard",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Resets the guard exchange to a neutral open guard position where you can re-establish Squid Guard or choose a different guard system",
+        "risk": "The transition creates a brief moment of no control where the top player can accelerate their pass if they read the guard change"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Top",
+        "how": "Maintain strong frames and lapel tension to prevent the pressure from collapsing your guard structure. Use your free leg and hip movement to create distance when pressure intensifies, forcing the top player back to a neutral standing position where you can re-establish Squid Guard or transition to another guard system."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Time sweep attempts to coincide with the top player's maximum forward weight commitment. Use lapel tension to amplify their imbalance when their weight shifts to one side. The inversion back take threat forces them to choose between defending the sweep and defending the back take, creating a dilemma that frequently results in a successful sweep to top position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Absorbing pressure passively without redirecting or creating movement",
+        "consequence": "Guard structure collapses predictably under sustained load, giving the top player a clean pass to half guard without resistance",
+        "correction": "Actively redirect pressure using frame angles and hip movement rather than trying to hold a static position against increasing force"
+      },
+      {
+        "error": "Releasing lapel tension under pressure to use both hands for framing",
+        "consequence": "Eliminates the primary control mechanism of Squid Guard, allowing the top player to advance freely without the entanglement restriction",
+        "correction": "Maintain lapel grip as non-negotiable throughout pressure defense, using your free hand and legs for supplementary framing rather than sacrificing lapel control"
+      },
+      {
+        "error": "Allowing yourself to be flattened onto your back without recovering side angle",
+        "consequence": "Eliminates hip mobility needed for sweeps and guard transitions, making the pressure pass significantly easier for the top player to complete",
+        "correction": "Fight to maintain your side angle throughout the pressure application using continuous hip escape motion and frame adjustments to prevent flattening"
+      },
+      {
+        "error": "Attempting sweeps without proper timing against a well-based opponent",
+        "consequence": "Failed sweep exposes your guard to accelerated passing as the top player capitalizes on your momentary instability",
+        "correction": "Wait for genuine weight commitment or imbalance before initiating sweeps, using grip tension and hip movement to create the imbalance rather than forcing the sweep"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a speed pass?",
+        "answer": "The earliest cue is their postural change from upright to forward-leaning with a widened base. A speed passer stays upright and mobile, while a pressure passer lowers their center of gravity and drives their shoulder toward your frames. Additionally, if they control your free hand before attempting to address the lapel, this indicates a methodical pressure approach rather than an explosive grip strip."
+      },
+      {
+        "question": "Your opponent has driven heavy shoulder pressure into your frames and your guard is beginning to compress - what is your highest-percentage defensive response?",
+        "answer": "If you still have space to move your hips, insert a knee shield immediately to create a structural barrier against further compression. The shin across their body converts their forward pressure into a force you can redirect laterally. If the knee shield is not available, initiate hip escape movement to create the angle needed for inversion or guard transition before your structure collapses completely."
+      },
+      {
+        "question": "When should you abandon Squid Guard retention and transition to an alternative guard system?",
+        "answer": "Transition when you recognize that your lapel tension has been reduced to a single shallow wrap and your hook is being progressively compressed despite active retention efforts. Continuing to fight for a failing guard burns energy without productive defensive output. A proactive transition to De La Riva, Spider Guard, or standard open guard before the structure fully collapses preserves more options than trying to re-establish from a compromised position."
+      },
+      {
+        "question": "How do you create a sweep opportunity from the bottom during your opponent's pressure application?",
+        "answer": "The pressure application inherently creates sweep opportunities because the top player must commit weight forward. Monitor their weight distribution through your lapel grip tension and frames. When their weight shifts predominantly to one side during pressure application, amplify that imbalance with a sharp pull on the lapel in the direction they are already leaning. Combine this with a hip bump or hook extension on the opposite side to complete the sweep."
+      },
+      {
+        "question": "Why is maintaining your side angle critical when defending against pressure passing through Squid Guard?",
+        "answer": "Your side angle preserves hip mobility, which is the foundation of all guard retention and offensive options. A flat-on-back position eliminates your ability to hip escape, insert frames, initiate sweeps, or invert for back takes. The side angle also makes your lapel control more effective because the tension direction aligns with your hip movement, creating a unified system where your body and grips work together rather than independently."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame Mechanics Under Load",
+        "focus": "Maintaining frames and hip angle under increasing pressure",
+        "description": "Partner applies gradually increasing shoulder pressure from Squid Guard top. Focus exclusively on maintaining frame structure, side angle, and lapel tension without attempting sweeps. Build the physical and technical endurance to sustain guard structure under load. 3 rounds of 2 minutes at increasing pressure levels."
+      },
+      {
+        "phase": "Phase 2: Sweep Timing Development",
+        "focus": "Recognizing and exploiting imbalance during pressure application",
+        "description": "Partner applies pressure pass with 50% resistance. Practice timing sweeps to coincide with their forward weight commitment. Focus on using lapel tension to amplify their imbalance rather than forcing sweeps. 5 minutes per side with partner providing realistic but not maximum pressure."
+      },
+      {
+        "phase": "Phase 3: Guard Transition Drill",
+        "focus": "Proactive guard switching when Squid Guard retention fails",
+        "description": "Partner applies pressure pass with 70% resistance. Practice recognizing when Squid Guard is failing and transitioning cleanly to De La Riva, Spider Guard, or knee shield half guard before being passed. Emphasis on the timing and smoothness of the transition rather than fighting to retain a failing position."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Integrating all defensive options against live pressure passing",
+        "description": "Full resistance positional sparring starting from Squid Guard. Top player attempts any passing approach with emphasis on pressure. Bottom player integrates frame retention, sweep timing, inversion threats, and guard transitions based on the top player's actions. 3-minute rounds with position reset after each pass or sweep."
+      }
+    ]
+  }
 }

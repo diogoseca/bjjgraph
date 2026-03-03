@@ -93,23 +93,25 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Guard]]** (27% of attempts)
+- **[[Turtle to Guard]]** (34% of attempts)
 
-- **[[Technical Stand-up]]** (16% of attempts)
+- **[[Technical Stand-up]]** (15% of attempts)
 
-- **[[Granby Roll to Guard]]** (13% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Rolling to Guard]]** (15% of attempts)
+- **[[Rolling to Guard]]** (14% of attempts)
 
-- **[[Elbow Escape to Guard]]** (10% of attempts)
+- **[[Elbow Escape to Guard]]** (9% of attempts)
 
-- **[[Sit Through Escape]]** (8% of attempts)
+- **[[Sit Through Escape]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (6% of attempts)
+- **[[Standing up in Base]]** (5% of attempts)
 
-- **[[Roll from Rodeo Ride]]** (3% of attempts)
+- **[[Roll from Rodeo Ride]]** (2% of attempts)
 
-- **[[Shake Off Rodeo Ride]]** (2% of attempts)
+- **[[Shake Off Rodeo Ride]]** (1% of attempts)
+
+- **[[Escape from Rodeo Ride]]** (1% of attempts)
 
 
 ### Common Mistakes

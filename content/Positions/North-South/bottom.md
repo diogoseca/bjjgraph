@@ -32,8 +32,8 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Bridge and Turn to Turtle",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
@@ -213,7 +213,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ### [[Bridge and Roll]] (12% of attempts)
 
-### [[Turtle Transition]] (17% of attempts)
+### [[Bridge and Turn to Turtle]] (17% of attempts)
 
 ### [[Hip Escape to Guard]] (14% of attempts)
 

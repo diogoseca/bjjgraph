@@ -1,13 +1,390 @@
 {
   "name": "Escape Leg Hook",
-  "description": "",
-  "tags": [],
+  "description": "Master the Escape Leg Hook in BJJ. Systematic hip escape and frame techniques to free your trapped leg from hook control and recover standard half guard position.",
+  "tags": [
+    "bjj",
+    "escape",
+    "leg-hook",
+    "half-guard",
+    "guard-recovery",
+    "bottom-position",
+    "defensive-transition"
+  ],
   "from_position": "Leg Hook/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Leg Hook/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "The Escape Leg Hook is a methodical guard recovery technique employed when the bottom player is caught in the Leg Hook position, where the top player has threaded their leg underneath or around the bottom player's defending leg during a half guard passing sequence. Unlike the Counter Leg Hook which uses explosive movement to reach turtle, this escape focuses on systematic frame establishment, incremental hip escape, and controlled leg extraction to recover a standard Half Guard position with proper defensive structure intact.\n\nThis escape addresses a specific deterioration in the half guard system: the top player has advanced beyond initial half guard engagement and established a controlling hook that restricts the bottom player's hip mobility, limits sweep options, and creates a clear pathway to pass completion. Without addressing the hook directly, the bottom player's position will continue to deteriorate as the top player consolidates control and advances toward side control. The Escape Leg Hook intervenes at this critical decision point, providing a reliable pathway back to a position with full offensive and defensive capabilities.\n\nThe technique requires patience and precise timing rather than explosive athleticism. The bottom player must first establish defensive frames to prevent further advancement, then systematically create the space needed for hip escape, and finally extract the hooked leg while immediately establishing knee shield or standard half guard structure. Rushing any phase of the escape exposes the bottom player to pass advancement, making this a technique that rewards disciplined execution over raw power.",
+  "conditions": [
+    "Top player has established leg hook control around your defending leg",
+    "You maintain at least one defensive frame preventing complete flattening",
+    "Hip mobility is sufficient for incremental shrimping movement",
+    "Top player has not yet achieved full crossface control with dominant weight distribution"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Hip Escape Extraction",
+      "description": "Classical shrimping-based escape where the bottom player uses repeated incremental hip escapes to create space, then extends the hooked leg to break the entanglement before recovering knee shield half guard. The most fundamental and reliable variant that works against most hook configurations.",
+      "when_to_use": "When top player's pressure is moderate and lateral hip movement is available, particularly effective when you have space to shrimp"
+    },
+    {
+      "variant_name": "Knee Shield Insertion",
+      "description": "Rather than fully extracting the hooked leg first, the bottom player uses their free leg to insert a knee shield between the bodies, which simultaneously breaks the hook angle and establishes a defensive barrier. The knee shield acts as both an escape mechanism and the recovery position in a single motion.",
+      "when_to_use": "When there is sufficient space between your torso and the top player's chest to insert the knee, particularly effective when top player's upper body pressure is relatively light"
+    },
+    {
+      "variant_name": "Push-Kick Extraction",
+      "description": "The bottom player uses their free foot to push against the top player's hip or thigh while simultaneously extending the hooked leg to break the entanglement. This creates space more aggressively than pure hip escape and works when the top player is driving forward pressure that limits lateral shrimping.",
+      "when_to_use": "When the top player commits weight forward making lateral hip escape difficult, and your free leg has access to their hip or upper thigh"
+    }
+  ],
+  "position_integration": "The Escape Leg Hook occupies a critical defensive node in the half guard retention system, connecting the compromised Leg Hook Bottom state to the standard Half Guard Bottom position where the full range of offensive and defensive options becomes available. This technique works in concert with the Counter Leg Hook, which provides an alternative explosive escape to turtle. Together they form a two-option defensive framework: the methodical Escape Leg Hook for situations allowing incremental recovery, and the Counter Leg Hook for moments requiring explosive positional change. Practitioners should develop both techniques and select between them based on the top player's weight distribution and urgency of the passing threat.",
+  "related_content": [
+    {
+      "name": "Leg Hook",
+      "relationship": "Source position from which this escape is executed"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position after successful escape"
+    },
+    {
+      "name": "Counter Leg Hook",
+      "relationship": "Alternative escape from same position using explosive movement to turtle"
+    },
+    {
+      "name": "Deep Half Entry",
+      "relationship": "Alternative offensive transition from Leg Hook Bottom"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Common recovery configuration established after successful escape"
+    },
+    {
+      "name": "Back Door Escape from Half Guard",
+      "relationship": "Related escape concept using similar hip movement principles"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Alternative leg control position accessible from similar starting configuration"
+    },
+    {
+      "name": "Elbow Escape from Flattened Half",
+      "relationship": "Related escape technique using comparable hip escape mechanics"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Worst-case outcome position if escape fails and pass completes"
+    }
+  ],
+  "attacker": {
+    "name": "Escape Leg Hook Attacker",
+    "description": "Learn to execute the Escape Leg Hook from bottom position. Systematic frames, hip escape, and leg extraction to recover standard half guard from leg hook control.",
+    "overview": "As the attacker executing the Escape Leg Hook, you are the bottom player systematically working to dismantle the top player's hook control and recover to standard Half Guard. Unlike the explosive Counter Leg Hook that targets turtle, this escape prioritizes controlled, incremental progress through frame establishment, hip escape, and leg extraction. Your approach should be methodical: establish frames to prevent further deterioration, create space through precise hip escapes, extract the hooked leg when sufficient space exists, and immediately establish half guard structure to prevent re-hooking. This technique rewards patience and positional awareness over athleticism, making it a reliable default escape that works across body types and experience levels.",
+    "key_principles": [
+      "Establish defensive frames before initiating any escape movement to prevent further positional deterioration",
+      "Create space incrementally through precise hip escapes rather than explosive bridging that wastes energy",
+      "Address the hook systematically by creating angles that reduce hook effectiveness before attempting extraction",
+      "Immediately establish knee shield or standard half guard structure after freeing the leg to prevent re-hooking",
+      "Maintain constant connection with the top player through frames to monitor their weight shifts and timing",
+      "Time the primary extraction effort when the top player shifts weight or adjusts their position"
+    ],
+    "setup_requirements": [
+      "At least one functional frame established against the top player's shoulder, chest, or neck preventing complete flattening",
+      "Bottom hip retains enough mobility for incremental shrimping movement, not completely pinned to the mat",
+      "Free leg positioned to assist the escape through pushing against top player's hip or creating supplementary frames",
+      "Mental awareness of the hook's depth and angle to plan the most efficient extraction path"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish primary frame",
+        "description": "Place your near-side forearm against the top player's neck or shoulder line, creating a structural frame that prevents them from collapsing their chest onto yours. This frame must use skeletal alignment rather than muscular effort to be sustainable. Simultaneously, use your far hand to control their far hip or sleeve to limit their ability to increase pressure."
+      },
+      {
+        "step_number": 2,
+        "action": "Assess hook configuration",
+        "description": "Identify exactly how the top player's leg is hooked around yours: the depth of the hook, the angle of entanglement, and which direction provides the most efficient extraction path. This assessment determines whether you should shrimp toward or away from the hook, and whether your free leg can assist with a push-kick or needs to create a secondary barrier."
+      },
+      {
+        "step_number": 3,
+        "action": "Create initial hip angle",
+        "description": "Execute a controlled hip escape by driving off your bottom foot and pushing your hips laterally away from the top player's pressure. This is not an explosive movement but a deliberate shrimp that creates the first increment of space between your hooked leg and theirs. Maintain frame contact throughout to prevent the top player from following your movement and closing the space you create."
+      },
+      {
+        "step_number": 4,
+        "action": "Reduce hook effectiveness",
+        "description": "Use the space created by the hip escape to begin angling your hooked leg to reduce the top player's leverage. Straighten the leg slightly to change the angle of the hook, making it shallower. Simultaneously, use your free foot to push against the top player's hooking leg or hip to create additional separation. The goal is to reduce the hook from a deep entanglement to a shallow contact."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute second hip escape for extraction",
+        "description": "Perform a second, more committed hip escape timed to when the top player adjusts their weight or attempts to re-deepen the hook. This larger escape creates the space needed to pull your leg free from the now-shallow hook. Drive hard off your bottom foot while maintaining the primary frame and use the momentum to fully extract the hooked leg from entanglement."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract hooked leg",
+        "description": "With sufficient space created, pull your hooked leg free by extending it and circling it out of the hook angle. Use your free foot against their thigh or hip as an anchor point to push off while extracting. The extraction should be a controlled pull rather than a violent yank to maintain defensive structure and prevent the top player from capitalizing on the movement."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish half guard structure",
+        "description": "Immediately after extracting the leg, insert your knee between your bodies to create a knee shield barrier, or triangle your legs around the top player's nearest leg to establish standard half guard entanglement. Do not pause after extraction, as the top player will immediately attempt to advance the pass or re-hook. The speed of guard re-establishment determines whether the escape succeeds or merely creates a brief opening."
+      },
+      {
+        "step_number": 8,
+        "action": "Secure defensive grips and recover position",
+        "description": "Once half guard structure is established, immediately secure secondary controls: fight for the underhook on the trapped leg side, establish a collar grip or wrist control to manage distance, and ensure your hips are on your side rather than flat on your back. Verify the top player cannot easily re-enter the leg hook configuration by maintaining your knee shield angle and active frame pressure."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player drives heavy forward pressure when they feel the hip escape beginning, collapsing the frame and eliminating space",
+        "effectiveness": "High",
+        "your_response": "Redirect to deep half guard entry by using their forward pressure momentum to duck underneath their base, converting the failed hip escape into an offensive transition",
+        "targets_outcome": "Leg Hook/Bottom"
+      },
+      {
+        "counter": "Top player re-deepens the hook immediately after you create initial angle, following your hip movement with their own adjustment",
+        "effectiveness": "Medium",
+        "your_response": "Continue the incremental escape sequence with a second hip escape in the same direction, or switch to push-kick extraction variant using your free foot against their hip to create forced separation",
+        "targets_outcome": "Leg Hook/Bottom"
+      },
+      {
+        "counter": "Top player abandons the hook and advances directly to side control pass during the extraction movement",
+        "effectiveness": "High",
+        "your_response": "Abandon the leg extraction and immediately fight for inside position with frames to prevent the pass, transitioning to standard side control prevention rather than continuing the hook escape",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Top player establishes dominant crossface control that limits all hip escape movement and pins your head position",
+        "effectiveness": "High",
+        "your_response": "Prioritize stripping the crossface before continuing the escape using two-on-one grip fighting on their crossface arm, then reinitiate the hip escape sequence once head control is removed",
+        "targets_outcome": "Leg Hook/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to extract the leg before establishing frames and creating hip angle",
+        "consequence": "Top player simply follows the extraction attempt with pressure, maintaining or deepening the hook and potentially advancing to side control during the failed attempt",
+        "correction": "Always establish frames first, then create space through hip escape before attempting leg extraction. The space must exist before the leg can be freed."
+      },
+      {
+        "error": "Using explosive bridging as the primary escape mechanism instead of controlled hip escape",
+        "consequence": "Bridging lifts both you and the opponent without creating the lateral space needed for leg extraction, wasting significant energy and leaving you flat on your back after the bridge collapses",
+        "correction": "Use lateral hip escape (shrimping) rather than vertical bridging. The escape requires horizontal space between your leg and theirs, not vertical lift."
+      },
+      {
+        "error": "Failing to immediately establish half guard structure after extracting the leg",
+        "consequence": "Top player immediately re-hooks or advances past the legs entirely to complete the pass, negating the successful extraction and often leaving you in a worse position than before",
+        "correction": "Treat leg extraction and guard re-establishment as one continuous motion. The knee shield or leg entanglement must be in place within one second of the leg coming free."
+      },
+      {
+        "error": "Allowing the back to flatten completely to the mat before attempting the escape",
+        "consequence": "Flat positioning eliminates hip mobility needed for the escape, reduces frame effectiveness, and allows the top player to establish maximum pressure distribution across your torso",
+        "correction": "Maintain a side angle throughout the escape using your bottom elbow as a posting point. If flattened, perform a micro hip escape to regain the side angle before attempting the full escape sequence."
+      },
+      {
+        "error": "Neglecting the free leg's role during the escape sequence",
+        "consequence": "Wastes a critical tool that could provide push-kick separation, create barriers against pass advancement, or assist with frame creation during the extraction phase",
+        "correction": "Keep the free leg active throughout: push against the top player's hip to create space, use it as a barrier to prevent pass advancement, or place it on the mat to assist with hip escape power generation."
+      },
+      {
+        "error": "Yanking the hooked leg out forcefully without first reducing hook depth through angling",
+        "consequence": "Forceful extraction against a deep hook creates joint strain on the knee and ankle, often fails against a well-set hook, and the violent movement opens opportunities for the top player to advance",
+        "correction": "First reduce hook effectiveness through incremental hip angling and leg straightening, then extract when the hook is shallow. The extraction should feel like pulling a leg from a loose tangle, not ripping free from a tight grip."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Frame and Hip Escape Mechanics",
+        "focus": "Isolating the fundamental movements",
+        "description": "Partner establishes leg hook top with light pressure. Bottom player practices establishing frame, executing hip escape, and returning to start. No leg extraction yet. Focus purely on the frame-to-shrimp sequence with proper skeletal alignment. Work 20 repetitions each side."
+      },
+      {
+        "phase": "Phase 2: Leg Extraction Technique",
+        "focus": "Adding hook reduction and leg extraction",
+        "description": "Partner establishes leg hook with moderate tension. Bottom player performs the full sequence: frame, hip escape, reduce hook depth through angling, extract leg. Partner allows the extraction but does not release the hook voluntarily. Focus on the angling mechanics that make extraction efficient. Work 15 repetitions each side."
+      },
+      {
+        "phase": "Phase 3: Guard Re-establishment",
+        "focus": "Combining extraction with immediate half guard recovery",
+        "description": "Full escape sequence with emphasis on the transition from extraction to half guard structure. Partner attempts to re-hook or advance the pass after the extraction. Bottom player must establish knee shield or half guard entanglement within one second of freeing the leg. Work 3-minute rounds with increasing resistance."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Building timing against increasing opposition",
+        "description": "Partner applies 50% then 75% then full resistance from leg hook top. Bottom player executes the escape, adapting timing and variant selection based on top player's pressure and reactions. Track success rate at each resistance level. Work 3-minute rounds with role rotation."
+      },
+      {
+        "phase": "Phase 5: Positional Sparring Integration",
+        "focus": "Live integration with half guard system",
+        "description": "Start from half guard with top player working to establish leg hook. Bottom player must recognize hook establishment and choose between Escape Leg Hook and Counter Leg Hook based on situation. Full resistance from both players. Goal is developing real-time decision-making between escape variants."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for the primary leg extraction in this escape?",
+        "answer": "The optimal window is when the top player shifts their weight to adjust their position or attempts to advance the pass. During these transitional moments, their hook tension naturally decreases as they redistribute weight. The bottom player should have already completed frame establishment and initial hip escape, so the extraction capitalizes on the momentary reduction in hook pressure. Attempting extraction while the top player is settled and actively maintaining maximum hook tension has significantly lower success rates."
+      },
+      {
+        "question": "What frames must be established before initiating the hip escape?",
+        "answer": "The near-side forearm must be positioned against the top player's neck, shoulder, or chest line using skeletal alignment to prevent chest-to-chest collapse. The far hand should control the top player's far hip or sleeve to limit their ability to follow your hip escape. Together these frames create a structural barrier that maintains space throughout the escape and prevents the top player from simply driving forward to shut down your hip movement."
+      },
+      {
+        "question": "What is the critical hip movement that creates space for leg extraction?",
+        "answer": "The lateral hip escape (shrimp) directed perpendicular to the top player's pressure line is the critical movement. The bottom foot drives the hip laterally while the frame prevents the top player from following. This creates horizontal separation between the hooked leg and the top player's hooking leg. The movement must be controlled and incremental rather than explosive, as explosive bridging creates vertical lift without the lateral space needed for extraction."
+      },
+      {
+        "question": "What is the most common failure point when attempting this escape?",
+        "answer": "The most common failure occurs when the bottom player attempts to extract the hooked leg before creating sufficient space through frames and hip escape. Without space, the extraction attempt is a tug-of-war against the hook that the bottom player typically loses, and the movement opens opportunities for the top player to advance the pass. The escape must follow the sequence: frame, create space, reduce hook, then extract."
+      },
+      {
+        "question": "How should the free leg be used during the escape sequence?",
+        "answer": "The free leg serves multiple roles throughout the escape. During the initial frame phase, it can push against the top player's hip to create additional space. During the hook reduction phase, the free foot can push against the hooking leg to help create separation. After extraction, the free leg immediately inserts as a knee shield or butterfly hook to establish half guard structure. A passive free leg wastes one of the most powerful tools available during the escape."
+      },
+      {
+        "question": "In which direction should the primary hip escape force be applied?",
+        "answer": "The hip escape force should be directed laterally, perpendicular to the top player's forward pressure line. Moving directly away from the top player is less effective because they can simply follow forward. Moving perpendicular exploits the fact that their weight is committed in the forward-backward axis, making lateral pursuit difficult. The bottom foot drives the movement while the frame against the shoulder prevents the top player from turning to match your lateral displacement."
+      },
+      {
+        "question": "The top player drives heavy forward pressure when you begin the hip escape - how do you adjust?",
+        "answer": "When forward pressure prevents the lateral hip escape, redirect to a deep half guard entry using the top player's committed weight against them. Their forward momentum aids ducking underneath their base. Alternatively, switch to the push-kick extraction variant where the free foot pushes against their hip to create forced separation despite the pressure. The worst response is continuing to fight for the hip escape against overwhelming forward pressure, which exhausts energy without creating progress."
+      },
+      {
+        "question": "If the direct escape is blocked and you cannot extract the leg, what technique should you chain to?",
+        "answer": "The primary chain option is the Counter Leg Hook, which uses explosive movement to reach turtle instead of the methodical half guard recovery. If that is also blocked, chain to Deep Half Entry by threading underneath the top player's base. A third option is establishing Lockdown on the hooked leg to stall the pass and create a new set of offensive options. The key is never settling into a static Leg Hook Bottom after a failed escape attempt."
+      }
+    ],
+    "safety_considerations": "The Escape Leg Hook is a low-risk defensive technique with minimal injury potential. The primary safety concern is knee strain during leg extraction if the hook is deep and the bottom player yanks forcefully rather than creating space first. Always reduce hook depth through angling before attempting extraction. Avoid excessive lateral torque on the knee by extracting the leg along its natural range of motion. Communicate with training partners about hook pressure intensity to prevent cumulative joint stress during high-repetition drilling sessions."
+  },
+  "defender": {
+    "name": "Escape Leg Hook Defender",
+    "description": "Learn to defend against the Escape Leg Hook from top position. Maintain hook control, prevent guard recovery, and advance the pass when the bottom player attempts systematic escape.",
+    "overview": "As the defender against the Escape Leg Hook, you are the top player working to maintain your leg hook control and prevent the bottom player from recovering standard Half Guard. Your leg hook represents an advanced stage of the passing sequence, and losing it means your opponent recovers to a position with far more offensive and defensive options. Your defensive strategy centers on recognizing the methodical escape attempt early, maintaining constant pressure that limits frame effectiveness and hip escape movement, dynamically adjusting hook depth and angle to match the bottom player's extraction efforts, and capitalizing on failed escape attempts to advance to side control. Unlike defending the explosive Counter Leg Hook, here you are countering a patient, incremental process that you can disrupt at multiple stages.",
+    "key_principles": [
+      "Maintain constant chest and shoulder pressure on the bottom player's upper body to limit frame effectiveness",
+      "Dynamically adjust hook depth and angle in response to every hip escape and leg movement from the bottom player",
+      "Control the bottom player's far hip to prevent the lateral shrimping movement that creates extraction space",
+      "Recognize the escape phases (frame, hip escape, hook reduction, extraction) and disrupt each one proactively",
+      "Capitalize on failed extraction attempts by immediately advancing the pass while the bottom player is momentarily off-balance"
+    ],
+    "recognition_cues": [
+      "Bottom player begins establishing forearm frames against your neck, shoulder, or chest line with structural alignment rather than casual contact",
+      "Bottom player's hips begin incremental lateral movement away from you through controlled shrimping rather than explosive bridging",
+      "Bottom player's free leg activates to push against your hip, thigh, or hooking leg to create supplementary space",
+      "Bottom player begins straightening or angling their hooked leg to reduce the depth and effectiveness of your hook entanglement",
+      "Bottom player's far hand moves to control your hip or sleeve to limit your ability to follow their hip escape"
+    ],
+    "defensive_options": [
+      {
+        "action": "Increase forward pressure and re-deepen the hook when you feel the bottom player creating initial hip angle",
+        "when_to_use": "At the earliest sign of hip escape movement, before significant space has been created",
+        "targets_outcome": "Leg Hook/Bottom",
+        "if_successful": "Bottom player's escape attempt is reset, returning to controlled Leg Hook Bottom with potentially less energy and frame structure",
+        "risk": "Over-committing forward pressure may open deep half guard entry if the bottom player redirects underneath your base"
+      },
+      {
+        "action": "Follow the hip escape with your own hip adjustment, maintaining hip-to-hip contact throughout the bottom player's movement",
+        "when_to_use": "When the bottom player has begun shrimping but has not yet created enough space for extraction",
+        "targets_outcome": "Leg Hook/Bottom",
+        "if_successful": "Your hip tracking neutralizes the space created by their hip escape, keeping the hook engaged and preventing extraction",
+        "risk": "Chasing their hips laterally can compromise your base if they suddenly reverse direction or attempt a sweep"
+      },
+      {
+        "action": "Release the hook and advance directly to side control pass when the bottom player overcommits to the extraction movement",
+        "when_to_use": "When the bottom player's escape movement creates a clear passing lane and they are focused on leg extraction rather than guard re-establishment",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You bypass the hook battle entirely and complete the pass to a dominant position, converting the escape attempt into a worse outcome for the bottom player",
+        "risk": "If the bottom player is prepared, they may insert a knee shield or recover guard during your transition from hook to pass"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Hook/Bottom",
+        "how": "Shut down the escape by maintaining constant chest pressure that limits frame effectiveness, tracking the bottom player's hip escapes with your own hip adjustments, and re-deepening the hook whenever they create angle. The key is proactive response at the earliest escape phases rather than reactive response after significant space exists."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Capitalize on the bottom player's extraction movement by releasing the hook and advancing directly to side control when their focus is on freeing the leg rather than preventing the pass. Drive your weight through their hip line and clear the legs while they are momentarily committed to the extraction motion."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining a static hook position without adjusting depth and angle as the bottom player shrimps",
+        "consequence": "The bottom player incrementally reduces hook effectiveness through repeated small hip escapes until the hook is shallow enough to strip, making the escape virtually inevitable over time",
+        "correction": "Treat the hook as a dynamic control that requires constant readjustment. Every time the bottom player shrimps, follow with your own hip adjustment and re-deepen the hook to its original depth."
+      },
+      {
+        "error": "Lifting upper body pressure to focus on maintaining the hook with the leg",
+        "consequence": "The bottom player establishes powerful frames against your now-elevated chest and shoulders, creating the space needed for both hip escape and leg extraction in rapid sequence",
+        "correction": "Maintain constant chest and shoulder pressure on the bottom player's upper body as the primary control mechanism. The hook supports the pass but the upper body pressure prevents the escape."
+      },
+      {
+        "error": "Ignoring the bottom player's free leg activity during the escape sequence",
+        "consequence": "The free leg creates push-kick separation, inserts butterfly hooks, or establishes knee shield barriers that assist the extraction and immediately provide guard structure after the leg is freed",
+        "correction": "Monitor and control the free leg's activity using your free hand, body position, or weight distribution. Pin it or block it from accessing your hip or the hooking leg."
+      },
+      {
+        "error": "Attempting to maintain the hook at all costs instead of recognizing when to advance the pass",
+        "consequence": "Getting drawn into a prolonged hook battle that the bottom player can eventually win through attrition, missing the window to capitalize on their escape movement for pass completion",
+        "correction": "Recognize when the hook is becoming untenable and proactively transition to pass completion rather than fighting a losing battle for hook maintenance. A completed pass is better than a maintained but deteriorating hook."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the bottom player is initiating the Escape Leg Hook?",
+        "answer": "The earliest cue is the bottom player establishing a structural forearm frame against your neck or shoulder with skeletal alignment rather than casual hand placement. This deliberate frame establishment indicates they are creating the prerequisite structure for the hip escape sequence. Recognizing this cue allows you to increase pressure and eliminate the frame before the escape develops, when disruption is easiest."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the bottom player begin to shrimp?",
+        "answer": "Drop your weight lower and drive your hips forward into their hip line while simultaneously following their lateral movement with your own hip adjustment. The goal is to maintain hip-to-hip contact that eliminates the space their shrimp creates. Avoid raising your weight or pulling your hips backward, as this creates exactly the separation they need. Your chest pressure should increase during their shrimp to prevent the frame from expanding."
+      },
+      {
+        "question": "When should you abandon hook maintenance and advance directly to the pass instead?",
+        "answer": "Advance to the pass when the bottom player has created significant lateral space and their focus is committed to leg extraction rather than guard establishment. The key indicator is when their far arm is reaching for their own leg rather than maintaining frames against your upper body. In this moment, releasing the hook and driving through to side control exploits their divided attention, converting their escape attempt into a worse positional outcome."
+      },
+      {
+        "question": "Why is upper body pressure more important than hook depth when defending this escape?",
+        "answer": "Upper body pressure prevents the frames that initiate the entire escape sequence. Without effective frames, the bottom player cannot create the hip escape that leads to hook reduction and extraction. A deep hook with light upper body pressure allows the bottom player to frame freely and systematically work through the escape. Conversely, heavy upper body pressure with a moderate hook prevents the escape from ever beginning, because the bottom player cannot establish the structural prerequisites."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Escape Recognition",
+        "focus": "Identifying escape attempt phases",
+        "description": "Bottom player performs the Escape Leg Hook at slow speed, announcing each phase. Top player practices identifying frame establishment, hip escape initiation, hook reduction, and extraction attempts. No active defense yet - focus purely on tactile and visual recognition of the escape sequence."
+      },
+      {
+        "phase": "Phase 2: Pressure Maintenance",
+        "focus": "Preventing the escape through proactive pressure",
+        "description": "Bottom player attempts the escape at moderate speed. Top player practices maintaining chest pressure, tracking hip escapes with hip adjustments, and re-deepening the hook after each shrimping attempt. Success measured by preventing the bottom player from reaching the extraction phase."
+      },
+      {
+        "phase": "Phase 3: Pass Advancement During Escape",
+        "focus": "Capitalizing on escape attempts to complete the pass",
+        "description": "Bottom player attempts the escape at full effort. Top player practices reading the moment when the bottom player overcommits to extraction and releasing the hook to advance directly to side control. Focus on timing the pass advancement to coincide with the bottom player's divided attention."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full integration with live passing",
+        "description": "Start from Leg Hook top with full resistance from both players. Top player combines hook maintenance, escape prevention, and pass advancement into a live strategy. Bottom player uses both Escape Leg Hook and Counter Leg Hook. Track success rates to identify patterns in timing and technique selection."
+      }
+    ]
+  }
 }

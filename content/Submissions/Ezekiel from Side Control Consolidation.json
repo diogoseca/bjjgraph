@@ -1,150 +1,458 @@
 {
   "name": "Ezekiel from Side Control Consolidation",
-  "description": "TODO: Write 150-160 character SEO description for Ezekiel from Side Control Consolidation.",
+  "description": "Master the Ezekiel choke from Side Control Consolidation in BJJ. Complete guide covering sleeve grip setup, finishing mechanics, and defensive counters.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "choke",
+    "ezekiel",
+    "side-control",
+    "gi-technique",
+    "sleeve-choke",
+    "consolidation"
   ],
   "submission_category": "Choke",
-  "submission_type": "Choke",
+  "submission_type": "Sleeve Choke",
   "target_area": "Neck",
   "starting_position": "Side Control Consolidation",
   "from_position": "Side Control Consolidation/Top",
-  "from_positions": ["Side Control Consolidation", "Side Control", "Mount"],
+  "from_positions": [
+    "Side Control Consolidation",
+    "Side Control",
+    "Kesa Gatame",
+    "Modified Scarf Hold"
+  ],
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "Side Control Consolidation/Top",
-      "probability": 45,
+      "probability": 40,
       "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Ezekiel from Side Control Consolidation.",
+  "success_rate": 40,
+  "overview": "The Ezekiel choke (Sode Guruma Jime) from Side Control Consolidation exploits the natural arm positioning of the crossface to create a sleeve-assisted choke that catches opponents off guard. Unlike the more common mount-based Ezekiel, this variation leverages the perpendicular body angle and heavy chest pressure of side control consolidation to disguise the choke entry, making it difficult to recognize until the choking mechanism is locked in place.\n\nThe technique works by threading the crossface arm deeper beneath the opponent's head, then feeding the opposite hand into the sleeve of the crossface arm to create a closed loop around the neck. The finishing pressure combines forward driving force through the chest with an expanding motion of the arms, compressing both the carotid arteries and trachea. The side control angle provides a unique mechanical advantage: the opponent's defensive options are limited by crossface pressure and chest weight, with fewer hands free to address the choke compared to mount defense.\n\nThis submission works best as a secondary attack when opponents focus on defending americana, kimura, and arm triangle threats from side control. The element of surprise is its greatest asset. Chaining the Ezekiel threat with traditional side control attacks creates a multi-layered offensive system forcing defenders to address threats from multiple angles simultaneously.",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
+        "injury": "Tracheal compression or cartilage damage from direct forearm pressure on windpipe",
+        "severity": "High",
+        "recovery_time": "2-6 weeks depending on severity; may involve difficulty swallowing and speaking"
+      },
+      {
+        "injury": "Carotid artery compression causing loss of consciousness",
+        "severity": "CRITICAL",
+        "recovery_time": "Immediate to minutes if released promptly; brain damage possible if held beyond 10 seconds after unconsciousness"
+      },
+      {
+        "injury": "Cervical muscle strain from resistance against choking pressure",
+        "severity": "Low",
+        "recovery_time": "3-7 days with rest and gentle stretching"
       }
     ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "application_speed": "SLOW and progressive. Apply the choke with gradual increasing pressure, never jerk or spike the forearm across the throat. The Ezekiel can compress the trachea directly, making controlled application essential to prevent injury.",
     "tap_signals": [
       "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
+      "Physical hand tap on partner, mat, or own body",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization, gurgling, or gagging sounds indicating airway distress"
     ],
     "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
+      "Release all choking pressure immediately upon any tap signal without hesitation",
+      "If partner goes limp or stops responding, release immediately and place in recovery position",
+      "If in doubt whether a tap occurred, release and verify before re-engaging",
+      "Monitor partner for delayed symptoms including coughing, difficulty swallowing, or voice changes after release"
     ],
     "training_restrictions": [
-      "TODO"
+      "Apply the choke progressively in training, never with sudden jerking or spiking force",
+      "Beginners should practice the grip mechanics and positioning without applying finishing pressure until the technique is controlled",
+      "Do not hold a locked Ezekiel on a partner who has stopped defending or appears to lose consciousness",
+      "Partners with prior neck or tracheal injuries should communicate limitations before drilling this technique"
     ]
   },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Crossface Entry",
+      "description": "The fundamental setup using the existing crossface arm threaded under the opponent's head during normal side control consolidation. The crossface hand grips the own bicep while the free hand threads into the sleeve to complete the choke loop. This is the highest-percentage entry because it requires minimal positional adjustment from standard control.",
+      "when_to_use": "When you have established solid crossface control and the opponent is focused on defending hip-based attacks like americana or kimura"
+    },
+    {
+      "variation_name": "Americana Bait to Ezekiel",
+      "description": "Threaten the americana on the near arm to draw the opponent's far hand across their body in defense. As they commit their defensive hand to protecting the shoulder, immediately abandon the americana and thread your free hand into the sleeve for the Ezekiel. The opponent's defensive hand is now out of position to block the choke entry.",
+      "when_to_use": "Against opponents who aggressively defend the americana with their far hand, creating an opening at the neck"
+    },
+    {
+      "variation_name": "Fist Variation",
+      "description": "Instead of using the blade of the forearm across the throat, make a tight fist inside the sleeve and drive the knuckles directly into the soft tissue below the Adam's apple. This creates a more focused pressure point that produces a faster tap through tracheal discomfort, though it is less mechanically efficient as a blood choke.",
+      "when_to_use": "When the opponent has a thick neck or strong chin tuck that prevents the forearm from accessing the carotid arteries effectively"
+    }
+  ],
+  "related_submissions": [
+    "Ezekiel from Mount",
+    "Americana from Side Control",
+    "Arm Triangle",
+    "Arm Triangle from Scarf Hold",
+    "Breadcutter Choke",
+    "Baseball Bat Choke",
+    "Brabo Choke",
+    "Cross Collar Choke"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Side Control Consolidation",
+      "relationship": "Primary starting position where the crossface arm is already threaded for choke setup"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family offering the same choke mechanics with slightly less control"
+    },
+    {
+      "name": "Ezekiel from Mount",
+      "relationship": "Same choke submission applied from mount, the more commonly taught variation"
+    },
+    {
+      "name": "Americana from Side Control",
+      "relationship": "Primary alternative submission and effective bait to set up the Ezekiel entry"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Complementary choke attack when opponent turns into you during Ezekiel defense"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related side control variation offering alternative Ezekiel entry angle with natural head control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Alternative control position to transition to when Ezekiel setup is defended"
+    },
+    {
+      "name": "Breadcutter Choke",
+      "relationship": "Alternative gi choke from similar side control positions targeting the same area"
     }
   ],
   "attacker": {
     "name": "Ezekiel from Side Control Consolidation Attacker",
-    "description": "TODO: Write attacker description for Ezekiel from Side Control Consolidation.",
-    "overview": "TODO: Write attacker overview for Ezekiel from Side Control Consolidation.",
+    "description": "Learn to execute the Ezekiel choke from Side Control Consolidation. Step-by-step sleeve grip mechanics, finishing details, and counter management for BJJ attackers.",
+    "overview": "Executing the Ezekiel choke from Side Control Consolidation requires disguising the choke setup within your standard crossface control. The key advantage of this attack is that your arm is already threaded beneath the opponent's head as part of normal side control mechanics, eliminating the most telegraphed portion of the Ezekiel setup. Your primary challenge is threading the choking hand into your sleeve without lifting your chest pressure, which would alert the opponent and create defensive openings. Successful execution depends on maintaining crushing top pressure throughout the entire sequence, using your body weight rather than arm strength to generate finishing force. The choke becomes nearly inescapable once the sleeve grip is secured and the forearm closes across the throat, making the setup phase the most critical window for both attacker and defender.",
     "key_principles": [
-      "TODO"
+      "Use the existing crossface arm position as your sleeve-feeding arm, requiring zero telegraphing of intent",
+      "Maintain heavy chest-to-chest pressure throughout the entire setup to mask the choke entry and limit defensive reactions",
+      "Thread the choking hand into the sleeve using wrist dexterity rather than lifting your body to create space",
+      "Drive finishing pressure forward through your chest and hips rather than squeezing with arm strength alone",
+      "Time the sleeve entry during the opponent's exhalation when their neck muscles relax and defensive capacity drops",
+      "Keep hip-to-hip connection throughout the finish to prevent space creation and hip escape counters"
     ],
     "setup_requirements": [
-      "TODO"
+      "Crossface arm threaded deeply under the opponent's head with bicep resting against the back of their neck",
+      "Heavy chest-to-chest pressure established with weight distributed through upper torso onto opponent",
+      "Opponent's near arm controlled or neutralized to prevent framing interference with the choking hand",
+      "Hip-to-hip connection maintained to block the opponent's primary hip escape pathways",
+      "Stable base with knees wide to absorb defensive bridging without disrupting the choking position"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure deep crossface position",
+        "description": "Thread your crossface arm deeper beneath the opponent's head than standard side control requires, sliding your hand past their far ear until your bicep contacts the back of their neck. This deeper penetration creates the sleeve access point needed for the choke mechanism while maintaining your standard crossface pressure.",
+        "timing": "0-5 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Settle chest pressure and control far arm",
+        "description": "Drop your full chest weight onto the opponent's upper torso while pinning or controlling their far arm with your body positioning. This prevents them from creating frames that would interfere with the choke setup and disguises your intent as standard consolidation pressure rather than a submission entry.",
+        "timing": "5-10 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Position crossface hand to grip own bicep",
+        "description": "Move your crossface hand to grip your own opposite bicep, creating the first structural element of the choking mechanism. Keep your elbow tight against the side of the opponent's head to maintain crossface pressure throughout this adjustment. Avoid any chest lift during this transition that would signal the attack.",
+        "timing": "10-15 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Thread choking hand into sleeve",
+        "description": "Feed your free hand fingers-first into the sleeve of your crossface arm, sliding along the inside of the fabric until your fist or forearm can be positioned across the opponent's throat. This is the most critical and vulnerable moment of the setup because your free hand temporarily abandons control duties to enter the sleeve.",
+        "timing": "15-20 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Close the choking loop across throat",
+        "description": "Position your fist or the blade of your forearm directly across the front of the opponent's neck, with the sleeve fabric creating a closed loop behind their neck through the crossface arm. Ensure the pressure line runs across both carotid arteries for an effective blood choke rather than centering solely on the trachea.",
+        "timing": "20-22 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Drive forward with body weight to finish",
+        "description": "Expand your arms outward while simultaneously driving your chest and hips forward into the opponent. The finishing force comes primarily from body weight and forward drive rather than arm squeezing alone. This creates a vise-like compression around the circumference of the neck that closes both carotid arteries.",
+        "timing": "22-28 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Maintain hip connection and complete finish",
+        "description": "Keep your hips heavy against the opponent's body throughout the finish to prevent them from generating hip escape space. Follow any bridging or turning with your body while maintaining the choke structure. Be prepared to release immediately upon any tap signal, as the choke can produce unconsciousness within seconds of effective application.",
+        "timing": "Throughout finish"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent uses far hand to frame against your wrist or forearm, physically blocking sleeve entry before the loop closes",
+        "effectiveness": "High",
+        "your_response": "Switch to americana attack on the framing arm since it is now extended and isolated, then return to Ezekiel when they retract the arm to defend the shoulder lock",
+        "targets_outcome": "Side Control Consolidation/Top"
+      },
+      {
+        "counter": "Opponent times an explosive bridge during your arm adjustment phase to create space for hip escape to half guard",
+        "effectiveness": "High",
+        "your_response": "Follow their hip movement with your own hips, re-establish crossface and chest pressure immediately, and reset the choke setup from consolidated position",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent tucks chin tightly against chest to prevent forearm from accessing the throat and carotid arteries",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Drive your sternum against their forehead to force the chin up, or redirect the forearm angle to target above the chin line toward the jaw and ear for mandibular compression",
+        "targets_outcome": "Side Control Consolidation/Top"
+      },
+      {
+        "counter": "Opponent turns hard into you attempting to establish an underhook and disrupt the perpendicular angle needed for the choke",
+        "effectiveness": "Medium",
+        "your_response": "Use their turning momentum to deepen the crossface arm and transition to arm triangle setup instead, capitalizing on the arm they bring across their own neck during the turn",
         "targets_outcome": "Side Control Consolidation/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting chest off the opponent to create space for threading the hand into the sleeve",
+        "consequence": "Reduces pressure by 40-50%, gives the opponent breathing room that restores defensive capacity, and creates a visible window for frames or hip escapes",
+        "correction": "Keep chest glued to opponent throughout the entire sequence, using wrist dexterity to navigate the hand into the sleeve through tactile feedback rather than visual adjustment"
+      },
+      {
+        "error": "Telegraphing the attack with obvious arm repositioning that alerts the opponent to the choke threat",
+        "consequence": "Opponent pre-emptively frames on the choking hand or tucks chin before the sleeve grip is established, dramatically reducing finishing probability",
+        "correction": "Make the crossface deepening appear as routine pressure adjustment, use the americana threat as a distraction, and keep arm movements small and deliberate"
+      },
+      {
+        "error": "Squeezing with arm strength rather than driving finishing pressure through body weight and forward movement",
+        "consequence": "Arms fatigue rapidly, the choke loses effectiveness as grip strength diminishes, and the opponent can outlast the squeeze attempt",
+        "correction": "Expand arms to create the choking structure then drive forward with chest and hips, letting body weight create the compression rather than relying on bicep and forearm strength"
+      },
+      {
+        "error": "Neglecting hip control during the finish, allowing opponent to bridge and create escape space",
+        "consequence": "Opponent escapes to half guard or creates enough space to insert defensive frames that strip the choking grip",
+        "correction": "Maintain hip-to-hip connection throughout the finish, treating the lower body control as equally important as the upper body choking mechanics"
+      },
+      {
+        "error": "Attempting the Ezekiel before fully consolidating side control and eliminating defensive frames",
+        "consequence": "Opponent's active frames and hip mobility provide enough defensive structure to prevent the choke from closing effectively, and the failed attempt burns positional capital",
+        "correction": "Invest 10-20 seconds in full consolidation first, eliminating frames and establishing heavy pressure before initiating the Ezekiel setup sequence"
+      },
+      {
+        "error": "Inserting the hand too shallowly into the sleeve, reducing the structural integrity of the choking loop",
+        "consequence": "The sleeve fabric does not create enough mechanical advantage, the opponent can strip the grip with one hand, and the forearm cannot generate sufficient throat pressure",
+        "correction": "Feed the hand deep into the sleeve until the wrist crease passes the sleeve opening, ensuring the fabric locks around the forearm and creates a rigid choking structure"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Sleeve grip and hand positioning",
+        "description": "Practice the sleeve entry motion in isolation with a compliant partner. Focus on threading the hand into the sleeve without lifting chest pressure, developing the wrist dexterity needed for blind fabric navigation. Drill the grip 50 times per side before adding resistance."
+      },
+      {
+        "phase": "Phase 2: Integration",
+        "focus": "Combining Ezekiel setup with side control maintenance",
+        "description": "Execute the full Ezekiel sequence from consolidated side control against a partner providing 30% resistance. Focus on maintaining crossface pressure and hip connection throughout every phase of the setup. Partner provides feedback on pressure drops that would signal the attack."
+      },
+      {
+        "phase": "Phase 3: Timing and Setups",
+        "focus": "Setting up from common defensive reactions",
+        "description": "Practice the americana-to-Ezekiel chain and other entries against a partner defending with realistic responses. Develop the ability to read when the opponent's defensive focus shifts away from the neck, creating the window for sleeve entry. Increase resistance to 60%."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks",
+        "focus": "Combining Ezekiel with americana and arm triangle threats",
+        "description": "Flow between americana, Ezekiel, and arm triangle attacks based on the opponent's defensive choices, creating a three-threat system from consolidated side control. Each failed attack should naturally set up the next. Partner provides 80% resistance."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Live application with full resistance",
+        "description": "Implement the Ezekiel in positional sparring rounds starting from side control. Track success rate and identify which setups produce the highest finishing percentage against training partners of varying sizes and skill levels. Adjust timing and entry based on competitive feedback."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What specific anatomical structures does the Ezekiel choke from side control compress to produce the tap?",
+        "answer": "The Ezekiel choke primarily compresses the carotid arteries on both sides of the neck, restricting blood flow to the brain. Depending on forearm positioning, it can also apply direct pressure to the trachea, creating an air choke component. The ideal application targets both carotids simultaneously using the blade of the forearm on one side and the sleeve-wrapped structure on the other, producing a blood choke that causes unconsciousness in 4-8 seconds when properly applied."
+      },
+      {
+        "question": "What physical signs indicate your opponent is approaching the breaking point and the choke is effective?",
+        "answer": "Key indicators include the opponent's face turning red or purple from blood pooling, increased desperation in defensive hand movements becoming less coordinated, involuntary gurgling or gasping sounds indicating tracheal compression, and the body going limp or sudden cessation of defensive movement suggesting approaching unconsciousness. The transition from active defense to passive defense often occurs 2-3 seconds before unconsciousness. If you feel their body suddenly relax completely, release immediately."
+      },
+      {
+        "question": "What control elements must be established before committing to the Ezekiel choke finish from side control consolidation?",
+        "answer": "Before committing, you need heavy chest-to-chest pressure distributed through your upper body, the crossface arm threaded deeply under the opponent's head with your hand positioned to grip your own bicep, the opponent's near arm controlled or pinned to prevent framing against your choking hand, hip-to-hip connection maintained to prevent hip escape movement, and a base stable enough to absorb defensive bridging without losing the choking position. Rushing the entry without these elements consistently results in failed attempts."
+      },
+      {
+        "question": "At what point during the Ezekiel setup does the choke become virtually inescapable for the defender?",
+        "answer": "The point of no return occurs when your choking hand has fully entered the sleeve and your forearm or fist is positioned across the front of the opponent's throat with the sleeve creating a closed loop behind their neck. Once this closed loop is established, the defender cannot simply pull your hand away because the sleeve fabric creates structural integrity that resists single-hand defense. Before this point, the defender can strip your feeding hand or create frames to prevent sleeve entry. The critical transition is the moment your fingers close inside the sleeve."
+      },
+      {
+        "question": "What is the most common finishing error when applying the Ezekiel from side control, and how does it reduce effectiveness?",
+        "answer": "The most common error is lifting your chest off the opponent to create space for threading the hand into the sleeve. This chest lift reduces pressure by 40-50%, gives the opponent breathing room that restores their defensive capacity, and creates a visible window for them to insert frames or initiate hip escapes. The correction is to keep your chest on the opponent throughout the entire sequence, using wrist dexterity to navigate your hand into the sleeve through tactile feedback rather than visual adjustment."
+      },
+      {
+        "question": "How should you adjust your grip if the opponent tucks their chin to prevent the forearm from closing across the throat?",
+        "answer": "When the opponent tucks their chin, shift your choking forearm angle to target above the chin line rather than fighting through it. Walk your fist toward the opponent's ear on the sleeve side, creating a diagonal pressure line from ear to opposite shoulder that passes above the chin. Alternatively, use your chest weight to drive their chin up by pressing your sternum against their forehead, which forces the chin open and exposes the throat. A third option is switching to jaw compression by pressing the forearm under the chin and driving upward."
+      },
+      {
+        "question": "What are the critical safety protocols when training the Ezekiel choke, and what injuries can occur from improper application?",
+        "answer": "The Ezekiel choke can cause tracheal damage including cartilage fracture if applied with sudden jerking force rather than progressive pressure. Always apply the choke slowly and progressively in training, never spiking or cranking. Release immediately upon any tap signal. If your training partner goes limp, release immediately and place them in recovery position while monitoring breathing. Tracheal injuries can require 2-6 weeks of recovery. Carotid compression produces unconsciousness within 4-8 seconds of effective application, so the window between effective choke and unconsciousness is extremely narrow.",
+        "safety_critical": true
+      },
+      {
+        "question": "What setup sequences increase the finishing rate of the Ezekiel from side control in competition?",
+        "answer": "The highest-percentage competition setup involves threatening the americana first to draw the opponent's far hand across their body in defense, which simultaneously opens their neck and removes their primary frame against the Ezekiel. When they defend the americana by pulling their arm tight, immediately transition to the Ezekiel entry since their defensive focus has shifted to the shoulder lock. Another effective sequence is threatening the knee-on-belly transition to force the opponent to turn, then threading the Ezekiel as they settle back. The key principle is never attempting the Ezekiel as a primary attack but always as a secondary threat."
+      },
+      {
+        "question": "Why is body weight drive more effective than arm squeezing for finishing the Ezekiel from side control?",
+        "answer": "Body weight drive is superior because it generates sustained, increasing pressure without muscular fatigue. Your chest and hip weight combined can easily exceed 70% of your total body weight, far more force than your arms can generate through isometric squeezing. Arm squeezing also creates a predictable pressure pattern the opponent can time defensive bursts against. Forward driving pressure through the body compresses the neck circumferentially as the sleeve tightens, and the opponent cannot outlast body weight the way they can outlast arm fatigue. The body drive also maintains positional control throughout the finish."
+      },
+      {
+        "question": "How do you maintain the Ezekiel choke structure when the opponent bridges during the finishing phase?",
+        "answer": "When the opponent bridges during the finish, keep your hips heavy and let them carry you rather than posting a hand to resist. Your choking structure should remain intact because it relies on the closed sleeve loop, not on static positioning. As they bridge, your body weight actually drives the choke deeper since the forward force increases. Widen your knees to maintain base stability throughout the bridge. As they descend from the bridge apex, immediately re-settle your hips and increase forward pressure. The bridge rarely breaks a properly locked Ezekiel because the sleeve prevents the loop from opening."
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Ezekiel from Side Control Consolidation."
+    ]
   },
   "defender": {
     "name": "Ezekiel from Side Control Consolidation Defender",
-    "description": "TODO: Write defender description for Ezekiel from Side Control Consolidation.",
-    "overview": "TODO: Write defender overview for Ezekiel from Side Control Consolidation.",
+    "description": "Defend against the Ezekiel choke from Side Control Consolidation. Recognition cues, defensive timing, escape techniques, and survival strategies for BJJ defenders.",
+    "overview": "Defending the Ezekiel choke from Side Control Consolidation demands early recognition of the setup, as the choke becomes extremely difficult to escape once the sleeve grip is secured. The crossface arm is already in position during normal side control, so the defender must identify the subtle shift when the opponent begins feeding their hand toward their own sleeve. The primary defensive window occurs during this threading phase, when the attacker must momentarily adjust their arm position and may lighten chest pressure. Effective defense combines immediate frame intervention on the choking hand with hip escape mechanics to create enough space to prevent the choke from closing. If the choke locks in fully, the defender's options narrow rapidly to emergency escapes that risk position but prevent unconsciousness.",
     "key_principles": [
-      "TODO"
+      "Recognize the Ezekiel setup in its earliest stages when the crossface arm threads deeper than normal side control requires",
+      "Protect the throat with chin tuck and jaw positioning as a secondary defense, but prioritize preventing the sleeve grip from closing",
+      "Use your far arm actively to intercept and strip the choking hand before it enters the sleeve rather than passively framing",
+      "Time defensive actions to the opponent's arm adjustment phase when their chest pressure and control are momentarily weakest",
+      "Prioritize preventing the closed loop from forming over attempting to fight a fully locked choke",
+      "Maintain hip activity even under heavy pressure to preserve escape options when the opponent commits to the choke setup"
     ],
     "recognition_cues": [
-      "TODO"
+      "Crossface arm slides noticeably deeper under your head than standard side control positioning, with the opponent's bicep moving behind your neck",
+      "Opponent's free hand moves toward their own sleeve near your chin or throat rather than controlling your hip or far arm",
+      "Feeling of the opponent's wrist rotating inside the fabric near your neck as they position for the sleeve feed",
+      "Subtle chest pressure reduction as the opponent adjusts their upper body to thread the choking hand into the sleeve",
+      "Opponent grips their own bicep with the crossface hand, creating an unusual arm configuration you can feel against the back of your neck"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Use far hand to grip and strip opponent's wrist before it enters the sleeve, preventing the choke loop from closing",
+        "when_to_use": "As soon as you feel the crossface arm thread deeper and their free hand moves toward your neck area",
         "targets_outcome": "Side Control Consolidation/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Prevents choke setup entirely and forces opponent to abandon the Ezekiel or restart from scratch",
+        "risk": "Exposing far arm may create americana or kimura vulnerability if the strip attempt fails"
+      },
+      {
+        "action": "Execute explosive bridge timed with opponent's arm adjustment, immediately follow with hip escape toward their legs",
+        "when_to_use": "During the sleeve threading phase when the opponent's chest pressure momentarily lightens as they focus on hand entry",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recover half guard and reset to a more defensible position with the choke threat eliminated",
+        "risk": "Failed bridge wastes significant energy and may accelerate the opponent's setup if they re-settle quickly"
+      },
+      {
+        "action": "Turn into opponent and drive underhook deep to disrupt the perpendicular angle required for the choke",
+        "when_to_use": "When you feel the crossface loosen during arm repositioning and have enough hip mobility to generate the turn",
+        "targets_outcome": "Side Control Consolidation/Top",
+        "if_successful": "Disrupts the choke angle completely and may create scramble or underhook battle opportunity",
+        "risk": "May expose back if the turn is too aggressive without proper frame support underneath"
+      },
+      {
+        "action": "Tuck chin tightly to chest and use jaw pressure to block forearm access to throat as emergency defense",
+        "when_to_use": "When the sleeve grip is already established and the forearm is approaching the front of your throat",
+        "targets_outcome": "Side Control Consolidation/Top",
+        "if_successful": "Buys time to work grip stripping defense with your hands or set up a hip escape",
+        "risk": "Jaw compression is painful and the opponent may adjust the forearm angle to bypass your chin entirely"
       }
+    ],
+    "escape_paths": [
+      "Hip escape to half guard during the sleeve-threading phase when chest pressure lightens, inserting near knee before the choke closes",
+      "Bridge and turn to create scramble, fighting for underhook position before the choke loop is fully established",
+      "Strip the sleeve grip with far hand and immediately establish strong forearm frame against the opponent's neck to create distance"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control Consolidation/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time the explosive bridge during the opponent's sleeve-feeding phase when their chest pressure lifts momentarily, immediately follow with hip escape and near knee insertion to recover half guard before the choke can be re-attempted"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Ignoring the subtle arm repositioning cues and failing to recognize the Ezekiel setup until the sleeve grip is already established",
+        "consequence": "Defensive window closes completely, and the locked choke becomes nearly impossible to escape from bottom side control, forcing an emergency tap",
+        "correction": "Develop sensitivity to crossface depth changes and any hand movement near your neck area, treating these as immediate red flags requiring instant defensive response"
+      },
+      {
+        "error": "Extending arms to push the opponent's chest away rather than using bent-arm structural frames",
+        "consequence": "Creates vulnerability to americana, kimura, and armbar attacks while simultaneously removing the primary defensive tool needed to block sleeve entry",
+        "correction": "Use bent-arm forearm frames with elbows tight to ribs, positioning forearms vertically against the opponent's chest to maintain defensive structure while keeping arms safe from isolation"
+      },
+      {
+        "error": "Panicking when the choke begins to tighten and thrashing rather than executing a systematic escape",
+        "consequence": "Burns energy rapidly, opens additional space for the opponent to deepen the choke, and eliminates the precise timing needed for effective escape techniques",
+        "correction": "Maintain controlled breathing and execute the defensive hierarchy in order: strip grip first, then frame, then hip escape. If the choke is fully locked, tap rather than risking unconsciousness"
+      },
+      {
+        "error": "Attempting to strip the sleeve grip too late after the forearm is already positioned across the throat with body weight applied",
+        "consequence": "The structural integrity of the sleeve fabric combined with the opponent's body weight makes grip stripping virtually impossible once the choke is locked in finishing position",
+        "correction": "Intervene during the hand-threading phase before the fingers enter the sleeve, when the grip is weakest and most vulnerable to defensive stripping"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest warning signs that an opponent is setting up an Ezekiel choke from side control consolidation?",
+        "answer": "The earliest warning sign is feeling the crossface arm slide deeper under your head than normal side control requires, with the opponent's bicep moving behind your neck rather than staying across your jaw. You will also feel their free hand move toward your chin or throat area instead of controlling your hip or far arm. The most reliable combined indicator is deeper crossface threading plus free hand movement near the neck, which should trigger immediate defensive response before the sleeve grip is established."
+      },
+      {
+        "question": "When is the optimal moment to execute your primary defense against the Ezekiel, and what happens if you miss this window?",
+        "answer": "The optimal defensive window is during the sleeve-threading phase, before the opponent's fingers enter their own sleeve. During this phase, their chest pressure often lightens slightly as they adjust arm positioning, and their choking hand is vulnerable to being stripped or blocked by your far arm. If you miss this window and the sleeve grip is established, options narrow to emergency responses: explosive bridge to create space and immediately shrimp to half guard. Once the choke is fully locked with closed loop and forward pressure, tapping becomes the safest response."
+      },
+      {
+        "question": "What should you do if you feel lightheaded or notice vision changes while defending an Ezekiel choke in training?",
+        "answer": "Tap immediately without hesitation. Lightheadedness, tunnel vision, or any visual disturbances indicate that the carotid arteries are being effectively compressed and blood flow to the brain is restricted. Unconsciousness can follow within 2-4 seconds of these symptoms appearing. There is no defensive technique worth risking loss of consciousness in training. After tapping, communicate the choke effectiveness to your partner, take a moment to recover, and note the position where you were caught so you can develop earlier defensive responses in future training.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is extending your arms to push the opponent's chest a critical error when defending the Ezekiel from side control?",
+        "answer": "Extended arms create three simultaneous problems: they remove your primary frame from protecting your neck area, they expose your arms to americana and kimura attacks that the opponent can chain from the Ezekiel setup, and they provide the opponent a stable structure to drive weight through. The extended position also pulls your elbows away from your body, creating the exact space the opponent needs to thread their hand deeper for sleeve entry. Bent-arm forearm frames positioned vertically maintain defensive integrity while keeping arms safe."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying Ezekiel setup cues from bottom side control",
+        "description": "Partner slowly executes the Ezekiel setup from side control consolidation while you focus exclusively on recognizing each stage: crossface deepening, bicep grip, and sleeve threading. Call out each stage verbally as you feel it. No escape attempts yet, pure recognition development."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Framing and grip stripping during the sleeve entry phase",
+        "description": "Partner attempts the Ezekiel at 40% speed while you practice intercepting the choking hand before it enters the sleeve. Focus on timing the far hand strip and maintaining bent-arm frames. Reset each time the sleeve grip is established. Track your interception success rate."
+      },
+      {
+        "phase": "Phase 3: Emergency Escape",
+        "focus": "Hip escape under partially locked choke",
+        "description": "Partner establishes the sleeve grip but applies the finish at 50% intensity. Practice the explosive bridge and hip escape sequence under active choking pressure. Develop the ability to create half guard recovery even when the choke is partially set. Tap if the choke fully locks before you escape."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Defensive reactions during positional sparring",
+        "description": "Positional rounds starting in side control bottom where partner can attack any submission including the Ezekiel. Practice integrating Ezekiel recognition into your broader defensive framework without sacrificing defense against other threats. Increase resistance to full competitive intensity."
       }
     ]
   }

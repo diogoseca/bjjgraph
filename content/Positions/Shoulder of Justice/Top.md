@@ -21,37 +21,37 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,23 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura]] (16% of attempts)
+### [[Kimura]] (20% of attempts)
 
-### [[Americana]] (14% of attempts)
+### [[Americana]] (12% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Side Control to North-South]] (15% of attempts)
+### [[Side Control to North-South]] (13% of attempts)
 
-### [[Arm Triangle]] (13% of attempts)
+### [[Arm Triangle]] (11% of attempts)
 
-### [[North-South Choke]] (12% of attempts)
+### [[North-South Choke]] (10% of attempts)
 
-### [[Knee on Belly]] (15% of attempts)
+### [[Knee on Belly]] (13% of attempts)
+
+### [[Shoulder of Justice Kimura Setup]] (5% of attempts)
+
+### [[Shoulder of Justice to Mount]] (3% of attempts)
 
 
 

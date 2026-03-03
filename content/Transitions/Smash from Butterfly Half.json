@@ -1,10 +1,15 @@
 {
   "name": "Smash from Butterfly Half",
-  "description": "TODO: Write 150-160 character SEO description for Smash from Butterfly Half.",
+  "description": "Master the smash pass from butterfly half guard. Learn to kill the butterfly hook, apply crushing pressure, and complete the pass to dominant side control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard-passing",
+    "pressure-passing",
+    "butterfly-half-guard",
+    "smash-pass",
+    "hook-neutralization",
+    "side-control-entry"
   ],
   "from_position": "Butterfly Half Guard/Top",
   "outcomes": [
@@ -25,114 +30,386 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Smash from Butterfly Half.",
+  "overview": "The Smash from Butterfly Half is a direct pressure-based passing technique executed from butterfly half guard top, designed to systematically neutralize the bottom player's butterfly hook through crushing weight distribution and controlled hip positioning before completing the pass to side control. Unlike speed-based or backstep passing approaches that attempt to circumvent the butterfly hook, this technique attacks the hook's mechanical foundation directly by eliminating the space underneath the top player's body that allows the hook to generate elevation and sweeping force. The smash approach converts a complex guard problem into a manageable half guard extraction sequence by first removing the butterfly hook threat entirely.\n\nThe strategic importance of this pass lies in its reliability against modern hybrid guard systems where butterfly half guard serves as a high-percentage offensive platform. Aggressive bottom players use the butterfly hook to create constant off-balancing threats and sweep entries. By committing to the smash, the top player removes this primary offensive weapon and forces the exchange into a standard half guard passing scenario where pressure fundamentals and methodical leg extraction become the determining factors. The technique punishes bottom players who rely on maintaining the hook through positioning rather than actively sweeping, making it particularly effective against practitioners who use butterfly half as a holding pattern.\n\nExecution requires precise sequencing: establish dominant upper body control first, then drive weight onto the butterfly hook to pin it, and finally extract the trapped half guard leg to complete the pass. Rushing any phase exposes the top player to sweeps and guard recoveries. The smash is most effective when combined with other passing approaches in a chain, as failed smash attempts can transition directly into knee slice, backstep, or body lock passing sequences, maintaining offensive initiative throughout the exchange.",
   "conditions": [
-    "TODO"
+    "Top player is established in butterfly half guard top with one leg trapped in half guard and the other leg hooked by opponent's butterfly hook",
+    "Top player has established or can immediately establish upper body control through crossface, underhook, or collar grips",
+    "Bottom player's active sweeping momentum has been momentarily neutralized, creating a window to initiate downward pressure",
+    "Sufficient forward pressure can be applied without overcommitting into an active sweep attempt by the bottom player"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Crossface Drive Smash",
+      "description": "Emphasizes deep crossface pressure to turn the bottom player's head away from the butterfly hook side, eliminating their ability to generate hip rotation and sweeping angles. The crossface drives the bottom player flat while progressive chest pressure crushes the hook's elevation capacity. This variant prioritizes upper body control dominance before addressing the hook directly.",
+      "when_to_use": "When you have established a strong crossface grip and the bottom player relies on hip rotation to maintain hook effectiveness rather than upper body grips"
+    },
+    {
+      "variant_name": "Hip Switch Pin",
+      "description": "Involves rotating your hips laterally to pin the butterfly hook foot between your shin and the mat using a controlled hip switch movement. Rather than driving straight downward pressure, this variation uses rotational force to trap the hook and eliminate its range of motion. The hip switch creates a mechanical lock that prevents the hook from re-inserting even if the bottom player maintains activity.",
+      "when_to_use": "When the bottom player has a particularly active hook that resists straight downward pressure and you need lateral rotational control to pin it effectively"
+    },
+    {
+      "variant_name": "Underhook Sprawl Smash",
+      "description": "Combines a deep underhook on the near side with a sprawling hip drive to flatten the bottom player's structure. The underhook lifts their shoulder off the mat while your hips sprawl back and heavy onto the hook-side hip, creating opposing forces that break the guard framework. This variant works well against opponents with strong frames who resist direct forward pressure.",
+      "when_to_use": "When you have won the underhook battle and the bottom player is attempting to maintain guard through framing rather than underhook-based sweeps"
     }
   ],
-  "position_integration": "TODO: Write position integration for Smash from Butterfly Half.",
+  "position_integration": "The Smash from Butterfly Half occupies a central role in the pressure passing system as the primary direct solution to butterfly half guard. It connects the butterfly half guard top position to side control, bypassing the intermediate half guard passing phase entirely when executed cleanly. This technique chains naturally with knee slice passes when the smash stalls at the half guard extraction phase, backstep passes when the bottom player attempts to recover butterfly hooks, and body lock passes when upper body control is strong but leg extraction proves difficult. For the bottom player, the smash represents the primary pressure threat to address when playing butterfly half guard, making understanding this technique essential for developing both offensive guard retention and defensive passing strategies.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Butterfly Half Guard",
+      "relationship": "Source position where this transition originates"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position reached upon successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when bottom player recovers standard half guard"
+    },
+    {
+      "name": "Knee Slice from Butterfly Half",
+      "relationship": "Alternative passing technique from the same starting position that chains with failed smash attempts"
+    },
+    {
+      "name": "Flattened Half Guard",
+      "relationship": "Intermediate position that may result from successful flattening during the smash sequence"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common escape route for the bottom player when smash pressure is partially applied"
+    },
+    {
+      "name": "Butterfly Half Guard Sweep",
+      "relationship": "Primary counter-technique the bottom player threatens during the smash attempt"
+    },
+    {
+      "name": "Reguard from Butterfly Half Guard",
+      "relationship": "Defensive recovery technique the bottom player uses to retain butterfly hook position"
+    },
+    {
+      "name": "Half Butterfly to Dogfight",
+      "relationship": "Alternative outcome when bottom player fights up with underhook during smash"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing platform that may be reached if the half guard leg is extracted without completing full pass"
     }
   ],
   "attacker": {
     "name": "Smash from Butterfly Half Attacker",
-    "description": "TODO: Write attacker description for Smash from Butterfly Half.",
-    "overview": "TODO: Write attacker overview for Smash from Butterfly Half.",
+    "description": "Master the attacker's perspective for smashing through butterfly half guard. Step-by-step guide to killing the butterfly hook, applying systematic pressure, and completing the pass to side control.",
+    "overview": "The attacker in the Smash from Butterfly Half is the top player who must solve the dual problem of neutralizing an active butterfly hook while simultaneously managing a half guard leg trap. The approach demands disciplined sequencing rather than explosive movement. First establish dominant upper body control to prevent sweeps, then systematically crush the butterfly hook's lifting capacity through weight distribution and hip positioning, and finally extract the trapped leg to complete the pass to side control. The attacker must resist the temptation to rush directly to leg extraction, as the butterfly hook creates dangerous sweep opportunities whenever the top player's weight shifts upward or backward. Patience and progressive pressure application distinguish successful smash passers from those who get swept attempting to force the pass.",
     "key_principles": [
-      "TODO"
+      "Establish upper body control before addressing the butterfly hook, as crossface or underhook dominance prevents sweeps during the smash sequence",
+      "Drive weight downward through chest and hips onto the butterfly hook to eliminate the space needed for elevation, treating the hook as the primary threat",
+      "Maintain constant forward pressure through shoulder and chest connection while keeping hips low and heavy to prevent the bottom player from creating any lifting angles",
+      "Sequence the pass methodically: control upper body first, kill butterfly hook second, extract trapped leg third, consolidate side control fourth",
+      "Use progressive pressure escalation rather than sudden explosive movements, as abrupt weight shifts create sweep opportunities for the bottom player",
+      "Keep the free leg posted wide for base throughout the smash, ensuring stability against unexpected sweep attempts or directional changes"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established position in butterfly half guard top with one leg trapped and opponent's butterfly hook present under the free leg",
+      "Upper body control through crossface, underhook, or collar grip that prevents the bottom player from achieving upright sweeping posture",
+      "Momentary neutralization of active sweeping threats, ensuring the bottom player is defending rather than attacking when you initiate the smash",
+      "Base leg posted wide on the mat with sufficient stability to resist lateral sweep attempts during the pressure application phase",
+      "Chest-to-chest proximity established or achievable, with no significant frames preventing forward pressure application"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure dominant upper body control",
+        "description": "Establish deep crossface with your forearm or bicep driving across the bottom player's jaw and neck, turning their head away from the butterfly hook side. Alternatively, secure a tight underhook on the near side. This control prevents the bottom player from achieving the upright posture necessary for effective butterfly sweeps and must be established before any downward pressure commitment."
+      },
+      {
+        "step_number": 2,
+        "action": "Post base leg wide for stability",
+        "description": "Extend your free leg out wide perpendicular to the bottom player's body, planting your foot firmly on the mat to create a wide base. This tripod-like structure provides the stability necessary to resist sweep attempts that will come as you begin applying downward pressure onto the butterfly hook. Without this wide base, committing weight forward becomes dangerously susceptible to directional sweeps."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive chest pressure to break posture",
+        "description": "Begin driving your chest and shoulder weight forward and downward into the bottom player's upper body. The goal is to flatten them from their seated or semi-reclined posture onto their back. Drive your shoulder into their face or chest while maintaining crossface control. This step removes the geometric advantage that an elevated posture gives the butterfly hook and starts collapsing their guard structure."
+      },
+      {
+        "step_number": 4,
+        "action": "Pin the butterfly hook with hip pressure",
+        "description": "Once the bottom player's posture is broken and they are being flattened, shift your hip weight directly onto the butterfly hook side. Drive your hip downward and laterally to pin their hook foot between your hip and the mat. The key mechanical detail is dropping your hip bone directly onto the butterfly hook thigh, eliminating all space underneath your body where the hook could generate upward pressure or lifting motion."
+      },
+      {
+        "step_number": 5,
+        "action": "Consolidate the flattened position",
+        "description": "With the butterfly hook neutralized and the bottom player flattened, momentarily consolidate your position by ensuring your weight is distributed across their torso with heavy chest-to-chest contact. Confirm that the hook cannot re-insert by testing slight upward resistance. The position should now resemble standard half guard top with the butterfly hook effectively dead, giving you a stable platform for leg extraction."
+      },
+      {
+        "step_number": 6,
+        "action": "Begin trapped leg extraction",
+        "description": "With upper body control maintained and the butterfly hook killed, begin working to free your trapped leg from the half guard. Use small backstep or knee slide movements to progressively free your knee past the bottom player's legs. Maintain heavy shoulder pressure throughout to prevent the bottom player from recovering any guard structure or re-inserting hooks during the extraction phase."
+      },
+      {
+        "step_number": 7,
+        "action": "Windshield wiper or slide the knee through",
+        "description": "Execute the final leg extraction using a windshield wiper motion (rotating your knee outward and through) or a knee slide that cuts across the bottom player's thigh. The trapped leg should clear the bottom player's guard in one decisive movement. Avoid halfway extractions that allow them to catch a quarter guard or re-establish half guard, as these incomplete extractions waste the pressure advantage you built."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish side control with full consolidation",
+        "description": "As your leg clears the guard, immediately drive your hips to the mat on the far side of the bottom player's body and establish perpendicular chest-to-chest contact for side control. Secure crossface or underhook control, connect hip to hip, and eliminate all remaining space. Do not pause between clearing the guard and consolidating side control, as any gap allows guard recovery through hip escapes or knee re-insertion."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Bottom player re-inserts butterfly hook by hip escaping and threading foot back under the top player's thigh after it was partially killed",
+        "effectiveness": "High",
+        "your_response": "Immediately re-apply downward hip pressure and drive your weight back onto the hook. Ensure your chest stays connected to their upper body throughout. If the hook re-inserts repeatedly, switch to a hip switch pin variant where you rotate your hips laterally to trap the hook foot between your shin and the mat.",
         "targets_outcome": "Butterfly Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player frames with forearms against the top player's shoulder and neck to prevent chest-to-chest pressure application",
+        "effectiveness": "Medium",
+        "your_response": "Drive through the frames by walking your chest pressure forward while swimming your underhook deeper underneath their arm. Use your head position to create additional pressure that makes the frames unsustainable. Strip the frame-side arm by pushing their elbow past your head with your free hand.",
+        "targets_outcome": "Butterfly Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player secures deep underhook and comes up to dogfight position during the smash attempt, threatening sweep",
+        "effectiveness": "High",
+        "your_response": "If they establish the underhook and come to their knees, immediately apply a heavy whizzer on the underhook arm and sprawl your hips back to flatten their angle. Drive your shoulder into their ear to break their posture back down. If the dogfight is fully established, transition to crossface and work to re-flatten before continuing the smash.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player elevates with the hook as you commit weight forward, using your momentum for a butterfly sweep",
+        "effectiveness": "Medium",
+        "your_response": "Post your free hand wide on the mat immediately and drop your hips lower rather than fighting the elevation with upper body strength alone. Extend your base leg out further for stability. The sweep succeeds when you are top-heavy; it fails when your hips are lower than theirs. Widen base, drop hips, and restart the pressure sequence from a more stable platform.",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Driving forward with heavy pressure directly into an active butterfly hook without first establishing upper body control",
+        "consequence": "The bottom player uses your forward momentum as fuel for the butterfly sweep, elevating and rolling you over with your own committed weight",
+        "correction": "Always establish crossface or underhook control before committing downward pressure. Upper body dominance prevents the bottom player from coordinating the hip drive and upper body pull needed for an effective sweep."
+      },
+      {
+        "error": "Attempting to extract the trapped half guard leg before killing the butterfly hook",
+        "consequence": "The leg extraction creates upward weight shift that reactivates the butterfly hook, allowing the bottom player to sweep during the transition between killing the hook and completing the pass",
+        "correction": "Follow the strict sequence: upper body control first, butterfly hook neutralization second, leg extraction third. Never skip the hook-killing phase to rush the pass completion."
+      },
+      {
+        "error": "Keeping a narrow base with the free leg tucked close to the body during the smash",
+        "consequence": "A narrow base makes you vulnerable to lateral sweeps in either direction and provides insufficient stability when the bottom player bridges or hip escapes during the pressure sequence",
+        "correction": "Post the free leg wide, at least shoulder width, with foot planted firmly on the mat. The wider base creates a stable tripod structure that resists sweep attempts from multiple directions."
+      },
+      {
+        "error": "Applying pressure through the hands and arms rather than through hips and chest",
+        "consequence": "Arm-based pressure is easily framed against and creates space underneath your body where the butterfly hook can re-establish lifting capacity",
+        "correction": "Transfer weight through your skeletal structure using chest-to-chest and hip-to-hip contact. Arms should be used for controlling grips, not bearing weight. Bone-on-bone pressure is sustainable and much harder to frame against."
+      },
+      {
+        "error": "Pausing after killing the butterfly hook instead of immediately transitioning to leg extraction",
+        "consequence": "The pause allows the bottom player to recover their composure, re-establish frames, and begin working to re-insert the butterfly hook or transition to knee shield",
+        "correction": "Treat the smash as a continuous flowing sequence. Once the hook is killed and position consolidated, immediately begin leg extraction while the bottom player is still flattened and defensively compromised."
+      },
+      {
+        "error": "Releasing crossface control during the final leg extraction phase to use both hands for the pass",
+        "consequence": "Without crossface control, the bottom player turns into you, recovers hip mobility, and either re-guards or initiates a sweep during the most vulnerable moment of the pass",
+        "correction": "Maintain crossface or shoulder pressure throughout the entire pass completion. Use your hips and legs for the extraction while keeping upper body control intact until side control is fully consolidated."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Pressure Mechanics",
+        "focus": "Weight distribution and hook neutralization",
+        "description": "Practice applying downward pressure to kill the butterfly hook with a cooperative partner. Focus exclusively on the hip positioning, chest connection, and weight transfer needed to pin the hook to the mat. Partner provides zero resistance but maintains hook position. Drill 20 repetitions per side, focusing on feeling the hook die under your weight."
+      },
+      {
+        "phase": "Phase 2: Sequenced Execution",
+        "focus": "Full technique chain from control to pass completion",
+        "description": "Execute the complete smash sequence from upper body control establishment through hook neutralization to leg extraction and side control consolidation. Partner provides light resistance (30-40%) and resets after each successful pass. Focus on smooth transitions between phases without pausing or rushing. Drill 10-15 complete repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Responding to common defensive reactions",
+        "description": "Partner provides moderate resistance (50-70%) and actively attempts defenses: re-inserting hook, framing, coming up for underhook, and hip escaping. Practice recognizing each defensive response and applying the appropriate adjustment. Develop automatic reactions to common counters. 5-minute positional rounds with reset after pass or sweep."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition-level positional sparring",
+        "description": "Positional sparring starting from butterfly half guard top at full resistance. Top player's goal is to pass using the smash or any chain technique. Bottom player attempts sweeps, guard retention, and transitions to other guards. Track pass completion rate across rounds and identify patterns in defensive responses that require further drilling."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the smash from butterfly half guard?",
+        "answer": "The optimal timing is immediately after the bottom player's sweep attempt fails or when they are resetting their grips between offensive sequences. During these recovery moments, their butterfly hook transitions from active threat to passive positioning, and their upper body control is momentarily weakened. Initiating the smash during active sweep attempts is dangerous because your forward commitment feeds their sweep mechanics. Wait for the pause between their attacks, then commit decisively."
+      },
+      {
+        "question": "What conditions must exist before you can safely begin the smash pass from butterfly half guard?",
+        "answer": "You need established upper body control through crossface or underhook that prevents the bottom player from achieving upright sweeping posture. Your base leg must be posted wide for stability. The bottom player's butterfly hook should be present but not actively elevating, meaning they are between offensive sequences rather than mid-sweep. Additionally, their upper body grips should be broken or manageable so that forward pressure commitment does not immediately result in being pulled off-balance."
+      },
+      {
+        "question": "What is the critical hip movement that kills the butterfly hook during the smash pass?",
+        "answer": "The critical movement is dropping your hip bone directly downward and slightly laterally onto the butterfly hook side, driving your hip weight onto their thigh just above where their foot inserts under your leg. This eliminates the space between your body and the mat where the hook generates upward lifting force. The hip drop must be committed and heavy, using gravity and skeletal weight rather than muscular effort. A half-committed hip drop leaves enough space for the hook to continue generating pressure."
+      },
+      {
+        "question": "Your opponent re-inserts their butterfly hook immediately after you pinned it - what went wrong and how do you adjust?",
+        "answer": "The re-insertion indicates insufficient chest-to-chest connection during the pin phase. When your chest lifts even slightly off their upper body, their hip mobility returns and they can thread their foot back under your thigh. The adjustment is to maintain heavier forward shoulder pressure while pinning the hook, keeping your weight distributed across their torso as a unified pressure system rather than isolating the hip pressure from the upper body control. Additionally, consider switching to the hip switch pin variant where you rotate laterally to trap their foot between your shin and the mat."
+      },
+      {
+        "question": "What are the essential upper body controls needed to execute the smash from butterfly half guard?",
+        "answer": "The primary control is a crossface with your forearm or bicep driving across their jaw and neck, which turns their head away and prevents the hip rotation needed for sweeps. The secondary option is a deep underhook on the near side controlling their lat or back, which prevents them from establishing their own underhook and limits their ability to come up to dogfight. A collar tie on the butterfly hook side provides a third option for breaking posture in gi. At minimum, one dominant upper body control must be established before committing any downward pressure."
+      },
+      {
+        "question": "In which direction should the primary force be applied during the smash pass?",
+        "answer": "The primary force direction is forward and downward at approximately a 45-degree angle, driven through your chest and shoulder into the bottom player's upper body while your hips drive downward onto the hook. This combined vector flattens their posture backward while simultaneously crushing the hook's lifting capacity. Straight downward force alone is insufficient because it does not address their ability to turn sideways and create sweeping angles. The forward component prevents them from maintaining any upright structure."
+      },
+      {
+        "question": "Your opponent frames against your shoulder and begins hip escaping as you initiate the smash - how do you respond?",
+        "answer": "Drive through the frame by walking your shoulder pressure forward incrementally rather than trying to blast through it. Swim your underhook deeper underneath their framing arm to strip its structure. Use your head position to create additional pressure against their frame-side shoulder. If the frame is particularly strong, use your free hand to push their elbow past your head, collapsing the frame from its weakest point. The key is progressive pressure rather than explosive force against a solid frame."
+      },
+      {
+        "question": "Your smash attempt is stalled because the bottom player establishes a strong knee shield as you killed the hook - what is your next option?",
+        "answer": "Transition to a knee slice pass by using the downward pressure you have already established. Step your outside foot wide, angle your passing knee across their thigh, and slice through the knee shield while maintaining shoulder pressure. The smash has already accomplished the primary goal of killing the butterfly hook. The knee shield is a lower-threat defensive structure than the butterfly hook. Alternatively, switch to a long step pass by bringing your free leg over their bottom leg while driving their knee shield flat with hip pressure."
+      },
+      {
+        "question": "You have killed the butterfly hook but cannot free your trapped leg from half guard - what is the correct approach?",
+        "answer": "Maintain heavy upper body pressure to prevent guard recovery while working the trapped leg progressively. Use small windshield wiper motions rotating your knee outward rather than pulling straight back, as rotational extraction is mechanically stronger against a squeeze. Drive your trapped knee toward the mat on the far side of their body to create the extraction angle. If the squeeze is very tight, briefly switch your hips to create a small bump that loosens their grip, then immediately slide your knee through before they re-establish the squeeze."
+      },
+      {
+        "question": "How should your weight be distributed between upper body and hips during the different phases of the smash?",
+        "answer": "During the initial control phase, weight favors the upper body at roughly 60-40 to establish crossface dominance and break posture. During the hook-killing phase, weight shifts to roughly 40-60 favoring the hips as you drive your hip bone onto the butterfly hook to pin it. During the extraction phase, weight returns to upper body emphasis at 60-40 to prevent guard recovery while your legs work the extraction. Throughout all phases, avoid concentrating weight entirely on either end, as this creates instability and opens sweep or recovery opportunities."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Smash from Butterfly Half."
+    "safety_considerations": "The smash from butterfly half guard applies significant compressive pressure to the bottom player's torso and ribcage. When drilling, progressively increase pressure rather than applying full competition-level weight immediately. Be attentive to your partner's breathing and tapping signals, as sustained chest-to-chest pressure can restrict breathing. During the hip switch pin variant, be mindful of the bottom player's knee and ankle alignment, as trapping the butterfly hook foot with rotational force can stress the ankle joint if the foot is caught at an awkward angle. In training, allow your partner time to adjust their position if they indicate discomfort in any joint."
   },
   "defender": {
     "name": "Smash from Butterfly Half Defender",
-    "description": "TODO: Write defender description for Smash from Butterfly Half.",
-    "overview": "TODO: Write defender overview for Smash from Butterfly Half.",
+    "description": "Master defending the smash pass from butterfly half guard. Learn to recognize early pressure cues, maintain your butterfly hook, and counter with sweeps or guard transitions.",
+    "overview": "The defender in the Smash from Butterfly Half is the bottom player in butterfly half guard who must prevent the top player from killing the butterfly hook and completing the pass to side control. Defense begins with early recognition of the smash attempt through tactile and visual cues, followed by immediate proactive responses that either prevent the hook from being neutralized or transition to alternative guard positions before the smash sequence can progress. The defender must understand that passive hook maintenance will fail against committed smash pressure. Instead, the butterfly hook must be used actively as an offensive weapon, threatening sweeps and elevation to prevent the top player from committing the downward weight necessary for the smash. Creating offensive dilemmas is the best defense, as a top player who fears being swept cannot fully commit to the smash sequence.",
     "key_principles": [
-      "TODO"
+      "Maintain an active butterfly hook with constant upward pressure rather than passively holding position, as active hooks resist smash attempts far more effectively than static ones",
+      "Preserve seated or semi-reclined posture at all costs, because once flattened to your back, the mechanical advantage of the butterfly hook is eliminated and the smash becomes nearly unstoppable",
+      "Fight for upper body connection through underhook or collar tie to prevent the top player from establishing the crossface dominance needed to initiate the smash sequence",
+      "Recognize the smash attempt early through tactile cues and respond immediately rather than waiting for the pressure to fully develop before reacting",
+      "Create offensive threats through sweep attempts and elevation to force the top player into defensive posture, preventing them from committing the weight needed for an effective smash",
+      "When the butterfly hook is compromised, transition immediately to alternative guard positions like deep half, knee shield, or lockdown rather than fighting to maintain a losing butterfly half structure"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player drops their hips lower and heavier than normal, shifting weight specifically toward the butterfly hook side rather than distributing evenly",
+      "Top player establishes or deepens crossface control with increased jaw and neck pressure, turning your head away from the hook side to prevent hip rotation",
+      "Forward shoulder pressure intensifies with the top player's chest driving into your chest or face, collapsing your upright posture backward toward the mat",
+      "Top player's free leg posts wider than usual, establishing a wider base that indicates preparation for committing downward pressure without fear of being swept",
+      "Top player stops attempting leg extraction or passing movements and instead settles their weight, indicating a shift from mobile passing to pressure-based smash approach"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Elevate with the butterfly hook and threaten a sweep before the smash pressure fully develops",
+        "when_to_use": "At the earliest recognition cues when the top player begins settling weight but has not yet established full crossface control or committed their hips downward",
         "targets_outcome": "Butterfly Half Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The sweep threat forces the top player to post their hand or shift their weight upward, breaking the smash sequence and returning to a neutral butterfly half guard exchange",
+        "risk": "If your timing is off and the top player has already established stable base with crossface, the failed sweep attempt gives them additional forward momentum for the smash"
+      },
+      {
+        "action": "Frame against the top player's shoulder and hip escape to create distance and re-establish guard structure",
+        "when_to_use": "When the top player has started applying forward pressure but has not yet pinned the butterfly hook, and you still have sufficient hip mobility to shrimp",
+        "targets_outcome": "Butterfly Half Guard/Top",
+        "if_successful": "The framing and hip escape creates enough space to maintain the butterfly hook's lifting capacity and prevents the chest-to-chest connection needed for the smash to progress",
+        "risk": "Extended arms during framing can expose you to arm isolation attacks if the top player strips the frame and secures a kimura or americana grip"
+      },
+      {
+        "action": "Secure a deep underhook on the butterfly hook side and come up to dogfight position to threaten a sweep reversal",
+        "when_to_use": "When the top player commits weight forward for the smash and their upper body control is not dominant enough to prevent you from threading an underhook underneath",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Coming up to dogfight with the underhook reverses the positional dynamic and threatens sweeps that put the top player on bottom, forcing them to abandon the smash entirely",
+        "risk": "If the top player counters with a whizzer and sprawl, you may end up flattened in a worse position with your underhook trapped and no butterfly hook"
+      },
+      {
+        "action": "Transition to deep half guard by releasing the butterfly hook and diving underneath the top player's hips before the smash fully develops",
+        "when_to_use": "When the crossface pressure is too strong to maintain upright posture and the butterfly hook is being progressively crushed, but you still retain half guard control",
+        "targets_outcome": "Butterfly Half Guard/Top",
+        "if_successful": "Deep half guard provides a completely different sweeping platform where the smash pressure is nullified because you are underneath rather than in front of the top player",
+        "risk": "If the deep half entry is shallow or poorly timed, the top player can follow your movement and establish a flattened half guard pass or take back control"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Butterfly Half Guard/Top",
+        "how": "Prevent the smash from progressing by maintaining active butterfly hook pressure and threatening sweeps that force the top player to post and abandon their downward pressure commitment. Fight for underhook or collar tie control to prevent crossface establishment, and use hip mobility to create angles that keep the hook's elevation capacity intact."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Counter the smash by timing an underhook entry as the top player commits weight forward, using their own smash momentum to fuel a dogfight scramble or sweep. Alternatively, use the butterfly hook elevation at the moment they shift weight forward to off-balance and roll them, landing in top half guard or scrambling to a neutral position where you can re-establish guard."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Maintaining a passive butterfly hook without active upward pressure when the top player begins settling weight",
+        "consequence": "A passive hook is easily pinned to the mat by the top player's hip weight, eliminating your primary offensive weapon and defensive barrier without any resistance",
+        "correction": "Keep the butterfly hook actively driving upward at all times with hip flexor engagement. Treat the hook as a continuous threat rather than a static position. When you feel the top player's weight increasing, respond with increased upward drive rather than just holding position."
+      },
+      {
+        "error": "Allowing the top player to flatten your posture to your back without immediately fighting to recover seated position",
+        "consequence": "Once flat on your back, the butterfly hook loses its geometric advantage because it can only push straight up rather than at an angle. The top player can then apply maximum chest pressure to complete the smash",
+        "correction": "The moment you feel your posture being broken backward, fight immediately to recover by bridging, hip escaping, or threading an underhook to come back up. Treat being flattened as an emergency requiring immediate response."
+      },
+      {
+        "error": "Fighting to maintain the butterfly hook after it has been effectively killed and pinned to the mat",
+        "consequence": "Wasting energy and time trying to re-establish a dead hook when the position has already degraded beyond the butterfly half guard recovery point, missing the window to transition to alternative guards",
+        "correction": "Recognize when the hook is dead and immediately transition to an alternative guard like knee shield, deep half, or lockdown. The smash has won the butterfly hook battle; redirect to a guard system that does not depend on the hook."
+      },
+      {
+        "error": "Extending arms to push the top player away rather than framing with elbows close to body",
+        "consequence": "Extended arms are easily isolated for kimura, americana, or arm triangle submissions, and provide weak structural resistance compared to tight elbow-based frames",
+        "correction": "Frame with forearms against the top player's shoulder and neck with elbows close to your ribs. Frames work through structural alignment, not arm extension. Keep elbows connected to your body to prevent arm isolation attacks."
+      },
+      {
+        "error": "Waiting too long to react to smash cues, only defending after the top player has established full chest pressure and crossface",
+        "consequence": "Defending a fully committed smash requires far more energy and has a much lower success rate than early intervention during the setup phase",
+        "correction": "React to the earliest cues: widening base, deepening crossface, or settling hip weight. The best defense happens before the smash is fully applied, not after. Train to recognize the posture and weight shifts that precede the smash commitment."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest tactile indicators that your opponent is about to initiate the smash from butterfly half guard?",
+        "answer": "The earliest indicators are a deepening of crossface pressure with increased jaw and neck contact, a settling of hip weight onto the butterfly hook side rather than distributed evenly, and the posting of their free leg noticeably wider than normal. You will feel their chest driving forward and downward into yours with increasing intensity, and their passing movements will stop as they commit to settling weight rather than attempting lateral or backstep passes. These cues precede the full smash by several seconds, providing a window for proactive defense."
+      },
+      {
+        "question": "Your opponent drives your butterfly hook flat to the mat and starts applying heavy crossface pressure - what is your immediate response?",
+        "answer": "Immediately abandon the butterfly hook battle and transition to an alternative guard. The best option is deep half guard: release the dead hook, dive your head underneath their far hip, and thread your body underneath theirs. This completely changes the positional dynamic from one where smash pressure is dominant to one where you have sweeping leverage from underneath. If deep half is not available, transition to knee shield by inserting your shin across their hip, or lock down their trapped leg with a figure-four to establish lockdown guard."
+      },
+      {
+        "question": "Why is maintaining an active butterfly hook the most critical factor in preventing the smash pass?",
+        "answer": "The active butterfly hook serves as both offensive weapon and defensive barrier simultaneously. Offensively, it threatens sweeps that prevent the top player from committing downward weight, because any significant forward pressure can be redirected into a sweep using their own momentum. Defensively, the constant upward lifting pressure maintains the space between your bodies that the top player needs to eliminate for the smash to work. When the hook goes passive, the top player can pin it without fear of being swept, completing the first critical phase of the smash sequence."
+      },
+      {
+        "question": "Your opponent commits their weight forward heavily to kill your butterfly hook - how can you use their momentum against them?",
+        "answer": "Their forward weight commitment creates the perfect conditions for a butterfly sweep or elevation. As they drive forward, load their weight onto your hook by slightly drawing your knee toward your chest to create an angle, then extend explosively through your hip and hook while pulling their upper body with your underhook or collar grip. Their forward momentum adds to the sweep's power rather than needing to be overcome. The timing window is narrow but high-percentage, as they cannot both commit weight for the smash and defend the elevation simultaneously."
+      },
+      {
+        "question": "You have lost your butterfly hook but still have half guard control - what guard transition gives you the best chance of recovery?",
+        "answer": "Deep half guard is the highest-percentage recovery option because it converts the top player's pressure advantage into your own sweeping leverage. Slide your head underneath their hips on the trapped leg side, wrapping their leg deeply while maintaining the half guard entanglement. From deep half, the smash pressure becomes irrelevant because you are positioned underneath rather than in front of them. If deep half is not accessible, inserting a knee shield across their hip creates immediate distance and prevents chest-to-chest pressure, giving you time to rebuild offensive structure or transition to a Z-guard framework."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Cue Recognition",
+        "focus": "Identifying smash initiation signals",
+        "description": "Partner slowly initiates the smash sequence while you focus exclusively on feeling the tactile cues that precede full commitment. Practice calling out when you recognize the smash beginning. No defensive response yet, just recognition. Build sensitivity to weight shifts, crossface deepening, and base widening. 3-minute rounds with partner providing clear but progressive cues."
+      },
+      {
+        "phase": "Phase 2: Early Intervention",
+        "focus": "Proactive defense before the smash develops",
+        "description": "Partner initiates the smash at moderate speed and you practice early intervention responses: threatening sweeps to prevent weight commitment, fighting for underhook control, and maintaining active hook pressure. Partner provides 40-50% resistance. Focus on acting during the setup phase rather than waiting for full smash development. 5-minute positional rounds."
+      },
+      {
+        "phase": "Phase 3: Guard Transitions Under Pressure",
+        "focus": "Transitioning to alternative guards when hook is killed",
+        "description": "Partner successfully kills your butterfly hook with moderate to heavy pressure. Practice transitioning to deep half guard, knee shield, or lockdown before the pass completes. Partner follows up with pass attempts from each transition. Focus on speed and smoothness of guard transitions under realistic pressure. 5-minute rounds with 60-70% resistance."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Competition-level defense and counter-attacking",
+        "description": "Full resistance positional sparring starting in butterfly half guard bottom. Top player attempts smash or any pass, bottom player defends and counters using all tools developed in previous phases. Track success rates for guard retention, sweeps, and transitions. Identify which defensive responses work best against different partners and pressure styles. 5-minute rounds with full resistance."
       }
     ]
   }

@@ -1,10 +1,14 @@
 {
   "name": "Step Over from X-Guard",
-  "description": "TODO: Write 150-160 character SEO description for Step Over from X-Guard.",
+  "description": "Master the Step Over pass from X-Guard in BJJ. Complete technical guide covering execution mechanics, timing windows, and defensive counters to side control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard pass",
+    "x-guard",
+    "side control",
+    "pressure pass",
+    "step over"
   ],
   "from_position": "X-Guard/Top",
   "outcomes": [
@@ -25,114 +29,362 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Step Over from X-Guard.",
+  "overview": "The Step Over from X-Guard is a direct passing technique where the top player steps their free leg over the bottom player's X-Guard configuration to land in side control. Unlike more common X-Guard passes that rely on systematic hook removal or gradual pressure application, the step over capitalizes on moments when the bottom player's hooks become shallow or their grip on the trapped ankle weakens, allowing the top player to clear the guard structure with a single decisive movement. The pass rewards precise timing and committed weight transfer over grinding positional work.\n\nThis technique operates on the principle of exploiting transitional windows rather than creating them through sustained pressure. The step over opportunity appears when the bottom player adjusts their hook depth, transitions between sweeping angles, or commits to an offensive action that momentarily compromises their guard integrity. The top player must recognize this window and execute with full commitment, driving their hips past the bottom player's legs before the guard can be re-established. The movement demands exceptional balance and coordination, as the top player must maintain their center of gravity over a single support leg while clearing the opponent's guard structure.\n\nStrategically, the step over complements slower pressure-based approaches by adding an explosive option to the top player's X-Guard passing repertoire. When the bottom player anticipates grinding smash passes or methodical knee slices, the sudden step over catches them off-guard. The pass is most effective when chained with other passing attempts that draw the bottom player's defensive attention in one direction, creating the opening for the step over in the opposite direction. This makes it a valuable secondary technique within a comprehensive X-Guard passing system.",
   "conditions": [
-    "TODO"
+    "Bottom player's X-Guard hooks are shallow or weakening from sustained pressure or transition attempts",
+    "Top player has broken or is controlling the bottom player's grip on the trapped ankle",
+    "Top player has established sufficient base and balance on the trapped leg to support single-leg weight transfer",
+    "Bottom player is not actively executing a sweep or has committed to a different angle that opens the step over path"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Inside Step Over",
+      "description": "Instead of stepping the free leg wide around the outside of the opponent's body, the top player threads the leg between the bottom player's legs and steps through the middle of the guard. This tighter path reduces the distance traveled and can catch the bottom player off-guard when they expect the wider step.",
+      "when_to_use": "When the bottom player's outside leg frame is strong but their legs are separated enough to allow a through-step"
+    },
+    {
+      "variant_name": "Backstep Step Over",
+      "description": "The top player combines the step over with a backstep motion, rotating their hips 180 degrees during the pass to land facing the opponent's legs rather than their head. This variation can transition directly into leg entanglement positions if the pass is partially defended.",
+      "when_to_use": "When the bottom player is inverting during the step over attempt, exposing their legs to entanglement entries"
+    },
+    {
+      "variant_name": "Grip-and-Go Step Over",
+      "description": "The top player secures a strong collar or belt grip with the free hand before initiating the step over, using this anchor point to pull themselves across the guard while maintaining connection. The grip provides additional stability during the single-leg balance phase.",
+      "when_to_use": "In gi competition when collar or belt grips are available to supplement balance during the passing movement"
     }
   ],
-  "position_integration": "TODO: Write position integration for Step Over from X-Guard.",
+  "position_integration": "The Step Over from X-Guard occupies a niche but important role within the top player's X-Guard passing hierarchy, functioning as a decisive finishing move when other passing approaches have weakened the guard structure. It integrates naturally with systematic hook removal sequences where knee pin, smash pass, and long step attempts gradually compromise the bottom player's X-Guard integrity. When hooks become shallow from sustained pressure or failed sweep attempts, the step over provides an explosive conclusion that bypasses the remaining guard framework entirely. The pass connects the X-Guard passing system to side control establishment, fitting within the broader guard passing methodology as a timing-based complement to pressure-driven strategies. Understanding when to shift from methodical passing to the step over is a critical decision-making skill for advanced practitioners navigating modern leg-entanglement-based guard systems.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "X-Guard",
+      "relationship": "Source position where this pass is initiated from the top"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful completion of the pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when bottom player sweeps during step over attempt"
+    },
+    {
+      "name": "Knee Pin from X-Guard",
+      "relationship": "Complementary passing technique from the same position that sets up step over opportunities"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Related guard position bottom player may transition to when step over is threatened"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate control position that may be reached during incomplete step over execution"
+    },
+    {
+      "name": "Standing Escape from X-Guard",
+      "relationship": "Alternative approach to escaping X-Guard that creates different passing angles"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Recovery position bottom player may reach if step over fails to clear hooks completely"
     }
   ],
   "attacker": {
     "name": "Step Over from X-Guard Attacker",
-    "description": "TODO: Write attacker description for Step Over from X-Guard.",
-    "overview": "TODO: Write attacker overview for Step Over from X-Guard.",
+    "description": "Master the Step Over pass from X-Guard as the attacker. Detailed execution guide covering grip breaks, weight transfer, timing, and side control consolidation.",
+    "overview": "As the attacker executing the Step Over from X-Guard, your objective is to clear the bottom player's leg configuration by stepping your free leg over their body and landing directly in side control. This pass requires a combination of grip control, balance management, and decisive commitment that distinguishes it from more methodical X-Guard passing approaches. The key insight is that the step over is not a stand-alone technique but rather a finishing move that capitalizes on structural weaknesses created by prior passing pressure. Your ability to recognize the precise moment when the bottom player's hooks are compromised enough to allow the step over separates successful execution from a failed pass that exposes you to sweeps.",
     "key_principles": [
-      "TODO"
+      "Break or neutralize the bottom player's grip on your trapped ankle before initiating the step over to prevent re-engagement during the pass",
+      "Commit fully to the weight transfer once the step over begins, as hesitation leaves you vulnerable on a single leg",
+      "Drive your hips forward and down during the step over to prevent the bottom player from re-inserting hooks",
+      "Maintain a low center of gravity throughout the movement to preserve balance during single-leg transition",
+      "Use your free hand to control the bottom player's hip or knee, preventing them from creating defensive angles",
+      "Time the step over during the bottom player's transition between positions or after a failed sweep attempt",
+      "Immediately consolidate side control upon landing with crossface and hip pressure to prevent guard recovery"
     ],
     "setup_requirements": [
-      "TODO"
+      "Bottom player's inside hook behind your knee has become shallow or has been partially dislodged through prior pressure",
+      "You have broken or are controlling the bottom player's grip on your trapped ankle or pant leg",
+      "Your weight is centered and balanced over the trapped leg, providing a stable base for single-leg support",
+      "The bottom player's outside leg frame across your hip is weakened or not actively blocking your step over path",
+      "You have identified the stepping lane clear of the bottom player's legs and have planned your arc"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Strip ankle grip",
+        "description": "Use your free hand to break the bottom player's grip on your trapped ankle or pant leg. Strip downward toward their fingers while maintaining your standing base and posture. This removes their primary control point for re-engaging hooks."
+      },
+      {
+        "step_number": 2,
+        "action": "Drive trapped knee forward",
+        "description": "Push your trapped knee forward and downward into the bottom player's X-Guard structure. This compresses their hooks and reduces the depth of the inside leg hook behind your knee, creating the space needed for extraction."
+      },
+      {
+        "step_number": 3,
+        "action": "Control opponent's far hip",
+        "description": "Place your free hand on the bottom player's far hip or knee, pinning it to the mat. This prevents them from creating angles, inverting, or generating the hip elevation needed to maintain guard structure during your step over."
+      },
+      {
+        "step_number": 4,
+        "action": "Load weight onto trapped leg",
+        "description": "Shift your center of gravity fully onto the trapped leg, pressing it firmly into the mat as your support base. Your knee should be slightly bent to lower your center of gravity and maintain stability during the upcoming single-leg phase."
+      },
+      {
+        "step_number": 5,
+        "action": "Step free leg over opponent",
+        "description": "In one committed motion, swing your free leg in a wide arc over the bottom player's torso, clearing their legs entirely. Keep your hips driving forward and low throughout the step to prevent the bottom player from catching your leg with hooks or frames."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped leg",
+        "description": "As your stepping leg lands on the far side of the opponent, use the rotational momentum to pull your previously trapped leg free from any remaining hook contact. Drive your knee through any remaining entanglement rather than pulling backward."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish crossface and consolidate",
+        "description": "Immediately upon landing, drop your chest perpendicular to the opponent's torso and establish crossface control with your forearm across their face and neck. Drive your hips low against their hips to eliminate space and prevent guard recovery attempts."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bottom player re-establishes deep hooks by elevating hips and reinserting inside leg behind knee",
+        "effectiveness": "High",
+        "your_response": "Immediately re-compress by driving knee forward again and strip the re-inserted hook before it seats fully. If hooks reseat completely, reset to systematic passing rather than forcing the step over.",
+        "targets_outcome": "X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player transitions to Single Leg X-Guard as hooks become shallow, maintaining leg control with a different configuration",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Recognize the position change and address the SLX hooks before reattempting the step over. Use downward hip pressure to flatten the SLX structure or transition to a knee slice passing approach.",
+        "targets_outcome": "X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player times a sweep during the single-leg balance phase, using the elevation to off-balance the top player",
+        "effectiveness": "High",
+        "your_response": "Post your free hand on the mat immediately if you feel your balance compromised. Abort the step over and reset your base rather than continuing the pass off-balance, which leads to being swept.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player grabs the stepping leg during the arc and pulls it into half guard retention",
+        "effectiveness": "Medium",
+        "your_response": "Drive the stepping leg through aggressively with hip power rather than trying to pull it free. Use the forward momentum to complete the pass through their grip or transition to a knee slice finish.",
         "targets_outcome": "X-Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting the step over while bottom player's hooks are still deep and active",
+        "consequence": "Bottom player uses the elevation attempt to sweep, dumping the top player off-balance and reversing to top position",
+        "correction": "Only initiate the step over when hooks are demonstrably shallow from prior pressure. Test hook depth by driving knee forward before committing to the step."
+      },
+      {
+        "error": "Stepping with insufficient commitment, leaving the leg hovering over the opponent",
+        "consequence": "Bottom player catches the hovering leg with hands or hooks, pulling it into half guard or reestablishing X-Guard with deeper control",
+        "correction": "Once you initiate the step over, commit fully with a fast, decisive arc. The stepping leg should move in one continuous motion from launch to landing."
+      },
+      {
+        "error": "Failing to control opponent's hips before stepping over",
+        "consequence": "Bottom player creates angles during the step over by moving their hips, either recovering guard or initiating a sweep as you pass",
+        "correction": "Always pin the far hip or knee with your free hand before initiating the step over. This anchor prevents the bottom player from adjusting position during your pass."
+      },
+      {
+        "error": "Leaning too far back during the step over instead of driving hips forward",
+        "consequence": "Center of gravity shifts behind the support leg, creating easy sweep opportunities for the bottom player to push you over backward",
+        "correction": "Drive your hips forward and down throughout the step over. Your weight should move toward side control position, not away from it."
+      },
+      {
+        "error": "Neglecting to consolidate immediately after landing, leaving space between bodies",
+        "consequence": "Bottom player inserts frames and knee shields in the gap, recovering half guard or full guard despite the successful step over",
+        "correction": "The moment your stepping foot lands, drop your chest to their torso and establish crossface. Eliminate all space before the bottom player can create frames."
+      },
+      {
+        "error": "Attempting the step over from a static position without prior passing pressure",
+        "consequence": "Bottom player has full hook engagement and grip control, making the step over nearly impossible to complete without being swept",
+        "correction": "Use the step over as a finishing move after other passing attempts have weakened the guard. Chain it with knee pin, smash pass, or long step pressure to create the opening."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Movement",
+        "focus": "Balance and coordination during single-leg step over motion",
+        "description": "Practice the step over movement pattern without a partner, focusing on maintaining balance on one leg while swinging the other in a wide arc. Use a grappling dummy or rolled towel as a target to step over. Develop the hip drive and forward commitment that prevent backward falling."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Timing and path mechanics with a compliant partner",
+        "description": "Partner establishes X-Guard with minimal resistance. Practice the complete sequence from grip break through step over to side control consolidation. Focus on smooth weight transfer and immediate consolidation. Perform 10-15 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Connecting step over with other passing attempts",
+        "description": "Partner holds X-Guard with moderate resistance. Attempt knee pin or smash pass first, then transition to step over when hooks become shallow. Develop the ability to recognize the step over window within a passing chain rather than attempting it in isolation."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance",
+        "focus": "Execution against increasing defensive intensity",
+        "description": "Partner defends X-Guard at 50-75% resistance, using hook re-engagement, SLX transitions, and sweep attempts. Practice recognizing valid versus premature step over opportunities and aborting when the window closes. Build decision-making under pressure."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full-speed application with complete defensive responses",
+        "description": "Start in X-Guard top position and work to pass using all available techniques including the step over. Partner goes full resistance. Track success rate and identify which setups most reliably create step over opportunities against resisting opponents."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Step Over from X-Guard?",
+        "answer": "The optimal timing window occurs when the bottom player's inside hook behind your knee has become shallow, typically after sustained knee-forward pressure or following a failed sweep attempt that leaves their guard structure momentarily compromised. The step over should be a finishing move, not an opening technique."
+      },
+      {
+        "question": "Why must you control the opponent's far hip before stepping over?",
+        "answer": "Controlling the far hip prevents the bottom player from creating defensive angles, inverting, or generating the hip elevation needed to maintain guard structure or initiate sweeps during the step over. Without hip control, the bottom player can freely adjust their position and counter the pass."
+      },
+      {
+        "question": "Your opponent re-establishes deep hooks just as you begin the step over - how do you respond?",
+        "answer": "Immediately abort the step over and reset to your standing base. Drive your knee forward to re-compress the hooks and return to systematic passing pressure. Forcing the step over against deep hooks will result in a sweep. Re-create the shallow hook conditions before attempting again."
+      },
+      {
+        "question": "What is the critical difference between the Step Over and a Knee Slice from X-Guard?",
+        "answer": "The knee slice cuts through the guard by driving the knee across the bottom player's thigh line and requires sustained forward pressure throughout the pass. The step over clears the guard entirely by lifting the free leg over the opponent's body, requiring explosive timing but less grinding pressure. The step over is faster but has a narrower execution window."
+      },
+      {
+        "question": "What grip must be broken before the step over can succeed?",
+        "answer": "The bottom player's grip on your trapped ankle or pant leg must be broken or neutralized. This grip is the primary mechanism for re-engaging hooks and preventing leg extraction. Without breaking this grip, the bottom player can simply pull your leg back into the X-Guard configuration during or after the step over."
+      },
+      {
+        "question": "Your opponent catches your stepping leg during the arc - what is the correct response?",
+        "answer": "Drive the stepping leg through with aggressive hip power rather than pulling it free. The forward momentum should carry the leg past their grip. If they manage to secure it, transition to a knee slice finish using the forward pressure already generated, rather than retreating back to standing."
+      },
+      {
+        "question": "Why is forward hip drive critical during the step over movement?",
+        "answer": "Forward hip drive keeps your center of gravity moving toward the target position rather than shifting backward. Without forward drive, your weight sits behind your support leg, creating the perfect leverage angle for the bottom player to sweep you backward. The hips must lead the movement throughout the entire arc."
+      },
+      {
+        "question": "How does the step over integrate into a broader X-Guard passing chain?",
+        "answer": "The step over functions as a finishing technique within a passing chain that typically begins with pressure-based approaches like knee pin or smash pass. These initial attempts weaken the bottom player's hook depth and grip strength. When hooks become shallow from sustained pressure, the step over provides an explosive conclusion that capitalizes on the accumulated structural damage."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Step Over from X-Guard."
+    "safety_considerations": "The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase."
   },
   "defender": {
     "name": "Step Over from X-Guard Defender",
-    "description": "TODO: Write defender description for Step Over from X-Guard.",
-    "overview": "TODO: Write defender overview for Step Over from X-Guard.",
+    "description": "Defend and counter the Step Over pass from X-Guard. Recognition cues, defensive responses, and counter-attack strategies for retaining guard or reversing position.",
+    "overview": "As the defender in X-Guard bottom when the top player attempts the Step Over pass, your primary objective is to maintain your guard structure and prevent the pass from reaching side control. The Step Over is a timing-based pass that exploits momentary weaknesses in your hook depth and grip control, meaning your best defense begins before the step over is initiated by maintaining deep hooks and strong ankle grips. When the step over does begin, you have a narrow but valuable window to either re-engage your hooks, transition to an alternative guard, or counter-sweep the top player while they balance on a single leg. Understanding the top player's mechanical vulnerabilities during the step over allows you to transform their passing attempt into your offensive opportunity.",
     "key_principles": [
-      "TODO"
+      "Maintain deep inside hook behind the top player's knee at all times to prevent the compression that sets up the step over",
+      "Keep a strong grip on the trapped ankle to prevent the top player from extracting their leg and breaking your guard structure",
+      "Elevate your hips actively to maintain tension in the X-Guard configuration, preventing the top player from flattening your structure",
+      "Recognize the step over initiation instantly by feeling the weight shift to a single leg and respond before the free leg clears your body",
+      "Use the top player's single-leg balance phase as a sweeping opportunity rather than passively defending the pass",
+      "Transition proactively to alternative guards like Single Leg X or Butterfly when you sense your X-Guard hooks becoming shallow"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player breaks your grip on their trapped ankle or strips your pant or sleeve control",
+      "Top player drives their knee forward and down, compressing your inside hook and reducing its depth behind their knee",
+      "Top player's free hand moves to pin your far hip or knee to the mat rather than fighting for upper body grips",
+      "Top player shifts weight distinctly onto the trapped leg, loading it as a base while the free leg lightens",
+      "Top player's free leg begins to lift or move laterally, signaling the initiation of the step over arc"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Re-engage deep hooks by driving hips upward and reinserting inside leg behind knee",
+        "when_to_use": "When you feel the top player beginning to compress your guard but before the step over has started, best opportunity is when they shift weight forward",
         "targets_outcome": "X-Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Top player's step over is prevented and they must restart their passing sequence from neutral X-Guard position",
+        "risk": "If hooks fail to seat deeply, the top player will immediately reattempt the step over with an even larger opening"
+      },
+      {
+        "action": "Transition to Single Leg X-Guard by extending bottom leg and adjusting hook position to SLX configuration",
+        "when_to_use": "When your inside hook has become too shallow to maintain effective X-Guard but you still have foot-on-hip contact with your outside leg",
+        "targets_outcome": "X-Guard/Top",
+        "if_successful": "You establish a new guard position that requires the top player to restart their passing approach with different technique",
+        "risk": "Transition leaves a momentary gap that the top player may exploit to complete the step over before SLX is established"
+      },
+      {
+        "action": "Sweep during single-leg phase by elevating and directing the loaded leg while top player is balanced on one foot",
+        "when_to_use": "When the top player has committed to the step over and is balanced on a single leg with their free leg in the air",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Top player is swept and you achieve top position, landing in their half guard or side control",
+        "risk": "Mistimed sweep attempt may fail to off-balance the top player and leave you with compromised guard structure"
+      },
+      {
+        "action": "Frame against the stepping leg with both hands to block the arc and redirect it back to your guard side",
+        "when_to_use": "When the top player's free leg is mid-arc during the step over and has not yet cleared your body",
+        "targets_outcome": "X-Guard/Top",
+        "if_successful": "The step over is blocked and the top player is forced back to both feet, resetting the position to X-Guard",
+        "risk": "If frames are too weak, the top player pushes through and completes the pass with your hands out of position for guard recovery"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your sweep during the top player's single-leg balance phase. As they lift their free leg, drive your hips upward and direct the trapped leg laterally to dump them off-balance. The single-leg stance makes them extremely vulnerable to directional force."
+      },
+      {
+        "outcome": "X-Guard/Top",
+        "how": "Maintain deep hooks and strong ankle grips throughout the top player's compression attempts. When they test the step over, re-engage aggressively by elevating hips and driving the inside hook deeper behind their knee, forcing them to abandon the pass attempt."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing hooks to become shallow without proactively adjusting or transitioning to another guard",
+        "consequence": "Creates the exact conditions the top player needs to execute the step over, leaving you with no defensive structure when the pass begins",
+        "correction": "Constantly monitor hook depth and either re-seat hooks aggressively or transition to Single Leg X or Butterfly Guard the moment you feel your inside hook sliding"
+      },
+      {
+        "error": "Defending the step over passively by trying to hold position rather than counter-attacking",
+        "consequence": "The top player can make repeated step over attempts, each one weakening your guard until one eventually succeeds",
+        "correction": "Treat every step over attempt as a sweep opportunity. The top player's single-leg stance is their most vulnerable moment. Attack their balance rather than simply defending the pass."
+      },
+      {
+        "error": "Releasing the ankle grip to reach for the stepping leg instead of maintaining primary control",
+        "consequence": "Losing the ankle grip frees the top player's trapped leg entirely, making the step over trivial and removing your ability to re-engage hooks",
+        "correction": "Maintain the ankle grip as your highest priority control point. Use your legs and hips to defend the step over while keeping your hands on the trapped ankle for hook re-engagement."
+      },
+      {
+        "error": "Keeping hips flat on the mat instead of maintaining active elevation throughout the guard",
+        "consequence": "Flat hips eliminate the tension in your X-Guard configuration, making hooks shallow and guard easy to pass through any method",
+        "correction": "Actively bridge your hips off the mat throughout the entire X-Guard exchange. Hip elevation maintains hook depth, creates sweeping angles, and prevents the compression that sets up the step over."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a step over pass is being set up?",
+        "answer": "The earliest cue is the top player breaking your grip on their trapped ankle. This is the prerequisite action that precedes all step over attempts, as the ankle grip prevents leg extraction and hook re-engagement. When you feel this grip being stripped, immediately re-grip and elevate hips to prevent further setup progression."
+      },
+      {
+        "question": "Why is the single-leg balance phase the best moment to attempt a sweep?",
+        "answer": "During the single-leg phase, the top player has removed one of their two base points and is balancing on the leg that is still partially trapped in your guard. This creates maximum vulnerability to lateral force because they cannot post with their free leg to recover balance. A well-timed directional push at this moment requires minimal force to complete a sweep."
+      },
+      {
+        "question": "When should you transition from X-Guard to Single Leg X instead of trying to maintain your current position?",
+        "answer": "Transition to Single Leg X when your inside hook behind the knee has become too shallow to re-seat despite hip elevation attempts, but your outside leg still has foot-on-hip contact. Rather than fighting for a compromised X-Guard, SLX maintains leg control through a different configuration that requires the top player to restart their passing approach entirely."
+      },
+      {
+        "question": "What is the biggest risk of attempting to block the stepping leg with your hands?",
+        "answer": "If you release your ankle grip to frame against the stepping leg and your frames are too weak to stop the arc, you lose both your primary control point and your hand position for guard recovery. The top player completes the pass with your hands displaced from any useful defensive structure, making side control consolidation almost guaranteed."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying step over initiation cues and reacting immediately",
+        "description": "Partner announces and slowly executes each stage of the step over setup. Practice identifying each cue including grip break, knee compression, hip pin, and weight shift. Call out each cue as you feel it. Build pattern recognition at slow speed before adding resistance."
+      },
+      {
+        "phase": "Phase 2: Defensive Response Practice",
+        "focus": "Executing hook re-engagement and guard transitions under controlled conditions",
+        "description": "Partner sets up and begins the step over at moderate speed. Practice each defensive option individually: hook re-engagement, SLX transition, and frame blocking. Perform 10 repetitions of each response to build muscle memory for each defensive pathway."
+      },
+      {
+        "phase": "Phase 3: Counter-Sweep Timing",
+        "focus": "Sweeping during the single-leg balance phase with progressive resistance",
+        "description": "Partner commits to step over at increasing intensity. Practice timing the sweep attempt during the single-leg phase, focusing on directional hip drive and the minimal force needed to off-balance the top player. Track sweep success rate across rounds."
+      },
+      {
+        "phase": "Phase 4: Live Defense Sparring",
+        "focus": "Full-speed defense with all options available against varied passing",
+        "description": "Start in X-Guard bottom against a partner using all passing techniques including step over. Defend and counter using the full range of defensive options. Build the ability to select the appropriate response based on the specific passing attempt in real time."
       }
     ]
   }

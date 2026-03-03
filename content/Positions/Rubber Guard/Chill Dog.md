@@ -95,21 +95,23 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (15% of attempts)
+- **[[Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Granby to Closed Guard]]** (12% of attempts)
+- **[[Granby to Closed Guard]]** (11% of attempts)
 
-- **[[Technical Stand-up]]** (26% of attempts)
+- **[[Technical Stand-up]]** (32% of attempts)
 
-- **[[Rolling to Guard]]** (12% of attempts)
+- **[[Rolling to Guard]]** (11% of attempts)
 
-- **[[Turtle to Guard]]** (14% of attempts)
+- **[[Turtle to Guard]]** (13% of attempts)
 
-- **[[Hip Escape to Guard]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Escape Chill Dog]]** (6% of attempts)
+- **[[Escape Chill Dog]]** (5% of attempts)
 
-- **[[Roll from Chill Dog]]** (3% of attempts)
+- **[[Roll from Chill Dog]]** (2% of attempts)
+
+- **[[Sweep from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +176,25 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (24% of attempts)
+- **[[Turtle to Back Control]]** (31% of attempts)
 
-- **[[Crucifix from Turtle]]** (13% of attempts)
+- **[[Crucifix from Turtle]]** (12% of attempts)
 
-- **[[Darce Setup]]** (11% of attempts)
+- **[[Darce Setup]]** (10% of attempts)
 
-- **[[Anaconda Setup]]** (10% of attempts)
+- **[[Anaconda Setup]]** (9% of attempts)
 
-- **[[Front Headlock to Back]]** (13% of attempts)
+- **[[Front Headlock to Back]]** (12% of attempts)
 
-- **[[Truck Entry]]** (11% of attempts)
+- **[[Truck Entry]]** (10% of attempts)
 
-- **[[Guillotine Setup]]** (10% of attempts)
+- **[[Guillotine Setup]]** (9% of attempts)
 
-- **[[Posture from Chill Dog]]** (5% of attempts)
+- **[[Posture from Chill Dog]]** (4% of attempts)
 
-- **[[Stack from Chill Dog]]** (3% of attempts)
+- **[[Stack from Chill Dog]]** (2% of attempts)
+
+- **[[Guard Pass from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes

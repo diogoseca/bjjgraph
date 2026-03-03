@@ -1,133 +1,413 @@
 {
   "name": "Inside Sankaku Heel Hook",
-  "description": "TODO: Write 150-160 character SEO description for Inside Sankaku Heel Hook.",
+  "description": "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to grip sequences, rotational breaking mechanics, and proven defensive counter strategies.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "submission",
+    "leg-lock",
+    "heel-hook",
+    "inside-sankaku",
+    "no-gi",
+    "advanced"
   ],
   "from_position": "Inside Sankaku/Top",
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 45,
+      "probability": 30,
       "result": "failure"
+    },
+    {
+      "to": "50-50 Guard/Top",
+      "probability": 20,
+      "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Inside Sankaku Heel Hook.",
+  "success_rate": 50,
+  "overview": "The Inside Sankaku Heel Hook is the primary finishing technique from the Inside Sankaku leg entanglement, widely regarded as one of the highest-percentage submissions in modern no-gi grappling. This transition represents the culmination of the leg lock attack sequence where established positional control converts into a match-ending submission. The attacker leverages the structural advantages of the Inside Sankaku figure-four configuration to isolate the opponent's heel and apply devastating rotational force to the knee joint through precise breaking mechanics.\n\nExecution requires systematic progression through several control checkpoints before committing to the finish. The attacker must confirm hip-to-hip connection and knee line dominance, strip the opponent's heel protection by forcing exposure, establish a proper two-on-one grip with the blade of the wrist positioned against the Achilles tendon, and apply controlled rotational torque. Rushing any stage dramatically reduces success rates and creates escape windows that experienced defenders exploit immediately.\n\nThe heel hook attacks the knee's ligaments through rotational force transmitted via the heel and ankle, making it one of the most dangerous techniques in grappling. The Inside Sankaku configuration provides superior breaking mechanics because the figure-four entanglement prevents the opponent from rotating with the applied force, amplifying effectiveness while limiting defensive options. This positional advantage is why Inside Sankaku remains the preferred finishing position for elite leg lock specialists in high-level competition.",
   "conditions": [
-    "TODO"
+    "Inside Sankaku entanglement fully established with figure-four leg configuration around opponent's leg",
+    "Hip-to-hip connection maintained with minimal space between your hips and opponent's hips",
+    "Knee line control established preventing opponent from rotating defensively to clear the barrier",
+    "Opponent's heel is exposed or can be forced into exposure toward your centerline",
+    "Your hands are free or transitioning from positional control grips to submission grips",
+    "Competition ruleset permits heel hooks at your division level"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Standard Two-on-One Blade Grip Finish",
+      "description": "The conventional finish where the blade of the wrist is placed against the Achilles tendon, the second hand grabs the first wrist or forearm for reinforcement, and the foot is tucked into the armpit. Rotational force is applied by arching the back and turning the heel away from the knee line. This is the highest-percentage variant with the most controlled breaking mechanics.",
+      "when_to_use": "Default finishing method when you have established all control points and the heel is exposed with clear access to the Achilles tendon."
+    },
+    {
+      "variant_name": "Belly-Down Heel Hook Finish",
+      "description": "After securing the heel grip, the attacker rolls to a belly-down position while maintaining the entanglement. This variant dramatically increases breaking pressure by adding bodyweight and gravity to the rotational force. The belly-down position also eliminates the opponent's ability to sit up and strip grips. Requires confident grip security before initiating the roll to prevent losing the submission during transition.",
+      "when_to_use": "When the opponent is actively grip fighting and you have a secure initial grip but need additional breaking power, or when the opponent's defensive posture makes the standard finish difficult to complete."
+    },
+    {
+      "variant_name": "False Reap to Heel Hook",
+      "description": "A deceptive entry where the attacker threatens to transition to Outside Ashi-Garami by initiating a hip switch, drawing the opponent's defensive attention to the wrong leg. When the defender commits to defending the perceived outside heel hook threat, the attacker snaps back to the original Inside Sankaku configuration and attacks the now-exposed inside heel. Requires quick transitions and confident grip changes.",
+      "when_to_use": "Against experienced defenders who consistently hide their heel in the standard Inside Sankaku position. The feint creates a momentary window where the heel becomes exposed during the defensive adjustment."
     }
   ],
-  "position_integration": "TODO: Write position integration for Inside Sankaku Heel Hook.",
+  "position_integration": "The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as the primary finishing technique from the Inside Sankaku position. It connects the positional control hierarchy where entries from De La Riva Guard, Single Leg X-Guard, and 50-50 Guard flow through Ashi Garami positions into Inside Sankaku, and this heel hook represents the terminal attack. When defenders successfully strip grips, the attacker can chain to toe holds, kneebar attacks, or transition to Saddle for alternative finishing angles, creating the multi-threat dilemma system that defines elite leg lock grappling. The technique also serves as the primary incentive for the opponent to concede positional escapes, making the threat of the heel hook itself a positional advancement tool.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Inside Sankaku",
+      "relationship": "Source position from which this heel hook finish is executed"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "The submission type being applied in this transition"
+    },
+    {
+      "name": "Inside Heel Hook from Honey Hole",
+      "relationship": "Same submission from the alternative name position"
+    },
+    {
+      "name": "Inside Sankaku Heel Hook Finish",
+      "relationship": "Submission finish page for this technique"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Alternative name for the Inside Sankaku position"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Alternative leg entanglement for finishing when Inside Sankaku control is compromised"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Counter-entangle destination when opponent successfully defends the heel hook"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Related heel hook finish from a different leg entanglement position"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "relationship": "Opposite heel hook variant accessible when opponent rotates defensively"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Transition target when opponent clears knee line during heel hook attempt"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative submission option when heel remains defended"
     }
   ],
   "attacker": {
     "name": "Inside Sankaku Heel Hook Attacker",
-    "description": "TODO: Write attacker description for Inside Sankaku Heel Hook.",
-    "overview": "TODO: Write attacker overview for Inside Sankaku Heel Hook.",
+    "description": "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-step grip sequences, rotational breaking mechanics, and responses to common defensive counters for finishing from Inside Sankaku.",
+    "overview": "From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-percentage finishing sequence in the modern leg lock game. The attacker has already secured the dominant Inside Sankaku entanglement and now transitions from positional control to submission completion. Success depends on methodical progression through grip establishment, heel exposure, and controlled force application rather than explosive cranking. The attacker must manage the tension between patience—waiting for optimal grip positioning—and urgency—finishing before the defender can counter-entangle or extract their leg. Elite finishers treat the heel hook as a systematic process where each defensive barrier is stripped in sequence, not a single explosive movement.",
     "key_principles": [
-      "TODO"
+      "Maintain hip-to-hip connection throughout the entire finishing sequence to prevent the defender from creating extraction distance",
+      "Establish the blade of your wrist against the Achilles tendon before applying any rotational force to maximize mechanical advantage",
+      "Control the knee line with your legs to prevent defensive rotation that would neutralize the submission angle",
+      "Apply force as a controlled rotation rather than an explosive crank to maintain grip integrity and allow training partners to tap safely",
+      "Keep elbows tight to your torso and the opponent's foot tucked into your armpit for maximum leverage through the shortest force path",
+      "Anticipate grip fighting and have secondary grip options prepared before the opponent strips your primary hold"
     ],
     "setup_requirements": [
-      "TODO"
+      "Inside Sankaku figure-four entanglement fully secured with outside leg crossed over inside leg at the opponent's knee joint",
+      "Hip-to-hip connection confirmed with no significant gap between your hips and the opponent's hips",
+      "Knee line control established through proper leg positioning that prevents the opponent from rotating their knee past your leg barrier",
+      "Opponent's heel exposed or accessible through grip fighting—heel facing toward your centerline rather than hidden against their own hip",
+      "Both hands free from positional control duties and available for establishing the two-on-one submission grip"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify positional control",
+        "description": "Before initiating the submission, confirm all three control checkpoints: hip-to-hip connection is tight with no gap, your legs maintain the figure-four around the opponent's leg with outside leg crossed over inside leg, and your knee line barrier prevents defensive rotation. Rushing past this verification is the most common cause of failed heel hook attempts."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip heel protection",
+        "description": "The defender will attempt to hide their heel by pressing it against their own hip with toes turned inward. Use your inside hand to cup their ankle from underneath and your outside hand to control their toes, then lever the heel out of the hidden position by rotating their foot to expose the Achilles tendon toward your centerline. Apply steady pressure rather than explosive force to avoid losing grip."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish blade grip on heel",
+        "description": "Position the blade (pinky side) of your primary hand against the Achilles tendon at the base of the heel. Your fingers should wrap around the heel bone itself, not the ankle joint. The wrist blade must sit directly against the tendon to create the rotational fulcrum that generates breaking mechanics. An improperly placed grip dramatically reduces submission effectiveness."
+      },
+      {
+        "step_number": 4,
+        "action": "Secure two-on-one reinforcement",
+        "description": "Bring your secondary hand to grip your own wrist or forearm, creating a two-on-one configuration that doubles your grip strength. The reinforcement hand should grab the wrist of your primary hand in a monkey grip or gable grip configuration. This prevents the defender from stripping your grip through single-hand defense and prepares the complete breaking structure."
+      },
+      {
+        "step_number": 5,
+        "action": "Tuck foot into armpit",
+        "description": "Pull the opponent's foot tightly against your body by clamping their toes into your armpit on the same side as your primary gripping hand. This eliminates slack in the submission chain and ensures that all rotational force transfers directly to the knee rather than being absorbed by loose space between your grip and their body. Squeeze your elbow tight against your ribs to secure the foot."
+      },
+      {
+        "step_number": 6,
+        "action": "Align rotational axis",
+        "description": "Before applying force, ensure your grip alignment creates rotation perpendicular to the knee's natural bending plane. The heel should rotate away from the knee in a direction that loads the medial collateral ligament and anterior cruciate ligament. Misalignment reduces breaking power and can allow the defender to rotate with the force rather than absorbing it through the knee joint."
+      },
+      {
+        "step_number": 7,
+        "action": "Apply controlled rotational torque",
+        "description": "Initiate the submission by arching your back and rotating your shoulders away from the opponent while maintaining the tight grip configuration. The force comes from your core and back, not your arms. Apply steady increasing pressure rather than a sudden crank. In training, apply slowly enough that your partner can recognize the submission and tap before damage occurs. Your hips drive forward simultaneously to prevent space creation."
+      },
+      {
+        "step_number": 8,
+        "action": "Complete the finish or transition",
+        "description": "If the opponent taps, release immediately and completely. If they defend by stripping a grip, immediately re-establish or transition to a belly-down finish for increased pressure. If they counter-entangle toward 50-50, decide whether to maintain the heel hook attempt from the new configuration or reset to re-establish Inside Sankaku control. Never hold a submission grip after a tap signal."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Heel hiding defense where opponent presses heel against their own hip and turns toes inward",
+        "effectiveness": "High",
+        "your_response": "Apply steady hip pressure forward while using your inside leg to elevate their knee slightly, creating tension on their hip flexor that makes maintaining the hidden position exhausting. Alternatively, transition to a toe hold attack that targets the foot regardless of heel positioning.",
+        "targets_outcome": "Inside Sankaku/Top"
+      },
+      {
+        "counter": "Grip stripping where opponent uses both hands to peel your wrist away from their Achilles",
+        "effectiveness": "High",
+        "your_response": "Immediately re-grip or switch to the opposite hand configuration. If they commit both hands to grip fighting, their hips and legs are undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible.",
+        "targets_outcome": "Inside Sankaku/Top"
+      },
+      {
+        "counter": "Counter-entanglement where opponent threads their free leg to establish 50-50 Guard",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Prevent the counter-entangle by controlling their free leg with your outside hand before they can thread it. If they succeed in establishing 50-50, immediately assess whether you retain heel access or need to disengage and re-enter from a dominant angle.",
+        "targets_outcome": "50-50 Guard/Top"
+      },
+      {
+        "counter": "Boot defense where opponent straightens their leg and pushes against your hip to create distance",
+        "effectiveness": "Medium",
+        "your_response": "Pull their knee toward you by squeezing your figure-four tighter while driving your hips forward to close the distance they create. Their straight leg actually exposes the heel more in many cases—use the extended position to establish your grip before they can re-bend the knee.",
         "targets_outcome": "Inside Sankaku/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Cranking the heel hook explosively rather than applying controlled progressive force",
+        "consequence": "Training partner suffers serious knee injury before they can tap, or grip slips off during the explosive motion leaving you with no submission and a compromised position",
+        "correction": "Apply rotational force gradually using your core and back rather than your arms. Increase pressure steadily to give your partner time to tap. In competition, controlled application still finishes submissions—the position does the work."
+      },
+      {
+        "error": "Gripping the ankle joint or mid-foot instead of placing the wrist blade against the Achilles tendon",
+        "consequence": "Poor mechanical advantage that allows the defender to absorb the rotational force without knee damage, leading to failed submission attempts and wasted energy on ineffective grips",
+        "correction": "Verify your wrist blade sits directly against the Achilles tendon at the base of the heel bone before applying any force. The grip should feel like your wrist is wedged into the groove between the heel and the calf."
+      },
+      {
+        "error": "Abandoning hip connection to reach for the heel with both hands",
+        "consequence": "Creating space that allows the defender to pump their hips away and extract the trapped leg from the figure-four entanglement, losing the entire position",
+        "correction": "Maintain hip-to-hip pressure by keeping your core engaged and hips driven forward while your hands work independently to establish grips. Never sacrifice positional control for grip access."
+      },
+      {
+        "error": "Attempting the heel hook before controlling the knee line and preventing defensive rotation",
+        "consequence": "Defender rotates with the applied force, neutralizing the submission and potentially escaping to 50-50 Guard or completely disengaging from the entanglement",
+        "correction": "Follow the systematic sequence: confirm entanglement, verify knee line control, strip heel protection, then establish grips. Only apply rotational force when the opponent cannot rotate to absorb it."
+      },
+      {
+        "error": "Leaving elbows flared away from the body during the finish",
+        "consequence": "Dramatically reduced leverage and grip strength, making the submission easy to defend through simple grip fighting. The extended arm position also fatigues quickly.",
+        "correction": "Keep elbows pinched tight against your ribs throughout the entire finishing sequence. The opponent's foot should be tucked deep into your armpit, and your forearms should stay close to your centerline."
+      },
+      {
+        "error": "Failing to control the opponent's free leg during the submission attempt",
+        "consequence": "Opponent uses their free leg to push off your hip, create distance, or initiate counter-entanglement into 50-50 Guard, nullifying your dominant position",
+        "correction": "Use your outside leg or a hand post to monitor and control the opponent's free leg. When they attempt to use it defensively, pin it with your knee or redirect it to maintain your positional advantage."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Developing correct grip placement and two-on-one reinforcement",
+        "description": "Partner allows full Inside Sankaku control with no resistance. Practice placing the wrist blade against the Achilles tendon, establishing two-on-one grip, and tucking the foot into the armpit. Repeat until grip placement is automatic. No force application—focus purely on hand positioning and the feeling of correct alignment."
+      },
+      {
+        "phase": "Phase 2: Controlled Application",
+        "focus": "Learning to apply progressive rotational force safely",
+        "description": "With grips established, practice applying slow, controlled rotational force with a cooperative partner who taps at the first sign of pressure. Focus on generating force from the core and back rather than the arms. Build sensitivity to the point where the submission engages so you can control the intensity precisely. This phase is critical for training safety."
+      },
+      {
+        "phase": "Phase 3: Defensive Stripping",
+        "focus": "Overcoming common defensive reactions to expose the heel",
+        "description": "Partner actively hides their heel and fights grips at moderate intensity. Practice the systematic sequence of stripping heel protection, re-establishing grips after they are fought off, and maintaining positional control throughout. Develop patience and the ability to chain grip attempts without losing the position."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Completing the heel hook against full resistance",
+        "description": "Full positional sparring starting from established Inside Sankaku. Attacker works to finish the heel hook while defender uses all available escapes and counters. Develop timing for when to commit to the finish versus when to re-establish control. Build competition-level finishing ability with appropriate safety awareness."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Your opponent is actively hiding their heel by pressing it against their hip—what systematic approach do you use to force exposure?",
+        "answer": "Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another."
+      },
+      {
+        "question": "What is the optimal timing window to transition from positional control to the heel hook submission attempt?",
+        "answer": "The optimal window opens when three conditions align simultaneously: your hip connection is fully established with no gap, the knee line is controlled so the opponent cannot rotate defensively, and either the heel is already exposed or you have a clear path to strip the protection. Additionally, the opponent should be in a reactive rather than proactive defensive mode—meaning they are responding to your pressure rather than executing a pre-planned escape sequence. Attempting the heel hook during an active escape attempt significantly reduces success rates."
+      },
+      {
+        "question": "Where exactly should your wrist blade be positioned relative to the opponent's heel anatomy for maximum breaking efficiency?",
+        "answer": "The blade (ulnar/pinky side) of your wrist should be positioned directly against the Achilles tendon at the base of the calcaneus (heel bone), sitting in the natural groove between the bottom of the calf muscle and the top of the heel. Your fingers wrap around the heel bone itself from the outside. This placement creates a fulcrum point that transmits rotational force most efficiently to the knee's ligaments. Placement too high on the calf reduces leverage, and too low on the foot shifts force away from the knee."
+      },
+      {
+        "question": "Your opponent strips your primary grip hand off their heel—what is your immediate response?",
+        "answer": "Immediately re-grip with the same hand from a different angle or switch to the opposite hand as the new primary grip. If they committed both hands to strip your grip, their legs and hips are momentarily undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible due to bodyweight pressure. Never chase a lost grip with the same approach that was just defeated. Change the angle, change the hand, or change the finishing variant."
+      },
+      {
+        "question": "What critical mechanical detail distinguishes a properly applied inside heel hook from an ineffective one?",
+        "answer": "The critical distinction is rotational alignment perpendicular to the knee's natural bending axis. A properly applied inside heel hook rotates the heel away from the knee in the direction that loads the MCL and ACL—specifically, the heel rotates laterally while the knee is prevented from following. An ineffective attempt applies force along the knee's natural bending plane (flexion/extension) rather than against its rotational resistance. The entanglement must prevent the opponent from rotating their entire body with the force, so knee line control is inseparable from the submission mechanics."
+      },
+      {
+        "question": "Your opponent begins a rolling escape by dipping their shoulder and loading their hip to rotate—how do you respond?",
+        "answer": "Immediately drive your weight down into the entanglement by pulling their trapped knee tighter to your body with your legs. Use your outside hand to post on the mat or grab their far hip to block the rotation before it develops momentum. If they commit fully to the roll, follow the rolling motion while maintaining your grip—their roll can actually improve your finishing angle as it often transitions the position toward Saddle where you have even tighter control. The key is reading the roll early from the shoulder and hip loading cues rather than reacting after it's initiated."
+      },
+      {
+        "question": "What grip configuration do you use for the two-on-one reinforcement and why is it superior to a single-hand grip?",
+        "answer": "The two-on-one uses your secondary hand gripping your primary hand's wrist in either a monkey grip or gable grip, doubling effective grip strength at the contact point. This is superior because the heel hook requires maintaining grip against the opponent's entire body rotating defensively, which generates forces that overwhelm any single-hand grip. The reinforcement also creates a rigid structure that transmits rotational force more efficiently from your core to the heel. Without reinforcement, the defender can defeat the submission through simple two-on-one grip fighting against your single gripping hand."
+      },
+      {
+        "question": "When finishing the heel hook, should the force come primarily from your arms or from a different part of your body?",
+        "answer": "The rotational force should come primarily from your core and back, not your arms. The arms function as transmission cables connecting your core's rotational power to the heel, not as the force generators themselves. The finish is executed by arching your back and rotating your shoulders away from the opponent while your arms maintain a rigid, tight connection. Arms fatigue rapidly under load and generate significantly less force than the core musculature. Keeping elbows tight to the body ensures efficient force transfer from the larger muscle groups through to the submission point."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Inside Sankaku Heel Hook."
+    "safety_considerations": "The inside heel hook is among the most dangerous techniques in grappling, targeting the MCL, ACL, and meniscus through rotational force that can cause catastrophic, career-ending injury in milliseconds. Always apply force progressively and slowly in training, never explosively. Release immediately upon any tap signal—verbal, physical, or ambiguous. Train heel hooks only with experienced partners who understand the submission's danger. Beginners should drill grip placement without any force application until mechanics are automatic. In competition, apply with control appropriate to the level of competition. Never hold the submission after the tap. If you feel the knee give before your partner taps, release immediately."
   },
   "defender": {
     "name": "Inside Sankaku Heel Hook Defender",
-    "description": "TODO: Write defender description for Inside Sankaku Heel Hook.",
-    "overview": "TODO: Write defender overview for Inside Sankaku Heel Hook.",
+    "description": "Complete defender guide for surviving the Inside Sankaku Heel Hook. Recognition cues, grip defense sequences, escape mechanics, and critical safety awareness for defending against inside heel hooks.",
+    "overview": "Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes defensive situations in modern grappling. The defender's leg is trapped in the opponent's figure-four entanglement with the heel exposed toward the attacker's centerline, creating immediate submission danger. Unlike many defensive situations where time is an ally, the Inside Sankaku Heel Hook demands immediate action—once the attacker establishes a secure two-on-one grip on the heel, the window for safe escape closes rapidly and the only responsible option becomes tapping. Effective defense requires a layered approach: first protect the heel to prevent grip establishment, then fight any grips that are established, and only then work on positional escape. Understanding this priority sequence is critical because many practitioners reverse the order—attempting to escape the position while neglecting heel protection—and suffer injury when the attacker capitalizes on the exposed heel during the escape attempt.",
     "key_principles": [
-      "TODO"
+      "Protect the heel first and always—hide it against your own hip with toes turned inward before addressing any other aspect of the position",
+      "Never turn into the opponent attempting to pass the knee line as this leads directly to Saddle or exposes the heel more completely",
+      "Address the submission threat before the positional escape—a heel hook can finish in milliseconds while positional escapes take seconds",
+      "Tap immediately when the opponent has secured a full two-on-one grip with wrist blade positioned and begins applying rotational force",
+      "Create escape distance by moving hips away from the opponent rather than trying to push through their control",
+      "Use both hands to fight grips when the heel is threatened—positional frames are secondary to grip defense in this position"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent releases one or both hands from positional control grips and reaches toward your ankle or heel area",
+      "Opponent's body begins arching backward or rotating shoulders away from you, indicating they are preparing the breaking mechanic",
+      "You feel the blade of the opponent's wrist pressing against your Achilles tendon at the base of your heel bone",
+      "Opponent tucks your foot into their armpit and squeezes their elbow tight against their ribs, indicating full grip establishment",
+      "Opponent's hip pressure increases forward as they prepare to apply force, compressing your hips to prevent defensive rotation"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Hide the heel by pressing it tightly against your own hip with toes turned inward and knee rotated outward",
+        "when_to_use": "Immediately upon recognizing you are in Inside Sankaku—this should be your default defensive posture before the opponent initiates any grip attempt",
         "targets_outcome": "Inside Sankaku/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Prevents the opponent from establishing the wrist blade grip on your Achilles tendon, forcing them to work through your heel protection before they can attack. Buys time to work on grip fighting and positional escapes.",
+        "risk": "If you focus entirely on heel hiding without addressing the entanglement, the opponent can apply steady pressure that eventually fatigues your defensive posture and forces exposure."
+      },
+      {
+        "action": "Two-on-one grip strip where both hands peel the opponent's gripping hand off your heel and redirect it away",
+        "when_to_use": "When the opponent has established initial contact with your heel but has not yet secured the full two-on-one reinforcement grip",
+        "targets_outcome": "Inside Sankaku/Top",
+        "if_successful": "Breaks the opponent's submission grip, resetting the attack sequence and forcing them to re-establish contact. Creates a window to re-hide the heel and potentially work toward extraction.",
+        "risk": "Committing both hands to grip fighting removes your ability to frame against the opponent's hips or control their legs, potentially allowing them to improve positional control while you strip grips."
+      },
+      {
+        "action": "Counter-entangle by threading your free leg to establish 50-50 Guard and neutralize the positional advantage",
+        "when_to_use": "When the opponent overcommits to the submission and creates space between their legs that allows your free leg to enter the entanglement",
+        "targets_outcome": "50-50 Guard/Top",
+        "if_successful": "Transitions to 50-50 Guard where the entanglement becomes symmetrical and the opponent loses their dominant Inside Sankaku control. The heel hook threat is significantly reduced in 50-50 compared to Inside Sankaku.",
+        "risk": "If the counter-entangle fails, you may have worsened your position by bringing your second leg closer to the opponent's control, potentially allowing them to transition to Saddle."
+      },
+      {
+        "action": "Boot scoot escape by pumping hips backward while straightening the trapped leg to create extraction distance",
+        "when_to_use": "When the opponent momentarily loses hip connection or is transitioning between positional grips and submission grips",
+        "targets_outcome": "Inside Sankaku/Top",
+        "if_successful": "Creates enough distance to begin extracting the trapped leg from the figure-four entanglement. If extraction progresses far enough, the entanglement structure collapses and you can recover guard.",
+        "risk": "Straightening the leg during the boot scoot can temporarily expose the heel if the opponent reads the movement and intercepts with a grip before you create sufficient distance."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
-        "how": "TODO"
+        "outcome": "50-50 Guard/Top",
+        "how": "Thread your free leg into the opponent's entanglement when they create space during the submission attempt. Target the gap between their legs and hook your foot behind their far leg to establish the symmetrical 50-50 configuration. This neutralizes their dominant control and reduces the heel hook threat significantly."
+      },
+      {
+        "outcome": "Inside Sankaku/Top",
+        "how": "Successfully defend the heel hook attempt through grip fighting and heel hiding without losing the positional battle. Strip the opponent's grip using two-on-one defense, re-hide the heel, and force them to restart the entire submission sequence. While you remain in a dangerous position, surviving the heel hook attempt buys time to work on positional escapes."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Turning into the opponent to pass the knee line in a panic",
+        "consequence": "Leads directly into Saddle position where both legs are trapped and the opponent has even greater control and submission access. This is the single most common and most costly defensive mistake.",
+        "correction": "Always escape by creating distance away from the opponent. Move hips backward and away, never through or toward them. The correct escape direction is the opposite of what instinct suggests."
+      },
+      {
+        "error": "Attempting explosive escape movements when the opponent has established a submission grip",
+        "consequence": "Severe ligament damage to the MCL, ACL, and meniscus as the explosive movement accelerates through the breaking angle faster than you can recognize the danger and faster than the opponent can release",
+        "correction": "If the opponent has a secure two-on-one grip with wrist blade positioned on the Achilles and begins applying rotational force, tap immediately. There is no safe escape once full breaking mechanics are engaged."
+      },
+      {
+        "error": "Prioritizing positional escape over heel protection",
+        "consequence": "The heel becomes exposed during the escape attempt, giving the opponent easy access to establish the submission grip. Many practitioners are submitted during escape attempts rather than during static defense.",
+        "correction": "Follow the defensive priority sequence: protect heel first, fight grips second, escape position third. Never sacrifice heel protection for positional improvement."
+      },
+      {
+        "error": "Using only one hand to fight the opponent's two-on-one submission grip",
+        "consequence": "Insufficient grip-fighting force to break the reinforced two-on-one configuration. The defender's single hand cannot overcome the combined strength of the attacker's two hands.",
+        "correction": "Commit both hands to grip stripping when the heel is directly threatened. Positional frames become secondary to survival. Peel the attacker's primary gripping hand first, then immediately re-hide the heel."
+      },
+      {
+        "error": "Failing to recognize when the submission is fully locked and continuing to fight instead of tapping",
+        "consequence": "Catastrophic knee injury including torn MCL, ACL, and meniscus that can require surgery and months of rehabilitation. The inside heel hook can cause damage before pain signals fully register.",
+        "correction": "Develop the discipline to tap immediately when you feel rotational pressure on a fully gripped heel. Train tap recognition as deliberately as you train technique. There is no submission worth a destroyed knee."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the correct defensive priority sequence when trapped in Inside Sankaku facing a heel hook attempt?",
+        "answer": "The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements."
+      },
+      {
+        "question": "Your opponent has a wrist blade grip against your Achilles and their second hand is reaching for reinforcement—what do you do?",
+        "answer": "This is the critical intervention window. Use both hands immediately to strip their primary gripping hand before the two-on-one is established. Target their wrist and peel it away from your Achilles by pushing their hand toward your toes and away from the Achilles groove. Once their reinforcement hand connects, the grip becomes exponentially harder to break. If you cannot strip the grip before reinforcement is established and they begin applying rotation, tap immediately—the window for safe escape has closed."
+      },
+      {
+        "question": "Why is turning into the opponent to escape Inside Sankaku the most dangerous defensive movement?",
+        "answer": "Turning into the opponent directly assists their transition to Saddle by bringing your second leg into the entanglement. The rotation that you intend as an escape actually helps the attacker capture both legs in an even more controlled configuration. Additionally, the turning motion can expose your heel more completely by rotating it directly toward the attacker's centerline. The correct escape direction is always away from the opponent—pumping hips backward to create distance rather than rotating through their control."
+      },
+      {
+        "question": "When is counter-entangling to 50-50 Guard a viable defensive strategy versus when should you focus on extraction?",
+        "answer": "Counter-entangling to 50-50 is viable when the opponent creates space between their legs during their submission attempt—typically when they overcommit to reaching for your heel with both hands. The gap allows your free leg to thread into the entanglement. Focus on extraction instead when your hips have space to move backward and the opponent's figure-four is loosening. Counter-entanglement is riskier because bringing your second leg closer to the opponent can lead to Saddle if the threading fails. Extraction is generally the safer default strategy."
+      },
+      {
+        "question": "How do you know when it is too late to escape and you must tap?",
+        "answer": "Tap immediately when all three conditions are present: (1) the opponent has a secure two-on-one grip with wrist blade against your Achilles tendon, (2) your foot is tucked into their armpit with elbows tight, and (3) you feel any rotational pressure beginning on your heel. The inside heel hook damages ligaments before pain fully registers, meaning that if you wait until it hurts to tap, the damage has already occurred. When in doubt, tap. No training session or competition result is worth a destroyed knee joint."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Tap Awareness",
+        "focus": "Learning to identify the heel hook threat and developing tap discipline",
+        "description": "Partner establishes Inside Sankaku and slowly demonstrates the grip sequence without applying force. Practice recognizing each stage of the submission setup—initial grip contact, wrist blade positioning, two-on-one reinforcement, and force application. Develop automatic tap response when you feel the grip fully established. This phase prioritizes safety awareness above all technical defense."
+      },
+      {
+        "phase": "Phase 2: Heel Protection Mechanics",
+        "focus": "Building automatic heel hiding defense",
+        "description": "Partner attempts to expose and grip the heel at moderate intensity while you maintain the hidden heel position. Practice the physical mechanics of pressing your heel against your hip, turning toes inward, and using your hand to assist heel protection. Build the muscle memory so heel hiding becomes automatic upon entering any leg entanglement."
+      },
+      {
+        "phase": "Phase 3: Active Grip Fighting",
+        "focus": "Developing two-on-one grip strip technique",
+        "description": "Partner establishes initial grip contact and you practice stripping it with two-on-one defense. Progress from slow and cooperative to moderate resistance. Learn to immediately re-hide the heel after each successful grip strip. Develop the ability to chain multiple grip defense rounds without losing composure or positional awareness."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Integrating all defensive skills under full resistance",
+        "description": "Full positional sparring from Inside Sankaku. Defender uses all available tools—heel hiding, grip fighting, counter-entanglement, extraction attempts—against an attacker working to finish the heel hook. Maintain strict tap discipline throughout. Build the ability to survive extended time in the position and create escape opportunities against skilled attackers."
       }
     ]
   }

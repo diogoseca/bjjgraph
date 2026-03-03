@@ -557,19 +557,23 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 73
+        "attempt_probability": 74
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Hip Rotation Escape from Electric Chair",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Straighten Leg Defense from Electric Chair",
-        "attempt_probability": 4
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Sweep from Electric Chair",
+        "attempt_probability": 2
       }
     ]
   }

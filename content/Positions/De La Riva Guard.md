@@ -87,13 +87,13 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[De La Riva Sweep]]** (11% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (22% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (23% of attempts)
 
-- **[[Berimbolo Entry]]** (11% of attempts)
+- **[[Berimbolo Entry]]** (12% of attempts)
 
 - **[[Kiss of the Dragon]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[Single Leg X Entry]]** (12% of attempts)
 
 - **[[Waiter Sweep]]** (6% of attempts)
 
@@ -103,9 +103,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[Sickle Sweep]]** (4% of attempts)
 
-- **[[Transition to K-Guard]]** (4% of attempts)
-
-- **[[Tripod Sweep]]** (7% of attempts)
+- **[[Tripod Sweep]]** (8% of attempts)
 
 - **[[Omoplata]]** (4% of attempts)
 
@@ -168,33 +166,33 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (49% of attempts)
+- **[[Toreando Pass]]** (74% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Knee Slice Pass]]** (7% of attempts)
 
-- **[[X Pass]]** (6% of attempts)
+- **[[X Pass]]** (3% of attempts)
 
-- **[[Leg Drag Pass]]** (8% of attempts)
+- **[[Leg Drag Pass]]** (5% of attempts)
 
-- **[[Long Step Pass]]** (4% of attempts)
+- **[[Long Step Pass]]** (1% of attempts)
 
-- **[[Smash Pass]]** (3% of attempts)
+- **[[Smash Pass]]** (0% of attempts)
 
-- **[[Back Step Pass]]** (8% of attempts)
+- **[[Back Step Pass]]** (5% of attempts)
 
-- **[[Body Lock Pass]]** (6% of attempts)
+- **[[Body Lock Pass]]** (3% of attempts)
 
-- **[[Stack Pass]]** (1% of attempts)
+- **[[Stack Pass]]** (0% of attempts)
 
-- **[[Bullfighter Pass]]** (4% of attempts)
+- **[[Bullfighter Pass]]** (1% of attempts)
+
+- **[[Toreando Pass from De La Riva]]** (0% of attempts)
 
 - **[[Backstep from De La Riva]]** (0% of attempts)
 
 - **[[Knee Slice from DLR]]** (0% of attempts)
 
-- **[[Leg Drag from DLR]]** (0% of attempts)
-
-- **[[Toreando Pass from De La Riva]]** (1% of attempts)
+- **[[Leg Drag from DLR]]** (1% of attempts)
 
 
 ### Common Mistakes

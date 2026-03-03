@@ -21,37 +21,37 @@ description: "Defend twister side control with systematic escape strategies. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, attempt Turtle Transition. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Arm Extraction to Turtle",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 31% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,23 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (15% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Technical Stand-up]] (13% of attempts)
+### [[Technical Stand-up]] (10% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Hip Escape to Guard]] (13% of attempts)
 
-### [[Frame and Shrimp to Guard]] (18% of attempts)
+### [[Frame and Shrimp to Guard]] (14% of attempts)
 
-### [[Turtle Transition]] (21% of attempts)
+### [[Arm Extraction to Turtle]] (31% of attempts)
 
-### [[Rolling to Guard]] (16% of attempts)
+### [[Rolling to Guard]] (13% of attempts)
+
+### [[Escape Twister Side Control]] (4% of attempts)
+
+### [[Frame from Twister Side Control]] (2% of attempts)
+
+### [[Turn In from Twister Side Control]] (1% of attempts)
 
 
 

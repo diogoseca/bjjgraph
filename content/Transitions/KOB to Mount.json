@@ -1,10 +1,14 @@
 {
   "name": "KOB to Mount",
-  "description": "TODO: Write 150-160 character SEO description for KOB to Mount.",
+  "description": "Master the Knee on Belly to Mount transition in BJJ. Learn weight transfer mechanics, grip control, and timing to advance to the highest-scoring position.",
   "tags": [
-    "bjj",
     "transition",
-    "TODO"
+    "knee-on-belly",
+    "mount",
+    "positional-advancement",
+    "top-control",
+    "pressure",
+    "BJJ"
   ],
   "from_position": "Knee on Belly/Top",
   "outcomes": [
@@ -19,120 +23,376 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for KOB to Mount.",
+  "overview": "The KOB to Mount transition represents one of the most direct positional advancement pathways in Brazilian Jiu-Jitsu, converting a 2-point Knee on Belly control position into the 4-point mount. This transition exploits the pressure and control advantages of Knee on Belly to slide into a more dominant and sustainable position. The fundamental challenge lies in maintaining control during the weight transfer—the moment the knee lifts or shifts creates a window where the bottom player can insert frames, recover guard, or escape to a less disadvantageous position.\n\nStrategic timing is essential. The ideal moment to transition occurs when the bottom player's defensive reactions to KOB pressure create openings. When they push against the knee, turn away from pressure, or attempt to bridge, their defensive movement can be redirected into a mount entry. Rather than forcing the transition against a prepared defender, skilled practitioners bait defensive reactions from KOB and ride them directly into mount establishment.\n\nThe transition requires coordinated grip management, hip control, and base awareness. Maintaining downward pressure throughout the movement prevents the bottom player from exploiting the momentary instability inherent in any positional shift. Understanding when to commit to the mount entry versus maintaining KOB pressure or attacking submissions is a key decision point that separates methodical top players from those who lose position by rushing transitions.",
   "conditions": [
-    "TODO"
+    "Established Knee on Belly with driving knee on opponent's torso and base leg posted wide for stability",
+    "Controlling grips on opponent's collar or head and far-side hip or pants preventing defensive turning",
+    "Opponent flat on back or actively reacting to KOB pressure with pushes or bridges",
+    "Clear path for leg swing without active knee shield or strong forearm frames blocking the transition",
+    "Sufficient base stability and grip control to maintain pressure during the weight transfer phase"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Direct Step-Over",
+      "description": "The classic version where the base leg swings over the opponent's body in an arc while the driving knee maintains pressure on the torso. The step-over creates a brief moment of instability that must be covered by strong grip control and forward hip pressure.",
+      "when_to_use": "When the opponent is flat on their back with arms occupied defending collar grips or recovering from KOB pressure, providing a clear path for the leg swing."
+    },
+    {
+      "variant_name": "Knee Slide Mount Entry",
+      "description": "Instead of swinging the base leg over, the driving knee slides across the opponent's torso while the base leg steps around to the far side. This maintains constant pressure throughout the transition by keeping the knee in contact with the torso during the entire movement.",
+      "when_to_use": "When the opponent is actively framing against the step-over but not addressing the lateral slide. Effective against opponents who time their defense to the leg swing rather than the knee movement."
+    },
+    {
+      "variant_name": "Pressure Drop Mount Entry",
+      "description": "From KOB, the top player drops their hips directly down and backward while simultaneously sliding the base leg across to establish low mount. This sacrifices some of the aerial clearance of the step-over for maximum pressure continuity and minimal transition time.",
+      "when_to_use": "Against opponents who are exhausted or flattened by sustained KOB pressure and cannot generate the explosive hip movement needed to counter a direct mount entry."
     }
   ],
-  "position_integration": "TODO: Write position integration for KOB to Mount.",
+  "position_integration": "This transition is a critical node in the top-position advancement chain, connecting the 2-point Knee on Belly to the 4-point Mount. It represents the natural positional progression within the pinning hierarchy and integrates with the broader offensive system by converting temporary KOB pressure into sustainable mount control. The transition also creates strategic dilemmas: threatening the mount entry forces the bottom player to address the transition threat, which opens submission opportunities from KOB such as armbars and collar chokes. This makes the transition itself a weapon even when not executed—its threat value changes the bottom player's defensive priorities and creates openings for alternative attacks.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Knee on Belly",
+      "relationship": "Source position - transition begins from established Knee on Belly top control"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position - successful transition establishes full mount for maximum control and submission access"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome destination - bottom player may recover half guard during a failed transition attempt"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Adjacent control position frequently used before establishing KOB and as fallback if transition fails"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Alternative mount variation accessible from KOB that shares similar weight transfer mechanics"
+    },
+    {
+      "name": "Far Side Armbar from KOB",
+      "relationship": "Alternative attack from Knee on Belly that creates the submission dilemma enabling this mount transition"
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "relationship": "Primary escape the bottom player will attempt once mount is established after this transition"
+    },
+    {
+      "name": "Frame and Shrimp from Knee on Belly",
+      "relationship": "Primary defensive technique the bottom player uses to prevent this transition from succeeding"
+    },
+    {
+      "name": "Consolidation to Mount",
+      "relationship": "Alternative mount entry from side control that shares similar principles of weight transfer and control"
     }
   ],
   "attacker": {
     "name": "KOB to Mount Attacker",
-    "description": "TODO: Write attacker description for KOB to Mount.",
-    "overview": "TODO: Write attacker overview for KOB to Mount.",
+    "description": "Learn to execute the Knee on Belly to Mount transition. Step-by-step weight transfer mechanics, grip control, and timing to secure full mount position.",
+    "overview": "The KOB to Mount transition from the attacker's perspective requires coordinating weight transfer, grip management, and timing to convert temporary Knee on Belly pressure into the most dominant ground position in BJJ. The key challenge is maintaining control continuity during the positional shift—any gap in pressure creates a defensive window that alert opponents will exploit. Successful execution depends on reading the bottom player's reactions and choosing the precise moment when their defensive options are most limited. The transition rewards practitioners who understand that mount entry from KOB is as much about creating the right conditions through sustained pressure and submission threats as it is about executing the right mechanics during the step-over itself.",
     "key_principles": [
-      "TODO"
+      "Maintain constant downward pressure through the driving knee during the entire transition to prevent space creation and frame insertion",
+      "Control the opponent's far hip with your grip hand to prevent them from turning into you or shrimping away during the step-over",
+      "Time the transition when the opponent is reacting defensively to KOB pressure rather than actively establishing frames",
+      "Keep your base wide and mobile throughout the movement to prevent sweeps and balance disruption during weight transfer",
+      "Commit fully to the transition once initiated—hesitation mid-step-over creates exploitable gaps in pressure continuity",
+      "Use grip sequences that both control the opponent's defensive options and facilitate your weight transfer mechanics"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established Knee on Belly with stable base, driving knee on solar plexus, and posted leg extended wide",
+      "Near-side collar grip or head control preventing the opponent from sitting up or turning toward you",
+      "Far-side hip or pants grip preventing the opponent from turning away or shrimping to create distance",
+      "Opponent's arms occupied with pressure defense rather than establishing offensive grips or active frames against the transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure controlling grips",
+        "description": "Establish a strong collar grip with your near hand and a far-side hip or pants grip with your far hand. These grips serve dual purpose: they prevent the opponent from turning or sitting up while providing anchor points for your weight transfer during the step-over."
+      },
+      {
+        "step_number": 2,
+        "action": "Increase forward pressure",
+        "description": "Drive additional weight through your knee into the opponent's solar plexus by shifting your hips forward and dropping your chest slightly. This increased pressure forces the opponent to commit their arms to defensive frames, occupying their hands and preventing them from blocking the incoming leg swing."
+      },
+      {
+        "step_number": 3,
+        "action": "Read defensive reaction",
+        "description": "Monitor the opponent's response to the increased pressure. Look for pushing against the knee, bridging attempts, or turning away—each creates a specific opening for the mount entry. The ideal window opens when their arms are committed to pressure defense rather than positional defense."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the step-over",
+        "description": "Begin lifting your posted base leg and swinging it in an arc over the opponent's body. Maintain your driving knee pressure throughout—do not lift the knee to make space for the swing. Your grips anchor your upper body position while the leg travels over the opponent's torso or legs."
+      },
+      {
+        "step_number": 5,
+        "action": "Transfer weight during swing",
+        "description": "As your leg crosses the opponent's centerline, begin shifting your weight from the driving knee to a bilateral hip distribution. Keep your hips low and drive them forward rather than sitting upright. Your collar grip and hip grip maintain control continuity during this critical transition moment."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the leg past defensive frames",
+        "description": "Complete the leg swing by clearing any remaining frames or knee shield attempts from the opponent. If the opponent tries to insert a knee, use your swinging leg to push it down or step past it before they can establish the shield. Speed and commitment through this phase prevent half guard recovery."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle into mount position",
+        "description": "Plant both knees on either side of the opponent's torso and immediately drop your hips heavy onto their solar plexus. Squeeze your knees toward their ribcage to prevent elbow escape attempts. Transition your grips from KOB control configuration to mount control grips on the collar and cross-face."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate mount control",
+        "description": "Grapevine the opponent's legs or post your feet wide depending on their immediate escape attempts. Establish heavy hip pressure and begin reading their defensive posture for submission opportunities. The first three seconds after establishing mount are critical for preventing the bridge-and-roll escape."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bottom player frames on the knee and executes a strong hip escape to create distance",
+        "effectiveness": "High",
+        "your_response": "Anticipate the shrimp by controlling the far hip tightly. When they begin to shrimp, follow their hip movement and accelerate the step-over to beat their guard recovery timing.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player times an explosive bridge during the leg swing to disrupt base and balance",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Post your free hand on the mat on the far side to absorb the bridge. Keep your driving knee pressure and wait for the bridge to collapse before completing the step-over. If the bridge is strong, settle back to KOB rather than forcing a compromised mount entry.",
+        "targets_outcome": "Knee on Belly/Top"
+      },
+      {
+        "counter": "Bottom player inserts a knee shield as the leg swings over, blocking mount establishment",
+        "effectiveness": "High",
+        "your_response": "Use your swinging leg to hook behind their inserting knee and push it flat before they can establish the shield. If the shield is already in, abort the mount entry and re-establish KOB pressure, then attack submissions to force them to abandon the shield.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player turns to their side and attempts to recover full guard by threading legs",
+        "effectiveness": "Medium",
+        "your_response": "Use your far-hip grip to prevent the full turn. If they get partially to their side, capitalize by completing the step-over on the exposed side and immediately driving your hips forward into mount before they complete the guard recovery.",
         "targets_outcome": "Knee on Belly/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting the driving knee off the opponent's torso before initiating the step-over",
+        "consequence": "Creates immediate space for the bottom player to insert frames, shrimp away, or recover to half guard, eliminating the pressure advantage that makes the transition viable",
+        "correction": "Keep the driving knee in contact with the opponent's torso throughout the transition. The leg swing should travel over the opponent while the knee continues applying downward pressure until both legs are in mount position."
+      },
+      {
+        "error": "Releasing grip control to post hands during the step-over for balance",
+        "consequence": "Allows the opponent to turn, sit up, or insert defensive frames during the brief moment both hands are off, making mount establishment significantly harder",
+        "correction": "Maintain at least one controlling grip throughout the entire transition. Practice the step-over with strong collar control that anchors your upper body while the lower body repositions."
+      },
+      {
+        "error": "Sitting upright immediately after completing the step-over instead of driving hips forward",
+        "consequence": "Creates an immediate bridge opportunity for the opponent as the upright posture provides a tall center of gravity that is easily disrupted",
+        "correction": "Complete the step-over with hips driving forward and chest low over the opponent. Settle heavy before adjusting posture. The first priority after mount entry is hip pressure, not submission setup."
+      },
+      {
+        "error": "Attempting the transition when the opponent has active frames established against the knee",
+        "consequence": "The step-over gets blocked by the frames, resulting in a scramble that frequently leads to half guard recovery or complete guard recovery by the bottom player",
+        "correction": "Clear the opponent's frames first through submission threats or pressure adjustments before attempting the mount transition. Attack their extended arms to force them to retract frames."
+      },
+      {
+        "error": "Swinging the leg too slowly or tentatively during the step-over",
+        "consequence": "Gives the opponent time to react, insert a knee shield, turn to their side, or bridge during the extended transition window",
+        "correction": "Once committed to the step-over, execute the leg swing with speed and purpose. The transition should be a single fluid motion, not a series of hesitant adjustments. Commit fully or abort and re-establish KOB."
+      },
+      {
+        "error": "Neglecting far-hip control and only maintaining collar grip during transition",
+        "consequence": "Opponent turns away freely during the step-over, recovering to turtle or establishing half guard before mount can be consolidated",
+        "correction": "The far-hip grip is critical for preventing the opponent's defensive turning. Maintain this grip throughout the transition and only release it after mount is fully established and hips are settled."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Weight transfer fundamentals",
+        "description": "Practice the step-over motion from KOB to mount against a compliant partner. Focus on maintaining knee pressure during the swing, keeping hips low, and settling heavy into mount. Perform 20 repetitions per side with no resistance, concentrating on smooth weight transfer and grip maintenance throughout the movement."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Reading defensive reactions",
+        "description": "Partner provides specific defensive reactions from KOB bottom (pushing knee, bridging, turning away). Practice recognizing each reaction and timing the step-over to exploit the window it creates. Develop sensitivity to when the opponent's arms are committed to pressure defense versus actively blocking the transition path."
+      },
+      {
+        "phase": "Phase 3: Integration",
+        "focus": "Combining with KOB attack system",
+        "description": "Chain the mount transition with submission threats from KOB. Threaten far-side armbar to force arm retraction, then transition to mount when defensive frames collapse. Practice the mount entry as part of a flowing KOB attack sequence rather than as an isolated technique. Partner provides 50-75% resistance."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Positional sparring with full resistance",
+        "description": "Start from established KOB in positional sparring rounds. Top player scores by achieving mount, bottom player scores by recovering guard. Full resistance with focus on selecting the right moment for the transition based on real-time defensive reactions. Alternate roles every 2 minutes for 10-minute rounds."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the KOB to Mount transition?",
+        "answer": "The optimal window opens when the bottom player's arms are committed to defending KOB pressure rather than establishing positional frames. Specifically, when they push against your knee, bridge reactively, or retract their arms after a submission threat. These moments leave the transition path unobstructed and their hip escape mechanics compromised by their current defensive commitment."
+      },
+      {
+        "question": "What grip configuration provides the most control during the step-over?",
+        "answer": "Near-side collar grip combined with far-side hip or pants grip provides optimal control. The collar grip anchors your upper body position and prevents the opponent from sitting up during the transition. The far-hip grip prevents defensive turning and shrimping that would create space for guard recovery. At least one grip must be maintained throughout the entire step-over movement."
+      },
+      {
+        "question": "Why is maintaining driving knee pressure throughout the transition critical for success?",
+        "answer": "Lifting the knee before the step-over completes creates immediate space between your weight and the opponent's torso. This space allows frame insertion, knee shield recovery, or hip escape—all of which defeat the transition. Continuous knee pressure keeps the opponent pinned and their defensive options limited during the vulnerable weight transfer phase when your base is temporarily compromised."
+      },
+      {
+        "question": "Your opponent pushes hard against your knee as you prepare to transition to mount—how do you capitalize on this reaction?",
+        "answer": "Their extended arms pushing against your knee are committed to vertical force rather than positional defense. This creates two opportunities: immediately initiate the step-over while their arms are occupied and unable to block the incoming leg, or attack the extended arms with a far-side armbar to punish the push and force them to retract, creating an even better transition window on the next attempt."
+      },
+      {
+        "question": "What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?",
+        "answer": "The most common failure is swinging the leg too slowly or hesitantly, giving the bottom player time to insert a knee shield between your legs before mount is established. This slow swing creates an extended window where the opponent can thread their knee across your body and establish half guard. The correction is committing fully to the step-over with speed and clearing any knee insertion attempts with your swinging leg."
+      },
+      {
+        "question": "How does the direction of your weight transfer affect the success of the transition?",
+        "answer": "Weight must transfer forward and downward through the hips, never upward or backward. Forward hip drive maintains pressure on the opponent's torso during the transition and makes the mount landing heavy and immediate. Sitting upward or shifting weight backward during the step-over creates a tall center of gravity vulnerable to bridges and provides space for hip escapes underneath you."
+      },
+      {
+        "question": "Your opponent bridges explosively as your leg swings over their body—what adjustment do you make?",
+        "answer": "Post your free hand on the mat on the far side of the opponent to absorb the bridge force and stabilize your base. Keep your driving knee pressure and wait for the bridge to collapse before settling into mount. If the bridge is strong enough to truly threaten your balance, abort the mount entry and settle back to KOB rather than landing in a compromised mount position that can be immediately reversed."
+      },
+      {
+        "question": "Why should you control the far hip before initiating the step-over rather than just using collar control?",
+        "answer": "The far-hip grip prevents the opponent's most effective counter: turning away during the step-over to recover guard or escape to turtle. Collar control alone anchors the upper body but leaves the opponent's hips free to rotate and create angles. Without far-hip control, the opponent can turn away as your leg swings over and thread their legs into half guard or turtle before you can consolidate mount. The hip grip eliminates this defensive rotation."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for KOB to Mount."
+    "safety_considerations": "This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely."
   },
   "defender": {
     "name": "KOB to Mount Defender",
-    "description": "TODO: Write defender description for KOB to Mount.",
-    "overview": "TODO: Write defender overview for KOB to Mount.",
+    "description": "Defend the Knee on Belly to Mount transition. Recognition cues, frame timing, and knee shield techniques to prevent mount and recover guard position.",
+    "overview": "Defending the KOB to Mount transition requires recognizing the top player's intent before the step-over begins and executing defensive countermeasures during the narrow window of vulnerability created by the weight transfer. The defender's primary tools are frame creation, hip escape timing, and knee shield insertion. Success depends on acting early—once the top player completes the step-over and settles their weight, the position deteriorates from a difficult but escapable Knee on Belly to the significantly more oppressive mount. Understanding this transition's mechanics from the defender's perspective transforms a reactive survival scenario into a proactive defensive opportunity where the momentary instability of the step-over becomes your best chance to recover guard.",
     "key_principles": [
-      "TODO"
+      "Recognize the transition intent early by monitoring grip changes and base foot positioning before the step-over begins",
+      "Frame against the hip rather than the knee—hip frames prevent the weight transfer while knee frames are easily bypassed during the swing",
+      "Time your hip escape to coincide with the step-over, when the top player's base is most compromised and pressure is momentarily reduced",
+      "Insert knee shield immediately during any gap in pressure—half guard is dramatically better than mount and worth fighting for",
+      "Keep elbows tight throughout the defense to prevent arm isolation that would make the mount transition uncontested",
+      "Use the top player's commitment to the transition against them—their weight shifting creates sweep and guard recovery opportunities"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player secures a far-hip or pants grip in addition to their collar control, indicating preparation for the step-over that requires bilateral control",
+      "Top player's base foot lifts off the mat or repositions closer to your body, reducing their posted base in preparation for the swing",
+      "Increased forward pressure through the driving knee as the top player loads weight before initiating the transition movement",
+      "Top player's hips begin rotating or their shoulders square up to your body, signaling the directional commitment of the incoming leg swing",
+      "Top player momentarily looks toward the far side of your body, indicating they are visually clearing the path for their leg to travel"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Frame on hip and execute aggressive hip escape to create distance for guard recovery",
+        "when_to_use": "When you detect the transition early through grip changes or base foot movement, before the step-over has begun",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Create enough distance to insert knee shield and recover to half guard, denying the mount and regaining a defensive guard position",
+        "risk": "If the hip escape is late or insufficient, the top player rides the movement and establishes mount with your hips already displaced"
+      },
+      {
+        "action": "Time an explosive bridge at the peak of the step-over to disrupt balance and abort the transition",
+        "when_to_use": "When the top player's leg is mid-swing and their weight is committed to the transition, creating maximum instability in their base",
         "targets_outcome": "Knee on Belly/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Force the top player to abort the mount entry and re-establish KOB, resetting the positional exchange and buying time for escape",
+        "risk": "Mistimed bridge wastes energy and may actually assist the top player's weight transfer if executed too early or too late"
+      },
+      {
+        "action": "Insert knee shield between bodies as the driving knee pressure decreases during the step-over",
+        "when_to_use": "During the brief moment when the top player's weight shifts from the driving knee to the swinging leg, creating a gap in downward pressure",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Establish knee shield half guard, preventing mount consolidation and creating a defensive guard with offensive sweep potential",
+        "risk": "If the knee insertion is too slow, the top player clears it with their swinging leg and establishes mount over the partially inserted shield"
+      },
+      {
+        "action": "Push the driving knee off your torso before the transition begins by framing and shrimping preemptively",
+        "when_to_use": "When you recognize early preparation cues and the top player has not yet fully committed their grips to the transition",
+        "targets_outcome": "Knee on Belly/Top",
+        "if_successful": "Dislodge KOB entirely and recover to open guard or force the top player to re-establish the position from side control",
+        "risk": "Extended arms pushing the knee become vulnerable to far-side armbar or wristlock if the top player capitalizes on the exposure"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time your knee shield insertion during the step-over when driving knee pressure momentarily decreases. Thread your inside knee across the top player's hip line before they can clear it with the swinging leg. Half guard recovery denies the 4-point mount and gives you a guard position with legitimate sweep and back take threats."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the top player has completed the step-over before attempting defensive action",
+        "consequence": "By the time mount is established, the defensive window has closed and you face a significantly harder escape from full mount rather than disrupting a transition",
+        "correction": "React to the preparation cues—grip changes and base foot repositioning—rather than waiting for the leg swing to begin. Early action exploits the transition's vulnerability window."
+      },
+      {
+        "error": "Extending arms to push against the top player's chest or shoulders during the transition",
+        "consequence": "Extended arms become vulnerable to armbar or Americana attacks, and vertical pushing creates no meaningful space for guard recovery",
+        "correction": "Frame on the top player's hip with elbows tight to your body. Hip frames create lateral space for guard recovery while keeping your arms safe from submission attacks."
+      },
+      {
+        "error": "Bridging directly upward without combining with a hip escape or directional turn",
+        "consequence": "A vertical bridge increases pressure on your own chest without creating the lateral space needed for knee insertion or guard recovery",
+        "correction": "Always combine bridging with a simultaneous hip escape toward the side of the swinging leg. The bridge disrupts base while the hip escape creates the angular space for knee shield insertion."
+      },
+      {
+        "error": "Turning completely to the side without establishing frames or knee shield first",
+        "consequence": "Exposes your back to the top player who can easily transition to back control or technical mount instead of standard mount",
+        "correction": "Create space through hip escape mechanics first, then insert a knee shield before turning. The shield prevents the top player from following your turn into a back take."
+      },
+      {
+        "error": "Panicking under KOB pressure and making random explosive movements instead of systematic defense",
+        "consequence": "Wastes energy rapidly and often creates worse positions—uncontrolled bridging or reaching can result in arm isolation, back exposure, or accelerated mount establishment",
+        "correction": "Maintain composure through controlled breathing. Follow the defensive hierarchy: recognize the transition cue, frame on the hip, time your hip escape with the step-over, insert knee shield."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that signals a KOB to Mount transition attempt?",
+        "answer": "The earliest cue is the top player securing a far-hip grip in addition to their collar control. This bilateral grip setup is unnecessary for maintaining KOB but essential for controlling the step-over. A secondary early cue is the base foot repositioning closer to your body, which shortens the arc the swinging leg needs to travel and indicates imminent transition commitment."
+      },
+      {
+        "question": "When is the optimal moment to execute your defensive frame during this transition?",
+        "answer": "The optimal moment is during the preparation phase before the step-over begins—when you detect grip changes or base foot movement. Framing on the hip at this stage can prevent the transition entirely by creating space that makes the step-over impossible. Once the leg is already swinging, your defense shifts from prevention to damage control through knee shield insertion."
+      },
+      {
+        "question": "Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?",
+        "answer": "Insert a knee shield immediately by driving your inside knee across the top player's hip line during the swing. The step-over momentarily reduces driving knee pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer, not after it completes."
+      },
+      {
+        "question": "Why is attempting to push the knee off before the transition starts more effective than defending mid-transition?",
+        "answer": "Preemptive KOB defense disrupts the entire transition sequence at its source. If you successfully dislodge the knee through framing and shrimping before the step-over begins, the top player must re-establish KOB entirely before attempting the mount transition again. Mid-transition defense, while still viable, operates within a much smaller time window and against a committed movement that has momentum. Early defense also preserves more energy than reactive scrambling."
+      },
+      {
+        "question": "How do you transition from successful KOB defense directly into a guard recovery sequence?",
+        "answer": "After disrupting the step-over with a knee shield, immediately establish an active half guard position by securing an underhook on the trapped-leg side and positioning your hips on your side facing the opponent. From this established half guard, you have access to sweeps, back takes, and further guard recovery sequences. Do not simply block the mount and remain passive—convert the defensive success into an offensive guard position immediately."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying transition cues",
+        "description": "Partner establishes KOB and telegraphs the mount transition through grip changes and base foot movement at slow speed. Bottom player practices verbally calling out each recognition cue as it occurs without attempting defense. Build pattern recognition for the preparation phase before physical response training."
+      },
+      {
+        "phase": "Phase 2: Frame Timing",
+        "focus": "Defensive mechanics during the transition window",
+        "description": "Partner performs the KOB to mount step-over at 50% speed. Bottom player practices hip framing, bridge timing, and knee shield insertion at each phase of the transition. Focus on coordinating the hip escape with the step-over timing rather than speed or power. 15 repetitions per defensive option."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Converting defense into guard recovery",
+        "description": "Partner performs the transition at 75% speed and resistance. Bottom player chains defensive responses: frame, disrupt, insert knee shield, establish half guard, secure underhook, begin sweep sequence. Practice the complete defensive-to-offensive chain as one continuous movement rather than separate techniques."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance positional sparring",
+        "description": "Start from KOB with full resistance. Top player attempts mount transition using all variants and timing. Bottom player scores by recovering any guard position, top player scores by establishing mount for 3 seconds. Alternate roles every 2 minutes. Debrief between rounds on which recognition cues were detected or missed."
       }
     ]
   }

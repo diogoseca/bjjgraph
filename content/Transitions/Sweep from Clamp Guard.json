@@ -1,42 +1,383 @@
 {
   "name": "Sweep from Clamp Guard",
-  "description": "Master the Sweep from Clamp Guard in BJJ. Learn to use clamp guard mechanics to off-balance and sweep opponents, achieving mount.",
-  "tags": ["bjj", "transition", "sweep", "clamp-guard", "guard", "mount"],
+  "description": "Master the Sweep from Clamp Guard in BJJ. Complete guide to exploiting arm isolation for high-percentage sweeps to mount using compromised opponent base.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "clamp-guard",
+    "guard",
+    "mount",
+    "arm-isolation",
+    "no-gi"
+  ],
   "from_position": "Clamp Guard/Bottom",
   "outcomes": [
-    {"to": "Mount/Top", "probability": 45, "result": "success"},
-    {"to": "Clamp Guard/Bottom", "probability": 35, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Mount/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Clamp Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 45,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Clamp Guard exploits the fundamental asymmetry created by arm isolation — with one arm trapped between the guard player's legs, the opponent has only a single arm available for basing and balance. This structural deficit makes the opponent vulnerable to directional off-balancing that would be insufficient against a fully-based opponent. The sweep capitalizes on this compromised base by combining the clamp's controlling mechanics with hip elevation and directional force to topple the opponent and achieve mount.\n\nStrategically, the sweep serves multiple purposes within the clamp guard system. It punishes opponents who drive forward to neutralize submission threats, forces opponents to commit their free arm to base defense rather than extraction attempts, and creates a decision tree where defending the sweep opens submission pathways. The sweep and submission threats from clamp guard form a complementary attacking system where each threat reinforces the other — opponents who base wide to prevent sweeps extend their trapped arm into armbar range, while those who keep tight to defend submissions leave themselves vulnerable to being rolled.\n\nThe execution requires precise timing. The sweep is highest percentage when the opponent shifts weight forward or commits their free arm to an action other than basing. Premature sweep attempts against a well-based opponent waste energy and may compromise the clamp position. Patient guard players who threaten submissions to draw defensive reactions before sweeping achieve significantly higher success rates than those who attempt the sweep in isolation.",
+  "conditions": [
+    "Clamp guard established with shin-on-bicep control isolating one of opponent's arms between legs",
+    "Hip angle maintained at 30-45 degrees toward trapped arm side for clamp leverage and sweep loading",
+    "At least one hand controlling opponent's posture through head, collar, or wrist grip",
+    "Opponent's weight shifted forward or free arm committed to extraction or defensive action rather than basing"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Forward Drive Scissor Sweep",
+      "description": "When the opponent drives forward into the clamp to close distance and neutralize submissions, use a scissor motion with the legs — bottom leg sweeps their far knee while the top leg drives across their chest. The clamp maintains arm isolation throughout, preventing the posting that normally defends scissor sweeps. The forward momentum adds to the sweeping force, making this the highest-percentage variation when the opponent cooperates by driving in.",
+      "when_to_use": "When opponent drives forward aggressively into the clamp, shifting their weight past their center of gravity"
+    },
+    {
+      "variant_name": "Hip Bump Counter Sweep",
+      "description": "When the opponent reaches with their free arm — either to extract the trapped arm, grip fight, or attempt a pass — their remaining base collapses momentarily. Sit up explosively while maintaining the clamp, bumping your hip into their torso and redirecting them over the trapped arm side. The opponent cannot post with the clamped arm, making the hip bump nearly indefensible when timed with their arm commitment.",
+      "when_to_use": "When opponent commits their free arm to extraction, grip fighting, or any action that removes it from basing duty"
+    },
+    {
+      "variant_name": "Pendulum Sweep Variation",
+      "description": "Against a well-based opponent who keeps their hips low and free arm posted, use the non-clamping leg as a pendulum to generate momentum. Swing the free leg wide and then cut it back across the opponent's body while simultaneously pulling their posture with your hand grips. The pendulum generates sufficient force to overcome a wider base, and the clamp prevents the arm-side posting that normally defends this sweep.",
+      "when_to_use": "Against a defensively sound opponent with wide base who is resisting forward commitment and keeping free arm posted"
+    }
+  ],
+  "position_integration": "The Sweep from Clamp Guard occupies a critical role within the clamp guard attacking system by providing a positional advancement threat that complements the position's primary submission attacks. Without a credible sweep threat, opponents can focus entirely on arm extraction without fearing positional consequences. The sweep creates a fork where defending the sweep requires basing with the free arm, which removes that arm from extraction duty and strengthens the clamp's submission potential. This technique connects the clamp guard system to the mount attacking system, providing a pathway from an open guard offensive position to the highest-scoring dominant position in BJJ. Within the broader positional hierarchy, the sweep represents one of the most efficient guard-to-mount pathways because the arm isolation dramatically reduces the opponent's defensive options during the transition.",
+  "related_content": [
+    {
+      "name": "Clamp Guard",
+      "relationship": "Source position providing the arm isolation foundation that enables this sweep"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent may achieve if they counter the sweep and pass guard"
+    },
+    {
+      "name": "Armbar from Clamp Guard",
+      "relationship": "Complementary attack that creates sweep openings when opponent defends submissions"
+    },
+    {
+      "name": "Arm Extraction from Clamp Guard",
+      "relationship": "Opponent's primary defensive transition that the sweep can punish"
+    },
+    {
+      "name": "Stack Pass from Clamp Guard",
+      "relationship": "Passing threat that the sweep directly counters by exploiting forward weight commitment"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard family from which clamp guard and its sweeps derive"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Fallback guard if clamp is lost during sweep attempt without completing the roll"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Clamp Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Clamp Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Master the offensive sweep from Clamp Guard. Learn to time sweep entries, exploit compromised base from arm isolation, and achieve mount through precise hip mechanics.",
+    "overview": "Executing the Sweep from Clamp Guard requires understanding how arm isolation fundamentally compromises your opponent's balance architecture. With one arm trapped, your opponent's ability to post and base is reduced by half, creating directional vulnerabilities that do not exist against a fully-based opponent. The key is reading when your opponent's remaining base is weakest — typically when they drive forward, reach with their free arm, or attempt to extract the trapped arm — and timing your sweep to exploit that precise moment of maximum instability. The sweep becomes a systemic weapon when combined with submission threats: each armbar or triangle attempt forces defensive reactions that degrade base, creating the exact conditions the sweep requires.",
+    "key_principles": [
+      "Exploit the single-arm base deficit by directing sweep force toward the side where the opponent cannot post due to the clamp",
+      "Time the sweep with the opponent's weight commitment — forward drive, extraction attempt, or free arm reaching create optimal windows",
+      "Maintain clamp integrity throughout the sweep motion because releasing the clamp prematurely allows the opponent to post with the freed arm and recover base",
+      "Use free hands to control the opponent's posture and manipulate their center of gravity before initiating the sweep",
+      "Combine hip elevation with directional force to create a lever effect that amplifies the off-balancing momentum beyond what arm strength alone can generate",
+      "Chain sweep threats with submission threats so that each defense opens the complementary attack, creating an unsolvable decision tree"
+    ],
+    "setup_requirements": [
+      "Clamp guard fully established with shin-on-bicep control preventing arm extraction",
+      "Hip angle maintained at 30-45 degrees toward the trapped arm for leverage and sweep loading",
+      "At least one free hand controlling opponent's posture through head, collar, or wrist grip to prevent them from posturing up",
+      "Opponent's weight shifted forward or their free arm committed to a non-basing activity such as extraction, grip fighting, or defense"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm clamp integrity",
+        "description": "Verify shin-on-bicep positioning and ensure the trapped arm is securely isolated between your legs. Adjust your hip angle if the clamp has drifted toward the forearm. The sweep will fail if the opponent frees their arm during the roll, so clamp confirmation is the non-negotiable first step."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish posture control grips",
+        "description": "Use your free hands to grip the opponent's collar, head, or far shoulder to break their posture and keep their weight distributed forward over your centerline. In no-gi, cup behind the neck with one hand and control the far tricep or wrist with the other. These grips serve dual purpose: posture breaking for sweep setup and directional pulling during execution."
+      },
+      {
+        "step_number": 3,
+        "action": "Read opponent's weight distribution",
+        "description": "Wait for the moment when the opponent drives forward, reaches with their free arm, or attempts arm extraction. These actions shift their center of gravity forward and remove their only remaining base point. Do not initiate the sweep against a well-based, settled opponent — patience here separates successful sweeps from wasted energy."
+      },
+      {
+        "step_number": 4,
+        "action": "Load the sweep by shifting hips underneath",
+        "description": "As the timing window opens, shift your hips underneath the opponent's center of gravity while maintaining the clamp. Your body becomes a lever — hips are the fulcrum, the clamp is the fixed point preventing the arm-side post, and your posture grips provide the directional pull that initiates the roll."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the directional sweep",
+        "description": "Drive your hips upward and to the side while pulling with your posture control grips in the direction of the trapped arm. The clamp prevents the opponent from posting on that side, so the force is undefended. For the scissor variation, simultaneously sweep the far knee with your bottom leg while driving across the chest with the clamping leg."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow through over the top",
+        "description": "As the opponent rolls, follow the momentum by climbing on top immediately. Do not release the clamp until your weight is over the opponent and you are in position to establish mount. The transition from guard to top requires continuous forward drive — any hesitation allows the opponent to recover guard or scramble."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle mount position",
+        "description": "Release the clamp and establish mount with knees on both sides of the opponent's torso, heavy hips at the solar plexus, and hands posted close to their body. Prevent guard recovery by keeping your hips low and centering your weight before the opponent can insert a knee or frame. The sweep is not complete until mount is consolidated."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent widens base and drops hips low to create a stable platform that resists the directional sweep force",
+        "effectiveness": "High",
+        "your_response": "Switch from sweep to armbar or triangle attack since the wide base extends the trapped arm further and opens submission angles that a tight base would prevent",
+        "targets_outcome": "Clamp Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts their free arm aggressively on the mat in the sweep direction to block the roll",
+        "effectiveness": "Medium",
+        "your_response": "Switch sweep direction to attack the opposite side where the posting arm cannot reach, or use the arm commitment as an opportunity to deepen the clamp and threaten armbar on the now-extended posted arm",
+        "targets_outcome": "Clamp Guard/Bottom"
+      },
+      {
+        "counter": "Opponent extracts their trapped arm during the sweep motion when the clamp loosens from the dynamic movement",
+        "effectiveness": "High",
+        "your_response": "If mid-sweep and arm escapes, immediately close guard by wrapping legs around their torso before they can posture and pass. Alternatively, transition to butterfly guard hooks to maintain some form of guard retention",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent sprawls hips back forcefully to create distance and flatten the sweep angle before it can develop",
+        "effectiveness": "Medium",
+        "your_response": "Use the increased distance to re-angle your hips and threaten armbar with the extra space, which forces them to close distance again and re-enter the sweep danger zone",
+        "targets_outcome": "Clamp Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing the clamp before the sweep is fully completed and mount is established",
+        "consequence": "The opponent recovers their trapped arm mid-transition and uses it to post, frame, or re-guard, negating the sweep and potentially leading to guard pass",
+        "correction": "Maintain shin-on-bicep pressure throughout the entire sweep arc and only release the clamp after your weight is over the opponent and mount knees are in position"
+      },
+      {
+        "error": "Attempting the sweep without first breaking the opponent's posture or waiting for a weight shift",
+        "consequence": "The opponent has full base with their free arm posted and low hips, making the sweep require far more force than the position can generate, wasting energy",
+        "correction": "Use posture control grips to pull the opponent forward or threaten a submission to force a reaction before initiating the sweep — never sweep into a fully-settled base"
+      },
+      {
+        "error": "Directing sweep force toward the opponent's strong-side base rather than their compromised trapped-arm side",
+        "consequence": "The opponent can easily post with their free arm on their strong side, stopping the sweep and potentially using the momentum against you",
+        "correction": "Always direct primary sweep force toward the trapped arm side where the opponent physically cannot post due to the clamp restricting their arm"
+      },
+      {
+        "error": "Using arm strength instead of hip mechanics to generate the sweeping force",
+        "consequence": "Arms fatigue rapidly and generate insufficient force to off-balance a resisting opponent, resulting in failed sweeps that drain your energy",
+        "correction": "Drive the sweep from your hips and core, using arms only for directional guidance and posture control while legs and hip elevation provide the primary off-balancing force"
+      },
+      {
+        "error": "Failing to follow through to mount after the opponent is rolled, staying in an intermediate position",
+        "consequence": "The opponent recovers guard or half guard during the transition gap, wasting the successful sweep by not securing the dominant position",
+        "correction": "Continue forward momentum immediately after the roll begins, climbing over the opponent without pause and establishing mount knees and hip pressure before they can re-guard"
+      },
+      {
+        "error": "Telegraphing the sweep by shifting hips dramatically before the opponent commits their weight",
+        "consequence": "The opponent reads the setup and either widens their base defensively or disengages from the clamp entirely before the sweep can develop",
+        "correction": "Keep hip adjustments subtle and disguise sweep loading behind submission threats — the opponent should be reacting to an armbar threat when the sweep initiates"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Hip movement and directional force generation",
+        "description": "Practice the sweep motion with a fully compliant partner at 0% resistance. Focus on the hip elevation, directional force application toward the trapped arm side, and the follow-through to mount. Perform 20 repetitions per side, emphasizing smooth continuous motion from clamp guard through to settled mount position."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Reading opponent weight shifts and commitment",
+        "description": "Partner provides 30-50% resistance and cycles through different weight distributions — forward drive, lateral shift, reaching with free arm. Practice identifying the optimal sweep window for each weight shift pattern and initiating the sweep only at the correct moment. Develop the patience to wait for commitment rather than forcing the sweep."
+      },
+      {
+        "phase": "Phase 3: Integration",
+        "focus": "Combining sweeps with submission threats",
+        "description": "Chain submission attempts with sweep entries at 50-70% resistance. Threaten armbar to force base widening, then sweep. Threaten triangle to force posture change, then sweep. Develop the read-and-react flow where each submission defense opens a sweep window and each sweep defense opens a submission pathway."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance execution and recovery",
+        "description": "Execute sweep attempts during live rolling from clamp guard at full resistance. Focus on identifying real-time sweep opportunities, managing failed attempts without losing the clamp, and immediately consolidating mount after successful sweeps. Track success rate and analyze which variations work best against different body types and defensive styles."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Sweep from Clamp Guard?",
+        "answer": "The optimal timing window occurs when the opponent's center of gravity shifts forward past their base or when their free arm commits to a non-basing action such as extraction attempts, grip fighting, or submission defense. These moments reduce their available posting points to zero on the trapped arm side, meaning the sweep encounters no structural resistance in that direction. Attempting the sweep when the opponent is settled with their free arm posted and hips low produces dramatically lower success rates because they can resist the directional force with their remaining base."
+      },
+      {
+        "question": "What conditions must be established before you can reasonably attempt this sweep?",
+        "answer": "Four conditions must exist before the sweep becomes viable. First, the clamp must be secure with shin-on-bicep control that will hold through dynamic movement. Second, hip angle should be maintained at 30-45 degrees for both clamp leverage and sweep loading mechanics. Third, at least one hand must control the opponent's posture to prevent them from posturing up and creating distance that negates the sweep. Fourth, the opponent's weight must be shifted forward or their free arm committed to something other than basing. Without all four conditions, the sweep becomes a low-percentage energy expenditure."
+      },
+      {
+        "question": "What is the critical hip movement that generates the primary sweeping force in this technique?",
+        "answer": "The critical hip movement is an upward elevation combined with lateral redirection toward the trapped arm side. The hips function as a fulcrum — they drive upward into the opponent's center of gravity while simultaneously angling to redirect force toward the side where the clamp prevents posting. This is not a flat bridge but a directional thrust that creates rotational momentum. The hip elevation must be explosive enough to displace the opponent's weight but controlled enough to maintain clamp integrity throughout the arc. The legs and core generate the force, with the arms serving only as directional guides through posture grips."
+      },
+      {
+        "question": "You attempt the sweep but your opponent posts their free arm wide in the sweep direction — what do you do?",
+        "answer": "When the opponent posts their free arm to block the sweep, they have committed that arm to a basing function, which means it is no longer available for arm extraction or posture recovery. This creates two immediate opportunities: first, switch the sweep direction to attack the opposite side where no arm can post; second, abandon the sweep temporarily and attack the now-fully-isolated trapped arm with an armbar, since the posting arm cannot assist in defense. The post is actually favorable because it deepens the opponent's commitment to a defensive posture that opens higher-percentage attacks. Never force the sweep into an established post."
+      },
+      {
+        "question": "What grip configuration with your free hands maximizes sweep effectiveness from clamp guard?",
+        "answer": "The optimal grip configuration uses one hand on the opponent's head or collar to control posture and one hand on their far shoulder or tricep to provide directional pulling force during the sweep. In no-gi, cup behind the neck with the posture hand and grip the far tricep with the directional hand. The posture grip prevents the opponent from straightening their spine and keeps their weight forward, while the directional grip provides the pulling force that guides the opponent's roll once the hips initiate the off-balancing. During execution, both grips pull simultaneously toward the trapped arm side to compound the sweeping force with the hip elevation."
+      },
+      {
+        "question": "In what direction should the primary sweeping force be applied relative to the opponent's compromised base?",
+        "answer": "The primary sweeping force must be directed toward the trapped arm side — the side where the opponent physically cannot post due to the shin-on-bicep clamp restricting their arm. This exploits the structural gap in their base rather than attacking their strong side where the free arm can resist. The force vector should be diagonal: upward to lift their weight off the mat and laterally toward the clamped arm to direct them into the void where no post exists. Sweeping toward the free arm side allows them to post and resist, reducing success rate dramatically. The trapped arm side is the path of least resistance by design."
+      },
+      {
+        "question": "Your opponent drops their hips low and widens their base when they sense the sweep setup — how do you adjust?",
+        "answer": "A wide, low base is an effective sweep defense but creates a significant submission vulnerability. The wider stance extends the trapped arm further from the opponent's body, increasing the leverage available for armbar entries. Transition immediately from sweep threat to armbar or triangle attack. The opponent cannot simultaneously maintain a wide base for sweep defense and a tight, compact posture for submission defense — this is the fundamental dilemma of clamp guard. Threaten the armbar to force them to close their base and tighten their posture, which recreates the conditions where the sweep becomes viable again. The cycle continues until one threat succeeds."
+      },
+      {
+        "question": "The sweep attempt fails and your opponent begins extracting their arm from the clamp — what is your immediate response?",
+        "answer": "Prioritize guard retention over re-establishing the clamp. If the arm is partially extracted, immediately close your guard by wrapping your legs around their torso to establish closed guard, which provides a safe defensive position with its own offensive toolkit. If closing guard is not possible due to opponent posture, insert butterfly hooks underneath their thighs to establish butterfly guard. Do not chase the lost clamp with desperate re-clamping attempts, as this typically results in a scramble where the now-free opponent can pass guard. If re-establishing the clamp is still feasible — meaning the arm is still partially controlled — hip escape to deepen the clamp back onto the bicep before the opponent fully extracts."
+      }
+    ],
+    "safety_considerations": "The Sweep from Clamp Guard involves significant momentum and rotational force during the rolling motion. Control sweep speed during training to allow your partner to safely post or roll with the movement. Avoid explosive sweep attempts when drilling with lighter or less experienced partners, as the sudden weight transfer and rotational force can cause shoulder or wrist injuries on landing. When following through to mount, place weight gradually rather than dropping full body weight onto your partner's torso. Communicate with your training partner about intensity level before drilling and during live rolling. The clamp itself can generate uncomfortable pressure on the trapped arm's bicep — check in with your partner periodically during extended drilling sessions."
   },
   "defender": {
     "name": "Sweep from Clamp Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Clamp Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Clamp Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Learn to defend and counter the Sweep from Clamp Guard. Recognition cues, base maintenance strategies, and counter-attack options for the top player caught in clamp.",
+    "overview": "Defending the Sweep from Clamp Guard begins with recognizing that your compromised base from the arm trap makes you inherently vulnerable to directional sweeps. The primary defensive priority is maintaining your free arm as a dedicated posting point rather than committing it to extraction or attacks. Base width, hip positioning, and weight distribution become critical when only one arm is available for structural support. Understanding the sweep triggers — forward weight shift, free arm commitment, and posture changes — allows you to avoid the positions where the sweep becomes high-percentage. The most effective defense operates on two levels simultaneously: preventing the sweep through base management while actively working to extract the trapped arm and escape the clamp entirely.",
+    "key_principles": [
+      "Keep your free arm available for basing at all times — never commit it to extraction or offense when sweep threat is active",
+      "Maintain low hips with a wide stance to create maximum base stability against directional off-balancing attempts",
+      "Avoid driving forward into the clamp because forward weight commitment is the primary trigger for the highest-percentage sweep variations",
+      "Distribute weight evenly rather than loading toward either side, preventing the opponent from timing a directional sweep against your momentum",
+      "Work arm extraction methodically between sweep threats rather than committing fully to extraction when the opponent is actively loading a sweep",
+      "Recognize the opponent's grip changes and hip shifts that signal sweep initiation and immediately widen base in response"
+    ],
+    "recognition_cues": [
+      "Bottom player shifts hips underneath your center of gravity and angles their body to load the sweep direction",
+      "Bottom player's grip pattern changes from submission-oriented wrist control to posture-pulling grips on your collar, head, or far shoulder",
+      "You feel increased upward hip pressure from the bottom player driving into your torso, indicating they are loading a hip bump or scissor motion",
+      "Bottom player's free leg repositions from a neutral clamping role to an active sweeping position across your knee line or hip"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post free arm wide on the mat in the anticipated sweep direction",
+        "when_to_use": "Immediately when you feel the opponent loading their hips or pulling your posture toward the trapped arm side",
+        "targets_outcome": "Clamp Guard/Bottom",
+        "if_successful": "The sweep stalls against your posted arm, maintaining your top position and allowing you to reset your base",
+        "risk": "Committing the free arm to posting removes it from extraction duty, prolonging your time trapped in the clamp and potentially opening submission angles"
+      },
+      {
+        "action": "Drop hips low and widen base to increase overall stability against directional force",
+        "when_to_use": "Proactively when you sense the opponent threatening sweeps through grip changes or hip repositioning before they initiate the sweep",
+        "targets_outcome": "Clamp Guard/Bottom",
+        "if_successful": "Wide base absorbs the sweeping force without requiring arm posting, keeping your free arm available for extraction work",
+        "risk": "Widening base extends the trapped arm further from your body, potentially increasing the opponent's leverage for armbar entries"
+      },
+      {
+        "action": "Drive hips back and create distance to flatten the sweep angle before it develops",
+        "when_to_use": "When the opponent begins loading the sweep by shifting their hips underneath you but before they execute the directional force",
+        "targets_outcome": "Clamp Guard/Bottom",
+        "if_successful": "The increased distance reduces the opponent's leverage and may loosen the clamp enough to begin arm extraction",
+        "risk": "Creating distance can open space for the opponent to re-angle their hips and threaten armbar with the extended arm"
+      },
+      {
+        "action": "Counter the sweep momentum with a sprawl and drive into guard pass",
+        "when_to_use": "During the sweep execution when the opponent has committed their hips and grips, use their momentum against them by sprawling and driving through",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You convert their sweep attempt into a guard pass opportunity, achieving side control as the clamp breaks under the passing pressure",
+        "risk": "If the sprawl is too late, you may end up rolling through the sweep worse than if you had simply posted"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Clamp Guard/Bottom",
+        "how": "Maintain base by posting the free arm wide or keeping hips low with wide stance, absorbing the sweep force without being rolled. This keeps you in top position but still trapped in clamp guard, requiring continued extraction work."
+      },
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Counter the sweep attempt by sprawling through the opponent's momentum, extracting the trapped arm during the dynamic movement when the clamp loosens, and driving through to pass guard into side control. This converts their offensive action into your positional advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving weight forward into the clamp while trying to pressure pass or flatten the guard player",
+        "consequence": "Forward weight commitment is the exact trigger the opponent needs for the highest-percentage sweep variations, making you maximally vulnerable to being rolled to mount",
+        "correction": "Maintain neutral weight distribution or slightly rearward pressure when trapped in clamp guard, and never drive forward unless you have a specific passing sequence that accounts for the sweep threat"
+      },
+      {
+        "error": "Committing the free arm to extraction while the opponent is actively loading a sweep",
+        "consequence": "With both arms occupied — one trapped, one pulling for extraction — you have zero posting ability and will be swept with minimal resistance",
+        "correction": "Only attempt extraction when the opponent is not actively threatening a sweep, and keep the free arm ready to post at a moment's notice during any extraction attempt"
+      },
+      {
+        "error": "Posting too late after the sweep momentum has already developed past the tipping point",
+        "consequence": "Once rotational momentum is established, a late post generates insufficient resistance and you get swept despite recognizing the threat",
+        "correction": "Read the pre-sweep cues — hip shifts, grip changes, leg repositioning — and post proactively before the sweep initiates rather than reacting after the force is already applied"
+      },
+      {
+        "error": "Attempting to stand up rapidly to disengage without first addressing the clamp and posture control grips",
+        "consequence": "Standing with arm trapped extends the arm into maximum armbar leverage, and the posture grips pull you back down into an even worse position with momentum working against you",
+        "correction": "Break posture grips and loosen the clamp before attempting to stand, or if standing is necessary, keep the arm tight to your body and posture incrementally rather than explosively"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most important defensive priority when trapped in clamp guard and facing sweep threats?",
+        "answer": "The single most important priority is maintaining the free arm's availability for posting and basing. With one arm trapped, the free arm is your only structural defense against directional sweeps. Committing it to extraction, offense, or any non-basing function when the opponent is threatening sweeps leaves you with zero posting ability and guarantees being swept. All other defensive concerns — extraction, passing, submission defense — are secondary to ensuring the free arm can post in the sweep direction at any moment."
+      },
+      {
+        "question": "Your opponent threatens an armbar from clamp guard and you instinctively widen your base to defend — what sweep vulnerability does this create?",
+        "answer": "Widening your base to defend the armbar shifts your weight laterally and extends your trapped arm further from your torso, which increases the opponent's clamp leverage. More critically, the wide base creates a lower center of gravity that is harder to lift but easier to redirect laterally — the exact vector that the scissor sweep variation attacks. The opponent can read your wide defensive posture and switch from armbar to sweep, using the wider stance against you. The solution is to tighten the elbow rather than widening the base, defending the armbar through arm position rather than base adjustment that opens sweep vulnerability."
+      },
+      {
+        "question": "How do you differentiate between the opponent setting up a submission versus loading a sweep from clamp guard?",
+        "answer": "Submission setups from clamp guard typically involve the opponent pulling your trapped wrist toward their hip, adjusting their leg angle to isolate the elbow joint, and shifting their hips away from you to create extension leverage. Sweep setups involve the opposite movement pattern — the opponent shifts their hips underneath your center of gravity, changes their grips from wrist control to posture-pulling grips on your head or collar, and repositions their free leg from neutral clamping to an active sweeping position. The key tell is hip direction: hips moving away signal submissions, hips driving underneath signal sweeps. Reading this distinction allows you to choose the correct defensive response."
+      },
+      {
+        "question": "When is the safest moment to attempt extracting your trapped arm from the clamp without opening yourself to the sweep?",
+        "answer": "The safest extraction window occurs immediately after the opponent has committed to and failed a sweep or submission attempt, when they are resetting their hips and regripping. During this transitional moment, their offensive structure is temporarily disorganized and they cannot immediately launch a new sweep. Begin extraction by rotating your elbow toward the mat while pulling your arm along the line of your body, keeping your free arm posted for base throughout. If the opponent begins reloading a sweep during extraction, immediately abandon extraction and return to defensive base. Never extract against an opponent who has settled grips and loaded hips."
+      },
+      {
+        "question": "Your opponent loads the sweep and you feel your weight tipping past the balance point — what is your best recovery option?",
+        "answer": "Once past the balance point, resisting the sweep is counterproductive and wastes energy that could be redirected toward recovery. Instead, accept the sweep momentum but use it to your advantage by immediately posting on the far side as you roll, establishing a frame before the opponent can settle mount. As you are being rolled, extract your trapped arm during the dynamic movement when the clamp naturally loosens from the rotational force. If you can free the arm during the roll, insert a knee immediately to establish half guard rather than allowing full mount. The roll itself often creates enough space and movement to break the clamp — prioritize arm recovery and guard insertion over fighting the sweep momentum."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setups from clamp guard",
+        "description": "Partner establishes clamp guard and cycles through sweep setups without completing them. Practice recognizing the pre-sweep cues: hip shifts underneath, grip changes to posture control, free leg repositioning. Call out each cue verbally as you recognize it. Build pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Base Management",
+        "focus": "Maintaining balance and posting under sweep pressure",
+        "description": "Partner executes sweeps at 40-60% speed and force. Practice posting, widening base, and dropping hips to absorb sweep force. Focus on keeping the free arm available for posting while maintaining top position. Reset after each successful defense or completed sweep and analyze what worked."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense",
+        "focus": "Converting sweep defense into passing opportunities",
+        "description": "Partner executes sweeps at 60-80% resistance. Practice not only defending the sweep but immediately transitioning to arm extraction and guard passing when the sweep fails. Develop the instinct to capitalize on the opponent's failed offensive attempt rather than simply surviving and resetting to neutral."
+      }
+    ]
   }
 }

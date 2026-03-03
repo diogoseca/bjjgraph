@@ -93,17 +93,23 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (16% of attempts)
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Ghost Escape]]** (16% of attempts)
+- **[[Ghost Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Turtle Transition]]** (19% of attempts)
+- **[[Arm Extraction to Turtle]]** (31% of attempts)
+
+- **[[Bridge from Scarf Hold Position]]** (5% of attempts)
+
+- **[[Escape Scarf Hold Position]]** (2% of attempts)
+
+- **[[Bridge Escape from Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -158,17 +164,21 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana]]** (17% of attempts)
+- **[[Americana]]** (14% of attempts)
 
-- **[[Kimura]]** (14% of attempts)
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (18% of attempts)
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (22% of attempts)
+- **[[Side Control to North-South]]** (26% of attempts)
 
-- **[[Armbar Finish]]** (13% of attempts)
+- **[[Armbar Finish]]** (11% of attempts)
 
-- **[[Arm Triangle]]** (16% of attempts)
+- **[[Arm Triangle]]** (14% of attempts)
+
+- **[[Scarf Hold to Mount]]** (5% of attempts)
+
+- **[[Scarf Hold to Side Control]]** (3% of attempts)
 
 
 ### Common Mistakes

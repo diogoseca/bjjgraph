@@ -93,19 +93,23 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (20% of attempts)
+- **[[Elbow Escape to Guard]]** (21% of attempts)
 
 - **[[Hip Escape to Turtle]]** (17% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (15% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (8% of attempts)
 
-- **[[Roll to Guard]]** (14% of attempts)
+- **[[Roll to Guard]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (12% of attempts)
+- **[[Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Hip Escape to Guard]]** (10% of attempts)
+- **[[Shrimp Escape]]** (9% of attempts)
+
+- **[[Hand Fighting from Back]]** (7% of attempts)
+
+- **[[Harness Escape to Half Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -166,23 +170,31 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (23% of attempts)
+- **[[Rear Naked Choke]]** (40% of attempts)
 
 - **[[Armbar from Back Transition]]** (13% of attempts)
 
-- **[[Back Control to Crucifix]]** (11% of attempts)
+- **[[Back Control to Crucifix]]** (8% of attempts)
 
-- **[[Triangle from Back]]** (9% of attempts)
+- **[[Triangle from Back]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke]]** (14% of attempts)
+- **[[Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Armbar Finish]]** (9% of attempts)
+- **[[Short Choke]]** (5% of attempts)
 
-- **[[Short Choke]]** (8% of attempts)
+- **[[Rolling Back Take]]** (3% of attempts)
 
-- **[[Rolling Back Take]]** (9% of attempts)
+- **[[Back Control Maintenance]]** (2% of attempts)
 
-- **[[Transition to Body Lock]]** (4% of attempts)
+- **[[Kimura from Back]]** (6% of attempts)
+
+- **[[Gift Wrap Transition]]** (4% of attempts)
+
+- **[[Hand Fighting from Back]]** (3% of attempts)
+
+- **[[Harness to Body Lock]]** (1% of attempts)
+
+- **[[RNC from Harness]]** (1% of attempts)
 
 
 ### Common Mistakes

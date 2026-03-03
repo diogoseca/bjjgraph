@@ -89,29 +89,25 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (53% of attempts)
+- **[[Triangle Setup]]** (40% of attempts)
 
 - **[[Omoplata]]** (15% of attempts)
 
-- **[[Gogoplata]]** (5% of attempts)
+- **[[Mission Control Entry from Rubber Guard]]** (12% of attempts)
 
-- **[[Rubber Guard Maintenance]]** (10% of attempts)
+- **[[Rubber Guard to Closed Guard]]** (7% of attempts)
+
+- **[[New York Entry from Rubber Guard]]** (5% of attempts)
 
 - **[[Hip Bump Sweep]]** (5% of attempts)
 
 - **[[Omoplata Sweep]]** (5% of attempts)
 
-- **[[Guard Recovery]]** (5% of attempts)
+- **[[Gogoplata]]** (4% of attempts)
 
-- **[[Crackhead Control Entry]]** (1% of attempts)
+- **[[Rubber Guard Sweep]]** (4% of attempts)
 
-- **[[Mission Control Entry from Rubber Guard]]** (0% of attempts)
-
-- **[[New York Entry from Rubber Guard]]** (0% of attempts)
-
-- **[[Rubber Guard Sweep]]** (0% of attempts)
-
-- **[[Rubber Guard to Closed Guard]]** (1% of attempts)
+- **[[Crackhead Control Entry]]** (3% of attempts)
 
 
 ### Common Mistakes

@@ -163,7 +163,7 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 ## Variations
 
 
-**Marce Choke Setup**: A variation where instead of threading under the neck from the near side (anaconda), you thread from the far side and trap the far arm. The grip and finish are similar but the arm threading direction is reversed. This becomes available when the opponent tucks their near arm very tight to their body. (When to use: When opponent defends the traditional anaconda by keeping their near arm tucked close to their ribs, making it impossible to trap. The Marce offers an alternative attack from the same front headlock position.)
+**Darce Choke Setup**: A variation where instead of threading under the neck from the near side (anaconda), you thread from the far side and trap the far arm. The grip and finish are similar but the arm threading direction is reversed. This becomes available when the opponent tucks their near arm very tight to their body. (When to use: When opponent defends the traditional anaconda by keeping their near arm tucked close to their ribs, making it impossible to trap. The Darce offers an alternative attack from the same front headlock position.)
 
 
 **Anaconda Setup from Failed Guillotine**: When your guillotine attempt fails because the opponent gets their near arm inside, you can transition directly to the anaconda by adjusting your choking arm position. Your arm is already under their neck - simply redirect it to capture their now-trapped arm and secure the anaconda grip configuration. (When to use: In scrambles where you secure a guillotine but the opponent successfully blocks by getting their arm inside. Rather than abandoning the attack, flow into the anaconda setup.)
@@ -206,11 +206,11 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Front Headlock to Darce]] - Related transition technique with similar mechanics
 
-- [[Japanese Necktie]] - Alternative choke from front headlock position
+- [[Japanese Necktie Setup]] - Alternative choke from front headlock position
 
 - [[Arm Triangle]] - Another head-and-arm choke option from turtle top
 
-- [[Turtle to Back Control]] - Positional alternative when submission setup fails
+- [[Front Headlock to Back]] - Positional alternative when submission setup fails
 
 - [[Anaconda Control]] - Target control position after successful setup
 

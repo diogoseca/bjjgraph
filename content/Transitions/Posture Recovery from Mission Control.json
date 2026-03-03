@@ -1,42 +1,402 @@
 {
   "name": "Posture Recovery from Mission Control",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "guard-pass", "posture", "rubber-guard", "mission-control"],
+  "description": "Master posture recovery from Mission Control in BJJ. Complete guide to breaking rubber guard, fighting grips, and escaping shoulder isolation from top position.",
+  "tags": [
+    "bjj",
+    "transition",
+    "posture-recovery",
+    "rubber-guard",
+    "mission-control",
+    "guard-defense",
+    "10th-planet",
+    "escape"
+  ],
   "from_position": "Mission Control/Top",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 47, "result": "success"},
-    {"to": "Mission Control/Top", "probability": 35, "result": "failure"},
-    {"to": "Closed Guard/Top", "probability": 18, "result": "counter"}
+    {
+      "to": "Closed Guard/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Mission Control/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "New York/Top",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
-  "success_rate": 47,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "success_rate": 45,
+  "overview": "Posture Recovery from Mission Control is one of the most critical defensive transitions in modern no-gi grappling, representing the top player's systematic escape from 10th Planet's rubber guard control system. When trapped in Mission Control, the top player faces severe postural compromise with their shoulder isolated, head pulled down, and weight loaded awkwardly onto their trapped arm. This technique requires methodical execution rather than explosive movement, progressing through grip fighting, weight redistribution, and progressive space creation to neutralize the bottom player's high guard control.\n\nThe strategic significance of this transition lies in its role as the gateway to survival against the entire rubber guard offense. Without effective posture recovery, the top player faces an escalating series of submission threats including triangles, omoplatas, and gogoplatas, each becoming more dangerous as the bottom player advances through rubber guard controls like New York, Carni, and Invisible Collar. Successful posture recovery breaks this offensive chain at its root, returning the engagement to closed guard where the top player can begin systematic guard opening and passing sequences.\n\nThe fundamental challenge of this technique is that Mission Control's mechanical design punishes the most intuitive defensive responses. Explosive posturing feeds directly into triangle entries, aggressive arm pulling opens omoplata angles, and forward driving strengthens the shoulder isolation that makes the position effective. Instead, the top player must employ a patient, systematic approach that gradually degrades the bottom player's control through persistent grip fighting, strategic weight redistribution, and precise timing of escape windows when the bottom player's hip elevation or grip endurance momentarily weakens.",
+  "conditions": [
+    "Top player is trapped in Mission Control with posture broken and shoulder isolated",
+    "Bottom player has high guard leg threaded across the top player's back with active head pulling",
+    "At least one of the top player's arms is trapped inside the high guard configuration",
+    "Top player has at least one free hand available for grip fighting on the head control",
+    "Bottom player's rubber guard control is established but has not yet transitioned to deeper attacks like New York"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Posture Recovery",
+      "description": "Instead of recovering posture from the knees, the top player posts one foot and drives to a standing position to break the high guard entirely. Standing creates maximum distance and forces the bottom player's hips to drop, collapsing the Mission Control structure. Requires strong balance and timing to avoid being swept during the stand-up transition.",
+      "when_to_use": "When the bottom player's hip flexibility is limited, when their grip endurance is fading, or when kneeling posture recovery attempts have been repeatedly re-pulled. Also effective against opponents with shorter legs who struggle to maintain high guard against a standing opponent."
+    },
+    {
+      "variant_name": "Stacking Pressure Recovery",
+      "description": "Rather than pulling backward, the top player drives forward with controlled stacking pressure to compress the bottom player's hips and collapse their hip elevation. This approach uses the opponent's own flexibility against them by folding them onto their shoulders, reducing the mechanical advantage of the high guard. Must be executed gradually to avoid feeding triangle entries.",
+      "when_to_use": "Against opponents with less flexibility who rely on hip elevation rather than structural mechanics to maintain Mission Control. Also effective when the bottom player's head control is strong but their leg positioning is slightly low on the back."
+    },
+    {
+      "variant_name": "Progressive Grip Strip Recovery",
+      "description": "A purely grip-fighting-first approach where the top player dedicates extended time to systematically stripping every controlling grip before attempting any postural change. Both head control grips, the wrist control on the trapped arm, and the leg position are addressed sequentially until the bottom player's control is so degraded that posture recovery becomes almost automatic.",
+      "when_to_use": "Against technically sophisticated rubber guard players who capitalize on any premature posture recovery attempt. Also effective as an energy-conservative approach when time is not a factor and the priority is avoiding submission rather than advancing position quickly."
+    }
+  ],
+  "position_integration": "Posture Recovery from Mission Control occupies a critical defensive junction in the BJJ positional hierarchy, serving as the primary survival technique against the 10th Planet rubber guard offensive system. This transition connects the defensive state of being trapped in Mission Control to the more neutral position of closed guard top, where standard guard opening and passing sequences become available. Without this technique, the top player has no viable path to escape the rubber guard submission chain that progresses through New York, Carni, Invisible Collar, and various submission finishes. The technique integrates with broader guard escape concepts and standing guard break strategies, making it essential for developing a complete top game against modern flexibility-based guard systems.",
+  "related_content": [
+    {
+      "name": "Mission Control",
+      "relationship": "Starting position - the rubber guard control this technique escapes"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary success destination after breaking Mission Control"
+    },
+    {
+      "name": "New York",
+      "relationship": "Counter outcome - deeper rubber guard control bottom player may advance to"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Parent guard system containing Mission Control"
+    },
+    {
+      "name": "Carni",
+      "relationship": "Related rubber guard position with similar escape mechanics"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Primary submission threat during posture recovery attempts"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Secondary submission threat when arm extraction is attempted prematurely"
+    },
+    {
+      "name": "Posture Recovery from Carni",
+      "relationship": "Similar posture recovery technique from related rubber guard position"
+    },
+    {
+      "name": "Posture Recovery from Meathook",
+      "relationship": "Related posture recovery from another rubber guard entry point"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Follow-up position after successful posture recovery and guard opening"
+    }
+  ],
   "attacker": {
     "name": "Posture Recovery from Mission Control Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Mission Control/Top"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute posture recovery from Mission Control as the top player. Systematic approach to breaking rubber guard through grip fighting, weight redistribution, and progressive escape from shoulder isolation.",
+    "overview": "Executing posture recovery from Mission Control requires understanding that this is a process of gradual structural degradation, not a single explosive escape. The top player must progress through defined phases - immediate threat management, grip fighting, progressive posture improvement, and arm extraction - while defending against the bottom player's submission attempts and positional transitions throughout. Success depends on patience, precise grip fighting, and recognizing the micro-windows where the bottom player's control momentarily weakens due to grip fatigue or dropped hip elevation. The technique rewards disciplined practitioners who resist the urge to explode out of the position and instead commit to the systematic process of dismantling the rubber guard's control structure piece by piece.",
+    "key_principles": [
+      "Head control is the keystone - strip the bottom player's head grips before attempting any postural changes, as head control sustains the entire Mission Control structure",
+      "Progressive movement over explosive escape - small incremental improvements in posture compound into full recovery without triggering submission entries",
+      "Weight redistribution precedes postural change - shift your center of gravity off the trapped shoulder before attempting to lift your torso",
+      "Defend submissions throughout the entire recovery process - posture recovery creates windows for triangle and omoplata entries at every phase",
+      "Timing exploits fatigue - the bottom player's hip elevation and grip endurance will weaken over time, creating progressively better escape windows",
+      "Base management is non-negotiable - wide knees and stable weight distribution prevent sweeps during the vulnerable recovery phases"
+    ],
+    "setup_requirements": [
+      "At least one free hand available for grip fighting on the bottom player's head control grips",
+      "Stable base with knees wide enough to resist sweep attempts during the recovery process",
+      "Mental composure to commit to a systematic multi-phase escape rather than explosive single-movement attempts",
+      "Assessment of which arm is trapped and whether immediate submission threats require defensive priority before posture recovery begins",
+      "Sufficient energy reserve for sustained grip fighting - posture recovery is a war of attrition that requires endurance"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess position and immediate threats",
+        "description": "Evaluate the bottom player's grip configuration, identify which arm is trapped, and assess immediate submission threats including triangle and omoplata angles. Determine whether the bottom player has full Mission Control with deep head control or a partially compromised version with weakened grips or dropped hips. This assessment dictates whether you begin with grip fighting or threat neutralization."
+      },
+      {
+        "step_number": 2,
+        "action": "Fight head control grips",
+        "description": "Use your free hand to aggressively strip the bottom player's grip on the back of your head or neck. Target their wrist or forearm with repeated grip breaks, fighting for incremental head freedom. This step is non-negotiable - without degrading head control, no further posture recovery is possible because their pulling force maintains the entire broken posture structure."
+      },
+      {
+        "step_number": 3,
+        "action": "Redistribute weight off trapped shoulder",
+        "description": "Gradually shift your center of gravity away from the trapped shoulder by driving your hips slightly backward and centering your weight between both arms. Avoid explosive backward movement that telegraphs your intent. Progressive weight redistribution prevents the bottom player from using your momentum to tighten control or time submission entries against predictable movement."
+      },
+      {
+        "step_number": 4,
+        "action": "Generate progressive postural space",
+        "description": "Once head control is degraded, begin lifting your chin and chest in small increments while maintaining your base. Use micro-movements to gradually increase the angle between your torso and the mat. Each small improvement compounds - even two inches of postural recovery significantly reduces the bottom player's mechanical advantage and submission threat level from the high guard position."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish defensive frame against re-breaking",
+        "description": "Post your free hand on the bottom player's hip or upper chest to create a structural brace that prevents them from re-breaking your posture with renewed pulling. This frame serves as both a block against their downward force and a platform from which to generate additional space for the next phase of arm extraction and high guard neutralization."
+      },
+      {
+        "step_number": 6,
+        "action": "Neutralize high guard leg position",
+        "description": "Address the bottom player's high guard leg that controls your shoulder by using hip pressure and angular movement to reduce its leverage. Drive your shoulder forward slightly to compress the space the leg occupies on your back, forcing it to slide lower where its control effect diminishes substantially. The leg must be displaced before arm extraction can proceed safely."
+      },
+      {
+        "step_number": 7,
+        "action": "Extract trapped arm",
+        "description": "With posture partially recovered and high guard loosened, carefully withdraw the trapped arm by keeping the elbow tight to your body and pulling it toward your centerline. Move the arm along the path of least resistance toward your own hip while maintaining postural structure. Rushing this step exposes you to omoplata - the extraction motion must be controlled and supported by your recovered posture."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate closed guard position",
+        "description": "Once the arm is free and Mission Control is broken, immediately establish hands on the bottom player's hips or biceps to prevent re-entry into rubber guard. Settle your weight into proper closed guard top position with upright posture and wide base. Begin working toward guard opening before the bottom player can reconfigure their grips and re-establish high guard control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-pulls head control with renewed grip and re-establishes full posture break",
+        "effectiveness": "High",
+        "your_response": "Immediately re-strip the grip with your free hand. If they achieve deep two-handed head control, restart the grip fighting sequence entirely before attempting further posture recovery. Persistence wins this grip battle over time.",
+        "targets_outcome": "Mission Control/Top"
+      },
+      {
+        "counter": "Bottom player transitions to New York control using backward movement slack on the trapped arm",
+        "effectiveness": "Medium",
+        "your_response": "Drive your trapped elbow tight to your body and fight the deeper underhook that New York requires. If the New York transition begins, pause posture recovery and address the arm position first. Preventing the transition takes absolute priority.",
+        "targets_outcome": "New York/Top"
+      },
+      {
+        "counter": "Bottom player elevates hips higher and tightens high guard leg position across the back",
+        "effectiveness": "High",
+        "your_response": "Use your near-side hand to push down on their hip to reduce elevation. If their hips are fully re-elevated, focus on weight redistribution and grip fighting rather than direct posture change until their hip engagement fatigues.",
+        "targets_outcome": "Mission Control/Top"
+      },
+      {
+        "counter": "Bottom player overhooks the posturing arm to trap it and prevent frame establishment",
+        "effectiveness": "Medium",
+        "your_response": "Circle the trapped hand toward your own hip to strip the overhook rather than pulling directly backward. Use your other hand to continue grip fighting their head control while working the arm free through rotational extraction.",
+        "targets_outcome": "Mission Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting explosive posture recovery with a sudden spine extension and neck lift",
+        "consequence": "Creates the exact movement pattern that allows the bottom player to complete a triangle choke - the upward extension helps them swing their leg across your face and lock the triangle",
+        "correction": "Recover posture through small progressive increments rather than explosive movement. Each micro-improvement should be consolidated before the next is attempted."
+      },
+      {
+        "error": "Pulling the trapped arm free before recovering any posture or fighting head control",
+        "consequence": "Arm pulling movements expose the shoulder to omoplata entry and often create the angle the bottom player needs to complete triangle lock or transition to deeper controls",
+        "correction": "Follow the phase sequence strictly: grip fight head control first, recover partial posture second, then extract the arm only when your posture provides structural support for safe extraction."
+      },
+      {
+        "error": "Loading excessive weight onto the trapped shoulder while attempting to drive through the position",
+        "consequence": "Weight on the trapped shoulder is exactly what sustains Mission Control - it allows the bottom player to maintain control with less effort while you fatigue rapidly under the cooking pressure",
+        "correction": "Redistribute weight evenly between both arms and shift your center of gravity toward neutral. Reduce the mechanical advantage the bottom player gains from shoulder loading before attempting escape."
+      },
+      {
+        "error": "Allowing the bottom player to establish deep two-handed head control without fighting grips",
+        "consequence": "Deep head control makes posture recovery nearly impossible and opens all submission entries - triangle, omoplata, and gogoplata all become significantly higher percentage with full head control",
+        "correction": "Use your free hand constantly to strip head control grips. This is the single most important defensive action and must be maintained throughout the entire recovery process without interruption."
+      },
+      {
+        "error": "Narrowing base by bringing knees together during posture recovery attempts",
+        "consequence": "The bottom player uses hip bump sweeps and lateral off-balancing when their submission attacks are defended, and narrow base creates the instability needed for sweep execution",
+        "correction": "Maintain wide knee base throughout all recovery phases. You are defending both submissions and sweeps simultaneously, so base stability cannot be sacrificed for posture recovery."
+      },
+      {
+        "error": "Giving up mentally and accepting submission as inevitable once full Mission Control is established",
+        "consequence": "Mental defeat leads to technical breakdown and failure to execute the systematic escape phases that could lead to successful recovery",
+        "correction": "Mission Control is escapable with proper technique and patience. Many submissions from the position fail because the top player maintains composure, conserves energy, and executes systematic defense through the grip fatigue window."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Fighting Mechanics",
+        "focus": "Head control grip stripping and defensive hand positioning",
+        "description": "Partner establishes Mission Control at 50% resistance. Practice stripping head control grips using your free hand with proper wrist targeting and forearm leverage. Focus exclusively on grip fighting without attempting posture recovery. Build the automatic grip stripping responses that form the foundation of all subsequent phases."
+      },
+      {
+        "phase": "Phase 2: Progressive Posture Recovery",
+        "focus": "Gradual postural improvement through micro-movements",
+        "description": "After successfully stripping head control in Phase 1, practice the progressive posture recovery sequence - weight redistribution, chin lift, chest elevation - against moderate resistance. Focus on making small improvements that compound rather than explosive single attempts. Partner re-establishes grips periodically to simulate realistic recovery scenarios."
+      },
+      {
+        "phase": "Phase 3: Arm Extraction Under Pressure",
+        "focus": "Safe extraction of trapped arm with posture support",
+        "description": "Practice the arm extraction phase once posture is partially recovered. Focus on elbow-tight withdrawal along the centerline path, maintaining posture throughout the extraction, and defending against omoplata during the transition. Partner provides realistic arm retention resistance and attempts omoplata entries."
+      },
+      {
+        "phase": "Phase 4: Complete Escape Sequence",
+        "focus": "Chaining all phases against progressive resistance",
+        "description": "Execute the full posture recovery sequence from grip fighting through consolidation against escalating resistance from 60% to full resistance. Partner uses all available counters including re-pulling, transitioning to New York, and threatening submissions. Develop timing for phase transitions and recognition of optimal escape windows."
+      },
+      {
+        "phase": "Phase 5: Recovery to Guard Pass Chain",
+        "focus": "Linking posture recovery directly into guard opening and passing",
+        "description": "Once posture recovery is reliable, chain the escape directly into closed guard opening and passing sequences. Practice transitioning from broken Mission Control to standing guard break or kneeling guard opening without allowing the bottom player time to reconfigure grips or re-enter rubber guard."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the single most critical grip to fight when beginning posture recovery from Mission Control?",
+        "answer": "The head control grip is the most critical. The bottom player's ability to pull your head down maintains the entire Mission Control structure - without head control, they cannot sustain shoulder isolation, break posture, or threaten submissions effectively. Use your free hand to constantly strip their grip on the back of your head or neck before attempting any postural changes."
+      },
+      {
+        "question": "Why is explosive posturing up one of the worst possible responses when trapped in Mission Control?",
+        "answer": "Explosive posturing creates the exact movement pattern the bottom player needs to complete a triangle choke - your upward extension helps them swing their leg across your face. The sudden movement telegraphs your intent, allowing them to time transitions to New York or other advanced controls. Failed explosive attempts also waste significant energy and often leave you in a worse position."
+      },
+      {
+        "question": "Your opponent's hip elevation momentarily drops while you are trapped in Mission Control - how do you capitalize?",
+        "answer": "Immediately drive your weight slightly backward while lifting your chin and chest to begin posture recovery. Dropped hips weaken the entire high guard structure. Simultaneously strip remaining head control grips and use the structural opening to begin extracting your trapped arm. This window is brief, so prioritize posture recovery over arm extraction if you can only accomplish one action."
+      },
+      {
+        "question": "What is the correct sequencing of the three main phases for escaping Mission Control?",
+        "answer": "The phases must follow strict order: first, fight head control grips and defend immediate submission threats by protecting your neck and maintaining arm positioning against triangle and omoplata entries. Second, recover posture progressively through weight redistribution and gradual chest elevation. Third, extract the trapped arm only once posture provides structural support for safe extraction. Skipping or reversing phases typically results in submission."
+      },
+      {
+        "question": "Your opponent begins transitioning from Mission Control to New York as you attempt posture recovery - what adjustment do you make?",
+        "answer": "Immediately pause posture recovery and address the New York transition before it completes. Drive your trapped elbow tight to your body to prevent the deeper underhook that New York requires. Use your free hand to fight the grip change occurring at your forearm. If the New York transition completes, you face an even more difficult escape, so preventing the transition takes absolute priority over continuing posture recovery."
+      },
+      {
+        "question": "What role does base management play throughout the posture recovery sequence?",
+        "answer": "Base management prevents the bottom player from sweeping you during recovery. Keep knees wide and weight distributed to create a stable triangular base. The bottom player threatens hip bump sweeps and lateral off-balancing when submissions are defended, creating a dual-threat situation. Narrowing your base or shifting weight too far in any direction creates the instability they need for sweep execution."
+      },
+      {
+        "question": "What is the proper weight distribution strategy to reduce the cooking effect of Mission Control?",
+        "answer": "Distribute weight evenly rather than loading onto the trapped shoulder. Shift some weight backward to reduce the mechanical advantage the bottom player gains from shoulder loading, but maintain enough forward connection to prevent them from using distance to reconfigure grips. Progressive reduction of the shoulder load is more effective than dramatic weight shifts that telegraph your escape intent."
+      },
+      {
+        "question": "After successfully breaking Mission Control and arriving in closed guard, what should be your immediate priority?",
+        "answer": "Immediately establish strong posture with hands on the bottom player's hips or biceps to prevent re-entry into rubber guard. Do not relax - the bottom player will immediately attempt to re-pull your head down and re-thread the high guard leg. Maintain defensive grips, keep posture upright, and begin working toward guard opening before they can reconfigure their attack."
+      }
+    ],
+    "safety_considerations": "Posture recovery from Mission Control involves significant neck and shoulder stress for the top player. Avoid explosive jerking movements that could strain cervical vertebrae or damage the shoulder joint under isolation pressure. If experiencing sharp neck pain or unusual shoulder discomfort, tap and reset rather than forcing through the escape. The bottom player should release Mission Control immediately if their partner signals distress, as prolonged shoulder isolation combined with resistance can cause joint strain. Both practitioners should communicate clearly about pain levels during drilling."
   },
   "defender": {
     "name": "Posture Recovery from Mission Control Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Mission Control/Top", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Mission Control/Top", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Master defending against posture recovery from Mission Control. Maintain rubber guard control through grip retention, hip elevation adjustments, and counter-transitions to advanced positions when escape progresses.",
+    "overview": "Defending against posture recovery from Mission Control requires the bottom player to maintain the structural integrity of their rubber guard position while actively countering the top player's escape attempts. The defender must continuously re-establish head control, maintain hip elevation, and threaten submissions to disrupt the systematic posture recovery process. When posture recovery progresses beyond the point of retention, the defender should transition offensively to New York, triangle, or other advanced rubber guard attacks rather than fighting a losing grip battle to maintain the original Mission Control configuration. Understanding the attacker's phase-based approach allows the defender to identify which phase the escape has reached and deploy the appropriate counter for maximum effectiveness.",
+    "key_principles": [
+      "Head control is the primary retention mechanism - re-pull aggressively every time the top player strips your grip rather than accepting any postural improvement",
+      "Hip elevation must remain active throughout - any drop in hip height weakens the entire Mission Control structure and creates escape windows",
+      "Threaten submissions continuously to force the top player into reactive defense, disrupting their systematic posture recovery sequence",
+      "Transition offensively rather than fight losing retention battles - when posture recovery progresses, advance to New York or enter triangle rather than clinging to degraded Mission Control",
+      "Use the top player's escape momentum against them - their backward movement creates slack that enables transitions to deeper rubber guard controls",
+      "Energy management through structural mechanics allows sustained control - rely on leg positioning and hip elevation rather than arm-based pulling force"
+    ],
+    "recognition_cues": [
+      "Top player stiffens their free arm against your body and begins actively fighting your head control grips with deliberate stripping motions",
+      "Top player shifts weight slightly backward away from the trapped shoulder, reducing the loading that sustains Mission Control's cooking effect",
+      "Top player widens their knee base and adjusts weight distribution, indicating preparation for the sustained effort of systematic posture recovery",
+      "Top player's chin begins lifting and chest starts separating from your torso, indicating progressive postural improvement has begun",
+      "Top player's free hand begins posting on your hip or chest to establish a frame against posture re-breaking"
+    ],
+    "defensive_options": [
+      {
+        "action": "Aggressively re-pull head control with renewed grip and increase downward pulling force",
+        "when_to_use": "As soon as the top player begins stripping your head control grips or creating any upward separation with their chin and chest",
+        "targets_outcome": "Mission Control/Top",
+        "if_successful": "Full Mission Control maintained with renewed posture break and submission threat access restored",
+        "risk": "Grip fatigue accumulates with repeated re-pulling battles and may eventually fail against a patient opponent"
+      },
+      {
+        "action": "Transition to New York control by swimming the near arm deeper under the opponent's far armpit",
+        "when_to_use": "When the top player creates arm slack by driving weight backward during posture recovery, opening space for the deeper underhook configuration",
+        "targets_outcome": "New York/Top",
+        "if_successful": "Advance to deeper rubber guard control with enhanced submission access and harder escape path for the top player",
+        "risk": "Incomplete transition during a scramble may result in losing Mission Control entirely without establishing New York"
+      },
+      {
+        "action": "Elevate hips higher and tighten high guard leg position across the opponent's back",
+        "when_to_use": "When the top player begins shifting weight off the trapped shoulder or the high guard leg starts sliding lower on their back",
+        "targets_outcome": "Mission Control/Top",
+        "if_successful": "Structural reinforcement restores full mechanical advantage and prevents further posture degradation",
+        "risk": "Energy-intensive active hip elevation may not be sustainable if grip control is already compromised"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mission Control/Top",
+        "how": "Maintain aggressive head control by immediately re-pulling every time grips are stripped. Keep hips elevated actively and continuously threaten submissions to prevent the top player from settling into a systematic grip-fighting rhythm. The longer you sustain Mission Control, the more the top player's energy and composure degrade."
+      },
+      {
+        "outcome": "New York/Top",
+        "how": "When the top player drives backward to recover posture, use the resulting slack on their trapped arm to swim your near-side arm deeper under their far armpit. Simultaneously adjust your high guard leg higher and reconfigure into New York's deeper underhook control. Their escape movement actually creates the space needed for this offensive transition."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Relying solely on arm-based pulling strength to hold the top player's head down rather than using structural mechanics",
+        "consequence": "Grip fatigue sets in rapidly and the top player eventually wins the grip battle, recovering posture without the defender having any structural backup",
+        "correction": "Use hip elevation and leg positioning as the primary control mechanisms. Legs and hips have far greater endurance than arms. Head control grips supplement the structural control rather than replacing it."
+      },
+      {
+        "error": "Remaining static in Mission Control without threatening submissions when the top player begins systematic escape",
+        "consequence": "The top player can dedicate full attention to the posture recovery process without any distracting threats, making escape significantly easier and faster",
+        "correction": "Constantly threaten triangle entries, omoplata angles, and gogoplata when posture is broken. Submission threats force the top player to divide attention between defense and escape, slowing their systematic process."
+      },
+      {
+        "error": "Clinging to a degraded Mission Control instead of transitioning offensively to New York or other advanced controls",
+        "consequence": "The top player completes posture recovery because the defender wastes energy on a control position that has already been structurally compromised beyond effective retention",
+        "correction": "Recognize when Mission Control has degraded past the retention threshold and immediately transition to New York, enter triangle, or release to closed guard with immediate attack. Fighting for a lost position wastes energy."
+      },
+      {
+        "error": "Allowing hip elevation to drop during extended grip fighting battles with the top player",
+        "consequence": "Dropped hips collapse the entire high guard structure, eliminating shoulder isolation and submission threat angles simultaneously, creating an easy escape window",
+        "correction": "Maintain active hip elevation throughout all grip fighting exchanges. If your core fatigues, transition offensively rather than accepting dropped hips. The position becomes indefensible without hip elevation."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What are the earliest recognition cues that the top player is beginning a posture recovery attempt from Mission Control?",
+        "answer": "The earliest cues include the top player stiffening their free arm against your body, beginning to strip your head control grips with deliberate motions, and driving their weight slightly backward away from the trapped shoulder. You may also feel them widening their base by spreading their knees, which signals preparation for sustained escape effort. Recognizing these micro-adjustments before full posture recovery begins gives you the maximum counter window."
+      },
+      {
+        "question": "How do you use the top player's backward posture recovery momentum to transition to New York control?",
+        "answer": "As the top player drives backward to recover posture, their movement creates slack in the trapped arm. Use this moment to swim your near-side arm deeper under their far armpit while simultaneously adjusting your outside leg higher across their back. Their backward movement actually assists the transition by creating the space needed to reconfigure from Mission Control's shallow control to New York's deeper underhook configuration."
+      },
+      {
+        "question": "What is the most critical error defenders make when the top player begins recovering posture from Mission Control?",
+        "answer": "The most critical error is relying solely on grip strength to hold the top player's head down rather than using structural mechanics. When you fight posture recovery purely with pulling force, you fatigue rapidly and eventually lose the grip battle. Instead, increase hip elevation to re-load their weight onto the trapped shoulder, adjust your high guard leg higher for greater leverage, and use core and legs for structural control rather than arm-based pulling."
+      },
+      {
+        "question": "Your opponent successfully strips your head control and begins lifting their chest - what is your best immediate response?",
+        "answer": "If head control is lost and posture recovery has begun, transition offensively rather than attempting to re-establish the original Mission Control. The highest-percentage response is entering a triangle by bringing your outside leg across their face - their partially recovered posture creates the space needed for triangle entry. Alternatively, transition to New York or release to closed guard with an immediate attack rather than fighting a losing grip battle."
+      },
+      {
+        "question": "How should you adjust your hip elevation and leg positioning when you feel the top player beginning to stand up?",
+        "answer": "When the top player begins standing, increase downward pressure with your high guard leg and drive your hips higher to maintain connection. If they achieve a partial stand, you must make an immediate decision: either use a well-timed hip bump combined with pulling to bring them back down, enter a triangle using the space their standing creates, or accept the guard break and transition to an open guard system. Do not cling to a compromised rubber guard against a standing opponent."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Early Counter",
+        "focus": "Identifying posture recovery initiation cues and immediate grip re-establishment",
+        "description": "Partner attempts posture recovery at 50% intensity while you focus on recognizing the earliest indicators of escape attempt and immediately re-pulling head control. Build automatic recognition of grip fighting patterns, weight shifts, and base adjustments that signal the beginning of systematic posture recovery."
+      },
+      {
+        "phase": "Phase 2: Structural Retention Mechanics",
+        "focus": "Using hip elevation and leg positioning for sustained control under pressure",
+        "description": "Partner attempts posture recovery at 70% intensity while you maintain Mission Control using primarily structural mechanics rather than grip strength. Focus on active hip elevation, high guard leg adjustment, and core engagement to sustain control without fatiguing your arms. Develop the structural foundation that makes retention sustainable."
+      },
+      {
+        "phase": "Phase 3: Offensive Transitions on Escape",
+        "focus": "Flowing to New York, triangle, or omoplata when Mission Control is compromised",
+        "description": "Partner recovers posture progressively while you practice recognizing the transition threshold and flowing to offensive alternatives. Train the decision between re-establishing Mission Control versus transitioning to New York, triangle, or omoplata based on the degree of posture recovery and available control."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Retention and Counter",
+        "focus": "Complete defensive game against determined escape attempts",
+        "description": "Partner uses full-resistance posture recovery with all available techniques including standing, stacking, and grip fighting. Maintain Mission Control or successfully transition to submission entries for three-minute rounds. Develops the complete defensive skill set including retention, transition recognition, and offensive counter-attacks under maximum pressure."
+      }
+    ]
   }
 }

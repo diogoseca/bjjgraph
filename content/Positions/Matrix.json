@@ -577,42 +577,46 @@
     "transitions": [
       {
         "transition": "Matrix Back Take",
-        "attempt_probability": 44
+        "attempt_probability": 52
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Chair Sit to Back",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Turtle to Guard",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Counter Roll from Matrix",
         "attempt_probability": 1
       },
       {
+        "transition": "Turtle to Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Counter Roll from Matrix",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Escape Matrix Position",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Sweep from Matrix",
         "attempt_probability": 1
       }
     ]

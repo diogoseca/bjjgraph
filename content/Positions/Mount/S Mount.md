@@ -97,15 +97,13 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (28% of attempts)
+- **[[Trap and Roll from S Mount]]** (30% of attempts)
 
-- **[[Hip Escape to Guard]]** (27% of attempts)
+- **[[Frame and Shrimp from S Mount]]** (28% of attempts)
 
-- **[[Bridge and Roll]]** (18% of attempts)
+- **[[Bridge Escape from S Mount]]** (25% of attempts)
 
-- **[[Technical Stand-up]]** (10% of attempts)
-
-- **[[Frame and Shrimp to Guard]]** (17% of attempts)
+- **[[Bridge and Roll]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -166,19 +164,23 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (29% of attempts)
+- **[[Mount to Armbar]]** (36% of attempts)
 
-- **[[Triangle from Mount]]** (17% of attempts)
+- **[[Triangle from Mount]]** (15% of attempts)
 
-- **[[Americana]]** (9% of attempts)
+- **[[Americana]]** (7% of attempts)
 
-- **[[Kimura]]** (9% of attempts)
+- **[[Kimura]]** (7% of attempts)
 
-- **[[Back Take]]** (13% of attempts)
+- **[[Back Take]]** (11% of attempts)
 
-- **[[Mounted Crucifix Entry]]** (9% of attempts)
+- **[[Mounted Crucifix Entry]]** (7% of attempts)
 
-- **[[Gift Wrap to Back]]** (14% of attempts)
+- **[[Gift Wrap to Back]]** (12% of attempts)
+
+- **[[S Mount Armbar Setup]]** (3% of attempts)
+
+- **[[S Mount to Mounted Triangle]]** (2% of attempts)
 
 
 ### Common Mistakes

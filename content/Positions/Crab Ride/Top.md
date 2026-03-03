@@ -21,7 +21,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -161,7 +161,11 @@ Crab Ride Top is a highly effective attacking position from the turtle, where th
 
 The position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.
 
-Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. The perpendicular positioning creates mechanical advantages that make defending extremely difficult once established.
+From a biomechanical standpoint, Crab Ride Top leverages the principle of perpendicular force application. By positioning your body at a right angle to your opponent's spine, you maximize control leverage while minimizing their ability to use their hips to escape. The hooking leg acts as a primary anchor, preventing forward and lateral movement, while chest pressure against the shoulder blade maintains the flattening force that keeps the opponent defensive. This perpendicular alignment is the cornerstone of the position's effectiveness and must be maintained through all transitions and adjustments.
+
+The decision tree from Crab Ride Top branches into several high-percentage pathways that create genuine positional dilemmas. When the opponent maintains a strong turtle with tight elbows, the back take through systematic hook insertion is the primary advancement. When they drop their head defensively, darce and anaconda entries become available through the exposed neck. If they extend an arm to post or frame, crucifix transitions present themselves as the arm becomes isolated. This branching attack structure is what makes Crab Ride Top a true dilemma-creating position rather than a single-technique setup, forcing the opponent to choose which threat to defend while leaving other avenues open.
+
+Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. Training this position effectively requires developing sensitivity to your opponent's weight shifts and defensive reactions, as each defensive movement opens specific offensive pathways and the ability to read these reactions in real time determines your success rate.
 
 </section>
 
@@ -209,7 +213,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Available Attacks
 
-### [[Crab Ride to Back]] (39% of attempts)
+### [[Crab Ride to Back]] (40% of attempts)
 
 ### [[Darce from Turtle]] (7% of attempts)
 
@@ -221,9 +225,9 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ### [[Crucifix from Turtle]] (11% of attempts)
 
-### [[Transition to Cross Body Ride]] (7% of attempts)
+### [[Back Control to Cross Body Ride]] (7% of attempts)
 
-### [[Transition to Rodeo Ride]] (9% of attempts)
+### [[Turtle to Rodeo Ride]] (8% of attempts)
 
 ### [[Rolling Back Take]] (4% of attempts)
 

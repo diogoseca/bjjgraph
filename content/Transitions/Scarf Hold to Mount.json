@@ -1,10 +1,14 @@
 {
   "name": "Scarf Hold to Mount",
-  "description": "TODO: Write 150-160 character SEO description for Scarf Hold to Mount.",
+  "description": "Master the Scarf Hold to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "scarf-hold",
+    "mount",
+    "kesa-gatame",
+    "positional-advancement",
+    "pinning"
   ],
   "from_position": "Scarf Hold Position/Top",
   "outcomes": [
@@ -19,120 +23,376 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Scarf Hold to Mount.",
+  "overview": "The Scarf Hold to Mount transition converts the perpendicular kesa gatame pin into the highest-value positional control in Brazilian Jiu-Jitsu. This advancement exploits the existing head and arm control from scarf hold as a launching platform to step or slide across the opponent's torso into full mount. The technique represents a natural progression when the bottom player's defensive reactions expose their far hip or when they turn away from the top player, creating the space necessary for the leg to clear the opponent's body.\n\nThe primary challenge lies in managing the momentary vulnerability created when the top player must release or modify their head control to complete the step-over. During this brief window, the bottom player can execute bridge-and-roll mechanics, insert a knee to recover half guard, or create frames that block the mount entry entirely. The attacking player must recognize the optimal timing—typically when the opponent has committed weight to one side, exhausted a bridge attempt, or is defending a submission threat that occupies their arms and attention.\n\nSuccessful execution demands unbroken hip-to-hip connection throughout the entire transition. The critical error most practitioners make is lifting their hips during the step-over, creating space that the bottom player immediately exploits for escape. Instead, the top player should maintain constant downward pressure while sliding or stepping the leg across, using the far arm post for balance without transferring weight away from the opponent. The transition integrates naturally with submission threats from scarf hold—americana and arm triangle setups force defensive reactions that create ideal mounting opportunities as the bottom player's attention diverts to the submission threat.",
   "conditions": [
-    "TODO"
+    "Established scarf hold position with head and arm control secured and stable base",
+    "Bottom opponent partially fatigued or flattened with reduced bridging capability",
+    "Top player's near arm has secure control of opponent's far hip or belt line",
+    "Bottom opponent's defensive attention diverted by submission threat or arm extraction attempt"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Step-Over Mount Entry",
+      "description": "The classic method where the top player swings their far leg in a controlled arc over the opponent's body while maintaining chest-to-chest pressure. The stepping leg drives tight against the opponent's far hip to prevent space creation during the arc.",
+      "when_to_use": "When you have established dominant scarf hold control and the opponent is relatively flat on their back with minimal framing ability, providing a clear path for the leg to swing over."
+    },
+    {
+      "variant_name": "Slide-Through Mount Entry",
+      "description": "A low-profile entry where the top player keeps their knee tight to the mat and slides it across the opponent's belly rather than swinging the leg over. This method reduces the airborne vulnerability window and maintains tighter hip contact throughout the transition.",
+      "when_to_use": "When the opponent has active frames targeting your hip or when you want to minimize the transition window. Particularly effective against opponents with strong bridge-and-roll timing who capitalize on step-over momentum shifts."
+    },
+    {
+      "variant_name": "Walk-Around Mount Entry",
+      "description": "A gradual method where the top player walks their hips toward the opponent's head while maintaining chest pressure, then settles into mount as their body rotates past the perpendicular angle. This variant disguises the mount entry as a transition toward north-south.",
+      "when_to_use": "Against opponents who are specifically defending the step-over by framing on the hip. The directional deception of appearing to move toward north-south bypasses their frame placement and allows mount entry from an unexpected angle."
     }
   ],
-  "position_integration": "TODO: Write position integration for Scarf Hold to Mount.",
+  "position_integration": "The Scarf Hold to Mount transition serves as a critical link in the top player's positional advancement chain, connecting the scarf hold control family to the mount hierarchy. This pathway represents one of the primary methods for converting a judo-derived pin into the highest-scoring position in sport BJJ. It integrates with the broader scarf hold offensive system where submission threats create the defensive reactions that open mount entries, and it feeds directly into the mount's own submission and advancement chains. Practitioners who develop this transition alongside their scarf hold submission attacks create a dual-threat system that forces the bottom player into unsolvable dilemmas—defending the submission opens the mount, and defending the mount transition opens the submission.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Scarf Hold Position",
+      "relationship": "Source position from which this transition initiates"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Target position representing successful transition completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome when defender inserts knee during step-over"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Traditional judo terminology for the source scarf hold position"
+    },
+    {
+      "name": "Modified Scarf Hold",
+      "relationship": "Related scarf hold variant with alternative arm positioning for mount entry"
+    },
+    {
+      "name": "Consolidation to Mount",
+      "relationship": "Parallel mount entry transition from side control positions"
+    },
+    {
+      "name": "Modified Scarf to Mount",
+      "relationship": "Similar transition from modified scarf hold variant"
+    },
+    {
+      "name": "Bridge from Scarf Hold Position",
+      "relationship": "Primary defensive technique that counters this transition"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Submission threat that creates the opening for mount transition"
+    },
+    {
+      "name": "KOB to Mount",
+      "relationship": "Alternative mount entry pathway through knee on belly"
     }
   ],
   "attacker": {
     "name": "Scarf Hold to Mount Attacker",
-    "description": "TODO: Write attacker description for Scarf Hold to Mount.",
-    "overview": "TODO: Write attacker overview for Scarf Hold to Mount.",
+    "description": "Master the offensive mechanics of transitioning from Scarf Hold to Mount. Learn step-over timing, hip pressure maintenance, and submission-to-transition chains for converting kesa gatame into full mount control.",
+    "overview": "Executing the Scarf Hold to Mount transition requires precise coordination between pressure maintenance, grip management, and leg movement. The attacker must maintain constant hip connection throughout the step-over while managing the momentary vulnerability created by releasing head control. The transition works best as part of a sequential attack system where submission threats from scarf hold force defensive reactions that expose the far hip and create mounting opportunities. Understanding the mechanical requirements of each entry variation—step-over, slide-through, and walk-around—allows the attacker to select the appropriate method based on the defender's positioning, energy level, and defensive focus.",
     "key_principles": [
-      "TODO"
+      "Maintain unbroken hip-to-hip contact throughout the entire transition to eliminate escape space",
+      "Secure far hip control before releasing head control to anchor the opponent's lower body",
+      "Use submission threats as transition catalysts—americana and arm triangle setups divert defensive attention",
+      "Time the step-over immediately after the opponent's failed bridge attempt when their explosive capacity is depleted",
+      "Keep the stepping leg tight to the opponent's body during the arc to prevent knee insertion",
+      "Settle weight immediately upon clearing the opponent's body to establish mount before they can frame"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established kesa gatame control with stable base, hip pressure, and trapped arm secured",
+      "Far hip grip or belt control secured with near-side hand to prevent hip escape during transition",
+      "Bottom opponent's bridge timing observed and defensive energy partially depleted through pressure or failed escape attempts",
+      "Head control grip modified to allow release without losing upper body connection",
+      "Assessment that opponent's framing ability is compromised by arm trap, submission defense, or fatigue"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate Scarf Hold Control",
+        "description": "Ensure tight kesa gatame positioning with your hip driving into the opponent's ribcage, their near arm trapped securely under your armpit, and your far arm wrapped firmly around their head. Verify your base is stable with legs positioned wide for balance and your weight distributed through your pelvis into their chest."
+      },
+      {
+        "step_number": 2,
+        "action": "Test Defensive Posture and Create Opening",
+        "description": "Apply increased hip pressure and observe the opponent's response. Threaten americana on the trapped arm or arm triangle to force them to commit their free hand to submission defense rather than hip framing. Look for signs of fatigue, reduced bridge explosiveness, or defensive attention directed away from mount prevention."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure Far Hip Control",
+        "description": "Walk your near-side hand down to control the opponent's far hip, pants grip, or belt line while maintaining chest pressure with your upper body. This grip anchors their lower body to the mat and prevents the two most dangerous counters—the hip escape away from you and the shrimp to create knee insertion space."
+      },
+      {
+        "step_number": 4,
+        "action": "Shift Weight and Modify Head Control",
+        "description": "Transfer your weight forward through your hips while keeping chest pressure on the opponent's upper body. Release or loosen your head control grip, transitioning that arm to a posting position beside the opponent's head or shoulder for balance during the step-over. Maintain arm contact to block any last-second frame attempts."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute Step-Over",
+        "description": "Swing your far leg over the opponent's body in a controlled arc, keeping your hips as low as possible throughout the movement. Drive your stepping knee tight against their far hip to prevent space creation and block any attempt to insert a knee for half guard recovery. Maintain constant chest-to-torso contact and avoid lifting your center of gravity."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle Mount Position",
+        "description": "As your leg clears their body, immediately drop your full weight down through both hips, pinning their pelvis to the mat. Squeeze your knees against their sides and establish low mount base by positioning your feet under their thighs or setting grapevine hooks to prevent immediate bridge-and-roll escape attempts."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Mount Control Grips",
+        "description": "Secure dominant upper body control by selecting the appropriate grip configuration based on the opponent's arm positioning—cross-collar grips if they protect their neck, wrist control if arms are extended, or head control if they attempt to turn away. Drive hips forward to consolidate mount pressure and begin reading their defensive reactions for your next offensive sequence."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Explosive bridge during step-over when only one leg is posted",
+        "effectiveness": "High",
+        "your_response": "Anticipate the bridge by keeping your center of gravity low and your posting arm firmly planted. If they bridge early, abort the step-over, reset head control, and return to consolidated scarf hold. Use the failed bridge as your next timing window since their explosive capacity is temporarily depleted.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Far knee insertion to recover half guard during the leg swing",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Keep your stepping knee driving tight against their far hip throughout the arc to block the insertion path. If they get the knee partially in, drive your weight through your chest and use a knee slice motion to clear their knee and complete the mount. If fully established, consolidate half guard top and work a passing sequence.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Strong frame on hip blocking the step-over path",
+        "effectiveness": "Medium",
+        "your_response": "Swim your near arm inside their frame to redirect it toward their head, neutralizing the blocking force. Alternatively, switch to the slide-through variation by keeping your knee on the mat and sliding across their belly below the frame. If the frame is too established, abandon the attempt and reset to threaten a submission.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Turn into attacker and establish underhook during head control release",
+        "effectiveness": "Low",
+        "your_response": "Use your posting arm to crossface and drive their head away, preventing them from completing the turn. If they commit to turning, follow their rotation and take the mount from the opposite side as they roll toward you, or transition directly to back control if they expose their back during the turn.",
         "targets_outcome": "Scarf Hold Position/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting hips high during the step-over to clear the opponent's body",
+        "consequence": "Creates substantial space between your body and the opponent's torso, providing an immediate window for hip escape, knee insertion, or full bridge reversal that prevents mount establishment",
+        "correction": "Keep hips as low as possible throughout the entire transition by using a tight controlled arc rather than a high step. Slide your knee across their belly rather than swinging your leg over in a wide arc."
+      },
+      {
+        "error": "Releasing head control before securing far hip grip",
+        "consequence": "Opponent gains unrestricted hip mobility during the most vulnerable phase of the transition, enabling explosive bridge-and-roll or hip escape before you can complete the step-over",
+        "correction": "Always establish far hip control with your near-side hand before loosening head control. The grip sequence is critical—anchor the hips first, then free the head control arm for posting."
+      },
+      {
+        "error": "Attempting the transition against a fully framed and defensively active opponent",
+        "consequence": "Strong defensive frames block the step-over path and the opponent's full defensive attention makes counters highly likely, wasting energy and potentially losing scarf hold control entirely",
+        "correction": "Create the opening first through submission threats, pressure cycling, or waiting for failed escape attempts before initiating the mount transition. Never force the step-over against established defenses."
+      },
+      {
+        "error": "Failing to settle weight immediately after the leg clears the opponent's body",
+        "consequence": "The brief moment of lightness after the step-over allows the opponent to execute immediate bridge escape, insert frames, or begin guard recovery before mount pressure is established",
+        "correction": "Drop your weight down through both hips the instant your leg clears their body. Squeeze knees against their sides and drive hips forward to pin their pelvis before they can react to the new position."
+      },
+      {
+        "error": "Swinging the stepping leg too wide in a large arc that telegraphs the transition",
+        "consequence": "The wide arc gives the opponent time to recognize the attempt and prepare their counter—either bridging, inserting a knee, or establishing a frame before the leg reaches the other side",
+        "correction": "Keep the stepping leg tight to the opponent's body throughout the arc, driving the knee against their hip as it passes over. The tighter the arc, the less time the opponent has to react."
+      },
+      {
+        "error": "Neglecting to address the opponent's free arm before initiating the transition",
+        "consequence": "The free arm creates frames on your hip, grabs your leg during the step-over, or pushes your posting arm off balance, disrupting the transition at its most vulnerable moment",
+        "correction": "Before initiating the step-over, ensure the opponent's free arm is occupied—either defending a submission threat, trapped by your body positioning, or neutralized through grip control on the wrist or elbow."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Step-Over Mechanics",
+        "focus": "Isolated movement pattern without resistance",
+        "description": "Practice the step-over movement from established scarf hold with a cooperative partner. Focus on maintaining hip contact throughout the arc, keeping the stepping knee tight, and settling weight immediately upon completion. Perform 20 repetitions per side with emphasis on smooth, controlled movement rather than speed."
+      },
+      {
+        "phase": "Phase 2: Grip Sequencing",
+        "focus": "Proper grip transition order under light resistance",
+        "description": "Practice the complete grip sequence—far hip control, head control release, posting arm placement, step-over, mount establishment—with a partner providing 25% resistance. Focus on never having a moment without an anchoring grip and recognizing when the grip sequence is compromised."
+      },
+      {
+        "phase": "Phase 3: Submission-to-Transition Chains",
+        "focus": "Integrating submission threats as transition catalysts",
+        "description": "Begin from scarf hold and threaten americana or arm triangle with genuine submission intent. When the partner defends, use their defensive reaction as the trigger for the mount transition. Practice reading specific defensive responses and timing the step-over to the moment their attention shifts to submission defense."
+      },
+      {
+        "phase": "Phase 4: Counter Recognition and Adaptation",
+        "focus": "Handling defensive reactions during the transition",
+        "description": "Partner provides specific counters—bridge, knee insertion, hip frame—during the step-over at 50-75% resistance. Practice identifying each counter and applying the appropriate response: aborting and resetting, switching to slide-through, or driving through partial defenses to complete the mount."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from scarf hold",
+        "description": "Begin in established scarf hold with full resistance from the bottom player. Top player works to achieve mount through any variation while bottom player uses all available escapes and counters. Track success rate across rounds and identify patterns in which entries work against different defensive styles."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical timing window for initiating the Scarf Hold to Mount transition?",
+        "answer": "The optimal timing window occurs immediately after the bottom player has exhausted a bridge attempt and is settling back to the mat, when they are defending a submission threat like the americana which occupies their arms and attention, or when they have committed their weight to turning away from you. These moments represent the lowest defensive capacity because the opponent has spent energy and their defensive structures are compromised or directed elsewhere."
+      },
+      {
+        "question": "Why must you maintain hip-to-hip contact throughout the entire step-over sequence?",
+        "answer": "Lifting your hips during the step-over creates space between your body and the opponent's torso, which the bottom player will immediately exploit by inserting a knee to recover half guard, executing a hip escape, or bridging you off balance. Constant hip contact ensures continuous pressure that pins them to the mat and prevents the reactive movements necessary for escape. The transition should feel like sliding across their body rather than stepping over it."
+      },
+      {
+        "question": "How does threatening an americana setup create the opening for the mount transition?",
+        "answer": "The americana threat forces the bottom player to focus their defensive attention on protecting the trapped arm—they may straighten the arm, grip their own thigh, or redirect their free hand to defend the submission. This diversion of attention and defensive resources away from hip defense and framing creates the window for the step-over because the opponent cannot simultaneously defend the submission and block the mount transition with full effectiveness."
+      },
+      {
+        "question": "Your opponent posts a strong frame on your hip as you begin the step-over—how do you adjust?",
+        "answer": "Rather than forcing through the frame, swim your near arm inside their frame and redirect it upward toward their head, neutralizing the blocking force. Alternatively, switch to a slide-through entry by keeping your stepping knee tight to the mat and sliding it across their belly below the frame. If the frame is too strong, abandon the mount attempt temporarily and return to scarf hold control to reset while threatening a submission to lower their defensive frames."
+      },
+      {
+        "question": "What grip should you prioritize before releasing head control for the step-over?",
+        "answer": "Secure control of the opponent's far hip or belt line with your near-side hand before releasing head control. This far hip grip prevents the two most dangerous counters—the hip escape away from you and the bridge-and-roll toward you—by anchoring their lower body to the mat. Without this grip, releasing head control gives the opponent unrestricted hip mobility during the most vulnerable phase of the transition."
+      },
+      {
+        "question": "What is the correct response if your opponent inserts a knee during the step-over, catching you in half guard?",
+        "answer": "Immediately consolidate half guard top control by establishing crossface and underhook before attempting to re-pass. Do not attempt to rip your leg free or force back to mount, as this creates scramble situations where the bottom player has momentum. From half guard top, use the knee slice or pressure pass to work back toward side control and then re-establish scarf hold or mount through a more controlled passing pathway."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Scarf Hold to Mount."
+    "safety_considerations": "This transition involves minimal submission risk but requires controlled movement to avoid accidentally dropping weight on the training partner's face or neck during the step-over. Maintain awareness of knee placement during the swing-over arc to prevent striking the partner's head or face. When drilling at speed, communicate intensity level clearly to prevent accidental head or rib contact from the stepping leg. During live sparring, be mindful of the partner's rib positioning under scarf hold pressure before initiating the transition, as sustained kesa gatame pressure combined with the transition movement can cause rib discomfort."
   },
   "defender": {
     "name": "Scarf Hold to Mount Defender",
-    "description": "TODO: Write defender description for Scarf Hold to Mount.",
-    "overview": "TODO: Write defender overview for Scarf Hold to Mount.",
+    "description": "Learn to defend and counter the Scarf Hold to Mount transition in BJJ. Recognition cues, knee insertion timing, bridge counters, and half guard recovery techniques for preventing mount establishment.",
+    "overview": "Defending the Scarf Hold to Mount transition requires recognition of the specific preparatory movements that signal the mounting attempt, combined with decisive action during the narrow window when the top player is most vulnerable. The defender must balance immediate escape attempts with energy conservation, understanding that the transition moment itself offers the highest-percentage defensive opportunities. Successful defense prioritizes knee insertion to recover half guard over explosive bridge attempts that risk back exposure, and integrates frame-based prevention with tactical counter-timing to disrupt the mounting sequence at its most mechanically weak point. The key defensive insight is that the attacker must sacrifice some control to complete the transition, and this sacrifice is your primary opportunity.",
     "key_principles": [
-      "TODO"
+      "Recognize preparatory grip changes—far hip control and head control release—as the earliest signals of the mount transition",
+      "Prioritize knee insertion for half guard recovery over explosive bridge attempts that may expose your back",
+      "Time your primary counter to the exact moment the attacker's leg lifts from the mat, when they have minimal base",
+      "Maintain frames on the attacker's hip and shoulder throughout the transition to block or delay the step-over",
+      "Use the attacker's submission threats as misdirection windows—appear to be defending the submission while positioning for the mount counter",
+      "Conserve explosive energy for the precise counter-timing moment rather than burning it on continuous resistance"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker's near-side hand walks down toward your far hip or belt line, establishing the anchor grip needed before the step-over",
+      "Attacker loosens or releases their head control grip, freeing the arm for posting during the transition",
+      "Forward weight shift through the attacker's hips with their chest pressure increasing on your upper body as they prepare to slide across",
+      "Attacker's far leg lifts slightly or repositions wider, indicating preparation for the swing-over arc",
+      "Reduced arm pressure on your trapped arm as the attacker redirects their near arm to hip control rather than arm isolation"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Explosive bridge toward the attacker's stepping side at the moment their leg lifts from the mat",
+        "when_to_use": "When you detect the attacker's far leg lifting for the step-over and they have only one leg posted for base. The bridge must be timed precisely to the moment of maximum instability.",
         "targets_outcome": "Scarf Hold Position/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The attacker loses balance and must abort the step-over, resetting to scarf hold control. Use the reset moment to improve your defensive positioning and establish stronger frames.",
+        "risk": "If mistimed, the bridge wastes energy and the attacker completes the mount while you are recovering from the failed bridge attempt."
+      },
+      {
+        "action": "Drive far-side knee upward and across the attacker's path to insert it between your bodies for half guard recovery",
+        "when_to_use": "As soon as you detect the step-over initiation through grip changes and weight shift. The knee must enter the path before the attacker's stepping leg clears your hip line.",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The attacker is caught in half guard top position, which is significantly more defensible than mount and provides immediate sweep and guard recovery options.",
+        "risk": "If the knee insertion is too late, the attacker clears your knee and establishes mount with your leg partially extended, making the initial mount escape more difficult."
+      },
+      {
+        "action": "Establish strong frame on attacker's near hip with your free arm to physically block the step-over path",
+        "when_to_use": "Preemptively when you detect far hip grip establishment and suspect the mount transition is imminent. The frame must be established before the attacker releases head control.",
+        "targets_outcome": "Scarf Hold Position/Top",
+        "if_successful": "The physical barrier prevents the attacker from completing the step-over, forcing them to either address your frame or abandon the transition attempt entirely.",
+        "risk": "Extended arm framing on the hip can be attacked with americana or wrist control if the attacker recognizes the frame and redirects to submission rather than continuing the mount transition."
+      },
+      {
+        "action": "Turn into the attacker and establish underhook during the head control release window",
+        "when_to_use": "When the attacker releases head control to post their arm for the step-over, creating a brief window where your head mobility is restored and you can turn toward them.",
+        "targets_outcome": "Scarf Hold Position/Top",
+        "if_successful": "Turning into the attacker and establishing an underhook disrupts the perpendicular angle required for the mount transition and creates sweep and guard recovery opportunities.",
+        "risk": "If the turn is incomplete or the underhook is shallow, the attacker can crossface and drive you back flat, potentially establishing mount from a worse defensive position."
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Insert your far-side knee across the attacker's path during the step-over to recover half guard before mount is established. Time the insertion to the moment the attacker's leg lifts, driving your knee toward your own chest and across their hip line. Even a partial insertion prevents full mount and creates immediate guard retention opportunities."
+      },
+      {
+        "outcome": "Scarf Hold Position/Top",
+        "how": "Use a combination of hip framing, well-timed bridge, and grip fighting to force the attacker to abort the mount transition and reset to scarf hold. While remaining in scarf hold bottom is not ideal, it is significantly better than being mounted and preserves your existing defensive structure and escape opportunities."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the attacker's leg has already cleared your body before attempting any defensive action",
+        "consequence": "Once the leg clears and weight settles, the mount is established and you face a much more difficult escape situation with the attacker in full control",
+        "correction": "React to the preparatory cues—grip changes, weight shifts, head control release—rather than waiting for the step-over itself. Your defensive window is during the preparation phase, not after the transition completes."
+      },
+      {
+        "error": "Using explosive bridge without directional targeting, bridging straight up rather than toward the stepping side",
+        "consequence": "A vertical bridge lifts the attacker momentarily but does not disrupt their balance in the direction of the step-over, allowing them to ride the bridge and complete the mount as you return to the mat",
+        "correction": "Direct your bridge at a 45-degree angle toward the attacker's stepping side, targeting the direction where they have minimal base due to the lifted leg. The directional component is what makes the bridge effective, not the height."
+      },
+      {
+        "error": "Extending both arms to push the attacker away rather than using structured frames",
+        "consequence": "Extended arms create immediate vulnerability to americana, kimura, and armbar attacks. The attacker can capitalize on the arm extension to secure a submission instead of the mount transition.",
+        "correction": "Use structured forearm frames against the attacker's hip and shoulder rather than pushing with straight arms. Keep elbows connected to your body and use skeletal alignment rather than muscular pushing to create the blocking barrier."
+      },
+      {
+        "error": "Focusing entirely on defending the submission threat and ignoring the mount transition setup",
+        "consequence": "The attacker uses the submission as a deliberate distraction to set up the mount transition while your defensive attention is entirely directed at the wrong threat",
+        "correction": "Maintain split awareness between submission defense and mount prevention. Defend the submission with minimal resource commitment—straighten the trapped arm and grip your thigh—while keeping your free hand and knee positioned to counter the mount transition."
+      },
+      {
+        "error": "Attempting to turn away from the attacker during the transition rather than turning into them",
+        "consequence": "Turning away exposes your back and creates a direct pathway for the attacker to take back control instead of mount, which is an even worse positional outcome",
+        "correction": "If turning, always turn toward the attacker to establish an underhook and disrupt their perpendicular angle. Turning away should only occur if you can achieve turtle position with strong defensive posture and the ability to stand."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that your opponent is preparing to transition from scarf hold to mount?",
+        "answer": "The primary cues include your opponent releasing or loosening their head control grip, their near-side hand walking down toward your hip or belt area, forward weight shift through their hips, and reduced arm pressure on your trapped arm. You may also feel their chest pressure redistribute as they begin rotating their body to align for the step-over. Any combination of these signals indicates an imminent mount transition attempt."
+      },
+      {
+        "question": "Why is the bridge counter most effective at the exact moment your opponent lifts their leg for the step-over?",
+        "answer": "During the step-over, your opponent has only one leg posted on the mat, dramatically reducing their base stability in the direction of the stepping leg. Their weight is momentarily committed to the transition and they have released head control. This creates a narrow but high-percentage window where a well-timed bridge toward their stepping side encounters minimal resistance because they cannot post with the airborne leg and their grips have been modified for the transition rather than base retention."
+      },
+      {
+        "question": "How should you position your knee to prevent mount completion during the step-over?",
+        "answer": "As soon as you detect the step-over initiation, drive your far-side knee upward toward your chest and angle it across your opponent's path. The goal is to insert your knee between their body and yours before their stepping leg clears your hip line. Even if you cannot prevent all forward progress, getting your knee inside their leg creates half guard, which is significantly more defensible than full mount and gives you immediate guard retention and sweep options."
+      },
+      {
+        "question": "Your opponent pins your far hip while threatening an americana—how do you defend both threats simultaneously?",
+        "answer": "Prioritize the americana defense first by straightening your trapped arm and anchoring your hand to your thigh or belt. Then use your free arm to frame against their shoulder rather than their hip grip, creating space to turn toward them. The hip pin prevents shrimping but does not prevent bridging, so use short explosive bridges to disrupt their balance while maintaining the americana defense. The goal is to force them to choose between completing the submission and completing the mount transition."
+      },
+      {
+        "question": "What is the defensive priority hierarchy when caught mid-transition between scarf hold and mount?",
+        "answer": "First, prevent the mount from fully consolidating by inserting your knee to create half guard—this is your most critical window and takes priority over everything else. Second, if the knee insertion fails, immediately establish elbow-knee frames to prevent the opponent from settling their weight in mount. Third, protect your neck and arms from submission threats that become available once mount is achieved. Never accept the mounted position passively, as the transition moment offers your best escape opportunities before the attacker consolidates control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying preparatory cues without countering",
+        "description": "Partner performs the scarf hold to mount transition at slow speed while you call out each preparatory cue as you detect it—grip change, weight shift, head control release, leg lift. No physical counter attempts. Develop the pattern recognition that enables timely defensive reactions through 20 repetitions with increasing transition speed."
+      },
+      {
+        "phase": "Phase 2: Isolated Counter Mechanics",
+        "focus": "Practicing individual defensive techniques against cooperative partner",
+        "description": "Isolate each counter technique—bridge timing, knee insertion, hip frame—and practice them individually against a cooperative partner performing the transition at 25% speed. Perform 15 repetitions of each counter technique focusing on body mechanics and positioning before combining them."
+      },
+      {
+        "phase": "Phase 3: Counter Selection Under Pressure",
+        "focus": "Choosing the right counter based on attacker's variation",
+        "description": "Partner performs different mount entry variations—step-over, slide-through, walk-around—at 50% resistance without announcing which variation. Practice selecting the appropriate counter for each variation and executing it with proper timing. Develop automatic response selection based on the specific entry being attempted."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Live defensive application from scarf hold bottom",
+        "description": "Full resistance positional rounds starting from scarf hold bottom. The top player works all available transitions including mount, north-south, and submissions. Defend all threats while specifically tracking mount prevention success rate. Work 3-minute rounds with the goal of preventing mount while working toward your own escape or guard recovery."
       }
     ]
   }

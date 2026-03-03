@@ -1,16 +1,21 @@
 {
   "name": "Estima Lock Counter Roll",
-  "description": "TODO: Write 150-160 character SEO description for Estima Lock Counter Roll.",
+  "description": "Master the Estima Lock Counter Roll in BJJ. Complete guide to escaping the Estima Lock through rolling mechanics, timing, and position reversal techniques.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "escape",
+    "counter",
+    "leg-lock-defense",
+    "estima-lock",
+    "rolling",
+    "reversal"
   ],
   "from_position": "Estima Lock/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
@@ -19,120 +24,386 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
-      "probability": 15,
+      "to": "Saddle/Bottom",
+      "probability": 20,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Estima Lock Counter Roll.",
+  "success_rate": 50,
+  "overview": "The Estima Lock Counter Roll is a defensive transition executed from the bottom of the Estima Lock position, where the trapped practitioner uses rotational momentum to relieve submission pressure, disrupt the attacker's grip mechanics, and reverse positional hierarchy. This technique exploits the inherent vulnerability of the Estima Lock's reliance on linear rotational pressure and fixed hip positioning by introducing a rolling vector that the top player's figure-four grip configuration struggles to track. Rather than fighting the lock's mechanics directly through grip fighting or leg extraction, the counter roll redirects ankle torque through whole-body rotation.\n\nThe counter roll functions by aligning body rotation with the lock's pressure vector—rolling toward the controlled foot side momentarily neutralizes the submission threat while creating sweeping momentum that carries the practitioner through to top position. The technique requires precise timing, initiated during the grip consolidation phase before full rotational pressure is applied, and coordinated use of the free leg as both a posting base and rolling lever. The directional choice is critical: rolling toward the trapped foot relieves torque, while rolling away amplifies it dangerously.\n\nSuccess with the Estima Lock Counter Roll depends on three factors: early recognition of the lock before it tightens beyond the escape window, proper directional commitment in the roll to avoid increasing ankle torque, and immediate positional control upon completing the rotation. When executed correctly, the roll sweeps past the attacker's base and lands the practitioner in half guard top, completely reversing the positional dynamic. Failed attempts typically result from late timing, incorrect roll direction, or insufficient hip engagement, leaving the practitioner in the same or worse leg entanglement. The technique carries inherent risk—rolling while caught in an active submission demands trust in mechanical understanding and split-second decision-making.",
   "conditions": [
-    "TODO"
+    "Opponent has established Estima Lock grip but has not fully consolidated rotational pressure on the ankle",
+    "Free leg retains mobility and can post firmly on the mat or opponent's body to generate rolling momentum",
+    "Sufficient mat space exists in the rolling direction to complete the full body rotation without obstruction",
+    "Upper body is not completely flattened—at least partial angle toward the trapped foot side is maintained",
+    "Counter-rotation of the trapped ankle is still possible without sharp pain, indicating the lock has not reached critical depth"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Forward Shoulder Roll Variation",
+      "description": "Instead of rolling laterally, the bottom player performs a forward roll over the shoulder on the trapped foot side. This variant uses a tighter rotational arc that can be faster to execute but requires more flexibility and precise shoulder positioning. The forward roll generates less sweeping momentum but is harder for the top player to follow because the rotation occurs in an unexpected plane.",
+      "when_to_use": "When the opponent's base is narrow and their weight is shifted forward over your trapped leg, making lateral rolling difficult but creating space for a forward shoulder roll underneath them."
+    },
+    {
+      "variant_name": "Granby Roll Variation",
+      "description": "An inverted shoulder roll that uses the Granby rolling pattern to escape the Estima Lock. The practitioner inverts partially, rolling over the back of the shoulders while keeping the trapped leg elevated. This creates a larger rotational arc that generates significant momentum and can completely disorient the top player's grip mechanics. Requires greater flexibility and comfort with inversions.",
+      "when_to_use": "When you have significant space behind you and the opponent's grip is moderately tight but their base is high. The Granby variation works best against opponents who commit their upper body forward while holding the lock."
+    },
+    {
+      "variant_name": "Sit-Up to Lateral Roll",
+      "description": "Combines an initial sit-up motion to create angle and break the opponent's chest-level pressure before committing to the lateral roll. The sit-up phase disguises the roll as a conventional frame-based escape, then transitions into rotational momentum once the upper body is elevated. This two-phase approach provides a bail-out option if the sit-up alone creates enough space for leg extraction.",
+      "when_to_use": "When you can still generate enough core engagement to sit up partially despite the lock, and want to maintain the option of switching to conventional escape if the sit-up creates sufficient space."
     }
   ],
-  "position_integration": "TODO: Write position integration for Estima Lock Counter Roll.",
+  "position_integration": "The Estima Lock Counter Roll integrates into the broader leg lock defense system as a high-risk, high-reward escape option when conventional grip fighting and leg extraction methods prove insufficient. Within the defensive hierarchy from Estima Lock bottom, practitioners should first attempt counter-rotation and framing-based escapes, reserving the counter roll for situations where the lock is tightening and static defense is failing. This technique connects directly to the half guard top position, from which the practitioner can immediately transition to passing sequences. The counter roll also serves as a deterrent—opponents who are aware of this counter must dedicate attention to base maintenance rather than pure finishing pressure, creating space for other defensive options. Proficiency with the counter roll complements conventional Estima Lock defense by adding an unpredictable dynamic escape that forces the attacker to address multiple defensive vectors simultaneously rather than focusing exclusively on finishing the submission.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Estima Lock",
+      "relationship": "Source position from which this counter roll escape is executed"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary target position upon successful counter roll completion"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Dangerous counter outcome position when opponent follows the roll into deeper entanglement"
+    },
+    {
+      "name": "Counter from Estima Lock",
+      "relationship": "Related counter technique from the same defensive position"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Alternative leg entanglement escape sharing similar defensive principles"
+    },
+    {
+      "name": "Estima Lock Finish",
+      "relationship": "The submission this counter roll technique is designed to escape"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement position that commonly precedes Estima Lock situations"
+    },
+    {
+      "name": "Boot Scoot Escape from Saddle",
+      "relationship": "Follow-up escape technique needed if counter roll is countered into saddle position"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Alternative recovery position accessible through conventional Estima Lock escapes"
     }
   ],
   "attacker": {
     "name": "Estima Lock Counter Roll Attacker",
-    "description": "TODO: Write attacker description for Estima Lock Counter Roll.",
-    "overview": "TODO: Write attacker overview for Estima Lock Counter Roll.",
+    "description": "Learn to execute the Estima Lock Counter Roll from bottom position. Step-by-step rolling escape mechanics, timing windows, and follow-up transitions to half guard top.",
+    "overview": "The Estima Lock Counter Roll from the attacker's perspective is about converting a dangerous submission defense into an active position reversal through precise rolling mechanics. Rather than simply fighting grips and attempting to extract the trapped leg through direct resistance, the counter roll uses the opponent's committed grip as a pivot point for a full-body rotation that simultaneously relieves ankle pressure and creates sweeping momentum. This technique demands courage and technical precision—rolling while caught in a submission requires trust in your mechanical understanding and split-second timing to initiate the rotation before the lock reaches submission-threatening depth. The attacker must coordinate free leg posting, hip engagement, shoulder rotation, and grip management in a single fluid motion that disrupts the top player's base while protecting the vulnerable ankle throughout the transition. Mastery of this technique transforms the Estima Lock from a terminal defensive crisis into a reversible positional exchange.",
     "key_principles": [
-      "TODO"
+      "Initiate the roll before the Estima Lock reaches full consolidation—timing determines success more than any other factor in this technique",
+      "Roll toward the trapped foot side to align body rotation with the pressure direction, neutralizing rather than amplifying ankle torque",
+      "Use the free leg as the primary force generator by posting firmly on the mat or opponent's hip to create rotational momentum",
+      "Keep the trapped foot actively pointed and counter-rotated throughout the roll to prevent submission completion during the transition",
+      "Commit fully to the roll once initiated past the point of no return—half-committed attempts create the highest injury risk",
+      "Immediately establish top control upon completing the rotation by securing half guard and driving chest pressure forward",
+      "Maintain awareness of the opponent's grip throughout the roll to prevent them from following your rotation into a deeper entanglement"
     ],
     "setup_requirements": [
-      "TODO"
+      "Opponent has established Estima Lock grip but has not fully tightened rotational pressure on the ankle joint",
+      "Free leg retains posting ability on the mat or opponent's body to generate the rolling momentum required for completion",
+      "Upper body maintains at least partial mobility with the ability to angle toward the trapped foot side for rotation initiation",
+      "Sufficient mat space exists in the rolling direction to complete the full body rotation without obstruction from walls or other practitioners",
+      "Counter-rotation on the trapped ankle is still possible without sharp pain, confirming the lock has not reached critical finishing depth"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess Lock Depth and Timing Window",
+        "description": "Evaluate the opponent's grip consolidation and rotational pressure on your ankle before committing to the roll. The counter roll window exists during the transition from grip establishment to full pressure application. If the lock has already reached near-tap pressure with sharp ankle pain, tap immediately rather than risk injury. Check that counter-rotation of your ankle still reduces pressure—this confirms the window remains open."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Free Leg Post",
+        "description": "Plant your free foot firmly on the mat beside your hip or directly on the opponent's hip bone, creating a stable base from which to generate rotational momentum. Position the ball of the foot with toes dug in for traction. The posting leg must be angled to drive your hips upward and over in the rolling direction, not merely pushing laterally or vertically."
+      },
+      {
+        "step_number": 3,
+        "action": "Create Upper Body Rotation Base",
+        "description": "Post your far hand on the mat behind your body and use your near hand to frame against the opponent's hip or shoulder. These contact points serve dual purposes: creating the initial space needed to begin rotation and guiding the directional arc of the roll. Angle your shoulders toward the trapped foot side to pre-load the rotation."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate Rolling Rotation",
+        "description": "Drive off your posted free leg while simultaneously turning your shoulders toward the trapped foot side to begin the roll. The rolling direction must align with the Estima Lock's pressure vector—rolling toward the controlled foot relieves ankle torque during rotation. Generate momentum from the hips rather than pulling with the upper body to maintain structural integrity through the roll."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate Through Completion",
+        "description": "Commit to the full rotation by driving your hips over and through, using the opponent's grip on your foot as a pivot point around which your body rotates. Keep your trapped foot pointed and counter-rotated throughout to prevent the lock from tightening during the transition phase. Maintain a tight rotational arc to generate maximum momentum while minimizing the time your ankle spends in vulnerable angles."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Half Guard Top Position",
+        "description": "As you complete the rotation and come up on top, immediately secure half guard by trapping the opponent's near leg between yours. Drive your chest forward into their shoulder to establish pressure and prevent them from recovering guard or sitting up into a leg entanglement re-engagement. Your weight must transfer immediately to top pressure."
+      },
+      {
+        "step_number": 7,
+        "action": "Clear Remaining Grips and Consolidate",
+        "description": "Address any remaining grip the opponent retains on your foot using two-on-one hand fighting while maintaining top chest pressure. Strip the hand closest to your ankle first as it carries the most residual submission threat. Extract your foot completely from their control before transitioning to a passing sequence from half guard top. Maintain heavy hip pressure throughout the grip clearing phase."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent drives hips forward and increases rotational pressure to eliminate the space needed for body rotation",
+        "effectiveness": "High",
+        "your_response": "Abandon the counter roll attempt and return to conventional grip fighting and framing defense. If hip pressure intensifies beyond the rolling window, prioritize counter-rotating the ankle and establishing frames on their hips to relieve submission pressure through conventional escape methods.",
+        "targets_outcome": "Estima Lock/Bottom"
+      },
+      {
+        "counter": "Opponent follows the rolling direction and backsteps into saddle position during the rotation",
+        "effectiveness": "High",
+        "your_response": "Recognize the saddle entry immediately and address the inside heel hook threat by straightening your trapped leg and initiating boot scoot escape protocols. The transition to saddle is dangerous but expected—having prepared saddle defense as a contingency makes the counter roll viable as part of a layered escape strategy.",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent bases out wide with far hand and drives shoulder into your turning shoulder to stuff the roll midway",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "If the roll stalls in the early phase, retreat to starting position and switch to conventional leg extraction using the space the roll attempt created. If stalled past halfway, drive through with maximum hip engagement to complete the rotation despite the shoulder pressure.",
+        "targets_outcome": "Estima Lock/Bottom"
+      },
+      {
+        "counter": "Opponent transitions grip to toe hold configuration as you begin rotating, attacking the newly exposed angle",
+        "effectiveness": "Medium",
+        "your_response": "Halt the roll immediately if the toe hold threat materializes before significant rotation. Straighten your leg to reduce toe hold leverage and apply boot defense by pointing toes and flexing the foot. Address the new submission threat before reattempting any escape.",
         "targets_outcome": "Estima Lock/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Rolling away from the trapped foot side instead of toward it",
+        "consequence": "Dramatically increases torque on the ankle joint as the body's rotation amplifies rather than neutralizes the lock's pressure vector, creating serious risk of self-inflicted ankle or Achilles tendon injury",
+        "correction": "Always roll toward the trapped foot side—this aligns your rotation with the lock's force direction, momentarily neutralizing the torque. Drill the correct direction extensively at zero resistance before adding any pressure."
+      },
+      {
+        "error": "Initiating the roll when the lock has already reached full submission depth",
+        "consequence": "Rolling under deep submission pressure compounds rotational forces on the ankle, risking severe ligament damage or fracture as the body's momentum adds to the existing lock tension",
+        "correction": "Assess lock depth honestly before committing. If counter-rotating the ankle produces sharp pain or the opponent's hip pressure has fully consolidated, tap immediately. The counter roll is only viable during the grip consolidation window, not after full pressure application."
+      },
+      {
+        "error": "Failing to post with the free leg before initiating shoulder rotation",
+        "consequence": "Without the free leg driving the roll, the rotation stalls midway through, leaving the practitioner in a partially inverted position with the lock still applied and no momentum to complete the escape",
+        "correction": "Establish a solid free leg post on the mat or opponent's hip before any shoulder rotation begins. The free leg provides the primary force generation—the roll cannot succeed on upper body effort alone."
+      },
+      {
+        "error": "Half-committing to the roll and stopping midway through the rotation",
+        "consequence": "Partial rotation exposes the ankle to maximum torque from an unfavorable angle while eliminating the option of returning to the starting defensive position, creating the most dangerous scenario for injury",
+        "correction": "Once the roll passes approximately 90 degrees of rotation, commit fully to completing the movement. Train the commitment response through progressive drilling so that full rotation becomes automatic once initiated."
+      },
+      {
+        "error": "Neglecting to clear opponent's grip on the foot after completing the roll",
+        "consequence": "Opponent retains foot control and re-establishes the Estima Lock or transitions to a toe hold from the new angle, completely negating the positional gain achieved by the roll",
+        "correction": "Immediately address remaining foot grips upon completing the roll using two-on-one hand fighting while establishing chest pressure. Grip clearance must happen within the first seconds before the opponent reorganizes."
+      },
+      {
+        "error": "Attempting the roll from a completely flat back position without first creating angle",
+        "consequence": "Rolling from flat requires significantly more energy, gives the opponent clear visual warning of the impending movement, and provides less mechanical advantage for the rotation",
+        "correction": "Create angle toward the trapped side by framing and hip escaping slightly before initiating the roll. This pre-positions the body for efficient rotation and disguises the technique as a conventional escape setup."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Rolling Mechanics",
+        "focus": "Directional rolling patterns and body coordination",
+        "description": "Practice the counter roll movement without a partner, focusing on correct directional roll toward the simulated trapped foot side, free leg posting mechanics, and coming up to a top position. Use a grappling dummy or pillow to simulate foot control. Build muscle memory for the correct rolling direction before introducing any partner resistance."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Timing and coordination with live grip",
+        "description": "Partner holds Estima Lock at 20% pressure while you execute the full counter roll sequence. Focus on correct rolling direction, free leg posting force generation, ankle protection during the rotation, and immediate top position establishment. Partner provides feedback on timing and directional accuracy."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Execution under increasing submission pressure",
+        "description": "Partner increases Estima Lock pressure to 50-70% and begins adding light defensive reactions including hip pressure increases, grip adjustments, and base widening. Practice reading the lock depth window and committing to the roll with proper timing under realistic submission threat levels."
+      },
+      {
+        "phase": "Phase 4: Situational Sparring",
+        "focus": "Decision-making and technique selection",
+        "description": "Begin in Estima Lock bottom with partner at full intensity. Work the counter roll as one option among conventional defenses including grip fighting, leg extraction, and angle changes. Develop judgment for when the counter roll is the appropriate choice versus when other escapes offer better risk-reward ratios."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Complete sequence from defense to offense",
+        "description": "After successful counter rolls, immediately chain into half guard passing sequences. Practice the full sequence from Estima Lock defense through counter roll to half guard top to pass completion as one continuous flow. Include contingency responses for when the roll is countered into saddle position."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Estima Lock Counter Roll?",
+        "answer": "The optimal window exists during the grip consolidation phase—after the opponent has established the inverted foot control but before they apply full rotational pressure through their hips. This window typically lasts two to four seconds. If you can still counter-rotate your ankle without sharp pain, the window remains open. Once hip pressure pins your calf and rotational force reaches near-tap levels, the window has closed and attempting the roll risks serious injury to the ankle joint."
+      },
+      {
+        "question": "In which direction must you roll relative to your trapped foot, and why is this mechanically critical?",
+        "answer": "You must roll toward the trapped foot side, aligning your body rotation with the lock's force vector. This momentarily neutralizes the rotational torque on your ankle rather than amplifying it. Rolling away from the trapped foot multiplies rotational stress on the ankle joint because your body's momentum works with the submission pressure rather than against it. The directional choice is the single most important safety factor in the technique."
+      },
+      {
+        "question": "Your opponent increases hip pressure the moment you begin posting your free leg—how do you adjust your escape strategy?",
+        "answer": "Increased hip pressure when you begin posting signals the opponent has recognized your counter roll setup. Rather than forcing the roll against heavy hip pressure, redirect the free leg post into a conventional defensive frame—push their hips away to create space for leg extraction or angle change escape instead. The counter roll requires sufficient space for rotation, and fighting through consolidated hip pressure dramatically increases ankle injury risk. Use the posting motion as a transition to conventional defense."
+      },
+      {
+        "question": "Your free leg keeps slipping off the posting position during roll attempts—what adjustment improves stability?",
+        "answer": "Position the ball of the foot firmly planted on the mat with toes dug in for traction, or hook slightly behind the opponent's hip bone for a more secure contact point. The post should be close enough to your body to generate power without overextending—too far away sacrifices force generation and stability. Ensure the knee angle drives force in the rolling direction rather than vertically upward. The posting position determines the entire roll's power and direction, so instability here undermines the technique completely."
+      },
+      {
+        "question": "You are midway through the roll and feel the opponent adjusting their grip to follow your rotation—what is the correct response?",
+        "answer": "Accelerate through the completion of the roll rather than hesitating. The opponent following the rotation is attempting to maintain the lock or transition to saddle. Stopping midway allows them to consolidate in a potentially worse position. By driving through with increased hip engagement and immediately establishing top chest pressure upon completion, you force them to address your positional control rather than their grip adjustment. The roll's momentum is your primary advantage—preserving it is essential."
+      },
+      {
+        "question": "After completing the roll, your opponent still has a grip on your foot and begins transitioning—how do you handle the grip while maintaining top position?",
+        "answer": "Immediately establish chest pressure by driving your sternum into their shoulder to prevent them from sitting up or creating space for re-engagement. Use two-on-one hand fighting to strip the grip, addressing the hand closest to your ankle first as it carries the most residual submission threat. Keep your trapped leg's knee bent to prevent them from re-extending it into a new lock configuration. If they begin transitioning toward a toe hold, straighten your leg and drive hips forward simultaneously to break the grip angle."
+      },
+      {
+        "question": "Your training partner successfully counters your roll and transitions to saddle—what are your immediate defensive priorities?",
+        "answer": "Address the inside heel hook threat immediately by straightening your trapped leg to remove the heel exposure and initiating boot scoot escape by pushing your hips away from the opponent. Establish hand control on their near-side grip to prevent heel hook entry while using your free leg to create distance through pushing on their hips. The saddle is more dangerous than the Estima Lock, so urgency in addressing the new position is critical. Having trained saddle defense as part of the counter roll progression is what makes this technique viable."
+      },
+      {
+        "question": "What physical cues in your ankle tell you the counter roll window has closed and you should tap instead?",
+        "answer": "The window has closed when you experience sharp localized pain in the ankle joint or Achilles tendon rather than general pressure, when attempting to counter-rotate produces immediate pain escalation, when you feel the opponent's forearm blade fully locked across the top of your foot with no slack remaining, and when their hip pressure completely pins your calf eliminating the space required for body rotation. Any combination of these signals means the lock is at submission depth and the roll would risk structural injury."
+      },
+      {
+        "question": "What distinguishes the Estima Lock Counter Roll from rolling escapes used against other leg entanglements?",
+        "answer": "The Estima Lock's inverted grip configuration creates a unique directional requirement—you must roll specifically toward the trapped foot to neutralize the rotational pressure vector. In other entanglements like standard ankle locks or toe holds, the optimal roll direction varies based on the specific attack mechanics and grip orientation. Additionally, the Estima Lock's forearm fulcrum across the top of the foot demands smooth continuous rotation rather than jerky movements, because sudden direction changes with the forearm in place can spike pressure on the ankle joint unpredictably."
+      },
+      {
+        "question": "How does weight disparity with your opponent affect the counter roll execution and what compensations are needed?",
+        "answer": "Against heavier opponents, the free leg post must generate more driving force, and the rolling arc must be tighter and more precise to overcome the additional weight resistance on the trapped leg. Compensate by using more hip engagement and less upper body effort, as hip-generated rotation produces more power than arm pulling. Timing becomes even more critical—initiate earlier in the grip consolidation phase when less weight has been committed to the lock. Heavier opponents may also have slower reactions to the roll's initiation, potentially providing a slightly larger execution window."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Estima Lock Counter Roll."
+    "safety_considerations": "The Estima Lock Counter Roll involves rolling while caught in an active ankle submission, creating significant injury risk if executed with incorrect timing or direction. Never attempt the roll when the lock has reached tap-worthy pressure—tapping is always preferable to risking ankle, Achilles tendon, or foot ligament damage. During training, communicate clearly with partners about pressure levels and agree on progressive resistance protocols before attempting the technique. Rolling in the wrong direction can cause acute injury to the ankle joint, so thorough understanding of directional mechanics must be established through solo and zero-resistance drilling before attempting under any live resistance. Partners should release immediately if any distress signal occurs during the rolling transition phase."
   },
   "defender": {
     "name": "Estima Lock Counter Roll Defender",
-    "description": "TODO: Write defender description for Estima Lock Counter Roll.",
-    "overview": "TODO: Write defender overview for Estima Lock Counter Roll.",
+    "description": "Learn to prevent and counter the Estima Lock Counter Roll. Recognition cues, base adjustments, and transition strategies to maintain leg entanglement control against rolling escapes.",
+    "overview": "Defending against the Estima Lock Counter Roll requires the Estima Lock holder to recognize the bottom player's rolling setup and respond with base adjustments, grip modifications, or positional transitions that prevent the roll from completing successfully. The defender's primary advantage lies in awareness—understanding that the counter roll requires specific setup conditions including free leg posting, upper body angling, and directional commitment, and disrupting those conditions before the roll gains momentum. Effective defense combines preventive measures that remove the roll's prerequisites with reactive techniques that convert failed roll attempts into deeper entanglements or accelerated submission finishes. The defender who anticipates the counter roll transforms a potential vulnerability into an offensive opportunity, using the opponent's movement to transition into saddle position or finish the Estima Lock during the moment of maximum ankle exposure.",
     "key_principles": [
-      "TODO"
+      "Monitor the bottom player's free leg activity constantly—posting movements signal counter roll preparation before any shoulder rotation begins",
+      "Maintain heavy hip pressure against the trapped leg's calf to eliminate the space needed for body rotation and roll initiation",
+      "Keep base wide and center of gravity low to resist the rolling momentum if the counter roll is successfully initiated",
+      "Control the bottom player's far hip or shoulder with your free hand to prevent the upper body angle creation that precedes every roll attempt",
+      "Be prepared to transition grip to saddle or toe hold if the roll begins, converting the escape attempt into a worse entanglement for the bottom player",
+      "Recognize the counter roll in its earliest stages and respond immediately—the technique becomes exponentially harder to stop once rotational momentum builds",
+      "Apply decisive finishing pressure during the grip consolidation window rather than allowing extended holding periods that invite escape planning"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player plants free foot firmly on mat beside their hip or on your hip with deliberate driving posture rather than passive defensive pushing",
+      "Bottom player's far hand reaches behind their body to post on the mat, creating a rotational base that differs from standard framing defense",
+      "Bottom player angles their shoulders toward the trapped foot side, turning onto their side in preparation for directional rotation",
+      "Bottom player's hips lift slightly as they load weight onto their posting points before initiating the rolling motion",
+      "Sudden shift from grip fighting or leg extraction defense to whole-body repositioning indicates abandonment of conventional escape in favor of the roll"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive hips forward into the trapped leg and increase rotational finishing pressure to eliminate rolling space",
+        "when_to_use": "When you recognize free leg posting and upper body angling before the roll has initiated—preventive response during the setup phase",
         "targets_outcome": "Estima Lock/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bottom player cannot generate rolling momentum and remains trapped in the Estima Lock with increased submission pressure",
+        "risk": "Over-committing forward pressure without maintaining wide base can be exploited if the bottom player switches to a different escape method"
+      },
+      {
+        "action": "Follow the roll direction and backstep into saddle position during the opponent's rotation",
+        "when_to_use": "When the roll has already begun and cannot be stopped through pressure alone—reactive transition during the rotation phase",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Convert the escape attempt into a deeper leg entanglement with inside heel hook access, making the opponent's position significantly worse than the original Estima Lock",
+        "risk": "Requires technical proficiency with saddle entries—a mistimed backstep can result in losing all leg control and the opponent completing the roll to top"
+      },
+      {
+        "action": "Base out wide with far hand and drive shoulder pressure into the bottom player's turning shoulder to stuff the roll",
+        "when_to_use": "During the initial phase of the roll when rotational momentum is still building and can be stopped with structural resistance",
+        "targets_outcome": "Estima Lock/Bottom",
+        "if_successful": "Roll is stopped in its early phase and bottom player returns to trapped defensive position with Estima Lock still fully applied",
+        "risk": "Removing one hand from the grip to base temporarily weakens the submission hold and may create a window for conventional grip escape"
+      },
+      {
+        "action": "Transition grip to toe hold configuration as the rotation begins, attacking the newly exposed foot angle",
+        "when_to_use": "When the roll creates a grip angle change that makes maintaining the Estima Lock configuration difficult but exposes the toes for alternative attack",
+        "targets_outcome": "Estima Lock/Bottom",
+        "if_successful": "New submission threat halts the roll immediately as the bottom player must address the toe hold defense, resetting the escape to a new defensive crisis",
+        "risk": "Grip transition during dynamic movement may result in losing all foot control if the toe hold grip is not established cleanly"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
-        "how": "TODO"
+        "outcome": "Estima Lock/Bottom",
+        "how": "Prevent the roll entirely by maintaining heavy hip pressure, widening your base when setup cues are detected, and controlling the bottom player's far shoulder to block the rotation. Drive forward finishing pressure when free leg posting is identified to close the escape window."
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "When the roll cannot be prevented, follow the rotation and backstep into saddle position by stepping your free leg over and behind the bottom player's trapped leg during their rotation. This converts their escape attempt into a deeper entanglement with inside heel hook access, punishing the roll attempt."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Ignoring free leg activity and allowing uncontested posting before the roll initiates",
+        "consequence": "Bottom player establishes optimal rolling base with full momentum potential, making the counter roll extremely difficult to stop once initiated",
+        "correction": "Monitor the free leg constantly and address posting attempts immediately by controlling the free leg with your own legs, adjusting hip pressure to limit their mobility, or shifting your weight to prevent the free leg from reaching a stable post"
+      },
+      {
+        "error": "Maintaining narrow base while holding the Estima Lock during suspected roll setup",
+        "consequence": "Counter roll momentum easily disrupts your balance, sending you off your base and allowing the sweep to complete with minimal resistance",
+        "correction": "Widen base immediately when counter roll cues are detected, posting far hand on the mat and lowering center of gravity to absorb rotational forces"
+      },
+      {
+        "error": "Attempting to maintain the exact same Estima Lock grip configuration throughout the opponent's roll",
+        "consequence": "The rotation changes the submission angle, and maintaining a static grip during dynamic movement results in losing all control as the grip becomes mechanically ineffective",
+        "correction": "Be prepared to transition grips based on the evolving angle—switch to toe hold, backstep to saddle, or release and scramble for top position rather than stubbornly maintaining a grip that no longer functions"
+      },
+      {
+        "error": "Applying insufficient finishing pressure during the initial grip consolidation period",
+        "consequence": "Extended holding at moderate pressure gives the bottom player time to assess options, plan the counter roll setup, and position their body optimally for the escape attempt",
+        "correction": "Once grip consolidation is achieved, apply decisive finishing pressure through hip engagement and rotational force—closing the escape window by threatening the tap removes the counter roll opportunity entirely"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that the bottom player is setting up a counter roll rather than a conventional grip fighting escape?",
+        "answer": "The primary differentiating cues are the free leg planting firmly on the mat or your hip with driving intent rather than defensive pushing, the far hand reaching behind the body to create a posting base rather than framing on your body, and the shoulders angling toward the trapped foot side rather than away from it. Conventional escapes focus on grip fighting and leg extraction with minimal body repositioning, while the counter roll requires specific whole-body angle changes and posting points that differ distinctly from standard defensive movements."
+      },
+      {
+        "question": "Your opponent begins the counter roll and you cannot stop the initial rotation—what transition should you execute?",
+        "answer": "Immediately transition to a backstep into saddle position by stepping your free leg over and behind their trapped leg as they rotate. This follows their movement rather than fighting against unstoppable momentum, converting the escape attempt into a deeper leg entanglement with inside heel hook access. The key is recognizing early that the roll cannot be stopped and committing fully to the saddle transition rather than stubbornly maintaining a grip that the rotation is defeating."
+      },
+      {
+        "question": "How does your base need to change when you recognize the counter roll setup compared to your standard Estima Lock finishing posture?",
+        "answer": "Standard finishing posture involves driving hips forward with relatively compact base to maximize rotational pressure on the ankle. When counter roll setup is detected, widen your base immediately by posting your far hand on the mat and shifting your center of gravity lower to absorb rotational forces. Additionally, control the bottom player's far shoulder or hip with your free hand to prevent the angle creation that the roll requires. The wider base sacrifices some finishing pressure but provides the stability needed to resist or redirect the roll."
+      },
+      {
+        "question": "Why is it strategically important to apply decisive finishing pressure rather than holding the Estima Lock at moderate tension?",
+        "answer": "Moderate holding tension creates an extended window where the bottom player can assess their situation, identify the counter roll opportunity, and methodically position their body for the escape. Decisive finishing pressure forces an immediate tap or creates urgency that prevents the deliberate setup the counter roll requires. The counter roll specifically exploits the gap between grip consolidation and submission completion—closing that gap through aggressive finishing removes the technique from the bottom player's available escape options entirely."
+      },
+      {
+        "question": "Your opponent successfully completes the counter roll to half guard top—what immediate positional priorities do you have?",
+        "answer": "Immediately establish defensive frames to prevent them from consolidating top pressure and initiating passing sequences. Fight for the underhook on the side nearest to the previously trapped leg, as this provides the best pathway to guard recovery and sweep opportunities. Use knee shield or butterfly hooks to manage distance and prevent them from flattening you. Address any remaining foot or leg entanglement from the Estima Lock exchange before committing to full half guard bottom defensive protocols."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying counter roll setup cues in real time",
+        "description": "Partner demonstrates the counter roll setup sequence at slow speed while you practice identifying each recognition cue verbally. Call out the setup as soon as you detect free leg posting, upper body angling, and hand posting behind the body. Build pattern recognition speed through repetition at increasing speeds."
+      },
+      {
+        "phase": "Phase 2: Preventive Response Training",
+        "focus": "Stopping the roll before momentum builds",
+        "description": "Partner attempts the counter roll setup at 50% speed while you practice driving hips forward, widening base, and controlling the far shoulder to prevent rotation initiation. Focus on timing your response to the earliest recognition cue rather than waiting for full commitment."
+      },
+      {
+        "phase": "Phase 3: Reactive Transition to Saddle",
+        "focus": "Converting roll attempts into deeper entanglements",
+        "description": "Partner initiates the counter roll at moderate speed while you practice following the roll direction and backsteping into saddle position. Develop the timing and footwork to convert the rolling motion into a saddle entry rather than losing all control. Emphasize smooth transitions over forcing resistance."
+      },
+      {
+        "phase": "Phase 4: Live Positional Application",
+        "focus": "Full-speed defense integration with mixed escape scenarios",
+        "description": "Positional sparring from Estima Lock top where the bottom player uses the counter roll as one option among conventional defenses. Practice reading which escape is being attempted and applying the appropriate defensive response in real time with full resistance and commitment."
       }
     ]
   }

@@ -20,32 +20,32 @@ description: "Dominant back-attack position combining leg entanglement with perp
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Twister",
-      "text": "From this position, attempt Twister. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Twister Entry",
+      "text": "From this position, attempt Twister Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer",
-      "text": "From this position, attempt Calf Slicer. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -210,29 +210,27 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Available Attacks
 
-### [[Twister]] (10% of attempts)
+### [[Twister Entry]] (15% of attempts)
 
-### [[Calf Slicer]] (10% of attempts)
+### [[Calf Slicer]] (12% of attempts)
 
-### [[Roll to Truck]] (6% of attempts)
+### [[Roll to Truck]] (5% of attempts)
 
-### [[Rolling Back Take]] (41% of attempts)
+### [[Rolling Back Take]] (25% of attempts)
 
-### [[Bow and Arrow Choke]] (6% of attempts)
+### [[Bow and Arrow Choke]] (8% of attempts)
 
 ### [[Crab Ride to Back]] (8% of attempts)
 
-### [[Crucifix from Turtle]] (8% of attempts)
+### [[Crucifix from Turtle]] (7% of attempts)
 
-### [[Back Take from Top]] (8% of attempts)
+### [[Back Take from Top]] (12% of attempts)
 
-### [[Transition to Twister Side Control]] (2% of attempts)
+### [[Truck Maintenance]] (3% of attempts)
 
-### [[Truck Maintenance]] (0% of attempts)
+### [[Truck to Back Control]] (2% of attempts)
 
-### [[Truck to Back Control]] (0% of attempts)
-
-### [[Truck to Twister Side Control]] (1% of attempts)
+### [[Truck to Twister Side Control]] (3% of attempts)
 
 
 
@@ -244,11 +242,11 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 **If opponent defends upper body by hiding arms and protecting neck:**
 - Execute **[[Calf Slicer]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Roll to Truck]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Banana Split]]** → [[Game Over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
-- Execute **[[Twister]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Twister Entry]]** → [[Twister Control]] (Probability: 50%)
 - Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 50%)
 
 

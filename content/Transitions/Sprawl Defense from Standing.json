@@ -1,10 +1,15 @@
 {
   "name": "Sprawl Defense from Standing",
-  "description": "TODO: Write 150-160 character SEO description for Sprawl Defense from Standing.",
+  "description": "Master the sprawl defense from standing in BJJ. Complete guide covering takedown defense mechanics, front headlock entries, and counterattacking strategies.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "defense",
+    "standing",
+    "sprawl",
+    "takedown-defense",
+    "front-headlock",
+    "wrestling"
   ],
   "from_position": "Standing Position/Bottom",
   "outcomes": [
@@ -25,114 +30,367 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Sprawl Defense from Standing.",
+  "overview": "The sprawl is the foundational takedown defense in Brazilian Jiu-Jitsu, serving as the primary response when an opponent shoots for a single or double leg takedown. The technique involves rapidly driving your hips backward and downward while posting your hands on the opponent's head and shoulders, creating crushing downward force that kills the forward momentum of their shot and collapses their posture beneath your weight. Proper execution demands explosive hip speed, precise timing, and immediate weight transfer onto the opponent's upper back.\n\nBeyond simple shot defense, the sprawl functions as a critical transition point from defense to offense. A well-timed sprawl immediately places you in position to establish front headlock control, one of the most dangerous offensive positions in modern BJJ. From front headlock, you threaten guillotines, anacondas, darce chokes, and back takes, transforming the opponent's aggressive takedown attempt into a catastrophic positional disadvantage for them.\n\nThe strategic depth of the sprawl extends well beyond reactive defense. Advanced practitioners recognize that the sprawl-to-front-headlock sequence creates one of the highest-percentage submission chains available from standing. The key differentiator between competent and elite sprawl defense lies in the seamless transition from stuffing the shot to immediately attacking with chokes or positional advancement, rather than simply returning to neutral standing. Practitioners who bait takedown attempts specifically to trigger their front headlock offense represent the highest evolution of this technique.",
   "conditions": [
-    "TODO"
+    "Opponent initiates a level change indicating a single or double leg takedown attempt",
+    "You are in a standing position with at least one foot firmly planted on the mat",
+    "You recognize the incoming shot direction and have space behind you to drive hips backward",
+    "Sufficient reaction time exists to initiate hip drop before opponent secures deep penetration on your legs"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Hard Sprawl",
+      "description": "An explosive, full-commitment sprawl where you drive all bodyweight directly onto the opponent's upper back and shoulders, maximizing downward force to immediately flatten their posture. Both legs extend fully behind the body with toes driving into the mat for additional weight transfer. Prioritizes stopping power over immediate positional follow-up.",
+      "when_to_use": "Against powerful opponents with deep penetration who are driving through standard sprawl defense, or when the shot carries significant forward momentum that requires maximum stopping force."
+    },
+    {
+      "variant_name": "Crossface Sprawl",
+      "description": "Combines the hip sprawl with an immediate crossface by driving your forearm across the opponent's jaw line from the near side. This redirects their head angle and breaks their shot alignment while the hip drop kills forward momentum. The crossface naturally guides you toward front headlock on your preferred side.",
+      "when_to_use": "When the opponent maintains strong inside head position during the shot and you need to redirect their angle to deny the takedown finish and establish front headlock control on your dominant side."
+    },
+    {
+      "variant_name": "Whizzer Sprawl",
+      "description": "A modified sprawl incorporating an immediate overhook on the opponent's near arm as the hips drive back. The whizzer prevents the opponent from maintaining their grip on your leg while the sprawl neutralizes forward drive. This variant is particularly effective for transitioning to front headlock or executing a whizzer-kick reversal.",
+      "when_to_use": "Against single leg takedown attempts where the opponent has secured grip on one leg and you need to neutralize their arm control while simultaneously sprawling to stop the shot."
     }
   ],
-  "position_integration": "TODO: Write position integration for Sprawl Defense from Standing.",
+  "position_integration": "The sprawl defense occupies a critical junction in the BJJ standing game, connecting neutral standing exchanges to the powerful front headlock attack system. It serves as the primary defensive gateway against all leg-based takedown attempts while simultaneously opening offensive submission opportunities. Within the broader positional hierarchy, the sprawl transforms the opponent's aggressive action into your advantageous position, making it the cornerstone of standing defense strategy. Practitioners who master the sprawl-to-front-headlock chain effectively neutralize takedown-heavy opponents and create high-percentage submission paths through guillotines, anacondas, darces, and back takes. The sprawl also integrates with the clinch game, as many standing grip exchanges create the conditions where takedown shots occur and sprawl defense becomes necessary.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Standing Position",
+      "relationship": "Origin position from which the sprawl defense is executed during standing exchanges"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Primary success target position established after a successful sprawl stuffs the takedown"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter outcome position when opponent converts failed shot into guard pull during sprawl"
+    },
+    {
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Complementary standing-to-headlock technique that shares the front headlock destination"
+    },
+    {
+      "name": "Double Leg Entry",
+      "relationship": "Primary offensive technique that the sprawl defends against from standing position"
+    },
+    {
+      "name": "Single Leg Entry",
+      "relationship": "Secondary offensive technique that the sprawl defends against from standing position"
+    },
+    {
+      "name": "Anaconda Setup",
+      "relationship": "High-percentage follow-up submission from the front headlock position after successful sprawl"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Related standing engagement position where grip fighting precedes takedown and sprawl exchanges"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common position opponent occupies after their shot is stuffed by the sprawl"
+    },
+    {
+      "name": "Body Lock Takedown",
+      "relationship": "Alternative takedown technique the sprawl can partially defend against from standing"
     }
   ],
   "attacker": {
     "name": "Sprawl Defense from Standing Attacker",
-    "description": "TODO: Write attacker description for Sprawl Defense from Standing.",
-    "overview": "TODO: Write attacker overview for Sprawl Defense from Standing.",
+    "description": "Master the sprawl defense execution in BJJ. Complete guide to stopping takedown attempts with proper hip mechanics, weight distribution, and transitioning to front headlock offense.",
+    "overview": "As the attacker executing the sprawl, your role is to convert your opponent's takedown attempt into a dominant offensive position. The sprawl is not merely a defensive reaction but the opening move in a systematic attack chain. Your immediate goal is to stuff the shot by driving your hips backward and downward, killing the opponent's forward momentum with your bodyweight. The moment the shot dies, you transition seamlessly into front headlock control where guillotines, anacondas, darces, and back takes become available. Elite sprawl execution means your opponent's most aggressive offensive action becomes the trigger for your highest-percentage submissions. The technical precision of your hip drop, the speed of your weight transfer, and the accuracy of your follow-up head control determine whether you merely survive the shot or capitalize on it.",
     "key_principles": [
-      "TODO"
+      "React to the level change, not the grip — early hip movement is more important than waiting to identify the specific takedown type",
+      "Drive hips backward and downward simultaneously, creating a diagonal force vector that both removes your legs from reach and loads weight onto the opponent",
+      "Transfer bodyweight through your chest onto the opponent's upper back and shoulders, using skeletal structure rather than muscular effort for sustainable pressure",
+      "Immediately transition from defensive sprawl to offensive front headlock — every second spent in neutral sprawl position is a wasted opportunity",
+      "Control the opponent's far shoulder or arm with your non-choking hand to prevent rolling escapes and set up arm-in submission threats",
+      "Maintain wide base with sprawled legs to provide stability and prevent the opponent from driving through your sprawl with secondary effort"
     ],
     "setup_requirements": [
-      "TODO"
+      "Athletic standing stance with knees slightly bent and weight on the balls of your feet, enabling explosive hip extension",
+      "Visual and tactile awareness focused on opponent's chest and hips to detect level changes before full shot commitment",
+      "Hands in active position at collar or lapel height, ready to post on opponent's head and shoulders the moment the shot initiates",
+      "Mental readiness to transition immediately from defensive sprawl into offensive front headlock attack system",
+      "Space behind you sufficient to extend legs and drive hips backward without obstruction from walls or mat boundaries"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Recognize the Shot",
+        "description": "As your opponent drops their level and drives forward, identify the takedown attempt based on their level change, hand placement, and angle of entry. Early recognition is critical because every fraction of a second delayed reduces your sprawl effectiveness and increases their penetration depth. React to the level change itself rather than waiting to identify the specific takedown type."
+      },
+      {
+        "step_number": 2,
+        "action": "Drop Your Hips",
+        "description": "Explosively drive your hips backward and downward toward the mat, extending your legs behind your body while keeping your toes in contact with the ground for traction. Your hips must drop below the level of your opponent's shoulders, creating a mechanical impossibility for them to lift or complete the shot. Commit fully to the hip extension without hesitation."
+      },
+      {
+        "step_number": 3,
+        "action": "Post on Head and Shoulders",
+        "description": "Place both hands on the back of your opponent's head and shoulders, driving their face toward the mat while distributing your chest weight across their upper back. This posting action prevents them from maintaining forward drive and begins collapsing their posture beneath your weight. Your hands create initial control while your body position provides the actual stopping force."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive Weight Onto Opponent",
+        "description": "Transfer your full bodyweight through your chest and onto your opponent's upper back, creating crushing downward pressure that flattens their posture and eliminates their ability to continue the takedown. Keep your legs sprawled wide for maximum base stability and weight distribution. Let gravity work for you rather than relying on arm strength to hold them down."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure Head Control",
+        "description": "As the shot is stuffed, transition one arm to wrap around your opponent's head and neck, establishing a chinstrap or overhook grip for front headlock control. Your other hand controls their far shoulder or tricep to prevent them from pulling their head free or circling away. This dual control creates a cage around their upper body that sets up your submission attack system."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Front Headlock Position",
+        "description": "Circle your hips toward your opponent's head side while maintaining chest pressure on their upper back, completing the transition to full front headlock control. Your sprawled legs provide stable base while your arms create the offensive framework needed for submission threats. Ensure your chest maintains constant contact with their back to prevent space creation."
+      },
+      {
+        "step_number": 7,
+        "action": "Begin Offensive Attack Chain",
+        "description": "From established front headlock, immediately begin threatening submissions or positional advancement rather than holding a static position. Assess whether guillotine, anaconda, darce, or back take is most available based on your opponent's defensive posture, arm position, and movement direction. The transition from sprawl to attack should be seamless and continuous."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent powers through the sprawl by driving legs hard and maintaining forward momentum to complete the takedown",
+        "effectiveness": "High",
+        "your_response": "If they maintain significant forward drive, increase downward pressure through your chest while snapping their head down harder. Consider transitioning to a guillotine grip as their neck extends forward during the drive. If they achieve penetration past your hips, switch to whizzer control on their near arm.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent changes angle mid-shot and re-shoots from the side to circumvent the sprawl",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Follow their angle change by pivoting your hips to face their new direction. Maintain hand contact on their head to prevent clean angle creation. If they successfully change angle, re-sprawl in the new direction and look for the front headlock from the adjusted position.",
+        "targets_outcome": "Standing Position/Bottom"
+      },
+      {
+        "counter": "Opponent sits to guard mid-shot to avoid the front headlock and establish a known defensive position",
+        "effectiveness": "Medium",
+        "your_response": "Follow them to the mat immediately and begin guard passing before they can establish grips and hooks. Do not allow them to settle into their guard by driving forward pressure and controlling their legs. Your sprawl momentum should carry you directly into a top passing position.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent uses arm drag from underneath to create angle and escape the sprawl pressure laterally",
+        "effectiveness": "Low",
+        "your_response": "Maintain chest-to-back connection and follow their lateral movement. Keep heavy pressure on their upper back and control their head to prevent them from creating enough space for the arm drag to work. If they do create angle, circle with them and re-establish front headlock from the new position.",
         "targets_outcome": "Standing Position/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Reaching down for the opponent's legs or body instead of sprawling hips",
+        "consequence": "Your center of gravity shifts forward rather than backward, giving the opponent the exact loading position they need to complete the takedown by lifting or driving through",
+        "correction": "Focus exclusively on driving hips backward and downward as the primary movement. Hands post on head and shoulders for control but the hip action is the technique — reaching for legs is a wrestling instinct that sabotages the sprawl"
+      },
+      {
+        "error": "Reacting too late after opponent has achieved deep penetration past your hips",
+        "consequence": "Sprawl becomes ineffective because opponent has already loaded your weight onto their hips and shoulders, making their finish mechanics available regardless of your hip position",
+        "correction": "Train to react at the first sign of level change rather than waiting for the grip. Drill sprawl reactions from visual cues and partner-initiated shots to develop faster recognition and response timing"
+      },
+      {
+        "error": "Sprawling with hips too high and weight on your hands instead of on the opponent",
+        "consequence": "Opponent can still drive forward under you because insufficient weight is loaded onto their back. Arms fatigue quickly from supporting your bodyweight rather than transferring it to the opponent",
+        "correction": "Commit to driving hips all the way down and back so your chest makes heavy contact with their upper back. Your hands guide and frame but your bodyweight does the actual work of stuffing the shot"
+      },
+      {
+        "error": "Returning to standing after stuffing the shot instead of transitioning to front headlock",
+        "consequence": "Wastes the positional advantage created by the successful sprawl. Opponent recovers to standing and the exchange resets to neutral, negating your defensive effort",
+        "correction": "Immediately transition from sprawl to front headlock by wrapping their head and controlling their far shoulder. The sprawl is not complete until you have established offensive control — stuffing the shot is only half the technique"
+      },
+      {
+        "error": "Keeping feet together during the sprawl instead of widening base",
+        "consequence": "Narrow base provides insufficient stability and allows opponent to redirect your weight to one side, circling out from under your pressure or completing a single leg finish",
+        "correction": "Sprawl with legs wide apart, toes driving into the mat, creating a broad triangular base. This wide stance distributes your weight more effectively and prevents the opponent from off-balancing you during the sprawl"
+      },
+      {
+        "error": "Failing to control the far shoulder after establishing head control",
+        "consequence": "Opponent can freely roll away from your head control, escaping to turtle or circling to create distance and recover standing position without submission threat",
+        "correction": "Always secure far shoulder or tricep control with your non-choking hand immediately after wrapping the head. This dual control point creates a cage around their upper body that prevents rotation and sets up submission attacks"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip drop speed and proper body positioning",
+        "description": "Practice sprawl mechanics against the mat without a partner. Focus on explosive hip drive backward and downward, proper hand posting position, and recovering to base. Perform sets of 10-15 sprawls with emphasis on speed, form, and full hip extension. Build the neuromuscular pattern of driving hips back at the first signal."
+      },
+      {
+        "phase": "Phase 2: Partner Drilling",
+        "focus": "Timing and weight transfer onto a resisting body",
+        "description": "Partner shoots controlled single and double legs at 30-50% speed while you practice sprawl timing and proper weight placement. Start with signaled shots where partner announces before shooting, then progress to unsignaled shots. Focus on driving weight onto partner's upper back and transitioning immediately to front headlock control grips."
+      },
+      {
+        "phase": "Phase 3: Situational Sparring",
+        "focus": "Sprawl-to-offense transition chains",
+        "description": "Begin from standing with partner attempting takedowns at 70-80% intensity. Practice the complete sprawl-to-front-headlock-to-submission chain. Vary your offensive follow-up based on partner's defensive reactions after the shot is stuffed. Include guillotine, anaconda, darce, and back take transitions from the front headlock."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Competition-speed application and pattern recognition",
+        "description": "Full-speed standing sparring rounds where you specifically look for sprawl opportunities and track your success rate converting sprawls into front headlock control. Identify patterns in your timing — which shot types you sprawl best against, which angles give you trouble, and how your follow-up attacks perform at full resistance."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the sprawl against a double leg shot?",
+        "answer": "The optimal timing is the moment you recognize the opponent's level change, before they make contact with your legs. Early recognition allows you to drive your hips back preemptively, making their shot hit empty space. If you wait until they have already secured grip on your legs, the sprawl becomes significantly less effective because they have established mechanical advantage through penetration depth. Train to react to the level change itself rather than the grip — the visual cue of dropping hips is your trigger."
+      },
+      {
+        "question": "What physical conditions must exist before you can execute an effective sprawl from standing?",
+        "answer": "You must be in a standing position with at least one foot firmly planted on the mat and your weight distributed through the balls of your feet, enabling explosive hip extension. Your knees should be slightly bent in an athletic stance rather than locked straight, as locked knees prevent the explosive hip drop required for an effective sprawl. You need awareness of the space behind you to extend your legs without obstruction, and your hands must be in an active ready position to post on the opponent's head and shoulders the moment you initiate."
+      },
+      {
+        "question": "What is the most critical hip movement during the sprawl that determines whether the shot is successfully stuffed?",
+        "answer": "The explosive backward and downward drive of the hips is the single most critical movement. Your hips must drop below the level of your opponent's shoulders while simultaneously moving backward to deny their penetration. This creates a mechanical impossibility for the opponent to complete the lift needed for any leg-based takedown. The speed and commitment of this hip drop directly correlates with sprawl success rate — a partial or tentative hip drop allows the opponent to maintain their drive and potentially finish."
+      },
+      {
+        "question": "What is the most common reason sprawl attempts fail at intermediate skill levels?",
+        "answer": "The most common failure is late reaction timing combined with insufficient hip commitment. Intermediate practitioners often recognize the shot but respond with a partial sprawl where the hips do not drop low enough or far enough back, allowing the opponent to maintain forward drive beneath them. This half-sprawl preserves standing posture but fails to generate the downward weight transfer needed to kill the shot. The correction is committing fully to the hip extension at the first sign of the level change rather than hedging with a cautious response."
+      },
+      {
+        "question": "What grip and hand positioning should you establish during and immediately after executing the sprawl?",
+        "answer": "During the sprawl, both hands should post on the opponent's head, neck, and shoulders to drive them down and prevent forward progress. Immediately after stuffing the shot, transition one hand to wrap around their head for chinstrap control while the other hand secures their far shoulder or tricep. This dual grip configuration prevents them from standing up, pulling their head free, or circling away, and directly sets up the front headlock attack system with guillotine, anaconda, and darce threats."
+      },
+      {
+        "question": "In what direction should the primary force be applied during the sprawl to maximize effectiveness?",
+        "answer": "The primary force direction is diagonally downward and backward through your hips, at roughly 45 degrees below horizontal. This combined vector simultaneously removes your legs from the opponent's reach and loads your bodyweight onto their upper back. Your hands apply a secondary downward force straight into the mat through their shoulders. This combined diagonal hip force with vertical hand pressure kills both the opponent's forward momentum and their ability to maintain upright posture for shot completion."
+      },
+      {
+        "question": "Your opponent drives through your initial sprawl and maintains grip on your right leg — how do you respond?",
+        "answer": "Immediately whizzer the arm on the same side as their grip, hooking your arm over theirs to create an overhook that prevents them from completing the single leg. Simultaneously circle your trapped leg backward and away from their head to weaken their grip angle. Drive additional weight through your chest onto their upper back while sprawling the free leg hard behind you. If the whizzer is insufficient, consider transitioning to a guillotine by wrapping their head as they drive forward with their face exposed."
+      },
+      {
+        "question": "Your sprawl successfully stops the shot but the opponent turtles tightly instead of staying extended — what attack chain should you employ from front headlock?",
+        "answer": "Against a tight turtle defense from front headlock, begin with anaconda or darce choke setups by threading your arm around their neck and trapping their near arm. If they defend chokes by keeping elbows tight, work to flatten them toward side control by driving your chest weight forward and stepping your leg over their body. If they attempt to stand, their neck extends and opens for guillotine attacks. If they try to circle away, follow their movement and transition to back control. Each defensive response from the turtle opens a different offensive pathway."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Sprawl Defense from Standing."
+    "safety_considerations": "The sprawl involves rapid hip extension and significant downward force applied to the opponent's cervical spine and upper back. During training, always control the intensity of your sprawl to prevent neck injuries to your partner. Avoid driving full bodyweight directly onto training partners' necks during drilling phases — target the upper back and shoulders instead. On wet or slippery mats, explosive sprawls increase the risk of knee and ankle injuries from uncontrolled sliding. Partners should communicate immediately if neck or spine pressure becomes uncomfortable during positional drilling. When progressing to full-speed sprawl practice, both partners should warm up thoroughly and agree on intensity levels before beginning."
   },
   "defender": {
     "name": "Sprawl Defense from Standing Defender",
-    "description": "TODO: Write defender description for Sprawl Defense from Standing.",
-    "overview": "TODO: Write defender overview for Sprawl Defense from Standing.",
+    "description": "Survive and counter the sprawl defense in BJJ. Learn to recognize sprawl timing, maintain shot integrity under pressure, and recover to standing or guard position.",
+    "overview": "As the defender in the sprawl scenario, you are the person whose takedown attempt is being defended. Your shot has been read and your opponent is driving their weight onto your back to stuff it. Your immediate priorities follow a clear hierarchy: first, protect your neck from submission threats by keeping your chin tucked to your chest; second, maintain your base by keeping your knees under your hips to prevent being completely flattened; and third, work toward recovery by either powering through the sprawl, sitting to guard, or circling to create angle for standing. The worst outcome is being stuck in front headlock where your opponent has access to guillotines, anacondas, darces, and back takes. Understanding the mechanics of the sprawl allows you to recognize when your shot is dead and switch to recovery mode rather than forcing a lost takedown attempt into a worse position.",
     "key_principles": [
-      "TODO"
+      "Protect your neck immediately by tucking your chin to your chest — front headlock submissions require neck extension to finish",
+      "Maintain your base by keeping knees under your hips to prevent complete flattening, which eliminates all recovery options",
+      "Recognize when the shot is dead and switch from offensive drive to defensive recovery without wasting energy on a lost takedown",
+      "Always keep at least one hand fighting the opponent's choking arm at the wrist or elbow to prevent them from securing submission grips",
+      "Escape perpendicular to the opponent's pressure direction rather than pulling straight backward, which plays into their downward force",
+      "Convert failed shots into guard pulls when standing recovery is unavailable, establishing a known position rather than remaining in deteriorating front headlock"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's hips suddenly drop backward and downward as they extend their legs behind them, creating a noticeable shift in their center of gravity away from your shot",
+      "Heavy downward pressure appears on your head, neck, and upper back from opponent's hands posting on your shoulders and driving your face toward the mat",
+      "Your forward momentum stops or reverses as opponent's bodyweight loads onto your upper back, making continued driving feel like pushing against a wall",
+      "Opponent's chest makes contact with your upper back and begins driving you flat, indicating they have committed to the sprawl and are transitioning to front headlock control"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive legs hard and power through the sprawl pressure to maintain forward penetration and recover standing position",
+        "when_to_use": "In the first second of the sprawl before opponent's full bodyweight has settled onto your back and while you still have leg drive available",
         "targets_outcome": "Standing Position/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Return to neutral standing exchange with both practitioners upright and no positional disadvantage",
+        "risk": "If drive fails against fully committed sprawl, you expend significant energy and end up deeper under opponent's weight in worse front headlock position"
+      },
+      {
+        "action": "Sit to guard by releasing your shot grips and pulling opponent into your open guard as the sprawl drives you down",
+        "when_to_use": "When sprawl pressure is too heavy to drive through and the shot is clearly stuffed, before opponent establishes front headlock control grips",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Transition to open guard bottom with established grips and frames, converting a deteriorating position into a structured guard game",
+        "risk": "Opponent may establish front headlock control before you can secure guard grips, leaving you in the worst-case submission position"
+      },
+      {
+        "action": "Circle to the side and change angle to escape sprawl pressure and avoid front headlock establishment",
+        "when_to_use": "When opponent's head control is loose but sprawl pressure prevents standing directly upward, and lateral space is available for movement",
+        "targets_outcome": "Standing Position/Bottom",
+        "if_successful": "Create enough angle to escape the sprawl weight and either stand up or disengage to reset the standing exchange",
+        "risk": "Opponent follows your circular movement and uses your turning motion to take the back or tighten front headlock from a new angle"
+      },
+      {
+        "action": "Duck under opponent's chest pressure and re-shoot from a different angle by posting on the mat and changing levels",
+        "when_to_use": "When opponent commits weight too far forward over your back during the sprawl, creating space underneath their chest for you to change direction",
+        "targets_outcome": "Standing Position/Bottom",
+        "if_successful": "Clear the sprawl pressure completely and re-engage with a fresh shot from a better angle or recover to standing position",
+        "risk": "If mistimed, opponent snaps your head down harder and deepens their front headlock control as you expose your neck during the directional change"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Front Headlock/Top",
-        "how": "TODO"
+        "outcome": "Standing Position/Bottom",
+        "how": "Fight through the sprawl pressure by maintaining leg drive and posting arms to prevent flattening. Circle to create angle and recover upright posture before opponent can establish front headlock grips. The key is acting immediately — every second under sprawl pressure makes recovery harder."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When the shot is definitively stuffed and standing recovery is unavailable, proactively convert the failed takedown into a guard pull by sitting back, establishing sleeve or collar grips, and inserting hooks before the opponent can consolidate front headlock control. This requires recognizing the dead shot early and committing to the transition."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Continuing to drive forward after the sprawl has fully stuffed the shot and forward momentum is gone",
+        "consequence": "Drives your head deeper under the opponent's control, making front headlock establishment easier and submission threats more immediate while wasting energy on a lost cause",
+        "correction": "Recognize when the shot is dead and immediately switch to recovery mode. Either sit to guard, circle to create angle, or work to stand rather than forcing a takedown that is no longer mechanically available"
+      },
+      {
+        "error": "Lifting your head up to look at the opponent while under sprawl pressure",
+        "consequence": "Extends the neck and immediately exposes it to guillotine, anaconda, and darce choke attacks that require neck extension to finish",
+        "correction": "Keep chin tucked tightly to chest throughout the entire recovery sequence. Only lift your head after completely clearing the opponent's arm control and chest pressure from your upper back"
+      },
+      {
+        "error": "Using both hands to push on opponent's body while leaving their choking arm completely uncontrolled",
+        "consequence": "Gives the opponent free access to wrap your head and lock submission grips without any defensive hand fighting to prevent the choke",
+        "correction": "Always maintain at least one hand fighting the opponent's choking arm at the wrist or elbow. Use the other hand for framing or posting, but never abandon the choking arm defense with both hands"
+      },
+      {
+        "error": "Pulling head straight backward out of the opponent's control rather than escaping laterally",
+        "consequence": "Plays directly into the opponent's downward driving force, tightening their control and wasting energy pulling against their strongest pressure direction",
+        "correction": "Escape perpendicular to the opponent's pressure by circling to either side or rolling forward. Moving at right angles to their force makes their weight distribution work against them and creates angles for escape"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?",
+        "answer": "The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles."
+      },
+      {
+        "question": "Your opponent has sprawled and is driving heavy weight onto your upper back — what is your immediate priority?",
+        "answer": "Your immediate priority is maintaining your base by keeping your knees under your hips and preventing your chest from being driven flat to the mat. If you get completely flattened, escape becomes exponentially harder because you lose all leverage and mobility. Secondary priority is controlling their choking arm at the wrist or elbow to prevent them from establishing the front headlock grip that enables submissions. Keep your chin tucked to protect against guillotine attempts throughout."
+      },
+      {
+        "question": "When should you abandon your takedown attempt and sit to guard instead of fighting through the sprawl?",
+        "answer": "Sit to guard when your opponent has fully committed their weight onto your upper back, you have lost all forward penetration depth, and your head is below their chest level with their hands controlling your head. At this point, continuing the shot is a low-percentage gamble that exposes you to front headlock submissions. By sitting to guard proactively, you establish a known defensive position with structured offensive options rather than remaining in a deteriorating situation where the opponent controls all the action and submission threats."
+      },
+      {
+        "question": "How do you prevent your opponent from transitioning to a guillotine choke after they sprawl on your shot?",
+        "answer": "Keep your head on the inside of their body, pressing your ear against their ribs rather than letting your head pop to the outside where the guillotine becomes available. Maintain chin-to-chest contact to prevent them from extending your neck, which is required for guillotine finishing mechanics. Use your near hand to control their wrist or forearm on the side where they are attempting to thread their arm under your chin. If they begin to lock their hands for the guillotine grip, immediately circle toward the choking arm side to relieve the pressure angle."
+      },
+      {
+        "question": "What is the primary directional escape when trapped under a fully established sprawl and you cannot drive through?",
+        "answer": "The primary escape direction is perpendicular to the opponent's pressure, circling to either side rather than trying to drive forward or pull straight backward. Circling creates angle that makes the opponent's weight distribution work against them because they must reposition to maintain effective pressure. Moving perpendicular to their force disrupts their control alignment and creates windows to recover standing or establish guard. Avoid pulling straight backward as this plays directly into their forward driving pressure and keeps you in the worst possible alignment for any escape attempt."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sprawl responses to your shots",
+        "description": "Partner telegraphs sprawl responses to your takedown attempts at reduced speed. Learn to recognize the hip drop, hand posting, and weight shift that signals the sprawl is coming. Develop sensitivity to the defensive response timing so you can adjust your shot before the sprawl fully commits."
+      },
+      {
+        "phase": "Phase 2: Survival Mechanics",
+        "focus": "Maintaining base and protecting neck under sprawl pressure",
+        "description": "Partner applies progressive sprawl pressure while you practice keeping knees under hips, controlling the choking arm, and tucking your chin. Focus on survival positioning before attempting any escapes. Build comfort operating under heavy top pressure without panicking."
+      },
+      {
+        "phase": "Phase 3: Counter Techniques",
+        "focus": "Specific recovery options from the sprawl",
+        "description": "Practice specific responses to the sprawl including angle changes to recover standing, sit-to-guard transitions, and powering through the sprawl with renewed leg drive. Partner provides moderate resistance while you develop reliable counter options for each sprawl variation you encounter."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full-speed shot-and-sprawl exchanges",
+        "description": "Live standing exchanges where you shoot and partner sprawls at full competition speed. Practice reading the sprawl response in real-time and selecting the appropriate counter based on their weight distribution, grip positioning, and commitment level. Track which recovery options work best against different sprawl types."
       }
     ]
   }

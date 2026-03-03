@@ -93,15 +93,15 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Saddle Defense]]** (25% of attempts)
+- **[[Angle Change Escape]]** (25% of attempts)
 
 - **[[Ashi Garami Escape]]** (15% of attempts)
 
 - **[[Inside Ashi Entry]]** (14% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (12% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Guard Recovery]]** (13% of attempts)
+- **[[Guard Recovery from Leg Entanglement]]** (13% of attempts)
 
 - **[[Deep Half Entry]]** (12% of attempts)
 
@@ -241,7 +241,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 - **[[Half Guard]]** - Common recovery position for bottom player after clearing toe hold grip and extracting endangered leg
 
-- **[[X-Guard]]** - Guard variation offering both entry to toe hold attacks and defensive recovery pathway during escapes
+- **[[Ashi Garami]]** - Parent positional category governing entry mechanics and fundamental leg entanglement control principles
 
 - **[[Leg Entanglement]]** - Fundamental positional category encompassing all ashi-based configurations and leg control scenarios
 

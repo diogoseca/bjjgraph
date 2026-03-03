@@ -1,7 +1,7 @@
 {
   "name": "Closed Guard",
   "slug": "closed-guard",
-  "description": "Master closed guard in BJJ. Strategic guide covering both perspectives - bottom player's offensive control and top player's defensive strategy with complete technical analysis.",
+  "description": "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.",
   "variant_uniqueness": "Bottom offensive despite being underneath",
   "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
   "key_principles": [
@@ -10,14 +10,14 @@
     "Position creates strategic imbalance: bottom player offensively advantaged despite being underneath",
     "Grip fighting determines offensive capability for bottom and defensive success for top",
     "Bottom player creates dilemmas where defending one attack opens another pathway",
-    "Top player must systematically progress: posture → grip control → guard opening → passing",
+    "Top player must systematically progress: posture, grip control, guard opening, then passing",
     "Both perspectives require active engagement - passive play favors bottom player's offense"
   ],
   "variations": [
     {
       "name": "Diamond Guard",
       "slug": "diamond-guard",
-      "description": "Closed guard variation with overhook plus head control creating diamond shape for enhanced posture breaking and submission setups"
+      "description": "Overhook plus head control creating diamond shape for enhanced offense"
     }
   ],
   "related_positions": [
@@ -64,21 +64,21 @@
   ],
   "top": {
     "name": "Closed Guard Top",
-    "description": "Master closed guard top position with defensive strategies, guard opening techniques, and systematic passing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+    "description": "Master closed guard top with defensive posture strategies, systematic guard opening techniques, and high-percentage passing. Complete BJJ positional guide.",
     "tags": [
-      "bjj",
-      "guard",
-      "top",
-      "passing",
-      "defensive",
-      "posture",
-      "guard-passing",
-      "guard-opening"
+      "bjj closed guard top position",
+      "guard passing fundamentals",
+      "defensive posture strategy",
+      "guard opening techniques",
+      "closed guard escape methods",
+      "pressure passing setup",
+      "grip fighting defense",
+      "posture maintenance bjj"
     ],
     "overview": "Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's closed guard with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.\n\nSuccess in closed guard top requires understanding that this is fundamentally a defensive position that must be escaped through systematic progression rather than a passing position offering immediate offensive opportunity. Your ability to maintain proper posture prevents your opponent from breaking you down for attacks, while strategic grip fighting denies them the control necessary to execute sweeps and submissions. The position tests your patience, technical precision, and defensive awareness as you navigate constant threats while working toward the guard opening that enables actual passing attempts.\n\nThe closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening - establishing posture, controlling grips, creating space, and opening the guard before attempting passes - separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant position.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive with offensive options",
+      "position_type": "Defensive",
       "risk_level": "Medium",
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
@@ -105,6 +105,36 @@
       "Grip Fighting: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions",
       "Patient Progression: Work methodically toward guard opening without rushing into vulnerable passing attempts that expose you to counters, following systematic progression from posture to grips to opening to passing",
       "Defensive Awareness: Constantly monitor threats including triangle, armbar, omoplata, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks"
+    ],
+    "transitions": [
+      {
+        "transition": "Posture Recovery",
+        "attempt_probability": 33
+      },
+      {
+        "transition": "Guard Opening Sequence",
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Stand Up in Closed Guard",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Ezekiel from Closed Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Knee Slice from Closed Guard",
+        "attempt_probability": 2
+      }
     ],
     "decision_tree": [
       {
@@ -284,10 +314,6 @@
         "relationship": "Defensive posture used during guard opening attempts"
       },
       {
-        "name": "Grip Fighting",
-        "relationship": "Essential skill for controlling opponent's attacking options"
-      },
-      {
         "name": "Stack Pass",
         "relationship": "Common passing option after opening guard"
       },
@@ -296,7 +322,7 @@
         "relationship": "High-percentage pass after guard opening"
       },
       {
-        "name": "Triangle Choke",
+        "name": "Triangle Control",
         "relationship": "Primary submission threat from opponent in this position"
       },
       {
@@ -308,8 +334,12 @@
         "relationship": "Fundamental pass used after guard is opened"
       },
       {
-        "name": "Pressure Passing",
-        "relationship": "Strategic approach applicable after guard opening"
+        "name": "Standing up in Base",
+        "relationship": "Key transition for standing guard break approach"
+      },
+      {
+        "name": "Posture Recovery",
+        "relationship": "Essential defensive transition maintaining top position"
       }
     ],
     "position_metrics": {
@@ -326,96 +356,28 @@
         "description": "Probability of finishing submission from top position"
       },
       "average_time": "1-3 minutes depending on skill level and guard opening strategy"
-    },
-    "transitions": [
-      {
-        "transition": "Guard Opening Sequence",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Stack Pass",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Posture Recovery",
-        "attempt_probability": 41
-      },
-      {
-        "transition": "Can Opener",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Ezekiel from Closed Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Knee Slice from Closed Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Stand Up in Closed Guard",
-        "attempt_probability": 1
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "Your opponent begins pulling your head down with a strong collar grip - what is your immediate response to maintain position?",
-        "answer": "Immediately drive your hips backward while simultaneously pushing your chest forward and up, creating a counter-lever against their pulling force. Place both hands on their biceps or hips to create frames that prevent them from closing distance. Do not fight the pull with neck strength alone - use your entire posterior chain by sitting your weight back while keeping your spine straight. If the grip is too deep, circle your head to the outside while posting on their chest to break the angle of their pull."
-      },
-      {
-        "question": "What are the essential weight distribution points for maintaining closed guard top position without being swept?",
-        "answer": "Weight should be distributed primarily through your knees into the mat with approximately 60-70% of your mass, while the remaining weight stays through your hips and core, never through your hands. Your knees should be spread wider than shoulder-width to create a stable triangular base. Keep your center of gravity low by sitting your hips back slightly while maintaining upright spine. This distribution allows you to absorb lateral sweep attempts by shifting weight toward the threat while keeping hands free for grip fighting rather than posting."
-      },
-      {
-        "question": "Your opponent threatens a hip bump sweep by sitting up explosively - what base adjustment prevents being swept?",
-        "answer": "When feeling the hip bump initiation, immediately post your same-side hand on the mat behind you at a 45-degree angle while driving your opposite hip down and toward them. Simultaneously widen your base by stepping your far knee out. The posted hand creates a tripod that absorbs their forward momentum. Do not lean forward into them as this adds to their leverage. Instead, sit back into your heels while maintaining the post until their momentum dissipates, then immediately return to standard posture and grip fighting."
-      },
-      {
-        "question": "What grip sequence should you prioritize when beginning your guard opening approach?",
-        "answer": "First, establish bilateral control on the opponent's lapels or biceps to prevent them from initiating attacks while you prepare. Second, break any collar grips they have by using two-on-one grip breaks or by circling your head. Third, establish your own opening grips - typically both hands controlling the pants at the knees or one hand on the belt and one on the knee. Only after securing these grips should you begin creating distance for the guard break. Attempting to open without these preparatory grips exposes you to sweeps and submissions during the transition."
-      },
-      {
-        "question": "How do you apply pressure in closed guard top without compromising your posture or exposing your arms?",
-        "answer": "Effective pressure comes from driving your hips forward into their guard while keeping your spine vertical and head up - never lean your upper body forward as this breaks posture and exposes arms to attacks. Pin your elbows tight to your ribs and place forearms on their hips or lower abdomen to create a frame that transfers your hip drive into pressure. Your weight should feel heavy on their lower body while your upper body remains defensively sound. This pressure limits their hip mobility for sweeps while keeping you safe from arm attacks."
-      },
-      {
-        "question": "Your opponent has established deep collar and sleeve grips - what is the systematic approach to neutralizing these grips before they can attack?",
-        "answer": "Address the collar grip first as it controls your posture most directly. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Once freed, immediately control their sleeve to prevent re-gripping. For the sleeve grip, strip it by pulling your elbow sharply back while rotating your forearm. After breaking both grips, immediately establish your own grips on their biceps or lapels to control their arms before they can re-grip. Never allow them to re-establish both grips simultaneously."
-      },
-      {
-        "question": "What indicators tell you the optimal moment to initiate your guard opening sequence?",
-        "answer": "The optimal moment occurs when you have achieved: strong upright posture with head over hips, broken or controlled opponent's primary attacking grips, established your own controlling grips on their legs or hips, and the opponent has momentarily relaxed their leg squeeze or shifted their hips. Additionally, look for when they reach for new grips as this temporarily weakens their guard closure. Avoid initiating when they have strong collar control, when your posture is compromised, or when you feel them loading for a sweep attempt."
-      },
-      {
-        "question": "How do you recover when your posture has been partially broken but you haven't been swept yet?",
-        "answer": "First, tuck your chin to prevent a guillotine and frame one forearm across their chest or collar bone to create space. Walk your hands up their body toward their shoulders while pushing your chest forward and driving your hips back - this creates opposing forces that restore your spine to vertical. Simultaneously widen your knees for base stability during the recovery. Once posture is restored to approximately 70%, immediately strip their grips before they can re-break you. Do not attempt to explosively posture up as this often fails against strong grips and wastes energy."
-      }
-    ]
+    }
   },
   "bottom": {
     "name": "Closed Guard Bottom",
-    "description": "Master closed guard bottom position with comprehensive offensive techniques, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+    "description": "Master closed guard bottom with offensive sweeps, submissions, and guard retention. Complete BJJ guide with combination attacks and systematic strategy.",
     "tags": [
-      "bjj",
-      "guard",
-      "bottom",
-      "closed-guard",
-      "fundamental-position",
-      "offensive-guard",
-      "sweeps",
-      "submissions"
+      "bjj closed guard bottom",
+      "closed guard fundamentals",
+      "offensive guard position",
+      "sweep combinations bjj",
+      "guard submissions attack",
+      "fundamental bjj position",
+      "guard retention defense",
+      "closed guard sweeps"
     ],
     "overview": "Closed Guard Bottom represents the foundational offensive guard position in Brazilian Jiu-Jitsu where you control your opponent from underneath by wrapping your legs around their waist with ankles crossed behind their back. Despite being the bottom player, this position grants you significant control, multiple offensive opportunities, and defensive security against advancement. The closed guard serves as the cornerstone of guard play from white belt through black belt, offering a versatile platform for sweeps, submissions, and transitions while maintaining a defensive barrier that prevents your opponent from advancing position.\n\nThe power of closed guard bottom lies in its dual nature: it simultaneously provides defensive protection while enabling aggressive offense. Your locked legs create a closed kinetic chain controlling your opponent's hips, while your arms control their upper body through strategic grips on collar, sleeves, or wrists. This combination allows you to break their posture, create angles, and threaten multiple attack vectors that force constant defensive reactions. The position works equally well in gi and no-gi competition, self-defense scenarios, and mixed martial arts applications, making it one of the most universally applicable positions in grappling.\n\nMaster practitioners understand that closed guard is not a passive holding position but an active offensive platform. Success requires constant hip movement to create angles, aggressive posture breaking to prevent defensive frames, and systematic combination attacks that create dilemmas where defending one technique opens another. The position rewards technical precision, timing, and strategic planning, allowing smaller practitioners to control and submit larger opponents through superior leverage and technique. Your ability to threaten sweeps and submissions simultaneously while maintaining defensive security makes closed guard bottom one of the most strategically advantageous positions available to the bottom player in BJJ.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive with offensive options",
+      "position_type": "Offensive",
       "risk_level": "Medium",
       "energy_cost": "Medium",
-      "time_sustainability": "Medium to Long"
+      "time_sustainability": "Long"
     },
     "state_invariants": [
       "Your legs wrap completely around opponent's waist with ankles crossed behind their back, creating locked circuit that restricts hip movement and prevents disengagement. Heels pull into lower back to break posture while knees squeeze ribs to restrict breathing and movement.",
@@ -437,6 +399,92 @@
       "Threaten multiple attack vectors simultaneously creating dilemmas where defending one attack necessarily opens another offensive pathway",
       "Manage defensive frames with arms to prevent opponent from establishing heavy pressure while maintaining offensive grips that enable attacks",
       "Use active legs to pull opponent forward with heels while squeezing knees together to restrict hip movement and breathing, creating cumulative fatigue"
+    ],
+    "transitions": [
+      {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 33
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Scissor Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Pendulum Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Guillotine Setup",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Flower Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Kimura to Back Take",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Elevator Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Overhook Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Omoplata Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Lumberjack Sweep",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Hip Bump Sweep V2",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Muscle Sweep",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Closed Guard to Overhook Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "High Guard to Rubber Guard",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Transition to Diamond Guard",
+        "attempt_probability": 1
+      }
     ],
     "decision_tree": [
       {
@@ -634,126 +682,6 @@
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
-    },
-    "transitions": [
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": 67
-      },
-      {
-        "transition": "Scissor Sweep",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Pendulum Sweep",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Flower Sweep",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Kimura to Back Take",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Omoplata Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Omoplata to Back",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Elevator Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Overhook Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Kimura Sweep",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Muscle Sweep",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Transition to Overhook Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Lumberjack Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Armbar from Guard",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Closed Guard to Overhook Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "High Guard to Rubber Guard",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Hip Bump Sweep V2",
-        "attempt_probability": 1
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "Your opponent begins standing up to break your guard - what immediate adjustments maintain your offensive position?",
-        "answer": "As they begin standing, immediately grab both sleeves or wrists to control their arms and prevent them from establishing grips on your legs. Uncross your ankles and transition to feet on hips, maintaining hip connection while your legs adapt to their new elevation. Keep your hips elevated and connected to theirs throughout their stand-up. From here, you can attack with pendulum sweeps, lumberjack sweeps, or transition to open guard systems like collar-sleeve or De La Riva while maintaining offensive initiative."
-      },
-      {
-        "question": "What are the critical grip combinations that enable your primary sweep attacks from closed guard?",
-        "answer": "For hip bump sweep: same-side wrist control with opposite collar grip to prevent posting and control posture. For scissor sweep: cross-collar grip deep in the lapel combined with same-side sleeve grip at the wrist to control the arm and facilitate the cutting motion. For pendulum sweep: collar grip with underhook on the same side, or sleeve control combined with pants grip at the knee. Each grip combination creates specific leverage advantages that make the corresponding sweep mechanically possible."
-      },
-      {
-        "question": "Your opponent establishes strong posture with both hands on your hips - how do you break this defensive structure?",
-        "answer": "First, attack their grip by swimming your hands inside their arms and pushing outward to strip their hip grips. Simultaneously, pull them forward with your heels driving into their lower back. If their arms are too strong, grab their elbows and pull them toward your chest while crunching your core to curl them forward. Another option is to shoot your hips out to an angle, which changes the leverage dynamics and makes their straight-arm frame ineffective. Once any space is created, immediately secure collar or sleeve grips before they can re-establish posture."
-      },
-      {
-        "question": "How do you create the dilemma between hip bump sweep and triangle attack that forces your opponent into a losing choice?",
-        "answer": "Establish wrist control on their right arm and break their posture with collar grip. When you sit up for the hip bump, they must post their free left hand to prevent being swept. This posting action creates space and angles their shoulder forward. Immediately transition by shooting your right leg high across their back while pivoting your hips, threading your left leg in front of their left arm. Their posting arm is now inside your triangle. The key is the timing - the hip bump must be committed enough to force a real post, which then opens the triangle entry."
-      },
-      {
-        "question": "Your opponent's posture is broken but they are defending by keeping elbows tight and head low - what attacks become available?",
-        "answer": "With broken posture and tight elbows, overhook attacks become primary. Secure a deep overhook and pull them forward to load your hips for omoplata or gogoplata attempts. You can also attack with cross chokes since their collar is accessible and they cannot posture to defend. The tight elbow defense also exposes the armpit for arm drag to back take attempts. Hip bump sweep remains available since their defensive posture has weight forward. Chain between these options based on their specific arm positioning and reactions."
-      },
-      {
-        "question": "What adjustments do you make when your opponent is significantly heavier and harder to sweep?",
-        "answer": "Against heavier opponents, focus on angle creation rather than direct confrontation of their weight. Hip escape more aggressively to create 45-degree angles before attempting sweeps, as this reduces the weight you must move. Use their weight against them by timing sweeps to when they commit forward - the hip bump works when they drive into you. Submission attacks become relatively higher percentage as you can use their weight to help break their posture. Also consider transitioning to open guard systems where their weight becomes less advantageous, such as collar-sleeve or spider guard where you can use your legs as primary frames."
-      },
-      {
-        "question": "How do you recover closed guard when your opponent has begun opening it but hasn't fully passed?",
-        "answer": "The moment you feel your ankles being pried apart, immediately transition to active open guard retention rather than fighting to re-lock. Get feet on their hips to create distance, establish sleeve or collar grips, and begin working your preferred open guard game. If their guard break is partial and you have one leg free, transition to half guard by triangling that leg around theirs, which is a stable recovery position. The key is recognizing the moment when re-closing becomes lower percentage than transitioning, and acting decisively rather than expending energy on a losing battle to maintain closed guard."
-      },
-      {
-        "question": "What is the optimal heel and ankle position for maintaining control while conserving energy in long closed guard exchanges?",
-        "answer": "Cross your ankles at the small of their back, just above the hips, with your heels actively pulling into their spine rather than just resting crossed. The pull should come from your hamstrings, not just ankle lock tension. Point your toes slightly downward to engage the calves and create a complete posterior chain engagement. Squeeze with your knees into their ribs intermittently rather than constantly to conserve energy while maintaining offensive pressure. This position provides maximum control with sustainable muscular engagement - constant maximum squeeze will fatigue your legs and reduce guard effectiveness over time."
-      }
-    ]
+    }
   }
 }

@@ -200,11 +200,7 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 
 - [[Closed Guard]] - Common starting position - where posture is frequently broken and recovery is needed
 
-- [[Guard Recovery]] - Counter technique - what opponent attempts when you successfully recover posture
-
-- [[Frame Creation]] - Fundamental principle - essential for creating the space needed to recover
-
-- [[Defensive Posture]] - Related concept - maintaining proper posture to avoid breaks
+- [[Guard Recovery from Combat Base]] - Counter technique - what opponent attempts when you successfully recover posture
 
 - [[Armbar from Guard]] - Common threat - submission often attempted when posture is broken
 
@@ -219,6 +215,10 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 - [[Guard Opening Sequence]] - Follow-up technique - the next step after recovering posture in closed guard
 
 - [[Posture Recovery to Closed Guard]] - Related transition - returning to stable closed guard top after recovery
+
+- [[Hip Bump Sweep]] - Counter threat - common sweep exploiting backward weight shift during recovery
+
+- [[Combat Base to Headquarters]] - Follow-up transition - progressing from recovered posture into deeper passing position
 
 
 </section>

@@ -1,150 +1,440 @@
 {
   "name": "Standing RNC",
-  "description": "TODO: Write 150-160 character SEO description for Standing RNC.",
+  "description": "Master the Standing RNC in BJJ. Complete guide to finishing the rear naked choke from standing back control with grip mechanics, safety protocols, and escape strategies.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "choke",
+    "standing",
+    "rear-naked-choke",
+    "back-control",
+    "no-gi"
   ],
   "submission_category": "Choke",
-  "submission_type": "Choke",
+  "submission_type": "Blood Choke",
   "target_area": "Neck",
   "starting_position": "Standing Back Control",
   "from_position": "Standing Back Control/Top",
-  "from_positions": ["Standing Position", "Standing Rear Clinch", "Clinch"],
+  "from_positions": [
+    "Standing Back Control",
+    "Standing Rear Clinch"
+  ],
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Standing Back Control/Top",
-      "probability": 45,
+      "probability": 25,
       "result": "failure"
+    },
+    {
+      "to": "Standing Position",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
+      "to": "Clinch",
+      "probability": 10,
+      "result": "counter"
     }
   ],
   "success_rate": 50,
-  "overview": "TODO: Write overview for Standing RNC.",
+  "overview": "The Standing Rear Naked Choke represents one of the highest-percentage finishing sequences available from standing back control. Unlike its ground-based counterpart where gravity assists the attacker by keeping the defender pinned, the standing variant demands precise weight management and body mechanics to maintain both positional control and finishing pressure simultaneously. The attacker must solve the dual problem of preventing the opponent from peeling away or dropping to the ground while threading the choking arm past chin and hand defenses into proper finishing position.\n\nStrategically, the Standing RNC creates an immediate fight-ending threat that forces the defender into reactive hand fighting, which opens opportunities for the attacker to transition to ground-based back control or alternative choke entries if the standing finish stalls. The position demands excellent seatbelt maintenance, hip-to-hip connection, and the ability to follow the defender's movement while progressively advancing the choking arm. Standing finishes occur most frequently when the attacker secures the choke before the defender can sit or drop to turtle, making speed of setup the critical success factor.\n\nThe technique integrates wrestling clinch control with BJJ submission mechanics, making it equally relevant in no-gi grappling, MMA, and self-defense contexts. Practitioners who develop proficiency with the Standing RNC gain a powerful weapon that punishes opponents who concede back exposure during standing exchanges, failed takedown defense, or scramble situations where back control is established before grounding occurs.",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
+        "injury": "Carotid artery compression causing loss of consciousness within 4-10 seconds of full application",
+        "severity": "CRITICAL",
+        "recovery_time": "Seconds to minutes if released immediately; permanent brain damage possible if held beyond 20 seconds after unconsciousness"
+      },
+      {
+        "injury": "Tracheal damage from improper forearm placement crushing the windpipe instead of compressing the carotid arteries",
+        "severity": "High",
+        "recovery_time": "2-6 weeks for bruising; months for cartilage damage; surgical intervention may be required for severe cases"
+      },
+      {
+        "injury": "Cervical spine strain or injury from opponent thrashing, dropping weight suddenly, or falling awkwardly while choke is applied standing",
+        "severity": "High",
+        "recovery_time": "2-8 weeks for muscle strain; months for disc or ligament injury"
       }
     ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "application_speed": "SLOW and progressive. Apply steady increasing pressure over 3-5 seconds. Never jerk, spike, or crank the choke. The standing position adds fall risk, requiring even more controlled application than ground-based RNC.",
     "tap_signals": [
       "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
+      "Physical hand tap on partner, your arm, or mat",
+      "Physical foot tap or stomping on the mat",
+      "Any unusual vocalization, gurgling, or distress sound indicating compromised airway"
     ],
     "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
+      "Release immediately upon any tap signal without hesitation",
+      "If opponent goes limp or stops resisting suddenly, release immediately and check consciousness",
+      "If in doubt about whether a tap occurred, release and re-establish position rather than risk injury",
+      "Lower opponent safely to the ground if they lose consciousness; never drop an unconscious person"
     ],
     "training_restrictions": [
-      "TODO"
+      "Never apply full pressure standing RNC in drilling; use controlled progressive pressure and rely on partner's tap",
+      "Beginners should learn RNC mechanics from seated back control before attempting standing variations",
+      "Always train with a partner who understands tap protocol; never drill chokes with first-day students unsupervised"
     ]
   },
+  "related_submissions": [
+    "RNC from Seat Belt",
+    "Standing Guillotine from Clinch",
+    "Bow and Arrow from Seat Belt",
+    "Body Triangle RNC",
+    "Rear Triangle Choke",
+    "Russian Cowboy RNC"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Standing Back Control",
+      "relationship": "Primary starting position from which the Standing RNC is executed"
+    },
+    {
+      "name": "Standing Rear Clinch",
+      "relationship": "Common entry position that precedes establishing back control for the RNC"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Ground-based equivalent position where the standard RNC is applied"
+    },
+    {
+      "name": "RNC from Seat Belt",
+      "relationship": "Ground-based RNC variation sharing identical choking mechanics"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Primary grip configuration used to control opponent before threading the choke"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Neutral standing state that results from successful defensive escape"
+    },
+    {
+      "name": "Clinch",
+      "relationship": "Position reached when defender turns into attacker during escape attempt"
     }
   ],
   "attacker": {
     "name": "Standing RNC Attacker",
-    "description": "TODO: Write attacker description for Standing RNC.",
-    "overview": "TODO: Write attacker overview for Standing RNC.",
+    "description": "Complete guide to executing the Standing Rear Naked Choke from standing back control. Step-by-step finishing mechanics, grip transitions, and counters to common defenses.",
+    "overview": "Executing the Standing RNC requires mastery of the hand-fighting battle that precedes the choke itself. The attacker must maintain constant chest-to-back pressure while systematically advancing the choking arm past the defender's chin and grip defenses. Success depends on controlling the opponent's posture and preventing them from dropping their weight or turning to face you. The critical mechanical detail is precise blade-of-forearm placement against the carotid arteries rather than crushing the windpipe, combined with a figure-four lock behind the head that creates bilateral compression. From standing, the attacker must also manage the additional challenge of gravity working against control, making hip connection and weight distribution essential components of the finishing sequence.",
     "key_principles": [
-      "TODO"
+      "Maintain constant chest-to-back pressure with hips driving forward to eliminate space the defender needs to escape or turn",
+      "Control the choking arm side by keeping your elbow tight and threading incrementally rather than reaching around in one motion",
+      "Use your non-choking hand to strip the defender's grip fighting before advancing the choke, never fight two battles simultaneously",
+      "Keep your head tight against the defender's head or shoulder to prevent them from creating space by turning their head",
+      "Position the blade of your forearm across the carotid arteries, not the windpipe, to create efficient blood choke pressure",
+      "Follow the defender's movement with your feet rather than trying to hold them stationary, maintaining connection through hip pressure"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established chest-to-back connection with seatbelt grip or equivalent upper body control from standing back control position",
+      "Hip-to-hip proximity maintained with forward driving pressure preventing the defender from creating separation distance",
+      "Head positioned tight against the defender's head or neck, preventing them from turning or creating space on the choking side",
+      "Non-choking arm controlling the defender's hand-fighting arm or securing an underhook to limit their defensive options",
+      "Feet positioned in mobile base on the balls of feet, ready to follow any directional movement the defender initiates"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate seatbelt control",
+        "description": "From standing back control, secure a tight seatbelt grip with your choking arm over the defender's shoulder and your other arm under their armpit. Lock your hands together on their chest, drive your hips forward, and press your head tight against theirs to eliminate any space between your bodies.",
+        "timing": "2-3 seconds to establish solid connection"
+      },
+      {
+        "step_number": 2,
+        "action": "Neutralize hand fighting",
+        "description": "Use your underhook arm to control the defender's primary grip-fighting hand by pinning their wrist to their chest or trapping it against your body. This removes their ability to two-on-one your choking arm and creates the opening needed to begin advancing toward the neck.",
+        "timing": "3-5 seconds of active hand fighting"
+      },
+      {
+        "step_number": 3,
+        "action": "Begin choking arm advancement",
+        "description": "With the defender's hand fighting neutralized, begin sliding your over-shoulder arm from the chest toward the chin line. Move incrementally by walking your hand along their collarbone and up the side of their neck, keeping your elbow tight to their body to prevent them from catching your arm in a defensive frame.",
+        "timing": "2-4 seconds of progressive advancement"
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the chin defense",
+        "description": "The defender will tuck their chin to block your forearm. Use your free hand to gently redirect their chin upward or to the side by cupping under their jaw, or thread your choking hand along the jawline where the gap between chin and chest is widest. Never force past the chin with a violent jerk; instead use patient wedging pressure.",
+        "timing": "3-6 seconds depending on defender's chin tuck"
+      },
+      {
+        "step_number": 5,
+        "action": "Seat the choking arm under the chin",
+        "description": "Once your forearm clears the chin, slide it deep under the jaw until the crook of your elbow is centered directly under the defender's chin and the blade of your forearm presses against one carotid artery while your bicep compresses the other side. Your forearm should be across the throat at the level of the Adam's apple, not on the windpipe.",
+        "timing": "1-2 seconds to position correctly"
+      },
+      {
+        "step_number": 6,
+        "action": "Lock the figure-four grip",
+        "description": "Place the hand of your choking arm on the bicep of your free arm, then bring your free hand behind the defender's head, pressing their head forward into the choke. This figure-four configuration creates a closed mechanical system where squeezing your arms compresses both carotid arteries simultaneously through bilateral pressure.",
+        "timing": "1-2 seconds to secure the lock"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply finishing squeeze",
+        "description": "Expand your chest while squeezing your elbows together and pulling your locking hand forward against the back of their head. The squeeze should be steady and progressive, not explosive. Drive your hips forward simultaneously to prevent them from dropping their weight or creating any escape angle during the finishing pressure.",
+        "timing": "3-5 seconds of progressive pressure until tap"
+      },
+      {
+        "step_number": 8,
+        "action": "Control the descent",
+        "description": "If the defender begins to drop their weight during the squeeze, follow them to the ground by sitting to your hip on the seatbelt side while hooking your legs around their waist. Transition seamlessly to ground-based back control with hooks in, maintaining the choke throughout the descent without releasing any pressure or grip configuration.",
+        "timing": "Immediate response to any weight drop"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Chin tuck with both hands pulling down on the choking arm to prevent it from sliding under the jaw",
+        "effectiveness": "High",
+        "your_response": "Use your free hand to pry the chin upward or wedge your forearm along the jawline where the gap is widest. If the chin tuck is extremely tight, switch to a short choke variation where you squeeze across the jaw, which creates enough discomfort to force them to open up.",
+        "targets_outcome": "Standing Back Control/Top"
+      },
+      {
+        "counter": "Two-on-one grip strip where the defender uses both hands to peel the choking arm away from the neck",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Immediately re-engage by switching your attack angle. Release the stripped arm and re-establish seatbelt, then attack from the opposite side or use the momentary distraction to advance deeper before they can reset their defense.",
+        "targets_outcome": "Standing Position"
+      },
+      {
+        "counter": "Shoulder shrug and aggressive turning toward the choking arm side to face the attacker",
+        "effectiveness": "Medium",
+        "your_response": "Follow their rotation by circling your feet in the same direction to maintain your position behind them. If they gain significant angle, switch to a snap down or transition to a body lock to maintain control before re-establishing the choke threat.",
+        "targets_outcome": "Clinch"
+      },
+      {
+        "counter": "Dropping weight suddenly to knees or sitting down to change the engagement level",
+        "effectiveness": "Low",
+        "your_response": "Follow the descent immediately by hooking your legs around their waist as they drop. This converts to a ground-based back control position where your choking mechanics actually improve due to gravity and the ability to use hooks for control.",
         "targets_outcome": "Standing Back Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Reaching around the neck in one large motion instead of incrementally advancing the choking arm",
+        "consequence": "The defender easily catches the overextended arm with both hands and strips the grip, resetting the entire sequence and potentially creating enough space to escape back control entirely",
+        "correction": "Advance the choking arm in small increments by walking your hand along the collarbone and jawline, keeping your elbow tight to their body throughout the progression"
+      },
+      {
+        "error": "Placing the forearm across the windpipe instead of against the carotid arteries on the sides of the neck",
+        "consequence": "Creates an air choke that is painful but slow, gives the defender more time to escape, and poses significantly higher risk of tracheal injury that can cause serious medical complications",
+        "correction": "Position the blade of your forearm against one carotid artery and your bicep against the other, with the crook of your elbow centered under the chin for proper blood choke mechanics"
+      },
+      {
+        "error": "Allowing hips to separate from the defender's hips while focusing exclusively on the choking arm",
+        "consequence": "Creates space the defender uses to turn, drop weight, or execute a hip escape to face you, nullifying the back control position that makes the choke possible",
+        "correction": "Maintain constant hip-to-hip pressure by driving your hips forward throughout the entire choking sequence, using your lower body as the anchor while your upper body works the finish"
+      },
+      {
+        "error": "Squeezing the choke before the figure-four lock is fully secured behind the head",
+        "consequence": "Incomplete mechanical closure allows the defender to peel the arm away under pressure, wastes significant energy on an ineffective squeeze, and alerts the defender to escape before the real threat is established",
+        "correction": "Only begin squeezing after your locking hand is firmly behind the head and pressing it forward into the choke. Patient setup produces fast finishes; premature squeezing wastes the opportunity"
+      },
+      {
+        "error": "Standing flat-footed or on heels while applying the choke instead of staying on the balls of the feet",
+        "consequence": "Reduces ability to follow the defender's movement, compromises balance if they change direction, and creates a static position that the defender can exploit by dropping or spinning",
+        "correction": "Stay on the balls of both feet with knees slightly bent, ready to follow any directional change. Your feet must mirror the defender's movement throughout the finishing sequence"
+      },
+      {
+        "error": "Neglecting head position by allowing your head to drift away from the defender's head during the choke",
+        "consequence": "Creates space on the choking side that the defender uses to turn their head and tuck their chin more effectively, and removes the structural pressure that prevents them from creating escape angles",
+        "correction": "Keep your head glued to the defender's head throughout the entire sequence, pressing your temple against their temple or ear. Your head acts as a wall that prevents them from turning toward the choke side"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Figure-four grip mechanics and forearm placement",
+        "description": "Practice the RNC grip configuration in isolation. Partner stands still and allows you to slowly thread the choking arm, position the forearm correctly against the carotids, and lock the figure-four. Focus on blade-of-forearm placement, elbow centering under the chin, and hand-on-bicep lock. No resistance, purely mechanical repetition."
+      },
+      {
+        "phase": "Phase 2: Hand Fighting Integration",
+        "focus": "Overcoming chin tuck and grip stripping defenses",
+        "description": "Partner provides moderate hand fighting defense including chin tucks, two-on-one grip strips, and arm frames. Practice the incremental arm advancement, chin clearing techniques, and re-engagement after grip breaks. Develop the patience to advance progressively rather than forcing the choke."
+      },
+      {
+        "phase": "Phase 3: Standing Movement",
+        "focus": "Maintaining connection during movement and directional changes",
+        "description": "Partner moves dynamically, circling, changing direction, and attempting to create separation while you maintain chest-to-back pressure and work the choke. Develop the footwork to follow movement while simultaneously advancing the choking arm. Includes practicing the transition to ground if the defender drops weight."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance finishing from standing back control",
+        "description": "Start from established standing back control with seatbelt and apply the Standing RNC against full defensive resistance. Partner uses all available defenses including hand fighting, chin tucks, turning attempts, and weight drops. Train recognizing when to commit to the standing finish versus transitioning to ground back control for a more secure finishing position."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structures does the Standing RNC target, and why is forearm placement critical to both effectiveness and safety?",
+        "answer": "The Standing RNC targets the carotid arteries on both sides of the neck, which supply blood to the brain. The blade of the forearm compresses one carotid while the bicep compresses the other, creating bilateral blood flow restriction that causes unconsciousness within 4-10 seconds. Forearm placement is critical because positioning the forearm across the windpipe instead of the carotids creates an air choke that is slower, less effective, and carries significantly higher risk of tracheal damage including crushed cartilage and airway compromise.",
+        "safety_critical": true
+      },
+      {
+        "question": "What are the key indicators that tell you the choke is properly positioned and the opponent is about to tap or lose consciousness?",
+        "answer": "Key indicators include the defender's hand fighting becoming weaker and less coordinated as blood flow decreases, their body beginning to sag or lean rather than actively resisting, and their grip strength on your arms diminishing noticeably. The defender may also begin making gurgling sounds or their breathing becomes labored. You should be applying steady progressive pressure and monitoring these signs. If the defender goes completely limp, release immediately as this indicates loss of consciousness rather than a tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent has a strong chin tuck and both hands pulling your choking arm downward - what adjustment prevents the escape?",
+        "answer": "Rather than fighting directly against their two-on-one grip, use your free hand to address the chin first by cupping under their jaw and gently redirecting it upward or to the side. Alternatively, wedge your choking forearm along the jawline where the gap between chin and chest is widest, using patient lateral pressure rather than forcing straight through. If neither works, switch to a short choke variation by squeezing across the jawline, which creates enough pain and discomfort that the defender must adjust their chin position, opening the path to slide underneath."
+      },
+      {
+        "question": "What must be established before you begin advancing the choking arm, and why does sequence matter?",
+        "answer": "Before advancing the choke, you must have secure chest-to-back connection with forward hip pressure, your non-choking arm controlling the defender's primary grip-fighting hand, and your head positioned tight against theirs. Sequence matters because attempting the choke without these prerequisites allows the defender to use their freed hands to strip your arm, create space by separating hips, or turn to face you. Each element removes one of the defender's escape tools, and the choking arm should be the last piece you advance once all defensive options have been systematically neutralized."
+      },
+      {
+        "question": "How do you maintain control if the defender suddenly drops their weight to their knees during the standing choke attempt?",
+        "answer": "Follow the descent immediately by hooking your legs around their waist as they drop, sitting to your hip on the seatbelt side. This converts to ground-based back control with hooks, which is actually a stronger finishing position because gravity now assists your control and the defender cannot use standing escapes. The key is not resisting their descent but flowing with it, maintaining your grip configuration throughout the transition. Never try to hold them upright against their weight drop, as this creates dangerous falling scenarios and wastes energy fighting gravity."
+      },
+      {
+        "question": "Why is incremental arm advancement superior to reaching around the neck in one motion?",
+        "answer": "Reaching around in one motion overextends your arm away from your body, making it easy for the defender to catch the exposed limb with both hands and strip it before it reaches the neck. Incremental advancement keeps your elbow tight to their body throughout, giving the defender minimal surface area to grip and strip. Each small advancement is defended individually rather than giving them your entire arm to fight. Additionally, incremental movement maintains your chest-to-back pressure throughout, whereas a large reaching motion requires you to shift your weight and often creates the hip separation that enables escape."
+      },
+      {
+        "question": "What specific grip adjustment converts your seatbelt control into a finishing figure-four, and what is the correct hand placement?",
+        "answer": "From seatbelt control, the choking arm slides from the over-shoulder position up the neck until the forearm is seated under the chin with the crook of the elbow centered beneath it. The hand of the choking arm then grips the bicep of your free arm, creating the first half of the figure-four. Your free hand then comes behind the defender's head, palm pressing their skull forward into the choke. This closed loop creates bilateral carotid compression when you squeeze your elbows together while expanding your chest and pressing the head forward."
+      },
+      {
+        "question": "In competition, when should you commit to finishing the Standing RNC versus transitioning to ground-based back control?",
+        "answer": "Commit to the standing finish when you have already cleared the chin and seated the forearm before the defender can drop weight. The standing finish is faster when the choke is deep because the defender has fewer defensive tools standing than on the ground. Transition to ground if the defender's chin defense is strong and sustained, if they begin dropping weight before you seat the forearm, or if you need more control to work through their hand fighting. Ground back control gives you hooks, gravity assistance, and more time to work, so it is the safer option when the standing finish is contested."
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Standing RNC."
+    ]
   },
   "defender": {
     "name": "Standing RNC Defender",
-    "description": "TODO: Write defender description for Standing RNC.",
-    "overview": "TODO: Write defender overview for Standing RNC.",
+    "description": "Complete defensive guide against the Standing Rear Naked Choke. Recognition cues, hand fighting defense, escape sequences, and survival strategies when caught in standing back control.",
+    "overview": "Defending the Standing RNC demands immediate recognition of the threat and disciplined hand fighting to prevent the choking arm from sliding under the chin. The defender must prioritize chin protection while actively working to strip grips, create separation, or turn into the attacker. Every second of delay allows the attacker to deepen their grip and tighten the choke, making early intervention the single most important defensive principle. Unlike defending from ground back control where the defender can use the mat for leverage and framing, standing defense requires the defender to manage balance, grip fighting, and escape movement simultaneously without any surface to brace against. The defender must make a critical decision between stripping the choke attempt and resetting to a neutral standing exchange, or turning into the attacker to establish a clinch position that eliminates the back exposure entirely.",
     "key_principles": [
-      "TODO"
+      "Protect your neck immediately by tucking your chin tightly to your chest the moment you feel the opponent's arm moving toward your throat",
+      "Use two-on-one grip control to fight the choking arm, grabbing the opponent's wrist and forearm with both hands to prevent advancement toward the neck",
+      "Create separation by driving your hips away from the attacker while maintaining grip control on their choking arm",
+      "Turn toward the attacker's choking arm side to eliminate the angle they need to apply the choke and work toward facing them",
+      "Stay calm and breathe through your nose even under pressure; panic accelerates energy depletion and reduces defensive effectiveness",
+      "If the choke is seated under the chin, prioritize grip stripping and chin positioning over escape attempts, as moving without addressing the choke only tightens it"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker's over-shoulder arm begins sliding from the chest toward the collarbone and neck, indicating the transition from seatbelt control to choke setup",
+      "Attacker's free hand moves to control your wrist or pin your hand to your chest, neutralizing your primary grip-fighting tool before advancing the choke",
+      "Increased forward pressure from the attacker's hips and chest combined with their head pressing tighter against yours, indicating commitment to the finishing sequence",
+      "Attacker's elbow on the choking side tightens against your body and begins walking upward along your neck rather than staying at chest level"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Two-on-one grip strip on the choking arm while tucking chin",
+        "when_to_use": "Immediately upon recognizing the choking arm advancing from seatbelt position toward the neck, before the forearm clears the chin",
         "targets_outcome": "Standing Back Control/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Resets the choke attempt and forces the attacker to re-establish their seatbelt before trying again, buying time for further escape",
+        "risk": "Low risk; grip stripping is the fundamental first-line defense with minimal exposure to counter-attacks"
+      },
+      {
+        "action": "Aggressive turn toward choking arm side to face attacker",
+        "when_to_use": "When grip stripping alone is insufficient and the attacker continues advancing despite your hand fighting",
+        "targets_outcome": "Clinch",
+        "if_successful": "Eliminates back exposure entirely and establishes a neutral clinch position where the RNC is no longer a threat",
+        "risk": "Medium risk; turning exposes you briefly to the choke if the attacker follows your rotation faster than you can complete the turn"
+      },
+      {
+        "action": "Drop weight and sit to guard to change the engagement dynamic",
+        "when_to_use": "When standing defensive options are failing and the attacker is close to seating the choke under your chin",
+        "targets_outcome": "Standing Back Control/Top",
+        "if_successful": "Transitions to ground back control where you have additional defensive tools including mat leverage, guard recovery, and hook clearing",
+        "risk": "Medium risk; dropping weight may allow the attacker to follow and finish the choke during the transition if timing is poor"
+      },
+      {
+        "action": "Peel and strip the figure-four lock before the squeeze is applied",
+        "when_to_use": "When the choking arm has already cleared the chin but the figure-four lock is not yet fully secured behind the head",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Breaks the mechanical closure of the choke and creates opportunity to strip the arm entirely and escape to neutral standing",
+        "risk": "High risk; this is a last-resort defense when the choke is nearly locked, and failure means the fully secured choke will finish quickly"
       }
+    ],
+    "escape_paths": [
+      "Strip the choking arm with two-on-one grip fighting, peel it below your chin, then spin aggressively toward the attacker's choking arm side to face them and establish clinch",
+      "Drop your weight to your knees to transition to ground back control where you can use the mat for leverage, then execute standard ground-based back escape sequences including hook clearing and hip escape",
+      "Create hip separation by stepping your hips away from the attacker while maintaining grip control on their choking arm, then turn to face them once sufficient angle is created"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Back Control/Top",
-        "how": "TODO"
+        "outcome": "Standing Position",
+        "how": "Successfully strip the choking arm through two-on-one grip fighting and create enough separation to fully disengage from back control, resetting to neutral standing"
+      },
+      {
+        "outcome": "Clinch",
+        "how": "Turn aggressively toward the attacker's choking arm side while fighting their grip, completing the rotation to face them and establishing a front-facing clinch that eliminates back exposure"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Panicking and pulling the choking arm forward away from the neck instead of peeling it sideways",
+        "consequence": "Pulling forward actually helps the attacker seat the choke deeper because you are dragging the forearm across your own throat. This accelerates the choke rather than defending it.",
+        "correction": "Peel the choking arm sideways and downward away from the neck using a two-on-one grip on the wrist and forearm, redirecting the forearm below your chin rather than across it"
+      },
+      {
+        "error": "Reaching behind your head to fight the attacker's locking hand instead of addressing the choking arm first",
+        "consequence": "Takes both your hands away from the primary threat, leaves the choking arm uncontested against your neck, and puts your arms in a mechanically weak position behind your head",
+        "correction": "Always fight the choking arm first with both hands. The locking hand behind your head is only relevant after the choking forearm is seated; prevent the seat and the lock never matters"
+      },
+      {
+        "error": "Keeping your chin elevated or tilted upward instead of tucking it tightly to your chest",
+        "consequence": "Creates a direct pathway for the attacker's forearm to slide under your chin without any obstruction, allowing them to seat the choke in one smooth motion rather than having to fight past your chin defense",
+        "correction": "Tuck your chin tightly to your chest the moment you feel back control being established. Your chin should press firmly into your collarbone, making the attacker earn every centimeter of advancement"
+      },
+      {
+        "error": "Remaining stationary and only using hand fighting without attempting to create movement or change the angle",
+        "consequence": "Allows the attacker to patiently work their choking arm advancement against your grip fighting until they eventually find the opening, as static defense is always eventually broken by persistent offense",
+        "correction": "Combine hand fighting with active movement including turning toward the attacker, stepping to create angles, and changing levels. Defense must be dynamic to create escape opportunities"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the single most important defensive action the moment you recognize a Standing RNC is being attempted?",
+        "answer": "Immediately tuck your chin tightly to your chest and get both hands on the attacker's choking arm using a two-on-one grip on their wrist and forearm. The chin tuck creates a physical barrier that the attacker must overcome before they can seat the choke, and the two-on-one grip gives you mechanical advantage to prevent the arm from advancing past your chin. These two actions together buy the maximum amount of time for executing an escape sequence.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is it critical to peel the choking arm sideways rather than pulling it straight forward away from your neck?",
+        "answer": "Pulling straight forward drags the blade of the attacker's forearm directly across your carotid arteries and throat, which is exactly the motion needed to seat the choke. You would be doing the attacker's work for them. Peeling sideways and downward redirects the forearm below your chin toward your chest, moving it away from the vulnerable neck structures. The sideways peel also uses your stronger lateral pulling muscles rather than fighting the attacker's arm directly in their strongest plane of force.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your attacker has cleared your chin defense and the forearm is under your jaw but the figure-four is not yet locked - what is your last-resort defense?",
+        "answer": "Immediately grab the attacker's locking hand or wrist with both of your hands to prevent them from completing the figure-four behind your head. Simultaneously begin turning aggressively toward the choking arm side while pulling the locking hand away. Without the figure-four closure, the choke lacks the bilateral compression needed for a quick finish. Use this bought time to complete your turn to face the attacker, establishing a clinch position. If you cannot prevent the lock, tuck your chin as hard as possible against the forearm to create any space between the forearm and your carotid arteries.",
+        "safety_critical": true
+      },
+      {
+        "question": "When defending the Standing RNC, when should you choose to drop to the ground versus continuing to fight standing?",
+        "answer": "Drop to the ground when standing defenses are failing and the attacker is making steady progress advancing the choke past your chin. Ground back control gives you the mat to brace against, the ability to fight hooks which does not exist standing, and access to standard back escape sequences. However, dropping should be a deliberate tactical choice with proper timing, not a panic response. Drop by sitting to your hip on the choking arm side while maintaining grip control, which gives you the best starting position for ground defense. Avoid dropping straight backward, which gives the attacker hooks immediately."
+      },
+      {
+        "question": "What makes the Standing RNC more dangerous than the ground-based version from a safety perspective?",
+        "answer": "The standing version adds significant fall risk if the defender loses consciousness, as an unconscious person dropping from standing height onto a hard surface can sustain serious head, neck, or spinal injuries separate from the choke itself. Additionally, the standing position creates more violent thrashing and jerking movements during escape attempts, increasing the risk of cervical spine injury. Training partners must be especially attentive to tap signals since the defender cannot tap the mat as easily from standing, and the attacker must be prepared to safely lower an unconscious opponent to the ground rather than letting them fall.",
+        "safety_critical": true
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying the transition from seatbelt control to choke setup",
+        "description": "Partner slowly demonstrates the progression from seatbelt grip to choke attempt at 20% speed. Defender practices identifying the moment the choking arm begins advancing and immediately responds with chin tuck and two-on-one grip. Build muscle memory for the instant defensive reaction before adding any resistance or movement."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting Defense",
+        "focus": "Two-on-one grip stripping and arm peeling techniques",
+        "description": "Partner applies moderate pressure attempting to advance the choking arm while defender practices specific grip stripping techniques at 50% resistance. Focus on peeling direction, hand placement on the wrist and forearm, and maintaining chin tuck throughout the grip fighting exchange. Drill resetting after successful strip and defending the re-attack."
+      },
+      {
+        "phase": "Phase 3: Escape Movement",
+        "focus": "Integrating movement with grip defense for complete escapes",
+        "description": "Partner advances the choke with increasing resistance while defender combines grip fighting with turning, hip movement, and level changes to create escape opportunities. Practice the full sequence from recognition through grip strip through turn to clinch or escape to neutral standing. Include scenarios where standing defense fails and ground transition is required."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance defense from standing back control",
+        "description": "Start from standing back control with seatbelt and defend against full resistance choke attempts. Partner uses all available setups including hand pinning, chin clearing, and movement following. Defender must make real-time decisions between standing defense, turning to clinch, or tactical ground transition based on the attacker's progress."
       }
     ]
   }

@@ -599,31 +599,35 @@
     "transitions": [
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 28
+        "attempt_probability": 33
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 19
+        "attempt_probability": 18
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Escape Dead Orchard Control",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Roll from Dead Orchard",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Escape from Dead Orchard",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

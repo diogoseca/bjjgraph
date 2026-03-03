@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Knot Top | BJJ Position Guide | BJJ Graph"
-description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies. Features 70% finish rate."
+description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies for advanced practitioners."
 ---
 
 
@@ -20,21 +20,33 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Backstep from Leg Knot",
-      "text": "From this position, attempt Backstep from Leg Knot. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Heel Hook from Saddle",
+      "text": "From this position, attempt Heel Hook from Saddle. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Extraction from Leg Knot",
-      "text": "From this position, attempt Leg Extraction from Leg Knot. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Backstep from Leg Knot",
+      "text": "From this position, attempt Backstep from Leg Knot. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass from Leg Knot",
-      "text": "From this position, attempt Pressure Pass from Leg Knot. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Toe Hold from Outside Ashi",
+      "text": "From this position, attempt Toe Hold from Outside Ashi. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pressure Pass from Leg Knot",
+      "text": "From this position, attempt Pressure Pass from Leg Knot. This technique is attempted in 15% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Extraction from Leg Knot",
+      "text": "From this position, attempt Leg Extraction from Leg Knot. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"
@@ -97,7 +109,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Knot Top",
-  "description": "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies. Features 70% finish rate.",
+  "description": "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies for advanced practitioners.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -190,11 +202,15 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Available Attacks
 
-### [[Backstep from Leg Knot]] (0% of attempts)
+### [[Heel Hook from Saddle]] (35% of attempts)
 
-### [[Leg Extraction from Leg Knot]] (0% of attempts)
+### [[Backstep from Leg Knot]] (20% of attempts)
 
-### [[Pressure Pass from Leg Knot]] (0% of attempts)
+### [[Toe Hold from Outside Ashi]] (20% of attempts)
+
+### [[Pressure Pass from Leg Knot]] (15% of attempts)
+
+### [[Leg Extraction from Leg Knot]] (10% of attempts)
 
 
 
@@ -216,7 +232,7 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 **If opponent rotates hip outward or straightens trapped leg defensively:**
 - Execute **[[Inside Heel Hook from Ushiro]]** → [[Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 50%)
+- Execute **[[Toe Hold]]** → [[Leg Entanglement]] (Probability: 50%)
 
 
 **If opponent maintains defensive posture with flexed knee and protected heel:**
@@ -359,8 +375,8 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 - **[[Inside Ashi-Garami]]** - Common entry position and alternative entanglement configuration
 - **[[Outside Ashi-Garami]]** - Primary entry position for leg knot development
 - **[[Honey Hole]]** - Related advanced leg entanglement with similar control principles
-- **[[Heel Hook]]** - Primary submission finish from this position
-- **[[Toe Hold]]** - Alternative submission attack when heel is defended
+- **[[Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
+- **[[Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
 - **[[Kneebar Control]]** - Secondary submission option from leg knot configuration
 - **[[Ashi Garami Escape]]** - Primary defensive response from bottom position
 - **[[50-50 Guard]]** - Counter-entanglement option for bottom player

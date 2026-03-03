@@ -20,50 +20,50 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From this position, attempt Inside Heel Hook. This technique is attempted in 15% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
       "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar",
       "text": "From this position, attempt Kneebar. This technique is attempted in 12% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi Entry",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Outside Ashi Entry",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 7% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute 50-50 Entry",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -226,25 +226,33 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 ## Available Techniques and Transitions
 
-### [[Inside Heel Hook]] (15% of attempts)
-
 ### [[Outside Heel Hook]] (10% of attempts)
 
 ### [[Kneebar]] (12% of attempts)
 
-### [[Straight Ankle Lock]] (10% of attempts)
+### [[Ankle Lock Finish]] (10% of attempts)
 
-### [[Toe Hold]] (8% of attempts)
+### [[Toe Hold]] (7% of attempts)
 
-### [[Inside Ashi Entry]] (12% of attempts)
+### [[Inside Ashi Entry]] (10% of attempts)
 
-### [[Outside Ashi Entry]] (10% of attempts)
+### [[Outside Ashi Entry]] (8% of attempts)
 
-### [[Saddle Entry from Top]] (8% of attempts)
+### [[Saddle Entry from Top]] (7% of attempts)
 
-### [[50-50 Entry]] (7% of attempts)
+### [[50-50 Entry]] (6% of attempts)
 
-### [[Back Take from Ashi]] (8% of attempts)
+### [[Back Take from Ashi]] (7% of attempts)
+
+### [[Ashi Entry from Leg Entanglement]] (5% of attempts)
+
+### [[Leg Extraction Pass]] (5% of attempts)
+
+### [[Leg Extraction Escape from Entanglement]] (5% of attempts)
+
+### [[Guard Recovery from Leg Entanglement]] (5% of attempts)
+
+### [[Inversion Escape from Leg Entanglement]] (3% of attempts)
 
 
 
@@ -261,11 +269,11 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 **If opponent extends their leg trying to create distance and push away from the entanglement:**
 - Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 70%)
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 65%)
+- Execute **[[Ankle Lock Finish]]** → [[Ashi Garami]] (Probability: 65%)
 
 
 **If opponent's heel becomes exposed with proper inside or outside positioning established:**
-- Execute **[[Inside Heel Hook]]** → [[Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 70%)
 - Execute **[[Outside Heel Hook]]** → [[Outside Ashi-Garami]] (Probability: 65%)
 
 
@@ -276,7 +284,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 **If opponent successfully clears the knee line and begins to escape the entanglement:**
 - Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[X-Guard Recovery]]** → [[X-Guard]] (Probability: 45%)
+- Execute **[[Guard Recovery from Leg Entanglement]]** → [[Open Guard]] (Probability: 45%)
 
 
 **If both practitioners have equal entanglement creating neutral bilateral control:**
@@ -401,14 +409,15 @@ Partner attempts specific escapes from leg entanglement (hip escape, knee cleari
 - **[[Ashi Garami]]** - Primary child variant - standard leg entanglement configuration and foundational position
 - **[[Inside Ashi-Garami]]** - Child variant - inside heel hook specialization with superior control mechanics
 - **[[Outside Ashi-Garami]]** - Child variant - outside heel hook and kneebar attacks with different angle of control
+- **[[Cross Ashi-Garami]]** - Child variant - cross-body entanglement with unique submission angles and control dynamics
 - **[[Saddle]]** - Child variant - most dominant leg entanglement position with multiple submission pathways
 - **[[50-50 Guard]]** - Child variant - bilateral leg entanglement creating neutral exchange with both sides attacking
+- **[[Backside 50-50]]** - Child variant - rear-facing 50-50 configuration with different attacking and escaping dynamics
 - **[[Honey Hole]]** - Alternative name for saddle position used in some systematic approaches
-- **[[Inside Heel Hook]]** - Primary submission from inside entanglement positions with highest finishing rate
-- **[[Kneebar]]** - Alternative submission when heel is defended or from extended leg positions
+- **[[Kneebar Control]]** - Submission control position reached from extended leg entanglements
 - **[[Headquarters Position]]** - Common entry position before establishing leg entanglement from top passing
-- **[[X-Guard]]** - Guard position that frequently transitions into leg entanglement systems
 - **[[Back Control]]** - Alternative dominant position when opponent gives up back to escape leg attacks
+- **[[Inside Sankaku]]** - Related entanglement configuration using triangle leg control around opponent's leg
 
 
 </section>

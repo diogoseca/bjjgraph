@@ -315,7 +315,7 @@
     ],
     "overview": "Being trapped in Modified Scarf Hold Bottom is one of the most oppressive experiences in Brazilian Jiu-Jitsu. The chest-to-chest pressure creates a claustrophobic sensation that can induce panic in untrained practitioners, while the arm control severely limits defensive options.\n\nThe primary challenge from bottom is maintaining composure under extreme pressure while systematically creating the space necessary for escape. Unlike standard side control where hip escape is the primary defensive tool, Modified Scarf Hold requires different escape mechanics due to the unique chest pressure and arm entrapment.\n\nSuccessful defense begins with protecting the near arm from deeper entrapment and maintaining breathing despite chest compression. The bottom player must resist the instinct to explosively bridge, as this often leads to back exposure or mount transitions. Instead, systematic frame creation and strategic movement create escape pathways.\n\nThe position becomes increasingly dangerous the longer it's maintained. Energy drains rapidly under sustained chest pressure, submission opportunities multiply as the bottom player tires, and positional escapes become more difficult as the top player settles their weight. Immediate action is essential - every second of delay reduces escape probability.\n\nFrom a strategic perspective, preventing Modified Scarf Hold is far superior to escaping it. Understanding common entries - particularly from failed takedown defenses and side control transitions - allows practitioners to avoid the position entirely. When caught, recognizing the position early and initiating escape protocols before full consolidation is critical.\n\nThe psychological component cannot be overlooked. Modified Scarf Hold creates intense discomfort that tests mental fortitude. Practitioners must train specifically for this pressure to develop the calm mindset necessary for effective escape execution under stress.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -410,7 +410,7 @@
         "condition": "If pressure becomes unbearable and breathing is severely restricted",
         "actions": [
           {
-            "technique": "Turtle Transition",
+            "technique": "Roll to Turtle",
             "target": "Turtle",
             "probability": 60
           },
@@ -514,35 +514,47 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Bridge and Roll",
         "attempt_probability": 12
       },
       {
-        "transition": "Turtle Transition",
-        "attempt_probability": 25
+        "transition": "Bridge and Roll",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Roll to Turtle",
+        "attempt_probability": 45
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 11
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Ghost Escape",
-        "attempt_probability": 10
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Explosive Bridge to Guard Recovery",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Side Control Escape",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Bridge Escape from Modified Scarf Hold",
+        "attempt_probability": 0
       },
       {
         "transition": "Bridge from Modified Scarf Hold",
-        "attempt_probability": 5
+        "attempt_probability": 0
       },
       {
         "transition": "Escape Modified Scarf Hold",
-        "attempt_probability": 3
+        "attempt_probability": 1
       }
     ]
   }

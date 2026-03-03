@@ -21,37 +21,37 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "HowToStep",
       "name": "Execute New York to Invisible Collar",
-      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Progression to Zombie",
-      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Advance to Chill Dog",
-      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rotate to Carni",
-      "text": "From this position, attempt Rotate to Carni. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rotate to Carni. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -217,25 +217,27 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ## Available Escapes
 
-### [[New York to Invisible Collar]] (11% of attempts)
+### [[New York to Invisible Collar]] (10% of attempts)
 
-### [[Progression to Zombie]] (11% of attempts)
+### [[Progression to Zombie]] (10% of attempts)
 
-### [[Advance to Chill Dog]] (9% of attempts)
+### [[Advance to Chill Dog]] (8% of attempts)
 
-### [[Rotate to Carni]] (10% of attempts)
+### [[Rotate to Carni]] (9% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Triangle Setup]] (18% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Omoplata Sweep]] (7% of attempts)
 
-### [[Gogoplata]] (7% of attempts)
+### [[Gogoplata]] (6% of attempts)
 
-### [[Armbar Finish]] (11% of attempts)
+### [[Armbar Finish]] (10% of attempts)
 
-### [[Hip Bump Sweep]] (11% of attempts)
+### [[Hip Bump Sweep]] (10% of attempts)
 
-### [[Omoplata to Back]] (10% of attempts)
+### [[Omoplata to Back]] (9% of attempts)
+
+### [[Sweep from New York]] (3% of attempts)
 
 
 

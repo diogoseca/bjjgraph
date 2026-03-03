@@ -48,16 +48,8 @@
       "relationship": "Common starting position - where posture is frequently broken and recovery is needed"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Guard Recovery from Combat Base",
       "relationship": "Counter technique - what opponent attempts when you successfully recover posture"
-    },
-    {
-      "name": "Frame Creation",
-      "relationship": "Fundamental principle - essential for creating the space needed to recover"
-    },
-    {
-      "name": "Defensive Posture",
-      "relationship": "Related concept - maintaining proper posture to avoid breaks"
     },
     {
       "name": "Armbar from Guard",
@@ -86,6 +78,14 @@
     {
       "name": "Posture Recovery to Closed Guard",
       "relationship": "Related transition - returning to stable closed guard top after recovery"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Counter threat - common sweep exploiting backward weight shift during recovery"
+    },
+    {
+      "name": "Combat Base to Headquarters",
+      "relationship": "Follow-up transition - progressing from recovered posture into deeper passing position"
     }
   ],
   "attacker": {
@@ -169,7 +169,7 @@
         "counter": "Opponent opens guard and places feet on hips to manage distance",
         "effectiveness": "Medium",
         "your_response": "Welcome the guard opening as it actually aids your recovery. Pin their feet to your hips momentarily, then strip them to the outside while continuing your hip drive backward. Transition directly to a toreando or leg drag passing angle.",
-        "targets_outcome": "Combat Base"
+        "targets_outcome": "Combat Base/Top"
       },
       {
         "counter": "Opponent overhooks your arm and begins rotating hips for omoplata",

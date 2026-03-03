@@ -21,37 +21,37 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,23 +209,25 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 ## Available Escapes
 
-### [[Turtle to Guard]] (27% of attempts)
+### [[Turtle to Guard]] (34% of attempts)
 
-### [[Technical Stand-up]] (16% of attempts)
+### [[Technical Stand-up]] (15% of attempts)
 
-### [[Granby Roll to Guard]] (13% of attempts)
+### [[Granby Roll to Guard]] (12% of attempts)
 
-### [[Rolling to Guard]] (15% of attempts)
+### [[Rolling to Guard]] (14% of attempts)
 
-### [[Elbow Escape to Guard]] (10% of attempts)
+### [[Elbow Escape to Guard]] (9% of attempts)
 
-### [[Sit Through Escape]] (8% of attempts)
+### [[Sit Through Escape]] (7% of attempts)
 
-### [[Standing up in Base]] (6% of attempts)
+### [[Standing up in Base]] (5% of attempts)
 
-### [[Roll from Rodeo Ride]] (3% of attempts)
+### [[Roll from Rodeo Ride]] (2% of attempts)
 
-### [[Shake Off Rodeo Ride]] (2% of attempts)
+### [[Shake Off Rodeo Ride]] (1% of attempts)
+
+### [[Escape from Rodeo Ride]] (1% of attempts)
 
 
 

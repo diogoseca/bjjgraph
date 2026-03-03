@@ -243,16 +243,16 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Standing]]
+- [[Kimura from Kimura Trap]]
 - [[Americana]]
-- [[Omoplata]]
-- [[Kimura from Turtle]]
+- [[Americana from Side Control]]
+- [[Omoplata from Spider Guard]]
 - [[Armbar from Side Control]]
-- [[Kimura from Half Guard]]
+- [[Kimura from Modified Scarf Hold]]
+- [[Kimura from Shoulder of Justice]]
 - [[Baratoplata]]
-- [[Guillotine Choke]]
-- [[Darce Choke]]
+- [[Guillotine from Butterfly Guard]]
+- [[Darce from Leg Drag]]
 - [[Anaconda Choke]]
 
 
@@ -263,7 +263,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 ## Additional Related Content
 
 - [[Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
-- [[Kimura to Back Take]] - Primary transition when reverse Kimura is defended by rotation
+- [[Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
 - [[Overhook Control]] - Standing setup position for reverse Kimura entry
 - [[Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
 - [[Turtle]] - Common position where reverse Kimura is applied from top control

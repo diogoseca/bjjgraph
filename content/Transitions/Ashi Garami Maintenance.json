@@ -1,128 +1,397 @@
 {
   "name": "Ashi Garami Maintenance",
-  "description": "TODO: Write 150-160 character SEO description for Ashi Garami Maintenance.",
+  "description": "Master Ashi Garami maintenance in BJJ. Complete guide to systematic leg entanglement retention, connection point management, and escape prevention drills.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "leg lock maintenance",
+    "ashi garami retention",
+    "leg entanglement control",
+    "position maintenance",
+    "connection point management"
   ],
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 100,
+      "probability": 55,
       "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Ashi Garami/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Ashi Garami Maintenance.",
+  "overview": "Ashi Garami Maintenance represents the fundamental skill of retaining leg entanglement control against an opponent's systematic extraction attempts. While leg lock systems receive extensive attention for entries and finishes, the ability to maintain position through connection point management and hip following separates high-level leg lockers from practitioners who rely solely on explosive attacks. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.\n\nThe maintenance phase occupies a critical strategic role in the leg lock game. Without reliable retention, even technically superior entries become wasted energy as opponents consistently extract before advancement or finishing can occur. Effective maintenance creates cumulative pressure that exhausts defensive resources, forcing the opponent into increasingly desperate extraction attempts that open opportunities for hierarchical advancement toward Saddle or Cross Ashi-Garami. The patient, systematic approach to leg control retention reflects modern competition methodology where position quality precedes submission attempts.\n\nSuccessful Ashi Garami Maintenance requires simultaneous management of multiple connection points including the inside leg hook, outside leg clamp, hip-to-hip pressure, and upper body grips. Each connection point serves a specific function in preventing different escape vectors, and the practitioner must recognize which connections are under immediate threat and prioritize re-establishing them before the opponent chains multiple extractions together. This defensive awareness within an offensive position distinguishes competition-level leg lock players from casual practitioners who treat leg entanglements as static positions rather than dynamic control exchanges.",
   "conditions": [
-    "TODO"
+    "You have established at least one leg hook in Ashi Garami configuration from bottom position",
+    "Opponent is actively attempting to extract their trapped leg or recover base to standing",
+    "Inside space control has not been completely compromised by opponent's defensive positioning",
+    "Your hips maintain sufficient mobility to follow opponent movement and adjust hook placement"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Active Re-hooking Maintenance",
+      "description": "Emphasizes constant re-engagement of hooks during opponent movement rather than relying on static grip tension. The practitioner anticipates which connection point will be attacked next and pre-positions for immediate re-establishment, creating a flowing cycle of clearance and reconnection that exhausts the defender's extraction energy.",
+      "when_to_use": "When opponent uses methodical sequential clearing rather than explosive escape attempts, requiring you to match their systematic approach with equally systematic reconnection"
+    },
+    {
+      "variant_name": "Upper Body Dominant Maintenance",
+      "description": "Prioritizes two-on-one ankle and heel cord grips supplemented by cross-body wrist or sleeve control to create redundant upper body connections. This variant reduces reliance on leg hooks alone and provides additional control layers that must be cleared before the opponent can address the leg entanglement.",
+      "when_to_use": "When opponent has strong hip mobility and can clear leg hooks effectively, requiring additional upper body control points to slow their extraction sequence"
+    },
+    {
+      "variant_name": "Hip Following Maintenance",
+      "description": "Centers on continuous hip scooting and angle adjustment to track the opponent's movement throughout their escape attempts. Rather than fighting to maintain exact hook positioning, the practitioner follows the opponent's directional changes and re-establishes control from the new angle, using mobility as the primary retention tool.",
+      "when_to_use": "Against opponents who use lateral movement, standing, or rotational escape strategies that change the angle dramatically during extraction"
     }
   ],
-  "position_integration": "TODO: Write position integration for Ashi Garami Maintenance.",
+  "position_integration": "Ashi Garami Maintenance occupies a critical junction in the modern leg lock system, bridging the gap between initial entries and advanced hierarchy progression. Without reliable retention, practitioners cannot capitalize on technically superior entries, as opponents consistently extract before advancement to Inside Ashi-Garami, Cross Ashi-Garami, or Saddle positions. This transition connects directly to the entire Ashi Garami position family and serves as the prerequisite skill for all offensive leg lock chains, making it arguably the most important yet most overlooked element of leg entanglement mastery. Reliable maintenance also creates the time and stability needed to assess finishing opportunities, identify hierarchical advancement windows, and force cumulative fatigue on the defender.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Ashi Garami",
+      "relationship": "Source position family; maintenance preserves this leg entanglement control against extraction"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Primary counter-transition the defender attempts during maintenance exchanges"
+    },
+    {
+      "name": "Ashi Garami to Leg Entanglement",
+      "relationship": "Advancement transition enabled by successful position maintenance and inside space dominance"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Key advancement target; maintained Outside Ashi enables progression to Inside Ashi control"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Advanced hierarchy position accessible through systematic maintenance and stepwise advancement"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Apex finishing position; reliable maintenance creates the pathway toward Saddle control"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Re-entry position when partial control loss requires resetting the entanglement from scratch"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Common bilateral outcome during competitive maintenance exchanges when both players entangle"
+    },
+    {
+      "name": "Back Take from Ashi",
+      "relationship": "Alternative offensive pathway available during maintenance when opponent creates back exposure"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position reached when maintenance fails and the leg entanglement is fully cleared by defender"
     }
   ],
   "attacker": {
     "name": "Ashi Garami Maintenance Attacker",
-    "description": "TODO: Write attacker description for Ashi Garami Maintenance.",
-    "overview": "TODO: Write attacker overview for Ashi Garami Maintenance.",
+    "description": "Master attacking Ashi Garami maintenance with systematic connection point management, hip following mechanics, and re-hooking sequences to retain leg entanglement control.",
+    "overview": "Maintaining Ashi Garami from the attacking perspective requires constant vigilance over multiple connection points while simultaneously managing offensive advancement opportunities. The attacker must treat maintenance not as a passive holding pattern but as an active system of micro-adjustments that follow the defender's movement, re-establish cleared hooks, and transition between grip configurations. Success demands understanding which connection points are most threatened at any moment and prioritizing their preservation over secondary concerns. The most effective maintainers create a suffocating sensation for the defender through patient, relentless reconnection that exhausts defensive energy reserves and opens windows for hierarchical advancement toward finishing positions.",
     "key_principles": [
-      "TODO"
+      "Connection Point Hierarchy: Prioritize inside leg hook maintenance above all other connections, as it controls the primary escape axis and must be re-established first when cleared",
+      "Active Hip Following: Track opponent movement by mirroring their directional changes with your own hip adjustments rather than relying on static hook tension that degrades under pressure",
+      "Redundant Grip Management: Maintain at least two upper body grips simultaneously so losing one does not immediately compromise overall control of the trapped limb",
+      "Inside Space Dominance: Keep inside knee positioned as a blocking wedge to prevent opponent pummeling and escape pathway creation through the primary clearing vector",
+      "Preventive Re-hooking: Re-establish connections before they fully disengage by reading opponent's preparatory movements rather than waiting for complete clearance before reacting",
+      "Energy Economy: Use minimal effort for maximum control through proper bone-on-bone positioning rather than constant muscular tension that leads to early fatigue"
     ],
     "setup_requirements": [
-      "TODO"
+      "Inside leg hook established behind opponent's knee creating primary axis control over the trapped leg",
+      "Outside leg crossing over opponent's thigh forming the pinching clamp that prevents basic leg extraction",
+      "Hip proximity maintained with minimal space between your hip and opponent's hip to limit defensive angles",
+      "At least one upper body grip controlling opponent's ankle, heel cord, or foot to supplement leg hook control"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify hook configuration",
+        "description": "Confirm that your inside leg hook is properly seated behind the opponent's knee creating the primary axis of control, and that your outside leg crosses over their thigh to establish the pinching clamp that prevents initial extraction attempts."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip proximity",
+        "description": "Close the distance between your hip and the opponent's hip by scooting your body toward them, eliminating the space they need to begin systematic leg clearing sequences or base recovery to standing position."
+      },
+      {
+        "step_number": 3,
+        "action": "Secure upper body grips",
+        "description": "Establish a two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other, creating redundant upper body connections that supplement your leg hooks and prevent rotation or extension of the trapped leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Set inside space wedge",
+        "description": "Position your inside knee as a blocking wedge against the opponent's inner thigh, preventing them from pummeling their leg inside your hook configuration and establishing the inside space dominance that controls all primary escape pathways."
+      },
+      {
+        "step_number": 5,
+        "action": "Follow opponent movement",
+        "description": "Track the opponent's hip movement by mirroring their directional changes with your own hip adjustments, maintaining constant connection distance regardless of whether they shift laterally, attempt to stand, or rotate to create extraction angles."
+      },
+      {
+        "step_number": 6,
+        "action": "Re-hook after partial clearance",
+        "description": "When the opponent partially clears one connection point such as pushing your outside hook off their thigh, immediately re-establish that specific hook before they can chain a second extraction, treating each cleared point as an urgent reconnection priority."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition grips under pressure",
+        "description": "As the opponent rotates or changes their defensive angle, smoothly transition between ankle grip, heel cord grip, and foot grip configurations to maintain upper body connection regardless of the limb orientation changes created by their defensive movement."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Explosive standing base recovery to create elevation advantage and extract trapped leg through upward force",
+        "effectiveness": "High",
+        "your_response": "Follow their hip upward by scooting and tightening ankle grip. Consider transitioning to Single Leg X-Guard to capitalize on their standing position rather than fighting the elevation change directly.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Systematic inside knee pummeling to establish inside space control and begin mechanical clearing of hooks",
         "effectiveness": "Medium",
-        "your_response": "TODO",
-        "targets_outcome": "Ashi Garami/Bottom"
+        "your_response": "Drive your inside knee back toward their centerline while simultaneously pulling their trapped leg tighter with upper body grips to deny the pummeling angle and re-establish the blocking wedge.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Establishing reciprocal leg entanglement on your leg to create bilateral threat and reverse positional advantage",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the bilateral threat immediately and prioritize inside space control on both legs. Compete for superior positioning within the mutual entanglement rather than ignoring their counter-attack.",
+        "targets_outcome": "Ashi Garami/Top"
+      },
+      {
+        "counter": "Forcefully extending trapped leg while stomping heel toward mat to strip inside hook and break pinching clamp",
+        "effectiveness": "Low",
+        "your_response": "Maintain pinching pressure with both legs and follow the extension by scooting hips forward. Use their extension momentum to transition toward straight ankle lock control as their leg straightens.",
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lying completely flat on back without maintaining elevated upper body posture during entanglement retention",
+        "consequence": "Eliminates pulling leverage and makes hip following nearly impossible against a standing or kneeling opponent, leading to gradual control degradation",
+        "correction": "Maintain elevated posture on elbows or in seated position to enable pulling, hip following, and the angle creation needed for grip transitions"
+      },
+      {
+        "error": "Relying on static hook tension without active adjustment when opponent begins extraction movements",
+        "consequence": "Opponent systematically clears connections one at a time while you passively hold, eventually losing all control points",
+        "correction": "Treat maintenance as an active system requiring continuous micro-adjustments including hip scooting, grip changes, and preventive re-hooking"
+      },
+      {
+        "error": "Maintaining only leg hook connections without establishing upper body grips on ankle or heel cord",
+        "consequence": "Opponent can rotate and extend freely since only lower body control exists, making hook clearing significantly easier",
+        "correction": "Always maintain at least one upper body grip on the trapped limb. Ideally use two-on-one ankle and heel cord control for redundancy"
+      },
+      {
+        "error": "Over-committing to submission attempts from Outside Ashi without first securing stable maintenance position",
+        "consequence": "Releasing maintenance grips to grab for heel hook exposes connection gaps that allow immediate extraction before finish is possible",
+        "correction": "Establish stable maintenance first, then advance through positional hierarchy before attempting submissions from dominant finishing positions"
+      },
+      {
+        "error": "Using excessive muscular tension to hold hooks in place rather than using proper skeletal alignment and positioning",
+        "consequence": "Rapid forearm and leg fatigue that degrades grip strength and hook pressure within the first minute of sustained maintenance",
+        "correction": "Use bone-on-bone positioning and proper body alignment to create structural control that requires minimal muscular effort to maintain"
+      },
+      {
+        "error": "Failing to follow opponent's hip movement when they shift laterally or change angle during extraction",
+        "consequence": "Increasing distance between your hip and opponent's hip creates space that weakens all connection points simultaneously",
+        "correction": "Mirror every hip movement by scooting in the same direction, maintaining constant proximity regardless of defender's movement pattern"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Connection Fundamentals",
+        "focus": "Hook placement and hip positioning",
+        "description": "Drill proper inside hook, outside clamp, and hip proximity positioning against a stationary partner to build foundational muscle memory for all connection points and understand their individual functions"
+      },
+      {
+        "phase": "Phase 2: Dynamic Following",
+        "focus": "Movement tracking and adjustment",
+        "description": "Practice following opponent's lateral, vertical, and rotational movement while maintaining all connection points against a partner who shifts position slowly with increasing complexity"
+      },
+      {
+        "phase": "Phase 3: Re-hooking Under Pressure",
+        "focus": "Connection recovery speed",
+        "description": "Partner actively clears one connection point at a time while you practice immediate re-establishment, building speed and accuracy of reconnection reflexes under graduated resistance"
+      },
+      {
+        "phase": "Phase 4: Maintenance to Advancement",
+        "focus": "Transition integration",
+        "description": "Combine maintenance with hierarchical advancement by maintaining stable control until windows open, then executing progression to Inside Ashi or Cross Ashi from confirmed control"
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Full resistance application",
+        "description": "Positional sparring starting in Outside Ashi with opponent at full resistance attempting extraction, practicing maintenance while identifying advancement and submission opportunities under realistic pressure"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical connection point to maintain when your opponent begins their initial extraction attempt?",
+        "answer": "The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance."
+      },
+      {
+        "question": "How should you respond when your opponent explosively stands up while you maintain Outside Ashi control?",
+        "answer": "Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force."
+      },
+      {
+        "question": "What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?",
+        "answer": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain."
+      },
+      {
+        "question": "When should you prioritize re-hooking versus advancing to a superior position during maintenance?",
+        "answer": "Re-hooking takes priority whenever you have lost your inside leg hook or when the opponent has cleared more than one connection point simultaneously. Advancing should only occur when all primary connections are stable and you have inside space dominance. Attempting advancement with compromised connections typically results in losing the position entirely rather than improving it."
+      },
+      {
+        "question": "What is the primary mechanical principle behind inside space control in Ashi Garami maintenance?",
+        "answer": "Inside space control works by positioning your inside knee and hip to block the opponent's leg from pummeling inside your control configuration. This wedge denies the opponent the angle needed to rotate their knee inward, which would allow them to strip the outside hook and begin systematic extraction through the primary clearing vector."
+      },
+      {
+        "question": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
+        "answer": "Counter the knee push by driving your inside knee back toward the opponent's centerline while simultaneously pulling their trapped leg tighter with your upper body grips. If the knee push succeeds partially, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."
+      },
+      {
+        "question": "What distinguishes passive maintenance from active maintenance in Ashi Garami positions?",
+        "answer": "Passive maintenance relies on static hook placement and grip tension without adjusting to opponent movement, leading to gradual degradation of control as the opponent systematically clears connections. Active maintenance involves continuous micro-adjustments including hip following, grip transitions, and preventive re-hooking before connections fail, creating cumulative fatigue in the defender."
+      },
+      {
+        "question": "How does upper body posture affect your ability to maintain Ashi Garami from bottom position?",
+        "answer": "Maintaining an elevated posture on elbows or in a seated position provides significantly better control than lying flat. The elevated posture enables pulling the opponent's leg toward you, following their hip movement by scooting, and creating the angle needed for grip transitions. Flat positioning eliminates pulling leverage and makes hip following nearly impossible against a standing opponent."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Ashi Garami Maintenance."
+    "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange."
   },
   "defender": {
     "name": "Ashi Garami Maintenance Defender",
-    "description": "TODO: Write defender description for Ashi Garami Maintenance.",
-    "overview": "TODO: Write defender overview for Ashi Garami Maintenance.",
+    "description": "Master defending against Ashi Garami maintenance with systematic extraction sequences, heel protection mechanics, and counter-entanglement strategies.",
+    "overview": "Defending against Ashi Garami maintenance requires recognizing the quality of your opponent's control and identifying which connection points to target for extraction. The defender must resist the urge to explosively rip free, instead employing systematic mechanical clearing that addresses each hook and grip individually while maintaining heel protection throughout. Understanding the attacker's maintenance priorities enables the defender to create dilemmas where addressing one extraction vector opens another, eventually overwhelming the attacker's ability to re-establish all connections simultaneously. Patience and methodical technique execution outperform desperate explosive efforts in nearly every scenario, as controlled extraction preserves joint safety and prevents the positional deterioration that comes from panic responses.",
     "key_principles": [
-      "TODO"
+      "Heel Protection Priority: Maintain straight leg alignment or hidden heel positioning throughout all extraction sequences to prevent finishing opportunities",
+      "Base Recovery First: Establish standing or kneeling base before attempting systematic hook clearing, as elevation creates mechanical advantage for extraction",
+      "Inside Space Denial: Pummel inside knee past opponent's blocking wedge to reverse inside space control advantage and access primary clearing pathway",
+      "Sequential Clearing: Chain multiple connection point extractions in rapid succession to overwhelm the opponent's ability to re-hook individual connections",
+      "Patience Under Pressure: Execute controlled mechanical extraction rather than explosive ripping that exposes the heel to finishing grips and compromises joint safety"
     ],
     "recognition_cues": [
-      "TODO"
+      "Inside leg hook pressure behind your knee creating rotational control and preventing straightening of the trapped leg",
+      "Outside leg crossing over your thigh forming a pinching clamp that restricts all lateral and vertical leg movement",
+      "Opponent's hips closing distance to yours with upper body grips establishing on your ankle, heel cord, or foot",
+      "Blocking wedge pressure from opponent's inside knee against your inner thigh preventing pummeling and escape angles",
+      "Opponent scooting to follow your movement after positional adjustments, maintaining constant hip proximity"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
-        "targets_outcome": "Ashi Garami/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "action": "Establish standing base and systematically clear leg hooks while maintaining heel protection through straight leg alignment",
+        "when_to_use": "When opponent's upper body grips are weakest and you have sufficient space to post one foot and drive upward to create elevation advantage",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You free your trapped leg and return to a standing or kneeling position with the opponent in open guard below you",
+        "risk": "Standing creates elevation that can expose the heel if opponent maintains ankle grip during the stand-up attempt"
+      },
+      {
+        "action": "Pummel inside knee past opponent's blocking wedge to establish inside space control and begin systematic hook clearing sequence",
+        "when_to_use": "When opponent's inside leg hook pressure momentarily relaxes during grip transitions or positional adjustments",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You gain inside space advantage enabling mechanical clearing of outside hook and complete extraction from entanglement",
+        "risk": "Failed pummeling can expose your knee angle, potentially worsening position if opponent re-establishes wedge with improved control"
+      },
+      {
+        "action": "Thread free leg into opponent's leg configuration to establish your own reciprocal Ashi Garami entanglement",
+        "when_to_use": "When opponent over-commits to offensive advancement and leaves their own legs exposed to counter-entanglement during transition",
+        "targets_outcome": "Ashi Garami/Top",
+        "if_successful": "You establish mutual leg entanglement where you can compete for inside space and potentially reverse positional advantage",
+        "risk": "Entering counter-entanglement commits you to a leg lock exchange where opponent may have superior positioning and finishing knowledge"
+      },
+      {
+        "action": "Backstep trapped leg and rotate hips to change angle dramatically, breaking the pinching pressure of opponent's leg configuration",
+        "when_to_use": "When opponent loses upper body grips and you have momentary freedom to execute a significant angle change before reconnection",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The angle change breaks pinching pressure and allows extraction of the leg from the weakened entanglement configuration",
+        "risk": "Brief back exposure during rotation could allow opponent to transition to back control if they release legs and follow the turn"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Ashi Garami/Bottom",
-        "how": "TODO"
+        "outcome": "Open Guard/Bottom",
+        "how": "Execute systematic leg clearing sequence starting with base recovery to standing, then inside space pummeling, followed by outside hook clearing while maintaining heel protection throughout the entire extraction process"
+      },
+      {
+        "outcome": "Ashi Garami/Top",
+        "how": "Enter counter-entanglement when opponent over-commits to advancement by threading your free leg into their leg configuration, then compete for inside space control to reverse the positional advantage in the exchange"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting explosive leg ripping to escape rather than systematic mechanical clearing of individual connection points",
+        "consequence": "Knee rotation during violent extraction exposes the heel to hook grip, creating immediate finishing opportunity for the attacker",
+        "correction": "Use controlled, methodical extraction sequences that maintain straight leg alignment and heel protection throughout every phase of the escape"
+      },
+      {
+        "error": "Focusing entirely on clearing hooks without maintaining straight leg alignment for heel protection during extraction",
+        "consequence": "Attacker capitalizes on exposed heel during extraction attempt to secure heel hook finishing grip before you complete the escape",
+        "correction": "Treat heel protection as the non-negotiable constraint within all extraction sequences, accepting slower escape speed to maintain joint safety"
+      },
+      {
+        "error": "Remaining flat on back or seated without establishing standing base as the first priority during extraction",
+        "consequence": "Attacker maintains superior leverage from bottom position and can follow your movement more easily while you lack the elevation advantage needed for effective clearing",
+        "correction": "Recover to standing or kneeling base as first priority before addressing individual hooks, using elevation advantage to create superior extraction angles"
+      },
+      {
+        "error": "Repeatedly attacking only one connection point while ignoring the opponent's ability to re-establish it before chaining",
+        "consequence": "Attacker re-hooks each individually cleared connection before you can chain multiple clearings together, creating an endless cycle of clearing and reconnection",
+        "correction": "Clear multiple connection points in rapid succession, timing the chain to prevent the attacker from re-establishing any single point before the next is addressed"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent has secured Ashi Garami control on your leg?",
+        "answer": "The earliest cue is feeling the inside leg hook seat behind your knee combined with the opponent's outside leg crossing over your thigh to create a pinching effect. You may also feel their hips closing distance to yours and their hands reaching for your ankle or foot. Recognizing this configuration immediately allows you to begin extraction before all connection points are fully established."
+      },
+      {
+        "question": "Why is explosive ripping considered a poor defensive strategy against maintained Ashi Garami?",
+        "answer": "Explosive ripping creates rotation through the knee joint that exposes the heel to hook grips, actually making the opponent's finishing position stronger. The violent movement also disrupts your own base, making it easier for the opponent to follow your momentum and re-establish any connections lost during the rip. Systematic mechanical clearing maintains heel protection throughout the entire extraction process."
+      },
+      {
+        "question": "What is the correct sequence for clearing Ashi Garami connection points during extraction?",
+        "answer": "The correct sequence begins with establishing base through standing or posting, then denying inside space by pummeling your knee inside the opponent's control configuration. Next, address the outside hook by pushing the crossing leg away while maintaining heel protection through straight leg alignment. Finally, step the freed leg away from the opponent's control range completely."
+      },
+      {
+        "question": "When is the optimal timing window to attempt extraction from Ashi Garami?",
+        "answer": "The optimal extraction window occurs during the opponent's grip transitions when they release one upper body grip to adjust or advance to a different control configuration. These transitional moments create brief gaps in the connection chain where one fewer control point is active. Recognizing and acting during these windows significantly increases extraction success compared to attempting escape against fully established control."
+      },
+      {
+        "question": "How should you respond if your opponent successfully advances from Outside Ashi to Inside Ashi during your extraction attempt?",
+        "answer": "Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Position identification and danger assessment",
+        "description": "Learn to identify Ashi Garami maintenance configurations and distinguish between Outside, Inside, Cross, and Saddle variations to calibrate appropriate defensive urgency and response selection"
+      },
+      {
+        "phase": "Phase 2: Mechanical Extraction",
+        "focus": "Systematic clearing sequences",
+        "description": "Practice mechanical leg clearing sequences emphasizing heel protection, inside space pummeling, and base recovery against cooperative partners with graduated resistance levels"
+      },
+      {
+        "phase": "Phase 3: Timing and Counter-Attack",
+        "focus": "Exploiting transition windows",
+        "description": "Identify grip transition moments during opponent's maintenance adjustments and time extraction attempts to coincide with momentary connection gaps that reduce resistance"
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Competition simulation under pressure",
+        "description": "Positional sparring starting in various Ashi Garami configurations with full resistance, practicing extraction sequences and counter-attack recognition under realistic competitive pressure"
       }
     ]
   }

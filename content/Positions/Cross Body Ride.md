@@ -95,21 +95,23 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Rolling to Guard]]** (16% of attempts)
+- **[[Rolling to Guard]]** (15% of attempts)
 
-- **[[Turtle to Guard]]** (32% of attempts)
+- **[[Turtle to Guard]]** (38% of attempts)
 
-- **[[Turtle to Standing]]** (16% of attempts)
+- **[[Turtle to Standing]]** (15% of attempts)
 
-- **[[Sit Through to Guard]]** (14% of attempts)
+- **[[Sit Through to Guard]]** (13% of attempts)
 
-- **[[Peterson Roll]]** (8% of attempts)
+- **[[Peterson Roll]]** (7% of attempts)
 
-- **[[Hip Escape to Guard]]** (8% of attempts)
+- **[[Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Hip Escape from Cross Body Ride]]** (4% of attempts)
+- **[[Hip Escape from Cross Body Ride]]** (3% of attempts)
 
-- **[[Roll Escape from Cross Body Ride]]** (2% of attempts)
+- **[[Roll Escape from Cross Body Ride]]** (1% of attempts)
+
+- **[[Escape from Cross Body Ride]]** (1% of attempts)
 
 
 ### Common Mistakes

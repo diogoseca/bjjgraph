@@ -101,25 +101,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Matrix Back Take]]** (44% of attempts)
+- **[[Matrix Back Take]]** (52% of attempts)
 
-- **[[Rolling Back Take]]** (8% of attempts)
+- **[[Rolling Back Take]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (8% of attempts)
+- **[[Arm Drag to Back]]** (7% of attempts)
 
-- **[[Chair Sit to Back]]** (6% of attempts)
+- **[[Chair Sit to Back]]** (5% of attempts)
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Rolling to Guard]]** (8% of attempts)
+- **[[Rolling to Guard]]** (7% of attempts)
 
-- **[[Berimbolo Entry]]** (2% of attempts)
+- **[[Berimbolo Entry]]** (1% of attempts)
 
-- **[[Turtle to Guard]]** (8% of attempts)
+- **[[Turtle to Guard]]** (7% of attempts)
 
-- **[[Counter Roll from Matrix]]** (1% of attempts)
+- **[[Counter Roll from Matrix]]** (0% of attempts)
 
-- **[[Escape Matrix Position]]** (1% of attempts)
+- **[[Escape Matrix Position]]** (0% of attempts)
+
+- **[[Sweep from Matrix]]** (1% of attempts)
 
 
 ### Common Mistakes

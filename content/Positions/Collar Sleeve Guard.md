@@ -99,31 +99,31 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Pendulum Sweep]]** (9% of attempts)
+- **[[Triangle Setup]]** (31% of attempts)
 
-- **[[Flower Sweep]]** (6% of attempts)
+- **[[Pendulum Sweep]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (49% of attempts)
+- **[[Scissor Sweep]]** (9% of attempts)
 
-- **[[Omoplata Sweep]]** (6% of attempts)
+- **[[Hip Bump Sweep]]** (8% of attempts)
 
-- **[[Scissor Sweep]]** (7% of attempts)
+- **[[Flower Sweep]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (4% of attempts)
+- **[[Omoplata Sweep]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (1% of attempts)
+- **[[Collar Drag]]** (6% of attempts)
 
-- **[[Lapel to Lasso Transition]]** (4% of attempts)
+- **[[Arm Drag to Back]]** (5% of attempts)
 
-- **[[Lapel to Spider Transition]]** (3% of attempts)
+- **[[Lapel to Spider Guard]]** (4% of attempts)
 
-- **[[Collar Drag]]** (5% of attempts)
+- **[[Lapel to Lasso Guard]]** (4% of attempts)
 
-- **[[Hip Bump Sweep]]** (5% of attempts)
+- **[[Collar Sleeve to De La Riva]]** (3% of attempts)
 
-- **[[Collar Sleeve Sweep]]** (0% of attempts)
+- **[[Standing up in Base]]** (3% of attempts)
 
-- **[[Collar Sleeve to De La Riva]]** (0% of attempts)
+- **[[Collar Sleeve Sweep]]** (1% of attempts)
 
 - **[[Collar Sleeve to Spider Guard]]** (1% of attempts)
 
@@ -186,25 +186,25 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (8% of attempts)
-
-- **[[Knee Cut Pass]]** (10% of attempts)
-
-- **[[Stack Pass]]** (8% of attempts)
-
-- **[[Double Under Pass]]** (3% of attempts)
-
-- **[[Leg Drag Pass]]** (8% of attempts)
-
-- **[[Pressure Pass]]** (7% of attempts)
-
 - **[[Headquarters Pass]]** (30% of attempts)
 
 - **[[Grip Break]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (4% of attempts)
+- **[[Knee Cut Pass]]** (10% of attempts)
+
+- **[[Toreando Pass]]** (8% of attempts)
+
+- **[[Stack Pass]]** (8% of attempts)
+
+- **[[Leg Drag Pass]]** (8% of attempts)
 
 - **[[X Pass]]** (8% of attempts)
+
+- **[[Pressure Pass]]** (7% of attempts)
+
+- **[[Long Step Pass]]** (4% of attempts)
+
+- **[[Double Under Pass]]** (3% of attempts)
 
 - **[[Bull Pass from Collar Sleeve]]** (1% of attempts)
 

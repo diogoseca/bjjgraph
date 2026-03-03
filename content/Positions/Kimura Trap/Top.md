@@ -50,8 +50,8 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Reverse Scarf Hold",
-      "text": "From this position, attempt Transition to Reverse Scarf Hold. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Arm Triangle Setup",
+      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,9 +220,7 @@ Strategically, the position is valued for its control density—the top player c
 
 ### [[Knee on Belly]] (8% of attempts)
 
-### [[Transition to Reverse Scarf Hold]] (0% of attempts)
-
-### [[Guard Recovery]] (8% of attempts)
+### [[Arm Triangle Setup]] (8% of attempts)
 
 ### [[Americana]] (6% of attempts)
 
@@ -255,7 +253,7 @@ Strategically, the position is valued for its control density—the top player c
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
 - Execute **[[Kimura]]** → [[game-over]] (Probability: 85%)
-- Execute **[[North-South to Kimura]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Arm Triangle Setup]]** → [[Arm Triangle]] (Probability: 70%)
 
 
 

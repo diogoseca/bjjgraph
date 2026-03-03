@@ -21,37 +21,37 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Triangle Clear to Side",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 51% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Rolling Back Take Reversal",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Remove Hooks",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,19 +208,21 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 ## Available Attacks
 
-### [[Hip Escape to Turtle]] (18% of attempts)
+### [[Hip Escape to Turtle]] (14% of attempts)
 
-### [[Frame and Shrimp to Guard]] (16% of attempts)
+### [[Frame and Shrimp to Guard]] (9% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Triangle Clear to Side]] (51% of attempts)
 
-### [[Triangle Clear to Side]] (23% of attempts)
+### [[Standing up in Base]] (5% of attempts)
 
-### [[Standing up in Base]] (12% of attempts)
+### [[Rolling Back Take Reversal]] (2% of attempts)
 
-### [[Back Door Escape]] (13% of attempts)
+### [[Elbow Escape to Remove Hooks]] (9% of attempts)
 
-### [[Rolling Back Take Reversal]] (6% of attempts)
+### [[Back Door Escape]] (9% of attempts)
+
+### [[Body Triangle Squeeze]] (1% of attempts)
 
 
 
@@ -389,6 +391,7 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 - **[[Hip Escape to Turtle]]** - Primary escape transition from body triangle
 - **[[Standing up in Base]]** - Alternative escape path to standing position
 - **[[Rear Naked Choke]]** - Primary submission threat you must defend during escape
+- **[[Back Door Escape]]** - Systematic back escape sequence applicable after clearing triangle
 
 
 </section>

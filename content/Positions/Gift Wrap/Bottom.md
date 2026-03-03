@@ -21,37 +21,37 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Arm Recovery",
-      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter Roll to Top",
-      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Elbow Escape to Remove Hooks",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,19 +212,19 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Available Escapes
 
-### [[Gift Wrap Arm Recovery]] (20% of attempts)
+### [[Gift Wrap Arm Recovery]] (28% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Hip Escape to Guard]] (18% of attempts)
 
-### [[Roll to Turtle]] (16% of attempts)
+### [[Roll to Turtle]] (15% of attempts)
 
-### [[Technical Stand-up]] (10% of attempts)
+### [[Granby Roll to Guard]] (4% of attempts)
 
-### [[Counter Roll to Top]] (9% of attempts)
+### [[Shrimp Escape]] (15% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Elbow Escape to Remove Hooks]] (12% of attempts)
 
-### [[Shrimp Escape]] (16% of attempts)
+### [[Back Door Escape]] (8% of attempts)
 
 
 

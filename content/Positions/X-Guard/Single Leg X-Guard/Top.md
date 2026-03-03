@@ -21,31 +21,31 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 27% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
@@ -205,21 +205,21 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 ## Available Attacks
 
-### [[Headquarters Pass]] (16% of attempts)
+### [[Headquarters Pass]] (14% of attempts)
 
-### [[Knee Slice Pass]] (15% of attempts)
+### [[Knee Slice Pass]] (13% of attempts)
 
-### [[Leg Weave Pass]] (14% of attempts)
+### [[Leg Weave Pass]] (12% of attempts)
 
-### [[Standing up in Base]] (24% of attempts)
+### [[Standing up in Base]] (27% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Smash Pass]] (10% of attempts)
 
 ### [[Kneebar]] (10% of attempts)
 
-### [[Backstep from Single Leg X]] (5% of attempts)
+### [[Backstep from Single Leg X]] (8% of attempts)
 
-### [[Standing Escape from SLX]] (3% of attempts)
+### [[Standing Escape from SLX]] (6% of attempts)
 
 
 

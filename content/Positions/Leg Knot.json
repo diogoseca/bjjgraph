@@ -57,7 +57,7 @@
   ],
   "top": {
     "name": "Leg Knot Top",
-    "description": "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies. Features 70% finish rate.",
+    "description": "Master Leg Knot Top in BJJ. Advanced leg entanglement control with multiple submission paths and systematic breakdown strategies for advanced practitioners.",
     "tags": [
       "bjj",
       "position",
@@ -98,6 +98,28 @@
       "Progress methodically through defensive layers rather than forcing submissions, maintaining positional control throughout",
       "Establish clear breaking mechanics for opponent's leg before attempting finish, ensuring systematic progression",
       "Maintain awareness of opponent's free leg and prevent defensive kicking or re-guard attempts through positioning"
+    ],
+    "transitions": [
+      {
+        "transition": "Heel Hook from Saddle",
+        "attempt_probability": 35
+      },
+      {
+        "transition": "Backstep from Leg Knot",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Toe Hold from Outside Ashi",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Pressure Pass from Leg Knot",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Leg Extraction from Leg Knot",
+        "attempt_probability": 10
+      }
     ],
     "decision_tree": [
       {
@@ -140,7 +162,7 @@
           },
           {
             "technique": "Toe Hold",
-            "target": "Toe Hold Control",
+            "target": "Leg Entanglement",
             "probability": 50
           }
         ]
@@ -233,11 +255,11 @@
         "relationship": "Related advanced leg entanglement with similar control principles"
       },
       {
-        "name": "Heel Hook",
-        "relationship": "Primary submission finish from this position"
+        "name": "Heel Hook from Saddle",
+        "relationship": "Primary submission finish pathway from advanced leg entanglement"
       },
       {
-        "name": "Toe Hold",
+        "name": "Toe Hold from Outside Ashi",
         "relationship": "Alternative submission attack when heel is defended"
       },
       {
@@ -269,20 +291,6 @@
       },
       "average_time": "45-90 seconds in competitive scenarios, longer in training"
     },
-    "transitions": [
-      {
-        "transition": "Backstep from Leg Knot",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Leg Extraction from Leg Knot",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Pressure Pass from Leg Knot",
-        "attempt_probability": 0
-      }
-    ],
     "knowledge_assessment": [
       {
         "question": "Your opponent begins pumping their knee to create space for leg extraction - what adjustment maintains control?",
@@ -320,7 +328,7 @@
   },
   "bottom": {
     "name": "Leg Knot Bottom",
-    "description": "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes and counter-attack options. Features 60% retention rate and reversal pathways.",
+    "description": "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes, counter-attack options, and reversal pathways for advanced practitioners.",
     "tags": [
       "bjj",
       "position",
@@ -362,6 +370,32 @@
       "Address immediate submission threats before attempting positional escapes, following the hierarchy of defensive priorities",
       "Use systematic leg extraction sequences rather than explosive movements that may worsen entanglement or expose vulnerable positions"
     ],
+    "transitions": [
+      {
+        "transition": "Reverse the entanglement to Outside Ashi",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Extract leg and establish Single Leg X",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Limp leg extraction to Half Guard",
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Clear leg and transition to X-Guard",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Reversal from Leg Knot",
+        "attempt_probability": 7
+      }
+    ],
     "decision_tree": [
       {
         "condition": "If opponent secures heel grip and begins heel hook rotation",
@@ -402,8 +436,8 @@
             "probability": 55
           },
           {
-            "technique": "Sit up and establish seated guard",
-            "target": "Seated Guard",
+            "technique": "Sit up and establish open guard",
+            "target": "Open Guard",
             "probability": 35
           }
         ]
@@ -413,7 +447,7 @@
         "actions": [
           {
             "technique": "Granby roll to reverse position",
-            "target": "Ashi Garami",
+            "target": "Outside Ashi-Garami",
             "probability": 40
           },
           {
@@ -537,8 +571,8 @@
         "relationship": "Related leg entanglement threat"
       },
       {
-        "name": "Heel Hook",
-        "relationship": "Primary submission threat to defend"
+        "name": "Heel Hook from Saddle",
+        "relationship": "Primary submission threat to defend against from advanced entanglement"
       },
       {
         "name": "Leg Entanglement",
@@ -557,28 +591,6 @@
       },
       "average_time": "20-60 seconds"
     },
-    "transitions": [
-      {
-        "transition": "Clear leg and transition to X-Guard",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Extract leg and establish Single Leg X",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Limp leg extraction to Half Guard",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Reverse the entanglement to Outside Ashi",
-        "attempt_probability": 25
-      }
-    ],
     "knowledge_assessment": [
       {
         "question": "Your opponent secures your heel and begins rotating for a heel hook - what is your immediate defensive response?",

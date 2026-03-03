@@ -221,7 +221,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 ### [[Estima Lock]] (3% of attempts)
 
-### [[Transition to Backside 50-50]] (3% of attempts)
+### [[Backside 50-50 Entry from Ashi]] (3% of attempts)
 
 ### [[Calf Slicer]] (2% of attempts)
 

@@ -1,10 +1,15 @@
 {
   "name": "Duck Under from Clinch",
-  "description": "TODO: Write 150-160 character SEO description for Duck Under from Clinch.",
+  "description": "Master the Duck Under from Clinch in BJJ. Complete guide to level changes, arm clearance, and circling behind opponents for Standing Rear Clinch control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "clinch",
+    "wrestling",
+    "back-take",
+    "standing",
+    "level-change",
+    "no-gi"
   ],
   "from_position": "Clinch/Bottom",
   "outcomes": [
@@ -25,114 +30,386 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Duck Under from Clinch.",
+  "overview": "The duck under is a fundamental wrestling-based technique adapted for BJJ clinch work that converts a neutral or disadvantaged clinch position into dominant back control. From the clinch, the practitioner uses a level change to dip beneath the opponent's arm—typically an overhook, collar tie, or extended grip—then circles behind to establish the Standing Rear Clinch. The technique exploits the opponent's commitment to upper body control by changing the plane of engagement, converting horizontal grip fighting into a vertical level change that bypasses their defensive structure entirely.\n\nStrategically, the duck under serves as a high-percentage answer to opponents who dominate the clinch through superior grip fighting or forward pressure. Rather than engaging in a losing battle for underhooks or collar ties, the duck under practitioner redirects the exchange by going underneath the opponent's control framework. This makes it particularly effective against taller opponents or those who rely heavily on collar ties and head control, as their extended arms create the space needed for the level change. The technique chains naturally with other clinch attacks—a failed arm drag creates duck under opportunities, and a stuffed duck under can transition into single leg entries or snap downs, forming a comprehensive chain wrestling cycle.\n\nThe duck under carries significant tactical value in competition, where establishing the Standing Rear Clinch creates immediate scoring opportunities through takedowns and back exposure. In no-gi grappling and MMA, the duck under remains one of the most reliable methods for transitioning from a neutral clinch to a dominant position, making it an essential tool for any serious practitioner's standing game.",
   "conditions": [
-    "TODO"
+    "Active clinch engagement at close range with upper body contact established between both practitioners",
+    "At least one of opponent's arms positioned above your shoulder level or extended in a controlling grip",
+    "Sufficient space beneath opponent's arm for head clearance during the level change",
+    "Stable lower body base with knees bent, ready for explosive level change",
+    "Opponent committed to upper body control rather than defending low with compact posture"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Inside Duck Under",
+      "description": "Ducking under the opponent's underhook rather than their overhook or collar tie, moving toward the inside position. The practitioner clears the underhook arm by lifting the elbow while stepping across, using the opponent's inside control commitment against them.",
+      "when_to_use": "When the opponent has established a strong overhook on one side and you need to duck under their underhook on the opposite side where less resistance exists"
+    },
+    {
+      "variant_name": "Fake Duck to Single Leg",
+      "description": "Using the initial level change of the duck under as a feint, then converting to a single leg takedown when the opponent reacts defensively. The practitioner initiates the duck motion but catches the near leg instead of circling behind, capitalizing on the opponent's hip sprawl reaction.",
+      "when_to_use": "When the opponent has become reactive to duck under threats and consistently sprawls or whizzers early, creating openings for leg attacks as they commit to defending the back take"
+    },
+    {
+      "variant_name": "Double Duck Under",
+      "description": "Performing two consecutive duck unders in rapid succession when the first attempt is partially blocked. After the initial duck is stuffed by a whizzer, immediately reverse direction and duck under the opposite arm before the opponent can reset their defensive positioning.",
+      "when_to_use": "Against opponents who successfully whizzer the first duck attempt but leave their opposite side exposed during the defensive rotation, creating a secondary opening"
     }
   ],
-  "position_integration": "TODO: Write position integration for Duck Under from Clinch.",
+  "position_integration": "The Duck Under from Clinch serves as a critical bridge between neutral standing engagement and dominant back control in BJJ's positional hierarchy. It connects the Clinch position directly to the Standing Rear Clinch, one of the most dominant standing positions available, creating a high-value positional advancement in a single technique. Within the clinch offense system, the duck under chains with arm drags, snap downs, and single leg entries to form a comprehensive attacking framework. When the duck under is stuffed, practitioners can immediately transition to single leg takedowns or snap down sequences, making it a low-risk entry into the chain wrestling cycle. The technique is essential for any practitioner who wants to establish takedown-based offense rather than relying on guard pulls, particularly in no-gi and submission grappling competition formats where wrestling-style positioning rewards back exposure and mat returns.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Clinch",
+      "relationship": "Starting position from which the duck under is initiated"
+    },
+    {
+      "name": "Standing Rear Clinch",
+      "relationship": "Primary destination upon successful completion of the duck under"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Ultimate positional goal following Standing Rear Clinch establishment via takedown"
+    },
+    {
+      "name": "Arm Drag from Clinch",
+      "relationship": "Complementary clinch technique that chains with duck under in offensive sequences"
+    },
+    {
+      "name": "Single Leg Takedown",
+      "relationship": "Chain attack option when duck under is stuffed and opponent sprawls"
+    },
+    {
+      "name": "Body Lock Takedown from Clinch",
+      "relationship": "Alternative clinch takedown that targets the same positional advancement"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Counter position the opponent may establish if duck under exposes the head"
+    },
+    {
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Alternative clinch attack that chains with the duck under as part of level change combinations"
+    },
+    {
+      "name": "Body Lock",
+      "relationship": "Grip configuration used to secure control after completing the duck under"
+    },
+    {
+      "name": "Double Leg Entry",
+      "relationship": "Related level change technique from clinch that shares similar setup mechanics"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Potential counter outcome position when duck under leads to scramble and guard pull"
     }
   ],
   "attacker": {
     "name": "Duck Under from Clinch Attacker",
-    "description": "TODO: Write attacker description for Duck Under from Clinch.",
-    "overview": "TODO: Write attacker overview for Duck Under from Clinch.",
+    "description": "Learn to execute the Duck Under from Clinch as the attacker. Step-by-step level change mechanics, arm clearance technique, and circling behind to establish Standing Rear Clinch.",
+    "overview": "The Duck Under from Clinch is executed by the practitioner who uses a level change to dip beneath the opponent's arm and circle behind them. From the attacker's perspective, this technique converts a neutral or disadvantaged clinch position into the highly dominant Standing Rear Clinch through explosive level change, precise arm clearance, and continuous lateral movement. The attacker must read the opponent's grip configuration, identify the optimal side to duck under, create effective misdirection, and commit fully to the circular motion without hesitation. Success depends on proper knee-bend mechanics that protect the neck while generating explosive lateral movement, and achieving immediate chest-to-back contact after clearing the arm to prevent the opponent from re-squaring.",
     "key_principles": [
-      "TODO"
+      "Change levels through the knees, not the waist—maintain a strong spine angle to protect against front headlock and preserve explosive lateral power",
+      "Create misdirection before commitment—generate an upward or lateral reaction from the opponent to open space beneath their arm for the level change",
+      "Clear the arm actively using your hands to redirect the opponent's elbow upward rather than passively ducking lower beneath it",
+      "Maintain continuous circular motion once the duck is initiated—never stop lateral movement until chest-to-back contact is fully established",
+      "Achieve immediate chest-to-back pressure the moment you clear the arm to prevent the opponent from turning to face you",
+      "Commit explosively—the duck under succeeds through speed and decisiveness, not through strength; half-committed attempts are consistently countered"
     ],
     "setup_requirements": [
-      "TODO"
+      "Close clinch range with head contact or near-head proximity, ensuring minimal distance for the level change to cover",
+      "At least one controlling grip such as collar tie, bicep control, or wrist grip on the side you intend to duck under",
+      "Opponent's weight slightly forward or committed to upper body engagement, preventing immediate disengagement when you change levels",
+      "Clear path for your head to travel beneath opponent's arm without obstruction from secondary grips or frames",
+      "Stable base with feet shoulder-width apart and knees bent, loaded and ready for explosive level change"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish controlling grip",
+        "description": "From the clinch, secure a collar tie or wrist control on the side you intend to duck under while maintaining head position against the opponent's shoulder. Your inside hand controls their bicep or elbow on the duck side, preparing for arm clearance during the level change."
+      },
+      {
+        "step_number": 2,
+        "action": "Create misdirection",
+        "description": "Apply a brief push or snap to the opponent's head or shoulder on the duck under side to generate a reactive response. This misdirection redirects their attention upward or laterally, causing their arms to lift and creating the momentary gap beneath their arm needed for the level change."
+      },
+      {
+        "step_number": 3,
+        "action": "Change levels explosively",
+        "description": "Drop your hips by bending explosively at the knees, not the waist, lowering your head beneath the opponent's arm on the target side. Maintain a relatively upright torso and strong leg base throughout to protect your neck from guillotine or front headlock attempts during the transition."
+      },
+      {
+        "step_number": 4,
+        "action": "Clear the arm",
+        "description": "As your head passes beneath their arm, use your near hand to actively push their elbow upward and past your head. Simultaneously step your near foot across to the opposite side of their body, initiating the critical circular motion that carries you behind them toward their back."
+      },
+      {
+        "step_number": 5,
+        "action": "Circle behind the opponent",
+        "description": "Drive laterally and behind the opponent using short, powerful shuffle steps without crossing your feet. Your chest must make contact with their upper back as quickly as possible while your head stays tight against their shoulder blade, creating a physical barrier that prevents them from turning to face you."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure rear clinch grip",
+        "description": "Establish a body lock or seatbelt grip as your chest connects with the opponent's back. Position your hips at approximately 45 degrees to one side rather than directly behind them to prevent sit-back reversals, and begin applying immediate forward pressure through the chest-to-back connection."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Standing Rear Clinch",
+        "description": "Settle your weight into the Standing Rear Clinch by fine-tuning your hip angle, securing your preferred grip configuration between seatbelt and body lock, and beginning to assess takedown or back take opportunities based on the opponent's immediate defensive reaction and body positioning."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Sprawl and hip away upon recognizing the level change, driving hips back and pushing attacker's head down",
+        "effectiveness": "High",
+        "your_response": "Convert to single leg by catching their near leg as they sprawl backward, or immediately re-engage the clinch from a lower position using an underhook",
         "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Whizzer (overhook) threaded on the duck side as head passes beneath the arm, controlling the attacker's shoulder",
+        "effectiveness": "Medium",
+        "your_response": "Continue circling through the whizzer by keeping hips tight to opponent's body and driving short steps; alternatively switch to an inside trip on the far leg using the close proximity",
+        "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Cross-face with free hand as attacker ducks, combined with hip re-squaring to prevent the circle behind",
+        "effectiveness": "High",
+        "your_response": "Underhook on the cross-face side and drive through to complete the back take, or disengage and re-engage from standing with a snap down",
+        "targets_outcome": "Clinch/Bottom"
+      },
+      {
+        "counter": "Sit to guard when feeling the angle being gained, denying the standing back take by transitioning to ground",
+        "effectiveness": "Medium",
+        "your_response": "Follow immediately with body lock pass or knee slide while maintaining forward chest pressure as they descend to the mat",
+        "targets_outcome": "Open Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Bending at the waist instead of dropping hips through the knees when changing levels",
+        "consequence": "Exposes the back of the neck to guillotine or front headlock, compromises base and balance, and creates a slow telegraphed movement that is easily countered",
+        "correction": "Change levels by bending knees and dropping hips explosively while keeping chest relatively upright and head positioned safely against the opponent's body"
+      },
+      {
+        "error": "Telegraphing the duck under by shifting weight or looking toward the target side before initiating",
+        "consequence": "Opponent recognizes the technique early and sprawls, cross-faces, or whizzers before the level change begins, neutralizing the attempt",
+        "correction": "Use misdirection by pushing or snapping opponent's head before ducking, maintain neutral eye contact, and commit to the motion explosively without preparatory weight shifts"
+      },
+      {
+        "error": "Failing to actively clear the arm, attempting to duck lower rather than redirecting the opponent's elbow upward",
+        "consequence": "Head gets trapped under opponent's armpit, allowing them to secure front headlock or guillotine grip and converting the offensive attempt into a dangerous defensive situation",
+        "correction": "Use the near hand to actively push the opponent's elbow up and past your head during the duck, creating space rather than trying to squeeze through a tight gap"
+      },
+      {
+        "error": "Stopping lateral movement after clearing the arm instead of continuing to circle fully behind the opponent",
+        "consequence": "Opponent turns to face you before rear clinch is established, returning to neutral clinch or creating an unfavorable scramble position",
+        "correction": "Continue driving short powerful steps behind the opponent until full chest-to-back contact is established and a controlling grip is secured"
+      },
+      {
+        "error": "Initiating the duck under from too far away, requiring excessive forward travel to reach the opponent's arm",
+        "consequence": "Technique becomes slow and telegraphed, giving the opponent time to react with sprawl, cross-face, or disengagement before you can complete the level change",
+        "correction": "Initiate from proper clinch distance where your head is already near their shoulder, minimizing the travel distance and maximizing the explosive entry speed"
+      },
+      {
+        "error": "Neglecting to secure grips immediately after reaching the opponent's back, celebrating the position before consolidating",
+        "consequence": "Opponent escapes by spinning out or stepping away before the Standing Rear Clinch is established, wasting the successful duck under entry",
+        "correction": "Lock in body lock or seatbelt grip instantly as chest contacts back, prioritizing physical connection over perfect grip placement initially"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Level change and circular footwork pattern",
+        "description": "Drill the duck under motion without a partner, focusing on dropping hips through bent knees while maintaining upright torso, stepping across with the near foot, and driving laterally with short shuffle steps. Build muscle memory for the movement pattern and develop explosiveness in the level change."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Arm clearance timing and chest-to-back connection",
+        "description": "Practice with a partner offering light static resistance from clinch position. Focus on proper arm clearance mechanics by pushing the elbow upward, achieving fast chest-to-back contact, and establishing secure grips. Partner holds clinch grips but does not actively counter. Drill 20-30 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Combining duck under with complementary clinch attacks",
+        "description": "Chain the duck under with arm drags, snap downs, and single leg entries as combination attacks. Partner provides moderate resistance and reacts to initial threats, forcing you to read their defensive response and select the appropriate follow-up technique. Develop decision-making flow between linked techniques."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Sparring",
+        "focus": "Timing and reading openings against real defense",
+        "description": "Practice against increasing resistance in positional sparring starting from the clinch. Partner actively defends with sprawls, whizzers, and cross-faces. Focus on identifying genuine openings, creating misdirection that generates real reactions, and completing the duck under against fully resisting opponents."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Full integration into live grappling rounds",
+        "description": "Integrate the duck under into complete sparring rounds, working on setting up the technique from various clinch engagements and immediately transitioning to takedowns or back takes upon success. Develop the ability to recognize duck under opportunities organically within the flow of live grappling."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the critical mechanical difference between a successful duck under level change and one that gets stuffed?",
+        "answer": "The successful duck under changes levels by bending at the knees while keeping the torso relatively upright, which maintains base, speed, and protects the neck from front headlock attacks. A failed duck under typically bends at the waist, which exposes the back of the neck, removes hip power from the lateral motion, and creates a slow telegraphed movement. The knee bend preserves the ability to drive laterally with explosive steps while the waist bend collapses your structure forward into the opponent's control framework."
+      },
+      {
+        "question": "Your opponent has a strong collar tie on your right side—which direction do you duck under and why?",
+        "answer": "Duck under to your right, going beneath their collar tie arm. The collar tie creates the ideal opportunity because the arm is already extended and positioned above your head level. By ducking under this arm, you use their grip commitment against them—their hand is occupied controlling your head, making it slower to react to the level change. Push their right elbow upward with your right hand as you step across with your right foot, clearing your head under the arm they cannot quickly retract."
+      },
+      {
+        "question": "What misdirection setup most effectively disguises the duck under from an experienced clinch fighter?",
+        "answer": "A brief snap down or push on the opponent's head toward their weak side creates a momentary upward or lateral reaction that opens space for the duck under. The opponent instinctively resists the snap by posturing up or pushing back, which lifts their arms and creates the gap beneath them. Alternatively, threatening a single leg entry on the opposite side forces them to defend low, then immediately redirecting to the duck under exploits their downward defensive commitment and creates maximum space beneath the arms."
+      },
+      {
+        "question": "What grip must you establish before attempting the duck under and where does that hand go during execution?",
+        "answer": "You need at least a bicep or wrist control on the duck under side before initiating. During execution, this hand transitions to pushing the opponent's elbow upward and past your head to clear the path. Without this controlling grip, you cannot effectively redirect their arm above your head, and the duck under becomes a pure level change without arm clearance—dramatically increasing the risk of getting caught in a front headlock or guillotine as you lower your head into their control range."
+      },
+      {
+        "question": "Your duck under gets halfway through but the opponent whizzers your near arm—how do you complete the technique?",
+        "answer": "Keep your hips tight to their body and continue circling despite the whizzer. The overhook only works defensively if you stop your lateral movement—as long as you maintain circular momentum, the whizzer actually becomes a connection point that keeps you attached to their body. Drop your hips lower to reduce their leverage angle, keep driving short shuffle steps behind them, and use your free arm to secure a grip around their waist. If the whizzer is extremely deep and stops your rotation, switch to an inside trip on their far leg using the close proximity the whizzer creates."
+      },
+      {
+        "question": "What is the most common counter an opponent will use against the duck under and how do you prevent it?",
+        "answer": "The sprawl is the most common counter. Opponents who feel the level change immediately drive their hips backward and push down on your head or shoulders. Prevention relies on proper misdirection and explosive commitment—if you snap or push before ducking, the opponent's upward reaction opens a window where a sprawl is physiologically delayed by their recovery. Additionally, keeping your head tight to their body rather than leading with your head extended forward makes the sprawl less effective because there is less exposed surface for them to push down on."
+      },
+      {
+        "question": "In what clinch scenario is the duck under highest percentage versus when should you choose a different technique?",
+        "answer": "The duck under is highest percentage when the opponent is focused on upper body control with committed grips—collar ties, overhooks, or high wrist controls that leave space beneath their arms. It works best against taller opponents whose natural arm extension creates larger gaps for head clearance. Avoid the duck under when the opponent has low tight underhooks with their head buried in your chest, as there is no space to duck through and your level change exposes you to lifts. In that scenario, an arm drag or snap down is more appropriate since the opponent's structure is compact and low."
+      },
+      {
+        "question": "How does the duck under chain with other clinch techniques when your initial attempt is blocked?",
+        "answer": "If the duck under is stuffed by a sprawl, immediately transition to a single leg by catching the near leg before they recover their hips forward. If they counter with a cross-face, convert to an arm drag by capturing the cross-facing arm and circling the opposite direction. If they re-square quickly, the duck under attempt has created a reaction you can exploit with a snap down to front headlock. The duck under must be treated as the first link in a chain rather than an isolated technique—the failed attempt always creates a follow-up opening."
+      },
+      {
+        "question": "What footwork pattern makes the duck under most mechanically effective?",
+        "answer": "The footwork follows a penetration step pattern where your near foot—same side as the duck—steps across past the opponent's centerline as you duck beneath their arm. This initial penetration step is the most critical movement because it commits your body to the circular path and creates the angular momentum needed to complete the back take. Follow immediately with short lateral shuffle steps driving behind them, never crossing your feet which would compromise your base. The near foot leads, the far foot follows, maintaining shoulder-width balance throughout the circling motion."
+      },
+      {
+        "question": "What body contact point must you achieve immediately after clearing the opponent's arm and why is it critical?",
+        "answer": "Chest-to-back contact is the essential connection point that must be established the instant you clear their arm. Your chest pressed firmly against the opponent's upper back creates a physical barrier that prevents them from turning to face you by blocking their rotational movement. Without immediate chest contact, there is a critical window where the opponent can spin their hips, re-square their stance, and face you before you establish any controlling grip. The chest contact also provides the sustained forward pressure needed to prevent them from simply stepping away from you."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Duck Under from Clinch."
+    "safety_considerations": "The duck under involves rapid level changes that can strain the lower back and knees if performed with poor mechanics. Always warm up the neck, lower back, hip flexors, and knees thoroughly before drilling. Partners should avoid applying excessive downward pressure on the head or neck during the ducking phase, as this can compress the cervical spine dangerously. Practice at controlled speed initially, progressing to full speed only after proper knee-bend mechanics are habitual. In live training, be aware of potential collision risk when both practitioners change levels simultaneously from the clinch."
   },
   "defender": {
     "name": "Duck Under from Clinch Defender",
-    "description": "TODO: Write defender description for Duck Under from Clinch.",
-    "overview": "TODO: Write defender overview for Duck Under from Clinch.",
+    "description": "Learn to defend the Duck Under from Clinch in BJJ. Recognition cues, sprawl defense, whizzer counters, and techniques for preventing the back take from standing.",
+    "overview": "Defending the Duck Under from Clinch requires the ability to recognize the technique's setup cues and react before the opponent completes the circle behind you. The defender must understand that the duck under exploits commitment to upper body control—extended arms and high grips create the space the technique requires for the level change and arm clearance. Effective defense involves maintaining compact clinch positioning, reacting to level changes with immediate hip movement rather than arm adjustments, and developing the ability to re-square your body rapidly when the opponent begins circling behind you.\n\nThe defender who masters duck under recognition can convert successful defenses into counter-offensive opportunities. A well-timed sprawl exposes the attacker's head for front headlock entries, a failed duck leaves the attacker at a lower level vulnerable to snap downs, and the attacker's forward commitment during the duck creates openings for guillotine threats. Understanding these counter-offensive pathways transforms duck under defense from a purely reactive skill into an active part of your clinch strategy.",
     "key_principles": [
-      "TODO"
+      "Maintain compact arm positioning in the clinch—avoid extending arms high or wide, which creates the space needed for the duck under entry",
+      "React to level changes immediately with hip movement—drop your hips or sprawl the instant you feel the opponent lowering their body beneath your arms",
+      "Re-square your hips to face the opponent as soon as you detect circular movement, preventing them from completing the path behind you",
+      "Use the whizzer as your primary immediate mechanical counter—thread the overhook on the duck side as the opponent passes beneath your arm to control their shoulder",
+      "Keep your weight centered and avoid overcommitting to forward pressure in the clinch, which makes the duck under level change easier to execute beneath you",
+      "Punish failed duck under attempts by establishing front headlock or guillotine control when the attacker's head drops below your arm level"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent breaks head-to-shoulder contact and begins lowering their level while maintaining or shifting to one-sided grip control on your arm",
+      "Feeling a push or snap on your head followed immediately by downward body movement from the opponent, indicating misdirection setup preceding the duck",
+      "Opponent's near hand moves to your elbow or bicep, attempting to redirect your arm upward before dipping their head underneath",
+      "Sudden shift in opponent's weight from sustained forward clinch pressure to lateral movement combined with a noticeable level drop",
+      "Opponent releases one grip while maintaining the other, freeing a hand to clear your arm during the duck under entry"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Sprawl and drive hips back immediately upon recognizing the level change, pushing opponent's head or shoulders downward",
+        "when_to_use": "At the earliest recognition of the level change, before the opponent's head passes beneath your arm",
         "targets_outcome": "Clinch/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Duck under is completely stuffed, you maintain clinch position or gain opportunity for front headlock control",
+        "risk": "If sprawl timing is late and opponent has already cleared the arm, you accelerate their circular momentum by driving forward"
+      },
+      {
+        "action": "Thread a whizzer (overhook) on the duck side as the opponent's head passes beneath your arm to control their shoulder and block rotation",
+        "when_to_use": "When the opponent's head is passing beneath your arm but has not yet established chest-to-back contact",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "Controls opponent's shoulder, prevents completion of the circle behind you, and allows recovery to neutral clinch",
+        "risk": "If the whizzer is shallow or applied too late, the opponent drives through the overhook and completes the back take"
+      },
+      {
+        "action": "Cross-face with free hand and immediately step to re-square hips, turning to face the opponent before they complete the circle",
+        "when_to_use": "When opponent has partially completed the duck under but chest-to-back contact is not yet established",
+        "targets_outcome": "Clinch/Bottom",
+        "if_successful": "Prevents back take and returns engagement to neutral clinch position where grip fighting resumes",
+        "risk": "If re-squaring is too slow, opponent uses your turning motion to accelerate their own circular movement behind you"
+      },
+      {
+        "action": "Sit to guard to deny standing back exposure when duck under is nearly complete and re-squaring is no longer possible",
+        "when_to_use": "As a last resort when opponent has established significant angle behind you and standing recovery is unlikely",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Denies the standing back take and transitions to guard position where defensive options exist against the top player",
+        "risk": "Concedes standing position entirely and gives opponent top position with momentum, requiring immediate guard establishment"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Rear Clinch/Top",
-        "how": "TODO"
+        "outcome": "Clinch/Bottom",
+        "how": "React early to the level change with a sprawl or whizzer to completely deny the duck under before the opponent clears your arm. Re-square your hips immediately and re-engage in clinch grip fighting. This preserves standing position and denies all back take attempts."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When the duck under is nearly complete and standing back control is imminent, immediately sit to guard rather than giving up the full Standing Rear Clinch. While this concedes standing position, it prevents the high-danger back control and gives you open guard defensive options to work from."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Reacting to the level change by extending arms downward to push the opponent's head rather than moving the hips",
+        "consequence": "Extended arms create more space for the opponent to duck through and actually facilitate the technique by widening the gap beneath your arm",
+        "correction": "React with your hips first—sprawl back or drop your own center of gravity while keeping arms compact and close to your body to minimize available space"
+      },
+      {
+        "error": "Trying to hold the opponent's head down after they initiate the duck by pushing on the back of their head",
+        "consequence": "Hands pushing on the back of their head actually assists the ducking motion and your arms end up behind their body as they circle",
+        "correction": "Immediately transition to whizzer on the duck side or cross-face on the opposite side rather than chasing their head, controlling their shoulder structure instead"
+      },
+      {
+        "error": "Turning away from the duck under direction when attempting to re-square, showing your back",
+        "consequence": "Accelerates the opponent's circular motion behind you and makes it significantly easier for them to establish chest-to-back contact",
+        "correction": "Re-square by stepping your far foot backward and turning your hips toward the opponent, bringing your centerline to face them rather than rotating away"
+      },
+      {
+        "error": "Remaining static in the clinch with high loose arm positioning that creates permanent duck under openings",
+        "consequence": "Gives the opponent a standing invitation to duck under at any moment, removing the need for setup or misdirection",
+        "correction": "Maintain active compact arm positioning with elbows close to ribs, avoid leaving wide gaps beneath your arms, and keep hands engaged in grip fighting rather than static"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is initiating a duck under from the clinch?",
+        "answer": "The earliest cue is a combination of the opponent's grip shifting to your elbow or bicep on one side—preparing to clear your arm upward—and a subtle weight drop as they load their legs for the level change. This is often preceded by a misdirection push or snap on your head. The grip adjustment combined with the level change preparation is the definitive tell that distinguishes a duck under setup from other clinch attacks like snap downs or double leg entries."
+      },
+      {
+        "question": "Your opponent successfully clears your arm and is halfway behind you—what is your highest-percentage recovery?",
+        "answer": "Immediately thread a whizzer on the arm closest to them and drive your hips toward the opponent rather than pulling away. Simultaneously step your far foot backward to begin re-squaring your body toward them. The whizzer creates a connection point that prevents full completion of the circle, while the hip drive stops their forward momentum. If the whizzer holds, use it to turn and face them recovering to clinch. If they are too deep for the whizzer to hold, sit to guard rather than giving up full standing back control."
+      },
+      {
+        "question": "How should you adjust your overall clinch strategy against an opponent who repeatedly threatens the duck under?",
+        "answer": "Lower your clinch engagement level by keeping hands and elbows tighter to your body, avoiding high collar ties that create gaps beneath your arms, and maintaining slightly more distance to reduce the effectiveness of their level change. Punish their duck under attempts by establishing front headlock or guillotine grip whenever their head drops below your arm level. Make the consequences of a failed duck under severe enough to discourage repeated attempts, forcing them to invest more heavily in misdirection before committing."
+      },
+      {
+        "question": "Why is sprawling more effective as a duck under defense than stepping backward away from the opponent?",
+        "answer": "Sprawling drives your hips away from the opponent while keeping your upper body weight on top of them, creating a structural barrier to their circular movement and dropping your center of gravity below their duck. Stepping backward maintains the spatial relationship between your bodies, gives them room to continue circling, and does nothing to close the gap beneath your arms. The sprawl also positions your chest weight on their upper back if their head is exposed, which can be converted directly to front headlock control."
+      },
+      {
+        "question": "What is the relationship between your arm positioning in the clinch and vulnerability to the duck under?",
+        "answer": "High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying duck under setup cues and selecting correct defensive response",
+        "description": "Partner signals duck under attempts at slow speed while you practice identifying grip shifts, level changes, and misdirection setups. Focus purely on recognition speed and selecting the correct defensive response without resistance. Build the pattern recognition that enables early intervention."
+      },
+      {
+        "phase": "Phase 2: Defensive Reaction Drilling",
+        "focus": "Executing sprawl, whizzer, and re-square mechanics against progressive speed",
+        "description": "Partner performs duck unders at 50% speed while you execute defensive responses including sprawl timing, whizzer threading depth, and hip re-squaring footwork. Gradually increase partner speed and commitment over multiple rounds, focusing on matching your defensive timing to each phase of the duck under."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense Integration",
+        "focus": "Converting successful defenses into offensive opportunities",
+        "description": "Practice converting successful duck under defenses into your own attacking positions—front headlock from the sprawl, guillotine attempts when their head drops, dominant clinch re-engagement with superior grips after re-squaring. Focus on making the duck under attempt costly for the opponent."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Defending duck under within full clinch engagements at competition speed",
+        "description": "Full-speed positional sparring from clinch where partner may or may not attempt the duck under alongside other clinch attacks. Develop the ability to defend the duck under while maintaining your own offensive clinch strategy, avoiding the trap of becoming overly defensive and passive against the threat."
       }
     ]
   }

@@ -87,19 +87,25 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (17% of attempts)
+- **[[Elbow Escape to Guard]]** (42% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Hip Escape to Guard]]** (10% of attempts)
 
-- **[[Shrimp Escape]]** (16% of attempts)
+- **[[Deep Half Entry]]** (5% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Knee Shield Retention]]** (11% of attempts)
 
-- **[[Knee Shield Retention]]** (16% of attempts)
+- **[[Technical Stand-up]]** (4% of attempts)
 
-- **[[Technical Stand-up]]** (10% of attempts)
+- **[[Frame and Shrimp to Guard]]** (10% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (14% of attempts)
+- **[[Hip Escape to Turtle]]** (9% of attempts)
+
+- **[[Frame and Shrimp from Knee on Belly]]** (3% of attempts)
+
+- **[[Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
+
+- **[[Turn to Turtle from Knee on Belly]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -164,19 +170,27 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (22% of attempts)
+- **[[Side Control to Mount]]** (37% of attempts)
 
-- **[[Armbar Finish]]** (14% of attempts)
+- **[[Armbar Finish]]** (9% of attempts)
 
-- **[[Baseball Bat Choke]]** (16% of attempts)
+- **[[Baseball Bat Choke]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (15% of attempts)
+- **[[Side Control to North-South]]** (10% of attempts)
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Kimura]]** (7% of attempts)
 
-- **[[Back Take from Top]]** (10% of attempts)
+- **[[Back Take from Top]]** (7% of attempts)
 
-- **[[S-Mount Transition]]** (11% of attempts)
+- **[[S-Mount Transition]]** (6% of attempts)
+
+- **[[Cross Collar Choke]]** (9% of attempts)
+
+- **[[Far Side Armbar from KOB]]** (2% of attempts)
+
+- **[[KOB to Mount]]** (1% of attempts)
+
+- **[[KOB to Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes

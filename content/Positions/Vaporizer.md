@@ -166,21 +166,23 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (22% of attempts)
+- **[[Half Guard Pass]]** (27% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Knee Slice Pass]]** (14% of attempts)
 
-- **[[Smash Pass]]** (13% of attempts)
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (13% of attempts)
+- **[[Pressure Pass]]** (12% of attempts)
 
-- **[[Lockdown Escape to Half Guard Pass]]** (13% of attempts)
+- **[[Lockdown Escape to Half Guard Pass]]** (12% of attempts)
 
-- **[[Whizzer]]** (13% of attempts)
+- **[[Whizzer]]** (12% of attempts)
 
-- **[[Defend Vaporizer Sweep]]** (7% of attempts)
+- **[[Defend Vaporizer Sweep]]** (6% of attempts)
 
-- **[[Pass Vaporizer Position]]** (4% of attempts)
+- **[[Pass Vaporizer Position]]** (3% of attempts)
+
+- **[[Escape from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes

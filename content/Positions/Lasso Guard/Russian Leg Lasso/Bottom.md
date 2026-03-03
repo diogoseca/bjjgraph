@@ -50,8 +50,8 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Inverted Lasso Guard",
-      "text": "From this position, attempt Transition to Inverted Lasso Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,7 +216,7 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 ### [[Sickle Sweep]] (13% of attempts)
 
-### [[Transition to Inverted Lasso Guard]] (8% of attempts)
+### [[Berimbolo Entry]] (8% of attempts)
 
 ### [[Omoplata]] (10% of attempts)
 

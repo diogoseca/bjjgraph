@@ -95,15 +95,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (25% of attempts)
+- **[[Elbow Escape to Guard]]** (33% of attempts)
 
-- **[[Hip Escape to Guard]]** (22% of attempts)
+- **[[Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** (18% of attempts)
+- **[[Bridge and Roll]]** (14% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (20% of attempts)
+- **[[Shrimp Escape]]** (16% of attempts)
 
-- **[[Technical Stand-up]]** (15% of attempts)
+- **[[Technical Stand-up]]** (11% of attempts)
+
+- **[[Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
+
+- **[[Escape Reverse Kesa-Gatame]]** (2% of attempts)
+
+- **[[Turn In from Reverse Kesa]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,17 +170,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (22% of attempts)
+- **[[Side Control to Mount]]** (26% of attempts)
 
-- **[[Side Control to North-South]]** (18% of attempts)
+- **[[Side Control to North-South]]** (15% of attempts)
 
-- **[[Kimura]]** (18% of attempts)
+- **[[Kimura]]** (15% of attempts)
 
-- **[[Americana]]** (15% of attempts)
+- **[[Americana]]** (13% of attempts)
 
-- **[[Arm Triangle]]** (12% of attempts)
+- **[[Arm Triangle]]** (10% of attempts)
 
-- **[[Back Take]]** (15% of attempts)
+- **[[Back Take]]** (13% of attempts)
+
+- **[[Reverse Kesa to North-South]]** (5% of attempts)
+
+- **[[Reverse Kesa to Side Control]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -215,7 +225,7 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 - **[[Kesa Gatame]]** - Traditional scarf hold with forward-facing orientation - parent position in scarf hold family
 
-- **[[Scarf Hold Position]]** - General category encompassing all scarf hold variations
+- **[[Reverse Scarf Hold]]** - General category encompassing reverse scarf hold variations
 
 - **[[Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control mechanics
 

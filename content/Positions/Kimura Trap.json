@@ -140,9 +140,9 @@
             "probability": 85
           },
           {
-            "technique": "North-South to Kimura",
-            "target": "game-over",
-            "probability": 80
+            "technique": "Arm Triangle Setup",
+            "target": "Arm Triangle",
+            "probability": 70
           }
         ]
       }
@@ -323,11 +323,7 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Transition to Reverse Scarf Hold",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Guard Recovery",
+        "transition": "Arm Triangle Setup",
         "attempt_probability": 8
       },
       {

@@ -21,37 +21,37 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,17 +206,21 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (22% of attempts)
+### [[Side Control to Mount]] (26% of attempts)
 
-### [[Side Control to North-South]] (18% of attempts)
+### [[Side Control to North-South]] (15% of attempts)
 
-### [[Kimura]] (18% of attempts)
+### [[Kimura]] (15% of attempts)
 
-### [[Americana]] (15% of attempts)
+### [[Americana]] (13% of attempts)
 
-### [[Arm Triangle]] (12% of attempts)
+### [[Arm Triangle]] (10% of attempts)
 
-### [[Back Take]] (15% of attempts)
+### [[Back Take]] (13% of attempts)
+
+### [[Reverse Kesa to North-South]] (5% of attempts)
+
+### [[Reverse Kesa to Side Control]] (3% of attempts)
 
 
 
@@ -379,7 +383,7 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 ## Related Positions and Techniques
 
 - **[[Kesa Gatame]]** - Traditional scarf hold variation - parent position with forward-facing orientation
-- **[[Scarf Hold Position]]** - Alternative scarf hold variation with similar control mechanics
+- **[[Reverse Scarf Hold]]** - Alternative scarf hold variation with similar control mechanics
 - **[[Side Control]]** - Entry position and fallback option if reverse kesa is compromised
 - **[[North-South]]** - Natural transition target when opponent bridges
 - **[[Mount]]** - Primary advancement position when opponent creates space with shrimp

@@ -21,37 +21,37 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,21 +213,25 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Available Attacks
 
-### [[Americana]] (14% of attempts)
+### [[Americana]] (12% of attempts)
 
-### [[Kimura]] (13% of attempts)
+### [[Kimura]] (11% of attempts)
 
-### [[Armbar Finish]] (12% of attempts)
+### [[Armbar Finish]] (10% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Side Control to Mount]] (23% of attempts)
 
-### [[Side Control to North-South]] (14% of attempts)
+### [[Side Control to North-South]] (12% of attempts)
 
-### [[North-South Choke]] (11% of attempts)
+### [[North-South Choke]] (9% of attempts)
 
-### [[Armbar on Free Arm]] (10% of attempts)
+### [[Armbar on Free Arm]] (8% of attempts)
 
-### [[Arm Triangle]] (11% of attempts)
+### [[Arm Triangle]] (9% of attempts)
+
+### [[Modified Scarf to Kesa Gatame]] (4% of attempts)
+
+### [[Modified Scarf to Mount]] (2% of attempts)
 
 
 

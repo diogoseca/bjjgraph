@@ -508,8 +508,8 @@
         "condition": "If opponent is transitioning toward saddle position",
         "actions": [
           {
-            "technique": "Saddle Defense",
-            "target": "Saddle",
+            "technique": "Angle Change Escape",
+            "target": "50-50 Guard",
             "probability": 40
           },
           {
@@ -676,7 +676,7 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Saddle Defense",
+        "transition": "Angle Change Escape",
         "attempt_probability": 4
       },
       {

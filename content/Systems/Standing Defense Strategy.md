@@ -340,11 +340,11 @@ Standing defense training should integrate technical drilling, reaction training
 - [[Butterfly Guard]] (Position) - Guard option when pulling from standing defense
 - [[Sprawl]] (Transition) - Primary defensive technique against leg attack takedowns
 - [[Sprawl Defense]] (Transition) - Comprehensive technique for defending double and single leg attacks
-- [[Takedown Defense]] (Transition) - General category of defensive techniques this system builds upon
+- [[Takedown Entry]] (Principle) - Understanding takedown entries is essential for recognizing and defending against them
 - [[Guard Pull]] (Transition) - Strategic alternative to standing defense when tactically appropriate
 - [[Single Leg Entry]] (Transition) - Common attack this system defends against
-- [[Double Leg Entry]] (Transition) - Common attack this system defends against
-- [[Grip Break]] (Transition) - Essential technique within grip fighting framework
+- [[Double Leg Finish]] (Transition) - Common attack this system defends against
+- [[Grip Break]] (Principle) - Essential technique within grip fighting framework
 - [[Whizzer]] (Transition) - Defensive control used in sprawl defense protocol
 - [[Technical Stand-up]] (Transition) - Offensive transition to return to standing when taken down
 - [[Snap Down to Front Headlock]] (Transition) - Counter-offensive technique from standing defense exchanges

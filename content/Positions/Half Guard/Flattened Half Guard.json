@@ -122,9 +122,9 @@
             "probability": 40
           },
           {
-            "technique": "Underhook Pass",
-            "target": "Side Control",
-            "probability": 50
+            "technique": "Arm Triangle Setup",
+            "target": "Arm Triangle",
+            "probability": 45
           }
         ]
       }
@@ -221,7 +221,7 @@
     "transitions": [
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 30
+        "attempt_probability": 38
       },
       {
         "transition": "Crossface Pass",
@@ -233,27 +233,31 @@
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
-        "transition": "Kimura",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Transition to Flattened Half Guard",
-        "attempt_probability": 13
+        "transition": "Arm Triangle Setup",
+        "attempt_probability": 9
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 5
       },
       {
         "transition": "Complete Pass from Flattened Half",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Knee Slide from Flattened Half",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Cross Face Pass from Flattened Half",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
@@ -270,8 +274,8 @@
         "answer": "Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan."
       },
       {
-        "question": "What are the two primary passing approaches available from flattened half guard top?",
-        "answer": "The knee slice pass and the crossface/underhook pass are the two primary options. The knee slice involves creating an angle and driving your knee across their body to free the trapped leg. The crossface pass maintains heavy shoulder pressure while extracting the leg through hip movement and stepping over. Both require maintaining chest pressure throughout."
+        "question": "How do you manage energy expenditure while maintaining sustained pressure from flattened half guard top?",
+        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure maintenance. Your chest and hips should create compression through body weight distribution and positioning, not by tensing or squeezing. Keep your crossface arm connected to your skeleton with minimal grip force - firm but relaxed control sustainable over minutes, not seconds. Save explosive energy for initiating passing sequences or capitalizing on opponent mistakes. Between passing attempts, settle your weight and breathe calmly while maintaining heavy but effortless pressure through proper body alignment."
       },
       {
         "question": "Your opponent reaches their far arm to push against your crossface - how do you capitalize on this?",
@@ -286,8 +290,8 @@
         "answer": "When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control."
       },
       {
-        "question": "How do you maintain pressure while transitioning between different passing attempts?",
-        "answer": "Keep your chest connected to their torso throughout all transitions - adjust position through hip movement and weight shifts rather than posting hands wide or sitting back. The moment you lift your chest, they will insert a knee shield or create frames. Think of your chest as an anchor point that never breaks contact during movement."
+        "question": "Your opponent manages to insert their bottom elbow as a wedge and creates two inches of space - how do you recover full control?",
+        "answer": "Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery."
       }
     ]
   },
@@ -465,31 +469,35 @@
     "transitions": [
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 47
+        "attempt_probability": 68
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 16
+        "attempt_probability": 12
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": 1
+        "attempt_probability": 12
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 6
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Old School Sweep",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Underhook Recovery from Flattened",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 0
       },
       {
         "transition": "Deep Half Entry from Flattened",
@@ -504,7 +512,7 @@
         "attempt_probability": 0
       },
       {
-        "transition": "Underhook Recovery from Flattened",
+        "transition": "Reversal from Flattened Half Guard",
         "attempt_probability": 1
       }
     ],

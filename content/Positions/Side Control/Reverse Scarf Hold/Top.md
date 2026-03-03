@@ -21,37 +21,37 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,23 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Available Attacks
 
-### [[Side Control to North-South]] (18% of attempts)
+### [[Side Control to North-South]] (24% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Side Control to Mount]] (13% of attempts)
 
-### [[Americana]] (13% of attempts)
+### [[Americana]] (11% of attempts)
 
-### [[Kimura]] (14% of attempts)
+### [[Kimura]] (12% of attempts)
 
-### [[Back Step]] (12% of attempts)
+### [[Back Step]] (10% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Knee Slice Pass]] (15% of attempts)
 
-### [[Arm Triangle]] (11% of attempts)
+### [[Arm Triangle]] (9% of attempts)
+
+### [[Reverse Scarf to North-South]] (4% of attempts)
+
+### [[Reverse Scarf to Side Control]] (2% of attempts)
 
 
 

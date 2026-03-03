@@ -217,8 +217,6 @@ The single leg entry should be viewed as part of a larger positional ecosystem t
 
 - [[Sprawl Defense]] - Primary counter technique - understanding sprawl defense improves offensive single leg execution
 
-- [[Takedown Defense]] - Defensive concept - studying takedown defenses enhances ability to overcome them during entry
-
 - [[Body Lock Pass]] - Related control - similar body lock mechanics applied in different passing context
 
 - [[Front Headlock]] - Counter position - understanding this threat improves head positioning during entry

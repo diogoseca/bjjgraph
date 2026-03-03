@@ -21,37 +21,37 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Takedown Defense",
-      "text": "From this position, attempt Takedown Defense. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Sprawl Defense",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,23 +210,25 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 ## Available Escapes
 
-### [[Grip Break]] (32% of attempts)
+### [[Grip Break]] (39% of attempts)
 
-### [[Sitting Guard Pull]] (20% of attempts)
+### [[Sitting Guard Pull]] (19% of attempts)
 
-### [[Rolling to Guard]] (13% of attempts)
+### [[Rolling to Guard]] (12% of attempts)
 
-### [[Whizzer]] (8% of attempts)
+### [[Whizzer]] (7% of attempts)
 
-### [[Takedown Defense]] (8% of attempts)
+### [[Sprawl Defense]] (7% of attempts)
 
-### [[Turn In and Face]] (8% of attempts)
+### [[Turn In and Face]] (7% of attempts)
 
-### [[Standing up in Base]] (6% of attempts)
+### [[Standing up in Base]] (5% of attempts)
 
-### [[Escape Body Lock]] (3% of attempts)
+### [[Escape Body Lock]] (2% of attempts)
 
-### [[Pummeling Escape from Body Lock]] (2% of attempts)
+### [[Pummeling Escape from Body Lock]] (1% of attempts)
+
+### [[Reversal from Body Lock]] (1% of attempts)
 
 
 

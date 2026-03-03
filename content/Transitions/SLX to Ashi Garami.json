@@ -1,10 +1,15 @@
 {
   "name": "SLX to Ashi Garami",
-  "description": "TODO: Write 150-160 character SEO description for SLX to Ashi Garami.",
+  "description": "Master SLX to Ashi Garami in BJJ. Complete guide to transitioning from Single Leg X-Guard to Inside Ashi-Garami for systematic leg lock attack entries.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "leg-entanglement",
+    "ashi-garami",
+    "single-leg-x-guard",
+    "no-gi",
+    "leg-locks",
+    "guard-transition"
   ],
   "from_position": "Single Leg X-Guard/Bottom",
   "outcomes": [
@@ -25,114 +30,397 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for SLX to Ashi Garami.",
+  "overview": "The SLX to Ashi Garami transition represents one of the most fundamental pathways in modern leg lock systems, connecting the sweeping-oriented Single Leg X-Guard with the submission-focused Inside Ashi-Garami. This transition allows the bottom player to shift from a guard retention and sweeping platform into a dedicated leg attack configuration without passing through neutral scramble positions. The mechanics rely on controlled leg repositioning while maintaining continuous contact with the opponent's trapped leg, ensuring no gap exists for escape during the positional change.\n\nThe transition is mechanically straightforward but demands precise timing and grip management. The attacker must coordinate the removal of their hip hook with simultaneous heel control establishment, creating a brief but critical window where leg control transfers from the SLX frame to the ashi garami configuration. Rushing this sequence exposes the attacker to leg extraction, while moving too slowly allows the opponent to re-base and apply downward pressure that neutralizes the transition. The optimal timing typically coincides with moments when the opponent is off-balanced or reacting to a sweep threat, as their attention is divided between balance recovery and leg defense.\n\nStrategically, this transition serves as the gateway to the entire hierarchical leg entanglement system. Once Inside Ashi-Garami is established, the attacker gains access to straight ankle locks, toe holds, and the ability to advance to more dominant entanglements such as Saddle, Honey Hole, and Outside Ashi-Garami. The transition's value extends beyond the immediate positional change—it represents a philosophical shift from positional guard play to submission-oriented leg attack systems, making it essential for any practitioner building a modern no-gi game.",
   "conditions": [
-    "TODO"
+    "Established Single Leg X-Guard with active inside hook wrapped around opponent's ankle or lower calf",
+    "Opponent's trapped leg elevated above your hip line with weight distributed over your hooks",
+    "At least one hand free to transition grips to opponent's heel or ankle during repositioning",
+    "Opponent not applying heavy downward smash pressure that pins your hips to the mat",
+    "Sufficient hip mobility to reposition legs from SLX hook configuration to ashi garami entanglement"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Direct Drop to Ashi",
+      "description": "A rapid version where the attacker simultaneously removes the hip hook and falls to their outside hip in one fluid motion, bypassing the intermediate grip establishment phase. Relies on speed and commitment rather than sequential control transfers.",
+      "when_to_use": "When the opponent is momentarily off-balanced from a sweep threat or distracted by upper body grip fighting, creating a narrow window where speed compensates for the brief loss of hip hook control."
+    },
+    {
+      "variant_name": "Heel-First Entry",
+      "description": "The attacker secures C-grip heel control with both hands before removing the hip hook, ensuring the most critical grip is established before any positional change begins. This is the safest and most controlled version of the transition.",
+      "when_to_use": "Against opponents with strong leg extraction defense or when there is no time pressure. Ideal for beginners learning the transition and for situations where the opponent is relatively stationary in SLX."
+    },
+    {
+      "variant_name": "Sweep-to-Ashi Combo",
+      "description": "The attacker initiates a standard SLX sweep by extending their hooks and pulling the opponent's upper body forward, then redirects the momentum into ashi garami entry when the opponent posts their hand to defend the sweep. The sweep threat masks the leg entanglement entry.",
+      "when_to_use": "Against opponents who are well-prepared to defend direct ashi entries but react strongly to sweep threats. The misdirection creates a reaction that opens the transition window."
     }
   ],
-  "position_integration": "TODO: Write position integration for SLX to Ashi Garami.",
+  "position_integration": "The SLX to Ashi Garami transition occupies a critical junction in the modern leg lock system, connecting the sweeping-oriented Single Leg X-Guard with the submission-focused Inside Ashi-Garami. This pathway represents one of the most direct routes from guard play to leg attack systems, allowing practitioners to shift from positional control to submission hunting without passing through neutral positions. The transition integrates with the broader leg lock hierarchy by serving as a primary entry mechanism from SLX, feeding into the progressive chain of leg entanglements: Inside Ashi to Outside Ashi to Saddle to Honey Hole. Mastery of this transition is essential for any modern no-gi competitor, as it bridges the gap between guard retention strategies and leg lock offensive systems while maintaining continuous leg control throughout the positional change.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Single Leg X-Guard",
+      "relationship": "Starting position from which this transition initiates"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Primary target position achieved on successful transition"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position reached when opponent successfully counters the transition"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing all ashi variations including the target"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative leg entanglement accessible if inside position is blocked during transition"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced entanglement reachable through progression after establishing ashi garami"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Dominant leg entanglement accessible from inside ashi after this transition"
+    },
+    {
+      "name": "Straight Ankle Lock Entry",
+      "relationship": "Primary submission follow-up available immediately after achieving inside ashi"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Advanced submission threat available from inside ashi position after transition"
+    },
+    {
+      "name": "Backstep from Single Leg X",
+      "relationship": "Alternative technique the opponent may attempt from SLX top during transition"
+    },
+    {
+      "name": "Inside Ashi Entry",
+      "relationship": "Related entry to inside ashi from different starting positions"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Core conceptual framework governing all leg lock positions including the target"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative submission position accessible from ashi garami after transition"
     }
   ],
   "attacker": {
     "name": "SLX to Ashi Garami Attacker",
-    "description": "TODO: Write attacker description for SLX to Ashi Garami.",
-    "overview": "TODO: Write attacker overview for SLX to Ashi Garami.",
+    "description": "Complete attacker guide for the SLX to Ashi Garami transition. Step-by-step execution, grip transfers, timing windows, and follow-up attacks from Inside Ashi-Garami.",
+    "overview": "As the attacker executing the SLX to Ashi Garami transition, your objective is to convert your Single Leg X-Guard control into a dedicated leg attack position. You are shifting from a position primarily designed for sweeping into one optimized for leg lock submissions. The critical challenge is maintaining continuous control of the opponent's trapped leg throughout the positional change, particularly during the brief window when your hip hook is removed and your legs are being repositioned. Success depends on precise grip sequencing—securing heel control before releasing structural hooks—and on reading the opponent's weight distribution to select the optimal moment for transition. The transition opens the entire leg lock system for follow-up attacks, making the quality of your initial ashi garami establishment directly determine your submission success rate.",
     "key_principles": [
-      "TODO"
+      "Secure heel control before removing hip hook—never release structural control without first establishing grip control on the target leg",
+      "Fall to the outside hip during transition to create the perpendicular body angle required for ashi garami mechanics",
+      "Maintain continuous clamping pressure with your legs throughout the transition to prevent any gap for leg extraction",
+      "Use sweep threats as entry camouflage—the opponent defending a sweep creates the reaction window needed for ashi entry",
+      "Thread the inside leg across the opponent's hip decisively to establish the rotational control that defines inside ashi garami",
+      "Coordinate upper and lower body movements simultaneously—hands secure the heel while legs reposition in one fluid motion"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established SLX with inside leg wrapped tightly around opponent's ankle and outside foot actively hooked on their hip",
+      "Opponent's weight elevated and distributed over your hooks, with their base compromised",
+      "At least one hand free from upper body grips to transition to heel control during leg repositioning",
+      "Hip mobility sufficient to fall from supine SLX position to side-lying ashi garami configuration",
+      "Opponent not actively driving heavy downward pressure that would pin your hips and prevent repositioning",
+      "Mental commitment to complete the transition—hesitation during the grip transfer window allows escape"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Confirm SLX position quality",
+        "description": "Verify your inside leg is wrapped tightly around the opponent's ankle with your outside foot actively hooked on their hip. Ensure their weight is elevated and their base is compromised. If their base is too stable, initiate a sweep threat to off-balance them before proceeding."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate heel control with near hand",
+        "description": "Reach your near-side hand (same side as the trapped leg) toward the opponent's heel. Establish a C-grip with four fingers wrapping the heel bone and thumb on the Achilles tendon. This grip must be secured while you still have the hip hook providing structural control—do not skip this step."
+      },
+      {
+        "step_number": 3,
+        "action": "Remove hip hook and begin lateral fall",
+        "description": "With heel control established, remove your outside foot from the opponent's hip and begin falling to your outside hip. This is the critical transition moment—your heel grip and inside leg wrap must maintain continuous control as your body angle changes from supine to side-lying position."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread inside leg across opponent's hip",
+        "description": "As you fall to your side, reposition your inside leg from the ankle wrap to across the opponent's near hip. Your shin should cross their hip line with your foot planted on their far side. This inside leg positioning is what makes it inside ashi garami and provides rotational control over their hip."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish outside leg hook behind knee",
+        "description": "Position your outside leg so that your instep or ankle hooks behind the opponent's trapped knee. This hook prevents them from straightening their leg to escape and secures the leg entanglement. Combined with the inside leg across the hip, you now have the two-point leg control that defines ashi garami."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure perpendicular body angle",
+        "description": "Adjust your torso to approximately 90 degrees relative to the opponent's body, with your chest facing their trapped leg. Elevate your hips slightly off the mat to create submission leverage. Your shoulders should be back and your upper body positioned to generate breaking pressure through hip extension."
+      },
+      {
+        "step_number": 7,
+        "action": "Reinforce heel grip with second hand",
+        "description": "Bring your far-side hand to reinforce the heel control, establishing either a double C-grip or transitioning to a figure-four grip depending on your intended submission. Pull the heel firmly toward your chest and pin it against your torso to complete the positional establishment."
+      },
+      {
+        "step_number": 8,
+        "action": "Clamp legs and finalize control",
+        "description": "Squeeze your legs together firmly around the opponent's trapped leg, eliminating any remaining space. Verify all control points: inside leg across hip, outside leg behind knee, heel secured at chest, perpendicular body angle maintained. You are now in Inside Ashi-Garami and ready to threaten submissions or advance position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent drives hips down and re-establishes heavy base during hip hook removal",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Anticipate the downward drive by timing the transition during an off-balance moment. If they re-base before you complete the transition, maintain heel grip and re-insert hip hook to reset SLX, then reattempt when they shift weight again.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent extracts heel by pulling leg back sharply during the grip transfer window",
+        "effectiveness": "High",
+        "your_response": "Follow their retreating leg by scooting your hips forward aggressively. If they pull free, immediately pursue with guard recovery or attempt to re-engage SLX hooks before they can fully disengage. Consider the heel-first variant to close this window.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent steps over your legs and initiates a passing sequence during repositioning",
+        "effectiveness": "High",
+        "your_response": "If they begin stepping over, immediately abort the ashi entry and re-establish open guard frames with feet on hips. Use the momentum of their step-over to invert or recover De La Riva hooks. This counter is most dangerous when you release the hip hook prematurely.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent sits back and applies defensive counter-pressure while controlling your gripping hand",
+        "effectiveness": "Medium",
+        "your_response": "Use your free hand to strip their grip on your wrist. If they commit both hands to grip fighting, their base becomes vulnerable—convert to a sweep attempt and use their defensive posture as the entry for the next ashi attempt.",
         "targets_outcome": "Single Leg X-Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing the hip hook before establishing heel control with the hands",
+        "consequence": "Creates a window where neither structural hooks nor grip control secure the opponent's leg, allowing easy extraction and guard pass",
+        "correction": "Always secure C-grip on the heel before removing the hip hook. The grip transfer must overlap—new control established before old control is released."
+      },
+      {
+        "error": "Staying flat on the back instead of falling to the outside hip during transition",
+        "consequence": "Cannot achieve the perpendicular body angle required for ashi garami, resulting in weak position with poor submission leverage and easy escape for opponent",
+        "correction": "Commit to falling to your outside hip as you remove the hip hook. The lateral body position is fundamental to ashi garami—without it, you have no mechanical advantage for submissions."
+      },
+      {
+        "error": "Telegraphing the transition with obvious grip changes and body repositioning",
+        "consequence": "Opponent recognizes the ashi entry and preemptively extracts their leg or drives heavy pressure to prevent repositioning",
+        "correction": "Disguise the transition by threatening sweeps first. Use a push-pull rhythm where sweep threats mask the grip changes needed for ashi entry. Maintain consistent body language until the moment of commitment."
+      },
+      {
+        "error": "Failing to thread the inside leg across the opponent's hip after falling to the side",
+        "consequence": "Establishes a weak half-entanglement that lacks rotational control, allowing opponent to square their hips and extract or counter-attack",
+        "correction": "Actively drive your inside leg across their hip with the foot planted on their far side. This is the defining characteristic of inside ashi—without it, you have no position."
+      },
+      {
+        "error": "Losing clamping pressure between the legs during the transition phase",
+        "consequence": "Gap between your legs allows opponent's trapped leg to escape the entanglement, losing all positional control and offensive potential",
+        "correction": "Maintain continuous inward squeezing pressure with both legs throughout the entire transition. Think of the opponent's leg as permanently trapped between your thighs—never let daylight appear."
+      },
+      {
+        "error": "Attempting the transition against a well-based opponent without first creating off-balance",
+        "consequence": "Opponent easily defends by driving their weight down, making it impossible to reposition legs or establish heel control against their stable base",
+        "correction": "Always precede the transition with a sweep threat, upper body pull, or hook extension that disrupts their balance. The transition works best in the 1-2 second window after the opponent reacts to a different threat."
+      },
+      {
+        "error": "Not pulling the heel tight to the chest after establishing C-grip",
+        "consequence": "Loose heel control allows opponent to rotate their knee away, defend submissions, and work extraction even from within the entanglement",
+        "correction": "Pin the heel firmly against your sternum immediately after gripping. Use both hands to reinforce the grip and pull the heel into your body. The heel should feel glued to your chest."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Mechanical Isolation",
+        "focus": "Leg repositioning sequence without resistance",
+        "description": "Partner holds static SLX position while you practice the complete leg repositioning sequence at slow speed. Focus on each control point: heel grip establishment, hip hook removal, lateral fall, inside leg threading, outside leg hooking. Perform 20 repetitions per side emphasizing smooth, sequential movement."
+      },
+      {
+        "phase": "Phase 2: Grip Transfer Timing",
+        "focus": "Coordinating hand and leg movements simultaneously",
+        "description": "Practice the grip transfer from SLX hooks to ashi garami control with a partner providing 25% resistance. Emphasis on the critical overlap window where heel grip and hip hook both control the leg simultaneously. Partner provides feedback on any gaps in control. 15 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Reaction-Based Entry",
+        "focus": "Timing the transition off sweep threats and opponent reactions",
+        "description": "From SLX, alternate between actual sweep attempts and ashi entries based on partner's reactions. Partner defends sweeps with 50% resistance. When they post or shift weight to defend the sweep, immediately redirect into ashi garami transition. Develop recognition of the optimal entry window. 5-minute positional rounds."
+      },
+      {
+        "phase": "Phase 4: Chain Integration",
+        "focus": "Connecting transition to follow-up attacks from ashi garami",
+        "description": "Complete the full sequence: SLX control, sweep threat, ashi entry, then immediately threaten straight ankle lock or advance to saddle. Partner provides 75% resistance throughout. Focus on smooth flow from transition completion to first submission threat within 3 seconds. 5-minute rounds with progressive resistance."
+      },
+      {
+        "phase": "Phase 5: Live Sparring Integration",
+        "focus": "Applying transition in live rolling with full resistance",
+        "description": "Positional sparring starting from SLX bottom with full resistance. Work to achieve ashi garami using any variant. Track success rate across rounds. If success rate drops below 40%, return to Phase 3 to refine timing. Incorporate into regular rolling sessions as a primary SLX attack pathway."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "Your opponent is well-based in SLX top and you cannot off-balance them for a direct ashi entry—what setup creates the reaction window you need?",
+        "answer": "Initiate a committed sweep threat by extending your hooks and pulling their upper body forward with sleeve or collar control. When they post their hand or shift weight backward to defend the sweep, that defensive reaction creates a 1-2 second window where their weight is transitioning and their leg becomes vulnerable. Immediately redirect from sweep to ashi entry during this reaction window. The key is the sweep threat must be genuine—a half-hearted attempt will not generate a meaningful defensive reaction."
+      },
+      {
+        "question": "What is the single most critical grip to establish before initiating any leg repositioning in this transition?",
+        "answer": "The C-grip on the opponent's heel is the most critical grip. Four fingers wrap around the heel bone with the thumb positioned on the Achilles tendon. This grip must be secured while the hip hook is still providing structural control. Without heel control, any leg repositioning creates an uncontrolled gap that allows immediate extraction. Every other element of the transition depends on this grip being in place first."
+      },
+      {
+        "question": "You begin the transition but your opponent starts pulling their heel free—how do you respond to save the entry?",
+        "answer": "Immediately scoot your hips forward to follow their retreating leg, maintaining whatever grip pressure you have on the heel. Simultaneously clamp your legs tighter around their thigh to prevent full extraction. If they continue pulling, follow their movement aggressively rather than reaching with extended arms—your body follows the leg. If the heel grip breaks completely, abort the ashi attempt and re-engage SLX hooks or transition to a different guard rather than chasing a lost grip."
+      },
+      {
+        "question": "Why must you fall to your outside hip during the transition rather than staying flat on your back?",
+        "answer": "The perpendicular body angle created by falling to the outside hip is essential for ashi garami mechanics. Staying flat on your back means your body is parallel to your opponent's, which eliminates the mechanical leverage needed for both maintaining position and applying submissions. The side-lying position creates approximately 90 degrees of angle between your torso and their trapped leg, maximizing control over their hip rotation and providing the hip extension pathway needed for ankle lock and heel hook finishes."
+      },
+      {
+        "question": "Your opponent recognizes the ashi entry and drives heavy pressure downward to pin your hips—what adjustment allows you to complete the transition?",
+        "answer": "When they drive downward, use their forward pressure against them by angling your hips to the side rather than accepting the pressure directly. If they commit their weight forward, this actually increases their vulnerability to being off-balanced laterally. Frame against their chest with your free hand while maintaining heel control, then use a hip escape to create the angle needed to thread your inside leg across their hip. Their forward drive often means their base is narrow laterally, making the side-angle entry more effective."
+      },
+      {
+        "question": "After successfully achieving Inside Ashi-Garami from this transition, what is your immediate priority before threatening any submission?",
+        "answer": "Your immediate priority is to verify all four control points are secure: inside leg across their hip with foot on far side, outside leg hooked behind their knee, heel pulled tight to your chest with reinforced grip, and perpendicular body angle established. Only after confirming these points should you begin threatening submissions. Rushing to attack before completing positional establishment is the most common reason transitions that succeed positionally still fail to produce submissions—an incomplete ashi garami gives the opponent too many defensive options."
+      },
+      {
+        "question": "How does the direction of force application change from SLX to ashi garami during this transition?",
+        "answer": "In SLX, your force is primarily vertical—you are elevating the opponent's leg upward with your hooks to compromise their base and create sweeping leverage. During the transition to ashi garami, the force direction shifts to lateral and rotational—your inside leg controls their hip rotation while your hands pull the heel toward your chest horizontally. The submission force in ashi garami comes from hip extension away from the opponent, which is perpendicular to both the original SLX elevation force and the opponent's leg axis. Understanding this directional shift helps you commit to the new body mechanics rather than defaulting to SLX habits."
+      },
+      {
+        "question": "Your training partner successfully defends three consecutive ashi entry attempts by extracting their heel each time—what systematic adjustment should you make?",
+        "answer": "Switch to the heel-first variant where you establish C-grip control with both hands before removing the hip hook. Their successful extraction indicates your grip transfer window is too slow or your initial heel grip is too loose. Additionally, examine whether you are telegraphing the entry with predictable timing or body language. Consider chaining the ashi entry after a sweep attempt rather than going directly—the defensive reaction to a sweep creates better opportunities than approaching from a static position. If extraction continues, the opponent may have identified your specific timing pattern and you need to vary the entry rhythm."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for SLX to Ashi Garami."
+    "safety_considerations": "While the SLX to Ashi Garami transition itself carries minimal direct injury risk, it leads to a position where dangerous leg attacks become immediately available. Practitioners must understand that Inside Ashi-Garami provides access to heel hooks and kneebars that can cause severe ligament damage if applied incorrectly. Always practice the transition at controlled speed with clear communication between training partners. Master straight ankle lock attacks from ashi garami for a minimum of 6-12 months before progressing to heel hooks. When drilling the transition, ensure both partners understand the tap protocol and that all submissions are applied with gradual, progressive pressure. Never crank leg submissions explosively, and release immediately upon tap."
   },
   "defender": {
     "name": "SLX to Ashi Garami Defender",
-    "description": "TODO: Write defender description for SLX to Ashi Garami.",
-    "overview": "TODO: Write defender overview for SLX to Ashi Garami.",
+    "description": "Complete defensive guide against SLX to Ashi Garami. Recognition cues, prevention tactics, and escape strategies to avoid leg lock entanglements from Single Leg X-Guard.",
+    "overview": "As the defender against the SLX to Ashi Garami transition, you are in Single Leg X-Guard Top with one leg trapped in the opponent's hooks. Your opponent is attempting to convert their SLX control into Inside Ashi-Garami, which would give them direct access to dangerous leg lock submissions. Your defensive priorities are hierarchical: first, prevent the heel grip from being established; second, if the grip is secured, prevent the leg repositioning that converts SLX to ashi; third, if the transition begins, extract your leg before the entanglement is completed. Understanding the attacker's sequencing allows you to target the weakest moments in their transition—particularly the brief window when they remove their hip hook and their structural control is temporarily compromised. Proactive defense that disrupts the transition before it begins is far more effective than reactive escapes after ashi garami is established.",
     "key_principles": [
-      "TODO"
+      "Address heel control immediately—once the opponent grips your heel, every subsequent defense becomes exponentially harder",
+      "Drive your weight downward when you feel the opponent's hip hook release, as this is the critical transition window",
+      "Rotate your knee inward toward the opponent to prevent them from establishing the perpendicular angle needed for ashi garami",
+      "Maintain heavy base and downward pressure throughout SLX to deny the elevation needed for the transition",
+      "Step over the opponent's legs proactively when you sense the transition beginning rather than waiting passively",
+      "Strip the heel grip with both hands as first priority—without heel control, the attacker cannot complete any leg attack"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent reaches toward your heel or ankle with their near hand while still maintaining SLX hooks—this is the initial grip establishment",
+      "Opponent's hip hook begins to lighten or release from your hip, indicating they are beginning the repositioning phase",
+      "Opponent starts falling to their outside hip rather than maintaining the supine SLX position, showing commitment to lateral angle change",
+      "Change in pressure direction from vertical elevation to lateral pulling on your trapped leg, indicating the force shift from sweeping to entangling",
+      "Opponent's upper body grips release or change as they redirect both hands toward your heel for reinforced grip control"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Strip heel grip immediately with two-on-one hand fighting before opponent can reinforce",
+        "when_to_use": "As soon as you feel the opponent's hand contact your heel—this is the earliest and most effective intervention point",
         "targets_outcome": "Single Leg X-Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent remains in SLX without heel control, unable to complete ashi transition and forced to re-attempt or switch to sweep",
+        "risk": "If you fail to strip the grip, your hands are now occupied and not available for base posting, increasing sweep vulnerability"
+      },
+      {
+        "action": "Drive hips down and re-establish heavy base when hip hook releases",
+        "when_to_use": "The instant you feel the opponent's hip hook lighten or disengage—this narrow window is your best opportunity to crush the transition",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "Heavy downward pressure pins opponent's hips to the mat, preventing the lateral fall needed to establish ashi garami angle",
+        "risk": "If opponent already has strong heel grip, driving forward may feed directly into the ashi entry rather than preventing it"
+      },
+      {
+        "action": "Step over opponent's legs and initiate guard pass",
+        "when_to_use": "When you detect the transition beginning but before the inside leg is threaded across your hip—once the inside leg is established, stepping over becomes much more difficult",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You extract your leg from the entanglement entirely and achieve a passing position with the opponent in open guard",
+        "risk": "If the step-over is too slow, opponent may catch your stepping leg and convert to a different entanglement or sweep"
+      },
+      {
+        "action": "Rotate knee forcefully inward toward opponent to deny perpendicular angle",
+        "when_to_use": "When opponent has begun falling to their side but has not yet completed the inside leg threading across your hip",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "Prevents establishment of ashi garami configuration by denying the body angle needed. May force opponent back to SLX neutral",
+        "risk": "Inward knee rotation with heel controlled may expose you to inside heel hook if opponent is already in partial ashi position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Inside Ashi-Garami/Top",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Extract your leg completely during the transition window when the opponent removes their hip hook. Step over their legs immediately and disengage, establishing distance and passing posture before they can re-engage SLX hooks."
+      },
+      {
+        "outcome": "Single Leg X-Guard/Bottom",
+        "how": "Strip the heel grip early with two-on-one hand fighting and drive heavy downward pressure to pin their hips. This forces the opponent back to neutral SLX without ashi garami access, making them restart their attack sequence."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting passively until the opponent has fully established ashi garami before attempting to defend",
+        "consequence": "Defending from inside a completed leg entanglement is exponentially harder than disrupting the transition early—escape rates drop dramatically once all four control points are established",
+        "correction": "React immediately to the earliest recognition cue, particularly the initial heel grip attempt. Proactive defense during the transition window is 3-4 times more effective than reactive escape after position is locked."
+      },
+      {
+        "error": "Pulling the trapped leg straight backward to extract from the entanglement",
+        "consequence": "Straight backward pulling is the least effective escape direction because it works against the opponent's clamping legs at their strongest angle and may tighten their control",
+        "correction": "Rotate your knee inward or outward while pulling to create a spiraling extraction path that works around the opponent's leg clamp rather than directly against it. Combine rotation with forward hip drive to prevent the perpendicular angle establishment."
+      },
+      {
+        "error": "Ignoring the heel grip to focus on clearing leg hooks instead",
+        "consequence": "Even if you partially clear the leg entanglement, the opponent can re-establish hooks as long as they maintain heel control. Heel grip is the anchor that enables all other controls.",
+        "correction": "Always prioritize stripping the heel grip first using two-on-one hand fighting. Once heel control is broken, the opponent loses their primary retention mechanism and clearing hooks becomes much simpler."
+      },
+      {
+        "error": "Allowing the opponent to fall to their side without driving forward pressure",
+        "consequence": "The lateral fall is the key mechanical step that converts SLX into ashi garami. Allowing it unchallenged means the transition is essentially complete.",
+        "correction": "The moment you feel them falling laterally, drive your hips forward and down to flatten them back to supine position. Your forward pressure directly opposes the body angle they need for ashi garami."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is attempting the SLX to Ashi Garami transition, and what should your immediate response be?",
+        "answer": "The earliest cue is their near hand reaching toward your heel while still in SLX. Your immediate response should be two-on-one grip fighting to prevent the heel grip from being established—grab their gripping wrist with both hands and strip it away from your heel before they can secure the C-grip. This is the highest-percentage defensive intervention point because without heel control, the entire transition sequence cannot proceed."
+      },
+      {
+        "question": "Why is stepping over the opponent's legs more effective as a defense than pulling your trapped leg backward?",
+        "answer": "Stepping over changes the angle of engagement entirely, bypassing the clamping pressure of the opponent's legs rather than fighting directly against it. Pulling backward works against the strongest axis of their leg clamp and often tightens their control. Stepping over exploits the moment when their hip hook is removed (the transition window), using the temporary gap in structural control to extract your leg laterally rather than linearly. Additionally, a successful step-over puts you in a passing position rather than just returning to neutral."
+      },
+      {
+        "question": "Your opponent has established heel control but has not yet removed their hip hook—what defensive strategy gives you the best chance of preventing the transition?",
+        "answer": "Focus entirely on stripping the heel grip using two-on-one hand fighting. Grab their gripping wrist with both hands and forcefully peel their fingers off your heel. Simultaneously drive your weight down to maximize downward pressure on their hips. Since they still have the hip hook in place, they cannot begin the leg repositioning phase yet, giving you time to address the grip. If you successfully strip the heel, they must restart the entire setup sequence."
+      },
+      {
+        "question": "How should you adjust your defensive strategy when facing an opponent who uses sweep threats to mask the ashi entry?",
+        "answer": "Maintain awareness that the sweep threat may be a feint designed to generate your defensive posting reaction, which creates the transition window. Instead of posting your hands widely to defend sweeps (which frees your legs for their manipulation), keep your hands close to your trapped leg and defend both threats simultaneously. Lower your base by bending your knees deeper rather than posting with hands, as this defends the sweep through structural stability rather than reactive posting while keeping your hands available to fight their heel grip attempts."
+      },
+      {
+        "question": "After your opponent initiates the transition and begins falling to their side, what is your highest-priority defensive action?",
+        "answer": "Immediately drive your hips forward and down to flatten them back to the mat before they can complete the perpendicular angle. Your forward drive should target their shoulder line, using your body weight to prevent them from establishing the side-lying position. Simultaneously push their inside leg off your hip with your free hand. If they have already committed too deeply to the lateral fall, switch to stepping over their legs to extract entirely rather than trying to force them flat—a half-completed reversal leaves you in a worse position than a committed extraction."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying transition cues at slow speed",
+        "description": "Partner performs the SLX to Ashi Garami transition at 25% speed while you verbally call out each recognition cue as it occurs: heel grip attempt, hip hook release, lateral fall, inside leg thread. No physical defense yet—focus purely on visual and tactile recognition. 10 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Single-Defense Isolation",
+        "focus": "Practicing one defensive response at a time",
+        "description": "Partner performs the transition at 50% speed while you practice a single defensive technique each round: round 1 focuses on heel grip stripping, round 2 on forward hip drive, round 3 on stepping over. Master each defense individually before combining. 3-minute rounds per defense."
+      },
+      {
+        "phase": "Phase 3: Reactive Defense with Combinations",
+        "focus": "Chaining defensive responses based on attacker's adjustments",
+        "description": "Partner performs the transition at 75% speed with intent to complete. You defend with the full defensive hierarchy: strip heel first, drive hips forward second, step over if both fail. Partner varies their approach each repetition to prevent pattern-based defense. 5-minute positional rounds."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed defense in realistic conditions",
+        "description": "Start in SLX with full resistance from both players. Attacker works all variants and timing combinations while you defend with complete defensive toolkit. Track successful defenses versus completed transitions across rounds. Goal is preventing ashi establishment in at least 50% of attempts."
       }
     ]
   }

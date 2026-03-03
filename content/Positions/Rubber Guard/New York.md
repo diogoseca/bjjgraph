@@ -103,25 +103,27 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[New York to Invisible Collar]]** (11% of attempts)
+- **[[New York to Invisible Collar]]** (10% of attempts)
 
-- **[[Progression to Zombie]]** (11% of attempts)
+- **[[Progression to Zombie]]** (10% of attempts)
 
-- **[[Advance to Chill Dog]]** (9% of attempts)
+- **[[Advance to Chill Dog]]** (8% of attempts)
 
-- **[[Rotate to Carni]]** (10% of attempts)
+- **[[Rotate to Carni]]** (9% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (18% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Omoplata Sweep]]** (7% of attempts)
 
-- **[[Gogoplata]]** (7% of attempts)
+- **[[Gogoplata]]** (6% of attempts)
 
-- **[[Armbar Finish]]** (11% of attempts)
+- **[[Armbar Finish]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** (11% of attempts)
+- **[[Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Omoplata to Back]]** (10% of attempts)
+- **[[Omoplata to Back]]** (9% of attempts)
+
+- **[[Sweep from New York]]** (3% of attempts)
 
 
 ### Common Mistakes

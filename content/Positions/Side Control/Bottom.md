@@ -21,37 +21,37 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control Escape",
-      "text": "From this position, attempt Side Control Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Side Control Escape. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,23 +205,23 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (39% of attempts)
+### [[Elbow Escape to Guard]] (28% of attempts)
 
-### [[Frame and Shrimp to Guard]] (18% of attempts)
+### [[Frame and Shrimp to Guard]] (22% of attempts)
 
-### [[Bridge and Roll]] (7% of attempts)
+### [[Hip Escape to Guard]] (18% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Bridge and Roll]] (10% of attempts)
 
-### [[Ghost Escape]] (7% of attempts)
+### [[Ghost Escape]] (8% of attempts)
 
-### [[Side Control Escape]] (7% of attempts)
+### [[Side Control Escape]] (5% of attempts)
 
-### [[Ghost Escape from Side Control]] (3% of attempts)
+### [[Ghost Escape from Side Control]] (4% of attempts)
 
-### [[Sit Out from Side Control]] (1% of attempts)
+### [[Sit Out from Side Control]] (3% of attempts)
 
-### [[Turtle from Side Control Bottom]] (1% of attempts)
+### [[Turtle from Side Control Bottom]] (2% of attempts)
 
 
 

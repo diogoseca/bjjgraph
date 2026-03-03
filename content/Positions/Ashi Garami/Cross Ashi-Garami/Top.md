@@ -222,7 +222,7 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 ### [[Kneebar entry]] (8% of attempts)
 
-### [[Transition to Backside 50-50]] (3% of attempts)
+### [[Backside 50-50 Entry from Ashi]] (3% of attempts)
 
 ### [[Heel Hook]] (8% of attempts)
 

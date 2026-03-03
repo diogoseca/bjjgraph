@@ -1,17 +1,66 @@
 {
   "name": "Gift Wrap RNC",
-  "description": "TODO: Write 150-160 character SEO description for Gift Wrap RNC.",
+  "description": "Master the Gift Wrap RNC in BJJ. Complete guide to finishing the rear naked choke with one arm trapped, covering setup, execution, defense, and safety.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "choke",
+    "rear naked choke",
+    "gift wrap",
+    "back control",
+    "arm trap",
+    "finishing technique"
   ],
   "submission_category": "Choke",
-  "submission_type": "Choke",
+  "submission_type": "Blood Choke",
   "target_area": "Neck",
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
-  "from_positions": ["Gift Wrap", "Mount", "Back Control"],
+  "from_positions": [
+    "Gift Wrap",
+    "Mount",
+    "Back Control"
+  ],
+  "success_rate": 55,
+  "overview": "The Gift Wrap RNC represents one of the highest-percentage choke finishes in Brazilian Jiu-Jitsu, combining the devastating arm-trapping control of the Gift Wrap position with the mechanical efficiency of the rear naked choke. By securing one of the defender's arms across their own body before attacking the neck, the attacker eliminates approximately half of the defender's hand-fighting capability, transforming a normally contested submission into a heavily attacker-favored exchange.\n\nThe strategic foundation of this submission lies in the systematic removal of defensive options. In a standard rear naked choke from back control, the defender uses both hands to fight the choking arm, strip grips, protect the neck, and create frames. The Gift Wrap neutralizes one of these hands entirely, meaning the defender must accomplish all defensive tasks with a single free arm. This fundamental asymmetry creates a cascading advantage where the attacker's choking arm encounters roughly half the resistance it would in a standard RNC attempt.\n\nFrom a positional standpoint, the Gift Wrap RNC connects directly to the broader back attack system. It serves as the natural finishing sequence from Gift Wrap control, which itself is established from back control, mount, or transitional positions. The submission rewards patient practitioners who invest time consolidating the Gift Wrap arm trap before attacking the neck, rather than rushing directly to choke attempts from standard back control. Competition data consistently shows that RNC attempts from Gift Wrap control convert at significantly higher rates than standard RNC attempts, making this a priority finishing pathway for serious competitors.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from bilateral carotid artery compression",
+        "severity": "CRITICAL",
+        "recovery_time": "Seconds to minutes if released promptly; potential brain damage if held beyond 10 seconds after unconsciousness"
+      },
+      {
+        "injury": "Tracheal damage from incorrectly placed choke compressing windpipe instead of carotid arteries",
+        "severity": "High",
+        "recovery_time": "2-6 weeks for mild tracheal bruising; months for cartilage damage"
+      },
+      {
+        "injury": "Shoulder strain or rotator cuff irritation from trapped arm under sustained torque",
+        "severity": "Medium",
+        "recovery_time": "1-4 weeks for mild strain; 2-6 months for rotator cuff injury"
+      }
+    ],
+    "application_speed": "SLOW and progressive. Apply the choke gradually, increasing pressure incrementally to allow training partner time to recognize the submission and tap. Never jerk, spike, or explosively tighten the choke. The trapped arm creates enough advantage that explosive force is never necessary.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, own body, or mat with free hand",
+      "Physical foot tap on mat or partner's leg",
+      "Any unusual vocalization, gurgling, or sudden body limpness indicating loss of consciousness"
+    ],
+    "release_protocol": [
+      "Release ALL pressure immediately upon any tap signal - do not finish the squeeze",
+      "If opponent goes limp or stops responding, release immediately and alert training partners and coach",
+      "Place unconscious partner in recovery position on their side and monitor breathing until they regain consciousness",
+      "If in doubt whether opponent tapped, release and re-establish position - safety always takes priority over the finish"
+    ],
+    "training_restrictions": [
+      "Beginners should practice mechanics without full squeeze until they demonstrate proper placement on the carotid arteries rather than the trachea",
+      "Never hold a fully locked RNC for more than 3-4 seconds in training if partner has not tapped - reassess position and partner consciousness",
+      "Do not apply this submission on training partners with known neck or cervical spine injuries",
+      "When drilling, release at the point of lock rather than squeezing through to simulate the finish"
+    ]
+  },
   "outcomes": [
     {
       "to": "game-over",
@@ -20,131 +69,396 @@
     },
     {
       "to": "Gift Wrap/Top",
-      "probability": 45,
+      "probability": 30,
       "result": "failure"
+    },
+    {
+      "to": "Back Control/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Gift Wrap RNC.",
-  "safety_considerations": {
-    "injury_risks": [
-      {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
-      }
-    ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
-    "tap_signals": [
-      "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
-    ],
-    "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
-    ],
-    "training_restrictions": [
-      "TODO"
-    ]
-  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Gift Wrap RNC from Mount Transition",
+      "description": "Establish Gift Wrap from mount when the opponent turns to their side, then transition to back control while maintaining the arm trap. Finish the RNC once back hooks are established with the gift wrap intact.",
+      "when_to_use": "When you have mount and the opponent turns to their side exposing their back, allowing you to trap the arm during the mount-to-back transition"
+    },
+    {
+      "variation_name": "Short Choke Variation",
+      "description": "Instead of the full figure-four RNC, use a short choke where the choking forearm compresses one carotid while the gift wrap arm's shoulder provides the opposite side compression. Requires less depth of entry but demands tighter chest-to-back connection.",
+      "when_to_use": "When the defender's chin defense prevents full forearm entry beneath the jaw but the gift wrap control is strong enough to use shoulder pressure as the second compression point"
+    },
+    {
+      "variation_name": "Palm-to-Palm Grip Finish",
+      "description": "Connect hands using a palm-to-palm Gable grip in front of the opponent's neck instead of the standard figure-four behind the head. This variation works when the gift wrap positioning prevents reaching the bicep for the standard connection.",
+      "when_to_use": "When arm length or gift wrap angle prevents the standard figure-four connection, particularly useful for shorter-armed practitioners"
+    }
+  ],
+  "related_submissions": [
+    "Body Triangle RNC",
+    "Bow and Arrow from Seat Belt",
+    "Gift Wrap Armbar",
+    "Armbar from Back",
+    "Armbar from Back with Legs",
+    "Choke from Crucifix"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Gift Wrap",
+      "relationship": "Source control position where this submission is initiated from the arm trap"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Parent position from which Gift Wrap control is established before the choke"
+    },
+    {
+      "name": "Body Triangle RNC",
+      "relationship": "Related RNC variation using body triangle instead of gift wrap for enhanced control"
+    },
+    {
+      "name": "Bow and Arrow from Seat Belt",
+      "relationship": "Alternative high-percentage back choke that chains from similar back control positions"
+    },
+    {
+      "name": "Gift Wrap Armbar",
+      "relationship": "Chain submission targeting the free arm when RNC defense is strong"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Advanced arm trap position sharing the concept of limb isolation for choke access"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Grip configuration that precedes Gift Wrap establishment for back choke entries"
     }
   ],
   "attacker": {
     "name": "Gift Wrap RNC Attacker",
-    "description": "TODO: Write attacker description for Gift Wrap RNC.",
-    "overview": "TODO: Write attacker overview for Gift Wrap RNC.",
+    "description": "Master attacking the Gift Wrap RNC in BJJ. Learn setup mechanics, choking arm placement, grip connection, finishing adjustments, and how to overcome single-arm defense.",
+    "overview": "Attacking the Gift Wrap RNC requires understanding that the submission's power derives from positional dominance rather than raw squeezing strength. The Gift Wrap arm trap has already done the hardest work by neutralizing one of the defender's arms, leaving only a single free hand to contest your choking arm. Your primary task is to methodically work the choking arm past that one remaining defensive hand, connect your grip behind the opponent's head, and apply controlled bilateral pressure on the carotid arteries. The key insight is patience: the arm trap provides such a significant advantage that rushing the choke entry is unnecessary and counterproductive. Allow the positional advantage to create the submission rather than forcing it through strength.",
     "key_principles": [
-      "TODO"
+      "Maintain the Gift Wrap arm trap throughout the entire choking sequence - releasing it to use both hands negates the position's primary advantage",
+      "Work the choking arm past the defender's chin using gradual pressure and angle changes rather than explosive force",
+      "Connect the figure-four grip behind the opponent's head for maximum mechanical advantage and arterial compression",
+      "Keep chest-to-back connection tight throughout the finish to prevent the defender from creating rotation or escape angles",
+      "Use hook or body triangle pressure to maintain lower body control while upper body executes the choke",
+      "Adjust your choking angle based on opponent's chin defense - shift to the side where their chin is least protected",
+      "Apply slow progressive squeeze once locked to allow training partner time to tap while maintaining control"
     ],
     "setup_requirements": [
-      "TODO"
+      "Gift Wrap arm trap fully established with opponent's arm secured across their chest toward the opposite shoulder",
+      "Back control maintained with at least one deep hook or body triangle controlling opponent's hips",
+      "Chest-to-back connection is tight with no space between your torso and the opponent's back",
+      "Choking arm is free and positioned near the opponent's neck ready for entry",
+      "Opponent's one free defensive arm has been identified and its defensive patterns observed before committing to the choke entry"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Verify Gift Wrap integrity",
+        "description": "Confirm the Gift Wrap arm trap is fully secured with the opponent's arm pulled high across their chest. Your controlling arm should be threaded under their armpit with a firm grip on their wrist or forearm. Check that hooks or body triangle are in place and chest-to-back connection is tight before beginning the choke entry.",
+        "timing": "2-3 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Position choking arm at the neck",
+        "description": "Bring your free arm toward the opponent's neck from the choking side. Slide your forearm along their jawline toward their chin, keeping your elbow tight against the side of their neck. The blade of your forearm should align with the carotid artery on the near side of the neck.",
+        "timing": "2-4 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Bypass the free hand defense",
+        "description": "The opponent's single free hand will attempt to grab your choking wrist or forearm. Use small circular swim motions to work past their grip, or drive your forearm through the gap between their chin and defensive hand. Patience is critical here - work incrementally past the defense rather than fighting through it with force.",
+        "timing": "5-15 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Sink the choking arm beneath the chin",
+        "description": "Once past the defensive hand, drive your forearm deep under the opponent's chin until the crook of your elbow is centered beneath their jaw. Your bicep should press against one carotid artery and your forearm against the other. Avoid placing the forearm across the trachea - adjust laterally if you feel windpipe compression.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Connect the figure-four grip",
+        "description": "Reach your choking hand to grab the bicep of your gift-wrap controlling arm, or your own shoulder if the wrap prevents bicep access. Place the gift-wrap hand behind the opponent's head, creating the classic figure-four configuration. The hand behind the head acts as a wedge that pushes the neck forward into the choking arm.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Set the squeeze angle",
+        "description": "Before applying full pressure, adjust your body angle so your chest drives forward into the opponent's upper back. Arch your back slightly to create additional forward pressure. Your hooks should be actively driving their hips forward to flatten them and prevent bridging or rotational escape during the squeeze.",
+        "timing": "1-2 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply progressive squeeze to finish",
+        "description": "Squeeze by expanding your chest while pulling your elbows together, creating bilateral compression on both carotid arteries simultaneously. Increase pressure gradually and progressively. In training, allow 3-4 seconds for your partner to recognize the submission and tap. The choke should feel like a slow clamp tightening rather than an explosive crush.",
+        "timing": "3-5 seconds to tap"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Defender tucks chin tightly to chest preventing forearm entry under the jawline",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Use your forehead or the crown of your head to push against the back of their skull, tilting their chin up. Alternatively, adjust angle and enter from the side where the chin creates less obstruction. The gift wrap advantage means you have time to work past the chin methodically.",
         "targets_outcome": "Gift Wrap/Top"
+      },
+      {
+        "counter": "Defender uses free hand to grip fight the choking arm, stripping wrist control or blocking forearm entry",
+        "effectiveness": "High",
+        "your_response": "Since they only have one hand for defense, use swim moves and circular motion to bypass the grip. If they commit fully to wrist control, consider transitioning to armbar on the defending free arm. Their single-handed defense cannot cover all angles simultaneously.",
+        "targets_outcome": "Gift Wrap/Top"
+      },
+      {
+        "counter": "Defender attempts explosive bridge and roll to dislodge back control during choke entry",
+        "effectiveness": "Low",
+        "your_response": "Drive hooks forward and flatten your hips against their lower back to absorb the bridge. With one arm trapped, their bridging power is significantly reduced. Use the bridge as an opportunity to sink the choking arm deeper during the moment of movement.",
+        "targets_outcome": "Gift Wrap/Top"
+      },
+      {
+        "counter": "Defender strips the gift wrap arm trap by rotating shoulder during choke entry distraction",
+        "effectiveness": "High",
+        "your_response": "If the gift wrap is partially compromised, immediately reassess whether to re-establish the wrap or commit fully to the choke if your arm is already deep enough. If the forearm is under the chin, commit to the finish. If not, re-establish the gift wrap before continuing the attack.",
+        "targets_outcome": "Back Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing the Gift Wrap arm trap to use both hands for the choke entry",
+        "consequence": "Opponent immediately recovers defensive capability with both hands, reducing the choke to a standard RNC attempt with full defensive resistance and dramatically lower success rate",
+        "correction": "Maintain the Gift Wrap throughout the entire choking sequence. The arm trap is the submission's primary advantage - the slight mechanical disadvantage of choking with one arm while the other maintains the wrap is far outweighed by halving the opponent's defensive ability"
+      },
+      {
+        "error": "Placing the forearm across the trachea instead of positioning on the carotid arteries",
+        "consequence": "Creates a windpipe crush that causes pain and potential tracheal injury rather than a clean blood choke, and is less effective as a submission because pain compliance is unreliable against experienced opponents",
+        "correction": "Ensure the crook of your elbow is centered under the chin with the bicep pressing one carotid and the forearm pressing the other. If you feel the windpipe under your forearm, adjust laterally until the forearm sits in the groove beside the trachea"
+      },
+      {
+        "error": "Squeezing explosively before achieving proper hand connection behind the head",
+        "consequence": "Choke lacks the wedge pressure from the hand behind the head, reducing compression effectiveness and allowing the defender time to work defensive grips into the gap",
+        "correction": "Complete the full figure-four connection before applying significant pressure. The hand behind the head is the mechanical multiplier that makes the choke effective - squeezing without it wastes energy and allows defensive openings"
+      },
+      {
+        "error": "Losing hook control or body triangle during the choke entry while focusing entirely on the upper body",
+        "consequence": "Opponent escapes hips and rotates out of back control entirely, losing the dominant position despite having the choke partially set",
+        "correction": "Maintain active hook pressure or body triangle squeeze throughout the choke entry. Lower body control is the foundation that makes the upper body attack possible - verify hooks before committing to the choke"
+      },
+      {
+        "error": "Rushing the choke entry against the defensive hand instead of working past it methodically",
+        "consequence": "Defender's grip becomes stronger as you push against it directly, and the struggle exhausts your arms while the defender's defensive position remains intact",
+        "correction": "Use circular swim moves, angle changes, and patience to work past the single defensive hand. The Gift Wrap provides a time advantage - there is no reason to rush against resistance when you can systematically bypass it"
+      },
+      {
+        "error": "Failing to adjust choking angle when opponent turns their chin toward the choking arm",
+        "consequence": "Chin blocks forearm entry and creates a stalemate where the choking arm cannot penetrate past the jawline despite the arm trap advantage",
+        "correction": "When the chin blocks one angle, shift your body and choking arm to attack from the opposite side. Use your head to push against the back of their skull to tilt the chin up, or transition to a short choke variation that works with the chin position rather than against it"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Choking arm placement and figure-four connection",
+        "description": "Practice the choking arm entry and grip connection from established Gift Wrap position with a fully cooperative partner. Focus on forearm placement on the carotid arteries, figure-four connection mechanics, and proper squeeze angle. No resistance - pure repetition of the finishing mechanics."
+      },
+      {
+        "phase": "Phase 2: Single-hand defense navigation",
+        "focus": "Bypassing one-handed grip fighting defense",
+        "description": "Partner provides realistic one-handed defense from Gift Wrap bottom, attempting to block the choking arm with their free hand. Practice swim moves, angle changes, and timing to work past the single defensive hand. Build the ability to read which defensive pattern the opponent uses and select the correct bypass."
+      },
+      {
+        "phase": "Phase 3: Positional integration",
+        "focus": "Maintaining Gift Wrap control during choke entry",
+        "description": "Partner provides moderate resistance including bridging, hip movement, and hook defense in addition to hand fighting. Practice maintaining Gift Wrap integrity and back control while simultaneously working the choke entry. Develop the coordination to manage multiple control points during the submission attempt."
+      },
+      {
+        "phase": "Phase 4: Chain attacks and live finishing",
+        "focus": "Competition-speed finishing with contingency attacks",
+        "description": "Full resistance positional sparring starting from Gift Wrap. Practice finishing the RNC under pressure, and when defended, chain to Gift Wrap Armbar on the free arm or transition to crucifix. Develop the ability to recognize when the RNC is available versus when a chain attack is the higher-percentage option."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structures does the Gift Wrap RNC target and how does proper placement differ from a windpipe choke?",
+        "answer": "The Gift Wrap RNC targets the bilateral carotid arteries on both sides of the neck, compressing them to restrict blood flow to the brain. Proper placement positions the crook of the elbow directly under the chin, with the bicep pressing one carotid and the forearm pressing the other. This differs from a windpipe choke where the forearm crosses directly over the trachea. If you feel the windpipe under your forearm, adjust laterally until the forearm sits in the groove beside the trachea.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your opponent is defending the choke effectively with their one free hand by gripping your choking wrist - what adjustment prevents the escape?",
+        "answer": "Rather than fighting directly against their wrist grip, use circular swim moves to bypass the hand entirely. Rotate your forearm in small circles to break the grip's effectiveness, or change your choking angle to enter from the side where their hand has less leverage. You can also use your head to push against the back of their skull, which tilts the chin up and creates a new entry angle. The critical insight is that one hand cannot defend all angles simultaneously - find the gap rather than overpowering the grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is maintaining the Gift Wrap arm trap throughout the entire choking sequence more important than having both hands available for the choke?",
+        "answer": "The Gift Wrap arm trap eliminates approximately half of the defender's hand-fighting capability, which is the primary defensive tool against the RNC. Releasing the wrap to use both hands for the choke restores the defender's full defensive ability, turning a heavily favored finishing position into a standard RNC contest. The mechanical disadvantage of choking with one arm while the other maintains the wrap is far smaller than the defensive advantage the opponent gains from recovering their trapped arm. The arm trap is what makes this submission high-percentage.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the indicators that the choke is properly locked and the opponent will lose consciousness if they do not tap?",
+        "answer": "Key indicators include: the figure-four grip is fully connected behind the head, the forearm and bicep are positioned on both carotids with no gap, the opponent's defensive grip fighting becomes weaker or more frantic, their body begins to relax involuntarily, and their breathing pattern changes audibly. In training, if you feel the lock is complete and the opponent has not tapped within 3-4 seconds, verbally ask if they are okay. Loss of consciousness can occur within 6-10 seconds of full bilateral compression.",
+        "safety_critical": true
+      },
+      {
+        "question": "What specific control requirements must be verified before committing to the Gift Wrap RNC finish attempt?",
+        "answer": "Before committing to the choke: verify the Gift Wrap arm trap is fully secured with the opponent's arm pulled high across their chest, confirm at least one deep hook or body triangle is controlling the opponent's hips, ensure chest-to-back connection is tight with no exploitable space, observe the defender's free hand position and defensive pattern, and confirm your choking arm has a clear path toward the neck. Attempting the choke without these prerequisites typically results in losing the Gift Wrap control entirely.",
+        "safety_critical": false
+      },
+      {
+        "question": "During a competition, your opponent starts going limp while you have the Gift Wrap RNC locked - what is your immediate protocol?",
+        "answer": "Release all choking pressure immediately. In competition, the referee should intervene, but if they have not noticed, verbally alert them that your opponent may be unconscious. Do not continue squeezing under any circumstances once the opponent goes limp. After release, the opponent should regain consciousness within seconds. If they do not, place them in recovery position on their side and ensure their airway is clear while medical personnel respond. A training or competition victory is never worth risking a partner's safety.",
+        "safety_critical": true
+      },
+      {
+        "question": "What grip adjustments should you make when the figure-four connection cannot be achieved due to arm length or Gift Wrap positioning?",
+        "answer": "If the standard figure-four grip (choking hand to opposite bicep) cannot be reached, grab your own shoulder or the top of your gift-wrap arm's forearm instead. Alternatively, use a palm-to-palm Gable grip behind the opponent's head if your gift wrap hand can reach. The key is establishing some form of connection that creates the wedge effect behind the opponent's head to drive their neck forward into the choking arm, regardless of the specific grip configuration used for the finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts posturing up and creating distance during the choke attempt - what adjustment prevents the escape?",
+        "answer": "Drive your hooks or body triangle forward to flatten the opponent's hips back to the mat. Simultaneously pull your chest tighter against their back by squeezing your elbows toward your body. Use the gift wrap arm to pull their trapped shoulder backward, which breaks their posture and eliminates the distance they created. If they continue fighting upward, follow their movement and use your body weight to collapse them back down. The combination of lower body hook pressure and upper body gift wrap control should prevent any sustained postural escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape for the defender once the Gift Wrap RNC is locked in, and why does it matter for training safety?",
+        "answer": "The point of no escape occurs when the figure-four grip is fully connected behind the head and the forearm and bicep are positioned on both carotid arteries with the chin trapped above the forearm. Once this configuration is established, even strong defensive effort cannot create enough space to prevent blood flow restriction. This matters for training safety because practitioners must recognize this point and tap before the choke is fully tightened. Attackers must apply pressure gradually to give defenders adequate time to tap, as unconsciousness follows within seconds of full compression.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you transition from the Gift Wrap RNC attempt to a Gift Wrap Armbar when the opponent's free arm defense is too strong?",
+        "answer": "When the opponent's free hand is successfully blocking your choking arm, their free arm is extended and isolated. Release the choke attempt and immediately control the wrist of the defending arm with your choking hand. Swing your top leg over their face while maintaining the gift wrap with your other arm, creating an armbar position on the free arm. The opponent faces a dilemma: defend the choke with their free hand and expose it to armbar, or retract the arm and expose their neck. This chain attack is what makes the Gift Wrap system highly effective in competition.",
+        "safety_critical": false
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Gift Wrap RNC."
+    ]
   },
   "defender": {
     "name": "Gift Wrap RNC Defender",
-    "description": "TODO: Write defender description for Gift Wrap RNC.",
-    "overview": "TODO: Write defender overview for Gift Wrap RNC.",
+    "description": "Learn to defend and escape the Gift Wrap RNC in BJJ. Recognition cues, one-handed defense strategies, arm recovery techniques, and systematic escape protocols.",
+    "overview": "Defending the Gift Wrap RNC is one of the most challenging defensive tasks in Brazilian Jiu-Jitsu because your primary defensive tool - two-handed grip fighting - has been cut in half. With one arm trapped across your body by the Gift Wrap, you must protect your neck, fight the choking arm, and work toward escape using only your free hand and hip movement. The key insight for defense is that you cannot win by passively defending the choke alone. You must simultaneously defend the immediate choke threat while actively working to recover the trapped arm, because defending with one hand is a losing proposition over time. Every second the Gift Wrap remains intact, the attacker's finishing probability increases.",
     "key_principles": [
-      "TODO"
+      "Protect the neck as absolute first priority - your free hand must block the choking arm before any escape attempt",
+      "Work to recover the trapped arm to restore full defensive capability rather than trying to survive indefinitely with one hand",
+      "Stay on your side to maintain hip mobility - getting flattened dramatically increases the attacker's finishing probability",
+      "Time defensive movements to moments when the attacker transitions between control and attack, creating brief windows",
+      "Use hip movement and body positioning rather than arm strength for escape, as your available strength is halved",
+      "Accept incremental improvement - stripping the gift wrap to standard back control is a victory that restores two-handed defense",
+      "Keep the free arm retracted when not actively defending the neck to prevent armbar attacks on your last defensive tool"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker's free arm begins moving toward your neck from behind while maintaining the gift wrap with the other arm",
+      "Attacker shifts their weight or adjusts angle to position their choking arm on the side where your chin offers less protection",
+      "Attacker uses their head to push against the back of your skull, tilting your chin upward to create a choking entry angle",
+      "Attacker's hooks drive forward flattening your hips to the mat in preparation for committing to the choke squeeze",
+      "Attacker's forearm begins sliding along your jawline toward the space beneath your chin"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Single-hand grip fight on the choking wrist to prevent the forearm from getting beneath the chin",
+        "when_to_use": "As soon as you feel the attacker's choking arm begin moving toward your neck - this is your primary defensive response",
         "targets_outcome": "Gift Wrap/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Prevents the choke from being set and buys time to work on arm recovery from the gift wrap",
+        "risk": "Using your only free hand for wrist control leaves you unable to create frames for positional escape simultaneously"
+      },
+      {
+        "action": "Aggressive chin tuck with shoulder shrug to block forearm entry beneath the jawline",
+        "when_to_use": "When the choking arm is approaching your chin line and you need a secondary barrier beyond hand fighting",
+        "targets_outcome": "Gift Wrap/Top",
+        "if_successful": "Creates a structural barrier that the attacker must work around, delaying the choke and creating time for hip movement",
+        "risk": "Chin tuck alone is insufficient against skilled attackers who use angle changes and head pressure to bypass it"
+      },
+      {
+        "action": "Hip escape and shoulder rotation to recover the trapped arm from the Gift Wrap",
+        "when_to_use": "When the attacker is between submission attempts or adjusting their position, creating a brief window where control loosens",
+        "targets_outcome": "Back Control/Top",
+        "if_successful": "Recovers the trapped arm, restoring two-handed defense and converting the position to standard back control which is significantly more survivable",
+        "risk": "The rotation required for arm recovery may momentarily reduce your neck defense, creating a choke window"
+      },
+      {
+        "action": "Explosive bridge timed with hip escape to create distance and disrupt the attacker's control structure",
+        "when_to_use": "When the attacker commits to the choke and loosens their hook pressure or body position during the finishing attempt",
+        "targets_outcome": "Back Control/Top",
+        "if_successful": "Creates enough space to begin turning toward the attacker or strip a hook, leading to improved defensive position",
+        "risk": "Failed bridge attempts waste energy rapidly and may open the neck during the bridge's upward phase"
       }
+    ],
+    "escape_paths": [
+      "Recover trapped arm through hip escape and shoulder rotation, converting to standard back control with two-handed defense, then execute standard back escape sequences",
+      "Time an explosive hip escape during attacker's choke entry transition to strip a hook, turn to turtle, and work standard turtle defense or re-guard"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Gift Wrap/Top",
-        "how": "TODO"
+        "outcome": "Back Control/Top",
+        "how": "Strip the Gift Wrap arm trap through hip movement and shoulder rotation during a window when the attacker transitions between control and attack. Recovering the trapped arm converts the position to standard back control where two-handed defense is available, dramatically improving survival probability."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Fighting the Gift Wrap arm trap with the trapped arm itself, pushing and straining against the control",
+        "consequence": "Exhausts the trapped arm without accomplishing recovery, and the pushing motion can actually help the attacker tighten control by creating counter-pressure they leverage against",
+        "correction": "Keep the trapped arm relaxed and use hip movement and shoulder rotation to create the angle needed for arm extraction. The escape comes from body positioning, not arm strength"
+      },
+      {
+        "error": "Removing the free hand from neck defense to work on gift wrap recovery or hook removal",
+        "consequence": "Creates an immediate opening for the rear naked choke, which the attacker is waiting for - this is the single most common way practitioners get submitted from Gift Wrap",
+        "correction": "Maintain neck defense with the free hand at all times while using hip and shoulder movement for escape. Only briefly remove the hand from the neck when you have a specific timed escape attempt, and return it immediately"
+      },
+      {
+        "error": "Allowing the body to flatten completely onto the mat under the attacker's pressure",
+        "consequence": "Eliminates hip mobility needed for escape, increases the attacker's pressure and control, and makes both arm recovery and hook removal significantly more difficult",
+        "correction": "Fight to stay on your side at all times. Even when defending the choke, maintain a slight angle to preserve hip mobility. Use the side position to create the wedge that makes arm recovery possible"
+      },
+      {
+        "error": "Extending the free arm to push the attacker away or create distance",
+        "consequence": "The extended free arm becomes an isolated target for armbar, removing your last defensive tool and creating an even worse position than the original Gift Wrap",
+        "correction": "Keep the free arm retracted with the elbow tight to your body when not actively grip fighting the choking arm. Never fully extend the arm away from your body"
+      },
+      {
+        "error": "Attempting explosive movements without timing them to the attacker's transitions",
+        "consequence": "Burns energy rapidly against a settled opponent, making subsequent escape attempts weaker and less likely to succeed while the attacker maintains control with minimal effort",
+        "correction": "Wait for the attacker to transition between positions or commit to a submission attempt before using explosive movement. These transition moments create brief windows where their control structure loosens"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the correct priority sequence when defending the Gift Wrap RNC?",
+        "answer": "The priority sequence is: first, protect the neck with your free hand by grip fighting the choking arm; second, maintain side position to preserve hip mobility; third, work to recover the trapped arm through hip movement and shoulder rotation; fourth, execute escape sequences to improve position. Attempting to skip neck defense to work on arm recovery is the most common fatal error, as it creates immediate choking opportunities for the attacker.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is recovering the trapped arm considered a defensive victory even if you remain in back control?",
+        "answer": "Recovering the trapped arm converts the Gift Wrap to standard back control, roughly doubling your defensive capability. The Gift Wrap RNC succeeds at a much higher rate than the standard RNC precisely because of the arm trap advantage. Removing that advantage returns the exchange to a standard back control scenario where the defender has proven two-handed defensive tools available. This incremental improvement philosophy is essential for surviving bad positions systematically.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if you feel the choke is fully locked and you cannot escape the squeeze?",
+        "answer": "Tap immediately using your free hand on the attacker's body, your own body, or the mat. You can also tap with your feet or verbally say tap. A fully locked Gift Wrap RNC with the figure-four connected behind the head will cause loss of consciousness within 6-10 seconds of full bilateral compression. There is no benefit to holding out once the lock is complete - tap early, learn from the position, and train the defense again. Protecting your long-term health always takes priority over ego.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you prevent the attacker from using their head to tilt your chin up for choke entry?",
+        "answer": "When you feel the attacker pressing their forehead against the back of your skull, counter by driving the back of your head into their face or chest while simultaneously tucking your chin harder and turning your head toward the Gift Wrap side. Use your free hand to control the choking wrist while the chin tuck creates a structural barrier. If the head pressure becomes overwhelming, initiate a hip escape to change the angle and disrupt the pressure vector rather than trying to out-muscle the head push.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and neck defense",
+        "focus": "Identifying choke entry and establishing free-hand defense",
+        "description": "Partner establishes Gift Wrap and slowly works the choking arm toward the neck. Defender practices recognizing the entry angle, establishing free-hand wrist control, and maintaining chin tuck. No escape attempts - pure defensive recognition and reaction development."
+      },
+      {
+        "phase": "Phase 2: Arm recovery mechanics",
+        "focus": "Recovering the trapped arm through positional movement",
+        "description": "Partner maintains Gift Wrap at moderate resistance without attacking the choke. Defender focuses entirely on recovering the trapped arm through hip escape and shoulder rotation. Develops the movement pattern for arm extraction while maintaining awareness of the neck threat."
+      },
+      {
+        "phase": "Phase 3: Integrated defense under pressure",
+        "focus": "Combining neck defense with escape attempts against active attacks",
+        "description": "Partner attacks the Gift Wrap RNC with progressive resistance while defender works the complete defensive sequence: protect neck, recover arm, execute escape. Develops the ability to manage multiple defensive priorities simultaneously under realistic pressure."
+      },
+      {
+        "phase": "Phase 4: Live survival and escape sparring",
+        "focus": "Full resistance defense with competition-level finishing attempts",
+        "description": "Start each round from Gift Wrap bottom with partner actively finishing. Defender's goal is to survive and escape to any improved position. Builds mental composure and real-time defensive decision-making under maximum pressure."
       }
     ]
   }

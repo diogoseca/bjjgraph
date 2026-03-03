@@ -1,10 +1,14 @@
 {
   "name": "Knee Cut from Headquarters",
-  "description": "TODO: Write 150-160 character SEO description for Knee Cut from Headquarters.",
+  "description": "Master the Knee Cut from Headquarters in BJJ. A high-percentage guard pass combining knee pressure and crossface control to slice through into side control.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard-pass",
+    "knee-cut",
+    "headquarters",
+    "pressure-passing",
+    "side-control"
   ],
   "from_position": "Headquarters Position/Top",
   "outcomes": [
@@ -25,114 +29,391 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Knee Cut from Headquarters.",
+  "overview": "The Knee Cut from Headquarters is the highest-percentage guard pass in modern systematic jiu-jitsu, serving as the primary offensive transition from the headquarters hub position. This technique leverages the control advantages inherent in headquarters—trapped leg, upright posture, and triangulated base—to drive the cutting knee diagonally across the opponent's thigh line, separating their legs and completing the pass to side control. The mechanical foundation relies on three simultaneous actions: knee pressure slicing through the thigh line, crossface or shoulder pressure preventing the opponent from turning into the passer, and a decisive hip drop that collapses remaining defensive structures.\n\nFrom headquarters specifically, the knee cut benefits from pre-established leg control and a stable base that eliminates many of the setup requirements needed from other starting positions. The passer reads the opponent's defensive reaction and commits to the knee cut at the moment the opponent turns their hips toward the trapped leg side, which naturally opens the passing lane across the thigh. This integration with the headquarters decision tree makes the knee cut the primary passing option, accounting for approximately 30% of all passing attempts from this position in systematic guard passing methodologies.\n\nThe technique's effectiveness at all levels stems from its direct biomechanical advantage: the passer's entire body weight channels through the cutting knee, creating a wedge that separates the opponent's legs regardless of defensive framing. When combined with proper crossface control and hip pressure, the knee cut creates a passing sequence that is mechanically difficult to defend without conceding position elsewhere, forcing the bottom player into reactive choices that open alternative passing lanes if the knee cut itself is blocked.",
   "conditions": [
-    "TODO"
+    "Headquarters position established with one opponent leg trapped between your legs and knee driven toward the mat",
+    "Crossface, collar grip, or upper body control established to prevent opponent from turning into you",
+    "Opponent's hip mobility restricted through sustained downward leg pressure and weight distribution",
+    "Posting base stable with supporting leg wide and perpendicular to opponent's body for balance during the cut",
+    "Passing lane identified on the knee cut side with opponent's thigh line accessible for the cutting angle"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Crossface Knee Cut",
+      "description": "Emphasizes strong crossface pressure driving the opponent's head away before initiating the cut. The forearm or bicep drives across the jaw line, pinning the opponent flat and preventing them from turning into the pass. The crossface arm bears significant weight, creating discomfort that distracts from the leg extraction.",
+      "when_to_use": "When the opponent is relatively flat on their back without a strong knee shield, and you can establish the crossface before they create defensive frames on your shoulder."
+    },
+    {
+      "variant_name": "Underhook Knee Cut",
+      "description": "Uses a deep underhook on the far side of the opponent's body instead of the crossface to control hip rotation and prevent guard recovery. The underhook controls the opponent's far shoulder and allows you to drive their body toward the mat while cutting the knee through. Particularly effective against opponents who turn to their side aggressively.",
+      "when_to_use": "When the opponent turns toward you and attempts to establish their own underhook, creating the opportunity to secure yours first and use their turning motion to accelerate the pass."
+    },
+    {
+      "variant_name": "Speed Knee Cut",
+      "description": "An explosive entry that bypasses the settling phase of headquarters and drives the knee cut immediately upon trapping the leg. Relies on speed and timing rather than established pressure, catching the opponent before they can set defensive frames or establish knee shield positioning. Requires excellent timing and commitment.",
+      "when_to_use": "When transitioning rapidly from standing or combat base into headquarters and the opponent has not yet established defensive grips, allowing you to capitalize on the momentary positional chaos."
     }
   ],
-  "position_integration": "TODO: Write position integration for Knee Cut from Headquarters.",
+  "position_integration": "The Knee Cut from Headquarters occupies the central offensive role in systematic guard passing methodology as the primary transition from the headquarters hub to side control. It connects directly to the most common dominant position achieved through guard passing and serves as the default option when the opponent turns their hips toward the trapped leg. The technique integrates with toreando and leg drag passes to form a three-directional passing system where each option covers defensive responses to the others—if the opponent frames to stop the knee cut, the toreando becomes available; if they underhook to counter the knee cut, the leg drag or backstep opens. Failed knee cut attempts return to headquarters for immediate re-engagement with alternative passes, creating systematic pressure cycles that exhaust defensive options over time.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Headquarters Position",
+      "relationship": "Source position from which the knee cut is initiated, providing the trapped leg control and base structure"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved upon successful completion of the knee cut pass"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position the opponent may recover if they catch the cutting leg during the pass attempt"
+    },
+    {
+      "name": "Toreando from Headquarters",
+      "relationship": "Alternative pass from headquarters that chains naturally when the knee cut is blocked by frames"
+    },
+    {
+      "name": "Leg Drag from Headquarters",
+      "relationship": "Complementary pass option when opponent straightens their leg to create distance against the knee cut"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing direction when opponent attempts deep half or underhook against the knee cut"
+    },
+    {
+      "name": "Body Lock Pass",
+      "relationship": "Pressure-based alternative when opponent maintains strong defensive frames against all cutting passes"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Primary defensive structure opponents use to block the knee cut from entering the thigh line"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Defensive entry opponents may attempt when the knee cut pressure drives them to go underneath"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Preceding position often used to establish headquarters before initiating the knee cut sequence"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Related passing technique using similar mechanics from half guard top rather than headquarters"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position that can develop if the bottom player achieves an underhook during the knee cut"
     }
   ],
   "attacker": {
     "name": "Knee Cut from Headquarters Attacker",
-    "description": "TODO: Write attacker description for Knee Cut from Headquarters.",
-    "overview": "TODO: Write attacker overview for Knee Cut from Headquarters.",
+    "description": "Master executing the Knee Cut from Headquarters. Step-by-step guide to the highest-percentage guard pass including setup, mechanics, and counter-responses.",
+    "overview": "As the attacker executing the Knee Cut from Headquarters, your objective is to convert the positional control of headquarters into a completed guard pass to side control. The technique requires precise coordination of knee pressure, crossface control, and hip movement to slice through the opponent's defensive structure. Success depends on reading the opponent's hip angle and committing to the cut at the optimal moment when their defensive frames are weakest, combining systematic pressure with decisive execution to complete the pass before counter-attacks develop. The knee cut rewards patience in setup and explosiveness in execution—settling into headquarters control before committing ensures you pass against the opponent's weakest defensive angle.",
     "key_principles": [
-      "TODO"
+      "Establish upper body control before initiating the cut—crossface or underhook must be secured to prevent the opponent from turning into the pass and countering",
+      "Drive the cutting knee diagonally at forty-five degrees across the opponent's thigh, not straight down, creating a wedge effect that mechanically separates their legs",
+      "Drop your hip weight through the cut rather than sliding over the top—the hip drop collapses defensive space and prevents half guard recovery",
+      "Read the opponent's hip angle and initiate the cut when they turn toward the trapped leg side, which naturally opens the passing lane across their thigh",
+      "Maintain downward pressure on the trapped leg throughout the entire pass sequence to prevent the opponent from creating hip movement or recovering guard structure",
+      "Slide the shin through using a windshield-wiper extraction rather than lifting the leg, which would create space for the opponent to re-insert defensive hooks"
     ],
     "setup_requirements": [
-      "TODO"
+      "Headquarters position established with one opponent leg trapped and knee driven toward the mat with sustained downward pressure",
+      "Crossface or collar control secured to pin the opponent's head away from the passing direction and prevent them from turning into you",
+      "Posting leg positioned wide for stable triangulated base that will support the weight transfer during the cutting motion",
+      "Opponent's hip mobility restricted through combination of leg pressure and upper body control, limiting their ability to create defensive angles",
+      "Passing lane identified with opponent's thigh line accessible on the knee cut side, ideally with their hips angled toward the trapped leg"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Upper Body Control",
+        "description": "From headquarters with the opponent's leg trapped, secure crossface control by driving your near-side forearm across the opponent's jaw and neck, turning their head away from you. Your far-side hand maintains control of their near-side knee or pant grip at the knee line to manage leg position and prevent early defensive framing."
+      },
+      {
+        "step_number": 2,
+        "action": "Read Opponent's Hip Angle",
+        "description": "Observe the direction of the opponent's hips and identify the optimal passing lane. The ideal moment to initiate the knee cut is when the opponent turns their hips toward the trapped leg side, which naturally opens a gap across their thigh line. Avoid committing when their hips face you squarely with active frames in place."
+      },
+      {
+        "step_number": 3,
+        "action": "Angle the Cutting Knee",
+        "description": "Drive your trapped-side knee diagonally across the opponent's inner thigh at approximately forty-five degrees, aiming for the mat on the far side of their body. The angled knee creates a wedge effect that separates their legs through your bodyweight rather than muscular effort, generating pressure that is difficult to resist or redirect."
+      },
+      {
+        "step_number": 4,
+        "action": "Drop Hip Weight Through the Cut",
+        "description": "As your knee crosses the opponent's thigh line, actively drop your hip toward the mat on the passing side. This hip drop collapses remaining space between your bodies and prevents the opponent from re-inserting their knee for half guard recovery. Your hip should become the heaviest contact point driving through their defensive structure."
+      },
+      {
+        "step_number": 5,
+        "action": "Slide Shin Through and Clear the Leg",
+        "description": "Once your knee has crossed and your hip is dropping, slide your shin across the opponent's thigh using a windshield-wiper motion with your foot to extract your leg completely from between their legs. Maintain downward pressure throughout the extraction rather than lifting your leg, which would create space for guard recovery."
+      },
+      {
+        "step_number": 6,
+        "action": "Consolidate Crossface and Block Hip",
+        "description": "Drive your crossface arm deeper as the pass completes, pinning the opponent's head firmly away from you with heavy shoulder pressure. Simultaneously bring your far hand to block their near-side hip, preventing them from turning into you or inserting a knee between your bodies during the transition."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle into Side Control",
+        "description": "Complete the transition by establishing perpendicular chest pressure across the opponent's torso with heavy shoulder contact. Position your legs for stable base with near leg posted and far leg sprawled, eliminate all remaining space between bodies, and secure standard side control with crossface, hip block, and chest-to-chest connection established."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent establishes strong knee shield before the cut initiates, blocking the knee from crossing the thigh line",
+        "effectiveness": "High",
+        "your_response": "Switch to smash pass by collapsing your weight laterally onto the knee shield, turning their defensive structure into a passing lane, or disengage and attack with toreando or leg drag from the opposite angle",
+        "targets_outcome": "Headquarters Position/Top"
+      },
+      {
+        "counter": "Opponent secures deep underhook during the knee cut and begins sitting up to threaten sweep or back take",
+        "effectiveness": "High",
+        "your_response": "Immediately drive crossface pressure harder to flatten them back down, or apply a whizzer on the underhook arm and switch to a darce choke threat that punishes their attempt to come underneath",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent frames on your hip with a stiff arm and hip escapes away, creating distance that prevents the knee from crossing",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Strip the hip frame by swimming your elbow inside their wrist and pinning it to their body, then immediately re-engage the knee cut before they can re-establish the defensive frame or recover full guard",
+        "targets_outcome": "Headquarters Position/Top"
+      },
+      {
+        "counter": "Opponent catches your cutting leg in half guard by locking their legs around your shin as it crosses the thigh line",
+        "effectiveness": "Medium",
+        "your_response": "Use the trapped position to settle into half guard top and begin a standard knee slice pass sequence from there, or backstep to free your leg and return to headquarters for another passing attempt",
         "targets_outcome": "Headquarters Position/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the knee cut without establishing crossface or upper body control first",
+        "consequence": "Opponent turns into you freely, secures an underhook, and either recovers half guard or sweeps you during the cutting motion when your base is compromised",
+        "correction": "Always secure crossface or underhook control before driving the knee across the thigh line, ensuring the opponent cannot turn into the pass or establish offensive grips during the transition"
+      },
+      {
+        "error": "Cutting the knee straight down vertically rather than at a diagonal angle across the thigh",
+        "consequence": "No wedge effect is created, the knee slides off the thigh without separating the legs, and the opponent easily maintains leg entanglement and recovers guard structure",
+        "correction": "Drive the knee at forty-five degrees diagonally across the opponent's inner thigh, aiming for the mat on their far side to create the wedge that mechanically separates their legs through bodyweight"
+      },
+      {
+        "error": "Failing to drop the hips during the cutting phase, staying elevated on the knee",
+        "consequence": "Space remains between your hip and the opponent's body, allowing them to re-insert their knee for half guard recovery or create enough distance to establish defensive frames",
+        "correction": "Actively drop your hip toward the mat as the knee crosses the thigh line, making your hip the heaviest point of contact that collapses all remaining defensive space"
+      },
+      {
+        "error": "Lifting the leg to clear the opponent's entanglement instead of sliding the shin through",
+        "consequence": "Lifting creates space under your leg that the opponent exploits to re-insert hooks, recover half guard, or create enough distance to establish full guard recovery",
+        "correction": "Use a windshield-wiper shin slide to extract the leg while maintaining constant downward pressure throughout the extraction, never creating space beneath your leg"
+      },
+      {
+        "error": "Telegraphing the pass direction by shifting weight toward the cutting side before committing",
+        "consequence": "Opponent anticipates the knee cut direction and pre-positions defensive frames, knee shield, or underhook that block the pass before it develops",
+        "correction": "Maintain neutral headquarters weight distribution until the moment of commitment, then execute the cut with decisive speed so the opponent must react rather than anticipate"
+      },
+      {
+        "error": "Rushing the knee cut before the opponent's hip angle opens the passing lane",
+        "consequence": "The cut meets maximum defensive resistance when the opponent's hips face you squarely, resulting in a stalled pass that wastes energy and allows the opponent to establish stronger defensive positioning",
+        "correction": "Wait for the opponent to turn their hips toward the trapped leg side or use pressure to force the hip turn before committing to the cut, ensuring you pass against their weakest defensive angle"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Cutting angle, hip drop, and shin extraction",
+        "description": "Drill the knee cut motion against a non-resisting partner, focusing on the diagonal knee angle, the hip drop timing, and the windshield-wiper shin extraction. Perform 20 repetitions per side, emphasizing smooth coordination between all three elements before adding any resistance."
+      },
+      {
+        "phase": "Phase 2: Timing and Setup",
+        "focus": "Reading hip angles and establishing upper body control",
+        "description": "Partner provides light defensive movement including hip turns and basic frames. Practice identifying the optimal moment to initiate the cut based on the opponent's hip angle and establishing crossface control before committing. Develop the patience to wait for the right angle rather than forcing the pass."
+      },
+      {
+        "phase": "Phase 3: Chain Passing Integration",
+        "focus": "Combining knee cut with alternative passes from headquarters",
+        "description": "Partner defends the knee cut with moderate resistance using knee shield, frames, and underhook attempts. Practice switching between knee cut, toreando, and leg drag based on defensive reactions. Build automatic recognition of which pass is available based on the opponent's defensive choice."
+      },
+      {
+        "phase": "Phase 4: Counter-Response Development",
+        "focus": "Handling common defensive reactions during the knee cut",
+        "description": "Partner applies specific counters including deep underhook, knee shield insertion, and hip escape sequences. Practice adjusting the knee cut in real time—increasing crossface pressure, switching to whizzer, or abandoning to alternative pass. Develop the ability to adapt mid-technique."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from headquarters",
+        "description": "Positional sparring starting from headquarters with full resistance. Top player works to complete the knee cut or chain to alternative passes while bottom player uses all available defensive tools. Three-minute rounds with reset on pass completion or full guard recovery."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What hip angle from the opponent signals the optimal timing to initiate the knee cut from headquarters?",
+        "answer": "The optimal timing is when the opponent turns their hips toward the trapped leg side, which naturally opens a passing lane across their thigh line. This hip turn creates a gap between their legs that the cutting knee can exploit. Cutting when the opponent's hips face you squarely meets maximum resistance because both legs can defend the passing lane simultaneously."
+      },
+      {
+        "question": "Your opponent establishes a strong frame on your shoulder as you begin the knee cut—what is your immediate adjustment?",
+        "answer": "Strip the shoulder frame by swimming your elbow inside their wrist and pinning their arm to their body, or change levels by dropping your shoulder below their frame to slip underneath it. If the frame is too strong to strip directly, consider switching to a toreando or leg drag pass that attacks the angle their frame creates rather than fighting through it directly."
+      },
+      {
+        "question": "What is the most critical biomechanical action that prevents the opponent from recovering half guard during the knee cut?",
+        "answer": "The hip drop is the most critical action. As the cutting knee crosses the thigh line, actively dropping your hip toward the mat on the passing side collapses all remaining space between your bodies. This prevents the opponent from re-inserting their knee because there is no gap between your hip and their body through which their leg can travel. Without the hip drop, space remains even after the knee crosses."
+      },
+      {
+        "question": "During the knee cut, your opponent secures a deep underhook and begins sitting up toward your back—how do you respond?",
+        "answer": "Immediately increase crossface pressure to drive their head and shoulders back to the mat, countering their upward momentum. If the crossface alone cannot flatten them, apply a whizzer on their underhook arm by overhooking it and driving your shoulder into their armpit. From the whizzer position, you can threaten a darce choke that punishes the underhook attempt or use the whizzer to flatten them and resume the knee cut."
+      },
+      {
+        "question": "What grip or control must be established before initiating the knee cut from headquarters?",
+        "answer": "Crossface or collar control must be established on the upper body before committing to the knee cut. The crossface forearm drives across the opponent's jaw and neck, turning their head away from the passing direction. Without this upper body control, the opponent can freely turn into the pass, establish their own underhook, and counter the knee cut with a sweep or guard recovery."
+      },
+      {
+        "question": "The opponent blocks your knee cut with a knee shield—what alternative passes chain naturally from this defensive reaction?",
+        "answer": "The knee shield opens three natural chain passes: the smash pass by collapsing your weight laterally onto the knee shield and using it as a passing lane, the long step pass by stepping your free leg over their shield to the opposite side, or the toreando pass by disengaging the cutting knee and redirecting laterally around their legs. Each option exploits the defensive commitment the knee shield requires."
+      },
+      {
+        "question": "In which direction should force be applied through the cutting knee relative to the opponent's body?",
+        "answer": "The cutting knee should drive diagonally at approximately forty-five degrees across the opponent's inner thigh, angling toward the mat on their far side. This diagonal angle creates a wedge effect that mechanically separates the legs through bodyweight pressure. A straight vertical cut slides off the thigh without creating separation, and a purely lateral cut lacks the downward pressure needed to pin through the thigh line."
+      },
+      {
+        "question": "Your cutting knee crosses the thigh line but the opponent locks their legs around your shin—what technique do you use to extract your leg?",
+        "answer": "Use the windshield-wiper shin extraction by rotating your foot outward in an arc while maintaining constant downward hip pressure. The rotation creates a circular motion that peels your shin through their leg lock without lifting your leg and creating space. If the leg lock is too tight, increase crossface pressure to distract them while you work the extraction, or accept the half guard top position and transition to a standard knee slice pass sequence from there."
+      },
+      {
+        "question": "Why is it critical to maintain downward pressure on the trapped leg throughout the entire knee cut sequence?",
+        "answer": "Continuous downward pressure on the trapped leg restricts the opponent's hip mobility, which is the foundation of all their defensive options. If pressure is released even momentarily, the opponent can use that window to hip escape, re-angle their hips, insert a knee shield, or recover full guard structure. The trapped leg pressure also serves as the anchor point from which the cutting knee generates its diagonal wedge force."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Knee Cut from Headquarters."
+    "safety_considerations": "The knee cut pass applies significant lateral pressure across the opponent's knee and hip joints during the cutting phase. Controlled application is essential—sudden explosive entries can cause MCL strain or hip flexor injury in training partners. When drilling, reduce speed during the cutting phase and allow the bottom player time to adjust their leg position. Avoid driving the knee through a fully locked defensive structure with maximum force, as this can injure both the knee joint of the bottom player and the hip of the passer. Communicate with training partners about knee sensitivity and tap immediately if any joint pain is felt during the extraction phase."
   },
   "defender": {
     "name": "Knee Cut from Headquarters Defender",
-    "description": "TODO: Write defender description for Knee Cut from Headquarters.",
-    "overview": "TODO: Write defender overview for Knee Cut from Headquarters.",
+    "description": "Complete guide to defending the Knee Cut from Headquarters in BJJ. Recognition cues, defensive frames, counter-sweeps, and guard recovery techniques.",
+    "overview": "Defending the Knee Cut from Headquarters requires early recognition of the pass attempt and immediate defensive action before the passer establishes the cutting angle across your thigh line. Your primary goal is preventing the knee from crossing by maintaining frames, controlling the passer's hip, and keeping your own hips mobile and angled rather than flat on the mat. The knee cut becomes exponentially harder to defend once the cutting knee crosses the thigh line and the passer drops their hip, so all defensive effort should focus on early intervention during the setup phase. If the knee cut advances past initial defense, transitioning to half guard recovery or using the passer's committed weight against them for sweep opportunities becomes the secondary defensive strategy, turning their offensive commitment into a vulnerability.",
     "key_principles": [
-      "TODO"
+      "React before the knee crosses your thigh line—early defensive intervention is dramatically more effective than late-stage recovery attempts against an established cut",
+      "Maintain hip mobility by staying on your side and continuously creating angles rather than lying flat, which gives the passer direct access to the cutting lane",
+      "Establish knee shield or forearm frames against the passer's hip and shoulder to create distance that prevents the cutting knee from reaching your thigh line",
+      "Fight for the underhook on the side of the cutting knee, as it provides the primary pathway to sweep attempts and prevents the crossface from being established",
+      "Control the passer's hip on the cutting side with your near hand to physically block the knee from advancing across your body",
+      "If the knee crosses, immediately lock your legs around the cutting shin to recover half guard rather than allowing complete pass to side control"
     ],
     "recognition_cues": [
-      "TODO"
+      "Passer's knee begins angling diagonally toward your far-side mat, shifting from vertical headquarters pressure to lateral cutting pressure across your thigh",
+      "Crossface pressure intensifies suddenly as the passer secures upper body control to prevent you from turning into the pass before committing to the cut",
+      "Passer's weight shifts toward your far side as they commit body mass behind the cutting knee, noticeably changing the pressure distribution from centered to lateral",
+      "Passer's far hand releases knee control grip and repositions toward your head or far shoulder for crossface or collar control, signaling imminent pass commitment",
+      "Passer's posting leg adjusts position or drives forward, indicating they are loading their base for the cutting motion and weight transfer across your thigh"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Insert knee shield before the cut develops by placing your shin across the passer's hip line and framing on their shoulder with your top hand",
+        "when_to_use": "At the earliest recognition of the knee cut setup, before the passer commits weight to the cutting direction and while their knee is still in headquarters position",
         "targets_outcome": "Headquarters Position/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The knee shield blocks the cutting knee from crossing your thigh, forcing the passer back to headquarters to reconsider their passing approach or chain to an alternative pass",
+        "risk": "If the knee shield is established too late, the passer can smash through it by collapsing their weight laterally, potentially achieving an even stronger passing position"
+      },
+      {
+        "action": "Secure deep underhook on the cutting side and sit up aggressively into the passer's body, threatening a sweep or back take as they commit weight forward",
+        "when_to_use": "When the passer commits to the knee cut and shifts their weight forward, creating the opportunity to get underneath their center of gravity with the underhook",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The underhook combined with the passer's forward commitment allows you to sweep them to half guard bottom or take their back as their base is compromised by the cutting motion",
+        "risk": "If the passer recognizes the underhook early, they can apply a whizzer or darce choke that punishes your attempt to come underneath, or increase crossface pressure to flatten you before the underhook becomes effective"
+      },
+      {
+        "action": "Frame on the passer's hip with your near hand while hip escaping away from the cutting direction to create distance and recover guard structure",
+        "when_to_use": "When the passer's knee begins crossing but has not yet reached the critical point past your thigh line, and you have enough space to create a hip frame",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "The hip frame combined with the hip escape creates enough distance to recover your legs into a guard position, either half guard with knee shield or full closed guard",
+        "risk": "If the frame is weak or poorly positioned, the passer strips it easily and accelerates the pass with the momentum of your hip escape working against your own defensive structure"
+      },
+      {
+        "action": "Lock legs around the cutting shin to recover half guard if the knee crosses the thigh line, preventing the complete pass to side control",
+        "when_to_use": "As a last-resort defense when the cutting knee has already crossed your thigh line and the primary defenses have been bypassed, catching the shin before full extraction",
+        "targets_outcome": "Headquarters Position/Top",
+        "if_successful": "You recover half guard position with the passer's leg trapped, resetting the exchange to a half guard battle rather than conceding the full pass to side control",
+        "risk": "The passer may use the half guard position to transition to a standard knee slice pass or backstep, and you have lost the advantageous headquarters bottom position"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time the underhook as the passer commits their weight to the knee cut. As their base shifts forward and laterally, use the underhook to get underneath their center of gravity and execute a sweep using their own forward momentum against them. The key is catching the transition moment when their weight is committed to the cut but the pass is not yet complete."
+      },
+      {
+        "outcome": "Headquarters Position/Top",
+        "how": "Establish knee shield early in the cut sequence before the passer can develop full momentum. Frame on their shoulder and hip simultaneously to create multi-point distance that prevents the knee from advancing. Combine the frames with an active hip escape that creates enough angle to re-insert your legs into guard position, forcing the passer to restart from headquarters."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lying flat on your back without creating any defensive frames or maintaining hip mobility against the advancing knee cut",
+        "consequence": "The passer's knee slides freely across your thigh with no resistance, completing the pass to side control before any defensive response can develop",
+        "correction": "Stay on your side with active frames against the passer's hip and shoulder from the moment you recognize you are in headquarters bottom, maintaining constant angle and frame structure"
+      },
+      {
+        "error": "Pushing on the passer's head or chest with extended arms rather than framing on their hips and shoulders",
+        "consequence": "Extended arms are isolated and vulnerable to kimura, americana, or armbar attacks, and pushing high provides no structural resistance against the knee cutting through your thigh line below",
+        "correction": "Frame against the passer's hip on the cutting side with your near hand and against their shoulder with your far hand, keeping elbows close to your body for structural integrity"
+      },
+      {
+        "error": "Attempting to turn away from the passer when the knee cut pressure becomes intense",
+        "consequence": "Turning away exposes your back for back take opportunities and removes your ability to use frames and hip movement for guard recovery, transitioning from a difficult position to a worse one",
+        "correction": "Always face the passer and work defensive options that keep you connected to their body—knee shield, underhook, or hip frame—rather than turning away which abandons all defensive structure"
+      },
+      {
+        "error": "Reacting too late and attempting to establish knee shield after the cutting knee has already crossed the thigh line",
+        "consequence": "The knee shield cannot be inserted once the passer's knee and hip are past the defensive plane, wasting energy on an impossible defensive action while the pass completes",
+        "correction": "Recognize the knee cut setup cues early and establish knee shield or frames during the passer's setup phase, before they commit weight to the cutting direction and cross the thigh line"
+      },
+      {
+        "error": "Focusing entirely on stopping the knee without addressing the crossface that pins your head and prevents you from turning",
+        "consequence": "Even if you temporarily slow the knee cut, the crossface control prevents you from creating the angles needed for effective defense, and the passer eventually forces the pass through sustained pressure",
+        "correction": "Address both threats simultaneously by fighting the crossface with your far hand while controlling the passer's hip with your near hand, or use the underhook to neutralize the crossface by getting underneath the passer's arm"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest visual cue that a knee cut is being initiated from headquarters?",
+        "answer": "The earliest cue is the passer's knee beginning to angle diagonally toward your far-side mat, shifting from vertical headquarters pressure to lateral cutting pressure. This is often accompanied by the passer repositioning their far hand from knee control to a crossface or collar grip, signaling they are transitioning from headquarters maintenance to active passing. Recognizing this weight shift before the knee crosses the thigh line is critical for effective defense."
+      },
+      {
+        "question": "Your opponent begins the knee cut and you have no knee shield in place—what is your best defensive action?",
+        "answer": "Frame on the passer's hip on the cutting side with your near hand to physically block the knee's advance while simultaneously hip escaping away from the cutting direction to create distance. If there is enough space, insert your knee between your bodies to establish a late knee shield. If the knee is already too close, secure the underhook on the cutting side and sit up to threaten a sweep that exploits the passer's forward commitment."
+      },
+      {
+        "question": "What are the consequences of pushing the opponent's head during a knee cut defense?",
+        "answer": "Pushing the opponent's head with an extended arm exposes that arm to kimura, americana, and armbar submissions while providing no structural resistance against the knee cutting through the thigh line below. The head push also places your defensive effort above the actual threat, leaving the passing lane undefended. Effective defense requires framing against the hip and shoulder where the forces directly oppose the cutting motion."
+      },
+      {
+        "question": "When is the optimal timing window to attempt an underhook sweep against a knee cut?",
+        "answer": "The optimal window is the moment the passer commits their weight forward and laterally into the cutting direction but before the knee has fully crossed the thigh line and the hip has dropped. During this transition moment, the passer's base is compromised because their weight is in motion between headquarters stability and the cutting position. The underhook exploits this brief window of instability to redirect their momentum into a sweep."
+      },
+      {
+        "question": "How do you prevent the crossface from being established during the knee cut setup?",
+        "answer": "Use your far-side hand to frame against the passer's bicep or shoulder on the crossface side, creating a barrier that prevents their forearm from crossing your jaw line. Alternatively, fight for the underhook on the cutting side early, which positions your shoulder underneath the passer's arm and makes the crossface geometrically impossible to establish. Maintaining an angle on your side rather than lying flat also reduces the surface area available for crossface pressure."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying knee cut initiation cues from headquarters bottom",
+        "description": "Partner establishes headquarters and initiates knee cuts at varying speeds while you practice identifying the visual and tactile cues that signal the pass is beginning. Focus on recognizing weight shifts, knee angle changes, and grip transitions without attempting defensive actions yet. Build pattern recognition reflexes."
+      },
+      {
+        "phase": "Phase 2: Frame Establishment",
+        "focus": "Building defensive structures before and during the knee cut approach",
+        "description": "Partner initiates knee cuts at moderate speed while you practice establishing knee shield, hip frames, and shoulder frames at progressively later timing windows. Start with early intervention and gradually reduce your reaction time until you can establish defensive structures against committed cutting attempts."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense",
+        "focus": "Timing underhook sweeps and guard recoveries against committed knee cuts",
+        "description": "Partner commits to full-speed knee cuts while you practice the underhook sweep timing, hip escape to guard recovery, and half guard catch sequences. Develop the ability to choose the appropriate counter based on how far the knee cut has progressed and which defensive window is still available."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance positional sparring from headquarters bottom against all passing options",
+        "description": "Full resistance positional sparring starting from headquarters bottom. Partner uses all available passes from headquarters including knee cut, toreando, leg drag, and backstep. Practice recognizing which pass is being attempted and applying the correct defensive response in real time under competitive pressure."
       }
     ]
   }

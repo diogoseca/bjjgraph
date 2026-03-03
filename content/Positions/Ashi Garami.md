@@ -108,7 +108,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 - **[[Single Leg X Transition]]** (1% of attempts)
 
-- **[[Transition to Backside 50-50]]** (1% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (1% of attempts)
 
 - **[[Back Take from Ashi]]** (0% of attempts)
 

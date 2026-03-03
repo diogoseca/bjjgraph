@@ -1,16 +1,21 @@
 {
   "name": "Inversion from Headquarters",
-  "description": "TODO: Write 150-160 character SEO description for Inversion from Headquarters.",
+  "description": "Master the Inversion from Headquarters in BJJ. Complete guide to inverting under passing pressure to recover De La Riva Guard with technical detail.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "inversion",
+    "guard-recovery",
+    "headquarters",
+    "de-la-riva",
+    "granby-roll",
+    "bottom-game"
   ],
   "from_position": "Headquarters Position/Bottom",
   "outcomes": [
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
@@ -19,120 +24,377 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
-      "probability": 15,
+      "to": "Side Control/Bottom",
+      "probability": 20,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Inversion from Headquarters.",
+  "success_rate": 50,
+  "overview": "The Inversion from Headquarters is a guard recovery technique executed by the bottom player when caught in the passer's headquarters position. Rather than fighting the trapped leg directly through frames and hip escapes, the bottom player uses a granby-style shoulder roll to rotate underneath the passer, threading legs through to establish De La Riva Guard. This technique exploits the geometric reality that the headquarters passer must maintain forward-facing pressure, making them vulnerable to angular attacks that travel underneath their base.\n\nThis movement represents a critical skill for modern guard players facing systematic passing pressure. Headquarters has become the central hub of methodical guard passing systems, and direct resistance against a well-positioned headquarters passer is often futile. The inversion offers an asymmetric response: rather than matching the passer's pressure with frames and hip escapes, the guard player redirects the engagement entirely by changing the plane of movement. This makes the inversion particularly effective against heavier or stronger passers who rely on grinding, forward-driving pressure from headquarters.\n\nTiming is paramount for successful execution. The inversion must be initiated during a transitional moment, typically when the passer shifts weight to begin a passing sequence like a knee cut or toreando. Attempting the inversion against a settled, heavy headquarters position dramatically reduces success rates and increases the risk of being caught mid-roll in an exposed position. Advanced practitioners learn to bait specific passing reactions that create the weight-shift windows necessary for clean inversions, transforming the passer's aggression into their own escape opportunity.",
   "conditions": [
-    "TODO"
+    "Opponent has established headquarters position with one leg trapped between their legs",
+    "Bottom player retains mobility in at least one leg and has not been fully flattened",
+    "Bottom player has at least one arm free for framing to create initial space",
+    "Passer is initiating or preparing a weight shift for a passing sequence, creating a transitional moment",
+    "Bottom player's shoulders are not completely pinned to the mat by crossface or heavy pressure"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Granby Roll Inversion",
+      "description": "The classic shoulder roll technique where the bottom player rolls diagonally over one shoulder, threading the legs through underneath the passer in a smooth arc. Emphasizes a compact body position with chin tucked and knees pulled toward the chest during the roll phase, completing the movement by opening the hips and establishing the DLR hook as the body uncoils.",
+      "when_to_use": "Best applied when the passer has moderate pressure and begins shifting weight laterally for a knee cut or toreando pass, creating the space needed for a full shoulder roll."
+    },
+    {
+      "variant_name": "Berimbolo-Style Deep Inversion",
+      "description": "A more aggressive inversion that aims to travel deeper underneath the passer, potentially exposing their back directly rather than settling for DLR recovery. The bottom player commits to a fuller rotation, using the DLR hook thread as a pivot point to continue the spin toward back exposure. Requires greater flexibility and comfort with inverted positions.",
+      "when_to_use": "Most effective when the passer drives forward with heavy pressure into the headquarters, providing the momentum needed for a deeper rotation. The forward drive creates the energy that powers the full berimbolo-style spin."
+    },
+    {
+      "variant_name": "Sit-Through Recovery",
+      "description": "An alternative to the full inversion where the bottom player sits through laterally underneath the passer rather than rolling over the shoulder. The movement travels horizontally across the mat rather than vertically through the inversion arc, threading the free leg under the passer's body to establish a hook from the opposite side.",
+      "when_to_use": "Useful in no-gi situations where the reduced friction makes shoulder rolls less reliable, or when the passer's weight is too high for a full inversion but their base is narrow enough to thread underneath laterally."
     }
   ],
-  "position_integration": "TODO: Write position integration for Inversion from Headquarters.",
+  "position_integration": "The Inversion from Headquarters serves as a critical bridge between defensive guard retention and offensive guard recovery within the modern BJJ guard playing system. It directly connects the headquarters passing position, one of the most dominant systematic passing hubs, to De La Riva Guard, one of the most versatile attacking guards. This enables guard players to transform a defensive situation into an offensive one through a single technical movement. The technique is integral to the modern guard retention meta-game, where practitioners chain inversions, hip escapes, and guard transitions to create a layered defensive system that frustrates systematic passers. The inversion also connects to the broader inversion-based recovery system that includes berimbolo entries, kiss of the dragon, and K-Guard entries, making it a gateway technique for accessing the entire modern bottom game ecosystem from a compromised passing position.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Headquarters Position",
+      "relationship": "Starting position where the technique is initiated from the bottom player's perspective"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Primary target guard position after successful inversion recovery"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Transitional position passed through during the inversion movement"
+    },
+    {
+      "name": "K-Guard",
+      "relationship": "Alternative guard recovery accessible during the inversion if DLR hook cannot be established"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Related inversion-based technique sharing similar shoulder roll mechanics and timing principles"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Alternative guard recovery target when passer backsteps during the inversion"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Alternative guard recovery option if the inversion angle is redirected by passer movement"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Common passer counter-response that creates a different passing angle during the inversion"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position the passer achieves if the inversion is caught and exploited during execution"
     }
   ],
   "attacker": {
     "name": "Inversion from Headquarters Attacker",
-    "description": "TODO: Write attacker description for Inversion from Headquarters.",
-    "overview": "TODO: Write attacker overview for Inversion from Headquarters.",
+    "description": "Complete guide to executing the Inversion from Headquarters as the bottom player. Covers shoulder roll mechanics, timing windows, DLR hook threading, and recovery sequences against systematic guard passing pressure.",
+    "overview": "As the bottom player caught in headquarters, executing the inversion requires precise timing, proper shoulder roll mechanics, and the ability to thread your legs into De La Riva Guard during the rotation. The technique transforms a defensive guard retention situation into an offensive guard recovery by changing the plane of engagement entirely. Rather than fighting the passer's pressure with frames and hip escapes, you redirect underneath their base through an angular movement that exploits the geometric limitations of their headquarters structure. Success depends on reading the passer's weight shifts, creating initial space with frames, and committing to the inversion during transitional moments when the passer's pressure is momentarily reduced.",
     "key_principles": [
-      "TODO"
+      "Time the inversion to coincide with the passer's weight shift during passing initiation, never against settled heavy pressure",
+      "Roll diagonally over the shoulder toward your free leg side, keeping chin tucked and body compact throughout the rotation",
+      "Thread the DLR hook during the roll rather than after, using the rotation momentum to wrap your leg behind the passer's knee",
+      "Establish the ankle grip immediately upon completing the inversion to prevent the passer from extracting their leg",
+      "Maintain connection with the passer throughout the inversion to prevent them from disengaging and re-establishing headquarters",
+      "Create initial space with frames before inverting rather than attempting the roll from a flattened position"
     ],
     "setup_requirements": [
-      "TODO"
+      "At least one arm free to create a frame against the passer's chest, shoulder, or bicep for initial space creation",
+      "Free leg (non-trapped leg) positioned to push on the passer's hip or knee to manage distance and initiate momentum",
+      "Shoulders off the mat with weight on upper back, creating the angled starting position necessary for the shoulder roll",
+      "Passer beginning a weight shift or passing sequence that creates a transitional moment with reduced downward pressure",
+      "Sufficient hip mobility to execute the shoulder roll without stalling, developed through regular inversion drilling"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Frames and Create Space",
+        "description": "Place your inside arm frame against the passer's chest or shoulder and your outside hand on their bicep or sleeve. Push firmly to create separation between your body and the passer's pressure, generating the initial space needed for the shoulder roll. Your frames should prevent the passer from collapsing their weight onto you."
+      },
+      {
+        "step_number": 2,
+        "action": "Hip Escape to Create Angle",
+        "description": "Execute a small hip escape toward your free leg side, angling your body approximately 30-45 degrees from the passer's centerline. This angle is critical because it creates the diagonal rolling path that the shoulder roll will follow. Your weight should shift onto your upper back and the shoulder you will roll over."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate Shoulder Roll",
+        "description": "Tuck your chin toward your chest and initiate the granby roll over the shoulder on your free leg side. Your free leg swings across your body to create rotational momentum while your trapped leg begins to extract from the headquarters control. The roll should travel diagonally across your upper back, not straight over your neck or spine."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread DLR Hook During Rotation",
+        "description": "As your body rotates through the inversion, actively thread your outside leg (the free leg that initiated the roll) around the passer's lead leg, wrapping behind their knee to establish the De La Riva hook. This threading happens during the roll, not after, using the rotation momentum to carry the leg into position around the passer's leg."
+      },
+      {
+        "step_number": 5,
+        "action": "Secure Ankle Grip",
+        "description": "As you emerge from the inversion facing the passer, your near hand immediately grabs their ankle or pant at the ankle level on the hooked leg side. This grip is the highest priority because without it the passer can simply step away and extract their leg from your newly established DLR hook, negating the entire inversion sequence."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish Cross Grip and Hip Angle",
+        "description": "Secure a cross grip on the passer's far sleeve or collar with your other hand, creating the diagonal control system that powers DLR guard. Simultaneously position your hips at a perpendicular angle to the passer's body, which maximizes your sweeping leverage and creates the proper mechanical structure for all DLR attacks."
+      },
+      {
+        "step_number": 7,
+        "action": "Activate DLR Structure",
+        "description": "Apply tension to the DLR hook by pulling your knee toward your chest while driving your hooking foot into the back of the passer's knee. Position your non-hooking leg on their hip or knee to manage distance. With both grips secured and the hook active, you have recovered a fully functional De La Riva Guard from the compromised headquarters position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Passer drives heavy crossface to flatten and block the shoulder roll path",
+        "effectiveness": "High",
+        "your_response": "Abandon the inversion and use the crossface pressure to hip escape in the opposite direction, recovering to knee shield half guard instead. Forcing an inversion against crossface is the most common cause of getting flattened and passed.",
         "targets_outcome": "Headquarters Position/Bottom"
+      },
+      {
+        "counter": "Passer sprawls hips back and increases downward pressure on the trapped leg",
+        "effectiveness": "High",
+        "your_response": "Wait for a better timing window rather than forcing the inversion. Use frames to maintain position and look for the passer to re-initiate a passing sequence that creates the weight shift needed for your inversion. Consider alternative guard recovery through hip escape sequences.",
+        "targets_outcome": "Headquarters Position/Bottom"
+      },
+      {
+        "counter": "Passer backsteps during the inversion to circle toward your exposed back",
+        "effectiveness": "Medium",
+        "your_response": "Redirect the inversion toward Single Leg X-Guard or Reverse De La Riva by adjusting your hook placement to account for the passer's changed angle. The backstep changes the geometry but also removes their forward pressure, giving you time to establish an alternative guard configuration.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Passer follows the inversion with a leg drag, controlling the hooking leg before DLR is established",
+        "effectiveness": "Medium",
+        "your_response": "Fight the leg drag by immediately framing on the passer's hip and pummel your hooking leg back to the inside before they consolidate the drag position. If the drag is already established, transition to a seated guard recovery rather than trying to force DLR from the compromised angle.",
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the inversion without first creating space through frames",
+        "consequence": "The passer's weight pins you in place and the shoulder roll stalls immediately, leaving you in a worse position than headquarters with your back partially turned and defensive structure compromised",
+        "correction": "Always establish arm frames and create initial separation before committing to the roll. The frame creates the space that makes the roll mechanically possible. No space equals no inversion."
+      },
+      {
+        "error": "Rolling directly over the neck or spine instead of diagonally over the shoulder",
+        "consequence": "Risk of cervical spine compression injury and the roll stalls because the neck cannot support body weight during rotation, leaving you stuck inverted without momentum to complete the movement",
+        "correction": "Tuck chin firmly to chest and direct the roll diagonally across the upper back from one shoulder toward the opposite hip. The shoulder blade bears all weight during the rotation, never the neck or head."
+      },
+      {
+        "error": "Not threading the DLR hook during the inversion, attempting to establish it afterward",
+        "consequence": "You emerge from the inversion without a hook connection, giving the passer time to re-establish headquarters or pass before you can build your guard structure from scratch",
+        "correction": "Actively thread the outside leg around the passer's lead leg during the rotation, using the inversion momentum to carry the hook into position. The hook should be in place by the time you complete the roll."
+      },
+      {
+        "error": "Telegraphing the inversion with an obvious wind-up or exaggerated hip movement",
+        "consequence": "The passer recognizes the inversion attempt and preemptively sprawls, applies crossface, or shifts weight to shut down the rolling path before it begins",
+        "correction": "Disguise the inversion setup as normal guard retention movement. Use frames and hip escapes that look like standard defensive responses until the actual commitment to the shoulder roll. The roll itself should be explosive and committed."
+      },
+      {
+        "error": "Attempting the inversion against fully settled, heavy headquarters pressure",
+        "consequence": "The passer's dead weight prevents any meaningful rotation and you waste energy fighting against a position designed to be immovable, often ending up more fatigued and flattened than before the attempt",
+        "correction": "Only invert during transitional moments when the passer shifts weight for a passing sequence. Bait passing reactions by creating small openings that invite the passer to move, then exploit their weight shift to initiate the inversion."
+      },
+      {
+        "error": "Neglecting to secure the ankle grip immediately after completing the inversion",
+        "consequence": "The passer simply steps their leg free from the newly threaded DLR hook since the hook alone cannot maintain the connection without a complementary hand grip, wasting the entire inversion effort",
+        "correction": "Make the ankle or pant grip the absolute first priority upon emerging from the roll. The hand should be reaching for the ankle as the inversion completes, not as an afterthought once you are settled."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Inversion Mechanics",
+        "focus": "Shoulder roll technique and body positioning",
+        "description": "Drill the granby shoulder roll solo on the mat, focusing on rolling diagonally over the shoulder with chin tucked. Start from a seated position, progress to lying flat, then add hip escape entries. Perform 20-30 repetitions per side per session until the movement is smooth and automatic without any weight on the neck."
+      },
+      {
+        "phase": "Phase 2: Partner Hook Threading",
+        "focus": "Establishing DLR hook during the inversion with a cooperative partner",
+        "description": "Partner stands in headquarters position with no resistance. Practice the full inversion sequence including framing, shoulder roll, hook threading, and grip establishment. Partner remains stationary to allow focus on technical precision. Aim for 15-20 clean repetitions per session with the hook in place upon completing each roll."
+      },
+      {
+        "phase": "Phase 3: Timing Against Passing Sequences",
+        "focus": "Reading weight shifts and executing inversions during live passing",
+        "description": "Partner plays headquarters at 50% resistance and initiates passing sequences. Practice identifying the timing windows created by weight shifts and executing the inversion during transitions. Gradually increase resistance to 70%. Focus on reading when to invert versus when to use standard hip escape guard retention."
+      },
+      {
+        "phase": "Phase 4: Recovery From Failed Inversions",
+        "focus": "Chain reactions and alternative recoveries when the inversion is stuffed",
+        "description": "Partner actively counters inversions at full resistance. Practice abandoning stalled inversions and flowing to alternative recoveries: knee shield half guard, seated guard, or Reverse De La Riva. Build the decision tree for choosing between committing to the inversion and bailing to an alternative based on the passer's reaction."
+      },
+      {
+        "phase": "Phase 5: Competition Scenario Sparring",
+        "focus": "Full integration into live rolling from headquarters situations",
+        "description": "Positional sparring starting from headquarters with full resistance. Track success rates across multiple rounds and identify which passer styles and reactions you can exploit most effectively. Develop the ability to seamlessly blend inversions with standard guard retention into a unified defensive system."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the inversion from headquarters?",
+        "answer": "The best timing window is when the passer shifts weight to initiate a passing sequence such as a knee cut or toreando. This weight transfer creates a momentary reduction in downward pressure on the trapped leg and shifts the passer's base to one side, providing the space and angle needed for the shoulder roll. Attempting the inversion against settled, heavy headquarters pressure dramatically reduces success rates because the passer's full weight pins you in place."
+      },
+      {
+        "question": "What body position must you establish before initiating the shoulder roll?",
+        "answer": "You need an initial frame against the passer's chest or shoulder while hip escaping slightly to angle your body toward the free leg side. Shoulders should be off the mat with weight on the upper back, and the free leg should be actively pushing on the passer's hip or knee. This angled starting position allows the shoulder roll to travel underneath the passer rather than stalling against their base. Without this preparatory angle, the roll has no path to complete."
+      },
+      {
+        "question": "Your opponent drives heavy crossface pressure as you begin the inversion - how do you adjust?",
+        "answer": "Abandon the inversion attempt and instead use the crossface pressure to frame and hip escape in the opposite direction, recovering to knee shield half guard. Forcing an inversion against heavy crossface is the most common cause of getting flattened and passed. If the crossface is moderate, you can redirect by inverting toward the opposite shoulder, but this requires advanced timing and should only be attempted when you have enough space to complete the full roll safely."
+      },
+      {
+        "question": "What grip must you establish first after completing the inversion to secure De La Riva Guard?",
+        "answer": "The ankle or pant grip on the passer's lead leg is the absolute first priority because it prevents them from simply stepping away from your newly established DLR hook. Without this grip, the hook alone cannot maintain connection and the passer will extract their leg before you can build your full guard structure. Once the ankle grip is secured, immediately pursue the cross grip on the far sleeve or collar to create the diagonal control system that powers DLR."
+      },
+      {
+        "question": "The passer backsteps during your inversion - what alternative recovery do you pursue?",
+        "answer": "If the passer backsteps, your inversion angle changes and full DLR recovery may not be possible. Redirect toward Single Leg X-Guard by threading your bottom hook between their legs and securing their near leg with both of your legs. Alternatively, if the backstep creates enough space, recover to Reverse De La Riva Guard by hooking their stepping leg from the inside. The key is recognizing the backstep early and adjusting your target guard rather than forcing DLR against the changed angle."
+      },
+      {
+        "question": "What is the most critical mechanical detail that separates successful inversions from failed ones?",
+        "answer": "The shoulder must bear all weight during the roll, never the neck or head. The rolling path should travel diagonally across the upper back from one shoulder toward the opposite hip, creating a smooth arc that maintains momentum throughout the rotation. Rolling straight over the spine or neck stalls the inversion and creates injury risk. The chin stays tucked toward the chest throughout, and the arms guide the body through the rotation rather than bearing weight."
+      },
+      {
+        "question": "Your inversion stalls halfway through and you are upside down - what is your recovery sequence?",
+        "answer": "Immediately bring your knees to your chest to create a compact turtle-like position that protects against the passer establishing control over your exposed back. From this inverted position, you can either complete the roll if space permits or reverse direction and recover to a seated guard position. Do not remain inverted with legs extended, as this exposes you to leg drag passes and back takes. The compact ball position gives you time to assess and choose the safest recovery direction."
+      },
+      {
+        "question": "How does the direction of your inversion relate to which leg the passer has trapped?",
+        "answer": "You should invert toward the side of your free leg, rolling over the shoulder on that same side. Inverting toward the trapped leg side is mechanically blocked because the passer's weight and leg control prevent the rolling path. The free leg initiates the movement by swinging across your body during the roll, creating rotational momentum that carries you through the inversion. After completing the roll, this free leg becomes the DLR hooking leg that wraps behind the passer's lead knee."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Inversion from Headquarters."
+    "safety_considerations": "Cervical spine loading during inversion requires proper shoulder roll technique at all times. Never invert by rolling directly over the neck or head. Practitioners with neck injuries or limited cervical mobility should drill inversions slowly and build flexibility gradually before attempting at speed. The shoulder blade should bear all weight during the roll, with the chin firmly tucked toward the chest throughout the rotation. Stop immediately if you feel any compression, pinching, or pain in the cervical spine. Warm up the neck and shoulders thoroughly before drilling inversions, and avoid high-repetition inversion training when fatigued, as form degradation under fatigue increases neck injury risk."
   },
   "defender": {
     "name": "Inversion from Headquarters Defender",
-    "description": "TODO: Write defender description for Inversion from Headquarters.",
-    "overview": "TODO: Write defender overview for Inversion from Headquarters.",
+    "description": "Complete guide to defending the Inversion from Headquarters as the top player. Covers recognition cues, pressure maintenance, counter-passing during inversions, and capitalizing on failed attempts.",
+    "overview": "As the top player in headquarters, defending the inversion requires recognizing the bottom player's preparatory movements and shutting down the shoulder roll before it develops momentum. The headquarters position is designed to control the bottom player's hips and limit their mobility, but inversions exploit transitional moments when your weight shifts during passing initiation. Your defensive strategy centers on maintaining heavy, centered pressure that prevents the bottom player from creating the space and angle needed for the roll, while being prepared to capitalize aggressively if they commit to an inversion that you can counter. The most dangerous moment is when you begin a passing sequence and the bottom player times their inversion to your weight shift, so awareness of this vulnerability is the foundation of your defense.",
     "key_principles": [
-      "TODO"
+      "Maintain heavy downward pressure on the trapped leg throughout all passing sequences to eliminate the space needed for inversion",
+      "Recognize pre-inversion setup cues early: framing activity, shoulder elevation, and body angling toward the free leg side",
+      "Apply crossface pressure toward the mat on the side the bottom player wants to invert, physically blocking the shoulder roll path",
+      "Avoid committing fully to lateral passing movements that shift all weight off the trapped leg and create inversion windows",
+      "Follow inversions rather than resisting them statically, circling toward the bottom player's back to capitalize on their exposed position",
+      "Control the bottom player's free leg aggressively to remove the momentum source that powers the shoulder roll"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player begins creating active frames against your chest or shoulder rather than passively defending",
+      "Bottom player's free leg becomes unusually active, pushing on your hip or hooking your arm rather than managing distance normally",
+      "Bottom player's shoulders lift off the mat and their body begins angling toward their free leg side",
+      "Bottom player's chin tucks toward their chest in preparation for the shoulder roll",
+      "You feel a sudden reduction in resistance against your trapped leg control as the bottom player redirects energy toward the rolling movement",
+      "Bottom player hip escapes slightly to create the diagonal angle needed for the inversion path"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Drive heavy crossface toward the mat on the inversion side while increasing hip pressure on the trapped leg",
+        "when_to_use": "When you detect early inversion setup cues such as framing activity and shoulder elevation before the roll begins",
         "targets_outcome": "Headquarters Position/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The crossface physically blocks the shoulder roll path and the hip pressure removes the space needed for any inversion, shutting down the attempt completely and maintaining your headquarters control",
+        "risk": "If applied too aggressively, you may overcommit your weight forward, creating a different escape opportunity through hip escape to the opposite side"
+      },
+      {
+        "action": "Sprawl hips back and drive downward weight into the trapped leg to increase dead weight pressure",
+        "when_to_use": "When you feel the bottom player beginning to create space through frames and hip movement but has not yet committed to the roll",
+        "targets_outcome": "Headquarters Position/Bottom",
+        "if_successful": "The increased downward pressure makes inversion mechanically impossible by pinning the bottom player's hips to the mat and removing all rotational space",
+        "risk": "Sprawling too far back may temporarily disengage your upper body control, allowing the bottom player to sit up or establish frames for alternative guard recovery"
+      },
+      {
+        "action": "Follow the inversion by circling toward the bottom player's back and converting to a leg drag or backstep pass",
+        "when_to_use": "When the bottom player has already committed to and begun executing the inversion and it is too late to stuff the roll",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You capitalize on the bottom player's exposed back and compromised position during the inversion to complete your guard pass, achieving side control or better",
+        "risk": "If you follow too slowly, the bottom player completes the inversion and establishes DLR guard. If you follow too aggressively without controlling their legs, you may overrun the position and create a scramble"
+      },
+      {
+        "action": "Control the hooking leg at the ankle as it emerges from the inversion, pushing it across the bottom player's centerline to prevent DLR establishment",
+        "when_to_use": "When the inversion is partially complete and the bottom player is attempting to thread the DLR hook around your lead leg",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Without the DLR hook, the bottom player has no guard structure despite completing the inversion, allowing you to pass directly into side control through the open gap",
+        "risk": "Reaching for the hooking leg requires releasing some upper body control, which may give the bottom player space to complete a full guard recovery if you miss the grip"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "De La Riva Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Side Control/Bottom",
+        "how": "Follow the inversion by circling toward the bottom player's exposed back and executing a leg drag or backstep pass while they are mid-roll. Control the hooking leg to prevent DLR establishment and drive through to complete the pass before they can build any guard structure from the compromised post-inversion position."
+      },
+      {
+        "outcome": "Headquarters Position/Bottom",
+        "how": "Shut down the inversion early by recognizing the preparatory cues and applying heavy crossface pressure combined with sprawling hip pressure on the trapped leg. Prevent the bottom player from creating the space and angle needed for the shoulder roll, maintaining your headquarters control throughout their failed attempt."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Freezing in place when the bottom player begins inverting instead of reacting dynamically",
+        "consequence": "The bottom player completes the inversion unopposed, establishing a fully functional De La Riva Guard from what was a dominant passing position. Static defense against inversions always fails because the movement is designed to flow around stationary obstacles.",
+        "correction": "Choose immediately between stuffing the inversion with increased pressure or following it by circling toward their back. Any decisive action is better than freezing. Train reaction drills to build automatic responses to inversion attempts."
+      },
+      {
+        "error": "Pulling away and creating distance when the inversion begins",
+        "consequence": "Disengaging gives the bottom player maximum space and time to complete the inversion cleanly and establish grips, turning a controllable situation into a fully developed DLR guard that you must now pass from scratch",
+        "correction": "Stay connected throughout the inversion. Maintain chest-to-body contact and follow the rotation, using your weight and proximity to either stuff the roll or capitalize on the exposed position. Distance is the inverter's best friend."
+      },
+      {
+        "error": "Over-committing to lateral passing sequences without awareness of inversion vulnerability",
+        "consequence": "Large weight shifts during knee cuts or toreando passes create exactly the transitional windows that inversions exploit. The bottom player times their roll to your weight shift and you cannot recover in time to prevent DLR establishment.",
+        "correction": "Maintain centered weight distribution even during passing initiation. Use incremental weight shifts rather than committing fully to one direction. Keep awareness of the inversion threat during every passing sequence from headquarters and stay ready to re-center if you detect the setup."
+      },
+      {
+        "error": "Ignoring the free leg and allowing the bottom player to use it for momentum generation",
+        "consequence": "The free leg swing across the body is what creates the rotational momentum for the inversion. Without controlling this leg, the bottom player can generate enough force to invert even against moderate pressure.",
+        "correction": "Use your free hand to control, pin, or redirect the bottom player's free leg throughout the headquarters position. Preventing the cross-body leg swing eliminates the primary momentum source for the inversion."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest visual cues that the bottom player is preparing to invert from headquarters?",
+        "answer": "The bottom player will begin creating active frames against your chest or shoulder, their free leg becomes more active by pushing on your hip or hooking your arm, and they start angling their body toward the free side rather than lying flat. You may feel a reduction in resistance against your trapped leg control as they redirect energy toward the rolling movement. Their shoulders coming off the mat and chin tucking are the final preparatory cues before the actual inversion begins."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you sense an inversion attempt developing?",
+        "answer": "Increase downward pressure on the trapped leg by driving your hips forward and lowering your center of gravity. Shift from an upright headquarters posture to a more forward-driving position that pins the bottom player's hips to the mat. Establish a crossface by driving your shoulder or forearm across their jaw line toward the mat on the side they want to invert toward, which physically blocks the shoulder roll path and makes the inversion mechanically impossible."
+      },
+      {
+        "question": "The bottom player successfully begins inverting underneath you - what is your best immediate response?",
+        "answer": "Follow the inversion by circling toward their back rather than trying to hold your static position. As they roll, their back becomes temporarily exposed. Step over or around their inverting body and establish control on the far side, converting the situation into a leg drag or backstep passing position. The worst response is to freeze or pull away, as this gives them time and space to complete the inversion and establish their target guard with full grips."
+      },
+      {
+        "question": "What grip adjustments prevent the bottom player from establishing the DLR hook after a partial inversion?",
+        "answer": "Control their hooking leg by gripping the ankle or pant at knee level and pushing it across their centerline as they emerge from the inversion. This prevents the leg from wrapping behind your knee to create the DLR hook. Simultaneously, step your lead leg back and away from their hooking range. If you maintain control of their hooking leg throughout the inversion attempt, they cannot establish DLR regardless of how clean their rolling mechanics are."
+      },
+      {
+        "question": "How do you capitalize on a failed inversion to advance from headquarters to side control?",
+        "answer": "When the inversion stalls or the bottom player abandons it, they are momentarily in a compromised position with shoulders off the mat and body angled. Drive forward immediately with a knee cut through the gap their angled body created, using your trapped leg control to pin their bottom leg while driving your knee through to the mat. The failed inversion often leaves their guard structure completely dismantled because they committed their frames and leg positioning to the rolling attempt rather than guard retention."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying inversion setup cues from headquarters top",
+        "description": "Partner attempts inversions at slow speed while you practice recognizing the preparatory movements: framing, shoulder elevation, body angling, and free leg activation. Call out each cue as you see it. Build pattern recognition before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Stuffing the Inversion",
+        "focus": "Applying crossface and hip pressure to prevent the roll",
+        "description": "Partner attempts inversions at increasing resistance levels while you practice shutting them down with crossface pressure and sprawling hip weight. Focus on timing your defensive pressure to the moment you recognize the setup, not after the roll has begun. Track how early you can identify and prevent the attempt."
+      },
+      {
+        "phase": "Phase 3: Following and Capitalizing",
+        "focus": "Converting successful inversions into passing opportunities",
+        "description": "Partner completes inversions successfully while you practice following the movement and circling toward their back. Drill the leg drag and backstep reactions to completed inversions, learning to convert the bottom player's escape attempt into your own passing opportunity. Full resistance from both partners."
+      },
+      {
+        "phase": "Phase 4: Integrated Headquarters Defense",
+        "focus": "Full scenario sparring from headquarters with inversion threats",
+        "description": "Positional sparring from headquarters where the bottom player uses inversions, hip escapes, and guard recovery in combination. Practice recognizing which defensive technique to apply based on the bottom player's chosen escape route. Develop seamless transitions between stuffing inversions and continuing your passing sequences."
       }
     ]
   }

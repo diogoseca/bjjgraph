@@ -196,7 +196,7 @@ Single Leg X Entry serves as a crucial hub transition in modern guard systems, p
 
 - [[Standing to Single Leg X]] - Alternative entry method — establishes same position from standing rather than seated
 
-- [[X-Guard to Ashi Transition]] - Connected transition — common path when opponent defends Single Leg X sweeps
+- [[SLX to Ashi Garami]] - Connected transition — common path when opponent defends Single Leg X sweeps
 
 - [[De La Riva Sweep]] - Related guard attack — uses similar leg control principles from different guard structure
 

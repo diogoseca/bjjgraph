@@ -101,19 +101,21 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Ushiro Ashi-Garami Escape]]** (12% of attempts)
+- **[[Ushiro Ashi-Garami Escape]]** (11% of attempts)
 
-- **[[Inversion to Turtle]]** (35% of attempts)
+- **[[Inversion to Turtle]]** (39% of attempts)
 
-- **[[Ushiro Ashi-Garami to Deep Half]]** (12% of attempts)
+- **[[Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
 
-- **[[Single Leg X Recovery]]** (13% of attempts)
+- **[[Single Leg X Recovery]]** (12% of attempts)
 
-- **[[Reverse Heel Hook Counter]]** (5% of attempts)
+- **[[Reverse Heel Hook Counter]]** (4% of attempts)
 
-- **[[Leg Extraction to Guard]]** (15% of attempts)
+- **[[Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (8% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (7% of attempts)
+
+- **[[Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
 
 
 ### Common Mistakes

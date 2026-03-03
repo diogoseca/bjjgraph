@@ -201,9 +201,9 @@ The Lapel to De La Riva transition functions as a critical bridge between two po
 
 - [[Reverse De La Riva Guard]] - Alternative when opponent circles away from standard DLR
 
-- [[Lapel to Lasso Transition]] - Alternative guard transition from same starting position
+- [[Lapel to Lasso Guard]] - Alternative guard transition from same starting position
 
-- [[Lapel to Spider Transition]] - Alternative guard transition maintaining similar distance
+- [[Lapel to Spider Guard]] - Alternative guard transition maintaining similar distance
 
 - [[X-Guard]] - Secondary transition target through DLR
 

@@ -21,7 +21,7 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Arm Triangle Setup",
+      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Flattened Half Guard",
-      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Half Guard Pass",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,23 +208,25 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (30% of attempts)
+### [[Knee Slice from Half]] (38% of attempts)
 
 ### [[Crossface Pass]] (15% of attempts)
 
 ### [[Underhook Pass]] (11% of attempts)
 
-### [[Back Take]] (10% of attempts)
+### [[Back Take]] (9% of attempts)
 
-### [[Kimura]] (6% of attempts)
+### [[Arm Triangle Setup]] (9% of attempts)
 
-### [[Transition to Flattened Half Guard]] (13% of attempts)
+### [[Half Guard Pass]] (9% of attempts)
 
-### [[Half Guard Pass]] (10% of attempts)
+### [[Kimura]] (5% of attempts)
 
-### [[Complete Pass from Flattened Half]] (3% of attempts)
+### [[Complete Pass from Flattened Half]] (2% of attempts)
 
-### [[Knee Slide from Flattened Half]] (2% of attempts)
+### [[Knee Slide from Flattened Half]] (1% of attempts)
+
+### [[Cross Face Pass from Flattened Half]] (1% of attempts)
 
 
 
@@ -246,7 +248,7 @@ Understanding the position's relationship to the broader passing game is essenti
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
 - Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 40%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Arm Triangle Setup]]** → [[Arm Triangle]] (Probability: 45%)
 
 
 
@@ -329,8 +331,8 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 **Q3**: Why is static pressure ineffective from flattened half guard top even when your opponent is clearly uncomfortable?
 **A**: Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan.
 
-**Q4**: What are the two primary passing approaches available from flattened half guard top?
-**A**: The knee slice pass and the crossface/underhook pass are the two primary options. The knee slice involves creating an angle and driving your knee across their body to free the trapped leg. The crossface pass maintains heavy shoulder pressure while extracting the leg through hip movement and stepping over. Both require maintaining chest pressure throughout.
+**Q4**: How do you manage energy expenditure while maintaining sustained pressure from flattened half guard top?
+**A**: Use skeletal structure and gravity rather than muscular effort for pressure maintenance. Your chest and hips should create compression through body weight distribution and positioning, not by tensing or squeezing. Keep your crossface arm connected to your skeleton with minimal grip force - firm but relaxed control sustainable over minutes, not seconds. Save explosive energy for initiating passing sequences or capitalizing on opponent mistakes. Between passing attempts, settle your weight and breathe calmly while maintaining heavy but effortless pressure through proper body alignment.
 
 **Q5**: Your opponent reaches their far arm to push against your crossface - how do you capitalize on this?
 **A**: When they extend their arm to push your crossface, immediately secure their wrist and lock a Kimura grip on the exposed arm. This creates a submission threat and a positional advancement opportunity. They must now defend the Kimura while you maintain passing pressure, creating a dilemma where defending one threat opens the other.
@@ -341,8 +343,8 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 **Q7**: What is the correct response when your opponent turns away to prevent the crossface pass?
 **A**: When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control.
 
-**Q8**: How do you maintain pressure while transitioning between different passing attempts?
-**A**: Keep your chest connected to their torso throughout all transitions - adjust position through hip movement and weight shifts rather than posting hands wide or sitting back. The moment you lift your chest, they will insert a knee shield or create frames. Think of your chest as an anchor point that never breaks contact during movement.
+**Q8**: Your opponent manages to insert their bottom elbow as a wedge and creates two inches of space - how do you recover full control?
+**A**: Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery.
 
 
 

@@ -1,10 +1,14 @@
 {
   "name": "Buggy Choke to North-South",
-  "description": "TODO: Write 150-160 character SEO description for Buggy Choke to North-South.",
+  "description": "Master the Buggy Choke to North-South transition in BJJ. Convert stalled turtle choke attacks into dominant north-south pin control with precision timing.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "turtle-attack",
+    "north-south",
+    "positional-advancement",
+    "pressure-passing",
+    "buggy-choke"
   ],
   "from_position": "Buggy Choke/Top",
   "outcomes": [
@@ -25,114 +29,371 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Buggy Choke to North-South.",
+  "overview": "The Buggy Choke to North-South transition represents a critical positional decision point in turtle attack systems where the top player recognizes that the buggy choke submission is not progressing and converts the existing control into dominant north-south pressure. This transition capitalizes on the structural advantages already established by buggy choke grips — chest pressure, postural breakdown, and arm threading — to facilitate a smooth slide into perpendicular alignment without creating escape windows for the bottom player.\n\nStrategically, this transition embodies a core principle of advanced jiu-jitsu: never persist with a failing submission when positional advancement is available. The buggy choke's flattening pressure and grip configuration naturally facilitate the slide to north-south because the bottom player is already structurally compromised. Their turtle posture has been broken down, their ability to create defensive frames is limited by the threading arm, and their focus on defending the choke creates cognitive openings that can be exploited during the positional shift. The top player who masters this transition develops a reputation for relentless positional pressure that prevents opponents from settling into any single defensive strategy.\n\nThis transition is particularly valuable in competition contexts where maintaining top pressure scores advantages and creates cumulative fatigue. Rather than burning energy on a stalled choke attempt, converting to north-south allows the top player to recover stamina while maintaining offensive control, setting up north-south specific submissions like the north-south choke, kimura, or armbar. The transition also chains naturally into mount transitions, side control switches, and back takes depending on the bottom player's defensive reactions once north-south is established.",
   "conditions": [
-    "TODO"
+    "Buggy choke grips are established but the choke is not progressing toward a finish",
+    "Opponent is actively defending the choke through grip fighting, posture maintenance, or chin tucking",
+    "Top player maintains sufficient chest and hip pressure to prevent opponent from recovering turtle posture",
+    "Opponent's turtle structure has been partially broken down, making them vulnerable to being flattened",
+    "Top player has enough base and balance to slide hips around without losing control during transition"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Grip-Maintained Slide",
+      "description": "Maintain the primary collar or neck grip while sliding to north-south, converting the buggy choke grip directly into a north-south choke setup. The threading arm stays connected as the body rotates, creating an immediate submission threat upon arriving in north-south.",
+      "when_to_use": "When the opponent is focused on defending the buggy choke and their neck remains accessible, allowing the grip to serve double duty as both transition control and north-south choke entry."
+    },
+    {
+      "variant_name": "Pressure Flatten and Walk",
+      "description": "Fully release buggy choke grips and use both hands to control the opponent's shoulders while walking hips around to north-south. Emphasizes maximum flattening pressure during the transition rather than maintaining submission threat. Use heavy chest and shoulder pressure to pin opponent prone before establishing north-south alignment.",
+      "when_to_use": "When the opponent has stripped the primary choke grip or when maximum positional security is needed, such as in competition where points for control outweigh submission attempts."
+    },
+    {
+      "variant_name": "Knee-Slide North-South Entry",
+      "description": "Instead of walking hips around, drive one knee across the opponent's back while maintaining upper body control, using the knee slide to flatten and rotate into north-south simultaneously. This creates additional downward pressure during the transition that prevents the opponent from turning or sitting to guard.",
+      "when_to_use": "Against opponents who are strong in turtle and likely to power up or sit to guard during the transition gap. The knee slide maintains continuous downward force throughout the positional change."
     }
   ],
-  "position_integration": "TODO: Write position integration for Buggy Choke to North-South.",
+  "position_integration": "The Buggy Choke to North-South transition serves as a critical branching point in turtle attack flowcharts, connecting the buggy choke submission system to the broader top control network. This transition transforms a specific submission attempt into a versatile control platform from which multiple attack chains become available. From north-south, the attacker gains access to the north-south choke, kimura attacks, armbar setups, and transitions to mount or side control. The transition also reinforces the principle of positional cycling — moving between dominant positions to exhaust the opponent and create submission openings through accumulated fatigue rather than forcing a single technique. Practitioners who integrate this transition into their game develop more complete turtle attack systems where every defensive response by the bottom player leads to either submission or positional advancement.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Buggy Choke",
+      "relationship": "Source position where this transition initiates from stalled choke control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Target position establishing dominant perpendicular pin after successful transition"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when defender successfully recovers guard during transition"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Underlying defensive posture that the buggy choke attacks and this transition further degrades"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative control position accessible from north-south or during transition"
+    },
+    {
+      "name": "Buggy Choke Finish",
+      "relationship": "Primary submission alternative if choke is progressing rather than stalling"
+    },
+    {
+      "name": "North-South Choke",
+      "relationship": "High-percentage submission available immediately after establishing north-south from this transition"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative transition target from buggy choke when opponent sits to guard instead"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Related turtle control position with similar pressure and transition principles"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative buggy choke transition when opponent extends arm defensively"
     }
   ],
   "attacker": {
     "name": "Buggy Choke to North-South Attacker",
-    "description": "TODO: Write attacker description for Buggy Choke to North-South.",
-    "overview": "TODO: Write attacker overview for Buggy Choke to North-South.",
+    "description": "Execute the Buggy Choke to North-South transition in BJJ. Step-by-step guide to converting stalled turtle choke attacks into dominant north-south control with continuous pressure.",
+    "overview": "As the attacker executing the Buggy Choke to North-South transition, your objective is to recognize when the buggy choke submission is stalling and smoothly convert your existing control structure into north-south pin dominance. This transition requires reading your opponent's defensive commitment, maintaining continuous pressure during the grip release and body repositioning, and establishing north-south control before the opponent can exploit the transitional gap to recover turtle, sit to guard, or create scramble opportunities. The key insight is that your buggy choke grips have already broken down the opponent's turtle posture — the transition capitalizes on this structural damage rather than abandoning it. Successful execution transforms a failing submission attempt into a dominant control position with fresh submission pathways.",
     "key_principles": [
-      "TODO"
+      "Recognize stalled choke indicators early — persistent grip defense, maintained posture despite pressure, or controlled breathing — and transition before wasting energy",
+      "Maintain continuous chest and shoulder pressure throughout the grip release to prevent the opponent from recovering turtle structure or creating space",
+      "Use the momentum of releasing grips to immediately begin hip rotation rather than pausing between releasing the choke and initiating the slide",
+      "Flatten the opponent from turtle to prone during the transition by driving weight downward as you walk your hips around their head",
+      "Establish arm control immediately upon arriving in north-south to prevent the opponent from framing or creating escape pathways",
+      "Keep head heavy and connected to opponent's body throughout the transition to serve as a continuous control anchor point"
     ],
     "setup_requirements": [
-      "TODO"
+      "Buggy choke grips established from turtle top with sufficient depth for the threading arm under the near armpit",
+      "Chest pressure and hip weight applied to opponent's back creating postural breakdown in their turtle structure",
+      "Recognition that the buggy choke is stalling — opponent successfully defending grips, maintaining chin tuck, or preventing collar access for five or more seconds",
+      "Sufficient base and balance to slide hips laterally without losing top control or creating gaps in pressure",
+      "Opponent's turtle posture partially broken down so they cannot immediately stand or sit to guard during transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess choke viability",
+        "description": "Evaluate whether the buggy choke is progressing toward a finish. If the opponent is successfully defending grips, maintaining posture, or neutralizing choking pressure for more than five seconds without meaningful progress, commit to the north-south transition rather than continuing to burn energy on a stalling submission."
+      },
+      {
+        "step_number": 2,
+        "action": "Increase flattening pressure",
+        "description": "Before releasing grips, drive your chest weight down heavily onto the opponent's back and shoulders while dropping your hips onto their near hip. This pre-loads the flattening force that will carry through the transition and prevents the opponent from posturing up or sitting to guard when you release the choke grips."
+      },
+      {
+        "step_number": 3,
+        "action": "Release choking grips and secure shoulder control",
+        "description": "Release the collar or neck grips in a smooth single motion and immediately redirect both hands to control the opponent's far shoulder and near shoulder area. Do not pause between releasing the choke and establishing new control — the transition must be seamless to prevent defensive reactions during the grip change."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk hips toward opponent's head",
+        "description": "Begin walking your hips in an arc around the opponent's head while maintaining heavy chest pressure on their upper back. Use short, controlled steps rather than large lunging movements to maintain balance and continuous pressure. Your chest stays connected to their body throughout the arc, sliding across their shoulder blades as you rotate."
+      },
+      {
+        "step_number": 5,
+        "action": "Flatten opponent from turtle to prone",
+        "description": "As your hips clear the opponent's head and you approach perpendicular alignment, use your body weight to drive them from turtle position flat to the mat. Your chest pressure should transition from their back to their shoulder area, and your hips should settle low to prevent them from recreating turtle posture or bridging."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish perpendicular north-south alignment",
+        "description": "Complete the rotation until your body is perpendicular to the opponent with your chest covering their chest and shoulders. Your head should be near their hip line with your hips near their head. Spread your base wide and keep your hips low to create maximum stability in the newly established north-south position."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure arm control and consolidate",
+        "description": "Immediately control the opponent's arms through underhooks, overhooks, or direct wrist control to prevent them from creating frames or initiating escape sequences. Drive your chest pressure forward across their upper torso and settle your weight to establish the crushing perpendicular pressure that defines dominant north-south control."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent sits to guard during grip release, recovering half guard or closed guard before north-south is established",
+        "effectiveness": "High",
+        "your_response": "Maintain heavy hip pressure on their near hip during the grip release to prevent sitting motion. If they begin sitting, immediately hook their near leg and convert to a back take rather than continuing to north-south.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives up to turtle base and recovers posture during the hip walk, reestablishing defensive turtle structure",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Increase chest weight and drive downward pressure continuously during the transition. If they recover turtle, re-enter the buggy choke or switch to an alternative turtle attack rather than forcing the north-south slide against a posted opponent.",
+        "targets_outcome": "Buggy Choke/Top"
+      },
+      {
+        "counter": "Opponent granby rolls away during the transition gap, creating distance and recovering to open guard or standing",
+        "effectiveness": "Medium",
+        "your_response": "Anticipate the granby by keeping your head heavy and connected to the opponent's body. If the roll begins, follow with your hips and convert to a truck entry or sprawl to re-engage on their turtle before they complete the roll to guard.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent frames against your chest with forearms as you arrive in north-south, preventing full pressure establishment",
+        "effectiveness": "Low",
+        "your_response": "Collapse the frames by driving your chest forward and angling your shoulders to slip past their forearms. Use your hands to strip their frames one at a time while maintaining body weight pressure. Alternatively, switch to side control if frames prevent north-south consolidation.",
         "targets_outcome": "Buggy Choke/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pausing between releasing buggy choke grips and initiating the north-south transition",
+        "consequence": "Creates a control gap that allows the opponent to recover turtle posture, sit to guard, or initiate a scramble before north-south is established",
+        "correction": "Treat the grip release and hip walk as a single continuous movement — release grips and immediately begin walking hips without any pause or hesitation between phases"
+      },
+      {
+        "error": "Lifting chest off the opponent's body during the hip rotation around their head",
+        "consequence": "Removes the continuous pressure that prevents escape, giving the opponent space to posture up, granby roll, or sit to guard during the transition",
+        "correction": "Keep your chest glued to the opponent's body throughout the entire arc, sliding across their shoulder blades as you rotate rather than lifting and resettling"
+      },
+      {
+        "error": "Taking large steps during the hip walk rather than small controlled movements",
+        "consequence": "Large steps create momentary balance loss and pressure gaps that alert the opponent and provide escape windows during the transition",
+        "correction": "Use short, choppy steps that maintain your center of gravity over the opponent's body throughout the rotation, prioritizing continuous pressure over speed of transition"
+      },
+      {
+        "error": "Failing to flatten the opponent from turtle to prone before establishing north-south",
+        "consequence": "Arriving in north-south while the opponent maintains turtle results in poor pressure mechanics and easy escape to turtle, half guard, or standing",
+        "correction": "Use the chest pressure during the hip walk to progressively flatten the opponent, driving them from turtle to prone position before completing the perpendicular alignment"
+      },
+      {
+        "error": "Neglecting to control arms immediately upon arriving in north-south position",
+        "consequence": "Opponent creates frames with forearms against your chest, preventing full pressure establishment and creating pathways for hip escape or guard recovery",
+        "correction": "Prioritize arm control as the first action upon completing the transition — secure underhooks or pin their arms before settling into static pressure maintenance"
+      },
+      {
+        "error": "Attempting the transition when the buggy choke is still viable and progressing",
+        "consequence": "Abandons a finishing submission unnecessarily, losing offensive momentum and allowing the opponent to reset their defensive strategy during the positional change",
+        "correction": "Only transition when clear stalling indicators are present — give the choke at least five seconds of committed effort before deciding to convert to north-south"
+      },
+      {
+        "error": "Keeping hips too high during the transition, reducing flattening pressure on the opponent",
+        "consequence": "Insufficient downward force allows the opponent to maintain turtle posture or create space for escape during the transition phase",
+        "correction": "Drive hips low throughout the transition, using gravity and body mechanics to maximize the flattening force that converts turtle to prone position"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Basic movement pattern and body positioning",
+        "description": "Practice the hip walk and chest slide on a compliant partner in turtle. Focus on maintaining continuous chest contact while walking hips around the opponent's head. Perform 15-20 repetitions per side with zero resistance, building muscle memory for the arc path and pressure maintenance."
+      },
+      {
+        "phase": "Phase 2: Grip Transition Timing",
+        "focus": "Seamless grip release to positional control conversion",
+        "description": "Start with buggy choke grips established. Practice the full sequence of releasing grips, redirecting hands to shoulder control, and initiating the hip walk as one continuous movement. Partner provides 25% resistance. Focus on eliminating the pause between grip release and transition initiation."
+      },
+      {
+        "phase": "Phase 3: Defensive Reaction Integration",
+        "focus": "Reading and countering opponent defensive responses",
+        "description": "Partner provides specific defensive reactions during the transition: sitting to guard, granby rolling, posture recovery, and framing. Practice recognizing each reaction and applying the appropriate counter-response. Build pattern recognition for the most common defensive reactions at 50% resistance."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full-speed execution against progressive resistance",
+        "description": "Positional sparring starting from buggy choke top. Top player must decide between finishing the choke and transitioning to north-south based on the opponent's defensive strategy. Score for submission, successful transition, or positional maintenance. Full resistance with competition-speed reactions."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting transition to north-south submission attacks",
+        "description": "Practice the full chain: buggy choke attempt to north-south transition to north-south choke or kimura setup. Develop the ability to flow from the failed choke directly into north-south submissions without pausing in static control. Build automatic attack sequences from the newly established position."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the primary indicators that the buggy choke is stalling and you should transition to north-south?",
+        "answer": "The primary stalling indicators are: the opponent has successfully fought your collar grip to a shallow depth for more than five seconds, they are maintaining chin tuck that prevents choking pressure from advancing, their breathing remains controlled rather than labored, or they have begun systematic grip stripping that is progressively reducing your control. When any combination of these indicators is present, the choke is unlikely to finish and continuing wastes energy that could be invested in positional advancement."
+      },
+      {
+        "question": "Why is it critical to maintain continuous chest contact during the hip walk to north-south?",
+        "answer": "Continuous chest contact serves as both a control mechanism and a flattening force throughout the transition. If you lift your chest off the opponent's body, you create a pressure gap that allows them to recover turtle posture, sit to guard, granby roll away, or initiate a scramble. Your chest sliding across their shoulder blades maintains the downward force that prevents these defensive reactions while simultaneously progressing the transition toward perpendicular alignment."
+      },
+      {
+        "question": "Your opponent begins sitting to guard as you release the buggy choke grips — how do you adjust?",
+        "answer": "Immediately abort the north-south transition and capitalize on their sitting motion by hooking their near leg and following them down to establish back control. Their hip exposure during the sit creates the ideal entry for hooks. If you cannot secure the back take, drive them flat again with shoulder pressure and re-enter the buggy choke or transition to side control rather than forcing north-south against an opponent who is already partially sitting."
+      },
+      {
+        "question": "What is the most critical grip change during the transition from buggy choke to north-south?",
+        "answer": "The most critical moment is the release of the choking collar grip and immediate redirection of both hands to shoulder control. This grip change must happen in a single fluid motion without any pause between releasing the old grips and establishing new control points. The threading arm should redirect to underhook or shoulder control on the near side while the other hand controls the far shoulder. Any delay between these actions creates a window where the opponent has neither choking pressure nor shoulder control restricting their movement."
+      },
+      {
+        "question": "How does flattening the opponent from turtle to prone contribute to establishing north-south?",
+        "answer": "A prone opponent has dramatically fewer escape options than one maintaining turtle posture. In turtle, the opponent can sit to guard, granby roll, stand up, or re-establish defensive frames. Once flattened prone, they lose access to all hip-based escape movements and must fight from a position where your chest pressure directly compresses their ribcage. The flattening also naturally orients their body for the perpendicular alignment that defines north-south, making the final positioning significantly easier to complete."
+      },
+      {
+        "question": "What arm control priorities should you establish immediately upon arriving in north-south?",
+        "answer": "Priority one is preventing both arms from creating frames against your chest. Secure at least one arm through an underhook or overhook immediately upon completing the rotation. Priority two is controlling the near arm to prevent frame-based escape sequences. If the opponent's arms are free and framing when you arrive, use your shoulder weight to collapse one frame while your hand controls the other. Never settle into static north-south pressure without first addressing the opponent's arm positioning."
+      },
+      {
+        "question": "Your opponent attempts a granby roll as you walk your hips around their head — what is your counter?",
+        "answer": "Keep your head heavy and connected to the opponent's body as an anchor point that resists the granby roll's rotational momentum. Drive your hips down to increase downward pressure against their rolling attempt. If the granby is initiated, follow their roll with your hips and look to convert into a truck entry by inserting a hook as they rotate. If you cannot follow the roll, sprawl immediately to prevent them from completing the rotation to guard and re-engage from a chest-on-back position."
+      },
+      {
+        "question": "When should you choose north-south versus side control as the transition target from a stalled buggy choke?",
+        "answer": "Choose north-south when the opponent is already partially flattened and your hips can clear their head smoothly, or when you want to access north-south specific submissions like the north-south choke or kimura. Choose side control when the opponent maintains strong turtle posture that resists flattening, when you need to maintain back exposure for back take options, or when the opponent's arm positioning makes side control arm attacks more available. North-south requires more complete flattening to be effective, while side control works against opponents who maintain some turtle structure."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Buggy Choke to North-South."
+    "safety_considerations": "This transition involves significant pressure application through chest-to-chest contact and body weight distribution. When drilling, the top player should be mindful of the crushing pressure applied during the flattening phase, as it can restrict the bottom player's breathing significantly. Allow training partners to tap for pressure at any time, not just submissions. Avoid explosive dropping of body weight during the transition — use controlled, progressive pressure. Be especially careful when flattening opponents from turtle to prone, as sudden forced flattening can strain the lower back and neck. Communication between training partners about pressure tolerance is essential for safe practice."
   },
   "defender": {
     "name": "Buggy Choke to North-South Defender",
-    "description": "TODO: Write defender description for Buggy Choke to North-South.",
-    "overview": "TODO: Write defender overview for Buggy Choke to North-South.",
+    "description": "Defend and counter the Buggy Choke to North-South transition in BJJ. Recognition cues, escape timing, and counter-techniques to prevent north-south establishment.",
+    "overview": "As the defender facing the Buggy Choke to North-South transition, you are in turtle bottom position where your opponent has abandoned their buggy choke attempt and is now sliding to establish north-south control. This transition represents both a threat and an opportunity — while the attacker is converting control structures, there is a brief window where their grips change and pressure distribution shifts that you can exploit for escape. Your defensive priority shifts from defending the choke to preventing the north-south establishment, ideally recovering to half guard, sitting to guard, or using the transitional moment to create a scramble. The critical insight is that the grip release moment provides your best escape opportunity, and failing to act during this window results in being pinned in north-south, which is one of the most difficult positions to escape in all of jiu-jitsu.",
     "key_principles": [
-      "TODO"
+      "Recognize the transition indicators immediately — grip release, shifting chest pressure, and hip movement signal the shift from choke to positional advancement",
+      "Exploit the grip change window aggressively as it represents your highest-percentage escape opportunity before north-south consolidation",
+      "Maintain or recover turtle posture during the transition to preserve your escape mobility and prevent being flattened prone",
+      "Create rotational movement toward the attacker to face them, which prevents the perpendicular alignment needed for north-south",
+      "Use frames and hip movement to prevent the attacker from walking their hips around your head to complete the transition",
+      "Accept controlled transitions to half guard rather than remaining in a deteriorating turtle position under advancing pressure"
     ],
     "recognition_cues": [
-      "TODO"
+      "The choking pressure from the buggy choke suddenly releases or decreases significantly as the attacker abandons the submission attempt",
+      "The attacker's hands shift from collar or neck grips to shoulder control, indicating a transition from submission to positional advancement",
+      "You feel the attacker's hips begin moving laterally around your head rather than staying heavy on your near hip",
+      "The attacker's chest pressure changes from downward onto your back to sliding laterally across your shoulder blades",
+      "The attacker's weight distribution shifts from concentrated on one side to spreading across your upper body as they approach perpendicular alignment"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Sit to half guard immediately during grip release",
+        "when_to_use": "As soon as you feel the buggy choke grips release and before the attacker can establish shoulder control or begin the hip walk",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You recover to half guard bottom where you have established defensive and offensive systems, completely preventing north-south establishment",
+        "risk": "If too slow, the attacker drives you flat during the sit attempt and establishes north-south or side control with your legs partially exposed"
+      },
+      {
+        "action": "Turn into the attacker and face them to recover open guard",
+        "when_to_use": "During the early phase of the hip walk when the attacker's weight is shifting and their base is temporarily compromised",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You face the attacker and establish guard frames, preventing perpendicular alignment and creating offensive opportunities from guard",
+        "risk": "If the attacker anticipates the turn, they may catch you mid-rotation with a darce choke or front headlock control"
+      },
+      {
+        "action": "Drive up to recover turtle posture and resist flattening",
+        "when_to_use": "When the attacker begins walking hips but has not yet committed full weight to the flattening phase",
         "targets_outcome": "Buggy Choke/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "You return to defensive turtle position, preventing north-south and forcing the attacker to re-initiate their attack sequence from turtle top",
+        "risk": "If the attacker has already committed weight to the slide, driving up expends energy without preventing the transition and may create worse positioning"
+      },
+      {
+        "action": "Granby roll away to create distance and recover guard",
+        "when_to_use": "When the attacker releases grips but before they establish new shoulder control, particularly effective when there is a momentary gap in pressure",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You create distance through the roll and recover to guard position, completely escaping the turtle attack sequence",
+        "risk": "If the attacker follows the roll, you may end up in truck position or with the attacker on your back with hooks"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "North-South/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Exploit the grip release moment by immediately sitting to guard or turning to face the attacker before they can establish perpendicular north-south alignment. Act within the first two seconds of recognizing the transition to maximize your chances of recovering guard."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Failing to recognize the transition from buggy choke to north-south and remaining in passive turtle defense",
+        "consequence": "The attacker slides smoothly to north-south without resistance, establishing one of the most difficult positions to escape with full control and pressure",
+        "correction": "Develop sensitivity to the grip release and pressure shift that signals the transition — immediately activate escape protocols when you feel the choke grips release"
+      },
+      {
+        "error": "Attempting to defend the transition by reaching back for the attacker's legs or hips",
+        "consequence": "Extending arms backward compromises your turtle base, accelerates the flattening process, and exposes arms for north-south arm attacks upon arrival",
+        "correction": "Keep arms underneath your body in defensive turtle frames or redirect them forward to establish guard frames — never reach behind you during the transition"
+      },
+      {
+        "error": "Staying flat on the mat once the attacker begins flattening rather than fighting to maintain turtle posture",
+        "consequence": "Being flattened prone eliminates nearly all escape options and gives the attacker an easy pathway to north-south with maximum crushing pressure",
+        "correction": "Aggressively fight to maintain turtle posture by driving up with your hands and knees, creating the structural frame needed for escape movements like sitting to guard or standing"
+      },
+      {
+        "error": "Waiting for the attacker to fully establish north-south before attempting to escape",
+        "consequence": "Fully consolidated north-south with arm control and perpendicular pressure has very low escape percentages compared to escaping during the transition phase",
+        "correction": "The grip change and hip walk phases are your primary escape windows — act during the transition, not after it is completed, as every second of delay reduces your escape probability significantly"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary recognition cue that your opponent is transitioning from buggy choke to north-south?",
+        "answer": "The most reliable cue is the sudden release or significant decrease of choking pressure on your neck combined with the feeling of the attacker's hands shifting from collar or neck grips to shoulder control. This grip change signals that the attacker has abandoned the submission and is converting to positional advancement. You may also feel their hips begin moving laterally around your head rather than staying heavy on your near hip."
+      },
+      {
+        "question": "Why is the grip release moment your best escape opportunity during this transition?",
+        "answer": "The grip release creates a brief window where the attacker has neither their old choking control nor their new positional control fully established. During this gap, they have reduced ability to prevent your escape movements because their hands are in transition between control points. Once they establish shoulder control and begin the hip walk with chest pressure, your escape options diminish rapidly. Acting within the first one to two seconds of the grip release maximizes your defensive success rate."
+      },
+      {
+        "question": "Your opponent has released the buggy choke grips and their hips are beginning to walk around your head — what is your highest-percentage defensive response?",
+        "answer": "Your highest-percentage response is to immediately sit to half guard or turn to face the attacker before they complete the perpendicular alignment. Sitting to guard works because the grip release reduces the downward force preventing your hip movement, and your momentum toward sitting can be faster than their hip walk. If sitting is blocked, turn your body toward the attacker to prevent perpendicular alignment — they cannot establish north-south if you face them directly."
+      },
+      {
+        "question": "How does staying in defensive turtle become increasingly dangerous as the transition progresses?",
+        "answer": "As the attacker walks their hips around your head, their chest pressure progressively flattens you from turtle to prone position. Each second in passive turtle during the transition allows the attacker to advance their arc and increase flattening pressure. Once flattened prone with the attacker in perpendicular alignment, you lose access to sitting, standing, and rolling escapes because your hip mobility is eliminated. The position deteriorates from difficult-to-escape turtle to nearly-inescapable north-south if you do not act during the transition window."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying transition cues through proprioception",
+        "description": "Partner executes buggy choke to north-south transition at slow speed while you focus on identifying each recognition cue: grip release, pressure shift, hip movement initiation. Practice verbalizing what you feel at each stage without attempting to escape. Build proprioceptive sensitivity to the transition indicators across 15-20 repetitions."
+      },
+      {
+        "phase": "Phase 2: Escape Timing",
+        "focus": "Executing escapes during the grip release window",
+        "description": "Partner transitions from buggy choke to north-south at moderate speed. Practice executing your primary escape (sitting to guard or turning to face) specifically during the grip release window. Partner provides 25-50% resistance. Focus on timing your movement to coincide with the moment of grip change for maximum effectiveness."
+      },
+      {
+        "phase": "Phase 3: Decision-Making Under Pressure",
+        "focus": "Selecting appropriate defensive response based on transition phase",
+        "description": "Partner varies their transition speed, timing, and method. Practice selecting the correct escape based on how far the transition has progressed: sit to guard during early phase, turn and face during mid-phase, frame and hip escape during late phase. 75% resistance with realistic transition variations."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full-speed defense against transition attempts",
+        "description": "Positional sparring starting from buggy choke position. Partner chooses between finishing the choke and transitioning to north-south. Defend appropriately against both threats. Score for preventing the choke, preventing the transition, or recovering to guard. Full competition-speed resistance."
       }
     ]
   }

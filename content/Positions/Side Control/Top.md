@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 79% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura",
+      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Arm Triangle",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,39 +205,31 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (79% of attempts)
+### [[Side Control to Mount]] (25% of attempts)
 
-### [[Side Control to North-South]] (3% of attempts)
+### [[Americana]] (14% of attempts)
 
-### [[Americana]] (7% of attempts)
+### [[Kimura]] (12% of attempts)
 
-### [[Kimura]] (5% of attempts)
+### [[Knee on Belly]] (12% of attempts)
 
-### [[Arm Triangle]] (1% of attempts)
+### [[Side Control to North-South]] (8% of attempts)
 
-### [[Armbar Finish]] (0% of attempts)
+### [[Arm Triangle]] (8% of attempts)
 
-### [[Knee on Belly]] (4% of attempts)
+### [[Armbar Finish]] (4% of attempts)
 
-### [[North-South Choke]] (0% of attempts)
+### [[Side Control to Kesa Gatame]] (4% of attempts)
 
-### [[Breadcutter Choke]] (0% of attempts)
+### [[Side Control to Side Control Consolidation]] (3% of attempts)
 
-### [[Transition to Kesa Gatame]] (0% of attempts)
+### [[Side Control to Shoulder of Justice]] (3% of attempts)
 
-### [[Transition to Scarf Hold Position]] (0% of attempts)
+### [[North-South Choke]] (3% of attempts)
 
-### [[Transition to Shoulder of Justice]] (0% of attempts)
+### [[Breadcutter Choke]] (2% of attempts)
 
-### [[Transition to Side Control Consolidation]] (0% of attempts)
-
-### [[Side Control to Kesa Gatame]] (0% of attempts)
-
-### [[Side Control to Scarf Hold Position]] (0% of attempts)
-
-### [[Side Control to Shoulder of Justice]] (0% of attempts)
-
-### [[Side Control to Side Control Consolidation]] (1% of attempts)
+### [[Side Control to Scarf Hold Position]] (2% of attempts)
 
 
 

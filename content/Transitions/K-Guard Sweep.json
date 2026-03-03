@@ -1,10 +1,15 @@
 {
   "name": "K-Guard Sweep",
-  "description": "TODO: Write 150-160 character SEO description for K-Guard Sweep.",
+  "description": "Master the K-Guard Sweep in BJJ. Step-by-step execution guide covering inverted hook mechanics, sweep timing, defensive counters, and training progressions.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "sweep",
+    "k-guard",
+    "half-guard",
+    "bottom-game",
+    "hook-sweep",
+    "inversion"
   ],
   "from_position": "K-Guard/Bottom",
   "outcomes": [
@@ -19,120 +24,376 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for K-Guard Sweep.",
+  "overview": "The K-Guard Sweep is the signature offensive technique from K-Guard bottom, utilizing the coordinated action of the inverted inside hook and butterfly outside hook to generate a powerful compound sweeping force that displaces the top player's base. The sweep capitalizes on the unique lever system created by the K-Guard leg configuration, where the inverted hook pulls the opponent's trapped leg across their centerline while the butterfly hook simultaneously elevates their weight, creating an irresistible off-balancing force that topples them to their back and allows the sweeper to come up to side control.\n\nStrategically, the K-Guard Sweep functions as the primary threat that makes the entire K-Guard retention system work. Without the sweep threat, the top player can methodically pressure and flatten the K-Guard structure without consequence. The sweep forces the top player to respect the bottom player's offensive capability, creating the push-pull dynamic that opens up secondary attacks like back takes, leg lock entries, and transitions to Single Leg X-Guard. The timing window is narrow - the sweep works best when the top player commits forward pressure that loads the hooks, and attempting it against a well-based opponent who has already neutralized hook tension results in a failed attempt or guard disruption.\n\nThe execution demands precise coordination between upper and lower body mechanics. The sweeping motion begins with a loading phase where both hooks create maximum tension, followed by an explosive off-balance combining lateral pull with vertical lift, and concluding with a follow-through where the bottom player comes up to top position. Understanding the complete mechanical chain reaction from hook loading through position consolidation is essential for consistent success against resisting opponents at the purple belt level and above.",
   "conditions": [
-    "TODO"
+    "Full K-Guard configuration established with inverted inside hook crossing over opponent's trapped leg and active butterfly outside hook",
+    "Inverted hook has tension pulling opponent's trapped leg laterally across their centerline",
+    "Butterfly outside hook is positioned at opponent's hip level with upward elevation capability",
+    "Upper body underhook or frame prevents opponent from achieving chest-to-chest pressure",
+    "Opponent is applying forward pressure or has weight loaded onto the hook system"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Ankle Pick K-Guard Sweep",
+      "description": "Combines the standard hook sweep with an ankle pick on the opponent's far leg. As the inverted hook pulls the trapped leg across centerline, the sweeper's far hand reaches to pick the opponent's posting ankle, eliminating their last base point and guaranteeing the topple.",
+      "when_to_use": "When the opponent has a wide base that resists the standard butterfly hook elevation, making the far ankle an accessible and effective secondary target."
+    },
+    {
+      "variant_name": "Pump Sweep Variation",
+      "description": "Uses a pumping action with the butterfly hook to create rhythmic momentum before the main sweep. Two or three short elevation pulses condition the opponent to brace downward, then the final pump coordinates with the inverted hook pull for an amplified off-balance.",
+      "when_to_use": "Against experienced opponents who read the standard single-motion sweep and preemptively adjust base. The pumping rhythm disguises the actual sweep timing."
+    },
+    {
+      "variant_name": "Back Take K-Guard Sweep",
+      "description": "Initiates as a standard sweep but converts to a back take when the opponent posts their hand to prevent the topple. The sweeper maintains the underhook and swims under the posting arm while using hook tension to prevent the opponent from turning to face them.",
+      "when_to_use": "When the opponent consistently defends the sweep by hand-posting. The sweep threat becomes a setup for the higher-value back take position."
     }
   ],
-  "position_integration": "TODO: Write position integration for K-Guard Sweep.",
+  "position_integration": "The K-Guard Sweep sits at the center of the K-Guard attacking system, serving as the primary offensive threat that forces the top player to respect the bottom position and play conservatively. It connects directly to the broader half guard sweeping game and shares mechanical principles with butterfly guard elevation techniques. When the sweep is defended, it naturally chains into secondary attacks including back takes when the opponent over-posts, Single Leg X-Guard entries when they retract their weight, and Deep Half Guard transitions when they drive forward aggressively. The sweep threat also indirectly supports K-Guard retention by forcing conservative play from the top player, preventing the aggressive pressure passing that dismantles the guard structure.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "K-Guard",
+      "relationship": "Source position from which this sweep is executed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Fallback position when K-Guard structure is disrupted during counter"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative transition target when opponent drives heavy forward pressure against sweep attempt"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Secondary attack entry when opponent widens base to defend the sweep"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related sweep position sharing similar hook elevation mechanics"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-value follow-up when opponent posts hand to defend the sweep topple"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Shares butterfly hook mechanics used in the elevation phase of the sweep"
+    },
+    {
+      "name": "Backstep from K-Guard",
+      "relationship": "Primary defensive counter from top player that neutralizes the sweep threat"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Parent guard family sharing trapped leg control concepts"
     }
   ],
   "attacker": {
     "name": "K-Guard Sweep Attacker",
-    "description": "TODO: Write attacker description for K-Guard Sweep.",
-    "overview": "TODO: Write attacker overview for K-Guard Sweep.",
+    "description": "Master executing the K-Guard Sweep in BJJ. Step-by-step guide covering hook coordination, timing, common counters, and progressive training for the inverted hook sweep.",
+    "overview": "The K-Guard Sweep from the attacker's perspective centers on mastering the coordinated action of two distinct hooks to generate overwhelming sweeping force. The inverted inside hook creates lateral displacement by pulling the opponent's trapped leg across their centerline, while the butterfly outside hook generates vertical lift that removes their base. The attacker must develop sensitivity to the opponent's weight distribution and forward pressure, learning to load both hooks during moments of commitment before executing explosively. Timing is paramount - the sweep succeeds when the opponent's weight moves forward onto the hook system, and fails when attempted against a withdrawn or well-based opponent. The technical challenge lies in synchronizing upper body steering with lower body mechanics to produce a compound force vector that bypasses all standard base recovery reactions.",
     "key_principles": [
-      "TODO"
+      "Load both hooks with maximum tension before initiating the sweep to create stored energy for the explosive off-balance phase",
+      "Pull the trapped leg across the opponent's centerline with the inverted hook to collapse their base laterally before lifting",
+      "Time the sweep to coincide with the opponent's forward pressure commitment when their weight is loaded onto your hooks",
+      "Coordinate upper body frames pushing away with lower body hooks pulling underneath to amplify the sweeping force through push-pull mechanics",
+      "Follow through completely by rotating hips underneath and coming up to top position immediately after the off-balance",
+      "Use the sweep threat as a setup for secondary attacks including back takes and leg entanglement entries when the opponent adjusts defensively"
     ],
     "setup_requirements": [
-      "TODO"
+      "Full K-Guard configuration established with inverted inside hook crossing over opponent's trapped leg toward their far hip",
+      "Active butterfly outside hook positioned at opponent's hip level with loaded upward tension capability",
+      "Inside underhook or shoulder frame preventing opponent from achieving chest-to-chest pressure and flattening the K-Guard structure",
+      "Opponent applying forward pressure or leaning weight into the hook system creating exploitable load on both hooks",
+      "Head elevated off mat with proper spine angle enabling hip mobility for the rotational follow-through"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Load Hook Tension",
+        "description": "Load both hooks with active tension simultaneously. The inverted inside hook pulls the opponent's trapped leg laterally across their centerline while the butterfly outside hook creates upward pressure at their hip level. Both hooks must be engaged to store the energy needed for the explosive sweep phase that follows."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure Upper Body Connection",
+        "description": "Secure an underhook on the opponent's far side or establish a frame against their shoulder to create a directional steering connection. This upper body grip both prevents them from posting their arms when the off-balance begins and provides the lever needed to guide the sweeping trajectory toward side control."
+      },
+      {
+        "step_number": 3,
+        "action": "Read Weight Distribution",
+        "description": "Read the opponent's weight distribution through your hooks, sensing when they commit forward pressure that loads their mass onto your hook system. The optimal initiation moment occurs when their weight shifts forward and their base narrows, creating vulnerability to the lateral-vertical compound force you are about to generate."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate Lateral Displacement",
+        "description": "Begin the sweep by explosively pulling with the inverted hook, dragging the opponent's trapped leg laterally across their centerline toward their far hip. This lateral force collapses their base structure and initiates the off-balancing sequence before their nervous system can process and react to the directional change."
+      },
+      {
+        "step_number": 5,
+        "action": "Elevate with Butterfly Hook",
+        "description": "Simultaneously with the lateral hook pull, drive upward with the butterfly hook to elevate the opponent's weight from the mat surface. The combination of lateral displacement from the inverted hook and vertical elevation from the butterfly hook creates a compound spiraling force that is biomechanically impossible to resist through base alone."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive Through and Come Up",
+        "description": "As the opponent begins toppling, push with your upper body frame and follow the sweeping momentum by rotating your hips underneath your torso in a windshield-wiper motion. Come up immediately to your knees and drive forward aggressively to establish top position before the opponent can compose any guard recovery attempt."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control",
+        "description": "Upon achieving the top position, immediately establish a crossface with your forearm and secure far hip control to prevent the opponent from recovering any guard structure. Drive your chest into their torso and settle your weight to consolidate a stable side control position with proper perpendicular pressure distribution across their body."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent posts hand on mat to prevent the topple after off-balance initiates",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Switch immediately to back take by swimming your underhook under their posting arm and circling behind while maintaining hook tension to prevent them from turning to face you",
+        "targets_outcome": "K-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent widens base and drops hips low to resist butterfly hook elevation",
+        "effectiveness": "High",
+        "your_response": "Transition to Single Leg X-Guard entry by extending your butterfly hook to full leg control on their far leg, exploiting the wide stance they created to defend the sweep",
+        "targets_outcome": "K-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps the trapped leg to disengage from the inverted hook entirely",
+        "effectiveness": "High",
+        "your_response": "Follow with hip extension and re-establish open guard hooks or transition to butterfly guard retention, using their disengagement as an opportunity to reset guard structure",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives heavy crossface pressure to flatten K-Guard structure before sweep loads",
+        "effectiveness": "Medium",
+        "your_response": "Frame against the crossface and redirect the forward pressure into a Deep Half Guard entry, using their committed weight against them by diving underneath",
         "targets_outcome": "K-Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the sweep without adequate hook tension loaded in both hooks",
+        "consequence": "Sweep lacks the compound force needed to overcome the opponent's base, allowing them to easily post or widen stance to neutralize the attempt",
+        "correction": "Load both hooks with maximum tension and feel the opponent's weight shift forward before exploding into the sweep motion"
+      },
+      {
+        "error": "Pulling only laterally with the inverted hook without coordinating the butterfly hook elevation",
+        "consequence": "Opponent maintains base on their far leg and simply posts to prevent the topple, turning a compound sweep into a single-vector push that is easily resisted",
+        "correction": "Synchronize the lateral pull with simultaneous vertical lift from the butterfly hook to create the compound off-balance that overwhelms single-direction base recovery"
+      },
+      {
+        "error": "Releasing the underhook or upper body connection during sweep execution",
+        "consequence": "Opponent posts freely with both arms and recovers base immediately, converting a successful off-balance into a failed sweep attempt",
+        "correction": "Maintain the underhook or frame throughout the entire sweeping motion until top position is fully secured and side control consolidation begins"
+      },
+      {
+        "error": "Attempting the sweep when the opponent has withdrawn weight backward and established wide base",
+        "consequence": "Sweep hits empty space because there is no forward weight to redirect, and the explosive effort exposes the K-Guard structure to passing by opening gaps in the guard",
+        "correction": "Read weight distribution through your hooks and only initiate when the opponent commits forward pressure that loads the hook system"
+      },
+      {
+        "error": "Failing to follow through to top position after successfully off-balancing the opponent",
+        "consequence": "Opponent recovers guard or scrambles to neutral position despite being swept because you remain on your back instead of coming up",
+        "correction": "Drive through immediately by rotating hips underneath and coming to knees without any pause, treating the off-balance and position change as one continuous motion"
+      },
+      {
+        "error": "Telegraphing the sweep by visibly adjusting grips or changing hook angles before execution",
+        "consequence": "Opponent reads the setup cues and preemptively adjusts base, widens stance, or disengages from the hook system before the sweep can be loaded",
+        "correction": "Maintain consistent hook tension and grip positioning throughout, initiating the sweep explosively from the existing configuration without preliminary adjustments"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Hook Mechanics",
+        "focus": "Coordinated hook loading and sweep motion",
+        "description": "Solo and partner drilling of inverted hook placement, butterfly hook positioning, and the coordinated pull-lift sweeping action. Partner offers no resistance while attacker develops muscle memory for the mechanical sequence from hook loading through position change."
+      },
+      {
+        "phase": "Phase 2: Timing Development",
+        "focus": "Reading weight distribution and identifying sweep windows",
+        "description": "Partner provides varying levels of forward pressure while the attacker identifies optimal timing windows for sweep initiation. Focus on developing sensitivity to weight shifts through the hooks and learning to distinguish between sweepable and non-sweepable moments."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Chaining to secondary attacks when sweep is defended",
+        "description": "Partner applies specific defenses including hand posting, base widening, and backstep extraction while attacker practices transitioning to back takes, Single Leg X-Guard entries, and Deep Half Guard when the primary sweep is neutralized."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full-speed sweep execution against progressive resistance",
+        "description": "Positional sparring starting from K-Guard with progressive resistance from 50% to 100%. Focus on complete sweep execution including the follow-through to side control consolidation against realistic defensive reactions."
+      },
+      {
+        "phase": "Phase 5: Chain Attack Fluency",
+        "focus": "Flowing between sweep and secondary attacks in live sparring",
+        "description": "Full sparring rounds starting from K-Guard with emphasis on reading the opponent's defensive reaction and flowing between sweep, back take, and leg entanglement entries. Develop the ability to threaten all options simultaneously and capitalize on whichever path opens."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the K-Guard Sweep?",
+        "answer": "The sweep should be initiated when the opponent commits forward pressure, loading their weight onto your hook system. This creates stored energy in both hooks that amplifies the sweeping force when released explosively. Attempting the sweep when the opponent has withdrawn their weight or established a wide low base results in insufficient off-balancing power and exposes your guard structure to passing attempts."
+      },
+      {
+        "question": "What grip configuration provides the best upper body connection for completing the sweep?",
+        "answer": "An underhook on the opponent's far side provides the most effective steering mechanism and prevents them from posting their arm during the topple. Alternatively, a cross-face frame against their far shoulder combined with collar or wrist control creates similar directional control. The critical requirement is maintaining this connection throughout the entire sweep, because releasing prematurely allows the opponent to post and recover base."
+      },
+      {
+        "question": "Your opponent widens their base and drops their hips as you attempt the sweep - how do you adjust?",
+        "answer": "A wide low base neutralizes the standard sweep by removing the forward weight commitment needed to load your hooks. Rather than forcing the sweep against superior base, transition immediately to Single Leg X-Guard by extending your butterfly hook to full leg control on their far leg, or enter X-Guard by repositioning both hooks under their wide stance. Their defensive base adjustment actually creates the space needed for these leg entanglement entries."
+      },
+      {
+        "question": "What mechanical detail makes the inverted hook's lateral pull effective against the opponent's base?",
+        "answer": "The inverted hook must pull the opponent's trapped leg across their centerline toward their far hip, not merely sideways. By directing force along this specific vector, you collapse their base at its weakest structural point, which is the line between their two support points. This lateral displacement shifts their center of gravity outside their base of support, making the subsequent butterfly hook elevation overwhelmingly effective."
+      },
+      {
+        "question": "How does the K-Guard Sweep create opportunities for back takes when defended?",
+        "answer": "When the opponent defends by posting their hand on the mat to prevent the topple, their posted arm creates a bridge you can swim under with your underhook. Maintain the underhook and circle behind the posting arm while using your remaining hook tension to prevent them from turning to face you. Their defensive posting reaction to the sweep gives you the exact angle needed for the back take, making the sweep threat and back take a complementary attacking pair."
+      },
+      {
+        "question": "What are the grip requirements for the K-Guard Sweep and how do they differ between gi and no-gi?",
+        "answer": "In gi, the primary grip is a collar grip or lapel control combined with a sleeve grip on the far arm, providing excellent steering control throughout the sweep. In no-gi, the underhook becomes essential as the primary connection point, supplemented by wrist control on the far side. The fundamental hook mechanics remain identical in both rulesets. The main adaptation is the upper body connection method that prevents posting and directs the sweeping force."
+      },
+      {
+        "question": "Your opponent begins backstep passing as you initiate the sweep - what is your immediate response?",
+        "answer": "Immediately release the inverted hook tension on the trapped leg and follow their backstep motion with your hips, re-establishing distance with your butterfly hook or feet on hips. If they complete the backstep, transition to open guard retention by creating new frames and hook connections. The key is recognizing the backstep early, because if caught mid-sweep with one hook already committed to the sweeping motion, you risk ending up in a passed position with no guard structure."
+      },
+      {
+        "question": "What is the most critical hip movement in the K-Guard Sweep and why?",
+        "answer": "The hip rotation that follows the off-balance is the most critical movement. After the hooks create the initial displacement, your hips must rotate underneath you in a windshield-wiper motion that brings you from lying on your side to driving forward on your knees. This rotation converts the off-balance from a momentary disruption into a completed sweep with full position change. Without this follow-through rotation, the opponent recovers and you remain on bottom."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for K-Guard Sweep."
+    "safety_considerations": "The K-Guard Sweep carries moderate injury risk primarily through knee stress on the inverted hook leg during explosive execution. The inverted hook configuration places lateral stress on the knee joint, particularly if the foot gets caught during the sweeping motion. Practitioners should develop the sweep progressively, beginning with slow-motion drilling to establish proper hook mechanics before adding speed and resistance. Partners must communicate immediately if they feel knee torque during the hook loading phase. Warm up hip flexors, adductors, and knee joints thoroughly before K-Guard training. Avoid forcing the inverted hook position against stiff resistance."
   },
   "defender": {
     "name": "K-Guard Sweep Defender",
-    "description": "TODO: Write defender description for K-Guard Sweep.",
-    "overview": "TODO: Write defender overview for K-Guard Sweep.",
+    "description": "Master defending the K-Guard Sweep in BJJ. Recognition cues, defensive options, and systematic approaches to neutralizing inverted hook sweeps and advancing position.",
+    "overview": "Defending the K-Guard Sweep requires understanding the mechanical sequence that powers it - coordinated inverted hook pull and butterfly hook elevation - and disrupting that sequence before the compound off-balance becomes irresistible. The defender must recognize the loading phase when the bottom player tensions both hooks and either deny the forward pressure that feeds the sweep or preemptively neutralize the hook system through grip fighting and positional adjustments. Successful defense creates immediate opportunities to advance position through passing, as the bottom player's sweep attempt necessarily opens gaps in their K-Guard retention structure that the top player can exploit with systematic pressure.",
     "key_principles": [
-      "TODO"
+      "Deny forward weight commitment by keeping hips back and base wide when sensing increased hook tension from the bottom player",
+      "Control the bottom player's far hip to anchor their position and prevent the rotational follow-through that converts off-balance into completed sweep",
+      "Neutralize the inverted hook by driving the trapped knee inward toward the bottom player's centerline rather than pulling away against the hook tension",
+      "Maintain low chest pressure to compress the hook system and prevent the butterfly hook from generating the upward force needed for elevation",
+      "Recognize the hook loading phase before the explosive sweep initiation and preemptively adjust base width and weight distribution",
+      "Keep both hands active in controlling the bottom player's upper body to prevent the underhook establishment that steers the sweep trajectory"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player increases inverted hook tension noticeably, pulling your trapped leg laterally with stronger directional force than during retention",
+      "Butterfly hook pressure increases upward against your hip, creating a distinct lifting sensation that precedes the explosive sweep",
+      "Bottom player secures an underhook on your far side or adjusts their shoulder frame to create a steering connection for directional control",
+      "Bottom player's hips begin loading underneath you with a coiling motion that precedes the explosive extension phase of the sweep",
+      "Upper body grips tighten or shift from passive retention configuration to active pulling direction aligned with the sweep trajectory"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Widen base and drop hips low to deny the elevation needed for the sweep",
+        "when_to_use": "When you feel both hooks tensioning simultaneously and the opponent beginning to load the sweep with forward pressure exploitation",
         "targets_outcome": "K-Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent retains K-Guard position but cannot generate sufficient off-balance to complete the sweep, creating opportunity to pass",
+        "risk": "If base is too wide, opponent transitions to Single Leg X-Guard or X-Guard entries exploiting the space created between your legs"
+      },
+      {
+        "action": "Backstep the trapped leg out of the inverted hook system entirely to remove the sweep fulcrum",
+        "when_to_use": "When the inverted hook begins pulling your trapped leg across centerline and you cannot resist the lateral force through base alone",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "Completely removes the sweep mechanism by eliminating the inverted hook fulcrum, forcing opponent to re-establish guard from scratch",
+        "risk": "Momentary loss of pressure contact may allow opponent to recover full guard structure or re-establish K-Guard hooks before you can pass"
+      },
+      {
+        "action": "Drive crossface pressure and flatten the bottom player's spine to kill hook tension before sweep loads",
+        "when_to_use": "Proactively when you recognize the K-Guard configuration being established, before the sweep loading phase begins",
+        "targets_outcome": "K-Guard/Bottom",
+        "if_successful": "Eliminates bottom player's hip mobility and hook tension entirely, preventing sweep initiation and opening systematic passing opportunities",
+        "risk": "Committing forward chest pressure can feed directly into the sweep if your timing is wrong and hooks are already loaded with tension"
+      },
+      {
+        "action": "Post hand on the mat on the sweep-side to create a third base point and prevent the topple",
+        "when_to_use": "As emergency defense when the sweep has already been initiated and you feel yourself being off-balanced past the point of base recovery",
+        "targets_outcome": "K-Guard/Bottom",
+        "if_successful": "Prevents the completion of the sweep by establishing a third support point that arrests the toppling momentum",
+        "risk": "Exposes you to immediate back take as the opponent can swim their underhook under your posted arm and circle behind you"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "K-Guard/Bottom",
+        "how": "Neutralize the sweep attempt by widening base, dropping hips low, and controlling the bottom player's far hip to prevent rotational force generation. Maintain dominant grips and immediately begin systematic passing sequences while their guard structure is weakened from the failed offensive attempt."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Force the bottom player out of K-Guard entirely by backstepping the trapped leg, stripping their hooks through systematic pressure, and creating disengagement distance. Immediately establish passing grips on their legs and advance while they are in the weaker generic open guard without their specialized hook configuration."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling the trapped leg straight backward against the inverted hook tension",
+        "consequence": "Feeds momentum directly into the sweep by creating exactly the loading tension the bottom player needs for the lateral off-balance component",
+        "correction": "Drive the trapped knee inward toward the bottom player's centerline to redirect force rather than opposing the hook direction directly"
+      },
+      {
+        "error": "Standing upright to extract the trapped leg from the hook system",
+        "consequence": "Creates maximum elevation opportunity for the butterfly hook and removes your ability to pressure the K-Guard structure through chest and hip weight",
+        "correction": "Stay low with forward chest pressure while working systematic hook neutralization through grip fighting, hip positioning, and controlled knee direction changes"
+      },
+      {
+        "error": "Ignoring the underhook establishment and focusing only on neutralizing the hooks",
+        "consequence": "Bottom player steers you into the sweep trajectory using the underhook as a directional lever, converting a survivable off-balance into a completed sweep",
+        "correction": "Prioritize controlling the bottom player's inside arm and preventing underhook access before addressing hook tension through arm control and whizzer positioning"
+      },
+      {
+        "error": "Posting hand on mat without awareness of the back take follow-up threat",
+        "consequence": "Bottom player immediately swims under the posting arm and takes the back, converting a successful sweep defense into an even worse positional outcome",
+        "correction": "If forced to post, immediately establish a whizzer with the near arm and drive the bottom player flat to prevent the back take sequence before they can circle behind"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a K-Guard Sweep is being loaded for execution?",
+        "answer": "The earliest cue is increased tension in both hooks simultaneously - you will feel the inverted hook pulling your trapped leg laterally with more force while the butterfly hook begins pressing upward against your hip with lifting intent. This loading phase typically occurs one to two seconds before the explosive sweep initiation. Recognizing this tension increase gives you time to widen your base and deny the forward weight commitment that feeds the sweep."
+      },
+      {
+        "question": "Why is posting your hand on the mat considered a risky defensive option against the K-Guard Sweep?",
+        "answer": "While hand posting prevents the immediate topple by creating a third base point, it exposes your posted arm to the bottom player's back take sequence. The bottom player can swim their underhook under your posted arm and circle behind you, converting your sweep defense into an even worse back control situation. If forced to post as emergency defense, immediately counter with a whizzer on the near side and drive the opponent flat to prevent the back take follow-up."
+      },
+      {
+        "question": "How should you manage your weight distribution when you feel both hooks loading for a sweep attempt?",
+        "answer": "Immediately shift your weight backward and widen your base, keeping your hips low and your center of gravity positioned behind the hook system rather than over it. Avoid committing any forward pressure, which directly feeds the sweep mechanism by loading the hooks. Control the bottom player's far hip with your near hand to prevent the rotational force generation, and use your chest to compress their butterfly hook without driving weight forward into the elevation zone."
+      },
+      {
+        "question": "Your opponent attempts the K-Guard Sweep and you successfully defend - what immediate action prevents a follow-up attack?",
+        "answer": "After defending the initial sweep, immediately re-establish dominant grips and forward pressure to prevent the bottom player from reloading hooks for another attempt or transitioning to secondary attacks like back takes or leg entanglements. Control their far hip, drive crossface pressure to flatten their spine, and begin systematic passing. The brief window after a failed sweep is your best opportunity to advance position, as their guard structure is temporarily weakened from the offensive commitment."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sweep loading cues and developing defensive awareness",
+        "description": "Partner loads K-Guard Sweep at slow speed while defender identifies visual and tactile cues including hook tension changes, underhook attempts, and weight shifting patterns. Practice base adjustment responses and weight redistribution without full resistance."
+      },
+      {
+        "phase": "Phase 2: Defensive Mechanics",
+        "focus": "Applying specific defensive techniques against full-speed sweeps",
+        "description": "Partner executes full-speed K-Guard Sweeps while defender applies specific defensive techniques including base widening, backstep extraction, and preemptive crossface pressure. Increase resistance progressively and develop automatic defensive reactions."
+      },
+      {
+        "phase": "Phase 3: Counter Offense",
+        "focus": "Chaining passing sequences after successful sweep defense",
+        "description": "After successfully defending sweep attempts, immediately transition to passing sequences. Develop automatic offensive responses following sweep defense, targeting the weakened guard structure during the recovery window after a failed offensive attempt."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Complete defensive and offensive sequences under full competition pressure",
+        "description": "Full-speed positional sparring from K-Guard where defender works complete defensive sequences against committed sweep attempts with unrestricted follow-up attacks. Develop ability to defend the sweep, prevent secondary attacks, and advance to passing position."
       }
     ]
   }

@@ -21,7 +21,7 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, attempt Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,19 +209,23 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (20% of attempts)
+### [[Elbow Escape to Guard]] (21% of attempts)
 
 ### [[Hip Escape to Turtle]] (17% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (15% of attempts)
+### [[Technical Stand Up to Single Leg]] (8% of attempts)
 
-### [[Roll to Guard]] (14% of attempts)
+### [[Roll to Guard]] (12% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Granby Roll to Guard]] (11% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (12% of attempts)
+### [[Hip Escape to Guard]] (11% of attempts)
 
-### [[Hip Escape to Guard]] (10% of attempts)
+### [[Shrimp Escape]] (9% of attempts)
+
+### [[Hand Fighting from Back]] (7% of attempts)
+
+### [[Harness Escape to Half Guard]] (4% of attempts)
 
 
 

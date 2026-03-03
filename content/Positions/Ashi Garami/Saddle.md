@@ -97,21 +97,19 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (46% of attempts)
+- **[[Ashi Garami Escape]]** (56% of attempts)
 
-- **[[Standing up in Base]]** (0% of attempts)
+- **[[Standing up in Base]]** (1% of attempts)
 
-- **[[Guard Recovery]]** (8% of attempts)
+- **[[Guard Recovery from Leg Entanglement]]** (7% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (3% of attempts)
+- **[[Frame and Shrimp to Guard]]** (8% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (8% of attempts)
+- **[[Counter-entangle to 50-50 Guard]]** (10% of attempts)
 
-- **[[Saddle Defense]]** (14% of attempts)
+- **[[Inversion Escape]]** (11% of attempts)
 
-- **[[Inversion Escape]]** (9% of attempts)
-
-- **[[Leg Extraction to Guard]]** (11% of attempts)
+- **[[Leg Extraction to Guard]]** (6% of attempts)
 
 - **[[Boot Scoot Escape from Saddle]]** (0% of attempts)
 
@@ -119,7 +117,9 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - **[[Forward Roll from Saddle]]** (0% of attempts)
 
-- **[[Leg Pummeling from Saddle]]** (1% of attempts)
+- **[[Leg Pummeling from Saddle]]** (0% of attempts)
+
+- **[[Sweep from Saddle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,31 +176,31 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (54% of attempts)
+- **[[Heel Hook]]** (40% of attempts)
 
-- **[[Outside Heel Hook]]** (2% of attempts)
+- **[[Outside Heel Hook]]** (5% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (11% of attempts)
+- **[[Straight Ankle Lock Entry]]** (10% of attempts)
 
 - **[[Toe Hold]]** (9% of attempts)
 
-- **[[Kneebar]]** (2% of attempts)
+- **[[Kneebar]]** (3% of attempts)
 
-- **[[Back Take from Ashi]]** (7% of attempts)
+- **[[Back Take from Ashi]]** (10% of attempts)
 
-- **[[Cross Ashi Transition]]** (5% of attempts)
+- **[[Cross Ashi Transition]]** (6% of attempts)
 
-- **[[Transition to Backside 50-50]]** (5% of attempts)
+- **[[Backside 50-50 Entry from Ashi]]** (5% of attempts)
 
-- **[[Calf Slicer]]** (2% of attempts)
+- **[[Calf Slicer]]** (3% of attempts)
 
 - **[[Estima Lock]]** (2% of attempts)
 
-- **[[Fallback to Inside Ashi-Garami]]** (0% of attempts)
+- **[[Fallback to Inside Ashi-Garami]]** (3% of attempts)
 
 - **[[Heel Hook from Saddle]]** (0% of attempts)
 
-- **[[Saddle Fallback to Inside Ashi]]** (1% of attempts)
+- **[[Saddle Fallback to Inside Ashi]]** (4% of attempts)
 
 
 ### Common Mistakes

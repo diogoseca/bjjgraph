@@ -270,6 +270,10 @@
       {
         "name": "Rear Naked Choke",
         "relationship": "Primary submission threat you must defend during escape"
+      },
+      {
+        "name": "Back Door Escape",
+        "relationship": "Systematic back escape sequence applicable after clearing triangle"
       }
     ],
     "position_metrics": {
@@ -313,7 +317,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Back Door Escape",
         "attempt_probability": 9
       },
       {
@@ -337,7 +341,7 @@
     ],
     "overview": "From the bottom perspective in Body Triangle Position, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.\n\nThe mechanical advantage of the body triangle is substantial - by crossing one leg over the other and tucking the foot behind your own knee, you create a locked structure that restricts your opponent's breathing and prevents hip rotation. Unlike standard back control with hooks, which requires constant adjustment and can be cleared through systematic hip movement, the body triangle represents a static mechanical lock that grows tighter as the opponent attempts to escape. The breathing restriction is not merely uncomfortable but creates genuine physiological stress that compounds over time, forcing your opponent to work urgently and often make defensive mistakes.\n\nFrom this bottom position, you maintain constant chest-to-back pressure while your hips are positioned beside your opponent on the mat, creating a stable base that prevents them from rolling you over. Your upper body focuses on collar grips, seatbelt control, or other configurations that threaten the neck and arms, while your legs maintain unwavering lower body control. The position is particularly effective in both gi and no-gi contexts, with the breathing restriction creating the same psychological and physical pressure regardless of the ruleset. Elite practitioners view the body triangle as both a holding pattern for point accumulation and a launching platform for high-percentage submissions.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 4,
       "position_type": "Offensive/Controlling",
       "risk_level": "Low to Medium",
       "energy_cost": "Low",
@@ -566,39 +570,47 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 28
+        "attempt_probability": 42
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 9
+        "attempt_probability": 7
       },
       {
         "transition": "Bow and Arrow Choke",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "Short Choke",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Back Control to Crucifix",
         "attempt_probability": 8
       },
       {
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 6
+        "attempt_probability": 4
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 5
+        "attempt_probability": 3
       },
       {
         "transition": "Cross Collar Choke",
-        "attempt_probability": 6
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Body Triangle Escape to Half Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Body Triangle Escape to Side Control",
+        "attempt_probability": 1
       }
     ]
   }

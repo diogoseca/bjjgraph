@@ -160,6 +160,7 @@ The primary defensive strategy centers on preventing the two conditions the Esti
 
 Defensive training should emphasize early recognition and prevention over late-stage escape. The best defense against the Estima Lock is never allowing both control points to be established simultaneously. When caught in a fully locked Estima Lock with coordinated pressure, the honest answer is that escape probability drops significantly - making early intervention and prevention the cornerstone of an effective defensive game plan against this submission.
 
+**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
 
 
 </section>

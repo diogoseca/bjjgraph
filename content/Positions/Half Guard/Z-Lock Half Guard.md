@@ -105,7 +105,7 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 
 - **[[Kimura Sweep]]** (8% of attempts)
 
-- **[[Transition to Z-Guard]]** (5% of attempts)
+- **[[Knee Shield Retention]]** (5% of attempts)
 
 - **[[Escape Z-Lock Half Guard]]** (2% of attempts)
 

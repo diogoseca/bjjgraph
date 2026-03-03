@@ -1,10 +1,13 @@
 {
   "name": "Guard Pass from Standing Guard",
-  "description": "TODO: Write 150-160 character SEO description for Guard Pass from Standing Guard.",
+  "description": "Master the standing guard pass in BJJ. Complete guide to breaking grips, controlling legs, and completing passes with systematic technique and timing.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard-pass",
+    "standing-guard",
+    "passing",
+    "top-game"
   ],
   "from_position": "Standing Guard/Top",
   "outcomes": [
@@ -25,114 +28,368 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Guard Pass from Standing Guard.",
+  "overview": "The Guard Pass from Standing Guard is the foundational framework for navigating past an opponent's guard from an upright position. Unlike specific named passes such as the Toreando or Leg Drag, this technique represents the general methodology of standing guard passing: establishing grip dominance, controlling the opponent's legs and hips, creating angular displacement through footwork, and decisively committing to a passing direction when the opportunity presents itself. The pass encompasses the core principles shared by all standing guard passes and serves as the template from which more specialized techniques derive their mechanics.\n\nThe strategic value of passing from standing lies in the mechanical advantage that height and mobility provide over a supine opponent. The standing passer can generate lateral speed, change angles rapidly, and use gravity to apply downward pressure on the guard player's legs—advantages that seated or kneeling passers cannot access. However, this elevation also creates vulnerability to sweeps and off-balancing attacks, making the battle for grip control and weight distribution the central contest of the exchange.\n\nSuccess requires a systematic approach: first neutralize the guard player's offensive connections through grip stripping and distance management, then establish bilateral control of their legs or hips to restrict guard retention movements, and finally execute a committed directional pass that navigates around their defensive structure to achieve side control. The timing of commitment is critical—passing too early before establishing control leads to sweep vulnerability, while waiting too long allows the guard player to reset their defensive framework and re-establish controlling connections.",
   "conditions": [
-    "TODO"
+    "Top player has achieved stable standing posture with both feet planted on the mat",
+    "Opponent's closed guard has been broken or was never established",
+    "Top player has broken at least one of opponent's controlling grips",
+    "Some form of leg or hip control has been established on the guard player",
+    "Clear lateral space exists for passing movement to at least one side"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Speed Pass (Toreando-style)",
+      "description": "Rapid lateral redirection of both legs simultaneously using bilateral grip control at the knees or pants, passing around the guard before the opponent can re-establish defensive hooks. Relies on explosive footwork and decisive directional commitment rather than sustained pressure.",
+      "when_to_use": "Best when opponent extends legs with loose grip configurations, plays distance-based guard, or has slow guard retention reactions"
+    },
+    {
+      "variant_name": "Pressure Pass (Stack/Smash approach)",
+      "description": "Driving forward through the guard player's legs with heavy hip pressure, folding them and pinning their hips to eliminate mobility before methodically working around to side control. Uses body weight and chest pressure to overwhelm defensive structures.",
+      "when_to_use": "Best against flexible guard players who rely on distance and frames rather than grips, or when speed passing has been shut down by strong grip fighting"
+    },
+    {
+      "variant_name": "Leg Control Pass (Over-Under/Double Under)",
+      "description": "Securing deep control of both legs through over-under or double-under grip configurations before methodically working around the guard using dominant leg positioning. Provides maximum control throughout the passing sequence at the cost of reduced speed.",
+      "when_to_use": "Best when opponent has strong grip fighting but weak leg dexterity, or when you need maximum control and can sacrifice speed for security"
     }
   ],
-  "position_integration": "TODO: Write position integration for Guard Pass from Standing Guard.",
+  "position_integration": "The standing guard pass is the critical bridge between the standing phase of engagement and established top control. It connects the Standing Guard position to Side Control through systematic passing methodology and serves as the template from which all specific standing passes derive their fundamental principles. Failure to pass returns the engagement to Standing Guard, while getting countered can result in positional reversal to Half Guard Bottom if the guard player successfully sweeps during the passing attempt. Developing a reliable standing guard pass is essential for any competitor whose game involves top position work, as the majority of guard interactions in modern competition begin from standing exchanges. The technique integrates directly with the broader passing system, feeding into specific passes like the Toreando, Leg Drag, and Knee Slice when the general approach identifies the optimal passing lane.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Side Control",
+      "relationship": "Primary target position after successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position resulting from counter when guard player sweeps during pass attempt"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Guard configuration being addressed from standing position"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Specific speed-based variant of standing guard pass using bilateral leg redirection"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Complementary standing pass variant using cross-body leg control"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Transitional position during incomplete or stalled pass sequences"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Alternative consolidation position after passing from standing"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Common guard type requiring specific passing adjustments from standing"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Hook-based guard variant frequently encountered when passing from standing"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative stance option if standing pass stalls and reset is needed"
     }
   ],
   "attacker": {
     "name": "Guard Pass from Standing Guard Attacker",
-    "description": "TODO: Write attacker description for Guard Pass from Standing Guard.",
-    "overview": "TODO: Write attacker overview for Guard Pass from Standing Guard.",
+    "description": "Complete attacker guide to the standing guard pass in BJJ. Master grip control, leg management, angle creation, and pass completion techniques for systematic passing.",
+    "overview": "Executing the standing guard pass requires systematic progression through four distinct phases: grip neutralization, leg control establishment, directional commitment, and position consolidation. The passer must maintain an athletic upright stance with weight distributed through the balls of their feet while fighting for dominant grips on the guard player's legs, pants, or hips. The critical skill is reading the guard player's defensive structure to identify which side presents the weakest retention, then committing decisively to that direction with enough speed and pressure to overwhelm their adjustment capacity. Throughout the pass, the attacker must maintain awareness of sweep threats and adjust weight distribution to prevent being off-balanced during the commitment phase. Mastery comes from developing the ability to chain directional changes and passing styles together, creating cascading dilemmas that force the guard player into increasingly compromised defensive positions.",
     "key_principles": [
-      "TODO"
+      "Strip opponent's grips before establishing your own—never attempt to pass against active controlling connections",
+      "Control both legs or both hips bilaterally before committing to a passing direction to restrict guard retention",
+      "Generate lateral speed through explosive footwork rather than upper body pulling for directional passing",
+      "Commit fully to chosen direction once the pass begins—half-committed passes fail against competent guard retention",
+      "Maintain low center of gravity by keeping knees bent and hips back during the approach and commitment phases",
+      "Transition immediately to crossface and hip control upon clearing the opponent's legs to prevent re-guarding",
+      "Use directional feints and changes to create openings against strong, organized guard retention systems"
     ],
     "setup_requirements": [
-      "TODO"
+      "Stable standing base with feet at least shoulder-width apart, knees bent, weight on balls of feet",
+      "At least one of opponent's controlling grips has been broken or neutralized through systematic grip fighting",
+      "Bilateral control established on opponent's legs at the knee, pants, or hips",
+      "Opponent's feet are not both firmly planted on your hips creating strong distance frames",
+      "Clear identification of the weaker side of opponent's guard structure for passing direction selection"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish athletic stance and posture",
+        "description": "Rise to a stable standing position with feet shoulder-width apart, knees bent, and hips slightly back. Distribute weight through the balls of your feet for quick directional changes. Maintain upright chest with chin slightly tucked to resist being pulled forward into the guard player's offensive range."
+      },
+      {
+        "step_number": 2,
+        "action": "Strip opponent's controlling grips",
+        "description": "Systematically break the guard player's controlling grips using two-on-one grip breaks, circular wrist movements, or sharp directional pulls. Address the most dangerous grip first—typically collar grips that threaten to pull your posture down. Each grip break should immediately transition to establishing your own control rather than allowing re-gripping."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish bilateral leg control",
+        "description": "Secure grips on both of the opponent's legs at the knee or pants level, or establish control of their hips through belt grip, waistband, or direct hip pressure. Bilateral control prevents the guard player from creating effective asymmetric defensive angles and restricts their ability to re-establish hooks or distance-managing positions that block passing lanes."
+      },
+      {
+        "step_number": 4,
+        "action": "Identify and create passing angle",
+        "description": "Read the opponent's defensive structure to determine which side presents the weakest guard retention. Use small lateral steps and weight shifts to test their response on each side. Create the passing angle through footwork rather than pulling their legs—move your body around their guard rather than trying to move their guard out of your way."
+      },
+      {
+        "step_number": 5,
+        "action": "Commit to passing direction",
+        "description": "Explosively drive laterally in the chosen direction while simultaneously redirecting the opponent's legs away from your passing line. Your hips should lead the movement, driving past the opponent's hip line while your hands control their legs to prevent guard recovery. This is the decisive moment that must be committed with full speed and intention."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the legs and establish upper body control",
+        "description": "As you navigate past the guard player's legs, immediately transition your hand positioning from leg control to upper body control. The near hand establishes crossface pressure across the opponent's jaw and neck, while the far hand controls their hip to prevent them from turning into you or recovering any form of guard structure."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Drive your chest perpendicular to the opponent's torso, dropping your weight through your hips and shoulder into their upper body. Establish hip-to-hip connection to prevent guard recovery from below while maintaining heavy crossface to control their head position. Settle your base with near knee tight to their hip and far leg sprawled for stability."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent inserts shin shield or knee frame during pass attempt blocking lateral movement",
+        "effectiveness": "High",
+        "your_response": "Immediately redirect to the opposite side of the shin shield using quick directional change, or apply downward pressure on the shin and pass over it using smash pass mechanics",
         "targets_outcome": "Standing Guard/Top"
+      },
+      {
+        "counter": "Opponent grips your sleeve and collar to pull you off balance during directional commitment",
+        "effectiveness": "Medium",
+        "your_response": "Strip the collar grip immediately using two-on-one break, maintain low center of gravity with hips back, then either continue the pass through remaining grips or reset to standing position",
+        "targets_outcome": "Standing Guard/Top"
+      },
+      {
+        "counter": "Opponent hip-escapes and re-establishes guard hooks during your directional commitment phase",
+        "effectiveness": "High",
+        "your_response": "Follow their hip movement with your own hips maintaining pressure and connection rather than allowing space to develop, then chain to a secondary pass in the new direction their hips created",
+        "targets_outcome": "Standing Guard/Top"
+      },
+      {
+        "counter": "Opponent hooks your lead leg and executes a sweep during the forward commitment of the pass",
+        "effectiveness": "Medium",
+        "your_response": "Post your hand on the mat and widen your base to resist the sweep, or bail on the pass and reset to standing before the sweep completes to avoid full reversal",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to pass before breaking opponent's controlling grips",
+        "consequence": "Opponent uses existing grips to redirect your pass, maintain distance, or set up sweep entries that capitalize on your committed movement",
+        "correction": "Systematically strip all major grips before initiating the passing sequence, establishing your own control on their legs as each grip is broken"
+      },
+      {
+        "error": "Leaning forward with weight over opponent during the pass",
+        "consequence": "Creates sweep vulnerability as your center of gravity extends past your base of support, allowing guard player to redirect momentum overhead",
+        "correction": "Keep hips back and weight distributed through your feet, using lateral footwork rather than forward lean to generate passing movement"
+      },
+      {
+        "error": "Committing to a single passing direction without testing both sides first",
+        "consequence": "Opponent pre-loads defensive response for your predictable passing direction, making the pass significantly harder to complete",
+        "correction": "Use small feints and directional tests to both sides before committing, forcing the guard player to divide their defensive attention"
+      },
+      {
+        "error": "Releasing leg control too early before establishing upper body connection",
+        "consequence": "Creates a gap where the guard player has free legs to re-insert hooks and re-establish guard before you consolidate side control",
+        "correction": "Maintain at least one point of leg control until your chest contacts their torso and crossface is established, overlapping control phases"
+      },
+      {
+        "error": "Standing too upright with locked knees and narrow stance",
+        "consequence": "Poor base makes you vulnerable to sweeps and limited mobility prevents quick directional changes needed for passing",
+        "correction": "Maintain athletic stance with knees bent, hips back, and feet at least shoulder-width for stability and explosive lateral movement"
+      },
+      {
+        "error": "Passing too slowly with hesitant commitment to the chosen direction",
+        "consequence": "Guard player has time to adjust positioning, reset grips, and prepare appropriate retention response for your passing angle",
+        "correction": "Once the decision to pass is made and the angle is created, commit with full speed and decisive action to overwhelm the guard player's adjustment capacity"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Control Mechanics",
+        "focus": "Grip breaking and bilateral leg control establishment",
+        "description": "Practice systematic grip breaking sequences against a compliant partner. Work on establishing bilateral leg control from standing, focusing on proper hand placement and weight distribution. No passing attempts—purely focus on the pre-pass control phase until grip sequences become automatic."
+      },
+      {
+        "phase": "Phase 2: Direction and Commitment",
+        "focus": "Lateral movement, passing angles, and decisive commitment",
+        "description": "From established control position, practice explosive directional commitment to both sides. Partner provides minimal resistance. Emphasize footwork with hips leading, and the transition from leg control to upper body control during the pass. Build muscle memory for the commitment phase timing."
+      },
+      {
+        "phase": "Phase 3: Combination Passing",
+        "focus": "Multi-directional passing with feints and chains",
+        "description": "Practice passing sequences that chain direction changes based on partner's defensive reactions. If initial direction is blocked, immediately redirect to opposite side. Partner provides 50-75% resistance with realistic guard retention movements. Develop automatic redirection patterns."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance passing from standing guard",
+        "description": "Positional sparring from standing guard position. Top player attempts to pass using any standing methodology while bottom player provides full resistance guard retention. Five-minute rounds with reset after each completed pass or sweep. Focus on reading defensive reactions and timing commitment windows."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Passing under time pressure with scoring consequences",
+        "description": "Simulate competition scenarios with time constraints. Three-minute rounds where passer must complete the pass for points while guard player works sweeps and submissions. Track pass completion rate across rounds and identify weak points in the passing system for targeted improvement."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical error that exposes you to sweeps during the commitment phase of a standing guard pass?",
+        "answer": "Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment."
+      },
+      {
+        "question": "Your opponent has established collar and sleeve grips while you are standing in their guard—what is the correct sequence to neutralize these grips before passing?",
+        "answer": "Address the collar grip first as it represents the greater threat to your posture, using a two-on-one grip break where both hands work to peel their grip. Once the collar grip is stripped, immediately establish your own control on their leg before addressing the sleeve grip. Never attempt to break both grips simultaneously as this leaves you without defensive frames against being pulled forward into their guard."
+      },
+      {
+        "question": "How do you determine which side to pass when facing a guard player with symmetric defensive positioning?",
+        "answer": "Test both sides with small lateral feints, observing which direction generates a slower or weaker defensive response. Additionally, assess their grip configuration and pass toward the side where they have weaker grip control. If their defensive structure appears truly symmetric, commit to your stronger passing side and use the speed advantage of your preferred direction to create a timing edge over their reaction."
+      },
+      {
+        "question": "What is the correct hand transition sequence when clearing the opponent's legs to establish side control?",
+        "answer": "As your hips clear past the opponent's hip line, the near hand transitions from leg control to crossface position across their jaw and neck while the far hand moves from their other leg to their far hip to block guard recovery. This transition must overlap—maintain at least one point of leg control until upper body control is established, never releasing both legs simultaneously as this creates a window for guard re-insertion."
+      },
+      {
+        "question": "Your initial passing direction is blocked by a strong shin shield—how do you adjust mid-pass without losing positional control?",
+        "answer": "Immediately change direction rather than forcing through the shin shield. Maintain your existing grips on their legs while explosively redirecting your footwork to the opposite side. The shin shield takes a moment to reposition, creating a timing advantage for your redirection. If the second direction is also blocked, return to standing control position and reset rather than chaining multiple failed attempts that deplete energy and telegraph your patterns."
+      },
+      {
+        "question": "What tactile and visual feedback tells you the optimal moment to commit to the passing direction?",
+        "answer": "The key sensation is feeling the opponent's defensive weight shift to one side through your grip connection—their resistance becomes heavy and committed in one direction, making their opposite side light and vulnerable. Visually, watch for their hip angle committing to face one direction. Additionally, feeling a momentary relaxation in their grip pressure during a grip adjustment creates a timing window. The commitment must be immediate when these signals appear, as they last only fractions of a second."
+      },
+      {
+        "question": "If you are swept to Half Guard Bottom during a passing attempt, what went wrong mechanically in your execution?",
+        "answer": "Being swept to Half Guard Bottom indicates your weight was too far forward over your feet during the commitment phase, likely combined with insufficient awareness of the opponent's hook placement on your legs. The sweep succeeded because your center of gravity extended past your base while the guard player had a controlling hook or grip that redirected your momentum. The correction is maintaining lower hips, wider base, and constant monitoring of opponent's hooks that threaten sweeps during passing."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Guard Pass from Standing Guard."
+    "safety_considerations": "Maintain controlled movements during passing sequences to avoid accidentally dropping weight onto the guard player's face or neck with your knee or shin during the leg clearing phase. When using pressure-based passing variations, apply weight gradually rather than slamming down to prevent rib injuries. Be particularly careful with directional changes near the guard player's knees, as sudden lateral forces while their foot is planted can stress the knee joint. In training, avoid explosive smash passes against significantly smaller partners and always establish clear communication about intensity levels before positional sparring from standing."
   },
   "defender": {
     "name": "Guard Pass from Standing Guard Defender",
-    "description": "TODO: Write defender description for Guard Pass from Standing Guard.",
-    "overview": "TODO: Write defender overview for Guard Pass from Standing Guard.",
+    "description": "Complete defensive guide for preventing the standing guard pass in BJJ. Recognition cues, guard retention techniques, and counter-attack strategies for all levels.",
+    "overview": "Defending against the standing guard pass requires early recognition of the passer's intentions and systematic guard retention that prevents them from establishing the bilateral leg control necessary to complete the pass. The defender operates from an open guard position facing a standing opponent who has broken their closed guard or achieved standing posture from the outset. The primary defensive strategy involves maintaining active connections to the passer's body through grips, hooks, and frames that prevent bilateral leg control and restrict their lateral movement. Successful defense creates opportunities to sweep, submit, or at minimum retain guard position and force the passer to expend energy resetting. The defender must prioritize grip fighting, hip mobility, and the creation of defensive angles that make the passer's chosen direction increasingly difficult to complete while threatening offensive consequences for overcommitment.",
     "key_principles": [
-      "TODO"
+      "Maintain at least two points of connection to the passer at all times through grips, hooks, or frames to prevent free passing movement",
+      "Create defensive angles by turning your hips toward the passer rather than lying flat facing the ceiling",
+      "Use feet and knees as primary barriers against the passer's lateral movement and directional commitment",
+      "Strip the passer's grips on your legs immediately rather than allowing bilateral control to develop and solidify",
+      "Time counter-attacks to coincide with the passer's commitment phase when their base is most compromised and vulnerable",
+      "Keep hips mobile through constant micro-adjustments rather than holding a static guard position that can be mapped and passed",
+      "Threaten sweeps and submissions continuously to prevent the passer from methodically establishing passing control without consequence"
     ],
     "recognition_cues": [
-      "TODO"
+      "Passer systematically breaks your grips without re-engaging in grip fighting, indicating they are clearing the path for a pass",
+      "Passer establishes bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles",
+      "Passer begins lateral stepping with a noticeable weight shift to one side, indicating directional commitment to a passing angle",
+      "Passer drives forward pressure into your legs while their hips drop lower, signaling a pressure-based pass attempt",
+      "Passer releases one leg grip to reach for your collar or upper body, indicating transition from standing control to pass completion phase"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Re-establish grips and frames before pass commitment",
+        "when_to_use": "As soon as you feel the passer breaking your grips or establishing bilateral leg control, before they create a passing angle",
         "targets_outcome": "Standing Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Passer loses their control setup and must restart the grip fighting and control establishment sequence",
+        "risk": "If executed too slowly, the passer completes their control setup and commits to the pass before defensive connections are re-established"
+      },
+      {
+        "action": "Insert shin shield or knee frame during directional commitment",
+        "when_to_use": "The moment the passer commits to a lateral direction with their first explosive step and weight shift",
+        "targets_outcome": "Standing Guard/Top",
+        "if_successful": "Shin shield creates an impassable barrier that forces the passer to change direction or abandon the pass attempt entirely",
+        "risk": "Poorly timed shin shield can be passed over or pinned down, potentially resulting in flattened half guard"
+      },
+      {
+        "action": "Execute sweep during passer's forward commitment phase",
+        "when_to_use": "When the passer's weight shifts forward and laterally during their passing commitment, compromising their base stability",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Passer's forward momentum is redirected into a positional reversal, achieving top position for the defender",
+        "risk": "Failed sweep attempt can leave you in a worse defensive position with the passer already past your guard structure"
+      },
+      {
+        "action": "Hip escape and re-guard before consolidation",
+        "when_to_use": "After the passer has cleared your legs but before they establish crossface and hip-to-hip control in side control",
+        "targets_outcome": "Standing Guard/Top",
+        "if_successful": "You re-insert your legs between your bodies and re-establish guard connection, negating the pass completely",
+        "risk": "Slow recovery allows the passer to establish side control pressure before you can re-insert defensive structures"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a sweep attempt to coincide with the passer's forward commitment during the pass. Hook their lead leg with your butterfly hook or ankle grip while using their forward momentum to off-balance them laterally. Guide them to the mat while securing top position. This counter-sweep reverses the positional hierarchy, putting the former passer on bottom."
+      },
+      {
+        "outcome": "Standing Guard/Top",
+        "how": "Prevent the pass from completing by maintaining active grip connections and inserting defensive frames before the passer can commit to a direction. Strip their grips as they attempt to establish bilateral leg control, use hip mobility to create angles that obstruct their passing lanes, and threaten sweeps to force defensive reactions. Retaining guard forces them to expend energy on repeated passing attempts."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lying flat on back with legs extended and no active defensive structure",
+        "consequence": "Passer easily establishes bilateral leg control and passes without meaningful resistance, as there are no frames, hooks, or grips to impede lateral movement",
+        "correction": "Maintain constant hip angle with knees bent and feet active, keeping at least two points of connection to the passer through grips, hooks, or frames at all times"
+      },
+      {
+        "error": "Fighting grips with arms fully extended away from your body",
+        "consequence": "Extended arms are isolated for kimura or wrist lock attacks, and the energy expenditure of fighting grips at full extension depletes cardio rapidly",
+        "correction": "Use circular grip breaks with elbows close to your body, and re-grip on the passer's wrists, sleeves, or ankles rather than fighting their grip strength directly"
+      },
+      {
+        "error": "Remaining static in a single guard configuration against directional passing attempts",
+        "consequence": "Passer identifies the weak side of your fixed guard and commits to that direction with confidence, overwhelming your predictable defensive structure",
+        "correction": "Continuously adjust your guard angle through hip escapes and foot repositioning, making the passer face a moving target rather than a static formation"
+      },
+      {
+        "error": "Attempting reactive closed guard pull during an active pass instead of proactive retention",
+        "consequence": "If the pull timing is off, you end up in a worse position with the passer already past your legs and the closed guard breaking immediately",
+        "correction": "If you want closed guard, pull proactively before the pass attempt begins. During an active pass, focus on retention with frames and hip escapes rather than position changes"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the three most reliable recognition cues that a standing guard pass is about to be initiated?",
+        "answer": "The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin."
+      },
+      {
+        "question": "Your opponent has established control of both your pants at the knee and begins stepping laterally to your right—what is your immediate defensive response?",
+        "answer": "Immediately turn your hips to face their passing direction and insert your left shin as a shield across their hip line. Use your left hand to grip their passing-side sleeve or wrist to break their lateral momentum. Simultaneously hip escape away from their passing direction to increase the distance they must travel. The shin shield combined with the hip escape creates a physical barrier and distance that forces them to either change direction or abandon the pass attempt entirely."
+      },
+      {
+        "question": "When is the optimal moment to attempt a sweep against a standing guard passer?",
+        "answer": "The optimal sweep timing is during the passer's directional commitment phase, specifically the moment they shift weight laterally and forward to execute the pass. At this point, their center of gravity has moved past their base of support in one direction, making them vulnerable to forces applied perpendicular to their movement. Their commitment means they cannot easily abort and rebalance, so use their momentum against them by applying sweep force in the direction they are already traveling."
+      },
+      {
+        "question": "How do you prevent the passer from establishing bilateral leg control when you are playing open guard from bottom?",
+        "answer": "Keep your feet active and between your body and the passer's hands at all times. Use your feet on their hips, biceps, or collar to create distance and prevent them from simultaneously controlling both legs. When they grip one leg, use the free leg to push on their hip or shoulder to create an angle that prevents them from reaching the second leg. Maintain at least one controlling grip on their sleeve or collar to restrict their ability to reach for bilateral control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying pre-pass cues from guard position",
+        "description": "Partner executes various guard pass attempts from standing at 50% speed while you focus solely on identifying recognition cues. Call out when you see grip breaks, bilateral leg control attempts, and directional commitment. No defensive techniques yet—purely build pattern recognition and visual reading ability."
+      },
+      {
+        "phase": "Phase 2: Retention Mechanics",
+        "focus": "Guard retention techniques against standing passes",
+        "description": "Partner attempts standing passes at progressive resistance while you practice specific retention techniques: hip escapes, shin shields, grip re-establishment, and angle creation. Focus on connecting recognition of pass type to appropriate retention response. Goal is maintaining guard position for the full round without being passed."
+      },
+      {
+        "phase": "Phase 3: Counter-Attack Integration",
+        "focus": "Adding sweeps and offensive threats to defensive responses",
+        "description": "Build on retention mechanics by adding offensive counters during the passer's commitment phase. Practice sweep timing, grip transitions for offensive entries, and the decision point between retention and counter-attack. Partner provides 75% resistance with realistic passing sequences."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full resistance guard retention and counter-attacking",
+        "description": "Positional sparring from standing guard with full resistance. Guard player scores for sweeps, submissions, and successful guard retention. Passer scores for completed passes. Five-minute rounds tracking defensive success rate and counter-attack conversion to identify areas for improvement."
       }
     ]
   }

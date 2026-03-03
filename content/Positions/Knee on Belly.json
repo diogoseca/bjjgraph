@@ -350,7 +350,7 @@
     ],
     "overview": "Knee on Belly Bottom is a highly disadvantageous defensive position where the practitioner is flat on their back with the opponent's knee driving into their diaphragm or solar plexus. This position represents one of the most pressure-intensive scenarios in Brazilian Jiu-Jitsu, requiring immediate defensive action to prevent both submission attacks and further positional deterioration. The bottom player must manage overwhelming chest pressure while protecting their neck and arms from various submission threats including armbars, Americanas, and collar chokes. Understanding proper defensive framing, hip escape mechanics, and re-guard strategies is essential for survival and escape. The position scores 2 points for the top player in IBJJF competition and creates a significant advantage in the control hierarchy. Success from this position is measured not by offensive capability but by the speed and efficiency of escape back to guard or neutral positions. The key to effective defense lies in immediate frame creation, hip movement to create angles, and systematic pressure management that prevents the opponent from consolidating control or advancing to mount.",
     "state_properties": {
-      "point_value": -2,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -398,7 +398,7 @@
         "condition": "If opponent lifts knee to transition to mount or north-south",
         "actions": [
           {
-            "technique": "Guard Recovery",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 60
           },
@@ -593,20 +593,16 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Guard Recovery",
-        "attempt_probability": 7
-      },
-      {
         "transition": "Frame and Shrimp from Knee on Belly",
-        "attempt_probability": 1
+        "attempt_probability": 3
       },
       {
         "transition": "Push Knee and Reguard from Knee on Belly",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Turn to Turtle from Knee on Belly",
-        "attempt_probability": 1
+        "attempt_probability": 3
       }
     ],
     "knowledge_assessment": [

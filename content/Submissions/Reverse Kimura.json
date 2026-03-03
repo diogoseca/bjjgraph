@@ -73,7 +73,7 @@
       "result": "success"
     },
     {
-      "to": "Standing Position/Bottom",
+      "to": "Standing Position",
       "probability": 25,
       "result": "failure"
     },
@@ -93,16 +93,16 @@
     "North-South"
   ],
   "related_submissions": [
-    "Kimura",
-    "Kimura from Standing",
+    "Kimura from Kimura Trap",
     "Americana",
-    "Omoplata",
-    "Kimura from Turtle",
+    "Americana from Side Control",
+    "Omoplata from Spider Guard",
     "Armbar from Side Control",
-    "Kimura from Half Guard",
+    "Kimura from Modified Scarf Hold",
+    "Kimura from Shoulder of Justice",
     "Baratoplata",
-    "Guillotine Choke",
-    "Darce Choke",
+    "Guillotine from Butterfly Guard",
+    "Darce from Leg Drag",
     "Anaconda Choke"
   ],
   "related_content": [
@@ -111,8 +111,8 @@
       "relationship": "Control position incorporating reverse grip variations and systematic shoulder attacks"
     },
     {
-      "name": "Kimura to Back Take",
-      "relationship": "Primary transition when reverse Kimura is defended by rotation"
+      "name": "Back Take",
+      "relationship": "Primary transition when reverse Kimura is defended by rotation, attacker follows to back control"
     },
     {
       "name": "Overhook Control",
@@ -214,7 +214,7 @@
         "counter": "Turning into the lock to relieve shoulder pressure",
         "effectiveness": "High",
         "your_response": "Follow their rotation and transition to back take. The reverse Kimura naturally leads to back exposure when opponents rotate to defend. Maintain your grip and use it to control their movement as you establish hooks or body lock.",
-        "targets_outcome": "Front Headlock"
+        "targets_outcome": "Front Headlock/Bottom"
       },
       {
         "counter": "Grabbing their own gi, belt, or body to create a defensive frame",
@@ -232,7 +232,7 @@
         "counter": "Rolling forward or granby rolling to escape",
         "effectiveness": "Low",
         "your_response": "The reverse Kimura grip prevents most rolling escapes if maintained properly. Stay heavy on their upper body and use the grip to control their movement. If they do manage to roll, you often end up in superior position with back access or mounted position.",
-        "targets_outcome": "Front Headlock"
+        "targets_outcome": "Front Headlock/Bottom"
       }
     ],
     "common_errors": [
@@ -380,7 +380,7 @@
       {
         "action": "Turn into the attacker to relieve shoulder rotation pressure",
         "when_to_use": "As soon as you feel rotational pressure beginning on your shoulder, before the grip tightens fully",
-        "targets_outcome": "Front Headlock",
+        "targets_outcome": "Front Headlock/Bottom",
         "if_successful": "Relieves shoulder pressure and may create scramble opportunity, though attacker may follow rotation for back take",
         "risk": "If attacker reads the turn, they can follow your rotation to establish back control with hooks"
       },
@@ -417,7 +417,7 @@
         "how": "Strip the reverse grip by attacking the wrist connection with your free hand, straighten your arm explosively, and circle away to neutral standing position before the attacker can re-establish control"
       },
       {
-        "outcome": "Front Headlock",
+        "outcome": "Front Headlock/Bottom",
         "how": "Turn into the attacker to relieve shoulder pressure, fight for an underhook on the near side, and use the scramble to recover to a front headlock defensive position where you can work standard front headlock escapes"
       }
     ],

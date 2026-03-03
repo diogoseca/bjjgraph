@@ -47,40 +47,32 @@
   ],
   "transitions": [
     {
-      "transition": "Old School Sweep",
-      "attempt_probability": 18
+      "transition": "Dogfight Sweep",
+      "attempt_probability": 20
     },
     {
-      "transition": "Back Take",
-      "attempt_probability": 18
-    },
-    {
-      "transition": "Deep Half Entry",
+      "transition": "Forward Drive Sweep from Dogfight",
       "attempt_probability": 15
     },
     {
-      "transition": "Waiter Sweep",
+      "transition": "Back Take",
+      "attempt_probability": 15
+    },
+    {
+      "transition": "Crossface from Dogfight",
+      "attempt_probability": 15
+    },
+    {
+      "transition": "Re-flatten from Dogfight",
+      "attempt_probability": 15
+    },
+    {
+      "transition": "Underhook Sweep from Dogfight",
       "attempt_probability": 10
     },
     {
-      "transition": "John Wayne Sweep",
+      "transition": "Re-pull Half Guard from Dogfight",
       "attempt_probability": 10
-    },
-    {
-      "transition": "Underhook Sweep from Half",
-      "attempt_probability": 10
-    },
-    {
-      "transition": "Electric Chair Transition",
-      "attempt_probability": 7
-    },
-    {
-      "transition": "Hip Bump Sweep",
-      "attempt_probability": 7
-    },
-    {
-      "transition": "Rolling to Guard",
-      "attempt_probability": 5
     }
   ],
   "decision_tree": [
@@ -93,8 +85,8 @@
           "probability": 70
         },
         {
-          "technique": "Rolling to Guard",
-          "target": "Closed Guard",
+          "technique": "Re-pull Half Guard from Dogfight",
+          "target": "Half Guard",
           "probability": 60
         },
         {
@@ -108,14 +100,14 @@
       "condition": "If opponent's far leg is posted wide and vulnerable to being controlled",
       "actions": [
         {
-          "technique": "Old School Sweep",
-          "target": "Half Guard",
-          "probability": 75
+          "technique": "Dogfight Sweep",
+          "target": "Side Control",
+          "probability": 70
         },
         {
-          "technique": "Waiter Sweep",
+          "technique": "Forward Drive Sweep from Dogfight",
           "target": "Mount",
-          "probability": 65
+          "probability": 60
         }
       ]
     },
@@ -128,7 +120,7 @@
           "probability": 70
         },
         {
-          "technique": "Underhook Sweep from Half",
+          "technique": "Underhook Sweep from Dogfight",
           "target": "Side Control",
           "probability": 65
         }
@@ -138,14 +130,14 @@
       "condition": "If opponent maintains upright posture and posts their free leg far out for base",
       "actions": [
         {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard",
-          "probability": 70
+          "technique": "Underhook Sweep from Dogfight",
+          "target": "Side Control",
+          "probability": 55
         },
         {
-          "technique": "John Wayne Sweep",
-          "target": "Half Guard",
-          "probability": 55
+          "technique": "Forward Drive Sweep from Dogfight",
+          "target": "Mount",
+          "probability": 50
         }
       ]
     },
@@ -158,9 +150,24 @@
           "probability": 60
         },
         {
-          "technique": "Hip Bump Sweep",
-          "target": "Half Guard",
+          "technique": "Dogfight Sweep",
+          "target": "Side Control",
           "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If you are the top player and opponent has deep underhook with forward pressure",
+      "actions": [
+        {
+          "technique": "Crossface from Dogfight",
+          "target": "Side Control",
+          "probability": 55
+        },
+        {
+          "technique": "Re-flatten from Dogfight",
+          "target": "Half Guard",
+          "probability": 50
         }
       ]
     }
@@ -189,7 +196,7 @@
     {
       "error": "Not controlling the opponent's far hip or leg when attempting sweeps, allowing them to post and base out",
       "consequence": "The opponent easily defends all sweep attempts by posting their free leg, potentially countering with passes as you overextend on failed sweeps",
-      "correction": "When executing sweeps like the Old School, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success"
+      "correction": "When executing sweeps like the Dogfight Sweep, ensure you control the opponent's far leg or hip with your free hand to prevent posting and maximize sweep success"
     },
     {
       "error": "Giving up space by pulling backward instead of maintaining constant forward driving pressure",
@@ -210,7 +217,7 @@
     },
     {
       "name": "Sweep Chain Flow Drill",
-      "description": "From Dogfight position, bottom player practices chaining together Old School sweep to John Wayne sweep to Waiter sweep to Deep Half entry in continuous sequence. Top player provides realistic progressive defense to first technique, forcing smooth transitions to second and third options without resetting to starting position. Emphasizes reading opponent's defensive reactions and flowing between techniques based on their weight distribution and posting patterns.",
+      "description": "From Dogfight position, bottom player practices chaining together Dogfight Sweep to Forward Drive Sweep to Underhook Sweep in continuous sequence. Top player provides realistic progressive defense to first technique, forcing smooth transitions to second and third options without resetting to starting position. Emphasizes reading opponent's defensive reactions and flowing between techniques based on their weight distribution and posting patterns.",
       "duration": "3 minutes per person, 4 rounds"
     },
     {
@@ -244,7 +251,7 @@
     },
     {
       "name": "Knee Shield Half Guard",
-      "relationship": "Often precedes Dogfight - bottom player comes up to knees from knee shield configuration to enter Dogfight"
+      "relationship": "Often precedes Dogfight - bottom player comes up to knees from knee shield configuration"
     },
     {
       "name": "Back Control",
@@ -268,7 +275,7 @@
     },
     {
       "name": "Flattened Half Guard",
-      "relationship": "Position you regress to when losing the underhook battle and getting driven backward in Dogfight"
+      "relationship": "Position you regress to when losing the underhook battle and getting driven backward"
     }
   ],
   "position_metrics": {
@@ -297,7 +304,7 @@
     },
     {
       "question": "Your opponent begins driving hard into you with a strong whizzer and crossface, threatening to flatten you backward. What adjustment do you make?",
-      "answer": "Rather than fighting the pressure head-on, redirect it by dropping your level and transitioning to a Deep Half Guard entry. Use the opponent's forward momentum against them by ducking under their driving pressure, threading your body beneath them to establish deep half guard. Alternatively, if you still have frame integrity, angle your body slightly offline to redirect their force past you rather than absorbing it directly, then immediately attack with an Old School sweep or back take as their weight shifts forward past your center line."
+      "answer": "Rather than fighting the pressure head-on, redirect it by dropping your level and transitioning to a Deep Half Guard entry. Use the opponent's forward momentum against them by ducking under their driving pressure, threading your body beneath them to establish deep half guard. Alternatively, if you still have frame integrity, angle your body slightly offline to redirect their force past you rather than absorbing it directly, then immediately attack with a sweep or back take as their weight shifts forward past your center line."
     },
     {
       "question": "What are the three primary frames you can use in Dogfight to prevent being flattened, and when is each most appropriate?",
@@ -319,37 +326,5 @@
       "question": "What specific pressure application technique distinguishes a high-level Dogfight player from an intermediate one?",
       "answer": "High-level Dogfight players use directional pressure changes rather than constant unidirectional driving. Instead of simply pushing forward, they alternate between driving forward into the opponent, pulling laterally to off-balance, and momentarily releasing pressure to create reactions. This push-pull rhythm forces the opponent to constantly readjust their base, creating the split-second windows needed for sweeps and back takes. The advanced practitioner also uses their head as a fifth limb, pressing it into the opponent's chest or chin to create additional control vectors and make the opponent carry extra weight through awkward angles."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Crossface from Dogfight",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Re-flatten from Dogfight",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Dogfight Sweep",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Forward Drive Sweep from Dogfight",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Re-pull Half Guard from Dogfight",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Underhook Sweep from Dogfight",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  ]
 }

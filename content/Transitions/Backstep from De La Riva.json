@@ -1,138 +1,403 @@
 {
   "name": "Backstep from De La Riva",
-  "description": "TODO: Write 150-160 character SEO description for Backstep from De La Riva.",
+  "description": "Master the backstep from De La Riva Guard. Learn to clear the DLR hook through rotational passing, neutralize guard retention, and establish headquarters.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "guard-passing",
+    "de-la-riva",
+    "backstep",
+    "open-guard-passing",
+    "rotational-pass",
+    "hook-clearance",
+    "headquarters-entry"
   ],
   "from_position": "De La Riva Guard/Top",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
-      "probability": 55,
+      "to": "Headquarters Position/Top",
+      "probability": 45,
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 30,
+      "probability": 25,
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Reverse De La Riva Guard/Top",
+      "probability": 15,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Backstep from De La Riva.",
+  "success_rate": 45,
+  "overview": "The backstep from De La Riva Guard is a fundamental rotational guard passing technique that directly addresses the DLR hook, the primary control mechanism of the De La Riva system. Rather than attempting to strip the hook through conventional means such as pummeling or pressure, the passer steps their trapped leg backward in a large arc and rotates their hips away from the guard player, using angular displacement to disengage the hook entirely. This rotational concept represents a paradigm shift from linear passing approaches, exploiting the geometric weakness inherent in the DLR hook structure: the hook controls movement along the sagittal plane but cannot effectively track lateral or rotational displacement.\n\nThe technique's strategic value lies in its ability to bypass the guard player's strongest control axis. DLR guard operates most effectively with forward-backward sweeping power generated through the hook-grip combination. The backstep moves perpendicular to this control axis, creating a lateral displacement that the DLR hook cannot follow without the guard player making significant hip adjustments. When executed with proper timing, particularly when the guard player's ankle grip is momentarily weakened or their attention is directed toward defending a different threat, the backstep can completely neutralize an established DLR position in a single explosive movement and deposit the passer directly into headquarters position.\n\nHowever, the backstep carries inherent risk that distinguishes it from safer passing options. The rotational movement temporarily exposes the passer's back to the guard player, creating a window for back takes through inversion or hip-following mechanics. This risk-reward dynamic makes timing and full commitment critical: a half-committed backstep is substantially more dangerous than no backstep at all, as it creates the exposure without achieving the hook clearance. Additionally, alert guard players will transition to Reverse De La Riva during the backstep, inserting an opposite-side hook that must be addressed before the pass can be completed. Successful backstep passers develop precise timing, explosive hip rotation, immediate positional consolidation, and contingency plans for RDLR transitions to minimize the vulnerability window and capitalize on the hook clearance.",
   "conditions": [
-    "TODO"
+    "Opponent has an active De La Riva hook behind your lead leg with their shin or foot pressuring behind your knee",
+    "You have identified the DLR hook depth, grip configuration, and opponent's hip angle relative to your centerline",
+    "You have at least one controlling grip on opponent's lower body, ideally on both pants legs near the knees",
+    "Sufficient mat space exists behind you to complete the backstep rotation without running into the wall or other practitioners",
+    "Opponent's upper body grips are not fully restricting your hip rotation, or you have a plan to break them during the step"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Quick Backstep",
+      "description": "An explosive, single-motion backstep executed at maximum speed when a momentary grip break creates an opening. The passer strips the ankle grip and immediately backsteps in one combined action rather than separating the movements into distinct phases. Relies on speed and commitment over methodical setup.",
+      "when_to_use": "When the opponent's ankle grip is momentarily broken or weakened, or when their attention is diverted by a grip fighting exchange on the upper body"
+    },
+    {
+      "variant_name": "Backstep to Leg Drag",
+      "description": "Combines the backstep hook clearance with an immediate leg drag grip on the opponent's far leg. As the passer rotates, they secure the opponent's far leg across their body and drive it to the mat, converting the backstep directly into a leg drag pass rather than settling in headquarters. Shortens the passing sequence by one step.",
+      "when_to_use": "When the opponent's far leg is accessible during the rotation and the passer has strong pants control, allowing direct conversion into leg drag control without an intermediate position"
+    },
+    {
+      "variant_name": "Backstep to Knee Slice",
+      "description": "Uses the backstep to clear the DLR hook and immediately enters a knee slice pass by driving the freed knee across the opponent's thigh line. The rotational momentum of the backstep is redirected into forward knee-slice pressure before the guard player can re-establish any hook or frame structure.",
+      "when_to_use": "When the opponent is slow to transition to Reverse De La Riva and leaves their thigh line exposed after the DLR hook is cleared, particularly against opponents who rely heavily on the DLR hook and lack strong secondary guard retention"
     }
   ],
-  "position_integration": "TODO: Write position integration for Backstep from De La Riva.",
+  "position_integration": "The backstep from De La Riva integrates into the broader DLR passing system as a directional alternative to linear passes like the toreando and bullfighter. While most DLR passes move laterally along the guard player's control axis, the backstep moves perpendicular to it, creating a passing vector that the DLR hook cannot effectively track. This makes it an essential complement to forward-pressure passes, allowing the passer to create a two-directional threat matrix: forward pressure threatens toreando and smash passes, while the backstep threatens hook clearance through rotation. The technique also connects to the broader backstep passing family, sharing core rotational mechanics with backsteps from Deep Half Guard, K-Guard, and Single Leg X-Guard, making it a highly transferable skill across multiple guard passing scenarios. Proficiency in this technique forces the DLR player to address rotational threats in addition to linear ones, significantly limiting their available responses and opening windows for complementary passes.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "De La Riva Guard",
+      "relationship": "Source position where this transition initiates, with the passer facing an established DLR hook and grip system"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Primary success destination after clearing the DLR hook, providing a neutral platform for follow-up passing"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Common guard transition when the backstep is partially defended and the guard player inserts an opposite-side hook"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when the guard player capitalizes on the rotational exposure to take the passer's back"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Parent passing concept sharing the same fundamental backstep rotational mechanic applied across guard positions"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Complementary DLR passing technique creating a two-directional threat when combined with the backstep"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Follow-up passing option from headquarters after a successful backstep, or direct variant combining backstep with leg drag grip"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Follow-up passing technique from headquarters position after the backstep clears the DLR hook"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Primary counter-attack threat from the DLR guard player during backstep rotation, requiring awareness and defense"
+    },
+    {
+      "name": "Backstep from Deep Half",
+      "relationship": "Related backstep variation from a different guard position sharing the same rotational passing mechanics"
     }
   ],
   "attacker": {
     "name": "Backstep from De La Riva Attacker",
-    "description": "TODO: Write attacker description for Backstep from De La Riva.",
-    "overview": "TODO: Write attacker overview for Backstep from De La Riva.",
+    "description": "Complete guide to executing the backstep from De La Riva Guard. Master the rotational pass to clear the DLR hook, neutralize guard retention, and establish headquarters position for follow-up passes.",
+    "overview": "The attacker in the backstep from De La Riva is the top player attempting to pass the DLR guard through rotational displacement. Your primary objective is to step your hooked leg backward in a committed arc, rotate your hips to disengage the DLR hook, and immediately establish a dominant passing position before the guard player can re-establish control. The technique requires precise sequencing: grip establishment, ankle grip disruption, explosive backstep, and immediate consolidation. Unlike linear passes that fight through the guard's control axis, the backstep circumvents it entirely by changing the angle of engagement. Success depends on full commitment to the rotation, proper grip management during the step, and immediate forward pressure once the hook clears. Half-measures result in the worst possible scenario: rotational exposure without hook clearance, leaving you vulnerable to back takes.",
     "key_principles": [
-      "TODO"
+      "Commit fully to the backstep rotation once initiated. A half-committed backstep exposes your back without clearing the hook, creating the worst possible risk-reward scenario.",
+      "Strip or weaken the ankle grip before stepping. The ankle grip is the anchor that allows the guard player to track your rotation and maintain hook connection.",
+      "Rotate your hips explosively and completely. The backstep must change your facing angle enough that the DLR hook geometry no longer functions as a control mechanism.",
+      "Consolidate immediately after clearing the hook. The window between hook clearance and guard re-establishment is narrow, and forward pressure must fill it instantly.",
+      "Maintain controlling grips on the opponent's legs throughout the rotation to prevent them from following your movement or inserting new hooks.",
+      "Use the backstep as part of a passing system, not in isolation. Chain it with toreando threats so the guard player cannot commit fully to defending either direction."
     ],
     "setup_requirements": [
-      "TODO"
+      "Establish at least one controlling grip on the opponent's pants or legs, ideally near both knees, to manage their lower body during the rotation",
+      "Strip or significantly weaken the opponent's ankle or pants grip on your trapped leg to reduce their ability to track the backstep rotation",
+      "Maintain upright posture with hips back to resist forward sweeps during the preparatory grip fighting phase",
+      "Ensure sufficient space behind you for the backstep arc, with your free leg posted firmly for stable base during the rotation",
+      "Verify that the opponent's cross-grip or collar grip will not prevent your hip rotation by fighting for grip breaks or controlling their gripping hand"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess the guard configuration",
+        "description": "Evaluate the depth and angle of the DLR hook, the strength and location of the opponent's grips (ankle, pants, collar, sleeve), and their hip angle relative to your centerline. Determine whether conditions favor the backstep or an alternative pass based on grip configuration."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish controlling grips on both legs",
+        "description": "Secure pants grips near both knees or grip the non-hooked leg's pants with one hand and the hooked leg's pants near the knee with the other. These grips serve as your steering wheel during the rotation, allowing you to control the opponent's lower body trajectory."
+      },
+      {
+        "step_number": 3,
+        "action": "Strip or weaken the ankle grip",
+        "description": "Use your free hand to peel the opponent's grip from your ankle or pants cuff. This is the critical preparatory step because the ankle grip is the anchor that allows the guard player to track your rotation and maintain hook tension during the backstep."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the backstep with your hooked leg",
+        "description": "Step your hooked leg backward in a large, committed arc behind you, simultaneously beginning to rotate your hips away from the guard player. The step should be large enough that your shin angle changes sufficiently to disengage the hook geometry. Drive off your posted free foot for explosive initiation."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the hip rotation",
+        "description": "Rotate your hips fully to face the opposite direction from your starting orientation. The rotation must be complete enough that the DLR hook can no longer function as a control point. Your chest should rotate from facing the guard player to facing roughly perpendicular or away, then immediately redirect toward them from the new angle."
+      },
+      {
+        "step_number": 6,
+        "action": "Plant and establish new base",
+        "description": "Plant your stepping foot firmly with toes pointing toward the opponent's hips and square your body to face them from the new angle. Establish a strong base with both feet on the mat, knees bent, hips driving forward. This eliminates the hook's reattachment opportunity and creates the foundation for immediate passing pressure."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate position with immediate forward pressure",
+        "description": "Drive forward aggressively into headquarters position the moment the hook clears, using your leg grips to prevent the opponent from re-establishing any guard structure. Apply immediate chest pressure or knee-slice entry before the guard player can insert new hooks, frames, or grips. Speed of consolidation directly determines success rate."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent follows the rotation by actively chasing with their hips and adjusting DLR hook angle to maintain connection throughout the backstep",
+        "effectiveness": "High",
+        "your_response": "Increase backstep speed and arc size to outpace their hip adjustment. Control their far leg tightly to limit hip mobility. If they successfully follow, immediately re-attempt with a direction change or switch to toreando.",
+        "targets_outcome": "De La Riva Guard/Top"
+      },
+      {
+        "counter": "Opponent inserts a Reverse De La Riva hook with their opposite leg as you step behind them, transitioning to RDLR guard before you can consolidate",
+        "effectiveness": "High",
+        "your_response": "Anticipate the RDLR transition and immediately address the new hook with a long step pass or by driving your knee across their thigh line. Do not allow them to settle into established RDLR with grips.",
+        "targets_outcome": "Reverse De La Riva Guard/Top"
+      },
+      {
+        "counter": "Opponent inverts underneath you during the rotation, using the momentary back exposure to come up behind you and establish back control",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Maintain strong hip connection and downward pressure during the rotation to prevent inversion. If they begin inverting, sit your hips down heavily and square back toward them rather than continuing the rotation. Keep your elbows tight to deny seatbelt grips.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent frames on your hips with both feet during the rotation to create distance and re-establish open guard before you can consolidate headquarters",
+        "effectiveness": "Medium",
+        "your_response": "Control their legs with strong pants grips throughout the rotation to prevent foot-on-hip frames. If they establish frames, immediately grip fight to clear feet and drive forward before they can re-insert the DLR hook or transition to another guard.",
         "targets_outcome": "De La Riva Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Half-committing to the backstep by taking a small, tentative step rather than a full rotational arc",
+        "consequence": "The DLR hook remains partially engaged while your back is exposed, creating the worst possible scenario: rotational vulnerability without hook clearance, leaving you open to back takes and sweeps",
+        "correction": "Treat the backstep as a binary decision. Once you initiate, commit to a full, explosive rotation with a large stepping arc. The step should be large enough to change your shin angle by at least 90 degrees relative to the hook"
+      },
+      {
+        "error": "Attempting the backstep without first stripping or weakening the opponent's ankle or pants grip on your trapped leg",
+        "consequence": "The ankle grip serves as an anchor allowing the guard player to track your rotation and maintain hook tension. The backstep fails because the opponent can follow your movement and re-establish the hook from the new angle",
+        "correction": "Always address the ankle grip before initiating the backstep. Use your free hand to peel their grip or use a misdirection sequence to momentarily break their grip focus before stepping"
+      },
+      {
+        "error": "Leaning your upper body forward during the backstep rotation instead of keeping your torso upright",
+        "consequence": "Forward lean during rotation maximally exposes your back and destroys your base, making back takes trivially easy for the guard player and creating sweep vulnerability in the direction of your lean",
+        "correction": "Keep your chest upright and hips under you throughout the rotation. Think about rotating around a vertical axis through your spine rather than bending forward. Your head should stay over or behind your hips at all times"
+      },
+      {
+        "error": "Releasing leg grips during the backstep to use hands for balance or base",
+        "consequence": "Without controlling the opponent's legs, they are free to follow your rotation with their hips, insert new hooks, or frame with their feet to re-establish distance and guard structure",
+        "correction": "Maintain at least one strong pants grip throughout the entire backstep rotation. Train the rotation with grip maintenance until it becomes automatic. Your grips are your steering mechanism and must stay connected"
+      },
+      {
+        "error": "Pausing after clearing the DLR hook instead of immediately consolidating position with forward pressure",
+        "consequence": "The guard player uses the pause to re-establish grips, insert frames or new hooks, and recover to a defensive guard position. The window after hook clearance is narrow and closes rapidly",
+        "correction": "Treat hook clearance and forward consolidation as one continuous motion. The moment the hook disengages, drive your hips forward into headquarters or directly into a follow-up pass. Practice the sequence as a single movement rather than two separate actions"
+      },
+      {
+        "error": "Telegraphing the backstep by shifting weight obviously to the free leg or turning shoulders before stepping",
+        "consequence": "The guard player reads the backstep before it starts and preemptively chases with their hips, tightens their ankle grip, or prepares an inversion to take the back",
+        "correction": "Disguise the backstep within a passing sequence by threatening a toreando or other linear pass first, then using the backstep as a directional change when the opponent commits to defending the linear threat. Initiate with the leg step rather than shoulder rotation"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Backstep rotation pattern and footwork",
+        "description": "Practice the backstep rotation in isolation without a partner, focusing on the arc of the stepping leg, hip rotation mechanics, and balance maintenance throughout the movement. Perform 20 repetitions per side per session until the movement pattern is smooth and automatic."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Grip sequencing and hook clearance timing",
+        "description": "Drill with a partner who establishes DLR guard and provides minimal resistance. Focus on the full sequence: grip establishment, ankle grip strip, backstep execution, and headquarters consolidation. Partner resets hooks between reps. 10 reps per side, emphasizing precision over speed."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Dealing with defensive reactions and counters",
+        "description": "Partner increases resistance to 50-75%, actively defending the ankle grip strip and attempting to follow the rotation or insert RDLR hooks. Passer develops timing, adaptation to defensive responses, and the ability to chain the backstep with follow-up passes when the initial action is partially defended."
+      },
+      {
+        "phase": "Phase 4: Integration into Passing System",
+        "focus": "Combining backstep with complementary passes",
+        "description": "Full positional sparring starting from DLR. Passer combines backstep threats with toreando, knee slice, and leg drag passes, using the backstep as one tool within a multi-directional passing system. Focus on reading the guard player's reactions and selecting the appropriate pass based on their grip configuration and defensive commitment."
+      },
+      {
+        "phase": "Phase 5: Competition-Speed Application",
+        "focus": "Full resistance execution with timing and disguise",
+        "description": "Live rolling with specific focus on finding backstep opportunities from DLR encounters. Emphasize disguising the backstep within passing chains, executing at competition speed, and immediately capitalizing on the hook clearance with aggressive consolidation. Track success rate to measure improvement."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What grip must you address before initiating the backstep from De La Riva?",
+        "answer": "You must strip or weaken the opponent's ankle or pants grip on your trapped leg before initiating the backstep. This grip serves as the anchor that allows the guard player to track your rotation and maintain hook tension throughout the movement. Without addressing it, the opponent can follow your backstep and re-establish the DLR hook from the new angle, negating the entire technique."
+      },
+      {
+        "question": "Why is full commitment critical when executing the backstep, and what happens with a half-committed attempt?",
+        "answer": "Full commitment is critical because a half-committed backstep creates the worst possible outcome: your back is partially exposed to the guard player while the DLR hook remains engaged. This gives the opponent back take opportunities without the passer gaining any positional advantage. The step must be large enough and the rotation complete enough to fully disengage the hook geometry before the guard player can exploit the rotational exposure."
+      },
+      {
+        "question": "What should you do immediately after clearing the DLR hook with the backstep?",
+        "answer": "Immediately drive forward with aggressive pressure to establish headquarters position or enter a follow-up pass such as knee slice or leg drag. The window between hook clearance and the guard player's re-establishment of defensive structure is extremely narrow. Any pause allows them to insert new hooks, establish frames, or re-grip, closing the opportunity that the backstep created. Consolidation must be treated as part of the backstep itself, not a separate action."
+      },
+      {
+        "question": "How do you identify the optimal moment to initiate the backstep from DLR?",
+        "answer": "The optimal moment is when the opponent's ankle grip is momentarily weakened or broken, when their attention is directed toward defending a different passing threat such as a toreando, or when their hip angle is suboptimal for tracking the rotation. You can create this timing artificially by threatening a linear pass first and then using the backstep as a directional change when the guard player commits their grips and hip position to the linear defense."
+      },
+      {
+        "question": "Your opponent follows your backstep rotation by chasing with their hips and re-establishing the DLR hook. How do you adjust?",
+        "answer": "If the opponent successfully follows the rotation, you have several options. First, increase the speed and arc of your backstep to outpace their hip adjustment on the next attempt. Second, tighten your grip control on their far leg to physically limit their hip mobility during the rotation. Third, if they consistently follow, use the backstep as a feint to draw their hip commitment in one direction, then immediately switch to a toreando or leg drag pass in the opposite direction to exploit their momentum."
+      },
+      {
+        "question": "What is the most important hip mechanic during the backstep rotation?",
+        "answer": "The hips must rotate around a vertical axis through your spine, changing facing angle by approximately 90-180 degrees to completely disengage the DLR hook geometry. The rotation must be generated from the hips rather than the shoulders. Leading with the shoulders while the hips lag creates a twisted posture that exposes the back without clearing the hook. Your hips should drive the rotation with the upper body following, and your center of gravity should remain over your base throughout."
+      },
+      {
+        "question": "Your opponent transitions to Reverse De La Riva as you backstep. What is your immediate response?",
+        "answer": "When the opponent inserts an RDLR hook during your backstep, do not pause or reset. Immediately address the new hook by driving your knee across their thigh line for a knee slice, executing a long step pass over the RDLR hook, or using a leg drag to clear the new entanglement. The key is treating the RDLR transition as an expected contingency within your passing chain rather than a failed backstep that requires resetting to neutral."
+      },
+      {
+        "question": "What role do your pants grips play during the backstep execution?",
+        "answer": "Pants grips on the opponent's legs serve as your primary control mechanism during the rotation, functioning as a steering wheel that manages the guard player's lower body trajectory. They prevent the opponent from following your rotation with their hips, restrict their ability to insert new hooks or frames, and provide the foundation for immediate consolidation after hook clearance. Maintaining at least one strong pants grip throughout the entire backstep is non-negotiable for consistent success."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Backstep from De La Riva."
+    "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc."
   },
   "defender": {
     "name": "Backstep from De La Riva Defender",
-    "description": "TODO: Write defender description for Backstep from De La Riva.",
-    "overview": "TODO: Write defender overview for Backstep from De La Riva.",
+    "description": "Complete guide to defending the backstep from your De La Riva Guard. Learn to recognize backstep timing, maintain hook control, transition to RDLR, and capitalize on rotational exposure for back takes.",
+    "overview": "As the defender in the backstep from De La Riva scenario, you are the DLR guard player whose hook and grip system is being challenged by a rotational passing attempt. Your primary objective is to maintain your guard structure and ideally capitalize on the passer's rotational exposure to improve your position. The backstep creates a specific vulnerability window where the passer's back is momentarily accessible, but exploiting this window requires anticipation and preparation rather than reaction after the fact. Your defensive strategy operates on three tiers: first, prevent the backstep from succeeding by maintaining hook tension and grip anchors; second, if the hook is clearing, transition immediately to Reverse De La Riva to maintain guard; third, if the rotation creates sufficient exposure, invert or chase with your hips to take the back. Understanding which tier to engage depends on reading the passer's commitment level and your current grip configuration.",
     "key_principles": [
-      "TODO"
+      "Maintain constant tension on your DLR hook by actively pulling your knee toward your chest and driving your foot into the back of their knee, making the hook resistant to rotational clearing.",
+      "Protect your ankle grip as the primary anchor point. If the passer cannot strip this grip, they cannot effectively backstep because you can track their rotation through the grip-hook connection.",
+      "Develop Reverse De La Riva as your automatic contingency guard. When you feel the DLR hook clearing, immediately insert the opposite-side RDLR hook rather than fighting to maintain a compromised DLR position.",
+      "Use your hip mobility to follow the passer's rotation. Your ability to chase their movement with hip adjustments determines whether the backstep clears the hook or merely changes the hook's angle.",
+      "Keep your free leg active on their hip or body to maintain distance management and prevent them from collapsing forward into consolidation after any hook clearance."
     ],
     "recognition_cues": [
-      "TODO"
+      "The passer grips both of your pants legs simultaneously near the knees, establishing bilateral lower body control that precedes the rotational movement",
+      "The passer's weight shifts noticeably to their free (non-hooked) leg as they prepare to lift and rotate the hooked leg backward",
+      "The passer aggressively strips or fights for your ankle or pants grip on their trapped leg, indicating they intend to remove the anchor before stepping",
+      "The passer's shoulders begin to turn away from you before their hips rotate, telegraphing the backstep direction and timing",
+      "The passer threatens a toreando or forward pass and then suddenly changes direction, using the initial threat as setup for the rotational backstep"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Maintain DLR hook tension and chase with hip rotation to follow the passer's backstep and re-establish the hook angle",
+        "when_to_use": "When you have a strong ankle grip anchor and the passer's backstep is telegraphed with enough time to adjust your hip angle to track the rotation",
         "targets_outcome": "De La Riva Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The backstep fails entirely. You retain your established DLR guard with hook and grips intact, and the passer must disengage and attempt a different passing approach",
+        "risk": "If you overcommit to chasing the rotation with your hips and the passer changes direction, you may be out of position for the subsequent passing attempt"
+      },
+      {
+        "action": "Transition to Reverse De La Riva by inserting your opposite leg as a hook when you feel the DLR hook beginning to clear",
+        "when_to_use": "When the DLR hook is partially clearing and you cannot maintain the original hook angle, but the passer has not yet consolidated position. This is the most common defensive transition.",
+        "targets_outcome": "Reverse De La Riva Guard/Top",
+        "if_successful": "You maintain guard by transitioning to RDLR, which presents a new set of defensive structures and offensive threats that the passer must address before passing",
+        "risk": "RDLR may be a less familiar guard position for some practitioners, and a strong passer may immediately chain into an RDLR pass before you can establish full control"
+      },
+      {
+        "action": "Invert underneath the passer during the rotation and come up behind them to take the back",
+        "when_to_use": "When the passer commits fully to the backstep rotation without maintaining hip pressure, creating a clear window of back exposure. Requires strong inversion mechanics and timing.",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "You capitalize on the backstep's inherent vulnerability to achieve back control, the most dominant position in BJJ, completely reversing the positional hierarchy",
+        "risk": "If your inversion is too slow or the passer maintains hip connection during rotation, you may end up underneath them in a compromised position with your back exposed and guard completely passed"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
-        "how": "TODO"
+        "outcome": "Back Control/Bottom",
+        "how": "Time your inversion or hip chase to coincide with the moment of maximum back exposure during the passer's rotation. Secure a seatbelt grip as they rotate and come up behind them before they can square back toward you. This requires anticipating the backstep rather than reacting after it completes."
+      },
+      {
+        "outcome": "De La Riva Guard/Top",
+        "how": "Maintain a death grip on their ankle to serve as an anchor, keep constant hook tension by pulling your knee toward your chest, and actively chase the passer's rotation with your hips so the hook angle adjusts to match their new position rather than being cleared by it."
+      },
+      {
+        "outcome": "Reverse De La Riva Guard/Top",
+        "how": "As soon as you feel the DLR hook beginning to disengage, immediately insert your opposite leg as a Reverse DLR hook behind their stepping leg. Do not wait until the hook fully clears. The RDLR insertion should happen during the transition, not after. Establish collar or sleeve grips to complete the RDLR guard structure."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing the ankle grip to be stripped without fighting for re-grip or transitioning to an alternative grip immediately",
+        "consequence": "Without the ankle grip anchor, you cannot track the passer's rotation and the DLR hook becomes easy to clear through the backstep. The guard effectively has no foundation without this grip.",
+        "correction": "Fight aggressively to maintain the ankle grip as your highest priority grip. If it is stripped, immediately re-grip their pants cuff or transition your hand to a belt or pants grip that allows you to follow their movement. Never leave the hand idle after a grip break."
+      },
+      {
+        "error": "Keeping your hips static and flat on the mat when you feel the backstep rotation beginning",
+        "consequence": "Static hips cannot follow the passer's rotational movement, so the DLR hook is easily cleared as the angle changes. You are left with no hook and no guard, lying flat while the passer consolidates headquarters.",
+        "correction": "Keep your hips mobile and immediately chase the passer's rotation by turning your hips in the same direction they are stepping. Your ability to rotate your hips in response determines whether the hook stays connected or gets cleared."
+      },
+      {
+        "error": "Attempting to take the back too late, after the passer has already completed the rotation and begun consolidating position",
+        "consequence": "The back take window during the backstep is narrow and timing-dependent. Late attempts result in you moving toward a passer who has already squared up and re-established base, leaving you in a worse position than if you had simply retained guard.",
+        "correction": "The back take must be initiated during the rotation, not after it. If you did not anticipate the backstep early enough for the back take, default to the RDLR transition instead. Do not force the back take when the timing window has closed."
+      },
+      {
+        "error": "Neglecting to insert an RDLR hook when the DLR hook is clearly being cleared, resulting in complete guard loss",
+        "consequence": "If you neither maintain the DLR hook nor transition to RDLR, the passer arrives in headquarters with no defensive structure to address. You are left with only frames and distance to prevent the pass, which is a severely disadvantaged position.",
+        "correction": "Train the DLR to RDLR transition as an automatic response whenever you feel the hook slipping. The RDLR insertion should be reflexive, not a conscious decision. Drill this transition until it requires no thought."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that your opponent is preparing to backstep from your De La Riva Guard?",
+        "answer": "The earliest cues include the passer gripping both of your pants legs simultaneously near the knees, aggressive attempts to strip your ankle grip, a noticeable weight shift to their free (non-hooked) leg, and their shoulders beginning to turn away from you before the hips rotate. A toreando threat followed by sudden directional change can also signal an incoming backstep."
+      },
+      {
+        "question": "How should you use your ankle grip to prevent a successful backstep?",
+        "answer": "The ankle grip serves as the anchor that allows you to track the passer's rotation with your DLR hook. Maintain a strong grip and use it to pull their trapped leg back toward you as they attempt to step backward, creating resistance that slows or prevents the hook clearance. If they attempt to strip the grip, fight immediately for re-grip or transition to a belt or pants grip that maintains the connection. The ankle grip combined with active hook tension creates a two-point system that resists rotational clearing."
+      },
+      {
+        "question": "Your DLR hook is being cleared by the backstep despite your best efforts. What is your optimal defensive transition?",
+        "answer": "Immediately transition to Reverse De La Riva Guard by inserting your opposite leg as a hook behind their stepping leg. This transition should happen during the hook clearance, not after the passer consolidates position. Do not waste time trying to re-establish a compromised DLR hook. The RDLR transition maintains your guard structure and presents the passer with a new set of defensive obstacles that require a different passing approach. Train this transition until it is reflexive."
+      },
+      {
+        "question": "Why is hip mobility critical when defending the backstep from your DLR Guard?",
+        "answer": "Hip mobility determines whether you can track the passer's rotational movement and maintain hook engagement. The backstep works by changing the angle between the passer's shin and your hook, and your hip rotation is the primary mechanism for adjusting the hook angle to match. Static hips on the mat cannot follow a rotational pass, while mobile hips that chase the movement keep the hook geometry intact. Additionally, hip mobility is required for the RDLR transition and for inversion-based back take attempts."
+      },
+      {
+        "question": "What is the primary risk of attempting to take the back during an opponent's backstep rotation?",
+        "answer": "The primary risk is mistiming the inversion or hip chase. If you attempt the back take too late, after the passer has completed the rotation and begun consolidating, you move toward a squared-up opponent with established base rather than an exposed back. This can leave you underneath them with your own back exposed and guard completely passed. If the passer maintains strong hip pressure during rotation, your inversion can be stuffed, leaving you in an inverted position with the passer driving weight on top. The back take requires anticipation of the backstep, not reaction after the fact."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Hook Retention",
+        "focus": "Identifying backstep cues and maintaining DLR hook under rotational pressure",
+        "description": "Partner performs slow-motion backsteps from your DLR guard while you focus on recognizing the movement pattern and maintaining hook tension through hip rotation. No counter-attacks yet, just hook retention. Build awareness of the specific feeling when the hook begins to clear versus when it can be maintained."
+      },
+      {
+        "phase": "Phase 2: RDLR Transition Drilling",
+        "focus": "Automatic DLR to Reverse DLR guard transition",
+        "description": "Partner performs backsteps at moderate speed and your goal is to smoothly transition to RDLR every time the DLR hook begins to clear. Focus on the timing of the opposite-leg insertion and establishing RDLR grips. Drill until the transition is automatic and requires no conscious decision-making."
+      },
+      {
+        "phase": "Phase 3: Back Take Timing",
+        "focus": "Capitalizing on rotational exposure for back takes",
+        "description": "Partner performs backsteps with intentional back exposure. Practice timing inversions and hip chases to take the back during the rotation window. Partner gradually increases speed and reduces exposure window. Learn to distinguish when the back take is available versus when RDLR transition is the better option."
+      },
+      {
+        "phase": "Phase 4: Live Defense Integration",
+        "focus": "Full resistance defensive application against mixed passing attacks",
+        "description": "Positional sparring from DLR guard where the passer mixes backstep attempts with toreando, knee slice, and other passes. Defender practices reading the passer's intentions and applying the correct defensive response for each passing attempt. Track which defensive tier (hook retention, RDLR transition, or back take) you employ and your success rate with each."
       }
     ]
   }

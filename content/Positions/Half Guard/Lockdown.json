@@ -108,8 +108,8 @@
         "answer": "The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles."
       },
       {
-        "question": "How should you time your leg extraction attempts when trapped in lockdown?",
-        "answer": "Time leg extraction when the opponent is defensive, adjusting position, or momentarily relaxes their lockdown grip to reset their attack. Watch for moments when they release tension to switch between underhook and overhook, or when they begin a failed sweep attempt. Never try to extract when they are actively extending or attacking, as their grip will be at maximum strength."
+        "question": "You notice your opponent momentarily relaxes their lockdown tension to adjust their underhook grip - what should you do?",
+        "answer": "This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking."
       },
       {
         "question": "Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?",
@@ -315,8 +315,8 @@
         "attempt_probability": 37
       },
       {
-        "transition": "Transition to Z-Lock Half Guard",
-        "attempt_probability": 8
+        "transition": "Lockdown to Z-Lock Half Guard",
+        "attempt_probability": 9
       },
       {
         "transition": "Lockdown Break and Pass",
@@ -328,10 +328,6 @@
       },
       {
         "transition": "Lockdown Whizzer Pass",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Lockdown to Z-Lock Half Guard",
         "attempt_probability": 1
       }
     ]
@@ -621,20 +617,16 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Transition to Vaporizer",
-        "attempt_probability": 2
+        "transition": "Lockdown to Vaporizer",
+        "attempt_probability": 3
       },
       {
-        "transition": "Transition to Old School",
+        "transition": "Half Guard to Old School",
         "attempt_probability": 6
       },
       {
         "transition": "Back Take from Lockdown Defense",
         "attempt_probability": 4
-      },
-      {
-        "transition": "Lockdown to Vaporizer",
-        "attempt_probability": 1
       }
     ]
   }

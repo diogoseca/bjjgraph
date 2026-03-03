@@ -266,7 +266,7 @@
     },
     {
       "name": "Standing Position",
-      "relationship": "General category containing clinch variations"
+      "relationship": "General standing state containing clinch as a sub-position"
     },
     {
       "name": "Double Leg Entry",
@@ -349,53 +349,5 @@
       "question": "Your opponent starts circling aggressively to your right while maintaining a collar tie - how do you recover and maintain clinch control?",
       "answer": "Match their footwork by stepping your right foot first to re-square your hips, maintaining your base relative to their centerline. Do not cross your feet or chase with your left foot first, as this narrows your base and creates a single leg entry for them. Use their collar tie grip momentum against them by swimming your inside hand to an underhook on the side they're circling toward, which disrupts their angle creation. If they've already gained a significant angle, address it immediately with a hard re-square by stepping and turning your hips to face them directly, then re-engage grip fighting from the neutral position. Allowing the angle to persist invites snap downs, go-behinds, and back takes."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Body Lock Takedown from Clinch",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Duck Under",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Fireman's Carry",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Kouchi Gari",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Uchi Mata",
-        "attempt_probability": 20
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Arm Drag from Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Break Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Duck Under from Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Guard Pull from Clinch",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Underhook Pummeling from Clinch",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  ]
 }

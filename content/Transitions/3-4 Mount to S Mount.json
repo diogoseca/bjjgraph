@@ -1,10 +1,13 @@
 {
   "name": "3-4 Mount to S Mount",
-  "description": "TODO: Write 150-160 character SEO description for 3-4 Mount to S Mount.",
+  "description": "Master the 3-4 Mount to S Mount transition in BJJ. Complete technical guide covering perpendicular positioning, arm isolation, and armbar setup mechanics.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "mount-advancement",
+    "positional-control",
+    "armbar-setup",
+    "s-mount-entry"
   ],
   "from_position": "3-4 Mount/Top",
   "outcomes": [
@@ -25,114 +28,395 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for 3-4 Mount to S Mount.",
+  "overview": "The 3-4 Mount to S Mount transition represents a critical positional advancement within the mount hierarchy, converting asymmetric mount control into a perpendicular attacking platform optimized for armbar finishes. This movement exploits the existing leg configuration of 3-4 Mount—where one leg is already posted outside the opponent's body—to create the angular rotation necessary for S Mount entry without exposing the transitional vulnerabilities that arise when moving directly from standard mount.\n\nThe transition is fundamentally about converting positional control into submission-oriented positioning. From 3-4 Mount, the top player already maintains one leg crossed over the opponent's body and one leg posted outside, creating a natural pathway to S Mount by swinging the posted leg over the opponent's head while simultaneously isolating the near-side arm. The key biomechanical principle is maintaining hip-to-shoulder connection throughout the rotation—any gap between the top player's hip and the opponent's shoulder during the transition creates the space needed for defensive responses including bridging, hip escaping, or recovering half guard.\n\nStrategically, this transition should be initiated when the near-side arm becomes vulnerable through defensive positioning, opponent fatigue, or as a chain attack following a submission threat that forces the opponent to expose the arm. The highest-percentage S Mount entries come when the opponent is already defending another threat, making the transition feel inevitable rather than forced. The 3-4 Mount's asymmetric base provides a significant mechanical advantage over entering S Mount from standard mount, as the posted leg is already halfway to its final position over the opponent's head.",
   "conditions": [
-    "TODO"
+    "Established 3-4 Mount control with stable base and forward pressure through hips",
+    "Near-side arm accessible for isolation—opponent's arm not fully tucked or protected by strong frames",
+    "Opponent relatively flat or turned slightly toward posted leg side, not actively bridging or explosively escaping",
+    "Posted leg positioned close enough to opponent's head to complete the swing-over without overextending",
+    "Sufficient wrist or sleeve control established on the target arm before initiating the rotation"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Threat-Triggered Entry",
+      "description": "Initiate the S Mount transition immediately after threatening a cross collar choke or Americana from 3-4 Mount. The opponent's defensive reaction to the initial threat exposes the near-side arm and shifts their attention, creating a clean entry window for the leg swing. The choke threat forces them to use their arms defensively rather than framing against the transition.",
+      "when_to_use": "When opponent is actively defending a submission attempt and their arms are committed to blocking the initial threat rather than preventing positional advancement"
+    },
+    {
+      "variant_name": "Arm Drag Assisted Entry",
+      "description": "Use a two-on-one arm drag to pull the opponent's near arm across your centerline before initiating the S Mount rotation. The arm drag isolates the limb and breaks the opponent's frame structure simultaneously, making the leg swing significantly safer. This variant is particularly effective against opponents who maintain strong elbow-to-knee frames from bottom mount.",
+      "when_to_use": "Against opponents with disciplined defensive frames who keep elbows tight and prevent standard arm isolation from 3-4 Mount"
+    },
+    {
+      "variant_name": "Gradual Hip Walk Entry",
+      "description": "Rather than a single explosive leg swing, incrementally walk your hips toward perpendicular alignment through small positional adjustments. Each micro-movement shifts your angle slightly while maintaining constant pressure, making the transition harder to read and defend. This patient approach sacrifices speed for security and is less likely to create the space needed for bridge escapes.",
+      "when_to_use": "Against explosive, athletic opponents where a committed leg swing might create enough momentary space for a bridge-and-roll reversal"
     }
   ],
-  "position_integration": "TODO: Write position integration for 3-4 Mount to S Mount.",
+  "position_integration": "The 3-4 Mount to S Mount transition serves as a critical link in the mount submission hierarchy, connecting the controlling 3-4 Mount position to the submission-oriented S Mount. This transition integrates seamlessly with armbar attacks, mounted triangle setups, and back takes, creating a decision tree where the bottom player's defensive reactions determine which path the top player follows. Within the broader positional map, this movement represents the advancement from a consolidation-focused mount variation to a finishing-focused configuration, embodying the principle that positional dominance must eventually convert to submission threats.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "3-4 Mount",
+      "relationship": "Starting position for this transition—asymmetric mount providing the base configuration for S Mount entry"
+    },
+    {
+      "name": "S Mount",
+      "relationship": "Target position—perpendicular mount configuration optimized for armbar and submission attacks"
+    },
+    {
+      "name": "3-4 Mount to Technical Mount",
+      "relationship": "Alternative advancement from same starting position when opponent turns away instead of staying flat"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Parent position in the mount hierarchy from which both 3-4 Mount and S Mount derive"
+    },
+    {
+      "name": "Armbar from S Mount",
+      "relationship": "Primary submission follow-up after successfully achieving S Mount through this transition"
+    },
+    {
+      "name": "Americana from 3-4 Mount",
+      "relationship": "Complementary threat that can be used to set up the S Mount entry through defensive reactions"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position—where attacker may end up if bottom player successfully reverses during transition"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Alternative mount advancement option when S Mount entry is blocked but opponent's posture is broken"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Submission control position that S Mount naturally flows into once arm isolation is complete"
+    },
+    {
+      "name": "Mounted Triangle",
+      "relationship": "Chain attack option when opponent defends the armbar by bringing their free arm across during S Mount entry"
     }
   ],
   "attacker": {
     "name": "3-4 Mount to S Mount Attacker",
-    "description": "TODO: Write attacker description for 3-4 Mount to S Mount.",
-    "overview": "TODO: Write attacker overview for 3-4 Mount to S Mount.",
+    "description": "Master the offensive transition from 3-4 Mount to S Mount. Step-by-step execution covering arm isolation, hip rotation mechanics, and maintaining control throughout the positional advancement.",
+    "overview": "From the attacker's perspective, the 3-4 Mount to S Mount transition is a calculated positional advancement that converts your asymmetric mount control into a high-percentage submission platform. The existing 3-4 configuration provides a significant mechanical advantage—your posted leg is already positioned outside the opponent's body, reducing the distance and exposure required to swing it over their head compared to entering S Mount from standard mount. Success depends on three sequential phases: securing arm control, executing the rotational movement while maintaining hip pressure, and establishing perpendicular alignment with your hip locked against the opponent's shoulder. Each phase must be completed before advancing to the next, as rushing creates the gaps that enable defensive responses.",
     "key_principles": [
-      "TODO"
+      "Isolate the near-side arm before initiating any rotational movement—arm control is the prerequisite, not the leg swing",
+      "Maintain continuous hip-to-shoulder pressure throughout the entire transition to deny space for bridging or hip escaping",
+      "Use the posted leg's existing outside position as the starting point for the swing-over, minimizing exposure during the transition",
+      "Shift weight toward the mounted side during the leg swing to prevent the bottom player from exploiting the momentary base disruption",
+      "Complete the transition with hips tight against the opponent's shoulder and the swing leg planted firmly on the far side of their head",
+      "Keep your center of gravity low throughout—sitting up during the rotation invites explosive bridge reversals"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established 3-4 Mount with stable forward pressure and hips heavy on opponent's torso",
+      "Wrist or sleeve control secured on the near-side arm with two-on-one grip or strong single grip",
+      "Posted leg positioned within striking distance of the opponent's head for the swing-over",
+      "Opponent's far arm neutralized or occupied—not free to frame against your hip during rotation",
+      "Bottom player relatively flat or turned slightly toward the posted leg side, not actively escaping"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Secure near-side arm control",
+        "description": "From 3-4 Mount, establish two-on-one wrist control on the opponent's near-side arm (the arm closest to your mounted knee). Grip their wrist with your mounted-side hand and reinforce with your posted-side hand on their bicep or elbow. Pull the arm across your centerline to begin isolation. This grip must be established before any positional movement begins—premature rotation without arm control results in the opponent retracting the arm and re-establishing defensive frames."
+      },
+      {
+        "step_number": 2,
+        "action": "Pin the far arm or eliminate the frame",
+        "description": "Use your posted-side elbow or forearm to pin the opponent's far arm against their body or the mat, preventing them from framing against your hip during the rotation. If they have a collar grip, strip it first by driving your shoulder into their forearm. The far arm is the primary tool they will use to resist the leg swing—neutralizing it before moving is essential for a clean transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Shift weight toward mounted side",
+        "description": "Transfer your weight decisively toward the mounted-side knee, driving your hip bone into the opponent's ribcage on the mounted side. This weight shift serves two purposes: it loads your base onto the stable mounted leg before you move the posted leg, and it increases pressure on the opponent's breathing, reducing their ability to generate explosive defensive movement during the transition window."
+      },
+      {
+        "step_number": 4,
+        "action": "Begin hip rotation to perpendicular alignment",
+        "description": "Initiate a controlled rotation of your hips toward perpendicular alignment with the opponent's body. Your mounted knee drives deeper into their armpit as your hips begin turning. Maintain constant downward pressure through your hip bone against their shoulder throughout the rotation—any lift or lightening of pressure during this phase creates the space the opponent needs to bridge, shrimp, or retract the isolated arm."
+      },
+      {
+        "step_number": 5,
+        "action": "Swing posted leg over opponent's head",
+        "description": "In a smooth, controlled arc, swing your posted leg over the opponent's head and plant your foot firmly on the mat beyond their far shoulder. The leg should travel in a tight arc close to their face rather than a wide sweeping motion that creates space. Keep your upper body low and leaning toward the isolated arm throughout the swing—sitting up during this movement is the single most common cause of failed transitions."
+      },
+      {
+        "step_number": 6,
+        "action": "Plant foot and establish S Mount base",
+        "description": "As your swing leg clears the opponent's head, plant your foot flat on the mat with your knee pointing toward the ceiling, creating a structural post that prevents the opponent from sitting up or turning away. Your far leg (originally the mounted leg) should now cross over the opponent's torso at chest level, completing the S-shaped configuration. Both legs should feel like structural posts anchoring you to the mat."
+      },
+      {
+        "step_number": 7,
+        "action": "Lock hip-to-shoulder connection",
+        "description": "Drive your near hip tightly against the opponent's shoulder, eliminating any remaining space between your body and theirs. This hip-to-shoulder connection is the primary control mechanism in S Mount—without it, the opponent can begin pulling their arm back or creating hip escape angles. Your weight should flow through this contact point, pinning their shoulder to the mat and making arm retraction mechanically impossible."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate arm isolation and prepare submission",
+        "description": "With S Mount fully established, adjust your grip on the isolated arm to optimal armbar positioning. Both hands control the wrist, keeping the arm extended across your centerline with the elbow pointed toward your hips. Your legs squeeze inward slightly to prevent the opponent from rotating their body. From this position, you are ready to fall back for the armbar or transition to alternative submissions based on their defensive response."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent bridges explosively during the leg swing to disrupt base and create space for escape",
+        "effectiveness": "High",
+        "your_response": "Abort the transition and immediately drop weight back to 3-4 Mount, driving your mounted knee into their ribs. Re-establish chest pressure and wait for the bridge to exhaust before reattempting. Never fight a committed bridge mid-transition.",
         "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent retracts the near-side arm before isolation is complete, re-establishing elbow-to-knee frame",
+        "effectiveness": "High",
+        "your_response": "Switch to an alternative attack from 3-4 Mount such as cross collar choke or Americana to re-expose the arm. Use the submission threat to force the arm back out, then reattempt the S Mount entry on the next exposure.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent frames against the hip with their far arm during rotation, blocking perpendicular alignment",
+        "effectiveness": "Medium",
+        "your_response": "Strip the frame by driving your shoulder into their forearm or pinning their wrist to the mat with your free hand. If the frame is strong, switch angles and attempt Technical Mount instead, which attacks the opposite direction.",
+        "targets_outcome": "3-4 Mount/Top"
+      },
+      {
+        "counter": "Opponent hip escapes toward the posted leg side during transition, creating space to recover half guard",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip movement with your own hips, maintaining the shoulder connection. If they create significant space, immediately secure side control rather than forcing S Mount from a compromised angle. Maintain top position at all costs.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent turns into the mounted side and attempts to reguard during the momentary base disruption",
+        "effectiveness": "Low",
+        "your_response": "Use the turn to your advantage—their turning motion actually assists the perpendicular alignment. Drive your hip into their shoulder as they turn and complete the leg swing. Their turn often exposes the arm further rather than protecting it.",
+        "targets_outcome": "S Mount/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Initiating the leg swing before establishing secure wrist control on the near-side arm",
+        "consequence": "Opponent retracts their arm during the transition, leaving you in a compromised S Mount with nothing to attack and an unstable base",
+        "correction": "Always secure two-on-one wrist control and confirm the arm is isolated across your centerline before beginning any rotational movement toward S Mount"
+      },
+      {
+        "error": "Sitting upright during the leg swing instead of keeping weight low and forward",
+        "consequence": "Raises center of gravity dramatically, making you vulnerable to explosive bridge-and-roll reversals that can put you in bottom half guard",
+        "correction": "Keep your chest low and weight driving forward toward the isolated arm throughout the entire leg swing—lean into the transition rather than sitting up over it"
+      },
+      {
+        "error": "Swinging the leg in a wide arc far from the opponent's head",
+        "consequence": "Creates excessive space around the opponent's head and momentarily removes your base, giving them time to bridge, turn, or insert frames",
+        "correction": "Keep the leg swing tight and close to the opponent's face, traveling in a compact arc that maintains proximity and minimizes the time your base is disrupted"
+      },
+      {
+        "error": "Failing to shift weight to the mounted side before moving the posted leg",
+        "consequence": "Weight remains distributed toward the moving leg, causing you to become light and unstable on the mounted side where the opponent can most easily escape",
+        "correction": "Deliberately load your weight onto the mounted knee and hip before lifting the posted leg, creating a stable single-point base during the transition"
+      },
+      {
+        "error": "Neglecting the far arm—allowing opponent to maintain a strong frame against the hip",
+        "consequence": "Frame blocks perpendicular alignment and prevents full S Mount establishment, leaving you in a compromised half-rotated position vulnerable to escapes",
+        "correction": "Strip or pin the far arm before or during the rotation—use shoulder pressure, elbow pinning, or wrist control to neutralize the frame before committing to the leg swing"
+      },
+      {
+        "error": "Releasing hip-to-shoulder pressure during the final consolidation phase",
+        "consequence": "Gap between hip and shoulder allows opponent to begin pulling their arm back, hip escaping, or turning to turtle—all of which negate the positional advantage",
+        "correction": "Drive your hip bone into the opponent's shoulder as the final action of the transition and maintain that pressure as the foundation of your S Mount control"
+      },
+      {
+        "error": "Rushing through the transition without reading the opponent's defensive reactions",
+        "consequence": "Telegraphed movement allows well-prepared opponents to time their defensive response perfectly, resulting in consistent failure of the transition attempt",
+        "correction": "Set up the transition with preliminary threats, read the opponent's arm positioning, and initiate the movement when they are reacting to something else rather than anticipating the S Mount entry"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Fundamental movement pattern and body positioning",
+        "description": "Practice the basic leg swing and hip rotation with a compliant partner offering zero resistance. Focus exclusively on the mechanical sequence: arm control, weight shift, rotation, leg swing, foot plant, hip lock. Repeat 20 times per side until the movement feels fluid. No speed or pressure—pure technique acquisition."
+      },
+      {
+        "phase": "Phase 2: Pressure Integration",
+        "focus": "Maintaining control pressure throughout the transition",
+        "description": "Add forward pressure and hip-to-shoulder connection to the mechanical pattern. Partner remains compliant but the focus shifts to never losing pressure during any phase of the transition. Use a checklist: Can you feel your hip on their shoulder at every point? If you lose contact, reset and try again. Build the habit of constant pressure."
+      },
+      {
+        "phase": "Phase 3: Light Resistance",
+        "focus": "Executing against progressive defensive responses",
+        "description": "Partner begins offering 30-50% resistance using specific defenses: bridging during the swing, framing with the far arm, attempting to retract the near arm. Practice reading these responses and applying the correct counter for each. Increase resistance gradually as your success rate stays above 60%."
+      },
+      {
+        "phase": "Phase 4: Chain Attack Integration",
+        "focus": "Setting up the transition with preliminary threats",
+        "description": "Start from 3-4 Mount and threaten a submission (Americana, cross collar choke) before transitioning to S Mount. The goal is to make the S Mount entry feel like a natural follow-up to the opponent's defensive reaction. Practice reading when the arm exposure occurs and timing the transition to that moment."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application and troubleshooting",
+        "description": "Positional sparring starting from 3-4 Mount with full resistance. Top player attempts to reach S Mount; bottom player defends with everything available. Track success rate over 10 attempts and identify the specific phase where failures occur. Spend additional drilling time on the weakest phase before returning to live rounds."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What grip must be established on the near-side arm before initiating the S Mount transition?",
+        "answer": "A two-on-one wrist control grip where your mounted-side hand controls their wrist and your posted-side hand reinforces at the bicep or elbow. The arm must be isolated across your centerline before any rotational movement begins. Initiating the leg swing without secure arm control is the most common cause of transition failure, as the opponent will immediately retract the arm during the movement."
+      },
+      {
+        "question": "What direction should your weight shift during the transition from 3-4 Mount to S Mount?",
+        "answer": "Weight must shift decisively toward the mounted side—the side where your knee is crossed over the opponent's body. This loads your base onto the stable mounted leg before you move the posted leg, creating a secure single-point base during the transition. Keeping weight toward the posted leg side leaves you light and unstable on the mounted side, which is exactly where the opponent will attempt to escape."
+      },
+      {
+        "question": "Your opponent bridges explosively as you begin swinging your leg over their head—how do you respond?",
+        "answer": "Immediately abort the transition and drop your weight back to 3-4 Mount, driving your mounted knee into their ribs and chest forward. Never fight a committed bridge mid-transition because your base is compromised during the leg swing. Re-establish chest pressure, let the bridge exhaust itself, and reattempt the transition when the opponent settles. Forcing through the bridge typically results in being rolled to bottom half guard."
+      },
+      {
+        "question": "When is the optimal moment to initiate the leg swing for S Mount entry?",
+        "answer": "The optimal moment is when the opponent is reacting to another threat—such as defending an Americana, collar choke, or cross-face pressure adjustment. Their arms are occupied defensively, their attention is on the existing threat, and their ability to generate a timed bridge or frame is diminished. Initiating the transition from a neutral 3-4 Mount without a preceding threat gives the opponent maximum defensive readiness."
+      },
+      {
+        "question": "Your opponent frames their far arm against your hip, blocking perpendicular alignment—what do you do?",
+        "answer": "Strip the frame by driving your shoulder into their forearm to collapse it, or pin their wrist to the mat with your free hand before continuing the rotation. If the frame is too strong to strip, consider switching to a Technical Mount transition in the opposite direction, which attacks around the frame rather than through it. Never force perpendicular alignment against a strong frame—it wastes energy and often results in losing position."
+      },
+      {
+        "question": "What is the most critical biomechanical connection that must be maintained throughout the entire transition?",
+        "answer": "The hip-to-shoulder connection—your near hip must remain in constant contact with the opponent's shoulder from the moment you begin rotating until you fully establish S Mount. Any gap between your hip and their shoulder during the transition creates space for the opponent to retract their arm, bridge, or hip escape. This connection is the foundation of both positional control and arm isolation throughout the movement."
+      },
+      {
+        "question": "How should the posted leg travel during the swing-over to the opponent's far side?",
+        "answer": "The leg should travel in a tight, compact arc close to the opponent's face rather than a wide sweeping motion. A tight arc minimizes the time your base is disrupted and keeps your weight forward over the opponent. A wide swing creates excessive space around the head, raises your center of gravity, and gives the opponent a larger window to execute defensive movements. Think of brushing their ear with your shin as you swing over."
+      },
+      {
+        "question": "If the opponent successfully defends your S Mount entry and you remain in 3-4 Mount, what is the correct follow-up strategy?",
+        "answer": "Return to consolidating 3-4 Mount pressure and re-establish your offensive threats. Do not immediately reattempt the same transition—the opponent is now anticipating it. Instead, attack a different submission (Americana, Ezekiel, collar choke) to occupy their defensive attention, then look for the next arm exposure opportunity. Patience and threat variation are essential—the best S Mount entries come from chain attacks, not repeated single attempts."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for 3-4 Mount to S Mount."
+    "safety_considerations": "The 3-4 Mount to S Mount transition itself carries minimal direct injury risk as it is a positional movement rather than a submission. However, practitioners must be aware that the transition naturally flows into armbar position, where significant elbow injury risk exists. During drilling, the attacker should execute the leg swing with control to avoid striking the training partner's face or head with the shin. Both partners should communicate clearly when the S Mount is established and armbar attacks begin, ensuring the defender has adequate time to tap before hyperextension occurs. The attacker must never force the transition by using excessive speed or dropping weight suddenly, as this can cause the opponent's trapped arm to be wrenched unexpectedly into an extended position without time to defend or tap."
   },
   "defender": {
     "name": "3-4 Mount to S Mount Defender",
-    "description": "TODO: Write defender description for 3-4 Mount to S Mount.",
-    "overview": "TODO: Write defender overview for 3-4 Mount to S Mount.",
+    "description": "Essential defensive guide for preventing the 3-4 Mount to S Mount transition. Recognition cues, early intervention strategies, and escape techniques when trapped under mount advancement attempts.",
+    "overview": "Defending the 3-4 Mount to S Mount transition requires recognizing the attack before it develops and intervening during the attacker's most vulnerable phase—the rotational movement. From the bottom of 3-4 Mount, you are already in a disadvantaged position, but the opponent's attempt to advance to S Mount creates a brief window of opportunity as their base shifts during the leg swing. Your primary defensive objective is preventing the arm isolation that precedes the transition, as without a controlled arm the S Mount entry loses its purpose. If arm isolation has already occurred, your secondary objective is disrupting the leg swing through explosive bridging, framing against the hip rotation, or recovering half guard during the momentary base instability. Understanding the attacker's sequence—arm control, weight shift, rotation, leg swing—allows you to identify the optimal intervention point and execute the appropriate defensive response before the S Mount is fully established.",
     "key_principles": [
-      "TODO"
+      "Protect the near-side arm at all costs—keep it bent with elbow tight to your ribs, never allowing isolation across the attacker's centerline",
+      "Recognize the transition setup early by feeling for weight shifts, grip changes, and hip rotation that precede the leg swing",
+      "Use the far arm to frame against the attacker's hip, physically blocking perpendicular rotation before the leg can swing over",
+      "Time your bridge to coincide with the leg swing—this is the attacker's most vulnerable moment when their base is temporarily disrupted",
+      "If preventing the transition fails, immediately shift to S Mount defensive posture with bent arm, collar grip, and leg control",
+      "Never extend the threatened arm in an attempt to push the attacker away—arm extension is the exact movement that enables the armbar finish"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker's hands shift to two-on-one control on your near-side wrist or sleeve, pulling the arm across their body",
+      "Weight noticeably shifts toward the mounted-side knee with increased pressure on your ribcage on that side",
+      "Attacker's posted leg lifts slightly or begins moving toward your head rather than maintaining its base position",
+      "Hip rotation begins—you feel the attacker's body starting to turn perpendicular to yours rather than facing your chest",
+      "Attacker pins or strips your far arm control, eliminating your ability to frame against their hip during rotation"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Retract the near-side arm and re-establish elbow-to-knee frame before arm isolation is complete",
+        "when_to_use": "Early phase—when you feel two-on-one grip being established on your wrist but the arm is not yet fully isolated across the attacker's body",
         "targets_outcome": "3-4 Mount/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Attacker cannot proceed with S Mount entry without arm isolation and must return to attacking from 3-4 Mount",
+        "risk": "Pulling the arm back aggressively may expose the opposite arm or create space the attacker exploits for a different submission"
+      },
+      {
+        "action": "Frame the far arm against attacker's hip to block perpendicular rotation",
+        "when_to_use": "Mid-phase—when the attacker begins rotating their hips but has not yet swung the leg over your head",
+        "targets_outcome": "3-4 Mount/Top",
+        "if_successful": "Blocks the attacker's rotation and forces them to deal with your frame before continuing, buying time and potentially stalling the transition entirely",
+        "risk": "If the frame is stripped or collapsed, you have committed your far arm away from other defensive duties and may be briefly exposed"
+      },
+      {
+        "action": "Explosive bridge timed to the leg swing to disrupt base and create reversal or escape opportunity",
+        "when_to_use": "Late phase—when the attacker commits to the leg swing and their posted leg leaves the ground, creating momentary base instability",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Disrupts the attacker's base during their most vulnerable moment, potentially reversing to top position or recovering half guard as they scramble to maintain balance",
+        "risk": "A mistimed bridge when the attacker's base is still solid wastes energy and may accelerate the arm isolation as you lift your shoulders off the mat"
+      },
+      {
+        "action": "Hip escape toward the posted leg side during the weight shift phase to recover half guard",
+        "when_to_use": "When you feel the attacker shifting weight heavily toward the mounted side, creating lighter pressure on the posted leg side",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Creates enough space to insert a knee and recover half guard, completely negating the S Mount entry and improving your position significantly",
+        "risk": "If the hip escape is too slow or the attacker follows your movement, you may end up flattened in a worse position with the arm still isolated"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "S Mount/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time an explosive bridge to coincide with the attacker's leg swing, then immediately hip escape toward the posted leg side while the attacker's base is disrupted. Insert your near-side knee between your bodies and recover half guard entanglement on their leg before they can re-establish mount control."
+      },
+      {
+        "outcome": "3-4 Mount/Top",
+        "how": "Prevent the transition entirely by retracting the near-side arm early when you recognize the two-on-one grip, and maintaining a strong far-arm frame against the attacker's hip. Deny the arm isolation and perpendicular rotation, forcing the attacker to abandon the S Mount attempt and return to attacking from 3-4 Mount. While still a bad position, preventing advancement buys time for your own escape attempts."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extending the near-side arm to push the attacker's leg away during the swing-over",
+        "consequence": "Straightening the arm is exactly what the attacker wants—it creates the perfect armbar position and makes the S Mount entry trivially easy to finish",
+        "correction": "Keep the near arm bent with your hand gripping your own collar or lapel. Defend with frames from the far arm against the hip, never by extending the threatened arm."
+      },
+      {
+        "error": "Ignoring the grip fight on the near-side wrist and focusing on escaping mount instead",
+        "consequence": "Allows arm isolation to be completed unchallenged, making the S Mount transition nearly impossible to prevent once the attacker begins rotating",
+        "correction": "Prioritize the grip fight—strip two-on-one grips immediately using your far hand and retract the arm to your body. Arm protection must come before escape attempts."
+      },
+      {
+        "error": "Bridging before the attacker commits to the leg swing when their base is still stable",
+        "consequence": "Wastes energy against a stable base, lifts your shoulders off the mat making arm isolation easier, and depletes your reserves for when a properly timed bridge would be effective",
+        "correction": "Wait for the leg swing before bridging—the attacker's base is only compromised during the actual movement of the posted leg. Time your bridge to the moment you feel their posted leg leave the ground."
+      },
+      {
+        "error": "Turning away from the attacker to protect the arm, exposing the back",
+        "consequence": "Gives up back control or allows the attacker to establish hooks and transition to rear mount with both hooks, which is even worse than S Mount",
+        "correction": "Stay facing the attacker with shoulders as flat as possible. Use frames and arm retraction to defend, not body rotation. Exposing the back trades one bad situation for a potentially worse one."
+      },
+      {
+        "error": "Panicking and using explosive movements without technical purpose once the attacker begins rotating",
+        "consequence": "Rapid energy depletion, arm exposure through uncontrolled thrashing, and lost opportunity for a properly timed technical escape",
+        "correction": "Stay calm and focus on the defensive checklist: protect the arm, frame the hip, time the bridge. Controlled technical responses are far more effective than panicked explosive movement."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is transitioning from 3-4 Mount to S Mount?",
+        "answer": "The earliest cue is feeling two-on-one grip control being established on your near-side wrist or sleeve, with your arm being pulled across the attacker's centerline. This arm isolation attempt precedes all other transition movements. If you feel this grip change, immediately fight to retract the arm before the rotation begins—once the arm is fully isolated and the attacker begins turning their hips, the transition becomes exponentially harder to prevent."
+      },
+      {
+        "question": "Your opponent has isolated your arm and begins rotating their hips—what immediate action should you take?",
+        "answer": "Frame your far arm against the attacker's near hip to physically block the perpendicular rotation. Your forearm should create a structural barrier that prevents them from completing the turn. Simultaneously, begin loading a bridge toward the mounted side so you are ready to explode when their posted leg lifts. The frame buys time; the loaded bridge creates the escape opportunity. Do not attempt both simultaneously—frame first, then bridge when the leg moves."
+      },
+      {
+        "question": "When during the transition is the optimal window to attempt a bridge escape?",
+        "answer": "The optimal window is the exact moment the attacker's posted leg leaves the ground to swing over your head. At this instant, they have reduced their base from three points of contact to two, and their center of gravity is shifting. A well-timed bridge at this moment can displace them from mount entirely, creating space to recover half guard. Bridging before the leg lifts wastes energy against a stable base, and bridging after the leg lands is too late as the S Mount base is already established."
+      },
+      {
+        "question": "What should you do if the S Mount is fully established with your arm isolated?",
+        "answer": "Immediately switch to S Mount defensive posture: grip your own collar or lapel with the trapped hand to keep the elbow bent, use your free hand to control the attacker's near leg preventing full armbar setup, and begin small hip escapes toward the attacker's legs. If the arm becomes fully extended with the attacker's hips locked against your shoulder, tap immediately—fighting a fully locked armbar risks serious elbow injury. The time to escape is during the transition, not after S Mount is consolidated."
+      },
+      {
+        "question": "Why is extending the near-side arm the worst possible defensive response during this transition?",
+        "answer": "Extending the arm straightens the elbow joint, which is exactly the position required for an armbar finish. A bent arm at 90 degrees or greater is exponentially harder to attack because the attacker must first break your grip and straighten the arm before applying the submission. By extending voluntarily—even to push the attacker's leg away—you bypass the entire grip-breaking phase and deliver your arm into the submission position. This is the single most common error that converts a survivable position into an immediate tap."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying transition cues from 3-4 Mount bottom",
+        "description": "Partner slowly performs the transition setup—grip changes, weight shifts, rotation—while you practice identifying each cue verbally. Call out what you feel: grip change on wrist, weight shifting, hips turning. Build the sensory vocabulary for recognizing this transition before it develops."
+      },
+      {
+        "phase": "Phase 2: Early Intervention",
+        "focus": "Preventing arm isolation and blocking rotation",
+        "description": "Partner attempts the S Mount transition at 30% speed and resistance. Focus on the two primary early defenses: retracting the near arm when you feel the grip, and framing the far arm against their hip when you feel the rotation. Reset each time and repeat 15-20 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Bridge Timing",
+        "focus": "Timing the explosive bridge to the leg swing",
+        "description": "Partner performs the full transition at moderate speed. Your sole objective is timing a bridge to the exact moment the posted leg lifts. Do not try to complete the escape—focus only on the timing of the initial bridge. Success is measured by whether the bridge disrupts the attacker's balance during the swing."
+      },
+      {
+        "phase": "Phase 4: Complete Defensive Sequences",
+        "focus": "Chaining recognition, prevention, and escape under resistance",
+        "description": "Partner attempts the transition at 60-80% resistance. Practice the complete defensive sequence: recognize the setup, fight the grip, frame the hip, time the bridge, recover half guard. If S Mount is established despite your defense, practice the emergency posture and escape from there. Live positional sparring starting from 3-4 Mount bottom."
       }
     ]
   }

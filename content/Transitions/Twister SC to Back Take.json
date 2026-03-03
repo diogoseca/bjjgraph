@@ -1,10 +1,13 @@
 {
   "name": "Twister SC to Back Take",
-  "description": "TODO: Write 150-160 character SEO description for Twister SC to Back Take.",
+  "description": "Master the Twister Side Control to Back Take in BJJ. Complete guide with step-by-step execution, defensive counters, and training strategies for this 10th Planet transition.",
   "tags": [
-    "bjj",
+    "twister side control",
+    "back take",
+    "10th planet",
     "transition",
-    "TODO"
+    "positional advancement",
+    "no-gi"
   ],
   "from_position": "Twister Side Control/Top",
   "outcomes": [
@@ -25,114 +28,376 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Twister SC to Back Take.",
+  "overview": "The Twister Side Control to Back Take is a high-percentage transitional technique within the 10th Planet system that capitalizes on the unique lateral control mechanics of Twister Side Control to establish the most dominant position in grappling. When the bottom player attempts to relieve spinal pressure by turning away or creating frames, the top player follows the rotation and threads hooks behind the opponent's hips, converting lateral torque control into full rear body control with seatbelt grip and dual hooks.\n\nThis transition represents a natural evolution within the truck system's positional hierarchy. Rather than forcing the twister submission against a well-defended spine, the attacker recognizes when back exposure becomes available and pivots strategy from submission pursuit to positional advancement. The existing leg entanglement serves as a platform for hip control during the transition while the attacker systematically establishes chest-to-back connection and seatbelt grip. Advanced practitioners develop sensitivity to the precise moment when the bottom player's defensive turning creates the window for back take entry, making this transition both opportunistic and deliberate in its application.\n\nThe success of this technique depends heavily on timing and the ability to maintain continuous pressure throughout the rotational transition. Premature commitment to the back take before sufficient back exposure results in losing Twister Side Control entirely, while waiting too long allows the defender to establish frames and begin extracting from the leg entanglement. The optimal execution window occurs when the defender has committed to turning away but has not yet established effective defensive frames in the new orientation. This narrow timing window is what separates practitioners who reliably convert Twister Side Control to back control from those who lose positional advantage during the attempt.",
   "conditions": [
-    "TODO"
+    "Top player has established Twister Side Control with functional leg entanglement and active shoulder pressure",
+    "Bottom player has begun turning away or creating frames to relieve shoulder pressure, exposing their back",
+    "Top player's chest remains in contact range to follow the bottom player's rotational movement",
+    "Sufficient space exists behind the bottom player's hips for hook insertion following the defensive turn",
+    "Top player has not over-committed to twister submission setup, retaining mobility to redirect toward back take"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Reactive Follow Back Take",
+      "description": "The attacker waits for the defender to voluntarily turn away to relieve spinal pressure, then follows the rotation with chest contact and threads hooks behind the hips as the back becomes exposed. Requires patience and sensitivity to the defender's movement patterns rather than forcing the transition.",
+      "when_to_use": "When the defender is actively seeking escape through turning and the attacker can read the defensive movement early enough to follow smoothly"
+    },
+    {
+      "variant_name": "Forced Rotation Back Take",
+      "description": "The attacker actively drives the bottom player's turn using shoulder pressure and hip positioning, creating back exposure through offensive pressure rather than waiting for defensive movement. The attacker uses their bodyweight to rotate the defender while simultaneously preparing hook entry.",
+      "when_to_use": "When the defender is maintaining a static defensive posture without turning, requiring the attacker to initiate the rotation to create the back take opportunity"
+    },
+    {
+      "variant_name": "Crab Ride Intermediate Entry",
+      "description": "Instead of transitioning directly to full back control, the attacker moves through the crab ride position as an intermediate step, hooking behind the far hip before establishing full back control. This provides additional control during the transition and creates secondary attack options if the back take stalls.",
+      "when_to_use": "When the defender is actively resisting hook insertion and a direct back take is difficult, or when the attacker wants additional control security during the transition phase"
     }
   ],
-  "position_integration": "TODO: Write position integration for Twister SC to Back Take.",
+  "position_integration": "The Twister Side Control to Back Take occupies a critical junction in the 10th Planet positional hierarchy, connecting the truck system's lateral control mechanics to the universal back control position that transcends any single grappling methodology. This transition demonstrates the strategic flexibility inherent in submission-oriented control positions: when the primary twister attack faces effective defense, the practitioner pivots to positional advancement rather than forcing a compromised submission. The technique integrates with the broader back attack system through seatbelt control, hook management, and the rear naked choke threat chain. Understanding this transition transforms Twister Side Control from a single-dimensional submission platform into a multi-threat position where defending the twister exposes back take vulnerability, creating the cascading dilemma framework central to elite no-gi grappling. The transition also serves as a pressure release valve for the attacker, ensuring that positional capital invested in achieving Twister Side Control is never wasted even when the twister submission itself is unavailable.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Twister Side Control",
+      "relationship": "Starting position providing the lateral control foundation and leg entanglement platform for initiating the back take"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Target position representing the most dominant control state in grappling with maximum submission accessibility"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Related 10th Planet system position sharing leg entanglement mechanics and common transition pathways to back control"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position where the defender successfully reverses during the transition, putting the attacker on bottom"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Alternative intermediate position accessible during the back take transition for additional control security"
+    },
+    {
+      "name": "Escape Twister Side Control",
+      "relationship": "Primary defensive transition the bottom player uses to prevent or abort the back take sequence"
+    },
+    {
+      "name": "Truck to Back Control",
+      "relationship": "Analogous back take transition from the closely related truck position sharing similar mechanics and timing"
+    },
+    {
+      "name": "Turn In from Twister Side Control",
+      "relationship": "Defensive counter-movement where the bottom player turns toward the attacker to prevent back exposure"
+    },
+    {
+      "name": "Frame from Twister Side Control",
+      "relationship": "Defender's frame-based escape that must be prevented for the back take to succeed"
+    },
+    {
+      "name": "Body Triangle",
+      "relationship": "Advanced back control variation accessible after completing the transition for enhanced hip control"
     }
   ],
   "attacker": {
     "name": "Twister SC to Back Take Attacker",
-    "description": "TODO: Write attacker description for Twister SC to Back Take.",
-    "overview": "TODO: Write attacker overview for Twister SC to Back Take.",
+    "description": "Execute the Twister Side Control to Back Take with systematic precision. Learn setup requirements, step-by-step mechanics, counter-responses, and training progressions for this 10th Planet transition.",
+    "overview": "Executing the Twister Side Control to Back Take requires recognizing the precise moment when the bottom player's defensive movement creates back exposure and converting lateral control into rear body control. The transition leverages the existing leg entanglement and shoulder pressure as a launching platform, converting twister mechanics into the seatbelt and hook configuration that defines back control. The attacker must maintain continuous chest contact throughout the rotation, ensuring no gaps in control that would allow the defender to insert frames or recover guard. Successful execution demands coordinated release of twister leg hooks and simultaneous establishment of back control points, with the seatbelt grip preceding hook insertion to maintain upper body dominance during the most vulnerable phase of the transition. The technique rewards patient practitioners who read defensive movement accurately and time their commitment to coincide with maximum back exposure.",
     "key_principles": [
-      "TODO"
+      "Maintain continuous chest-to-back contact throughout the entire transition to prevent defensive gaps and frame insertion",
+      "Establish the seatbelt grip before releasing leg entanglement to ensure unbroken upper body control continuity",
+      "Read defensive turning as an opportunity for positional advancement rather than a positional threat to be resisted",
+      "Insert the near-side hook first to establish hip control foundation before committing to full back control entry",
+      "Use forward driving pressure to follow the opponent's rotation rather than pulling or dragging them into position",
+      "Accept that forcing the transition against a well-framed and stationary defender risks losing Twister Side Control entirely",
+      "Prioritize hook depth over insertion speed to prevent immediate defensive hook removal and position loss"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established Twister Side Control with functional shoulder pressure driving the bottom player's near shoulder toward the mat",
+      "Active leg entanglement controlling the bottom player's near leg with sufficient depth to restrict hip mobility during transition",
+      "Bottom player displaying signs of back exposure through defensive turning, frame creation attempts, or movement to relieve spinal pressure",
+      "Upper body positioned close enough to the opponent's shoulders to transition directly to seatbelt grip without creating separation gap",
+      "Sufficient base stability through outside leg posting to maintain forward pressure during the rotational transition phase"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess back exposure window",
+        "description": "Recognize the moment when the bottom player's defensive turning or framing creates sufficient back exposure to initiate the transition. Look for the far shoulder rotating away from you and the spine beginning to turn, indicating the defender is committed to a direction that opens the back. Do not commit until you confirm the rotation is genuine rather than a feint."
+      },
+      {
+        "step_number": 2,
+        "action": "Transition to seatbelt grip",
+        "description": "Shift from the lateral twister control grip to a seatbelt configuration by threading your choking arm over the opponent's far shoulder while your other arm slides under their near armpit. Clasp hands together on the opponent's chest to establish the upper body control foundation before any other changes. This grip must be secured before releasing leg entanglement."
+      },
+      {
+        "step_number": 3,
+        "action": "Release leg entanglement with pressure",
+        "description": "Begin extracting your legs from the twister leg hook while maintaining constant forward chest-to-back pressure against the opponent. The release must be controlled and gradual rather than explosive, ensuring the opponent cannot use the momentary freedom to create frames, recover guard, or reverse the position. Keep hips driving forward throughout extraction."
+      },
+      {
+        "step_number": 4,
+        "action": "Insert near-side hook",
+        "description": "Thread your near-side leg behind the opponent's hip and insert the hook deep inside their thigh with your foot pointing outward. This first hook establishes the primary hip control point for back control and must be secured before releasing any remaining lateral control. Drive the hook deep past the opponent's thigh crease to prevent easy removal through knee pinch defense."
+      },
+      {
+        "step_number": 5,
+        "action": "Square chest behind opponent",
+        "description": "Rotate your torso to square your chest fully behind the opponent's back, eliminating any remaining lateral angle from the twister position. Drop your hips below the opponent's hip line to create the downward chest pressure that characterizes effective back control. Your weight should settle through your chest into their upper back rather than riding high on their shoulders."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert far-side hook",
+        "description": "Thread the far-side hook inside the opponent's opposite thigh while using the seatbelt grip to prevent them from turning or creating separation during this final insertion phase. The far-side hook completes the back control configuration and must be inserted with the same depth as the near-side hook. Keep your knees pinched against the opponent's hips during insertion to prevent defensive hip escape."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate back control",
+        "description": "Tighten all control points simultaneously: squeeze the seatbelt grip, deepen both hooks with toes pointing outward, and drive chest pressure forward into the opponent's upper back. Verify that hooks are inside the thighs rather than on top of the hips, and that the seatbelt grip has no slack. Begin hand fighting methodology and submission threats once positional consolidation is confirmed complete."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Defensive turn toward attacker to prevent back exposure and re-face the threat",
+        "effectiveness": "High",
+        "your_response": "If the defender turns into you early, abandon the back take and return to twister side control pressure. If they turn late during transition, follow their turn with a modified arm drag to continue circling to the back, or transition to a front headlock if their neck becomes exposed during the turn.",
+        "targets_outcome": "Twister Side Control/Top"
+      },
+      {
+        "counter": "Hip escape with frame creation to generate distance and deny hook insertion space",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Drive forward aggressively with chest pressure to collapse their frames before they create sufficient distance. If frames are established, shift to a heavy top pressure passing approach or re-engage the leg entanglement to return to twister side control rather than fighting compromised frames.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Explosive bridge and shoulder roll during the hook insertion phase to reverse position",
+        "effectiveness": "Medium",
+        "your_response": "Post your outside hand on the mat to absorb the bridge force and maintain your balance. Widen your base by extending the posted leg and ride the bridge without releasing the seatbelt grip. Once the bridge subsides, immediately resume hook insertion before the defender can reset their defensive posture.",
+        "targets_outcome": "Twister Side Control/Top"
+      },
+      {
+        "counter": "Two-on-one grip control on the seatbelt arm to strip upper body control and prevent choke threats",
+        "effectiveness": "Low",
+        "your_response": "The two-on-one defense occupies both of the defender's hands on your choking arm, leaving their body undefended. Use this window to accelerate hook insertion since they cannot simultaneously fight your arm and prevent your legs from establishing control. Once hooks are in, address the grip fight from secured back control.",
         "targets_outcome": "Twister Side Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing leg entanglement before establishing the seatbelt grip on the upper body",
+        "consequence": "Creates a gap in control where the defender has both hip freedom and arm freedom simultaneously, allowing frame creation, guard recovery, or reversal through hip escape",
+        "correction": "Always secure the seatbelt grip first while maintaining leg entanglement, then release the legs only after upper body control is confirmed and tight"
+      },
+      {
+        "error": "Attempting the back take when the defender is facing toward you rather than turned away",
+        "consequence": "The transition requires back exposure to insert hooks; attempting it against a defender facing you results in scramble position or loss of twister side control entirely",
+        "correction": "Only initiate the back take when the defender's far shoulder is rotated away and their spine shows clear back exposure through defensive turning or pressure relief movement"
+      },
+      {
+        "error": "Inserting hooks too shallow with feet resting on top of the opponent's hips rather than deep inside the thighs",
+        "consequence": "Shallow hooks are easily cleared through knee pinch or hand removal, causing immediate loss of back control and likely descent to a scramble or guard position",
+        "correction": "Drive hooks deep past the thigh crease with toes pointing outward and heels pressing against the inner thigh, ensuring the hooks resist removal through standard defensive movements"
+      },
+      {
+        "error": "Losing chest-to-back contact during the rotational transition by sitting up or creating space",
+        "consequence": "Any gap between your chest and the opponent's back allows them to insert frames, turn to face you, or create the distance needed to begin guard recovery sequences",
+        "correction": "Maintain constant forward chest pressure throughout every phase of the transition, treating any separation as an emergency requiring immediate re-connection before continuing"
+      },
+      {
+        "error": "Committing to the far-side hook before the near-side hook is fully secured and deep",
+        "consequence": "Attempting to establish both hooks simultaneously spreads your base too thin and allows the defender to exploit the weakened near-side control to escape or reverse",
+        "correction": "Fully secure the near-side hook with confirmed depth before beginning far-side hook insertion, treating the process as sequential rather than simultaneous"
+      },
+      {
+        "error": "Rushing the transition with explosive movement rather than maintaining controlled pressure throughout",
+        "consequence": "Explosive transitions create momentum that the defender can redirect for reversals, and the attacker's base becomes compromised during rapid movement phases",
+        "correction": "Execute the transition with steady, persistent pressure that follows the defender's movement rather than trying to outpace their defensive reactions with speed"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Solo movement patterns and basic transition sequence",
+        "description": "Practice the complete transition sequence on a grappling dummy or cooperative partner with zero resistance. Focus on the correct order of operations: seatbelt before leg release, near hook before far hook, chest contact throughout. Develop muscle memory for the rotational movement pattern and hand placement before adding any defensive pressure."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Partner drilling with guided defensive responses",
+        "description": "Drill with a partner who provides specific defensive reactions at predetermined points in the transition. The partner turns away on cue, allowing the attacker to practice reading and following the rotation. Alternate between the reactive and forced rotation variants. Focus on smooth transitions between control points without gaps."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Increasing defensive resistance and timing development",
+        "description": "Partner gradually increases resistance from 25% to 75% across multiple rounds. The defender actively tries to prevent the back take using frames, turning, and hip escape while the attacker practices maintaining pressure and timing the transition. Identify personal failure points and address them through targeted repetition at the resistance level where breakdown occurs."
+      },
+      {
+        "phase": "Phase 4: Situational Sparring",
+        "focus": "Live application from Twister Side Control starting position",
+        "description": "Begin rounds from established Twister Side Control with both practitioners at full resistance. The attacker may attempt the back take, maintain twister side control, or pursue other attacks. The defender works all available escapes. Track success rates to measure improvement and identify defensive patterns that consistently defeat the back take attempt."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting back take with submission chains and alternative attacks",
+        "description": "Practice the back take as part of a broader attacking system from Twister Side Control. Chain the back take with twister attempts, darce choke entries, and other transitions so the defender faces multiple threats. Develop the ability to switch between back take and submissions mid-transition based on the defender's reactions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the back take from Twister Side Control?",
+        "answer": "The optimal window opens when the defender has committed to turning away to relieve spinal or shoulder pressure but has not yet established effective defensive frames in the new orientation. This creates a brief period where the back is exposed and the defender's arms are transitioning between defensive positions. Initiating too early forces you against a defender who is still facing you, while initiating too late allows established frames that block hook insertion."
+      },
+      {
+        "question": "Which grip must you establish before releasing the leg entanglement during the transition?",
+        "answer": "The seatbelt grip must be fully established before releasing the leg entanglement. This means threading the choking arm over the far shoulder, sliding the other arm under the near armpit, and clasping hands together on the opponent's chest. Releasing legs before the seatbelt creates a control gap where the defender has both hip and arm freedom simultaneously, making escape or reversal highly probable."
+      },
+      {
+        "question": "Which hook should you insert first when transitioning to Back Control, and why?",
+        "answer": "The near-side hook should be inserted first because it is closest to your current position and requires the least body movement to establish. Inserting the near-side hook creates a hip control anchor point that prevents the defender from rotating away while you work to establish the far-side hook. Attempting the far-side hook first would require crossing your body past the defender's centerline, compromising your base and creating reversal opportunities."
+      },
+      {
+        "question": "Your opponent posts their far arm to brace against the mat and prevent you from circling to their back - how do you adjust?",
+        "answer": "Use the posted arm as an opportunity rather than an obstacle. The posting arm is weight-bearing and cannot be used for defensive frames or grip fighting. Increase forward chest pressure to load weight onto their posted arm, then work your seatbelt grip around their posted arm to isolate it. Alternatively, swim your choking arm under their posted arm to establish an underhook that helps you circle to the back while their arm is committed to posting."
+      },
+      {
+        "question": "What is the critical hip position that determines success or failure during the final phase of this transition?",
+        "answer": "Your hips must drop below the opponent's hip line during the transition to back control. If your hips remain level with or above the opponent's hips, you ride high on their back and they can bridge and roll you over. Dropping your hips below theirs creates a low center of gravity that makes your back control stable and resistant to reversal attempts. This low hip position also enables effective hook insertion by angling your legs downward into the thigh gap."
+      },
+      {
+        "question": "How do you maintain control continuity when releasing the Twister Side Control leg hook to insert back control hooks?",
+        "answer": "Control continuity requires the seatbelt grip to be carrying the entire control load before any leg movement begins. Once the seatbelt is secure, release the leg entanglement gradually while driving your chest forward to prevent any gap. The near-side hook must be inserted immediately as the leg clears, ensuring that at no point during the transition are both legs free without established back control hooks. The transition should feel like exchanging one control system for another rather than releasing and re-establishing."
+      },
+      {
+        "question": "If the opponent defends the back take by turning into you rather than away, what submission chain becomes available?",
+        "answer": "When the defender turns toward you, they expose their neck from the front, creating opportunities for front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body into the choking position. The anaconda choke is available if you can circle to the opposite side during their turn. You can also abandon the back take entirely and return to twister side control with a deeper shoulder drive, using their turning momentum to drive their shoulder further to the mat."
+      },
+      {
+        "question": "What is the most common grip configuration error that causes the transition to fail during the seatbelt establishment phase?",
+        "answer": "The most common error is clasping the seatbelt too loosely or too far from the opponent's body, creating slack that allows the defender to insert frames between your arms and their torso. The seatbelt must be cinched tight against the opponent's chest with no space for their arms to work inside the grip. The clasping point should be on the opponent's sternum area rather than floating in front of their body, and the choking arm elbow should be tight against the side of their neck."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Twister SC to Back Take."
+    "safety_considerations": "The rotational mechanics of this transition place stress on the bottom player's cervical and thoracic spine, particularly during the turning phase that exposes the back. Both practitioners must communicate about discomfort, and the top player should never force rapid rotation against a locked or braced spine. During training, drill the complete transition at slow speed before adding resistance. If the bottom player's spine is already near its rotational limit from the twister position, extra caution is required as the back take adds additional rotational force. The transition should be abandoned immediately if the bottom player signals discomfort in the neck or spine. Tap early and reset rather than fighting through structural pain."
   },
   "defender": {
     "name": "Twister SC to Back Take Defender",
-    "description": "TODO: Write defender description for Twister SC to Back Take.",
-    "overview": "TODO: Write defender overview for Twister SC to Back Take.",
+    "description": "Defend and counter the Twister Side Control to Back Take. Recognize early cues, apply defensive frames, and execute counter-movements to prevent back exposure and improve your position.",
+    "overview": "Defending the Twister Side Control to Back Take requires immediate recognition that the top player has abandoned the twister submission in favor of positional advancement to back control, the most dominant position in grappling. The defender must transition their defensive priority from spinal protection to preventing back exposure, using frames against the top player's shoulder and hip to resist the rotation that enables hook insertion. Successful defense demands maintaining a position facing toward the attacker's body rather than turning away, which paradoxically increases back exposure and accelerates the transition. The defender should seek to either keep the attacker locked in Twister Side Control where established escape pathways remain available, or time a reversal during the transitional phase when the attacker's base is most compromised between control systems. Recognizing the back take attempt early provides significantly more defensive options than reacting after hooks have been partially inserted.",
     "key_principles": [
-      "TODO"
+      "Recognize the shift from twister attack to back take attempt through changes in the top player's pressure direction and grip adjustment patterns",
+      "Resist the instinct to turn away from pressure, as turning away directly enables back exposure and creates the space needed for hook insertion",
+      "Build structural frames against the top player's shoulder and hip to create barriers that physically prevent them from circling to the back",
+      "Address the seatbelt grip immediately upon detection, as upper body control enables systematic and patient hook insertion against minimal resistance",
+      "Use active hip movement to deny the space behind your body where hooks need to be threaded and inserted",
+      "Time counter-movements during the transitional gap when the attacker releases leg entanglement but before back control hooks are established",
+      "Accept turtle position as a legitimate secondary defensive destination when direct back take prevention fails, creating new escape opportunities"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player's pressure shifts from lateral shoulder drive pushing you toward the mat to a forward circling motion wrapping around your body toward your back",
+      "Top player begins releasing or loosening the leg entanglement while maintaining or increasing upper body contact and forward pressure",
+      "Top player's arm threads over your far shoulder seeking the seatbelt grip configuration rather than the chin strap or twister submission grip",
+      "Top player's weight transfers from your hip area toward your upper back and shoulder region, indicating they are repositioning for rear control",
+      "Top player's chest begins squaring behind your back rather than maintaining the perpendicular angle characteristic of twister side control"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Frame against attacker's shoulder and turn to face their hips, denying back exposure",
+        "when_to_use": "Early in the transition when you first sense the rotational pressure change and the attacker has not yet established the seatbelt grip",
         "targets_outcome": "Twister Side Control/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Attacker is forced to remain in Twister Side Control and must re-engage twister attacks or restart the back take sequence from scratch",
+        "risk": "If the frame is weak or poorly positioned, the attacker can collapse it and accelerate past to establish the seatbelt with even less resistance"
+      },
+      {
+        "action": "Hip escape to create distance and deny hook insertion space behind your body",
+        "when_to_use": "During the transitional window when the attacker releases leg entanglement to begin inserting hooks, creating a brief moment of reduced lower body control",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You create enough distance to recover guard position, forcing the attacker into a passing situation rather than back control",
+        "risk": "If timed poorly, the hip escape can accelerate back exposure by creating rotational momentum the attacker exploits"
+      },
+      {
+        "action": "Two-on-one grip control on the seatbelt arm to strip upper body control before hooks are established",
+        "when_to_use": "When the attacker has established seatbelt grip but has not yet inserted hooks, meaning upper body control is their only connection point",
+        "targets_outcome": "Twister Side Control/Top",
+        "if_successful": "Breaking the seatbelt eliminates the attacker's primary control mechanism, forcing them to either re-establish it or abandon the back take entirely",
+        "risk": "Committing both hands to grip fighting leaves your body undefended against hook insertion if the grip strip fails"
+      },
+      {
+        "action": "Bridge and turn into the attacker during hook insertion phase to reverse the rotation and deny back exposure",
+        "when_to_use": "When the attacker has one hook partially inserted and is working to establish the second, creating a moment of split base between control systems",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The bridge disrupts the attacker's base during the most vulnerable transition phase, potentially reversing position to half guard or creating scramble",
+        "risk": "If the bridge is absorbed without creating positional change, you have expended significant energy while the attacker consolidates the remaining hook"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Back Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip escape or bridge reversal during the critical transitional moment when the attacker has released the leg entanglement but before back control hooks are fully established. The attacker's base is most compromised during this exchange of control systems, making reversals and guard recovery highest percentage during this narrow window."
+      },
+      {
+        "outcome": "Twister Side Control/Top",
+        "how": "Maintain strong structural frames against the attacker's shoulder and hips while keeping your body facing toward the attacker rather than turning away. Deny the seatbelt grip by keeping elbows tight to your body and actively stripping any arm that threads over your shoulder. Force the attacker to remain in Twister Side Control where your established escape pathways remain available."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Turning away from the attacker to relieve shoulder pressure, directly exposing the back and creating hook insertion space",
+        "consequence": "Turning away is the exact movement the attacker needs to establish back control, as it exposes the back and creates the space behind your hips where hooks must be inserted",
+        "correction": "Maintain facing toward the attacker's hips at all times, using frames to create separation without rotation. Accept shoulder pressure as preferable to back exposure and work frames to manage the pressure rather than turning away from it."
+      },
+      {
+        "error": "Attempting to stand up before clearing the seatbelt grip, allowing the attacker to drag you back down with superior upper body control",
+        "consequence": "Standing with the seatbelt intact gives the attacker a standing back control position, which is often worse than the ground-based version due to takedown vulnerability and reduced base",
+        "correction": "Strip the seatbelt grip completely before attempting any stand-up sequence. Address control points in order: strip grips first, deny hooks second, create distance third, stand up only when control has been sufficiently compromised."
+      },
+      {
+        "error": "Focusing on removing hooks while ignoring the seatbelt grip, allowing the attacker to simply re-insert removed hooks",
+        "consequence": "The seatbelt provides the structural control that enables patient hook insertion, so removing hooks without addressing the seatbelt is a temporary fix that the attacker will immediately overcome",
+        "correction": "Prioritize seatbelt grip control over hook defense. Strip or neutralize the upper body control first, then address hooks once the attacker cannot maintain sufficient upper body connection to follow your defensive movement."
+      },
+      {
+        "error": "Using explosive movements to escape rather than systematic frame-based defense during the transition",
+        "consequence": "Explosive movements burn energy rapidly and create the momentum that experienced attackers redirect to accelerate the transition to back control",
+        "correction": "Use steady frame pressure and controlled hip movement to incrementally deny space rather than explosive bursts. Save explosive movement for the specific moment when the attacker's control is at its weakest during the transition between control systems."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is abandoning the twister attack in favor of a back take?",
+        "answer": "The earliest cue is a change in pressure direction from lateral shoulder drive pushing you toward the mat to a forward circling motion wrapping around your body. Additionally, the opponent's grip begins transitioning from twister-specific chin strap or spinal control positions toward the seatbelt configuration with an arm threading over your far shoulder. Recognizing this shift early provides the maximum defensive window before back exposure becomes established."
+      },
+      {
+        "question": "Why is framing against the attacker's shoulder more effective than pushing their hip during back take defense?",
+        "answer": "The shoulder frame directly addresses the attacker's primary control mechanism for the back take: the chest-to-back connection and seatbelt grip. By framing the shoulder, you prevent the attacker from squaring their chest behind your back, which is the prerequisite for effective hook insertion. Hip frames only address lower body positioning and can be bypassed by the attacker using upper body control to drag you back. The shoulder frame simultaneously creates distance and prevents the rotational movement the attacker needs."
+      },
+      {
+        "question": "Your opponent has established one hook but not yet secured the seatbelt grip - what is your priority defensive action?",
+        "answer": "Your priority is preventing the seatbelt grip establishment, not removing the single hook. A single hook without a seatbelt provides minimal control, and the attacker will struggle to insert the second hook or maintain position without upper body dominance. Keep your elbows tight to your body, use your hands to strip or block any arm threading over your shoulder, and maintain your facing position toward the attacker. Once the seatbelt is denied, address the single hook through hip escape and leg extraction."
+      },
+      {
+        "question": "What defensive body position minimizes back exposure during the transition from Twister Side Control?",
+        "answer": "The optimal defensive position keeps your shoulders and chest angled toward the attacker's hips rather than turned away. Your elbows should be tight against your body to prevent arm threading for the seatbelt. Your near knee should be driven toward your chest to create a frame barrier against the attacker's forward pressure. Your hips should be as flat as possible rather than elevated, as hip elevation from the twister entanglement creates the space behind your body where hooks need to be inserted."
+      },
+      {
+        "question": "When should you accept turtle position rather than continue fighting the back take from Twister Side Control bottom?",
+        "answer": "Accept turtle when the attacker has established one hook and the seatbelt grip but has not yet secured the second hook. At this point, turning to turtle removes the lateral angle that the twister position created and puts you in a familiar defensive position with established escape protocols. Turtle against a single hook and seatbelt is significantly more defensible than continuing to fight from the compromised twister bottom where your spine is partially rotated and your defensive options are limited by the unfamiliar positioning."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying back take attempt versus twister submission pursuit",
+        "description": "Partner alternates between pursuing the twister submission and attempting the back take from Twister Side Control. Defender must correctly identify which attack is being pursued and verbalize the recognition before applying the appropriate defensive response. Focus on reading pressure changes, grip transitions, and body positioning cues."
+      },
+      {
+        "phase": "Phase 2: Frame Building and Maintenance",
+        "focus": "Structural defense against the back take transition",
+        "description": "Partner attempts the back take at 50% speed and resistance while defender practices building and maintaining frames against the shoulder and hip. Defender's goal is to prevent the attacker from establishing the seatbelt for the full duration. Focus on frame positioning, structural integrity, and maintaining facing position without turning away."
+      },
+      {
+        "phase": "Phase 3: Counter Timing",
+        "focus": "Exploiting the transitional window for defensive movement",
+        "description": "Partner performs the back take at moderate speed while defender practices timing hip escapes and reversals during the moment when leg entanglement is released but hooks are not yet inserted. Track success rates of defensive movements at different timing points to identify the optimal counter window."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Full resistance defense from Twister Side Control bottom",
+        "description": "Begin rounds from Twister Side Control bottom at full resistance. Attacker may pursue any attack including back take, twister, or other transitions. Defender works complete defensive sequences including prevention, counter-movement, and escape chains. Measure improvement by tracking how often the attacker successfully achieves back control."
       }
     ]
   }

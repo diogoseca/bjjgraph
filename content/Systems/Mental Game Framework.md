@@ -357,7 +357,7 @@ Mental game development requires systematic progression from controlled environm
 - [[Back Control]] (Position) - Highest value position requiring mental clarity for finish execution
 - [[Turtle]] (Position) - Defensive position testing mental resilience and recovery protocols
 - [[Guard Pull]] (Transition) - Strategic entry requiring mental commitment and clear game plan
-- [[Takedown Defense]] (Transition) - Defensive skill requiring calm decision-making under pressure
+- [[Standing Defense Strategy]] (System) - Defensive system requiring calm decision-making and composure under pressure from standing exchanges
 
 
 </section>

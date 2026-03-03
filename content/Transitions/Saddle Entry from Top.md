@@ -215,7 +215,7 @@ This entry integrates seamlessly with headquarters position, knee slice passing,
 
 - [[Toe Hold]] - Alternative submission from saddle position
 
-- [[X-Guard to Ashi Transition]] - Complementary technique when opponent attempts X-Guard
+- [[X-Guard to Ashi Garami]] - Complementary technique when opponent attempts X-Guard
 
 - [[Leg Weave Pass]] - Alternative passing approach from similar positions
 

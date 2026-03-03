@@ -200,7 +200,7 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 
 - **[[Back Step Pass]]** (12% of attempts)
 
-- **[[Transition to Flattened Half Guard]]** (10% of attempts)
+- **[[Half Guard to Flattened Half Guard]]** (10% of attempts)
 
 - **[[Knee Slice from Butterfly Half]]** (4% of attempts)
 

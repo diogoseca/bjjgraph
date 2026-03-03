@@ -93,19 +93,21 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (24% of attempts)
+- **[[Ashi Garami Escape]]** (23% of attempts)
 
-- **[[Leg Extraction]]** (33% of attempts)
+- **[[Leg Extraction]]** (38% of attempts)
 
-- **[[Counter Sweep]]** (4% of attempts)
+- **[[Counter Sweep]]** (3% of attempts)
 
-- **[[Saddle Defense]]** (14% of attempts)
+- **[[Angle Change Escape]]** (13% of attempts)
 
-- **[[Standing Escape]]** (14% of attempts)
+- **[[Standing Escape]]** (13% of attempts)
 
-- **[[50-50 Entry]]** (9% of attempts)
+- **[[50-50 Entry]]** (8% of attempts)
 
-- **[[Estima Lock Counter Roll]]** (2% of attempts)
+- **[[Estima Lock Counter Roll]]** (1% of attempts)
+
+- **[[Counter from Estima Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

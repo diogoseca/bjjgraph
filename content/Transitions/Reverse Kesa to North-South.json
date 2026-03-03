@@ -1,10 +1,14 @@
 {
   "name": "Reverse Kesa to North-South",
-  "description": "TODO: Write 150-160 character SEO description for Reverse Kesa to North-South.",
+  "description": "Master the Reverse Kesa to North-South transition in BJJ. Complete guide to rotation mechanics, pressure maintenance, and counters for pin advancement.",
   "tags": [
-    "bjj",
     "transition",
-    "TODO"
+    "reverse-kesa-gatame",
+    "north-south",
+    "positional-transition",
+    "pin-transition",
+    "top-control",
+    "pressure"
   ],
   "from_position": "Reverse Kesa-Gatame/Top",
   "outcomes": [
@@ -19,120 +23,357 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Half Guard/Top",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Reverse Kesa to North-South.",
+  "overview": "The Reverse Kesa to North-South transition is a fundamental pin advancement where the top player rotates from reverse scarf hold into north-south position while maintaining continuous chest pressure. This transition exploits the natural body alignment of reverse kesa-gatame, where the top player already faces toward the opponent's legs, requiring a controlled rotation toward the opponent's head to achieve the perpendicular chest-to-chest alignment that defines north-south. The rotation follows the arc of the opponent's torso, treating the chest as a wheel that rolls across their upper body without lifting.\n\nStrategically, this transition serves multiple purposes within the pinning hierarchy. It allows the top player to access north-south specific attacks like the north-south choke and kimura while disrupting the bottom player's escape timing. The rotation is particularly effective when the bottom player bridges toward their own head attempting to create space, as this movement aligns with the top player's transitional direction. Skilled practitioners use this transition reactively, capitalizing on the opponent's defensive momentum rather than forcing the rotation against resistance.\n\nThe critical technical challenge lies in maintaining pressure continuity during the rotation. Any gap in chest contact during the transition creates space for the bottom player to insert frames, recover half guard, or begin hip escape sequences. Arm control must transition smoothly from the reverse kesa far-arm trap to north-south underhooks as the body completes its arc, ensuring the bottom player never has both arms free simultaneously during the positional change.",
   "conditions": [
-    "TODO"
+    "Established Reverse Kesa-Gatame control with heavy chest pressure across opponent's upper torso and shoulder complex",
+    "Far arm of bottom player controlled under armpit clamp or with overhook grip preventing defensive frame creation",
+    "Stable wide base established with legs providing resistance against bridge and roll escape attempts",
+    "Bottom player relatively flat on back without active knee shield or significant upper body frames",
+    "Opponent's bridge or escape momentum directed toward their own head, aligning with the intended rotational direction"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Pressure Slide Transition",
+      "description": "Maintain maximum chest-to-torso contact throughout the entire rotation by sliding your chest across the opponent's upper body in a slow, continuous arc. Hips stay extremely low and heavy, dragging across their torso rather than lifting. This variant prioritizes pressure continuity over speed, suffocating the opponent's escape attempts through unbroken weight distribution.",
+      "when_to_use": "When the opponent is flat and passive, offering no bridging momentum to exploit. Best against opponents who are conserving energy or waiting for a specific escape window."
+    },
+    {
+      "variant_name": "Reactive Momentum Transition",
+      "description": "Capitalize on the opponent's bridging momentum toward their head to accelerate the rotation. As they bridge, use their upward force to lighten your body momentarily and redirect that energy into a faster rotational arc. The opponent's own escape attempt becomes the fuel for your positional advancement, arriving in north-south before they can redirect their defensive effort.",
+      "when_to_use": "When the opponent bridges explosively or repeatedly pushes toward their head. Their defensive momentum creates the exact vector needed for the transition."
+    },
+    {
+      "variant_name": "Arm Control Switch Transition",
+      "description": "Focus the transition around a deliberate arm control exchange. Begin by deepening the far-arm clamp in reverse kesa, then as you rotate past the midpoint, smoothly switch to a north-south underhook on the same arm. The arm never escapes control during the grip change because one hand secures the new grip before the other releases the old one, creating overlapping control throughout the arc.",
+      "when_to_use": "When the opponent is actively hand-fighting and the primary risk is losing arm control during the rotation. Prioritizes grip security over speed."
     }
   ],
-  "position_integration": "TODO: Write position integration for Reverse Kesa to North-South.",
+  "position_integration": "The Reverse Kesa to North-South transition functions as a critical link in the pinning chain, connecting the reverse scarf hold family to the north-south control platform. This transition integrates naturally with the broader side control ecosystem where practitioners flow between standard side control, kesa gatame, reverse kesa, north-south, and mount based on opponent reactions. Mastering this transition expands the top player's ability to follow defensive movement with offensive advancement rather than maintaining static pins that invite systematic escape sequences. It pairs especially well with the Side Control to North-South transition, giving the top player multiple entry angles into north-south regardless of which pin variant they currently hold.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Reverse Kesa-Gatame",
+      "relationship": "Source position where this transition begins, providing the chest pressure foundation for the rotation"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Target position upon successful completion, offering new submission and control opportunities"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position if the bottom player recovers guard during the rotation"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Alternative pinning position in the same control hierarchy, common fallback if rotation stalls"
+    },
+    {
+      "name": "Side Control to North-South",
+      "relationship": "Parallel transition from standard side control sharing similar rotational mechanics"
+    },
+    {
+      "name": "Bridge from Reverse Kesa-Gatame",
+      "relationship": "Bottom player's escape attempt that often triggers this transition reactively"
+    },
+    {
+      "name": "Escape Reverse Kesa-Gatame",
+      "relationship": "Defensive techniques the bottom player may attempt during the transition window"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related scarf hold position in the same pinning family with different rotational options"
+    },
+    {
+      "name": "Americana from Reverse Kesa",
+      "relationship": "Submission threat from starting position that can set up the transition when defended"
+    },
+    {
+      "name": "North-South Choke",
+      "relationship": "Primary submission opportunity available after successful transition to north-south"
     }
   ],
   "attacker": {
     "name": "Reverse Kesa to North-South Attacker",
-    "description": "TODO: Write attacker description for Reverse Kesa to North-South.",
-    "overview": "TODO: Write attacker overview for Reverse Kesa to North-South.",
+    "description": "Execute the Reverse Kesa to North-South transition. Step-by-step guide covering rotation mechanics, pressure transfer, and arm control throughout the pin change.",
+    "overview": "Executing the Reverse Kesa to North-South transition requires maintaining continuous chest pressure while rotating your body approximately ninety degrees around your opponent's upper torso. The key lies in treating your chest as a rolling contact point that never lifts during the transition. Your starting position in reverse kesa already orients you facing the opponent's legs, so the rotation moves you toward their head until you achieve the characteristic perpendicular alignment of north-south. Throughout this arc, your primary concern is preventing any gap in pressure that would allow the bottom player to insert frames or begin hip escape sequences. The transition demands coordinated movement of your feet, hips, chest, and arms working in concert rather than sequential isolation of each element.",
     "key_principles": [
-      "TODO"
+      "Maintain continuous chest-to-torso contact throughout the entire rotation, treating your sternum as a wheel rolling across the opponent's upper body without lifting",
+      "Use the opponent's bridging momentum toward their head as fuel for the rotational transition rather than forcing movement against their resistance",
+      "Transfer arm control smoothly from reverse kesa far-arm trap to north-south underhooks during the rotation without both arms being free simultaneously",
+      "Walk feet in small controlled steps around the opponent's head rather than jumping or leaping into position, preserving base throughout",
+      "Keep hips low and heavy during the entire transition to prevent the bottom player from inserting a knee or recovering any guard structure",
+      "Settle weight forward into the opponent's chest immediately upon completing the rotation to establish north-south pressure before they adjust"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established reverse kesa-gatame control with heavy chest pressure across opponent's upper torso and shoulder complex, weight distributed through hips and core",
+      "Far arm controlled under armpit clamp or with deep overhook grip, preventing the opponent from creating any defensive frames during the transition",
+      "Wide stable base with far leg extended and near leg bent, providing resistance against bridge attempts that could disrupt the rotation",
+      "Opponent's defensive movement creating momentum toward their head, or opponent flat and passive allowing deliberate pressure slide transition",
+      "Mental commitment to complete the full rotation without pausing at the halfway point where control is weakest and counter opportunities are greatest"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate reverse kesa control",
+        "description": "Before initiating the transition, ensure your chest pressure is heavy and settled across the opponent's upper torso. Verify your far-arm control is secure with the opponent's arm clamped tightly under your armpit. Establish your base with legs wide and hips low. This consolidation phase prevents starting the rotation from a compromised position."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate hip rotation toward opponent's head",
+        "description": "Begin the transition by rotating your hips toward the opponent's head while keeping your chest glued to their upper body. Your near-side hip lifts slightly as your body begins to arc. The rotation starts from your hips and core, not from pushing off with your arms. Think of pivoting around the contact point where your chest meets their torso."
+      },
+      {
+        "step_number": 3,
+        "action": "Walk feet in small steps around opponent's head",
+        "description": "As your hips rotate, walk your feet in small controlled steps around the opponent's head. Each step should be short and deliberate, maintaining your base width throughout. Never cross your feet or bring them close together during the walk, as this creates a narrow base vulnerable to bridging. Your feet trace a semicircular arc around their head."
+      },
+      {
+        "step_number": 4,
+        "action": "Maintain chest pressure through the rotation midpoint",
+        "description": "The midpoint of the rotation is the most vulnerable phase where your body is perpendicular to the opponent's centerline with your weight transitioning between positions. Drive your chest pressure downward deliberately through this phase. If you feel any lightness in your chest contact, pause and re-settle your weight before continuing. The opponent will attempt to exploit any gap at this moment."
+      },
+      {
+        "step_number": 5,
+        "action": "Transfer arm control to north-south configuration",
+        "description": "As you pass the midpoint, begin transitioning your arm control from the reverse kesa far-arm clamp to north-south underhooks. Secure the new underhook grip with one hand before releasing the old grip with the other, creating overlapping control. Never allow both of the opponent's arms to be free simultaneously during this exchange, as they will immediately insert frames."
+      },
+      {
+        "step_number": 6,
+        "action": "Complete rotation to north-south alignment",
+        "description": "Continue walking your feet until your body achieves the full perpendicular alignment characteristic of north-south, with your head near the opponent's hip and their head near yours. Your chest should now be directly over their upper chest and shoulders. Ensure your hips have completed the full arc and are not still angled toward the reverse kesa orientation."
+      },
+      {
+        "step_number": 7,
+        "action": "Settle weight and establish north-south pressure",
+        "description": "Immediately upon completing the rotation, drive your weight forward and downward into the opponent's chest. Establish underhook control on both arms or secure one arm while pinching the other with your elbow. Widen your base by extending your legs and lowering your hips. The first three seconds in north-south are critical for preventing the opponent from establishing defensive frames before your pressure consolidates."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bridge and hip escape during the rotation midpoint when pressure is lightest",
+        "effectiveness": "High",
+        "your_response": "Anticipate the bridge by keeping hips low throughout the transition. If they bridge, ride it by staying connected rather than fighting the lift. Use their bridging momentum to accelerate your rotation past the vulnerable midpoint. If they create significant space, abort the transition and re-settle into reverse kesa before reattempting.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Frame insertion with forearms as chest pressure shifts during rotation",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Prevent frame insertion by maintaining constant downward chest pressure throughout the arc. If a frame is partially established, drive your shoulder into it to collapse the structure before it solidifies. Keep your chest heavy enough that there is no gap for forearms to enter between your torso and theirs.",
         "targets_outcome": "Reverse Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Grab the far leg during rotation to stall the transition and disrupt base",
+        "effectiveness": "Medium",
+        "your_response": "Keep your legs moving in small steps that are difficult to catch. If they grab a leg, use your free leg to post and continue the rotation by switching your base. Alternatively, use the arm that was controlling their far arm to strip their grip before they can establish a hold on your leg.",
+        "targets_outcome": "Reverse Kesa-Gatame/Top"
+      },
+      {
+        "counter": "Turn to side and attempt to recover half guard by inserting near knee during grip transition",
+        "effectiveness": "High",
+        "your_response": "This is the highest-percentage counter because it targets the grip transition moment when arm control is weakest. Minimize the window by pre-securing the north-south underhook before releasing the reverse kesa grip. If the knee enters, immediately shift to a half guard passing sequence rather than forcing the north-south completion.",
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Lifting chest off the opponent's torso during the rotation to create space for movement",
+        "consequence": "Creates a gap that allows the bottom player to insert frames, begin hip escapes, or recover half guard. The entire advantage of this transition depends on pressure continuity, and lifting the chest eliminates the primary control mechanism.",
+        "correction": "Think of your chest as a wheel rolling across their torso. Your sternum should maintain constant contact with their upper body throughout every degree of the rotation. If you feel your chest lifting, slow down and re-settle before continuing."
+      },
+      {
+        "error": "Releasing far-arm control before establishing north-south underhooks",
+        "consequence": "Both of the opponent's arms become free simultaneously, allowing them to create powerful frames that block the transition and create escape space. The grip transition is the most vulnerable moment, and releasing early compounds that vulnerability.",
+        "correction": "Overlap your grips by securing the new north-south underhook with one hand before releasing the reverse kesa armpit clamp with the other. One arm always controls the opponent during the exchange."
+      },
+      {
+        "error": "Jumping or hopping feet to the new position rather than walking in small steps",
+        "consequence": "Creates a moment of instability where both feet leave the mat or come too close together, narrowing your base and making you vulnerable to bridge and roll escapes. The airborne phase also lightens your chest pressure.",
+        "correction": "Walk your feet in small deliberate steps, always maintaining at least one foot firmly posted. Each step should be no longer than six inches. The goal is a controlled shuffle, not an athletic leap."
+      },
+      {
+        "error": "Stopping at the rotation midpoint when encountering resistance",
+        "consequence": "The midpoint is the weakest position in the transition where your body is awkwardly aligned and your base is most compromised. Pausing here gives the opponent time to establish frames and begin systematic escape sequences.",
+        "correction": "Commit to completing the rotation through the midpoint. If you encounter strong resistance at the halfway mark, either accelerate through using their defensive momentum, or fully retreat back to reverse kesa. Never stay at the midpoint."
+      },
+      {
+        "error": "Failing to immediately settle weight and establish control upon reaching north-south",
+        "consequence": "Arriving in north-south without immediately consolidating pressure gives the opponent a window to prevent your weight from settling. They can insert frames, begin hip escapes, or start turning before your north-south control is established.",
+        "correction": "The moment your rotation completes, drive your weight forward and downward into their chest aggressively. Widen your base, secure underhooks, and establish the crushing perpendicular pressure before the opponent can react to the new position."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Solo Movement Mechanics",
+        "focus": "Rotation pattern and body coordination",
+        "description": "Practice the rotational arc on a grappling dummy or heavy bag, focusing on maintaining chest contact throughout the full ninety-degree rotation. Walk feet in small steps while keeping hips low. Repeat twenty times per side until the movement pattern feels natural and your chest stays connected throughout."
+      },
+      {
+        "phase": "Phase 2: Cooperative Partner Drilling",
+        "focus": "Pressure maintenance and arm control transitions",
+        "description": "With a compliant training partner, drill the full transition sequence from established reverse kesa to settled north-south. Partner lies flat and provides no resistance. Focus on pressure continuity, smooth arm control exchange, and proper weight settlement upon arrival. Ten repetitions per side with partner feedback on pressure gaps."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Training",
+        "focus": "Timing and counter management",
+        "description": "Partner provides increasing resistance levels from twenty-five percent to seventy-five percent. They attempt specific counters including bridging during rotation, frame insertion during grip transition, and knee insertion during weight settlement. Develop sensitivity to the opponent's movements and adjust transition speed and pressure accordingly."
+      },
+      {
+        "phase": "Phase 4: Reactive Transition Integration",
+        "focus": "Live application and chain transitions",
+        "description": "In positional sparring from reverse kesa, practice recognizing when the opponent's escape attempts create the optimal moment for the north-south transition. Chain with other pin transitions including mount advancement and side control switches. Full resistance with the goal of making the transition a natural reaction to specific defensive patterns rather than a forced movement."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical body mechanic during the rotation from reverse kesa to north-south?",
+        "answer": "Continuous chest-to-torso contact throughout the entire rotation is the single most critical mechanic. Your sternum must maintain constant downward pressure against the opponent's upper body, rolling across their torso like a wheel rather than lifting and repositioning. Any gap in chest contact creates space for frames, hip escapes, or guard recovery. The rotation should feel like your chest is glued to their body while your legs and hips move around them."
+      },
+      {
+        "question": "Your opponent bridges explosively toward their head as you begin the transition - how do you respond?",
+        "answer": "Use their bridging momentum to accelerate your rotation rather than fighting against it. Their bridge directed toward their head creates force in the exact direction you want to travel. Stay connected to their torso and ride the bridge, letting their energy carry you through the rotation faster. As they return to the mat after the bridge fails, you arrive in north-south with your weight already settling. Their own escape attempt became the fuel for your advancement."
+      },
+      {
+        "question": "What makes the rotation midpoint the most vulnerable phase of this transition?",
+        "answer": "At the midpoint, your body is awkwardly positioned between reverse kesa and north-south with compromised base alignment. Your arm control is transitioning between grips, potentially leaving a window where neither the old nor new grip is fully secure. Your feet are mid-walk with a narrower base than at either endpoint. The opponent can exploit this instability for bridges, frame insertion, or knee recovery. You must commit to moving through the midpoint quickly rather than pausing there."
+      },
+      {
+        "question": "How should you handle the arm control exchange during the transition?",
+        "answer": "Use an overlapping grip strategy where you secure the new north-south underhook with one hand before releasing the reverse kesa armpit clamp with the other. At no point should both of the opponent's arms be free simultaneously. The grip exchange happens during the second half of the rotation as you pass the midpoint. Pre-position your hand for the north-south underhook as you approach the transition point, then execute a smooth switch that maintains continuous control on at least one arm."
+      },
+      {
+        "question": "When should you abort the transition and return to reverse kesa instead of completing the rotation?",
+        "answer": "Abort when the opponent establishes a strong frame before you reach the midpoint, when you feel your chest lift significantly off their torso creating a gap you cannot close, or when the opponent inserts a knee before you pass the halfway mark. Returning to reverse kesa from the first quarter of the rotation is straightforward, but attempting to retreat from past the midpoint is more difficult. Make the abort decision early. A secure reverse kesa is always better than a compromised north-south."
+      },
+      {
+        "question": "What specific foot movement pattern should you use during the rotation and why?",
+        "answer": "Walk your feet in small steps of approximately six inches each, tracing a semicircular arc around the opponent's head. Each step maintains at least one foot firmly posted on the mat at all times. Never jump, hop, or cross your feet during the walk. Small steps preserve your base width throughout the rotation, preventing the opponent from exploiting a narrow stance for bridge and roll escapes. The deliberate walking pattern also keeps your hips low and heavy, which maintains chest pressure throughout the arc."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Reverse Kesa to North-South."
+    "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions."
   },
   "defender": {
     "name": "Reverse Kesa to North-South Defender",
-    "description": "TODO: Write defender description for Reverse Kesa to North-South.",
-    "overview": "TODO: Write defender overview for Reverse Kesa to North-South.",
+    "description": "Defend and counter the Reverse Kesa to North-South transition. Recognition cues, timing windows, and techniques to prevent pin advancement or recover half guard.",
+    "overview": "Defending against the Reverse Kesa to North-South transition requires recognizing the rotation early and exploiting the momentary instability it creates. As the top player rotates from reverse kesa toward north-south, there is a brief window where their weight shifts and their base narrows during the arc. This transitional moment represents your best opportunity to insert frames, begin hip escapes, or recover half guard. The defender must act during the rotation itself rather than waiting until north-south is established. Once the top player settles into consolidated north-south control with full chest pressure and underhook grips, escape becomes significantly more difficult than intercepting the transition mid-movement. Understanding the specific mechanical vulnerabilities of the rotation allows the bottom player to time defensive actions precisely when the top player's control is weakest.",
     "key_principles": [
-      "TODO"
+      "Recognize the rotation early through pressure shifts and foot movement before the transition reaches its midpoint",
+      "Exploit the transitional instability window when the top player's base is narrowest and arm control is exchanging between grips",
+      "Time defensive actions during the rotation rather than waiting for north-south to be established and consolidated",
+      "Insert frames against the chest immediately when you feel pressure shifting, preventing full weight settlement in the new position",
+      "Use hip escape toward the direction opposite the rotation to maximize distance creation during the transitional gap",
+      "Target half guard recovery by inserting your near knee during the moment when the top player's arm control transitions between reverse kesa and north-south grips"
     ],
     "recognition_cues": [
-      "TODO"
+      "Top player's chest pressure begins shifting from your shoulder area toward your sternum as they initiate the rotation, changing the angle of weight distribution",
+      "Small stepping sounds and vibrations through the mat as the top player walks their feet around your head in the characteristic semicircular arc",
+      "Arm control on your far side loosens momentarily as the top player transitions from the reverse kesa armpit clamp to north-south underhook configuration",
+      "Top player's hip pressure on your near-side ribs decreases as they lift slightly to initiate the rotational movement around your torso"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Hip escape and insert near knee during the arm control transition to recover half guard",
+        "when_to_use": "When you feel the top player's far-arm control loosen during the grip exchange phase of the rotation, typically in the second half of the arc",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "You recover half guard with a knee shield, forcing the top player to abandon north-south and deal with a guard passing situation instead of a dominant pin",
+        "risk": "If timed too early, the top player can re-clamp your arm and continue the rotation with added control. If timed too late, your knee meets established north-south pressure"
+      },
+      {
+        "action": "Explosive bridge toward the direction opposite the rotation to disrupt the top player's balance and stall the transition",
+        "when_to_use": "During the initial phase of the rotation when the top player's weight first begins to shift and their base has not yet adjusted to the new direction",
         "targets_outcome": "Reverse Kesa-Gatame/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The top player is forced to abandon the transition attempt and re-consolidate reverse kesa control, resetting your escape opportunities from the original position",
+        "risk": "If the bridge is weak or mistimed, the top player can use your upward momentum to accelerate their rotation toward north-south"
+      },
+      {
+        "action": "Frame with forearms against the top player's chest during the pressure gap at the rotation midpoint",
+        "when_to_use": "When you feel the characteristic lightening of chest pressure that occurs as the top player passes through the midpoint of the rotation",
+        "targets_outcome": "Reverse Kesa-Gatame/Top",
+        "if_successful": "Established frames prevent the top player from completing the rotation and settling into north-south, forcing them to either retreat to reverse kesa or fight against your frames",
+        "risk": "If frames are not structurally sound, the top player can collapse them by driving forward and complete the transition over your arms"
+      },
+      {
+        "action": "Grab the top player's far leg during the rotation to anchor them and prevent the feet from completing the arc",
+        "when_to_use": "When you can reach the far leg as it passes within range during the walking phase of the rotation, typically when their step brings the leg close to your hip",
+        "targets_outcome": "Reverse Kesa-Gatame/Top",
+        "if_successful": "The top player cannot complete the foot walk required for the transition and must either strip your grip or abandon the rotation back to reverse kesa",
+        "risk": "Reaching for the leg may extend your arm into a vulnerable position for kimura or arm isolation if the top player adjusts their attack"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "North-South/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time a strong hip escape during the rotation's second half when the top player's arm control transitions between grips. As their far-arm clamp loosens to exchange for a north-south underhook, insert your near knee between your bodies and close your half guard before they can settle. The key timing cue is feeling the armpit clamp release on your far arm."
+      },
+      {
+        "outcome": "Reverse Kesa-Gatame/Top",
+        "how": "Bridge explosively during the initial phase of the rotation when the top player's weight first shifts off your shoulder. The bridge disrupts their balance before they build rotational momentum, forcing them to post with their hands and abandon the transition. Combine the bridge with a strong frame against their chest to prevent them from driving back through into the rotation."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the top player has fully established north-south before attempting any defensive action",
+        "consequence": "North-south is significantly harder to escape than intercepting the transition mid-rotation. Established north-south features consolidated chest pressure, secured underhooks, and wide base that eliminate the transitional vulnerabilities you need to exploit.",
+        "correction": "Begin defensive action the moment you recognize the rotation starting through pressure shifts and foot movement cues. The window for effective defense exists only during the transition itself."
+      },
+      {
+        "error": "Pushing against the direction of rotation instead of escaping perpendicular to it",
+        "consequence": "Pushing against the rotation expends energy without creating meaningful space because the top player's rotational momentum is strong in that direction. Your force feeds directly into their base rather than exploiting lateral vulnerability.",
+        "correction": "Hip escape perpendicular to the rotation direction, moving your hips away from the arc path. This creates distance that the top player cannot cover with their rotational movement and opens space for knee insertion and guard recovery."
+      },
+      {
+        "error": "Failing to protect your arms during the grip transition window",
+        "consequence": "While the top player exchanges grips, your arms may be in vulnerable extended positions. If you reach without structure, the new north-south underhooks can immediately isolate your arms for kimura or americana attacks from the arrived position.",
+        "correction": "Keep elbows tight to your body during the transition. When inserting frames, use forearm structure rather than extended arm pushes. If you feel your arm being isolated during the grip exchange, pull it tight to your torso immediately before the new grip consolidates."
+      },
+      {
+        "error": "Panicking and attempting an explosive full-body escape without technical timing",
+        "consequence": "Wild movement without timing wastes energy and often creates better angles for the top player to complete the transition. The explosive movement may even provide the momentum the top player needs to accelerate through the rotation.",
+        "correction": "Stay calm and wait for the specific mechanical vulnerability at the rotation midpoint or grip exchange. Direct your explosive effort into a precisely timed hip escape or bridge at the moment of maximum instability rather than flailing throughout the transition."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is initiating the Reverse Kesa to North-South transition?",
+        "answer": "The earliest cue is a shift in chest pressure from your shoulder area toward your sternum, indicating the top player's body is beginning to rotate. This is followed by their hip pressure decreasing on your near-side ribs as they lift slightly to begin the arc. You may also hear or feel their feet beginning to walk in small steps around your head through vibrations on the mat. Recognizing the pressure shift before the feet start moving gives you the maximum defensive window."
+      },
+      {
+        "question": "Why is the grip exchange phase the best window for recovering half guard?",
+        "answer": "During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates."
+      },
+      {
+        "question": "Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?",
+        "answer": "Shift immediately from the bridge strategy to frame insertion. Place your forearms against their chest to create structural barriers that slow or prevent the rotation from completing. Simultaneously begin hip escaping perpendicular to the rotation direction. If frames hold, the top player may be forced to retreat. If they continue through your frames, prioritize inserting your near knee for half guard recovery before their north-south pressure settles. Do not waste energy on a second bridge when the first failed."
+      },
+      {
+        "question": "How should your hip escape direction differ when defending this transition versus escaping established north-south?",
+        "answer": "When defending the transition mid-rotation, hip escape perpendicular to the arc path rather than directly away from the opponent. This exploits lateral vulnerability that exists during the rotation but disappears once north-south is established. In established north-south, you must hip escape along the opponent's body axis to create distance. The perpendicular escape during the transition is more effective because the top player's momentum carries them along the arc and they cannot redirect laterally without restarting their base alignment."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying transition initiation cues",
+        "description": "Partner alternates between maintaining reverse kesa and initiating the north-south transition. Defender calls out the moment they detect the transition beginning without attempting to escape. Build sensitivity to pressure shifts, foot movement, and grip changes. Ten repetitions focusing purely on recognition accuracy before adding any defensive response."
+      },
+      {
+        "phase": "Phase 2: Timing Window Practice",
+        "focus": "Defensive action timing at specific phases",
+        "description": "Partner performs the transition at moderate speed. Defender practices inserting frames at the midpoint, bridging during the initial phase, and inserting a knee during the grip exchange, each as isolated techniques. Partner provides feedback on timing accuracy. Focus on one defensive option per round before combining them."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance Defense",
+        "focus": "Executing defense against increasing resistance",
+        "description": "Partner performs the transition with progressively increasing speed and pressure from fifty to full resistance. Defender selects and executes the most appropriate defensive option based on the specific timing window available. Develop the ability to read which defensive option is viable based on the top player's speed and commitment level."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Integration into live rolling scenarios",
+        "description": "Begin in reverse kesa with the top player free to transition to north-south or attack from reverse kesa. Defender must defend all threats while specifically looking for the north-south transition to intercept. This integrates transition defense with broader positional escape work and develops the ability to recognize and respond to the transition amid other offensive threats."
       }
     ]
   }

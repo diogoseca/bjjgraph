@@ -342,7 +342,7 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Inside Ashi Entry]] (Transition) - Primary entry technique to establish foundational leg position
 - [[Saddle Entry from Top]] (Transition) - Offensive entry to highest percentage leg attack position in system
 - [[Kiss of the Dragon]] (Transition) - Dynamic back taking technique when opponent defends leg attacks with forward pressure
-- [[X-Guard to Ashi Transition]] (Transition) - Conversion pathway from guard position to leg entanglement positions
+- [[X-Guard to Ashi Garami]] (Transition) - Conversion pathway from x-guard position to leg entanglement positions
 - [[Turtle to Back Take]] (Transition) - Back attack entry when opponent uses turtle as intermediate defensive position
 - [[Back Take]] (Transition) - Collection of back taking methods utilized throughout system implementation
 - [[Heel Hook]] (Submission) - Primary leg submission that forces defensive movements exposing back attacks
@@ -350,7 +350,7 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Rear Naked Choke]] (Submission) - Primary back attack submission when leg defenses expose upper body
 - [[Twister]] (Submission) - Spine lock submission from truck position linking leg and back attacks
 - [[Kneebar]] (Submission) - Alternative leg submission when heel hook positioning is defended
-- [[Leg Entanglement]] (Principle) - Foundational concept governing all leg attack positions in system
+- [[Leg Entanglement]] (Position) - Foundational concept governing all leg attack positions in system
 - [[Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
 - [[Transition Management]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
 - [[Dilemma Creation]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back

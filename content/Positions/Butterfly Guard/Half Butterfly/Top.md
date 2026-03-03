@@ -21,19 +21,19 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Flattened Half Guard",
-      "text": "From this position, attempt Transition to Flattened Half Guard. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Half Guard to Flattened Half Guard",
+      "text": "From this position, attempt Half Guard to Flattened Half Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,23 +208,23 @@ The top player must establish upper body control first through crossface or unde
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (39% of attempts)
+### [[Knee Slice Pass]] (35% of attempts)
 
-### [[Smash Pass]] (16% of attempts)
+### [[Smash Pass]] (18% of attempts)
 
-### [[Underhook Pass]] (8% of attempts)
+### [[Underhook Pass]] (10% of attempts)
 
 ### [[Body Lock Pass]] (8% of attempts)
 
-### [[Transition to Flattened Half Guard]] (12% of attempts)
+### [[Half Guard to Flattened Half Guard]] (10% of attempts)
 
-### [[Half Guard Pass]] (4% of attempts)
+### [[Half Guard Pass]] (5% of attempts)
 
 ### [[Leg Weave Pass]] (10% of attempts)
 
 ### [[Pass Half Butterfly]] (2% of attempts)
 
-### [[Smash Half Butterfly]] (1% of attempts)
+### [[Smash Half Butterfly]] (2% of attempts)
 
 
 
@@ -349,8 +349,8 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 **Q4**: How do you shut down the bottom player's primary escape route to deep half guard?
 **A**: Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them attempting to turn away and shoot their outside arm under your hips, immediately sprawl your hips back and drive weight forward to flatten them. Maintaining constant chest pressure prevents them from creating the angle needed to enter deep half.
 
-**Q5**: What grip priorities should guide your passing sequence from half butterfly top?
-**A**: Prioritize crossface control first to control their head and prevent them from turning into you. Second priority is controlling their near arm to eliminate frames. Third is far hip or leg control to prevent guard recovery. Only after establishing these control points should you begin actively working passing mechanics. Rushing to pass without these controls results in being swept or stalled.
+**Q5**: What base errors most commonly lead to being swept from half butterfly top?
+**A**: The three most common base errors are: keeping knees too close together which creates a narrow platform easily tipped by hook elevation, allowing hips to rise above shoulder level which shifts your center of gravity above the hook's fulcrum point, and posting weight on your hands instead of distributing through your chest and hips. Each error gives the hook maximum mechanical advantage for sweeps.
 
 **Q6**: The bottom player gets an underhook and starts coming up - what technique chain prevents the sweep?
 **A**: When they establish the underhook and begin to elevate, immediately circle toward their back while maintaining head position. If they continue rising, transition to the Underhook Pass by driving your overhook deep, sprawling your hips away, and using your head to drive them back down. If they collapse back, immediately return to heavy pressure and restart your passing sequence.

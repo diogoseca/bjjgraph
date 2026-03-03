@@ -1,128 +1,404 @@
 {
   "name": "Crucifix Maintenance",
-  "description": "TODO: Write 150-160 character SEO description for Crucifix Maintenance.",
+  "description": "Master Crucifix Maintenance in BJJ. Learn systematic control adjustments to retain arm-trapping dominance and prevent escapes for submission setups.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "crucifix",
+    "maintenance",
+    "control",
+    "position-retention",
+    "arm-trap",
+    "back-attack"
   ],
   "from_position": "Crucifix/Top",
   "outcomes": [
     {
       "to": "Crucifix/Top",
-      "probability": 100,
+      "probability": 65,
       "result": "success"
+    },
+    {
+      "to": "Back Control/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Crucifix Maintenance.",
+  "success_rate": 65,
+  "overview": "Crucifix Maintenance encompasses the systematic techniques and adjustments required to retain the crucifix position against an opponent's escape attempts. As one of the most dominant control positions in Brazilian Jiu-Jitsu—offering simultaneous isolation of both arms through a leg triangle and hand control system—the crucifix demands active maintenance because trapped opponents will immediately begin working to extract their arms and rebuild defensive structures.\n\nThe maintenance game centers on three interconnected control points: the figure-four leg triangle trapping the near arm, hand control securing the far arm, and chest-to-back pressure preventing turning or rolling. Effective maintenance involves constant micro-adjustments to these control points in response to the opponent's escape attempts, rather than static holding. The practitioner must read the opponent's movement intentions through tactile sensitivity and preemptively tighten controls before escapes gain momentum.\n\nStrategic crucifix maintenance serves dual purposes—it preserves the dominant position for submission attacks while simultaneously draining the opponent's energy and psychological resolve. Each failed escape attempt depletes the bottom player's reserves and reinforces positional despair, making subsequent submission attempts higher percentage. Elite practitioners view maintenance not as passive holding but as active positional improvement, continuously refining controls while setting up finishing sequences through chokes, armbars, and arm attacks.",
   "conditions": [
-    "TODO"
+    "Established crucifix position with leg triangle fully locked around opponent's near arm",
+    "Far arm under active hand control through wrist grip, overhook, or kimura configuration",
+    "Chest-to-back connection established with torso pressed against opponent's upper back",
+    "Opponent beginning or about to begin escape attempts requiring active maintenance response"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Leg Triangle Squeeze Adjustment",
+      "description": "When the opponent creates incremental slack in the arm trap through subtle pulling, the practitioner re-squeezes the figure-four leg configuration by drawing the knees together and adjusting the crossing angle to eliminate space around the trapped shoulder and armpit.",
+      "when_to_use": "When you feel the opponent's near arm beginning to slide or create space within the leg triangle, particularly during sustained escape attempts that gradually loosen the trap."
+    },
+    {
+      "variant_name": "Kimura Grip Transition on Far Arm",
+      "description": "Switching from a standard wrist grip to a kimura grip configuration on the far arm provides mechanically superior retention through the figure-four hand lock while simultaneously threatening a kimura submission. This dual-purpose grip both secures maintenance and opens an attack.",
+      "when_to_use": "When the opponent's far arm is active and difficult to control with a single wrist grip, or when you want to add a submission threat that discourages escape attempts."
+    },
+    {
+      "variant_name": "Hip Switch Realignment",
+      "description": "When the opponent shrimps or changes angle to alter the geometry of the leg trap, the practitioner executes a hip switch to realign perpendicular to the opponent's new body axis. This adjustment maintains optimal control angle and prevents the opponent from gaining leverage for arm extraction.",
+      "when_to_use": "When the opponent successfully changes their body angle through hip escape or shrimping, requiring you to reestablish perpendicular alignment to maintain effective arm trap geometry."
     }
   ],
-  "position_integration": "TODO: Write position integration for Crucifix Maintenance.",
+  "position_integration": "Crucifix Maintenance sits at the critical junction between achieving the crucifix position and executing submissions from it within the broader back attack system. Without effective maintenance, the crucifix degrades into a fleeting scramble position rather than a reliable submission platform. This transition connects directly to the choke from crucifix and armbar from crucifix as offensive extensions, while defending against the arm recovery from crucifix and various escape sequences. Mastery of maintenance transforms the crucifix from a position you briefly pass through into a control station where you systematically break down the opponent's remaining defenses before finishing.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Crucifix",
+      "relationship": "Source position—the state being maintained through this transition"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Fallback position when crucifix maintenance fails and opponent partially escapes"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Secondary fallback when opponent escapes crucifix more completely"
+    },
+    {
+      "name": "Choke from Crucifix",
+      "relationship": "Primary submission attack enabled by successful crucifix maintenance"
+    },
+    {
+      "name": "Armbar from Crucifix",
+      "relationship": "Secondary submission attack accessible from maintained crucifix control"
+    },
+    {
+      "name": "Arm Recovery from Crucifix",
+      "relationship": "Opponent's primary escape technique that maintenance must counter"
+    },
+    {
+      "name": "Crucifix Choke Defense",
+      "relationship": "Defensive transition from opponent's perspective during maintenance"
+    },
+    {
+      "name": "Back Control Maintenance",
+      "relationship": "Analogous maintenance concept for the related back control position"
+    },
+    {
+      "name": "Mounted Crucifix",
+      "relationship": "Related variant position accessible as alternative control platform"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Similar arm isolation control concept using different trapping mechanism"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Related back control grip system used in crucifix entry sequences"
     }
   ],
   "attacker": {
     "name": "Crucifix Maintenance Attacker",
-    "description": "TODO: Write attacker description for Crucifix Maintenance.",
-    "overview": "TODO: Write attacker overview for Crucifix Maintenance.",
+    "description": "Master crucifix maintenance from the attacker perspective. Systematic control adjustments, escape prevention, and submission setup strategies for dominant arm-trapping retention in BJJ.",
+    "overview": "Crucifix Maintenance from the attacker's perspective involves the continuous adjustments and controls required to retain bilateral arm isolation against the opponent's escape attempts. The maintenance practitioner must simultaneously manage three control points—the leg triangle on the near arm, hand control on the far arm, and upper body pressure—while reading and preemptively countering escape movements before they develop momentum. Effective maintenance transforms the crucifix from a static hold into a dynamic control system where each micro-adjustment progressively tightens the position and creates submission opportunities. The attacker's goal is not merely to hold position but to systematically degrade the opponent's remaining escape capability until finishing becomes inevitable.",
     "key_principles": [
-      "TODO"
+      "Active maintenance requires constant micro-adjustments rather than static holding—the crucifix is a dynamic control system that degrades without continuous attention",
+      "Three-point control architecture must remain engaged simultaneously: leg triangle on near arm, hand control on far arm, and chest-to-back pressure",
+      "Preemptive tightening defeats escapes at inception—read the opponent's intention through tactile sensitivity and counter before movements develop momentum",
+      "Submission threats serve dual purpose as maintenance tools: they finish the match and force the opponent to defend rather than escape, reinforcing positional control",
+      "Energy efficiency through proper mechanics means gravity and skeletal alignment do the work—if you are straining to hold position, your alignment needs adjustment",
+      "Follow the opponent's movement rather than fighting against it—when they shift, flow with them and re-establish optimal perpendicular angle from the new position"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established crucifix with figure-four leg triangle fully locked around opponent's near arm, one leg over the shoulder and one under the armpit with constant inward squeeze",
+      "Far arm under active hand control through wrist grip, overhook, or kimura grip configuration preventing the arm from reaching the neck or creating frames",
+      "Chest-to-back connection established with torso pressed firmly against opponent's upper back and shoulders, eliminating space for turning or rolling",
+      "Hips positioned perpendicular to opponent's body axis with weight distributed through hip bones onto their torso, anchoring against bridge and roll attempts",
+      "Opponent's defensive frames eliminated with both arms isolated from their centerline, preventing any frame construction or barrier creation"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Audit Leg Triangle Integrity",
+        "description": "Check that the figure-four leg configuration around the opponent's near arm maintains constant inward pressure with one leg over the shoulder and the other under the armpit, leaving no slack for the opponent to create extraction angles. Squeeze knees together and verify the crossing point is tight against the arm."
+      },
+      {
+        "step_number": 2,
+        "action": "Verify Far Arm Control",
+        "description": "Confirm that your hand control on the opponent's far arm is secure and prevents the arm from reaching the neck, creating frames, or assisting escape movements. If using wrist control, ensure your grip wraps fully around the wrist. If using kimura grip, verify the figure-four hand lock is tight with elbows pulled in."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish Chest-to-Back Pressure",
+        "description": "Press your chest firmly against the opponent's upper back and shoulders, eliminating all space between your torso and their body. This connection prevents them from turning, creating escape angles, or generating momentum for rolling escapes. Your head should be positioned beside theirs, controlling their head direction."
+      },
+      {
+        "step_number": 4,
+        "action": "Set Perpendicular Hip Position",
+        "description": "Position your hips perpendicular to the opponent's body axis, distributing weight through your hip bones onto their torso. This anchors you against bridging and rolling movements while maintaining access for submission attacks. Avoid being parallel to the opponent, which reduces control effectiveness and allows them to generate rotational momentum."
+      },
+      {
+        "step_number": 5,
+        "action": "Read Opponent's Escape Intentions",
+        "description": "Monitor the opponent's micro-movements, breathing patterns, and weight shifts through tactile sensitivity to anticipate which escape they will attempt next. Tension building in the trapped arm signals extraction attempt. Hip loading signals a bridge. Shrimping motion signals angle change. Early recognition allows preemptive counter before the escape develops."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute Preemptive Tightening",
+        "description": "Before the opponent's escape attempt reaches full execution, tighten the relevant control point to shut down the escape in its early stages. If they pull the trapped arm, squeeze the leg triangle tighter. If they bridge, drive your hips down. If they shrimp, execute a hip switch to follow their angle change and restore perpendicular alignment."
+      },
+      {
+        "step_number": 7,
+        "action": "Layer Submission Threats",
+        "description": "Introduce submission feints or partial attacks—shallow choke grips on the neck, armbar positioning on the far arm, or kimura pressure—to force the opponent to divert defensive attention from escaping to surviving immediate threats. These offensive layers reinforce maintenance by keeping the opponent reactive rather than proactive in their escape attempts."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Explosive arm extraction where opponent pulls trapped arm forcefully while shrimping hips to change the leg triangle angle",
+        "effectiveness": "High",
+        "your_response": "Immediately squeeze the leg triangle tighter by pulling knees together and adjusting crossing angle. If the arm begins clearing, transition your weight forward and threaten the neck to force defensive priority shift. If extraction succeeds, flow to back control maintaining hooks.",
+        "targets_outcome": "Back Control/Top"
+      },
+      {
+        "counter": "Bridge and roll escape where opponent loads hips and explosively bridges to create rotational momentum and displace your weight",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Stay tight to their back rather than posting your hands—posting creates space. Roll with the bridge if necessary, maintaining leg triangle and arm control throughout the rotation. As they settle from the bridge, re-establish perpendicular hip position and threaten a submission during their recovery moment.",
+        "targets_outcome": "Side Control/Top"
+      },
+      {
+        "counter": "Hip escape and shrimp where opponent incrementally creates new angle by shrimping away, changing the geometry of the leg trap to create extraction space",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip movement with a hip switch to maintain perpendicular alignment. Do not allow them to change angle without you adjusting—each unanswered angle change accumulates toward escape. Increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the new angle.",
+        "targets_outcome": "Back Control/Top"
+      },
+      {
+        "counter": "Turning into the attacker where opponent rotates their torso toward you to reduce the effectiveness of the back-facing control angle and access your body for frames",
+        "effectiveness": "Low",
+        "your_response": "Use your chest and head to block the turn, maintaining back-facing angle. If they partially turn, increase weight distribution onto their upper body and use the far arm control to prevent them from completing the rotation. A partial turn often exposes the neck further, creating submission opportunity.",
         "targets_outcome": "Crucifix/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Holding the crucifix statically without making adjustments as the opponent moves",
+        "consequence": "The opponent's incremental escape movements accumulate unchecked, gradually loosening the leg triangle and creating space until a sudden escape succeeds",
+        "correction": "Treat maintenance as continuous active work—constantly audit each control point and make small adjustments in response to every movement the opponent makes, no matter how minor"
+      },
+      {
+        "error": "Allowing the leg triangle to gradually loosen through inattention to the crossing angle",
+        "consequence": "The near arm slowly gains extraction space, and when the opponent commits to an explosive pull, there is insufficient grip to prevent arm freedom",
+        "correction": "Periodically re-squeeze the leg triangle by pulling knees together and adjusting the crossing point. Treat any detected slack as an immediate priority requiring tightening before addressing other controls"
+      },
+      {
+        "error": "Releasing control of the far arm to pursue a submission attempt prematurely",
+        "consequence": "The freed far arm immediately defends the neck or creates frames that enable full escape, losing both the submission opportunity and the position",
+        "correction": "Always maintain at least one hand controlling the far arm. Attack submissions with the other hand or use kimura grip configuration that simultaneously controls the arm and threatens the submission"
+      },
+      {
+        "error": "Positioning body too far from the opponent's head and upper back, creating space between torso and opponent",
+        "consequence": "Space between bodies allows the opponent to turn, find escape angles, and generate momentum for bridging or rolling movements that defeat the control",
+        "correction": "Keep chest pressed firmly against the opponent's upper back with head beside theirs. Eliminate all daylight between your torso and their body to prevent turning and angle creation"
+      },
+      {
+        "error": "Ignoring the opponent's hip movement and shrimping while focusing exclusively on arm controls",
+        "consequence": "The opponent changes body angle without resistance, altering the geometry of the leg trap until extraction becomes mechanically easy from the new angle",
+        "correction": "Follow every hip movement with a corresponding hip switch to maintain perpendicular alignment. The hip position is as critical to maintenance as the arm controls—never allow unanswered angle changes"
+      },
+      {
+        "error": "Using excessive muscular effort to hold position rather than relying on proper skeletal alignment and gravity",
+        "consequence": "Rapid fatigue causes grip failures and control lapses, and the opponent outlasts the attacker's energy reserves leading to escape during a moment of exhaustion",
+        "correction": "Audit your positioning if you feel muscular strain—proper crucifix maintenance should feel relatively effortless through correct weight distribution, leverage, and alignment rather than brute force"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Static Control Mechanics",
+        "focus": "Understanding and establishing each of the three control points independently",
+        "description": "Practice establishing and holding each control point—leg triangle, far arm control, chest pressure—in isolation with a cooperative partner. Focus on correct body positioning, weight distribution, and the mechanical details of each element. Partner provides no resistance, allowing the practitioner to develop proprioceptive awareness of proper crucifix alignment."
+      },
+      {
+        "phase": "Phase 2: Dynamic Maintenance Against Graduated Resistance",
+        "focus": "Maintaining position while partner attempts specific, pre-announced escapes at increasing intensity",
+        "description": "Partner performs specific escape attempts (arm extraction, bridge, hip escape) at 25%, then 50%, then 75% intensity. Practitioner practices reading the escape type and executing the correct maintenance response. Work through each escape type systematically before combining them. Focus on preemptive tightening and flowing with movement rather than fighting it."
+      },
+      {
+        "phase": "Phase 3: Maintenance-to-Submission Integration",
+        "focus": "Layering submission attacks while maintaining position against active escape attempts",
+        "description": "Practice introducing submission threats—choke setups, armbar positioning, kimura pressure—while partner provides realistic escape resistance. The goal is to maintain position while simultaneously advancing toward finishes. Develop the ability to release one control point briefly for a submission attack and re-establish it before the opponent can capitalize on the opening."
+      },
+      {
+        "phase": "Phase 4: Competition-Intensity Scenarios",
+        "focus": "Full-speed maintenance against uncooperative partners using any escape available",
+        "description": "Start from established crucifix with partner at 100% resistance using any combination of escapes. Practitioner must maintain position for progressively longer periods (30 seconds, 60 seconds, 90 seconds) or finish a submission. Include scenarios where partner nearly escapes to develop recovery and re-establishment skills under maximum pressure."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the three interconnected control points in crucifix maintenance and why must all three remain engaged simultaneously?",
+        "answer": "The three control points are: (1) the leg triangle trapping the near arm through figure-four configuration, (2) hand control on the far arm via wrist grip, overhook, or kimura grip, and (3) chest-to-back pressure preventing turning and rolling. All three must remain engaged because they form an interdependent system—losing the leg triangle frees the near arm for defense, losing far arm control enables frames and neck defense, and losing chest pressure allows turning and angle creation that defeats both arm controls. Each point reinforces the others."
+      },
+      {
+        "question": "Your opponent begins shrimping their hips away from you during crucifix maintenance—what is the correct response and why?",
+        "answer": "Execute a hip switch to follow their movement and maintain perpendicular alignment to their new body axis. Do not remain stationary while they change angle, as each unanswered shrimp alters the geometry of the leg trap and creates extraction space. The hip switch should be a smooth, flowing adjustment that re-establishes your perpendicular position from their new angle. Simultaneously increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the adjusted angle."
+      },
+      {
+        "question": "Why is preemptive tightening more effective than reactive defense when maintaining the crucifix?",
+        "answer": "Preemptive tightening addresses escape attempts before they develop momentum, requiring minimal effort to shut down. Once an escape gains momentum—such as a forceful arm pull or explosive bridge—significantly more energy and strength are needed to counter it, and success becomes less certain. By reading early cues (tension building in trapped arm, hip loading for bridge, breathing changes before explosive movement), the practitioner can tighten the relevant control point with a small adjustment rather than fighting a fully committed escape attempt."
+      },
+      {
+        "question": "How do submission threats function as maintenance tools in the crucifix, and what is the optimal balance between attacking and maintaining?",
+        "answer": "Submission threats force the opponent to divert their attention and energy from escape to survival, making them reactive rather than proactive. When you threaten a choke, the opponent must use their free hand and mental focus to defend the neck rather than working to free their trapped arm. The optimal balance is maintaining at least one hand on the far arm at all times while using the other to create threats. The kimura grip is particularly valuable because it simultaneously controls the far arm and threatens a submission, achieving both objectives with one configuration."
+      },
+      {
+        "question": "What tactile cues indicate an opponent is about to attempt an explosive arm extraction, and how should you respond?",
+        "answer": "Key cues include: increasing tension in the trapped arm as the opponent builds force for a pull, subtle hip shifting to create a better extraction angle, grip changes on any contact points as they prepare to redirect energy, and a brief pause in breathing that precedes explosive effort. When you detect these cues, immediately squeeze the leg triangle tighter by pulling knees together and adjusting the crossing angle. Simultaneously shift your weight to resist the extraction direction and threaten the neck to create a competing defensive priority."
+      },
+      {
+        "question": "What is the most critical grip requirement when controlling the far arm, and when should you transition between grip types?",
+        "answer": "The most critical requirement is that the far arm never becomes completely free—any grip is better than no grip. The wrist grip provides maximum manipulation ability and is ideal for initial control. Transition to overhook when the opponent is actively pulling their arm to their body, as the overhook handles inward force better. Transition to kimura grip when the position is stable and you want to add a submission dimension while maintaining control. Transition between grips during moments when the opponent is focused on the leg trap rather than the far arm, minimizing the risk during the brief transition window."
+      },
+      {
+        "question": "If you feel the leg triangle beginning to loosen despite your squeeze, what systematic adjustments should you make before the arm escapes?",
+        "answer": "First, check the crossing angle—the legs may have shifted from the optimal position over the shoulder and under the armpit. Adjust the crossing point by using hip movement to reposition the legs rather than just squeezing harder. Second, verify that your perpendicular alignment has not drifted, as a parallel body position reduces leg triangle effectiveness. Third, drive your hips slightly forward to increase the bite of the triangle around the arm. If the arm is significantly loose, briefly redirect your far-arm control hand to assist in re-establishing the leg position before returning to far arm control."
+      },
+      {
+        "question": "Your opponent explosively bridges while you have crucifix established—should you post your hand or stay tight, and why?",
+        "answer": "Stay tight to their back rather than posting your hand. Posting creates space between your body and theirs, which is exactly what the bridge is designed to achieve. By staying connected chest-to-back, you ride the bridge as a unit, maintaining all three control points through the movement. If the bridge rolls you, maintain the leg triangle and arm control throughout the rotation—when you land, you often end up in the same relative control position. The moment the opponent returns from the bridge is actually a submission opportunity, as they briefly relax after the explosive effort."
+      },
+      {
+        "question": "How do you maintain energy efficiency during extended crucifix maintenance, and what signals indicate your positioning is wrong?",
+        "answer": "Energy efficiency comes from using gravity and skeletal alignment rather than muscular contraction. Your hips should bear weight through bone structure onto the opponent, not through active pressing. The leg triangle holds through the mechanical advantage of the figure-four configuration, not continuous squeezing. Signals of incorrect positioning include: burning fatigue in the legs from constant squeezing, forearm pump from gripping the far arm too tightly, heavy breathing from muscular exertion, and the feeling of fighting the opponent's movement rather than flowing with it. If any of these occur, reset your positioning to restore structural advantage."
+      },
+      {
+        "question": "When the opponent partially frees their trapped arm but you recapture it, what adjustment prevents repeated near-escapes?",
+        "answer": "After recapture, analyze why the extraction nearly succeeded. Usually the cause is either degraded crossing angle in the leg triangle, insufficient perpendicular alignment allowing favorable extraction geometry, or the opponent finding a timing window during your submission attempts. Adjust by re-establishing a deeper crossing point with the legs, ensuring perfect perpendicular hip alignment, and reducing the duration of any one-handed control moments. Consider switching to kimura grip on the far arm so both hands are occupied in a configuration that doesn't require releasing control for attacks."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Crucifix Maintenance."
+    "safety_considerations": "Crucifix maintenance involves sustained pressure on the opponent's trapped shoulder through the leg triangle configuration. Monitor training partners for signs of shoulder discomfort, particularly when the figure-four creates torque on the glenohumeral joint during maintenance adjustments. Release immediately if the partner taps, verbalizes discomfort, or shows signs of distress. Avoid cranking the trapped arm beyond its natural range of motion when tightening the leg triangle. Be especially cautious with partners who have pre-existing shoulder injuries, as the trapped arm position under load can aggravate rotator cuff issues. During drilling, establish clear communication protocols for the bottom partner to signal discomfort before it becomes injury."
   },
   "defender": {
     "name": "Crucifix Maintenance Defender",
-    "description": "TODO: Write defender description for Crucifix Maintenance.",
-    "overview": "TODO: Write defender overview for Crucifix Maintenance.",
+    "description": "Defend against crucifix maintenance in BJJ. Recognition cues, systematic escape timing, and counter-strategies to dismantle arm-trapping control and recover position.",
+    "overview": "Defending against Crucifix Maintenance means systematically dismantling the opponent's three-point control structure—leg triangle, far arm grip, and chest pressure—to recover a survivable position. The defender faces an extreme asymmetric disadvantage where both arms are compromised, neck attacks are imminent, and explosive movements typically tighten the position rather than breaking it. Success requires identifying the maintenance windows where the attacker adjusts their controls, and converting those brief openings into progressive escape momentum. The hierarchy of defensive priorities is clear: protect the neck first, then work to free the most accessible arm, then execute positional recovery before the attacker can re-establish full control.",
     "key_principles": [
-      "TODO"
+      "Protect the neck as absolute first priority—surviving position is meaningless if you are submitted during the escape attempt",
+      "Attack the weakest control point first, typically the far arm grip which relies on hand strength rather than mechanical advantage",
+      "Exploit adjustment windows—the moment the attacker shifts weight, changes grips, or threatens a submission creates brief escape opportunities",
+      "Use incremental micro-movements rather than explosive bursts to avoid telegraphing your escape intention and triggering preemptive tightening",
+      "Combine arm freedom attempts with simultaneous positional changes—freeing an arm without moving your body leads to immediate recapture",
+      "Conserve energy through controlled breathing and calculated movements, reserving explosive effort for the final moment of escape execution"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's legs tightening with increased inward squeeze around your trapped arm, indicating they are reinforcing the leg triangle control point",
+      "Weight shifting forward onto your upper body and shoulders, signaling the attacker is consolidating chest-to-back pressure to prevent turning",
+      "Grip adjustment on your far arm—switching from wrist grip to overhook or kimura configuration—indicates the attacker is securing deeper and more submission-threatening control",
+      "Opponent's hips rotating or switching position to realign perpendicular to your body, revealing they are countering your angle changes with maintenance adjustments",
+      "Brief reduction in one control point as the attacker transitions between grips or positions, creating a momentary escape window before the new control is established"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
-        "targets_outcome": "Crucifix/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "action": "Incremental arm extraction during grip transition: use subtle hip movement and angle changes to create space in the leg triangle when the attacker adjusts their far arm grip",
+        "when_to_use": "When you detect the attacker transitioning between grip types on your far arm, briefly weakening their overall control coordination",
+        "targets_outcome": "Back Control/Top",
+        "if_successful": "You free the trapped arm and transition to standard back control bottom where both arms are available for defense and escape, significantly improving your survival prospects",
+        "risk": "If the extraction fails, the attacker will tighten the leg triangle and potentially add a submission threat to punish the escape attempt"
+      },
+      {
+        "action": "Timed bridge escape during weight redistribution: execute a controlled bridge when the attacker shifts their weight to set up a submission or adjust hip position",
+        "when_to_use": "When you feel the attacker's weight lift momentarily as they reposition for an attack or adjust their perpendicular alignment",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "The bridge displaces the attacker's base and creates enough rotational momentum to escape both arm traps, with the attacker scrambling to secure side control as a fallback",
+        "risk": "A mistimed bridge against a settled attacker tightens the position and wastes energy, potentially exposing the neck during the movement"
+      },
+      {
+        "action": "Hip escape during submission threat: shrimp away to change the leg triangle geometry when the attacker commits a hand to a choke or armbar setup",
+        "when_to_use": "When the attacker releases far arm control or reduces chest pressure to pursue a submission, creating a temporary gap in maintenance",
+        "targets_outcome": "Back Control/Top",
+        "if_successful": "The angle change makes the leg triangle less effective, allowing arm extraction and transition to back control defense where you can work standard escape sequences",
+        "risk": "If you shrimp without defending the neck first, the attacker may finish the submission they initiated rather than re-establishing maintenance"
+      },
+      {
+        "action": "Turn into the attacker by rotating torso toward them to reduce the effectiveness of back-facing control and create frames with any freed arm segment",
+        "when_to_use": "When the attacker's chest pressure is momentarily light and their leg triangle has loosened enough that turning does not tighten the arm trap further",
+        "targets_outcome": "Side Control/Top",
+        "if_successful": "Turning disrupts the crucifix geometry entirely, forcing the attacker to abandon the position and transition to side control or mount where your arms are freed",
+        "risk": "Turning into an attacker with tight controls can worsen the position by allowing them to consolidate a mounted crucifix or tighten arm traps at the new angle"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Crucifix/Top",
-        "how": "TODO"
+        "outcome": "Side Control/Top",
+        "how": "Time your bridge escape during the attacker's weight redistribution or submission setup, creating enough displacement to escape both arm traps. The attacker retains top position but in side control where your arms are free and standard escape sequences become available."
+      },
+      {
+        "outcome": "Back Control/Top",
+        "how": "Work systematic arm extraction by combining hip movement with angle changes during the attacker's grip transition windows. Free the trapped arm from the leg triangle and transition to standard back control defense where both arms are available for defensive frames, choke defense, and escape attempts."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pulling the trapped arm explosively and directly against the locked leg triangle",
+        "consequence": "Wastes significant energy, often tightens the leg triangle through the opponent's reflex squeeze, and telegraphs the escape intention, prompting the attacker to preemptively reinforce all control points",
+        "correction": "Use subtle hip movement and angle changes to alter the geometry of the leg trap before attempting extraction. Work the arm free by changing the angle rather than overpowering the mechanical advantage of the figure-four"
+      },
+      {
+        "error": "Neglecting neck defense while focusing entirely on arm extraction and positional escape",
+        "consequence": "Getting submitted by a choke during the escape attempt, losing the match despite having a viable escape in progress because the immediate threat was not addressed first",
+        "correction": "Always maintain neck defense as the highest priority. Use the free hand for chin tuck support and collar defense. Only redirect defensive attention to arm extraction during windows when the neck is not under active attack"
+      },
+      {
+        "error": "Waiting passively for the attacker to make a mistake rather than creating escape opportunities through active defense",
+        "consequence": "The attacker consolidates position progressively, each passing second improving their control and submission setup until escape becomes virtually impossible",
+        "correction": "Actively probe for escape opportunities through micro-movements and incremental angle changes. Force the attacker to make maintenance adjustments that create the windows you need. Every second of passivity makes the position worse"
+      },
+      {
+        "error": "Using large explosive movements like full bridges or violent rolls from a fully consolidated crucifix",
+        "consequence": "Telegraphs intention clearly, allowing the attacker to brace and counter. Wastes massive energy. Often tightens the position by prompting the attacker to squeeze harder in response",
+        "correction": "Use incremental micro-movements to build toward escape gradually. Small angle changes and subtle weight shifts accumulate without alerting the attacker. Reserve explosive effort for the final extraction moment when space has already been created"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the correct priority hierarchy when defending against crucifix maintenance?",
+        "answer": "The hierarchy is: (1) protect the neck from immediate choke threats using chin tuck, shoulder raise, and free hand defense, (2) identify and attack the weakest control point, typically the far arm grip, (3) work to free the trapped arm through angle changes and incremental movement, (4) execute positional recovery by combining arm freedom with body movement to transition to back control or side control defense. Skipping any level of the hierarchy—particularly neck defense—risks submission during the escape attempt."
+      },
+      {
+        "question": "When is the optimal moment to attempt escape from crucifix maintenance, and what cues signal this window?",
+        "answer": "The optimal escape windows occur during the attacker's maintenance adjustments: grip transitions on the far arm (brief control gap), weight shifts for submission setups (reduced chest pressure), hip switches for realignment (momentary balance disruption), and the recovery moment after blocking your previous escape attempt (attentional reset). Tactile cues include lightening of chest pressure, loosening of the far arm grip, and brief instability in the attacker's base. Visual cues include the attacker looking away to set up attacks and hand repositioning movements."
+      },
+      {
+        "question": "Why should arm extraction be combined with simultaneous body movement rather than performed as a standalone action?",
+        "answer": "Freeing the arm without changing body position gives the attacker an immediate opportunity to recapture the arm with a simple re-squeeze of the leg triangle or a quick grip re-establishment. When arm extraction is combined with a hip escape or turn, the new body angle makes recapture mechanically difficult because the geometry that enabled the trap no longer exists. The simultaneous movement also forces the attacker to address two problems at once—arm escape and positional change—splitting their maintenance attention and reducing their ability to counter effectively."
+      },
+      {
+        "question": "How should you manage your energy when trapped in crucifix against an opponent actively maintaining position?",
+        "answer": "Breathe calmly through the nose to prevent hyperventilation and panic. Use micro-movements that require minimal energy rather than explosive bursts that exhaust you quickly. Accept that escape is a process requiring patient, incremental work rather than a single dramatic movement. Time your energy expenditure to coincide with the attacker's adjustment windows when your effort will have maximum effect. Reserve any explosive energy for the final moment of escape execution when space has already been created through accumulated micro-movements. A calm, methodical defender will outlast a tense, panicking one."
+      },
+      {
+        "question": "If the attacker transitions to a kimura grip on your far arm, what does this signal and how should you respond?",
+        "answer": "The kimura grip transition signals two things: the attacker is seeking more secure control and they are adding a submission threat to their maintenance. During the grip transition itself, there is a brief window where neither the old grip nor the new grip is fully established—this is an escape opportunity if you act immediately. If the kimura grip locks in, you must address both the positional control and the submission threat. Straighten the arm to reduce kimura leverage while using the transition disruption to work hip escape. Do not allow the arm to be rotated behind your back, as this creates both a submission and a tighter positional control."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Survival",
+        "focus": "Identifying crucifix maintenance patterns and establishing survival posture",
+        "description": "Partner holds crucifix and performs maintenance adjustments without attacking submissions. Defender practices calm breathing, neck defense posture, and identifying which of the three control points is weakest. Focus on developing comfort in the position and understanding the attacker's movement patterns before attempting any escape."
+      },
+      {
+        "phase": "Phase 2: Systematic Escape Mechanics",
+        "focus": "Drilling specific escape sequences against cooperative resistance",
+        "description": "Practice each escape pathway individually: arm extraction through angle change, bridge escape during weight shift, hip escape during submission threat, and turning escape during pressure gap. Partner provides 50% resistance and allows successful escapes to develop proper mechanics. Build the skill of combining arm freedom with positional change as a single coordinated movement."
+      },
+      {
+        "phase": "Phase 3: Window Recognition Under Pressure",
+        "focus": "Identifying and exploiting maintenance adjustment windows against active opponents",
+        "description": "Partner performs full maintenance with realistic grip transitions, weight shifts, and submission threats at 75-100% intensity. Defender must identify the brief windows during adjustments and execute the appropriate escape. Progress from pre-announced adjustments to unannounced realistic maintenance. Develop the tactical patience to wait for genuine opportunities rather than forcing escapes."
       }
     ]
   }

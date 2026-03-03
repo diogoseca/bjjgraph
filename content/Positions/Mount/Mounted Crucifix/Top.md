@@ -21,37 +21,37 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar Finish. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,25 +216,27 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Available Attacks
 
-### [[Armbar Finish]] (12% of attempts)
+### [[Armbar Finish]] (18% of attempts)
 
-### [[Rear Naked Choke]] (11% of attempts)
+### [[Rear Naked Choke]] (10% of attempts)
 
-### [[Back Control to Crucifix]] (10% of attempts)
+### [[Back Control to Crucifix]] (9% of attempts)
 
-### [[Armbar on Free Arm]] (10% of attempts)
+### [[Armbar on Free Arm]] (9% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (11% of attempts)
+### [[Gift Wrap to Technical Mount]] (10% of attempts)
 
-### [[Neck Crank]] (6% of attempts)
+### [[Neck Crank]] (5% of attempts)
 
-### [[Mount to Armbar]] (10% of attempts)
+### [[Mount to Armbar]] (9% of attempts)
 
-### [[Mounted Crucifix to S Mount]] (10% of attempts)
+### [[Mounted Crucifix to S Mount]] (9% of attempts)
 
-### [[Gift Wrap Transition]] (9% of attempts)
+### [[Gift Wrap Transition]] (8% of attempts)
 
-### [[Seat Belt Control Back]] (11% of attempts)
+### [[Back Take from Top]] (10% of attempts)
+
+### [[Seat Belt Control Back]] (3% of attempts)
 
 
 
@@ -256,12 +258,12 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 **If opponent turns away to defend neck:**
 - Execute **[[Back Control to Crucifix]]** → [[Back Control]] (Probability: 85%)
-- Execute **[[Seat Belt Control Back]]** → [[Seat Belt Control Back]] (Probability: 80%)
+- Execute **[[Back Take from Top]]** → [[Seat Belt Control Back]] (Probability: 80%)
 
 
 **If opponent creates bridge creating space:**
-- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 70%)
-- Execute **[[Mounted Crucifix to S Mount]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Gift Wrap to Technical Mount]]** → [[Gift Wrap]] (Probability: 70%)
+- Execute **[[Mounted Crucifix to S Mount]]** → [[High Mount]] (Probability: 65%)
 
 
 **If one arm escapes but opponent remains controlled:**
@@ -414,8 +416,8 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 - **[[Crucifix]]** - Parent position - traditional crucifix shares arm-trapping mechanics
 - **[[High Mount]]** - Common entry - high mount positioning facilitates crucifix transitions
-- **[[S Mount]]** - Related attack position - shares isolation principles and submission paths
-- **[[Technical Mount]]** - Natural transition - can flow between positions based on opponent's defense
+- **[[Modified Mount]]** - Related attack position - shares isolation principles and submission paths
+- **[[3-4 Mount]]** - Natural transition - can flow between positions based on opponent's defense
 - **[[Back Control]]** - Primary advancement - crucifix control enables high-percentage back takes
 - **[[Gift Wrap]]** - Alternative control - similar arm-trapping with different mechanics
 - **[[Armbar Control]]** - Submission position - crucifix creates easy armbar entries

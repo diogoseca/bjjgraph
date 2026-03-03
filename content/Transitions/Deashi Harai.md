@@ -214,7 +214,7 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 
 - [[Front Headlock]] - Backup position when opponent sprawls in defense of sweep
 
-- [[Takedown Defense]] - Understanding defensive principles helps recognize when opponent is vulnerable to Deashi Harai
+- [[Sprawl]] - Essential takedown defense technique; understanding sprawl mechanics helps recognize when opponent is vulnerable to foot sweeps during recovery
 
 - [[Standing Position]] - Starting position and reset point when sweep attempt fails
 

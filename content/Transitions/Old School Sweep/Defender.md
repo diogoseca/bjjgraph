@@ -4,7 +4,7 @@
 
 ---
 title: "Old School Sweep Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend against Old School Sweep in BJJ. Recognition cues, defensive options, and escape strategies."
+description: "Complete guide to defending the Old School Sweep from half guard top. Recognition cues, counter-pressure techniques, and systematic strategies for neutralizing lockdown sweeps and advancing position."
 ---
 
 
@@ -20,27 +20,33 @@ description: "How to defend against Old School Sweep in BJJ. Recognition cues, d
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Sprawl hips back and away while driving crossface pressure forward",
-      "text": "As soon as you feel the bottom player bridge and begin creating the 45-degree angle, before they establish the full tripod position If successful: Bottom player loses the angle and elevation needed for the sweep, returning to flat half guard bottom where you can resume passing",
+      "name": "Drive deep whizzer and sprawl hips back to block rotation",
+      "text": "Immediately upon recognizing the opponent has secured underhook and is beginning to angle to their side for the sweep If successful: Opponent's sweep angle is destroyed, underhook leverage is neutralized, and you maintain top position with ability to work toward passing",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Post far hand on the mat and widen base to resist the sweeping direction",
-      "text": "When the sweep is already in motion and you feel yourself being tipped, post immediately to prevent going over If successful: You stabilize your base and prevent the sweep completion, maintaining top position and can work to re-establish heavy pressure",
+      "name": "Increase crossface pressure to flatten opponent onto their back",
+      "text": "When opponent begins turning to their side but has not yet established full sweep alignment with shoulder under your center of gravity If successful: Opponent is flattened and loses the geometric advantage needed for sweep, reducing their offensive options significantly",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Drive knee through to kill the angle and flatten the bottom player",
-      "text": "When the bottom player has established the underhook but has not yet posted their outside foot or created significant angle If successful: You advance your knee past the bottom player's hip line, flattening them and potentially completing a knee slice pass to side control",
+      "name": "Post free hand on mat and widen base to resist rotational sweep",
+      "text": "As emergency defense when sweep initiation has already begun and you feel your base being compromised If successful: Creates structural post that prevents rotation, buying time to re-establish whizzer and crossface controls",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Apply whizzer (overhook) on the underhook arm and drive shoulder pressure to neutralize the underhook",
-      "text": "Immediately when you feel the bottom player threading their arm for the underhook, before they can secure it deeply If successful: The whizzer kills the underhook's effectiveness, removing the primary control mechanism for the sweep and allowing you to resume passing pressure",
+      "name": "Drive forward aggressively to flatten and pass to side control",
+      "text": "When opponent's lockdown tension drops or they release head control momentarily, creating a passing window If successful: Advance past half guard entirely, achieving side control and eliminating all lockdown-based threats",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Strip head control arm and establish crossface before sweep can develop",
+      "text": "Early in the position when opponent is still building controls and has not yet secured tight head wrap If successful: Without head control, opponent cannot prevent you from posturing up, which removes most of the sweep's mechanical advantage",
+      "position": 5
     }
   ],
   "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
@@ -56,42 +62,42 @@ description: "How to defend against Old School Sweep in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can shut down the old school sweep attempt?",
+      "name": "What are the earliest recognition cues that the Old School Sweep is being initiated?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest and most effective intervention is denying the deep underhook entirely. Apply whizzer control and shoulder pressure the moment you feel the bottom player threading their arm under your armpit. Without the underhook, the entire old school sweep system cannot function."
+        "text": "The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling back alone insufficient as a defense against the old school sweep?",
+      "name": "How should you distribute your weight to maximize sweep resistance from Old School top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sprawling back without crossface pressure allows the bottom player to follow your retreating hips and transition into deep half guard or electric chair position. Your backward movement actually assists their entry into these positions. The sprawl must always be combined with aggressive crossface to flatten the bottom player and prevent positional transitions."
+        "text": "Drive your weight forward and downward through your chest into the opponent's sternum, keeping hips low and heavy against their hips. Your crossface shoulder should create uncomfortable pressure across their face and neck. The free leg posts wide with knee out at 45 degrees for base. Weight should come from body positioning and gravity rather than muscular effort—this creates sustainable pressure that exhausts the bottom player while conserving your own energy for defensive adjustments."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep underhook and begins to post their outside foot - what is your defensive priority?",
+      "name": "Your opponent has deep underhook and head control with tight lockdown - what is your highest-priority defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your immediate priority is to sprawl your hips back and drive heavy crossface pressure to destroy the angle before they can complete the tripod. Simultaneously, fight to free your trapped leg by driving your knee to the mat. If the sweep is already in motion, post your far hand wide with a bent elbow while working to recover base, but be aware this exposes the arm to kimura."
+        "text": "Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt."
       }
     },
     {
       "@type": "Question",
-      "name": "How does defending the old school sweep create vulnerability to the electric chair?",
+      "name": "When is the critical moment to sprawl your hips during sweep defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When you sprawl back to defend the old school sweep, you create space that allows the bottom player to split your legs apart for the electric chair submission. The same underhook and lockdown that power the sweep also serve as the control structure for the electric chair. Effective defense requires neutralizing the underhook itself rather than just retreating from the sweep angle."
+        "text": "The critical moment to sprawl is when you feel the lockdown pump—the extension of their legs that precedes the sweep initiation. This pump is the bottom player generating the off-balance that makes the sweep possible. By sprawling your hips back at the moment of the pump, you remove the leverage they need and prevent the weight shift they are trying to create. Sprawling too early wastes energy, while sprawling too late means the sweep momentum may already be unstoppable."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the risks of posting your far hand as a sweep defense?",
+      "name": "If you successfully defend the Old School Sweep, what offensive opportunity opens up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Posting the far hand creates two significant vulnerabilities: the posted arm becomes an easy target for a kimura attack since it is extended and weight-bearing, and shifting your weight to the post can expose your back to a back take as the bottom player uses their underhook to circle behind you. Always treat the post as a temporary measure and immediately work to recover proper base."
+        "text": "Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls."
       }
     }
   ]
@@ -104,7 +110,7 @@ description: "How to defend against Old School Sweep in BJJ. Recognition cues, d
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Old School Sweep Defender",
-  "description": "How to defend against Old School Sweep in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "description": "Complete guide to defending the Old School Sweep from half guard top. Recognition cues, counter-pressure techniques, and systematic strategies for neutralizing lockdown sweeps and advancing position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -152,9 +158,9 @@ description: "How to defend against Old School Sweep in BJJ. Recognition cues, d
 
 <section id="overview" class="content-section">
 
-Defending the Old School Sweep requires the top player in half guard to recognize and neutralize the bottom player's underhook-based sweeping mechanics before they can generate momentum. The primary defensive framework centers on denying the deep underhook, maintaining low hip pressure to prevent the bottom player from creating the 45-degree body angle, and controlling the distance so the bottom player cannot establish the tripod posting position. When the sweep is already in motion, the defender must act decisively by posting the far hand, sprawling the hips backward, or driving the knee through to kill the sweeping angle. Understanding the attacker's mechanical requirements allows the defender to disrupt the technique at multiple stages, from initial underhook establishment through the driving phase. Effective defense also requires awareness of the chain attacks available from the old school position, particularly the electric chair and back take, so that defensive reactions do not inadvertently expose you to worse positions.
+Defending the Old School Sweep requires immediate recognition of the sweep threat and systematic application of counter-pressure from the top position. As the top player caught in lockdown, your primary defensive tools are the whizzer, crossface shoulder pressure, and wide base positioning with your free leg. The defender must prevent the bottom player from combining all three sweep controls—lockdown tension, deep underhook, and head control—while systematically working to neutralize each element individually. Success depends on maintaining heavy hip pressure to prevent the sweeper from angling to their side, posting the free leg wide for maximum base stability, and timing your defensive adjustments to the sweeper's initiation rather than reacting after the sweep is already in motion. Understanding when to accept position and counter versus when to fight to maintain top control is critical for energy-efficient defense.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Old School]] (Bottom)
 
 </section>
 
@@ -162,11 +168,11 @@ Defending the Old School Sweep requires the top player in half guard to recogniz
 
 ## How to Recognize This Attack
 
-- Bottom player threads their inside arm deep under your far armpit, establishing a tight underhook with their hand reaching your shoulder blade or lat
-- Bottom player posts their outside foot flat on the mat behind their hips and begins bridging onto their shoulder to create a body angle
-- Bottom player's head drives into your chest on the underhook side while their hips lift off the mat, forming a tripod position with foot, shoulder, and head
-- You feel a strong pulling force from underneath as the bottom player's underhook draws your upper body forward while their posted leg drives into your far hip
-- Bottom player establishes lockdown on your trapped leg, removing your ability to post it for base and signaling imminent sweep or electric chair attempt
+- Opponent turns to their side toward the underhook, positioning shoulder under your center of gravity
+- Lockdown tension increases with rhythmic pumping extensions attempting to break your base incrementally
+- Opponent's head control arm pulls your head down and across while underhook tightens simultaneously
+- Opponent's chest drives into your chest seeking tight connection that prevents you from creating distance
+- Opponent's hips angle toward the underhook side rather than remaining flat, indicating sweep alignment is being established
 
 
 </section>
@@ -175,12 +181,12 @@ Defending the Old School Sweep requires the top player in half guard to recogniz
 
 ## Key Defensive Principles
 
-- Deny the deep underhook through active whizzer control and shoulder pressure before the bottom player can establish it
-- Maintain heavy hip-to-hip pressure and low base to prevent the bottom player from creating the 45-degree body angle needed for the sweep
-- Control the crossface position aggressively to limit the bottom player's ability to turn into you and generate sweeping momentum
-- Keep your trapped leg active by fighting to free it or posting it wide to maintain base when the sweep is initiated
-- Recognize that defending the sweep may open you to chain attacks like electric chair or back take, so maintain awareness of secondary threats
-- Use your free leg as a dynamic posting base, adjusting position to counterbalance any elevation or off-balancing from the bottom player
+- Establish deep whizzer immediately upon recognizing lockdown to control the underhook's rotational power
+- Drive heavy crossface pressure with your shoulder to flatten the bottom player and destroy their side angle
+- Post free leg wide with knee angled outward at 45 degrees for maximum base against rotational sweeps
+- Keep hips low and heavy on opponent's hips to prevent them from generating upward hip drive for the sweep
+- React to lockdown pumps by sprawling hips back to remove the extension leverage the sweeper needs
+- Neutralize controls systematically—strip head control first, then fight the underhook, then address the lockdown
 
 
 </section>
@@ -189,33 +195,40 @@ Defending the Old School Sweep requires the top player in half guard to recogniz
 
 ## Defensive Options
 
-### 1. Sprawl hips back and away while driving crossface pressure forward
+### 1. Drive deep whizzer and sprawl hips back to block rotation
 
-- **When to use**: As soon as you feel the bottom player bridge and begin creating the 45-degree angle, before they establish the full tripod position
-- **Targets**: [[Half Guard]]
-- **If successful**: Bottom player loses the angle and elevation needed for the sweep, returning to flat half guard bottom where you can resume passing
-- **Risk**: Sprawling too far back can allow bottom player to transition to deep half guard or electric chair, trading one threat for another
+- **When to use**: Immediately upon recognizing the opponent has secured underhook and is beginning to angle to their side for the sweep
+- **Targets**: [[Old School]]
+- **If successful**: Opponent's sweep angle is destroyed, underhook leverage is neutralized, and you maintain top position with ability to work toward passing
+- **Risk**: Committing too heavily to the whizzer can expose you to Electric Chair entry if opponent dives under your hips
 
-### 2. Post far hand on the mat and widen base to resist the sweeping direction
+### 2. Increase crossface pressure to flatten opponent onto their back
 
-- **When to use**: When the sweep is already in motion and you feel yourself being tipped, post immediately to prevent going over
-- **Targets**: [[Half Guard]]
-- **If successful**: You stabilize your base and prevent the sweep completion, maintaining top position and can work to re-establish heavy pressure
-- **Risk**: The posted arm becomes vulnerable to kimura attack, and shifting weight to the post can expose your back to a back take attempt
+- **When to use**: When opponent begins turning to their side but has not yet established full sweep alignment with shoulder under your center of gravity
+- **Targets**: [[Old School]]
+- **If successful**: Opponent is flattened and loses the geometric advantage needed for sweep, reducing their offensive options significantly
+- **Risk**: Crossface alone may not stop a committed sweep if lockdown tension is already high and underhook is deep
 
-### 3. Drive knee through to kill the angle and flatten the bottom player
+### 3. Post free hand on mat and widen base to resist rotational sweep
 
-- **When to use**: When the bottom player has established the underhook but has not yet posted their outside foot or created significant angle
-- **Targets**: [[Half Guard]]
-- **If successful**: You advance your knee past the bottom player's hip line, flattening them and potentially completing a knee slice pass to side control
-- **Risk**: If the bottom player maintains the underhook during the knee drive, they may use it to transition to deep half guard underneath you
+- **When to use**: As emergency defense when sweep initiation has already begun and you feel your base being compromised
+- **Targets**: [[Old School]]
+- **If successful**: Creates structural post that prevents rotation, buying time to re-establish whizzer and crossface controls
+- **Risk**: Posted hand may be attacked with kimura grip from bottom, and posting reduces your chest pressure on opponent
 
-### 4. Apply whizzer (overhook) on the underhook arm and drive shoulder pressure to neutralize the underhook
+### 4. Drive forward aggressively to flatten and pass to side control
 
-- **When to use**: Immediately when you feel the bottom player threading their arm for the underhook, before they can secure it deeply
-- **Targets**: [[Half Guard]]
-- **If successful**: The whizzer kills the underhook's effectiveness, removing the primary control mechanism for the sweep and allowing you to resume passing pressure
-- **Risk**: Overcommitting to the whizzer can create space on the opposite side that the bottom player exploits for guard recovery or alternative sweep entries
+- **When to use**: When opponent's lockdown tension drops or they release head control momentarily, creating a passing window
+- **Targets**: [[Side Control]]
+- **If successful**: Advance past half guard entirely, achieving side control and eliminating all lockdown-based threats
+- **Risk**: Forward drive can feed directly into sweep momentum if opponent's controls are still tight
+
+### 5. Strip head control arm and establish crossface before sweep can develop
+
+- **When to use**: Early in the position when opponent is still building controls and has not yet secured tight head wrap
+- **Targets**: [[Old School]]
+- **If successful**: Without head control, opponent cannot prevent you from posturing up, which removes most of the sweep's mechanical advantage
+- **Risk**: Fighting for the head control strip can create scramble opportunities that opponent may exploit
 
 
 
@@ -225,13 +238,13 @@ Defending the Old School Sweep requires the top player in half guard to recogniz
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Old School]]
 
-Sprawl hips back decisively when you feel the bridge initiation, combined with heavy crossface pressure to flatten the bottom player. Once their angle is destroyed and they return to flat position, immediately re-establish hip-to-hip pressure and resume your passing sequence before they can re-establish the underhook.
+Defend the sweep by establishing strong whizzer control, driving heavy crossface pressure to flatten the bottom player, and posting your free leg wide for maximum base stability. Once the sweep threat is neutralized, work systematically to strip the lockdown through hip pressure and ankle manipulation.
 
-### → [[Half Guard]]
+### → [[Side Control]]
 
-Apply an early whizzer to neutralize the underhook before the sweep can develop. Drive your shoulder into the bottom player's face while using the whizzer to peel their arm away from your body. Once the underhook is neutralized, transition to crossface and begin your preferred half guard passing sequence.
+Counter the sweep attempt by timing your forward drive with the moment the opponent releases lockdown tension or head control. Drive crossface pressure and advance past the half guard with a knee slice or smash pass to achieve dominant side control position.
 
 
 
@@ -241,30 +254,25 @@ Apply an early whizzer to neutralize the underhook before the sweep can develop.
 
 ## Common Defensive Mistakes
 
-### 1. Allowing the deep underhook without immediately contesting it with whizzer or shoulder pressure
+### 1. Raising hips high to try to escape the lockdown by pulling the trapped leg out forcefully
 
-- **Consequence**: Bottom player establishes the primary control needed for the sweep and gains access to the entire old school/electric chair/back take system
-- **Correction**: Contest every underhook attempt immediately by driving your shoulder down and applying whizzer pressure the moment you feel their arm threading underneath your armpit
+- **Consequence**: Creates massive space underneath that the bottom player uses to complete the sweep more easily, as the elevated hips remove your weight from their body and give them the upward angle they need
+- **Correction**: Keep hips low and heavy on opponent while working small technical adjustments to address the lockdown through ankle manipulation and hip pressure rather than forceful extraction
 
-### 2. Posting the far hand rigidly with a straight arm when being swept
+### 2. Failing to establish whizzer immediately upon recognizing the lockdown and underhook
 
-- **Consequence**: The posted arm becomes an easy target for kimura attack, and a rigid post can lead to wrist or shoulder injury if the sweep continues through
-- **Correction**: Post with a wide base using your palm flat and elbow slightly bent, and immediately work to recover your base rather than relying solely on the post as a static defense
+- **Consequence**: Allows opponent time to secure optimal angles and tighten all three controls before you have any defensive structure in place, making the sweep nearly unstoppable
+- **Correction**: Thread whizzer deep under armpit as soon as lockdown is felt, gripping your own thigh or opponent's hip to create immediate control over their underhook rotation
 
-### 3. Keeping hips high and weight off the bottom player when in half guard top
+### 3. Posting free leg too close to body with narrow base during sweep defense
 
-- **Consequence**: Creates space for the bottom player to easily establish the underhook, create body angle, and build the tripod position needed for the sweep
-- **Correction**: Maintain constant hip-to-hip pressure with your weight driving through your hips into the bottom player, making it difficult for them to create any angle or elevation
+- **Consequence**: Narrow base provides insufficient resistance to rotational sweep, allowing the bottom player to roll you with relatively little force
+- **Correction**: Post free leg wide with knee angled outward at approximately 45 degrees to create maximum base width and rotational resistance against the sweep
 
-### 4. Sprawling back without maintaining crossface when defending the sweep
+### 4. Reacting to the sweep only after it has already been initiated rather than preventing the setup
 
-- **Consequence**: Bottom player follows your retreat and transitions to deep half guard or electric chair, converting your defensive movement into an entry to an equally dangerous position
-- **Correction**: Always combine the sprawl with aggressive crossface pressure to flatten the bottom player and prevent them from following your hip movement with positional transitions
-
-### 5. Ignoring the trapped leg and not fighting to free it or post it for base
-
-- **Consequence**: The trapped leg becomes fully controlled by lockdown or leg entanglement, removing your primary base point and making the sweep nearly impossible to defend
-- **Correction**: Actively work to extract your trapped leg by driving your knee to the mat and angling your foot to slip free, or at minimum keep the leg active to post wide when the sweep is initiated
+- **Consequence**: Once the sweep motion begins with full controls and proper angle, defensive options become extremely limited and require much more force to counter
+- **Correction**: Defend proactively by disrupting the bottom player's setup phase—strip head control early, fight the underhook before it gets deep, and prevent them from turning to their side
 
 
 
@@ -274,17 +282,17 @@ Apply an early whizzer to neutralize the underhook before the sweep can develop.
 
 ## Training Progressions
 
-**Week 1-2: Recognition and Whizzer Basics** - Identifying sweep setup and establishing whizzer defense
-Partner slowly establishes underhook from half guard bottom. Practice recognizing the underhook attempt and immediately applying whizzer control with shoulder pressure. Focus on timing the whizzer application before the underhook gets deep. Drill maintaining heavy hip pressure throughout.
+**Phase 1: Recognition** - Identifying Sweep Setup and Timing Cues
+Partner establishes Old School position at slow speed while you identify each control point as it is established. Practice recognizing lockdown tension changes, underhook depth, and the critical moment when opponent turns to their side. No resistance—focus purely on sensory awareness and cue identification.
 
-**Week 3-4: Active Sweep Defense** - Defending the sweep in motion with posting and sprawling
-Partner executes old school sweep at 50% speed with increasing resistance. Practice the sprawl-and-crossface combination when the sweep initiates. Drill posting the far hand with proper bent-elbow technique while recovering base. Work on freeing the trapped leg during sweep attempts.
+**Phase 2: Defensive Structure** - Establishing Whizzer, Crossface, and Base
+Drill the defensive structure sequence: whizzer first, then crossface, then wide base posting. Partner provides 30-40% resistance sweep attempts while you practice establishing all three defensive elements in rapid sequence. Focus on the speed of defensive setup rather than holding against full power.
 
-**Week 5-8: Chain Attack Awareness** - Defending sweep while avoiding secondary attacks
-Partner chains old school sweep with electric chair and back take attempts based on your defensive reactions. Practice recognizing which secondary attack your defense opens and adjusting accordingly. Develop awareness of the full offensive system so defensive choices do not create worse positions.
+**Phase 3: Counter-Offense** - Transitioning from Defense to Passing
+After successfully defending the sweep attempt, immediately transition to passing attacks. Practice recognizing when the bottom player's controls loosen post-failed sweep and capitalizing with knee slice or smash pass. Partner provides 50-60% resistance and alternates between sweep attempts and guard recovery.
 
-**Week 9-12: Live Positional Sparring** - Full resistance half guard top defense against sweep specialists
-Positional sparring starting in half guard top against partners who actively hunt the old school sweep. Focus on maintaining dominant top position through proactive underhook denial, heavy pressure, and appropriate defensive reactions. Integrate passing attempts with sweep defense to maintain offensive initiative.
+**Phase 4: Live Positional Sparring** - Full Resistance Defense and Counter
+Start in Old School top position against full resistance sweep attempts. Practice the complete defensive cycle: recognize, defend, counter, advance. Progressive resistance from 70% to 100%. Reset after successful sweep, pass, or submission. Develop the ability to stay calm and systematic under real sweep pressure.
 
 
 
@@ -295,20 +303,20 @@ Positional sparring starting in half guard top against partners who actively hun
 
 ## Test Your Knowledge
 
-**Q1**: What is the earliest point at which you can shut down the old school sweep attempt?
-**A**: The earliest and most effective intervention is denying the deep underhook entirely. Apply whizzer control and shoulder pressure the moment you feel the bottom player threading their arm under your armpit. Without the underhook, the entire old school sweep system cannot function.
+**Q1**: What are the earliest recognition cues that the Old School Sweep is being initiated?
+**A**: The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion.
 
-**Q2**: Why is sprawling back alone insufficient as a defense against the old school sweep?
-**A**: Sprawling back without crossface pressure allows the bottom player to follow your retreating hips and transition into deep half guard or electric chair position. Your backward movement actually assists their entry into these positions. The sprawl must always be combined with aggressive crossface to flatten the bottom player and prevent positional transitions.
+**Q2**: How should you distribute your weight to maximize sweep resistance from Old School top?
+**A**: Drive your weight forward and downward through your chest into the opponent's sternum, keeping hips low and heavy against their hips. Your crossface shoulder should create uncomfortable pressure across their face and neck. The free leg posts wide with knee out at 45 degrees for base. Weight should come from body positioning and gravity rather than muscular effort—this creates sustainable pressure that exhausts the bottom player while conserving your own energy for defensive adjustments.
 
-**Q3**: Your opponent has a deep underhook and begins to post their outside foot - what is your defensive priority?
-**A**: Your immediate priority is to sprawl your hips back and drive heavy crossface pressure to destroy the angle before they can complete the tripod. Simultaneously, fight to free your trapped leg by driving your knee to the mat. If the sweep is already in motion, post your far hand wide with a bent elbow while working to recover base, but be aware this exposes the arm to kimura.
+**Q3**: Your opponent has deep underhook and head control with tight lockdown - what is your highest-priority defensive action?
+**A**: Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt.
 
-**Q4**: How does defending the old school sweep create vulnerability to the electric chair?
-**A**: When you sprawl back to defend the old school sweep, you create space that allows the bottom player to split your legs apart for the electric chair submission. The same underhook and lockdown that power the sweep also serve as the control structure for the electric chair. Effective defense requires neutralizing the underhook itself rather than just retreating from the sweep angle.
+**Q4**: When is the critical moment to sprawl your hips during sweep defense?
+**A**: The critical moment to sprawl is when you feel the lockdown pump—the extension of their legs that precedes the sweep initiation. This pump is the bottom player generating the off-balance that makes the sweep possible. By sprawling your hips back at the moment of the pump, you remove the leverage they need and prevent the weight shift they are trying to create. Sprawling too early wastes energy, while sprawling too late means the sweep momentum may already be unstoppable.
 
-**Q5**: What are the risks of posting your far hand as a sweep defense?
-**A**: Posting the far hand creates two significant vulnerabilities: the posted arm becomes an easy target for a kimura attack since it is extended and weight-bearing, and shifting your weight to the post can expose your back to a back take as the bottom player uses their underhook to circle behind you. Always treat the post as a temporary measure and immediately work to recover proper base.
+**Q5**: If you successfully defend the Old School Sweep, what offensive opportunity opens up?
+**A**: Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls.
 
 
 

@@ -1,10 +1,14 @@
 {
   "name": "Pass Half Butterfly",
-  "description": "TODO: Write 150-160 character SEO description for Pass Half Butterfly.",
+  "description": "Master the Pass Half Butterfly guard pass in BJJ. Learn to neutralize the butterfly hook and complete the pass to side control with systematic technique.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "guard-pass",
+    "half-butterfly",
+    "pressure-passing",
+    "top-game",
+    "hook-neutralization"
   ],
   "from_position": "Half Butterfly/Top",
   "outcomes": [
@@ -25,114 +29,393 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Pass Half Butterfly.",
+  "overview": "Passing the Half Butterfly guard requires systematic neutralization of the butterfly hook's lifting mechanics while maintaining enough upper body pressure to prevent guard recovery. The butterfly hook in half butterfly creates a powerful elevation tool that the bottom player uses to generate sweeps and off-balance the passer. The top player's primary challenge is removing this hook's effectiveness without sacrificing the crossface or underhook control needed to prevent the bottom player from recovering full butterfly guard or transitioning to deep half.\n\nThe pass typically involves driving weight forward and low to reduce the hook's leverage, establishing crossface or underhook dominance, and then methodically clearing the hook through hip positioning, leg weaving, or smash mechanics. Unlike passing standard half guard where the primary obstacle is extracting the trapped leg, passing half butterfly demands simultaneous management of the trapped leg retention and active butterfly hook threat. This dual-threat structure from the bottom player makes the pass technically demanding and requires precise timing in weight distribution shifts.\n\nStrategically, Pass Half Butterfly sits at a critical juncture in modern guard passing chains. Many passing sequences through butterfly-based guards funnel into this position when one hook has been cleared but the second remains active. The passer who understands how to read the bottom player's hook engagement and respond with appropriate weight shifts and angle changes can reliably convert this transitional moment into a completed pass. Failure to address the hook systematically often results in sweep attempts that catch even experienced passers off guard.",
   "conditions": [
-    "TODO"
+    "Top player has established upper body control through crossface, underhook, or collar grip from half butterfly top",
+    "Bottom player retains one active butterfly hook with lifting capability under top player's thigh",
+    "Top player has sufficient base and forward pressure to begin pass sequence without being immediately swept",
+    "Bottom player's half guard leg entanglement has been partially addressed or is manageable during the pass attempt",
+    "Top player's hips are positioned low enough to reduce butterfly hook leverage before committing to the pass"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Leg Weave Pass Variation",
+      "description": "Thread the free leg over and around the butterfly hook, pinning it to the mat with shin pressure while maintaining crossface control. The leg weave traps the hook mechanically rather than through weight alone, allowing the passer to complete the pass even against strong hook retention.",
+      "when_to_use": "When the bottom player maintains a stubborn butterfly hook that resists weight-based neutralization and the passer has sufficient space to thread the leg over"
+    },
+    {
+      "variant_name": "Smash Pass Variation",
+      "description": "Drive heavy hip pressure directly onto the butterfly hook side, collapsing the bottom player's knee to the mat and eliminating the hook's elevation angle. Uses overwhelming downward force through the hips combined with crossface pressure to flatten the bottom player before sliding through to side control.",
+      "when_to_use": "Against bottom players who rely on hip elevation for sweeps and when the passer has strong crossface control established"
+    },
+    {
+      "variant_name": "Backstep Clearing Variation",
+      "description": "Instead of driving forward through the hook, backstep the free leg around the butterfly hook entirely, changing the angle of attack. The passer circles their hips away from the hook while maintaining upper body connection, arriving at a passing angle where the hook has no leverage.",
+      "when_to_use": "When forward pressure is being used against you by the bottom player to generate sweep momentum, or when the hook is too deeply inserted for direct neutralization"
     }
   ],
-  "position_integration": "TODO: Write position integration for Pass Half Butterfly.",
+  "position_integration": "Pass Half Butterfly occupies a critical position in the guard passing hierarchy, serving as the bridge between initial butterfly guard engagement and achieving a dominant top position. This technique connects directly to the broader half guard passing system, as many knee slice and pressure pass sequences route through half butterfly when the bottom player retains one hook during the pass attempt. Mastery of this pass is essential for any systematic top game, as butterfly-based guards are among the most common defensive structures in modern competition. The pass chains naturally with leg weave passes, smash passes, and backstep sequences, creating a comprehensive passing network that accounts for the bottom player's defensive reactions and guard recovery attempts.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Half Butterfly",
+      "relationship": "Source position from which this pass is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position on successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Related position that the bottom player may recover if pass partially fails"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Parent guard system sharing butterfly hook mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common escape destination for the bottom player during pass attempts"
+    },
+    {
+      "name": "Smash Half Butterfly",
+      "relationship": "Alternative pressure-based passing technique from same position"
+    },
+    {
+      "name": "Knee Slice from Butterfly Half",
+      "relationship": "Complementary passing technique that chains with this pass"
+    },
+    {
+      "name": "Half Butterfly Sweep",
+      "relationship": "Primary counter-technique the bottom player threatens during the pass"
+    },
+    {
+      "name": "Half Butterfly to Dogfight",
+      "relationship": "Bottom player's transition option if they establish underhook during pass"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related passing hub position for managing open guard transitions"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative guard the bottom player may transition to during defense"
+    },
+    {
+      "name": "Body Lock Pass",
+      "relationship": "Alternative passing method applicable from similar positions"
     }
   ],
   "attacker": {
     "name": "Pass Half Butterfly Attacker",
-    "description": "TODO: Write attacker description for Pass Half Butterfly.",
-    "overview": "TODO: Write attacker overview for Pass Half Butterfly.",
+    "description": "Complete guide to executing the Pass Half Butterfly in BJJ. Step-by-step hook neutralization, weight distribution, and passing mechanics to reach side control from half butterfly top.",
+    "overview": "As the attacker executing the Pass Half Butterfly, your objective is to systematically neutralize the bottom player's butterfly hook while maintaining upper body control, then complete the pass to side control. The critical insight is that the butterfly hook only generates dangerous lifting power when your weight is positioned directly above it. By shifting your center of gravity forward onto the bottom player's chest and driving your hips low and away from the hook's optimal fulcrum point, you reduce the hook to a passive obstacle rather than an active threat. The pass requires patience and sequential progression through control establishment, hook neutralization, and pass completion rather than explosive forcing through the guard.",
     "key_principles": [
-      "TODO"
+      "Drive chest weight forward and hips low to shift the load away from the butterfly hook's optimal leverage point near the thigh",
+      "Establish crossface before attempting to clear the hook, as head control prevents the bottom player from creating sweep angles",
+      "Neutralize the hook through hip positioning and weight distribution rather than trying to physically strip it with your hands",
+      "Maintain constant forward pressure throughout the pass sequence to prevent the bottom player from reloading the hook with hip elevation",
+      "Control the underhook battle on the butterfly hook side to prevent the bottom player from establishing the primary offensive grip",
+      "Complete the pass by sliding the knee through only after the hook has been rendered ineffective through proper weight placement"
     ],
     "setup_requirements": [
-      "TODO"
+      "Crossface or strong head control established preventing the bottom player from turning toward you",
+      "Forward chest pressure applied reducing the butterfly hook's ability to generate elevation",
+      "Wide base with knees spread providing stability against sweep attempts during the pass",
+      "Near-side arm controlling the bottom player's hip or underhook to prevent guard recovery sequences",
+      "Hips positioned low and heavy to minimize the mechanical advantage of the butterfly hook"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish crossface control",
+        "description": "Drive your forearm or bicep across the bottom player's face and neck, turning their head away from you. This prevents them from creating the angle needed for butterfly sweeps and establishes the primary control point for the entire pass sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Drop weight forward onto chest",
+        "description": "Shift your center of gravity forward so your chest drives heavily into the bottom player's upper body. Keep your hips low and heavy. This weight transfer reduces the butterfly hook's lifting power by moving the load away from the hook's optimal elevation point near your thigh."
+      },
+      {
+        "step_number": 3,
+        "action": "Widen base and sprawl hips",
+        "description": "Spread your knees wide to create a stable platform that resists the bottom player's off-balancing attempts. Sprawl your hips slightly to flatten your weight distribution and further reduce the hook's ability to generate the upward force needed for sweeps."
+      },
+      {
+        "step_number": 4,
+        "action": "Neutralize the butterfly hook",
+        "description": "Using hip pressure and leg positioning, drive the butterfly hook toward the mat by angling your hip down on the hook side. You can weave your free leg over the hook, backstep around it, or use direct hip pressure to collapse the bottom player's knee inward, eliminating the hook's structural integrity."
+      },
+      {
+        "step_number": 5,
+        "action": "Block hip and prevent reguard",
+        "description": "With your near-side hand, block the bottom player's far hip to prevent them from shrimping away or inserting a knee shield. Maintain constant connection between your hip and their hip on the passing side, eliminating the space they need for any guard recovery or transition to deep half guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Slide knee through to complete pass",
+        "description": "Once the hook is neutralized and hip control is established, slide your trapped knee through the bottom player's leg entanglement while maintaining heavy chest pressure. Drive your knee to the mat on the far side of their hip, completing the pass to side control with crossface still in place."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control",
+        "description": "Immediately establish perpendicular chest-to-chest contact with your hips heavy on the bottom player's hips. Maintain crossface control and secure the far-side underhook or hip block to prevent any late guard recovery attempts. Settle your weight to complete the transition to stable side control."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Bottom player elevates butterfly hook for sweep attempt during weight transfer",
+        "effectiveness": "High",
+        "your_response": "Immediately widen base and drive hips toward the mat while increasing crossface pressure. If the elevation has significant momentum, post your far hand momentarily to stabilize, then immediately return to chest pressure once the sweep attempt stalls.",
         "targets_outcome": "Half Butterfly/Top"
+      },
+      {
+        "counter": "Bottom player establishes underhook and begins to come up to dogfight position",
+        "effectiveness": "High",
+        "your_response": "Apply heavy overhook or whizzer on the underhook arm while driving shoulder pressure down to prevent them from rising. If they continue climbing, sprawl hips back and circle toward their back to take advantage of their committed body angle.",
+        "targets_outcome": "Half Butterfly/Top"
+      },
+      {
+        "counter": "Bottom player dives underneath for deep half guard entry during pass attempt",
+        "effectiveness": "Medium",
+        "your_response": "Keep hips heavy and inside knee positioned to block their head from shooting underneath. When you feel the dive, immediately flatten your weight forward and drive your hips down to prevent them from completing the deep half entry. Reestablish crossface and restart pass.",
+        "targets_outcome": "Half Butterfly/Top"
+      },
+      {
+        "counter": "Bottom player frames and shrimps to create distance for guard recovery",
+        "effectiveness": "Medium",
+        "your_response": "Follow the shrimp with constant forward pressure and close the distance immediately. Use your near hand to control their hip and prevent further hip escape. If they create enough space to insert a knee shield, address it with a smash pass or backstep before restarting the half butterfly pass.",
+        "targets_outcome": "Half Butterfly/Top"
+      },
+      {
+        "counter": "Bottom player times a hook sweep during the moment you slide your knee through",
+        "effectiveness": "High",
+        "your_response": "Ensure the hook is fully neutralized before attempting to slide through. If caught mid-transition, post your far hand and sprawl immediately to abort the pass. Return to heavy top pressure and restart the hook neutralization sequence before attempting the knee slide again.",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to strip the butterfly hook with hands instead of neutralizing it through weight and hip positioning",
+        "consequence": "Removes a control point from the upper body, allowing the bottom player to create frames or establish underhook while the passer is occupied with the leg",
+        "correction": "Neutralize the hook through body mechanics: drive hips low, shift weight forward onto chest, and collapse the hook's angle through hip pressure rather than manual stripping"
+      },
+      {
+        "error": "Keeping weight too high on the torso without hip-to-hip connection",
+        "consequence": "Butterfly hook retains full mechanical advantage and can generate powerful elevation for sweeps, making the pass nearly impossible to complete",
+        "correction": "Drive hips low and maintain hip-to-hip contact on the passing side while keeping chest pressure forward on the upper body"
+      },
+      {
+        "error": "Rushing the knee slide through before the butterfly hook is fully neutralized",
+        "consequence": "Bottom player uses the remaining hook leverage to elevate and sweep during the vulnerable transition moment when the passer's base is narrowest",
+        "correction": "Confirm the hook is fully ineffective by testing with a slight weight shift before committing to the knee slide. If the hook can still generate any lift, continue the neutralization phase"
+      },
+      {
+        "error": "Neglecting crossface control while focusing on the lower body pass mechanics",
+        "consequence": "Bottom player turns into the passer, creates sweep angles, or recovers underhook position that enables offensive guard play",
+        "correction": "Establish and maintain crossface as the primary control point throughout the entire pass sequence. The crossface prevents the angles needed for all bottom player offenses"
+      },
+      {
+        "error": "Using a narrow base with knees close together during the pass attempt",
+        "consequence": "Unstable platform easily tipped by even moderate butterfly hook elevation, dramatically increasing sweep vulnerability",
+        "correction": "Maintain a wide base throughout the pass with knees spread to create a stable platform that distributes force across a broader surface area"
+      },
+      {
+        "error": "Allowing the bottom player to recover second butterfly hook during failed pass attempt",
+        "consequence": "Returns to full butterfly guard where the bottom player has both hooks active and significantly more sweeping options",
+        "correction": "If the first pass attempt fails, immediately reestablish heavy top pressure and prevent the second hook insertion before reattempting. Never allow space for both hooks to engage simultaneously"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Weight Distribution Mechanics",
+        "focus": "Understanding how body positioning affects butterfly hook leverage",
+        "description": "Practice settling weight from half butterfly top with a cooperative partner. Experiment with different chest pressure angles, hip heights, and base widths to feel how each adjustment changes the hook's ability to generate lift. Partner provides feedback on when the hook feels strong versus neutralized."
+      },
+      {
+        "phase": "Phase 2: Hook Neutralization Drills",
+        "focus": "Systematic methods for eliminating the butterfly hook's effectiveness",
+        "description": "Drill three hook neutralization methods in isolation: hip smash, leg weave, and backstep. Partner maintains one butterfly hook with 50% resistance while you practice each method. Build reliable mechanics for each variation before combining them into sequences."
+      },
+      {
+        "phase": "Phase 3: Complete Pass Sequences",
+        "focus": "Connecting hook neutralization to pass completion under progressive resistance",
+        "description": "Execute the full pass from crossface establishment through hook neutralization to side control consolidation. Partner increases resistance from 50% to 80%. Focus on smooth sequential progression rather than rushing any phase. Reset after each attempt to build clean repetitions."
+      },
+      {
+        "phase": "Phase 4: Chain Passing Integration",
+        "focus": "Linking Pass Half Butterfly with alternative passes based on defensive reactions",
+        "description": "Partner defends freely with all half butterfly retention tools. Chain the pass with smash pass, backstep, and leg weave variations based on which defense the bottom player employs. Develop automatic pattern recognition and appropriate passing response selection under live conditions."
+      },
+      {
+        "phase": "Phase 5: Competition Simulation",
+        "focus": "Executing the pass under full resistance with fatigue and time pressure",
+        "description": "Positional sparring rounds starting from half butterfly top with full resistance. Score points for completed passes, deduct for sweeps. Simulate match pressure by adding time constraints and fatigue to develop reliable execution under competitive conditions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical weight distribution adjustment to neutralize the butterfly hook before initiating the pass?",
+        "answer": "Drive your chest weight forward onto the bottom player's upper body while simultaneously dropping your hips low and heavy. This shifts the load away from the hook's optimal fulcrum point near your thigh and onto the bottom player's chest where the hook has minimal mechanical advantage. The key insight is that the hook generates power through hip elevation against weight positioned above it, so moving your center of gravity forward and low removes the conditions the hook needs to function."
+      },
+      {
+        "question": "Your opponent elevates their butterfly hook with strong hip extension mid-pass - how do you respond immediately?",
+        "answer": "Immediately widen your base by spreading your knees outward to increase your support surface area, making you harder to tip. Simultaneously drive your hips toward the mat and increase crossface pressure to pin their upper body. If the elevation has significant momentum, post your far hand briefly to stabilize, then return to chest pressure once the sweep attempt stalls. Never fight the elevation with your upper body alone, as the hook's mechanical advantage from below will overcome arm strength."
+      },
+      {
+        "question": "What grip and control points must be established before you commit to sliding your knee through?",
+        "answer": "You need three control points secured before committing: crossface controlling the bottom player's head position and preventing them from creating sweep angles, near-side hand blocking their far hip to prevent shrimping and knee insertion, and your hips low and heavy enough that the butterfly hook cannot generate meaningful elevation. Without all three, the knee slide creates a vulnerability window where the bottom player can sweep or recover guard."
+      },
+      {
+        "question": "Why is hand-stripping the butterfly hook a common error, and what should you do instead?",
+        "answer": "Hand-stripping removes a control point from the upper body, giving the bottom player freedom to establish underhook, create frames, or initiate guard recovery while the passer is occupied with the leg. Instead, neutralize the hook through body mechanics by driving hips low on the hook side, collapsing the hook's angle through hip pressure, or weaving your leg over the hook. These methods address the hook while maintaining all upper body control points intact."
+      },
+      {
+        "question": "How do you prevent the bottom player from transitioning to deep half guard during your pass attempt?",
+        "answer": "Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them beginning to turn away and thread their arm under your hips, immediately flatten your weight forward and drive your hips down to eliminate the space they need to enter deep half. Maintaining constant chest pressure and crossface prevents them from creating the angle required for the deep half entry in the first place."
+      },
+      {
+        "question": "What is the optimal timing window for initiating the knee slide through the guard?",
+        "answer": "The optimal window is after the butterfly hook has been fully neutralized through weight distribution and hip pressure, but before the bottom player can reload the hook with a new hip elevation cycle. Test the hook's status by slightly shifting weight toward the pass side. If you feel no upward resistance from the hook, the window is open. If there is any remaining lift, continue the neutralization phase. Rushing this timing is the most common cause of failed pass attempts."
+      },
+      {
+        "question": "Your opponent gets an underhook and starts rising toward dogfight position mid-pass - what technique chain addresses this?",
+        "answer": "Apply heavy overhook or whizzer control on their underhook arm while driving your shoulder weight downward to prevent them from completing the rise. If they continue climbing despite the whizzer, sprawl your hips back aggressively and begin circling toward their exposed back. The underhook commitment that creates dogfight position also exposes their back angle. If they abandon the underhook to defend the back take, immediately return to heavy forward pressure and restart the pass sequence."
+      },
+      {
+        "question": "How should you adjust the pass when the bottom player maintains a very deep butterfly hook that resists direct hip pressure?",
+        "answer": "When the hook is deeply inserted and resists standard hip pressure neutralization, switch to the backstep variation. Instead of driving through the hook, circle your hips away from it while maintaining upper body connection through the crossface. The backstep changes the angle of engagement so the hook points away from your center of gravity, eliminating its leverage entirely. Alternatively, use the leg weave variation by threading your free leg over and around the hook to pin it mechanically to the mat."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Pass Half Butterfly."
+    "safety_considerations": "Pass Half Butterfly is a relatively low-risk transition with no direct joint manipulation or choking mechanics. The primary safety concern is maintaining controlled weight distribution to avoid dropping excessive weight suddenly onto the bottom player's ribs or face during crossface application. Practitioners should communicate about pressure levels during drilling. Knee injuries can occur if the passer's trapped knee twists during the extraction phase, so the knee slide should follow a straight path without lateral torque. The bottom player should tap if they feel any sharp knee discomfort from the passing pressure. Both partners should be aware that sudden sweep attempts during live drilling can cause the top player to land awkwardly."
   },
   "defender": {
     "name": "Pass Half Butterfly Defender",
-    "description": "TODO: Write defender description for Pass Half Butterfly.",
-    "overview": "TODO: Write defender overview for Pass Half Butterfly.",
+    "description": "Complete guide to defending the Pass Half Butterfly in BJJ. Recognition cues, defensive options, sweep counters, and guard retention strategies from half butterfly bottom.",
+    "overview": "Defending the Pass Half Butterfly requires recognizing the passer's intent to neutralize your butterfly hook and responding with proactive guard retention, sweep attempts, or transitions to alternative guard positions before they establish the weight distribution needed to complete the pass. Your butterfly hook is your primary weapon, and the defender's core strategy is maintaining the conditions that keep this hook active: hip mobility, space for elevation, and an angle that allows the hook to generate lift. The moment you feel the passer driving their weight forward and low to collapse the hook, you must decide whether to fight for hook retention, attempt an immediate sweep before control is established, or transition to an alternative guard position like deep half or dogfight where you maintain offensive capability.",
     "key_principles": [
-      "TODO"
+      "Maintain active butterfly hook engagement with constant upward pressure to prevent the passer from settling their weight into the neutralization position",
+      "Fight aggressively for the underhook on the hook side as it provides the primary platform for sweeps and prevents the passer from establishing crossface dominance",
+      "Never allow your back to flatten completely to the mat, as staying on your side preserves the hip mobility needed for both sweeps and guard transitions",
+      "Recognize the pass attempt early through weight distribution changes and respond before the passer completes their setup rather than reacting after control is established",
+      "Create constant offensive threats through sweep attempts and angle changes to force the passer into defensive reactions that interrupt their passing sequence",
+      "Have predetermined escape routes to deep half, dogfight, or full butterfly guard ready to execute when hook retention becomes untenable"
     ],
     "recognition_cues": [
-      "TODO"
+      "Passer begins driving chest weight forward and downward onto your upper body with increased pressure intensity, signaling the start of hook neutralization",
+      "Passer's hips drop noticeably lower and heavier on your butterfly hook side, reducing the space available for hip elevation and sweep mechanics",
+      "Passer establishes or strengthens crossface control, turning your head away and limiting your ability to create the angle needed for effective hook engagement",
+      "Passer widens their base by spreading knees apart, creating a more stable platform designed to resist your sweep attempts during the pass",
+      "Passer's near-side hand moves to block your far hip, indicating they are preparing to prevent your shrimping and guard recovery options"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Immediate butterfly hook elevation and sweep attempt before passer's weight settles",
+        "when_to_use": "Early in the pass sequence when you first recognize the passer shifting weight forward but before crossface and hip pressure are fully established",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Sweep the passer and end up in top position, reversing the positional hierarchy completely",
+        "risk": "If the sweep fails because the passer anticipated it, you may lose the hook entirely as they capitalize on your committed hip extension"
+      },
+      {
+        "action": "Frame against shoulder and shrimp to maintain space and reload butterfly hook",
+        "when_to_use": "When the passer has begun settling weight but has not yet completed hook neutralization, and you need to create space to re-engage the hook",
         "targets_outcome": "Half Butterfly/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Reset the guard position by creating enough space to reload the butterfly hook with active hip elevation capability",
+        "risk": "Framing exposes your arms to potential grip attacks, and if the shrimp is insufficient, the passer follows and achieves even heavier pressure"
+      },
+      {
+        "action": "Transition to deep half guard by diving underneath the passer",
+        "when_to_use": "When the passer has established heavy forward pressure that makes butterfly hook retention impossible, but has committed their weight forward enough to create space underneath",
+        "targets_outcome": "Half Butterfly/Top",
+        "if_successful": "Escape to deep half guard where you have superior sweeping angles and the passer must restart their passing approach entirely",
+        "risk": "If the deep half entry is blocked by the passer's knee or hip position, you may end up flattened with even less defensive structure"
+      },
+      {
+        "action": "Establish underhook and rise to dogfight position",
+        "when_to_use": "When the passer's weight shifts create an opening for your arm to thread underneath for the underhook, particularly during their hook neutralization phase",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Reach dogfight position where you have equal or superior positioning with opportunities for sweeps and back takes",
+        "risk": "If the passer counters with a strong whizzer or drives you back down, you may lose the underhook and end up worse than before the attempt"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a butterfly hook sweep during the passer's weight transfer phase, coordinating hip elevation with upper body grip control to generate enough off-balancing force to complete the reversal before the passer can stabilize their base"
+      },
+      {
+        "outcome": "Half Butterfly/Top",
+        "how": "Maintain active hook engagement through constant hip movement and angle changes, preventing the passer from ever establishing the stable weight distribution needed to neutralize the hook. Use frames and shrimps to repeatedly create space when pressure increases, resetting the guard position before the pass can progress"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing the butterfly hook to become passive without active upward pressure",
+        "consequence": "Passer settles their weight onto the hook, collapsing it to the mat and eliminating all sweep threats, making the pass completion straightforward",
+        "correction": "Maintain constant active engagement through the hook with periodic hip elevation attempts even when not executing a full sweep, keeping the passer reactive to the threat"
+      },
+      {
+        "error": "Staying flat on your back instead of maintaining a side angle toward the passer",
+        "consequence": "Loses all hip mobility needed for sweeps and guard transitions, and allows the passer to establish heavy chest-to-chest pressure that pins you to the mat",
+        "correction": "Stay on your side with shoulders angled toward the passer at all times. Use continuous small hip escape motions to prevent flattening and maintain the mobility needed for offensive and defensive actions"
+      },
+      {
+        "error": "Waiting too long to react to the pass attempt instead of responding at early recognition cues",
+        "consequence": "Passer completes their setup with crossface, hip pressure, and base established, making defensive responses significantly harder and lower percentage",
+        "correction": "React immediately when you feel the first weight shift forward by either attacking with a sweep, creating space with frames, or transitioning to an alternative guard before the passer's control is consolidated"
+      },
+      {
+        "error": "Abandoning the half guard leg control while focusing on defending the butterfly hook side",
+        "consequence": "Passer extracts the trapped leg freely and passes directly to side control without needing to address the hook at all",
+        "correction": "Maintain coordinated leg engagement on both sides. The half guard squeeze and butterfly hook work as a unified system that must be maintained simultaneously to create the dual threat that makes defense effective"
+      },
+      {
+        "error": "Using only arm strength to resist the pass without hip involvement",
+        "consequence": "Arms fatigue rapidly under the passer's body weight, defensive frames collapse, and the passer completes the pass against exhausted resistance",
+        "correction": "Drive all defensive and offensive actions from hip movement and skeletal structure. Arms create frames and manage grips, but the power for sweeps and space creation comes from hip escapes and hook elevation"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that indicate the passer is initiating the Pass Half Butterfly?",
+        "answer": "The earliest cues are the passer driving their chest weight noticeably forward and downward onto your upper body while simultaneously dropping their hips lower on the butterfly hook side. You will also feel increased crossface pressure as they try to control your head position, and their base may widen as they spread their knees for stability. Recognizing these weight distribution changes before the setup is complete gives you the maximum window for defensive response."
+      },
+      {
+        "question": "Your butterfly hook is being systematically collapsed by the passer's hip pressure - what are your two best escape routes?",
+        "answer": "The two best escape routes when hook retention becomes untenable are transitioning to deep half guard or rising to dogfight position. For deep half, thread your outside arm under the passer's hips and invert your angle, using their committed forward weight against them to enter underneath. For dogfight, fight for the underhook on the hook side and use it to climb up to a neutral kneeling position where you have equal leverage. The choice depends on the passer's weight commitment: heavy forward pressure favors deep half, while lighter pressure favors the underhook rise."
+      },
+      {
+        "question": "How should you coordinate your butterfly hook and half guard legs to maximize defensive effectiveness against this pass?",
+        "answer": "The legs must work as an integrated system rather than independently. While the butterfly hook maintains upward pressure and sweep threat, the half guard legs maintain squeeze on the trapped leg to prevent extraction. When attempting a sweep, tighten the half guard squeeze simultaneously with the hook elevation to create a dual-vector force that removes the passer's base from both sides. If defending, use the half guard legs to anchor while the hook creates space. Losing coordination between the two allows the passer to address each threat individually."
+      },
+      {
+        "question": "What is the optimal timing for attempting a sweep counter during the Pass Half Butterfly?",
+        "answer": "The optimal sweep timing is during the passer's weight transfer phase, specifically the moment they shift from stable top pressure to forward driving pressure for hook neutralization. This transition creates a brief window where their base is narrowest and their weight is moving in a direction you can redirect. Attempting sweeps before the pass starts wastes the element of surprise, while attempting after the passer has settled their weight faces maximum resistance. Reading the weight shift and attacking during the transition maximizes sweep percentage."
+      },
+      {
+        "question": "The passer has established crossface and their weight is heavily committed forward - which defensive option gives you the best chance of recovery?",
+        "answer": "With heavy forward weight commitment and established crossface, the deep half entry is your highest-percentage option. The passer's forward weight actually assists your entry by creating momentum you can redirect underneath them. Thread your outside arm under their hips, turn your body away from the crossface direction, and use a hip escape to shoot your head underneath their center of gravity. Their committed forward pressure makes it difficult for them to retract fast enough to block the entry if you execute it with timing and commitment."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Awareness",
+        "focus": "Identifying pass initiation cues through weight and pressure changes",
+        "description": "Partner executes the pass at slow speed while you focus exclusively on feeling the weight distribution changes that signal each phase. Call out each cue verbally as you feel it: weight shift, crossface establishment, hip drop, base widening. Build awareness of the pass timeline without attempting any defense yet."
+      },
+      {
+        "phase": "Phase 2: Individual Defensive Responses",
+        "focus": "Drilling each defensive option in isolation with cooperative resistance",
+        "description": "Practice each defensive option separately: sweep counter, frame and shrimp reset, deep half transition, and underhook rise to dogfight. Partner initiates the pass at 40% speed and resistance while you execute the designated defense. Build reliable mechanics for each option before combining them."
+      },
+      {
+        "phase": "Phase 3: Decision-Based Defense",
+        "focus": "Selecting the appropriate defense based on the passer's specific actions",
+        "description": "Partner varies their passing approach randomly between pressure pass, backstep, and leg weave variants. You must read which approach they are using and select the most appropriate defensive response in real time. Partner increases speed and resistance progressively as your recognition improves."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance defense with all options available",
+        "description": "Positional sparring from half butterfly bottom with full resistance. Score points for successful sweeps, guard retention beyond two minutes, or transitions to offensive guard positions. Develop composure and reliable defensive responses under competitive pressure and fatigue."
       }
     ]
   }

@@ -205,13 +205,13 @@ The Twister Finish from Russian Cowboy represents the terminal submission pathwa
 
 - [[Back Take]] - Positional alternative when Twister defense is too strong
 
-- [[Electric Chair Submission]] - Related 10th Planet system submission from similar leg entanglement
+- [[Electric Chair Finish]] - Related 10th Planet system submission from similar leg entanglement
 
-- [[Rear Naked Choke]] - Alternative high-percentage finish from Russian Cowboy back control
+- [[Russian Cowboy RNC]] - Alternative high-percentage finish from Russian Cowboy back control
 
 - [[Lockdown]] - Bottom half guard position that feeds into the Twister system
 
-- [[Twister]] - Parent submission that this transition finishes
+- [[Twister from Twister SC]] - Parent submission that this transition finishes
 
 
 </section>

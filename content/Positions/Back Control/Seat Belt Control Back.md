@@ -95,15 +95,25 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Hand Fighting from Back]]** (30% of attempts)
+- **[[Hand Fighting from Back]]** (45% of attempts)
 
-- **[[Back Door Escape]]** (18% of attempts)
+- **[[Back Door Escape]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Granby Roll to Guard]]** (2% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (20% of attempts)
+- **[[Elbow Escape to Remove Hooks]]** (19% of attempts)
 
-- **[[Hip Escape to Turtle]]** (20% of attempts)
+- **[[Hip Escape to Turtle]]** (15% of attempts)
+
+- **[[Standing up in Base]]** (2% of attempts)
+
+- **[[Turn In and Face]]** (4% of attempts)
+
+- **[[Escape Seat Belt Control]]** (0% of attempts)
+
+- **[[Hand Fight from Seat Belt Control]]** (0% of attempts)
+
+- **[[Seat Belt Peel Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +174,31 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (25% of attempts)
+- **[[Rear Naked Choke]]** (38% of attempts)
 
-- **[[Armbar from Back Transition]]** (12% of attempts)
+- **[[Armbar from Back Transition]]** (10% of attempts)
 
-- **[[Armbar Finish]]** (5% of attempts)
+- **[[Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Bow and Arrow Choke]]** (10% of attempts)
+- **[[Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Back Control to Crucifix]]** (8% of attempts)
+- **[[Short Choke]]** (5% of attempts)
 
-- **[[Short Choke]]** (7% of attempts)
+- **[[Back Control Maintenance]]** (13% of attempts)
 
-- **[[Back Control Maintenance]]** (20% of attempts)
+- **[[Body Triangle Lock]]** (6% of attempts)
 
-- **[[Body Triangle Lock]]** (8% of attempts)
+- **[[Kimura from Back]]** (3% of attempts)
 
-- **[[Kimura from Back]]** (5% of attempts)
+- **[[Triangle from Back]]** (3% of attempts)
+
+- **[[Roll to Truck]]** (3% of attempts)
+
+- **[[Gift Wrap]]** (5% of attempts)
+
+- **[[Seat Belt to Body Triangle]]** (1% of attempts)
+
+- **[[Seat Belt to Full Back Control]]** (1% of attempts)
 
 
 ### Common Mistakes

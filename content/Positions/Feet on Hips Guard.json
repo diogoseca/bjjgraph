@@ -615,7 +615,43 @@
     },
     "transitions": [
       {
+        "transition": "Tripod Sweep",
+        "attempt_probability": 53
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Tomoe Nage",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Lumberjack Sweep",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Push Sweep from Feet on Hips",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Single Leg X Sweep",
+        "attempt_probability": 3
+      },
+      {
         "transition": "De La Riva Sweep",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Arm Drag Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Balloon Sweep",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Elevator Sweep",
         "attempt_probability": 2
       },
       {
@@ -623,40 +659,12 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Single Leg X Sweep",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Elevator Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Tripod Sweep",
-        "attempt_probability": 66
-      },
-      {
-        "transition": "Sickle Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Transition to Feet on Hips Guard",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Tomoe Nage",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Lumberjack Sweep",
-        "attempt_probability": 3
+        "transition": "Feet on Hips to De La Riva",
+        "attempt_probability": 0
       },
       {
         "transition": "Guard Pull",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Balloon Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Feet on Hips Sickle Sweep",
@@ -664,14 +672,6 @@
       },
       {
         "transition": "Feet on Hips Tripod Sweep",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Feet on Hips to De La Riva",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Push Sweep from Feet on Hips",
         "attempt_probability": 1
       }
     ],
@@ -705,8 +705,8 @@
         "answer": "Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover."
       },
       {
-        "question": "What is the coordination between pushing and pulling that makes feet on hips guard effective?",
-        "answer": "Effective feet on hips guard requires constant push-pull coordination where your legs push the opponent away while your grips pull their upper body toward you. This creates rotational tension that breaks their posture and balance. When you push with your legs alone, they simply step back and remain balanced. When you pull with grips alone, they drive their weight forward into you. The combination of simultaneous pushing and pulling forces creates the off-balancing moment needed for sweeps and prevents them from establishing a stable passing position."
+        "question": "You have been in feet on hips guard for over a minute and your legs are beginning to fatigue from constant pushing - how do you manage energy while maintaining guard effectiveness?",
+        "answer": "Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely."
       }
     ]
   }

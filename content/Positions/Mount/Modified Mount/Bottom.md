@@ -21,37 +21,37 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,21 +206,23 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (20% of attempts)
+### [[Hip Escape to Guard]] (22% of attempts)
 
-### [[Elbow Escape to Guard]] (16% of attempts)
+### [[Elbow Escape to Guard]] (15% of attempts)
 
-### [[Frame and Shrimp to Guard]] (14% of attempts)
+### [[Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Bridge and Roll]] (10% of attempts)
+### [[Bridge and Roll]] (9% of attempts)
 
-### [[Upa Escape]] (10% of attempts)
+### [[Upa Escape]] (9% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Deep Half Entry]] (9% of attempts)
 
-### [[Lockdown Recovery]] (10% of attempts)
+### [[Lockdown Recovery]] (9% of attempts)
 
-### [[Turtle Transition]] (10% of attempts)
+### [[Arm Extraction to Turtle]] (9% of attempts)
+
+### [[Bridge Escape from Modified Mount]] (5% of attempts)
 
 
 
@@ -241,7 +243,7 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 
 **If opponent transitions toward S-mount or technical mount:**
-- Execute **[[Turtle Transition]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
 - Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 40%)
 
 

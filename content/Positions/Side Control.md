@@ -47,7 +47,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 | [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Arm isolation for superior submission access |
 | [[Modified Scarf Hold]] | High | Low to Medium | High | Medium | Chest pressure trades mobility for control |
 | [[Reverse Kesa-Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
-| [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse orientation creates unique control angles |
+| [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse facing trades vision for chest pressure |
 | [[Scarf Hold Position]] | High | Low to Medium | Medium | Low | Perpendicular angle creates unique escapes |
 | [[Side Control Consolidation]] | High | Low | High | Medium | Transitional phase trading speed for quality |
 
@@ -83,23 +83,23 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (39% of attempts)
+- **[[Elbow Escape to Guard]]** (28% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (18% of attempts)
+- **[[Frame and Shrimp to Guard]]** (22% of attempts)
 
-- **[[Bridge and Roll]]** (7% of attempts)
+- **[[Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Ghost Escape]]** (7% of attempts)
+- **[[Ghost Escape]]** (8% of attempts)
 
-- **[[Side Control Escape]]** (7% of attempts)
+- **[[Side Control Escape]]** (5% of attempts)
 
-- **[[Ghost Escape from Side Control]]** (3% of attempts)
+- **[[Ghost Escape from Side Control]]** (4% of attempts)
 
-- **[[Sit Out from Side Control]]** (1% of attempts)
+- **[[Sit Out from Side Control]]** (3% of attempts)
 
-- **[[Turtle from Side Control Bottom]]** (1% of attempts)
+- **[[Turtle from Side Control Bottom]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,39 +160,31 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (79% of attempts)
+- **[[Side Control to Mount]]** (25% of attempts)
 
-- **[[Side Control to North-South]]** (3% of attempts)
+- **[[Americana]]** (14% of attempts)
 
-- **[[Americana]]** (7% of attempts)
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Kimura]]** (5% of attempts)
+- **[[Knee on Belly]]** (12% of attempts)
 
-- **[[Arm Triangle]]** (1% of attempts)
+- **[[Side Control to North-South]]** (8% of attempts)
 
-- **[[Armbar Finish]]** (0% of attempts)
+- **[[Arm Triangle]]** (8% of attempts)
 
-- **[[Knee on Belly]]** (4% of attempts)
+- **[[Armbar Finish]]** (4% of attempts)
 
-- **[[North-South Choke]]** (0% of attempts)
+- **[[Side Control to Kesa Gatame]]** (4% of attempts)
 
-- **[[Breadcutter Choke]]** (0% of attempts)
+- **[[Side Control to Side Control Consolidation]]** (3% of attempts)
 
-- **[[Transition to Kesa Gatame]]** (0% of attempts)
+- **[[Side Control to Shoulder of Justice]]** (3% of attempts)
 
-- **[[Transition to Scarf Hold Position]]** (0% of attempts)
+- **[[North-South Choke]]** (3% of attempts)
 
-- **[[Transition to Shoulder of Justice]]** (0% of attempts)
+- **[[Breadcutter Choke]]** (2% of attempts)
 
-- **[[Transition to Side Control Consolidation]]** (0% of attempts)
-
-- **[[Side Control to Kesa Gatame]]** (0% of attempts)
-
-- **[[Side Control to Scarf Hold Position]]** (0% of attempts)
-
-- **[[Side Control to Shoulder of Justice]]** (0% of attempts)
-
-- **[[Side Control to Side Control Consolidation]]** (1% of attempts)
+- **[[Side Control to Scarf Hold Position]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -63,7 +63,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 | **Energy Cost** | High | Medium |
 | **Time** | Short | Medium |
 
-**Key Difference:** Mount pressure with triangle mechanics
+**Key Difference:** Trades mount stability for submission access
 
 
 
@@ -97,21 +97,27 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Bridge and Roll]]** (11% of attempts)
 
-- **[[Elbow Escape to Guard]]** (18% of attempts)
+- **[[Elbow Escape to Guard]]** (35% of attempts)
 
-- **[[Granby Roll to Guard]]** (8% of attempts)
+- **[[Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Hip Escape to Guard]]** (16% of attempts)
+- **[[Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Upa Escape]]** (12% of attempts)
+- **[[Upa Escape]]** (9% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Shrimp Escape]]** (8% of attempts)
+- **[[Shrimp Escape]]** (5% of attempts)
 
-- **[[Arm Extraction]]** (9% of attempts)
+- **[[Arm Extraction]]** (6% of attempts)
+
+- **[[Bridge Defense from Mounted Triangle]]** (2% of attempts)
+
+- **[[Frame and Escape Mounted Triangle]]** (1% of attempts)
+
+- **[[Posture Up from Mounted Triangle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,25 +178,29 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Triangle Choke]]** (11% of attempts)
+- **[[Triangle Choke]]** (24% of attempts)
 
-- **[[Armbar Finish]]** (11% of attempts)
+- **[[Armbar Finish]]** (9% of attempts)
 
-- **[[Switch to Triangle]]** (10% of attempts)
+- **[[Switch to Triangle]]** (8% of attempts)
 
-- **[[Back Take]]** (10% of attempts)
+- **[[Back Take]]** (8% of attempts)
 
-- **[[Consolidate Mount]]** (11% of attempts)
+- **[[Consolidate Mount]]** (9% of attempts)
 
-- **[[Gift Wrap]]** (8% of attempts)
+- **[[Gift Wrap]]** (6% of attempts)
 
-- **[[Kimura to Back Take]]** (8% of attempts)
+- **[[Kimura to Back Take]]** (6% of attempts)
 
-- **[[S-Mount Transition]]** (11% of attempts)
+- **[[S-Mount Transition]]** (9% of attempts)
 
-- **[[Triangle to Armbar]]** (11% of attempts)
+- **[[Triangle to Armbar]]** (9% of attempts)
 
-- **[[Triangle to Back]]** (9% of attempts)
+- **[[Triangle to Back]]** (7% of attempts)
+
+- **[[Mounted Triangle Squeeze]]** (3% of attempts)
+
+- **[[Mounted Triangle to S Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -27,6 +27,7 @@ The technique requires precise control and understanding of leg entanglement mec
 **Type**: Leg Lock
 **Target Area**: Foot and ankle joints (dorsiflexion of foot)
 **Starting Position**: [[Ashi Garami]]
+**From Position**: [[50-50 Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>

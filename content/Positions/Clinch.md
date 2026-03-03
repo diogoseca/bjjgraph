@@ -405,7 +405,7 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 - **[[Body Lock]]** - Advanced clinch control with torso engagement
 - **[[Front Headlock]]** - Common transition target from clinch snap downs
-- **[[Standing Position]]** - General category containing clinch variations
+- **[[Standing Position]]** - General standing state containing clinch as a sub-position
 - **[[Double Leg Entry]]** - Primary offensive transition from clinch
 - **[[Guard Pull]]** - Alternative transition pathway to ground engagement
 - **[[Overhook Control]]** - Defensive grip configuration within clinch

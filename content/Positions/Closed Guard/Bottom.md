@@ -4,7 +4,7 @@
 
 ---
 title: "Closed Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master closed guard bottom position with comprehensive offensive techniques, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%."
+description: "Master closed guard bottom with offensive sweeps, submissions, and guard retention. Complete BJJ guide with combination attacks and systematic strategy."
 ---
 
 
@@ -21,37 +21,37 @@ description: "Master closed guard bottom position with comprehensive offensive t
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Armbar from Guard",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Collar Choke",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
       "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 6% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Flower Sweep",
-      "text": "From this position, attempt Flower Sweep. This technique is attempted in 5% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -115,7 +115,7 @@ description: "Master closed guard bottom position with comprehensive offensive t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Closed Guard Bottom",
-  "description": "Master closed guard bottom position with comprehensive offensive techniques, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "description": "Master closed guard bottom with offensive sweeps, submissions, and guard retention. Complete BJJ guide with combination attacks and systematic strategy.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -208,41 +208,47 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Available Escapes
 
-### [[Hip Bump Sweep]] (17% of attempts)
+### [[Hip Bump Sweep]] (33% of attempts)
 
-### [[Scissor Sweep]] (6% of attempts)
+### [[Armbar from Guard]] (11% of attempts)
+
+### [[Scissor Sweep]] (9% of attempts)
+
+### [[Triangle Setup]] (9% of attempts)
+
+### [[Cross Collar Choke]] (7% of attempts)
 
 ### [[Pendulum Sweep]] (6% of attempts)
 
-### [[Flower Sweep]] (5% of attempts)
-
-### [[Kimura to Back Take]] (5% of attempts)
-
-### [[Omoplata Sweep]] (4% of attempts)
-
-### [[Triangle Setup]] (6% of attempts)
-
-### [[Omoplata to Back]] (3% of attempts)
-
-### [[Elevator Sweep]] (4% of attempts)
-
-### [[Overhook Sweep]] (4% of attempts)
-
-### [[Kimura Sweep]] (5% of attempts)
-
-### [[Muscle Sweep]] (3% of attempts)
-
-### [[Transition to Overhook Guard]] (3% of attempts)
-
-### [[Lumberjack Sweep]] (4% of attempts)
-
 ### [[Guillotine Setup]] (5% of attempts)
 
-### [[Armbar from Guard]] (10% of attempts)
+### [[Kimura Sweep]] (4% of attempts)
 
-### [[Cross Collar Choke]] (6% of attempts)
+### [[Flower Sweep]] (3% of attempts)
 
-### [[Closed Guard to Omoplata]] (4% of attempts)
+### [[Kimura to Back Take]] (3% of attempts)
+
+### [[Elevator Sweep]] (2% of attempts)
+
+### [[Overhook Sweep]] (2% of attempts)
+
+### [[Omoplata Sweep]] (2% of attempts)
+
+### [[Lumberjack Sweep]] (1% of attempts)
+
+### [[Hip Bump Sweep V2]] (1% of attempts)
+
+### [[Closed Guard to Omoplata]] (1% of attempts)
+
+### [[Omoplata to Back]] (0% of attempts)
+
+### [[Muscle Sweep]] (0% of attempts)
+
+### [[Closed Guard to Overhook Guard]] (0% of attempts)
+
+### [[High Guard to Rubber Guard]] (0% of attempts)
+
+### [[Transition to Diamond Guard]] (1% of attempts)
 
 
 
@@ -362,38 +368,6 @@ Partner attempts to break and pass closed guard using any legal methods while yo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins standing up to break your guard - what immediate adjustments maintain your offensive position?
-**A**: As they begin standing, immediately grab both sleeves or wrists to control their arms and prevent them from establishing grips on your legs. Uncross your ankles and transition to feet on hips, maintaining hip connection while your legs adapt to their new elevation. Keep your hips elevated and connected to theirs throughout their stand-up. From here, you can attack with pendulum sweeps, lumberjack sweeps, or transition to open guard systems like collar-sleeve or De La Riva while maintaining offensive initiative.
-
-**Q2**: What are the critical grip combinations that enable your primary sweep attacks from closed guard?
-**A**: For hip bump sweep: same-side wrist control with opposite collar grip to prevent posting and control posture. For scissor sweep: cross-collar grip deep in the lapel combined with same-side sleeve grip at the wrist to control the arm and facilitate the cutting motion. For pendulum sweep: collar grip with underhook on the same side, or sleeve control combined with pants grip at the knee. Each grip combination creates specific leverage advantages that make the corresponding sweep mechanically possible.
-
-**Q3**: Your opponent establishes strong posture with both hands on your hips - how do you break this defensive structure?
-**A**: First, attack their grip by swimming your hands inside their arms and pushing outward to strip their hip grips. Simultaneously, pull them forward with your heels driving into their lower back. If their arms are too strong, grab their elbows and pull them toward your chest while crunching your core to curl them forward. Another option is to shoot your hips out to an angle, which changes the leverage dynamics and makes their straight-arm frame ineffective. Once any space is created, immediately secure collar or sleeve grips before they can re-establish posture.
-
-**Q4**: How do you create the dilemma between hip bump sweep and triangle attack that forces your opponent into a losing choice?
-**A**: Establish wrist control on their right arm and break their posture with collar grip. When you sit up for the hip bump, they must post their free left hand to prevent being swept. This posting action creates space and angles their shoulder forward. Immediately transition by shooting your right leg high across their back while pivoting your hips, threading your left leg in front of their left arm. Their posting arm is now inside your triangle. The key is the timing - the hip bump must be committed enough to force a real post, which then opens the triangle entry.
-
-**Q5**: Your opponent's posture is broken but they are defending by keeping elbows tight and head low - what attacks become available?
-**A**: With broken posture and tight elbows, overhook attacks become primary. Secure a deep overhook and pull them forward to load your hips for omoplata or gogoplata attempts. You can also attack with cross chokes since their collar is accessible and they cannot posture to defend. The tight elbow defense also exposes the armpit for arm drag to back take attempts. Hip bump sweep remains available since their defensive posture has weight forward. Chain between these options based on their specific arm positioning and reactions.
-
-**Q6**: What adjustments do you make when your opponent is significantly heavier and harder to sweep?
-**A**: Against heavier opponents, focus on angle creation rather than direct confrontation of their weight. Hip escape more aggressively to create 45-degree angles before attempting sweeps, as this reduces the weight you must move. Use their weight against them by timing sweeps to when they commit forward - the hip bump works when they drive into you. Submission attacks become relatively higher percentage as you can use their weight to help break their posture. Also consider transitioning to open guard systems where their weight becomes less advantageous, such as collar-sleeve or spider guard where you can use your legs as primary frames.
-
-**Q7**: How do you recover closed guard when your opponent has begun opening it but hasn't fully passed?
-**A**: The moment you feel your ankles being pried apart, immediately transition to active open guard retention rather than fighting to re-lock. Get feet on their hips to create distance, establish sleeve or collar grips, and begin working your preferred open guard game. If their guard break is partial and you have one leg free, transition to half guard by triangling that leg around theirs, which is a stable recovery position. The key is recognizing the moment when re-closing becomes lower percentage than transitioning, and acting decisively rather than expending energy on a losing battle to maintain closed guard.
-
-**Q8**: What is the optimal heel and ankle position for maintaining control while conserving energy in long closed guard exchanges?
-**A**: Cross your ankles at the small of their back, just above the hips, with your heels actively pulling into their spine rather than just resting crossed. The pull should come from your hamstrings, not just ankle lock tension. Point your toes slightly downward to engage the calves and create a complete posterior chain engagement. Squeeze with your knees into their ribs intermittently rather than constantly to conserve energy while maintaining offensive pressure. This position provides maximum control with sustainable muscular engagement - constant maximum squeeze will fatigue your legs and reduce guard effectiveness over time.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

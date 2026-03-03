@@ -90,7 +90,7 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 - **[[Single Leg X Entry]]** (16% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (12% of attempts)
+- **[[X-Guard to Ashi Garami]]** (13% of attempts)
 
 - **[[Technical Stand Up to Single Leg]]** (7% of attempts)
 
@@ -101,8 +101,6 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 - **[[Tomahawk Sweep]]** (11% of attempts)
 
 - **[[X-Guard Technical Stand Up]]** (2% of attempts)
-
-- **[[X-Guard to Ashi Garami]]** (1% of attempts)
 
 - **[[X-Guard to Single Leg X]]** (1% of attempts)
 
@@ -165,29 +163,29 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (14% of attempts)
+- **[[Smash Pass]]** (12% of attempts)
 
-- **[[Knee Slice Pass]]** (46% of attempts)
+- **[[Knee Slice Pass]]** (61% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Long Step Pass]]** (6% of attempts)
 
-- **[[Saddle Entry from Top]]** (6% of attempts)
+- **[[Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Outside Ashi Entry]]** (4% of attempts)
+- **[[Outside Ashi Entry]]** (2% of attempts)
 
-- **[[Leg Weave Pass]]** (8% of attempts)
+- **[[Leg Weave Pass]]** (6% of attempts)
 
-- **[[Back Step]]** (4% of attempts)
+- **[[Back Step]]** (2% of attempts)
 
-- **[[Stack Pass]]** (8% of attempts)
+- **[[Stack Pass]]** (6% of attempts)
 
-- **[[Knee Pin from X-Guard]]** (1% of attempts)
+- **[[Knee Pin from X-Guard]]** (0% of attempts)
+
+- **[[Step Over from X-Guard]]** (0% of attempts)
 
 - **[[Smash Pass from X-Guard]]** (0% of attempts)
 
-- **[[Standing Escape from X-Guard]]** (0% of attempts)
-
-- **[[Step Over from X-Guard]]** (1% of attempts)
+- **[[Standing Escape from X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -20,14 +20,14 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Mount to Armbar",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Americana",
+      "text": "From this position, attempt Americana. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel from Mount",
-      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Gift Wrap to Technical Mount",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,39 +213,29 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (8% of attempts)
+### [[Mount to Armbar]] (8% of attempts)
 
-### [[Americana from Mount]] (5% of attempts)
+### [[Americana]] (5% of attempts)
 
 ### [[Cross Collar Choke]] (5% of attempts)
 
-### [[Ezekiel from Mount]] (2% of attempts)
-
 ### [[Gift Wrap to Technical Mount]] (5% of attempts)
 
-### [[S-Mount Transition]] (3% of attempts)
+### [[S-Mount Transition]] (4% of attempts)
 
-### [[High Mount Transition]] (5% of attempts)
+### [[High Mount Transition]] (7% of attempts)
 
-### [[Mounted Triangle]] (2% of attempts)
+### [[Mounted Triangle]] (3% of attempts)
 
-### [[Consolidate Mount]] (64% of attempts)
+### [[Consolidate Mount]] (50% of attempts)
 
-### [[Kimura from Mount]] (0% of attempts)
+### [[Mount Control]] (3% of attempts)
 
-### [[Loop Choke from Mount]] (0% of attempts)
+### [[Mount to 3-4 Mount]] (3% of attempts)
 
-### [[Monoplata from Mount]] (0% of attempts)
+### [[Mount to Knee on Belly]] (3% of attempts)
 
-### [[Mount Control]] (0% of attempts)
-
-### [[Transition to 3-4 Mount]] (0% of attempts)
-
-### [[Mount to 3-4 Mount]] (0% of attempts)
-
-### [[Mount to Knee on Belly]] (0% of attempts)
-
-### [[Mount to Technical Mount]] (1% of attempts)
+### [[Mount to Technical Mount]] (4% of attempts)
 
 
 
@@ -262,15 +252,15 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 
 **If opponent extends arm to frame on face, neck, or chest creating isolation opportunity:**
-- Execute **[[Armbar from Mount]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[Americana from Mount]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Kimura from Mount]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
+- Execute **[[Americana]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Kimura]]** → [[Game Over]] (Probability: 45%)
 
 
 **If opponent keeps elbows tight to body defending all arm attacks effectively:**
 - Execute **[[Cross Collar Choke]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Ezekiel from Mount]]** → [[Game Over]] (Probability: 45%)
 - Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 40%)
+- Execute **[[High Mount Transition]]** → [[High Mount]] (Probability: 50%)
 
 
 **If opponent turns to side exposing back during escape attempt:**

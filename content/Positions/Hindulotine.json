@@ -262,35 +262,39 @@
     "transitions": [
       {
         "transition": "Guillotine Choke",
-        "attempt_probability": 26
+        "attempt_probability": 31
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Hindulotine to Anaconda Choke",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Arm Triangle from Top",
         "attempt_probability": 10
       },
       {
+        "transition": "Hindulotine to Anaconda Choke",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Back Take from Top",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Front Headlock to Back",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Arm Triangle from Top",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Hindulotine Choke Finish",
-        "attempt_probability": 5
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Finish from Hindulotine",
+        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

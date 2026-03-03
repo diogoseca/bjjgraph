@@ -1,150 +1,488 @@
 {
   "name": "Calf Slicer from Rodeo Ride",
-  "description": "TODO: Write 150-160 character SEO description for Calf Slicer from Rodeo Ride.",
+  "description": "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to compression lock mechanics, defensive escapes, and training progressions from turtle control.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "compression",
+    "leg-lock",
+    "calf-slicer",
+    "rodeo-ride",
+    "turtle-attack",
+    "advanced"
   ],
-  "submission_category": "Joint Lock",
-  "submission_type": "Leg Lock",
-  "target_area": "Knee and ankle joint",
+  "submission_category": "Compression",
+  "submission_type": "Calf Crush",
+  "target_area": "Calf muscle and knee joint",
   "starting_position": "Rodeo Ride",
   "from_position": "Rodeo Ride/Top",
-  "from_positions": ["Rodeo Ride", "Back Control", "Turtle"],
+  "from_positions": [
+    "Rodeo Ride",
+    "Back Control",
+    "Turtle"
+  ],
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 45,
+      "probability": 25,
       "result": "failure"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": 20,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 15,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Calf Slicer from Rodeo Ride.",
+  "success_rate": 40,
+  "overview": "The Calf Slicer from Rodeo Ride is a powerful compression submission that exploits the dynamic turtle attack position to attack the opponent's calf muscle and knee joint. From the rodeo ride—an advanced turtle control position where the attacker maintains asymmetric pressure on the turtled opponent—the attacker threads their shin behind the defender's knee and folds the leg to create devastating compression between the shin bone and the calf muscle, while simultaneously threatening knee hyperextension.\n\nThis submission is particularly effective because the rodeo ride's natural positioning places the attacker's legs in close proximity to the defender's knee line, making the entry relatively short compared to other calf slicer setups. The transitional nature of rodeo ride means the defender is already under pressure and dealing with multiple threats, often leaving their legs vulnerable as they focus on defending the back take and collar chokes. The compression submission adds another layer to the dilemma-based attack system that makes rodeo ride so effective.\n\nThe calf slicer from this position requires precise leg threading mechanics and proper understanding of when to commit to the submission versus maintaining positional control. Because the attacker must redirect their legs from a control orientation to a submission orientation, there is inherent risk of losing the dominant position if the technique fails. This risk-reward calculation makes timing and recognition of the right opportunity critical—the best entries come when the opponent's defensive reactions to other threats inadvertently expose the leg for the calf slicer entry.",
   "safety_considerations": {
     "injury_risks": [
       {
-        "injury": "TODO",
+        "injury": "Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock",
+        "severity": "High",
+        "recovery_time": "4-12 weeks depending on severity; partial tears may require 6-8 weeks, complete tears may require surgery and 4-6 months"
+      },
+      {
+        "injury": "Calf muscle tear or deep tissue contusion from compression of soft tissue against the shin bone fulcrum",
         "severity": "Medium",
-        "recovery_time": "TODO"
+        "recovery_time": "2-6 weeks for minor strains; severe tears may require 6-10 weeks with physical therapy"
+      },
+      {
+        "injury": "Meniscus damage from rotational force combined with compression when opponent attempts to twist free",
+        "severity": "High",
+        "recovery_time": "6-16 weeks; may require arthroscopic surgery with 3-6 month full recovery"
+      },
+      {
+        "injury": "Posterior knee capsule strain from sustained hyperextension pressure during the finishing sequence",
+        "severity": "Medium",
+        "recovery_time": "2-4 weeks with rest and ice; chronic cases may require 6-8 weeks rehabilitation"
       }
     ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
+    "application_speed": "SLOW and progressive. The compression builds gradually as hips extend. Never jerk, spike, or explosively apply the leg fold. Allow the opponent adequate time to recognize the submission and tap. The knee joint is particularly vulnerable to sudden force application in this position.",
     "tap_signals": [
       "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
+      "Physical hand tap on partner, their own body, or the mat (multiple rapid taps)",
+      "Physical foot tap with the free leg on the mat or partner's body",
+      "Any unusual screaming, groaning, or distress vocalization indicating pain",
+      "Verbal submission to referee in competition settings"
     ],
     "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
+      "Release ALL pressure immediately upon any tap signal—do not complete the movement or hold for even a fraction of a second",
+      "If in doubt whether opponent tapped, release immediately—the position can always be re-established but joint damage cannot be undone",
+      "Release the figure-four leg lock first, then release foot control, allowing opponent to straighten their leg naturally",
+      "After release, maintain safe distance and allow opponent to assess their knee and calf before resuming training"
     ],
     "training_restrictions": [
-      "TODO"
+      "Purple belt and above only for live application due to the rapid onset of knee hyperextension and compression damage potential",
+      "Always apply with slow, controlled pressure during drilling—never use explosive hip extension to finish",
+      "Tap early and often when caught in this submission during training; ego tapping leads to preventable knee injuries",
+      "Do not drill this technique on partners with pre-existing knee injuries, recent meniscus surgery, or ligament reconstruction"
     ]
   },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Entry from Rodeo Ride",
+      "description": "Thread the near-side shin behind the opponent's knee while maintaining chest-to-back connection and upper body control. Secure the foot and establish figure-four lock before driving hips forward to finish.",
+      "when_to_use": "When opponent maintains tight turtle with legs bent and accessible, and you have stable rodeo ride control with near-arm secured."
+    },
+    {
+      "variation_name": "Rolling Calf Slicer Entry",
+      "description": "Use a barrel roll motion from rodeo ride to thread the leg behind the knee during the rotation. The rolling momentum helps secure the leg position and can catch opponents who are defending the standard entry by keeping their legs straight.",
+      "when_to_use": "When the opponent is actively defending the standard entry by straightening their legs or when they attempt to roll away from your rodeo ride control."
+    },
+    {
+      "variation_name": "Calf Slicer to Back Take Chain",
+      "description": "Threaten the calf slicer entry to force the opponent to straighten their leg defensively, which opens space between their hips and the mat. Use this reaction to abandon the calf slicer and insert hooks for full back control instead.",
+      "when_to_use": "When the primary goal is back control rather than the submission finish—use the calf slicer as a threat to create the reaction needed for hook insertion."
+    }
+  ],
+  "related_submissions": [
+    "Calf Slicer",
+    "Calf Slicer from 50-50",
+    "Calf Slicer from Truck",
+    "Banana Split",
+    "Bicep Slicer"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Calf Slicer",
+      "relationship": "Parent technique family encompassing all calf slicer variations and finishing mechanics"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Related calf slicer variation from similar leg entanglement control position"
+    },
+    {
+      "name": "Calf Slicer from 50-50",
+      "relationship": "Alternative calf slicer entry from guard-based leg entanglement"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Base defensive position from which Rodeo Ride control develops"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative advancement path from Rodeo Ride instead of calf slicer"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Related control position offering similar leg-based compression submissions"
+    },
+    {
+      "name": "Banana Split",
+      "relationship": "Related leg submission accessible from similar turtle attack control positions"
     }
   ],
   "attacker": {
     "name": "Calf Slicer from Rodeo Ride Attacker",
-    "description": "TODO: Write attacker description for Calf Slicer from Rodeo Ride.",
-    "overview": "TODO: Write attacker overview for Calf Slicer from Rodeo Ride.",
+    "description": "Learn to finish the Calf Slicer from Rodeo Ride. Step-by-step execution from turtle control, setup requirements, counters and responses, and progressive training for this compression submission.",
+    "overview": "Executing the Calf Slicer from Rodeo Ride requires precise leg threading from the dynamic turtle attack position. The attacker leverages their rodeo ride control to thread their shin behind the opponent's knee joint, creating a fulcrum for devastating compression against the calf muscle. This submission adds a powerful leg attack dimension to the rodeo ride attack system, forcing defenders to address threats to both their back and their legs simultaneously. The key to finishing lies in maintaining upper body connection throughout the leg attack sequence, preventing the opponent from creating the space needed to straighten their leg or roll free. The most reliable entries come when the opponent's defensive reactions to back take or choke threats inadvertently bend their knee and expose the calf slicer opportunity.",
     "key_principles": [
-      "TODO"
+      "Maintain chest-to-back connection throughout the entire calf slicer entry and finishing sequence to prevent opponent from creating escape space",
+      "Thread the shin bone deep behind the opponent's knee joint so the bony ridge creates maximum compression against the calf muscle",
+      "Secure the opponent's foot before initiating hip extension to prevent them from straightening the leg and nullifying the lock",
+      "Apply finishing pressure through progressive hip extension rather than explosive jerking to maintain control and allow safe tapping",
+      "Use the calf slicer threat as part of a dilemma system where defending the leg attack opens the back, and defending the back opens the leg",
+      "Commit to the submission only when upper body control is stable enough to survive the positional adjustment required for leg threading"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established rodeo ride control with chest-to-back connection and stable base through posted far leg",
+      "Near-side arm control or upper body grip preventing opponent from posting effectively with their hands",
+      "Opponent's target leg bent at approximately 90 degrees or more, creating accessible space behind the knee for shin insertion",
+      "Sufficient hip pressure and weight distribution to prevent opponent from flattening or standing during the entry sequence",
+      "Clear identification of which leg to attack based on opponent's defensive positioning and your body angle relative to their spine"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate Rodeo Ride Control",
+        "description": "From the rodeo ride position, ensure your chest is firmly connected to the opponent's back with your near-side arm controlling their upper body through collar grip, underhook, or wrist control. Your weight should be distributed through your hips onto their torso with your far leg posted for base stability. Confirm that the opponent cannot immediately stand or roll before committing to the leg attack.",
+        "timing": "2-3 seconds to verify stable control"
+      },
+      {
+        "step_number": 2,
+        "action": "Identify and Access Target Leg",
+        "description": "Read the opponent's leg positioning and identify which leg is most accessible for the shin thread. The near-side leg is typically the primary target because your body positioning already creates the natural angle for insertion behind the knee. Shift your hip pressure slightly to load weight onto their upper back, freeing your near-side leg for the threading motion while maintaining chest connection.",
+        "timing": "1-2 seconds for assessment and weight shift"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread Shin Behind Opponent's Knee",
+        "description": "Slide your near-side shin behind the target leg's knee joint, positioning the bony ridge of your shinbone directly against the back of their knee crease. The shin must pass completely behind the knee to serve as the fulcrum for the compression lock. Drive the threading motion with your hip rather than just your foot to ensure deep penetration behind the joint.",
+        "timing": "1-2 seconds for clean insertion"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure Foot Control on Trapped Leg",
+        "description": "Immediately control the opponent's foot on the trapped leg by either hooking it with your far-side hand, pinning it against your hip, or trapping it under your armpit. The foot must be secured to prevent the opponent from straightening their leg and escaping the lock position. This is the critical control point—without foot control, the opponent can simply extend their leg and nullify the submission entirely.",
+        "timing": "1 second to secure before opponent reacts"
+      },
+      {
+        "step_number": 5,
+        "action": "Establish Figure-Four Leg Configuration",
+        "description": "Lock your legs in a figure-four or triangle configuration around the opponent's trapped leg. Your free leg crosses over and hooks behind your own knee or shin, creating a stable mechanical frame that prevents the opponent from extracting their leg. The figure-four transforms your legs into a unified structure that distributes the compression force evenly and prevents the opponent from prying your legs apart individually.",
+        "timing": "1-2 seconds to lock configuration"
+      },
+      {
+        "step_number": 6,
+        "action": "Initiate Hip Extension for Compression",
+        "description": "Begin the finishing pressure by driving your hips forward and away from the opponent while simultaneously pulling the opponent's trapped foot toward their glute using your hand control. This dual action creates compression between your shin bone and their calf muscle while applying progressive hyperextension pressure to the knee joint. The force vector should travel through the center of the calf toward the knee.",
+        "timing": "2-3 seconds of gradual pressure increase"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply Progressive Finishing Pressure",
+        "description": "Increase the compression gradually by continuing to extend your hips and pulling the trapped foot closer to their buttock. Monitor for tap signals throughout the finishing sequence. Arch your back slightly to maximize hip extension and increase the compression angle. The submission should be applied with controlled, steady pressure rather than explosive jerking—the compression builds progressively and the tap will come as the pain threshold is reached.",
+        "timing": "3-5 seconds of controlled finishing pressure, monitoring for tap"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent straightens their trapped leg before the figure-four is locked, denying the compression angle",
+        "effectiveness": "High",
+        "your_response": "If the leg straightens before you lock the figure-four, abandon the calf slicer immediately and return to rodeo ride control. Use the straightened leg as an opportunity to insert a hook for back control instead, since the straight leg creates space between their hips and the mat.",
         "targets_outcome": "Rodeo Ride/Top"
+      },
+      {
+        "counter": "Opponent rolls toward you aggressively to relieve compression and disrupt your base",
+        "effectiveness": "Medium",
+        "your_response": "Follow the roll while maintaining your figure-four lock and chest connection. The roll may actually improve your finishing angle if you stay connected. If you lose the lock during the roll, immediately re-establish rodeo ride or turtle top control before they can recover guard.",
+        "targets_outcome": "Turtle/Top"
+      },
+      {
+        "counter": "Opponent grabs your attacking foot or ankle and attempts to pry it from behind their knee",
+        "effectiveness": "Medium",
+        "your_response": "Deepen the figure-four lock and increase hip pressure to make the grip fight difficult. If they commit both hands to fighting your leg, their upper body is completely undefended—immediately transition to a choke attack or back take since their hands are occupied below.",
+        "targets_outcome": "Rodeo Ride/Top"
+      },
+      {
+        "counter": "Opponent sits through explosively to recover half guard, using the moment of transition to escape",
+        "effectiveness": "Medium",
+        "your_response": "If you feel the sit-through beginning, you have a split-second choice: either commit fully to the calf slicer by locking the figure-four tighter and following their movement, or release the leg and consolidate top half guard control. The worst outcome is getting stuck halfway between both options.",
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing chest-to-back connection to focus on threading the leg",
+        "consequence": "Opponent creates space to turn, flatten, or stand, losing the rodeo ride position entirely without securing the submission",
+        "correction": "Keep your chest glued to their back throughout the entire entry. Thread the leg using hip movement rather than lifting your torso away from the opponent."
+      },
+      {
+        "error": "Threading the shin too shallow, placing it against the calf rather than deep behind the knee",
+        "consequence": "The compression is applied to the wrong area, producing discomfort but not a finishing lock. The opponent can straighten their leg relatively easily from this position.",
+        "correction": "Drive the shin deep behind the knee crease so the bony ridge sits directly in the popliteal fossa. Use your hip to push the threading motion deeper rather than relying on foot placement alone."
+      },
+      {
+        "error": "Attempting to finish without securing the opponent's foot first",
+        "consequence": "The opponent straightens their leg as soon as hip extension begins, completely nullifying the compression and wasting the entry setup",
+        "correction": "Always secure foot control before initiating any hip extension. The foot trap is what prevents the leg from straightening and makes the compression mechanically viable."
+      },
+      {
+        "error": "Applying explosive or jerking pressure rather than progressive compression",
+        "consequence": "Risk of serious knee injury to training partner, and the explosive motion often causes you to lose control of the position if the submission fails",
+        "correction": "Build pressure gradually through steady hip extension. The calf slicer is a progressive compression—the pain builds incrementally and the tap comes without needing explosive force."
+      },
+      {
+        "error": "Overcommitting to the calf slicer when the entry is not clean, abandoning positional control for a low-percentage finish",
+        "consequence": "Loss of the dominant rodeo ride position without securing the submission, allowing the opponent to escape to guard or standing",
+        "correction": "Only commit fully to the calf slicer when the shin is deep behind the knee and foot control is established. If the entry feels wrong, abort and return to rodeo ride. Position before submission."
+      },
+      {
+        "error": "Neglecting upper body control during the finishing sequence, focusing entirely on the legs",
+        "consequence": "Opponent uses their freed upper body to create frames, post, and escape the compression by changing body angle or rolling away",
+        "correction": "Maintain at least one upper body control point throughout the finish—collar grip, underhook, or body wrap. The calf slicer requires whole-body mechanics, not just leg isolation."
+      },
+      {
+        "error": "Attempting the calf slicer when the opponent's leg is already straight or nearly straight",
+        "consequence": "Impossible to thread the shin behind a straight knee, wasting time and energy while giving the opponent recovery time",
+        "correction": "Only initiate the entry when the target leg is bent at 90 degrees or more. If the opponent keeps their legs straight, use other attacks from rodeo ride to force the leg bend before attempting the slicer."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Mechanical Isolation",
+        "focus": "Leg threading and figure-four mechanics",
+        "description": "Partner in static turtle with no resistance. Practice threading the shin behind the knee, establishing figure-four, and applying slow controlled pressure. Repeat 20-30 times per side focusing on smooth entry mechanics and proper shin placement depth."
+      },
+      {
+        "phase": "Phase 2: Entry from Rodeo Ride",
+        "focus": "Transitioning from control to submission entry",
+        "description": "Start from established rodeo ride with partner providing light resistance. Practice the full sequence: maintain chest connection, thread leg, secure foot, lock figure-four, apply pressure. Partner gives feedback on control quality and allows the submission to be completed slowly."
+      },
+      {
+        "phase": "Phase 3: Defensive Reactions",
+        "focus": "Responding to common counters and escape attempts",
+        "description": "Partner provides moderate resistance and attempts specific counters: straightening the leg, rolling toward you, grabbing your foot, sitting through. Practice recognizing each counter and executing the appropriate response, including aborting and returning to position when necessary."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks",
+        "focus": "Integrating the calf slicer into the rodeo ride attack system",
+        "description": "Practice flowing between back take, choke threats, and calf slicer entries from rodeo ride. Use the calf slicer as one option in a chain where each attack creates the opening for the next. Partner provides realistic resistance at 70-80% intensity."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring",
+        "description": "Start from rodeo ride with full resistance. Both practitioners work at competition intensity—top works to finish the calf slicer or advance position, bottom works to escape. Review after each round to identify timing windows and missed opportunities."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structures does the Calf Slicer from Rodeo Ride primarily attack, and how does the compression mechanism work?",
+        "answer": "The calf slicer primarily attacks the gastrocnemius and soleus muscles of the calf through compression against the shin bone fulcrum positioned behind the knee. The secondary target is the knee joint itself, which is placed under hyperextension stress as the leg is folded. The shin bone acts as a wedge in the popliteal fossa, and as the attacker extends their hips while controlling the foot, the calf muscle is crushed between the attacker's shin and the opponent's own hamstring/thigh. The combined compression pain and knee hyperextension threat forces the tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "What visual and tactile indicators tell you the calf slicer is approaching the breaking point and the opponent is about to tap?",
+        "answer": "Key indicators include: the opponent's body tensing significantly as the compression builds, audible distress sounds or sharp breathing changes, the opponent's free leg beginning to kick or flail involuntarily, their hand reaching toward the trapped leg or toward you for a tap, and a noticeable change in their defensive movement pattern from active resistance to stillness or desperation. Tactile indicators include feeling the calf muscle fully compressed against your shin with no remaining space, and feeling the knee joint beginning to reach its hyperextension limit through increased structural resistance.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific control elements must be established before committing to the calf slicer entry from rodeo ride?",
+        "answer": "Before committing, you must have: stable chest-to-back connection that will survive the leg threading motion, at least one upper body control point (collar grip, underhook, or wrist control) preventing the opponent from posting or turning, your base leg posted securely for stability during the transition, and confirmation that the target leg is sufficiently bent to allow shin threading behind the knee. Attempting the entry without these elements results in position loss because the leg threading motion requires momentary hip repositioning that creates escape opportunities if the opponent is not adequately controlled.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the calf slicer setup does the opponent effectively lose the ability to escape, and why?",
+        "answer": "The point of no escape occurs when the figure-four leg lock is fully established AND the opponent's foot is secured. Before the figure-four is locked, the opponent can kick free or straighten their leg to escape. Before the foot is controlled, they can extend the leg to nullify the compression angle. Once both controls are in place simultaneously, the mechanical advantage shifts decisively to the attacker—the opponent cannot straighten the leg against the locked figure-four, and cannot rotate free because the foot trap prevents angular escape. Any remaining defense is limited to managing the pain threshold or tapping.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common finishing error when applying the calf slicer from rodeo ride, and how does it affect the outcome?",
+        "answer": "The most common finishing error is attempting to complete the submission without first securing the opponent's foot. Practitioners focus on threading the shin and locking the figure-four but neglect foot control, then initiate hip extension only to have the opponent straighten their leg and escape the entire lock. This error wastes the positional setup and often results in losing rodeo ride control as the attacker has repositioned their legs for the submission rather than for positional maintenance. The correction is treating foot control as a mandatory checkpoint before any finishing pressure is applied.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grip and body position if the opponent begins to straighten their trapped leg during the finishing sequence?",
+        "answer": "If the leg begins to straighten, immediately increase downward pressure on the foot by pulling it more aggressively toward their glute, using both hands if necessary. Simultaneously, tighten the figure-four by squeezing your knees together and driving your hips lower toward the mat to reduce the space available for leg extension. If the foot is slipping from your grip, switch to an armpit trap by tucking their foot under your armpit and clamping your elbow down. If the leg continues to straighten despite these adjustments, the submission is lost—release the figure-four and immediately transition back to rodeo ride or turtle top control before the opponent can capitalize.",
+        "safety_critical": false
+      },
+      {
+        "question": "What specific injury risks make the calf slicer particularly dangerous, and what application guidelines prevent training injuries?",
+        "answer": "The calf slicer carries risk of MCL and LCL tears from knee hyperextension (4-12 week recovery), calf muscle tears from direct compression (2-6 weeks), meniscus damage from rotational force during escape attempts (6-16 weeks, potentially requiring surgery), and posterior knee capsule strain (2-4 weeks). To prevent injuries: always apply progressive pressure rather than explosive jerking, release immediately upon any tap signal without finishing the motion, never drill at full speed on partners with knee history, and restrict live application to purple belt and above. The knee damage potential makes this one of the submissions where early tapping should be strongly encouraged.",
+        "safety_critical": true
+      },
+      {
+        "question": "What competition strategy differences exist between finishing the calf slicer under IBJJF rules versus submission-only rulesets?",
+        "answer": "Under IBJJF rules, calf slicers are only legal at brown and black belt level, so this technique is restricted in most divisions. When legal, the IBJJF time pressure means you must commit decisively and finish quickly or return to position to avoid point deductions for losing control. Under submission-only rulesets, you can be more patient with the setup and use the calf slicer as part of a longer-term leg attack strategy, threatening it repeatedly to accumulate fatigue and defensive errors. In overtime/EBI format, the calf slicer from rodeo ride is excellent because you start in a dominant position and can threaten the finish while the clock pressures the defender.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is maintaining upper body control critical throughout the entire calf slicer attempt, and what happens when it is lost?",
+        "answer": "Upper body control prevents the opponent from using their arms and torso to create the frames, posts, and angles needed to escape the compression lock. When upper body control is maintained, the opponent's defensive options are limited to leg-based escapes which are difficult against a locked figure-four. When upper body control is lost, the opponent can post with their hands to change body angle, frame against your hip to create space, or sit through explosively to recover guard—all of which relieve the compression and often result in complete position loss for the attacker. The calf slicer requires whole-body mechanics, not isolated leg work.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you abandon the calf slicer attempt and return to positional control, and how do you make that transition safely?",
+        "answer": "Abort the calf slicer when: the shin is not deep enough behind the knee and the opponent is actively straightening their leg, foot control cannot be established within 2-3 seconds of shin threading, the figure-four is compromised and the opponent is extracting their leg, or you feel your chest connection breaking and the opponent beginning to turn. To transition safely back to rodeo ride: release the figure-four first, retract your leg smoothly back to the posted position, re-establish hip pressure on the opponent's torso, and secure your upper body grips before they can capitalize on the transition. Never try to force a failed entry—the position loss is worse than resetting.",
+        "safety_critical": true
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Calf Slicer from Rodeo Ride."
+    ]
   },
   "defender": {
     "name": "Calf Slicer from Rodeo Ride Defender",
-    "description": "TODO: Write defender description for Calf Slicer from Rodeo Ride.",
-    "overview": "TODO: Write defender overview for Calf Slicer from Rodeo Ride.",
+    "description": "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, escape techniques, and defensive strategies to survive this compression lock from turtle position.",
+    "overview": "Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the leg threading attempt and rapid response to prevent the compression lock from being established. The defender's primary goal is to straighten the targeted leg before the attacker can secure the figure-four configuration, denying the mechanical advantage needed to finish the submission. When prevention fails, the defender must manage the compression by rolling toward the attacker to reduce pressure while working to extract the trapped leg. Understanding the progression from rodeo ride to calf slicer entry is critical—the earlier the defense begins in the attack sequence, the higher the probability of successful escape. The defense integrates with broader turtle defense principles: constant movement, grip fighting, and awareness of the attacker's weight distribution all contribute to preventing the calf slicer entry from developing.",
     "key_principles": [
-      "TODO"
+      "Maintain straight or near-straight legs whenever possible in turtle to deny the knee bend angle needed for shin threading",
+      "React immediately to any shin contact behind the knee—delay of even one second allows the attacker to establish the figure-four",
+      "Prioritize leg straightening over all other defensive actions once the shin thread begins",
+      "Roll toward the attacker rather than away to reduce compression angle and create scramble opportunities",
+      "Use the free leg actively to push off the attacker's hip, create leverage for escape, or hook their leg to prevent hip extension",
+      "Fight the foot control aggressively—if the attacker cannot control your foot, they cannot finish regardless of other controls"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker shifts their hip weight upward toward your shoulders, freeing their near-side leg from its posted position",
+      "Feeling the attacker's shin beginning to slide behind your knee crease from the side or underneath",
+      "Attacker's chest pressure changes angle—moving from perpendicular to more aligned with your spine as they reposition for the leg attack",
+      "Attacker's hand moves from upper body control to reach for your foot or ankle on the targeted leg",
+      "Sudden reduction in the attacker's base stability as they commit their posted leg to the threading motion"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Immediately straighten the targeted leg by driving the foot backward and extending the knee",
+        "when_to_use": "As soon as you feel the attacker's shin beginning to thread behind your knee, before the figure-four is locked",
         "targets_outcome": "Rodeo Ride/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The attacker cannot establish the compression lock and must return to rodeo ride control without the submission threat",
+        "risk": "Straightening the leg may create space between your hips and the mat, potentially allowing the attacker to insert hooks for back control"
+      },
+      {
+        "action": "Roll aggressively toward the attacker to collapse the compression angle and create a scramble",
+        "when_to_use": "When the shin is already threaded and figure-four is being established—too late to straighten the leg",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "The roll disrupts the attacker's base and compression angle, creating opportunity to extract the trapped leg during the scramble",
+        "risk": "If the roll is poorly timed, the attacker can follow and the figure-four may tighten during rotation"
+      },
+      {
+        "action": "Sit through explosively toward the opposite side to recover half guard",
+        "when_to_use": "When the attacker commits their legs to the calf slicer, reducing their upper body control and base stability",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Escape to half guard where you can recover a guard position and neutralize the leg attack entirely",
+        "risk": "The sit-through requires explosive movement and if the attacker maintains upper body control, you may end up in a worse position"
+      },
+      {
+        "action": "Use the free leg to push off the attacker's hip and create space to extract the trapped leg",
+        "when_to_use": "When the figure-four is partially established but the foot control is not yet secured",
+        "targets_outcome": "Turtle/Top",
+        "if_successful": "Creating space allows you to straighten the trapped leg or extract it from the figure-four before the finish can be applied",
+        "risk": "Committing the free leg to pushing may reduce your base stability and ability to roll or scramble"
       }
+    ],
+    "escape_paths": [
+      "Straighten the trapped leg before the figure-four is locked—this is the highest percentage defense and must be attempted immediately upon recognizing the shin threading",
+      "Roll toward the attacker to collapse the compression angle and create a scramble, then extract the leg during the positional chaos",
+      "Use the free leg to hook the attacker's far leg and prevent them from generating the hip extension needed to finish the compression",
+      "Sit through to the opposite side during the entry phase when the attacker's base is compromised by the leg threading motion"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Rodeo Ride/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Execute an explosive sit-through to the side opposite the calf slicer entry while the attacker's base is compromised. Thread your legs between you and the attacker to establish half guard, which completely neutralizes the leg attack and recovers a defensive guard position."
+      },
+      {
+        "outcome": "Turtle/Top",
+        "how": "Roll toward the attacker to disrupt the figure-four and compression angle, then use the scramble to extract the trapped leg and return to basic turtle defense. While still a defensive position, basic turtle is significantly better than being locked in a calf slicer."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Failing to react immediately to the shin threading, allowing the figure-four to be established unchallenged",
+        "consequence": "Once the figure-four is locked and foot is controlled, escape probability drops dramatically. The submission becomes a matter of when, not if, the tap occurs.",
+        "correction": "Develop sensitivity to any contact behind the knee and immediately straighten the leg as a reflexive response. The first second of the entry is the highest-percentage window for defense."
+      },
+      {
+        "error": "Rolling away from the attacker rather than toward them when caught in the compression",
+        "consequence": "Rolling away actually increases the compression angle and helps the attacker finish the submission faster by stretching the leg further",
+        "correction": "Always roll toward the attacker to collapse the compression angle and disrupt their base. Rolling toward them reduces the distance your calf travels and decreases the effective compression force."
+      },
+      {
+        "error": "Focusing on fighting the upper body grips while ignoring the leg attack developing below",
+        "consequence": "The calf slicer is fully established before you address it, making escape extremely difficult regardless of upper body grip status",
+        "correction": "When you feel any leg threading motion, immediately shift defensive priority to the legs. Upper body grips matter less than a locked figure-four—address the most urgent threat first."
+      },
+      {
+        "error": "Bending the knees deeply in turtle position, making the calf slicer entry easy",
+        "consequence": "Deeply bent knees create the perfect angle for the attacker to thread their shin behind the knee with minimal effort",
+        "correction": "When under rodeo ride control, consciously keep your legs as straight as possible without flattening completely. Slight knee bend for base is acceptable, but avoid the deep bend that invites the leg attack."
+      },
+      {
+        "error": "Tapping too late due to ego or misunderstanding the injury risk of calf slicers",
+        "consequence": "Knee ligament damage, meniscus tears, or calf muscle contusions that require weeks or months of recovery",
+        "correction": "Tap early when the compression begins to build. Unlike chokes where you have seconds to escape, the calf slicer can cause structural damage before the pain fully registers. Protect your training longevity."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a calf slicer attempt is beginning from rodeo ride, and why is early detection critical?",
+        "answer": "The earliest cue is feeling the attacker shift their hip weight upward toward your shoulders, freeing their near-side leg from its base position. This weight shift must happen before the shin can be threaded behind the knee. Early detection is critical because the defense window closes rapidly—once the shin is behind the knee and the figure-four begins, escape probability drops from approximately 70% to below 30%. The difference between defending in the first second versus the third second is often the difference between easy escape and forced tap.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why should you roll toward the attacker rather than away when caught in a calf slicer, and what mechanical advantage does this create?",
+        "answer": "Rolling toward the attacker collapses the compression angle by reducing the distance between your calf and thigh, which decreases the effective force of the compression lock. It also disrupts the attacker's base and figure-four alignment since they are designed to work with you moving away from them. Rolling away stretches the compression further and assists the attacker's hip extension force. Additionally, rolling toward creates a scramble situation where the close quarters make it difficult for the attacker to maintain the mechanical structure needed to finish the submission.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the specific injury risks of the calf slicer that make early tapping essential during training?",
+        "answer": "The calf slicer threatens MCL and LCL knee ligament tears from hyperextension (4-12 week recovery, potentially requiring surgery), meniscus damage from rotational force during escape attempts (6-16 weeks, often requiring arthroscopic surgery), calf muscle tears from direct compression (2-6 weeks), and posterior knee capsule strain (2-4 weeks). Unlike chokes where you feel the submission approaching and have several seconds to escape, the calf slicer can cause structural knee damage before the full pain signal registers. Tapping early in training is not weakness—it is necessary self-preservation for long-term training ability.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does keeping your legs relatively straight in turtle position affect the attacker's ability to set up the calf slicer?",
+        "answer": "Keeping your legs relatively straight denies the attacker the knee bend angle they need to thread their shin behind your knee. The calf slicer requires the target leg to be bent at approximately 90 degrees or more to create sufficient space behind the knee for shin insertion. With straighter legs, the attacker must first force the knee to bend before they can begin the entry, which requires additional time and gives you more opportunities to recognize and defend the attempt. The trade-off is that straighter legs reduce your base width, so maintain enough bend for stability while keeping the angle shallow enough to prevent easy threading.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition and Immediate Response",
+        "focus": "Developing reflexive leg straightening upon shin contact",
+        "description": "Partner establishes rodeo ride and slowly begins threading shin behind knee. Defender practices immediately straightening the leg upon first contact. Repeat 30+ times per leg to develop the reflexive response. No resistance from attacker—focus purely on building the recognition-to-response neural pathway."
+      },
+      {
+        "phase": "Phase 2: Defensive Options Under Pressure",
+        "focus": "Practicing multiple defensive responses against progressive entries",
+        "description": "Partner attempts the calf slicer with moderate speed and resistance. Defender practices all defensive options: leg straightening, rolling toward attacker, sit-through, and free leg pushing. Partner gives feedback on which defenses work and adjusts their entry to challenge different responses."
+      },
+      {
+        "phase": "Phase 3: Escape from Locked Position",
+        "focus": "Surviving and escaping when the figure-four is already established",
+        "description": "Partner establishes the full calf slicer position with figure-four locked but applies pressure slowly. Defender works on rolling toward attacker, extracting the trapped leg, and recognizing when tapping is the correct decision. Emphasis on understanding the tap threshold and developing safe training habits."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance defense from rodeo ride against all attacks including calf slicer",
+        "description": "Positional sparring from rodeo ride bottom with full resistance. Attacker can attempt calf slicer, back take, chokes, or any other attack. Defender must integrate calf slicer defense into their overall rodeo ride escape system, recognizing the specific attack and applying the appropriate defense while managing all other threats simultaneously."
       }
     ]
   }

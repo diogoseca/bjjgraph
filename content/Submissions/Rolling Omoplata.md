@@ -25,6 +25,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Scramble Position]]
+**From Position**: [[Scramble Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -236,13 +237,13 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - [[Scramble Position]]
 - [[Closed Guard]]
 - [[Open Guard]]
-- [[Spider Guard]]
 - [[De La Riva Guard]]
 - [[Reverse De La Riva Guard]]
 - [[Lasso Guard]]
 - [[Butterfly Guard]]
 - [[Half Guard]]
 - [[Inverted Guard]]
+- [[Collar Sleeve Guard]]
 
 
 </section>
@@ -251,17 +252,14 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Related Submissions
 
-- [[Omoplata]]
-- [[Omoplata from Guard]]
-- [[Triangle Choke]]
-- [[Triangle from Closed Guard]]
+- [[Omoplata from Spider Guard]]
 - [[Baratoplata]]
-- [[Gogoplata]]
+- [[Gogoplata Finish]]
 - [[Armbar from Guard]]
-- [[Kimura from Guard]]
-- [[Inverted Triangle]]
-- [[Tarikoplata]]
-- [[Monoplata]]
+- [[Mounted Triangle Finish]]
+- [[Buggy Choke Finish]]
+- [[Gift Wrap Armbar]]
+- [[Kimura from Kimura Trap]]
 
 
 </section>
@@ -270,16 +268,16 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Additional Related Content
 
-- [[Omoplata Control]] - Control position - achieved before finishing the rolling omoplata submission
-- [[Triangle Control]] - Alternative control position - transition target when omoplata is defended
-- [[Back Control]] - Positional transition - follow-up when opponent rolls through the omoplata
-- [[Spider Guard]] - Common setup position - spider guard creates ideal arm isolation for rolling entry
-- [[Reverse De La Riva Guard]] - Setup position - RDLR provides excellent momentum for the rolling entry
-- [[Inverted Guard]] - Positional relationship - inverted positioning creates rolling omoplata opportunities
-- [[Closed Guard]] - Related guard - traditional omoplata entries that inform rolling variations
-- [[Scramble Position]] - Primary setup context - rolling omoplata capitalizes on scramble dynamics
-- [[Kimura Trap]] - Alternative attack - similar arm isolation principles with different finishing mechanics
-- [[Half Guard]] - Transitional position - half guard sweeps can load into rolling omoplata
+- [[Omoplata Control]] - Control position achieved before finishing the rolling omoplata submission
+- [[Triangle Control]] - Alternative control position when omoplata is defended by grabbing belt or turning in
+- [[Back Control]] - Positional transition follow-up when opponent rolls through the omoplata
+- [[Reverse De La Riva Guard]] - Setup position providing excellent momentum for the rolling entry against pressure passers
+- [[Inverted Guard]] - Positional relationship where inverted positioning creates rolling omoplata opportunities
+- [[Closed Guard]] - Related guard with traditional omoplata entries that inform rolling variations
+- [[Scramble Position]] - Primary setup context where rolling omoplata capitalizes on scramble dynamics
+- [[Kimura Trap]] - Alternative attack using similar arm isolation principles with different finishing mechanics
+- [[Half Guard]] - Transitional position where half guard sweeps can load into rolling omoplata entries
+- [[Collar Sleeve Guard]] - Guard variation providing sleeve control that facilitates rolling omoplata arm isolation
 
 
 </section>

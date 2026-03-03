@@ -1,13 +1,389 @@
 {
   "name": "Posture Recovery from Carni",
-  "description": "",
-  "tags": [],
+  "description": "Master posture recovery from Carni in BJJ. Systematic escape using forward pressure and stacking to neutralize leg entanglement and recover to closed guard.",
+  "tags": [
+    "bjj",
+    "escape",
+    "carni",
+    "posture-recovery",
+    "leg-entanglement-defense",
+    "advanced",
+    "no-gi"
+  ],
   "from_position": "Carni/Top",
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Carni/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Top",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "Posture Recovery from Carni is a fundamental defensive technique for the top player caught in the Carni leg entanglement. Rather than attempting explosive extraction or rolling escapes that risk deeper entanglement or back exposure, this technique employs controlled forward pressure and systematic posture reconstruction to neutralize the bottom player's offensive angles. The concept is straightforward: by driving forward with chest pressure and establishing frames against the bottom player's hips, the top player collapses the space needed for effective heel hook attacks and saddle transitions.\n\nThe key strategic insight behind this recovery is that the Carni position depends on the bottom player maintaining specific angular relationships between their hips and the trapped leg. Forward stacking pressure disrupts these angles, forcing the bottom player to either abandon the leg entanglement in favor of closing their guard defensively, or risk being smashed through their own guard. When executed with proper timing—particularly during the brief windows where the bottom player is transitioning between attack sequences—the posture recovery offers a safe pathway out of an otherwise extremely dangerous position.\n\nThis technique is most effective when combined with grip breaking and upper body control. The top player must simultaneously address the heel exposure threat while generating sufficient forward drive to collapse the entanglement structure. Success requires patience and methodical execution rather than explosive movement, as rushing creates the angular changes that the bottom player needs to advance to the saddle or take the back.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Posture Recovery",
+      "description": "Instead of stacking through the guard from knees, the top player posts on their free foot and drives to a standing position, using height and gravity to collapse the leg entanglement from above.",
+      "when_to_use": "When the bottom player's inside hook is loose enough to allow the top player to post a foot and stand, typically when the entanglement is newly established and not yet fully consolidated"
+    },
+    {
+      "variant_name": "Crossface Stack Recovery",
+      "description": "Combines forward stacking pressure with a strong crossface across the bottom player's jaw, using the crossface to turn their head and prevent the inversion that commonly counters standard stacking. The crossface also creates a wedge that helps separate the leg entanglement.",
+      "when_to_use": "When the bottom player has a history of inverting under stacking pressure, or when you have a free hand available to establish the crossface while maintaining sufficient forward drive"
+    },
+    {
+      "variant_name": "Knee Wedge Recovery",
+      "description": "Rather than driving forward over the entanglement, the top player wedges their free knee between the bottom player's legs and uses rotational pressure to pry apart the leg configuration from inside, then recovers posture as the entanglement loosens.",
+      "when_to_use": "When forward stacking pressure is being effectively countered by the bottom player's inversion or saddle transitions, and an alternative angle of pressure is needed to break the entanglement"
+    }
+  ],
+  "position_integration": "Posture Recovery from Carni serves as a critical safety valve within the broader leg entanglement defense system. While higher-percentage escapes like the stack defense and technical stand-up are generally preferred from Carni top, posture recovery fills an important niche when those options are unavailable. It connects the dangerous Carni entanglement to the relatively safe Closed Guard top position, essentially resetting the positional exchange to a neutral starting point. Within the complete defensive hierarchy against leg locks, posture recovery represents the conservative option—accepting a positional reset rather than risking the more aggressive counter-attacks that carry their own positional dangers. For practitioners developing their leg entanglement defense game, posture recovery should be trained as a reliable fallback that ensures they always have a safe exit from Carni even when optimal escapes are shut down.",
+  "conditions": [
+    "Opponent has established Carni control but has not yet locked a tight heel hook finish",
+    "At least one hand is available for framing against opponent's body",
+    "Sufficient space exists to generate forward pressure without immediate back exposure",
+    "Opponent's inside leg hook is not deeply threaded toward saddle position"
+  ],
+  "related_content": [
+    {
+      "name": "Carni",
+      "relationship": "Starting position - the leg entanglement this technique escapes from"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Target position - primary destination after successful posture recovery"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Counter threat - position opponent advances to if recovery is poorly timed"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Related entanglement family - similar defensive principles apply"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative recovery target - can establish stable base after extraction"
+    },
+    {
+      "name": "Stack Pass from Carni",
+      "relationship": "Alternative technique - uses similar forward pressure mechanics with passing intent"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Related leg entanglement - recovery principles transfer between positions"
+    },
+    {
+      "name": "Heel Hook Defense Escape",
+      "relationship": "Prerequisite skill - must protect heel while recovering posture"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Related entanglement position sharing defensive methodology"
+    }
+  ],
+  "attacker": {
+    "name": "Posture Recovery from Carni Attacker",
+    "description": "Complete guide to executing posture recovery from Carni in BJJ. Step-by-step stacking technique with grip control, forward pressure, and systematic escape to closed guard.",
+    "overview": "As the top player caught in Carni, executing posture recovery requires a disciplined, sequential approach that prioritizes safety while generating the forward pressure needed to collapse the bottom player's leg entanglement structure. The technique begins with securing your heel from immediate attack, then transitions to establishing upper body frames that allow you to drive forward into the bottom player's guard. Unlike explosive escape attempts that create the angular changes your opponent needs for saddle entries or back takes, posture recovery uses steady, controlled pressure that systematically eliminates the bottom player's offensive options until they are forced to abandon the leg attack and re-establish closed guard. This methodical approach makes it one of the safest escape paths from Carni, particularly valuable when other higher-percentage escapes have been shut down.",
+    "key_principles": [
+      "Protect the heel first before initiating any forward pressure to prevent submission during transition",
+      "Generate forward drive through hip extension rather than pushing with arms to maintain structural integrity",
+      "Collapse the space between your chest and opponent's torso to eliminate heel hook angles",
+      "Break opponent's ankle and heel grips systematically before committing to the stack",
+      "Maintain constant forward pressure once initiated to prevent opponent from re-establishing offensive angles",
+      "Use controlled breathing and patience rather than explosive movement to conserve energy during recovery"
+    ],
+    "setup_requirements": [
+      "Heel must be protected with ankle flexed and toes pointed away from attacker before initiating forward pressure",
+      "At least one hand must be free to establish frames against opponent's hips or torso",
+      "Sufficient base through free leg to generate forward driving pressure without losing balance",
+      "Opponent's heel grip must be loosened or partially broken to reduce submission risk during stacking motion",
+      "Recognition that opponent is between attack transitions creating a brief window for forward pressure"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure ankle position",
+        "description": "Before any movement, confirm your trapped leg's ankle is flexed with toes pointed away from the attacker. Use your same-side hand to control your own ankle if necessary, creating a physical barrier against heel hook attempts during the recovery sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish hip frame",
+        "description": "Place your free hand against the opponent's far hip or ribcage, creating a frame that will serve as the anchor point for your forward driving pressure. This frame prevents the opponent from pulling you into their guard while giving you a stable structure to push against during the stacking motion."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin forward pressure",
+        "description": "Drive your hips forward and begin walking your knees toward the opponent's head, generating steady pressure that collapses the space between your bodies. The forward drive should come primarily from hip extension rather than arm pushing, creating structural pressure that the opponent cannot easily redirect or use against you."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip heel grip",
+        "description": "As forward pressure increases, use your free hand to systematically strip the opponent's grip on your heel and ankle. Peel their controlling hand off your foot by attacking the weakest part of their grip, typically the fingers or the gap between thumb and fingers. Timing this grip break with your forward pressure makes it significantly more effective."
+      },
+      {
+        "step_number": 5,
+        "action": "Stack through guard",
+        "description": "Continue driving forward until your chest makes contact with the opponent's torso, folding them onto their shoulders. This stacking position eliminates all effective heel hook angles and collapses the leg entanglement structure. Keep your weight distributed through your chest and hips rather than your arms to maintain maximum pressure."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract trapped leg",
+        "description": "With the opponent compressed under your stack, begin extracting your trapped leg by straightening it backward and pumping it free from the loosened entanglement. Use small, controlled movements rather than explosive pulls, as jerky extraction can re-expose your heel to attack if the opponent maintains partial grip."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish closed guard top",
+        "description": "As your leg clears the entanglement, immediately establish proper closed guard top posture with hands on the opponent's hips, spine straight, and head elevated. The opponent will typically close their guard around your waist to retain control. Accept this position and begin working standard closed guard top escape sequences from relative safety."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent inverts and re-establishes leg entanglement during forward pressure",
+        "effectiveness": "High",
+        "your_response": "Maintain heavy chest-to-chest pressure and pin opponent's hips to prevent inversion. If they begin inverting, accelerate your forward drive to compress them before they can re-establish hooks.",
+        "targets_outcome": "Carni/Top"
+      },
+      {
+        "counter": "Opponent transitions to saddle as you drive forward by threading their inside leg deeper",
+        "effectiveness": "High",
+        "your_response": "Immediately stop forward pressure and retract hip away from opponent's inside leg. Establish crossface pressure and use your free leg to block their saddle entry hook before resuming extraction.",
+        "targets_outcome": "Saddle/Top"
+      },
+      {
+        "counter": "Opponent releases entanglement but immediately pulls you into tight closed guard with collar control",
+        "effectiveness": "Medium",
+        "your_response": "Accept the closed guard position as a significant improvement over Carni. Immediately establish strong posture and begin standard closed guard opening sequences.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent uses your forward pressure to create angle for back take by rolling underneath",
+        "effectiveness": "Medium",
+        "your_response": "Keep hips heavy and maintain chest contact to prevent opponent from creating the space needed to rotate underneath. If they begin rolling, follow their hips with your body weight to prevent back exposure.",
+        "targets_outcome": "Carni/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating forward pressure before securing ankle position and protecting the heel",
+        "consequence": "Creates perfect finishing angle for heel hook as forward movement extends the trapped leg and exposes the heel to immediate attack",
+        "correction": "Always confirm ankle is flexed with toes pointed away from attacker and heel grip is at least partially broken before committing to any forward driving pressure"
+      },
+      {
+        "error": "Using arms to push forward instead of generating pressure through hip extension",
+        "consequence": "Arms become extended and vulnerable to being isolated, and the pressure generated is easily redirected by the bottom player",
+        "correction": "Drive forward from the hips with chest leading, keeping arms tucked close to the body for framing rather than pushing"
+      },
+      {
+        "error": "Attempting explosive forward surge rather than controlled steady pressure",
+        "consequence": "Explosive movement creates angular changes that the bottom player can exploit for saddle transitions or back takes",
+        "correction": "Use steady, progressive forward pressure that maintains control throughout the movement, giving the opponent no sudden angular changes to exploit"
+      },
+      {
+        "error": "Failing to strip opponent's heel grip before fully committing to the stack",
+        "consequence": "Opponent maintains finishing grip throughout the stacking motion and can apply heel hook even from compressed position",
+        "correction": "Actively work to strip heel and ankle grips during the stacking sequence, timing grip breaks with moments of maximum forward pressure"
+      },
+      {
+        "error": "Stopping forward pressure once opponent begins releasing the entanglement",
+        "consequence": "Creates space for opponent to re-establish leg entanglement or transition to alternative attacking position",
+        "correction": "Continue forward pressure until fully through the guard and in established closed guard top position, maintaining chest contact throughout the transition"
+      },
+      {
+        "error": "Pulling trapped leg out explosively before entanglement is fully neutralized",
+        "consequence": "Jerky extraction re-exposes heel to attack and can cause self-injury if knee torques against remaining hooks",
+        "correction": "Extract leg with controlled, steady movements only after the stacking pressure has sufficiently loosened the entanglement structure"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Forward pressure generation and heel protection",
+        "description": "Practice generating forward stacking pressure from Carni position with zero resistance. Focus on hip extension mechanics, frame placement, and maintaining ankle protection throughout the movement. 50 repetitions each side."
+      },
+      {
+        "phase": "Phase 2: Grip Breaking",
+        "focus": "Systematic heel grip stripping under pressure",
+        "description": "Partner holds moderate heel grip while you practice timing grip breaks with forward pressure. Develop feel for when forward drive loosens opponent's grip enough for effective stripping. 30 repetitions with increasing grip strength."
+      },
+      {
+        "phase": "Phase 3: Timing Recognition",
+        "focus": "Identifying windows between opponent's attack transitions",
+        "description": "Partner flows between Carni attacks including heel hook threats, saddle entries, and back takes. Practice recognizing the brief windows between transitions when forward pressure is most effective. Gradually increase partner's transition speed."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Full resistance application from Carni",
+        "description": "Positional sparring starting from Carni top. Partner attacks freely while you work to implement posture recovery at appropriate moments. Focus on selecting correct escape based on opponent's current attack rather than forcing posture recovery when other escapes are higher percentage."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first action you must take before initiating forward pressure in posture recovery from Carni?",
+        "answer": "You must first secure your ankle position by flexing the ankle with toes pointed away from the attacker and ensuring the opponent's heel grip is at least partially disrupted. Initiating forward pressure before protecting the heel creates a perfect finishing angle for the heel hook as the forward movement extends the trapped leg, dramatically increasing submission risk during what should be an escape sequence."
+      },
+      {
+        "question": "Why should forward pressure come from hip extension rather than arm pushing?",
+        "answer": "Hip extension generates structural pressure that is difficult to redirect, whereas arm-based pushing extends the arms into vulnerable positions where they can be isolated for attacks. Additionally, hip-driven pressure maintains your chest close to the opponent's body which eliminates heel hook angles, while pushing with arms creates space between torsos that the opponent can exploit for re-establishing offensive positioning."
+      },
+      {
+        "question": "Your opponent begins inverting as you drive forward with stacking pressure - how do you respond?",
+        "answer": "Accelerate your forward drive and pin the opponent's hips to the mat with heavy chest-to-chest pressure to prevent the inversion from completing. If you can keep their hips pinned, they cannot rotate underneath to re-establish their leg entanglement. The key is recognizing the inversion attempt early and immediately increasing downward pressure rather than pausing, which gives them the space to complete the rotation."
+      },
+      {
+        "question": "When is the optimal timing window to initiate posture recovery from Carni?",
+        "answer": "The optimal window is during the brief transition moments when the bottom player is switching between attack sequences, for example when they release heel grip pressure to reposition for a saddle entry or when they are adjusting their inside leg hook. These transitions create momentary looseness in the entanglement that makes forward pressure significantly more effective. Attempting posture recovery when the opponent has fully established tight control with active heel grip is much lower percentage."
+      },
+      {
+        "question": "What is the critical difference between posture recovery and explosive leg extraction from Carni?",
+        "answer": "Posture recovery uses controlled, steady forward pressure to systematically collapse the entanglement structure before extracting the leg, while explosive extraction attempts to rip the leg free through speed and power. Explosive extraction creates angular changes that the bottom player can exploit for saddle transitions and back takes, and risks self-injury if the knee torques against remaining hooks. Posture recovery is slower but significantly safer and more reliable."
+      },
+      {
+        "question": "Your opponent threads their inside leg deeper as you drive forward, threatening saddle entry - what adjustment do you make?",
+        "answer": "Immediately halt forward pressure and retract your hip away from the opponent's inside leg to prevent them from completing the saddle hook. Establish crossface pressure with your upper body to control their head and shoulders, then use your free leg to block or clear their threading hook. Only resume forward pressure once the saddle entry has been successfully defended and the original Carni configuration is restored."
+      },
+      {
+        "question": "Why should you accept closed guard top as the endpoint rather than attempting to pass immediately?",
+        "answer": "Closed guard top, while not a dominant position, represents a massive improvement over being trapped in Carni where immediate heel hook and saddle threats exist. Attempting to bypass closed guard and go directly to a pass during the recovery creates over-extension and angular vulnerability that the opponent can exploit to re-establish leg entanglement. Accept closed guard, establish proper posture and base, then work standard guard opening sequences from a position of relative safety."
+      },
+      {
+        "question": "How do you time the grip strip on the opponent's heel control during the stacking motion?",
+        "answer": "Time the grip strip with moments of maximum forward pressure when the opponent is most compressed and their grip strength is mechanically reduced. As your chest drives into their torso and folds them onto their shoulders, their arm positioning weakens and grip angles become suboptimal. Attack the weakest point of their grip, typically the gap between thumb and fingers, during these compression peaks rather than attempting to strip when they have full extension and grip leverage."
+      }
+    ],
+    "safety_considerations": "Posture recovery from Carni carries significant knee and ankle injury risk if executed improperly. Never initiate forward pressure before confirming your ankle is protected with toes pointed away from the attacker. Avoid explosive movements that can torque the knee against remaining hooks in the entanglement. If you feel any sharp pain or clicking in the knee during recovery, stop immediately and tap rather than continuing through potential ligament damage. Train this technique progressively with cooperative partners before attempting under full resistance, and always communicate with training partners about heel hook threat levels during positional drilling."
+  },
+  "defender": {
+    "name": "Posture Recovery from Carni Defender",
+    "description": "Complete guide to preventing posture recovery from Carni bottom. Maintain leg entanglement control, counter stacking pressure, and advance to dominant positions.",
+    "overview": "As the bottom player in Carni, preventing your opponent's posture recovery is essential for maintaining your offensive position and threat of submission. When the top player attempts to drive forward and stack through your guard, you must recognize the attempt early and implement counter-measures that either maintain your existing Carni control or advance you to a more dominant position like the saddle. The key defensive principle is that the top player's forward pressure, while dangerous to your Carni position, also creates opportunities for saddle transitions and back takes if redirected properly. Understanding how to use the opponent's own momentum against them transforms their escape attempt into your positional advancement opportunity.",
+    "key_principles": [
+      "Recognize stacking pressure early through hip and chest contact changes before forward drive builds momentum",
+      "Maintain active heel and ankle grip throughout the opponent's recovery attempt to preserve submission threat",
+      "Use opponent's forward pressure to create angles for saddle transition rather than fighting the pressure directly",
+      "Keep inside leg hook active and threatening to prevent the top player from achieving clean forward drive",
+      "Stay connected to opponent's hips with your legs through all defensive transitions to prevent clean extraction",
+      "Convert failed Carni defense into closed guard retention as minimum acceptable outcome"
+    ],
+    "recognition_cues": [
+      "Opponent's free hand moves to establish frame against your hip or ribcage indicating stacking setup",
+      "Forward shift in opponent's weight distribution as they begin driving hips forward through hip extension",
+      "Opponent begins stripping or fighting your heel and ankle grips with increased urgency",
+      "Opponent's chest drops toward your torso as they initiate the stacking pressure sequence",
+      "Opponent's free leg repositions wider to generate forward driving base for stacking motion"
+    ],
+    "defensive_options": [
+      {
+        "action": "Thread inside leg deeper to establish saddle entry hook as opponent drives forward",
+        "when_to_use": "When opponent commits to forward pressure and creates space between their knees by driving forward",
+        "targets_outcome": "Saddle/Top",
+        "if_successful": "Transition to saddle position with deeper control and immediate heel hook threat from superior angle",
+        "risk": "If hook fails to set, opponent may complete stack and extract leg more easily"
+      },
+      {
+        "action": "Invert under the stacking pressure and re-establish Carni from opposite angle",
+        "when_to_use": "When opponent's forward pressure is moderate and there is space to rotate underneath",
+        "targets_outcome": "Carni/Top",
+        "if_successful": "Reset Carni control from fresh angle with maintained leg entanglement and renewed offensive options",
+        "risk": "Failed inversion under heavy pressure can result in being stacked and passed directly"
+      },
+      {
+        "action": "Close guard around opponent's waist as entanglement loosens to retain control",
+        "when_to_use": "When stacking pressure is too strong to maintain Carni and entanglement is collapsing",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Retain opponent in closed guard with sweep and submission opportunities, preventing complete escape",
+        "risk": "Gives up leg entanglement and all immediate leg lock threats"
+      },
+      {
+        "action": "Tighten heel grip and apply immediate finishing pressure before stack completes",
+        "when_to_use": "When opponent initiates forward pressure but heel grip is still deep and secure",
+        "targets_outcome": "Carni/Top",
+        "if_successful": "Force opponent to abandon stacking attempt due to immediate submission danger and reset to defensive position",
+        "risk": "Aggressive heel hook application during dynamic movement increases injury risk for both parties"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Saddle/Top",
+        "how": "Use the opponent's forward driving pressure to thread your inside leg deeper through their guard, establishing the saddle hook as their forward momentum carries them past the Carni position into the deeper entanglement"
+      },
+      {
+        "outcome": "Carni/Top",
+        "how": "Invert underneath the stacking pressure before it builds full momentum, using the rotation to re-establish Carni control from a fresh angle while maintaining the critical inside leg hook and heel grip"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Fighting the stacking pressure with arm strength rather than using leg entanglement mechanics",
+        "consequence": "Arms fatigue rapidly while the fundamental forward pressure is not addressed, resulting in eventual collapse of position",
+        "correction": "Use leg hooks and hip movement to redirect the stacking pressure rather than pushing against it with arms, threading hooks deeper or inverting to use the momentum advantageously"
+      },
+      {
+        "error": "Releasing heel grip to push against opponent's chest or shoulders during stack",
+        "consequence": "Abandoning heel grip removes all submission threat and allows opponent to focus entirely on extraction without defensive concerns",
+        "correction": "Maintain heel and ankle control throughout the defensive sequence, only transitioning grip when moving to closed guard as last resort"
+      },
+      {
+        "error": "Remaining flat on back without inverting or creating angles as opponent drives forward",
+        "consequence": "Allows opponent to build maximum stacking pressure directly through your center line, collapsing the entanglement from the most advantageous angle",
+        "correction": "Stay active with hip movement, angling off to one side or beginning inversion early to prevent the clean forward drive from building full pressure"
+      },
+      {
+        "error": "Over-committing to saddle transition when opponent's forward pressure is already too established",
+        "consequence": "Failed saddle entry under heavy stacking pressure results in being folded and passed with no guard retention",
+        "correction": "Recognize when the window for saddle transition has closed and default to closed guard retention as the minimum acceptable defensive outcome"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is attempting posture recovery from Carni?",
+        "answer": "The earliest cue is when the opponent's free hand moves to establish a frame against your hip or ribcage, indicating they are setting up a stacking base. This hand placement precedes the actual forward pressure by several seconds, giving you time to implement counter-measures. Secondary cues include forward weight shift and increased urgency in grip fighting against your heel control."
+      },
+      {
+        "question": "How do you use the opponent's forward stacking pressure to advance to the saddle?",
+        "answer": "As the opponent drives forward, their forward momentum creates space between their knees and opens their guard structure. Thread your inside leg deeper through this space, using their forward pressure to carry your hook past the point where they can retract. The key timing is threading the hook as they commit to the forward drive but before they achieve chest-to-chest contact that would compress you too much to complete the transition."
+      },
+      {
+        "question": "When should you abandon Carni retention and default to closing your guard?",
+        "answer": "Default to closing guard when the opponent has achieved deep stacking pressure with chest-to-chest contact and your inside leg hook has been cleared or is about to be cleared. At this point, attempting to maintain Carni or transition to saddle carries high risk of being passed entirely. Closing guard retains the opponent in your control system with sweep and submission opportunities, which is far preferable to being passed to side control."
+      },
+      {
+        "question": "What is the risk of aggressively applying heel hook finish as the opponent drives forward with stacking pressure?",
+        "answer": "Applying aggressive heel hook during dynamic forward pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force can cause sudden, uncontrollable knee ligament damage before either person can react to tap. The safer approach is to use the heel hook threat to stall forward pressure and create transition opportunities rather than attempting to finish during active stacking movement."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying posture recovery attempts early",
+        "description": "Partner performs posture recovery at slow speed while you practice recognizing the setup cues such as hand placement, weight shift, and grip fighting patterns. Call out the recognition before the partner completes the attempt. 20 repetitions focusing on timing awareness."
+      },
+      {
+        "phase": "Phase 2: Counter Threading",
+        "focus": "Saddle entry timing against forward pressure",
+        "description": "Partner drives forward at moderate pace while you practice threading inside leg for saddle entry. Focus on timing the thread with the opponent's commitment to forward drive. Start with light resistance and progress to moderate. 30 repetitions each side."
+      },
+      {
+        "phase": "Phase 3: Decision Making",
+        "focus": "Choosing between saddle, re-establishment, and guard retention",
+        "description": "Partner varies the speed and intensity of posture recovery attempts. Practice selecting the appropriate defensive response based on pressure level: saddle when window is open, re-establishment when possible, guard retention when necessary. Random variation forces pattern recognition."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full resistance prevention of posture recovery",
+        "description": "Positional sparring from Carni bottom with partner actively working all escape options including posture recovery. Defend and counter while maintaining offensive threat. Round ends on successful escape, submission, or positional advancement. 2-minute rounds."
+      }
+    ]
+  }
 }

@@ -1,42 +1,400 @@
 {
   "name": "Sweep from Honey Hole",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "sweep", "honey hole", "leg entanglement", "reversal"],
+  "description": "Master the Sweep from Honey Hole in BJJ. Escape dangerous leg entanglement by reversing to Side Control using momentum and leverage-based sweep mechanics.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "honey hole",
+    "leg entanglement",
+    "reversal",
+    "escape",
+    "inside sankaku"
+  ],
   "from_position": "Honey Hole/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 30, "result": "success"},
-    {"to": "Honey Hole/Bottom", "probability": 45, "result": "failure"},
-    {"to": "Honey Hole/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 30,
+      "result": "success"
+    },
+    {
+      "to": "Honey Hole/Bottom",
+      "probability": 45,
+      "result": "failure"
+    },
+    {
+      "to": "Honey Hole/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 30,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Honey Hole represents one of the most technically demanding reversals in modern leg lock grappling. Initiated from the bottom of the Honey Hole position—where your leg is trapped in your opponent's inside leg triangle with direct heel hook access—this sweep transforms a desperate defensive situation into an offensive opportunity by using the entanglement connecting both bodies as a mechanical lever for reversal. The technique requires explosive commitment, precise timing, and the willingness to take calculated risks with your trapped knee.\n\nThe fundamental strategic logic is that the Honey Hole connection is bidirectional: while it gives the top player submission access, it also physically links both practitioners through the leg triangle. By generating explosive momentum through bridging, pendulum action with the free leg, and upper body control, the bottom player leverages this connection to off-balance and sweep the top player toward Side Control. The technique reaches its highest success percentage when the top player is reaching for heel hook grips or adjusting their leg configuration, creating brief windows where their base is compromised and they cannot resist the directional force.\n\nThis sweep occupies a critical niche in the defensive leg lock hierarchy. While counter-entanglement to 50-50 guard is typically the primary escape strategy from Honey Hole bottom, the sweep offers an alternative path when counter-entanglement routes are blocked or when the opponent's upper body positioning creates a favorable angle for reversal. At approximately 30% overall success rate, it remains a low-percentage but high-reward option that experienced practitioners maintain in their defensive arsenal, deploying it when they recognize specific windows of vulnerability in their opponent's weight distribution and base.",
+  "conditions": [
+    "Opponent has not yet secured a full heel hook grip on your trapped heel",
+    "Your free leg retains mobility and is not controlled by opponent",
+    "You have some degree of upper body freedom to establish grips or frames",
+    "Opponent's weight is shifted or elevated during grip adjustment or position transition",
+    "Your knee alignment on the trapped leg is maintained and you are not experiencing rotational pressure"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Pendulum Momentum Sweep",
+      "description": "Uses the free leg as a pendulum, swinging it forcefully across the body to generate rotational momentum that carries the opponent over. The trapped leg acts as a fixed pivot point while the free leg's arc creates the sweeping force. Requires significant hip flexibility and explosive leg movement.",
+      "when_to_use": "When opponent's weight is centered or slightly forward and you have full free leg mobility. Most effective against opponents who maintain upright posture in Honey Hole rather than driving hips down."
+    },
+    {
+      "variant_name": "Bridge and Roll Reversal",
+      "description": "Explosive hip bridge combined with upper body grips to roll the opponent directly over your body. Uses the entanglement connection as a tether that prevents the opponent from simply disengaging during the roll. Requires strong bridging mechanics and timing with opponent's weight shifts.",
+      "when_to_use": "When you have secured upper body grips on opponent's far arm or collar and their hips are elevated while reaching for your heel. The bridge is most effective when directed toward the side where opponent's base is weakest."
+    },
+    {
+      "variant_name": "Inversion Sweep",
+      "description": "Inverting underneath the opponent and using the leg entanglement geometry to create an off-balancing force as you rotate beneath them. The inversion changes the angle of the entanglement, turning the opponent's control mechanism into a lever that pulls them forward and over. Requires strong inversion skills and comfort being upside down under pressure.",
+      "when_to_use": "When the opponent is leaning back heavily to create distance for heel hook setup, creating space underneath that allows inversion entry. Also effective when direct bridging and pendulum sweeps have been shut down."
+    }
+  ],
+  "position_integration": "The Sweep from Honey Hole sits within the defensive leg lock hierarchy as an alternative to counter-entanglement escapes. While most leg lock defense systems prioritize transitioning to 50-50 guard or extracting the leg entirely, this sweep provides a direct reversal path that bypasses the entanglement game altogether. It integrates with the broader BJJ positional system by connecting the leg lock subsystem back to traditional top control positions like Side Control, where the practitioner can leverage standard passing and submission chains. For practitioners who prefer imposing top pressure over engaging in extended leg lock exchanges, this sweep offers a pathway out of the leg lock game and into their preferred positional domain.",
+  "related_content": [
+    {
+      "name": "Honey Hole",
+      "relationship": "Source position where sweep is initiated from bottom"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Target position achieved upon successful sweep completion"
+    },
+    {
+      "name": "Inside Heel Hook from Honey Hole",
+      "relationship": "Primary submission threat this sweep preempts by reversing before heel hook finish"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent positional family encompassing all leg entanglement variations"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Alternative escape destination via counter-entanglement when sweep is unavailable"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Closely related control position with similar entanglement mechanics"
+    },
+    {
+      "name": "Sweep from Cross Ashi-Garami",
+      "relationship": "Analogous sweep technique from different leg entanglement configuration"
+    },
+    {
+      "name": "Inversion Escape from Leg Entanglement",
+      "relationship": "Alternative escape method sharing inversion mechanics with sweep variant"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Conceptual framework governing all leg lock positions and transitions"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Related submission threat from adjacent entanglement position"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Honey Hole Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Honey Hole/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Execute the Sweep from Honey Hole to reverse dangerous leg entanglement into Side Control. Step-by-step bridging mechanics, timing windows, and sweep variations.",
+    "overview": "Executing the Sweep from Honey Hole requires transforming the worst-case leg lock scenario into a positional reversal. As the attacker, you are the bottom player trapped in your opponent's inside leg triangle, facing imminent heel hook danger. Rather than accepting this defensive nightmare passively, you leverage the physical connection created by the entanglement itself—using bridging force, free leg momentum, and upper body grips to generate a sweep that deposits your opponent beneath you in Side Control. This technique demands precise timing, explosive commitment, and the tactical awareness to recognize when your opponent's weight distribution creates vulnerability. The sweep is most effective during the brief window when your opponent reaches for your heel or adjusts their leg configuration, momentarily compromising their base. Attempting this sweep without recognizing these windows results in wasted energy and potentially deeper entanglement.",
+    "key_principles": [
+      "Use the entanglement connection as leverage rather than fighting against it—the leg triangle that traps you also tethers your opponent to you",
+      "Time sweep attempts exclusively during opponent's grip transitions or weight shifts when their base is momentarily compromised",
+      "Commit fully and explosively to the sweep direction—half-measures fail against any competent leg lock player and waste critical energy",
+      "Establish upper body control before generating sweep momentum to prevent opponent from simply basing out with their hands",
+      "Maintain strict knee-to-toe alignment on the trapped leg throughout the entire sweep motion to prevent ligament damage",
+      "Transition immediately to consolidated top control upon successful sweep—lingering in the entanglement after reversal allows opponent to re-establish leg lock threats"
+    ],
+    "setup_requirements": [
+      "Opponent has not captured your heel with a finishing grip—once heel hook grip is established, sweep becomes extremely dangerous to attempt",
+      "Free leg is mobile and can post on the mat or against opponent's body for leverage generation",
+      "Upper body has sufficient freedom to establish grips on opponent's far arm, collar, belt, or shorts",
+      "Opponent's weight is distributed in a way that creates a sweepable angle—either reaching forward for grips, sitting back to create distance, or adjusting leg configuration",
+      "Your trapped knee is not under active rotational pressure—never attempt the sweep while opponent is applying heel hook breaking mechanics"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Defend and assess heel exposure",
+        "description": "Before initiating any sweep mechanics, actively fight any heel hook grip attempts with both hands. Strip opponent's fingers from your heel, hide your toes by pointing them toward the opponent, and verify that no breaking pressure exists on your knee. This assessment must happen in under one second—you are determining whether sweep is viable or whether you need to tap."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish upper body control grips",
+        "description": "Reach across to grip opponent's far arm at the wrist or elbow, or secure their collar, belt, or shorts near their far hip. This grip serves two purposes: it prevents them from posting their hand to stop the sweep, and it provides a pull point to amplify your sweep momentum. Prioritize the far-side grip—near-side grips provide less mechanical advantage for the sweep direction."
+      },
+      {
+        "step_number": 3,
+        "action": "Post free leg for leverage",
+        "description": "Plant your free foot firmly on the mat with your knee bent, positioning it to generate maximum bridging force. Alternatively, place your free foot against opponent's hip or thigh to create a pushing platform. The free leg is your primary engine for sweep momentum—its positioning determines the direction and force available for the reversal attempt."
+      },
+      {
+        "step_number": 4,
+        "action": "Load hips for explosive bridge",
+        "description": "Shift your hips slightly toward the sweep direction while loading weight onto your shoulders and posted foot. This loading phase must be subtle to avoid telegraphing—experienced leg lock players recognize hip loading as a sweep precursor and will immediately tighten their triangle and drive their hips down to kill your momentum before you can execute."
+      },
+      {
+        "step_number": 5,
+        "action": "Wait for timing window",
+        "description": "The critical moment arrives when your opponent reaches with one or both hands toward your heel, lifts their hips to adjust the triangle configuration, or shifts their weight laterally during a grip transition. This window typically lasts under one second. Do not initiate the sweep against settled, well-based opponents—patience at this stage is the difference between success and failure."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute explosive bridge and pendulum",
+        "description": "The instant you identify the timing window, bridge explosively off your posted foot while simultaneously pulling with your upper body grip and swinging your free leg in the sweep direction. The bridge, pull, and pendulum must fire as a single coordinated burst. Your hips drive upward and toward the sweep angle while the entanglement connection transmits your force directly into your opponent's body, disrupting their base."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through to top position",
+        "description": "As your opponent's balance breaks and they begin tipping, follow their momentum by climbing over them rather than remaining flat. Your chest should move toward their chest as they rotate, maintaining the upper body grip to prevent them from posting. The entanglement may partially unravel during the rotation—use this to begin extracting your trapped leg while establishing chest-to-chest contact."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate Side Control and disengage leg",
+        "description": "Upon completing the reversal, immediately establish crossface pressure and hip control in Side Control. Extract your previously trapped leg from any remaining entanglement by straightening it and pulling your knee free. Settle your weight perpendicular to opponent's torso before they can re-establish any leg lock threats. Speed of consolidation determines whether you maintain the sweep or get pulled back into the entanglement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent drives hips down and tightens inside leg triangle immediately upon sensing sweep initiation",
+        "effectiveness": "High",
+        "your_response": "Abort the sweep attempt and transition to grip fighting or counter-entanglement to 50-50 guard instead. Do not force the sweep against a locked-down base—it wastes energy and may expose your heel.",
+        "targets_outcome": "Honey Hole/Bottom"
+      },
+      {
+        "counter": "Opponent posts far hand on the mat to base out against the sweep direction",
+        "effectiveness": "Medium",
+        "your_response": "If you have their far arm controlled, this counter is neutralized. If they free the arm to post, redirect your sweep angle or immediately switch to pulling their posting arm to remove the base before re-attempting the sweep.",
+        "targets_outcome": "Honey Hole/Bottom"
+      },
+      {
+        "counter": "Opponent accelerates heel hook attempt using your sweep momentum to create rotational force on your knee",
+        "effectiveness": "High",
+        "your_response": "This is the most dangerous counter. If you feel any heel hook grip tightening during the sweep, abandon the sweep instantly and prioritize heel defense. Tap immediately if rotational pressure reaches your knee. Never fight through a heel hook to complete a sweep.",
+        "targets_outcome": "Honey Hole/Bottom"
+      },
+      {
+        "counter": "Opponent releases triangle voluntarily and disengages to avoid being swept, resetting to neutral",
+        "effectiveness": "Low",
+        "your_response": "Accept the positional reset as a win—you escaped Honey Hole bottom. Immediately establish distance or guard position before they can re-enter the leg entanglement. This counter actually achieves your defensive goal even though the sweep itself did not complete.",
+        "targets_outcome": "Side Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep while opponent has a secured heel hook grip on your foot",
+        "consequence": "The sweep motion creates rotational force that the opponent's grip converts directly into heel hook breaking pressure on your knee, causing potentially catastrophic ligament damage",
+        "correction": "Never initiate sweep mechanics until you have verified your heel is free from opponent's grip. Strip all heel grips first, then assess sweep viability. Sweep and heel hook defense are sequential, never simultaneous."
+      },
+      {
+        "error": "Half-committing to the sweep direction with insufficient explosive force",
+        "consequence": "Partial sweep attempts fail to break opponent's balance, waste critical energy reserves, and telegraph your intentions allowing them to tighten control and shut down subsequent attempts",
+        "correction": "Commit 100% explosive force to the sweep or do not attempt it at all. The sweep requires a coordinated burst of bridge, pull, and pendulum—any element at less than maximum intensity causes the entire chain to fail."
+      },
+      {
+        "error": "Neglecting upper body control before generating sweep momentum",
+        "consequence": "Without controlling opponent's far arm or upper body, they simply post their hand on the mat to base against the sweep, completely negating your bridging force while maintaining full leg entanglement control",
+        "correction": "Always establish far-side upper body grip before loading your bridge. The grip must remove their ability to post. Without this grip, the sweep is mechanically impossible against any opponent with functional base awareness."
+      },
+      {
+        "error": "Allowing trapped knee to rotate independently of foot during sweep motion",
+        "consequence": "Independent knee rotation under the forces generated by the sweep combined with the entanglement creates exactly the mechanics that tear ACL and MCL ligaments, potentially ending your training for months",
+        "correction": "Maintain strict knee-to-toe alignment throughout the entire sweep motion. Your knee must point the same direction as your toes at all times. If alignment breaks, abort the sweep immediately."
+      },
+      {
+        "error": "Telegraphing sweep intention by loading hips obviously before the timing window opens",
+        "consequence": "Experienced leg lock players recognize hip loading as a sweep precursor and preemptively drive their hips down, tighten the triangle, and may accelerate their own heel hook attempt to punish your positioning",
+        "correction": "Keep hip loading subtle and maintain a defensive posture until the exact moment of execution. The transition from defense to explosive sweep should be instantaneous with no preparatory movement visible to your opponent."
+      },
+      {
+        "error": "Failing to consolidate Side Control immediately after successful sweep",
+        "consequence": "Remaining in or near the leg entanglement after the reversal allows the opponent to re-establish triangle control or transition to a different leg lock position from bottom, negating your sweep entirely",
+        "correction": "The instant you achieve top position, prioritize extracting your trapped leg and establishing crossface and hip control. Treat the post-sweep consolidation as a race—you have 2-3 seconds to establish Side Control before the opponent recovers."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Basic sweep motion and body coordination",
+        "description": "Practice the bridge-pull-pendulum coordination with a cooperative partner at zero resistance. Focus on synchronizing hip bridge, upper body pull, and free leg swing into one unified motion. Drill 20 repetitions per side, emphasizing smooth mechanics over power. Partner maintains Honey Hole position without gripping heel."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying sweep windows during opponent activity",
+        "description": "Partner cycles through standard Honey Hole top activities: reaching for heel, adjusting triangle, shifting weight for submissions. Practice recognizing and reacting to each timing window with the sweep motion at 50% speed. Focus on triggering the sweep at the correct moment rather than with maximum force."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Executing sweep against increasing opposition",
+        "description": "Partner provides graduated resistance from 30% to 75% while maintaining Honey Hole top. Practice full-speed explosive sweeps against increasing resistance, learning to calibrate force output and recognize when sweep is viable versus when to abort. Include heel defense sequences before sweep attempts."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Chaining sweep with other Honey Hole bottom escapes",
+        "description": "Positional sparring from Honey Hole bottom with full resistance. Chain the sweep attempt with counter-entanglement to 50-50, inversion escapes, and grip fighting sequences. Develop the ability to switch between sweep and alternative escapes based on real-time feedback from opponent's reactions."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Sweep from Honey Hole?",
+        "answer": "The optimal timing window opens when the opponent reaches for your heel with one or both hands, lifts their hips to adjust the triangle configuration, or shifts their weight laterally during a grip transition. These moments temporarily compromise their base and remove their ability to resist sweep force. This window typically lasts under one second, requiring preloaded mechanics and instant recognition to exploit successfully."
+      },
+      {
+        "question": "What conditions must exist before you can safely attempt this sweep?",
+        "answer": "Four conditions must be verified: your heel must be free from opponent's heel hook grip, your free leg must retain mobility for posting and pendulum generation, you must have sufficient upper body freedom to establish a far-side control grip, and your trapped knee must not be under any active rotational pressure. If any of these conditions is absent, the sweep attempt carries unacceptable injury risk or has near-zero success probability."
+      },
+      {
+        "question": "What is the critical mechanical detail that makes the bridge-pull-pendulum work as a unified sweep?",
+        "answer": "All three components—hip bridge, upper body pull, and free leg pendulum—must fire simultaneously as a coordinated burst rather than sequentially. The bridge creates upward force, the pull creates lateral force against the opponent's upper body, and the pendulum generates rotational momentum through the free leg's arc. The entanglement connection transmits these combined forces directly into the opponent's center of gravity, making the whole greater than the sum of its parts."
+      },
+      {
+        "question": "Why do half-committed sweep attempts fail and what is the consequence?",
+        "answer": "Half-committed attempts fail because the opponent's triangle and hip pressure create a stability threshold that requires maximum explosive force to overcome. Partial force merely shifts the opponent slightly without breaking their balance, wasting critical energy reserves. Worse, the failed attempt telegraphs your intention, allowing the opponent to tighten their control and preemptively shut down subsequent attempts. Each failed attempt reduces the probability of the next attempt succeeding."
+      },
+      {
+        "question": "What grip should you prioritize on the opponent's upper body and why?",
+        "answer": "Prioritize a far-side grip—controlling the opponent's far arm at the wrist or elbow, or gripping their collar, belt, or shorts near their far hip. Far-side grips provide superior mechanical advantage for the sweep direction because they prevent the opponent from posting their far hand to base against the sweep. Near-side grips provide less leverage and leave the opponent's far arm free to stabilize, making the sweep significantly harder to complete."
+      },
+      {
+        "question": "What is the primary direction of force during the sweep execution?",
+        "answer": "The primary force direction is upward and diagonally toward the opponent's weak side—the side where their base is least stable. The bridge provides the vertical component lifting the opponent off their base, while the pull and pendulum provide the horizontal component that tips them over. The exact angle depends on the opponent's weight distribution, but generally targets the space between their far hip and far shoulder where they have the least ability to post or resist."
+      },
+      {
+        "question": "Your opponent posts their far hand on the mat to stop your sweep—how do you adjust?",
+        "answer": "If your far-side grip failed to control their posting arm, you have two options. First, immediately redirect your upper body grip to their posted arm, pulling it off the mat to remove the base before re-attempting the sweep at a slightly different angle. Second, if their post is too strong to strip, abort the sweep attempt entirely and chain into a counter-entanglement to 50-50 guard or a different escape route, since their weight commitment to the post may create different openings."
+      },
+      {
+        "question": "If your initial sweep attempt is stuffed but you remain in Honey Hole bottom, what should your next action be?",
+        "answer": "Immediately chain into an alternative escape rather than resting or reattempting the same sweep. The failed sweep may have created micro-adjustments in the opponent's position that open other escape paths—check if counter-entanglement to 50-50 is available, attempt inversion if space exists underneath, or revert to grip fighting and heel defense. Do not attempt the identical sweep twice consecutively, as the opponent is now specifically defending against it and your energy reserves are diminished."
+      }
+    ],
+    "safety_considerations": "The Sweep from Honey Hole involves significant knee injury risk on the trapped leg throughout the entire sweep motion. During execution, maintain strict alignment between your knee and toes on the trapped leg—any independent knee rotation while the leg is entangled in the opponent's triangle can cause catastrophic ligament damage including ACL and MCL tears. If you feel any sharp pain, clicking, or unusual pressure in your knee during the sweep attempt, abandon the technique immediately and tap if necessary. Never initiate the sweep while the opponent has an active heel hook grip—the sweep motion under those conditions amplifies rotational forces on the knee exponentially. In training, start with cooperative drilling at zero resistance before progressing to live application. Communicate clearly with training partners about intensity levels."
   },
   "defender": {
     "name": "Sweep from Honey Hole Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Honey Hole/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Honey Hole/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend the Sweep from Honey Hole in BJJ. Maintain dominant leg entanglement control by recognizing sweep setups, maintaining base, and countering reversal attempts.",
+    "overview": "Defending against the Sweep from Honey Hole requires the top player to maintain positional dominance while recognizing and shutting down reversal attempts from the trapped practitioner. As the defender, you hold the advantageous Honey Hole top position with direct heel hook access, but your opponent's sweep attempts threaten to reverse this dynamic entirely. Your defensive approach must balance maintaining offensive pressure toward heel hook finishes while keeping sufficient base and weight distribution to resist sweep momentum. The key defensive principle is anticipation—recognizing sweep setup cues before explosive execution allows you to preemptively adjust weight distribution, tighten your triangle control, or accelerate your own submission attempt to end the exchange before the sweep develops. Successful defense often means converting the opponent's sweep attempt into an improved attacking position for yourself.",
+    "key_principles": [
+      "Maintain low hip pressure against the trapped leg at all times—elevated hips create the space opponents need to generate bridging force for the sweep",
+      "Secure heel hook grip quickly to eliminate the sweep as a viable option—opponents will not attempt sweeps while their heel is captured and breaking pressure is imminent",
+      "Keep base wide and stable with at least one hand posted or ready to post whenever you feel any change in opponent's hip activity",
+      "Control opponent's free leg whenever possible—the free leg is their primary engine for pendulum momentum and posting leverage",
+      "React immediately to any momentum shift by driving hips down and tightening the triangle rather than trying to ride out the sweep force",
+      "Recognize that sweep attempts signal the opponent has not accepted the position—increase offensive pressure to force them into pure defensive mode"
+    ],
+    "recognition_cues": [
+      "Opponent begins hip loading by subtly shifting weight toward one side while maintaining contact with the mat through their shoulders and posted foot",
+      "Opponent reaches across to grip your far arm, collar, belt, or shorts near your far hip—far-side grips are the primary setup for sweep mechanics",
+      "Opponent's free leg plants firmly on the mat with bent knee or posts against your hip, establishing a leverage platform for bridging force",
+      "Opponent's grip fighting shifts from defending their heel to controlling your upper body, indicating a change from pure defense to sweep offense",
+      "Opponent's breathing pattern changes to short, sharp inhalations indicating preparation for an explosive effort rather than sustained defensive work"
+    ],
+    "defensive_options": [
+      {
+        "action": "Drive hips down and tighten inside leg triangle to kill sweep momentum before it develops",
+        "when_to_use": "Immediately upon recognizing any hip loading or far-side grip establishment by the opponent",
+        "targets_outcome": "Honey Hole/Bottom",
+        "if_successful": "Opponent's sweep attempt is neutralized and they remain trapped in Honey Hole bottom with diminished energy reserves from the failed attempt",
+        "risk": "Minimal risk—tightening control is always beneficial and costs little energy"
+      },
+      {
+        "action": "Post far hand on the mat to base out against the sweep direction",
+        "when_to_use": "When you feel the sweep momentum beginning to shift your balance and hip pressure alone is insufficient to stop it",
+        "targets_outcome": "Honey Hole/Bottom",
+        "if_successful": "The post stops the sweep dead and allows you to resettle your weight and re-establish full control from Honey Hole top",
+        "risk": "Posting temporarily removes one hand from heel hook setup, potentially allowing opponent to strip grips or hide their heel"
+      },
+      {
+        "action": "Accelerate heel hook finish to end the exchange before sweep completes",
+        "when_to_use": "When you have already secured heel hook grip and opponent initiates sweep rather than defending—use their movement to add rotational force to your finish",
+        "targets_outcome": "Honey Hole/Bottom",
+        "if_successful": "Submission finish before sweep develops, ending the exchange entirely with a tap",
+        "risk": "High risk if heel grip is not fully secured—rushing the finish without proper mechanics may allow escape during the sweep motion"
+      },
+      {
+        "action": "Control opponent's free leg by hooking it with your far leg or gripping behind the knee",
+        "when_to_use": "Preemptively when you recognize the opponent positioning their free leg for posting or pendulum generation",
+        "targets_outcome": "Honey Hole/Bottom",
+        "if_successful": "Eliminates the opponent's primary sweep engine, making any reversal attempt mechanically impossible without free leg mobility",
+        "risk": "Controlling the free leg may compromise your own leg triangle tightness or remove a hand from heel hook position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Honey Hole/Bottom",
+        "how": "Maintain tight inside leg triangle with constant hip pressure throughout opponent's sweep attempt. Drive hips down immediately upon recognizing hip loading or far-side grip establishment. Use the opponent's failed sweep attempt as an opportunity to advance your heel hook grip while their attention is divided between sweep execution and heel defense."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching for heel hook grip with both hands while ignoring base and weight distribution",
+        "consequence": "Both hands committed to heel means zero ability to post against sweep momentum—opponent's bridge and pull easily tips you over into the reversal",
+        "correction": "Keep at least one hand ready to post for base while working heel hook grips incrementally. Secure position stability first, then commit both hands to the finish only when your base is solid and you are ready for immediate submission."
+      },
+      {
+        "error": "Maintaining elevated hips to create distance for submission setup rather than driving weight down",
+        "consequence": "Elevated hips provide the space opponent needs to generate bridging momentum and create the sweep angle—you are literally giving them the leverage they need",
+        "correction": "Keep hips heavy and tight against the trapped leg at all times. Create submission angles through hand positioning and body rotation rather than hip elevation. Your hips should feel like dead weight pinning opponent's leg to the mat."
+      },
+      {
+        "error": "Failing to recognize far-side grip establishment as a sweep precursor",
+        "consequence": "Allowing opponent to establish unchallenged far-side control of your arm or body gives them the pull point needed to amplify sweep momentum beyond what base alone can resist",
+        "correction": "Treat any far-side grip attempt as an immediate threat. Strip the grip, withdraw the arm, or change your angle to deny the control point. Far-side grips are the setup—denying them prevents the sweep entirely."
+      },
+      {
+        "error": "Attempting to ride out the sweep momentum rather than actively countering it",
+        "consequence": "Passive resistance to sweep forces is less effective than active counter-pressure—momentum builds quickly and once balance is broken past the tipping point, no amount of resistance can prevent the reversal",
+        "correction": "React to sweep initiation with immediate active counter-pressure: drive hips down, tighten triangle, post hand, or accelerate your own submission. Active counters in the first half-second are far more effective than reactive balance recovery after momentum develops."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is setting up a sweep from Honey Hole bottom?",
+        "answer": "The earliest cue is the opponent reaching across to establish a far-side grip on your arm, collar, belt, or shorts. This grip is the essential setup component because it removes your ability to post for base and provides the pull point that amplifies sweep momentum. Before this grip is established, bridge force alone is rarely sufficient to complete a sweep against a well-positioned top player. Denying this grip is the most efficient way to prevent the sweep entirely."
+      },
+      {
+        "question": "Why should you avoid committing both hands to the heel hook grip when you sense sweep potential?",
+        "answer": "Both hands on the heel means zero ability to post against sweep momentum. When the opponent bridges and pulls, your only resistance comes from hip pressure and leg triangle tightness—which may be insufficient if they time the sweep well. Keeping at least one hand free to post provides an emergency base option that can stop even a well-timed sweep. The heel hook can be finished with one hand controlling heel and one hand ready to post, sacrificing some grip power for positional security."
+      },
+      {
+        "question": "How can you use the opponent's sweep attempt to improve your own attacking position?",
+        "answer": "A failed sweep attempt depletes the opponent's energy reserves and temporarily disrupts their defensive structure as they recover from the explosive effort. During their recovery phase, their heel defense is weakest because their hands were committed to far-side grips rather than protecting the heel. Use this 1-2 second window after their sweep fails to aggressively advance your heel hook grip. Their failed sweep becomes your submission opportunity because their offensive and defensive priorities conflicted."
+      },
+      {
+        "question": "When should you accelerate your heel hook finish versus maintaining positional control against a sweep?",
+        "answer": "Accelerate the finish only when you already have a secured heel hook grip with proper hand configuration and the opponent initiates a sweep. Their sweep motion actually adds rotational force that can amplify your finishing mechanics. However, if your heel grip is not yet fully established, rushing the finish during a sweep is extremely risky—incomplete grips under dynamic movement often slip, and you lose both the submission and potentially your positional control simultaneously."
+      },
+      {
+        "question": "What role does controlling the opponent's free leg play in sweep prevention?",
+        "answer": "The opponent's free leg is their primary sweep engine—it provides the posting base for bridging force and the pendulum arc for rotational momentum. Without free leg mobility, sweep attempts are mechanically impossible regardless of how strong their upper body grips or bridge are. Controlling the free leg by hooking it with your far leg or gripping behind the knee eliminates the sweep threat entirely, though it may temporarily compromise your own triangle tightness or heel hook positioning."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying sweep setup cues in real time",
+        "description": "Partner drills sweep setups at slow speed while you practice calling out each setup cue as it occurs: far-side grip, hip loading, free leg posting. No actual sweep execution—focus purely on pattern recognition. Build automatic threat identification that triggers before conscious analysis."
+      },
+      {
+        "phase": "Phase 2: Counter Mechanics",
+        "focus": "Executing specific defensive responses to each sweep variant",
+        "description": "Partner performs each sweep variant at 50% speed and resistance. Practice the appropriate counter for each: hip drive against bridge sweep, grip stripping against far-side control, posting against momentum, free leg control against pendulum. Drill each counter 15-20 times per variant."
+      },
+      {
+        "phase": "Phase 3: Attack Through Defense",
+        "focus": "Converting failed sweep attempts into submission opportunities",
+        "description": "Partner attempts full-speed sweeps at 75% power while you defend and immediately counterattack with heel hook advancement during their recovery window. Focus on the timing transition from defensive counter to offensive heel hook grip—the 1-2 second window after a failed sweep is the key moment to exploit."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed defense integrated with complete Honey Hole top game",
+        "description": "Positional sparring from Honey Hole top with partner using all available bottom options including sweeps, counter-entanglement, and heel defense. Develop the ability to maintain offensive heel hook progression while automatically defending sweep attempts. Build the confidence to commit to finishes without sacrificing base awareness."
+      }
+    ]
   }
 }

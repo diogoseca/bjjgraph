@@ -47,8 +47,8 @@
       "relationship": "Common recovery position for bottom player after clearing toe hold grip and extracting endangered leg"
     },
     {
-      "name": "X-Guard",
-      "relationship": "Guard variation offering both entry to toe hold attacks and defensive recovery pathway during escapes"
+      "name": "Ashi Garami",
+      "relationship": "Parent positional category governing entry mechanics and fundamental leg entanglement control principles"
     },
     {
       "name": "Leg Entanglement",
@@ -388,7 +388,7 @@
         "condition": "If opponent has toe hold grip but has not yet applied full rotational pressure and wrists are accessible",
         "actions": [
           {
-            "technique": "Saddle Defense",
+            "technique": "Angle Change Escape",
             "target": "Ashi Garami",
             "probability": 55
           },
@@ -408,7 +408,7 @@
             "probability": 50
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Guard Recovery from Leg Entanglement",
             "target": "Open Guard",
             "probability": 40
           },
@@ -423,8 +423,8 @@
         "condition": "If free leg creates successful frame on opponent's hips breaking their forward pressure",
         "actions": [
           {
-            "technique": "X-Guard to Ashi Transition",
-            "target": "X-Guard",
+            "technique": "Counter-entangle to 50-50 Guard",
+            "target": "50-50 Guard",
             "probability": 45
           },
           {
@@ -525,8 +525,8 @@
         "relationship": "Common follow-up attack if opponent transitions from toe hold"
       },
       {
-        "name": "Saddle Defense",
-        "relationship": "Primary defensive transition technique for escaping toe hold control"
+        "name": "Angle Change Escape",
+        "relationship": "Primary defensive transition technique for escaping toe hold control through angle adjustment"
       },
       {
         "name": "Ashi Garami Escape",
@@ -563,7 +563,7 @@
       },
       {
         "question": "How should you use your free leg defensively from toe hold control bottom?",
-        "answer": "Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to X-guard or single leg X positions when grips are cleared."
+        "answer": "Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to single leg X or 50-50 positions when grips are cleared."
       },
       {
         "question": "What is the correct sequence for escaping - grip break first or leg extraction first?",
@@ -583,7 +583,7 @@
       },
       {
         "question": "After successfully breaking opponent's grip control, how do you safely complete the escape?",
-        "answer": "Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, X-guard, or single leg X-guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement."
+        "answer": "Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, single leg X-guard, or 50-50 guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement."
       }
     ],
     "name": "Toe Hold Control Bottom",
@@ -600,7 +600,7 @@
     ],
     "transitions": [
       {
-        "transition": "Saddle Defense",
+        "transition": "Angle Change Escape",
         "attempt_probability": 25
       },
       {
@@ -612,11 +612,11 @@
         "attempt_probability": 14
       },
       {
-        "transition": "X-Guard to Ashi Transition",
+        "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": 12
       },
       {
-        "transition": "Guard Recovery",
+        "transition": "Guard Recovery from Leg Entanglement",
         "attempt_probability": 13
       },
       {

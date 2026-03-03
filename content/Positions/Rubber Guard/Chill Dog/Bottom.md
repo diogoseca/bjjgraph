@@ -21,37 +21,37 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 32% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,21 +215,23 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (15% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Granby to Closed Guard]] (12% of attempts)
+### [[Granby to Closed Guard]] (11% of attempts)
 
-### [[Technical Stand-up]] (26% of attempts)
+### [[Technical Stand-up]] (32% of attempts)
 
-### [[Rolling to Guard]] (12% of attempts)
+### [[Rolling to Guard]] (11% of attempts)
 
-### [[Turtle to Guard]] (14% of attempts)
+### [[Turtle to Guard]] (13% of attempts)
 
-### [[Hip Escape to Guard]] (12% of attempts)
+### [[Hip Escape to Guard]] (11% of attempts)
 
-### [[Escape Chill Dog]] (6% of attempts)
+### [[Escape Chill Dog]] (5% of attempts)
 
-### [[Roll from Chill Dog]] (3% of attempts)
+### [[Roll from Chill Dog]] (2% of attempts)
+
+### [[Sweep from Chill Dog]] (1% of attempts)
 
 
 

@@ -109,14 +109,15 @@
   ],
   "related_submissions": [
     "Inside Heel Hook",
-    "Heel Hook",
+    "Heel Hook from Saddle",
     "Kneebar",
     "Toe Hold",
     "Straight Ankle Lock",
     "Calf Slicer",
-    "Estima Lock",
-    "Kneebar from 50-50",
-    "Toe Hold from 50-50"
+    "Estima Lock Finish",
+    "Outside Heel Hook from Backside 50-50",
+    "Outside Heel Hook from Cross Ashi",
+    "Inside Heel Hook from Honey Hole"
   ],
   "related_content": [
     {
@@ -136,8 +137,8 @@
       "relationship": "Entry position providing outside control"
     },
     {
-      "name": "Kneebar",
-      "relationship": "Alternative leg attack from same positions"
+      "name": "Kneebar Control",
+      "relationship": "Alternative leg attack control position from same entanglements"
     },
     {
       "name": "50-50 Guard",
@@ -156,8 +157,8 @@
       "relationship": "Parent leg entanglement category"
     },
     {
-      "name": "Straight Ankle Lock",
-      "relationship": "Lower-risk alternative from similar positions"
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Lower-risk alternative control position from similar entanglements"
     }
   ],
   "variations_and_setups": [
@@ -247,31 +248,31 @@
         "counter": "Rotating knee line inward toward attacker to reduce torque",
         "effectiveness": "High",
         "your_response": "Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment.",
-        "targets_outcome": "Outside Ashi-Garami"
+        "targets_outcome": "Outside Ashi-Garami/Top"
       },
       {
         "counter": "Grabbing attacker's legs or pants to prevent position consolidation",
         "effectiveness": "High",
         "your_response": "Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure.",
-        "targets_outcome": "Outside Ashi-Garami"
+        "targets_outcome": "Outside Ashi-Garami/Top"
       },
       {
         "counter": "Rolling toward the attacked leg to relieve pressure",
         "effectiveness": "Medium",
         "your_response": "Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll.",
-        "targets_outcome": "Outside Ashi-Garami"
+        "targets_outcome": "Outside Ashi-Garami/Top"
       },
       {
         "counter": "Pulling trapped leg out through gap between attacker's legs",
         "effectiveness": "Medium",
         "your_response": "Close distance with your legs and eliminate space. Keep your outside leg tight to their trapped leg. Extend your hips to create length in their leg, making extraction harder. Attack the submission quickly before they create escape space.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Bottom"
       },
       {
         "counter": "Standing up or attempting to create vertical posture",
         "effectiveness": "Low",
         "your_response": "Use your outside leg to off-balance them and prevent standing. Pull them back down while maintaining heel control. If they achieve standing, transition to a guard position rather than forcing a compromised finish.",
-        "targets_outcome": "Standing Position"
+        "targets_outcome": "Standing Position/Bottom"
       }
     ],
     "common_errors": [
@@ -419,21 +420,21 @@
       {
         "action": "Rotate knee line inward and strip heel grip",
         "when_to_use": "As soon as you recognize outside ashi-garami being established, before opponent secures the heel cup",
-        "targets_outcome": "Outside Ashi-Garami",
+        "targets_outcome": "Outside Ashi-Garami/Top",
         "if_successful": "Opponent loses outside positioning and heel access, returning to neutral leg entanglement where you can work standard escapes",
         "risk": "Low risk if executed before heel grip is locked; moderate risk if attempted against established grip as movement may create momentary torque"
       },
       {
         "action": "Stand up and extract leg using height advantage",
         "when_to_use": "When opponent's leg triangle is loose or you have prevented their inside leg from controlling your hip effectively",
-        "targets_outcome": "Standing Position",
+        "targets_outcome": "Standing Position/Bottom",
         "if_successful": "Full escape to standing position where you can disengage or re-engage on your terms with no leg lock threat",
         "risk": "Moderate - standing creates space that may allow opponent to tighten position if extraction fails; must protect heel during the attempt"
       },
       {
         "action": "Counter-entangle into opponent's legs for mutual threat",
         "when_to_use": "When opponent loosens their leg control during grip transition or positional adjustment, exposing their own legs",
-        "targets_outcome": "Outside Ashi-Garami",
+        "targets_outcome": "Outside Ashi-Garami/Top",
         "if_successful": "Creates mutual leg lock threat that forces opponent to defend, breaking their offensive sequence and potentially giving you the superior position",
         "risk": "Moderate to high - entering your own leg entanglement while already trapped requires precise timing; failed attempt may worsen position"
       },
@@ -452,11 +453,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Outside Ashi-Garami",
+        "outcome": "Outside Ashi-Garami/Top",
         "how": "Successfully rotate knee line inward and strip the heel grip before opponent establishes the figure-four lock, then work standard ashi garami escape sequence to extract your leg from the entanglement"
       },
       {
-        "outcome": "Standing Position",
+        "outcome": "Standing Position/Bottom",
         "how": "Exploit a loose leg triangle or broken grip to stand up with base, using height advantage and gravity to extract trapped leg while maintaining heel protection throughout the standing sequence"
       }
     ],

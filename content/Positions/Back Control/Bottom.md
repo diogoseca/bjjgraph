@@ -20,38 +20,38 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 62% of exchanges from this position.",
+      "name": "Execute Hand Fighting from Back",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Hip Escape to Turtle",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Hip Escape from Back Control",
+      "text": "From this position, attempt Hip Escape from Back Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -211,33 +211,33 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 ## Available Escapes
 
-### [[Back Door Escape]] (62% of attempts)
+### [[Hand Fighting from Back]] (22% of attempts)
 
-### [[Hip Escape to Turtle]] (11% of attempts)
+### [[Back Door Escape]] (20% of attempts)
+
+### [[Hip Escape to Turtle]] (13% of attempts)
+
+### [[Elbow Escape to Remove Hooks]] (12% of attempts)
+
+### [[Turn In and Face]] (8% of attempts)
+
+### [[Hip Escape from Back Control]] (5% of attempts)
+
+### [[Turtle from Back Control]] (5% of attempts)
+
+### [[Shoulder Walk Escape from Back]] (5% of attempts)
+
+### [[Scoot Hips to Guard from Back]] (4% of attempts)
+
+### [[Turn into Opponent from Back]] (3% of attempts)
+
+### [[Elbow Escape from Back]] (2% of attempts)
+
+### [[Hand Fight to Turtle from Back]] (1% of attempts)
 
 ### [[Granby Roll to Guard]] (0% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (11% of attempts)
-
-### [[Hand Fighting from Back]] (9% of attempts)
-
-### [[Turn In and Face]] (6% of attempts)
-
 ### [[Rolling Escape to Guard]] (0% of attempts)
-
-### [[Elbow Escape from Back]] (0% of attempts)
-
-### [[Hand Fight to Turtle from Back]] (0% of attempts)
-
-### [[Hip Escape from Back Control]] (0% of attempts)
-
-### [[Scoot Hips to Guard from Back]] (0% of attempts)
-
-### [[Shoulder Walk Escape from Back]] (0% of attempts)
-
-### [[Turn into Opponent from Back]] (0% of attempts)
-
-### [[Turtle from Back Control]] (1% of attempts)
 
 
 

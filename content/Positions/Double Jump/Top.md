@@ -44,8 +44,8 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Rodeo Ride",
-      "text": "From this position, attempt Transition to Rodeo Ride. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Turtle to Rodeo Ride",
+      "text": "From this position, attempt Turtle to Rodeo Ride. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
@@ -218,7 +218,7 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ### [[Rolling Back Take]] (10% of attempts)
 
-### [[Transition to Rodeo Ride]] (6% of attempts)
+### [[Turtle to Rodeo Ride]] (6% of attempts)
 
 ### [[Sit to Half Guard]] (8% of attempts)
 

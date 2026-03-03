@@ -186,6 +186,7 @@ What makes the Estima Lock particularly effective is its deceptive setup - it of
 
 The technique requires precise control and understanding of leg entanglement mechanics. Success depends on proper positioning of the attacking leg behind the opponent's knee, correct hand placement on the foot, and coordinated pressure application. When executed correctly, the Estima Lock can finish opponents quickly, but it also serves as an excellent sweeping mechanism and position advancement tool. The submission is particularly valuable in modern leg lock systems where transitions between different leg attacks create layered offensive threats.
 
+**From Position**: [[50-50 Guard]] (Bottom)
 
 
 </section>

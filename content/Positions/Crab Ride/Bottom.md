@@ -21,37 +21,37 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Standing",
-      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Peterson Roll",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Sit Through Escape",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,21 +207,21 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (32% of attempts)
+### [[Hip Escape to Guard]] (39% of attempts)
 
-### [[Granby Roll to Guard]] (19% of attempts)
+### [[Granby Roll to Guard]] (21% of attempts)
 
-### [[Turtle to Standing]] (14% of attempts)
+### [[Turtle to Standing]] (13% of attempts)
 
-### [[Guard Recovery]] (9% of attempts)
+### [[Peterson Roll]] (8% of attempts)
 
-### [[Peterson Roll]] (9% of attempts)
+### [[Sit Through Escape]] (10% of attempts)
 
-### [[Sit Through Escape]] (11% of attempts)
+### [[Rolling Back Take]] (3% of attempts)
 
-### [[Rolling Back Take]] (4% of attempts)
+### [[Crab Ride Escape to Guard]] (4% of attempts)
 
-### [[Crab Ride Escape to Guard]] (2% of attempts)
+### [[Escape from Crab Ride]] (2% of attempts)
 
 
 
@@ -233,7 +233,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 **If opponent has only one hook and is trying to insert second hook:**
 - Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Guard Recovery]]** → [[Butterfly Guard]] (Probability: 35%)
+- Execute **[[Shrimp to Butterfly Guard]]** → [[Butterfly Guard]] (Probability: 35%)
 
 
 **If opponent has strong upper body control and is breaking you down:**
@@ -389,7 +389,7 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 - **[[Granby Roll to Guard]]** - Primary escape technique - most common technical solution
 - **[[Hip Escape to Guard]]** - Fundamental escape - basic defensive movement to recover guard
 - **[[Rolling Back Take]]** - Counter-attack option - offensive opportunity from defensive position
-- **[[Rear Naked Choke]]** - Primary submission threat - what to defend against
+- **[[Crab Ride Escape to Guard]]** - Direct escape transition from this position to guard recovery
 
 
 </section>

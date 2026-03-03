@@ -1,10 +1,15 @@
 {
   "name": "Counter Entangle to 50-50 from Ashi",
-  "description": "TODO: Write 150-160 character SEO description for Counter Entangle to 50-50 from Ashi.",
+  "description": "Master the counter entangle to 50-50 from ashi garami. Complete guide to leg threading mechanics, timing windows, and attack transitions in leg lock systems.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "leg-lock",
+    "50-50",
+    "ashi-garami",
+    "counter-entangle",
+    "leg-entanglement",
+    "advanced"
   ],
   "from_position": "Inside Ashi-Garami/Bottom",
   "outcomes": [
@@ -25,114 +30,372 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Counter Entangle to 50-50 from Ashi.",
+  "overview": "The counter entangle to 50-50 from ashi garami is a deliberate positional transition within the leg lock system where the practitioner in Inside Ashi-Garami threads their free leg around the opponent's near leg to create the symmetrical 50-50 Guard entanglement. This technique serves as a critical system change when direct attacks from standard ashi garami are being effectively defended, offering new heel hook angles and submission entries from the 50-50 configuration.\n\nThe transition capitalizes on the mechanical principle that when an opponent successfully defends their heel in ashi garami—typically by rotating their knee inward or pulling their leg back—the space created during their defense actually facilitates leg threading for the 50-50 entry. Skilled practitioners recognize this defensive reaction as a trigger for the counter entangle rather than continuing to force attacks from a compromised ashi position.\n\nFrom a strategic perspective, the counter entangle to 50-50 is valuable because it maintains offensive pressure while changing the attack angle. Rather than disengaging and re-entering the leg lock system, the practitioner flows directly into 50-50 where they can immediately threaten heel hooks from a different configuration. This chain-based approach—flowing between entanglements rather than resetting—is a hallmark of modern leg lock systems and keeps the opponent under constant submission threat throughout the transition.",
   "conditions": [
-    "TODO"
+    "Established Inside Ashi-Garami control with at least one hand securing opponent's heel or ankle",
+    "Opponent actively defending standard ashi submissions by rotating knee inward or retracting heel",
+    "Free leg has clearance to thread over opponent's near thigh without obstruction from their frames",
+    "Sufficient hip mobility maintained to execute the rotational threading motion",
+    "Upper body positioning allows weight shift during leg threading without losing all grip control"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Immediate Thread on Heel Defense",
+      "description": "Execute the counter entangle as an instantaneous reaction the moment the opponent rotates their knee inward to defend the heel hook. The knee rotation creates maximum threading space, and the opponent's defensive focus on heel protection leaves them unable to simultaneously prevent the leg thread. Requires pre-committed decision-making and trained pattern recognition.",
+      "when_to_use": "When opponent demonstrates a consistent knee-rotation heel defense and you can predict the timing of their defensive movement"
+    },
+    {
+      "variant_name": "Grip Transfer Counter Entangle",
+      "description": "Maintain continuous heel grip throughout the transition by switching from C-grip to figure-four configuration during the threading motion itself. Rather than gripping, threading, then re-gripping, the practitioner transitions their grip in real-time as the body rotates. This eliminates the grip vulnerability window but requires advanced coordination and grip dexterity.",
+      "when_to_use": "Against opponents with strong grip-stripping defense who will exploit any momentary loosening of heel control during the transition"
     }
   ],
-  "position_integration": "TODO: Write position integration for Counter Entangle to 50-50 from Ashi.",
+  "position_integration": "The counter entangle to 50-50 from ashi garami sits at a critical junction in the modern leg lock system, connecting the foundational Inside Ashi-Garami position to the 50-50 Guard. This transition exemplifies the chain-based approach to leg attacks where practitioners flow between entanglements based on opponent reactions rather than forcing finishes from compromised positions. The technique integrates with the broader leg entanglement hierarchy—practitioners who master this transition can threaten from ashi, flow to 50-50 when defended, and continue advancing to Honey Hole or Backside 50-50 as the opponent reacts, creating a systematic web of leg attacks that maintains constant offensive pressure.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Inside Ashi-Garami",
+      "relationship": "Starting position from which the counter entangle is initiated"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Target position reached upon successful completion of the counter entangle"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "Advanced entanglement accessible from 50-50 for continued leg attack progression"
+    },
+    {
+      "name": "Backside 50-50",
+      "relationship": "Alternative advancement from 50-50 offering different heel hook angles"
+    },
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Alternative entanglement transition from ashi when counter entangle is unavailable"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced entanglement in the leg lock hierarchy accessible from multiple positions"
+    },
+    {
+      "name": "50-50 Entry",
+      "relationship": "Related transition for entering 50-50 from different starting positions"
+    },
+    {
+      "name": "Backside 50-50 Entry from Ashi",
+      "relationship": "Alternative entanglement change from ashi garami to backside configuration"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission attack available from the resulting 50-50 position"
+    },
+    {
+      "name": "Straight Ankle Lock Entry",
+      "relationship": "Alternative attack from ashi garami when counter entangle is not needed"
     }
   ],
   "attacker": {
     "name": "Counter Entangle to 50-50 from Ashi Attacker",
-    "description": "TODO: Write attacker description for Counter Entangle to 50-50 from Ashi.",
-    "overview": "TODO: Write attacker overview for Counter Entangle to 50-50 from Ashi.",
+    "description": "Learn to execute the counter entangle to 50-50 from ashi garami. Step-by-step leg threading mechanics, grip transitions, and immediate attack options from the new entanglement position.",
+    "overview": "As the attacker executing the counter entangle, your objective is to transition from Inside Ashi-Garami to 50-50 Guard by threading your free leg around the opponent's near leg to create a symmetrical entanglement. This technique is most effective when your opponent has successfully defended standard ashi garami attacks—particularly by rotating their knee inward or retracting their heel—and the 50-50 configuration offers superior attacking angles. The threading motion must be executed while maintaining heel control to prevent the opponent from using the transition as an escape opportunity. Timing the thread to coincide with the opponent's defensive movement is critical, as their defensive rotation often creates the exact space needed for your leg to pass over their thigh.",
     "key_principles": [
-      "TODO"
+      "Thread during opponent's defensive rotation—their heel defense creates the space you need for the entangle",
+      "Maintain at least one controlling grip on the heel or ankle throughout the entire threading sequence",
+      "Drive your threading leg over the opponent's near thigh using hip rotation for clearance, never under it",
+      "Settle into 50-50 with inside position advantage by establishing your leg on the inside first",
+      "Transition your grip configuration immediately upon reaching 50-50 to match the new attack angle",
+      "Use the momentum of the thread to create immediate offensive pressure rather than pausing to settle"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established Inside Ashi-Garami with at least C-grip heel control on opponent's trapped leg",
+      "Opponent demonstrating active heel defense—knee rotation, leg retraction, or grip fighting on your hands",
+      "Free leg positioned near opponent's hip with clearance to pass over their thigh",
+      "Hip mobility to rotate your body during the threading motion without losing upper body connection to opponent's leg",
+      "Understanding of 50-50 attack options to immediately threaten submissions upon completing the transition"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Recognize defense trigger",
+        "description": "Identify that your opponent has successfully defended your standard ashi garami attacks. Key indicators include persistent knee rotation inward, successful heel retraction with grip fighting, or establishment of defensive frames preventing submission finish. This recognition is the decision point—continuing to force standard ashi attacks against strong defense wastes energy and reduces position quality."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure heel control anchor",
+        "description": "Before initiating the thread, confirm your primary heel grip is secure. Transition to a deep C-grip with fingers wrapped fully around the heel bone, pulling it against your sternum. This grip serves as your anchor throughout the transition—if you lose heel contact during the thread, the opponent will extract their leg and escape the entanglement entirely."
+      },
+      {
+        "step_number": 3,
+        "action": "Create threading space with hip rotation",
+        "description": "Begin rotating your hips toward the opponent's trapped leg while simultaneously extending your free leg. Use the outside hip to drive your body angle wider, creating clearance for your free leg to pass over the opponent's near thigh. The rotation should feel like you are turning your entire body to face the same direction as the opponent rather than remaining perpendicular."
+      },
+      {
+        "step_number": 4,
+        "action": "Thread free leg over opponent's thigh",
+        "description": "Lift your free leg and pass it over the opponent's near thigh, hooking your foot on the far side of their hip. The threading motion uses hip flexion combined with the rotational momentum from the previous step. Your shin should cross their thigh at approximately mid-thigh level—too high and you lack control, too low and your foot gets trapped beneath their weight."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the entanglement triangle",
+        "description": "Once your free leg clears the opponent's thigh, immediately triangle your legs around their trapped leg by crossing your ankles or locking your feet together. This creates the characteristic 50-50 mirror configuration. Squeeze your legs together to secure the entanglement and prevent the opponent from extracting before you settle into the new position."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish inside position and reset grips",
+        "description": "Settle your inside leg into the inside control position across the opponent's hip. Transition your hand grips from the C-grip to your preferred 50-50 attack configuration—typically figure-four around the heel for heel hooks. Immediately begin threatening submissions from the new angle to prevent the opponent from establishing their own offensive grips in the 50-50."
+      },
+      {
+        "step_number": 7,
+        "action": "Initiate immediate 50-50 attack",
+        "description": "Begin your first submission attempt within two to three seconds of completing the entanglement. The transition itself often creates momentary disorientation in the opponent as they adjust to the new position. Exploit this window with an immediate heel hook attempt, using the new angle that the 50-50 configuration provides to expose their heel from a different direction than your original ashi garami attack."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent straightens trapped leg explosively during threading to prevent entanglement completion",
+        "effectiveness": "High",
+        "your_response": "Abandon the thread and immediately attack the straightened leg with a kneebar or straight ankle lock—leg extension from ashi creates ideal mechanics for these submissions",
+        "targets_outcome": "Inside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Opponent posts on free hand and hip escapes away during leg threading to create extraction distance",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Follow their hip escape by scooting your body with them while accelerating the thread—their movement often creates more space for your leg to clear their thigh if you pursue aggressively",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent strips heel grip with both hands during the transition when your control is temporarily loosened",
+        "effectiveness": "High",
+        "your_response": "If heel grip is broken during threading, immediately clamp your legs to trap their leg structurally and re-establish heel control before they can fully extract—use your inside leg as a backup hook",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent drives forward and stacks you during the rotational movement to prevent completion",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward momentum to complete the thread faster by pulling your threading leg through while simultaneously scooting your hips back to create space for the entangle",
         "targets_outcome": "Inside Ashi-Garami/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing heel grip to use both hands for leg threading",
+        "consequence": "Opponent immediately extracts leg and escapes all entanglement when heel control is abandoned during transition",
+        "correction": "Maintain C-grip on heel with at least one hand throughout entire threading sequence—use hip mechanics rather than hands to execute the thread"
+      },
+      {
+        "error": "Threading leg under opponent's thigh instead of over it",
+        "consequence": "Leg gets trapped beneath opponent's weight, creating no entanglement and exposing you to guard pass",
+        "correction": "Always thread over the top of opponent's near thigh using hip rotation and leg elevation—practice the motion without resistance until the over-the-top path is automatic"
+      },
+      {
+        "error": "Attempting counter entangle when opponent has strong posture and active frames",
+        "consequence": "Opponent uses your rotational movement to advance their own position and pass your legs entirely",
+        "correction": "Only initiate the counter entangle when opponent is actively defending in ashi—their defensive posture and heel protection create the space needed for successful threading"
+      },
+      {
+        "error": "Failing to establish inside position immediately upon reaching 50-50",
+        "consequence": "Opponent gains inside position first and controls the submission hierarchy in the new position",
+        "correction": "Prioritize inside leg placement across opponent's hip within the first second of completing the entangle—this determines who attacks and who defends in 50-50"
+      },
+      {
+        "error": "Pausing to rest after completing the entangle instead of attacking immediately",
+        "consequence": "Opponent settles into 50-50 defense with strong heel protection and grip fighting position",
+        "correction": "Attack within two to three seconds of completing the thread—the opponent's momentary disorientation during position change is your primary advantage and it expires quickly"
+      },
+      {
+        "error": "Telegraphing the counter entangle by obviously repositioning the free leg before initiating",
+        "consequence": "Opponent recognizes the setup and preemptively straightens their leg or hip escapes to prevent the thread",
+        "correction": "Disguise the threading motion within your normal ashi garami attack sequence—initiate from a submission attempt rather than from a neutral holding position"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Thread Mechanics",
+        "focus": "Isolated threading motion and body rotation",
+        "description": "Practice the threading motion without resistance. Partner lies passively while you drill the leg-over-thigh motion from Inside Ashi-Garami to 50-50 configuration. Perform 20 repetitions per side focusing on smooth hip rotation, proper leg elevation, and maintaining heel grip throughout. Build muscle memory for the rotational path before adding complexity."
+      },
+      {
+        "phase": "Phase 2: Grip Retention",
+        "focus": "Maintaining heel control during transition",
+        "description": "Add partner resistance specifically targeting your heel grip during the threading motion. Partner attempts to strip your heel grip with two-on-one hand fighting while you execute the counter entangle. Success criteria: complete 10 consecutive threads without losing heel control. Develops grip strength and adjustment skills essential for live application."
+      },
+      {
+        "phase": "Phase 3: Timing and Recognition",
+        "focus": "Identifying defensive triggers for counter entangle",
+        "description": "Positional sparring from Inside Ashi-Garami where partner uses realistic heel defense. Practice recognizing the moment when their defensive knee rotation creates threading space and executing the counter entangle in real time. Work 3-minute rounds alternating between standard ashi attacks and counter entangle based on partner's defensive reactions."
+      },
+      {
+        "phase": "Phase 4: Competition Integration",
+        "focus": "Full chain integration under resistance",
+        "description": "Live positional sparring beginning in Inside Ashi-Garami with full resistance. Practice the complete attack chain: standard ashi submission attempt, opponent defends, counter entangle to 50-50, immediate 50-50 attack. Partner provides full defensive resistance throughout. Work 5-minute rounds with goal of completing at least 3 successful counter entangles per round."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What defensive reaction from your opponent creates the optimal window for initiating the counter entangle?",
+        "answer": "The optimal window opens when your opponent rotates their knee inward to defend heel hook exposure from standard ashi garami. This knee rotation creates space between their thigh and your hip area, which is exactly the gap your free leg needs to thread through. Additionally, their defensive focus on protecting their heel means their attention is directed away from preventing your leg movement, giving you a brief window where the threading motion goes unopposed."
+      },
+      {
+        "question": "Why is maintaining heel grip throughout the threading sequence critical rather than optional?",
+        "answer": "Heel grip serves as your positional anchor during the entire transition. Without it, the opponent can extract their leg the moment you begin rotating your body and threading your free leg—the rotational movement actually creates space for extraction if no grip prevents it. The heel grip also ensures you have immediate submission control upon reaching 50-50, eliminating the grip-fighting phase that would otherwise allow the opponent to establish defensive positioning."
+      },
+      {
+        "question": "What is the correct path for the threading leg relative to the opponent's thigh?",
+        "answer": "The threading leg must pass over the top of the opponent's near thigh, never under it. The over-the-top path uses gravity and hip rotation to your advantage, allowing your shin to clear their thigh cleanly and hook on the far side. Threading under traps your leg beneath their body weight, creates no entanglement structure, and exposes you to guard passing. The hip rotation during threading naturally elevates your leg for the over-the-top clearance."
+      },
+      {
+        "question": "Your opponent straightens their leg explosively as you begin threading—how do you capitalize on this reaction?",
+        "answer": "Abort the counter entangle and immediately attack the straightened leg with a kneebar or straight ankle lock. Leg extension from Inside Ashi-Garami creates ideal mechanics for these submissions because the knee joint is now exposed and your existing leg control provides the fulcrum. Their defensive reaction to your threading attempt has actually opened a higher-percentage submission opportunity than the 50-50 transition would have provided."
+      },
+      {
+        "question": "What distinguishes inside position control in 50-50 from inside position in standard ashi garami?",
+        "answer": "In standard Inside Ashi-Garami, your inside leg crosses the opponent's hip to control distance and prevent extraction. In 50-50, inside position means your leg occupies the inside angle of the entanglement closest to the opponent's centerline, which controls the submission hierarchy. The inside position in 50-50 determines who can attack heel hooks and who must defend. Establishing inside position immediately upon completing the counter entangle transforms a neutral 50-50 into an offensive one."
+      },
+      {
+        "question": "How quickly should you initiate your first submission attempt after completing the counter entangle?",
+        "answer": "Within two to three seconds of completing the entanglement. The transition creates a brief window of disorientation for the opponent as they process the position change from ashi to 50-50. Their defensive habits and grip patterns are calibrated for ashi garami defense, not 50-50 defense, and it takes several seconds to mentally and physically adjust. Attacking immediately exploits this adjustment window before they establish proper 50-50 defensive positioning."
+      },
+      {
+        "question": "Your heel grip weakens during the thread but you still have partial contact—should you complete the thread or abandon it?",
+        "answer": "If you maintain partial heel contact with at least fingertip control, complete the thread while simultaneously reinforcing the grip by pulling the heel closer to your chest. The completion of the entanglement creates leg-based control that supplements your hand grip. However, if you lose all heel contact entirely, immediately clamp your legs together to structurally trap their leg and re-establish heel grip before continuing—never complete the thread with zero heel control."
+      },
+      {
+        "question": "What body positioning error most commonly causes the counter entangle attempt to stall midway through?",
+        "answer": "Insufficient hip rotation is the most common cause of stalling. Practitioners often try to thread their leg using only hip flexion without rotating their entire body toward the opponent's trapped leg. Without the rotational component, the threading leg lacks the elevation and clearance needed to pass over the opponent's thigh. The correction is to think of the movement as turning your entire body to face the same direction as your opponent, which naturally provides the rotational momentum for the thread."
+      },
+      {
+        "question": "When should you choose the counter entangle to 50-50 over transitioning to Honey Hole or Outside Ashi-Garami?",
+        "answer": "Choose the counter entangle to 50-50 when the opponent's defense specifically involves knee rotation and heel hiding that blocks both the Honey Hole path and the Outside Ashi path. The counter entangle works best when the opponent has established a compact defensive posture preventing advancement deeper into the entanglement hierarchy. If the opponent's defense opens their far hip, Honey Hole is preferable. If they extend their leg, Outside Ashi may be better. The counter entangle is optimal against compact defense that prevents advancement in either direction."
+      },
+      {
+        "question": "What grip configuration should you transition to upon reaching 50-50 for maximum offensive threat?",
+        "answer": "Transition from the C-grip used during ashi garami to a figure-four grip around the opponent's heel, with your wrist positioned behind their Achilles tendon. This grip configuration is the finishing grip for heel hooks from 50-50 and allows immediate rotational breaking pressure. Establishing this grip as part of the transition rather than after settling into 50-50 saves critical seconds and often catches the opponent before they can establish defensive hand fighting positions."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Counter Entangle to 50-50 from Ashi."
+    "safety_considerations": "The counter entangle to 50-50 involves rotational forces on both practitioners' knee joints during the threading and settling phases. Apply all leg entanglement transitions slowly during training, communicating with your partner throughout the movement. Both practitioners should be prepared to tap immediately if unexpected rotational pressure occurs on the knee during the entanglement change. Never force the threading motion against a fully locked defensive position, as this can create dangerous torque on the opponent's trapped knee. Train this transition only under qualified instruction with partners who understand leg lock safety protocols."
   },
   "defender": {
     "name": "Counter Entangle to 50-50 from Ashi Defender",
-    "description": "TODO: Write defender description for Counter Entangle to 50-50 from Ashi.",
-    "overview": "TODO: Write defender overview for Counter Entangle to 50-50 from Ashi.",
+    "description": "Learn to defend and prevent the counter entangle to 50-50 from ashi garami. Recognition cues, defensive timing, and escape strategies to maintain positional advantage.",
+    "overview": "As the defender against the counter entangle, you are the person whose leg is controlled in Inside Ashi-Garami when your opponent attempts to thread into 50-50 Guard. Your primary objectives are recognizing the threading attempt early, preventing the leg from clearing your thigh, and either maintaining the current positional dynamic or creating complete separation to disengage from the leg entanglement entirely. Successful defense requires understanding the mechanical requirements of the thread—specifically that it needs rotational space and heel control to succeed—and denying these conditions through active leg straightening, grip stripping, and hip positioning.",
     "key_principles": [
-      "TODO"
+      "Early recognition is decisive—the counter entangle becomes exponentially harder to stop once the threading leg clears your thigh",
+      "Deny rotational space by pressing your near thigh down and keeping your legs tight together",
+      "Strip opponent's heel grip aggressively during the thread when their grip is most vulnerable due to body repositioning",
+      "Straighten your trapped leg to prevent the entanglement triangle from closing around it",
+      "Hip escape away from the threading motion to create extraction distance before the entangle completes",
+      "If 50-50 is established despite your defense, immediately fight for inside position before opponent settles"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins rotating their hips toward your trapped leg while their free leg lifts away from the mat surface",
+      "Opponent's free leg moves laterally across your near thigh rather than maintaining standard ashi hooking position behind your knee",
+      "Opponent shifts their grip from active submission configuration to an anchoring heel grip while their body rotates toward you",
+      "Sudden decrease in standard ashi garami submission pressure followed by rotational body movement indicating position change",
+      "Opponent's outside leg releases its hook behind your knee and repositions to cross over your thigh from above"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Straighten trapped leg explosively to prevent entanglement triangle from closing",
+        "when_to_use": "Immediately upon recognizing the threading motion beginning—before opponent's leg clears your thigh",
         "targets_outcome": "Inside Ashi-Garami/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent's threading leg cannot complete the over-thigh pass and they remain in standard ashi garami without the 50-50 transition",
+        "risk": "If timed too late, leg straightening creates kneebar vulnerability as opponent already has partial entanglement around your extended leg"
+      },
+      {
+        "action": "Strip opponent's heel grip with two-on-one hand fighting during the rotational transition",
+        "when_to_use": "When opponent begins hip rotation and their grip loosens slightly due to body repositioning during the thread",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Without heel anchor, opponent cannot control your leg during the thread, allowing full extraction and escape to open guard top position",
+        "risk": "Grip stripping requires committing both hands to their grip, temporarily preventing you from framing against the threading leg"
+      },
+      {
+        "action": "Hip escape away from threading direction while driving near knee into opponent's hip to create distance",
+        "when_to_use": "When opponent has committed to the rotational movement but their leg has not yet fully cleared your thigh",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Creates sufficient distance that opponent's threading leg cannot reach over your thigh, breaking the transition entirely",
+        "risk": "Hip escape may create space that opponent uses to adjust angle and complete the thread from a wider position"
+      },
+      {
+        "action": "If 50-50 is established, immediately fight for inside position with aggressive inside leg placement",
+        "when_to_use": "After opponent has completed the thread and 50-50 is forming—defense shifts from prevention to inside position battle",
+        "targets_outcome": "50-50 Guard/Bottom",
+        "if_successful": "Establishing inside position in the new 50-50 neutralizes opponent's offensive advantage and creates your own counter-attack opportunities",
+        "risk": "Fighting for inside position while opponent is already attacking may expose your heel to immediate submission attempt"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "50-50 Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Strip opponent's heel grip during the threading rotation using two-on-one hand fighting, then immediately straighten your leg and hip escape to extract completely from the entanglement. Create distance and establish top position in opponent's open guard."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Bottom",
+        "how": "Prevent the threading leg from clearing your thigh by pressing your near thigh down and squeezing your legs together. Straighten your trapped leg to make the entanglement triangle impossible to close. This forces the opponent to remain in standard ashi garami where you continue your existing defensive sequence."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Failing to recognize the counter entangle attempt until the threading leg has already cleared the thigh",
+        "consequence": "By the time you react, the 50-50 entanglement is already forming and prevention is no longer possible, forcing you into damage control",
+        "correction": "Learn the recognition cues—particularly the hip rotation and free leg lift—and respond to the earliest signals rather than waiting for the thread to become obvious"
+      },
+      {
+        "error": "Attempting to push the threading leg away with hands instead of using hip escape and leg positioning",
+        "consequence": "Hand-based defense is too slow and weak against the hip-powered threading motion, and removes your hands from the critical task of grip fighting",
+        "correction": "Use structural defense: hip escape away, press near thigh down, straighten trapped leg—these mechanical defenses are stronger than hand pushing against hip-driven movement"
+      },
+      {
+        "error": "Panicking and giving up defensive positioning when 50-50 is partially established",
+        "consequence": "Conceding inside position and heel control in the new 50-50 gives opponent immediate offensive advantage with heel hook threats",
+        "correction": "If 50-50 forms despite your defense, calmly transition to 50-50 defensive protocol: protect heel by rotating knee inward, fight for inside position, and prepare counter-attacks from the new position"
+      },
+      {
+        "error": "Keeping hips static while only using arms to fight the threading motion",
+        "consequence": "Static hips allow the threading motion to succeed because your thigh remains in a fixed position that the opponent can plan their thread around predictably",
+        "correction": "Move your hips actively—hip escape, bridge, or rotate—to create a moving target that is much harder to thread over accurately and disrupts the opponent's threading mechanics"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a counter entangle to 50-50 is being attempted?",
+        "answer": "The earliest cue is the opponent's hip rotation toward your trapped leg combined with their free leg lifting away from the mat. This rotational movement is mechanically necessary for the thread and occurs before the actual leg crossing begins. Standard ashi garami attacks involve hip extension away from you, so hip rotation toward your leg represents a distinctly different movement pattern that signals the counter entangle rather than a submission attempt."
+      },
+      {
+        "question": "Why is leg straightening more effective than hand-based defense against the threading motion?",
+        "answer": "Leg straightening uses your largest muscle groups against the threading attempt and structurally prevents the entanglement triangle from forming. A straight leg cannot be triangled around because there is no knee bend to create the closing angle needed for the 50-50 lock. Hand-based defense relies on smaller muscles against hip-powered movement and removes your hands from the critical task of grip stripping. Additionally, leg straightening works even if you recognize the attempt slightly late."
+      },
+      {
+        "question": "If the counter entangle succeeds and 50-50 is established, what is your immediate defensive priority?",
+        "answer": "Immediately fight for inside position with your near leg before the opponent settles their grips. Inside position in 50-50 determines the submission hierarchy—whoever has inside position controls who attacks and who defends. Secondary priority is heel protection through knee rotation inward. Do not attempt to immediately escape 50-50 before establishing defensive positioning, as panicked extraction attempts often expose your heel to immediate attack."
+      },
+      {
+        "question": "How does your defensive response change if you recognize the counter entangle early versus late?",
+        "answer": "Early recognition before the leg clears your thigh allows prevention: press thigh down, straighten leg, squeeze legs together to block the thread entirely. Late recognition after the leg is already clearing your thigh requires damage control: aggressively strip heel grip to prevent a controlled 50-50, hip escape to create extraction distance, or accept the 50-50 and immediately fight for inside position. The earlier you recognize the attempt, the more preventive options you retain."
+      },
+      {
+        "question": "What makes the opponent's heel grip particularly vulnerable during the threading motion?",
+        "answer": "During the threading motion, the opponent must simultaneously rotate their hips, elevate their free leg, and maintain heel control—this divided attention and body repositioning naturally loosens their grip. Additionally, their body rotation changes the angle of their arms relative to your heel, often requiring them to micro-adjust their grip configuration. This adjustment window is when two-on-one grip stripping is most effective. Target this specific moment rather than fighting their grip when they are stationary and fully focused on maintaining control."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying counter entangle initiation cues",
+        "description": "Partner drills counter entangle from Inside Ashi-Garami at 25% speed while you focus exclusively on recognizing the initiation cues—hip rotation, free leg lift, grip change. Call out 'threading' each time you identify the attempt. Build pattern recognition before adding defensive responses. 15 repetitions per set, 3 sets."
+      },
+      {
+        "phase": "Phase 2: Prevention Mechanics",
+        "focus": "Structural defense against threading attempts",
+        "description": "Partner attempts counter entangle at 50% speed and resistance while you practice prevention techniques: leg straightening, thigh press, hip escape. Focus on executing the correct defensive response based on the timing of your recognition. Success criteria: prevent 7 of 10 counter entangle attempts before progressing."
+      },
+      {
+        "phase": "Phase 3: Grip Fighting Under Pressure",
+        "focus": "Heel grip stripping during transition",
+        "description": "Partner maintains strong heel grip while threading at 75% intensity. Practice two-on-one grip stripping timed to the rotational phase of the threading motion. Develop sensitivity to the grip loosening that occurs during the opponent's hip rotation and target this specific vulnerability window for maximum effectiveness."
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance counter entangle defense",
+        "description": "Live positional sparring from Inside Ashi-Garami where partner uses the counter entangle as one of their offensive options among other ashi attacks. Defend with full resistance while managing all available defensive responses. Work 3-minute rounds with goal of preventing the 50-50 transition or immediately establishing strong defensive positioning if 50-50 is reached."
       }
     ]
   }

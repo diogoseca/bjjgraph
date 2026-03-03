@@ -59,7 +59,7 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Short to Medium |
 
-**Key Difference:** Butterfly hook adds elevation to half guard
+**Key Difference:** Hook trades leg retention for sweep elevation
 
 
 
@@ -93,31 +93,29 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Basic Butterfly Sweep]]** (11% of attempts)
+- **[[Basic Butterfly Sweep]]** (15% of attempts)
 
-- **[[Old School Sweep]]** (59% of attempts)
+- **[[Old School Sweep]]** (22% of attempts)
 
-- **[[Hook Sweep]]** (6% of attempts)
+- **[[Hook Sweep]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (8% of attempts)
+- **[[Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (8% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (4% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Elevator Sweep]]** (1% of attempts)
+- **[[Elevator Sweep]]** (4% of attempts)
 
-- **[[Kimura from Half Guard]]** (2% of attempts)
+- **[[Kimura from Half Guard]]** (5% of attempts)
 
-- **[[Transition to Half Butterfly]]** (0% of attempts)
+- **[[Half Butterfly Sweep]]** (4% of attempts)
 
-- **[[Half Butterfly Sweep]]** (0% of attempts)
+- **[[Half Butterfly to Dogfight]]** (5% of attempts)
 
-- **[[Half Butterfly to Dogfight]]** (0% of attempts)
+- **[[Reguard from Half Butterfly]]** (3% of attempts)
 
-- **[[Reguard from Half Butterfly]]** (0% of attempts)
-
-- **[[Rolling Back Take from Half Butterfly]]** (1% of attempts)
+- **[[Rolling Back Take from Half Butterfly]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,23 +176,23 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (39% of attempts)
+- **[[Knee Slice Pass]]** (35% of attempts)
 
-- **[[Smash Pass]]** (16% of attempts)
+- **[[Smash Pass]]** (18% of attempts)
 
-- **[[Underhook Pass]]** (8% of attempts)
+- **[[Underhook Pass]]** (10% of attempts)
 
 - **[[Body Lock Pass]]** (8% of attempts)
 
-- **[[Transition to Flattened Half Guard]]** (12% of attempts)
+- **[[Half Guard to Flattened Half Guard]]** (10% of attempts)
 
-- **[[Half Guard Pass]]** (4% of attempts)
+- **[[Half Guard Pass]]** (5% of attempts)
 
 - **[[Leg Weave Pass]]** (10% of attempts)
 
 - **[[Pass Half Butterfly]]** (2% of attempts)
 
-- **[[Smash Half Butterfly]]** (1% of attempts)
+- **[[Smash Half Butterfly]]** (2% of attempts)
 
 
 ### Common Mistakes

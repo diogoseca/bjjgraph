@@ -93,17 +93,23 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
+- **[[Frame and Shrimp to Guard]]** (41% of attempts)
+
 - **[[Elbow Escape to Guard]]** (19% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (21% of attempts)
+- **[[Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Bridge and Roll]]** (13% of attempts)
+- **[[Bridge and Roll]]** (10% of attempts)
 
-- **[[Granby Roll to Guard]]** (16% of attempts)
+- **[[Technical Stand-up]]** (9% of attempts)
 
-- **[[Technical Stand-up]]** (12% of attempts)
+- **[[Angle Change Escape]]** (5% of attempts)
 
-- **[[Hip Escape to Guard]]** (19% of attempts)
+- **[[Escape Side Control Consolidation]]** (2% of attempts)
+
+- **[[Frame from Side Control Consolidation]]** (1% of attempts)
+
+- **[[Hip Escape from Side Control Consolidation]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +174,25 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Side Control to Mount]]** (33% of attempts)
 
-- **[[Side Control to North-South]]** (14% of attempts)
+- **[[Side Control to North-South]]** (10% of attempts)
 
 - **[[Knee on Belly]]** (14% of attempts)
 
-- **[[Kimura]]** (13% of attempts)
+- **[[Kimura]]** (9% of attempts)
 
-- **[[Americana]]** (12% of attempts)
+- **[[Americana]]** (8% of attempts)
 
-- **[[Arm Triangle]]** (12% of attempts)
+- **[[Arm Triangle]]** (8% of attempts)
 
-- **[[Armbar Finish]]** (11% of attempts)
+- **[[Armbar Finish]]** (7% of attempts)
 
-- **[[North-South Choke]]** (10% of attempts)
+- **[[North-South Choke]]** (6% of attempts)
+
+- **[[Consolidation to Knee on Belly]]** (3% of attempts)
+
+- **[[Consolidation to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

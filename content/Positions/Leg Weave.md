@@ -93,21 +93,23 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Frame and Shrimp to Guard]]** (16% of attempts)
+- **[[Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Underhook Sweep from Half]]** (12% of attempts)
+- **[[Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Old School Sweep]]** (8% of attempts)
 
-- **[[Dogfight Position]]** (22% of attempts)
+- **[[Dogfight Position]]** (27% of attempts)
 
-- **[[Lockdown Recovery]]** (16% of attempts)
+- **[[Lockdown Recovery]]** (15% of attempts)
 
-- **[[Half Guard Recovery]]** (7% of attempts)
+- **[[Half Guard Recovery]]** (6% of attempts)
 
-- **[[Leg Weave Escape to Half Guard]]** (4% of attempts)
+- **[[Leg Weave Escape to Half Guard]]** (3% of attempts)
+
+- **[[Sweep from Leg Weave]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +166,25 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Leg Weave Pass]]** (16% of attempts)
+- **[[Leg Weave Pass]]** (15% of attempts)
 
-- **[[Knee Slice Pass]]** (25% of attempts)
+- **[[Knee Slice Pass]]** (32% of attempts)
 
-- **[[Leg Drag Pass]]** (11% of attempts)
+- **[[Leg Drag Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (11% of attempts)
 
-- **[[Over-Under Pass]]** (11% of attempts)
+- **[[Over-Under Pass]]** (10% of attempts)
 
-- **[[Long Step Pass]]** (11% of attempts)
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[Back Step]]** (8% of attempts)
+- **[[Back Step]]** (7% of attempts)
 
-- **[[Backstep from Leg Weave]]** (4% of attempts)
+- **[[Backstep from Leg Weave]]** (3% of attempts)
 
-- **[[Complete Leg Weave Pass]]** (2% of attempts)
+- **[[Complete Leg Weave Pass]]** (1% of attempts)
+
+- **[[Leg Weave Pass Completion]]** (1% of attempts)
 
 
 ### Common Mistakes

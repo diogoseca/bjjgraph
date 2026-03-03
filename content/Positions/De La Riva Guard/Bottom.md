@@ -27,13 +27,13 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -208,13 +208,13 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ### [[De La Riva Sweep]] (11% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (22% of attempts)
+### [[De La Riva to X-Guard Transition]] (23% of attempts)
 
-### [[Berimbolo Entry]] (11% of attempts)
+### [[Berimbolo Entry]] (12% of attempts)
 
 ### [[Kiss of the Dragon]] (8% of attempts)
 
-### [[Single Leg X Entry]] (11% of attempts)
+### [[Single Leg X Entry]] (12% of attempts)
 
 ### [[Waiter Sweep]] (6% of attempts)
 
@@ -224,9 +224,7 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ### [[Sickle Sweep]] (4% of attempts)
 
-### [[Transition to K-Guard]] (4% of attempts)
-
-### [[Tripod Sweep]] (7% of attempts)
+### [[Tripod Sweep]] (8% of attempts)
 
 ### [[Omoplata]] (4% of attempts)
 

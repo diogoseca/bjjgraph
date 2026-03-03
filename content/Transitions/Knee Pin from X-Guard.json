@@ -1,10 +1,14 @@
 {
   "name": "Knee Pin from X-Guard",
-  "description": "TODO: Write 150-160 character SEO description for Knee Pin from X-Guard.",
+  "description": "Learn the Knee Pin from X-Guard pass in BJJ. Detailed guide covering hook neutralization, knee pinning mechanics, weight transfer, and Half Guard entry.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "x-guard",
+    "guard pass",
+    "knee pin",
+    "half guard",
+    "pressure passing"
   ],
   "from_position": "X-Guard/Top",
   "outcomes": [
@@ -25,114 +29,377 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Knee Pin from X-Guard.",
+  "overview": "The Knee Pin from X-Guard is a direct pressure-based passing technique where the top player collapses the X-Guard structure by driving the bottom player's inside hooking knee to the mat. X-Guard derives its sweeping power from the inside hook creating upward elevation behind the top player's knee. By physically pinning this knee downward, the top player neutralizes the guard's primary offensive mechanism and creates a pathway to extract their trapped leg and advance to Half Guard Top.\n\nStrategically, the Knee Pin addresses situations where the bottom player's inside hook is too deep or active for indirect passing approaches like knee slice or long step techniques. Rather than attempting to navigate around the hooks, the knee pin directly removes the foundation of the X-Guard architecture. This forcing approach is particularly effective against athletic guard players who can re-pummel hooks faster than the top player can extract their leg through movement-based passes. The technique creates a transitional pressure state where the bottom player must choose between fighting to recover the pinned hook or defending against the pass itself.\n\nThe knee pin also serves as a valuable setup tool within X-Guard passing chains. Even when the pin itself does not complete the pass, the bottom player's defensive reactions create openings for follow-up techniques. If they focus on recovering the inside hook, their outside leg frame weakens and grip connections loosen. If they abandon the hook and attempt to transition to Single Leg X-Guard or Butterfly Guard, the top player can capitalize on the structural disruption with secondary passing techniques. This dilemma-based approach makes the knee pin a strategically important tool even beyond its direct passing application.",
   "conditions": [
-    "TODO"
+    "Opponent has established X-Guard with inside hook behind your near knee creating elevation",
+    "You have maintained standing or combat base posture with at least one leg weighted for base",
+    "Your near-side hand is free to reach and control the opponent's inside hooking knee",
+    "You have established an upper body anchor through collar grip, head control, or sleeve grip before committing"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Standing Knee Pin",
+      "description": "Pin the opponent's inside hook knee to the mat while maintaining full standing posture, using downward hand pressure combined with forward body angle to collapse the hook. Relies on gravity and structural alignment rather than dropping weight.",
+      "when_to_use": "When you have strong balance and want to maintain distance for follow-up movement-based passes like the long step or backstep."
+    },
+    {
+      "variant_name": "Dropping Knee Pin",
+      "description": "Drop your own knee beside the opponent's pinned knee simultaneously with the hand pin, using bodyweight rather than arm strength to maintain the collapse. Creates a heavier, more committed pin that is harder for the bottom player to recover from.",
+      "when_to_use": "When the opponent has very deep hooks that resist hand-only pinning, or when you want to commit to a pressure passing sequence through half guard."
+    },
+    {
+      "variant_name": "Cross-Grip Knee Pin",
+      "description": "Use the opposite hand to pin the knee while the near hand controls the opponent's ankle or pants. Creates a different pressure angle that crosses the opponent's centerline, disrupting their ability to rotate into the pin for recovery.",
+      "when_to_use": "When the opponent is particularly good at re-pummeling the hook against same-side pins, or when gi grips allow cross-body control."
     }
   ],
-  "position_integration": "TODO: Write position integration for Knee Pin from X-Guard.",
+  "position_integration": "The Knee Pin from X-Guard integrates into the broader X-Guard passing system as a direct pressure option that complements movement-based passes like the knee slice and long step. It connects to the Half Guard passing chain, as successful execution typically lands in Half Guard Top where the top player can continue advancing through knee slice, smash pass, or underhook pass sequences. The technique also functions as a disruption tool that weakens the X-Guard structure, making subsequent passing attempts from any approach more effective. Within a complete passing gameplan, the knee pin creates a threat that forces the bottom player to actively maintain hook depth rather than focusing entirely on sweep setups and upper body grip fighting.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "X-Guard",
+      "relationship": "Source position where the technique initiates from the top player's perspective"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary destination position after successful knee pin and leg extraction"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Common defensive transition by the bottom player when inside hook is compromised"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Higher-percentage alternative pass and natural follow-up after knee pin disrupts guard structure"
+    },
+    {
+      "name": "Smash Pass",
+      "relationship": "Complementary pressure-based passing technique that chains well from a partially collapsed X-Guard"
+    },
+    {
+      "name": "X-Guard Sweep",
+      "relationship": "Primary offensive threat from the bottom player that must be defended during the pin attempt"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Intermediate control position accessible during the passing sequence after hooks are cleared"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Fallback guard position the bottom player may recover if the pin fails and hooks are released"
+    },
+    {
+      "name": "Long Step Pass",
+      "relationship": "Movement-based passing alternative that can follow a partially successful knee pin"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing technique accessible when the knee pin creates favorable angles"
     }
   ],
   "attacker": {
     "name": "Knee Pin from X-Guard Attacker",
-    "description": "TODO: Write attacker description for Knee Pin from X-Guard.",
-    "overview": "TODO: Write attacker overview for Knee Pin from X-Guard.",
+    "description": "Master the Knee Pin from X-Guard as the top player. Step-by-step guide to collapsing X-Guard hooks through systematic knee pinning and advancing to Half Guard Top.",
+    "overview": "As the attacker executing the Knee Pin from X-Guard, you are the top player facing an opponent who has established X-Guard underneath you. Your objective is to neutralize the guard's sweeping power by driving their inside hooking knee to the mat, collapsing the X-structure, and extracting your trapped leg to advance into Half Guard Top. The technique requires coordinating upper body anchoring, precise hand placement on the hooking knee, committed bodyweight transfer into the pin, and controlled leg extraction. Success depends on reading the bottom player's hook depth and grip engagement to identify the optimal moment for committing to the pin. The knee pin is most effective when chained with follow-up passes rather than treated as an isolated technique.",
     "key_principles": [
-      "TODO"
+      "Anchor your upper body with a collar grip, head control, or far shoulder grip before committing your hand to the knee pin",
+      "Use bodyweight transfer rather than arm strength to drive the knee to the mat, keeping your elbow tight to block re-pummel attempts",
+      "Lower your center of gravity progressively as the pin deepens to maximize downward pressure and maintain balance against sweep attempts",
+      "Extract your trapped leg with controlled swimming hip movements rather than explosive yanking that compromises base",
+      "Maintain continuous forward pressure throughout the transition to prevent the opponent from re-establishing hooks or transitioning to alternative guards",
+      "Treat the knee pin as the opening move in a passing chain rather than an isolated technique, ready to flow into knee slice or smash pass"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established upper body anchor through collar grip, head control, or far shoulder control to prevent opponent rotation during pin",
+      "Near-side hand free and positioned to reach the opponent's inside hooking knee without overextending balance",
+      "Weight distributed with forward lean and wide base to resist sweep attempts during the commitment phase",
+      "Recognition that the opponent's inside hook is the primary target and that the outside leg frame is secondary",
+      "Opponent's grips are managed or neutralized sufficiently to prevent them from controlling your posture during the pin"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Identify the inside hook",
+        "description": "Identify which of the bottom player's legs is hooking behind your near knee, creating the primary X-Guard elevation mechanism. This inside hook is the structural load-bearing element that must be targeted. Assess hook depth and the opponent's grip engagement to determine your timing window."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish upper body anchor",
+        "description": "Before committing your hand to the knee pin, establish a controlling grip on the opponent's collar, head, or far shoulder to anchor your upper body. Without this anchor, the opponent can rotate away from the pin or create sweeping angles that compromise your base during the pinning action."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive knee to the mat",
+        "description": "Use your near-side hand to cup behind or on top of the opponent's inside hook knee. Drive the knee firmly toward the mat using a combination of direct hand pressure and forward body weight commitment, keeping your elbow tight to your body to prevent the opponent from re-pummeling the hook underneath."
+      },
+      {
+        "step_number": 4,
+        "action": "Lower center of gravity",
+        "description": "As the opponent's knee approaches the mat, lower your own hips and center of gravity to maximize downward pressure on the pin. Standing tall during this phase exposes you to sweeps from the opponent's remaining outside leg and upper body connections. Sinking your weight makes the pin increasingly difficult to reverse."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract trapped leg",
+        "description": "With the inside hook collapsed against the mat, begin extracting your trapped leg by swimming it backward using small hip adjustment movements. Avoid explosive yanking motions that can compromise your base and give the opponent a window to recover hooks or initiate a sweep from the structural disruption."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear outside leg",
+        "description": "Address the opponent's outside leg by redirecting it toward the mat or stepping over it as you extract your trapped leg. The outside leg loses most of its effectiveness once the inside hook is neutralized, but it can still create minor barriers that slow your passing progression if left uncontrolled."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Half Guard Top",
+        "description": "Once your leg clears the collapsed X-Guard structure, immediately settle into half guard top position by driving your hips forward and establishing chest-to-chest pressure. Speed during this consolidation phase prevents the opponent from re-entering X-Guard or transitioning to alternative guard positions like butterfly or single leg X."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish dominant control",
+        "description": "Establish dominant upper body control through crossface or underhook to complete the transition and lock down the half guard top position. From this consolidated position, you can continue advancing through your preferred passing sequence such as knee slice, smash pass, or underhook pass depending on the opponent's defensive response."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Bottom player re-pummels inside hook before the pin is fully completed by driving their knee back behind yours",
+        "effectiveness": "High",
+        "your_response": "Increase commitment speed and use elbow pressure to block the re-pummel path. If the hook recovers, immediately chain to a knee slice or long step pass while the opponent is momentarily focused on hook recovery rather than sweeping.",
+        "targets_outcome": "X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player executes hip bump sweep by elevating hips explosively when you commit weight forward to the pin",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Maintain a wide base and avoid overcommitting your center of gravity past the midline. Keep your free leg posted far back for base and use the upper body anchor to resist the elevation force.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player transitions to Single Leg X or Butterfly Guard by withdrawing the compromised hook and reconfiguring legs",
+        "effectiveness": "Medium",
+        "your_response": "Follow the opponent's hips with continuous forward pressure during the transition. The moment they release the inside hook to reconfigure, accelerate your leg extraction and advance past the weakened guard structure before they can establish the new position.",
+        "targets_outcome": "X-Guard/Top"
+      },
+      {
+        "counter": "Bottom player uses upper body grips to pull you off-balance laterally while the pin disrupts your forward base",
+        "effectiveness": "Low",
+        "your_response": "Strip or redirect grips before committing to the pin. Maintain the upper body anchor grip throughout the technique and keep your elbows in to prevent the opponent from generating lateral torque on your posture.",
         "targets_outcome": "X-Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pinning with arm strength alone instead of committing bodyweight into the downward pressure",
+        "consequence": "The pin lacks sufficient force and the opponent easily re-pummels the hook, nullifying the pass attempt and burning your energy",
+        "correction": "Shift your center of gravity forward and downward as you pin, using structural body alignment to generate pressure rather than muscular effort from your arm"
+      },
+      {
+        "error": "Neglecting to establish an upper body anchor before committing the hand to the knee pin",
+        "consequence": "The opponent rotates freely away from the pin, creates angles for sweeps, or re-establishes grips that control your posture",
+        "correction": "Always secure a collar grip, head control, or far shoulder grip with your free hand before reaching for the hooking knee with your near-side hand"
+      },
+      {
+        "error": "Standing fully upright during the pinning phase with a narrow base and high center of gravity",
+        "consequence": "Maximum exposure to sweep attempts from the opponent's remaining hooks and upper body connections, easily toppled during commitment",
+        "correction": "Lower your hips progressively as the pin deepens, maintain a wide stance with your free leg posted far back, and lean forward into the pin"
+      },
+      {
+        "error": "Yanking the trapped leg explosively to extract it rather than using controlled hip swimming movements",
+        "consequence": "The explosive motion creates momentum that the opponent can redirect into a sweep, and the sudden weight shift compromises your balance",
+        "correction": "Extract the leg with small, controlled hip adjustments, maintaining pressure on the pinned knee throughout the extraction process"
+      },
+      {
+        "error": "Ignoring the outside leg after successfully pinning the inside hook and beginning extraction",
+        "consequence": "The outside leg creates a barrier that slows passing, and the opponent may use it to re-establish a modified guard or create entanglement",
+        "correction": "Address the outside leg by redirecting or stepping over it as part of the extraction sequence, clearing both legs before consolidating"
+      },
+      {
+        "error": "Failing to consolidate Half Guard Top quickly after clearing the X-Guard hooks",
+        "consequence": "The opponent recovers guard by re-entering X-Guard, transitioning to butterfly, or creating distance for other open guard variations",
+        "correction": "Immediately drive hips forward and establish chest pressure with crossface control the moment your leg clears the hooks, eliminating recovery space"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Isolated knee pin motion and body weight transfer",
+        "description": "Partner establishes X-Guard with cooperative resistance. Practice the hand placement on the inside hook knee, bodyweight transfer into the pin, and the controlled leg extraction sequence. Focus on smooth coordination between upper body anchor, knee pin, and hip swimming extraction. 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Timing and Recognition",
+        "focus": "Identifying the optimal moment to initiate the pin",
+        "description": "Partner maintains active X-Guard with moderate resistance, occasionally adjusting hook depth and grip engagement. Practice reading when the inside hook is shallow or when the opponent shifts focus to upper body grips, creating windows for the pin. Develop the ability to recognize and exploit these timing windows."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Connecting knee pin to follow-up passing techniques",
+        "description": "Practice flowing from the knee pin into knee slice, smash pass, or backstep when the pin is partially successful or when the opponent transitions defensively. Build automatic responses to common defensive reactions so the pin becomes the opening move in a passing chain rather than an isolated technique."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the knee pin under full resistance from X-Guard top",
+        "description": "Start from X-Guard with the bottom player actively threatening sweeps and transitions. Work to establish the knee pin and complete the pass to Half Guard Top against fully resisting opponents. Track success rates and identify which follow-up techniques work best against different defensive responses."
+      },
+      {
+        "phase": "Phase 5: Competition Scenario Training",
+        "focus": "Full resistance with fatigue and situational pressure",
+        "description": "Incorporate the knee pin into extended rolling sessions starting from standing or open guard scenarios. Practice the full sequence of entering the X-Guard top passing position, recognizing the knee pin opportunity, executing the technique, and advancing through Half Guard to a dominant position under realistic conditions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the knee pin from X-Guard top?",
+        "answer": "The optimal timing window is when the bottom player's inside hook begins to lose depth or when they shift focus to establishing upper body grips, creating a moment where the hook is less actively maintained and more vulnerable to downward pressure. Initiating during active elevation attempts is significantly harder due to the opposing upward force."
+      },
+      {
+        "question": "Why must you establish an upper body anchor before committing your hand to the knee pin?",
+        "answer": "Without an upper body anchor such as a collar grip, head control, or far shoulder grip, the opponent can freely rotate away from the pin or create sweeping angles. The anchor prevents the opponent from using the moment of your hand commitment to change angles and initiate sweeps while your near-side hand is occupied with the pin."
+      },
+      {
+        "question": "Your opponent re-pummels their inside hook as you attempt the knee pin - what is your immediate adjustment?",
+        "answer": "If the hook recovers before the pin is established, immediately chain to an alternative pass such as a knee slice or long step rather than repeatedly forcing the pin. The opponent's focus on re-pummeling the hook creates a brief window where their attention is on hook recovery rather than sweep execution, making movement-based passes temporarily more effective."
+      },
+      {
+        "question": "What is the critical mechanical difference between using bodyweight versus arm strength for the pin?",
+        "answer": "Bodyweight generates sustained, structural pressure that is energy-efficient and difficult for the opponent to overcome through muscular effort. Arm strength alone is fatiguing, generates less total force, and is vulnerable to the opponent's stronger leg muscles re-pummeling the hook. Shifting your center of gravity into the pin creates a mechanical advantage that arm strength cannot match."
+      },
+      {
+        "question": "If your knee pin stalls with the hook partially collapsed, what follow-up technique offers the highest percentage?",
+        "answer": "A knee slice pass through the weakened hook structure offers the highest percentage follow-up because the partially collapsed inside hook can no longer generate full elevation, making the knee slice cut significantly easier. The opponent's compromised structure creates less resistance to the slice than a fully intact X-Guard would present."
+      },
+      {
+        "question": "What grip should your free hand maintain during the knee pin execution?",
+        "answer": "The free hand should maintain a controlling anchor grip, either on the opponent's collar in gi, the back of their head in no-gi, or their far shoulder. This grip serves the dual purpose of preventing the opponent from rotating away from the pin and providing a stabilization point that helps maintain your balance during the weight transfer into the pinning action."
+      },
+      {
+        "question": "The bottom player transitions to Single Leg X-Guard during your pin attempt - how do you adapt?",
+        "answer": "When the opponent abandons the inside hook to reconfigure into Single Leg X, immediately accelerate your leg extraction since the hook is no longer actively blocking you. Follow their hips with forward pressure and look to advance past the weakened guard structure before they can establish the Single Leg X hooks and frames that would create a new defensive barrier."
+      },
+      {
+        "question": "Why is lowering your center of gravity critical during the pinning phase rather than remaining upright?",
+        "answer": "Lowering your center of gravity maximizes the downward pressure transmitted through the pin and dramatically reduces your vulnerability to sweeps. A high stance with narrow base creates maximum leverage for the opponent's remaining outside leg and upper body connections to generate sweeping forces. A low, wide stance distributes your weight in a way that resists off-balancing in all directions."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Knee Pin from X-Guard."
+    "safety_considerations": "The Knee Pin from X-Guard carries moderate risk to both practitioners. The top player must control the rate and force of downward pressure on the pinned knee to avoid hyperextension of the bottom player's knee joint, particularly when the hook is deep and the knee is loaded. The bottom player should avoid explosively re-pummeling hooks when significant pinning pressure is already applied, as this can create shearing forces on the knee ligaments. Both practitioners should communicate immediately if knee discomfort occurs. Training partners should begin with cooperative resistance and gradually increase intensity to build familiarity with safe pressure thresholds."
   },
   "defender": {
     "name": "Knee Pin from X-Guard Defender",
-    "description": "TODO: Write defender description for Knee Pin from X-Guard.",
-    "overview": "TODO: Write defender overview for Knee Pin from X-Guard.",
+    "description": "Defend the Knee Pin from X-Guard as the bottom player. Recognition cues, hook recovery techniques, sweep counters, and guard retention strategies for X-Guard.",
+    "overview": "As the defender against the Knee Pin from X-Guard, you are the bottom player in X-Guard whose inside hooking knee is being driven to the mat by the top player. Your primary objective is to prevent the collapse of your X-Guard structure by maintaining hook depth, disrupting the pinner's balance, or transitioning to alternative guard positions before the pin is consolidated. Early recognition is critical because once the knee is fully pinned to the mat, recovery becomes exponentially more difficult. The defender has three strategic layers of defense: preventing the pin from being initiated through proactive hook maintenance and grip fighting, countering the pin mid-execution through sweeps and transitions, and recovering guard structure if the pin partially succeeds by flowing to Single Leg X, Butterfly Guard, or other open guard variations.",
     "key_principles": [
-      "TODO"
+      "Maintain active inside hook depth by constantly driving your knee behind the opponent's knee, not passively holding position",
+      "Use upper body grips to control the opponent's posture and prevent them from freeing their near-side hand for the pin attempt",
+      "Recognize the pin attempt early through tactile cues and react before the opponent commits bodyweight into the downward pressure",
+      "Threaten sweeps and transitions proactively to keep the top player reactive and unable to set up the pin in a controlled manner",
+      "Have pre-planned escape routes to alternative guard positions ready before the pin begins, so transitions are automatic rather than improvised",
+      "Maintain hip elevation and active tension in the X-Guard configuration to make the hook structurally resistant to downward pinning force"
     ],
     "recognition_cues": [
-      "TODO"
+      "The top player's near-side hand reaches toward your inside hooking knee rather than fighting for upper body grips or controlling your sleeves",
+      "The top player establishes an upper body anchor with their free hand on your collar, head, or far shoulder, indicating preparation for a committed passing action",
+      "The top player shifts their weight forward and begins lowering their center of gravity while maintaining contact with your inside hook knee area",
+      "You feel increasing downward pressure on your inside hook knee combined with the opponent's elbow driving into the space between your knee and their leg"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Re-pummel the inside hook by driving your knee back behind the opponent's knee before the pin is consolidated",
+        "when_to_use": "Immediately upon feeling downward pressure on your inside hook knee, before the opponent has committed bodyweight",
         "targets_outcome": "X-Guard/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "The X-Guard structure is restored with the inside hook at full depth, nullifying the pass attempt and maintaining your sweeping platform",
+        "risk": "If the opponent blocks the re-pummel with elbow pressure, your hook may be trapped in a worse position than before the attempt"
+      },
+      {
+        "action": "Execute a hip bump sweep by explosively elevating your hips when the opponent commits weight forward into the pin",
+        "when_to_use": "When the opponent overcommits their center of gravity past the midline during the pinning action, creating forward imbalance",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The top player is swept forward and you end up in a dominant top position, typically half guard top or scramble to a dominant position",
+        "risk": "If the sweep fails, you have expended energy and the opponent may use the failed sweep attempt to accelerate their pin and pass"
+      },
+      {
+        "action": "Transition to Single Leg X-Guard by withdrawing the compromised inside hook and reconfiguring your leg positioning",
+        "when_to_use": "When the inside hook has been partially collapsed and full recovery is unlikely, but your outside leg frame is still intact",
+        "targets_outcome": "X-Guard/Top",
+        "if_successful": "You establish a different guard position with fresh sweeping and leg entanglement opportunities from a modified configuration",
+        "risk": "The transition creates a brief window where neither X-Guard nor Single Leg X is fully established, during which the opponent can advance their pass"
+      },
+      {
+        "action": "Pull opponent forward using upper body grips while extending legs to off-balance them during the pin commitment",
+        "when_to_use": "When you have strong collar or sleeve grips and the opponent is in the process of lowering their center of gravity for the pin",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "The opponent is pulled forward past their base and swept, or the disruption forces them to abandon the pin to recover their balance",
+        "risk": "If your grips are stripped or the opponent is well-anchored, you waste energy and the opponent continues the pin with less resistance"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Time a hip bump or upper body pull sweep when the top player overcommits weight forward into the pin. Use the moment of their forward commitment to redirect their weight past your centerline, sweeping them into half guard bottom where you achieve the dominant top position."
+      },
+      {
+        "outcome": "X-Guard/Top",
+        "how": "Prevent the pin from completing by maintaining active hook depth through constant knee drive, controlling the opponent's near-side hand through grip fighting, and threatening sweeps that force them to defend rather than commit to the pin. Successful defense retains your X-Guard sweeping platform."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Passively holding the inside hook position instead of actively driving the knee behind the opponent's leg",
+        "consequence": "A passive hook is easily collapsed by downward pressure because it lacks the structural resistance created by active muscular engagement and directional force",
+        "correction": "Constantly drive your inside hook knee deeper behind the opponent's knee with active muscular engagement, treating hook maintenance as a continuous action rather than a static position"
+      },
+      {
+        "error": "Allowing hips to drop flat to the mat instead of maintaining elevated tension in the X-Guard configuration",
+        "consequence": "Flat hips eliminate the upward pressure that makes the inside hook structurally resistant to pinning force, making the knee pin dramatically easier to execute",
+        "correction": "Maintain active hip elevation through bridging pressure, keeping tension in the X-Guard configuration so the hook has structural support from your entire body rather than just your leg muscles"
+      },
+      {
+        "error": "Ignoring upper body grip connections while focusing exclusively on the hook battle",
+        "consequence": "Without upper body grips, you cannot control the opponent's posture or generate the pulling forces needed for sweep counters during the pin attempt",
+        "correction": "Maintain collar, sleeve, or head control grips throughout the defense, using these connections to disrupt the opponent's balance and create sweep threats that discourage the pin"
+      },
+      {
+        "error": "Waiting too long to transition to alternative guards after the hook is partially collapsed",
+        "consequence": "A partially collapsed X-Guard offers neither the sweeping power of intact X-Guard nor the defensive structure of an alternative guard, leaving you in a compromised no-man's-land",
+        "correction": "Have pre-planned transition routes to Single Leg X, Butterfly Guard, or Deep Half ready, and initiate them the moment you recognize the hook cannot be fully recovered rather than forcing a failing position"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What are the earliest recognition cues that the top player is setting up a knee pin?",
+        "answer": "The earliest cues are the opponent's near-side hand reaching toward your inside hooking knee instead of fighting for upper body position, combined with them establishing a far-hand anchor on your collar or head. Additionally, you will feel a shift in their weight distribution as they prepare to commit bodyweight forward and downward into the pin."
+      },
+      {
+        "question": "Your inside hook is being driven to the mat - what is your highest-priority defensive action?",
+        "answer": "The highest priority is immediately re-pummeling the inside hook by driving your knee back behind the opponent's knee before they commit full bodyweight into the pin. If the re-pummel is blocked, immediately transition to a sweep attempt using the opponent's forward commitment against them, or flow to Single Leg X-Guard where the compromised hook becomes less critical."
+      },
+      {
+        "question": "The top player has pinned your knee but has not yet extracted their leg - what sweep opportunity exists?",
+        "answer": "The opponent's forward weight commitment into the pin creates vulnerability to hip bump sweeps and upper body pull sweeps. Because their hands are occupied with the pin and anchor, they have reduced ability to post defensively. Timing an explosive hip elevation or directional pull during this extraction phase can sweep them forward into half guard bottom."
+      },
+      {
+        "question": "Why is maintaining upper body grip connections essential when defending the knee pin?",
+        "answer": "Upper body grips serve three critical functions during knee pin defense: they disrupt the opponent's posture and balance, making it harder to commit stable bodyweight into the pin; they provide the pulling force needed to execute counter-sweeps when the opponent overcommits; and they prevent the opponent from freely establishing the upper body anchor grip that enables a controlled, committed pin."
+      },
+      {
+        "question": "What position should you transition to if the knee pin partially succeeds and your inside hook cannot be recovered?",
+        "answer": "Single Leg X-Guard is the highest-percentage transition because it requires only the outside leg frame and ankle control, which remain intact when the inside hook is compromised. Alternatively, Butterfly Guard offers a reset position if you can withdraw both legs and reconfigure hooks before the opponent consolidates their pass. The key is initiating the transition early rather than clinging to a collapsing X-Guard structure."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying knee pin setup cues through tactile and visual awareness",
+        "description": "Partner slowly walks through the knee pin setup from X-Guard top while you practice recognizing the hand reaching for your knee, the weight shift forward, and the upper body anchor establishment. Call out each cue verbally as you detect it. Build automatic recognition speed through 30 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Hook Recovery",
+        "focus": "Re-pummel mechanics and timing against the pin",
+        "description": "Partner applies moderate downward pressure on your inside hook knee. Practice re-pummeling the hook by driving your knee back behind theirs using hip engagement and leg drive. Focus on timing the re-pummel before full bodyweight is committed, and build the muscular patterns for active hook maintenance."
+      },
+      {
+        "phase": "Phase 3: Counter Sweeps",
+        "focus": "Executing sweeps during the opponent's pin commitment",
+        "description": "Partner commits to the knee pin with increasing intensity. Practice hip bump sweeps and upper body pull sweeps timed to the moment of their forward commitment. Develop the ability to read when the opponent is overcommitted and vulnerable to directional redirection of their weight."
+      },
+      {
+        "phase": "Phase 4: Transition Flow",
+        "focus": "Flowing to alternative guards when hook recovery fails",
+        "description": "Partner successfully collapses your inside hook through the knee pin. Practice flowing immediately to Single Leg X-Guard, Butterfly Guard, or Deep Half without pausing in the compromised X-Guard. Build automatic transition pathways that activate the moment you recognize the hook is not recoverable."
       }
     ]
   }

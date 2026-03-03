@@ -1,10 +1,14 @@
 {
   "name": "Feet on Hips Sickle Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Feet on Hips Sickle Sweep.",
+  "description": "Master the Feet on Hips Sickle Sweep in BJJ. Step-by-step guide to setup, execution, timing, and counters for this essential open guard sweep technique.",
   "tags": [
     "bjj",
     "transition",
-    "TODO"
+    "sweep",
+    "open-guard",
+    "feet-on-hips",
+    "guard-bottom",
+    "sickle-sweep"
   ],
   "from_position": "Feet on Hips Guard/Bottom",
   "outcomes": [
@@ -19,120 +23,376 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Feet on Hips Sickle Sweep.",
+  "overview": "The Feet on Hips Sickle Sweep is a fundamental open guard sweep that capitalizes on the distance management structure of feet on hips guard to generate powerful lateral off-balancing force. The technique works by maintaining one foot on the opponent's hip as a pushing frame while the other leg drops behind the opponent's far ankle in a sickle-like hooking motion. When combined with coordinated upper body pulls through collar and sleeve grips, this creates an irresistible rotational force that topples the opponent laterally over the hooking leg, landing the sweeper in side control top.\n\nThe sweep's effectiveness stems from its ability to exploit the natural instability created when a standing or kneeling opponent's base is attacked from multiple vectors simultaneously. The pushing foot drives the opponent's center of mass backward and laterally, the hooking leg removes their posting ability on the far side, and the grip pulls complete the off-balancing by directing their upper body in the direction of the sweep. This three-point force application makes the sickle sweep one of the highest-percentage sweeps available from open guard positions.\n\nStrategically, the sickle sweep pairs naturally with the tripod sweep to form one of BJJ's most effective sweep combinations. When the opponent defends the tripod by stepping the targeted foot back, they become vulnerable to the sickle sweep on the opposite side, and vice versa. This creates a sweep dilemma that significantly increases the success rate of both techniques when used in combination, embodying the principle that techniques become exponentially more dangerous when they force the opponent to choose between two equally threatening options.",
   "conditions": [
-    "TODO"
+    "Opponent standing or in elevated combat base with hips higher than yours",
+    "At least one foot solidly placed on opponent's hip bone with ball-of-foot contact",
+    "Established collar grip on same side as the intended hooking leg",
+    "Sleeve or wrist control on the pushing-foot side to prevent opponent from posting",
+    "Opponent's weight distributed relatively evenly across both feet without significant backstep"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Sickle-to-Tripod Combination",
+      "description": "Chain the sickle sweep with the tripod sweep as a two-attack sequence. When the opponent steps their far foot back to defend the sickle hook, immediately switch to the tripod sweep by placing both feet on their hips and grabbing the near ankle, exploiting the wider stance they created defensively.",
+      "when_to_use": "When the opponent consistently defends the sickle by stepping back, or against experienced grapplers who recognize single-sweep setups"
+    },
+    {
+      "variant_name": "Cross-Collar Sickle",
+      "description": "Use a deep cross-collar grip instead of same-side collar to generate a stronger diagonal pulling vector. The cross-grip creates a more powerful rotational force because it pulls across the opponent's centerline rather than along it, making the sweep harder to resist with posture alone.",
+      "when_to_use": "Against opponents in low combat base who resist the standard same-side collar pull or who are adept at posturing against direct pulls"
+    },
+    {
+      "variant_name": "No-Gi Collar Tie Sickle",
+      "description": "Replace the collar grip with a collar tie or overhook control for no-gi application. Use an elbow pull combined with head snap to generate the upper body off-balancing force that the collar grip normally provides. The mechanics of the leg sweep remain identical.",
+      "when_to_use": "In no-gi grappling or when gi grips are unavailable due to sweat or grip fighting losses"
     }
   ],
-  "position_integration": "TODO: Write position integration for Feet on Hips Sickle Sweep.",
+  "position_integration": "The Feet on Hips Sickle Sweep occupies a central position within the open guard sweep hierarchy, serving as one half of the fundamental sickle-tripod sweep combination that forms the basis of systematic open guard play. This technique integrates with the broader feet on hips guard system by converting the defensive distance management structure into an offensive sweep without requiring a guard transition. It connects directly to side control top, creating an efficient pathway from guard retention to dominant position. The sweep also serves as a gateway to combination attacks: when defended, it naturally sets up tripod sweeps, balloon sweeps, and guard transitions to De La Riva or X-Guard. Mastery of this sweep is essential for any guard player because it teaches the fundamental principle that sweeps require coordinated multi-vector force application rather than relying on a single plane of off-balancing.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Feet on Hips Guard",
+      "relationship": "Source position from which this sweep is executed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Tripod Sweep",
+      "relationship": "Complementary sweep forming the classic sickle-tripod combination pair"
+    },
+    {
+      "name": "Balloon Sweep",
+      "relationship": "Alternative feet-on-hips sweep when opponent drives weight forward"
+    },
+    {
+      "name": "Tomoe Nage",
+      "relationship": "Alternative overhead sweep from similar guard configuration"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Transition target when sickle sweep setup is blocked and angle is created"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category containing the feet on hips guard position"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Position reached when opponent partially counters the sweep attempt"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Alternative guard entry available when opponent steps close during setup"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Related grip configuration used in sweep setup variations"
     }
   ],
   "attacker": {
     "name": "Feet on Hips Sickle Sweep Attacker",
-    "description": "TODO: Write attacker description for Feet on Hips Sickle Sweep.",
-    "overview": "TODO: Write attacker overview for Feet on Hips Sickle Sweep.",
+    "description": "Execute the Feet on Hips Sickle Sweep with precision. Step-by-step guide covering grip setup, hip mechanics, timing windows, and combination chains for this essential open guard sweep.",
+    "overview": "The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of the most reliable open guard sweeps in Brazilian Jiu-Jitsu. As the guard player, you use the structural advantage of feet-on-hips framing to create a powerful lateral sweep by coordinating a pushing foot on the hip, a hooking leg behind the opponent's far ankle, and upper body grip pulls through the collar. Success demands precise timing—the sweep works best when the opponent commits weight forward or attempts to break your frames, creating the momentary weight shift that makes the off-balancing irresistible. Understanding grip hierarchy, foot placement precision, and the kinetic chain from hip extension through the hooking leg determines whether this sweep generates competition-ending power or gets stuffed before it develops. The sweep rewards patience in setup combined with explosiveness in execution.",
     "key_principles": [
-      "TODO"
+      "Maintain one foot firmly on the opponent's hip bone as the primary pushing frame throughout the entire sweep sequence to provide the lateral driving force",
+      "Drop the hooking leg behind the opponent's far ankle at calf level, not at the foot, to prevent them from simply stepping over the hook",
+      "Coordinate the push-pull timing: extend the hip-foot to push while simultaneously pulling the collar grip in the sweep direction for maximum rotational force",
+      "Attack when the opponent's weight shifts forward or laterally, exploiting the momentary base compromise rather than forcing the sweep against a balanced opponent",
+      "Use the hooking leg as a reaping motion that travels through the opponent's base, not as a static block placed behind the ankle",
+      "Maintain collar grip connection throughout the sweep and follow-through to control the opponent's rotation and ensure you land in a dominant top position"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established feet on hips guard with at least one foot solidly placed on the opponent's hip bone providing a stable pushing frame",
+      "Same-side collar grip on the side where the hooking leg will sweep, deep enough to pull their weight and break their posture in the sweep direction",
+      "Opposite-side sleeve or wrist control to prevent the opponent from posting their hand when swept, which is the primary counter to the technique",
+      "Opponent standing or in elevated combat base with hips accessible for foot placement and weight distributed across both feet",
+      "Hip elevation maintained with active core engagement to enable the powerful leg extension and reaping motion needed for the sweep"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Grip Configuration",
+        "description": "Secure a same-side collar grip with your right hand (if sweeping to your left) and control the opponent's opposite sleeve with your left hand. The collar grip should be deep enough to pull their weight and posture toward you, while the sleeve grip prevents them from posting their hand when off-balanced. Fight for these grips aggressively before committing to the sweep setup."
+      },
+      {
+        "step_number": 2,
+        "action": "Set the Pushing Foot",
+        "description": "Place your left foot firmly on the opponent's right hip bone, ensuring ball-of-foot contact on the anterior superior iliac spine landmark. This foot serves as your primary pushing frame and must maintain solid connection throughout the sweep to generate the lateral driving force that displaces their center of mass toward the sweep direction."
+      },
+      {
+        "step_number": 3,
+        "action": "Drop the Hooking Leg",
+        "description": "Lower your right foot from the opponent's left hip and thread it behind their far left ankle at calf level. The hook should wrap around the Achilles tendon area with the back of your calf making contact against theirs. Do not place the hook too high on the shin or too low at the foot, as both positions reduce the sweeping power of the sickle motion."
+      },
+      {
+        "step_number": 4,
+        "action": "Initiate the Off-Balance",
+        "description": "Begin the sweep by extending your left leg forcefully into the opponent's right hip while simultaneously pulling their upper body toward your right side with the collar grip. This combined push-pull creates a rotational force that shifts their weight over their left foot, loading the side you are about to sweep and compromising their ability to resist."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the Sickle Motion",
+        "description": "Drive your right hooking leg through in a powerful sickle motion, sweeping the opponent's left foot out from under them in the direction you are pulling with your collar grip. The motion should travel laterally and slightly backward, removing their base on the far side while your pushing foot continues driving their mass over the swept leg to complete the off-balance."
+      },
+      {
+        "step_number": 6,
+        "action": "Follow Through to Top Position",
+        "description": "As the opponent falls, maintain your collar grip and immediately begin coming up to your knees by driving your hips forward. Follow their falling body by transitioning your weight over them as they land. Release the hook once they are falling and use that leg to base as you move into top position with your chest aimed at their torso."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Side Control",
+        "description": "Immediately establish crossface pressure with your forearm across their neck and drop your hips against their near hip to prevent guard recovery. Transition your grips from the sweep configuration to standard side control control points: crossface on the far side, hip block on the near side. Secure the position before the opponent can insert a knee or re-establish any guard frames."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent steps their far foot back beyond the hook range before the sickle motion initiates",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to tripod sweep by placing both feet on hips and grabbing the near ankle, exploiting the wider stance they created by stepping back",
+        "targets_outcome": "Feet on Hips Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts their free hand on the mat in the sweep direction to create a base point",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Increase pulling force on the sleeve grip to strip the posting hand, or transition to a triangle or armbar threat on the now-extended posting arm",
+        "targets_outcome": "Feet on Hips Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drops their base low and drives weight forward into your pushing foot to flatten your guard",
+        "effectiveness": "Medium",
+        "your_response": "Use their forward pressure to load them onto your feet and switch to a balloon sweep or tomoe nage, converting their defensive forward pressure into sweep momentum",
+        "targets_outcome": "Feet on Hips Guard/Bottom"
+      },
+      {
+        "counter": "Opponent grabs your hooking leg at the ankle or pant cuff to block the sickle motion entirely",
+        "effectiveness": "High",
+        "your_response": "Retract the hooking leg and reset to feet on hips guard, then attack with a tripod sweep or switch the sickle to the opposite side if they overcommit grip to controlling one leg",
         "targets_outcome": "Feet on Hips Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Dropping the hooking leg too early before establishing proper collar and sleeve grips",
+        "consequence": "Opponent recognizes the sweep telegraph and steps their far foot back or changes angle, eliminating the hook opportunity and potentially initiating a pass",
+        "correction": "Establish collar and sleeve grips first, confirm solid foot-on-hip connection, then drop the hooking leg as the final piece of the sweep setup sequence"
+      },
+      {
+        "error": "Placing the hook at the opponent's foot level instead of calf or Achilles level",
+        "consequence": "Opponent easily steps over the low hook, nullifying the sweep and potentially creating a passing opportunity as your guard is opened",
+        "correction": "Hook at mid-calf to Achilles tendon height where the opponent cannot simply lift their foot over the hook, ensuring the reaping motion captures their entire base"
+      },
+      {
+        "error": "Pushing and hooking without coordinating upper body pull through the collar grip",
+        "consequence": "Opponent maintains upright posture despite leg mechanics, posting their hands to prevent the sweep or driving forward to pass your opened guard",
+        "correction": "Initiate the sweep with the collar pull first to break their posture toward the sweep direction, then add the push and hook as their weight shifts to maximize rotational force"
+      },
+      {
+        "error": "Allowing hips to flatten to the mat during the sweep attempt",
+        "consequence": "Reduced pushing power through the hip foot and inability to generate sufficient rotational force, resulting in a weak sweep that is easily resisted",
+        "correction": "Maintain active hip elevation throughout the sweep using core engagement to keep the lower back curved and hips mobile for maximum leg extension power"
+      },
+      {
+        "error": "Releasing the collar grip during the transition from sweep to top position",
+        "consequence": "Opponent rolls through the sweep momentum or recovers guard before you can establish side control, negating the positional advantage you earned",
+        "correction": "Maintain collar grip throughout the entire sweep and follow-through, using it to control their rotation and guide yourself into dominant top position before switching grips"
+      },
+      {
+        "error": "Telegraphing the sweep by looking at the opponent's far foot before dropping the hook",
+        "consequence": "Experienced opponents read the visual cue and preemptively retract or reposition the targeted foot before you can set the hook",
+        "correction": "Keep eyes on the opponent's upper body and chest, using tactile sensitivity in your hooking leg to find the ankle without needing visual confirmation"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Solo hip movement and leg coordination patterns",
+        "description": "Practice the push-hook coordination without a partner. Lying on your back, extend one leg while the other performs the sickle motion. Build the neuromuscular pattern of simultaneous pushing and sweeping. Add resistance bands for progressive loading on the hooking leg."
+      },
+      {
+        "phase": "Phase 2: Partner Drilling",
+        "focus": "Complete sweep sequence with cooperative partner",
+        "description": "Drill the full sweep with a partner who provides minimal resistance, focusing on grip placement, timing of the hook drop, and the coordinated push-pull-sweep motion. Emphasize smooth transitions to side control after the sweep lands, including immediate crossface and hip control."
+      },
+      {
+        "phase": "Phase 3: Combination Training",
+        "focus": "Sickle-tripod combination and chain attacks",
+        "description": "Partner defends the sickle sweep with common counters such as stepping back, posting a hand, or grabbing the hooking leg. Practice immediately transitioning to tripod sweep, balloon sweep, or guard transitions. Develop the ability to chain multiple sweep attempts without losing guard position."
+      },
+      {
+        "phase": "Phase 4: Resistance Sparring",
+        "focus": "Applying the sweep against progressive resistance",
+        "description": "Begin with 50% resistance positional sparring from feet on hips guard with the goal of landing the sickle sweep or its combination follow-ups. Gradually increase resistance to full competition intensity over several sessions. Track success rates and identify which counters give you the most difficulty."
+      },
+      {
+        "phase": "Phase 5: Competition Integration",
+        "focus": "Live application and timing refinement",
+        "description": "Incorporate the sickle sweep into free rolling, focusing on recognizing optimal timing windows during guard exchanges. Work on setting up the sweep from guard retention sequences and guard transitions. Develop the ability to hit the sweep against opponents who are focused on passing rather than defending sweeps."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal placement height for the hooking leg behind the opponent's far ankle?",
+        "answer": "The hook should be placed at mid-calf to Achilles tendon level, approximately four to six inches above the ankle bone. This height prevents the opponent from simply stepping over a low hook while providing sufficient leverage to sweep their base. Hooking too high on the shin reduces sweeping power because the lever arm shortens, while hooking at the foot allows easy escape by lifting."
+      },
+      {
+        "question": "Why is the collar grip more important than the sleeve grip for completing this sweep?",
+        "answer": "The collar grip provides the primary pulling force that breaks the opponent's posture and directs their weight toward the sweep direction. Without the collar pull, the leg mechanics alone rarely generate enough off-balancing force against a properly based opponent. The sleeve grip prevents posting but is secondary—many sweeps succeed with just the collar grip and good leg mechanics, but almost none succeed with just the sleeve grip and no upper body pull."
+      },
+      {
+        "question": "Your opponent steps their far foot back when they feel the hook attempt—how do you adjust?",
+        "answer": "Immediately transition to the tripod sweep by placing both feet back on the opponent's hips and using the collar grip to pull while grabbing their near ankle with your free hand. Their wide stance from stepping back actually makes the tripod sweep more effective because their base is elongated and vulnerable to the forward-backward off-balancing vector. This sickle-to-tripod combination is the fundamental two-sweep chain from feet on hips guard."
+      },
+      {
+        "question": "What is the most critical timing window for initiating the sickle sweep?",
+        "answer": "The optimal timing window occurs when the opponent shifts their weight forward, either to break your frames, establish grips on your legs, or initiate a passing sequence. This forward weight shift loads their far foot and makes them vulnerable to the lateral sweep because their momentum is already moving in a direction that complements the sweep angle. Attempting the sweep when the opponent is sitting back or disengaging has much lower success because they can absorb the sweep force by retreating."
+      },
+      {
+        "question": "How does the pushing foot contribute to the sweep beyond just creating distance?",
+        "answer": "The pushing foot on the hip serves three functions: it creates the lateral driving force that displaces the opponent's center of mass over their far foot, it serves as a fulcrum point around which the opponent rotates when the hook removes their base, and it provides the guard player with structural stability to execute the sweep from a strong mechanical position. Without the pushing foot, the hooking leg alone cannot generate sufficient rotational force because there is no opposing force to create the torque."
+      },
+      {
+        "question": "What grip adjustment should you make when the opponent's gi is slippery from sweat?",
+        "answer": "Secure a deeper collar grip by feeding your hand further behind the neck and gripping the material at the back of the collar rather than the front lapel. This deeper grip is less likely to slip and provides stronger pulling leverage. For the sleeve grip, grab the cuff material rather than the mid-sleeve, or switch to a wrist grip with your thumb inside for more secure control in slippery conditions."
+      },
+      {
+        "question": "After completing the sweep, what is the most common positional error that allows guard recovery?",
+        "answer": "The most common error is pausing on top without immediately establishing side control pressure. Many practitioners hesitate during the transition from guard to top, giving the opponent time to insert a knee for half guard or re-establish feet on hips from bottom. The correction is to follow through aggressively by driving your hips forward into the opponent the moment they land, establishing crossface pressure within one second, and immediately controlling their near hip to prevent knee insertion."
+      },
+      {
+        "question": "When should you abandon the sickle sweep setup and transition to a different attack?",
+        "answer": "Abandon the sickle sweep when the opponent achieves strong control of your hooking leg preventing the sickle motion, when they backstep beyond your hooking range, or when they drop their weight so low that your pushing foot cannot generate meaningful lateral force. In these situations, transition immediately to alternative attacks: against ankle control switch to X-Guard entry, against backstep defense flow to De La Riva guard, against low base attempt balloon sweep or tomoe nage using their forward weight commitment."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Feet on Hips Sickle Sweep."
+    "safety_considerations": "The sickle sweep is a low-risk technique with minimal injury potential for both practitioners. The primary safety concern is controlling the opponent's fall during the sweep to prevent them from landing awkwardly on their head, neck, or outstretched arm. When practicing, ensure the sweeping motion is controlled and gradual rather than explosive, allowing your partner to breakfall safely. Avoid applying excessive rotational force to the opponent's knee through the hooking leg, and release the hook immediately once the sweep succeeds. In competition, be aware that sweeping near the mat edge creates collision risks."
   },
   "defender": {
     "name": "Feet on Hips Sickle Sweep Defender",
-    "description": "TODO: Write defender description for Feet on Hips Sickle Sweep.",
-    "overview": "TODO: Write defender overview for Feet on Hips Sickle Sweep.",
+    "description": "Defend and counter the Feet on Hips Sickle Sweep in BJJ. Recognition cues, prevention strategies, and counter-attacks when facing this common open guard sweep.",
+    "overview": "Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mechanical prerequisites and disrupting them before the combined push-pull-hook force becomes irresistible. As the top player facing feet on hips guard, you must recognize the setup cues—the specific grip configuration, the dropping of one foot from your hip, and the angle change that precedes the sickle motion. Early recognition allows you to address the sweep at its weakest point during the setup phase rather than trying to resist the fully loaded sweep mechanics. Effective defense combines preventive measures such as denying grips, maintaining a wide base, and controlling the hooking leg with active counters including backstep passing, forward pressure, and grip stripping that convert the opponent's sweep attempt into a guard passing opportunity for you.",
     "key_principles": [
-      "TODO"
+      "Deny the collar grip establishment by fighting hands aggressively and keeping your posture upright with chin tucked to prevent deep collar access",
+      "Maintain awareness of both feet on your hips—when one foot drops off, immediately suspect a sickle or tripod sweep setup and prepare your defense",
+      "Keep your base wide and weight centered rather than committing forward, which loads the sweep by shifting your mass over the target foot",
+      "Control the opponent's hooking leg immediately when you feel it leave your hip and begin traveling behind your ankle",
+      "Step the targeted foot back preemptively when you recognize the sickle setup, removing the hook target entirely",
+      "Use the sweep attempt as a passing opportunity by capitalizing on the guard opening created when the opponent drops one foot from your hip"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent establishes a deep collar grip while maintaining sleeve control—this specific grip configuration generates the pulling force essential for the sweep",
+      "One of the opponent's feet drops from your hip and travels laterally behind your far ankle or calf rather than resetting on your hip",
+      "Opponent's hips angle to one side as they set the sweep direction, breaking the symmetrical feet-on-hips frame you were facing",
+      "You feel increasing pulling tension through the collar grip directing your weight and posture toward one side",
+      "Opponent's hooking leg makes firm contact with the back of your far calf or Achilles tendon area, signaling the sweep is loaded"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Step the far foot back beyond hooking range when you feel the opponent's foot drop from your hip",
+        "when_to_use": "During the setup phase before the hook is fully set, when you first notice one foot leaving your hip and traveling behind your leg",
         "targets_outcome": "Feet on Hips Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Sweep is prevented entirely and opponent must reset guard or transition to a different attack from the same position",
+        "risk": "Stepping back creates a wider stance that is vulnerable to the tripod sweep follow-up, so be prepared to address that chain attack"
+      },
+      {
+        "action": "Strip the collar grip with a two-on-one grip break while driving forward pressure into the opponent's guard",
+        "when_to_use": "Early in the setup when the opponent is establishing the collar grip needed for the sweep's pulling vector",
+        "targets_outcome": "Feet on Hips Guard/Bottom",
+        "if_successful": "Without the collar grip the sweep lacks the pulling force needed to off-balance you, reducing it to an easily resisted leg-only attempt",
+        "risk": "Temporarily removing one hand from passing grips may open other guard attacks or allow the opponent to re-grip"
+      },
+      {
+        "action": "Grab the hooking leg at the ankle or pant cuff and pin it while stepping your far foot back and driving forward",
+        "when_to_use": "When the hook is already set behind your ankle but the full sweep motion has not yet been initiated",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You neutralize the hook and can use control of the captured leg to initiate a guard passing sequence into half guard top or leg drag",
+        "risk": "Bending down to grab the ankle may compromise your posture if the opponent has a strong collar grip and initiates the sweep during your reach"
+      },
+      {
+        "action": "Drive hips forward and low while sprawling weight onto the opponent to flatten their guard structure",
+        "when_to_use": "When the sweep is being initiated and you feel the push-pull forces beginning to take effect on your balance",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Your forward pressure flattens their guard structure and you advance past their frames into a passing position before the sweep develops",
+        "risk": "Driving forward adds momentum in the sweep direction if the hook and collar pull are well-timed, potentially accelerating the sweep"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Feet on Hips Guard/Bottom",
+        "how": "Deny the collar grip or step the far foot back early to prevent the sweep entirely, forcing the opponent to reset and attempt a different technique from guard bottom while you maintain your top position"
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "When you recognize the sweep attempt beginning, drive forward aggressively and use the opened guard structure to advance past one leg, establishing top position in half guard while the opponent's sweep momentum is disrupted by your forward pressure"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Standing with feet close together when facing feet on hips guard",
+        "consequence": "Narrow base makes the lateral sweep force much more effective because there is less distance for your center of mass to travel before you lose balance",
+        "correction": "Maintain a wide athletic stance with feet at least shoulder width apart, distributing weight evenly to resist lateral off-balancing from the push-hook combination"
+      },
+      {
+        "error": "Allowing the collar grip to be established without fighting it",
+        "consequence": "The collar grip provides the essential pulling force that makes the sweep irresistible when combined with the leg mechanics, and once deep it is very difficult to break",
+        "correction": "Prioritize collar grip prevention through active hand fighting from the moment engagement begins, breaking the grip immediately when established using two-on-one grip breaks"
+      },
+      {
+        "error": "Leaning forward when you feel the push from the foot on your hip",
+        "consequence": "Forward lean loads your weight onto the far foot, making it the perfect target for the sickle hook that removes your base on that side and completes the sweep",
+        "correction": "Maintain centered weight distribution and sit your hips back slightly when you feel pushing pressure, countering the lateral force with hip engagement rather than leaning"
+      },
+      {
+        "error": "Ignoring the foot drop and continuing to pass without addressing the sweep threat",
+        "consequence": "You get swept mid-pass and concede sweep points plus end up in bottom position, losing both the positional exchange and the scoring",
+        "correction": "When you notice one foot leave your hip, immediately pause your passing sequence and address the sweep setup before it develops into a loaded sweep attempt"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a sickle sweep is being set up from feet on hips guard?",
+        "answer": "The earliest cue is the establishment of the collar grip combined with sleeve control, which is the specific grip configuration required for the sweep's pulling force. Before the feet even move, this grip pattern signals that a coordinated push-pull sweep is being prepared. Addressing the grips at this stage prevents the sweep at its weakest point, before any leg mechanics are engaged and before the opponent has committed to the attack."
+      },
+      {
+        "question": "Your opponent threads their hooking foot behind your far ankle—what immediate action prevents the sweep?",
+        "answer": "Immediately step the targeted foot straight back beyond their hooking range while simultaneously pressuring or stripping their collar grip. The backstep removes the hook target, and without the hook, the pushing foot alone cannot complete the lateral sweep. Be prepared for the follow-up tripod sweep attempt that often comes when you step back by maintaining your grips on their pants or ankles to begin your own passing sequence."
+      },
+      {
+        "question": "How do you convert a defended sickle sweep attempt into a guard passing opportunity?",
+        "answer": "When the opponent drops one foot from your hip to attempt the sickle, they temporarily weaken their guard structure by removing one of their two primary defensive frames. Capitalize by grabbing the dropped leg and driving forward past it while maintaining control of their remaining foot on your hip. This creates a leg drag or toreando passing opportunity because they now have only one foot defending while the other is committed to the failed sweep setup."
+      },
+      {
+        "question": "You get caught in the sickle sweep mid-motion—what is the best recovery to minimize positional loss?",
+        "answer": "If the sweep is in progress and cannot be stopped, post your hand on the mat in the direction you are falling to slow your descent and create a temporary base point. As you land, immediately turn toward the opponent rather than away, and work to insert your knee between your bodies to recover half guard rather than conceding full side control. The difference between recovering half guard and giving up side control determines whether you can quickly return to a competitive position or spend significant energy on a full escape sequence."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sweep setup cues in real time",
+        "description": "Partner sets up the sickle sweep in slow motion while you practice identifying each recognition cue including grip establishment, foot drop, angle change, and hook placement. Call out each cue as you see or feel it to build automatic pattern recognition."
+      },
+      {
+        "phase": "Phase 2: Prevention",
+        "focus": "Early intervention through grip denial and base management",
+        "description": "Partner attempts the sickle sweep at increasing speeds while you practice the primary defensive responses: grip stripping, stepping back, and controlling the hooking leg. Focus on timing your defensive action to the earliest possible recognition cue rather than waiting until the sweep is loaded."
+      },
+      {
+        "phase": "Phase 3: Counter-Attacks",
+        "focus": "Converting sweep defense into passing opportunities",
+        "description": "After successfully defending the sickle sweep, immediately transition to a guard pass. Practice the defensive action flowing directly into toreando, leg drag, or smash pass so that defense and pass initiation become one continuous movement rather than two separate actions."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full-speed application against varied sweep attacks",
+        "description": "Positional sparring starting in feet on hips guard with partner attacking with all available sweeps including sickle, tripod, balloon, and others. Practice recognizing which sweep is being attempted and applying the correct defensive response under competition-level pressure and speed."
       }
     ]
   }

@@ -1,150 +1,474 @@
 {
   "name": "Americana from Kesa Gatame",
-  "description": "TODO: Write 150-160 character SEO description for Americana from Kesa Gatame.",
+  "description": "Master the Americana shoulder lock from Kesa Gatame in BJJ. Complete guide covering figure-four mechanics, finishing details, and defensive strategies.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "americana",
+    "keylock",
+    "shoulder-lock",
+    "kesa-gatame",
+    "scarf-hold",
+    "joint-lock",
+    "figure-four"
   ],
   "submission_category": "Joint Lock",
-  "submission_type": "Arm Lock",
-  "target_area": "Shoulder and elbow joint",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (glenohumeral)",
   "starting_position": "Kesa Gatame",
   "from_position": "Kesa Gatame/Top",
-  "from_positions": ["Kesa Gatame", "Kuzure Kesa-Gatame", "Side Control"],
+  "from_positions": [
+    "Kesa Gatame",
+    "Kuzure Kesa-Gatame",
+    "Side Control"
+  ],
+  "success_rate": 50,
+  "overview": "The Americana from Kesa Gatame exploits the natural arm isolation inherent in the scarf hold position. Unlike executing the Americana from standard side control, where the attacker must first work to isolate the near arm, Kesa Gatame already traps the opponent's arm under the top player's armpit, providing a significant mechanical advantage for initiating the submission. The figure-four grip locks the wrist and forearm, and the finishing motion paints the opponent's hand toward the mat, generating devastating lateral rotation at the glenohumeral joint that forces the tap.\n\nThis submission integrates seamlessly into Kesa Gatame offensive chains. When the opponent defends arm triangle attempts or resists transitions to mount, their defensive arm positioning often exposes the near arm to Americana attacks. The position's natural chest pressure restricts breathing and limits bridging power, making the finish more reliable than from other side control variations. The primary risk is the momentary release of head control required to secure the figure-four grip, which creates a brief escape window that must be managed through maintained chest pressure and efficient grip transitions.\n\nFrom a competitive standpoint, the Americana from Kesa Gatame is particularly effective against opponents who focus on defending chokes and neglect protecting the trapped arm. The submission works in both gi and no-gi contexts, with the primary difference being grip security on the wrist. The key strategic principle is patience—Kesa Gatame's compounding pressure gradually degrades the opponent's defensive capacity, creating progressively larger windows for the finishing sequence.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion",
+        "severity": "CRITICAL",
+        "recovery_time": "3-12 months, may require surgical intervention"
+      },
+      {
+        "injury": "Anterior shoulder dislocation from excessive rotational force applied before opponent can tap",
+        "severity": "CRITICAL",
+        "recovery_time": "2-6 months with physical therapy, possible surgical repair"
+      },
+      {
+        "injury": "Shoulder capsule ligament sprain from repeated sub-threshold stress during training",
+        "severity": "High",
+        "recovery_time": "4-8 weeks with rest and rehabilitation"
+      }
+    ],
+    "application_speed": "SLOW and progressive. The Americana generates enormous rotational force at the shoulder joint. Apply the paint motion gradually over 3-5 seconds minimum, pausing at initial resistance to allow the opponent time to recognize the submission and tap. Never jerk, spike, or explosively accelerate the finishing motion.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, own body, or mat with free hand",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization, screaming, or expression of acute distress"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal by unwinding the figure-four grip and releasing wrist control",
+      "If partner shows signs of distress but has not tapped, stop all pressure and verbally confirm their status",
+      "If in doubt about whether a tap occurred, always release—position can be re-established",
+      "After releasing, check on partner's shoulder mobility and comfort before resuming training"
+    ],
+    "training_restrictions": [
+      "Apply the finishing paint motion with slow, progressive pressure only—never jerk or spike the shoulder lock",
+      "White and blue belts should drill the figure-four grip and paint motion at reduced speed until mechanics are reliable",
+      "Partners with pre-existing shoulder injuries, hypermobility, or previous dislocations must communicate limitations before training this technique",
+      "During flow rolling and warm-up rounds, catch and release only—do not apply finishing pressure"
+    ]
+  },
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 45,
+      "probability": 30,
       "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Americana from Kesa Gatame.",
-  "safety_considerations": {
-    "injury_risks": [
-      {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
-      }
-    ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
-    "tap_signals": [
-      "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
-    ],
-    "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
-    ],
-    "training_restrictions": [
-      "TODO"
-    ]
-  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Wrist Pin Setup",
+      "description": "The classic entry where you pin the opponent's wrist to the mat with your free hand before releasing head control to thread the figure-four. This is the highest-percentage setup because wrist control is established before any positional sacrifice occurs.",
+      "when_to_use": "When opponent's trapped arm is relaxed or positioned near the mat and you have a stable Kesa Gatame with good chest pressure"
+    },
+    {
+      "variation_name": "Submission Defense Transition",
+      "description": "When the opponent defends an arm triangle or choke attempt by pushing their trapped arm across their body, immediately redirect to the Americana by capturing the exposed wrist and threading the figure-four. The opponent's own defensive movement creates the arm positioning needed for the lock.",
+      "when_to_use": "When opponent actively defends a choke and exposes the near arm in the process"
+    },
+    {
+      "variation_name": "Bridge Reaction Capture",
+      "description": "When the opponent bridges to escape Kesa Gatame, their trapped arm often extends or repositions as they generate upward force. Absorb the bridge with base and immediately capture the repositioned wrist as they return to the mat, using their post-bridge fatigue to secure the figure-four before they can re-establish defensive arm positioning.",
+      "when_to_use": "Immediately after absorbing an explosive bridge attempt when the opponent's arm is momentarily exposed"
+    }
+  ],
+  "related_submissions": [
+    "Americana from Side Control",
+    "Americana from Mount",
+    "Americana from Reverse Kesa",
+    "Americana from Technical Mount",
+    "Arm Triangle from Scarf Hold",
+    "Armbar from Side Control"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Kesa Gatame",
+      "relationship": "Primary source position providing the arm isolation and chest pressure foundation for this submission"
+    },
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Modified scarf hold variant offering alternative arm isolation entry to the Americana"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family sharing lateral control principles and submission chains"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Base transition technique—the core Americana movement pattern applied from this specific position"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Alternative shoulder lock control accessible when opponent rotates arm inward to defend Americana"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transition option when Americana fails and opponent creates space, maintaining top control"
+    },
+    {
+      "name": "Arm Triangle from Scarf Hold",
+      "relationship": "Chain submission from same starting position, often set up as a follow-up when Americana defense exposes the neck"
     }
   ],
   "attacker": {
     "name": "Americana from Kesa Gatame Attacker",
-    "description": "TODO: Write attacker description for Americana from Kesa Gatame.",
-    "overview": "TODO: Write attacker overview for Americana from Kesa Gatame.",
+    "description": "Complete attacking guide for finishing the Americana shoulder lock from Kesa Gatame. Figure-four mechanics, grip transitions, and finishing sequences.",
+    "overview": "Executing the Americana from Kesa Gatame requires precise sequencing of grip transitions while maintaining positional pressure. The top player must convert the existing arm trap into a figure-four control without surrendering the chest pressure that prevents escape. Success depends on pinning the opponent's wrist before releasing head control, then efficiently threading the figure-four grip while keeping hips heavy and base stable. The finishing motion is a controlled paint of the opponent's hand toward the mat, using the body's rotational mechanics rather than arm strength to generate the breaking force at the shoulder joint. The critical tactical insight is that the transition from head control to arm control creates a brief vulnerability window—managing this window through chest pressure and speed determines whether the submission succeeds or the opponent escapes.",
     "key_principles": [
-      "TODO"
+      "Pin the wrist to the mat before releasing head control—never sacrifice both control points simultaneously",
+      "Maintain chest pressure throughout the entire submission sequence, using body weight rather than arm strength to control position",
+      "Thread the figure-four grip efficiently to minimize the window without head control",
+      "Keep the opponent's elbow pinned to the mat as the fulcrum for rotational force during the finish",
+      "Apply the paint motion slowly and progressively, allowing the shoulder joint mechanics to generate the tap rather than forcing through muscular effort",
+      "Stay prepared to transition to armbar or Kimura if the opponent's defensive reaction creates a better opportunity"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established Kesa Gatame with tight head control and near arm trapped securely under your armpit",
+      "Opponent's near arm positioned with the wrist accessible for control—not buried under their own body or hooked behind your back",
+      "Stable base with far leg posted wide and hips low, providing sufficient balance to release head control without being swept",
+      "Heavy chest pressure on opponent's torso that restricts their breathing and explosive bridging capacity",
+      "Opponent flattened on their back with shoulders close to the mat, not turned significantly toward or away from you"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate Kesa Gatame Control",
+        "description": "Ensure solid Kesa Gatame with your arm wrapped around the opponent's head, their near arm trapped tightly under your armpit, and your chest applying heavy downward pressure across their upper torso. Post your far leg wide for base stability and sink your hips low.",
+        "timing": "0-5 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Pin Opponent's Wrist to Mat",
+        "description": "With your free hand (the hand not controlling the head), reach across and pin the opponent's trapped wrist firmly to the mat beside their head. Use a palm-down grip pressing their wrist into the mat surface to prevent them from straightening the arm or pulling it free from your control.",
+        "timing": "5-8 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Release Head Control and Thread Figure-Four",
+        "description": "While maintaining wrist control, release your head-control arm and immediately thread it under the opponent's trapped upper arm, reaching through to grip your own wrist in a figure-four configuration. This transition must be swift to minimize the window without head control—maintain heavy chest pressure throughout.",
+        "timing": "8-10 seconds (critical transition window)"
+      },
+      {
+        "step_number": 4,
+        "action": "Secure Figure-Four Grip Configuration",
+        "description": "Lock the figure-four by gripping your own wrist firmly with the threading hand. Ensure your controlling hand maintains wrist pressure while the threading arm clamps down on the opponent's upper arm. Squeeze the figure-four tight against your chest to eliminate slack in the grip system.",
+        "timing": "10-12 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Position Arm at Ninety Degrees",
+        "description": "Adjust the opponent's arm so their elbow is bent at approximately ninety degrees with their forearm perpendicular to the mat. If the arm is too straight, use your chest weight to compress it into the bent position. The elbow must contact the mat firmly to serve as the fulcrum for the rotational finishing force.",
+        "timing": "12-15 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Drive Chest Pressure and Stabilize Base",
+        "description": "Settle your full chest weight onto the opponent's torso to flatten them and prevent bridging or turning. Keep your hips low and heavy with the base leg posted wide. This chest pressure serves the dual purpose of positional control and restricting the opponent's breathing to limit explosive defensive movements.",
+        "timing": "15-18 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Begin Paint Motion Toward Mat",
+        "description": "Slowly slide the opponent's wrist in an arc toward the mat, moving their forearm from vertical toward horizontal while keeping their elbow pinned to the mat as a stationary fulcrum. The motion resembles painting a line on the mat with their fingers. Maintain constant figure-four tension throughout the movement to prevent any slack.",
+        "timing": "18-25 seconds"
+      },
+      {
+        "step_number": 8,
+        "action": "Apply Finishing Pressure for Tap",
+        "description": "Continue the paint motion with steady, incremental pressure, driving their forearm toward the mat beside their hip. The shoulder reaches end-range lateral rotation as the forearm approaches horizontal. Maintain the figure-four tension and be prepared to release immediately upon any tap signal. The finish should feel like steady mechanical pressure, not an explosive crank.",
+        "timing": "25-30 seconds (slow and controlled)"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent straightens trapped arm before figure-four is secured, creating a long lever that prevents the lock",
+        "effectiveness": "High",
+        "your_response": "Transition immediately to armbar or straight armlock on the extended arm rather than fighting to re-bend it. The extended arm is more vulnerable to armbar than to Americana.",
         "targets_outcome": "Kesa Gatame/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively during the head control release to disrupt base and create escape space",
+        "effectiveness": "Medium",
+        "your_response": "Absorb the bridge by widening your base leg and driving chest weight down. Maintain wrist control throughout the bridge—their explosive effort will exhaust them while your grip remains intact. Resume the figure-four thread once they settle.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent grips own lapel, belt, or pants with trapped hand to anchor the wrist and prevent repositioning",
+        "effectiveness": "High",
+        "your_response": "In gi, use a two-on-one grip break by peeling their fingers off the lapel or strip the grip by sliding their hand off the material. In no-gi, this counter is less available. If the grip cannot be broken, transition to Kimura by rotating the attack direction.",
+        "targets_outcome": "Kesa Gatame/Top"
+      },
+      {
+        "counter": "Opponent turns into you during the grip transition, attempting to recover guard or reach turtle",
+        "effectiveness": "Medium",
+        "your_response": "Use their turning motion against them by transitioning to mount as they rotate toward you, or maintain the wrist control and follow them to re-establish Kesa Gatame from the new angle. Their turn often improves Americana positioning if you maintain the figure-four.",
+        "targets_outcome": "Half Guard/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing head control before securing the wrist pin, leaving both control points open simultaneously",
+        "consequence": "Opponent immediately turns, bridges, or sits up with no restrictions, escaping the position entirely or recovering guard",
+        "correction": "Always pin the wrist firmly to the mat with your free hand before releasing head control. The sequence is wrist pin first, then head release and figure-four thread."
+      },
+      {
+        "error": "Sitting upright to apply the figure-four rather than staying chest-heavy on the opponent",
+        "consequence": "Reduced pressure allows opponent to bridge effectively, create space, and escape or reverse the position during the grip transition",
+        "correction": "Stay low with your chest parallel to the mat throughout the entire submission sequence. The figure-four should be threaded while your torso remains draped over the opponent's chest."
+      },
+      {
+        "error": "Pulling the opponent's arm upward rather than painting it toward the mat in an arc",
+        "consequence": "Incorrect force vector fails to generate rotational stress at the shoulder joint, allowing the opponent to resist the submission through raw strength",
+        "correction": "The finishing motion paints the opponent's hand in a semicircular arc toward the mat, keeping the elbow pinned as a fulcrum. The force direction is lateral and downward, not upward."
+      },
+      {
+        "error": "Failing to keep the opponent's elbow pinned to the mat during the finishing motion",
+        "consequence": "Without the elbow fulcrum, the entire arm shifts as a unit rather than rotating at the shoulder, allowing the opponent to absorb the force without submission pressure",
+        "correction": "Use your body weight and figure-four arm to keep the elbow firmly planted on the mat surface. The elbow is the fixed point around which the forearm rotates."
+      },
+      {
+        "error": "Rushing the figure-four grip, leaving slack in the control system",
+        "consequence": "Loose figure-four allows opponent to extract their arm through the gap, wasting the setup and potentially creating an escape opportunity",
+        "correction": "After threading the figure-four, squeeze it tight against your chest to eliminate all slack. The grip should feel like a closed loop with no space for the opponent's arm to slide through."
+      },
+      {
+        "error": "Applying the finishing pressure explosively rather than with slow progressive force",
+        "consequence": "Risk of serious shoulder injury to training partner who cannot tap fast enough, and also reduces your control if the submission fails",
+        "correction": "Apply the paint motion gradually over three to five seconds, pausing at the point of initial shoulder resistance to allow the opponent to recognize the submission and tap safely."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Figure-four grip formation and wrist control",
+        "description": "Drill the wrist pin to figure-four transition in isolation with a cooperative partner. Focus on the speed and efficiency of releasing head control and threading the figure-four while maintaining chest pressure. Perform 30 repetitions per side with no resistance, prioritizing smooth transitions over speed."
+      },
+      {
+        "phase": "Phase 2: Finishing Motion",
+        "focus": "Paint motion mechanics and elbow fulcrum positioning",
+        "description": "With the figure-four already secured, practice the paint motion at controlled speed. Partner provides zero resistance. Focus on keeping the elbow pinned, maintaining the correct arc direction, and developing sensitivity to shoulder end-range resistance. Catch and release only—do not apply full finishing pressure."
+      },
+      {
+        "phase": "Phase 3: Full Sequence Under Light Resistance",
+        "focus": "Complete submission chain from Kesa Gatame to finish",
+        "description": "Execute the full sequence from Kesa Gatame consolidation through the finish with a partner providing thirty to fifty percent resistance. Partner defends with specific counters one at a time (wrist pull, bridge, arm straighten) so you can practice your responses to each counter individually. Reset after each attempt."
+      },
+      {
+        "phase": "Phase 4: Positional Sparring",
+        "focus": "Live application with full resistance from Kesa Gatame",
+        "description": "Begin in Kesa Gatame with the goal of finishing the Americana. Partner defends with full resistance using all available counters. If the Americana fails, transition to secondary attacks (armbar, Kimura, arm triangle) or re-establish position. Three-minute rounds with reset on escape or submission."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Americana as part of offensive submission chains",
+        "description": "Start from any top position and work to Kesa Gatame, then attack the Americana. If defended, flow to the next submission in the chain. Practice recognizing when the Americana is available during live rolling and integrating it into your existing Kesa Gatame game plan. Track finishing rate across multiple rounds."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structure does the Americana from Kesa Gatame primarily attack?",
+        "answer": "The Americana attacks the glenohumeral (shoulder) joint through forced lateral rotation combined with extension pressure. The figure-four grip creates a lever system that rotates the humerus externally while the pinned elbow prevents the opponent from relieving the rotational stress. Secondary stress is placed on the rotator cuff complex, particularly the subscapularis muscle and the anterior shoulder capsule ligaments.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the critical moment during the Americana setup from Kesa Gatame that creates the highest escape risk?",
+        "answer": "The highest escape risk occurs when you release head control to thread your arm under the opponent's trapped arm for the figure-four grip. During this transition, the opponent's head is momentarily free, creating a window where they can bridge, turn, or attempt to recover guard. Managing this window requires pinning the wrist firmly first and maintaining heavy chest pressure throughout the grip transition to compensate for the lost head control.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you position the opponent's arm before applying the finishing rotation?",
+        "answer": "The opponent's elbow should be bent at approximately ninety degrees with their forearm perpendicular to the mat surface. The elbow must be pinned firmly against the mat to serve as the fulcrum for the rotational force. If the arm is too straight, the figure-four loses mechanical advantage and the opponent can resist through arm extension strength. If the arm is bent too acutely with the hand near their own shoulder, there is insufficient range of motion remaining to generate adequate submission pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins straightening their trapped arm as you attempt to secure the figure-four—what adjustment do you make?",
+        "answer": "If the opponent straightens their arm before the figure-four is complete, abandon the Americana attempt and transition to an armbar or straight armlock on the extended arm. The extended arm is more vulnerable to armbar attacks than to the Americana. Alternatively, use your chest weight to drive their extended arm back to a bent position by pressing down on their elbow. Never try to force the figure-four onto a fully straightened arm, as this wastes energy and creates space for escapes.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the correct direction of force application during the Americana finish?",
+        "answer": "The finishing force paints the opponent's hand in an arc toward the mat, moving their forearm from vertical to horizontal while keeping the elbow pinned as a stationary fulcrum. The force follows a curved path away from their head and toward their hip, like drawing a quarter-circle on the mat with their fingers. Pulling straight down or away creates stress in the wrong vector and allows the opponent to use their chest muscles to resist the force more effectively than they could resist the rotational path.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you maintain control if the opponent bridges explosively during the finishing sequence?",
+        "answer": "Keep your base leg posted wide and your hips heavy on the opponent's torso. When they bridge, absorb the movement by driving your weight downward rather than trying to resist laterally. Maintain the figure-four grip throughout the bridge and do not release it. The bridge will exhaust their energy while your grip remains intact. If the bridge creates significant positional disruption, temporarily pause the finish, re-establish heavy chest pressure, and resume the paint motion once they settle back down.",
+        "safety_critical": false
+      },
+      {
+        "question": "What grip adjustments improve finishing reliability when training no-gi with sweaty grips?",
+        "answer": "In no-gi situations with grip slippage, shift from a wrist-on-wrist figure-four to a palm-to-palm or Gable grip variation where your threading hand grips the back of your controlling hand rather than the wrist. This creates a more secure connection that resists sweat-related slippage. Additionally, squeeze the figure-four tight against your chest to create friction contact, and consider gripping slightly higher on the opponent's forearm rather than the narrower wrist joint for a larger contact surface.",
+        "safety_critical": false
+      },
+      {
+        "question": "When should you abandon the Americana attempt and transition to another attack?",
+        "answer": "Abandon the Americana when the opponent successfully straightens their arm fully, recovers their wrist from your grip, or creates enough space through bridging that your chest pressure is compromised. Transition to armbar if the arm is extended, to Kimura if they rotate the arm inward, or return to Kesa Gatame head control to re-establish the position if space is lost. A failing Americana should not be forced beyond five to eight seconds—the energy expenditure is not justified when better opportunities exist through submission chain transitions.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the warning signs that you are applying the Americana too fast and risk injuring your training partner?",
+        "answer": "Warning signs include sudden popping or clicking sounds from the shoulder, partner's facial expression showing acute distress before they can articulate a tap, partner's entire body tensing rigidly, or the forearm moving toward the mat faster than the partner can process and respond. Always apply the Americana with slow progressive pressure that gives the opponent time to recognize the submission and tap. Pause briefly when you feel initial resistance at the shoulder's end range—this is the injury threshold where damage occurs if force continues without a tap.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the Americana from Kesa Gatame differ mechanically from the Americana from standard side control?",
+        "answer": "From Kesa Gatame, the arm is already trapped under your armpit, eliminating the initial arm isolation step required from standard side control. The perpendicular body angle creates a different leverage angle for the figure-four where your body weight drives more directly into the finishing motion. However, Kesa Gatame requires releasing head control for the figure-four, while standard side control allows maintaining crossface throughout. The scarf hold version also generates stronger natural chest pressure on the opponent's diaphragm, reducing their explosive defensive capacity during the finishing sequence.",
+        "safety_critical": false
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Americana from Kesa Gatame."
+    ]
   },
   "defender": {
     "name": "Americana from Kesa Gatame Defender",
-    "description": "TODO: Write defender description for Americana from Kesa Gatame.",
-    "overview": "TODO: Write defender overview for Americana from Kesa Gatame.",
+    "description": "Complete defensive guide for surviving and escaping the Americana from Kesa Gatame. Recognition cues, prevention timing, and escape strategies.",
+    "overview": "Defending the Americana from Kesa Gatame requires recognizing the submission threat before the figure-four grip is secured. The critical defensive window occurs when the attacker transitions from head control to arm control—this momentary release of head pressure creates the best opportunity for escape. The defender must prioritize preventing wrist isolation, maintaining the trapped arm in a bent protective position, and timing explosive escapes to coincide with the attacker's grip transitions rather than fighting against peak pressure. Once the figure-four is fully locked and the paint motion begins, defensive options narrow dramatically, making early recognition and immediate proactive defense essential for survival. Understanding the mechanical progression of the Americana allows the defender to intervene at the optimal point in the sequence rather than reacting to the finished position.",
     "key_principles": [
-      "TODO"
+      "Defend the wrist pin before it is established—once the wrist is controlled, the figure-four becomes significantly harder to prevent",
+      "Keep the trapped arm bent at approximately ninety degrees with the elbow tight to your ribs, never allowing full extension or full collapse",
+      "Recognize the head control release as your primary escape window and time explosive defensive movements to that moment",
+      "Bridge toward the opponent rather than away during the grip transition to disrupt their base and create positional escape opportunities",
+      "If the figure-four is fully secured, prioritize tapping early over forcing a late escape that risks shoulder injury",
+      "Use your free arm to create frames that maintain survival space rather than pushing explosively, which wastes energy without effect"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent's free hand moves to contact and press your trapped wrist toward the mat surface",
+      "Opponent shifts weight from head control emphasis toward your trapped arm, reducing pressure on your head and neck",
+      "Opponent begins releasing the arm wrapped around your head, threading it under your trapped upper arm",
+      "You feel a figure-four grip configuration forming around your wrist and forearm with two-on-one arm control"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Pull wrist free using a circular motion toward your own centerline before the figure-four is threaded",
+        "when_to_use": "Immediately upon feeling the opponent's hand contact your wrist—this is the earliest and highest-percentage defensive window",
         "targets_outcome": "Kesa Gatame/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent fails to isolate the wrist and must either re-attempt or return to standard Kesa Gatame control",
+        "risk": "If you fail to free the wrist, the opponent may accelerate the figure-four transition while you are actively moving"
+      },
+      {
+        "action": "Bridge explosively toward the opponent during the moment they release head control to thread the figure-four",
+        "when_to_use": "When you feel head pressure release as the opponent begins threading the figure-four arm under your trapped arm",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The bridge disrupts opponent's base during their most vulnerable transition moment, creating space for hip escape to half guard",
+        "risk": "If the bridge is poorly timed or underpowered, the opponent absorbs it and completes the figure-four while you are fatigued"
+      },
+      {
+        "action": "Grip own lapel, belt, or opposite wrist with the trapped hand to anchor it and prevent repositioning",
+        "when_to_use": "When you cannot free the wrist but the figure-four has not yet been completed—gripping an anchor point prevents the attacker from positioning your arm for the lock",
+        "targets_outcome": "Kesa Gatame/Top",
+        "if_successful": "Opponent cannot complete the figure-four or position your arm correctly, forcing them to abandon the Americana and return to positional control",
+        "risk": "Gripping your own lapel commits your trapped arm to a static position, reducing your ability to use it for other defensive actions"
+      },
+      {
+        "action": "Straighten the trapped arm forcefully before the figure-four is secured, then immediately frame and hip escape",
+        "when_to_use": "When you feel the figure-four beginning to form but it is not yet tight—the straight arm prevents the lock and the immediate hip escape exploits the space created",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The straightened arm prevents the Americana and the hip escape recovers half guard, significantly improving your position",
+        "risk": "A straightened arm is vulnerable to armbar transition—you must immediately follow the straightening with a hip escape rather than leaving the arm extended"
       }
+    ],
+    "escape_paths": [
+      "Bridge explosively toward the opponent during the figure-four transition when head control is released, then hip escape and insert knee for half guard recovery",
+      "Straighten the trapped arm before the figure-four is fully secured, immediately frame against the opponent's shoulder with your free arm, and shrimp your hips to create distance for guard recovery",
+      "Turn into the opponent when they release head control, using the momentary freedom to reach turtle position or begin a back take sequence by getting chest-to-chest"
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Kesa Gatame/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Top",
+        "how": "Time a bridge-and-hip-escape during the moment the opponent transitions from head control to arm control, exploiting the brief window of reduced positional control to insert your knee and recover half guard"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the figure-four is fully locked before beginning defensive actions",
+        "consequence": "Once the figure-four is secure with proper elbow positioning, the mechanical advantage overwhelmingly favors the attacker and escape becomes exponentially more difficult",
+        "correction": "Begin defensive actions at the first recognition cue—the wrist pin. Every second of delay reduces your defensive options. React to the wrist contact, not the completed lock."
+      },
+      {
+        "error": "Allowing the trapped arm to fully extend while defending, exposing it to armbar transition",
+        "consequence": "The attacker abandons the Americana and transitions to a straight armbar on the extended arm, which is a faster and harder-to-defend submission",
+        "correction": "Keep the elbow bent at approximately ninety degrees throughout all defensive actions. If you straighten the arm to prevent the figure-four, immediately follow with a hip escape rather than leaving the arm extended."
+      },
+      {
+        "error": "Pushing the opponent away with the free arm using extended arms and muscular effort",
+        "consequence": "Extended pushing arms are easily isolated for submission, and the muscular effort exhausts energy reserves needed for timed explosive escape attempts",
+        "correction": "Use the free arm to create compact frames with forearm against the opponent's shoulder or hip, maintaining structural space rather than generating pushing force."
+      },
+      {
+        "error": "Panicking and attempting multiple rapid explosive escapes without timing them to the attacker's transitions",
+        "consequence": "Rapid uncoordinated escape attempts burn energy reserves quickly without creating meaningful positional change, leaving you exhausted under a still-dominant opponent",
+        "correction": "Stay calm and wait for the specific defensive windows: wrist pin moment, head control release, and any base adjustments. One well-timed explosive effort is worth more than five poorly timed ones."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that an Americana is being set up from Kesa Gatame?",
+        "answer": "The earliest cue is feeling the opponent's free hand contact your trapped wrist, pressing it toward the mat. This wrist pin precedes the figure-four grip and signals the beginning of the Americana sequence. The moment you feel wrist pressure, you must begin your defensive response immediately because waiting for the figure-four to form dramatically reduces your defensive options and escape probability.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to prevent the figure-four grip from being completed rather than trying to escape after it is locked?",
+        "answer": "Once the figure-four grip is fully secured with proper elbow positioning, the two-on-one grip system combined with the attacker's body weight creates forces that are extremely difficult to overcome through strength alone. Before the grip is complete, you only need to address one control point—the wrist pin—and you have full arm mobility plus bridging power available. After completion, you must simultaneously break the figure-four and create a positional escape, which requires far more energy and has a significantly lower success rate.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the momentary release of head control during the Americana setup create an escape opportunity?",
+        "answer": "When the opponent releases head control to thread the figure-four, your head becomes free to turn and your neck is no longer pinned. This creates a two to three second window where you can bridge toward the opponent and turn into them, potentially recovering guard or reaching turtle. Recognize this window through tactile sensation—the pressure on your head releases suddenly as their arm moves. Time your most explosive escape attempt to coincide with this moment of reduced positional control.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent has fully secured the figure-four and begins painting your arm toward the mat—what is your last resort defense?",
+        "answer": "If the figure-four is fully locked and the painting motion has begun toward end range, tap immediately rather than risking injury to the shoulder. The glenohumeral joint can suffer permanent damage from forced lateral rotation beyond its natural range, including rotator cuff tears and shoulder dislocation that require months of recovery or surgery. In training, no submission is worth a catastrophic shoulder injury—tap early, recognize where your defense failed, and focus on earlier intervention in future attempts.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive arm position should you maintain with the trapped arm to minimize both Americana and armbar vulnerability?",
+        "answer": "Keep the trapped arm bent at approximately ninety degrees with your elbow tight against your ribs and slight internal rotation at the shoulder. This position prevents the Americana because the arm cannot be painted toward the mat without first being repositioned, and prevents the armbar because the arm is not extended. If you fully extend to prevent the Americana, you expose yourself to armbar. If you collapse the arm completely against your body, you create the bent position the Americana needs. The ninety-degree defensive position splits the difference between both threats.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying Americana setup cues from Kesa Gatame bottom",
+        "description": "Partner establishes Kesa Gatame and slowly initiates the Americana sequence. Your only task is to verbally call out each recognition cue as you feel it: wrist contact, weight shift, head release, figure-four threading. No escape attempts—focus purely on developing tactile awareness of the submission progression."
+      },
+      {
+        "phase": "Phase 2: Early Intervention Practice",
+        "focus": "Wrist freedom and grip prevention under light resistance",
+        "description": "Partner attempts the wrist pin and figure-four at thirty percent speed and resistance. Practice pulling the wrist free with circular motions, gripping anchor points, and preventing arm repositioning. Reset after each successful or failed defense. Build the defensive reflexes that respond to wrist contact automatically."
+      },
+      {
+        "phase": "Phase 3: Escape Window Exploitation",
+        "focus": "Timed bridges and hip escapes during grip transitions",
+        "description": "Partner performs the full Americana sequence at fifty percent resistance. Practice timing your bridge to coincide with the head control release, then executing the hip escape to recover half guard. Partner allows the escape when technique and timing are correct but maintains position when they are not. Develop the connection between recognition and explosive response."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Defense",
+        "focus": "Complete defensive sequence against committed Americana attempts",
+        "description": "Partner attacks the Americana from Kesa Gatame with full speed and intention. Combine all defensive tools: early wrist defense, timed bridges, grip anchoring, and hip escapes. If defense fails and the figure-four locks in, practice tapping early and identifying where the defensive sequence broke down. Three-minute rounds with full reset on tap or escape."
       }
     ]
   }

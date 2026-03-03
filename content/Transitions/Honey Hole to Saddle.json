@@ -1,10 +1,15 @@
 {
   "name": "Honey Hole to Saddle",
-  "description": "TODO: Write 150-160 character SEO description for Honey Hole to Saddle.",
+  "description": "Master the Honey Hole to Saddle transition in BJJ. Refine leg entanglement control through hip repositioning and alignment for optimal submission access.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "leg-entanglement",
+    "positional-transition",
+    "saddle-system",
+    "ashi-garami",
+    "no-gi",
+    "advanced",
+    "leg-locks",
+    "honey-hole"
   ],
   "from_position": "Honey Hole/Top",
   "outcomes": [
@@ -25,114 +30,380 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Honey Hole to Saddle.",
+  "overview": "The Honey Hole to Saddle transition represents a critical positional optimization within the modern leg lock system. While both positions share the same fundamental inside leg entanglement architecture, the distinction lies in the degree of control consolidation and perpendicular alignment achieved. The Honey Hole describes the initial catch where the inside triangle is secured but hip pressure, body angle, and grip hierarchy may not yet be fully optimized. The Saddle represents the refined dominant configuration where perpendicular alignment is maximized, hip pressure pins the opponent completely, and the submission dilemma framework is fully operational.\n\nThis transition occurs when the attacker recognizes that their current Honey Hole control lacks the systematic optimization required to reliably finish submissions against a technically proficient defender. The reconfiguration involves adjusting hip angle, tightening the leg triangle, driving the outside leg deeper across the opponent's hip, and establishing the grip sequence that enables the submission dilemma where defending one attack exposes another. The process requires momentary reduction in control pressure during adjustment, creating a window where alert defenders can initiate escape sequences.\n\nStrategically, this transition reflects the modern leg lock philosophy of position before submission. Rather than attacking immediately from a loose Honey Hole, elite practitioners invest in achieving the Saddle configuration where finishing rates increase dramatically. The 55% success rate reflects the inherent tension between the need to optimize and the risk of creating space during reconfiguration against a resisting opponent.",
   "conditions": [
-    "TODO"
+    "Established inside leg triangle control from Honey Hole position with opponent's leg trapped",
+    "Sufficient hip pressure maintained to prevent immediate escape during reconfiguration",
+    "Upper body control or grips established to prevent opponent capitalizing on adjustment",
+    "Opponent actively defending submission attempts, motivating positional upgrade to Saddle",
+    "Attacker has sufficient hip mobility to rotate into true perpendicular alignment"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Backstep Reconfiguration",
+      "description": "Uses a backstep motion with the outside leg to achieve deeper perpendicular alignment in a single explosive movement rather than incremental adjustment. The attacker lifts and replants their outside leg at a steeper angle across the opponent's hip while simultaneously driving hips forward.",
+      "when_to_use": "When the opponent is relatively still and not actively fighting the position, allowing a larger single adjustment without risk of escape during the movement"
+    },
+    {
+      "variant_name": "Hip Switch Entry",
+      "description": "Involves switching which hip bears primary weight against the opponent's trapped leg by rotating the pelvis and driving the opposite hip into contact. This creates a tighter wedge effect and naturally realigns the body into perpendicular Saddle positioning.",
+      "when_to_use": "When the initial Honey Hole catch has the attacker's hips slightly off-angle and a direct forward drive would push past perpendicular rather than achieving it"
+    },
+    {
+      "variant_name": "Sequential Leg Adjustment",
+      "description": "Adjusts one leg at a time rather than reconfiguring both simultaneously. The attacker first tightens the inside leg triangle by pulling the ankle deeper, then adjusts the outside leg's shin angle across the hip. This maintains maximum control throughout the transition by never loosening both legs at once.",
+      "when_to_use": "Against actively resisting opponents who will exploit any momentary loosening of the entanglement, requiring the most conservative reconfiguration approach"
     }
   ],
-  "position_integration": "TODO: Write position integration for Honey Hole to Saddle.",
+  "position_integration": "The Honey Hole to Saddle transition occupies a unique position within the leg lock hierarchy as an intra-system optimization rather than a position change. It connects the initial catch phase of inside leg entanglement to the dominant finishing platform, bridging the gap between entry and submission. This transition integrates with the broader ashi garami system by representing the final step in the entry-to-control progression that begins with Outside Ashi-Garami or Inside Ashi-Garami entries and culminates in the Saddle's submission dilemma framework. Understanding this transition is essential for practitioners who find they can enter Honey Hole consistently but struggle to finish submissions against experienced defenders who exploit the gap between catch and optimized control.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Honey Hole",
+      "relationship": "Starting position for this transition representing the initial inside leg entanglement catch"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Target position representing the optimized dominant leg entanglement configuration"
+    },
+    {
+      "name": "Inside Heel Hook from Honey Hole",
+      "relationship": "Primary submission available from starting position before transition"
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "relationship": "Primary submission available from target position after successful transition"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Foundational position in the leg entanglement hierarchy preceding both Honey Hole and Saddle"
+    },
+    {
+      "name": "Backside 50-50 Entry from Ashi",
+      "relationship": "Alternative transition from the ashi garami system when Saddle optimization is not viable"
+    },
+    {
+      "name": "Back Take from Ashi",
+      "relationship": "Alternative offensive transition when opponent turns away during reconfiguration attempts"
+    },
+    {
+      "name": "Fallback to Inside Ashi-Garami",
+      "relationship": "Defensive fallback if both Honey Hole and Saddle control are compromised during transition"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent positional family encompassing the entire leg entanglement system"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Counter outcome position when opponent successfully escapes during reconfiguration"
     }
   ],
   "attacker": {
     "name": "Honey Hole to Saddle Attacker",
-    "description": "TODO: Write attacker description for Honey Hole to Saddle.",
-    "overview": "TODO: Write attacker overview for Honey Hole to Saddle.",
+    "description": "Complete guide to executing the Honey Hole to Saddle transition. Learn hip repositioning, leg triangle tightening, and perpendicular alignment optimization for dominant leg entanglement control.",
+    "overview": "Executing the Honey Hole to Saddle transition requires recognizing the gap between your current catch and optimal finishing position, then systematically closing that gap through controlled reconfiguration. The attacker must balance the need for positional improvement against the risk of creating escape windows during adjustment. Success depends on maintaining constant connection through at least one control point while adjusting others sequentially, ensuring the opponent never has a moment where both your hip pressure and leg triangle are simultaneously loosened. The transition rewards patience and mechanical precision over speed, with elite practitioners completing the reconfiguration in two to three seconds of deliberate movement rather than a single explosive adjustment.",
     "key_principles": [
-      "TODO"
+      "Maintain at least one primary control point at all times during reconfiguration to prevent escape windows",
+      "Adjust sequentially rather than simultaneously to preserve control throughout the transition",
+      "Drive hips forward into the opponent's trapped leg before adjusting leg configuration",
+      "Achieve true perpendicular alignment where your chest faces the opponent's trapped leg at 90 degrees to their torso",
+      "Tighten the inside leg triangle by pulling your ankle deeper behind the opponent's leg before adjusting the outside leg",
+      "Secure upper body control through grips on far leg or hip before beginning any leg reconfiguration",
+      "Verify heel exposure and submission access after completing the transition before releasing structural grips"
     ],
     "setup_requirements": [
-      "TODO"
+      "Inside leg triangle established around opponent's thigh with ankle hooked behind their leg",
+      "Outside leg crossing opponent's hip with shin contact maintaining some degree of hip pressure",
+      "At least one grip controlling opponent's upper body or far leg to limit defensive reactions",
+      "Opponent's trapped leg positioned between your legs with heel oriented toward your torso",
+      "Sufficient space awareness to identify which specific adjustments are needed for Saddle optimization"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Assess current configuration",
+        "description": "Evaluate your hip pressure, inside leg triangle tightness, perpendicular alignment, and heel exposure from your current Honey Hole position. Identify specifically which elements need adjustment to achieve Saddle configuration. This assessment should take less than one second and determine whether you need primarily hip angle correction, leg tightening, or both."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure upper body anchor",
+        "description": "Before adjusting any leg positioning, establish a controlling grip on the opponent's far leg, shorts, belt, or hip with your outside hand. This grip prevents them from sitting up, creating frames, or capitalizing on the momentary loosening that occurs during reconfiguration. Without this anchor, the transition becomes significantly riskier."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive hips forward",
+        "description": "Shift your hip pressure deeper into the opponent's trapped thigh by driving your pelvis forward and slightly downward. This closes the gap between your body and their leg, increases pinning pressure, and creates the foundation for perpendicular realignment. Your weight should transfer through your hips, not your arms or chest."
+      },
+      {
+        "step_number": 4,
+        "action": "Tighten the inside leg triangle",
+        "description": "Pull your inside ankle deeper behind the opponent's trapped leg while squeezing your knees together. The goal is converting from a loose initial catch to a locked configuration where the opponent cannot create rotational slack. Keep your inside leg's heel tight to the back of their thigh rather than floating behind their knee."
+      },
+      {
+        "step_number": 5,
+        "action": "Adjust outside leg across hip",
+        "description": "Drive your outside leg's shin deeper across the opponent's hip crease at a steeper downward angle, creating a wedge that pins their hip flat to the mat. The shin should drive across the hip flexor area rather than resting loosely on the thigh. This adjustment eliminates the rotational escape capability that existed in the looser Honey Hole configuration."
+      },
+      {
+        "step_number": 6,
+        "action": "Rotate into perpendicular alignment",
+        "description": "Adjust your torso angle to establish true 90-degree positioning relative to the opponent's body. Your chest should face directly toward their trapped leg with your head positioned away from their free leg. This perpendicular alignment maximizes the mechanical advantage of your entanglement and optimizes heel exposure for finishing."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish structural grip hierarchy",
+        "description": "Transition your hands from the stabilizing anchor grip to positional control grips. Secure the opponent's ankle with your outside arm to prevent knee rotation, and frame on their hip or control their pants with your inside arm. These structural grips complete the Saddle configuration and enable the submission dilemma framework."
+      },
+      {
+        "step_number": 8,
+        "action": "Verify Saddle control achieved",
+        "description": "Confirm that the opponent's heel is properly exposed toward your chest or armpit, your hip pressure is pinning their rotation, your inside leg triangle is locked tight, and your perpendicular alignment allows finishing mechanics without additional adjustment. Only after this verification should you begin transitioning to submission grips."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
-        "effectiveness": "Medium",
-        "your_response": "TODO",
+        "counter": "Opponent explosively rotates toward you during the reconfiguration window when hip pressure momentarily decreases",
+        "effectiveness": "High",
+        "your_response": "Immediately abandon the transition and re-drive hip pressure forward to re-establish Honey Hole control. Follow their rotation by adjusting your angle to maintain inside position. Do not fight the rotation directly; instead ride it while tightening your triangle.",
         "targets_outcome": "Honey Hole/Top"
+      },
+      {
+        "counter": "Opponent frames on your hip with their free leg and creates space to extract their trapped leg during loosened control",
+        "effectiveness": "High",
+        "your_response": "Use your outside hand to strip or redirect the framing leg while driving your hips forward to close the space. If extraction begins, immediately transition to Inside Ashi-Garami as a fallback rather than forcing the Saddle against a partially freed leg.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Opponent uses free leg to push your outside leg off their hip, preventing you from establishing the deeper shin wedge",
+        "effectiveness": "Medium",
+        "your_response": "Pin their free leg with your outside hand or hook it with your outside foot before reattempting the outside leg adjustment. Alternatively, complete the other adjustments first and use your improved hip pressure to overcome their frame on the final step.",
+        "targets_outcome": "Honey Hole/Top"
+      },
+      {
+        "counter": "Opponent initiates counter-entanglement toward 50-50 Guard by threading their free leg during your adjustment period",
+        "effectiveness": "Medium",
+        "your_response": "Recognize the counter-entangle attempt early and either complete the Saddle transition quickly before they achieve 50-50, or disengage your outside leg to block their threading attempt. If 50-50 is partially established, immediately work to re-establish inside position.",
+        "targets_outcome": "Half Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Releasing hip pressure completely while adjusting leg configuration",
+        "consequence": "Creates a full escape window where the opponent can extract their leg, rotate freely, or initiate counter-entanglement, losing the position entirely",
+        "correction": "Drive hips forward first to increase baseline pressure, then adjust legs while maintaining that increased pressure. The hip drive compensates for any loosening during leg reconfiguration."
+      },
+      {
+        "error": "Adjusting both the inside triangle and outside leg simultaneously",
+        "consequence": "Both legs loosening at the same time eliminates all control points momentarily, giving the opponent a free escape window that even a slow defender can exploit",
+        "correction": "Always adjust one leg at a time in sequence. Tighten the inside triangle first, verify control, then adjust the outside leg. Sequential adjustment maintains at least one control anchor throughout."
+      },
+      {
+        "error": "Neglecting to secure upper body control before beginning reconfiguration",
+        "consequence": "Opponent sits up, creates frames, or grabs your legs during the transition, disrupting your reconfiguration and potentially reversing the position entirely",
+        "correction": "Establish a controlling grip on the opponent's far leg, hip, or shorts before touching your own leg configuration. This anchor prevents upper body defensive reactions during adjustment."
+      },
+      {
+        "error": "Over-rotating past perpendicular alignment during the torso adjustment phase",
+        "consequence": "Rotating past 90 degrees exposes your back to the opponent and can compromise your inside position, potentially allowing them to take your back or escape the entanglement",
+        "correction": "Use the opponent's trapped leg as your reference point. Your chest should face their thigh, not their hip or torso. Stop rotation when you feel maximum contact between your chest and their trapped leg line."
+      },
+      {
+        "error": "Rushing to submission grips before the Saddle configuration is fully established",
+        "consequence": "Attempting to finish from a half-optimized position results in lower success rate and higher escape probability. The opponent can exploit the remaining positional gaps during your finishing attempt.",
+        "correction": "Complete the full verification step before transitioning to submission grips. Confirm hip pressure, triangle tightness, perpendicular alignment, and heel exposure are all optimized before attacking."
+      },
+      {
+        "error": "Telegraphing the transition by looking down at your own legs during adjustment",
+        "consequence": "Breaks the connection between your upper body control and the opponent, creating a timing window where they can feel the pressure change and react before you complete the reconfiguration",
+        "correction": "Maintain visual awareness of the opponent's upper body and free leg throughout the transition. Execute leg adjustments by feel rather than sight, keeping your head up and weight driving forward."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Static Mechanics",
+        "focus": "Individual adjustment components without resistance",
+        "description": "Practice each step of the reconfiguration in isolation with a cooperative partner. Drill hip drives, inside triangle tightening, outside leg adjustment, and perpendicular alignment as separate movements. Repeat each component 20 times per side until the mechanics are automatic. Focus on maintaining contact throughout each individual adjustment."
+      },
+      {
+        "phase": "Phase 2: Sequenced Flow",
+        "focus": "Connecting all steps into one smooth transition",
+        "description": "Chain all adjustment steps together into a continuous sequence with a cooperative partner. Start from various Honey Hole configurations (tight, loose, angled) and practice flowing through the complete transition in 2-3 seconds. Partner provides zero resistance but moves naturally. Complete 15-20 full transitions per side per session."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Maintaining transition quality against increasing defense",
+        "description": "Partner provides graduated resistance starting at 30% and increasing to 70%. Partner attempts specific counters (rotation, frame, leg extraction) at each resistance level. Attacker practices reading the counter and adjusting the transition accordingly. Identify the resistance threshold where technique breaks down and train specifically at that edge."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Applying the transition under full competition conditions",
+        "description": "Begin in Honey Hole with full resistance. Attacker's goal is to achieve verified Saddle within 15 seconds. Defender's goal is to prevent the optimization or escape entirely. Track success rate over 10 attempts per round. Analyze failed attempts to identify which step broke down and address specific weaknesses in subsequent drilling."
+      },
+      {
+        "phase": "Phase 5: Chain Integration",
+        "focus": "Connecting the transition to submission finishes and alternative attacks",
+        "description": "After achieving Saddle through the transition, immediately flow into heel hook, toe hold, or kneebar finishing sequences. Practice the full chain from Honey Hole catch through Saddle optimization through submission finish. If the transition is defended, practice chaining to alternative attacks like inside heel hook from Honey Hole or back take from ashi."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Honey Hole to Saddle transition?",
+        "answer": "The optimal timing is when the opponent pauses their escape attempts, typically after an unsuccessful rotation or extraction effort when they are momentarily resting and reassessing. This 1-2 second window of reduced defensive activity provides the safest opportunity to reconfigure without creating exploitable escape openings. Initiating during active escape attempts dramatically increases the risk of losing position entirely."
+      },
+      {
+        "question": "What conditions must exist in your Honey Hole before attempting this transition?",
+        "answer": "You must have a functioning inside leg triangle with your ankle hooked behind the opponent's leg, your outside leg making some contact across their hip, and at least one controlling grip on their upper body or far leg. The opponent's leg must be trapped between your legs with their heel oriented toward your torso. If any of these elements is missing, re-establish Honey Hole control before attempting the Saddle transition."
+      },
+      {
+        "question": "Your opponent begins rotating toward you just as you lift your outside leg to adjust its angle - how do you respond?",
+        "answer": "Immediately replant your outside leg across their hip and drive your hips forward to re-establish Honey Hole pressure. Do not try to complete the Saddle transition during active rotation. Follow their rotation by adjusting your angle while maintaining the inside leg triangle, and wait for them to settle before reattempting the reconfiguration. Trying to force the transition during rotation creates a scramble that favors the defender."
+      },
+      {
+        "question": "What is the most critical mechanical detail when tightening the inside leg triangle during this transition?",
+        "answer": "The ankle must be pulled deep behind the opponent's thigh, not floating loosely behind their knee. The difference between a locked triangle and a loose one is measured in inches at the ankle position. Pull your heel toward your own glute while squeezing your knees together, creating a clamp that eliminates the rotational slack defenders exploit. This tightening must happen before the outside leg adjustment."
+      },
+      {
+        "question": "What grip configuration should you establish before beginning any leg reconfiguration?",
+        "answer": "Secure a controlling grip on the opponent's far leg, shorts, or hip with your outside hand before touching your leg positioning. This upper body anchor prevents the opponent from sitting up, framing, or capitalizing on the momentary loosening during reconfiguration. Without this grip, any leg adjustment creates an uncontrolled window that experienced defenders will exploit immediately."
+      },
+      {
+        "question": "In which direction should you drive your hips during the perpendicular alignment phase?",
+        "answer": "Drive your hips forward and slightly downward into the opponent's trapped thigh, creating a wedge effect that pins their hip flat. The direction is toward their centerline at approximately a 45-degree downward angle. This forward hip drive is the foundation of the entire transition because it compensates for any momentary loosening of the legs during reconfiguration and prevents rotation-based escapes."
+      },
+      {
+        "question": "You have loosened your triangle to adjust but your opponent immediately starts pulling their knee to their chest to extract their leg - what is your immediate response?",
+        "answer": "Abandon the Saddle transition and immediately re-clamp your inside leg triangle while driving hips forward to pin their leg back down. Use your outside hand to grip their ankle or pants and pull their leg back into the entanglement. If extraction has progressed significantly, transition to Inside Ashi-Garami as a fallback position rather than fighting for a compromised Honey Hole. Speed is critical - address the extraction within one second."
+      },
+      {
+        "question": "The transition is blocked because your opponent maintains a strong frame with their free leg on your hip - what adjustments or chain attacks do you pursue?",
+        "answer": "First attempt to pin or redirect their framing leg using your outside hand or by hooking it with your outside foot. If the frame persists, consider attacking from the current Honey Hole position rather than forcing the Saddle. The inside heel hook, kneebar, and toe hold are all available from Honey Hole without requiring full Saddle optimization. Alternatively, use the frame removal attempt to create a timing window: as you address their frame, they may relax the leg momentarily, opening the transition opportunity."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Honey Hole to Saddle."
+    "safety_considerations": "This transition involves leg entanglement reconfiguration that can inadvertently apply torque to the opponent's knee joint during adjustment. Both practitioners must communicate clearly during training and establish tap protocols before drilling. If the defender feels unexpected rotational pressure on their knee during the attacker's reconfiguration, they should tap immediately rather than waiting to assess whether the pressure is intentional. Training should begin at slow speed with cooperative partners before adding resistance. Never force the transition against a partner who is verbally indicating discomfort."
   },
   "defender": {
     "name": "Honey Hole to Saddle Defender",
-    "description": "TODO: Write defender description for Honey Hole to Saddle.",
-    "overview": "TODO: Write defender overview for Honey Hole to Saddle.",
+    "description": "Complete guide to defending the Honey Hole to Saddle transition. Learn recognition cues, escape timing, counter-entanglement strategies, and frame-based defense for leg entanglement survival.",
+    "overview": "Defending the Honey Hole to Saddle transition requires recognizing the narrow window of vulnerability that opens when the attacker begins reconfiguring their control. While the defender is already in a dangerous position trapped in the Honey Hole, the attacker's transition attempt creates a brief moment where hip pressure decreases and leg control loosens as they adjust. This window represents the defender's best opportunity to either escape entirely or prevent the positional upgrade that would make submissions significantly harder to defend. The key defensive insight is that preventing the Saddle optimization keeps you in the relatively less dangerous Honey Hole where escape success rates are meaningfully higher than from the fully locked Saddle configuration. Defenders must balance the urgency of exploiting this window against the risk of accelerating their own submission by moving explosively at the wrong moment.",
     "key_principles": [
-      "TODO"
+      "Recognize reconfiguration attempts early through tactile cues in hip pressure changes and leg adjustment movements",
+      "Exploit the transition window immediately when hip pressure decreases rather than waiting for full loosening",
+      "Use your free leg as a primary defensive tool by framing on the attacker's hip to prevent perpendicular realignment",
+      "Prioritize preventing the Saddle optimization over attempting full escape if escape is not available",
+      "Maintain heel protection throughout all defensive actions to prevent opportunistic submission during the transition",
+      "Channel defensive energy into strategic direction rather than panicked thrashing that may tighten the attacker's control"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker's hip pressure momentarily decreases or shifts direction as they begin adjusting body angle",
+      "Attacker's outside leg lifts or loosens its contact across your hip during repositioning",
+      "Attacker releases one grip to reposition their hands for structural control in the new configuration",
+      "Attacker's inside leg triangle loosens slightly as they pull their ankle to tighten it in a different position",
+      "Attacker's upper body shifts or rotates as they work toward perpendicular alignment"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Explosive hip rotation toward attacker during momentary pressure reduction to disrupt perpendicular alignment",
+        "when_to_use": "When you feel the attacker's hip pressure decrease during the initial reconfiguration phase, before they re-establish heavy contact",
         "targets_outcome": "Honey Hole/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Attacker is forced to abandon the transition and re-establish Honey Hole control, preventing the positional upgrade",
+        "risk": "If mistimed, the rotation may help the attacker achieve perpendicular alignment faster or tighten their inside leg triangle"
+      },
+      {
+        "action": "Frame on attacker's hip with free leg to prevent their outside leg from re-establishing deep shin contact across your hip",
+        "when_to_use": "When the attacker lifts or adjusts their outside leg during reconfiguration, creating space for your free leg to insert a frame",
+        "targets_outcome": "Honey Hole/Top",
+        "if_successful": "Attacker cannot complete the outside leg adjustment needed for Saddle, forcing them to remain in Honey Hole or address your frame first",
+        "risk": "Committing your free leg to framing reduces your mobility for rotation-based escapes if the attacker strips the frame"
+      },
+      {
+        "action": "Counter-entangle toward 50-50 by threading your free leg during the reconfiguration window when both of attacker's legs are loosened",
+        "when_to_use": "When you detect both the inside triangle and outside leg loosening simultaneously during aggressive reconfiguration attempts",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You neutralize the inside position advantage and may fully escape to guard or achieve symmetrical entanglement",
+        "risk": "Failed counter-entangle attempt while partially extracting your leg can result in a worse position if the attacker capitalizes on your movement"
+      },
+      {
+        "action": "Grip fight to prevent attacker from establishing structural control grips after leg adjustment, denying them the final Saddle verification step",
+        "when_to_use": "When the attacker has completed leg adjustments but is reaching to establish new grips for Saddle control",
+        "targets_outcome": "Honey Hole/Top",
+        "if_successful": "Attacker has adjusted legs but cannot establish the grip hierarchy needed for Saddle submission dilemma, creating an unstable position",
+        "risk": "Extending arms for grip fighting may expose them to kimura or wristlock threats from the attacker's grip-hunting hands"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Saddle/Top",
-        "how": "TODO"
+        "outcome": "Half Guard/Bottom",
+        "how": "Exploit the maximum loosening moment during reconfiguration by combining explosive hip rotation with free leg posting to extract your trapped leg. Time the escape to the instant when the attacker adjusts both legs sequentially, threading your leg free during the gap between inside triangle tightening and outside leg replanting."
+      },
+      {
+        "outcome": "Honey Hole/Top",
+        "how": "Prevent the Saddle optimization by maintaining constant defensive pressure through framing, grip fighting, and micro-rotations that force the attacker to continuously restart their reconfiguration rather than completing it. Keep the attacker in the less optimized Honey Hole where your defensive and escape options remain more viable."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Remaining passive and waiting to see if the attacker completes the Saddle transition before reacting",
+        "consequence": "Once Saddle is fully established, escape probability drops significantly and submission finishing rates increase dramatically compared to Honey Hole",
+        "correction": "React immediately to any recognition cue indicating reconfiguration. The transition window is 2-3 seconds at most. Defensive action must begin at the first sign of adjustment, not after the Saddle is locked."
+      },
+      {
+        "error": "Attempting to pull trapped leg straight out during the loosened control window",
+        "consequence": "Linear extraction against even a loosened triangle is mechanically inefficient and burns critical energy that could power a rotational escape with higher success probability",
+        "correction": "Use rotational movement rather than linear pulling. Rotate your hips and drive your knee toward the attacker's centerline to change the angle of entanglement rather than fighting the triangle directly."
+      },
+      {
+        "error": "Using explosive thrashing without strategic direction when feeling the control shift",
+        "consequence": "Random movement wastes the limited escape window and may actually assist the attacker by providing momentum they can redirect into tighter control or submission acceleration",
+        "correction": "Choose one specific defensive action before the window opens and commit to it fully. Whether it is hip rotation, framing, or counter-entanglement, a focused 100% effort in one direction outperforms scattered effort in multiple directions."
+      },
+      {
+        "error": "Neglecting heel protection while focusing on preventing the positional transition",
+        "consequence": "The attacker may abandon the Saddle transition and immediately attack an exposed heel hook from Honey Hole if the defender's heel becomes accessible during defensive movement",
+        "correction": "Maintain heel hiding throughout all defensive actions. Keep your trapped foot flexed with toes pointed toward the attacker and use your free hand to protect the heel area even while your other hand frames or grip fights."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest tactile cue that tells you the attacker is beginning a Honey Hole to Saddle transition?",
+        "answer": "The earliest cue is a shift or momentary decrease in hip pressure against your trapped leg. Before any visible leg adjustment, the attacker must redirect their weight to begin the reconfiguration. This pressure change is detectable through your trapped thigh before you can see or feel the leg adjustments. Train yourself to react to this pressure shift as the primary trigger for defensive action."
+      },
+      {
+        "question": "Your attacker begins lifting their outside leg to adjust its angle across your hip - what defensive action gives you the highest success probability?",
+        "answer": "Immediately drive your free leg's foot into the space vacated by their outside leg, framing your foot or shin against their hip to prevent them from replanting the outside leg in its new position. This frame blocks the critical outside leg adjustment that distinguishes Saddle from Honey Hole. While maintaining this frame, begin working hip rotation to create extraction angles. The frame buys time for the rotational escape."
+      },
+      {
+        "question": "Why is preventing the Saddle optimization more important than attempting an immediate full escape?",
+        "answer": "Escape attempts from Honey Hole have meaningfully higher success rates than escape attempts from fully locked Saddle due to the Saddle's optimized perpendicular alignment, tighter hip pressure, and established submission dilemma framework. Preventing the upgrade keeps you in a position where subsequent escape attempts have better odds. A failed escape attempt from Honey Hole usually returns you to Honey Hole, while a failed escape from Saddle often results in immediate submission."
+      },
+      {
+        "question": "How should you manage your energy when the attacker makes multiple transition attempts that you successfully defend?",
+        "answer": "Each successful defense costs defensive energy through framing, rotation, and grip fighting. Recognize that the attacker is also expending energy on reconfiguration attempts. Use the rest periods between attempts to work incremental escape progress rather than fully resting. Small hip movements and grip adjustments between defensive efforts accumulate toward eventual escape. The defender who uses inter-attempt rest productively will outlast the attacker who must repeatedly restart their transition sequence."
+      },
+      {
+        "question": "What recovery protocol should you follow after a failed escape attempt during the transition window?",
+        "answer": "Immediately re-establish heel protection and defensive frames rather than attempting a second escape in quick succession. The attacker will likely re-tighten control after your escape attempt, and a second attempt against tightened control has lower success probability. Return to your defensive baseline, assess what the attacker adjusted in response to your escape, and wait for the next reconfiguration attempt to create a new window. Failed escapes provide information about the attacker's defensive reactions that you can exploit in subsequent attempts."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying reconfiguration cues through tactile awareness",
+        "description": "Partner executes the Honey Hole to Saddle transition at slow speed while you focus on identifying each recognition cue. Call out when you feel hip pressure changes, leg adjustments, and grip transitions. Repeat 20 times per side until you can identify the transition initiation within the first half-second of movement."
+      },
+      {
+        "phase": "Phase 2: Defensive Response Drilling",
+        "focus": "Executing specific defensive actions at the correct timing",
+        "description": "Partner initiates the transition at moderate speed. Practice each defensive option in isolation: hip rotation, free leg framing, counter-entanglement, and grip fighting. Complete 10 repetitions of each defensive action per side with partner at 40% resistance, focusing on timing the action to the recognition cues identified in Phase 1."
+      },
+      {
+        "phase": "Phase 3: Decision-Making Under Pressure",
+        "focus": "Selecting the correct defensive action based on the specific transition variant",
+        "description": "Partner uses different transition variants (backstep, hip switch, sequential) without announcing which one. Defender must recognize the variant and select the appropriate defensive response in real time at 60% resistance. Track success rate and identify which transition variants cause the most defensive failures for targeted improvement."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Applying defensive skills under competition conditions",
+        "description": "Start in Honey Hole with full resistance. Attacker's goal is to achieve Saddle within 15 seconds. Defender's goal is to prevent the transition or escape entirely. Alternate roles every 5 attempts. Analyze patterns in successful and failed defenses to refine timing and technique selection under genuine competitive pressure."
       }
     ]
   }

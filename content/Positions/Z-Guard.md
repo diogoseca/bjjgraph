@@ -93,25 +93,27 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (22% of attempts)
+- **[[Old School Sweep]]** (30% of attempts)
 
-- **[[Underhook Sweep from Half]]** (12% of attempts)
+- **[[Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (11% of attempts)
+- **[[Deep Half Entry]]** (10% of attempts)
 
-- **[[Back Take from Bottom]]** (10% of attempts)
+- **[[Back Take from Bottom]]** (9% of attempts)
 
-- **[[Turtle to Truck]]** (9% of attempts)
+- **[[Turtle to Truck]]** (8% of attempts)
 
-- **[[X-Guard Sweep]]** (11% of attempts)
+- **[[X-Guard Sweep]]** (10% of attempts)
 
-- **[[Lockdown Recovery]]** (10% of attempts)
+- **[[Lockdown Recovery]]** (9% of attempts)
 
-- **[[Electric Chair Transition]]** (9% of attempts)
+- **[[Electric Chair Transition]]** (8% of attempts)
 
-- **[[Z-Guard Sweep]]** (4% of attempts)
+- **[[Z-Guard Sweep]]** (3% of attempts)
 
-- **[[Z-Guard to Half Guard]]** (2% of attempts)
+- **[[Z-Guard to Half Guard]]** (1% of attempts)
+
+- **[[Sweep from Z-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,23 +178,25 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (22% of attempts)
+- **[[Knee Slice Pass]]** (29% of attempts)
 
-- **[[Knee Slice from Half]]** (14% of attempts)
+- **[[Knee Slice from Half]]** (13% of attempts)
 
-- **[[Knee Cut Pass]]** (12% of attempts)
+- **[[Knee Cut Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (11% of attempts)
+- **[[Long Step Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Smash Pass]]** (11% of attempts)
 
-- **[[Back Step]]** (10% of attempts)
+- **[[Back Step]]** (9% of attempts)
 
-- **[[Underhook Pass]]** (11% of attempts)
+- **[[Underhook Pass]]** (10% of attempts)
 
-- **[[Knee Slice from Z-Guard]]** (5% of attempts)
+- **[[Knee Slice from Z-Guard]]** (4% of attempts)
 
-- **[[Pass Z-Guard]]** (3% of attempts)
+- **[[Pass Z-Guard]]** (2% of attempts)
+
+- **[[Z-Guard Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

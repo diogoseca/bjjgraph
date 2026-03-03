@@ -1,13 +1,386 @@
 {
   "name": "Straighten Leg Defense from Electric Chair",
-  "description": "",
-  "tags": [],
-  "from_position": "Electric Chair/Bottom",
+  "description": "Learn the Straighten Leg Defense from Electric Chair in BJJ. Counter the lockdown split by extending your trapped leg to escape back to half guard top.",
+  "tags": [
+    "electric-chair-defense",
+    "lockdown-escape",
+    "half-guard",
+    "leg-defense",
+    "10th-planet-counter",
+    "positional-escape"
+  ],
+  "from_position": "Electric Chair/Top",
   "outcomes": [
     {
-      "to": "Half Guard/Bottom",
-      "probability": 100,
+      "to": "Half Guard/Top",
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Electric Chair/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "The Straighten Leg Defense from Electric Chair is a fundamental defensive technique used by the top player when caught in the Electric Chair position from lockdown half guard. When the bottom player secures the lockdown and begins splitting the top player's legs apart, the trapped player's most mechanically sound response is to extend and straighten the trapped leg against the lockdown's bending pressure. This extension neutralizes the figure-four configuration that gives the lockdown its power, reduces the crotch-splitting force, and creates the conditions necessary to extract the leg and return to standard half guard top.\n\nThe technique relies on understanding the biomechanics of the lockdown: the figure-four leg entanglement is strongest when the trapped leg is bent, because the bottom player can use their ankle hooks to maintain the curl. By forcefully straightening the leg through hip extension, the top player lengthens the lever arm and makes it progressively harder for the bottom player to maintain the lockdown grip. The straightening must be combined with proper upper body control—maintaining crossface pressure and hip weight forward—to prevent the bottom player from converting the defensive movement into an Old School sweep or Truck transition.\n\nThis defense serves as a critical first-line response in the Electric Chair escape hierarchy. While more complex escapes like the limp leg technique or hip rotation escape exist, the straighten leg defense represents the most direct path to neutralizing the immediate submission threat. Timing is essential: executing the defense before the bottom player achieves full extension is significantly more effective than attempting to straighten against a fully locked-out Electric Chair, where the mechanical advantage has already shifted decisively to the bottom player.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gradual Pressure Extension",
+      "description": "Apply slow, constant straightening pressure through the hip extensors rather than attempting a single explosive motion. This variation relies on progressive force that the lockdown cannot absorb, gradually breaking down the figure-four configuration over several seconds.",
+      "when_to_use": "When the bottom player has a tight lockdown and can absorb explosive bursts—steady pressure fatigues their grip and eventually overcomes the lockdown mechanics."
+    },
+    {
+      "variant_name": "Explosive Kick-Out Defense",
+      "description": "A sudden, powerful leg extension timed with the bottom player's grip adjustment or transition attempt. The explosive straightening catches the lockdown at its weakest moment when the bottom player is changing grips or shifting their hips.",
+      "when_to_use": "When you detect the bottom player momentarily loosening the lockdown to adjust ankle control or underhook depth—the brief grip weakness creates a window for explosive extraction."
+    },
+    {
+      "variant_name": "Hip Drive and Extend",
+      "description": "Combine forward hip drive with leg straightening to simultaneously address the lockdown and push the bottom player's hips flat to the mat. This variation integrates upper body pressure with leg defense, creating a compound force that the bottom player must defend on two planes.",
+      "when_to_use": "When the bottom player has achieved a strong perpendicular angle for the Electric Chair—the hip drive flattens their angle while the extension addresses the lockdown directly."
+    }
+  ],
+  "position_integration": "The Straighten Leg Defense occupies a critical position in the Electric Chair escape hierarchy, serving as the most direct first-line response before more complex escapes become necessary. Within the lockdown half guard system, this defense represents the primary counter to the Electric Chair's leg-splitting mechanics. Successful execution returns the position to standard half guard top, where the top player can resume passing sequences or apply pressure-based strategies. The technique integrates directly with the broader lockdown defense framework—if the straighten leg defense fails, practitioners can chain into limp leg escapes, hip rotation escapes, or backstep counters. Understanding this defense is essential for any practitioner facing lockdown-based half guard players, as it addresses the most dangerous submission threat in the lockdown system.",
+  "conditions": [
+    "Opponent has established lockdown from half guard bottom and initiated Electric Chair extension",
+    "Your trapped leg retains sufficient range of motion to attempt straightening against the lockdown curl",
+    "You maintain some upper body control through crossface, whizzer, or head pressure",
+    "Your free leg is posted on the mat providing base stability for the straightening motion",
+    "The Electric Chair has not yet reached full extension where straightening becomes mechanically impractical"
+  ],
+  "related_content": [
+    {
+      "name": "Electric Chair",
+      "relationship": "Source position where this defense is applied against the lockdown split"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Target position after successful defense and leg extraction"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Parent control mechanism that the straighten defense directly addresses"
+    },
+    {
+      "name": "Hip Rotation Escape from Electric Chair",
+      "relationship": "Alternative escape technique when straighten defense fails"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary sweep threat the bottom player can use during the defense attempt"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Position the bottom player may transition to if Electric Chair is neutralized"
+    },
+    {
+      "name": "Electric Chair Finish",
+      "relationship": "Submission threat being defended against with this technique"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Position the bottom player may threaten if defense creates transitional openings"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Possible transition point if both players lose primary controls during the exchange"
+    },
+    {
+      "name": "Body Triangle Escape to Half Guard",
+      "relationship": "Analogous defensive concept of breaking leg entanglement through extension mechanics"
+    }
+  ],
+  "attacker": {
+    "name": "Straighten Leg Defense from Electric Chair Attacker",
+    "description": "Master the Straighten Leg Defense from Electric Chair as the top player. Step-by-step guide to extending your trapped leg against the lockdown and escaping to half guard top.",
+    "overview": "As the top player caught in the Electric Chair, executing the Straighten Leg Defense requires understanding the biomechanics of the lockdown configuration and the specific angle of force needed to overcome the figure-four entanglement. The defense begins with recognizing the Electric Chair setup before full extension is achieved, then systematically driving the trapped leg straight while maintaining forward pressure through your chest and crossface. Success depends on combining leg extension with proper upper body control to prevent the bottom player from converting your defensive movement into a sweep opportunity. The technique demands patience and proper force direction—engaging the posterior chain through the hip rather than simply kicking at the knee—to generate the sustained pressure that breaks down the lockdown's mechanical advantage.",
+    "key_principles": [
+      "Initiate the defense early before the bottom player achieves full Electric Chair extension—the longer you wait, the harder it becomes to straighten against their leverage",
+      "Maintain constant forward chest pressure while straightening to prevent the bottom player from using your movement to complete the Old School sweep",
+      "Drive the straightening force through your hip extensors and glutes rather than just the quadriceps—engage the posterior chain for maximum power against the lockdown",
+      "Keep your free leg posted wide for base throughout the defense to resist any sweep attempts during the transition",
+      "Control the bottom player's underhooking arm with crossface or whizzer pressure to limit their ability to chain attacks during your escape",
+      "Apply steady progressive pressure rather than explosive bursts that the bottom player can absorb and reset against"
+    ],
+    "setup_requirements": [
+      "Trapped leg retains sufficient range of motion to initiate straightening—if already fully extended in the split, alternative defenses like limp leg or hip rotation become necessary",
+      "Crossface or upper body control established preventing the bottom player from achieving optimal perpendicular splitting angle",
+      "Free leg posted with solid base on the mat providing stability during the straightening motion and resistance against sweep attempts",
+      "Forward weight distribution keeping pressure on the bottom player's chest and limiting their hip mobility and extension power",
+      "Recognition that the Electric Chair is being set up—early identification dramatically increases success rate before mechanical advantage shifts"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize Electric Chair Setup",
+        "description": "Identify the transition from lockdown to Electric Chair as the bottom player begins extending their hips and controlling your near ankle. Feel for the increasing pressure on your inner thigh and groin as indicators that the Electric Chair splitting action is beginning. The earlier you detect this setup, the higher your success probability."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish Upper Body Control",
+        "description": "Before addressing the leg, secure your upper body position by driving crossface pressure into the bottom player's jaw and neck. Post your free-side hand on the mat near their far hip for additional base. This prevents them from using your defensive movement to complete an Old School sweep or transition to Truck."
+      },
+      {
+        "step_number": 3,
+        "action": "Engage Hip Extensors",
+        "description": "Begin the straightening by engaging your glutes and hip extensors on the trapped leg side. Focus on driving your hip forward and down rather than simply kicking your foot out. The power must originate from the hip joint to overcome the lockdown's figure-four mechanics, which are designed to resist knee-only extension."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive Progressive Leg Extension",
+        "description": "Progressively extend your trapped leg by straightening the knee while maintaining hip engagement. Push your heel toward the mat behind you rather than kicking laterally. This lengthens the lever and makes it increasingly difficult for the bottom player to maintain their ankle hooks in the figure-four configuration."
+      },
+      {
+        "step_number": 5,
+        "action": "Break the Lockdown Configuration",
+        "description": "As your leg approaches full extension, the bottom player's figure-four ankle hooks begin to lose their mechanical advantage. Use small rotational adjustments of your knee—turning it slightly outward—to further compromise their lockdown grip. Feel for the moment their hooks begin to slip and increase pressure through that opening."
+      },
+      {
+        "step_number": 6,
+        "action": "Extract Leg to Half Guard Position",
+        "description": "Once the lockdown breaks, immediately retract your leg to a bent position and drive your knee toward the bottom player's hip to establish standard half guard top positioning. Do not pause with a straight leg extended—this creates space that the bottom player can use to re-engage the lockdown or transition to another guard."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate Half Guard Top Control",
+        "description": "After extracting your leg, immediately establish crossface control and begin your half guard passing sequence. Drive your chest into the bottom player and flatten their far shoulder to prevent them from recovering an underhook or re-establishing the lockdown. Your priority is preventing any return to the Electric Chair configuration."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player increases lockdown tension and actively re-curls the trapped leg against the straightening force",
+        "effectiveness": "High",
+        "your_response": "Combine the leg straightening with increased forward hip pressure to prevent re-bending—if they succeed in re-curling, pause your extension, reset your base, and restart the straightening with renewed hip engagement rather than fighting their momentum",
+        "targets_outcome": "Electric Chair/Top"
+      },
+      {
+        "counter": "Bottom player times Old School sweep during the straightening motion using the top player's forward weight commitment",
+        "effectiveness": "Medium",
+        "your_response": "Maintain strong crossface and wide base with your free leg throughout the defense—the Old School sweep requires them to roll backward, which your sustained forward pressure and posted leg should prevent if positioning is maintained correctly",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player releases one lockdown hook and inserts a crab ride hook to transition toward Truck control",
+        "effectiveness": "Medium",
+        "your_response": "If you feel the bottom player releasing the lockdown configuration, immediately pull your knee tight to their hip and sprawl your hips backward to prevent the Truck entry—their transition creates a brief moment of reduced control that favors your escape",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player deepens underhook and dives underneath for Deep Half Guard entry",
+        "effectiveness": "Low",
+        "your_response": "Maintain heavy crossface pressure and prevent them from rotating underneath you—if they begin moving to Deep Half, shift your weight onto their shoulder to pin them flat and continue leg extraction from an improved position",
+        "targets_outcome": "Electric Chair/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to straighten the leg with a single explosive burst rather than sustained progressive pressure",
+        "consequence": "Bottom player absorbs the burst and immediately re-curls the leg using the lockdown's elastic recoil, wasting significant energy while accomplishing nothing",
+        "correction": "Apply steady, progressive pressure through hip extension rather than explosive kicks—sustained force overwhelms the lockdown's ability to maintain the curl over time"
+      },
+      {
+        "error": "Neglecting upper body control while focusing exclusively on leg extraction",
+        "consequence": "Bottom player uses the distraction to complete the Old School sweep or take the back, converting the escape attempt into a significantly worse position",
+        "correction": "Always maintain crossface or whizzer control before and during the straightening—upper body dominance is the foundation that makes leg extraction safe"
+      },
+      {
+        "error": "Leaning backward or posting hands behind to create space for the leg straightening",
+        "consequence": "Gives the bottom player ideal angle and leverage for both the Electric Chair submission finish and sweep setup, actively worsening the position",
+        "correction": "Keep weight forward at all times—drive chest into opponent while straightening the leg behind your center of gravity, never shifting weight posteriorly"
+      },
+      {
+        "error": "Directing the straightening force laterally outward instead of extending through the hip posteriorly",
+        "consequence": "Lateral movement does not address the lockdown mechanics effectively and can increase groin pressure, potentially worsening the submission threat",
+        "correction": "Direct the straightening force posteriorly through hip extension—drive the heel toward the mat behind you, not out to the side, to work against the lockdown's weakest axis"
+      },
+      {
+        "error": "Pausing after breaking the lockdown instead of immediately consolidating half guard top position",
+        "consequence": "Bottom player re-engages the lockdown or transitions to another guard variation before the top player can establish passing control",
+        "correction": "Immediately retract the freed leg and drive knee to hip upon lockdown break—treat the extraction and consolidation as one continuous motion with no gap"
+      },
+      {
+        "error": "Attempting the defense when the Electric Chair is already at full extension with maximum splitting pressure",
+        "consequence": "Extremely low success rate at full extension wastes energy and risks groin or medial knee ligament injury from fighting the established mechanical advantage",
+        "correction": "Recognize the Electric Chair early and initiate the defense before full extension—if already fully extended, abandon this defense and switch to limp leg or hip rotation escape instead"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Timing",
+        "focus": "Identifying the Electric Chair setup through tactile cues",
+        "description": "Partner establishes lockdown and begins Electric Chair transition at 25% speed. Practice recognizing setup cues—hip extension, ankle control, lockdown tightening—and initiating the straighten defense before full extension. No resistance on the defense itself, focus purely on early detection."
+      },
+      {
+        "phase": "Phase 2: Mechanics and Force Direction",
+        "focus": "Proper hip extension technique against the lockdown",
+        "description": "From established Electric Chair position, practice the straightening mechanics with partner holding moderate lockdown resistance. Focus on engaging glutes and hip extensors, driving force through the hip joint, and maintaining forward chest pressure simultaneously. Partner provides feedback on force direction and timing."
+      },
+      {
+        "phase": "Phase 3: Integration with Upper Body Control",
+        "focus": "Combining leg defense with sweep prevention",
+        "description": "Execute the full defense sequence including crossface establishment, base posting, leg straightening, and position consolidation. Partner adds moderate resistance and occasionally attempts Old School sweep to test upper body control maintenance during the defense."
+      },
+      {
+        "phase": "Phase 4: Live Situational Drilling",
+        "focus": "Full resistance application with complete attack-defense exchanges",
+        "description": "Positional sparring starting from Electric Chair Top. Work the straighten leg defense while bottom player attacks with the full Electric Chair system including Old School sweep, Truck transitions, and deep half entries. Reset after successful defense or sweep. Progress to timed rounds with tracking."
+      },
+      {
+        "phase": "Phase 5: Chain Defense Integration",
+        "focus": "Connecting to alternative escapes when straighten defense fails",
+        "description": "If the straighten leg defense fails, immediately chain to limp leg technique or hip rotation escape. Practice reading which defense to use based on the bottom player's adjustments and current mechanical advantage. Develop automatic defensive responses to different lockdown pressures."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the Straighten Leg Defense from Electric Chair?",
+        "answer": "The defense should be initiated as soon as you recognize the Electric Chair setup, before the bottom player achieves full hip extension and splitting pressure. The ideal window is when the bottom player begins controlling your near ankle and extending their lockdown—at this early stage, the mechanical advantage has not yet shifted fully to the attacker, and your leg can still be straightened with moderate effort. Waiting until full extension reduces success probability dramatically."
+      },
+      {
+        "question": "Why must the straightening force be directed through hip extension rather than knee extension alone?",
+        "answer": "The lockdown's figure-four configuration is specifically designed to resist knee extension by creating a curling force through the ankle hooks. Hip extension engages the glutes and posterior chain, which are significantly stronger muscle groups than the quadriceps alone. Additionally, hip extension changes the angle of force to work against the lockdown's weakest point—the longitudinal axis of the leg—rather than fighting directly against the curling mechanism that the lockdown is optimized to maintain."
+      },
+      {
+        "question": "Your opponent begins the Old School sweep as you start straightening your leg—how do you adjust?",
+        "answer": "Immediately increase crossface pressure and drive your chest forward into the bottom player to prevent their backward roll. Post your free leg wide at a 45-degree angle for maximum base stability. The Old School sweep requires the bottom player to roll backward with your momentum—if you maintain strong forward pressure and solid base, the sweep cannot develop. Continue the leg straightening only after the sweep threat is fully neutralized."
+      },
+      {
+        "question": "What are the primary grip and control requirements before attempting the Straighten Leg Defense?",
+        "answer": "Three controls must be established before attempting the defense: crossface pressure controlling the bottom player's head and preventing their perpendicular angle, free leg posted wide on the mat for base stability against sweep attempts, and forward weight distribution keeping pressure on the bottom player's upper body. Without all three controls, the straightening motion creates openings for the bottom player to sweep or transition that negate the defensive benefit."
+      },
+      {
+        "question": "What happens if you attempt this defense when the Electric Chair is already fully extended?",
+        "answer": "At full extension, the bottom player has maximum mechanical advantage and the trapped leg is under significant stretching pressure through the groin and hip. Attempting to straighten from this position requires overcoming the entire lockdown system at its strongest point, resulting in very low success probability and meaningful risk of groin strain or medial knee ligament injury. Instead, transition to alternative defenses like the limp leg technique, which works with the lockdown's force rather than directly against it."
+      },
+      {
+        "question": "How do you prevent the bottom player from re-engaging the lockdown after you begin straightening?",
+        "answer": "The key is maintaining constant forward hip pressure throughout the entire defense. As you straighten the leg, drive your hip forward and keep your weight distributed onto the bottom player's chest through your crossface side. This prevents them from creating the hip angle needed to re-curl your leg. Once you feel the lockdown hooks beginning to slip, immediately add a slight outward rotation of your knee to further compromise their grip before they can readjust their ankle hooks."
+      },
+      {
+        "question": "Your opponent releases one lockdown hook and attempts to insert a crab ride hook for Truck entry—what do you do?",
+        "answer": "This indicates a Truck transition attempt, which is more dangerous than the Electric Chair itself. Immediately stop the straightening motion and address the new threat by pulling your knee tight to the bottom player's hip and sprawling your hips away from their hook insertion. Drive your weight onto their shoulders to flatten them and prevent the rotation needed for Truck control. If you successfully defend the Truck entry, resume leg extraction from the improved position."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the Straighten Leg Defense succeeds or fails?",
+        "answer": "The most critical detail is initiating the extension from the hip joint rather than the knee. Engaging the glutes and driving the hip forward creates a straight-line force through the entire leg that the lockdown cannot easily resist. Many practitioners make the error of trying to kick their foot out or extend only at the knee, which allows the lockdown's ankle hooks to maintain control. Hip-driven extension changes the force vector to work against the lockdown's structural weakness along its longitudinal axis."
+      }
+    ],
+    "safety_considerations": "The Straighten Leg Defense from Electric Chair involves significant forces on the knee, hip, and groin of the top player's trapped leg. Never attempt explosive straightening against a fully locked-out Electric Chair, as this can strain the adductor muscles or stress the medial collateral ligament of the knee. During training, both partners should communicate clearly about pressure levels—the bottom player should release immediately if the top player taps or signals discomfort. Practitioners with pre-existing knee, hip, or groin injuries should approach this technique cautiously and consider alternative escapes that place less stress on the involved joints. Always warm up hip flexors and adductors thoroughly before drilling this technique."
+  },
+  "defender": {
+    "name": "Straighten Leg Defense from Electric Chair Defender",
+    "description": "Learn to counter the Straighten Leg Defense when attacking from Electric Chair bottom. Maintain lockdown control, prevent leg extraction, and chain to sweeps.",
+    "overview": "As the bottom player in Electric Chair, your opponent's most immediate defensive response is to straighten their trapped leg against your lockdown. Recognizing and countering this defense is essential for maintaining your attacking position and continuing your offensive sequence. The key to defeating the straighten leg defense lies in understanding the timing—the defense is most effective when attempted early before full extension, so accelerating your setup and maintaining constant pressure prevents the defense from developing. When the top player does attempt to straighten, you have multiple options including deepening the lockdown tension, transitioning to the Old School sweep using their forward pressure as fuel, or flowing to Truck entries when maintaining the Electric Chair is no longer viable.",
+    "key_principles": [
+      "Accelerate the Electric Chair setup to achieve full extension before the top player can initiate the straighten defense—speed of setup directly counters early defense attempts",
+      "Maintain maximum lockdown tension through constant hip extension and active ankle hook pressure to resist the straightening force",
+      "Monitor the top player's hip engagement—when you feel their glutes activating and leg stiffening, they are beginning the defense and you must respond immediately",
+      "Use the top player's forward pressure during the defense as fuel for the Old School sweep—their defensive posture creates vulnerability to directional change",
+      "Keep your underhook deep and active throughout the exchange to limit the top player's ability to generate effective crossface pressure while straightening",
+      "If the straighten defense begins succeeding, flow immediately to alternative attacks rather than fighting a losing lockdown battle"
+    ],
+    "recognition_cues": [
+      "Top player's trapped leg begins extending and stiffening against the lockdown curl—you feel increasing resistance through your ankle hooks that was not present before",
+      "Top player drives forward chest pressure aggressively while simultaneously engaging hip extensors on the trapped side, creating a distinctive compound force pattern",
+      "Top player posts their free leg wider than normal and shifts weight forward, establishing a broadened base specifically designed to support the straightening force",
+      "Top player's trapped knee begins rotating slightly outward, indicating they are attempting to compromise the figure-four lockdown configuration at its weakest rotational angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Deepen lockdown tension and actively re-curl the trapped leg by increasing hip extension and driving your knee upward into their inner thigh",
+        "when_to_use": "When the straightening attempt is in its early stages and you still have mechanical advantage through the lockdown configuration",
+        "targets_outcome": "Electric Chair/Top",
+        "if_successful": "Top player's leg returns to bent position and you can continue Electric Chair attack with renewed control and deeper lockdown engagement",
+        "risk": "Committing maximum energy to maintaining the lockdown may fatigue your legs, reducing effectiveness of subsequent attack attempts"
+      },
+      {
+        "action": "Convert to Old School sweep by using the top player's forward pressure as momentum, rolling backward with your underhook while maintaining lockdown",
+        "when_to_use": "When the top player is driving significant forward pressure to support their straightening attempt, making them vulnerable to a directional change sweep",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the top player and end up in mount or top position, converting their defensive effort into your positional advancement",
+        "risk": "If the sweep fails, you may lose lockdown control entirely and end up in a scramble favoring the top player"
+      },
+      {
+        "action": "Accelerate the full Electric Chair extension by simultaneously driving all three pressure points—lockdown pull, underhook extension, and ankle control—before the defense can develop",
+        "when_to_use": "At the very first sign of the straighten defense before the top player generates full extension force, winning the speed race to full Electric Chair",
+        "targets_outcome": "Electric Chair/Top",
+        "if_successful": "You achieve full Electric Chair extension before the defense develops, making the straighten defense exponentially harder due to the established mechanical advantage",
+        "risk": "Expends significant energy in the acceleration burst, and if it fails you may be too fatigued to maintain alternative controls"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Electric Chair/Top",
+        "how": "Maintain maximum lockdown tension and re-curl the top player's leg by increasing hip extension and driving your knee upward into their inner thigh. Accelerate the Electric Chair setup to achieve full splitting pressure before the defense can fully develop, winning the timing battle."
+      },
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Convert the top player's forward defensive pressure into an Old School sweep by timing your backward roll with their forward drive. Use your deep underhook to control the direction of the roll and finish on top, turning their defense into your sweep."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding the lockdown without actively re-curling against the straightening force",
+        "consequence": "Top player's progressive extension eventually breaks the lockdown as your ankle hook grip fatigues under sustained pressure",
+        "correction": "Actively fight the straightening by driving your knee upward and pulling your heel hook deeper with each pulse of their extension—treat it as a dynamic battle requiring constant adjustment, not a static hold"
+      },
+      {
+        "error": "Maintaining the Electric Chair attempt when the straighten defense is clearly succeeding and the lockdown is failing",
+        "consequence": "Wastes energy fighting a losing grip battle and allows the top player to consolidate half guard top with superior position and fresh energy",
+        "correction": "Recognize when the defense is overcoming your lockdown and immediately flow to alternative attacks like Old School sweep, Truck entry, or Deep Half transition before you lose all control"
+      },
+      {
+        "error": "Releasing the underhook to try to hold the lockdown with both legs and hip power only",
+        "consequence": "Losing the underhook eliminates your sweep threat and upper body control, making the position purely a grip battle you will eventually lose",
+        "correction": "The underhook is more valuable than the lockdown—if forced to choose between maintaining the underhook or the lockdown grip, keep the underhook and transition to Dogfight or standard half guard attacks"
+      },
+      {
+        "error": "Failing to recognize the straighten defense early and not accelerating your Electric Chair setup in response",
+        "consequence": "Top player establishes the defense momentum before you achieve full extension, significantly reducing your submission and sweep effectiveness",
+        "correction": "As soon as you feel the top player's leg stiffening against the lockdown, immediately accelerate your setup by increasing all three pressure points simultaneously: lockdown tension, underhook depth, and ankle control"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is attempting the Straighten Leg Defense?",
+        "answer": "The earliest cue is feeling the top player's glutes and hip extensors engage on the trapped leg side, creating a stiffening resistance through your lockdown hooks that was not present before. This occurs before visible leg straightening and is primarily a tactile sensation through your ankle hooks and lockdown grip. The top player's forward weight shift and widened base of their free leg confirm the defense is being initiated."
+      },
+      {
+        "question": "Your lockdown is beginning to fail against the straighten defense—what are your best transition options?",
+        "answer": "When the lockdown is failing, your primary options are: convert to Old School sweep using the top player's forward pressure as directional momentum, release one hook and insert a crab ride hook for Truck entry, or use the underhook to dive underneath for Deep Half Guard entry. The worst option is continuing to fight a failing lockdown, as this wastes energy and gives the top player time to consolidate. Choose based on the top player's weight distribution—heavy forward pressure favors the sweep, neutral positioning favors the Truck transition."
+      },
+      {
+        "question": "How does the top player's crossface pressure affect your ability to maintain the Electric Chair against their straighten defense?",
+        "answer": "Strong crossface pressure prevents you from achieving the perpendicular angle needed for maximum Electric Chair splitting effectiveness. It limits your ability to extend your hips fully and create the splitting action because your upper body is being driven flat to the mat, reducing your mechanical advantage. To counter the crossface, use your underhook to pull yourself toward their far hip, creating the attack angle despite their pressure. If the crossface is too strong to overcome, transition to Deep Half by diving underneath rather than fighting for the angle."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Counter Recognition",
+        "focus": "Identifying the straighten defense through tactile feedback",
+        "description": "Partner starts in Electric Chair top and practices the straighten leg defense at varying speeds and intensities. Focus solely on recognizing the defense through tactile cues—feeling the leg stiffen, hip engage, and weight shift forward. Build pattern recognition without attempting counter-techniques."
+      },
+      {
+        "phase": "Phase 2: Lockdown Retention Under Pressure",
+        "focus": "Maintaining and deepening lockdown against progressive straightening resistance",
+        "description": "Partner applies progressive straightening resistance while you work to maintain and deepen the lockdown configuration. Practice active re-curling technique, hip extension timing, and ankle hook micro-adjustments. Start at 50% resistance and build to full resistance over multiple rounds."
+      },
+      {
+        "phase": "Phase 3: Transition Chains from Defended Electric Chair",
+        "focus": "Flowing to alternative attacks when the straighten defense begins succeeding",
+        "description": "When the straighten defense begins overcoming your lockdown, practice immediate transitions to Old School sweep, Truck entry, or Deep Half Guard. Partner applies the defense at full resistance and you must read the correct transition based on their weight distribution and timing. Develop automatic offensive responses to defensive patterns."
+      },
+      {
+        "phase": "Phase 4: Full Positional Sparring",
+        "focus": "Complete Electric Chair attack versus straighten defense exchanges",
+        "description": "Start in Electric Chair bottom with all grips established. Attack with the full Electric Chair system while top player defends with straighten defense and chains to passing. Practice complete attack-defense-transition sequences with full resistance. Track success rates to identify timing adjustments."
+      }
+    ]
+  }
 }

@@ -21,32 +21,38 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery",
-      "text": "From this position, attempt Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Sit Through to Guard",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bridge from Reverse Mount",
+      "text": "From this position, attempt Bridge from Reverse Mount. This technique is attempted in 6% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -202,15 +208,19 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (25% of attempts)
+### [[Elbow Escape to Guard]] (28% of attempts)
 
-### [[Bridge and Roll]] (25% of attempts)
+### [[Bridge and Roll]] (22% of attempts)
 
-### [[Hip Escape to Guard]] (20% of attempts)
+### [[Hip Escape to Guard]] (17% of attempts)
 
-### [[Guard Recovery]] (15% of attempts)
+### [[Sit Through to Guard]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (15% of attempts)
+### [[Frame and Shrimp to Guard]] (12% of attempts)
+
+### [[Bridge from Reverse Mount]] (6% of attempts)
+
+### [[Escape Reverse Mount]] (3% of attempts)
 
 
 
@@ -231,12 +241,12 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 
 **If opponent is high on back with weight shifted forward:**
-- Execute **[[Guard Recovery]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Sit Through to Guard]]** → [[Turtle]] (Probability: 30%)
 - Execute **[[Frame and Shrimp to Guard]]** → [[Deep Half Guard]] (Probability: 25%)
 
 
 **If opponent attempts to transition to traditional mount by spinning:**
-- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Sit Through to Guard]]** → [[Half Guard]] (Probability: 35%)
 - Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 25%)
 
 

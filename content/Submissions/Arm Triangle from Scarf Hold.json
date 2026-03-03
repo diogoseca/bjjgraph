@@ -1,150 +1,475 @@
 {
   "name": "Arm Triangle from Scarf Hold",
-  "description": "TODO: Write 150-160 character SEO description for Arm Triangle from Scarf Hold.",
+  "description": "Master the Arm Triangle choke from Scarf Hold in BJJ. Expert guide covering setup mechanics, finishing details, defense strategies, and training progressions.",
   "tags": [
     "bjj",
     "submission",
-    "TODO"
+    "choke",
+    "arm-triangle",
+    "scarf-hold",
+    "kesa-gatame",
+    "head-and-arm-choke",
+    "kata-gatame"
   ],
-  "submission_category": "Joint Lock",
-  "submission_type": "Arm Lock",
-  "target_area": "Shoulder and elbow joint",
+  "submission_category": "Choke",
+  "submission_type": "Head and Arm Choke",
+  "target_area": "Neck (carotid arteries)",
   "starting_position": "Scarf Hold Position",
   "from_position": "Scarf Hold Position/Top",
-  "from_positions": ["Scarf Hold Position", "Kesa Gatame", "Side Control"],
+  "from_positions": [
+    "Scarf Hold Position",
+    "Kesa Gatame",
+    "Side Control",
+    "Modified Scarf Hold",
+    "Kuzure Kesa-Gatame"
+  ],
+  "success_rate": 50,
+  "overview": "The Arm Triangle from Scarf Hold is a blood choke that exploits the natural arm and head control already established in kesa gatame to compress both carotid arteries simultaneously. Unlike arm triangle entries from mount or standard side control, the scarf hold configuration provides pre-existing head control and arm isolation, creating a shorter path to the choking position. The attacker drives the opponent's trapped arm across their own neck, then connects a figure-four or gable grip around the head to complete the bilateral compression structure.\n\nThis submission capitalizes on the opponent's defensive reactions to scarf hold pressure. When the bottom player pushes against the top player's chest or turns their face toward them, their arm naturally crosses toward their neck, creating the arm triangle configuration. The top player must recognize this window and transition from positional control to submission without losing the head-and-arm connection. The finishing mechanics require a hip switch from the perpendicular scarf hold angle to a chest-to-chest alignment that maximizes carotid compression on both sides of the neck.\n\nThe Arm Triangle from Scarf Hold chains naturally with americana and kimura attacks from the same position. Defensive reactions to those shoulder locks frequently expose the arm triangle entry, making the scarf hold a potent submission platform when the attacker can fluidly transition between these threats. This finish is most successful when the attacker commits to the choke only after confirming the opponent's arm is trapped deep across their centerline, as premature squeezing without proper arm placement results in a face crank rather than a clean blood choke.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from bilateral carotid compression occurring within 6-10 seconds of full choke application",
+        "severity": "High",
+        "recovery_time": "Immediate to several minutes with proper recovery position and monitoring"
+      },
+      {
+        "injury": "Tracheal damage from incorrectly applied pressure targeting the windpipe rather than the carotid arteries",
+        "severity": "High",
+        "recovery_time": "1-4 weeks depending on severity, may require medical evaluation"
+      },
+      {
+        "injury": "Cervical spine strain from excessive neck cranking when the arm is not properly positioned across the neck",
+        "severity": "Medium",
+        "recovery_time": "1-3 weeks with rest and anti-inflammatory treatment"
+      }
+    ],
+    "application_speed": "SLOW and controlled. Blood chokes can cause unconsciousness within 6-10 seconds of full application. Apply the squeeze progressively, giving the opponent adequate time to recognize the choke and tap. Never jerk, spike, or explosively tighten the grip once connected.",
+    "tap_signals": [
+      "Verbal tap (saying 'tap' or any distress signal)",
+      "Physical hand tap on partner, own body, or mat with free hand",
+      "Physical foot tap on mat with either leg",
+      "Any unusual vocalization, screaming, or expression of acute distress",
+      "Partner going limp or losing consciousness (release immediately and place in recovery position)"
+    ],
+    "release_protocol": [
+      "Release immediately upon any tap signal by opening the grip connection and removing arm pressure from the neck",
+      "If partner shows signs of distress but has not tapped, stop all pressure and verbally confirm their status before continuing",
+      "If in doubt about whether a tap occurred, always release—the position can be re-established safely",
+      "If partner loses consciousness, release immediately, place them in recovery position on their side, monitor breathing, and seek medical attention if they do not regain consciousness within 20 seconds"
+    ],
+    "training_restrictions": [
+      "Apply the choke with slow progressive pressure only—never explosively tighten the squeeze once the grip is connected",
+      "White and blue belts should drill grip connection and hip switch mechanics at reduced intensity until the finishing position is reliable",
+      "Partners with pre-existing neck injuries, cervical disc issues, or cardiovascular conditions must communicate limitations before training this technique",
+      "During flow rolling and warm-up rounds, catch and release only—do not apply full finishing pressure"
+    ]
+  },
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 50,
       "result": "success"
     },
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 45,
+      "probability": 30,
       "result": "failure"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 20,
+      "result": "counter"
     }
   ],
-  "success_rate": 50,
-  "overview": "TODO: Write overview for Arm Triangle from Scarf Hold.",
-  "safety_considerations": {
-    "injury_risks": [
-      {
-        "injury": "TODO",
-        "severity": "Medium",
-        "recovery_time": "TODO"
-      }
-    ],
-    "application_speed": "SLOW and progressive. Never spike or jerk the submission.",
-    "tap_signals": [
-      "Verbal tap (saying 'tap' or any distress signal)",
-      "Physical hand tap on partner or mat",
-      "Physical foot tap with free leg",
-      "Any unusual screaming or distress vocalization"
-    ],
-    "release_protocol": [
-      "Release immediately upon any tap signal",
-      "If in doubt, release - position can be re-established"
-    ],
-    "training_restrictions": [
-      "TODO"
-    ]
-  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Standard Arm Drive Entry",
+      "description": "The classic entry where you use chest pressure and your free hand to drive the opponent's trapped arm across their face and neck from kesa gatame. Pin the arm against their neck before releasing head control to thread the choking arm around and connect the figure-four grip.",
+      "when_to_use": "When opponent's trapped arm is relaxed or positioned near their face and you have a stable scarf hold with heavy chest pressure"
+    },
+    {
+      "variation_name": "Americana Defense Transition",
+      "description": "When the opponent defends an americana attempt by pulling their arm tight across their chest and turning inward, their forearm crosses their own neck line. Immediately abandon the americana and redirect to the arm triangle by threading your arm around the head and connecting the grip, converting their defensive reaction into a choke entry.",
+      "when_to_use": "When opponent actively defends a shoulder lock by pulling their arm across their body toward the far shoulder"
+    },
+    {
+      "variation_name": "Push Defense Redirect",
+      "description": "When the bottom player pushes against your chest or head with their trapped arm to create escape space, redirect the pushing arm across their neck using the momentum of their own push. Guide the arm into position rather than fighting it, then secure the head wrap and connect grips before they can retract the arm.",
+      "when_to_use": "When opponent pushes against your chest or face during scarf hold control, creating the arm positioning needed for the choke"
+    }
+  ],
+  "related_submissions": [
+    "Arm Triangle",
+    "Americana from Kesa Gatame",
+    "Brabo Choke",
+    "Breadcutter Choke",
+    "Americana from Side Control",
+    "Armbar from Side Control"
+  ],
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Scarf Hold Position",
+      "relationship": "Primary source position providing the head control and arm isolation foundation for this submission"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Traditional judo variant of scarf hold offering the same entry mechanics with classical grip configuration"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position family sharing lateral control principles and submission chain options"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Base technique—the core arm triangle choke pattern applied from this specific starting position"
+    },
+    {
+      "name": "Americana from Kesa Gatame",
+      "relationship": "Chain submission from same position, defensive reactions to americana frequently expose arm triangle entry"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Alternative submission control when opponent rotates arm to defend the choke, exposing shoulder"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transition option when arm triangle fails and attacker must re-establish dominant control"
     }
   ],
   "attacker": {
     "name": "Arm Triangle from Scarf Hold Attacker",
-    "description": "TODO: Write attacker description for Arm Triangle from Scarf Hold.",
-    "overview": "TODO: Write attacker overview for Arm Triangle from Scarf Hold.",
+    "description": "Complete attacking guide for finishing the Arm Triangle choke from Scarf Hold. Step-by-step grip mechanics, hip switching, and finishing sequences for kata gatame.",
+    "overview": "Executing the Arm Triangle from Scarf Hold requires precise sequencing of grip transitions and body positioning while maintaining the chest pressure that prevents escape. The top player must convert the existing scarf hold head control into a choking configuration by driving the opponent's arm across their own neck, threading the choking arm around the head, and connecting a figure-four or gable grip that seals both sides of the neck. The finishing mechanics demand a hip switch from the perpendicular scarf hold angle to a chest-to-chest alignment that generates maximum bilateral carotid compression. The critical tactical insight is that the transition from scarf hold control to choking position creates a brief vulnerability window when head control is temporarily modified—managing this window through maintained chest pressure and efficient grip work determines whether the submission succeeds or the opponent escapes.",
     "key_principles": [
-      "TODO"
+      "Drive the opponent's arm across their centerline and deep against their own neck before committing to the choke—premature squeezing without proper arm placement produces a face crank, not a blood choke",
+      "Maintain heavy chest pressure throughout the entire transition from scarf hold to arm triangle, using body weight rather than arm strength to control position",
+      "Thread the choking arm around the head efficiently, connecting the figure-four or gable grip without leaving gaps where the opponent can retract their arm",
+      "Switch hips from perpendicular to chest-to-chest alignment to maximize bilateral compression on both carotid arteries simultaneously",
+      "Squeeze with the entire body structure by walking hips toward the opponent's head and dropping shoulder weight, not by cranking with arm strength alone",
+      "Keep the elbow of your choking arm tight against the side of the opponent's head to seal the compression channel and prevent the opponent from turning out"
     ],
     "setup_requirements": [
-      "TODO"
+      "Established scarf hold with tight head control and the opponent's near arm trapped securely under your armpit or against their body",
+      "Opponent's near arm driven across their centerline with their forearm or bicep pressing against their own neck—the arm must cross the throat line for the choke to function as a blood choke",
+      "Heavy chest pressure restricting opponent's breathing and explosive bridging capacity, preventing effective resistance during the grip transition",
+      "Stable base with far leg posted wide and hips low, providing sufficient balance to execute the hip switch without being swept or reversed",
+      "Head-arm gap sealed before connecting grip—no space between the opponent's arm and neck where blood flow can continue unobstructed"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Consolidate Scarf Hold Control",
+        "description": "Ensure solid scarf hold with your arm wrapped around the opponent's head, their near arm trapped under your control, and your chest applying heavy downward pressure across their upper torso. Post your far leg wide for base stability and sink your hips low against the opponent's ribcage. The position must be fully consolidated before initiating the submission.",
+        "timing": "0-5 seconds"
+      },
+      {
+        "step_number": 2,
+        "action": "Drive Opponent's Arm Across Their Neck",
+        "description": "Use your chest pressure and free hand to push the opponent's trapped arm across their face and neck toward the far side. The goal is to position their forearm or bicep directly against the side of their neck, compressing one carotid artery with their own limb. Drive the arm deep—superficial placement across the chin will not produce a blood choke and results in a neck crank instead.",
+        "timing": "5-10 seconds"
+      },
+      {
+        "step_number": 3,
+        "action": "Thread Choking Arm Around the Head",
+        "description": "Release the standard scarf hold head wrap and immediately thread your arm deeper around the opponent's head, sliding it under their trapped arm and around the back of their skull. Your bicep should press against the opposite side of their neck from their own arm. Maintain chest weight throughout this transition to compensate for the momentary modification of head control during the threading motion.",
+        "timing": "10-14 seconds"
+      },
+      {
+        "step_number": 4,
+        "action": "Connect Figure-Four or Gable Grip",
+        "description": "Reach through with the threading arm and connect your hands in a figure-four grip (one hand gripping the opposite wrist) or a palm-to-palm gable grip behind the opponent's head. The grip connection must be tight with zero slack—any gap allows the opponent to extract their arm or create space to breathe. Squeeze the connected arms inward toward each other to test the seal before proceeding to the hip switch.",
+        "timing": "14-18 seconds"
+      },
+      {
+        "step_number": 5,
+        "action": "Switch Hips to Chest-to-Chest Alignment",
+        "description": "Pivot your hips from the perpendicular scarf hold angle to face the opponent chest-to-chest. Walk your legs around toward the opponent's far side while keeping your chest heavy on their torso. The hip switch generates the angle change that aligns your squeezing arms perpendicular to the opponent's neck rather than parallel, dramatically increasing the bilateral compression on both carotid arteries simultaneously.",
+        "timing": "18-22 seconds"
+      },
+      {
+        "step_number": 6,
+        "action": "Drop Shoulder and Set Compression Angle",
+        "description": "Lower your shoulder on the choking arm side into the crook of the opponent's neck, driving their trapped arm deeper against the opposite carotid. Your head should be positioned on the same side as the choking arm, with your ear near the mat. This shoulder drop creates the final structural element that closes the compression channel completely and eliminates any remaining space for blood flow.",
+        "timing": "22-25 seconds"
+      },
+      {
+        "step_number": 7,
+        "action": "Apply Progressive Squeeze for the Tap",
+        "description": "Squeeze your connected arms together while simultaneously walking your hips toward the opponent's head to increase the compression angle. The squeeze should come from your entire body structure—chest weight, shoulder pressure, and arm connection all contributing to bilateral carotid compression. Apply pressure slowly and progressively, giving the opponent time to recognize the choke and tap. Be prepared to release immediately upon any tap signal.",
+        "timing": "25-35 seconds (slow and controlled)"
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent retracts trapped arm before the grip is connected, pulling the forearm away from their neck to eliminate the choking structure",
+        "effectiveness": "High",
+        "your_response": "If the arm retracts before the figure-four is connected, immediately return to standard scarf hold control and re-establish the arm trap. Attempt to drive the arm back across using chest pressure, or transition to americana or kimura on the now-repositioned arm.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Opponent bridges explosively during the hip switch transition to disrupt base and prevent the chest-to-chest alignment",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Absorb the bridge by widening your base and driving chest weight down into the opponent. Maintain the grip connection throughout the bridge. Once they settle, resume the hip switch. Their explosive effort exhausts energy while your grip remains intact.",
+        "targets_outcome": "Scarf Hold Position/Top"
+      },
+      {
+        "counter": "Opponent turns away and turtles during the grip transition to prevent the chest-to-chest finishing position",
+        "effectiveness": "Medium",
+        "your_response": "Follow the turn by maintaining the grip connection and transitioning to a front headlock or standing arm triangle position. The choke can still be finished from the front headlock angle. Alternatively, take the back if the grip breaks during the scramble.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Opponent creates a frame with their free arm against your shoulder or chin to prevent the shoulder drop and compression",
+        "effectiveness": "Medium",
+        "your_response": "Use your body weight to collapse their frame by walking your hips higher and driving your shoulder through their frame structure. Alternatively, swim your head inside their frame to eliminate the posting surface. The frame loses effectiveness once your weight is committed downward.",
         "targets_outcome": "Scarf Hold Position/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting to squeeze the choke before the opponent's arm is driven deep enough across their own neck",
+        "consequence": "Produces a face crank or neck crank rather than a blood choke, causing unnecessary pain without creating submission pressure on the carotid arteries",
+        "correction": "Confirm the opponent's forearm or bicep is pressing firmly against their own neck before connecting the grip. The arm must cross the centerline and be positioned against the carotid, not just resting on the chin or jaw."
+      },
+      {
+        "error": "Releasing chest pressure during the transition from scarf hold to arm triangle grip configuration",
+        "consequence": "Opponent bridges or turns during the moment of reduced pressure, escaping the position before the choke is established",
+        "correction": "Maintain constant chest weight on the opponent's torso throughout the entire transition sequence. The grip threading should happen while your chest stays heavy, not while you sit up to get a better angle."
+      },
+      {
+        "error": "Squeezing with arm strength alone rather than using full body mechanics including hip position and shoulder weight",
+        "consequence": "Arms fatigue rapidly, the choke lacks sufficient compression to produce a tap, and the opponent can outlast the squeeze while working an escape",
+        "correction": "Generate compression through body structure: walk hips toward opponent's head, drop shoulder into neck crook, and use chest weight. Arms maintain the grip connection but the squeeze force comes from the body's position relative to the opponent."
+      },
+      {
+        "error": "Leaving the elbow of the choking arm flared away from the opponent's head during the squeeze",
+        "consequence": "Creates a gap in the compression channel where blood can still flow to the brain, reducing choke effectiveness and allowing opponent to endure the position indefinitely",
+        "correction": "Keep the elbow of your choking arm pinched tight against the side of the opponent's skull. The arm should wrap closely around the head with no air gaps in the compression structure."
+      },
+      {
+        "error": "Failing to complete the hip switch and attempting to finish the choke from the perpendicular scarf hold angle",
+        "consequence": "The perpendicular angle generates compression along the wrong axis, reducing bilateral carotid pressure and making the choke feel like pressure on the jaw rather than the neck",
+        "correction": "Commit fully to the hip switch so your chest faces the opponent directly. The chest-to-chest alignment ensures your squeezing arms compress perpendicular to the carotid arteries, which is the mechanically optimal angle for blood choke submission."
+      },
+      {
+        "error": "Connecting the grip too loosely with slack in the figure-four, allowing the opponent to create breathing space",
+        "consequence": "Opponent maintains enough blood flow and airway access to survive the choke indefinitely, draining the attacker's energy without producing a tap",
+        "correction": "After connecting the figure-four or gable grip, immediately squeeze inward to eliminate all slack before beginning the hip switch. Test the seal by feeling for any space between your arms and the opponent's neck and arm."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Arm Drive Mechanics",
+        "focus": "Driving the opponent's arm across their neck from scarf hold",
+        "description": "With a cooperative partner in scarf hold, practice using chest pressure and hand manipulation to drive the trapped arm across the opponent's face and deep against their neck. Focus on achieving proper arm depth before any grip work. Perform 20 repetitions per side, checking arm placement quality on each rep."
+      },
+      {
+        "phase": "Phase 2: Grip Connection and Seal",
+        "focus": "Threading the choking arm and connecting figure-four grip",
+        "description": "Starting with the opponent's arm already positioned across their neck, practice the arm threading and grip connection in isolation. Partner provides zero resistance. Focus on speed and efficiency of the grip transition while maintaining constant chest pressure. Drill until the threading-to-connection sequence is under three seconds."
+      },
+      {
+        "phase": "Phase 3: Hip Switch and Finishing Position",
+        "focus": "Transitioning from perpendicular to chest-to-chest with shoulder drop",
+        "description": "With the grip already connected, practice the hip switch and shoulder drop mechanics. Partner remains passive while you walk your hips around, drop your shoulder, and find the optimal compression angle. Catch and release only—do not apply full finishing pressure. Develop the body awareness for the correct chest-to-chest alignment."
+      },
+      {
+        "phase": "Phase 4: Full Sequence Under Light Resistance",
+        "focus": "Complete submission chain from scarf hold to finish",
+        "description": "Execute the full sequence from scarf hold consolidation through the finish with a partner providing thirty to fifty percent resistance. Partner defends with specific counters one at a time (arm retraction, bridge, frame) so you can practice responses to each counter individually. Reset after each attempt."
+      },
+      {
+        "phase": "Phase 5: Positional Sparring",
+        "focus": "Live application with full resistance from scarf hold",
+        "description": "Begin in scarf hold with the goal of finishing the arm triangle. Partner defends with full resistance using all available counters. If the arm triangle fails, transition to secondary attacks (americana, kimura) or re-establish scarf hold. Three-minute rounds with reset on escape or submission. Track finishing rate across sessions."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What anatomical structures does the Arm Triangle from Scarf Hold compress to achieve the submission?",
+        "answer": "The arm triangle compresses both carotid arteries simultaneously through bilateral neck compression. The opponent's own arm or shoulder presses against one carotid artery on the near side of the neck, while the attacker's bicep or forearm compresses the opposite carotid on the far side. This bilateral compression restricts blood flow to the brain, producing unconsciousness within six to ten seconds of full application. The choke does not target the windpipe—correct application generates blood flow restriction, not airway obstruction.",
+        "safety_critical": true
+      },
+      {
+        "question": "What physical indicators tell you the choke is correctly applied and your opponent is close to tapping?",
+        "answer": "Correct application indicators include: the opponent's face changes color (reddening or flushing from venous blood pooling), their defensive movements become sluggish or less coordinated, their grip strength weakens noticeably, and their breathing pattern changes or they begin making gurgling sounds. If you feel the opponent's body go limp or they stop responding entirely, they may be losing consciousness—release immediately. A correctly applied arm triangle should produce a tap within ten to fifteen seconds of full compression.",
+        "safety_critical": true
+      },
+      {
+        "question": "What control must be established before transitioning from scarf hold to the arm triangle finish?",
+        "answer": "Before transitioning, the opponent's arm must be driven across their own centerline with the forearm or bicep pressing firmly against their neck at the carotid level. Head control must still be active, and chest pressure must be heavy enough to prevent explosive bridging during the grip transition. The base leg must be posted wide for stability during the upcoming hip switch. Attempting the grip connection before confirming arm depth results in a face crank or loose choke that the opponent can survive.",
+        "safety_critical": false
+      },
+      {
+        "question": "At what point during the arm triangle setup does the position become functionally inescapable for the defender?",
+        "answer": "The position becomes extremely difficult to escape once the figure-four or gable grip is connected and the hip switch to chest-to-chest alignment is complete. Before the grip is connected, the defender can retract their arm or bridge to escape. After grip connection but before the hip switch, the defender can still frame or turn. Once the grip is sealed, hips are switched, and the shoulder is dropped into the neck crook, the bilateral compression is established and the defender's remaining options narrow to tapping or attempting to create a tiny space for blood flow by turning their chin.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent starts pushing their trapped arm back toward their own hip to retract it during your setup—what adjustment prevents escape?",
+        "answer": "Immediately increase chest pressure by driving your weight downward to pin the arm in place against their neck. Use your free hand to block the retraction by controlling their wrist or elbow and redirecting the arm back across their centerline. If the arm retraction succeeds partially, you can switch to driving the arm back using an underhook on their far shoulder that pulls them toward you while your chest pushes the arm. If the arm is fully retracted, abandon the arm triangle and transition to americana or return to standard scarf hold control.",
+        "safety_critical": false
+      },
+      {
+        "question": "How should you adjust your grip connection when transitioning from the scarf hold head wrap to the arm triangle lock?",
+        "answer": "Release the standard scarf hold head wrap and immediately thread the same arm deeper around the opponent's head, sliding it between their trapped arm and the back of their skull so your bicep contacts the far side of their neck. Reach through and connect with your other hand in either a figure-four (hand gripping opposite wrist) or gable grip (palm to palm). The key is maintaining chest weight during this transition—never sit up to get a better angle, as this creates the escape window. The grip connection should take no more than two to three seconds of efficient movement.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the primary safety concerns when training the arm triangle, and how should you manage application speed?",
+        "answer": "The primary safety concern is that blood chokes can produce unconsciousness within six to ten seconds once fully applied, giving the defender a narrow window to recognize and respond with a tap. Apply the squeeze progressively over several seconds, never explosively tightening once the grip is connected. Watch for signs of unconsciousness including partner going limp, loss of motor control, or unusual sounds. If the opponent's arm is not properly across their neck, the force may target the trachea instead of the carotids, risking windpipe damage. Always prioritize proper arm positioning over aggressive squeezing.",
+        "safety_critical": true
+      },
+      {
+        "question": "In competition, your opponent is defending the arm triangle by tucking their chin and creating micro-space—how do you increase pressure to force the tap?",
+        "answer": "Walk your hips higher toward the opponent's head to change the compression angle, driving your shoulder deeper into the crook of their neck. Pull your elbows together tighter and drop your forehead toward the mat to add gravitational force to the squeeze. If they have created chin space, use your chest weight to flatten them and eliminate the gap between their chin and chest. You can also slightly sprawl your hips to increase your body's downward pressure vector. These incremental adjustments compound pressure without requiring explosive effort, eventually closing any micro-space the defender has created.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your choke feels tight but the opponent is not tapping after ten seconds of squeezing—what is likely wrong?",
+        "answer": "The most likely issue is the opponent's arm is not positioned deep enough across their neck to fully obstruct the carotid artery on that side. Reassess arm placement—if their forearm is resting on their chin or jaw rather than against the neck, you are applying a face crank rather than a blood choke. Release slightly, reposition the arm deeper against the neck, and re-apply. A secondary possibility is that your elbow on the choking arm side is flared, creating a gap in the compression seal. Tuck the elbow tight against their head and re-squeeze. If neither adjustment produces a tap, the anatomy may not be favorable and you should transition to an alternative attack.",
+        "safety_critical": false
       }
-    ],
-    "safety_considerations": "TODO: Write safety considerations for Arm Triangle from Scarf Hold."
+    ]
   },
   "defender": {
     "name": "Arm Triangle from Scarf Hold Defender",
-    "description": "TODO: Write defender description for Arm Triangle from Scarf Hold.",
-    "overview": "TODO: Write defender overview for Arm Triangle from Scarf Hold.",
+    "description": "Defend and escape the Arm Triangle from Scarf Hold. Recognition cues, early prevention, escape mechanics, and guard recovery strategies for BJJ practitioners.",
+    "overview": "Defending the Arm Triangle from Scarf Hold requires recognizing the submission threat before the grip connection is sealed. The critical defensive window occurs when the attacker begins driving your arm across your neck—once the figure-four grip is connected and the hip switch is complete, defensive options narrow dramatically. The defender must prioritize preventing arm isolation across the neck, maintaining a protective arm position, and timing explosive escapes to coincide with the attacker's grip transitions rather than fighting against the completed choking structure. Early intervention at the arm drive phase has the highest success rate, while late-stage defense against a fully locked arm triangle requires either finding micro-space to maintain blood flow or tapping before unconsciousness. Understanding the sequential progression of this choke allows the defender to intervene at the optimal point rather than reacting to the finished position.",
     "key_principles": [
-      "TODO"
+      "Defend the arm drive before your arm crosses your own neck—once the arm is positioned against your carotid, the choke is structurally sound and escape difficulty increases exponentially",
+      "Keep your trapped arm tight to your own body with elbow pinned to your ribs, never allowing it to be pushed across your centerline toward the far shoulder",
+      "Recognize the grip transition as your primary escape window—the moment the attacker modifies their head wrap to thread the choking arm is when their control is briefly compromised",
+      "Bridge toward the attacker during transitions rather than away, as bridging toward them disrupts their base and prevents the hip switch to chest-to-chest alignment",
+      "If the choke is fully locked, prioritize creating any micro-space at your neck by turning your chin into the crook of the attacker's elbow, but tap immediately if you feel blood restriction",
+      "Use your free arm to create frames against the attacker's shoulder or hip rather than pushing their head, which wastes energy and exposes your arm to further isolation"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent begins using chest pressure or their free hand to push your trapped arm across your face and toward the far side of your neck",
+      "Opponent releases the standard scarf hold head wrap and begins threading their arm deeper around the back of your skull",
+      "You feel your own arm being compressed against the side of your neck with the attacker's body weight sealing it in place",
+      "Opponent begins walking their hips from the perpendicular scarf hold angle toward facing you chest-to-chest",
+      "You feel bilateral pressure on both sides of your neck simultaneously—this indicates the choke structure is nearly complete"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Retract the trapped arm by pulling your elbow back toward your own ribs before the arm crosses your centerline",
+        "when_to_use": "Immediately upon feeling the opponent driving your arm across your face—this is the earliest and highest-percentage defensive window before any grip is threatened",
         "targets_outcome": "Scarf Hold Position/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent fails to position your arm for the choke and must either re-attempt the arm drive or return to standard scarf hold control",
+        "risk": "If you fail to retract the arm, the opponent may accelerate the arm drive using increased chest pressure while you are actively resisting"
+      },
+      {
+        "action": "Bridge explosively toward the opponent during the moment they modify their head wrap to thread the choking arm around your head",
+        "when_to_use": "When you feel the head control change as the opponent begins the arm triangle grip transition—this brief window of modified control creates the best escape opportunity",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "The bridge disrupts opponent's base during their most vulnerable transition moment, creating space for hip escape and guard recovery to half guard",
+        "risk": "If the bridge is poorly timed or weak, the opponent absorbs it and completes the grip connection while you are fatigued from the explosive effort"
+      },
+      {
+        "action": "Turn into the opponent and attempt to reach turtle position during the grip transition before the hip switch is completed",
+        "when_to_use": "When the opponent is threading the grip but has not yet completed the hip switch—turning into them before chest-to-chest alignment prevents the optimal choking angle",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Reaching turtle position breaks the choking angle and may allow back escape or guard recovery from the turtle position",
+        "risk": "Turning into the opponent with the grip partially connected may tighten the choke temporarily—abandon the turn immediately if you feel increased neck compression"
+      },
+      {
+        "action": "Frame against the opponent's hip with your free arm and hip escape away to create distance that breaks the choking structure",
+        "when_to_use": "When the grip is connected but the hip switch is not yet complete—the perpendicular angle provides enough space to hip escape if timed with a strong frame",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Creating distance through the hip escape separates the compression structure and allows knee insertion for half guard recovery",
+        "risk": "Hip escaping too slowly allows the opponent to follow with the hip switch, re-establishing the choking position from a potentially worse angle"
       }
+    ],
+    "escape_paths": [
+      "Retract the trapped arm before it crosses your centerline, then immediately create frames with both arms to prevent the opponent from re-driving the arm and begin standard scarf hold escape progressions",
+      "Bridge explosively toward the opponent during the grip transition when their head control is modified, then hip escape and insert your knee for half guard recovery before they can re-consolidate",
+      "Turn into the opponent during the grip threading to reach turtle position, breaking the choking angle and transitioning to standard turtle escapes or back defense"
     ],
     "favorable_outcomes": [
       {
+        "outcome": "Half Guard/Top",
+        "how": "Time a bridge-and-hip-escape during the grip transition moment when the attacker modifies head control to thread the choking arm, exploiting the brief window of reduced positional control to insert your knee and recover half guard"
+      },
+      {
         "outcome": "Scarf Hold Position/Top",
-        "how": "TODO"
+        "how": "Successfully retract the trapped arm before it crosses the centerline, preventing the choke from being established and forcing the attacker to return to standard scarf hold control"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Waiting until the figure-four grip is fully locked before beginning defensive actions against the arm triangle",
+        "consequence": "Once the grip is connected and the hip switch is complete, the bilateral compression is structurally sound and escape becomes extremely difficult, leaving tapping as the primary remaining option",
+        "correction": "Begin defensive actions at the first recognition cue—the arm drive across your neck. Every second of delay reduces your defensive options exponentially. React to the arm drive, not the completed choke."
+      },
+      {
+        "error": "Pushing the opponent's head away with extended arms while the arm is being driven across the neck",
+        "consequence": "The pushing motion can actually drive your own arm deeper across your neck by creating the angle the attacker needs, while also exposing your arms to further isolation and wasting energy",
+        "correction": "Instead of pushing, focus on retracting your trapped arm toward your own ribs and creating compact frames against the opponent's shoulder or hip that maintain structural space without extending your arms."
+      },
+      {
+        "error": "Bridging away from the opponent rather than toward them during the grip transition",
+        "consequence": "Bridging away creates the exact space the opponent needs to complete the hip switch to chest-to-chest alignment, accelerating the choke completion rather than disrupting it",
+        "correction": "Bridge toward the opponent to disrupt their base and prevent the hip switch. The perpendicular scarf hold angle is less effective for the choke—keeping them at that angle through directional bridging reduces their compression capability."
+      },
+      {
+        "error": "Attempting to power out of the choke by straightening the trapped arm after the figure-four is sealed",
+        "consequence": "The figure-four grip system has overwhelming mechanical advantage against a single arm, making power escape nearly impossible while exhausting remaining energy reserves",
+        "correction": "If the figure-four is sealed, focus on creating micro-space by turning your chin into the attacker's elbow crook rather than trying to muscle out. If no space is available and you feel blood restriction, tap immediately."
+      },
+      {
+        "error": "Failing to protect your neck with chin position once the arm is driven across",
+        "consequence": "An unprotected neck with chin raised exposes both carotid arteries to maximum compression, accelerating the choke and reducing your response time before unconsciousness",
+        "correction": "Tuck your chin toward your chest and turn your face toward the attacker's choking arm elbow. This creates a small pocket of space at the neck that can delay the full effect of the choke and buy additional seconds for escape attempts."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that an arm triangle is being set up from scarf hold?",
+        "answer": "The earliest cue is feeling the opponent use chest pressure or their free hand to push your trapped arm across your face toward your far shoulder. This arm drive precedes any grip change and signals the beginning of the arm triangle sequence. The moment you feel your arm being pushed across your centerline, you must begin the retraction defense immediately, because once the arm is positioned against your neck the attacker only needs to connect the grip to complete the choke structure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is it critical to prevent your arm from crossing your own centerline during the setup?",
+        "answer": "Your own arm crossing the centerline creates the core mechanism of the arm triangle—your shoulder and arm compress one carotid artery while the attacker's arm compresses the other. Without your arm positioned against your own neck, the attacker has no choking structure and must find an alternative attack. Once the arm crosses the neck, even without a grip connection, the attacker can use chest weight to hold it in place while threading the figure-four, making subsequent defense far more difficult.",
+        "safety_critical": false
+      },
+      {
+        "question": "How does the grip transition from scarf hold to arm triangle create an escape opportunity for the defender?",
+        "answer": "When the attacker modifies their head wrap to thread the choking arm around your head, they temporarily change their control configuration. The standard scarf hold head control is briefly released or repositioned, creating a two to three second window where your head mobility increases and their structural connection to your upper body is compromised. This is the optimal moment for a bridge because the attacker is between positions, unable to use either the scarf hold base or the arm triangle compression to resist your movement.",
+        "safety_critical": false
+      },
+      {
+        "question": "The opponent has fully locked the arm triangle with hip switch complete and you feel blood restriction—what should you do?",
+        "answer": "Tap immediately. Once bilateral carotid compression is established through a properly locked arm triangle with completed hip switch, unconsciousness can occur within six to ten seconds. No training roll is worth the risk of going unconscious. Recognize where your defense failed in the sequence—the arm drive, the grip transition, or the hip switch—and focus on earlier intervention in your next training session. In competition, you have a few more seconds to attempt a last-resort chin turn, but tap if the pressure does not diminish within three to four seconds.",
+        "safety_critical": true
+      },
+      {
+        "question": "What defensive arm position should you maintain while in scarf hold bottom to prevent arm triangle vulnerability?",
+        "answer": "Keep your trapped arm bent at approximately ninety degrees with your elbow pinned tight against your own ribs and your hand positioned near your own chest or chin—never allowing the arm to cross your centerline. This position prevents the arm from being driven across your neck while maintaining enough mobility to create frames if needed. If you extend the arm to push the opponent away, you create the angle they need to redirect it across your neck. The ninety-degree defensive position with elbow tight is the strongest preventative structure against the arm triangle setup.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying arm triangle setup cues from scarf hold bottom",
+        "description": "Partner establishes scarf hold and slowly initiates the arm triangle sequence. Your only task is to verbally call out each recognition cue as you feel it: arm drive, head wrap change, grip threading, hip switch beginning. No escape attempts—focus purely on developing tactile awareness of the submission progression through repeated exposure."
+      },
+      {
+        "phase": "Phase 2: Early Intervention Practice",
+        "focus": "Arm retraction and defensive positioning under light resistance",
+        "description": "Partner attempts the arm drive at thirty percent speed and resistance. Practice retracting the trapped arm with elbow-to-rib defensive motion, creating compact frames, and maintaining chin protection. Reset after each successful or failed defense. Build the automatic reflexes that respond to arm drive pressure immediately."
+      },
+      {
+        "phase": "Phase 3: Escape Window Exploitation",
+        "focus": "Timed bridges and hip escapes during grip transitions",
+        "description": "Partner performs the full arm triangle sequence at fifty percent resistance. Practice timing your bridge to coincide with the head wrap modification, then executing the hip escape to recover half guard. Partner allows the escape when technique and timing are correct. Develop the connection between recognizing the grip transition and executing the explosive escape response."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Defense",
+        "focus": "Complete defensive sequence against committed arm triangle attempts",
+        "description": "Partner attacks the arm triangle from scarf hold with full speed and intention. Combine all defensive tools: early arm retraction, timed bridges, chin protection, and hip escapes. If defense fails and the choke locks in, tap early and identify where the defensive sequence broke down. Three-minute rounds with full reset on tap or escape."
       }
     ]
   }

@@ -1,13 +1,378 @@
 {
   "name": "Lapel Strip from Worm Guard",
-  "description": "",
-  "tags": [],
+  "description": "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to breaking lapel control, neutralizing worm guard, and transitioning to open guard passing.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-passing",
+    "worm-guard",
+    "lapel-guard",
+    "grip-fighting",
+    "advanced"
+  ],
   "from_position": "Worm Guard/Top",
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 100,
+      "probability": 45,
       "result": "success"
+    },
+    {
+      "to": "Worm Guard/Top",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The Lapel Strip from Worm Guard is the primary defensive technique for top players facing one of modern BJJ's most frustrating lapel-based guard systems. Rather than attempting to pass through or around the lapel entanglement, this technique addresses the root cause of worm guard's effectiveness by systematically removing the lapel wrap that creates the bottom player's mechanical advantage. A successful strip converts a complex lapel guard passing problem into a standard open guard scenario where traditional passing techniques become immediately viable.\n\nThe technique is fundamentally a grip fighting sequence rather than a single explosive action. The top player must identify how the lapel is routed around their leg, systematically address supporting grips that reinforce the wrap, and then extract or strip the primary lapel connection. Rushing the strip typically fails because a skilled worm guard player can re-feed the lapel faster than you can remove it with poor technique. Patience and precise hand placement are essential for breaking the bottom player's structural control.\n\nUnderstanding the lapel strip within the broader worm guard passing context is critical. While backstep passes and long step passes attempt to work around the lapel, the strip eliminates it entirely, giving clean open guard passing opportunities. However, committing both hands to the grip fighting sequence creates momentary sweep vulnerability that the bottom player will exploit if given the chance. This risk-reward calculation should factor into your decision of whether to strip the lapel or pass around it.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Two-on-One Grip Strip",
+      "description": "Use both hands simultaneously to peel the bottom player's grip off the lapel tail. One hand controls their wrist while the other strips fingers from the lapel material. Provides maximum mechanical advantage for breaking even the strongest grips.",
+      "when_to_use": "When the bottom player has a deep, strong grip on the lapel and single-hand attempts have failed"
+    },
+    {
+      "variant_name": "Leg Extraction Method",
+      "description": "Instead of stripping the grip, focus on pulling your trapped leg backward and free from the loosened lapel wrap. Step the trapped leg back while using hands to create slack in the lapel. Works by removing your leg from the equation rather than removing the lapel.",
+      "when_to_use": "When the lapel wrap is loose enough that leg movement can create sufficient slack for extraction"
+    },
+    {
+      "variant_name": "Angle Cut Strip",
+      "description": "Step laterally with your free leg to cut a sharp angle, which creates slack on one side of the lapel wrap. Use the momentary slack to strip the lapel before the bottom player can adjust tension. Combines footwork with grip fighting for higher success.",
+      "when_to_use": "When direct stripping fails and you need footwork to generate slack in the lapel configuration"
+    }
+  ],
+  "position_integration": "The Lapel Strip from Worm Guard serves as the direct counter to worm guard's primary control mechanism within the modern gi passing hierarchy. In the broader BJJ system, the strip functions as a prerequisite step that enables traditional passing techniques against lapel-based guards. Understanding when to strip versus when to pass around the lapel via backstep or long step is essential for developing a complete anti-worm guard strategy. The technique integrates with subsequent toreando, leg drag, and knee slice passes that become available once the lapel is cleared. Within the guard passing decision tree, the strip occupies the grip-fighting layer that precedes the passing layer, making it a foundational skill for anyone competing against modern lapel guard systems.",
+  "conditions": [
+    "Bottom player has established worm guard with lapel wrapped around your lead leg",
+    "You are in standing or combat base position with sufficient posture to grip fight",
+    "At least one hand is free to begin addressing the lapel grip",
+    "Your base is stable enough to withstand sweep attempts during the grip fighting sequence"
+  ],
+  "related_content": [
+    {
+      "name": "Worm Guard",
+      "relationship": "Source position where this technique is executed from top"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Target position reached after successful lapel strip"
+    },
+    {
+      "name": "Lapel Guard",
+      "relationship": "Parent guard category encompassing worm guard"
+    },
+    {
+      "name": "Backstep from Worm Guard",
+      "relationship": "Alternative worm guard counter that passes around the lapel"
+    },
+    {
+      "name": "Collar Drag from Worm Guard",
+      "relationship": "Related technique from worm guard bottom perspective"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Guard the bottom player may transition to after failed worm guard"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Alternative guard the bottom player may establish during strip"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Common follow-up position after stripping the lapel"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "High-percentage passing technique available after successful strip"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Primary passing option once lapel control is neutralized"
+    }
+  ],
+  "attacker": {
+    "name": "Lapel Strip from Worm Guard Attacker",
+    "description": "Master the attacker perspective for the Lapel Strip from Worm Guard. Step-by-step guide to systematically breaking worm guard lapel control from top position.",
+    "overview": "The Lapel Strip from Worm Guard Attacker is the top player executing the systematic removal of the bottom player's lapel wrap. This technique requires precise grip fighting, stable base maintenance, and methodical sequencing to break the mechanical advantage that defines worm guard. Success depends on addressing supporting grips before attacking the primary lapel connection, maintaining base against sweep attempts throughout the sequence, and immediately transitioning to a guard pass once the lapel is cleared. The attacker must treat this as a multi-step grip fighting problem rather than a single explosive action, with each step building on the previous one to progressively dismantle the worm guard structure.",
+    "key_principles": [
+      "Establish and maintain wide stable base before committing hands to grip fighting to resist sweep attempts throughout the sequence",
+      "Identify the complete lapel routing path before beginning the strip to know exactly where and how to apply grip breaking force",
+      "Address secondary supporting grips before attacking the primary lapel connection to isolate the target and reduce counter-attack risk",
+      "Use two-on-one grip breaks for maximum mechanical advantage rather than single-hand stripping that relies on brute force",
+      "Maintain constant awareness of sweep threats while hands are committed to grip fighting and abandon the strip if base is compromised",
+      "Immediately transition to passing grips after successful strip to prevent re-establishment of worm guard or alternative guard"
+    ],
+    "setup_requirements": [
+      "Stable standing or combat base position with wide enough stance to resist sweeps during grip fighting",
+      "Clear identification of how the lapel is routed around your trapped leg including entry and exit points",
+      "At least one hand free from defensive duties to begin the grip fighting sequence",
+      "Posture upright with hips back to prevent forward-collapse sweep vulnerability during the exchange",
+      "Bottom player's secondary grips assessed and prioritized for sequential breaking before the primary lapel"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish defensive base",
+        "description": "Widen your stance and drop your hips back to create a stable platform that resists sweep attempts. Ensure your weight is evenly distributed between both feet with your center of gravity low enough to maintain balance when you commit your hands to grip fighting the lapel."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify the lapel routing path",
+        "description": "Trace the path of the lapel from where it exits the bottom player's gi, under your trapped leg, around their shin, and to where they grip the tail. Understanding the exact routing tells you which direction to strip and where slack can be created most efficiently."
+      },
+      {
+        "step_number": 3,
+        "action": "Break secondary supporting grips",
+        "description": "Strip the bottom player's supporting grips on your collar, sleeve, or pants that complement their lapel control. These secondary grips enable their sweeps and attacks during the strip. Removing them first isolates the lapel grip and reduces counter-attack threats significantly."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute the lapel grip break",
+        "description": "Use a two-on-one grip break on the hand holding the lapel tail. Control their wrist with one hand while peeling their fingers from the lapel material with the other. Peel fingers open methodically rather than trying to yank the lapel away from a closed fist, which rarely works against a strong grip."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract the lapel material from under your leg",
+        "description": "Once the grip is broken, immediately pull the loose lapel material back out from under your trapped leg. Step your leg backward while threading the lapel free with your hands. Do not leave loose lapel material accessible near the bottom player or they will re-feed it instantly."
+      },
+      {
+        "step_number": 6,
+        "action": "Secure the freed lapel material",
+        "description": "Control the stripped lapel by tucking it into your belt area, pinning it against your body with your arm, or holding it briefly with one hand away from the bottom player's reach. The goal is to prevent re-gripping and re-establishment of worm guard before you can initiate a passing sequence."
+      },
+      {
+        "step_number": 7,
+        "action": "Transition to open guard passing grips",
+        "description": "Immediately establish pant grips at the knees or collar control to begin your guard passing sequence. The window between successful strip and the bottom player establishing an alternative guard is narrow, so the transition to passing must be swift and decisive with a pre-planned pass in mind."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player re-feeds the lapel immediately after partial strip by re-gripping exposed material",
+        "effectiveness": "High",
+        "your_response": "Control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area or hold it away from the bottom player's reach. Never leave loose lapel material accessible after a successful grip break.",
+        "targets_outcome": "Worm Guard/Top"
+      },
+      {
+        "counter": "Bottom player initiates sweep when both of your hands are committed to grip fighting the lapel",
+        "effectiveness": "Medium",
+        "your_response": "Maintain wide base throughout the strip sequence. If you feel significant off-balancing, immediately abandon the strip attempt and re-establish base before trying again. Never compromise base stability for grip fighting progress.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player reinforces lapel grip with second hand creating a stronger two-handed connection that resists two-on-one breaks",
+        "effectiveness": "High",
+        "your_response": "Address the secondary reinforcing hand first before returning to the primary grip break. When both their hands are locked on the lapel, their upper body control is compromised, potentially opening passing opportunities around the lapel instead.",
+        "targets_outcome": "Worm Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to strip the lapel with a single explosive yank rather than systematic grip fighting",
+        "consequence": "The bottom player's grip strength easily resists a single pull, and the explosive movement compromises your base, often resulting in being swept during the failed attempt",
+        "correction": "Use methodical two-on-one grip breaks with finger peeling technique. Address the grip as a technical problem requiring precise hand placement rather than brute force."
+      },
+      {
+        "error": "Narrowing base during the strip to get closer to the grip battle",
+        "consequence": "Narrow stance creates immediate sweep vulnerability when both hands are occupied with grip fighting. The bottom player capitalizes on the compromised base to execute worm guard sweeps.",
+        "correction": "Maintain wide athletic stance throughout the strip sequence. Bend at the knees and hips to reach the grip rather than bringing your feet closer together."
+      },
+      {
+        "error": "Leaving stripped lapel material accessible after successfully breaking the grip",
+        "consequence": "Bottom player immediately re-grips and re-feeds the lapel, fully resetting the worm guard position and wasting all the energy and effort invested in the strip attempt",
+        "correction": "Immediately secure freed lapel material by tucking it into your belt, holding it away, or stepping your leg completely clear of the dangling material before it can be re-captured."
+      },
+      {
+        "error": "Attacking the primary lapel grip without first breaking supporting collar or sleeve grips",
+        "consequence": "Supporting grips allow the bottom player to maintain offensive pressure and active sweep threats during your strip attempt, making safe stripping nearly impossible",
+        "correction": "Address supporting grips sequentially before the primary lapel connection. Isolating the lapel grip removes their counter-attack capability and makes the final strip significantly easier."
+      },
+      {
+        "error": "Failing to transition to a guard pass immediately after successful strip",
+        "consequence": "The bottom player re-establishes worm guard or transitions to an alternative guard like spider, lasso, or De La Riva while you hesitate without advancing your position",
+        "correction": "Have a pre-planned passing sequence ready before you begin the strip. The moment the lapel is cleared, immediately establish passing grips and initiate your chosen pass without delay."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Mechanics",
+        "focus": "Two-on-one grip breaks and finger peeling technique",
+        "description": "Practice isolated grip breaking drills against a partner holding the lapel with varying grip strengths. Focus on proper hand placement, finger peeling mechanics, and developing the fine motor skills needed for efficient grip strips. No live resistance initially, building precision before adding pressure."
+      },
+      {
+        "phase": "Phase 2: Sequenced Stripping",
+        "focus": "Sequential grip breaking with secondary grip management",
+        "description": "Partner establishes full worm guard with supporting collar and sleeve grips. Practice the complete stripping sequence: break secondary grips first, then attack the primary lapel connection. Partner provides moderate resistance and allows successful strips to build confidence and timing."
+      },
+      {
+        "phase": "Phase 3: Strip Under Sweep Pressure",
+        "focus": "Maintaining base while executing the strip against active sweeps",
+        "description": "Partner attempts sweeps at 50-70% intensity while you execute the lapel strip. Focus on base maintenance, recognizing when to abandon the strip to defend sweeps, and resuming the strip sequence after stabilizing. Develop the ability to grip fight while managing balance threats simultaneously."
+      },
+      {
+        "phase": "Phase 4: Strip to Pass Integration",
+        "focus": "Connecting the lapel strip directly to guard passing sequences",
+        "description": "Full positional sparring starting from worm guard top. Execute the strip and immediately transition to a specific guard pass such as leg drag, toreando, or knee slice. Partner resists at full intensity. Track success rate of completing both the strip and the subsequent pass as a combined sequence."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the first priority before attempting to strip the lapel from worm guard?",
+        "answer": "Establish a wide, stable base with your hips back and weight distributed evenly between both feet. Without a secure base, committing both hands to grip fighting the lapel creates immediate sweep vulnerability. Your base must be solid enough to withstand off-balancing attempts throughout the entire stripping sequence before you begin any grip work."
+      },
+      {
+        "question": "Why should you break secondary grips before attacking the primary lapel connection?",
+        "answer": "Secondary grips such as collar, sleeve, and pant control enable the bottom player to maintain offensive pressure and sweep threats during your strip attempt. If these grips remain active, the bottom player can launch attacks while you are occupied with the lapel, making safe stripping nearly impossible. Isolating the lapel grip first removes their counter-attack capability."
+      },
+      {
+        "question": "Your opponent immediately re-feeds the lapel after you strip it - what adjustment prevents this?",
+        "answer": "You must control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area, pin it against your body with your arm, or step your leg completely clear of the dangling material. The critical error is releasing the lapel after stripping without securing it, which gives the bottom player a free opportunity to re-feed and re-establish worm guard."
+      },
+      {
+        "question": "What is the primary risk during the lapel stripping sequence and how do you mitigate it?",
+        "answer": "The primary risk is sweep vulnerability when both hands are committed to grip fighting rather than maintaining base. Mitigate this by keeping a wide stance throughout the sequence, keeping your center of gravity low, and being prepared to abandon the strip instantly if you feel significant off-balancing. Never sacrifice base stability for grip fighting progress."
+      },
+      {
+        "question": "How do you know the lapel strip was successful enough to transition to passing?",
+        "answer": "The strip is successful when your previously trapped leg can move freely without any pulling resistance from the lapel wrap. Visual indicators include the lapel hanging slack rather than taut, and your leg moving independently of the bottom player's hip movements. At this point, immediately establish passing grips before they can re-establish any form of lapel control."
+      },
+      {
+        "question": "When should you abandon the lapel strip and try a different approach to passing worm guard?",
+        "answer": "Abandon the strip after two or three failed attempts where the bottom player consistently re-feeds or reinforces the grip faster than you can break it. Also abandon if sweep threats become too dangerous to manage while grip fighting. Alternative approaches include backstep passes, long step passes, or standing back to reset and approach the worm guard from a different angle entirely."
+      },
+      {
+        "question": "What grip should you establish immediately after a successful lapel strip?",
+        "answer": "Establish pant grips at the knees or ankle level to control the bottom player's legs and prevent them from establishing an alternative guard. Alternatively, a collar grip combined with a pant grip gives you the control needed to initiate a toreando or leg drag pass. The key is establishing passing grips within one to two seconds of clearing the lapel before the bottom player recovers."
+      }
+    ],
+    "safety_considerations": "The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints."
+  },
+  "defender": {
+    "name": "Lapel Strip from Worm Guard Defender",
+    "description": "Defend against the Lapel Strip from Worm Guard. Guide to maintaining worm guard control, preventing lapel strips, and countering with sweeps during grip fighting.",
+    "overview": "The Lapel Strip from Worm Guard Defender represents the worm guard bottom player's perspective when the top player attempts to systematically remove the lapel wrap that defines the position. Defending against the strip is fundamental to maintaining worm guard viability, as losing the lapel connection collapses the entire guard structure into a standard open guard with reduced offensive options. The defender must balance between actively reinforcing the lapel tension, threatening sweeps to punish the stripping attempt, and recognizing when to transition to alternative guards if the strip partially succeeds. Understanding the strip mechanics from the defender's perspective reveals critical timing windows where the top player is most vulnerable to sweeps and counter-attacks during their grip fighting commitment.",
+    "key_principles": [
+      "Maintain constant tension on the lapel wrap to make grip stripping mechanically difficult for the top player",
+      "Threaten sweeps whenever the top player commits both hands to grip fighting to punish the stripping attempt and force them to choose between stripping and defending",
+      "Reinforce the primary lapel grip with secondary grips and body positioning to create layered control that requires multiple sequential breaks",
+      "Monitor the lapel routing path and immediately re-feed any slack that develops during the exchange before the top player can capitalize",
+      "Recognize when the lapel control is truly compromised and transition to alternative guards before losing all structural control",
+      "Use the free leg to manage distance and push the top player's hips back, making it harder for them to reach your gripping hand"
+    ],
+    "recognition_cues": [
+      "Top player begins addressing your gripping hand with both of theirs, indicating a deliberate two-on-one strip attempt rather than a passing sequence",
+      "Top player widens their stance and drops their hips back, establishing a defensive base specifically designed to resist sweeps during grip fighting",
+      "Top player's eyes and hand movement focus on the lapel routing path and your grip rather than on traditional passing angles or leg control",
+      "Top player systematically breaks your secondary collar or sleeve grips first in a deliberate sequence before targeting the lapel connection",
+      "Top player steps their trapped leg backward while reaching for the lapel material around their shin, attempting to extract the leg from the wrap"
+    ],
+    "defensive_options": [
+      {
+        "action": "Reinforce lapel grip with second hand and increase tension to resist the strip",
+        "when_to_use": "Immediately when you recognize the top player is targeting your lapel grip with a two-on-one break",
+        "targets_outcome": "Worm Guard/Top",
+        "if_successful": "Top player's strip attempt fails and they remain stuck in your worm guard with compromised base from the grip fighting effort",
+        "risk": "Committing second hand to lapel reinforcement temporarily reduces your ability to threaten sweeps and attacks"
+      },
+      {
+        "action": "Execute a sweep while both of the top player's hands are committed to grip fighting the lapel",
+        "when_to_use": "When the top player commits both hands to the lapel strip and their base narrows or weight shifts forward creating an opening",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "You sweep the top player and establish top position, converting their passing preparation into your scoring opportunity",
+        "risk": "If the sweep fails while your grip is weakened from the struggle, the top player may complete the strip during your recovery"
+      },
+      {
+        "action": "Immediately re-feed the lapel after a partial strip before the top player secures the freed material",
+        "when_to_use": "The moment the top player breaks your grip but before they have pulled the lapel completely free from under their leg or secured it",
+        "targets_outcome": "Worm Guard/Top",
+        "if_successful": "You re-establish full worm guard control, forcing the top player to restart the entire stripping sequence from the beginning",
+        "risk": "The top player anticipates the re-feed and controls the lapel material, preventing re-establishment permanently"
+      },
+      {
+        "action": "Transition to lasso guard or spider guard using remaining grips before complete lapel loss",
+        "when_to_use": "When you recognize the lapel control is significantly compromised and re-feeding is unlikely to succeed in time",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You maintain a viable guard position with active leg and grip control despite losing the worm guard configuration",
+        "risk": "The transition window is narrow and the top player may initiate a fast pass during the guard change"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Worm Guard/Top",
+        "how": "Maintain constant tension on the lapel wrap and reinforce with your second hand when the strip is detected. Use your free leg to push the top player's hips back, making it harder for them to reach your grip. Monitor the lapel path and immediately tighten any slack that develops. Force the top player to abandon the strip by making sweep threats too dangerous to ignore."
+      },
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Time your sweep attempt for the exact moment both of the top player's hands are committed to grip fighting the lapel. Their base is at its weakest when fully occupied with the strip. Use hip movement and the remaining lapel tension as a lever to off-balance them in the direction their compromised base cannot recover. The sweep is most effective when they lean forward to reach the grip."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively while the top player systematically strips grips without threatening any counter-attacks or sweeps",
+        "consequence": "The top player can focus entirely on grip fighting without worrying about sweeps, making the strip inevitable given enough time and sequential attempts",
+        "correction": "Actively threaten sweeps whenever the top player commits hands to grip fighting. Make the strip attempt costly by forcing them to choose between continuing the strip and defending sweeps."
+      },
+      {
+        "error": "Using only grip strength to resist the strip instead of combining structural body positioning with grip reinforcement",
+        "consequence": "Pure grip strength fatigues quickly, especially against a methodical two-on-one break. Once grip endurance fails, the strip succeeds easily without any mechanical resistance remaining.",
+        "correction": "Supplement grip strength with shin trapping, foot hooking, and hip positioning that mechanically reinforces the lapel connection. Use your body structure to hold the lapel rather than relying solely on your fingers and forearms."
+      },
+      {
+        "error": "Failing to recognize when the lapel control is truly compromised and continuing to fight for a broken worm guard position",
+        "consequence": "Wasting energy trying to maintain a worm guard that has already structurally failed while the top player passes during your futile recovery attempts",
+        "correction": "Develop sensitivity to recognize when lapel tension is irreversibly lost. Immediately transition to an alternative guard such as spider, lasso, or De La Riva while you still have grips and positioning to work with."
+      },
+      {
+        "error": "Letting the top player break secondary collar and sleeve grips without actively fighting to maintain them",
+        "consequence": "Losing secondary grips isolates your lapel grip as the sole point of control that the top player can focus all their effort on breaking sequentially",
+        "correction": "Fight to maintain secondary grips as vigorously as the primary lapel grip. When one is stripped, immediately re-establish a replacement grip to maintain the layered control system that makes worm guard effective."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a lapel strip rather than a standard pass?",
+        "answer": "The earliest cue is the top player establishing a wider-than-normal stance and dropping their hips back, which signals they are building a defensive base before committing hands to grip fighting rather than initiating a passing sequence. This postural adjustment occurs before they reach for your grip, giving you time to preemptively reinforce your lapel hold and prepare sweep threats."
+      },
+      {
+        "question": "How do you maintain lapel tension when your opponent is actively stripping your grip with a two-on-one break?",
+        "answer": "Reinforce with your second hand on the lapel tail to create a grip advantage. Simultaneously curl your wrist inward and pull the lapel deeper around your shin to increase the structural reinforcement. Use your leg to trap the lapel material against your body, making it mechanically harder to extract even if they break your hand grip through superior grip fighting."
+      },
+      {
+        "question": "When should you abandon worm guard retention and transition to an alternative guard during a strip attempt?",
+        "answer": "Transition when you feel significant slack in the lapel that you cannot recover by tightening, when the top player has already cleared the lapel from under their leg and is holding it away from you, or when your grip endurance is failing and continued resistance will leave you without any guard structure at all. The transition must happen while you still have at least one useful grip to build the next guard from."
+      },
+      {
+        "question": "Your opponent breaks your lapel grip but has not yet cleared the material from under their leg - what is your best response?",
+        "answer": "Immediately reach for the dangling lapel material and re-grip it before the top player can pull their leg free or tuck the material away. This re-feed window is typically less than two seconds. If you can re-grip and re-tension the lapel, the strip resets completely and the top player must restart the entire sequence, which is demoralizing and energy-consuming for them."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Reinforcement Awareness",
+        "focus": "Recognizing strip attempts and reinforcing the lapel grip with structural body positioning",
+        "description": "Partner attempts lapel strips at low intensity while you focus on recognizing the cues and reinforcing your grip. Practice adding your second hand, curling the wrist, and using your shin to trap the material. No sweeps yet, purely defensive grip retention to build the foundational mechanics."
+      },
+      {
+        "phase": "Phase 2: Counter-Sweep Timing",
+        "focus": "Executing sweeps during the opponent's grip fighting commitment windows",
+        "description": "Partner attempts strips at moderate intensity. Practice timing sweep attempts for the moment both their hands are committed to the grip break and their base is compromised. Focus on reading the base vulnerability window and executing worm guard sweeps with proper timing."
+      },
+      {
+        "phase": "Phase 3: Guard Transition Awareness",
+        "focus": "Recognizing compromised lapel control and smoothly transitioning to alternative guards",
+        "description": "Partner successfully strips the lapel at varying speeds. Practice the transition from worm guard to spider guard, lasso guard, or De La Riva guard while maintaining some form of control throughout. Focus on the timing decision of when to abandon worm guard versus when to fight for re-establishment."
+      },
+      {
+        "phase": "Phase 4: Full Resistance Positional Sparring",
+        "focus": "Defending lapel strips under full competition pressure with all tools available",
+        "description": "Full positional sparring starting from established worm guard. Partner attempts to strip and pass while you use all defensive tools: grip reinforcement, sweep threats, re-feeds, and guard transitions. Track how long you maintain worm guard and what position you end up in when it eventually fails."
+      }
+    ]
+  }
 }

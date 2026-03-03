@@ -265,39 +265,43 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 15
+        "attempt_probability": 19
       },
       {
         "transition": "S-Mount Transition",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Mounted Triangle",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Americana",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Kimura",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Gift Wrap Transition",
         "attempt_probability": 12
       },
       {
+        "transition": "Americana",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Cross Collar Choke",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Kimura",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Gift Wrap Transition",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Back Take from Top",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Americana from Modified Mount",
+        "attempt_probability": 4
       }
     ],
     "knowledge_assessment": [
@@ -345,7 +349,7 @@
     ],
     "overview": "Facing Modified Mount from the bottom requires understanding how the asymmetric weight distribution creates both vulnerabilities and opportunities compared to standard mount defense. The position's defining characteristic - one posted leg and one across-body knee - fundamentally alters the escape dynamics because weight is distributed unevenly, creating a directional bias in available escape paths. The posted leg side often presents the primary escape opportunity because the opponent's base extension creates space that can be exploited through proper hip escape mechanics, though this same posting provides them stability against explosive movements. The across-body knee maintains significant control and should be respected as a structural barrier requiring systematic dismantling through frame creation and hip movement. Modified Mount escapes require reading which leg is posted and adjusting the escape direction accordingly - attempting to escape toward the across-body knee often proves futile while escape toward the posted leg leverages the position's inherent weakness. The primary defensive concern involves the increased armbar threat that Modified Mount naturally creates, as the position's asymmetry funnels directly into armbar mechanics when the top practitioner swings the posted leg over the head. Frame placement becomes critical, focusing on creating barriers between the opponent's hips and your torso while protecting the near-side arm from isolation. The mental approach involves recognizing Modified Mount as a transitional opportunity - the position's reduced control compared to standard mount means the escape window may be larger, but the submission threats remain immediate and severe. Energy management remains paramount, as Modified Mount allows the top practitioner to maintain control with less effort than standard mount while the bottom defender must work systematically to exploit the asymmetric structure. Success requires patience to identify the correct escape direction, technical precision in execution, and constant awareness of the armbar threat that defines this position's offensive potential.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -409,7 +413,7 @@
         "condition": "If opponent transitions toward S-mount or technical mount",
         "actions": [
           {
-            "technique": "Turtle Transition",
+            "technique": "Arm Extraction to Turtle",
             "target": "Turtle",
             "probability": 55
           },
@@ -561,7 +565,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Turtle Transition",
+        "transition": "Arm Extraction to Turtle",
         "attempt_probability": 9
       },
       {

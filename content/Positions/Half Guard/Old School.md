@@ -93,19 +93,21 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (41% of attempts)
+- **[[Old School Sweep]]** (46% of attempts)
 
-- **[[Electric Chair Transition]]** (15% of attempts)
+- **[[Electric Chair Transition]]** (14% of attempts)
 
-- **[[Half Guard to Back Take]]** (13% of attempts)
+- **[[Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Dogfight Position]]** (10% of attempts)
+- **[[Dogfight Position]]** (9% of attempts)
 
-- **[[Old School Sweep from Bottom]]** (5% of attempts)
+- **[[Old School Sweep from Bottom]]** (4% of attempts)
 
-- **[[Old School to Half Guard]]** (3% of attempts)
+- **[[Old School to Half Guard]]** (2% of attempts)
+
+- **[[Old School Position Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,19 +172,21 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (28% of attempts)
+- **[[Half Guard Pass]]** (33% of attempts)
 
-- **[[Knee Slice Pass]]** (18% of attempts)
+- **[[Knee Slice Pass]]** (17% of attempts)
 
-- **[[Crossface Pass]]** (22% of attempts)
+- **[[Crossface Pass]]** (21% of attempts)
 
-- **[[Lockdown Break and Pass]]** (18% of attempts)
+- **[[Lockdown Break and Pass]]** (17% of attempts)
 
-- **[[Darce from Lockdown Counter]]** (8% of attempts)
+- **[[Darce from Lockdown Counter]]** (7% of attempts)
 
-- **[[Crossface from Old School]]** (4% of attempts)
+- **[[Crossface from Old School]]** (3% of attempts)
 
-- **[[Defend Old School Sweep]]** (2% of attempts)
+- **[[Defend Old School Sweep]]** (1% of attempts)
+
+- **[[Old School Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

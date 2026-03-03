@@ -1,13 +1,393 @@
 {
   "name": "Turn and Extract from Kneebar",
-  "description": "",
-  "tags": [],
+  "description": "Learn the turn and extract escape from kneebar control in BJJ. Complete guide covering rotation mechanics, leg extraction timing, and defensive transitions to turtle.",
+  "tags": [
+    "kneebar defense",
+    "leg lock escape",
+    "escape",
+    "defensive technique",
+    "leg entanglement",
+    "no-gi",
+    "advanced"
+  ],
   "from_position": "Kneebar Control/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 100,
+      "probability": 45,
       "result": "success"
+    },
+    {
+      "to": "Kneebar Control/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 20,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 45,
+  "overview": "The turn and extract from kneebar is a fundamental defensive escape used when an opponent has established kneebar control from bottom position. The technique centers on rotating the body toward the attacker's hips to reduce the hyperextension angle on the knee joint, then systematically extracting the trapped leg from the entanglement. This escape addresses one of the most common leg lock control positions in modern grappling and represents a critical skill for any practitioner training in leg lock defense systems.\n\nThe mechanics rely on two coordinated actions: rotation and extraction. The rotation component involves turning the hips and torso toward the kneebar attacker, which collapses the extension angle and immediately relieves submission pressure. This must happen before the attacker achieves full extension, making timing the decisive factor. The extraction phase requires using the freed rotation angle to pull the knee past the attacker's hip line while posting with the hands to create a base for movement into turtle position.\n\nStrategically, the turn and extract occupies a specific window in the kneebar defense hierarchy. It sits between early prevention and last-resort defenses like the boot defense or straightening the leg against the finish. The technique works best in the mid-phase of kneebar attacks, after control is established but before the attacker has broken defensive posture and achieved full extension. Practitioners who master this escape force kneebar attackers to commit more fully to control before attempting the finish, which in turn opens other defensive options and transitional pathways.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Inside Turn Extraction",
+      "description": "Rotate toward the inside of the attacker's body, threading your torso between their legs as you extract. This variation works best when the attacker has inside ashi garami control and their outside leg is relatively loose, allowing you to turn through the gap between their legs.",
+      "when_to_use": "When attacker has inside ashi control with a loose outside leg configuration"
+    },
+    {
+      "variant_name": "Outside Spin Extraction",
+      "description": "Rotate to the outside of the attacker's body, spinning away from their leg entanglement while pulling the knee free. Requires more explosive hip movement but avoids threading through the attacker's legs, reducing the risk of getting caught in saddle during the turn.",
+      "when_to_use": "When attacker has outside ashi control or when inside turn path is blocked by tight entanglement"
+    },
+    {
+      "variant_name": "Standing Extract",
+      "description": "Combine the rotation with an upward drive to standing position rather than dropping to turtle. Post on both hands, rotate and extract the leg, then drive up to a standing base. Higher risk but avoids the vulnerable turtle position entirely.",
+      "when_to_use": "When attacker's leg entanglement is loose and you have strong base to drive upward during extraction"
+    }
+  ],
+  "position_integration": "The turn and extract escape connects the kneebar control position to turtle recovery within the broader leg lock defense framework. It serves as the primary positional escape from kneebar attacks, complementing submission-specific defenses like the straighten leg defense and boot-style defenses. Within a complete leg lock defense system, this escape is the go-to option when prevention has failed but the submission has not yet been locked tight. It chains naturally into turtle recovery sequences and guard re-establishment, making it a critical link between leg entanglement defense and positional recovery. The technique also integrates with broader scramble awareness, as a well-timed turn and extract can create momentum for immediate guard recovery rather than settling in turtle.",
+  "conditions": [
+    "Opponent has established kneebar control but has not achieved full extension on the knee joint",
+    "Defender retains enough hip mobility to initiate rotation toward the attacker",
+    "At least one hand is free to post on the mat for base establishment",
+    "The kneebar attacker's leg entanglement allows some rotational movement of the defender's hips"
+  ],
+  "related_content": [
+    {
+      "name": "Kneebar Control",
+      "relationship": "Source position from which this escape is initiated"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Primary target position after successful leg extraction"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Counter position attacker may achieve if turn exposes leg threading opportunity"
+    },
+    {
+      "name": "Straighten Leg Kneebar Defense",
+      "relationship": "Alternative kneebar defense using linear resistance rather than rotation"
+    },
+    {
+      "name": "Kneebar Control Maintenance",
+      "relationship": "Attacker's technique for preventing this escape"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Common leg entanglement configuration from which kneebar attacks originate"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related leg entanglement escape sharing similar defensive principles"
+    },
+    {
+      "name": "Reversal from Kneebar Control",
+      "relationship": "Alternative escape option that reverses position rather than extracting to turtle"
+    },
+    {
+      "name": "Kneebar to Ashi Garami",
+      "relationship": "Attacker's transition option when kneebar control weakens during escape attempt"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative recovery position accessible from turtle after successful extraction"
+    }
+  ],
+  "attacker": {
+    "name": "Turn and Extract from Kneebar Attacker",
+    "description": "Master the turn and extract escape from kneebar control. Step-by-step guide covering hip rotation mechanics, leg extraction technique, and safe transition to turtle position.",
+    "overview": "The turn and extract is the primary escape technique when caught in kneebar control from an opponent attacking from bottom position. As the person whose knee is under attack, your goal is to rotate your body toward the attacker to collapse the hyperextension angle, then systematically free the captured leg and reach turtle position. This escape requires precise timing, explosive hip rotation, and awareness of counter-attack opportunities the attacker may exploit during your movement. Mastering this technique is essential for any practitioner who regularly faces leg lock attacks in training or competition, as it provides a reliable pathway out of one of the most common leg lock control positions.",
+    "key_principles": [
+      "Rotation must precede extraction - never attempt to pull the leg out without turning first to collapse the extension angle",
+      "Hip rotation toward the attacker collapses the hyperextension angle and immediately relieves submission pressure on the knee",
+      "Timing is the decisive factor - execute before the attacker achieves full extension when the escape becomes significantly harder",
+      "Posting hands establish base for transitioning to turtle, preventing you from being flat during extraction",
+      "Maintain defensive foot position throughout to prevent the attacker from switching to heel hook during rotation",
+      "Speed of execution matters more than strength - explosive committed rotation defeats grip strength"
+    ],
+    "setup_requirements": [
+      "Attacker has established kneebar control but has not achieved full hyperextension on the knee joint",
+      "Defender can identify the direction of kneebar extension pressure to determine optimal rotation direction",
+      "At least one hand is free to post on the mat for base establishment during and after rotation",
+      "Hips retain enough mobility to initiate rotation despite the leg entanglement configuration",
+      "Defender has assessed that the kneebar is not yet fully locked, making rotation viable before committing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Assess kneebar angle and rotation direction",
+        "description": "Identify the direction of extension pressure being applied to your knee joint and determine the optimal rotation direction. Feel whether the attacker's hips are driving directly into the back of the knee or at an angle, which dictates your turning path toward their body."
+      },
+      {
+        "step_number": 2,
+        "action": "Post free hand and create initial frame",
+        "description": "Use your free hand to post firmly on the mat while creating a frame against the attacker's hip or torso. This frame establishes the space necessary to initiate hip rotation without being pulled deeper into the kneebar control configuration."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate explosive hip rotation toward attacker",
+        "description": "Turn your hips decisively toward the attacker's body, rotating the captured knee away from the extension line. This is the single most critical movement in the escape because it immediately neutralizes the hyperextension threat by collapsing the lever angle."
+      },
+      {
+        "step_number": 4,
+        "action": "Bend captured knee and pull heel to glute",
+        "description": "As you rotate, actively bend the captured knee and pull the heel toward your glute to reduce the lever arm available to the attacker. The combination of rotation and knee bend creates maximum slack in their grip configuration and prevents re-extension."
+      },
+      {
+        "step_number": 5,
+        "action": "Extract leg past attacker's hip line",
+        "description": "Drive the knee past the attacker's hip line using the rotation momentum, pulling the leg free from their grip and leg entanglement. Use your posting hand for additional base and leverage throughout the extraction phase of the movement."
+      },
+      {
+        "step_number": 6,
+        "action": "Establish turtle base immediately",
+        "description": "As the leg clears the entanglement, immediately establish a four-point turtle base with hands and knees on the mat. Protect your neck by tucking your chin and keep elbows tight to ribs to prevent immediate back take attempts from the attacker."
+      },
+      {
+        "step_number": 7,
+        "action": "Create distance and maintain defensive posture",
+        "description": "Drive forward from turtle position to create separation from the attacker, preventing immediate re-capture of your leg or transition to alternative leg attacks. Maintain tight defensive structure while creating enough distance to begin working toward guard recovery or standing."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Attacker tightens grip and drives hips forward aggressively to maintain the extension angle during rotation attempt",
+        "effectiveness": "High",
+        "your_response": "Increase rotation speed with explosive hip movement to overcome the grip before they can fully re-establish extension pressure",
+        "targets_outcome": "Kneebar Control/Bottom"
+      },
+      {
+        "counter": "Attacker threads legs to transition to saddle position during the rotation, exploiting the space created by turning",
+        "effectiveness": "Medium",
+        "your_response": "Keep legs tight together during rotation and prevent leg threading by maintaining inside knee pressure against their thigh",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Attacker switches grip to attack the heel as rotation exposes it, transitioning toward heel hook",
+        "effectiveness": "Medium",
+        "your_response": "Keep foot tucked with toes pointed toward shin throughout rotation, never allowing the foot to flare outward and expose the heel",
+        "targets_outcome": "Kneebar Control/Bottom"
+      },
+      {
+        "counter": "Attacker follows the rotation and re-captures the leg in the same kneebar configuration from a new angle",
+        "effectiveness": "Medium",
+        "your_response": "Complete the extraction with maximum speed and immediately establish turtle base before re-capture is possible",
+        "targets_outcome": "Kneebar Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pull the leg straight out without rotating first",
+        "consequence": "Extension angle remains intact and the attacker can easily re-grip and finish the kneebar as force is applied directly against their strongest control line",
+        "correction": "Always initiate hip rotation toward the attacker before attempting any leg extraction, as rotation collapses the angle that makes the kneebar effective"
+      },
+      {
+        "error": "Rotating too slowly and allowing the attacker time to adjust their grip and positioning",
+        "consequence": "Attacker tightens control during the slow rotation, negating the escape attempt and potentially achieving a deeper finish position",
+        "correction": "Commit to explosive rotation as a single decisive movement rather than a gradual turn that gives the attacker time to react"
+      },
+      {
+        "error": "Failing to bend the captured knee during the extraction phase",
+        "consequence": "A straight leg is significantly easier for the attacker to control and creates a longer lever arm they can use to re-establish the kneebar",
+        "correction": "Actively pull the heel toward your glute throughout the entire rotation and extraction sequence to minimize the attackable lever"
+      },
+      {
+        "error": "Not establishing turtle base immediately after the leg clears the entanglement",
+        "consequence": "Attacker re-captures the leg or transitions to alternative attacks while you remain flat and without base on the mat",
+        "correction": "Drive immediately to four-point turtle base the instant the leg clears, treating the base establishment as part of the extraction rather than a separate step"
+      },
+      {
+        "error": "Rotating away from the attacker instead of toward their body",
+        "consequence": "Rotation away increases the extension angle on the knee, making the kneebar tighter and significantly more dangerous",
+        "correction": "Always rotate toward the attacker's body to collapse the extension angle, which is the fundamental principle that makes this escape work"
+      },
+      {
+        "error": "Neglecting to protect the heel and foot position during rotation",
+        "consequence": "Exposed heel allows the attacker to switch to a heel hook mid-escape, turning a defensive escape into an even worse situation",
+        "correction": "Keep foot tucked with toes pointed toward the shin throughout the entire rotation, never letting the foot flare outward"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Static Rotation Mechanics",
+        "focus": "Hip rotation direction and knee bend mechanics",
+        "description": "Partner holds light kneebar control while you practice hip rotation without resistance, focusing on correct rotation direction toward the attacker, knee bend timing, and foot protection throughout the movement"
+      },
+      {
+        "phase": "Phase 2: Controlled Extraction with Resistance",
+        "focus": "Combining rotation with leg extraction",
+        "description": "Partner holds moderate kneebar control and provides graduated resistance. Work on combining explosive rotation with extraction at increasing speeds, developing the coordination between hip turn, knee bend, and leg pull"
+      },
+      {
+        "phase": "Phase 3: Full Escape to Turtle Sequence",
+        "focus": "Complete escape chain including turtle establishment",
+        "description": "Execute the full escape sequence from kneebar control through to turtle base establishment with progressive resistance. Focus on smooth transitions between rotation, extraction, and base, training it as one continuous movement"
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Realistic timing and decision-making",
+        "description": "Start in kneebar control with full resistance. Defender must escape within 15 seconds or reset. Develops realistic timing, commitment decisions, and the ability to chain into alternative defenses when the turn and extract is countered"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the most critical direction of hip rotation when escaping a kneebar and why?",
+        "answer": "Rotate toward the attacker's body, which collapses the hyperextension angle on the knee joint. Rotating away increases the extension angle and makes the kneebar tighter and more dangerous. The hip rotation toward the attacker shortens the lever arm and creates slack in the attacker's grip configuration, immediately reducing submission pressure. This single mechanical principle is the foundation of the entire escape."
+      },
+      {
+        "question": "Your opponent has tight kneebar control and begins driving their hips forward for the finish - what is your immediate response?",
+        "answer": "Immediately initiate explosive hip rotation toward the attacker while simultaneously bending the captured knee and pulling the heel toward your glute. Post your free hand on the mat for base. The key is committing fully to the rotation before the extension reaches a critical angle where the knee is at risk. Hesitation allows the attacker to achieve full extension, at which point this escape becomes significantly more dangerous to attempt and you should consider tapping."
+      },
+      {
+        "question": "What grip configuration on your leg makes the turn and extract most difficult to execute?",
+        "answer": "A tight figure-four grip with the attacker's arms positioned around the lower calf, combined with their hips pressed directly against the back of the knee joint. This configuration creates maximum leverage and makes rotation harder because the grip is close to the fulcrum point. When facing this grip, you need more explosive rotation and may need to address the grip pressure with your free hand before completing the extraction by pushing against their clasped hands."
+      },
+      {
+        "question": "During the turn and extract, what is the primary risk to your heel and how do you mitigate it?",
+        "answer": "The rotation can expose the heel to the attacker, creating an opportunity for them to switch to a heel hook which attacks through rotation rather than extension. Mitigate this by keeping the foot tucked with toes pointed toward your shin throughout the rotation, maintaining the foot as close to your glute as possible. Never allow the foot to flare outward during the turn, as this presents the heel directly to the attacker's hands and makes the switch trivially easy."
+      },
+      {
+        "question": "What conditions must exist before you can successfully attempt the turn and extract escape?",
+        "answer": "The attacker must not have achieved full extension on the knee, as attempting to turn against a fully locked kneebar is dangerous and risks injury. Your hips must retain enough mobility to rotate, meaning the attacker's leg entanglement cannot be completely pinning your hips flat. You need at least one hand free to post for base establishment during the turn. These conditions create the viable window for the escape, which closes as the attacker tightens control."
+      },
+      {
+        "question": "Your turn and extract attempt fails and the attacker re-grips your leg - what should you do next?",
+        "answer": "Immediately reassess rather than repeating the same escape. If the attacker's grip has loosened even slightly from your attempt, try a second rotation with greater explosiveness and commitment. If they have actually tightened their control beyond the pre-attempt level, switch to an alternative defense such as the straighten leg defense to address the extension directly, rather than repeatedly attempting rotation. Chain your defenses together so each attempt flows into the next option without resetting to static defense."
+      },
+      {
+        "question": "How does your escape strategy differ when the kneebar attacker has inside ashi versus outside ashi control?",
+        "answer": "With inside ashi control, rotate toward the side where the attacker's inside leg is hooking, as this is the weaker side of their entanglement configuration and allows you to thread past their legs more easily. With outside ashi, rotate toward the attacker's body on the outside leg side to collapse the angle. The key difference is the rotation arc needed: inside ashi requires a tighter rotation while outside ashi allows a wider turning motion. In both cases, rotating to collapse the extension angle remains the core principle."
+      },
+      {
+        "question": "After successfully extracting your leg, why is establishing turtle base immediately critical rather than attempting to stand?",
+        "answer": "Turtle base provides immediate four-point stability that prevents the attacker from re-capturing your leg during the vulnerable transition moment. Standing attempts require basing on one leg, leaving the other momentarily exposed to re-capture or single leg attacks. Turtle also protects against the attacker diving on a takedown as you try to stand. Establish turtle first to create distance and defensive structure, then work toward standing or guard recovery from the more stable four-point platform."
+      }
+    ],
+    "safety_considerations": "The turn and extract must be executed with careful awareness of knee joint loading during the rotation. Never force the rotation if the attacker has achieved full hyperextension, as this can create dangerous rotational stress on an already compromised knee. Tap immediately if you feel sharp pain in the knee joint during the escape attempt. In training, communicate with your partner about resistance levels and practice the rotation at controlled speeds until mechanics are well-established. The knee is particularly vulnerable during this escape because rotation occurs while the joint is under extension stress, creating compound force vectors on the ligaments."
+  },
+  "defender": {
+    "name": "Turn and Extract from Kneebar Defender",
+    "description": "Counter the turn and extract escape from kneebar control. Learn to recognize rotation cues, maintain finishing pressure, and transition to saddle when escape is attempted.",
+    "overview": "When your opponent attempts to turn and extract from your kneebar control, your objective is to maintain the hyperextension angle and prevent their hip rotation from collapsing your finishing position. As the kneebar attacker defending against this escape, you must recognize the early signs of the escape attempt and respond with increased hip drive, grip tightening, or strategic transitions to saddle position. Understanding how to counter the turn and extract is critical for maintaining offensive pressure in leg lock exchanges and converting defensive reactions into better attacking positions rather than losing control entirely.",
+    "key_principles": [
+      "Maintain tight hip connection to the opponent's knee to prevent rotation from collapsing the extension angle",
+      "Drive hips forward aggressively at the first sign of turning to increase extension pressure and counter the rotation",
+      "Control the opponent's free posting arm when possible to limit their base options for the escape",
+      "Keep grip configuration tight with elbows squeezed together to resist the extraction force",
+      "Anticipate the turn direction and use it to transition to saddle or alternative leg attacks rather than fighting the rotation head-on",
+      "Leg entanglement must restrict hip mobility broadly, not just hold the leg in place"
+    ],
+    "recognition_cues": [
+      "Opponent begins shifting weight to one hand, preparing to post on the mat for base establishment",
+      "Hip rotation initiates with a subtle weight shift before the full turn - opponent's torso starts angling toward you",
+      "Opponent begins actively bending the captured knee more aggressively, pulling the heel toward their glute",
+      "Free hand reaches deliberately for the mat rather than fighting your grip, signaling commitment to the escape",
+      "Opponent's breathing pattern changes as they prepare for the explosive rotation effort"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten grip and drive hips forward aggressively to maintain extension angle",
+        "when_to_use": "Immediately upon feeling the initial hip rotation or weight shift signaling the escape attempt",
+        "targets_outcome": "Kneebar Control/Bottom",
+        "if_successful": "Escape is stopped and kneebar control is maintained or deepened, potentially allowing a finish",
+        "risk": "Over-committing hips forward can compromise your own base if the opponent redirects"
+      },
+      {
+        "action": "Thread legs to transition to saddle position during the rotation",
+        "when_to_use": "When opponent commits fully to the rotation and creates space between their legs for your legs to thread through",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "Achieve saddle control with superior heel hook access, converting their escape into a worse position for them",
+        "risk": "Failed threading attempt may lose all leg control if you release the kneebar grip prematurely"
+      },
+      {
+        "action": "Switch grip to target the heel as rotation exposes the foot",
+        "when_to_use": "When opponent's foot flares outward during rotation, exposing the heel for a potential heel hook grip",
+        "targets_outcome": "Kneebar Control/Bottom",
+        "if_successful": "Transition to heel hook threat stops the escape and creates a more dangerous submission angle",
+        "risk": "Releasing the kneebar grip to switch attacks may allow the extraction to complete"
+      },
+      {
+        "action": "Follow the rotation and re-establish kneebar from the new angle",
+        "when_to_use": "When rotation partially succeeds but extraction is incomplete and you can maintain some grip contact",
+        "targets_outcome": "Kneebar Control/Bottom",
+        "if_successful": "Re-capture the leg in kneebar control from the adjusted angle without losing position",
+        "risk": "Delayed response or slow follow allows the opponent to complete extraction to turtle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Kneebar Control/Bottom",
+        "how": "Maintain tight grip with elbows squeezed together and drive hips forward aggressively at the first sign of rotation, keeping the extension angle intact and the leg trapped before the opponent can generate enough turning momentum"
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Use the opponent's rotation momentum to thread your legs into saddle configuration as space opens during their turn, converting their escape attempt into a superior attacking position with heel hook access"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively holding the kneebar grip without actively driving hips forward when rotation begins",
+        "consequence": "Opponent's explosive hip rotation generates enough momentum to overcome the static grip, and the leg is extracted",
+        "correction": "Actively drive hips forward and squeeze elbows tight together at the first tactile cue of hip rotation, matching their movement with increased pressure"
+      },
+      {
+        "error": "Failing to recognize the escape attempt until the rotation is already well underway",
+        "consequence": "Leg is partially or fully extracted before any defensive adjustment can be initiated, losing control",
+        "correction": "Monitor opponent's hip positioning and free hand movement for early rotation cues, responding to the preparation rather than the execution"
+      },
+      {
+        "error": "Releasing the grip entirely when the opponent begins rotating rather than adjusting",
+        "consequence": "Easy and complete extraction with no transitional attack opportunity, losing all offensive position",
+        "correction": "Maintain grip contact even during adjustment, using the rotation to transition to saddle or heel hook rather than abandoning all control"
+      },
+      {
+        "error": "Chasing the extracted leg after the opponent reaches turtle instead of transitioning to passing",
+        "consequence": "Sloppy re-engagement from a disadvantaged angle, likely ending in an unfavorable scramble",
+        "correction": "If the leg is fully extracted and opponent reaches turtle, immediately transition to turtle top attacks rather than attempting to re-enter a leg lock"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a turn and extract escape?",
+        "answer": "The earliest cue is feeling their hip begin to shift weight and rotate subtly, combined with their free hand reaching to post on the mat for base. Before the actual turn begins, you will feel a weight transfer as they load the posting arm. They may also begin bending the captured knee more aggressively, pulling the heel toward their body in preparation. Recognizing these pre-movement cues gives you critical time to preemptively tighten control before the explosive rotation phase."
+      },
+      {
+        "question": "Your opponent begins rotating and you feel your grip starting to slip - what immediate adjustment should you make?",
+        "answer": "Immediately drive your hips forward to increase the extension angle while squeezing your elbows tighter together around the leg. If the grip is truly slipping past recovery, transition to saddle by threading your legs during their rotation rather than fighting a losing grip battle. The rotation actually creates an opportunity for saddle entry because their turning motion opens space for your legs to thread through. Convert their escape attempt into your positional improvement rather than losing everything."
+      },
+      {
+        "question": "How should you adjust your control when you anticipate a turn and extract versus a straighten leg defense?",
+        "answer": "Against a turn and extract, focus on preventing hip rotation by keeping your leg entanglement tight around their thigh and driving hips forward to maintain the extension angle. Against a straighten leg defense, focus on arm grip positioning and breaking their knee bend through pulling mechanics. The key difference is the direction of defensive force: the turn and extract comes from lateral rotation while the straighten leg defense is direct linear resistance. Against the turn, your legs control their hips; against the straighten leg, your arms control the finish angle."
+      },
+      {
+        "question": "When is it strategically better to allow the turn and transition to saddle rather than fighting to maintain kneebar control?",
+        "answer": "Allow the transition to saddle when your kneebar grip has been significantly compromised and continuing to fight it will result in complete loss of leg control. If their rotation has already collapsed the extension angle beyond recovery, transitioning to saddle is a net positive because you gain access to heel hooks from a more secure and dangerous control position. The saddle offers superior control and higher-percentage finishing options than a weakened kneebar. Read the momentum and redirect rather than resist when the rotation battle is lost."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drills",
+        "focus": "Reading escape cues early",
+        "description": "Partner attempts turn and extract at varying speeds and intensities while you focus on identifying the earliest tactile and visual cues before they complete the rotation, building pattern recognition"
+      },
+      {
+        "phase": "Phase 2: Counter Transition to Saddle",
+        "focus": "Converting escape attempts into saddle entry",
+        "description": "Partner commits to rotation while you practice threading legs into saddle position, developing the timing for converting their escape attempt into an even more dangerous attacking position"
+      },
+      {
+        "phase": "Phase 3: Grip Retention Under Pressure",
+        "focus": "Maintaining control against explosive rotation",
+        "description": "Partner attempts full-speed turn and extract while you focus on grip adjustment and aggressive hip drive to prevent the escape, building grip endurance and reactive hip mechanics"
+      },
+      {
+        "phase": "Phase 4: Live Positional Defense",
+        "focus": "Full resistance decision-making",
+        "description": "Start in kneebar control with partner attempting any escape method. Maintain control, finish the submission, or transition to better position. Develops realistic reaction timing and strategic choices between maintaining and transitioning"
+      }
+    ]
+  }
 }

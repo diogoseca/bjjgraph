@@ -38,8 +38,8 @@ description: "Master the attacking perspective of straight ankle lock control. C
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute X-Guard to Ashi Garami",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
@@ -221,7 +221,7 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ### [[Outside Ashi Entry]] (11% of attempts)
 
-### [[X-Guard to Ashi Transition]] (6% of attempts)
+### [[X-Guard to Ashi Garami]] (6% of attempts)
 
 ### [[50-50 Entry from Standing]] (8% of attempts)
 

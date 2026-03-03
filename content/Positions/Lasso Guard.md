@@ -90,37 +90,31 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Sickle Sweep]]** (60% of attempts)
+- **[[Sickle Sweep]]** (48% of attempts)
 
-- **[[Triangle Setup]]** (13% of attempts)
+- **[[Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Omoplata Sweep]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (7% of attempts)
+- **[[De La Riva Sweep]]** (5% of attempts)
 
-- **[[Hook Sweep]]** (5% of attempts)
+- **[[Omoplata from Lasso]]** (5% of attempts)
+
+- **[[Hook Sweep]]** (4% of attempts)
+
+- **[[Lasso Sweep]]** (4% of attempts)
 
 - **[[X-Guard Sweep]]** (3% of attempts)
 
-- **[[Armbar Finish]]** (0% of attempts)
+- **[[Berimbolo Entry]]** (3% of attempts)
 
-- **[[Kimura Sweep]]** (0% of attempts)
+- **[[Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
 
-- **[[Transition to Russian Leg Lasso]]** (0% of attempts)
+- **[[Armbar Finish]]** (2% of attempts)
 
-- **[[Transition to Inverted Lasso Guard]]** (1% of attempts)
+- **[[Kimura Sweep]]** (2% of attempts)
 
-- **[[Berimbolo Entry]]** (0% of attempts)
-
-- **[[Guard Recovery]]** (0% of attempts)
-
-- **[[Lasso Guard to Inverted Lasso Guard]]** (0% of attempts)
-
-- **[[Lasso Guard to Russian Leg Lasso]]** (0% of attempts)
-
-- **[[Lasso Sweep]]** (0% of attempts)
-
-- **[[Omoplata from Lasso]]** (1% of attempts)
+- **[[Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
 
 ### Common Mistakes

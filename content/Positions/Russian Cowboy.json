@@ -445,7 +445,7 @@
             "probability": 50
           },
           {
-            "technique": "Turtle Transition",
+            "technique": "Arm Extraction to Turtle",
             "target": "Turtle",
             "probability": 55
           }
@@ -475,7 +475,7 @@
             "probability": 55
           },
           {
-            "technique": "Guard Recovery",
+            "technique": "Arm Recovery to Guard",
             "target": "Closed Guard",
             "probability": 45
           }
@@ -566,35 +566,39 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
-        "transition": "Turtle Transition",
-        "attempt_probability": 26
+        "transition": "Arm Extraction to Turtle",
+        "attempt_probability": 32
       },
       {
-        "transition": "Guard Recovery",
-        "attempt_probability": 12
+        "transition": "Arm Recovery to Guard",
+        "attempt_probability": 11
       },
       {
         "transition": "Hip Escape from Russian Cowboy",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Roll Escape from Russian Cowboy",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Escape from Russian Cowboy",
+        "attempt_probability": 1
       }
     ]
   }

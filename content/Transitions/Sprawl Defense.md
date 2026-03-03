@@ -211,7 +211,7 @@ The sprawl defense is the cornerstone of standing defense in Brazilian Jiu-Jitsu
 
 - [[Guard Pull]] - Alternative defensive response when sprawl timing is missed
 
-- [[Takedown Defense]] - Broader category of defensive techniques including sprawl
+- [[Turtle]] - Position opponent commonly ends up in after being sprawled on, creating front headlock and submission opportunities
 
 - [[Front Headlock to Guillotine]] - Submission path from sprawl position
 

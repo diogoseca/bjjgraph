@@ -368,16 +368,16 @@ The system should be trained in progressive phases, beginning with positional co
 - [[Inside Ashi Entry]] (Transition) - Primary entry method to establish chain starting position
 - [[Outside Ashi Entry]] (Transition) - Alternative entry when inside position is unavailable
 - [[Ashi Garami Escape]] (Transition) - Understanding escapes improves position maintenance and transition timing
-- [[X-Guard to Ashi Transition]] (Transition) - Common entry pathway from guard positions
+- [[X-Guard to Ashi Garami]] (Transition) - Common entry pathway from guard positions
 - [[Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
-- [[Leg Entanglement]] (Principle) - Fundamental concept underlying position maintenance in chain
+- [[Leg Entanglement]] (Position) - Fundamental positional concept underlying control maintenance in chain
 - [[Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
 - [[Transition Sequences]] (Principle) - Broader concept that includes submission-to-submission transitions
 - [[Dilemma Creation]] (Principle) - Strategic concept of creating no-win defensive scenarios
 - [[Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
 - [[Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions
-- [[Leverage Principles]] (Principle) - Biomechanical principles underlying both submissions in chain
-- [[System Building]] (Principle) - Meta-concept that guides development of interconnected techniques
+- [[Biomechanical Principles]] (Principle) - Biomechanical principles underlying both submissions in chain
+- [[Drilling Methodology]] (Principle) - Training methodology that guides progressive skill development in the system
 - [[Danaher Leg Lock System]] (System) - Comprehensive system that this chain is fundamental component of
 
 

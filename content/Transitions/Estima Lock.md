@@ -195,7 +195,7 @@ The Estima Lock serves as a direct submission finish within the broader leg enta
 
 - [[Toe Hold]] - Chain attack when opponent turns foot away from Estima Lock angle
 
-- [[Straight Ankle Lock]] - Alternative footlock from similar leg control configuration
+- [[Straight Ankle Lock Control]] - Alternative footlock control position with similar leg isolation configuration
 
 - [[Ashi Garami]] - Transition target when opponent creates space defending the finish
 

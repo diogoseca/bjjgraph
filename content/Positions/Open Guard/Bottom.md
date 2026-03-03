@@ -20,38 +20,38 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 99% of exchanges from this position.",
+      "name": "Execute Sickle Sweep",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Tripod Sweep",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 0% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,55 +206,41 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Scissor Sweep]] (0% of attempts)
+### [[Butterfly Sweep]] (27% of attempts)
 
-### [[Hip Bump Sweep]] (0% of attempts)
+### [[De La Riva Sweep]] (4% of attempts)
 
-### [[Butterfly Sweep]] (99% of attempts)
+### [[Sickle Sweep]] (3% of attempts)
 
-### [[De La Riva Sweep]] (0% of attempts)
+### [[Tripod Sweep]] (4% of attempts)
 
-### [[Sickle Sweep]] (0% of attempts)
+### [[Elevator Sweep]] (2% of attempts)
 
-### [[Tripod Sweep]] (0% of attempts)
+### [[Omoplata Sweep]] (2% of attempts)
 
-### [[Elevator Sweep]] (0% of attempts)
+### [[Kimura Sweep]] (2% of attempts)
 
-### [[Omoplata Sweep]] (0% of attempts)
+### [[Armbar Finish]] (2% of attempts)
 
-### [[Closed Guard to Triangle]] (0% of attempts)
+### [[Scissor Sweep from Open Guard]] (4% of attempts)
 
-### [[Armbar Finish]] (0% of attempts)
+### [[Open Guard to Deep Half]] (5% of attempts)
 
-### [[Kimura Sweep]] (0% of attempts)
+### [[Open Guard to Collar Sleeve Guard]] (9% of attempts)
 
-### [[Closed Guard to Omoplata]] (0% of attempts)
+### [[Open Guard to De La Riva]] (11% of attempts)
 
-### [[Float Passing]] (0% of attempts)
+### [[Open Guard to Double Sleeve Guard]] (4% of attempts)
 
-### [[Open Guard to Deep Half]] (0% of attempts)
+### [[Open Guard to Feet on Hips Guard]] (7% of attempts)
 
-### [[Transition to Collar Sleeve Guard]] (0% of attempts)
+### [[Collar Drag from Open Guard]] (4% of attempts)
 
-### [[Transition to Double Sleeve Guard]] (0% of attempts)
+### [[Scramble from Failed Sweep]] (3% of attempts)
 
-### [[Transition to Feet on Hips Guard]] (0% of attempts)
+### [[Technical Stand Up from Open Guard]] (6% of attempts)
 
-### [[Collar Drag from Open Guard]] (0% of attempts)
-
-### [[Open Guard to Collar Sleeve Guard]] (0% of attempts)
-
-### [[Open Guard to De La Riva]] (0% of attempts)
-
-### [[Open Guard to Double Sleeve Guard]] (0% of attempts)
-
-### [[Open Guard to Feet on Hips Guard]] (0% of attempts)
-
-### [[Scissor Sweep from Open Guard]] (0% of attempts)
-
-### [[Scramble from Failed Sweep]] (0% of attempts)
-
-### [[Technical Stand Up from Open Guard]] (1% of attempts)
+### [[Transition to Clamp Guard]] (1% of attempts)
 
 
 
@@ -277,9 +263,9 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 
 **If opponent drives forward with pressure passing:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
 - Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
 - Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Collar Drag from Open Guard]]** → [[Back Control]] (Probability: 45%)
 
 
 **If opponent establishes strong grips and attempts toreando:**
@@ -290,7 +276,7 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 **If opponent postures up and creates distance:**
 - Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 55%)
 - Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Scissor Sweep from Open Guard]]** → [[Mount]] (Probability: 50%)
 
 
 
@@ -436,9 +422,9 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 - **[[Lasso Guard]]** - Specific open guard variation with lasso grip
 - **[[X-Guard]]** - Advanced open guard variation for sweeps
 - **[[Half Guard]]** - Common transition when open guard is partially passed
-- **[[Scissor Sweep]]** - Fundamental sweep technique from open guard
-- **[[Hip Bump Sweep]]** - High-percentage sweep when opponent pressures forward
+- **[[Scissor Sweep from Open Guard]]** - Fundamental sweep technique from open guard
 - **[[Butterfly Sweep]]** - Core sweeping technique from butterfly guard variation
+- **[[Collar Drag from Open Guard]]** - Off-balancing technique to create scramble or back take opportunities
 
 
 </section>

@@ -1,10 +1,13 @@
 {
   "name": "Collar Sleeve Sweep",
-  "description": "TODO: Write 150-160 character SEO description for Collar Sleeve Sweep.",
+  "description": "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering grip mechanics, off-balancing principles, and timing for this high-percentage guard sweep.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "sweep",
+    "collar sleeve guard",
+    "open guard",
+    "gi technique",
+    "off-balancing",
+    "guard play"
   ],
   "from_position": "Collar Sleeve Guard/Bottom",
   "outcomes": [
@@ -25,114 +28,386 @@
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Collar Sleeve Sweep.",
+  "overview": "The Collar Sleeve Sweep is a fundamental sweep from collar sleeve guard that exploits the asymmetric grip structure to generate rotational force that topples the opponent. By combining a deep cross-collar pull with full sleeve extension to prevent posting, the sweeper creates a mechanical advantage where the opponent cannot distribute weight effectively to resist the sweep direction. The technique relies on coordinated upper and lower body mechanics—the grips control the opponent's structural integrity while the legs provide the driving force through hip-posted kicks and far-leg hooks.\n\nThis sweep operates on the principle that controlling two diagonal points of an opponent's base creates predictable instability. The collar grip pulls the upper body off-center while the sleeve grip removes the primary posting hand, eliminating the opponent's ability to catch themselves as momentum shifts. The sweeper's legs amplify this effect: one foot frames on the opponent's hip to generate explosive kicking power, while the other hooks behind the opponent's far leg to remove their remaining base. The optimal timing window opens when the opponent commits weight forward against the collar pull or shifts laterally during grip fighting exchanges.\n\nStrategically, the Collar Sleeve Sweep serves as the anchor technique within the collar sleeve guard attack system. Its threat forces opponents to maintain wide, defensive postures that directly expose them to triangle entries and omoplata setups. Practitioners who develop a reliable collar sleeve sweep find that opponents begin over-defending the sweep direction, which creates systematic openings for complementary attacks. This sweep-to-submission interplay makes the collar sleeve guard one of the most complete open guard systems in gi BJJ competition.",
   "conditions": [
-    "TODO"
+    "Cross-collar grip established with four fingers deep inside the collar",
+    "Same-side sleeve grip secured at the wrist or forearm",
+    "Hips angled off-center with sufficient space to generate sweeping momentum",
+    "Foot placed on opponent's hip on the sleeve-grip side for framing",
+    "Opponent's weight not fully committed backward beyond recovery range"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Pendulum-Style Collar Sleeve Sweep",
+      "description": "Uses a large pendulum swing of the free leg to generate momentum, swinging the leg high toward the ceiling and then across the opponent's body while maintaining collar and sleeve control. The pendulum motion creates significantly more sweeping force than the standard version.",
+      "when_to_use": "When the opponent has a strong base and resists standard sweeping force, the additional momentum from the pendulum leg swing overcomes their stability."
+    },
+    {
+      "variant_name": "Collar Sleeve to Scissor Sweep Hybrid",
+      "description": "Combines collar sleeve grips with a scissor sweep motion where the top leg pushes across the opponent's chest while the bottom leg cuts behind their knee. The collar grip replaces the traditional lapel grip used in standard scissor sweeps, providing superior rotational control.",
+      "when_to_use": "When the opponent maintains a kneeling posture with both knees on the ground, making hook-based sweeps less effective but leaving them vulnerable to scissoring motions that attack their base laterally."
+    },
+    {
+      "variant_name": "Tomoe Nage Entry from Collar Sleeve",
+      "description": "Transitions the hip-posted foot to the opponent's stomach or hip crease and performs a sacrifice throw motion, launching the opponent overhead while maintaining collar and sleeve control throughout the arc. Requires significant hip flexibility and timing.",
+      "when_to_use": "When the opponent stands up from collar sleeve guard and leans forward into your grips, their forward momentum can be redirected overhead for a dramatic sweep that often lands directly in mount."
     }
   ],
-  "position_integration": "TODO: Write position integration for Collar Sleeve Sweep.",
+  "position_integration": "The Collar Sleeve Sweep functions as the primary sweeping threat from collar sleeve guard, creating the foundational dilemma that powers the entire position's attack system. When opponents prioritize defending this sweep by posting wide or sitting back, they expose themselves to triangle entries, omoplata attacks, and collar drag back takes. This sweep-to-submission chain makes collar sleeve guard one of the most complete open guard systems in gi BJJ. The technique connects directly to mount and side control through successful completion, while failed attempts naturally flow into follow-up sweeps in the opposite direction or submission entries that exploit the opponent's defensive reactions. Mastery of this sweep is essential for anyone building a collar-based open guard game.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Collar Sleeve Guard",
+      "relationship": "Starting position from which the sweep is executed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary landing position after successful sweep completion"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position resulting from opponent's successful counter of the sweep"
+    },
+    {
+      "name": "Pendulum Sweep",
+      "relationship": "Complementary sweep using similar grip structure with pendulum leg mechanics"
+    },
+    {
+      "name": "Flower Sweep",
+      "relationship": "Alternative sweep from collar sleeve guard exploiting backward weight shift"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Primary chain attack when opponent posts hand to defend sweep"
+    },
+    {
+      "name": "Hip Bump Sweep",
+      "relationship": "Alternative sweep option when opponent postures strongly against collar pull"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Complementary attack targeting opponent's posted arm during sweep defense"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Related guard system sharing sleeve control principles"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Alternative guard transition when sweep opportunities are limited"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Complementary guard system for when opponent stands during exchanges"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Alternative landing position when sweep generates enough momentum to come fully on top"
     }
   ],
   "attacker": {
     "name": "Collar Sleeve Sweep Attacker",
-    "description": "TODO: Write attacker description for Collar Sleeve Sweep.",
-    "overview": "TODO: Write attacker overview for Collar Sleeve Sweep.",
+    "description": "Execute the Collar Sleeve Sweep with precision. Complete attacking guide covering grip setup, hip mechanics, timing windows, and follow-through to secure top position from collar sleeve guard.",
+    "overview": "As the attacker executing the Collar Sleeve Sweep, your objective is to use your established collar and sleeve grips to create rotational instability that topples the opponent onto their back, allowing you to follow through to a dominant top position. The sweep depends on coordinating three mechanical systems simultaneously: your grips control the opponent's upper body rotation and posting ability, your framing foot on the hip generates explosive directional force, and your hooking leg behind the opponent's far leg removes their base in the sweep direction. Success requires loading all three systems before committing to the sweep, then executing with decisive, explosive timing rather than gradual pressure that allows the opponent to adjust their base. The sweep's effectiveness is highest when the opponent is actively engaging with your grips rather than disengaging, because their forward weight commitment amplifies the rotational force you generate.",
     "key_principles": [
-      "TODO"
+      "Load all three mechanical systems (grips, hip foot, hooking leg) before committing to the sweep",
+      "Pull the collar at a 45-degree angle toward your shoulder, not straight back, to maximize rotational force",
+      "Extend the sleeve grip fully to prevent the opponent from posting their hand to stop the sweep",
+      "Generate sweeping force from the hip-posted foot through an explosive kick combined with the hooking leg removal of base",
+      "Time the sweep when the opponent's weight shifts forward against your collar pull or during grip fighting transitions",
+      "Follow through immediately after the sweep connects, clearing your legs and advancing to side control before the opponent recovers",
+      "Maintain grip tension throughout the entire sweep arc to prevent recovery and control the landing"
     ],
     "setup_requirements": [
-      "TODO"
+      "Deep cross-collar grip with four fingers inside the collar near the opponent's shoulder providing strong rotational leverage",
+      "Firm sleeve grip at the wrist or mid-forearm on the same side, fully controlling the opponent's posting arm with complete extension",
+      "Foot placed on the opponent's hip on the sleeve-grip side, creating a frame that generates kicking force and distance management",
+      "Hips angled at least 30 degrees off-center from square alignment, creating space for hip movement and sweep momentum generation",
+      "Free leg positioned to hook behind the opponent's far knee or thigh, ready to remove their base in the sweep direction",
+      "Sufficient space between your back and the mat to generate hip elevation and rotational momentum during execution"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish deep cross-collar grip",
+        "description": "Secure four fingers deep inside the opponent's collar near the shoulder on the cross side. The grip should provide strong leverage for pulling and rotating their upper body. Keep your elbow tight to your ribs to prevent grip breaks while maintaining constant downward tension on their posture."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure same-side sleeve grip at wrist",
+        "description": "Grip the opponent's sleeve at the wrist or mid-forearm on the same side as your collar grip. Extend their arm fully away from their body to prevent them from posting when the sweep initiates. This grip is critical—without full sleeve control, the opponent can catch themselves during the sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Place foot on hip and create angle",
+        "description": "Position the foot on your sleeve-grip side against the opponent's hip or hip crease, creating a frame that manages distance and provides a platform for explosive force generation. Simultaneously angle your hips at least 30 degrees off the centerline to create the rotational pathway for the sweep."
+      },
+      {
+        "step_number": 4,
+        "action": "Hook behind opponent's far leg",
+        "description": "Thread your free leg behind the opponent's far knee or lower thigh, establishing a hook that will remove their base when you commit to the sweep. The hook should be deep enough that your calf or heel connects behind their leg, ensuring you can pull their base out from under them during execution."
+      },
+      {
+        "step_number": 5,
+        "action": "Load the sweep with simultaneous pull and extension",
+        "description": "Pull the collar grip sharply at a 45-degree angle toward your shoulder while simultaneously extending the sleeve arm fully in the opposite direction. This creates a rotational torque across the opponent's body that compromises their base. Elevate your hips slightly to coil energy for the explosive sweep motion."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute the sweep with coordinated kick and hook",
+        "description": "Explosively kick through with the hip-posted foot while simultaneously pulling the hooking leg to remove the opponent's far-side base. The kick drives them in the sweep direction while the hook prevents them from catching their balance with the far leg. The collar pull and sleeve extension amplify the rotational momentum throughout the arc."
+      },
+      {
+        "step_number": 7,
+        "action": "Follow through over the sweep arc",
+        "description": "As the opponent falls to the side, follow the momentum by rolling over your own shoulder in the sweep direction. Maintain both grips throughout the transition to control the opponent's body and prevent them from scrambling or recovering guard. Your body should travel over the top as they fall to the mat."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish side control on landing",
+        "description": "Clear your legs past the opponent's body and immediately establish chest-to-chest pressure perpendicular to their torso. Transition your collar grip to a crossface or underhook, and use your sleeve-side hand to control their far hip. Drop your hips low and heavy to consolidate the side control position before they can insert defensive frames."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent posts free hand on the mat to brace against sweep direction",
+        "effectiveness": "High",
+        "your_response": "Immediately shoot a triangle by bringing your hip-posted leg over their posted arm and around their neck. Their posting hand creates the arm isolation needed for the triangle entry. Alternatively, switch to an omoplata setup targeting the posted arm.",
+        "targets_outcome": "Collar Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward with heavy pressure to flatten your hips against the mat",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Use the hip-posted foot to push them away and re-create distance. If they commit fully forward, redirect their momentum overhead with a tomoe nage variation or switch to a hip bump sweep that exploits their forward weight commitment.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent strips the collar grip before the sweep loads using a two-on-one wrist peel",
+        "effectiveness": "High",
+        "your_response": "Immediately re-establish the collar grip from a different angle or transition to spider guard or lasso guard using the maintained sleeve control. Without the collar grip, the sweep lacks sufficient rotational force to succeed.",
+        "targets_outcome": "Collar Sleeve Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps to extract the hooking leg behind their far knee",
+        "effectiveness": "Medium",
+        "your_response": "Follow their backstep with your hooking leg and re-insert the hook, or transition to a collar drag attack or back take opportunity as their backstep rotation exposes their back. Their movement creates angles you can exploit offensively.",
         "targets_outcome": "Collar Sleeve Guard/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Attempting the sweep without sufficient angle, staying square to the opponent",
+        "consequence": "The sweep lacks rotational force and the opponent can easily base out symmetrically, absorbing the sweep attempt without losing balance",
+        "correction": "Create at least 30 degrees of angle before loading the sweep so the force vector attacks their base diagonally rather than allowing symmetric resistance."
+      },
+      {
+        "error": "Releasing the sleeve grip during the sweep arc",
+        "consequence": "The opponent posts their free hand and catches their balance mid-sweep, stopping the sweep at the tipping point and potentially initiating a guard pass",
+        "correction": "Maintain full sleeve extension throughout the entire sweep motion. The sleeve grip must prevent posting from initiation through completion."
+      },
+      {
+        "error": "Pulling the collar grip straight back instead of at a 45-degree angle",
+        "consequence": "The opponent resists a linear pull by leaning into it, using their weight to neutralize the collar control without compromising their base",
+        "correction": "Pull the collar toward your shoulder at a 45-degree angle, creating rotational force that disrupts the opponent's alignment rather than allowing linear counter-force."
+      },
+      {
+        "error": "Placing the hooking leg too shallow behind the opponent's far leg",
+        "consequence": "The hook slips off during the sweep, allowing the opponent to step out and maintain base on the far side, negating the sweeping force entirely",
+        "correction": "Ensure the hook is deep behind the opponent's knee or lower thigh with your calf fully engaged so it locks in place during the sweep."
+      },
+      {
+        "error": "Failing to follow through after the sweep tips the opponent",
+        "consequence": "The opponent lands on their side but recovers to guard or turtle because you remained on bottom instead of advancing to top position",
+        "correction": "Follow the sweep momentum by rolling over your shoulder and immediately advancing to side control while maintaining grip tension throughout the transition."
+      },
+      {
+        "error": "Attempting the sweep when the opponent has settled into a wide, stable base",
+        "consequence": "The sweep fails against a stabilized base, wasting energy and alerting the opponent to your intentions for future attempts",
+        "correction": "Time the sweep during moments of instability: when they shift weight forward, adjust grips, or transition between positions. The window opens when they resist your collar pull and then briefly relax."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Individual component isolation",
+        "description": "Practice each component separately: collar grip pull at 45-degree angles, sleeve extension with full arm control, hip-posted foot kicks, and hooking leg placement behind a kneeling partner. No resistance. Build muscle memory for each movement in isolation before combining."
+      },
+      {
+        "phase": "Phase 2: Coordination",
+        "focus": "Combining all components into unified sweep motion",
+        "description": "Partner kneels in collar sleeve guard and remains static while you load and execute the complete sweep with all components working together. Focus on timing the simultaneous collar pull, sleeve extension, kick, and hook removal. Partner gives feedback on technique quality."
+      },
+      {
+        "phase": "Phase 3: Timing and Resistance",
+        "focus": "Reading opponent movement against progressive resistance",
+        "description": "Partner provides graduated resistance (30%, 50%, 75%) while shifting weight and adjusting base. Recognize timing windows when weight shifts create sweep opportunities. Develop the ability to load quickly and commit decisively when the window appears."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks",
+        "focus": "Integrating sweep with follow-up attacks and combinations",
+        "description": "Practice the sweep-to-triangle chain when opponent posts, sweep-to-omoplata when they defend differently, and sweep-in-opposite-direction when they over-defend. Build automatic responses to each defensive reaction creating a complete attack system."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Executing in positional sparring and full rolling",
+        "description": "Begin with positional sparring starting in collar sleeve guard against fully resisting opponents. Progress to initiating collar sleeve guard from open guard exchanges in live rolling. Track success rate and identify which counters you face most frequently to refine your game."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the optimal timing window for initiating the Collar Sleeve Sweep?",
+        "answer": "The optimal timing is when the opponent's weight shifts forward against your collar pull, or during the brief moment they relax after resisting your off-balancing attempts. When they lean into your collar grip, their weight moves toward the sweep direction, amplifying your force. Additionally, transitions between grip fighting exchanges create momentary instability. Avoid attempting the sweep when the opponent has settled into a stable base with even weight distribution."
+      },
+      {
+        "question": "What conditions must exist before you can attempt the Collar Sleeve Sweep?",
+        "answer": "You need a deep cross-collar grip with four fingers inside the collar near the shoulder, a firm sleeve grip at the wrist with full arm extension, a foot posted on the opponent's hip on the sleeve-grip side, sufficient hip angle of at least 30 degrees off-center, and your free leg positioned to hook behind the opponent's far knee. All five elements must be loaded before committing—missing any single component dramatically reduces success probability."
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines whether the sweep succeeds or fails?",
+        "answer": "The direction of the collar pull is the single most critical detail. Pulling straight back toward your chest allows the opponent to resist by leaning forward into the pull. Pulling at a 45-degree angle toward your shoulder creates rotational torque that attacks their base diagonally, which is exponentially harder to resist. This angular pull combined with the sleeve extension creates opposing forces that generate a twisting motion the opponent cannot counter with simple base adjustments."
+      },
+      {
+        "question": "Why does the sweep most commonly fail, and how do you diagnose the problem?",
+        "answer": "The most common failure point is insufficient sleeve extension that allows the opponent to post their hand during the sweep. If your opponent consistently catches themselves mid-sweep, check that you are maintaining full wrist-level sleeve control with their arm extended completely away from their body. The second most common failure is poor hook depth—if the hook slips off their leg, the sweep loses its base-removal component and becomes just an off-balance they can recover from."
+      },
+      {
+        "question": "What specific grip configuration is required for maximum sweep effectiveness?",
+        "answer": "The cross-collar grip needs four fingers deep inside the collar near the opponent's shoulder, with the thumb outside for maximum purchase. This placement provides the longest lever arm for rotational pulling. The sleeve grip must control at the wrist or mid-forearm—never higher than the elbow—with the arm fully extended to prevent any posting ability. Both grips must maintain tension throughout the entire sweep arc because releasing either grip mid-sweep allows recovery."
+      },
+      {
+        "question": "In what direction should force be applied during the sweep execution?",
+        "answer": "The force vectors work in three coordinated directions: the collar pulls diagonally at 45 degrees toward your shoulder creating rotation, the sleeve pushes in the opposite direction amplifying the rotational torque, and the hip-posted foot kicks laterally through the opponent's centerline while the hooking leg pulls in the sweep direction. These three force vectors create a spiral motion that attacks the opponent's base from multiple angles simultaneously, making it extremely difficult to counter with a single adjustment."
+      },
+      {
+        "question": "Your opponent posts their free hand on the mat every time you attempt the sweep—how do you adjust your strategy?",
+        "answer": "An opponent who consistently posts is giving you a triangle entry. When they post, their arm crosses the plane between your legs and their neck, creating the arm isolation needed for a triangle. Immediately shoot your hip-posted leg over their posted shoulder and around their neck while pulling their head down with the collar grip. After one or two triangle entries, the opponent will stop posting, which reopens the sweep. This sweep-to-triangle chain is the fundamental dilemma of collar sleeve guard."
+      },
+      {
+        "question": "What chain attacks should you develop if the Collar Sleeve Sweep is consistently defended?",
+        "answer": "If the opponent defends by posting, attack the triangle. If they defend by driving forward to flatten you, switch to a hip bump sweep or redirect their momentum overhead with a tomoe nage variation. If they strip your collar grip, transition to spider or lasso guard maintaining the sleeve control. If they backstep to remove your hook, follow with a collar drag to take the back. Every defensive reaction should expose them to a different attack—never attempt the same sweep twice against a prepared defense."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Collar Sleeve Sweep."
+    "safety_considerations": "The Collar Sleeve Sweep is a relatively low-risk technique compared to submissions, but practitioners should be mindful of several safety factors. The opponent being swept should practice proper falling mechanics to avoid injury when landing on the mat. The sweeper should avoid hyperextending the controlled arm by maintaining controlled sleeve tension rather than explosive yanking. Both partners should be aware of surrounding training space to avoid colliding with other pairs during the sweep arc. The hooking leg should apply force behind the knee joint, never directly on the knee itself, to prevent ligament stress."
   },
   "defender": {
     "name": "Collar Sleeve Sweep Defender",
-    "description": "TODO: Write defender description for Collar Sleeve Sweep.",
-    "overview": "TODO: Write defender overview for Collar Sleeve Sweep.",
+    "description": "Defend and counter the Collar Sleeve Sweep in BJJ. Recognition cues, defensive techniques, and counter-strategies for maintaining top position against collar sleeve sweep attempts.",
+    "overview": "As the defender facing the Collar Sleeve Sweep, your primary objective is to maintain your top position by neutralizing the sweeper's grip-based control system and preventing the coordinated force generation that powers the sweep. Defense begins before the sweep is fully loaded—recognizing the setup cues early and disrupting the attacker's mechanical chain at its weakest link is far more effective than trying to resist a fully loaded sweep through base alone. The defender must address both the rotational forces generated by the collar and sleeve grips and the base-removing action of the hooking leg. Understanding that the sweep requires all three components working simultaneously gives you multiple intervention points: break a grip, remove the hip-posted foot, or extract the hooking leg, and the sweep cannot succeed.",
     "key_principles": [
-      "TODO"
+      "Recognize sweep setup cues early and disrupt before all components are loaded",
+      "Maintain wide base with weight distributed low and centered to resist rotational forces",
+      "Prioritize breaking the collar grip first as it provides the primary rotational leverage for the sweep",
+      "Keep the sleeve-side hand free or immediately strip the grip to preserve posting ability",
+      "Avoid leaning forward into the collar pull which amplifies sweep momentum in the attack direction",
+      "Backstep or adjust stance to remove the hooking leg behind your far knee before the sweep commits",
+      "Counter-attack during the sweeper's commitment phase when their hips are extended and guard structure is compromised"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent pulls collar grip at a sharp angle toward their shoulder rather than straight back, indicating rotational force loading for a sweep rather than simple posture control",
+      "Opponent places foot firmly on your hip while extending your sleeve-controlled arm fully, creating the two-point frame needed for explosive sweep generation",
+      "You feel a hooking leg threading behind your far knee or thigh, which is the base-removal component that completes the sweep's mechanical chain",
+      "Opponent shifts their hips to an angled position relative to your centerline, creating the rotational pathway required for the sweep to generate lateral force",
+      "Simultaneous increase in collar pull tension and sleeve extension pressure, indicating the sweep is being loaded and commitment is imminent"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Strip or break the collar grip using a two-on-one wrist peel",
+        "when_to_use": "As early as possible when you feel the collar grip tightening and pulling at an angle, before the sweep is fully loaded with all components",
         "targets_outcome": "Collar Sleeve Guard/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Sweeper loses the primary rotational force generator, making the sweep mechanically impossible. You can then establish your own grips and initiate passing.",
+        "risk": "Committing both hands to grip breaking temporarily sacrifices base and may expose you to a quick triangle entry if the sweeper reads your intention"
+      },
+      {
+        "action": "Drive forward with heavy hip pressure to flatten sweeper's hips to the mat",
+        "when_to_use": "When you feel the sweeper creating angle and loading the sweep, drive your hips forward and down to pin their hips flat, eliminating the space they need for sweeping momentum",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Sweeper cannot generate hip elevation or rotational force with hips pinned flat. You advance into a pressure passing position and can work to break their guard structure entirely.",
+        "risk": "Driving forward aggressively can be redirected into a tomoe nage or overhead sweep if the sweeper adjusts quickly to exploit your forward momentum"
+      },
+      {
+        "action": "Backstep to extract the hooking leg and remove the base-attack component",
+        "when_to_use": "When you feel the hooking leg threading behind your far knee, immediately step that leg backward to strip the hook before it locks in",
+        "targets_outcome": "Collar Sleeve Guard/Bottom",
+        "if_successful": "Without the hooking leg, the sweep loses its base-removal force and becomes a simple off-balance that you can resist with standard base distribution.",
+        "risk": "Backstepping can create angles that expose you to collar drag back takes or other guard transitions if the sweeper follows your movement with hip adjustments"
+      },
+      {
+        "action": "Post free hand wide on the mat in the sweep direction to brace against sweep force",
+        "when_to_use": "As a last resort when the sweep is already in motion and you need to stop the momentum immediately before being toppled",
+        "targets_outcome": "Collar Sleeve Guard/Bottom",
+        "if_successful": "The posted hand catches your weight and prevents the sweep from completing, allowing you to reset your base and work to break the sweeper's grips.",
+        "risk": "Posting creates arm isolation that the sweeper can exploit for an immediate triangle entry—recover the posted arm immediately after stopping the sweep"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Side Control/Top",
-        "how": "TODO"
+        "outcome": "Open Guard/Top",
+        "how": "Drive forward with heavy hip pressure when you feel the sweep loading, flattening the sweeper's hips and breaking their guard structure. Use the forward momentum to advance past their legs and transition to a pressure passing position. Simultaneously strip their sleeve grip to free your arm for establishing crossface or collar control."
+      },
+      {
+        "outcome": "Collar Sleeve Guard/Bottom",
+        "how": "Stuff the sweep early by breaking the collar grip with a two-on-one wrist peel or by backstepping to extract the hooking leg before the sweep loads. This keeps you in their guard but prevents the sweep from succeeding, allowing you to reset and initiate your passing game from a stabilized position."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Leaning forward into the collar pull instead of sitting hips back and widening base",
+        "consequence": "Your forward weight commitment directly amplifies the sweep's rotational force, making even a poorly loaded sweep likely to succeed as your momentum carries you over",
+        "correction": "When you feel the collar pull, drive your hips backward and widen your knees to create a stable tripod base. Keep your chest elevated rather than allowing it to be pulled forward."
+      },
+      {
+        "error": "Ignoring the hooking leg behind your far knee until the sweep is fully committed",
+        "consequence": "Once the hook is deep and the sweep begins, base removal is nearly impossible to counter and you get swept from a fully loaded position with limited defensive options",
+        "correction": "Address the hooking leg immediately when you feel it threading behind your knee. Backstep to extract it or pin it with your hand before the sweeper combines it with grip-based rotational forces."
+      },
+      {
+        "error": "Attempting to resist the sweep purely through strength by stiffening the body",
+        "consequence": "The sweep's rotational mechanics create leverage that overwhelms muscular resistance, especially when all three force vectors are coordinated against your stiff frame",
+        "correction": "Use technical counters—grip breaks, backsteps, and base adjustments—rather than brute force. Stay mobile and address the sweep's individual components rather than absorbing combined force."
+      },
+      {
+        "error": "Posting the free hand reactively without protecting against the triangle follow-up",
+        "consequence": "The posted arm creates the arm isolation the sweeper needs for an immediate triangle entry, converting a sweep defense into a worse submission defense situation",
+        "correction": "If you must post, immediately recover the posted arm by pulling your elbow tight to your ribs. Address the sweep earlier through grip breaks or backsteps so posting becomes unnecessary."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that a Collar Sleeve Sweep is being set up?",
+        "answer": "The earliest cue is the angle of the collar pull changing from straight-back posture control to a 45-degree pull toward the sweeper's shoulder, indicating rotational force loading. Combined with feeling the sleeve grip extend your arm fully, these early grip-based cues appear before the leg components are loaded, giving you the maximum intervention window to disrupt the sweep before it becomes dangerous."
+      },
+      {
+        "question": "Which defensive option provides the best risk-to-reward ratio against the Collar Sleeve Sweep?",
+        "answer": "Breaking the collar grip early provides the best risk-to-reward ratio because it removes the primary force generator while keeping you in a relatively safe position. Without the collar grip, the sweeper cannot create the rotational torque needed for success regardless of their leg positioning. The risk of temporarily committing both hands to the grip break is manageable if you maintain base through your legs, and it avoids the triangle vulnerability of posting or back-take risk of backstepping."
+      },
+      {
+        "question": "How should you adjust your base and weight distribution when you recognize the sweep is loading?",
+        "answer": "Widen your knees and drive your hips backward to lower your center of gravity below the sweeper's force vectors. Distribute weight primarily through the base-side leg opposite the sweep direction while keeping hips heavy and centered. Avoid loading weight onto the sleeve-controlled side where you cannot post effectively. Keep your chest elevated and spine upright rather than allowing the collar pull to fold you forward, as forward lean amplifies the sweep's rotational effectiveness."
+      },
+      {
+        "question": "Your opponent has fully loaded the sweep with all components in place—what is your best last-resort defense?",
+        "answer": "Post your free hand wide in the sweep direction to catch your weight and halt the momentum. Immediately after posting, recover your arm by pulling your elbow tight to your body to prevent the triangle follow-up the sweeper will attempt. Simultaneously drive your hips forward to flatten the sweeper and disrupt their follow-through. This is a last resort because it creates triangle vulnerability, but it is preferable to being swept to bottom position where you concede points and positional advantage."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying sweep setup cues without resistance",
+        "description": "Partner loads the Collar Sleeve Sweep in slow motion while you call out each component as you feel it: collar angle change, sleeve extension, foot on hip, hooking leg placement. Develop tactile awareness of the sweep's mechanical chain through repeated exposure without attempting any defense."
+      },
+      {
+        "phase": "Phase 2: Individual Counters",
+        "focus": "Practicing each defensive option in isolation",
+        "description": "Partner loads the sweep at 30% speed and you practice one specific counter per round: collar grip break, hip drive forward, backstep extraction, or post and recover. Perfect the mechanics of each defensive response individually before combining them."
+      },
+      {
+        "phase": "Phase 3: Defensive Decision-Making",
+        "focus": "Choosing the correct counter based on sweep loading stage",
+        "description": "Partner varies their sweep timing and loading speed while you select the appropriate defensive response based on which stage the sweep has reached. Early loading uses grip breaks, mid-loading uses backsteps or hip drives, late loading uses post and recover. Develop automatic response selection."
+      },
+      {
+        "phase": "Phase 4: Counter-Attack Integration",
+        "focus": "Converting successful defense into passing opportunities",
+        "description": "After successfully defending the sweep, immediately transition into a guard pass. Practice linking grip breaks into toreando passes, hip drives into pressure passes, and backsteps into leg drag opportunities. Punish sweep attempts so the sweeper becomes hesitant, opening other passing windows."
       }
     ]
   }

@@ -274,9 +274,9 @@
       "relationship": "Recovery option when opponent creates distance during escape"
     },
     {
-      "name": "Turtle Transition",
+      "name": "Back Door Escape",
       "content_type": "Transition",
-      "relationship": "Transitional position during back escape sequence"
+      "relationship": "Key escape transition used during back control escape sequences"
     },
     {
       "name": "Guard Recovery",

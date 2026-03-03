@@ -113,7 +113,7 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Progression to Zombie]]** (8% of attempts)
 
-- **[[Rubber Guard Maintenance]]** (9% of attempts)
+- **[[Advance to Chill Dog]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -178,21 +178,23 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (16% of attempts)
+- **[[Posture Recovery]]** (15% of attempts)
 
-- **[[Arm Extraction and Pass]]** (14% of attempts)
+- **[[Arm Extraction and Pass]]** (13% of attempts)
 
-- **[[Stack Defense]]** (14% of attempts)
+- **[[Stack Defense]]** (13% of attempts)
 
-- **[[Standing up in Base]]** (24% of attempts)
+- **[[Standing up in Base]]** (30% of attempts)
 
-- **[[Arm Extraction]]** (13% of attempts)
+- **[[Arm Extraction]]** (12% of attempts)
 
-- **[[Guard Opening Sequence]]** (11% of attempts)
+- **[[Guard Opening Sequence]]** (10% of attempts)
 
-- **[[Posture Break from Mission Control]]** (5% of attempts)
+- **[[Posture Break from Mission Control]]** (4% of attempts)
 
-- **[[Stack Pass from Mission Control]]** (3% of attempts)
+- **[[Stack Pass from Mission Control]]** (2% of attempts)
+
+- **[[Posture Recovery from Mission Control]]** (1% of attempts)
 
 
 ### Common Mistakes

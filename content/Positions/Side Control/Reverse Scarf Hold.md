@@ -61,7 +61,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Medium |
 
-**Key Difference:** Reverse orientation creates unique control angles
+**Key Difference:** Reverse facing trades vision for chest pressure
 
 
 
@@ -95,17 +95,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (20% of attempts)
+- **[[Elbow Escape to Guard]]** (31% of attempts)
 
-- **[[Bridge and Roll]]** (15% of attempts)
+- **[[Bridge and Roll]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (17% of attempts)
+- **[[Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (13% of attempts)
+- **[[Technical Stand-up]]** (10% of attempts)
 
-- **[[Shrimp Escape]]** (18% of attempts)
+- **[[Shrimp Escape]]** (14% of attempts)
+
+- **[[Escape Reverse Scarf Hold]]** (4% of attempts)
+
+- **[[Frame from Reverse Scarf Hold]]** (2% of attempts)
+
+- **[[Bridge Escape from Reverse Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,19 +170,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Side Control to North-South]]** (18% of attempts)
+- **[[Side Control to North-South]]** (24% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Side Control to Mount]]** (13% of attempts)
 
-- **[[Americana]]** (13% of attempts)
+- **[[Americana]]** (11% of attempts)
 
-- **[[Kimura]]** (14% of attempts)
+- **[[Kimura]]** (12% of attempts)
 
-- **[[Back Step]]** (12% of attempts)
+- **[[Back Step]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (17% of attempts)
+- **[[Knee Slice Pass]]** (15% of attempts)
 
-- **[[Arm Triangle]]** (11% of attempts)
+- **[[Arm Triangle]]** (9% of attempts)
+
+- **[[Reverse Scarf to North-South]]** (4% of attempts)
+
+- **[[Reverse Scarf to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes

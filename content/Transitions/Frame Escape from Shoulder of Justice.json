@@ -1,12 +1,15 @@
 {
   "name": "Frame Escape from Shoulder of Justice",
-  "description": "TODO: Write 150-160 character SEO description for Frame Escape from Shoulder of Justice.",
+  "description": "Master the Frame Escape from Shoulder of Justice in BJJ. Learn systematic framing, timing, and hip escape mechanics to recover guard under intense pressure.",
   "tags": [
     "bjj",
     "transition",
     "escape",
     "side-control",
-    "shoulder-of-justice"
+    "shoulder-of-justice",
+    "framing",
+    "guard-recovery",
+    "defensive"
   ],
   "from_position": "Shoulder of Justice/Bottom",
   "outcomes": [
@@ -27,114 +30,376 @@
     }
   ],
   "success_rate": 40,
-  "overview": "TODO: Write overview for Frame Escape from Shoulder of Justice.",
+  "overview": "The Frame Escape from Shoulder of Justice is a systematic escape technique designed to recover guard from one of the most oppressive pinning positions in Brazilian Jiu-Jitsu. The Shoulder of Justice applies concentrated pressure through the opponent's shoulder blade into the bottom player's jaw and temporomandibular joint, creating intense physical discomfort that provokes reactive movements. The Frame Escape counters this by using structured, skeletal-alignment-based frames to create incremental space without exposing vulnerable limbs to submission attacks.\n\nThe technique centers on positioning forearm wedges against the opponent's hip line and chest without extending the arms, then timing hip escapes to coincide with the top player's weight shifts or positional adjustments. Unlike explosive bridge escapes that waste energy against a well-based opponent, the Frame Escape employs a methodical, multi-step approach where each micro-movement preserves the space gained before the next hip escape is executed. The ultimate goal is inserting a knee shield and recovering to half guard.\n\nStrategically, this escape requires exceptional composure under pressure. The jaw discomfort is designed to provoke panic reactions that expose submission vulnerabilities. Successful execution demands controlled breathing, patience to wait for genuine timing windows, and disciplined frame mechanics that resist the instinct to push or extend. Practitioners who master this escape transform the Shoulder of Justice from a position of hopelessness into a manageable problem with reliable solutions.",
   "conditions": [
-    "TODO"
+    "Trapped under Shoulder of Justice with opponent's shoulder driven into jaw",
+    "Near-side arm is not fully isolated or trapped behind opponent's body",
+    "Sufficient composure maintained to execute systematic escape rather than reactive movements",
+    "Opponent has not yet advanced to mount or submission control",
+    "Bottom player retains some hip mobility despite opponent's pressure"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Knee Shield Insertion Frame Escape",
+      "description": "Prioritizes immediate knee shield insertion as the primary framing mechanism rather than forearm frames alone. The bottom player drives the inside knee across the opponent's hip line during the hip escape, using the shin as a structural barrier that creates distance and prevents the opponent from re-settling shoulder pressure. Particularly effective when the opponent's hips are slightly elevated.",
+      "when_to_use": "When opponent's hips are not fully connected to your hip line, creating enough space to insert the knee before forearm frames collapse"
+    },
+    {
+      "variant_name": "Underhook Frame Escape",
+      "description": "Combines the frame escape with an aggressive fight for the near-side underhook during the hip escape phase. As the bottom player creates space through framing, they immediately dive the near arm underneath the opponent's armpit to establish an underhook, converting the escape into an offensive guard recovery with dominant grip positioning. Higher risk but yields a stronger recovery position.",
+      "when_to_use": "When opponent lifts shoulder pressure momentarily to adjust position or transition to a submission, creating a window for underhook insertion"
+    },
+    {
+      "variant_name": "Elbow Wedge Frame Escape",
+      "description": "Uses the near-side elbow as a pointed wedge directly against the opponent's hip bone rather than a forearm flat against the body. The pointed elbow creates a smaller but more structurally sound contact point that is harder for the opponent to collapse. Combined with a bridge-shrimp combination, this variant generates maximum space creation per movement cycle.",
+      "when_to_use": "When opponent maintains extremely heavy hip-to-hip connection that prevents standard forearm frame from creating sufficient space"
     }
   ],
-  "position_integration": "TODO: Write position integration for Frame Escape from Shoulder of Justice.",
+  "position_integration": "The Frame Escape from Shoulder of Justice sits within the broader side control escape system as a specialized technique addressing the unique challenges of concentrated shoulder pressure. It connects to the general half guard recovery chain, where successful escape leads to the half guard bottom game with its sweeping, back-taking, and submission opportunities. This technique also integrates with the defensive awareness framework that teaches practitioners to recognize when standard side control escapes must be modified for pressure-specific variations. Mastering this escape is essential for any practitioner who encounters high-pressure top players, as it provides a reliable pathway from one of the worst defensive positions to a neutral or advantageous guard position.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Shoulder of Justice",
+      "relationship": "Starting position that this escape technique addresses"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary escape target and recovery position after successful frame escape"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Counter outcome when escape timing is poor and opponent advances position"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Parent position category from which Shoulder of Justice derives"
+    },
+    {
+      "name": "Escape Shoulder of Justice",
+      "relationship": "Related escape technique from the same starting position"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Optimal half guard variation to recover into after successful escape"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Primary submission threat when near arm extends during escape attempt"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Position opponent may transition to if escape direction moves toward their head"
+    },
+    {
+      "name": "Kesa Gatame",
+      "relationship": "Related pressure position requiring similar frame-based escape principles"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Secondary guard recovery target through full hip escape and leg insertion"
     }
   ],
   "attacker": {
     "name": "Frame Escape from Shoulder of Justice Attacker",
-    "description": "TODO: Write attacker description for Frame Escape from Shoulder of Justice.",
-    "overview": "TODO: Write attacker overview for Frame Escape from Shoulder of Justice.",
+    "description": "Execute the Frame Escape from Shoulder of Justice with systematic framing, precise timing, and efficient hip escape mechanics to recover half guard under intense shoulder pressure.",
+    "overview": "As the attacker executing this escape, you are the bottom player trapped under Shoulder of Justice with intense jaw pressure compromising your comfort and defensive structure. Your objective is to create structural frames using forearm positioning and skeletal alignment, then leverage precisely timed hip escapes during the opponent's weight shifts to create enough space for knee insertion and half guard recovery. The key challenge is maintaining composure under significant physical discomfort while executing a disciplined, multi-step escape sequence that avoids the reactive arm extensions and panicked movements that your opponent is deliberately provoking through their pressure application.",
     "key_principles": [
-      "TODO"
+      "Use skeletal structure for frames rather than muscular effort to create sustainable barriers that do not fatigue under sustained pressure",
+      "Time all hip escape attempts to coincide with opponent's weight shifts rather than during maximum pressure application",
+      "Protect the near arm absolutely by keeping it tight to the body and never extending it to push away shoulder pressure",
+      "Create incremental space through chained micro-movements where each hip escape preserves space before the next",
+      "Breathe steadily through the nose despite jaw pressure to maintain parasympathetic composure and prevent panic reactions",
+      "Direct frames toward the opponent's hip line where leverage is most effective for space creation",
+      "Commit fully to guard recovery once space is created rather than pausing in transitional positions"
     ],
     "setup_requirements": [
-      "TODO"
+      "Establish controlled nasal breathing despite jaw pressure to maintain mental composure",
+      "Position near-side elbow tight against your own ribs without any arm extension",
+      "Verify far arm is positioned tight to far-side ribs and not crossing body centerline",
+      "Identify opponent's base positioning to recognize which direction offers the best escape angle",
+      "Assess whether opponent's hips are fully connected or slightly elevated to determine which escape variant to employ"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish breathing and composure",
+        "description": "Force yourself to breathe steadily through your nose despite the intense jaw pressure. Accept the discomfort as temporary and focus on the systematic escape sequence. This prevents the panic response that leads to reactive arm extensions and wasted energy."
+      },
+      {
+        "step_number": 2,
+        "action": "Position near-side forearm as hip wedge",
+        "description": "Without extending your arm, position your near-side forearm flat against the opponent's hip bone with your elbow tight to your own ribs. This creates a structural wedge using bone alignment rather than muscular pushing. The forearm acts as a lever point for the upcoming hip escape."
+      },
+      {
+        "step_number": 3,
+        "action": "Create far-side chest frame",
+        "description": "Position your far-side forearm against the opponent's chest or shoulder area while keeping your elbow connected to your own body. This secondary frame prevents the opponent from driving their full weight into your torso and creates a barrier that supports the primary hip-side frame."
+      },
+      {
+        "step_number": 4,
+        "action": "Wait for timing window",
+        "description": "Monitor the opponent's weight distribution and wait for a genuine weight shift. This occurs when they adjust shoulder angle, reach for a grip, shift toward a submission setup, or readjust their base. Do not attempt the escape during maximum pressure as it will fail and waste energy."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute sharp hip escape",
+        "description": "During the weight shift window, drive your hips away from the opponent using an explosive but controlled shrimp motion. Push off the mat with your far foot while your forearm frames maintain the space against the opponent's body. The hip escape should create enough clearance to begin knee insertion."
+      },
+      {
+        "step_number": 6,
+        "action": "Insert knee shield",
+        "description": "Immediately drive your inside knee across the opponent's hip line as your hips escape, establishing a shin-across-body barrier. This knee shield creates a structural block that prevents the opponent from re-closing the distance and re-establishing shoulder pressure on your jaw."
+      },
+      {
+        "step_number": 7,
+        "action": "Secure leg entanglement",
+        "description": "Hook the opponent's near leg with your bottom leg to establish the half guard entanglement. Control their knee or ankle with your legs to prevent them from stepping over your knee shield. This locks in the half guard position and prevents easy return to Shoulder of Justice."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate half guard",
+        "description": "Immediately establish proper half guard positioning by turning to your side, fighting for the underhook on the trapped leg side, and adjusting your knee shield height. Do not remain flat on your back after inserting the knee, as this allows the opponent to begin their half guard passing sequence from a dominant position."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Opponent increases pressure and re-settles weight onto hip line when sensing frame attempt",
+        "effectiveness": "High",
+        "your_response": "Maintain frames in position without pushing and wait for the next genuine weight shift. The opponent cannot maintain maximum pressure indefinitely and will eventually need to adjust.",
+        "targets_outcome": "Shoulder of Justice/Bottom"
+      },
+      {
+        "counter": "Opponent steps over to mount during hip escape, capitalizing on the space created by your shrimp",
+        "effectiveness": "High",
+        "your_response": "Insert knee shield immediately during the hip escape before committing to full shrimp distance. If opponent begins stepping over, use your knee to block their leg and recover half guard rather than allowing full mount.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Opponent attacks kimura on near arm when any separation occurs between elbow and ribs during framing",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Keep near-side elbow absolutely glued to your ribs throughout the framing process. If opponent reaches for the kimura, immediately clamp your elbow to your body and abandon the escape attempt until they return to pressure.",
+        "targets_outcome": "Shoulder of Justice/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to north-south when you shrimp toward their head direction",
+        "effectiveness": "Medium",
+        "your_response": "Direct your hip escape away from the opponent's head, escaping toward their hips and legs rather than upward. If they begin spinning to north-south, immediately follow their movement with your hips to maintain facing position.",
         "targets_outcome": "Shoulder of Justice/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Extending the near arm to push the opponent's shoulder away from your jaw",
+        "consequence": "Immediately exposes the arm to a high-percentage kimura attack from Shoulder of Justice, one of the highest finishing rate submissions from this position",
+        "correction": "Keep the near arm absolutely tight to your body with elbow glued to ribs. Use the forearm as a wedge against the hip without any arm extension."
+      },
+      {
+        "error": "Attempting the escape during maximum pressure application rather than waiting for weight shifts",
+        "consequence": "Escape fails against the opponent's fully committed weight, wasting significant energy and creating frustration that leads to increasingly desperate and reactive movements",
+        "correction": "Develop patience to hold frames in position and wait for genuine timing windows when the opponent adjusts weight, reaches for grips, or shifts pressure angle."
+      },
+      {
+        "error": "Bridging explosively without establishing frames first",
+        "consequence": "Bridge collapses back into the same position with no space gained, energy wasted, and opponent can capitalize on the movement to advance to mount or attack submissions",
+        "correction": "Always establish forearm frames before any hip movement. The frames must be in place to preserve the space that the hip escape creates."
+      },
+      {
+        "error": "Failing to insert knee shield immediately after creating space with hip escape",
+        "consequence": "Opponent simply re-closes the distance and re-establishes shoulder pressure, negating all the work of the escape attempt and returning to the starting position",
+        "correction": "Drive the knee across the opponent's hip line simultaneously with the hip escape. The knee insertion must happen during the movement, not after a pause."
+      },
+      {
+        "error": "Bringing the far arm across the body to protect the face from shoulder pressure",
+        "consequence": "Creates a perfect arm triangle setup where the opponent can trap the arm across your own neck and establish a choking mechanism",
+        "correction": "Keep the far arm tight to your far-side ribs at all times. Accept the jaw discomfort rather than creating a worse submission threat."
+      },
+      {
+        "error": "Stopping the escape sequence after inserting one knee without completing half guard consolidation",
+        "consequence": "Opponent can easily clear the knee and return to side control or Shoulder of Justice, or begin their half guard passing sequence from a dominant position",
+        "correction": "Continue the escape sequence through to full half guard consolidation including leg entanglement, turning to side, and fighting for the underhook."
+      },
+      {
+        "error": "Breathing through mouth due to jaw pressure triggering panic response",
+        "consequence": "Activates sympathetic stress response causing rapid fatigue, loss of technical composure, and increasingly desperate reactive movements the opponent can exploit",
+        "correction": "Force nasal breathing despite the discomfort. Practice pressure tolerance in training to develop the ability to maintain composure under jaw pressure."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Frame Mechanics",
+        "focus": "Building proper forearm frame structures under pressure",
+        "description": "Practice positioning forearm wedges against partner's hip and chest from Shoulder of Justice bottom with zero resistance. Focus on elbow-to-rib connection, forearm angle, and skeletal alignment. No escape attempts, only frame positioning and maintenance for 2-minute rounds."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying weight shift windows for escape attempts",
+        "description": "Partner applies Shoulder of Justice pressure and periodically shifts weight for adjustments. Bottom player must verbally identify each timing window without actually escaping. Develop the ability to feel weight changes through pressure sensitivity rather than visual cues."
+      },
+      {
+        "phase": "Phase 3: Hip Escape Integration",
+        "focus": "Combining frames with timed hip escapes and knee insertion",
+        "description": "With frames established, practice executing hip escapes during partner's deliberate weight shifts at 30% resistance. Focus on smooth frame-to-shrimp coordination, immediate knee insertion, and space preservation between movements. Build to 50% resistance over multiple sessions."
+      },
+      {
+        "phase": "Phase 4: Full Escape Sequence",
+        "focus": "Connecting all steps from frame to half guard consolidation",
+        "description": "Execute the complete escape sequence against 50-75% resistance: breathing control, frame establishment, timing recognition, hip escape, knee insertion, leg entanglement, and half guard consolidation. Partner provides specific counters to develop troubleshooting ability."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Applying the escape under full resistance in positional sparring",
+        "description": "Positional sparring starting from Shoulder of Justice. Bottom player works to escape to half guard while top player uses full pressure and counterattacks. Track escape success rate and identify which phase of the sequence breaks down most frequently for targeted improvement."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the most critical error that the Shoulder of Justice pressure is designed to provoke, and why is it so dangerous?",
+        "answer": "The shoulder pressure is specifically designed to provoke extending the near arm to push the shoulder away from the jaw. This is dangerous because it immediately exposes the arm to a kimura attack, which has an extremely high finishing rate from this position due to the opponent's superior body positioning and leverage angle. The correct response is keeping the near arm absolutely tight to the body."
+      },
+      {
+        "question": "Why must you time your hip escape to the opponent's weight shifts rather than attempting escape during maximum pressure?",
+        "answer": "During maximum pressure, the opponent's full body weight is committed through their shoulder into your jaw with their base stable and hips connected. Escaping against this pressure is mechanically futile and wastes critical energy. Weight shifts occur when the opponent adjusts position, reaches for grips, or transitions, momentarily reducing the pressure vector and creating windows where your hip escape can generate actual space."
+      },
+      {
+        "question": "Your opponent senses your frame attempt and immediately increases hip pressure. How do you respond?",
+        "answer": "Hold your frames in their current position without pushing or attempting to generate movement. The opponent cannot maintain maximum pressure indefinitely and will eventually need to adjust or transition. Patience is essential. Maintain your frames as static structural barriers and resume your escape attempt during the next genuine weight shift opportunity."
+      },
+      {
+        "question": "What is the correct direction for your hip escape, and why does direction matter?",
+        "answer": "Direct your hip escape away from the opponent's head, moving toward their hips and legs. Escaping toward the head invites a north-south transition where the opponent can spin around your head and establish an even more dominant position. Moving toward their legs naturally creates the angle needed for knee shield insertion and half guard recovery."
+      },
+      {
+        "question": "Why must the knee shield be inserted simultaneously with the hip escape rather than afterward?",
+        "answer": "If you pause between creating space and inserting the knee shield, the opponent immediately re-closes the distance and re-establishes shoulder pressure. The window of space created by the hip escape is momentary and must be immediately filled with a structural barrier. The knee shield locks in the space and prevents the opponent from returning to Shoulder of Justice."
+      },
+      {
+        "question": "Your opponent begins stepping over to mount as you hip escape. What adjustment do you make?",
+        "answer": "Immediately prioritize knee insertion over continued shrimping distance. Drive your near knee across the opponent's hip line to block their leg from completing the step-over. Even a partial knee shield prevents full mount establishment. If they get one leg over, you recover to half guard rather than full mount, which is still a successful partial escape from Shoulder of Justice."
+      },
+      {
+        "question": "What role does breathing play in the success of this escape, and what breathing pattern should you maintain?",
+        "answer": "Nasal breathing activates the parasympathetic nervous system, maintaining composure and preventing the panic response that jaw pressure is designed to trigger. Mouth breathing accelerates the stress response, causing rapid fatigue and reactive decision-making. Maintain steady inhale-exhale cycles through the nose throughout the entire escape sequence, even during maximum discomfort."
+      },
+      {
+        "question": "After successfully inserting a knee shield, what must you do immediately to prevent the opponent from re-establishing control?",
+        "answer": "Immediately consolidate full half guard by securing leg entanglement on the opponent's trapped leg, turning to your side to face the opponent, and fighting for the underhook on the trapped-leg side. Remaining flat on your back with only a knee shield allows the opponent to begin their half guard passing sequence from a dominant crossface position."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Frame Escape from Shoulder of Justice."
+    "safety_considerations": "The Frame Escape from Shoulder of Justice involves significant jaw and neck pressure that can cause temporomandibular joint discomfort and cervical strain. Train with progressive resistance levels and communicate immediately if neck pain occurs. Tap early when practicing the associated kimura threats during drilling. Partners should apply shoulder pressure gradually during training to allow the bottom player to develop tolerance safely. Practitioners with pre-existing jaw or cervical spine conditions should consult a medical professional before training under heavy shoulder pressure."
   },
   "defender": {
     "name": "Frame Escape from Shoulder of Justice Defender",
-    "description": "TODO: Write defender description for Frame Escape from Shoulder of Justice.",
-    "overview": "TODO: Write defender overview for Frame Escape from Shoulder of Justice.",
+    "description": "Prevent the Frame Escape from Shoulder of Justice by maintaining pressure, recognizing escape timing, and countering with positional advancement or submissions.",
+    "overview": "As the defender against the Frame Escape, you are the top player maintaining Shoulder of Justice control and must prevent the bottom player from establishing effective frames, creating space, and recovering guard. Your objective is to recognize frame attempts early, counter them by adjusting pressure or attacking the framing arms, and capitalize on the bottom player's movement to advance to mount or set up submissions. The most effective defense combines relentless pressure maintenance with tactical awareness of when the bottom player's escape attempts create offensive opportunities for positional advancement or kimura attacks.",
     "key_principles": [
-      "TODO"
+      "Maintain constant shoulder pressure at the optimal 45-degree angle toward the opponent's far shoulder to prevent jaw relief",
+      "Keep hips heavy and connected to the opponent's near hip line to prevent effective shrimping movements",
+      "Recognize frame establishment attempts early and immediately counter by collapsing frames with body weight",
+      "Use the opponent's escape movements as triggers for positional advancement to mount or submission entries",
+      "Control the near arm proactively to eliminate the primary framing tool before it can be positioned effectively",
+      "Adjust pressure angle continuously to follow the opponent's head movements and deny any relief"
     ],
     "recognition_cues": [
-      "TODO"
+      "Bottom player positions their near forearm against your hip bone, indicating frame setup for hip escape",
+      "Bottom player's breathing becomes controlled and rhythmic through the nose, signaling preparation for systematic escape",
+      "Bottom player's far arm moves to create a secondary frame against your chest or shoulder area",
+      "Bottom player begins subtle hip shifts testing your weight distribution for timing windows",
+      "Bottom player's legs reposition with inside knee angling toward your hip line, preparing for knee shield insertion"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Collapse frames by driving body weight through shoulder and re-settling hips heavier onto opponent's hip line",
+        "when_to_use": "Immediately upon recognizing forearm frame positioning against your hip before the opponent can establish structural alignment",
         "targets_outcome": "Shoulder of Justice/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Bottom player's frames collapse and they return to fully controlled position under maximum pressure",
+        "risk": "If you overcommit weight forward while re-settling, opponent may use your momentum for a bridge and frame combination"
+      },
+      {
+        "action": "Step over to mount when opponent creates space with hip escape",
+        "when_to_use": "When the bottom player's hip escape creates separation between your bodies, step your near leg over their body before they can insert a knee shield",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You advance to full mount, significantly worsening the opponent's defensive situation",
+        "risk": "If opponent inserts knee shield before your leg clears, you end up in half guard top rather than mount"
+      },
+      {
+        "action": "Attack kimura on the near arm when any separation occurs between their elbow and ribs during framing",
+        "when_to_use": "When the bottom player's near arm creates even slight separation from their body during frame attempts, immediately grip the wrist and begin kimura mechanics",
+        "targets_outcome": "Shoulder of Justice/Bottom",
+        "if_successful": "Opponent must abandon escape to defend the kimura, returning to pure defensive mode under your control",
+        "risk": "Reaching for the kimura grip momentarily reduces your shoulder pressure, creating a brief escape window"
+      },
+      {
+        "action": "Transition to north-south when opponent shrimps toward your head",
+        "when_to_use": "When the bottom player's escape direction moves them toward your head rather than away, follow their movement and spin to north-south control",
+        "targets_outcome": "Shoulder of Justice/Bottom",
+        "if_successful": "You establish north-south control which eliminates the frame escape pathway entirely and opens new submission threats",
+        "risk": "During the transition, opponent may recover guard if you lose chest-to-chest pressure during the spin"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Shoulder of Justice/Bottom",
+        "how": "Recognize frame attempts early and collapse them with increased body weight pressure before the opponent can establish structural alignment. Keep hips permanently connected to their hip line and control the near arm proactively to eliminate framing opportunities."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When the opponent commits to a hip escape and creates separation, immediately step your near leg over their body to advance to mount. Time the step-over to coincide with their maximum hip escape distance when their knee shield is not yet established."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Allowing frames to establish without immediately countering with pressure adjustment or frame collapse",
+        "consequence": "Bottom player builds structural frames that create a foundation for timed hip escapes, progressively degrading your positional control",
+        "correction": "React immediately to any forearm positioning against your hip or chest by increasing weight, collapsing the frame with your body, or transitioning to attack the framing arm"
+      },
+      {
+        "error": "Lifting hips during shoulder pressure adjustment or weight shifting",
+        "consequence": "Creates the exact timing window the bottom player needs for an effective hip escape and knee shield insertion",
+        "correction": "Keep hips connected to the opponent's hip line during all adjustments. Adjust shoulder angle and pressure direction through upper body movement without lifting your center of mass."
+      },
+      {
+        "error": "Focusing solely on maintaining pressure without recognizing and capitalizing on the opponent's escape movements",
+        "consequence": "Miss high-percentage opportunities to advance to mount or attack submissions that the opponent's movements naturally create",
+        "correction": "Maintain awareness of the opponent's movement direction and immediately transition to mount or submission when their escape attempts create openings"
+      },
+      {
+        "error": "Reaching for submissions with both hands simultaneously and releasing all pressure control",
+        "consequence": "Bottom player escapes to half guard or full guard during the momentary pressure release required for two-handed submission grip",
+        "correction": "Maintain shoulder pressure and hip connection while attacking with one arm, or transition deliberately to a submission position rather than reaching from distance"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that the bottom player is preparing a systematic frame escape rather than a panic reaction?",
+        "answer": "Controlled nasal breathing is the earliest indicator. When the bottom player shifts from mouth breathing or erratic breathing to steady nasal breathing patterns, they have regained composure and are preparing a systematic escape sequence. This is the optimal time to preemptively increase pressure, control the near arm, or begin transitioning to prevent the structured escape attempt."
+      },
+      {
+        "question": "Your opponent successfully establishes a forearm frame against your hip. What is the highest-priority counter?",
+        "answer": "Immediately drive your body weight heavier through your shoulder and settle your hips lower onto their hip line to collapse the frame before it develops structural integrity. Do not reach for the arm or try to remove it with your hands, as this reduces your pressure. Use your entire body weight directed through the shoulder and hip connection to crush the frame flat against their body."
+      },
+      {
+        "question": "The bottom player hip escapes and creates space. Should you re-settle to Shoulder of Justice or advance to mount?",
+        "answer": "Advance to mount by stepping your near leg over their body. Once the bottom player has created significant space through a hip escape, attempting to re-settle Shoulder of Justice requires closing distance against established frames, which is energy-intensive and may fail. Advancing to mount capitalizes on the space they created. Only re-settle if they have already inserted a knee shield that blocks the step-over."
+      },
+      {
+        "question": "How do you maintain shoulder pressure while preventing the opponent from timing your weight shifts for escape attempts?",
+        "answer": "Minimize unnecessary adjustments that create weight shift timing windows. When adjustments are required, make them through small upper-body movements while keeping hips permanently connected to the opponent's hip line. Vary the timing and rhythm of your adjustments unpredictably rather than settling into patterns the opponent can read and exploit."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Pressure Maintenance",
+        "focus": "Sustaining Shoulder of Justice control under escape attempts",
+        "description": "Partner attempts frame escapes at 50% effort while you focus exclusively on maintaining shoulder pressure and hip connection. No submissions or transitions, only pressure retention and frame collapse. Build the habit of immediate pressure response to frame attempts."
+      },
+      {
+        "phase": "Phase 2: Counter Recognition",
+        "focus": "Identifying and capitalizing on escape movement opportunities",
+        "description": "Partner attempts escapes at 75% effort. Practice recognizing the transition to mount when they hip escape, and the kimura attack when their arm separates. Focus on reading the specific movement that opens each counter opportunity."
+      },
+      {
+        "phase": "Phase 3: Transition Chaining",
+        "focus": "Flowing between pressure maintenance, mount advancement, and submission attacks",
+        "description": "Full positional sparring from Shoulder of Justice. Chain together pressure maintenance, mount advancement on hip escapes, kimura attacks on arm exposure, and north-south transitions on head-direction shrimps. Develop automatic responses to each escape pattern."
       }
     ]
   }

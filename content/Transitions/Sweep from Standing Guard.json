@@ -1,42 +1,409 @@
 {
   "name": "Sweep from Standing Guard",
-  "description": "Master the Sweep from Standing Guard in BJJ. Learn techniques for off-balancing a standing opponent from guard and achieving top position.",
-  "tags": ["bjj", "transition", "sweep", "standing-guard", "guard", "takedown"],
+  "description": "Master the Sweep from Standing Guard in BJJ. Complete guide to off-balancing a standing opponent from guard position and achieving dominant top control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "standing-guard",
+    "guard",
+    "open-guard",
+    "off-balance",
+    "tripod-sweep",
+    "sickle-sweep"
+  ],
   "from_position": "Standing Guard/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 40, "result": "success"},
-    {"to": "Standing Guard/Bottom", "probability": 40, "result": "failure"},
-    {"to": "Side Control/Bottom", "probability": 20, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 40,
+      "result": "success"
+    },
+    {
+      "to": "Standing Guard/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 20,
+      "result": "counter"
+    }
   ],
   "success_rate": 40,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The Sweep from Standing Guard targets the inherent vulnerability created when an opponent stands up in your guard. A standing posture raises the opponent's center of gravity while narrowing their base, making them susceptible to coordinated push-pull mechanics. The bottom player uses feet on the opponent's hips as a primary control mechanism, creating a fulcrum point that enables powerful leverage-based sweeps. Success depends on disrupting the standing player's base through asymmetric force application, pushing their upper body in one direction while removing support from their feet in the opposite direction.\n\nThis sweep family represents one of the most important defensive tools against modern standing guard passing. As standing passes have become dominant at high levels, the ability to sweep a standing opponent serves as both a scoring opportunity and a strategic deterrent that shapes the passer's behavior. When the bottom player demonstrates a credible sweep threat, the standing passer must divide attention between passing mechanics and base defense, creating windows for guard retention and alternative attacks. The tripod sweep and sickle sweep are the highest-percentage options, combining accessibility with effectiveness across all body types.\n\nStrategic timing separates successful sweep attempts from wasted energy. The optimal window occurs when the standing player shifts weight to initiate a passing sequence, momentarily committing their center of gravity away from neutral balance. Experienced practitioners read these micro-commitments through tactile feedback from feet on the opponent's hips and visual cues from shoulder movement. The sweep should be launched during the weight shift rather than before or after, as premature attempts telegraph intent while delayed attempts miss the balance disruption window. Following through immediately to establish top position is equally critical, as hesitation allows the opponent to recover and reguard.",
+  "conditions": [
+    "Opponent is standing upright in your open guard with both feet planted on the mat",
+    "Bottom player has established at least one foot on the opponent's hip or thigh for distance control",
+    "Bottom player can reach the opponent's ankles or lower legs with their hands",
+    "Opponent's weight is shifting or committed during a passing attempt rather than perfectly centered"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Tripod Sweep",
+      "description": "Place one foot on the opponent's same-side hip, grip the far ankle with the same-side hand, and hook behind the near ankle with the other foot. Push the hip foot forward while pulling the ankle grip and scooping the near ankle to topple the opponent backward over their heels.",
+      "when_to_use": "When opponent has a wide stance with weight distributed evenly between both feet, allowing you to attack both ankles simultaneously while controlling distance with the hip foot."
+    },
+    {
+      "variant_name": "Sickle Sweep",
+      "description": "From feet-on-hips position, drop both feet behind the opponent's ankles in a sickle motion while pulling their upper body forward with collar and sleeve grips. The coordinated leg sweep and upper body pull creates an irrecoverable forward fall.",
+      "when_to_use": "When opponent leans their weight forward over their toes during a passing attempt, making them vulnerable to having their feet swept backward while their upper body is pulled forward."
+    },
+    {
+      "variant_name": "Technical Standup to Ankle Pick",
+      "description": "Use a technical standup motion from open guard to rise to a single leg or ankle pick position. Control the opponent's lead ankle while posting on the opposite hand, then drive forward to finish the takedown and establish top position.",
+      "when_to_use": "When opponent gives excessive distance and you cannot effectively reach their ankles from supine guard, requiring you to close the distance by standing up into an offensive wrestling position."
+    },
+    {
+      "variant_name": "Collar Drag to Sweep",
+      "description": "Secure a deep cross-collar grip while placing one foot on the hip. Pull the collar grip explosively to one side while using the hip foot to redirect the opponent's balance, dragging them past you and coming up to top position as they fall.",
+      "when_to_use": "In gi situations where you can establish a deep collar grip before the opponent breaks distance, particularly effective when the opponent has a stiff upright posture that amplifies the pulling force."
+    }
+  ],
+  "position_integration": "The Sweep from Standing Guard integrates into the broader open guard retention and attack system as the primary deterrent against standing guard passing. It chains naturally with other open guard techniques: a failed tripod sweep can flow directly into De La Riva Guard entry, Collar Sleeve Guard transitions, or X-Guard entries depending on where the opponent's weight settles after defending. Successful completion leads directly to side control consolidation and top game development. The sweep threat also creates a strategic framework where the bottom player forces the standing passer into a dilemma, either respect the sweep and slow their passing approach or risk being toppled and conceding two points plus dominant position. This makes standing guard sweeps a cornerstone of competitive guard strategy at all levels.",
+  "related_content": [
+    {
+      "name": "Open Guard",
+      "relationship": "Related guard position from which standing sweeps are initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved after successful sweep"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Alternative guard entry when sweep attempt fails and opponent steps back"
+    },
+    {
+      "name": "Feet on Hips Tripod Sweep",
+      "relationship": "Specific tripod sweep variant from feet-on-hips guard configuration"
+    },
+    {
+      "name": "Feet on Hips Sickle Sweep",
+      "relationship": "Specific sickle sweep variant from feet-on-hips guard configuration"
+    },
+    {
+      "name": "Scissor Sweep from Open Guard",
+      "relationship": "Related sweep technique from open guard position"
+    },
+    {
+      "name": "Ankle Pick",
+      "relationship": "Alternative standup attack that can follow a failed sweep attempt"
+    },
+    {
+      "name": "Guard Pass from Standing Guard",
+      "relationship": "Opponent's primary objective that the sweep aims to prevent"
+    },
+    {
+      "name": "Collar Drag from Open Guard",
+      "relationship": "Alternative off-balancing attack from similar guard position"
+    },
+    {
+      "name": "Feet on Hips Guard",
+      "relationship": "Guard configuration that serves as the primary launching platform for standing sweeps"
+    }
+  ],
   "attacker": {
     "name": "Sweep from Standing Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Standing Guard/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Complete attacker guide for executing sweeps from Standing Guard in BJJ. Step-by-step tripod and sickle sweep mechanics, timing windows, and follow-through techniques for achieving top position against standing opponents.",
+    "overview": "Executing sweeps from Standing Guard requires understanding the biomechanical vulnerabilities of a standing opponent and the coordinated push-pull mechanics needed to exploit them. The attacker operates from a supine position with feet placed on the opponent's hips, using this connection as both a distance management tool and the primary lever for generating sweeping force. The fundamental principle is asymmetric force application: the feet push the opponent's hips in one direction while the hands pull their upper body or ankles in the opposing direction, creating a rotational force that overcomes their base. Mastery requires developing sensitivity to weight shifts through foot contact, precise timing of the sweep launch, and immediate follow-through to top position before the opponent can recover. The attacker must also maintain contingency plans for failed attempts, flowing seamlessly into alternative guard positions rather than remaining in a compromised posture.",
+    "key_principles": [
+      "Control distance with feet on hips before initiating any sweep attempt to prevent the opponent from closing range and establishing passing grips",
+      "Apply asymmetric force by pushing the opponent's hips in one direction while pulling their ankles or upper body in the opposite direction to create irrecoverable rotation",
+      "Time the sweep launch with the opponent's weight shift during passing attempts when their center of gravity is momentarily displaced from neutral balance",
+      "Maintain grip on at least one ankle or pant leg throughout the sweep to prevent the opponent from stepping out and recovering their base",
+      "Follow through explosively to top position immediately after the sweep lands, never pausing in the supine position after the opponent falls",
+      "Develop contingency flows so that failed sweep attempts transition seamlessly into De La Riva, Collar Sleeve, or X-Guard rather than leaving you in a flat open guard"
+    ],
+    "setup_requirements": [
+      "Establish at least one foot firmly on the opponent's hip or thigh to create the primary control and leverage point for the sweep",
+      "Secure grip control on the opponent's ankle, pant leg, or sleeve to prevent them from simply stepping away from the sweep mechanics",
+      "Confirm the opponent's weight is committed or shifting rather than perfectly centered, as sweeps against a balanced opponent have minimal success probability",
+      "Ensure your hips are angled toward the direction of the sweep rather than flat on the mat, as angled hips generate greater rotational force",
+      "Verify adequate mat space behind the opponent for them to fall safely, particularly in crowded training environments"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish feet-on-hips control",
+        "description": "Place both feet on the opponent's hips with your toes pointing outward and heels driving into the hip crease. This creates the primary fulcrum point for the sweep and establishes distance control that prevents the opponent from initiating passing sequences. Keep your hips off the mat and your core engaged to maintain active connection."
+      },
+      {
+        "step_number": 2,
+        "action": "Secure ankle and upper body grips",
+        "description": "Reach down with one hand to grip the opponent's far ankle at the Achilles tendon or pants cuff, while the other hand controls their same-side sleeve, collar, or wrist. These grips create the pulling component of the push-pull sweep mechanics and prevent the opponent from stepping out to recover balance during the sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Read the weight shift",
+        "description": "Feel through your feet on the opponent's hips for directional weight commitment. When the opponent shifts weight to initiate a pass, their center of gravity moves away from neutral balance. This is the optimal launch window. Common indicators include one hip becoming heavier on your foot, shoulder rotation, or a lateral step that commits weight to one leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Drop the sweeping foot behind the ankle",
+        "description": "Remove one foot from the hip and hook it behind the opponent's near-side ankle or behind both ankles depending on the sweep variant. For the tripod sweep, place the instep behind the ankle on the same side as your ankle grip. For the sickle sweep, sweep both feet behind both ankles simultaneously. The hooking foot must contact below the ankle bone to prevent the opponent from stepping over."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute the coordinated push-pull",
+        "description": "Simultaneously push forward with the hip foot driving the opponent's pelvis backward while pulling their ankle grip toward you and scooping their near ankle with the hooking foot. The hip foot creates the primary displacing force while the ankle attacks remove the opponent's base. This coordinated action must happen as a single explosive movement rather than sequential steps to prevent recovery."
+      },
+      {
+        "step_number": 6,
+        "action": "Guide the opponent's fall direction",
+        "description": "As the opponent loses balance, use your grips and foot placement to direct their fall to the side where you can most easily achieve top position. Pull the ankle grip across your body to angle their fall laterally rather than allowing them to sit straight back, which would enable easier guard recovery. Your hip foot continues pushing through to ensure complete displacement."
+      },
+      {
+        "step_number": 7,
+        "action": "Come up to top position immediately",
+        "description": "As soon as the opponent lands on the mat, release the hip foot and use the momentum to sit up and come forward over the fallen opponent. Do not release your grips until you have established top position. Drive your chest forward and begin establishing crossface or underhook control before the opponent can frame, shrimp, or reguard from the ground."
+      },
+      {
+        "step_number": 8,
+        "action": "Consolidate side control",
+        "description": "Establish perpendicular chest-to-chest contact with crossface pressure and hip-to-hip connection to secure side control. Block the opponent's far hip with your near hand to prevent knee insertion, and settle your weight low and heavy across their torso. The transition from sweep completion to consolidated side control should be seamless with no gap that allows guard recovery."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts their hand on the mat behind them to prevent falling backward",
+        "effectiveness": "High",
+        "your_response": "When the opponent posts, immediately switch to attacking the posted arm with a grip change or transition to a collar drag that exploits their compromised posture. Alternatively, increase the sweeping force angle to go around their post by redirecting the sweep laterally.",
+        "targets_outcome": "Standing Guard/Bottom"
+      },
+      {
+        "counter": "Opponent backsteps or hops over the ankle hook to remove the sweeping leverage",
+        "effectiveness": "Medium",
+        "your_response": "Follow their retreating legs with your hips and immediately re-establish feet on hips. Use the backstep momentum to enter De La Riva Guard on their retreating leg or transition to Collar Sleeve Guard to maintain offensive pressure from a new angle.",
+        "targets_outcome": "Standing Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward aggressively through the sweep attempt to smash pass",
+        "effectiveness": "Medium",
+        "your_response": "If the opponent drives forward, redirect their momentum by pulling them past you with collar or sleeve grips while inserting butterfly hooks or transitioning to closed guard. Their forward commitment can be used against them for alternative sweeps or back takes.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Opponent strips your ankle grip and immediately initiates a fast toreando pass",
+        "effectiveness": "High",
+        "your_response": "If grips are stripped, immediately recover feet to hips to re-establish distance control before they complete the pass. Use the remaining sleeve or collar grip to slow their passing momentum while recomposing guard. Prioritize guard retention over re-attempting the sweep.",
+        "targets_outcome": "Side Control/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep without controlling at least one ankle",
+        "consequence": "The opponent simply steps out of the sweep by moving their feet away from the hooking leg, wasting energy and leaving you in a flat open guard with no grips",
+        "correction": "Always secure an ankle or pants grip before committing to the sweep. The ankle control removes the opponent's ability to step out and is the non-negotiable prerequisite for sweep success."
+      },
+      {
+        "error": "Pushing with the hip foot and pulling the ankle sequentially instead of simultaneously",
+        "consequence": "The opponent has time to react to each force individually, either resisting the push or pulling their ankle free before both forces combine to break their balance",
+        "correction": "Train the push-pull as a single coordinated movement. Both forces must be applied simultaneously to create the rotational displacement that overcomes the opponent's base."
+      },
+      {
+        "error": "Failing to follow through to top position after the sweep lands",
+        "consequence": "The opponent recovers guard or creates scramble opportunities from the ground while you remain on your back, negating the sweep advantage and wasting the positional opportunity",
+        "correction": "Train the follow-through as part of the sweep itself. The moment the opponent's back touches the mat, you should already be sitting up and driving forward to establish top control."
+      },
+      {
+        "error": "Telegraphing the sweep by reaching for the ankle before establishing hip control",
+        "consequence": "The opponent reads the sweep attempt early and either backs away to create distance or strips your reaching hand and initiates a fast pass before you can reset",
+        "correction": "Establish feet on hips first as your primary position. Reach for the ankle smoothly and quickly after hip control is set, minimizing the telegraphing window."
+      },
+      {
+        "error": "Attempting the sweep when the opponent's weight is perfectly centered between both feet",
+        "consequence": "The sweep requires significantly more force against a centered opponent and is far more likely to fail, wasting energy and revealing your offensive intention for subsequent attempts",
+        "correction": "Wait for the opponent to shift weight during a passing attempt. Patience is critical, as forcing a sweep against a balanced opponent is a low-percentage gamble."
+      },
+      {
+        "error": "Hooking behind the knee instead of behind the ankle",
+        "consequence": "The opponent can step over your hooking foot because the higher contact point does not prevent them from lifting their foot clear of the hook, allowing easy base recovery",
+        "correction": "Hook behind the ankle bone or lower. The lower the contact point on the opponent's leg, the more mechanical advantage your hook has and the harder it is for them to step over."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mechanics",
+        "focus": "Hip movement and coordination patterns",
+        "description": "Practice the push-pull coordination pattern with a training dummy or wall. Focus on simultaneously extending one leg while sweeping the other behind an imaginary ankle. Develop the hip bridging motion needed to come up to top position immediately after the sweep. Perform 20 repetitions per side daily."
+      },
+      {
+        "phase": "Phase 2: Cooperative Drilling",
+        "focus": "Grip placement and sweep mechanics with a partner",
+        "description": "Drill the complete sweep sequence with a compliant partner standing in your guard. Focus on proper grip placement on the ankle, foot positioning on the hip, and the timing of the coordinated push-pull. Partner allows the sweep to complete so you can practice the full motion including follow-through to side control. 10 reps per side, then switch roles."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Timing and force application against increasing defense",
+        "description": "Partner provides graduated resistance: 25%, 50%, 75%, then full resistance. At each level, focus on reading the opponent's weight distribution and timing the sweep launch with their movement. Develop sensitivity to the optimal sweep window through repetition against progressively more realistic defense. 5-minute rounds at each resistance level."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Chaining sweeps with guard retention and alternative attacks",
+        "description": "Positional sparring starting from standing guard. Bottom player focuses on sweep attempts and flowing to alternative guards when sweeps fail. Top player works normal passing. Emphasize the sweep as part of a larger guard system rather than an isolated technique. Track sweep attempts and conversions to identify timing and mechanical adjustments needed. 6-minute rounds with role switching."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for launching a sweep against a standing opponent?",
+        "answer": "The optimal timing window is when the opponent shifts weight to initiate a passing sequence, momentarily committing their center of gravity away from neutral balance. This weight shift can be detected through tactile feedback from your feet on their hips, where one hip becomes heavier than the other, and through visual cues like shoulder rotation or a lateral step. Launching during the weight shift exploits the moment when the opponent cannot quickly redistribute their base to defend the sweep."
+      },
+      {
+        "question": "Why must the ankle grip and hip push be applied simultaneously rather than sequentially?",
+        "answer": "Simultaneous application creates a rotational force that the opponent cannot counter with a single defensive action. When applied sequentially, the opponent has time to address each force independently: they can resist the push before the pull arrives, or free their ankle before the push displaces them. The combined force vector of pushing the hips backward while pulling the ankle forward generates a rotational moment that exceeds the opponent's ability to stabilize through any single adjustment."
+      },
+      {
+        "question": "Your opponent posts their hand on the mat to prevent falling during your sweep attempt. How do you adjust?",
+        "answer": "When the opponent posts, you have several options. First, you can redirect the sweep angle laterally to go around their post by changing the direction of your hip push. Second, you can attack the posted arm directly by releasing one grip and controlling their posting wrist, removing their base support. Third, you can use their compromised posture to transition to a collar drag or arm drag, since the posting hand means they cannot defend upper body attacks. The post is a temporary solution that creates its own vulnerabilities."
+      },
+      {
+        "question": "What is the most critical hip movement for generating sweep power from the supine position?",
+        "answer": "The bridge-and-angle motion is the most critical hip movement. Rather than pushing straight forward with the hip foot, angle your hips toward the sweep direction and bridge explosively to generate upward and forward force through the foot on the opponent's hip. This angled bridge creates a directional force vector that displaces the opponent laterally rather than just backward, making it significantly harder for them to maintain balance. Flat hips generate less force and in a less effective direction compared to angled, bridging hips."
+      },
+      {
+        "question": "What grip configuration provides the best mechanical advantage for the tripod sweep?",
+        "answer": "The optimal grip configuration for the tripod sweep is a same-side ankle grip at the Achilles tendon combined with a cross-side collar or sleeve grip. The ankle grip at the Achilles provides maximum pulling leverage because it is the lowest and most distal control point on the leg, giving you the longest lever arm. The cross-collar or cross-sleeve grip provides upper body control that prevents the opponent from rotating out of the sweep and helps direct their fall to the side where you can most easily come up to top position."
+      },
+      {
+        "question": "Your sweep attempt fails and the opponent immediately begins a toreando pass. What is your recovery sequence?",
+        "answer": "Immediately recover both feet to the opponent's hips to re-establish distance control and prevent them from completing the pass. Use any remaining sleeve or collar grip to slow their lateral passing momentum while your feet reset. If feet-on-hips recovery is not possible, insert a knee shield or transition to De La Riva Guard on their lead passing leg. The priority is guard retention over re-attempting the sweep, as a failed sweep that transitions to a successful guard position is far better than a failed sweep that leads to getting passed."
+      },
+      {
+        "question": "Where exactly should the hooking foot contact the opponent's leg during the sweep and why?",
+        "answer": "The hooking foot should contact behind the ankle bone, specifically at or below the Achilles tendon. This low contact point is critical because it prevents the opponent from stepping over the hook by lifting their foot. A hook placed behind the knee or calf allows the opponent to simply step over and free their leg from the sweep mechanics. The lower the contact point, the more the hook functions as a physical barrier that traps the entire foot and prevents any stepping motion that would allow base recovery."
+      },
+      {
+        "question": "How should you modify your sweep approach when facing an opponent with a very wide, low stance?",
+        "answer": "Against a wide, low stance, direct tripod or sickle sweeps become lower percentage because the opponent's base is naturally more stable. Adjust by first narrowing their stance through grip manipulation, such as pulling one ankle toward the other to bring their feet closer together. Alternatively, switch to a collar drag or arm drag approach that attacks their upper body balance rather than their lower body base. You can also use the feet on hips to elevate their weight off one leg, effectively narrowing their functional base before launching the sweep. The key principle is to create the vulnerability before attacking it rather than forcing a sweep against a structurally sound base."
+      }
+    ],
+    "safety_considerations": "When drilling sweeps against standing opponents, ensure adequate mat space behind the standing player to prevent landing on hard surfaces or other practitioners. The falling player should practice breakfalls and tuck their chin on impact to prevent head and neck injury. Standing players face risk of knee hyperextension if their feet catch on the mat surface during an unexpected fall, so always communicate resistance levels with training partners. Progress resistance gradually from cooperative to full resistance over multiple sessions. In competition contexts, be aware that aggressive follow-throughs into top position can result in slamming penalties if the opponent is elevated during the sweep."
   },
   "defender": {
     "name": "Sweep from Standing Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Standing Guard/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Standing Guard/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Complete defensive guide against sweeps from Standing Guard in BJJ. Recognition cues, base recovery techniques, counter-passing strategies, and balance maintenance for standing guard passers facing sweep threats.",
+    "overview": "Defending against sweeps from Standing Guard is essential for any practitioner who employs standing guard passing. The standing position offers significant passing advantages but creates inherent vulnerability to sweep attacks that exploit the elevated center of gravity and relatively narrow base. Effective defense requires anticipating sweep attempts before they develop, maintaining base width and weight distribution that resist off-balancing forces, and having immediate counter-responses prepared for each sweep variant. The defender must balance their passing objectives with constant awareness of sweep threats, developing the ability to address sweep mechanics early in their development rather than fighting fully committed sweep attempts. Understanding the attacker's grip requirements and force vectors allows the defender to disrupt sweep setups before they reach the point of execution, making early recognition and proactive grip fighting the most energy-efficient defensive strategy.",
+    "key_principles": [
+      "Maintain a wide base with weight distributed through the balls of both feet, keeping the center of gravity low enough to resist off-balancing while high enough to maintain passing mobility",
+      "Strip ankle grips immediately upon feeling the opponent reach for your lower legs, as ankle control is the non-negotiable prerequisite for most standing guard sweeps",
+      "Monitor foot pressure on your hips as a primary threat indicator, recognizing that changes in pressure direction and intensity signal imminent sweep attempts",
+      "Keep at least one hand controlling the opponent's legs or hips at all times to limit their ability to establish the grip configurations needed for sweep execution",
+      "React to sweep initiation with lateral movement rather than backward stepping, as lateral movement changes the force angle and disrupts the attacker's push-pull mechanics",
+      "When balance is compromised, post immediately with the hand on the side you are falling toward rather than trying to muscle back to upright posture, as the post buys time to recover base"
+    ],
+    "recognition_cues": [
+      "Opponent reaches down with one or both hands toward your ankles or pants cuffs while maintaining feet on your hips, indicating grip setup for tripod or sickle sweep",
+      "Pressure from opponent's feet on your hips shifts from neutral pushing to an angled directional force, indicating the sweep direction and imminent launch",
+      "Opponent's hips lift off the mat and angle to one side while their upper body remains low, creating the rotational body position needed to generate sweeping force",
+      "Opponent removes one foot from your hip and drops it toward your ankle level, signaling transition from distance control to sweep mechanics",
+      "Opponent's grip tightens dramatically on your sleeve or collar while simultaneously pulling downward, indicating upper body control component of the push-pull sweep"
+    ],
+    "defensive_options": [
+      {
+        "action": "Strip ankle grips immediately with a two-on-one grip break and backstep to create distance",
+        "when_to_use": "As soon as you feel the opponent's hand contact your ankle or pants cuff, before they can establish a firm grip and begin generating sweeping force",
+        "targets_outcome": "Standing Guard/Bottom",
+        "if_successful": "Opponent loses the ankle control necessary for sweep execution and must reset their grip configuration, giving you time to re-establish passing position",
+        "risk": "Momentarily takes one hand off the opponent's guard, potentially allowing them to advance their guard position or establish alternative grips"
+      },
+      {
+        "action": "Widen base and lower center of gravity by bending knees deeper while keeping chest upright",
+        "when_to_use": "When you feel the initial push-pull force of a sweep attempt beginning but before the sweep reaches full commitment, allowing you to absorb the force through improved base",
+        "targets_outcome": "Standing Guard/Bottom",
+        "if_successful": "The wider base and lower center of gravity resist the rotational force of the sweep, stalling the attempt and forcing the opponent to abandon or restart",
+        "risk": "Lower posture may bring you closer to the opponent's guard hooks, potentially enabling closed guard or alternative guard entries"
+      },
+      {
+        "action": "Drive forward aggressively through the sweep attempt to initiate a smash pass or stack pass",
+        "when_to_use": "When the opponent commits fully to the sweep and removes one foot from your hip to hook your ankle, creating an opening to collapse their guard structure",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "The forward drive overwhelms the sweep mechanics and transitions directly into a guard pass, converting their offensive attempt into your positional advancement",
+        "risk": "If the sweep is already too developed, driving forward feeds into the sweep momentum and accelerates your fall rather than preventing it"
+      },
+      {
+        "action": "Hop laterally to remove the hooking foot from behind your ankle while maintaining upper body connection",
+        "when_to_use": "When you detect the opponent's foot dropping behind your ankle to establish the hook needed for tripod or sickle sweep execution",
+        "targets_outcome": "Standing Guard/Bottom",
+        "if_successful": "The lateral hop removes your ankle from the sweep hook, breaking the mechanical chain needed for the sweep while keeping you in passing range",
+        "risk": "The hopping motion momentarily lifts one foot off the mat, creating a brief single-leg balance moment that could be exploited by a well-timed secondary attack"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "When the opponent commits to a sweep attempt and removes one foot from your hip, immediately drive forward through their open guard structure with a stack or smash pass. Their commitment to the sweep removes the distance control that normally prevents your forward pressure, creating a direct passing lane to side control."
+      },
+      {
+        "outcome": "Standing Guard/Bottom",
+        "how": "Strip the opponent's ankle grips early using two-on-one grip breaks before they can develop sweep mechanics. Maintain a wide base with weight distributed through balls of feet and control the opponent's legs with downward pressure on their thighs or shins to prevent them from establishing feet on hips configuration. Proactive grip fighting prevents the sweep from ever reaching the execution phase."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Standing with a narrow stance and weight on the heels while in the opponent's guard range",
+        "consequence": "Narrow stance with heel-heavy weight distribution makes you maximally vulnerable to every sweep variant, as your base is smallest and your recovery options are most limited",
+        "correction": "Maintain shoulder-width or wider stance with weight on the balls of your feet and knees slightly bent. This athletic posture enables quick lateral movement and provides the wide base needed to resist push-pull sweep forces."
+      },
+      {
+        "error": "Ignoring the opponent's grip on your ankle and continuing with passing attempts",
+        "consequence": "Allowing ankle control to establish gives the opponent the mechanical prerequisite for sweep execution, and attempting to pass with their grip intact dramatically increases sweep success probability",
+        "correction": "Treat any grip on your ankle as an immediate priority to address. Stop passing attempts and strip the grip before it solidifies. Two-on-one grip breaks or backstep distance creation should happen within one to two seconds of grip contact."
+      },
+      {
+        "error": "Trying to pull the leg backward out of the ankle hook instead of stepping laterally",
+        "consequence": "Pulling backward feeds into the sweep direction for many variants and keeps your weight on one leg during the pulling motion, making you more vulnerable rather than less",
+        "correction": "Step laterally rather than backward when your ankle is hooked. The lateral step changes the force angle of the sweep and allows you to clear your foot from the hook with a circular motion rather than fighting the hook directly."
+      },
+      {
+        "error": "Leaning forward with hands on the opponent's chest or shoulders during sweep defense",
+        "consequence": "Forward lean places your center of gravity ahead of your base, making push-pull sweeps dramatically more effective and also exposing you to triangle and armbar attacks from the bottom player",
+        "correction": "Keep your posture upright with hips back during sweep defense. Your hands should control the opponent's legs and hips rather than reaching forward to their upper body, maintaining your center of gravity over your base."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that a sweep from standing guard is being set up?",
+        "answer": "The earliest cue is the opponent reaching toward your ankles with their hands while maintaining feet on your hips. This grip attempt is the non-negotiable prerequisite for most standing guard sweeps, and recognizing it before the grip solidifies gives you the maximum window for prevention. Secondary early cues include a shift in the directional pressure from their feet on your hips and their hips lifting and angling on the mat. Addressing the sweep at the grip-seeking phase is far more energy-efficient than fighting a fully committed sweep attempt."
+      },
+      {
+        "question": "Why is lateral movement more effective than backward stepping when defending sweep attempts?",
+        "answer": "Lateral movement changes the force angle of the push-pull sweep mechanics, disrupting the attacker's planned force vectors. Most sweeps are designed to create rotational displacement along a specific axis, and lateral movement shifts you off that axis. Backward stepping, by contrast, often feeds into the sweep direction, particularly for tripod and sickle variants where the sweeping force is directed backward. Additionally, lateral movement keeps you in passing range while backward stepping surrenders distance and allows the opponent to reset their guard structure."
+      },
+      {
+        "question": "Your opponent has already hooked behind both ankles and begun the sickle sweep motion. What is your emergency response?",
+        "answer": "If the sweep is already in motion and your ankles are trapped, immediately post your hand on the mat on the side you are falling toward to prevent completing the fall. Use the posted hand to stabilize while extracting one foot from the hook with a circular stepping motion. If the post is successful, use the momentary stability to either pull your feet free and re-establish base or transition into a forward drive to stack the opponent and initiate a pass from the compromised position. The post buys critical time but is not a permanent solution, so you must act quickly to either recover standing base or convert to a passing opportunity."
+      },
+      {
+        "question": "How should your grip strategy change when you recognize the opponent is primarily hunting for sweeps rather than playing retention guard?",
+        "answer": "Against a sweep-hunting opponent, prioritize controlling their legs and hips with downward pressure rather than seeking upper body grips for passing. Grab their pants at the thighs or control their shins with cupping grips to prevent them from placing feet on your hips effectively. Keep your hands low rather than reaching for collar grips, as high hands leave your lower body unprotected. Additionally, increase your base width and slow your passing pace, forcing the sweep hunter to create their own opportunities rather than capitalizing on your aggressive passing movement."
+      },
+      {
+        "question": "What is the relationship between your passing speed and vulnerability to standing guard sweeps?",
+        "answer": "Higher passing speed increases sweep vulnerability because rapid lateral movement temporarily shifts weight to one foot and creates the weight commitment that sweep attacks exploit. Fast passes like toreando require explosive lateral steps that momentarily narrow your base and commit your center of gravity to one direction. However, standing still is also dangerous because it allows the opponent to set grips and choose their timing. The optimal approach is controlled, methodical passing with deliberate weight distribution at each step, maintaining base width throughout the movement rather than lunging into passing positions. Speed should come from efficient technique rather than explosive movement that compromises base."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Drilling",
+        "focus": "Identifying sweep setups and early warning cues",
+        "description": "Stand in partner's open guard while they cycle through different sweep setups at 30% speed. Call out each sweep type as you recognize the setup cues: ankle grip reach, hip pressure shift, foot drop to ankle level. Focus purely on recognition without attempting defense or passing. Build the pattern recognition database before adding defensive responses."
+      },
+      {
+        "phase": "Phase 2: Grip Fighting Defense",
+        "focus": "Preventing sweep grips from establishing",
+        "description": "Partner attempts to establish ankle grips and hip foot placement from open guard at 50% speed. Practice two-on-one grip breaks on ankle grips, leg control to prevent feet on hips, and backstep distance creation. The goal is to shut down sweep setups before they reach execution phase. 5-minute rounds alternating roles."
+      },
+      {
+        "phase": "Phase 3: Emergency Recovery",
+        "focus": "Base recovery when sweep is already in motion",
+        "description": "Partner executes committed sweep attempts at 70% speed. Practice posting to prevent falls, lateral hopping to clear ankle hooks, and forward driving through compromised guard structures. Build automatic emergency responses that activate when early prevention fails. Include transitions from failed sweep defense directly into passing attempts."
+      },
+      {
+        "phase": "Phase 4: Integrated Passing Under Sweep Threat",
+        "focus": "Passing while managing sweep risk in live sparring",
+        "description": "Full positional sparring from standing guard with emphasis on passing while maintaining sweep awareness. Track both passing success rate and sweep prevention rate to identify whether your passing approach creates excessive sweep vulnerability. Adjust passing style based on the opponent's sweep tendencies, developing the ability to pass aggressively while maintaining sufficient base integrity."
+      }
+    ]
   }
 }

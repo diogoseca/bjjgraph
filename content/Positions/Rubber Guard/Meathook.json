@@ -598,39 +598,43 @@
     "transitions": [
       {
         "transition": "Meathook to Gogoplata Control",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 14
+        "attempt_probability": 18
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Crackhead Control to Carni",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Armbar from Guard",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Omoplata to Back",
         "attempt_probability": 8
       },
       {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 7
+      },
+      {
         "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Baratoplata Setup",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Tarikoplata Setup",
-        "attempt_probability": 11
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Sweep from Meathook",
+        "attempt_probability": 4
       }
     ]
   }

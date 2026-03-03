@@ -32,8 +32,8 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute X-Guard to Ashi Garami",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -210,7 +210,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ### [[Single Leg X Entry]] (16% of attempts)
 
-### [[X-Guard to Ashi Transition]] (12% of attempts)
+### [[X-Guard to Ashi Garami]] (13% of attempts)
 
 ### [[Technical Stand Up to Single Leg]] (7% of attempts)
 
@@ -221,8 +221,6 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 ### [[Tomahawk Sweep]] (11% of attempts)
 
 ### [[X-Guard Technical Stand Up]] (2% of attempts)
-
-### [[X-Guard to Ashi Garami]] (1% of attempts)
 
 ### [[X-Guard to Single Leg X]] (1% of attempts)
 
@@ -241,7 +239,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 **If opponent attempts to backstep or circle away from the X-Guard configuration:**
 - Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]] (Probability: 60%)
+- Execute **[[X-Guard to Ashi Garami]]** → [[Ashi Garami]] (Probability: 60%)
 
 
 **If opponent sits back to break X-Guard or attempts to smash forward with knee pressure:**
@@ -250,7 +248,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 
 **If opponent attempts to step over the outside leg while trapped leg remains controlled:**
-- Execute **[[X-Guard to Ashi Transition]]** → [[Ashi Garami]] (Probability: 75%)
+- Execute **[[X-Guard to Ashi Garami]]** → [[Ashi Garami]] (Probability: 75%)
 - Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
 
 

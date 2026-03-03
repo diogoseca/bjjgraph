@@ -209,9 +209,9 @@ The Transition to Scarf Hold Position occupies a critical junction in the side c
 
 - [[Side Control to North-South]] - Alternative transition option from the same starting position
 
-- [[Transition to Kesa Gatame]] - Related transition targeting the traditional judo variant of the same position family
+- [[Side Control to Kesa Gatame]] - Related transition targeting the traditional judo Kesa Gatame variant from the same starting position
 
-- [[Transition to Modified Scarf Hold]] - Related transition targeting modified scarf hold with different arm control
+- [[Kesa Gatame to Modified Scarf Hold]] - Follow-up transition from Kesa Gatame to Modified Scarf Hold with different arm control
 
 - [[Bridge and Roll]] - Primary counter-technique the defender uses against the resulting scarf hold
 

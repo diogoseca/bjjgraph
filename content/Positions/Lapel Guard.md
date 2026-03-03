@@ -99,33 +99,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Worm Guard Entry]]** (7% of attempts)
+- **[[Worm Guard Entry]]** (16% of attempts)
 
-- **[[Squid Guard Entry]]** (6% of attempts)
+- **[[Squid Guard Entry]]** (12% of attempts)
 
 - **[[Ringworm Guard Entry]]** (5% of attempts)
 
-- **[[Lapel Sweep to Back]]** (43% of attempts)
+- **[[Lapel Sweep to Back]]** (22% of attempts)
 
-- **[[Lapel Omoplata Entry]]** (6% of attempts)
+- **[[Lapel Omoplata Entry]]** (8% of attempts)
 
-- **[[Lapel Triangle Setup]]** (5% of attempts)
+- **[[Lapel Triangle Setup]]** (6% of attempts)
 
-- **[[Lapel to Lasso Transition]]** (6% of attempts)
+- **[[Lapel to Lasso Guard]]** (7% of attempts)
 
-- **[[Lapel to Spider Transition]]** (8% of attempts)
+- **[[Lapel to Spider Guard]]** (7% of attempts)
 
-- **[[Lapel to De La Riva]]** (6% of attempts)
+- **[[Lapel to De La Riva]]** (7% of attempts)
 
-- **[[Lapel Elevator Sweep]]** (6% of attempts)
+- **[[Lapel Elevator Sweep]]** (8% of attempts)
 
-- **[[Transition to Piranha Guard]]** (1% of attempts)
-
-- **[[Lapel Guard to Piranha Guard]]** (0% of attempts)
-
-- **[[Lapel to Lasso Guard]]** (0% of attempts)
-
-- **[[Lapel to Spider Guard]]** (1% of attempts)
+- **[[Lapel Guard to Piranha Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

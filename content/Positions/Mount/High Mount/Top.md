@@ -21,37 +21,37 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,25 +213,27 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (18% of attempts)
+### [[Mount to Armbar]] (24% of attempts)
 
-### [[Cross Collar Choke]] (14% of attempts)
+### [[Cross Collar Choke]] (13% of attempts)
 
-### [[Americana]] (10% of attempts)
+### [[Americana]] (9% of attempts)
 
-### [[Triangle from Mount]] (10% of attempts)
+### [[Triangle from Mount]] (9% of attempts)
 
-### [[Kimura]] (10% of attempts)
+### [[Kimura]] (9% of attempts)
 
-### [[Arm Triangle]] (8% of attempts)
+### [[Arm Triangle]] (7% of attempts)
 
-### [[Gift Wrap Transition]] (8% of attempts)
+### [[Gift Wrap Transition]] (7% of attempts)
 
-### [[Mounted Triangle]] (7% of attempts)
+### [[Mounted Triangle]] (6% of attempts)
 
-### [[S-Mount Transition]] (8% of attempts)
+### [[S-Mount Transition]] (7% of attempts)
 
-### [[Mounted Crucifix Entry]] (7% of attempts)
+### [[Mounted Crucifix Entry]] (6% of attempts)
+
+### [[High Mount to S Mount]] (3% of attempts)
 
 
 

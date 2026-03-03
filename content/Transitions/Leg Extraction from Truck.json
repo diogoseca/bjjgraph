@@ -1,13 +1,403 @@
 {
   "name": "Leg Extraction from Truck",
-  "description": "",
-  "tags": [],
+  "description": "Master the leg extraction escape from Truck position in BJJ. Complete guide to freeing trapped legs, clearing boot pressure, and recovering to Turtle position.",
+  "tags": [
+    "escape",
+    "leg-extraction",
+    "truck",
+    "defensive",
+    "leg-entanglement",
+    "10th-planet",
+    "turtle-recovery"
+  ],
   "from_position": "Truck/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 100,
+      "probability": 38,
       "result": "success"
+    },
+    {
+      "to": "Truck/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Back Control/Bottom",
+      "probability": 22,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 38,
+  "overview": "The Leg Extraction from Truck is a specialized escape technique targeting the foundational control mechanism of the truck position: the figure-four leg entanglement. Unlike rolling escapes (granby roll) or shrimping-based escapes (hip escape to half guard), this technique directly addresses the leg control that makes the truck dangerous, methodically working the trapped leg free through ankle manipulation, hip rotation, and incremental space creation. Once the leg is extracted, the bottom player immediately turtles up, removing the truck top player's primary control platform and forcing a positional reset.\n\nThe technique's strategic value lies in its directness. While other truck escapes require addressing boot pressure, upper body control, and leg entanglement in sequence, the leg extraction isolates the entanglement itself as the primary target. This makes it particularly effective when the truck top player's boot pressure has been partially neutralized but the leg remains firmly trapped in the figure-four configuration. The extraction uses a combination of ankle flexibility, circular knee movement, and precisely timed hip rotation to spiral the leg free from the controlling hooks.\n\nAt advanced levels, the leg extraction functions as both a standalone escape and a component within the broader truck escape chain. A partially successful extraction that loosens the entanglement without fully freeing the leg creates the angles needed for subsequent granby rolls or hip escapes. Conversely, failed granby attempts often create the space and angles that make subsequent leg extraction possible. Understanding this interplay transforms truck bottom defense from a series of isolated desperate attempts into an integrated escape system with compounding probability of success.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Ankle Rotation Extraction",
+      "description": "Focuses on using ankle flexibility and circular rotation to slip the foot and ankle free from the opponent's figure-four entanglement. The bottom player rotates the ankle in a corkscrew motion, finding the path of least resistance through the entanglement gap. This variant requires good ankle mobility and works best when the opponent's leg control is configured around the lower leg rather than the knee.",
+      "when_to_use": "When the figure-four entanglement is primarily controlling the ankle and lower calf, and the knee has some freedom of movement. Most effective against opponents whose hooks are shallow or when the entanglement has loosened from prior escape attempts."
+    },
+    {
+      "variant_name": "Hip Rotation Extraction",
+      "description": "Uses a sharp hip rotation inward toward the mat combined with knee drive to create angular separation between the trapped leg and the opponent's controlling configuration. The bottom player bridges slightly, rotates the hip of the trapped leg downward, and drives the knee toward the mat. This changes the geometry of the entanglement and opens a gap for the leg to slide free.",
+      "when_to_use": "When the entanglement controls the knee tightly but the hip has freedom to rotate. Effective when boot pressure has been cleared, allowing the hip rotation that the boot normally prevents. Works well for practitioners with strong hip mobility."
+    },
+    {
+      "variant_name": "Explosive Timed Extraction",
+      "description": "A more dynamic variation that combines a brief distraction movement (hand fighting or frame adjustment) with an explosive leg pull timed to the opponent's weight shift during a submission transition. The bottom player baits the top player into committing weight for a twister or calf slicer setup, then explosively extracts the leg during the momentary loosening of the entanglement.",
+      "when_to_use": "When the opponent is actively cycling through submission attacks and their control loosens during transitions between upper and lower body threats. Requires precise timing and should be reserved for clear windows of opportunity."
+    }
+  ],
+  "position_integration": "The Leg Extraction from Truck connects the truck bottom escape hierarchy to the turtle position recovery system. Within the truck escape framework, it represents the most direct approach to dismantling leg control, complementing the granby roll (which uses rotational momentum to break free) and the hip escape (which uses lateral distance to loosen the entanglement). Successfully extracting the leg and recovering turtle places the practitioner in a transitional defensive position from which guard recovery, technical standup, and scramble options become available. The technique reinforces the broader BJJ principle that addressing the opponent's most fundamental control mechanism is often more effective than attempting to escape the position as a whole. Understanding leg extraction also improves offensive truck play, as knowing how the escape works helps the top player anticipate and counter it.",
+  "conditions": [
+    "Trapped in truck bottom with at least one leg entangled in the opponent's figure-four configuration",
+    "Boot pressure has been partially addressed or is momentarily reduced during opponent's transition",
+    "Neck is protected with chin tucked and at least one hand defending against twister grips",
+    "Sufficient ankle and hip mobility to execute circular or rotational extraction movement",
+    "Upper body not fully controlled, allowing some movement freedom for hip rotation during extraction"
+  ],
+  "related_content": [
+    {
+      "name": "Truck",
+      "relationship": "Starting position from which leg must be extracted"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Primary escape destination after successful extraction"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Counter outcome when opponent capitalizes on extraction attempt"
+    },
+    {
+      "name": "Escape from Truck",
+      "relationship": "Related general escape technique using granby roll mechanics"
+    },
+    {
+      "name": "Hip Escape from Truck",
+      "relationship": "Alternative escape using shrimping to reach half guard"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Submission threat that increases during leg extraction attempts"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Primary submission threat motivating urgent escape from truck"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related back attack position with similar leg entanglement challenges"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative escape destination through hip escape variant"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative escape destination accessible via forward roll"
+    }
+  ],
+  "attacker": {
+    "name": "Leg Extraction from Truck Attacker",
+    "description": "Execute the leg extraction from truck to recover turtle position. Step-by-step guide covering ankle manipulation, hip rotation, and circular extraction mechanics for escaping the truck leg entanglement.",
+    "overview": "As the person executing the leg extraction from truck, your objective is to free your trapped leg from the opponent's figure-four entanglement and immediately turtle up to escape the truck's submission threats. This technique targets the leg control directly rather than attempting to escape the position as a whole, making it effective when boot pressure has been addressed but the leg remains firmly trapped. The extraction requires patience, ankle flexibility, and precise circular movement to spiral the leg free without creating openings for calf slicer attacks or back control transitions.\n\nYour extraction mechanics must work against the opponent's hook configuration while avoiding the common trap of pulling straight back against the strongest axis of their control. Circular and rotational movements exploit gaps in the entanglement that linear force cannot access. Timing the extraction to coincide with the opponent's weight shifts during submission transitions dramatically increases success rate.",
+    "key_principles": [
+      "Protect the neck throughout the entire extraction process—the twister remains a threat until the leg is fully free and you have turtled up",
+      "Use circular and rotational leg movement rather than linear pulling, which fights against the strongest axis of the opponent's entanglement",
+      "Address boot pressure before attempting extraction, as the boot creates torque that restricts the hip rotation needed for circular extraction",
+      "Time extraction attempts to coincide with the opponent's weight shifts during submission transitions when control momentarily loosens",
+      "Maintain constant ankle and knee activity within the entanglement to prevent the opponent from tightening their hooks around a static leg",
+      "Turtle up immediately after extraction—any delay allows the opponent to re-entangle or transition to back control"
+    ],
+    "setup_requirements": [
+      "Neck defense established with chin tucked and at least one hand protecting against twister grips or choke attempts",
+      "Boot pressure on the hip has been partially cleared or reduced through hand fighting, allowing hip rotation needed for extraction",
+      "Assessment completed of how the entanglement is configured—where hooks grip, whether the ankle or knee is the primary control point",
+      "Free leg posted to provide base for hip rotation and bridging movements that create the space for extraction",
+      "Sufficient energy remaining for the sustained incremental work required for extraction against active resistance"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish neck defense and assess entanglement",
+        "description": "Tuck your chin and position at least one hand near the neck to defend against twister grips. Use your proprioceptive awareness to map the opponent's leg entanglement: feel where their hooks are gripping, whether they control primarily at the ankle, calf, or knee, and identify the direction with the most available space for extraction movement."
+      },
+      {
+        "step_number": 2,
+        "action": "Clear or reduce boot pressure",
+        "description": "Use your free hand to push, peel, or redirect the opponent's boot from your hip. Combine hand fighting with a hip rotation away from the boot to reduce the torque angle. Full boot clearing is ideal but even partial reduction creates enough hip freedom for extraction mechanics. Without addressing the boot, hip rotation is restricted and extraction becomes nearly impossible."
+      },
+      {
+        "step_number": 3,
+        "action": "Begin circular ankle movement within entanglement",
+        "description": "Start rotating your trapped ankle in a corkscrew motion within the opponent's figure-four configuration. Explore the gaps in their hook placement by circling your foot in small arcs. The goal is to find the path of least resistance where the ankle can begin slipping through. Keep the movement continuous and varied—a static leg allows the opponent to tighten their hooks around a fixed position."
+      },
+      {
+        "step_number": 4,
+        "action": "Drive knee outward to create angular separation",
+        "description": "While maintaining the ankle rotation, push your trapped knee outward and away from the opponent's controlling leg configuration. This knee drive changes the geometry of the entanglement by widening the angle between your leg and their hooks. Combine this with a slight hip bridge to create additional vertical space. The knee and ankle movements work together to spiral the leg toward the extraction path."
+      },
+      {
+        "step_number": 5,
+        "action": "Execute hip rotation to amplify extraction angle",
+        "description": "Rotate your hip sharply inward toward the mat on the trapped leg side. This hip rotation amplifies the angular separation created by the knee drive and changes the plane of your leg relative to the entanglement. The combination of ankle rotation, knee drive, and hip rotation creates a three-dimensional spiral that progressively loosens the opponent's figure-four control from multiple angles simultaneously."
+      },
+      {
+        "step_number": 6,
+        "action": "Pull leg free through created gap",
+        "description": "When sufficient space has been created through the combined circular movements, pull your leg decisively through the gap in the entanglement. This final extraction should use the angular path established by the previous spiral rather than pulling straight back. If the leg catches, immediately resume circular movement rather than forcing it—a smooth spiral is more effective than an explosive linear pull against residual control."
+      },
+      {
+        "step_number": 7,
+        "action": "Turtle up immediately",
+        "description": "The instant your leg clears the entanglement, bring both knees under your hips and hands under your shoulders to achieve turtle position. Tuck your chin, keep elbows tight to your knees, and round your back. Do not pause between extraction and turtling—any delay allows the opponent to re-entangle the freed leg, transition to back control with hooks, or establish a front headlock from the scramble."
+      },
+      {
+        "step_number": 8,
+        "action": "Begin turtle escape sequence",
+        "description": "From turtle, immediately initiate your preferred escape: granby roll, technical standup, or sit-through to guard. The opponent will likely pursue back control aggressively after losing the truck, so treat the turtle as a brief waypoint rather than a resting position. Maintain constant defensive motion, fight grips, and work toward guard recovery or standing before they can establish seatbelt control and hooks."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent tightens figure-four entanglement and squeezes hooks when they feel ankle rotation beginning",
+        "effectiveness": "High",
+        "your_response": "Pause extraction, return to fighting boot pressure, and attempt from a different angle once the opponent relaxes. Alternatively, use the ankle rotation as a feint and chain into a granby roll while their attention is focused on maintaining leg control.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent attacks calf slicer by extending your leg during the extraction attempt",
+        "effectiveness": "Medium",
+        "your_response": "Immediately bend the knee sharply to reduce compression on the joint. The calf slicer attack often loosens the figure-four configuration, so use the changed geometry to accelerate extraction through the new angle. Tap immediately if compression becomes dangerous.",
+        "targets_outcome": "Truck/Bottom"
+      },
+      {
+        "counter": "Opponent transitions to back control by inserting hooks as the leg comes free from the entanglement",
+        "effectiveness": "Medium",
+        "your_response": "Speed up the turtle-up sequence and immediately address any hooks being inserted. Kick your legs back to strip shallow hooks before they set. If back control is established, transition to standard back defense protocol.",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Opponent increases chest pressure and flattens you to prevent the hip rotation needed for extraction",
+        "effectiveness": "High",
+        "your_response": "Use elbow frames against their chest to create enough separation for hip movement. If flattening is complete, switch to granby roll or hip escape variant rather than continuing extraction from a flattened position where hip rotation is impossible.",
+        "targets_outcome": "Truck/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Pulling the trapped leg straight backward instead of using circular extraction movement",
+        "consequence": "Fights directly against the strongest axis of the opponent's figure-four control, wasting energy without creating meaningful progress toward extraction",
+        "correction": "Use a corkscrew motion combining ankle rotation, knee drive outward, and hip rotation to spiral the leg free. Circular movement exploits gaps that linear force cannot access."
+      },
+      {
+        "error": "Attempting extraction without first addressing boot pressure on the hip",
+        "consequence": "The boot generates torque that restricts hip rotation, making the circular extraction mechanics ineffective and trapping the leg more securely",
+        "correction": "Always fight the boot with your free hand before beginning extraction. Even partial boot reduction dramatically improves hip mobility for the circular movements needed."
+      },
+      {
+        "error": "Neglecting neck protection while focused on extracting the trapped leg",
+        "consequence": "Opponent locks up twister grip on the far arm while both hands are occupied with leg work, creating immediate spinal submission danger",
+        "correction": "Maintain at least one hand near the neck throughout extraction. Alternate between neck defense and boot/leg fighting rather than committing both hands to the leg."
+      },
+      {
+        "error": "Pausing after leg extraction instead of immediately turtling up",
+        "consequence": "Opponent re-entangles the freed leg or inserts back control hooks during the gap between extraction and position establishment",
+        "correction": "Practice the extraction-to-turtle transition as one continuous movement. The leg clearing the entanglement and the body achieving turtle posture should happen in a single fluid motion."
+      },
+      {
+        "error": "Using one explosive attempt instead of incremental progressive extraction",
+        "consequence": "The explosive movement is easily read and countered by the opponent tightening their hooks, and wastes significant energy in a single failed attempt",
+        "correction": "Work the extraction incrementally through continuous circular ankle movement, progressive knee drive, and timed hip rotation. Multiple small movements that compound are more effective than one large attempt."
+      },
+      {
+        "error": "Keeping the trapped leg passive and static within the entanglement",
+        "consequence": "Allows the opponent to configure their hooks around a fixed position and tighten control progressively, making extraction increasingly difficult over time",
+        "correction": "Keep the trapped ankle and knee constantly moving with varied circular patterns. Continuous movement prevents the opponent from settling their hooks and creates micro-gaps that accumulate toward extraction."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Solo Mobility",
+        "focus": "Ankle flexibility and hip rotation mechanics",
+        "description": "Practice circular ankle movements and hip rotation drills without a partner. Focus on the corkscrew ankle motion, outward knee drive, and sharp hip rotation that form the extraction spiral. Develop ankle flexibility through mobility exercises. Perform 30+ repetitions per side to build the motor patterns."
+      },
+      {
+        "phase": "Phase 2: Static Drilling",
+        "focus": "Full extraction sequence against stationary partner",
+        "description": "Partner establishes truck with static leg entanglement at zero resistance. Practice the complete sequence: assess entanglement, clear boot, circular ankle movement, knee drive, hip rotation, extraction, turtle. Focus on smooth sequencing and finding the path of least resistance. 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 3: Progressive Resistance",
+        "focus": "Extraction against increasing resistance levels",
+        "description": "Partner provides 30%, then 50%, then 70% resistance on the leg entanglement while the bottom player executes the extraction. Partner actively adjusts hooks and tightens control. Develop sensitivity to when circular motion is working versus when a different angle or variant is needed."
+      },
+      {
+        "phase": "Phase 4: Chain Escape Integration",
+        "focus": "Linking leg extraction with other truck escapes",
+        "description": "Practice chaining leg extraction attempts with granby rolls and hip escapes. Use a partially successful extraction to set up a granby roll, or use a failed granby to create the angles for subsequent extraction. Develop the integrated escape system where each failed attempt improves conditions for the next."
+      },
+      {
+        "phase": "Phase 5: Live Positional Sparring",
+        "focus": "Full resistance application from truck bottom",
+        "description": "Start in established truck bottom with partner at full resistance. Work all available escapes with emphasis on recognizing when leg extraction is the highest-percentage option. Track extraction success rate across rounds and identify the configurations that most consistently allow the technique to work."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the critical mechanical difference between a successful and unsuccessful leg extraction attempt?",
+        "answer": "Successful extraction uses circular and rotational movement—ankle corkscrew, outward knee drive, and hip rotation—to spiral the leg through gaps in the opponent's figure-four configuration. Unsuccessful attempts pull the leg straight backward, fighting directly against the strongest axis of the opponent's control where their hooks have maximum mechanical advantage. The spiral changes resistance angles progressively while the linear pull maintains constant maximum resistance."
+      },
+      {
+        "question": "Your opponent tightens their hooks every time you begin rotating your ankle—how do you adjust?",
+        "answer": "Use the ankle rotation as a feint to draw their attention to maintaining leg control, then chain immediately into a granby roll or hip escape while their focus is directed at the entanglement. Alternatively, pause the extraction, return to fighting boot pressure to create more space, and attempt from a different angle once the opponent relaxes their grip. Forcing through tightened hooks is ineffective and wastes energy."
+      },
+      {
+        "question": "Why must boot pressure be addressed before attempting leg extraction?",
+        "answer": "The boot pressed against the hip generates torque that prevents hip rotation—the fundamental movement required for circular extraction mechanics. With the boot fully engaged, the bottom player cannot rotate the hip of the trapped leg inward toward the mat, eliminating the angular separation needed to spiral the leg free. Even partial reduction of boot pressure restores enough hip mobility for the extraction movements to function against the figure-four configuration."
+      },
+      {
+        "question": "What determines whether to attempt leg extraction versus a granby roll from truck bottom?",
+        "answer": "Choose leg extraction when boot pressure has been partially cleared but the leg remains firmly trapped, and when the opponent's upper body control is relatively loose. Choose the granby roll when the opponent's weight is committed forward or they are transitioning between attacks, creating rotational momentum opportunity. The granby requires space and momentum; leg extraction requires time and ankle mobility. Often the best approach chains both techniques together."
+      },
+      {
+        "question": "Your opponent attacks a calf slicer during your leg extraction attempt—what is your immediate response?",
+        "answer": "Immediately bend your knee sharply to reduce compression on the joint and prevent injury. Then assess whether the calf slicer attack has changed the geometry of the figure-four in your favor—the opponent extending your leg for the slicer often loosens the hook configuration around the ankle. If so, accelerate extraction through the new angle. If compression is significant and increasing, tap immediately to preserve training longevity rather than fighting through a locked submission."
+      },
+      {
+        "question": "What is the most critical action immediately after the trapped leg clears the entanglement?",
+        "answer": "Turtle up immediately without any pause. Bring both knees under your hips, hands under shoulders, tuck chin, and round your back in one fluid motion. Any delay between extraction and establishing turtle allows the opponent to either re-entangle the freed leg, insert back control hooks during the transition gap, or establish a front headlock. The extraction-to-turtle transition should be practiced as a single continuous movement."
+      },
+      {
+        "question": "How does keeping the trapped leg constantly moving improve extraction probability?",
+        "answer": "Constant movement prevents the opponent from configuring their hooks around a fixed position and progressively tightening control. A static leg gives the top player a stable reference point to squeeze against, while varied circular patterns create micro-gaps in the entanglement as the opponent's hooks repeatedly lose and attempt to re-establish optimal positioning. These micro-gaps accumulate over time, gradually loosening the control until extraction becomes possible."
+      },
+      {
+        "question": "Your extraction attempt partially loosens the entanglement but fails to fully free the leg—what should you do next?",
+        "answer": "Do not reset to the starting position. The partial loosening has created improved angles for subsequent escape attempts. Immediately chain into a granby roll using the space created by the partial extraction, or execute a hip escape to compound the distance gained. Each failed but partially successful escape attempt improves the conditions for the next technique in the chain. Returning to static defense after partial progress wastes the positional gains achieved."
+      }
+    ],
+    "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work."
+  },
+  "defender": {
+    "name": "Leg Extraction from Truck Defender",
+    "description": "Counter the leg extraction from truck as the top player. Maintain entanglement control through hook adjustments, calf slicer threats, and strategic transitions to back control.",
+    "overview": "As the truck top player defending against the leg extraction attempt, your objective is to maintain the figure-four leg entanglement that forms the foundation of your truck control. The bottom player is directly targeting your most fundamental control mechanism, so recognizing extraction attempts early and tightening your hooks preemptively is essential. Your advantage lies in the structural strength of the figure-four configuration against linear pulling, but you must actively adjust to counter the circular and rotational movements that a technically proficient bottom player will employ.\n\nYour defensive strategy combines reactive hook tightening with proactive submission threats. When you feel the bottom player's ankle begin to rotate within your entanglement, immediately squeeze your hooks and consider attacking the calf slicer to punish the movement. If the entanglement is clearly loosening despite your adjustments, transition proactively to back control rather than losing position entirely.",
+    "key_principles": [
+      "Maintain constant awareness of the trapped leg's movement within your figure-four—any rotation or circling signals an extraction attempt",
+      "Tighten hooks preemptively when you detect ankle rotation or knee drive rather than waiting for significant loosening to develop",
+      "Use calf slicer threats to punish extraction attempts and force the bottom player back to defensive mode",
+      "Keep boot pressure engaged throughout to restrict the hip rotation the bottom player needs for circular extraction",
+      "Recognize when the entanglement is irreversibly loosening and transition to back control before losing position entirely",
+      "Coordinate upper body control with leg control—isolated leg control without upper body connection makes extraction easier"
+    ],
+    "recognition_cues": [
+      "Trapped ankle begins rotating or circling within your figure-four hooks, indicating the bottom player is searching for the path of least resistance through the entanglement",
+      "Bottom player's knee drives outward against your controlling leg, creating angular separation that widens the gap in the figure-four configuration",
+      "Bottom player's hip rotates sharply inward toward the mat on the trapped leg side, amplifying the angular separation from the knee drive",
+      "Bottom player's free hand moves from boot fighting to framing against your upper body, suggesting boot pressure has been addressed and leg extraction is the next priority"
+    ],
+    "defensive_options": [
+      {
+        "action": "Squeeze hooks and tighten figure-four entanglement around the trapped leg",
+        "when_to_use": "At the first sign of ankle rotation or knee drive within the entanglement, before significant loosening has occurred",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Extraction attempt is shut down, leg remains trapped, and bottom player must restart their escape sequence from an earlier stage",
+        "risk": "Focusing entirely on squeezing hooks may reduce upper body control, allowing the bottom player to chain into a granby roll while you are focused low"
+      },
+      {
+        "action": "Attack calf slicer on the partially extracted leg to punish the movement",
+        "when_to_use": "When the bottom player's knee begins driving outward and the leg is partially extending during the extraction spiral",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Bottom player must abandon extraction to defend the calf slicer, resetting to full defensive mode and burning energy on submission defense",
+        "risk": "Committing to the calf slicer requires extending the leg further, which may actually accelerate the extraction if the submission is not secured"
+      },
+      {
+        "action": "Increase boot pressure and flatten with chest weight to restrict hip rotation",
+        "when_to_use": "When the bottom player begins the hip rotation phase of their extraction, indicating they have created some ankle and knee space",
+        "targets_outcome": "Truck/Bottom",
+        "if_successful": "Hip rotation is prevented by boot torque, eliminating the third dimension of the extraction spiral and making the circular movement incomplete",
+        "risk": "Forward chest weight commitment can create space for a granby roll if the bottom player redirects from extraction to rolling escape"
+      },
+      {
+        "action": "Transition to back control by releasing entanglement and inserting hooks",
+        "when_to_use": "When the leg entanglement has loosened beyond recovery despite hook tightening and the extraction appears imminent",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Dominant position is preserved through back control, maintaining submission threats and scoring potential despite losing the truck",
+        "risk": "If the transition is mistimed, the bottom player may complete extraction and achieve turtle before hooks are established"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Truck/Bottom",
+        "how": "Recognize extraction attempts early through ankle rotation and knee drive cues, immediately tighten figure-four hooks, maintain boot pressure to restrict hip rotation, and use calf slicer threats to force the bottom player back to defensive mode."
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When the entanglement is irreversibly loosening, proactively transition to back control by abandoning the figure-four and quickly inserting hooks and establishing seatbelt grip before the bottom player can achieve turtle. Time this transition to the moment just before full extraction rather than after the leg is free."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Not recognizing ankle rotation within the entanglement as an early extraction attempt",
+        "consequence": "The bottom player accumulates incremental progress through continuous circular movement, and by the time you notice, the entanglement has loosened significantly",
+        "correction": "Develop sensitivity to any movement of the trapped ankle or knee within your hooks. Any rotation or circling should trigger an immediate tightening response before the bottom player can compound their progress."
+      },
+      {
+        "error": "Attempting to maintain a loosened entanglement rather than transitioning to back control",
+        "consequence": "Complete loss of dominant position as the extraction completes while you are fighting a losing battle to maintain an already compromised truck",
+        "correction": "Recognize the point of no return where the entanglement cannot be re-tightened and immediately transition to back control. A secure back control position is far better than a failed truck retention."
+      },
+      {
+        "error": "Releasing boot pressure to focus on tightening leg entanglement with both legs",
+        "consequence": "Without boot pressure, the bottom player gains full hip rotation freedom, dramatically accelerating the circular extraction mechanics",
+        "correction": "Maintain boot pressure as the non-negotiable foundation of truck control. The boot restricts the hip rotation that enables extraction. Tighten the entanglement while keeping the boot engaged."
+      },
+      {
+        "error": "Over-committing to the calf slicer and losing positional control",
+        "consequence": "The calf slicer attempt extends the bottom player's leg further, and if the submission fails, the changed leg position may actually complete the extraction",
+        "correction": "Use the calf slicer as a threat to disrupt the escape sequence rather than fully committing to the finish. If the bottom player defends the slicer, return to full truck control. Only commit fully when the calf slicer is clearly locked."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest tactile cue that the bottom player is attempting a leg extraction from truck?",
+        "answer": "The earliest cue is feeling the trapped ankle begin rotating or circling within your figure-four hooks. This rotation precedes the more obvious knee drive and hip rotation phases of the extraction. Recognizing this subtle movement and immediately squeezing your hooks tighter prevents the bottom player from finding the path of least resistance through your entanglement and shuts down the extraction before it develops momentum."
+      },
+      {
+        "question": "When should you abandon the truck entanglement and transition to back control during an extraction attempt?",
+        "answer": "Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion."
+      },
+      {
+        "question": "How do you use the calf slicer threat to counter extraction attempts without losing positional control?",
+        "answer": "Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available."
+      },
+      {
+        "question": "Why is maintaining boot pressure critical specifically for preventing leg extraction?",
+        "answer": "Boot pressure restricts the bottom player's hip rotation, which is the third and most critical component of the extraction spiral. Without hip rotation, the ankle rotation and knee drive alone cannot generate sufficient angular separation to free the leg from a properly configured figure-four entanglement. The boot effectively eliminates one dimension of the three-dimensional spiral, reducing the extraction to a two-dimensional movement that the figure-four can resist."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition Sensitivity",
+        "focus": "Developing tactile awareness of extraction movements within the entanglement",
+        "description": "Partner performs slow ankle rotation and knee drive movements while you focus exclusively on feeling these movements through your hooks. Call out each movement as you detect it. Build sensitivity to the subtle early-stage extraction cues before they develop into full extraction spirals."
+      },
+      {
+        "phase": "Phase 2: Reactive Tightening",
+        "focus": "Tightening hooks in response to detected extraction movements",
+        "description": "Partner performs extraction attempts at 40-50% speed and force. Practice immediately tightening your figure-four configuration when you detect ankle rotation or knee drive. Focus on maintaining boot pressure while squeezing the entanglement. Develop automatic tightening responses to extraction cues."
+      },
+      {
+        "phase": "Phase 3: Counter Integration",
+        "focus": "Using calf slicer threats and back control transitions as extraction counters",
+        "description": "Partner performs extraction attempts at 60-70% resistance. Practice choosing between hook tightening, calf slicer threat, and back control transition based on how far the extraction has progressed. Develop the decision-making framework for when each response is appropriate."
+      },
+      {
+        "phase": "Phase 4: Live Positional Sparring",
+        "focus": "Full resistance truck retention against all escape methods",
+        "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes including leg extraction. Track retention rate and identify which extraction configurations are hardest to counter for targeted improvement."
+      }
+    ]
+  }
 }

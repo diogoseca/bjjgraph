@@ -95,25 +95,27 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (34% of attempts)
+- **[[Granby Roll to Guard]]** (42% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Leg Extraction to Guard]]** (15% of attempts)
+- **[[Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Rolling Back Take Reversal]]** (9% of attempts)
+- **[[Rolling Back Take Reversal]]** (8% of attempts)
 
-- **[[Forward Roll]]** (11% of attempts)
+- **[[Forward Roll]]** (10% of attempts)
 
-- **[[Back Door Escape]]** (7% of attempts)
+- **[[Back Door Escape]]** (6% of attempts)
 
-- **[[Defensive Roll]]** (5% of attempts)
+- **[[Defensive Roll]]** (4% of attempts)
 
-- **[[Hip Escape from Truck]]** (2% of attempts)
+- **[[Hip Escape from Truck]]** (1% of attempts)
 
-- **[[Leg Extraction from Truck]]** (1% of attempts)
+- **[[Leg Extraction from Truck]]** (0% of attempts)
 
-- **[[Roll to Guard from Truck]]** (1% of attempts)
+- **[[Roll to Guard from Truck]]** (0% of attempts)
+
+- **[[Escape from Truck]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,29 +176,27 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Twister]]** (10% of attempts)
+- **[[Twister Entry]]** (15% of attempts)
 
-- **[[Calf Slicer]]** (10% of attempts)
+- **[[Calf Slicer]]** (12% of attempts)
 
-- **[[Roll to Truck]]** (6% of attempts)
+- **[[Roll to Truck]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (41% of attempts)
+- **[[Rolling Back Take]]** (25% of attempts)
 
-- **[[Bow and Arrow Choke]]** (6% of attempts)
+- **[[Bow and Arrow Choke]]** (8% of attempts)
 
 - **[[Crab Ride to Back]]** (8% of attempts)
 
-- **[[Crucifix from Turtle]]** (8% of attempts)
+- **[[Crucifix from Turtle]]** (7% of attempts)
 
-- **[[Back Take from Top]]** (8% of attempts)
+- **[[Back Take from Top]]** (12% of attempts)
 
-- **[[Transition to Twister Side Control]]** (2% of attempts)
+- **[[Truck Maintenance]]** (3% of attempts)
 
-- **[[Truck Maintenance]]** (0% of attempts)
+- **[[Truck to Back Control]]** (2% of attempts)
 
-- **[[Truck to Back Control]]** (0% of attempts)
-
-- **[[Truck to Twister Side Control]]** (1% of attempts)
+- **[[Truck to Twister Side Control]]** (3% of attempts)
 
 
 ### Common Mistakes

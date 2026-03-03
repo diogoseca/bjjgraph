@@ -93,23 +93,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Grip Break]]** (32% of attempts)
+- **[[Grip Break]]** (39% of attempts)
 
-- **[[Sitting Guard Pull]]** (20% of attempts)
+- **[[Sitting Guard Pull]]** (19% of attempts)
 
-- **[[Rolling to Guard]]** (13% of attempts)
+- **[[Rolling to Guard]]** (12% of attempts)
 
-- **[[Whizzer]]** (8% of attempts)
+- **[[Whizzer]]** (7% of attempts)
 
-- **[[Takedown Defense]]** (8% of attempts)
+- **[[Sprawl Defense]]** (7% of attempts)
 
-- **[[Turn In and Face]]** (8% of attempts)
+- **[[Turn In and Face]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (6% of attempts)
+- **[[Standing up in Base]]** (5% of attempts)
 
-- **[[Escape Body Lock]]** (3% of attempts)
+- **[[Escape Body Lock]]** (2% of attempts)
 
-- **[[Pummeling Escape from Body Lock]]** (2% of attempts)
+- **[[Pummeling Escape from Body Lock]]** (1% of attempts)
+
+- **[[Reversal from Body Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

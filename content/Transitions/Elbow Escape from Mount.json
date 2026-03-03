@@ -1,10 +1,13 @@
 {
   "name": "Elbow Escape from Mount",
-  "description": "TODO: Write 150-160 character SEO description for Elbow Escape from Mount.",
+  "description": "Master the Elbow Escape from Mount in BJJ. Systematic hip escape technique to recover half guard from bottom mount using frames and incremental movement.",
   "tags": [
-    "bjj",
-    "transition",
-    "TODO"
+    "mount escape",
+    "elbow escape",
+    "hip escape",
+    "half guard recovery",
+    "fundamental escape",
+    "bottom mount defense"
   ],
   "from_position": "Mount/Bottom",
   "outcomes": [
@@ -19,120 +22,389 @@
       "result": "failure"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Back Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
   ],
   "success_rate": 55,
-  "overview": "TODO: Write overview for Elbow Escape from Mount.",
+  "overview": "The Elbow Escape from Mount, also called the hip escape or shrimp escape, is the highest-percentage fundamental technique for recovering guard from bottom mount. Rather than attempting to explosively reverse the position like the upa (trap-and-roll), the elbow escape uses incremental hip movement, precise framing, and systematic space creation to insert the knee and recover to half guard. This escape embodies the core defensive principle that technique and timing overcome strength and gravity.\n\nThe escape operates on a simple mechanical principle: create a wedge of space between your hips and the opponent's body through lateral hip movement, then fill that space with your knee before the top player can close it. The critical detail separating effective elbow escapes from failed attempts is the use of the elbow and forearm as a frame against the opponent's hip or thigh, preventing them from following your hip movement and closing the space you create. Multiple small shrimps chained together are far more effective than a single explosive movement, as each increment of space is preserved by frame adjustment before the next hip escape.\n\nThis technique is strategically essential because mount is the highest-scoring and most submission-rich position in BJJ. Every practitioner will spend time under mount, and having a reliable, energy-efficient escape prevents the position from becoming a terminal state. The elbow escape chains naturally into half guard recovery, where the bottom player has significantly more offensive options including sweeps, back takes, and guard transitions. At advanced levels, the escape combines with the upa to create escape dilemmas for the top player, where defending one escape opens vulnerability to the other.",
   "conditions": [
-    "TODO"
+    "Bottom player is mounted with back on mat or slight side angle",
+    "Bottom player has at least one arm free to create frames on opponent's hip or thigh",
+    "Top player's weight is sufficiently settled that simple bridging alone will not reverse the position",
+    "Bottom player retains enough hip mobility to execute lateral shrimping movement"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Heel Drag Variation",
+      "description": "Instead of inserting the knee directly, the bottom player uses their foot to hook and drag the opponent's ankle over their leg, creating a natural half guard entanglement. The heel drag simplifies the knee insertion step by using the opponent's own leg position to establish the guard recovery.",
+      "when_to_use": "When the opponent has a wide base making direct knee insertion difficult, or when their foot is positioned within reach of your heel hook"
+    },
+    {
+      "variant_name": "Double Hip Escape to Full Guard",
+      "description": "Chains two consecutive hip escapes in the same direction to create enough space to insert both legs and recover full closed guard rather than settling for half guard. The second hip escape occurs immediately after the first while maintaining frame pressure throughout.",
+      "when_to_use": "When the opponent is slow to follow your first hip escape or when you have sufficient energy to chain multiple movements before they re-center"
+    },
+    {
+      "variant_name": "Cross-Frame Hip Escape",
+      "description": "Uses a cross-body frame where the far-side arm reaches across to push on the opponent's near hip, creating a longer lever arm for space creation. The cross-frame generates more pushing distance than a same-side frame at the cost of slightly more arm exposure.",
+      "when_to_use": "Against heavier opponents where same-side framing does not generate sufficient space, or when the opponent has neutralized your near-side arm"
     }
   ],
-  "position_integration": "TODO: Write position integration for Elbow Escape from Mount.",
+  "position_integration": "The Elbow Escape from Mount is the primary escape mechanism from the most dominant top position in BJJ, connecting Mount/Bottom to Half Guard/Bottom in the positional hierarchy. It serves as the foundational movement pattern for all guard recovery sequences, with the hip escape motion being the single most important defensive movement in grappling. Mastering this escape transforms mount from a terminal position into a transitional one, giving practitioners confidence to play aggressive guards knowing they have reliable recovery if passed to mount. The escape integrates directly with the half guard system, where recovered practitioners immediately access sweeps, back takes, and further guard transitions. Combined with the upa escape, it forms the complete mount escape system that creates an unsolvable dilemma for the top player.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Mount",
+      "relationship": "Starting position where escape is executed from bottom mount"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Primary recovery position after successful elbow escape knee insertion"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Risk position if bottom player overcommits to turning during escape attempt"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Closely related escape technique sharing fundamental hip escape mechanics"
+    },
+    {
+      "name": "Hip Escape to Guard",
+      "relationship": "Related transition using the same shrimping movement pattern for guard recovery"
+    },
+    {
+      "name": "Upa Escape",
+      "relationship": "Complementary mount escape that creates a two-threat dilemma when combined with elbow escape"
+    },
+    {
+      "name": "High Mount",
+      "relationship": "Advanced mount variation that significantly limits elbow escape effectiveness"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Extended recovery target when chaining multiple hip escapes from mount"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Optimal half guard variation to establish immediately after successful escape"
+    },
+    {
+      "name": "Bridge Escape from 3-4 Mount",
+      "relationship": "Related escape technique from a mount variation sharing defensive principles"
+    },
+    {
+      "name": "Elbow Escape from 3-4 Mount",
+      "relationship": "Same escape pattern adapted for the 3-4 mount variation"
     }
   ],
   "attacker": {
     "name": "Elbow Escape from Mount Attacker",
-    "description": "TODO: Write attacker description for Elbow Escape from Mount.",
-    "overview": "TODO: Write attacker overview for Elbow Escape from Mount.",
+    "description": "Execute the Elbow Escape from Mount with systematic hip movement, precise framing, and knee insertion to recover half guard from bottom mount position.",
+    "overview": "Executing the Elbow Escape from Mount requires systematic coordination of framing, hip movement, and knee insertion against an opponent applying heavy top pressure. The attacker (bottom player) must create and preserve incremental space through lateral hip escapes while maintaining defensive frames that prevent the top player from following and re-centering. Success demands patience, precise timing of each movement phase, and the discipline to chain small movements rather than relying on explosive strength. The fundamental sequence involves establishing a frame on the opponent's hip or thigh, executing a hip escape to create space, inserting the knee as a wedge, and recovering to half guard where offensive options become available. The escape rewards practitioners who treat each phase as a discrete checkpoint rather than rushing through a single continuous motion.",
     "key_principles": [
-      "TODO"
+      "Frame before you move - establish forearm or elbow frame on opponent's hip before initiating any hip escape movement",
+      "Small incremental shrimps outperform single explosive movements - chain two to three hip escapes together for cumulative space creation",
+      "Protect your neck and arms throughout the escape to avoid giving up submissions during transitional movement",
+      "Use your bottom elbow as the primary lever to create separation against opponent's thigh or hip",
+      "Time your escape when opponent shifts weight forward for attacks or adjusts their position, exploiting momentary base weakness",
+      "Insert your knee immediately into any space created before the top player can close the gap - space creation and knee insertion are one continuous action",
+      "Maintain connection with your outside leg hooking opponent's leg to anchor your position and prevent them from simply stepping over"
     ],
     "setup_requirements": [
-      "TODO"
+      "Establish defensive frames with elbows tight to body, preventing submission entries while creating structural barriers",
+      "Achieve slight side angle by turning toward the escape direction, improving hip escape range of motion",
+      "Plant bottom foot on the mat with knee bent to generate lateral hip escape driving power",
+      "Position framing arm with forearm against opponent's hip, thigh, or knee on the escape side to create separation",
+      "Establish controlled breathing pattern to maintain composure and sustainable energy output through multiple attempts"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Establish Defensive Frame",
+        "description": "From bottom mount, bring both elbows tight to your body and place your forearm across the opponent's hip on the side you intend to escape toward. Your bottom hand controls their knee or pants while your top hand frames on their hip or bicep. This frame prevents the opponent from settling their full weight onto your chest and creates the structural foundation for the entire escape sequence."
+      },
+      {
+        "step_number": 2,
+        "action": "Create Escape Angle",
+        "description": "Turn your body slightly toward the escape direction, getting onto your side rather than remaining flat on your back. This angle dramatically improves hip mobility, makes it harder for the opponent to distribute weight evenly across your torso, and positions your frame more effectively against their body. Drive your bottom shoulder toward the mat to establish this angle."
+      },
+      {
+        "step_number": 3,
+        "action": "Plant Escape-Side Foot",
+        "description": "Plant your foot firmly on the mat on the side you are escaping toward, with your knee bent at approximately 90 degrees. This foot provides the driving force for the hip escape movement. Position it close enough to your hips to generate maximum lateral power without overextending, ensuring you can drive your hips away from the opponent explosively."
+      },
+      {
+        "step_number": 4,
+        "action": "Execute Hip Escape",
+        "description": "Drive off your planted foot to move your hips laterally away from the opponent while maintaining your frame against their hip. The movement should be sharp and deliberate, creating a clear gap between your torso and their body. Your frame prevents them from following your hip movement and closing the distance. Focus on moving your hips rather than your shoulders to maximize space creation."
+      },
+      {
+        "step_number": 5,
+        "action": "Insert Knee as Wedge",
+        "description": "Immediately drive your escape-side knee into the space created between your body and the opponent's leg. The knee acts as a structural wedge that prevents the top player from re-closing the distance. Aim to get your shin across their thigh or hip line, establishing a knee shield that mechanically blocks their ability to re-mount. This insertion must happen instantly after the hip escape."
+      },
+      {
+        "step_number": 6,
+        "action": "Recover Half Guard",
+        "description": "Use the inserted knee to create additional distance and bring your other leg into play, trapping the opponent's leg between both of your legs to establish half guard. Secure the leg trap by triangling your legs around their thigh at or below the knee. Immediately work to get onto your side facing the opponent rather than remaining flat on your back to prevent immediate passing."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish Half Guard Control",
+        "description": "Once in half guard, immediately fight for an underhook on the trapped-leg side and establish a knee shield or frame to prevent the opponent from flattening you and initiating their passing sequence. This transforms your position from pure defense into an active guard with sweeping and back-take opportunities. Control their posture with your frames to prevent immediate crossface pressure."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Top player follows hip escape and immediately re-centers weight over your torso",
+        "effectiveness": "High",
+        "your_response": "Chain a second immediate hip escape in the same direction before they fully settle, or switch escape direction if they overcommit to following one side",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Top player drives knee over your inserted knee to re-establish full mount",
         "effectiveness": "Medium",
-        "your_response": "TODO",
+        "your_response": "Maintain strong knee shield frame angle and use your underhook to prevent flattening, threaten underhook sweep if they drive their weight forward to pass",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Top player inserts far hook and transitions to back control as you turn to your side",
+        "effectiveness": "High",
+        "your_response": "Keep elbow tight to hip during the turn to block hook insertion, maintain frame connection with opponent's hip, and immediately turn back toward them if you feel a hook entering",
+        "targets_outcome": "Back Control/Bottom"
+      },
+      {
+        "counter": "Top player isolates your framing arm and attacks with Americana",
+        "effectiveness": "Medium",
+        "your_response": "Keep framing elbow pinned tight to your body and immediately withdraw arm while hip escaping in the opposite direction to create a new escape angle",
         "targets_outcome": "Mount/Bottom"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Pushing straight up on opponent's chest with extended arms instead of framing laterally on hip",
+        "consequence": "Creates immediate armbar and Americana vulnerability while providing no effective lateral space creation for the escape",
+        "correction": "Frame on opponent's hip and thigh with forearms keeping elbows tight to body to prevent arm isolation while generating lateral separation"
+      },
+      {
+        "error": "Attempting one explosive hip escape instead of chaining multiple smaller movements",
+        "consequence": "Single movement rarely creates enough space for knee insertion, and the resulting energy expenditure leaves you exhausted for subsequent attempts",
+        "correction": "Chain two to three smaller hip escapes together, preserving space gained with frame adjustments between each movement before re-driving"
+      },
+      {
+        "error": "Remaining flat on your back during the escape attempt without creating side angle",
+        "consequence": "Flat positioning allows opponent to distribute weight evenly across your torso and reduces hip escape range of motion significantly",
+        "correction": "Turn to your side before initiating the hip escape by driving your bottom shoulder toward the mat for maximum lateral movement range"
+      },
+      {
+        "error": "Failing to insert knee immediately after creating space with hip escape",
+        "consequence": "Top player closes the gap within one to two seconds, completely wasting the energy spent on the hip escape and requiring a full restart",
+        "correction": "Treat space creation and knee insertion as one continuous movement, driving the knee in as your hips move away rather than pausing between steps"
+      },
+      {
+        "error": "Neglecting to trap opponent's leg after inserting knee, leaving legs loosely positioned",
+        "consequence": "Opponent easily removes your knee and re-establishes full mount, making the entire escape attempt futile",
+        "correction": "Immediately triangle your legs around opponent's thigh to lock in half guard control the moment your knee clears their hip line"
+      },
+      {
+        "error": "Panicking and dumping all energy into the first escape attempt with maximum effort",
+        "consequence": "Complete energy depletion with no positional improvement, leading to eventual submission from exhausted mount bottom",
+        "correction": "Maintain controlled breathing and commit appropriate energy to each attempt, recognizing that two to three sequential attempts are often needed for success"
+      },
+      {
+        "error": "Turning face-down toward the mat during the escape rather than facing the opponent",
+        "consequence": "Exposes your back to the opponent, allowing them to insert hooks and transition to back control",
+        "correction": "Always face the opponent during the escape, maintaining visual contact and frame connection throughout the movement to prevent back exposure"
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Hip escape movement pattern and frame placement",
+        "description": "Drill the shrimp movement solo and with a stationary partner in mount. Focus on correct foot plant position, lateral hip drive, forearm frame placement on the hip, and knee insertion timing. Partner provides zero resistance to allow correct movement patterning."
+      },
+      {
+        "phase": "Phase 2: Timing and Chaining",
+        "focus": "Linking multiple hip escapes and reading weight shifts",
+        "description": "Practice chaining two to three hip escapes against a partner who provides light forward pressure. Develop sensitivity to when the opponent shifts weight for attacks, creating escape windows. Introduce the bridge-to-hip-escape combination timing."
+      },
+      {
+        "phase": "Phase 3: Resistance Integration",
+        "focus": "Executing against progressive resistance and counters",
+        "description": "Partner actively follows hips and attempts to re-center at 50% then 75% intensity. Practice switching escape directions when the primary side is blocked. Introduce escape combinations with upa to create dilemmas for the top player."
+      },
+      {
+        "phase": "Phase 4: Half Guard Transition",
+        "focus": "Smooth connection from escape to offensive half guard",
+        "description": "Practice the complete sequence from mount escape through half guard establishment to first offensive action. Develop automatic transition from knee insertion to underhook and knee shield. Ensure no dead time between recovering guard and threatening sweeps."
+      },
+      {
+        "phase": "Phase 5: Competition Application",
+        "focus": "Full resistance and fatigue management",
+        "description": "Positional sparring starting from mount bottom against fully resisting opponents. Focus on energy management over three-minute rounds, reading which escape is available based on opponent's positioning, and executing under fatigue and pressure."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the primary frame placement for initiating the elbow escape and why is this position chosen over framing on the chest?",
+        "answer": "The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability."
+      },
+      {
+        "question": "Why are chained hip escapes more effective than a single explosive movement for this escape?",
+        "answer": "Each individual hip escape creates incremental space that is preserved by frame adjustment before the next movement. A single explosive hip escape rarely generates sufficient distance for reliable knee insertion and depletes energy rapidly. Chaining two to three smaller movements creates cumulative space while maintaining frame integrity, and each successive shrimp builds on the space preserved from the previous one rather than starting from zero."
+      },
+      {
+        "question": "What is the optimal timing window for attempting the elbow escape from mount?",
+        "answer": "The best timing is when the top player shifts weight forward to initiate submissions, reaches upward for collar grips, or adjusts their knee position. These moments temporarily reduce their base stability on the escape side. A preliminary small bridge forces a posting reaction from the top player, and the immediate hip escape during their recovery creates the optimal window when their weight is momentarily displaced."
+      },
+      {
+        "question": "Your opponent blocks your knee insertion by driving their hip into your frame and re-centering - how do you adjust?",
+        "answer": "Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery."
+      },
+      {
+        "question": "What grip or frame must be established before the hip escape movement begins?",
+        "answer": "A forearm frame against the opponent's hip on the escape side with your elbow tight to your own body is the minimum prerequisite. Your other hand should control their opposite knee or pants to prevent them from posting during your escape. Without this frame established first, the hip escape creates space that the opponent immediately closes by sliding their hips to follow your movement, rendering the escape ineffective."
+      },
+      {
+        "question": "How does the elbow escape create an unsolvable dilemma when combined with the upa escape?",
+        "answer": "The upa requires the top player to post their hands wide to maintain base against the bridge, which shifts their weight upward and forward. This forward weight shift creates the exact conditions favorable for the elbow escape. Conversely, defending the elbow escape requires the top player to drive hips low and stay tight to follow hip movement, making them vulnerable to the upa when they lack posting ability. Alternating between the two forces the top player into a constant lose-lose defensive cycle."
+      },
+      {
+        "question": "What body positioning prevents back exposure during the turning phase of the escape?",
+        "answer": "Keep your top elbow connected to your top knee throughout the turning movement, creating a closed frame that physically blocks hook insertion behind your hip. Face the opponent rather than turning away, and maintain frame contact with their hip throughout the escape. Your chin stays tucked and your shoulders never rotate past 90 degrees away from the opponent until your knee is fully inserted and half guard is secured with leg triangle."
+      },
+      {
+        "question": "If the top player advances to high mount with knees near your armpits during your escape attempt, what adjustment is required?",
+        "answer": "From high mount, standard hip frames on the thigh become less effective because the opponent's knees have bypassed your framing range. Shift your frames higher to push on their chest or shoulders while working to inch your hips downward toward their knees through small scooting movements. Bridges combined with downward hip scooting create the distance needed to re-establish standard escape frames at their hip level. The priority becomes escaping high mount back to standard mount positioning before resuming the elbow escape."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Elbow Escape from Mount."
+    "safety_considerations": "The elbow escape is one of the safest techniques in BJJ as it is a defensive positional escape rather than a joint lock or choke. Primary safety concern is neck strain from being flattened under heavy pressure for extended periods. Practitioners should tap immediately if a submission is locked in rather than attempting to escape through the submission. Avoid bridging directly onto the neck or cervical spine. Communicate with training partners about appropriate pressure levels during drilling, especially when working with significant weight differences. Be cautious of knee strain when inserting the knee shield against aggressive top player resistance."
   },
   "defender": {
     "name": "Elbow Escape from Mount Defender",
-    "description": "TODO: Write defender description for Elbow Escape from Mount.",
-    "overview": "TODO: Write defender overview for Elbow Escape from Mount.",
+    "description": "Defend against the Elbow Escape from Mount by maintaining pressure, following hip movement, and converting escape attempts into submissions and positional advances.",
+    "overview": "Defending against the Elbow Escape from Mount means maintaining your dominant mount position while your opponent attempts to create space through hip escapes and frame creation. As the top player, your goal is to follow the bottom player's hip movement, prevent effective frame establishment, and convert their escape attempts into submission or positional advancement opportunities. Effective defense requires reading the bottom player's escape direction early through tactile sensitivity, maintaining heavy hip pressure that limits their shrimping range, and having immediate technical responses prepared for each phase of the escape sequence. The defender must balance keeping weight heavy enough to prevent escape while retaining enough mobility to follow the bottom player's movement and capitalize on the openings their escape attempts create.",
     "key_principles": [
-      "TODO"
+      "Maintain heavy hip pressure centered on opponent's torso to limit their ability to generate effective lateral hip movement",
+      "Follow the hips immediately - when you feel opponent's hips shift, slide your knees to re-center over their torso before they can insert a knee",
+      "Prevent frame establishment by controlling opponent's arms through wrist control, crossface pressure, or pinning their elbows to their sides",
+      "Use grapevines on opponent's legs to eliminate their ability to plant feet and generate hip escape driving power",
+      "Convert escape attempts into offensive opportunities by attacking exposed arms during framing or advancing to high mount when they create angle",
+      "Maintain low sprawling base when you feel hip escape attempts rather than sitting upright where your weight is easier to displace"
     ],
     "recognition_cues": [
-      "TODO"
+      "Opponent turns to their side and places forearm or elbow against your hip or inner thigh, establishing the escape frame",
+      "Opponent plants one foot flat on the mat with knee bent, indicating preparation for lateral hip movement",
+      "Opponent's hands shift from defending their neck and collar to pushing on your hip, knee, or thigh area",
+      "Opponent creates a deliberate angle with their body rather than lying flat, signaling their chosen escape direction",
+      "Opponent takes a controlled deep breath and braces their core, preparing for an explosive movement sequence"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
+        "action": "Follow hips and re-center weight immediately when you feel lateral movement",
+        "when_to_use": "The moment you feel opponent's hips begin to shift laterally during any escape attempt",
         "targets_outcome": "Mount/Bottom",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "if_successful": "Opponent remains under mount with energy depleted from the failed escape attempt and must restart their sequence",
+        "risk": "If you overchase their hips to one side, you may create space on the opposite side for a direction-switch escape"
+      },
+      {
+        "action": "Advance to high mount by sliding knees toward armpits when opponent commits to framing on your hip",
+        "when_to_use": "When opponent places frame on your hip and begins turning to their side, creating an opening above their arms",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Position advances to high mount where elbow escape becomes drastically more difficult and submission access increases significantly",
+        "risk": "Moving to high mount reduces your base stability and increases vulnerability to explosive bridge reversals"
+      },
+      {
+        "action": "Isolate and attack the framing arm with Americana or wrist-pin control",
+        "when_to_use": "When opponent extends their arm to create a frame, creating isolation opportunity on the exposed limb",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Submission opportunity created while simultaneously removing the frame that enables the escape",
+        "risk": "Overcommitting to the arm attack may allow opponent to complete the hip escape while your attention is on the limb"
+      },
+      {
+        "action": "Insert far hook and transition to back control when opponent overcommits to turning",
+        "when_to_use": "When opponent turns excessively to their side during the hip escape, exposing their back without maintaining elbow-knee connection",
+        "targets_outcome": "Back Control/Bottom",
+        "if_successful": "Achieve back control which is a more dominant and higher-finishing position than mount",
+        "risk": "If the opponent is baiting the turn and maintains strong frames, they may recover guard during your transition attempt"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Bottom",
-        "how": "TODO"
+        "outcome": "Mount/Bottom",
+        "how": "Follow opponent's hip movement immediately by sliding knees to re-center, maintain heavy chest-to-chest pressure, and strip or neutralize their frame before they can chain a second hip escape"
+      },
+      {
+        "outcome": "Back Control/Bottom",
+        "how": "When opponent overcommits to turning during their escape, immediately insert your far hook behind their bottom hip and secure seat belt grip to transition to back control before they can face you"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Sitting upright in mount without forward pressure when opponent begins hip escape",
+        "consequence": "Upright posture creates space underneath you, making the hip escape significantly easier and faster for the bottom player",
+        "correction": "Drive chest and hips forward when you feel escape attempts, sprawling your weight low to maximize pressure and reduce available space for hip movement"
+      },
+      {
+        "error": "Chasing opponent's hips too aggressively by lunging weight to one side",
+        "consequence": "Creates space on the opposite side for a direction-switch escape, or unbalances you for an upa reversal",
+        "correction": "Follow hips with controlled sliding movements, maintaining centered base over their torso rather than lunging to one side with your full weight"
+      },
+      {
+        "error": "Ignoring the frame on your hip and attempting submissions without addressing the structural barrier",
+        "consequence": "The frame persists and provides the mechanical support opponent needs to complete their escape on the next hip escape attempt",
+        "correction": "Strip or neutralize the frame first by controlling the framing arm with wrist pin or by driving crossface pressure, then either maintain mount or attack the now-exposed limb"
+      },
+      {
+        "error": "Keeping legs straight or relaxed without active grapevining or knee squeeze",
+        "consequence": "Bottom player easily plants both feet and generates powerful hip escapes without any leg resistance restricting their movement",
+        "correction": "Maintain active grapevines hooking inside their legs or tight knee squeeze against their hips to limit foot placement and dramatically reduce hip escape power"
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the first physical cue that signals your opponent is about to attempt an elbow escape?",
+        "answer": "The primary cue is the opponent placing their forearm or elbow against your hip or inner thigh while simultaneously turning their body slightly to one side. This frame establishment is the prerequisite for the hip escape movement. Secondary cues include planting a foot flat on the mat with a bent knee and shifting hands from neck defense to hip-pushing position. Recognizing the frame placement gives you approximately one second to respond before the hip escape begins."
+      },
+      {
+        "question": "How should you adjust your weight distribution when you feel the opponent begin a hip escape?",
+        "answer": "Drive your hips forward and down while sliding your knees to follow their hip movement direction, closing the gap before they can insert their knee. Your weight should shift toward the direction they are escaping, maintaining chest connection and sprawling your legs back to prevent them from generating power off their planted foot. The sprawl motion flattens your hips against theirs, directly countering their lateral movement with downward pressure."
+      },
+      {
+        "question": "Your opponent successfully inserts their knee shield - what is your immediate tactical response?",
+        "answer": "Immediately drive your hip into their inserted knee using strong crossface pressure to flatten them and prevent underhook establishment. If you can push their knee back below your hip line before they triangle their legs, you can re-establish full mount. If the half guard is secured, transition to half guard top passing with crossface and underhook rather than forcing a remount, as attempting to jump back to mount typically creates more scramble opportunities for the bottom player."
+      },
+      {
+        "question": "When is it appropriate to allow a partial escape attempt to set up a submission counter?",
+        "answer": "When you recognize the escape attempt early and can control the framing arm, you can allow partial hip escape while isolating their extended arm for an Americana or transitioning toward an armbar. The key is maintaining absolute control of the arm throughout the sequence and never releasing the limb to re-mount. This bait-and-attack strategy is most effective after you have already threatened other submissions, when the opponent is focused entirely on escaping rather than protecting their arms."
+      },
+      {
+        "question": "How does grapevining the legs affect the opponent's ability to execute the elbow escape?",
+        "answer": "Grapevines hook your insteps inside the opponent's inner thighs, preventing them from planting their feet flat on the mat. Without a planted foot providing a drive point, the bottom player cannot generate the lateral hip thrust needed for an effective hip escape. This dramatically reduces the power and range of their shrimping movement, making it much easier to follow and re-center. However, grapevines slightly reduce your own ability to post and adjust, so release them when transitioning to submissions that require hip mobility."
       }
     ],
     "training_progressions": [
       {
         "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "focus": "Identifying escape cues through tactile sensitivity",
+        "description": "Positional drilling where partner attempts slow elbow escapes while you focus on feeling the frame placement, foot plant, and hip shift cues with eyes closed. Develop automatic recognition of escape direction and timing without visual reliance."
+      },
+      {
+        "phase": "Phase 2: Pressure Maintenance",
+        "focus": "Following hips and maintaining mount retention under increasing resistance",
+        "description": "Partner attempts escapes at progressive intensity while you focus on hip following, re-centering, and maintaining heavy pressure. Track how many consecutive escape attempts you can neutralize before losing position. Introduce grapevine and crossface retention tools."
+      },
+      {
+        "phase": "Phase 3: Counter-Offense",
+        "focus": "Converting escape attempts into submission opportunities and positional advances",
+        "description": "Develop ability to attack exposed framing arms with Americana during escape attempts, advance to high mount when opponent creates angle, and transition to back control when opponent overturns. Practice reading which counter is available based on the specific escape variation being attempted."
+      },
+      {
+        "phase": "Phase 4: Live Integration",
+        "focus": "Applying retention and counter-offense in full sparring",
+        "description": "Mount retention positional sparring with three-minute rounds. Set targets for maintaining mount for specific durations and finishing submissions off escape attempts. Develop the judgment to choose between re-centering mount and capitalizing on offensive openings created by escape attempts."
       }
     ]
   }

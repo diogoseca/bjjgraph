@@ -636,43 +636,47 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Underhook Sweep from Half",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Rolling Back Take",
         "attempt_probability": 9
       },
       {
-        "transition": "Electric Chair Transition",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Knee Shield Retention",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Lockdown Recovery",
+        "transition": "Underhook Sweep from Half",
         "attempt_probability": 10
       },
       {
+        "transition": "Deep Half Entry",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Knee Shield Retention",
+        "attempt_probability": 33
+      },
+      {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Knee Shield from Quarter Guard",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Recover Full Guard from Quarter Guard",
-        "attempt_probability": 2
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Sweep from Quarter Guard",
+        "attempt_probability": 1
       }
     ]
   }

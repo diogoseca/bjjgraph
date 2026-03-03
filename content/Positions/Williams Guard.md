@@ -168,21 +168,23 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (15% of attempts)
+- **[[Arm Extraction]]** (14% of attempts)
 
-- **[[Stack Pass]]** (13% of attempts)
+- **[[Stack Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (12% of attempts)
+- **[[Pressure Pass]]** (11% of attempts)
 
-- **[[Knee Cut Pass]]** (14% of attempts)
+- **[[Knee Cut Pass]]** (13% of attempts)
 
-- **[[Posture Recovery]]** (24% of attempts)
+- **[[Posture Recovery]]** (30% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Knee Slice Pass]]** (12% of attempts)
 
-- **[[Posture from Williams Guard]]** (6% of attempts)
+- **[[Posture from Williams Guard]]** (5% of attempts)
 
-- **[[Stack from Williams Guard]]** (3% of attempts)
+- **[[Stack from Williams Guard]]** (2% of attempts)
+
+- **[[Guard Pass from Williams Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

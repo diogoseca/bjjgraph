@@ -658,51 +658,55 @@
     "transitions": [
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 15
+        "attempt_probability": 24
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Omoplata",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Reverse X-Guard Entry",
         "attempt_probability": 5
       },
       {
+        "transition": "Reverse X-Guard Entry",
+        "attempt_probability": 4
+      },
+      {
         "transition": "Technical Stand-up",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Bolo Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Reverse De La Riva Recovery",
-        "attempt_probability": 7
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Sweep from Inverted Guard",
+        "attempt_probability": 2
       }
     ]
   }

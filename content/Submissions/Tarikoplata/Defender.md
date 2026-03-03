@@ -142,6 +142,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
 
 Defending the tarikoplata requires recognizing the threat early and acting decisively before the compound lock is fully established. The tarikoplata is most dangerous once both control vectors - the omoplata hip pressure and wrist rotation - are coordinated, so your defensive window narrows rapidly once the attacker secures the wrist grip. Unlike defending a standard omoplata where rolling forward is a viable escape, the tarikoplata's wrist control makes forward rolls extremely dangerous, as the rotational torque on the shoulder amplifies dramatically during any rolling attempt. Your primary defensive strategy must focus on preventing wrist isolation in the first place, and if that fails, on extracting your arm before the attacker can coordinate both pressure vectors. Understanding the attacker's progression sequence - omoplata establishment, wrist grip, hip adjustment, coordinated finish - gives you specific windows where defensive action is most effective. The earliest intervention produces the highest success rate, while late-stage defense against a fully locked tarikoplata carries significant injury risk and should prioritize tapping over fighting a losing position.
 
+**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
 
 
 </section>

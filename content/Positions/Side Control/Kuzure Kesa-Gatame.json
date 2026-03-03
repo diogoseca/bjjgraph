@@ -344,7 +344,7 @@
     ],
     "overview": "Defending Kuzure Kesa-Gatame from bottom represents one of the most technically demanding escape scenarios in Brazilian Jiu-Jitsu. The combination of hip pressure, arm isolation, and base distribution creates a control system that is simultaneously difficult to escape and fraught with submission danger. Unlike standard side control where both arms can frame and create space, the trapped arm in Kuzure Kesa-Gatame severely limits defensive options, forcing the bottom practitioner to rely on precise timing, hip movement, and strategic arm recovery techniques.\n\nThe fundamental challenge of bottom position lies in managing multiple simultaneous threats while working toward escape. The trapped arm creates immediate armbar, americana, and kimura threats that demand constant attention and defensive awareness. Meanwhile, the top practitioner's hip pressure restricts breathing, limits hip mobility, and prevents the creation of frames necessary for most escape sequences. This dual pressure—submission threat combined with positional control—creates a hierarchy of defensive priorities where preventing submissions must take precedence over positional escapes, yet focusing solely on submission defense allows the top practitioner to consolidate control indefinitely.\n\nSuccessful escape from bottom Kuzure Kesa-Gatame requires understanding the position's structural weaknesses. The top practitioner's commitment to arm isolation creates vulnerabilities in their base, particularly to their far side where their posting leg provides the primary stability. The bottom practitioner must exploit these vulnerabilities through precise hip escapes, arm recovery sequences, and bridging techniques that capitalize on the top practitioner's weight distribution. The key insight is that most effective escapes don't fight the pressure directly but rather redirect it, using the top practitioner's commitment to arm control against their base stability.\n\nThe position also demands exceptional conditioning and mental resilience. The constant pressure, restricted breathing, and submission threats create significant psychological stress that can lead to panic and poor decision-making. Developing the ability to remain calm under pressure, maintain awareness of escape timing windows, and execute techniques precisely despite fatigue and discomfort represents a critical aspect of high-level defensive grappling. Training positional sparring from this position, gradually building tolerance for pressure and refining escape mechanics under realistic resistance, forms the foundation of effective defensive development.",
     "state_properties": {
-      "point_value": -3,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -444,7 +444,7 @@
           },
           {
             "technique": "Technical Stand-up",
-            "target": "Standing Position",
+            "target": "Clinch",
             "probability": 30
           }
         ]

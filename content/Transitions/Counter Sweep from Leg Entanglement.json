@@ -1,42 +1,398 @@
 {
   "name": "Counter Sweep from Leg Entanglement",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "sweep", "leg entanglement", "counter", "reversal"],
+  "description": "Master the counter sweep from leg entanglement in BJJ. Complete guide to reversing leg lock attacks, sweeping to side control, and punishing overcommitted ashi garami players.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "leg entanglement",
+    "counter",
+    "reversal",
+    "no-gi",
+    "leg locks",
+    "positional advancement"
+  ],
   "from_position": "Leg Entanglement/Bottom",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 35, "result": "success"},
-    {"to": "Leg Entanglement/Bottom", "probability": 40, "result": "failure"},
-    {"to": "Leg Entanglement/Bottom", "probability": 25, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 35,
+      "result": "success"
+    },
+    {
+      "to": "Leg Entanglement/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Saddle/Bottom",
+      "probability": 25,
+      "result": "counter"
+    }
   ],
   "success_rate": 35,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "overview": "The counter sweep from leg entanglement is a positional reversal technique executed by the bottom player when their opponent is attacking from an ashi garami or related entanglement configuration. Rather than defending purely through leg extraction or guard recovery, this technique weaponizes the opponent's commitment to the leg attack, using the entanglement itself as a fulcrum to off-balance and sweep the attacker before establishing side control.\n\nThe strategic value lies in punishing overcommitment. When an opponent dedicates their upper body and hips to finishing a leg submission, they necessarily compromise their base and postural integrity. The counter sweep exploits this trade-off by converting what appears to be a defensive survival situation into offensive position advancement. Timing is paramount—the sweep window opens precisely when the opponent shifts their weight backward or laterally to apply finishing mechanics on a heel hook, toe hold, or kneebar.\n\nThis technique has become increasingly important in modern no-gi grappling where leg lock exchanges dominate. Practitioners who can sweep from entanglements create a powerful deterrent against reckless leg attack entries, forcing opponents to maintain better positional discipline during their leg lock sequences. The ability to reverse from bottom leg entanglement to side control represents one of the highest-value positional swings in the sport, converting a defensive crisis into three points and dominant top position.",
+  "conditions": [
+    "Opponent has committed their weight backward or laterally to execute a leg submission",
+    "Opponent's upper body control over your torso is insufficient or has been released",
+    "You have maintained enough postural integrity to generate sweeping force through your hips",
+    "Opponent's base is compromised by their leg attack positioning, creating an exploitable angle",
+    "At least one of your arms is free to post or control the opponent's body during the sweep"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Sit-Up Counter Sweep",
+      "description": "When the opponent leans back aggressively to apply a heel hook or ankle lock, use their backward lean as an opportunity to sit up explosively, posting on your free hand and driving forward over their body. The sit-up path follows their centerline, and the entangled leg acts as an anchor point that prevents them from retreating. Finish by clearing the entanglement and establishing side control as they are driven flat on their back.",
+      "when_to_use": "When the opponent leans back significantly to finish a heel hook and their chest is more than forty-five degrees from vertical, creating maximum base vulnerability"
+    },
+    {
+      "variant_name": "Rolling Counter Sweep",
+      "description": "When the opponent has a shallow entanglement without full knee line control, use a rolling motion over your shoulder toward the trapped leg side. The roll uses rotational momentum to break the opponent's grip structure and invert the positional hierarchy. As you complete the rotation, you end up in top position with their legs beneath you, allowing you to strip the entanglement and pass to side control.",
+      "when_to_use": "When the opponent has not fully secured the knee line and their entanglement is loose enough to allow rotational movement through the position"
+    },
+    {
+      "variant_name": "Leg Pummeling Counter Sweep",
+      "description": "Rather than a dramatic positional reversal, this variation involves systematically pummeling your legs free from the entanglement while simultaneously using underhooks and hip pressure to come on top. Each pummel reduces the opponent's control, and the progressive weight shift gradually loads your weight onto the opponent until you achieve top position. This is slower but higher percentage against well-structured entanglements.",
+      "when_to_use": "Against technically sound opponents who maintain good structure in their entanglement, where explosive sweeps are unlikely to succeed against their balanced base"
+    }
+  ],
+  "position_integration": "The counter sweep from leg entanglement occupies a critical position in the modern BJJ positional hierarchy by creating a direct link between the defensive leg entanglement bottom position and dominant side control. This technique serves as both a deterrent against reckless leg entries and a reward for practitioners who develop comfort in the bottom of leg entanglements rather than panicking. It integrates with the broader leg lock defense system by providing an offensive alternative to purely extractive escapes like boot scooting or inversions, and connects to the top game by offering a direct pathway to side control that bypasses the traditional guard passing sequence. Understanding this sweep changes the game theory of leg lock exchanges, as it punishes opponents who sacrifice positional control for submission attempts.",
+  "related_content": [
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Source position from which the counter sweep is initiated"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position achieved on successful sweep completion"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Specific entanglement configuration commonly countered by this sweep"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Dominant entanglement variant requiring modified sweep mechanics"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Counter outcome position where opponent advances during failed sweep attempt"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Neutral entanglement from which counter sweep can be attempted"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Alternative defensive option when sweep conditions are not present"
+    },
+    {
+      "name": "Back Take from Ashi",
+      "relationship": "Alternative offensive transition available from similar entanglement positions"
+    },
+    {
+      "name": "Ashi Entry from Leg Entanglement",
+      "relationship": "Transition the opponent may use to re-enter after a failed sweep"
+    },
+    {
+      "name": "Ashi Garami Maintenance",
+      "relationship": "Opponent's primary strategy to prevent sweep by maintaining entanglement control"
+    }
+  ],
   "attacker": {
     "name": "Counter Sweep from Leg Entanglement Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Leg Entanglement/Bottom"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Learn to execute the counter sweep from leg entanglement. Step-by-step guide to reversing ashi garami attacks, timing the sweep, and establishing side control top position.",
+    "overview": "As the attacker executing the counter sweep, your objective is to exploit your opponent's compromised base during their leg submission attempt and convert the entanglement into a sweeping fulcrum. The key insight is that effective leg lock attacks require the attacker to commit their weight and upper body in specific directions—backward for heel hooks, laterally for kneebars—and each of these weight commitments creates a corresponding vulnerability that can be swept through. Your success depends on reading your opponent's weight distribution, timing the sweep to coincide with their maximum commitment to the leg attack, and maintaining enough structural integrity through frames and grips to generate the force necessary to off-balance them. The sweep is most available when your opponent releases upper body control to secure a finishing grip on your foot or ankle.",
+    "key_principles": [
+      "Read weight distribution before committing to the sweep—the opponent must be off-balance in a direction you can exploit before you initiate",
+      "Use the entangled leg as an anchor point that prevents the opponent from retreating or adjusting their base during your sweep",
+      "Time the sweep to coincide with the opponent's transition from control to finishing mechanics, when they release upper body grips to attack the foot",
+      "Maintain at least one free arm to post, frame, or control throughout the sweep—never let both arms get trapped",
+      "Drive through the sweep with hip power rather than arm strength, using your core and legs to generate the off-balancing force",
+      "Immediately address the leg entanglement after achieving top position—do not pause while still entangled",
+      "Commit fully once initiated—half-measures in the sweep allow the opponent to re-establish their attacking position and potentially advance to a worse entanglement"
+    ],
+    "setup_requirements": [
+      "Opponent has committed their weight in a readable direction during their leg attack, creating an exploitable angle for the sweep",
+      "At least one arm is free from opponent's upper body control to post or frame during the sweeping motion",
+      "Your hips retain enough mobility to generate force despite the entanglement, meaning the opponent has not fully pinched your hip line",
+      "Opponent has released or loosened their control of your torso to secure finishing grips on your foot or ankle",
+      "You have identified the direction of the sweep based on opponent's weight commitment and base vulnerability"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the sweep window",
+        "description": "Monitor your opponent's weight distribution and upper body positioning. The sweep becomes available when they shift their weight backward to apply a heel hook, laterally for a kneebar, or release their torso control to grip your foot. Look for the moment when their base is most compromised and their hands leave your upper body to attack your lower extremity."
+      },
+      {
+        "step_number": 2,
+        "action": "Establish your posting base",
+        "description": "Place your free hand firmly on the mat behind you or to the side as a posting base for the sweep. If both arms are controlled, you must first fight to free at least one arm using elbow pummel or frame breaks before the sweep can be attempted. The posting hand determines the axis of your sweep and must be positioned on the side opposite to the direction you intend to sweep."
+      },
+      {
+        "step_number": 3,
+        "action": "Initiate hip drive toward opponent",
+        "description": "Explosively drive your hips forward and upward toward the opponent, using the entangled leg as a fixed point that anchors the opponent while your hip movement creates the off-balancing force. Think of your hips as a piston driving into the space the opponent occupied before they leaned back or shifted laterally. The force vector should target the gap in their base."
+      },
+      {
+        "step_number": 4,
+        "action": "Control opponent's upper body during sweep",
+        "description": "As you come forward, use your free hand to control the opponent's far shoulder, collar, or belt line to prevent them from posting and recovering their base. This control is critical because a skilled opponent will attempt to post with their hand the moment they feel the sweep initiated. Block their posting ability while continuing your forward drive."
+      },
+      {
+        "step_number": 5,
+        "action": "Complete the positional reversal",
+        "description": "Drive your weight over the opponent's centerline until they are loaded onto their back or side. Your chest should end up heavy on their torso as you transition from the entanglement position to top position. Maintain pressure throughout the transition to prevent the opponent from turtling, re-entering the entanglement, or recovering guard."
+      },
+      {
+        "step_number": 6,
+        "action": "Clear the leg entanglement",
+        "description": "Once you have achieved top position with chest pressure, immediately address the remaining leg entanglement. Pummel your trapped leg free by circling your knee toward the mat and extracting it from the opponent's hook structure. Do not attempt to settle into side control while your leg remains entangled, as the opponent can re-enter their attacking position from bottom."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish side control",
+        "description": "After clearing the entanglement, immediately establish standard side control with crossface pressure, hip-to-hip contact, and proper weight distribution. Secure the position before the opponent can create frames or recover guard. Your priority shifts from offensive sweep to positional consolidation the moment the entanglement is cleared."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent posts their free hand to block the sweep and re-establish base",
+        "effectiveness": "High",
+        "your_response": "Immediately switch to attacking the posting arm with a kimura grip or two-on-one control, converting the sweep attempt into an upper body attack that removes their post before re-attempting the sweep",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent pulls guard by releasing the entanglement and wrapping closed guard during the sweep",
+        "effectiveness": "Medium",
+        "your_response": "Continue driving forward through the guard pull attempt, using the momentum of the sweep to establish a passing position rather than accepting closed guard, or immediately initiate a guard pass sequence",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      },
+      {
+        "counter": "Opponent deepens the entanglement by stepping over to saddle position during your sweep initiation",
+        "effectiveness": "High",
+        "your_response": "Recognize the saddle entry attempt immediately and abort the sweep, prioritizing boot defense and heel protection before attempting another escape or sweep, as saddle represents significantly worse positional danger",
+        "targets_outcome": "Saddle/Bottom"
+      },
+      {
+        "counter": "Opponent abandons the leg attack and scrambles to re-establish top position or reset to standing",
+        "effectiveness": "Medium",
+        "your_response": "Maintain forward pressure and use the scramble to establish top position yourself, converting the abandoned entanglement into a wrestling exchange where you pursue the takedown or top position aggressively",
+        "targets_outcome": "Leg Entanglement/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting the sweep while the opponent still has strong upper body control of your torso",
+        "consequence": "The sweep fails because the opponent can use their upper body grips to pull you back down and re-establish their entanglement structure, often advancing to a tighter position",
+        "correction": "Only initiate the sweep after the opponent has released upper body control to grip your foot or ankle for a finishing attempt—this is the primary trigger for sweep timing"
+      },
+      {
+        "error": "Using arm strength instead of hip power to generate the sweeping force",
+        "consequence": "Insufficient force to complete the sweep against a resisting opponent, resulting in a stalled half-sweep where you are stuck in a compromised position between bottom and top",
+        "correction": "Drive with your hips as the primary force generator, using your arms only for posting and controlling the opponent's upper body, not for lifting or pushing"
+      },
+      {
+        "error": "Failing to clear the leg entanglement after achieving top position",
+        "consequence": "The opponent re-enters their leg lock attack from bottom, potentially from an even better angle since you are now feeding your legs back into their control structure",
+        "correction": "Immediately pummel your legs free after achieving top position—treat the sweep and the leg extraction as one continuous sequence, not two separate actions"
+      },
+      {
+        "error": "Telegraphing the sweep by sitting up slowly or shifting weight obviously before committing",
+        "consequence": "The opponent recognizes the sweep attempt early and either deepens their entanglement, posts defensively, or transitions to a tighter configuration before you can generate sufficient force",
+        "correction": "Disguise the sweep initiation within your defensive movements—use subtle weight shifts and defensive hand fighting to mask the moment of commitment until the explosive hip drive"
+      },
+      {
+        "error": "Attempting the sweep when the opponent has crossed their ankles or locked a figure-four behind your knee",
+        "consequence": "The entanglement is too tight for the sweep to generate sufficient movement, and the attempt may expose your knee to additional torque during the failed sweep motion",
+        "correction": "First address the ankle cross or figure-four lock through specific grip breaks before attempting the sweep—the entanglement must be loose enough to allow the necessary hip displacement"
+      },
+      {
+        "error": "Sweeping in the wrong direction relative to the opponent's weight commitment",
+        "consequence": "The sweep runs directly into the opponent's strongest base, resulting in immediate failure and wasted energy that leaves you more vulnerable to the subsequent leg attack",
+        "correction": "Always sweep perpendicular to or in the same direction as the opponent's weight commitment—if they lean back, sweep forward; if they lean right, sweep them to their right"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Sweep Mechanics",
+        "focus": "Hip drive and posting fundamentals",
+        "description": "Practice the sit-up and hip drive motion from leg entanglement bottom with a cooperative partner. Focus on generating force through the hips rather than arms, establishing proper posting positions, and timing the commitment to the sweep. Partner holds static entanglement without resistance."
+      },
+      {
+        "phase": "Phase 2: Timing Recognition",
+        "focus": "Identifying sweep windows during leg attacks",
+        "description": "Partner executes slow-motion leg attacks from entanglement while you identify the moment their base becomes vulnerable. Practice reading weight shifts, grip transitions, and postural changes that signal sweep availability. Do not complete the sweep yet—focus purely on recognition."
+      },
+      {
+        "phase": "Phase 3: Integration with Entanglement Clearing",
+        "focus": "Connecting sweep to side control establishment",
+        "description": "Combine the sweep with immediate leg extraction and side control consolidation as one fluid sequence. Partner provides moderate resistance during the sweep and attempts to re-enter entanglement after being swept. Develop the habit of continuous movement from sweep through pass to pin."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Full-resistance positional sparring",
+        "description": "Positional sparring starting from leg entanglement bottom. Partner attacks with full-speed leg locks while you look for sweep opportunities alongside other defensive options. Integrate the sweep into your overall leg lock defense system, choosing between sweep, extraction, and guard recovery based on what the opponent presents."
+      },
+      {
+        "phase": "Phase 5: Chain Offensive Responses",
+        "focus": "Combining sweep with alternative attacks",
+        "description": "Develop the ability to chain the sweep attempt with back takes, counter entanglements, and submission counters based on the opponent's reaction to your initial sweep attempt. If they post to block the sweep, attack the posting arm. If they release the entanglement, pursue the scramble aggressively."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary timing trigger that signals the counter sweep is available from leg entanglement bottom?",
+        "answer": "The primary trigger is when the opponent releases their upper body control of your torso to secure finishing grips on your foot or ankle. This transition from positional control to submission finishing creates a base vulnerability because the opponent must redirect their grip structure from controlling your center of mass to manipulating your extremity. During this grip transition, their weight typically shifts backward or laterally, and their ability to prevent your forward hip drive is momentarily compromised."
+      },
+      {
+        "question": "Why must you drive with your hips rather than pulling with your arms during the counter sweep?",
+        "answer": "Hip drive generates significantly more force than arm pulling because the hip extensors and core are the strongest muscle groups in the body. Arms alone cannot overcome a resisting opponent's base from the bottom of an entanglement. Additionally, using arm strength for the sweep removes your ability to post and control the opponent's upper body simultaneously, which are both critical for sweep completion. The arms must remain available for posting, blocking the opponent's post, and controlling their upper body during the positional reversal."
+      },
+      {
+        "question": "Your opponent has a tight ashi garami with crossed ankles behind your knee—should you attempt the counter sweep immediately?",
+        "answer": "No, you should not attempt the counter sweep with crossed ankles behind your knee. The ankle cross creates a locked entanglement structure that prevents the hip displacement necessary for the sweep, and attempting to force through it may expose your knee to dangerous torque. First break the ankle cross by prying at the locking ankle with your free hand or using hip rotation to create enough slack to separate their feet. Only after loosening the entanglement should you look for the sweep timing window."
+      },
+      {
+        "question": "What is the critical post-sweep action that most practitioners neglect after successfully coming to top position?",
+        "answer": "The most commonly neglected action is immediately clearing the leg entanglement after achieving top position. Many practitioners relax momentarily once they feel themselves on top, but the opponent's legs are still configured in an attacking structure. If the entanglement is not immediately addressed, the opponent can re-enter their leg lock attack from bottom position, often from a better angle since your legs are still threaded through their control structure. The sweep and leg extraction must be treated as one continuous movement."
+      },
+      {
+        "question": "How does the direction of your sweep relate to the opponent's weight commitment during their leg attack?",
+        "answer": "The sweep should be directed perpendicular to or along the same vector as the opponent's weight commitment. If they lean back for a heel hook, sweep forward into the space they vacated in front of their body. If they shift laterally for a kneebar, sweep them further in that lateral direction. Sweeping against their weight commitment means driving into their strongest base, which drastically reduces success probability. Reading and matching the opponent's weight distribution vector is the fundamental skill that determines whether the sweep generates enough off-balance to succeed."
+      },
+      {
+        "question": "What distinguishes the sit-up counter sweep variant from the rolling counter sweep variant in terms of when each is appropriate?",
+        "answer": "The sit-up counter sweep is appropriate when the opponent leans back significantly to finish a heel hook, creating a large gap in their forward base that can be exploited by driving your hips forward and sitting up over them. The rolling counter sweep is appropriate when the opponent has a shallow entanglement without full knee line control, allowing rotational movement through the position. The key differentiator is the depth of the entanglement—deep, tight entanglements favor the sit-up because rotation is restricted, while shallow entanglements allow the rolling motion that uses momentum to break grip structure."
+      },
+      {
+        "question": "Your opponent posts their free hand to block your counter sweep attempt—what should your immediate response be?",
+        "answer": "Immediately attack the posting arm with a kimura grip or two-on-one control. The posting arm is extended and weight-bearing, making it vulnerable to upper body attacks. By threatening a kimura or armbar on the posting arm, you force the opponent to choose between maintaining their base against your sweep or protecting their arm. If they retract the posting arm to defend, the base is removed and you can re-attempt the sweep. This creates a dilemma where the opponent cannot simultaneously maintain their post and protect their arm."
+      },
+      {
+        "question": "Why is the counter sweep from leg entanglement considered a strategic deterrent beyond its direct positional value?",
+        "answer": "The counter sweep changes the game theory of leg lock exchanges by punishing opponents who sacrifice positional control for submission attempts. When an opponent knows you have a reliable counter sweep, they must maintain better upper body control and base during their leg attacks, which directly reduces their finishing effectiveness. This creates a meta-game advantage where your sweep threat forces the opponent into a dilemma between optimizing their leg attack mechanics (which opens the sweep) and maintaining defensive base (which reduces their submission percentage). The deterrent effect is often more valuable than the sweep itself."
+      }
+    ],
+    "safety_considerations": "The counter sweep from leg entanglement involves significant forces applied through the lower body while legs are intertwined. Always ensure controlled execution during training to avoid hyperextension of the knee or ankle during the sweeping motion. When your legs are entangled and force is applied through the sweep, rotational stress on the knee is possible if the entanglement does not release cleanly. Communicate with training partners before drilling and use progressive resistance. Tap immediately if you feel unexpected pressure on any joint during the sweep attempt. Be especially cautious when combining the sweep with existing heel hook or toe hold pressure on your leg."
   },
   "defender": {
     "name": "Counter Sweep from Leg Entanglement Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Leg Entanglement/Bottom", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Leg Entanglement/Bottom", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend and prevent the counter sweep from leg entanglement. Recognition cues, base maintenance strategies, and techniques to maintain leg lock control against sweep attempts.",
+    "overview": "As the defender against the counter sweep, you are the leg lock attacker whose opponent is attempting to use the entanglement to reverse your position. Your challenge is maintaining effective leg attack positioning while preserving enough base to prevent being swept. The fundamental tension you face is that effective leg lock finishing requires committing your upper body and weight in directions that compromise your base. Understanding how to maintain submission threat while keeping sweep-resistant positioning is essential for any serious leg lock practitioner. The key defensive skill is recognizing sweep initiation early—before the opponent generates full hip drive—and responding with base adjustments, entanglement deepening, or strategic disengagement that preserves your attacking position without exposing you to the reversal.",
+    "key_principles": [
+      "Maintain upper body connection to the opponent's torso throughout your leg attack to prevent the sweep trigger—never fully release torso control to grab the foot",
+      "Keep your base low and wide with active posting readiness so you can respond instantly to any forward drive from the opponent",
+      "Recognize sweep initiation through hip movement and posture changes early enough to respond before the opponent generates full momentum",
+      "Deepen the entanglement when you feel sweep attempts rather than releasing and resetting, converting their movement into a better attacking position",
+      "Control the opponent's free arm to remove their posting ability, which eliminates the mechanical prerequisite for most sweep variations",
+      "If the sweep is inevitable, transition to guard recovery rather than fighting a lost battle for top position from a compromised base"
+    ],
+    "recognition_cues": [
+      "Opponent begins sitting up or generating forward hip drive from the bottom of the entanglement, shifting their weight toward you rather than remaining flat",
+      "Opponent frees one or both arms from your upper body control and begins posting on the mat or reaching for your far shoulder",
+      "Opponent's hips elevate or rotate toward you while their entangled leg begins to act as a fixed anchor rather than a defensive extraction point",
+      "You feel a sudden forward pressure through the entanglement as the opponent's hip drive loads force through the connected leg structure",
+      "Opponent stops defending the leg attack and begins actively driving forward, indicating they have shifted from defensive to offensive intent"
+    ],
+    "defensive_options": [
+      {
+        "action": "Post with free hand and sprawl hips back to re-establish base against the sweep force",
+        "when_to_use": "Early in the sweep attempt when you feel the initial forward pressure but the opponent has not yet generated full hip drive",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "Opponent is driven back to flat position and you maintain your entanglement with the option to continue your leg attack",
+        "risk": "If the post is too slow or too high, the opponent may attack the posting arm with a kimura, converting your defensive action into their offensive opportunity"
+      },
+      {
+        "action": "Deepen entanglement by stepping over to saddle configuration during the sweep initiation",
+        "when_to_use": "When the opponent commits to the sweep and begins driving forward, using their momentum to facilitate your transition to a more dominant entanglement",
+        "targets_outcome": "Saddle/Bottom",
+        "if_successful": "You convert a defensive situation into an offensive advancement, reaching the most dominant leg entanglement position from which multiple submissions are available",
+        "risk": "If the step-over is mistimed, the opponent's forward drive may carry them over your leg before you can complete the saddle entry"
+      },
+      {
+        "action": "Release the entanglement entirely and recover to a neutral standing or guard passing position",
+        "when_to_use": "When the sweep is well-timed and your base is irrecoverably compromised, making continued entanglement defense more dangerous than resetting",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "You avoid the sweep and reset to a neutral position from which you can re-engage on your terms, though you lose your leg attack opportunity",
+        "risk": "If you release too late, the opponent has already generated enough momentum to complete the sweep regardless of entanglement release"
+      },
+      {
+        "action": "Control opponent's free arm to remove their posting ability before they can initiate the sweep",
+        "when_to_use": "Proactively when you sense the opponent is beginning to set up sweep conditions by freeing their arms and positioning to sit up",
+        "targets_outcome": "Leg Entanglement/Bottom",
+        "if_successful": "The opponent cannot generate the posting base necessary for the sweep and is forced to find alternative escapes from bottom position",
+        "risk": "Controlling the opponent's arm with your hands may compromise your grip on their foot, potentially losing the submission position"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Leg Entanglement/Bottom",
+        "how": "Maintain base integrity through active posting and upper body control of the opponent. When you feel sweep initiation, immediately sprawl your hips back and post your free hand wide while keeping your entanglement hooks engaged. The opponent remains in bottom position and you can continue your leg attack sequence."
+      },
+      {
+        "outcome": "Saddle/Bottom",
+        "how": "Use the opponent's forward sweep momentum against them by stepping over with your far leg into the saddle configuration. As they drive forward, their hip movement actually facilitates your leg transition over their hip, landing you in the most dominant entanglement position. This converts their offensive sweep attempt into your positional advancement."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing all upper body control to grab the foot with both hands for a finishing attempt",
+        "consequence": "Creates the exact conditions the opponent needs for the counter sweep—no upper body control means nothing prevents them from sitting up and driving forward",
+        "correction": "Maintain at least one point of upper body control (wrist, collar, or sleeve grip) throughout your finishing attempt, only committing both hands to the foot at the final moment of the submission"
+      },
+      {
+        "error": "Leaning back excessively during heel hook finishing attempts without maintaining base awareness",
+        "consequence": "Your center of gravity moves behind your base of support, creating maximum vulnerability to the forward-driving counter sweep",
+        "correction": "Keep your hips under your shoulders even during finishing attempts, using rotational force and grip mechanics rather than backward lean to apply heel hook pressure"
+      },
+      {
+        "error": "Ignoring the opponent's arm positioning and posting activity while focused on the leg attack",
+        "consequence": "The opponent establishes their posting base and frees their arms for sweep initiation without you recognizing the threat until the sweep is already in motion",
+        "correction": "Maintain awareness of the opponent's arm position throughout your leg attack—if both arms become free and one begins posting, immediately address the sweep threat before continuing the submission"
+      },
+      {
+        "error": "Attempting to hold position through muscular tension rather than structural base when feeling the sweep",
+        "consequence": "Rapid fatigue and eventual sweep success as muscular resistance fails against the opponent's hip-driven force, often resulting in a slower, less controlled positional loss",
+        "correction": "Respond to sweep initiation with structural adjustments—posting, sprawling, transitioning—rather than simply squeezing harder and hoping the sweep fails"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What specific grip transition during your leg attack creates the greatest vulnerability to the counter sweep?",
+        "answer": "The most vulnerable moment is when you release upper body control of the opponent's torso to secure both hands on their foot for a finishing grip. This transition removes the primary barrier preventing the opponent from sitting up and driving forward. During this grip transition, the opponent's torso is uncontrolled and their posting arm is free, creating the ideal conditions for the counter sweep. To mitigate this, maintain at least one point of upper body contact until the absolute final moment of the finishing sequence."
+      },
+      {
+        "question": "How can you use the opponent's sweep momentum to advance to a more dominant entanglement position?",
+        "answer": "When the opponent drives forward for the counter sweep, step your far leg over their hip into a saddle configuration. Their forward hip drive actually facilitates this transition because it creates the hip elevation and angle you need to thread your leg through. The result is that their offensive sweep attempt delivers them into the most dangerous entanglement position, the saddle, from which you have access to inside heel hooks and multiple submission pathways. This requires recognizing the sweep early enough to execute the step-over before their momentum carries them past the transition point."
+      },
+      {
+        "question": "What is the earliest recognition cue that indicates your opponent is preparing a counter sweep from bottom leg entanglement?",
+        "answer": "The earliest cue is a change in the opponent's arm activity—specifically when they shift from defending the leg attack with their hands near their captured leg to freeing their arms and reaching toward the mat for a posting position. This arm repositioning precedes the hip drive by several seconds and indicates the opponent has mentally transitioned from defense to counter-offense. Recognizing this arm shift gives you the maximum response window to re-establish upper body control or adjust your base before the sweep is initiated."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Sweep Recognition",
+        "focus": "Identifying counter sweep initiation cues",
+        "description": "Practice maintaining leg entanglement while partner executes slow-motion counter sweeps. Focus on recognizing the timing triggers, arm positioning changes, and hip movement patterns that precede the sweep. Do not attempt to defend—purely develop recognition ability."
+      },
+      {
+        "phase": "Phase 2: Base Maintenance Under Pressure",
+        "focus": "Maintaining base while continuing leg attacks",
+        "description": "Partner attempts counter sweeps at moderate intensity while you practice posting, sprawling, and base adjustments without releasing your entanglement. Develop the ability to multitask between leg attack progression and sweep defense simultaneously."
+      },
+      {
+        "phase": "Phase 3: Counter-to-Counter Transitions",
+        "focus": "Converting sweep defense into positional advancement",
+        "description": "Practice the saddle step-over and entanglement deepening responses during partner's sweep attempts. Focus on using the opponent's sweep momentum to facilitate your transition to more dominant entanglement positions rather than simply surviving the sweep."
+      },
+      {
+        "phase": "Phase 4: Full Integration",
+        "focus": "Complete leg attack with sweep defense integration",
+        "description": "Full-resistance positional sparring where you attack legs while partner has the option to counter sweep at any time. Develop the ability to maintain offensive pressure while keeping defensive awareness of sweep threats throughout extended leg lock exchanges."
+      }
+    ]
   }
 }

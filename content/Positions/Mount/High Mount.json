@@ -394,7 +394,7 @@
     ],
     "overview": "High Mount Bottom represents one of the most challenging defensive situations in Brazilian Jiu-Jitsu, where the bottom player faces an opponent who has walked their knees high toward the armpits or shoulders, creating maximum submission proximity while eliminating traditional escape mechanisms. This position requires immediate defensive action, as the elevated knee placement severely restricts the bottom player's ability to generate bridging power or create effective frames.\n\nThe strategic challenge of High Mount Bottom lies in the geometric disadvantage created by the top player's elevated position. With weight concentrated on the upper chest and sternum, the bottom player loses the ability to generate upward force through hip extension, making traditional bridge escapes nearly impossible. This biomechanical reality forces the bottom player to rely on timing, explosive movement, and capitalizing on the top player's transitional moments rather than sustained defensive pressure.\n\nDefensive strategy from High Mount Bottom centers on survival first, escape second. The bottom player must protect the neck and arms while seeking opportunities to create frames during submission attempts. Since the position strongly favors the top player, the bottom player's success depends on recognizing submission setups early and using the top player's weight shifts during attacks as windows for escape. Understanding that every submission attempt requires the top player to redistribute weight creates the foundation for defensive timing.\n\nFrom a training perspective, High Mount Bottom teaches practitioners to remain calm under extreme pressure and to recognize the subtle opportunities that arise during positional transitions. The position exemplifies the importance of preventive defense—never allowing opponents to establish high mount in the first place. When trapped in high mount, the focus shifts to minimizing damage, protecting vital targets, and waiting for the precise moment when offensive action creates defensive opportunity.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -513,7 +513,7 @@
             "probability": 25
           },
           {
-            "technique": "Frame Creation",
+            "technique": "Frame and Shrimp to Guard",
             "target": "Open Guard",
             "probability": 30
           }
@@ -636,35 +636,39 @@
     "transitions": [
       {
         "transition": "Upa Escape",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 26
+        "attempt_probability": 32
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
-        "transition": "Frame Creation",
-        "attempt_probability": 14
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": 13
       },
       {
         "transition": "Bridge to Mount from High Mount",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Frame Escape from High Mount",
-        "attempt_probability": 3
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Trap and Roll from High Mount",
+        "attempt_probability": 1
       }
     ]
   }

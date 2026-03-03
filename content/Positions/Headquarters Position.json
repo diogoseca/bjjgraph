@@ -44,32 +44,32 @@
   ],
   "transitions": [
     {
-      "transition": "Knee Slice Pass",
-      "attempt_probability": 25
+      "transition": "Knee Cut from Headquarters",
+      "attempt_probability": 30
     },
     {
-      "transition": "Long Step Pass",
-      "attempt_probability": 15
+      "transition": "Toreando from Headquarters",
+      "attempt_probability": 18
     },
     {
-      "transition": "Smash Pass",
-      "attempt_probability": 20
+      "transition": "Leg Drag from Headquarters",
+      "attempt_probability": 17
     },
     {
-      "transition": "Leg Weave Pass",
-      "attempt_probability": 10
+      "transition": "Back Step Pass",
+      "attempt_probability": 12
     },
     {
       "transition": "Body Lock Pass",
       "attempt_probability": 10
     },
     {
-      "transition": "Back Step Pass",
-      "attempt_probability": 10
+      "transition": "Inversion from Headquarters",
+      "attempt_probability": 7
     },
     {
-      "transition": "Crossface Pass",
-      "attempt_probability": 10
+      "transition": "Shin-to-Shin from Headquarters",
+      "attempt_probability": 6
     }
   ],
   "decision_tree": [
@@ -77,13 +77,13 @@
       "condition": "If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance",
       "actions": [
         {
-          "technique": "Long Step Pass",
+          "technique": "Toreando from Headquarters",
           "target": "Side Control",
           "probability": 70
         },
         {
-          "technique": "Leg Weave Pass",
-          "target": "Mount",
+          "technique": "Leg Drag from Headquarters",
+          "target": "Leg Drag Control",
           "probability": 60
         }
       ]
@@ -92,12 +92,12 @@
       "condition": "If opponent turns toward trapped leg attempting to recover half guard or full guard structures",
       "actions": [
         {
-          "technique": "Knee Slice Pass",
+          "technique": "Knee Cut from Headquarters",
           "target": "Side Control",
           "probability": 75
         },
         {
-          "technique": "Crossface Pass",
+          "technique": "Body Lock Pass",
           "target": "Side Control",
           "probability": 65
         }
@@ -107,8 +107,8 @@
       "condition": "If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance",
       "actions": [
         {
-          "technique": "Smash Pass",
-          "target": "Side Control",
+          "technique": "Leg Drag from Headquarters",
+          "target": "Leg Drag Control",
           "probability": 80
         },
         {
@@ -127,7 +127,7 @@
           "probability": 65
         },
         {
-          "technique": "Knee Slice Pass",
+          "technique": "Knee Cut from Headquarters",
           "target": "Side Control",
           "probability": 60
         }
@@ -174,7 +174,7 @@
     },
     {
       "name": "Headquarters Passing Cycle",
-      "description": "From established headquarters position, cycle through all primary passing options including knee slice, long step, smash pass, and leg weave based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.",
+      "description": "From established headquarters position, cycle through all primary passing options including knee cut, toreando, leg drag, and backstep based on coach's calls or timer intervals. Bottom player provides progressive resistance. Emphasizes reading reactions and selecting appropriate passing variations while maintaining headquarters as central hub.",
       "duration": "5 minutes continuous flow, 2-3 rounds per partner"
     },
     {
@@ -205,16 +205,16 @@
       "relationship": "Defensive guard structure opponent may attempt to establish against headquarters"
     },
     {
-      "name": "Knee Slice Pass",
+      "name": "Knee Cut from Headquarters",
       "relationship": "Primary offensive transition when opponent turns toward trapped leg"
     },
     {
-      "name": "Long Step Pass",
+      "name": "Toreando from Headquarters",
       "relationship": "Primary offensive transition when opponent extends leg to create distance"
     },
     {
-      "name": "Smash Pass",
-      "relationship": "Primary offensive transition when opponent creates strong frames"
+      "name": "Leg Drag from Headquarters",
+      "relationship": "Offensive transition when opponent creates strong frames or straightens leg"
     },
     {
       "name": "Back Step Pass",
@@ -222,18 +222,21 @@
     },
     {
       "name": "Mount",
-      "relationship": "Advanced target position achievable through leg weave or progressive passing"
+      "relationship": "Advanced target position achievable through progressive passing sequences"
     }
   ],
   "position_metrics": {
     "retention_rate": {
-      "value": 90
+      "value": 90,
+      "description": "High retention due to triangulated base structure and low-energy maintenance requirements"
     },
     "advancement_probability": {
-      "value": 72
+      "value": 72,
+      "description": "Strong advancement rate driven by multiple passing pathways and systematic decision-making"
     },
     "submission_probability": {
-      "value": 38
+      "value": 38,
+      "description": "Moderate submission threat primarily through passing to dominant positions first"
     },
     "average_time": "30-90 seconds before advancing to side control or mount, or returning to guard configurations"
   },
@@ -248,7 +251,7 @@
     },
     {
       "question": "Your opponent starts hip escaping aggressively toward the side of their trapped leg - what adjustment do you make?",
-      "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee slice pass, so if the hip escape continues, transition directly into the knee slice by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position."
+      "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position."
     },
     {
       "question": "What are the base fundamentals that prevent sweeps from headquarters, and what is the most common base error?",
@@ -270,33 +273,5 @@
       "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
       "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
     }
-  ],
-  "top": {
-    "transitions": [
-      {
-        "transition": "Knee Cut from Headquarters",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Leg Drag from Headquarters",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Toreando from Headquarters",
-        "attempt_probability": 0
-      }
-    ]
-  },
-  "bottom": {
-    "transitions": [
-      {
-        "transition": "Inversion from Headquarters",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Shin-to-Shin from Headquarters",
-        "attempt_probability": 0
-      }
-    ]
-  }
+  ]
 }

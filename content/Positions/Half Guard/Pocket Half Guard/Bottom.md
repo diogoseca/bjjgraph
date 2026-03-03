@@ -21,37 +21,37 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Underhook Sweep from Half",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Old School",
-      "text": "From this position, attempt Transition to Old School. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,23 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Available Escapes
 
-### [[Old School Sweep]] (37% of attempts)
+### [[Old School Sweep]] (43% of attempts)
 
-### [[Deep Half Entry]] (18% of attempts)
+### [[Deep Half Entry]] (17% of attempts)
 
-### [[Underhook Sweep from Half]] (13% of attempts)
+### [[Half Guard to Back Take]] (15% of attempts)
 
-### [[Half Guard to Back Take]] (16% of attempts)
+### [[Underhook Sweep from Half]] (12% of attempts)
 
-### [[Transition to Old School]] (8% of attempts)
+### [[Electric Chair Transition]] (7% of attempts)
 
-### [[Roll to Truck]] (5% of attempts)
+### [[Roll to Truck]] (4% of attempts)
 
-### [[Reguard from Pocket Half Guard]] (2% of attempts)
+### [[Reguard from Pocket Half Guard]] (1% of attempts)
 
-### [[Sweep from Pocket Half Guard]] (1% of attempts)
+### [[Sweep from Pocket Half Guard]] (0% of attempts)
+
+### [[Underhook Sweep from Pocket Half]] (1% of attempts)
 
 
 

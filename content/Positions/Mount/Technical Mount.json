@@ -283,7 +283,7 @@
         "relationship": "Primary technique - main transition used from this position"
       },
       {
-        "name": "Armbar from Mount",
+        "name": "Armbar from Technical Mount",
         "relationship": "Primary submission - finish technique from this position"
       }
     ],
@@ -305,35 +305,35 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 41
+        "attempt_probability": 54
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": 6
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 7
+        "attempt_probability": 4
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 5
+        "attempt_probability": 3
       },
       {
         "transition": "Technical Mount to Back Control",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Technical Mount to Mount",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Technical Mount to S Mount",
@@ -356,7 +356,7 @@
     ],
     "overview": "Technical Mount Bottom is a highly disadvantageous defensive position where the opponent has achieved a hybrid control position between standard mount and side control. The top player has one leg stepped over your body (typically near your head or shoulder) while maintaining chest-to-chest pressure, creating an asymmetrical pin that severely limits your defensive options. This position represents a critical escape scenario as the top player has multiple high-percentage submission threats (primarily armbars and triangles) while maintaining the ability to transition to full mount or take the back.\n\nFrom the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position—particularly arm exposure and limited hip mobility—is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.",
     "state_properties": {
-      "point_value": -4,
+      "point_value": 0,
       "position_type": "Defensive",
       "risk_level": "High",
       "energy_cost": "High",
@@ -571,31 +571,31 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 36
-      },
-      {
-        "transition": "Upa Escape",
-        "attempt_probability": 17
+        "attempt_probability": 45
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Shrimp Escape",
         "attempt_probability": 17
       },
       {
+        "transition": "Upa Escape",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": 15
+      },
+      {
         "transition": "Bridge and Roll",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Back Turn from Technical Mount",
-        "attempt_probability": 3
+        "attempt_probability": 1
       },
       {
         "transition": "Bridge from Technical Mount",
-        "attempt_probability": 1
+        "attempt_probability": 0
       },
       {
         "transition": "Escape Technical Mount to Half Guard",

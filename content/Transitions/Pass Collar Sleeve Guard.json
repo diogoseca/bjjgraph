@@ -1,13 +1,422 @@
 {
   "name": "Pass Collar Sleeve Guard",
-  "description": "",
-  "tags": [],
+  "description": "Learn to pass collar sleeve guard in BJJ. Complete guide covering grip breaks, posture control, and systematic passing strategies against open guard grips.",
+  "tags": [
+    "guard passing",
+    "collar sleeve guard",
+    "open guard",
+    "grip breaking",
+    "pressure passing",
+    "side control",
+    "gi techniques",
+    "intermediate"
+  ],
   "from_position": "Collar Sleeve Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 100,
+      "probability": 50,
       "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 10,
+      "result": "failure"
+    },
+    {
+      "to": "Collar Sleeve Guard/Top",
+      "probability": 22,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 12,
+      "result": "counter"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 6,
+      "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50,
+  "overview": "Passing the collar sleeve guard through direct grip elimination and forward pressure is the most fundamental approach to defeating this grip-based open guard. Unlike lateral passing methods such as the toreando or leg drag that navigate around the guard player's legs, this technique strips the guard structure at its foundation by systematically breaking both controlling grips before driving through the centerline to establish side control.\n\nThe strategic value of this direct approach lies in its reliability against opponents who rely heavily on grip retention for their guard game. When facing a guard player with fast re-gripping ability or dangerous sweep setups from collar sleeve, removing their offensive platform entirely before initiating passing movement prevents the common problem of attempting to pass while the opponent still maintains partial grip control. This eliminates mid-pass sweep vulnerability and submission exposure that plague more complex passing sequences.\n\nExecution demands precise sequencing: posture establishment, two-on-one collar grip break, immediate wrist control to prevent re-gripping, sleeve grip strip while driving forward with chest pressure, and completion through crossface establishment as you clear the legs. The entire sequence requires seamless timing between grip breaks and forward pressure to prevent the guard player from re-establishing their grip structure during any momentary gap in your passing attack.",
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Standing Grip Break Pass",
+      "description": "Stand fully upright before breaking grips, using the height advantage and gravity to generate more powerful grip breaks. The standing posture makes collar pulls less effective and creates more distance for the subsequent drive-through.",
+      "when_to_use": "When the guard player has exceptionally strong grips or when kneeling grip breaks are failing repeatedly due to their grip endurance advantage."
+    },
+    {
+      "variant_name": "Kneeling Pressure Pass Variation",
+      "description": "Stay in low kneeling base throughout the entire sequence, breaking grips with short explosive hip drives while maintaining constant chest pressure. The low posture prevents the guard player from using leg elevation for triangles or high sweeps.",
+      "when_to_use": "Against guard players who threaten triangles or elevated sweeps whenever you create distance during standing grip break attempts."
+    },
+    {
+      "variant_name": "Sleeve-First Grip Break Sequence",
+      "description": "Reverse the standard grip-breaking order by stripping the sleeve grip first using a circular wrist motion, then immediately pinning that arm while breaking the collar grip. This variation cuts off the guard player's distance management before addressing posture control.",
+      "when_to_use": "When the opponent's sleeve grip is their primary defensive mechanism and their collar grip is relatively shallow or easy to manage."
+    }
+  ],
+  "position_integration": "Passing the collar sleeve guard is a critical transitional skill that connects open guard engagement to dominant side control. This technique represents the primary resolution path when facing collar sleeve guard players and serves as a gateway to the entire top game hierarchy. Successful execution opens pathways to mount advancement, knee on belly transitions, and submission attacks from side control. The grip-breaking mechanics developed here transfer directly to passing other grip-based guards including spider guard, lasso guard, and De La Riva, making it a foundational passing competency that strengthens the entire top game.",
+  "related_content": [
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Source position where this pass initiates against established grips"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful pass completion"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Common intermediate outcome when pass is partially completed"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Related staging position for alternative passing approaches"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Starting posture used to initiate the passing sequence"
+    },
+    {
+      "name": "Bull Pass from Collar Sleeve",
+      "relationship": "Alternative collar sleeve pass using different mechanics"
+    },
+    {
+      "name": "Collar Sleeve Sweep",
+      "relationship": "Primary counter-attack threat from the guard player"
+    },
+    {
+      "name": "Collar Sleeve to De La Riva",
+      "relationship": "Guard player's transition option when pass is initiated"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Alternative consolidation position after passing the guard"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome when guard player recovers during pass attempt"
+    }
+  ],
+  "conditions": [
+    "Opponent has established collar sleeve guard with both cross-collar and sleeve grips active",
+    "You have maintained upright posture or standing base that resists their collar pull",
+    "You have at least one free hand available to initiate two-on-one grip breaking",
+    "There is sufficient space to execute forward driving pressure after grip elimination"
+  ],
+  "attacker": {
+    "name": "Pass Collar Sleeve Guard Attacker",
+    "description": "Master the systematic approach to passing collar sleeve guard. Learn grip-breaking sequences, forward pressure timing, and centerline passing mechanics to reach side control.",
+    "overview": "From the passer's perspective, defeating collar sleeve guard requires a systematic approach that prioritizes grip elimination before positional advancement. The core challenge lies in breaking two interconnected grips that work together to control your posture and base while the guard player threatens sweeps and submissions. Success demands patience to complete the full grip-breaking sequence rather than rushing into passing attempts while grips remain active, which is the most common reason passes against collar sleeve guard fail at every level of competition.",
+    "key_principles": [
+      "Break the collar grip first since it provides the opponent's primary posture control and sweeping leverage",
+      "Use two-on-one leverage for grip breaks rather than strength-based yanking that wastes energy",
+      "Control the opponent's freed hand immediately after each grip break to prevent re-establishment",
+      "Drive forward with chest pressure through the centerline only after both grips are eliminated",
+      "Establish crossface control as soon as you clear the hip line to prevent guard recovery",
+      "Maintain base distribution that accounts for sweep threats throughout the entire passing sequence"
+    ],
+    "setup_requirements": [
+      "Established upright posture with hips back and chest elevated to resist collar pull",
+      "Stable base with weight distributed across both knees or feet to absorb off-balancing forces",
+      "Free hand identified and positioned for two-on-one grip break on the collar grip",
+      "Elbows kept tight to ribs to prevent triangle entries during grip-breaking exchanges",
+      "Awareness of guard player's leg positioning to anticipate sweep timing during the pass"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish posture and base",
+        "description": "From kneeling or standing position, drive your hips back and elevate your chest to create a stable upright posture that resists the opponent's collar pull. Widen your knees and distribute weight evenly to establish a base that can absorb pulling forces from both grips without tipping forward."
+      },
+      {
+        "step_number": 2,
+        "action": "Identify collar grip as primary target",
+        "description": "Assess the opponent's grip structure and confirm that the collar grip is providing their primary posture control. The collar grip powers their sweeps and submissions, so breaking it first removes the foundation of their entire guard game and makes subsequent grip breaks easier."
+      },
+      {
+        "step_number": 3,
+        "action": "Execute two-on-one collar grip break",
+        "description": "Grip their collar-gripping wrist with your free hand while simultaneously driving your hips backward explosively. The combination of wrist control and hip extension creates leverage that overcomes even strong grips without requiring superior strength. Strip their fingers from your collar completely."
+      },
+      {
+        "step_number": 4,
+        "action": "Control freed hand and prevent re-gripping",
+        "description": "Immediately after breaking the collar grip, pin their freed hand to their own chest or redirect it away from your collar by pushing at the wrist. Do not release wrist control until you have established forward pressure, as any brief moment of freedom allows experienced guard players to re-establish their collar grip instantly."
+      },
+      {
+        "step_number": 5,
+        "action": "Strip sleeve grip while initiating forward drive",
+        "description": "With their collar grip neutralized, use a circular motion to strip their fingers from your sleeve while simultaneously beginning to drive your chest forward and low toward their torso. The forward pressure makes re-gripping difficult and creates passing momentum that transitions directly into the next phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Drive through centerline with chest pressure",
+        "description": "Lower your level and drive your chest directly into their upper body, flattening their hips to the mat. Your chest pressure should travel through the centerline between their legs rather than around them. This direct pressure collapses their guard structure and prevents them from maintaining any frames or hooks."
+      },
+      {
+        "step_number": 7,
+        "action": "Establish crossface and clear legs",
+        "description": "As you drive forward past their hip line, immediately establish a crossface by driving your forearm across their neck and face toward the mat. This head control prevents them from turning into you or creating angles for guard recovery. Use your free hand to block their far hip and prevent knee insertion."
+      },
+      {
+        "step_number": 8,
+        "action": "Settle into side control with full consolidation",
+        "description": "Complete the pass by dropping your hips heavy against their hips while maintaining chest-to-chest pressure perpendicular to their torso. Ensure your crossface is deep, your hip-blocking hand is positioned correctly, and your legs are sprawled with good base before advancing to submissions or further positional advancement."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Guard player immediately re-grips collar during the passing transition between grip breaks",
+        "effectiveness": "High",
+        "targets_outcome": "Collar Sleeve Guard/Top",
+        "your_response": "Maintain wrist control on the freed hand throughout the entire sequence and do not release it until forward chest pressure is established, eliminating the re-gripping window"
+      },
+      {
+        "counter": "Guard player shoots triangle when your arm extends forward during the two-on-one grip break",
+        "effectiveness": "Medium",
+        "targets_outcome": "Closed Guard/Top",
+        "your_response": "Keep elbows pinned to your ribs during grip breaks and use hip extension rather than arm extension to generate breaking force, denying the arm isolation needed for triangle entry"
+      },
+      {
+        "counter": "Guard player executes pendulum or flower sweep during forward driving phase",
+        "effectiveness": "Medium",
+        "targets_outcome": "Mount/Bottom",
+        "your_response": "Do not commit full weight forward until both grips are broken, and base out wide with hands ready to post if you feel loading for a sweep during the drive-through"
+      },
+      {
+        "counter": "Guard player hip escapes and re-inserts knee shield or hooks as you drive through the centerline",
+        "effectiveness": "High",
+        "targets_outcome": "Half Guard/Top",
+        "your_response": "Maintain heavy crossface pressure and drive your knee through their thigh line immediately as you clear the hips, occupying space before they can establish frames or recover hooks"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting to pass with grips still attached, trying to muscle through the guard structure",
+        "consequence": "Guard player uses remaining grips to steer your passing movement directly into sweeps or submissions, turning your forward momentum against you",
+        "correction": "Complete the full grip-breaking sequence before initiating any forward passing movement, treating grip elimination as a mandatory prerequisite rather than optional"
+      },
+      {
+        "error": "Breaking grips with arm strength alone without using hip extension for leverage",
+        "consequence": "Rapid grip fatigue that makes subsequent grip breaks progressively weaker while the guard player's grips remain fresh",
+        "correction": "Drive hips backward explosively while controlling their wrist with both hands, using the large hip extensors to generate breaking force rather than grip and arm muscles"
+      },
+      {
+        "error": "Releasing wrist control after breaking the collar grip before establishing forward pressure",
+        "consequence": "Guard player immediately re-grips the collar, negating your grip-breaking effort and forcing you to restart the entire sequence",
+        "correction": "Maintain active wrist control on the freed hand by pinning it to their chest or redirecting it until your chest pressure is established and re-gripping becomes impossible"
+      },
+      {
+        "error": "Driving forward at an angle rather than through the centerline between their legs",
+        "consequence": "Guard player uses the angle to insert hooks, recover to De La Riva or half guard, and re-establish a guard structure on the passing side",
+        "correction": "Drive chest pressure directly through the centerline, splitting their legs apart with your body rather than trying to go around one side"
+      },
+      {
+        "error": "Neglecting crossface establishment when arriving at the hip line during the pass",
+        "consequence": "Guard player turns into you, frames against your shoulder, and recovers guard or creates a scramble that negates your passing progress",
+        "correction": "Make crossface your absolute first priority the moment you clear the hip line, driving your forearm across their face before worrying about any other control point"
+      },
+      {
+        "error": "Rushing the entire sequence without confirming each phase is complete before advancing",
+        "consequence": "Skipped phases create vulnerabilities that compound, resulting in failed passes where you end up worse than your starting position",
+        "correction": "Treat each phase as a checkpoint: confirm posture, confirm collar grip broken, confirm wrist controlled, confirm sleeve stripped, then drive. Rushing saves seconds but costs the entire pass"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Isolated Grip Breaking",
+        "focus": "Two-on-one grip break mechanics",
+        "description": "Partner establishes collar sleeve grips at full strength. Practice only the two-on-one collar grip break with proper hip extension mechanics. No passing, just break and reset. Build efficient leverage-based grip breaks until they become reflexive."
+      },
+      {
+        "phase": "Phase 2: Grip Break Sequencing",
+        "focus": "Chaining collar break to sleeve break with wrist control",
+        "description": "After breaking the collar grip, immediately transition to controlling the freed wrist while stripping the sleeve grip. Partner tries to re-establish grips between breaks. Develop the timing to flow seamlessly from one grip break to the next without gaps."
+      },
+      {
+        "phase": "Phase 3: Drive-Through with Static Partner",
+        "focus": "Forward pressure and crossface timing",
+        "description": "Partner allows grip breaks but provides static resistance during the drive-through phase. Practice the centerline drive, crossface establishment, and leg clearing mechanics. Focus on the transition from grip breaking to forward pressure without stalling."
+      },
+      {
+        "phase": "Phase 4: Progressive Resistance Passing",
+        "focus": "Complete pass against increasing resistance",
+        "description": "Execute the full passing sequence against a partner who gradually increases resistance from 30% to 80%. Partner uses all defensive tools including re-gripping, sweeps, and guard recovery. Develop problem-solving and adaptability within the passing framework."
+      },
+      {
+        "phase": "Phase 5: Live Situational Sparring",
+        "focus": "Full integration against realistic defense",
+        "description": "Start every round from collar sleeve guard position with full resistance. Passer must complete the pass within 90 seconds or reset. Defender uses full defensive arsenal. Develop timing, pressure management, and the ability to read and react to counter-attacks in real time."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the optimal timing window for initiating the forward drive after breaking grips?",
+        "answer": "The forward drive should begin immediately as the sleeve grip is stripped, ideally within one to two seconds of the final grip break. Any longer delay gives the guard player time to re-establish grips or reposition their legs for frames. The drive should feel like a continuous transition from the sleeve strip rather than a separate action, maintaining momentum from the grip-breaking phase directly into forward pressure."
+      },
+      {
+        "question": "What conditions must exist before you can safely attempt this pass?",
+        "answer": "You must have stable upright posture with hips behind your knees, at least one free hand positioned to initiate the two-on-one grip break, and elbows kept tight to your ribs to prevent triangle entries. Your base must be wide enough to absorb pulling forces from both grips simultaneously. If the guard player has already loaded your weight for a sweep, you must re-establish your base before attempting any grip-breaking sequence."
+      },
+      {
+        "question": "What is the most critical mechanical detail in the two-on-one collar grip break?",
+        "answer": "The hip extension drive is the most critical mechanical detail. Both hands control the opponent's gripping wrist, but the actual breaking force comes from explosively driving your hips backward and away from the grip. This engages the glutes and posterior chain rather than relying on arm and grip strength alone. The hip drive creates a leverage advantage that multiplies your force, making the grip break effective regardless of relative grip strength."
+      },
+      {
+        "question": "What is the most common failure point that causes this pass to stall?",
+        "answer": "The most common failure point is attempting to drive forward while one or both grips are still attached. Passers often become impatient after breaking the collar grip and try to pass before the sleeve is stripped, or break both grips but fail to control the freed hands, allowing immediate re-gripping. The pass stalls because any remaining grip gives the guard player a handle to steer the passing movement and re-establish defensive structures."
+      },
+      {
+        "question": "What specific grip control do you need on the opponent's freed hand after breaking the collar grip?",
+        "answer": "Control their freed hand at the wrist and pin it to their own chest or redirect it across their body away from your collar. The control does not need to be a crushing grip, just enough to occupy the hand and prevent it from reaching back toward your collar or lapel. You can use a simple C-grip on their wrist while your other hand transitions to address the sleeve grip. The key is maintaining this wrist control until your chest pressure arrives."
+      },
+      {
+        "question": "What direction of force should your chest pressure apply during the drive-through phase?",
+        "answer": "Drive your chest pressure at approximately a 45-degree angle downward and forward through the centerline between their legs. The downward component flattens their hips to the mat, eliminating their ability to create angles or maintain hip elevation for guard retention. The forward component drives you past their hip line. Avoid purely horizontal or purely vertical pressure, as horizontal alone allows hip escaping and vertical alone stalls your forward progress."
+      },
+      {
+        "question": "Your opponent re-grips your collar with their opposite hand just as you strip the sleeve grip - how do you adjust?",
+        "answer": "If they re-grip with the opposite hand, you now have a positional advantage because their arms are crossed, limiting their defensive range. Instead of resetting to break the new grip, immediately drive forward with chest pressure since crossed arms cannot generate the same pulling power or create effective frames. Use the drive-through momentum to flatten them and establish crossface before they can uncross their arms and reorganize their guard structure."
+      },
+      {
+        "question": "The pass attempt is blocked and the opponent begins re-establishing collar sleeve grips - what chain attack do you pursue?",
+        "answer": "Rather than retreating to restart the same pass, immediately transition to a complementary passing technique. If you still have forward position, switch to a knee cut or knee slide that uses the forward momentum you have already generated. If they are re-gripping while you have lateral angle, convert to a toreando or leg drag. The key principle is that a failed direct pass creates openings for lateral passes because the guard player's grip re-establishment focuses their attention on the collar and sleeve rather than leg defense."
+      }
+    ],
+    "safety_considerations": "When breaking grips, use controlled hip extension rather than sudden jerking motions that could hyperextend training partners' fingers or wrists. During the forward drive phase, lower your level gradually rather than crash-landing your chest weight, which can cause rib or sternum injuries. Establish crossface using the flat of your forearm rather than a pointed elbow to prevent facial injuries. Always maintain awareness of your partner's trapped limbs during transitions to avoid accidental joint stress, and release pressure immediately if your partner signals discomfort."
+  },
+  "defender": {
+    "name": "Pass Collar Sleeve Guard Defender",
+    "description": "Defend against collar sleeve guard passes in BJJ. Learn grip retention, re-gripping windows, counter-sweeps, and guard recovery techniques to maintain your collar sleeve guard.",
+    "overview": "From the guard player's perspective, defending against a direct collar sleeve guard pass requires maintaining active grip fighting, recognizing passing patterns early, and having multiple contingency responses when grips are broken. The primary defensive strategy centers on re-establishing broken grips before the passer can capitalize on the momentary structural advantage. When re-gripping is not possible, the defender must transition smoothly to alternative guard positions or execute counter-attacks during the narrow timing windows created by the passer's forward commitment. Understanding the passer's sequential approach allows you to identify the most effective intervention point in their passing chain.",
+    "key_principles": [
+      "Grip retention through active re-gripping whenever the passer breaks your collar or sleeve control",
+      "Hip mobility to create angles that prevent the passer from driving through the centerline",
+      "Leg frames on hips and biceps to maintain distance even after grips are compromised",
+      "Counter-attack timing that exploits the passer's forward weight commitment during the drive-through",
+      "Guard transition readiness to shift to De La Riva, lasso, or closed guard when collar sleeve is compromised",
+      "Active foot placement on the passer's hips to create a secondary defensive layer behind your grips"
+    ],
+    "recognition_cues": [
+      "Passer brings both hands toward your collar-gripping wrist, establishing two-on-one control for a grip break",
+      "Passer drives hips backward explosively while controlling your wrist, indicating committed grip-breaking attempt",
+      "Passer's posture becomes more upright and rigid as they prepare to absorb your pulling forces during the grip-breaking sequence",
+      "Passer begins lowering their chest level and driving forward through the centerline after breaking one or both grips",
+      "Passer releases distance management to close space rapidly, indicating the transition from grip fighting to pressure passing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Re-grip collar immediately through any available window during the passer's grip-breaking sequence",
+        "when_to_use": "The moment the passer shifts their two-on-one control from your collar wrist to address the sleeve grip, creating a brief window where your collar hand is free",
+        "targets_outcome": "Collar Sleeve Guard/Top",
+        "if_successful": "Fully re-established guard structure forces the passer to restart their grip-breaking sequence from scratch",
+        "risk": "Passer may anticipate the re-grip and use your reaching motion to initiate a different pass or arm drag"
+      },
+      {
+        "action": "Execute pendulum sweep when the passer commits weight forward during the drive-through phase",
+        "when_to_use": "When the passer begins driving forward after breaking grips, loading their weight onto their toes and chest before crossface is established",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "Sweep the passer and come up to mount for full positional reversal and points",
+        "risk": "If the sweep is telegraphed, the passer bases out and completes the pass with your hips already loaded for the sweep"
+      },
+      {
+        "action": "Close guard around the passer's waist as they drive forward through the centerline",
+        "when_to_use": "When both grips are broken and the passer begins their forward drive but has not yet cleared your hip line",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "Lock closed guard and reset the engagement in a strong guard position with new submission and sweep opportunities",
+        "risk": "Passer may posture up immediately and begin a closed guard pass, but you have regained a defensible position"
+      },
+      {
+        "action": "Hip escape and insert knee shield as the passer attempts to clear your legs",
+        "when_to_use": "When the passer has broken grips and begun driving forward but has not yet established crossface control",
+        "targets_outcome": "Half Guard/Top",
+        "if_successful": "Recover half guard with knee shield, preventing the complete pass and establishing a defensive guard position",
+        "risk": "Passer may use the momentum to flatten your knee shield and complete the pass through half guard"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Mount/Bottom",
+        "how": "Execute a pendulum sweep, flower sweep, or collar drag during the passer's forward drive phase when their weight is committed and their hands are occupied with grip control rather than base"
+      },
+      {
+        "outcome": "Collar Sleeve Guard/Top",
+        "how": "Maintain relentless grip fighting and re-establish both collar and sleeve grips every time the passer breaks them, never allowing them to complete the full grip elimination sequence"
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "When grips are being stripped, immediately wrap your legs around the passer's waist as they close distance, converting their forward pressure into an entry to closed guard"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Passively allowing grips to be broken without attempting to re-establish them",
+        "consequence": "Passer completes the full grip elimination sequence uncontested and drives through to side control without any defensive resistance",
+        "correction": "Treat every grip break as a contest, immediately reaching to re-grip the collar the moment your hand is freed, making the passer fight for every grip break"
+      },
+      {
+        "error": "Keeping hips flat on the mat without creating angles when grips are broken",
+        "consequence": "Passer drives directly through the centerline with chest pressure, pinning your hips flat and completing the pass without obstruction",
+        "correction": "As soon as a grip is broken, immediately hip escape to create an angle that prevents direct centerline pressure and creates space for knee shield insertion or guard recovery"
+      },
+      {
+        "error": "Attempting sweeps before the passer has committed their weight forward",
+        "consequence": "Sweep attempt fails because the passer still has stable base, and the failed sweep exposes you to accelerated passing as your legs are out of position",
+        "correction": "Wait for the passer to commit their weight forward during the drive-through phase before executing counter-sweeps, using their own momentum against them"
+      },
+      {
+        "error": "Abandoning collar sleeve guard entirely instead of fighting to retain grips",
+        "consequence": "Premature transition to a secondary guard gives up the offensive advantages of collar sleeve without gaining any defensive benefit",
+        "correction": "Exhaust re-gripping opportunities before transitioning to alternative guards, only switching when re-establishment is genuinely impossible"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that your opponent is about to attempt a direct collar sleeve guard pass?",
+        "answer": "The earliest cue is when the passer brings both hands toward your collar-gripping wrist, establishing two-on-one control. This telegraph indicates they are prioritizing grip elimination over lateral movement, signaling a direct pass attempt rather than a toreando or leg drag. Recognizing this two-on-one setup gives you maximum time to prepare defensive responses, either by strengthening your collar grip or positioning your legs for counter-attacks."
+      },
+      {
+        "question": "When is the best moment to attempt a counter-sweep against this pass?",
+        "answer": "The optimal moment is during the forward drive phase after the passer has broken both grips and committed their weight forward through the centerline. At this point, their hands are occupied with establishing crossface and hip control rather than maintaining base, and their center of gravity is elevated and moving forward. A well-timed pendulum sweep or collar drag at this exact moment uses their own forward momentum to amplify the sweep, making it significantly higher percentage than a sweep attempted during the grip-breaking phase."
+      },
+      {
+        "question": "How should you prioritize your defensive responses when your collar grip is broken first?",
+        "answer": "Immediately attempt to re-grip the collar with the freed hand while the passer transitions to address the sleeve grip. This re-gripping window is typically one to two seconds and represents your highest-value defensive action. If re-gripping fails, shift priority to using your freed hand to frame on the passer's shoulder or bicep, creating a physical barrier that slows their forward drive. Simultaneously elevate your hips and prepare your legs for guard transition to De La Riva, lasso, or closed guard."
+      },
+      {
+        "question": "What is the most effective guard transition when both collar sleeve grips are broken?",
+        "answer": "Closing your guard around the passer's waist is the highest-percentage emergency transition because it requires only leg movement and no grip re-establishment. As the passer drives forward after breaking grips, their forward motion actually helps you close the distance needed to lock your ankles behind their back. This resets the engagement to closed guard where you have strong defensive structure and new attack options. The key is timing the leg closure to coincide with their forward drive rather than trying to close guard while they are still at distance."
+      },
+      {
+        "question": "How do you prevent the passer from controlling your freed wrist after they break your collar grip?",
+        "answer": "Immediately retract your freed hand toward your own chest or chin rather than leaving it extended where the passer can pin it. From the retracted position, you can rapidly re-deploy it to re-grip the collar, frame against their shoulder, or post on the mat for hip escapes. The worst response is allowing your freed hand to stay in the space between your bodies where the passer can easily trap it against your own torso. Keep the hand active and moving rather than static and available for their control."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Retention Drills",
+        "focus": "Maintaining collar and sleeve grips under breaking pressure",
+        "description": "Partner attempts two-on-one grip breaks while you focus purely on grip retention techniques including wrist rotation, re-gripping speed, and grip switching. No passing or sweeping, just develop the ability to maintain grip control against systematic breaking attempts."
+      },
+      {
+        "phase": "Phase 2: Counter-Timing Development",
+        "focus": "Recognizing and exploiting the passer's forward commitment",
+        "description": "Partner completes grip breaks and begins forward drive at controlled speed. Practice identifying the exact moment their weight commits forward and executing counter-sweeps at that timing window. Build recognition speed and sweep timing through repetitive drilling."
+      },
+      {
+        "phase": "Phase 3: Guard Transition Chains",
+        "focus": "Smoothly transitioning to secondary guards when grips are lost",
+        "description": "Partner breaks grips and initiates passing. Practice flowing from collar sleeve to closed guard, De La Riva, lasso, or half guard based on the passer's angle and pressure direction. Develop the ability to read passing direction and select the appropriate guard transition."
+      },
+      {
+        "phase": "Phase 4: Full Defensive Integration",
+        "focus": "Complete defensive game against direct pass attempts",
+        "description": "Partner attempts the full direct pass sequence at increasing resistance levels. Combine grip retention, counter-sweeps, and guard transitions into a cohesive defensive response. Develop the ability to layer multiple defensive responses and adapt in real time to the passer's adjustments."
+      }
+    ]
+  }
 }

@@ -254,14 +254,15 @@ The position demands systematic control before any finishing attempt: hip contro
 ## Related Submissions
 
 - [[Inside Heel Hook]]
-- [[Heel Hook]]
+- [[Heel Hook from Saddle]]
 - [[Kneebar]]
 - [[Toe Hold]]
 - [[Straight Ankle Lock]]
 - [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Kneebar from 50-50]]
-- [[Toe Hold from 50-50]]
+- [[Estima Lock Finish]]
+- [[Outside Heel Hook from Backside 50-50]]
+- [[Outside Heel Hook from Cross Ashi]]
+- [[Inside Heel Hook from Honey Hole]]
 
 
 </section>
@@ -274,12 +275,12 @@ The position demands systematic control before any finishing attempt: hip contro
 - [[Inside Heel Hook]] - Mirror submission from inside positioning
 - [[Saddle]] - Alternative attacking position with similar mechanics
 - [[Cross Ashi-Garami]] - Entry position providing outside control
-- [[Kneebar]] - Alternative leg attack from same positions
+- [[Kneebar Control]] - Alternative leg attack control position from same entanglements
 - [[50-50 Guard]] - Common entry position requiring transition to outside control
 - [[Leg Entanglement]] - Conceptual principle underlying all leg lock positions
 - [[Backside 50-50]] - Transition position with natural outside control
 - [[Ashi Garami]] - Parent leg entanglement category
-- [[Straight Ankle Lock]] - Lower-risk alternative from similar positions
+- [[Straight Ankle Lock Control]] - Lower-risk alternative control position from similar entanglements
 
 
 </section>

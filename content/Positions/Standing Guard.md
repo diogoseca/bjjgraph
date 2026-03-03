@@ -93,29 +93,31 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Pull guard]]** (26% of attempts)
+- **[[Pull guard]]** (36% of attempts)
 
-- **[[Sitting Guard Pull]]** (11% of attempts)
+- **[[Sitting Guard Pull]]** (10% of attempts)
 
-- **[[Shin to Shin Pull]]** (9% of attempts)
+- **[[Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Standing to Single Leg X]]** (8% of attempts)
+- **[[Standing to Single Leg X]]** (7% of attempts)
 
-- **[[Ankle Pick]]** (8% of attempts)
+- **[[Ankle Pick]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (7% of attempts)
+- **[[Arm Drag to Back]]** (6% of attempts)
 
-- **[[Rolling Guard Pull]]** (6% of attempts)
+- **[[Rolling Guard Pull]]** (5% of attempts)
 
-- **[[Double Leg Entry]]** (7% of attempts)
+- **[[Double Leg Entry]]** (6% of attempts)
 
-- **[[Single Leg Entry]]** (7% of attempts)
+- **[[Single Leg Entry]]** (6% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (6% of attempts)
+- **[[Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Pull Guard from Ground]]** (3% of attempts)
+- **[[Pull Guard from Ground]]** (2% of attempts)
 
-- **[[Technical Stand Up from Ground]]** (2% of attempts)
+- **[[Technical Stand Up from Ground]]** (1% of attempts)
+
+- **[[Sweep from Standing Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -191,7 +191,7 @@ The Lapel to Spider Transition fits within the broader gi guard retention system
 
 - [[Spider Guard]] - Target position achieved on successful transition
 
-- [[Lapel to Lasso Transition]] - Alternative transition from same starting position when opponent drives forward
+- [[Lapel to Lasso Guard]] - Alternative transition from same starting position when opponent drives forward
 
 - [[Lasso Guard]] - Related guard that combines well with spider guard for hybrid control
 

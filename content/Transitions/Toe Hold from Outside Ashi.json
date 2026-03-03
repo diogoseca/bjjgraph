@@ -1,133 +1,401 @@
 {
   "name": "Toe Hold from Outside Ashi",
-  "description": "TODO: Write 150-160 character SEO description for Toe Hold from Outside Ashi.",
+  "description": "Master the toe hold from outside ashi-garami. Complete guide covering grip mechanics, rotational finishing, chain attacks, and systematic defensive counters.",
   "tags": [
     "bjj",
-    "transition",
-    "TODO"
+    "submission",
+    "leg-lock",
+    "toe-hold",
+    "outside-ashi",
+    "no-gi",
+    "advanced"
   ],
-  "from_position": "Outside Ashi-Garami/Top",
+  "from_position": "Outside Ashi-Garami/Bottom",
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": 40,
       "result": "success"
     },
     {
-      "to": "Outside Ashi-Garami/Top",
-      "probability": 45,
+      "to": "Outside Ashi-Garami/Bottom",
+      "probability": 35,
       "result": "failure"
+    },
+    {
+      "to": "Standing Position",
+      "probability": 25,
+      "result": "counter"
     }
   ],
-  "success_rate": 55,
-  "overview": "TODO: Write overview for Toe Hold from Outside Ashi.",
+  "success_rate": 40,
+  "overview": "The toe hold from outside ashi-garami is a rotational foot lock that targets the ankle and knee joints by twisting the opponent's foot using a kimura-style figure-four grip. This technique serves as a critical secondary attack from outside ashi-garami, particularly effective when the opponent successfully hides their heel to defend against outside heel hooks. The mechanics involve threading your arm under the opponent's foot and establishing a figure-four grip with the blade of your wrist positioned against the ball of their foot, then applying controlled rotational force toward the opponent's opposite hip.\n\nThe submission generates significant torque through the ankle joint and can transfer dangerous lateral force to the knee ligaments, requiring careful controlled application in training. Unlike heel hooks which demand precise heel exposure, the toe hold attacks the foot itself, making it available precisely when heel hook defenses are strongest. This creates a powerful two-threat dynamic from outside ashi-garami.\n\nStrategically, the toe hold functions as a force multiplier within the leg lock chain system. When opponents employ boot defense or heel hiding to neutralize heel hook threats, the toe hold becomes immediately available. Additionally, defensive reactions to the toe hold frequently re-expose the heel for heel hook re-entry or create openings for transitions to more dominant positions like saddle or inside ashi-garami, making it an essential tool for maintaining offensive pressure from leg entanglements.",
   "conditions": [
-    "TODO"
+    "Established outside ashi-garami entanglement with tight figure-four leg control around opponent's leg",
+    "Opponent's heel is hidden or protected, making outside heel hook unavailable or low percentage",
+    "Upper body is free to establish kimura grip around opponent's foot without compromising leg control",
+    "Perpendicular hip angle maintained relative to opponent for adequate rotational leverage"
   ],
   "variants_and_adaptations": [
     {
-      "variant_name": "TODO",
-      "description": "TODO",
-      "when_to_use": "TODO"
+      "variant_name": "Standard Kimura Grip Toe Hold",
+      "description": "Classical figure-four grip wrapping around the foot with the blade of the wrist against the ball of the foot. Rotation applied toward opponent's opposite hip with chest pressure on toes for maximum leverage. The most common and highest-percentage variation.",
+      "when_to_use": "Default variation when opponent hides heel from heel hook attempts and foot is accessible for grip wrapping"
+    },
+    {
+      "variant_name": "Deep Underhook Toe Hold",
+      "description": "Deeper threading of the arm under the opponent's foot, positioning the forearm across the entire sole. Provides greater mechanical advantage through increased contact surface area and allows chest pressure to amplify rotational force dramatically.",
+      "when_to_use": "When opponent's foot position allows deep underhook entry and you want maximum finishing power with less rotation angle needed"
+    },
+    {
+      "variant_name": "Ankle Lock to Toe Hold Chain",
+      "description": "Begins with a straight ankle lock grip and transitions to toe hold when the opponent pulls their foot free from the ankle lock configuration. Uses the opponent's pulling motion and foot repositioning to expose the ball of the foot for kimura grip establishment.",
+      "when_to_use": "When straight ankle lock attempt is failing and opponent is actively pulling their foot free - use their pulling energy to transition grip to toe hold"
     }
   ],
-  "position_integration": "TODO: Write position integration for Toe Hold from Outside Ashi.",
+  "position_integration": "The toe hold from outside ashi-garami occupies a critical position in the modern leg lock chain system. It serves as the primary alternative attack when heel hook attempts are neutralized by boot defense or heel hiding. Within systematic leg lock hierarchies, outside ashi offers heel hooks as the primary attack and toe holds as the secondary attack, creating a two-threat dynamic that forces the defender to address multiple submission angles simultaneously. The toe hold also functions as a transitional tool - defensive reactions to the toe hold often expose the heel for re-attack or create openings for advancement to saddle or inside ashi-garami positions. Understanding this chain relationship transforms outside ashi from a single-threat position into a multi-layered offensive platform.",
   "related_content": [
     {
-      "name": "TODO",
-      "relationship": "TODO"
+      "name": "Outside Ashi-Garami",
+      "relationship": "Source position from which the toe hold is attacked"
+    },
+    {
+      "name": "Toe Hold Control",
+      "relationship": "Extended control position for sustained toe hold finishing"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "relationship": "Primary attack from same position and chain partner with toe hold"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "More dominant leg entanglement reached via transitions from toe hold defense"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Advanced entanglement position accessible when toe hold defense creates openings"
+    },
+    {
+      "name": "Straight Ankle Lock Control",
+      "relationship": "Alternative lower-risk foot lock from the same entanglement"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative leg submission accessible from outside ashi transitions"
+    },
+    {
+      "name": "Counter Rotation from Toe Hold",
+      "relationship": "Primary defensive counter to toe hold application"
+    },
+    {
+      "name": "Boot Defense from Toe Hold",
+      "relationship": "Key defensive response that prevents toe hold grip establishment"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Parent position family encompassing all ashi variations"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Related entanglement offering different toe hold angles"
     }
   ],
   "attacker": {
     "name": "Toe Hold from Outside Ashi Attacker",
-    "description": "TODO: Write attacker description for Toe Hold from Outside Ashi.",
-    "overview": "TODO: Write attacker overview for Toe Hold from Outside Ashi.",
+    "description": "Learn to execute the toe hold from outside ashi-garami. Step-by-step guide covering kimura grip setup, rotational mechanics, chain attacks, and training progressions for BJJ leg lock systems.",
+    "overview": "Attacking the toe hold from outside ashi-garami requires precise grip mechanics and an understanding of how this technique integrates with the broader leg lock chain. The attacker must transition from heel hook hunting to toe hold application when the opponent successfully defends their heel, using the figure-four kimura grip to create devastating rotational force through the ankle joint. Success depends on maintaining tight leg entanglement throughout the grip transition, proper wrist blade placement against the ball of the foot, and controlled rotational force application that generates maximum torque while allowing training partners time to tap safely.",
     "key_principles": [
-      "TODO"
+      "Maintain tight figure-four leg entanglement throughout the entire grip transition - loosening legs to reach for the foot is the most common critical error that allows escape",
+      "Position the blade of your wrist against the ball of the opponent's foot for maximum rotational leverage rather than gripping the toes directly",
+      "Apply rotation toward the opponent's opposite hip to create optimal torque angle through the ankle joint and transmit force to the knee",
+      "Use chest pressure on the opponent's toes to amplify finishing force and prevent them from pulling their foot free from the grip",
+      "Keep elbows tight to your body throughout the application to prevent grip breaks and maintain structural integrity of the figure-four",
+      "Treat the toe hold as part of a chain - the opponent's defensive reaction should create openings for heel hook re-entry or positional advancement"
     ],
     "setup_requirements": [
-      "TODO"
+      "Tight outside ashi-garami entanglement established with figure-four leg configuration locked around opponent's leg",
+      "Opponent has defended heel hook by hiding heel or employing boot defense, making heel hook low percentage",
+      "Perpendicular hip angle (45-90 degrees) maintained relative to opponent for adequate rotational leverage",
+      "Free arm access to thread under opponent's foot without compromising leg control or body position",
+      "Opponent's foot accessible for grip wrapping - not fully retracted behind their free leg or otherwise blocked"
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "TODO",
-        "description": "TODO"
+        "action": "Recognize heel hook defense",
+        "description": "Identify that your opponent has successfully hidden their heel or is employing boot defense, making the outside heel hook unavailable. Maintain your outside ashi-garami leg entanglement at maximum tightness throughout this recognition phase without loosening your legs to reach."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread arm under opponent's foot",
+        "description": "With your near-side arm, thread it under the opponent's foot from the outside, reaching through until your wrist blade contacts the ball of their foot. Your forearm should cross underneath the sole of their foot perpendicular to their shin line, creating the foundation for the kimura grip."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish kimura figure-four grip",
+        "description": "Lock your figure-four grip by clasping your threading hand's wrist with your far-side hand, creating a tight kimura-style grip around the opponent's foot. Ensure your wrist blade sits firmly against the ball of the foot at the metatarsal heads, not on the toes which would allow the grip to slip."
+      },
+      {
+        "step_number": 4,
+        "action": "Consolidate chest pressure on toes",
+        "description": "Drop your chest onto the opponent's toes, pressing them downward toward the mat. This chest pressure amplifies the rotational force significantly and prevents the opponent from pulling their foot free from your grip. Keep your elbows pinched tightly to your body throughout this consolidation phase."
+      },
+      {
+        "step_number": 5,
+        "action": "Verify leg entanglement tightness",
+        "description": "Before applying rotational force, ensure your outside ashi figure-four is maximally tight by squeezing your legs together and pulling your inside foot toward your buttocks. This prevents the opponent from extracting their leg during the finishing sequence and maintains the platform for force generation."
+      },
+      {
+        "step_number": 6,
+        "action": "Apply controlled rotational force",
+        "description": "Rotate the opponent's foot toward their opposite hip using your figure-four grip while maintaining chest pressure on the toes. Apply force progressively and smoothly rather than explosively, allowing your training partner adequate time to recognize the danger and tap. The rotation generates torque through the ankle and lateral force through the knee."
+      },
+      {
+        "step_number": 7,
+        "action": "Monitor opponent reaction and chain accordingly",
+        "description": "If the opponent begins counter-rotating or fighting the grip, adjust by increasing chest pressure, tightening leg squeeze, or transitioning back to heel hook if their heel becomes exposed during defensive movement. Be prepared to chain between attacks based on their specific defensive reactions rather than committing to a single finish."
       }
     ],
     "common_counters": [
       {
-        "counter": "TODO",
+        "counter": "Boot defense - opponent straightens and flexes foot to prevent kimura grip from wrapping around the ball of the foot",
+        "effectiveness": "High",
+        "your_response": "Apply stronger chest pressure on toes to overcome boot defense, or recognize that boot defense may expose the heel and transition immediately to outside heel hook",
+        "targets_outcome": "Outside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Counter-rotation - opponent rolls their entire body in the direction of the toe hold rotation to neutralize ankle torque",
         "effectiveness": "Medium",
-        "your_response": "TODO",
-        "targets_outcome": "Outside Ashi-Garami/Top"
+        "your_response": "Follow the roll maintaining grip throughout the rotation and adjust body position to preserve leverage. If they generate enough momentum to escape, transition to back take or leg drag from the scramble",
+        "targets_outcome": "Standing Position"
+      },
+      {
+        "counter": "Grip stripping - opponent uses both hands to break the figure-four kimura grip before significant rotation is applied",
+        "effectiveness": "High",
+        "your_response": "Tighten elbows to body and reestablish grip immediately if stripped, or chain to straight ankle lock if the foot repositioning during grip fight creates ankle lock access",
+        "targets_outcome": "Outside Ashi-Garami/Bottom"
+      },
+      {
+        "counter": "Standing extraction - opponent stands up using free leg and height advantage to extract foot from entanglement using gravity",
+        "effectiveness": "Medium",
+        "your_response": "Increase leg squeeze to prevent standing, or if they achieve standing position, maintain grip and use hanging body weight to amplify toe hold rotational pressure before they fully extract",
+        "targets_outcome": "Standing Position"
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Loosening leg entanglement while reaching for foot grip",
+        "consequence": "Opponent extracts their leg from the weakened figure-four, losing all control and submission opportunity entirely",
+        "correction": "Maintain maximum leg squeeze throughout the entire grip transition - reach with arms only while legs remain locked at full tension"
+      },
+      {
+        "error": "Gripping the toes instead of wrapping around the ball of the foot",
+        "consequence": "Insufficient leverage for rotation, opponent can pull toes free easily, grip slips during application under resistance",
+        "correction": "Thread arm deep under the foot and position wrist blade against the ball of the foot at the metatarsal heads, wrapping the entire forefoot rather than just the toes"
+      },
+      {
+        "error": "Rotating in the wrong direction away from opponent's opposite hip",
+        "consequence": "Rotation lacks mechanical advantage, does not generate significant torque through the ankle joint, submission fails against any resistance",
+        "correction": "Always rotate the foot toward the opponent's opposite hip - their right foot rotates toward their left hip and vice versa for proper force vector alignment"
+      },
+      {
+        "error": "Explosive application without controlled progressive force",
+        "consequence": "Risk of injuring training partner's ankle or knee before they can tap, potential for serious ligament damage especially to MCL and LCL",
+        "correction": "Apply force progressively and smoothly, giving your partner adequate time to recognize danger and tap. In training, always prioritize partner safety over finishing speed"
+      },
+      {
+        "error": "Neglecting chest pressure on toes during application",
+        "consequence": "Opponent can pull foot free from grip, significantly reduces finishing leverage, makes toe hold escape dramatically easier",
+        "correction": "Drop chest firmly onto opponent's toes before applying rotation and maintain this downward pressure throughout the entire finishing sequence"
+      },
+      {
+        "error": "Attempting toe hold without first establishing proper hip angle to opponent",
+        "consequence": "Poor angle reduces rotational leverage, makes finishing nearly impossible against experienced opponents who understand the mechanic",
+        "correction": "Ensure perpendicular or diagonal hip angle (45-90 degrees) to opponent before initiating toe hold grip sequence, adjusting body position as needed"
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Mechanics",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Grip Mechanics Isolation",
+        "focus": "Kimura grip placement and rotation mechanics",
+        "description": "Isolate the kimura grip on a cooperative partner's foot without leg entanglement. Practice threading your arm, establishing the figure-four, positioning wrist blade against the ball of the foot, and applying controlled rotation. 50 repetitions per side focusing entirely on precision and proper contact points."
+      },
+      {
+        "phase": "Phase 2: Ashi Garami Integration",
+        "focus": "Maintaining leg control during grip transition",
+        "description": "Establish outside ashi-garami first, then transition to toe hold grip while maintaining tight leg entanglement. Partner provides no resistance. Focus on keeping legs locked at maximum tension throughout the entire grip transition process. 30 repetitions per side with emphasis on not loosening legs."
+      },
+      {
+        "phase": "Phase 3: Chain Attack Development",
+        "focus": "Heel hook to toe hold to heel hook chains",
+        "description": "Drill the heel hook to toe hold chain and toe hold to heel hook return sequence. Partner provides moderate resistance and employs basic defenses including boot defense and heel hiding. Develop pattern recognition for when to switch between attacks based on opponent reactions."
+      },
+      {
+        "phase": "Phase 4: Defensive Counter Integration",
+        "focus": "Adapting to opponent defensive reactions",
+        "description": "Partner provides full defensive reactions including boot defense, counter-rotation, grip stripping, and standing extraction attempts. Practice adjusting your toe hold application based on each specific defensive response. Five-minute rounds of positional sparring from outside ashi with toe hold as primary attack."
+      },
+      {
+        "phase": "Phase 5: Live Application and Timing",
+        "focus": "Competition-speed timing and decision-making",
+        "description": "Full positional sparring from outside ashi-garami with all attacks available. Practice recognizing the correct moment to transition from heel hook to toe hold based on opponent defensive positioning. Record success rates and identify patterns in when the toe hold is highest percentage."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What triggers the transition from heel hook to toe hold in the attack chain?",
+        "answer": "The primary trigger is the opponent successfully hiding or protecting their heel through boot defense, heel tucking, or grip fighting that prevents heel hook grip establishment. When heel access is denied but the foot remains within reach, the toe hold becomes the secondary attack using the same leg entanglement as a platform. Recognizing this trigger quickly is essential for maintaining offensive pressure."
+      },
+      {
+        "question": "Where exactly should the blade of your wrist be positioned on the opponent's foot?",
+        "answer": "The wrist blade should be positioned against the ball of the opponent's foot at the metatarsal heads, the area just behind the toes where the foot is widest. This placement provides the maximum rotational leverage because the force is applied at the widest point of the foot, creating the longest possible lever arm for rotation. Gripping the toes directly provides insufficient leverage and the grip slips easily."
+      },
+      {
+        "question": "Your opponent begins counter-rotating as you apply the toe hold - how do you respond?",
+        "answer": "Follow the rotation and maintain your kimura grip throughout their counter-roll rather than fighting against it. Adjust your body position to preserve leverage as they rotate, keeping chest pressure on their toes and elbows tight. If they generate enough momentum to create a scramble, transition to a back take or leg drag opportunity. The key is never to release the grip during their rotation, as their momentum will eventually stop and your submission leverage returns."
+      },
+      {
+        "question": "In which direction should rotational force be applied relative to the opponent's body?",
+        "answer": "Rotation should be directed toward the opponent's opposite hip - their right foot rotates toward their left hip, and their left foot rotates toward their right hip. This direction creates optimal torque through the ankle joint because it follows the natural limit of the ankle's rotational range of motion, generating maximum mechanical pressure with minimum force required. Rotating in the opposite direction lacks mechanical advantage."
+      },
+      {
+        "question": "Why is maintaining chest pressure on the opponent's toes critical to the submission?",
+        "answer": "Chest pressure on the toes serves two critical functions. First, it prevents the opponent from pulling their foot free from the kimura grip by blocking upward foot movement. Second, it amplifies the rotational force by creating a secondary fulcrum point that increases the effective lever arm. Without chest pressure, the opponent can retract their foot and the submission becomes purely a grip-versus-grip battle that the defender frequently wins."
+      },
+      {
+        "question": "What is the most common error when transitioning from heel hook hunting to toe hold grip?",
+        "answer": "The most common error is loosening the figure-four leg entanglement while reaching for the toe hold grip with the arms. Practitioners instinctively open their legs to create space for their arms to thread under the foot, which immediately weakens the entire control platform and allows the opponent to extract their leg. The correct approach is to maintain maximum leg squeeze and reach with only the arms while the legs remain locked."
+      },
+      {
+        "question": "Your opponent is employing strong boot defense that prevents your toe hold grip - what options do you have?",
+        "answer": "Against strong boot defense, you have several tactical options. First, attempt to overcome the boot defense with stronger chest pressure and a deeper underhook that gets past their flexed toes. Second, recognize that boot defense often repositions the foot in a way that exposes the heel, creating an immediate opportunity to transition back to the outside heel hook. Third, use the boot defense reaction to transition to a kneebar if their knee extends. The toe hold threat, even when defended, creates openings elsewhere."
+      },
+      {
+        "question": "How does the toe hold create openings for heel hook re-entry?",
+        "answer": "The toe hold creates heel hook openings because the opponent's defensive reactions to the rotational threat often expose their heel. When defending the toe hold, opponents typically retract their foot or counter-rotate, and both movements can pull the heel out from its hidden position. Additionally, the grip fighting during toe hold defense occupies the opponent's hands, preventing them from actively hiding their heel. This chain dynamic is what makes the heel hook and toe hold combination so effective from outside ashi."
       }
     ],
-    "safety_considerations": "TODO: Write safety considerations for Toe Hold from Outside Ashi."
+    "safety_considerations": "The toe hold generates significant rotational force through the ankle joint and can transfer dangerous lateral stress to the knee ligaments, particularly the MCL and LCL. Apply force progressively and smoothly, never explosively. In training, always allow adequate time for your partner to recognize the submission and tap. The ankle joint has limited rotational range before injury occurs, and damage can happen rapidly once the mechanical threshold is exceeded. Be especially careful with training partners who have existing ankle or knee injuries. Always release immediately upon tap or verbal submission. When drilling, communicate with your partner about pressure thresholds before beginning. This technique is banned in many gi competitions at lower belt levels due to its injury potential."
   },
   "defender": {
     "name": "Toe Hold from Outside Ashi Defender",
-    "description": "TODO: Write defender description for Toe Hold from Outside Ashi.",
-    "overview": "TODO: Write defender overview for Toe Hold from Outside Ashi.",
+    "description": "Learn to defend the toe hold from outside ashi-garami. Recognition cues, boot defense, counter-rotation techniques, grip stripping, and systematic escape strategies for BJJ leg lock defense.",
+    "overview": "Defending the toe hold from outside ashi-garami requires early recognition of the grip transition and immediate defensive action before rotational force is applied. The defender must understand that the toe hold is typically a chain attack following unsuccessful heel hook attempts, meaning defensive awareness should heighten when the attacker releases their heel hook grip and reaches for the foot. Success depends on preventing the kimura grip from being fully established, maintaining foot integrity through boot defense, and using defensive reactions to create opportunities to escape the entire leg entanglement or reverse position. The critical window for defense is during the grip transition phase - once rotation is applied with chest pressure consolidated, defensive options narrow significantly and injury risk increases.",
     "key_principles": [
-      "TODO"
+      "Recognize the grip transition early - the moment the attacker releases their heel hook grip and reaches under your foot, you have a critical defensive window that must be exploited immediately",
+      "Boot defense is your first line of defense - extend your foot and flex your toes to create a rigid structure that prevents the kimura grip from wrapping around the ball of your foot",
+      "Counter-rotation neutralizes applied torque - rotate your entire body in the same direction as the toe hold rotation to relieve pressure on your ankle and knee",
+      "Strip the grip before rotation is applied - breaking the figure-four grip is dramatically easier before rotational force locks it in place and structural tension prevents separation",
+      "Use defensive reactions offensively - the space created during toe hold defense often provides the best opportunity to escape the entire ashi garami entanglement",
+      "Protect both the ankle and the knee simultaneously - toe hold force transmits through the ankle to the knee ligaments, so both joints must be accounted for in your defensive response"
     ],
     "recognition_cues": [
-      "TODO"
+      "Attacker releases heel hook grip and redirects their hand toward the top or sole of your foot rather than continuing to hunt for your heel",
+      "Feel the attacker's arm threading under the sole of your foot, with their forearm crossing underneath and positioning against the ball of your foot",
+      "Attacker's chest begins dropping toward your toes, applying downward pressure that signals the grip consolidation phase has begun",
+      "Kimura figure-four grip sensation around your foot - distinctive feeling of both hands clasping around your forefoot area with wrist blade pressure",
+      "Any twisting or rotational sensation beginning at your foot or ankle indicates the submission is being actively applied and immediate defense or tap is required"
     ],
     "defensive_options": [
       {
-        "action": "TODO",
-        "when_to_use": "TODO",
-        "targets_outcome": "Outside Ashi-Garami/Top",
-        "if_successful": "TODO",
-        "risk": "TODO"
+        "action": "Boot defense - extend your foot and flex your toes strongly, making your foot rigid and straight to prevent the kimura grip from wrapping around the ball of your foot",
+        "when_to_use": "Immediately when you feel the attacker's arm threading under your foot, before the figure-four grip is fully established",
+        "targets_outcome": "Outside Ashi-Garami/Bottom",
+        "if_successful": "Attacker cannot establish finishing grip and must seek alternative attack or re-attempt, giving you time to work leg extraction",
+        "risk": "Boot defense may expose your heel if foot extension creates heel access, potentially allowing the attacker to transition to an outside heel hook"
+      },
+      {
+        "action": "Counter-rotation - rotate your entire body in the same direction as the toe hold rotation to neutralize the torque being applied to your ankle and knee joints",
+        "when_to_use": "When the attacker has established the grip and begins applying rotational force - this is the emergency defense when grip prevention has failed",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Torque on ankle is neutralized, and continued rotation can create enough space for scramble opportunity or full leg extraction from entanglement",
+        "risk": "Excessive rotation may create new entanglement angles or expose your opposite leg to attack from a different position"
+      },
+      {
+        "action": "Grip stripping - use both hands to break the attacker's figure-four grip by wedging fingers between their clasped hands and breaking the wrist-to-wrist connection",
+        "when_to_use": "When the kimura grip is established but before significant rotation has been applied - the grip is most vulnerable before force locks it in place",
+        "targets_outcome": "Outside Ashi-Garami/Bottom",
+        "if_successful": "Attacker loses submission grip entirely and must re-establish the figure-four or transition to a different attack, creating a defensive window",
+        "risk": "Both hands committed to grip fighting leaves you unable to establish frames or work simultaneous leg extraction"
+      },
+      {
+        "action": "Standing extraction - stand up explosively using your free leg and bodyweight to create height advantage, then extract trapped foot using elevation and gravity",
+        "when_to_use": "When the attacker's leg entanglement is loose enough to allow standing and before the toe hold grip is fully consolidated with chest pressure",
+        "targets_outcome": "Standing Position",
+        "if_successful": "Complete escape from both the toe hold threat and the outside ashi-garami entanglement, returning to standing neutral position",
+        "risk": "Standing attempt may tighten attacker's leg entanglement if not timed correctly, and hanging bodyweight can actually increase toe hold leverage against you"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
-        "how": "TODO"
+        "outcome": "Standing Position",
+        "how": "Execute boot defense to prevent grip establishment, then immediately work standing extraction by posting with free leg and elevating hips. Use height advantage and gravity to extract trapped leg from the weakened figure-four entanglement before the attacker can re-establish offensive grips."
+      },
+      {
+        "outcome": "Outside Ashi-Garami/Bottom",
+        "how": "Strip the attacker's kimura grip early before rotation is applied using both hands to break the wrist-to-wrist connection, then immediately transition to standard ashi garami escape sequences including hip rotation, framing, and systematic leg extraction."
       }
     ],
     "common_errors": [
       {
-        "error": "TODO",
-        "consequence": "TODO",
-        "correction": "TODO"
+        "error": "Reacting only after rotation is being applied rather than defending during the grip transition phase",
+        "consequence": "Once full rotation is applied with chest pressure consolidated, defensive options narrow severely and injury risk to ankle and knee increases dramatically",
+        "correction": "Develop sensitivity to the grip transition phase - defend aggressively the moment you feel the arm threading under your foot, before the figure-four grip is locked"
+      },
+      {
+        "error": "Using boot defense in a way that exposes the heel to the attacker",
+        "consequence": "Attacker recognizes heel exposure and transitions immediately from toe hold attempt to outside heel hook, which is typically higher percentage",
+        "correction": "Extend foot while keeping heel tucked inward and protected - boot defense should prevent the toe hold grip without creating a heel hook opportunity for the attacker"
+      },
+      {
+        "error": "Panicking and pulling leg straight out when toe hold is applied",
+        "consequence": "Straight pulling tightens the attacker's leg entanglement and can paradoxically increase rotational force on the ankle by driving the foot deeper into their grip",
+        "correction": "Counter-rotate your entire body instead of pulling straight out, using circular hip movement to relieve pressure while maintaining composure and protecting both ankle and knee"
+      },
+      {
+        "error": "Ignoring knee pressure and defending only the ankle during toe hold application",
+        "consequence": "Toe hold force transmits through the ankle to the knee - defending only the ankle while the knee absorbs unaddressed lateral force can cause serious ligament damage to MCL or LCL",
+        "correction": "Protect both joints simultaneously by counter-rotating the entire leg unit rather than isolating the foot. Tap immediately if you feel any lateral knee pressure rather than continuing to fight."
       }
     ],
     "knowledge_assessment": [
       {
-        "question": "TODO",
-        "answer": "TODO"
+        "question": "What is the earliest recognition cue that your opponent is transitioning from heel hook to toe hold?",
+        "answer": "The earliest cue is feeling the attacker release their heel hook grip and redirect their hand toward the top or sole of your foot rather than continuing to hunt for your heel. This grip transition moment represents your primary defensive window because the attacker's submission threat is temporarily reduced during the transition. Recognizing this immediately provides the best opportunity to employ boot defense or grip prevention before the kimura grip is established."
+      },
+      {
+        "question": "Why is boot defense potentially dangerous if executed incorrectly?",
+        "answer": "Boot defense involves extending the foot to prevent the kimura grip, but improper execution can expose the heel that was previously hidden from heel hook attacks. If you extend your foot without maintaining heel protection by keeping it tucked inward, you effectively trade a toe hold threat for a potentially more dangerous heel hook threat. The correct boot defense keeps the heel tucked while extending the toes and ball of the foot to prevent grip wrapping."
+      },
+      {
+        "question": "When should you tap to a toe hold rather than continue defending?",
+        "answer": "Tap immediately when you feel significant rotational pressure through your ankle that you cannot neutralize through counter-rotation, or when you feel any lateral stress on your knee joint. The toe hold generates force that transmits from the ankle to the knee, and knee ligament damage can occur rapidly once the mechanical threshold is exceeded. In training, there is never a justifiable reason to risk injury by waiting too long to tap - develop the habit of tapping early when the position is fully locked."
+      },
+      {
+        "question": "How does counter-rotation neutralize the toe hold and what direction should you rotate?",
+        "answer": "Counter-rotation neutralizes the toe hold by rotating your entire body in the same direction that the attacker is twisting your foot. If they are rotating your right foot toward your left hip, you rotate your entire body to the left, following the direction of force rather than resisting it. This removes the torque from your ankle because your entire leg unit moves with the rotation rather than your foot twisting against a fixed body position, eliminating the differential that creates joint stress."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Recognition",
-        "focus": "TODO",
-        "description": "TODO"
+        "phase": "Phase 1: Recognition Training",
+        "focus": "Identifying toe hold grip transitions",
+        "description": "Practice identifying toe hold grip transitions with a cooperative partner who slowly transitions from heel hook grip to toe hold grip while you verbally call out each recognition cue as it occurs. Develop sensitivity to the specific feeling of the arm threading under your foot before adding any defensive response."
+      },
+      {
+        "phase": "Phase 2: Boot Defense and Grip Prevention",
+        "focus": "Preventing kimura grip establishment",
+        "description": "Partner establishes outside ashi and slowly attempts toe hold grip while you practice boot defense and grip stripping at progressively increasing speeds and resistance levels. Focus on timing your defensive response precisely to the grip transition window for maximum effectiveness."
+      },
+      {
+        "phase": "Phase 3: Counter-Rotation and Escape",
+        "focus": "Neutralizing applied rotational force",
+        "description": "Partner applies controlled toe hold pressure while you practice counter-rotation techniques. Start with light pressure and progressively increase intensity. Develop the ability to counter-rotate smoothly and identify escape opportunities from the entanglement that the rotation creates."
+      },
+      {
+        "phase": "Phase 4: Live Defensive Sparring",
+        "focus": "Integrating all defensive tools under pressure",
+        "description": "Full positional sparring starting in outside ashi-garami with the attacker given all leg lock options including heel hooks and toe holds. Practice integrating boot defense, grip stripping, counter-rotation, and standing extraction based on the specific attack being employed in real-time."
       }
     ]
   }

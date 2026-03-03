@@ -21,37 +21,37 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Roll to Top",
-      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Step Over Escape",
-      "text": "From this position, attempt Step Over Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Step Over Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -207,19 +207,21 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Available Escapes
 
-### [[Arm Extraction]] (25% of attempts)
+### [[Arm Extraction]] (27% of attempts)
 
-### [[Granby Roll to Guard]] (15% of attempts)
+### [[Granby Roll to Guard]] (14% of attempts)
 
-### [[Back Door Escape]] (12% of attempts)
+### [[Back Door Escape]] (11% of attempts)
 
-### [[Counter Roll to Top]] (8% of attempts)
+### [[Counter Roll to Top]] (7% of attempts)
 
-### [[Step Over Escape]] (15% of attempts)
+### [[Step Over Escape]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Hip Escape to Guard]] (14% of attempts)
 
-### [[Rolling to Guard]] (10% of attempts)
+### [[Rolling to Guard]] (9% of attempts)
+
+### [[Frame Escape from Darce]] (4% of attempts)
 
 
 

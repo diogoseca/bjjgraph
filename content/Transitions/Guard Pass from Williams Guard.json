@@ -1,42 +1,434 @@
 {
   "name": "Guard Pass from Williams Guard",
-  "description": "TODO",
-  "tags": ["bjj", "transition", "guard-pass", "williams-guard"],
+  "description": "Master the guard pass from Williams Guard in BJJ. Complete guide to extracting trapped arm, neutralizing shoulder lock threats, and completing passes to side control.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pass",
+    "williams-guard",
+    "arm-extraction",
+    "pressure-passing",
+    "shoulder-lock-defense",
+    "top-game"
+  ],
   "from_position": "Williams Guard/Top",
   "outcomes": [
-    {"to": "Side Control/Top", "probability": 50, "result": "success"},
-    {"to": "Williams Guard/Top", "probability": 33, "result": "failure"},
-    {"to": "Closed Guard/Top", "probability": 17, "result": "counter"}
+    {
+      "to": "Side Control/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Williams Guard/Top",
+      "probability": 30,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
+      "to": "Omoplata Control/Bottom",
+      "probability": 10,
+      "result": "counter"
+    }
   ],
-  "success_rate": 50,
-  "overview": "TODO",
-  "conditions": ["TODO"],
-  "variants_and_adaptations": [{"variant_name": "TODO", "description": "TODO", "when_to_use": "TODO"}],
-  "position_integration": "TODO",
-  "related_content": [{"name": "TODO", "relationship": "TODO"}],
+  "success_rate": 45,
+  "overview": "The guard pass from Williams Guard is a specialized passing sequence that addresses one of modern grappling's most mechanically challenging guard retention systems. Unlike standard guard passes where the top player can immediately address leg frames and hip movement, this pass requires a preliminary phase of arm extraction and shoulder lock neutralization before any traditional passing mechanics become viable. The trapped arm creates a unique constraint that fundamentally alters the passing hierarchy—submission defense must precede positional advancement, and rushing the sequence virtually guarantees either submission or sweep.\n\nThe pass operates on a two-phase model: first, neutralize the shoulder lock threat through systematic arm extraction using circular disengagement mechanics rather than linear pulling, and second, immediately transition into a pressure pass or stack pass before the bottom player can re-establish guard grips. The timing between these phases is critical—any hesitation after arm extraction allows the bottom player to recover Williams Guard or transition to another guard system. Successful execution requires understanding the biomechanical relationship between shoulder joint alignment, grip breaking angles, and weight distribution during the extraction-to-pass transition.\n\nStrategically, this pass rewards patience and technical precision over athleticism. The top player must resist the instinct to fight the shoulder lock with force, instead using angle changes and circling movements to gradually disengage the figure-four grip mechanics. Once the arm is free, the passer exploits the momentary positional vacuum where the bottom player has lost their primary control mechanism but has not yet established secondary guard retention, making this transition window the highest-percentage moment for completing the pass to side control.",
+  "conditions": [
+    "Your arm is trapped in Williams Guard shoulder lock configuration with opponent's figure-four grip established",
+    "You maintain posture and base with your free arm and legs despite the trapped arm",
+    "Bottom player has active leg frames preventing immediate chest-to-chest pressure",
+    "You have identified the direction of shoulder lock rotation to plan extraction angle",
+    "Sufficient mat space exists to circle and change angles during extraction"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Stack Pass Extraction",
+      "description": "Drive forward stacking opponent's hips over their shoulders while simultaneously rotating the trapped arm free. The stacking pressure compresses the bottom player's guard structure and reduces the effectiveness of their shoulder lock grip. As their hips elevate, the figure-four grip loosens due to changed angles, creating an extraction window that flows directly into a stack pass to side control.",
+      "when_to_use": "When the bottom player commits to pulling you forward or when you have established head control with your free hand. Most effective against flexible guard players who rely on distance rather than compression."
+    },
+    {
+      "variant_name": "Backstep Extraction Pass",
+      "description": "Instead of extracting the arm forward, backstep the outside leg while rotating the trapped arm in a circular motion opposite to the shoulder lock direction. This creates torque that loosens the figure-four grip while simultaneously moving your body past the guard. The backstep positions you at an angle where the bottom player's leg frames become ineffective, allowing direct transition to side control or knee cut position.",
+      "when_to_use": "When the bottom player maintains strong distance with leg frames that prevent forward pressure. Effective against opponents who rely on hip movement and angle creation rather than static shoulder lock pressure."
+    },
+    {
+      "variant_name": "Standing Extraction Pass",
+      "description": "Stand up from combat base while maintaining shoulder alignment to prevent the lock from deepening, then use gravity and posture to strip the figure-four grip. Standing changes the angle of force on the shoulder lock dramatically, reducing its effectiveness. Once standing with arm freed, immediately pass using toreando or leg drag before opponent can re-establish guard.",
+      "when_to_use": "When ground-based extraction attempts are failing due to opponent's strong grip retention. Standing is highest-percentage against opponents with powerful shoulder lock grips but less developed open guard retention."
+    }
+  ],
+  "position_integration": "The guard pass from Williams Guard occupies a critical defensive-to-offensive transition point in the modern passing game. As Williams Guard has gained popularity in no-gi competition, the ability to systematically pass this position has become essential for top players. This pass connects the Williams Guard defensive scenario to the side control attacking platform, bridging what is often a significant positional gap. It integrates with broader guard passing systems by teaching the fundamental principle that submission defense and passing can occur simultaneously rather than sequentially—a concept that applies to passing any guard with integrated submission threats such as lasso guard, rubber guard, or overhook guard systems. Mastery of this pass also develops transferable arm extraction skills applicable to any guard position where the opponent controls your limb.",
+  "related_content": [
+    {
+      "name": "Williams Guard",
+      "relationship": "Source position being passed"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary target position after successful pass"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Counter outcome when bottom player recovers full guard"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Counter outcome when bottom player transitions during pass attempt"
+    },
+    {
+      "name": "Stack Pass",
+      "relationship": "Primary passing mechanic used after arm extraction"
+    },
+    {
+      "name": "Pressure Pass",
+      "relationship": "Alternative passing approach integrating with extraction"
+    },
+    {
+      "name": "Knee Cut Pass",
+      "relationship": "Follow-up pass option after successful arm extraction"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Intermediate recovery position during extraction"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Transitional guard state after Williams Guard is broken"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Similar guard system requiring comparable extraction principles"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related arm-trapping guard with transferable passing concepts"
+    },
+    {
+      "name": "Back Step Pass",
+      "relationship": "Alternative passing direction from extraction position"
+    }
+  ],
   "attacker": {
     "name": "Guard Pass from Williams Guard Attacker",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "setup_requirements": ["TODO"],
-    "execution_steps": [{"step_number": 1, "action": "TODO", "description": "TODO"}],
-    "common_counters": [{"counter": "TODO", "effectiveness": "Medium", "your_response": "TODO", "targets_outcome": "Williams Guard/Top"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Mechanics", "focus": "TODO", "description": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "safety_considerations": "TODO"
+    "description": "Complete guide to passing Williams Guard from top position. Learn systematic arm extraction, shoulder lock neutralization, and high-percentage passing sequences to side control.",
+    "overview": "Passing Williams Guard from the top requires a disciplined two-phase approach that prioritizes arm extraction before any passing mechanics engage. The trapped arm creates a mechanical constraint that makes traditional passing impossible—attempting to pass with the arm still controlled virtually guarantees either a deeper shoulder lock submission or an omoplata transition. The attacker must treat arm extraction as the primary objective, using circular disengagement mechanics and angle changes to gradually strip the figure-four grip before explosively transitioning into a pressure pass or stack pass during the brief window when the bottom player has lost their primary control mechanism. Success depends on understanding that patience during extraction enables speed during the pass—rushing either phase collapses the entire sequence.",
+    "key_principles": [
+      "Protect shoulder joint alignment throughout extraction—never allow the shoulder lock to reach full extension or rotation into submission depth",
+      "Use circular arm movements rather than linear pulling to disengage the figure-four grip mechanics, working with the joint's natural rotation",
+      "Maintain base with free arm and legs while the trapped arm works extraction, distributing weight to prevent sweeps during the vulnerable extraction phase",
+      "Transition immediately from extraction to passing without pause—the window between arm freedom and guard re-establishment is measured in seconds",
+      "Control the bottom player's hip mobility with your free hand and knee pressure to prevent them from re-angling for guard recovery",
+      "Create angle changes through circling movement rather than attempting to extract from a static squared-up position",
+      "Chain extraction directly into your highest-percentage pass rather than returning to neutral and attempting a standard pass"
+    ],
+    "setup_requirements": [
+      "Identify the direction of the shoulder lock rotation to determine the correct circular extraction direction",
+      "Establish base with free hand positioned near your own centerline, not posted vulnerably on the mat",
+      "Position knees wide enough to maintain balance against sweep attempts during the extraction process",
+      "Assess bottom player's leg frame configuration to determine whether stack, backstep, or standing extraction is optimal",
+      "Ensure your trapped arm's elbow stays bent and close to your body, preventing full extension into the submission",
+      "Establish head or collar control with your free hand when possible to limit bottom player's hip mobility"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Secure defensive posture and assess shoulder lock configuration",
+        "description": "Before attempting any extraction, stabilize your base by spreading knees wide and ensuring your weight is distributed through your hips and legs rather than your trapped arm. Assess which direction the shoulder lock is applying rotational force—this determines your extraction angle. Keep your trapped elbow bent and pressed close to your torso to prevent the shoulder lock from reaching submission depth. Your free hand should be positioned near your centerline or establishing head control, never posted on the mat where it becomes vulnerable to triangle or kimura attacks."
+      },
+      {
+        "step_number": 2,
+        "action": "Initiate circular arm extraction with hip angle change",
+        "description": "Begin rotating your trapped arm's elbow in a small circle opposite to the direction of the shoulder lock force. Simultaneously shift your hips to create an angle change that alters the mechanical advantage of the figure-four grip. The circular motion gradually disengages the grip structure by changing the force angle rather than fighting the grip strength directly. Move slowly and deliberately—jerking or yanking triggers defensive grip tightening and may accelerate omoplata transitions. Each small rotation should feel like the grip pressure diminishes slightly as you work toward the extraction threshold."
+      },
+      {
+        "step_number": 3,
+        "action": "Drive shoulder forward to collapse extraction angle",
+        "description": "As the circular rotation creates slack in the figure-four grip, drive your shoulder forward and slightly downward toward the mat on the trapped arm side. This forward drive collapses the space the bottom player needs to maintain the shoulder lock angle and forces their grip into a mechanically weaker position. Your free hand should simultaneously push against the bottom player's bicep or hip to prevent them from following your movement and re-establishing the lock angle. This step represents the critical transition from gradual extraction to committed disengagement."
+      },
+      {
+        "step_number": 4,
+        "action": "Strip the grip and clear the arm completely",
+        "description": "Once the shoulder drive has sufficiently compromised the figure-four grip, accelerate the circular extraction to strip your arm free completely. Use a firm twist of your forearm to break the remaining grip contact while pulling your elbow tight to your body. The arm must clear entirely—a partial extraction where the bottom player retains wrist or forearm control allows immediate re-establishment of Williams Guard or transition to alternative guards. Confirm your arm is completely free before initiating any passing movement. This is the moment of highest vulnerability to omoplata if you hesitate."
+      },
+      {
+        "step_number": 5,
+        "action": "Immediately establish passing pressure and control legs",
+        "description": "The instant your arm clears, drive your chest forward into the bottom player's torso while both hands immediately address their leg frames. Grab both knees, biceps, or establish underhooks depending on their guard recovery attempt. The bottom player will attempt to re-close guard, insert butterfly hooks, or transition to another guard system within one to two seconds of losing arm control—your passing pressure must beat their guard recovery timing. Use your freed arm to secure a crossface or underhook that prevents them from turning into you for guard re-establishment."
+      },
+      {
+        "step_number": 6,
+        "action": "Execute guard pass to side control",
+        "description": "With passing pressure established and leg frames addressed, complete your highest-percentage pass. Stack pass works well when you have forward momentum from the extraction drive—fold the bottom player's legs toward their chest while driving your shoulder across their jaw. Knee cut pass is effective when you have established an underhook on the extracted side—slice your knee through the guard while maintaining heavy shoulder pressure. Pressure pass applies when you have established chest-to-chest contact—sprawl your hips back and walk laterally to clear their legs. Regardless of pass selection, maintain constant forward pressure to prevent any guard re-establishment during the completion phase."
+      },
+      {
+        "step_number": 7,
+        "action": "Consolidate side control with crossface and hip control",
+        "description": "As you clear the bottom player's legs and establish perpendicular chest contact, immediately secure crossface control with your forearm across their neck and jaw while your near hand blocks their far hip to prevent knee insertion. Drop your hips heavy against theirs to eliminate the space needed for guard recovery. Settle your weight through your chest and hips rather than posting on hands, and confirm the position is fully established before attempting any submissions or transitions. A rushed consolidation after this particular pass often results in the bottom player recovering half guard through the space created by incomplete hip control."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player tightens figure-four grip and increases shoulder lock pressure during extraction attempt",
+        "effectiveness": "High",
+        "your_response": "Stop linear extraction immediately. Reset your angle and begin circular disengagement from a different rotation direction. If grip tightening is extreme, consider standing extraction variant which changes force angles dramatically enough to overcome grip strength.",
+        "targets_outcome": "Williams Guard/Top"
+      },
+      {
+        "counter": "Bottom player transitions to omoplata by swinging leg over shoulder during extraction",
+        "effectiveness": "High",
+        "your_response": "Immediately posture up and drive forward stacking their hips to prevent the rotation from completing. Use your free hand to push their knee off your shoulder while circling your trapped arm in the opposite direction of the omoplata rotation. If partially caught, stack aggressively to reduce omoplata angle.",
+        "targets_outcome": "Omoplata Control/Bottom"
+      },
+      {
+        "counter": "Bottom player re-closes guard during the extraction-to-pass transition window",
+        "effectiveness": "Medium",
+        "your_response": "Use your freed arm as a frame against their hip or knee to prevent guard closure while maintaining forward pressure. If guard closes fully, you have returned to closed guard top which is a better position than Williams Guard since the shoulder lock threat is eliminated. Restart passing from closed guard.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Bottom player inserts butterfly hooks during pass attempt and threatens sweep",
+        "effectiveness": "Medium",
+        "your_response": "Drop your hips low and sprawl to flatten the butterfly hooks before they generate lifting force. Maintain heavy chest pressure and use underhooks to prevent the hooks from creating elevation. Transition to a smash pass that nullifies butterfly guard mechanics by pinning one knee to the mat.",
+        "targets_outcome": "Williams Guard/Top"
+      },
+      {
+        "counter": "Bottom player hip escapes and re-angles to re-establish arm control for Williams Guard",
+        "effectiveness": "Medium",
+        "your_response": "Follow their hip escape with lateral movement to maintain chest-to-chest alignment. Keep both hands controlling their knees or hips to prevent the re-angle from creating enough space for arm isolation. Accelerate your pass during their hip escape—their movement creates passing angles if you follow correctly.",
+        "targets_outcome": "Williams Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Yanking the trapped arm straight back with force to break the figure-four grip",
+        "consequence": "Linear pulling increases shoulder lock pressure by working against the grip's strongest mechanical angle. This accelerates submission danger, may cause shoulder injury, and often triggers the bottom player's omoplata transition as the aggressive pull creates space for leg swing.",
+        "correction": "Use small circular rotations of the elbow opposite to the shoulder lock direction to gradually disengage grip mechanics. Circular extraction addresses the grip's structural weakness rather than fighting its strength."
+      },
+      {
+        "error": "Attempting to pass while the arm is still controlled in the shoulder lock",
+        "consequence": "The passing attempt deepens the submission threat as forward movement increases shoulder rotation. The bottom player converts your passing energy into sweep momentum or accelerates omoplata transition using your forward drive.",
+        "correction": "Complete arm extraction fully before initiating any passing mechanics. Confirm your arm is completely free and positioned defensively before committing weight forward for the pass."
+      },
+      {
+        "error": "Posting the free hand on the mat near the bottom player's hip for base",
+        "consequence": "The posted arm becomes immediately vulnerable to triangle setup or kimura attack from the bottom player. You lose your primary defensive and offensive tool while creating a leverage point the bottom player exploits for sweeps.",
+        "correction": "Keep the free hand near your centerline, on the opponent's bicep for control, or establishing head/collar control. Never create a static post that the bottom player can attack."
+      },
+      {
+        "error": "Pausing after arm extraction instead of immediately transitioning to the pass",
+        "consequence": "The extraction-to-pass window is extremely brief. Any hesitation allows the bottom player to recover guard grips, re-establish Williams Guard, transition to another guard system, or insert defensive leg frames that restart the entire passing problem.",
+        "correction": "Train the extraction-to-pass sequence as one continuous movement. The pass should begin the instant the arm clears—drilling this timing connection is essential for making the pass work against resisting opponents."
+      },
+      {
+        "error": "Squaring hips directly with the bottom player during extraction attempts",
+        "consequence": "Squared hips optimize the shoulder lock angle and give the bottom player maximum mechanical advantage for both submission and sweep. Static squared positioning also provides no angular momentum for extraction.",
+        "correction": "Maintain angled hip positioning throughout extraction, continuously circling and changing angles to disrupt the shoulder lock mechanics and create extraction opportunities through movement rather than force."
+      },
+      {
+        "error": "Neglecting to control the bottom player's legs during the pass phase",
+        "consequence": "Even after successful arm extraction, uncontrolled legs allow immediate guard re-establishment through butterfly hooks, closed guard closure, or transition to alternative guards like De La Riva or lasso.",
+        "correction": "Both hands must address the bottom player's legs immediately after extraction—grab knees, establish underhooks, or pin legs to the mat. Leg control is the bridge between extraction and pass completion."
+      },
+      {
+        "error": "Using excessive forward pressure during extraction that the bottom player converts to sweep",
+        "consequence": "Forward pressure creates momentum the bottom player redirects into omoplata sweeps or technical stand-ups. Overcommitting weight forward while the arm is trapped removes your base and makes sweeps effortless.",
+        "correction": "Keep weight centered and distributed through your base during extraction. Forward drive should only occur after the arm is extracted and you are transitioning to the pass—not during the extraction phase itself."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Extraction Mechanics",
+        "focus": "Circular arm extraction technique without resistance",
+        "description": "Partner establishes Williams Guard with moderate grip. Practice the circular extraction movement pattern in isolation—elbow rotation, shoulder drive, grip strip sequence. No passing attempt, just clean extraction and return to base. Focus on smooth mechanics and shoulder protection. 20 repetitions per side."
+      },
+      {
+        "phase": "Phase 2: Extraction Under Resistance",
+        "focus": "Arm extraction against progressive grip resistance",
+        "description": "Partner holds Williams Guard with increasing grip intensity from 30% to 70%. Practice extraction using all three variants (stack, backstep, standing) while partner adjusts grip and angle to challenge each method. Reset after extraction—still no passing. Build confidence in extraction against realistic resistance. 3-minute rounds."
+      },
+      {
+        "phase": "Phase 3: Extraction to Pass Chain",
+        "focus": "Connecting extraction directly to passing without pause",
+        "description": "Partner establishes Williams Guard. Execute complete extraction-to-pass sequence as one continuous movement. Partner provides 50% resistance on the extraction and 50% resistance on the pass. Focus on eliminating the gap between arm freedom and passing pressure. Drill until the transition feels automatic. 5-minute flow rounds."
+      },
+      {
+        "phase": "Phase 4: Counter-Offensive Integration",
+        "focus": "Handling bottom player's transitions during pass",
+        "description": "Partner actively attempts counters during your pass—omoplata transitions, guard re-closure, butterfly hook insertion, hip escapes to re-angle. Practice recognizing each counter and applying the appropriate response while maintaining passing progression. 3-minute positional sparring rounds with reset on pass completion or submission."
+      },
+      {
+        "phase": "Phase 5: Live Application",
+        "focus": "Full resistance positional sparring from Williams Guard",
+        "description": "Start in Williams Guard Top against fully resisting partner. Work complete sequence from extraction through pass completion against 100% resistance. Partner uses all available attacks and guard recovery options. Build timing, recognition, and adaptability under competitive conditions. 5-minute rounds alternating top and bottom."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "Why is circular arm extraction mechanically superior to linear pulling against a figure-four grip?",
+        "answer": "A figure-four grip creates its strongest mechanical advantage along the linear axis of the shoulder lock—pulling straight back works directly against the grip's peak force vector. Circular extraction rotates the elbow perpendicular to this force vector, engaging the grip's weakest structural angle where the wrist connection has minimal rotational resistance. The circular motion gradually changes the angle of force application until the grip cannot maintain its structural integrity, rather than attempting to overpower the grip at its strongest point."
+      },
+      {
+        "question": "What is the optimal timing window for transitioning from arm extraction to guard pass?",
+        "answer": "The window is approximately one to two seconds between the moment your arm clears the figure-four grip and the moment the bottom player establishes alternative guard grips or leg frames. This window exists because losing Williams Guard arm control creates a momentary positional vacuum—the bottom player's primary control mechanism is gone but secondary guard retention has not yet engaged. Your passing pressure must fill this vacuum before their guard recovery does. Training should focus on making the extraction-to-pass connection a single continuous movement rather than two separate actions."
+      },
+      {
+        "question": "Your opponent begins rotating their hips to transition toward omoplata during your extraction attempt—what is your immediate response?",
+        "answer": "Immediately drive forward and posture up simultaneously to prevent the hip rotation from completing. Use your free hand to push their rotating knee off your shoulder while circling your trapped arm in the direction opposite to their rotation. The omoplata requires full hip rotation and leg positioning over your shoulder—disrupting either element prevents completion. If partially caught, aggressive stacking that drives their hips over their shoulders reduces the omoplata angle below submission threshold and may create a passing opportunity through the stack."
+      },
+      {
+        "question": "Why must you avoid posting your free hand on the mat during extraction?",
+        "answer": "A mat post creates three simultaneous vulnerabilities: first, it becomes a target for triangle setup as the bottom player can attack the posted arm while maintaining shoulder lock on the trapped arm; second, the post creates a fixed leverage point the bottom player uses to amplify sweep mechanics; third, it removes your primary defensive and offensive tool from active use in head control, grip fighting, and guard management. The free hand must remain dynamically engaged—controlling the opponent's bicep, managing their head position, or blocking their hip—rather than becoming a static structural element that the bottom player exploits."
+      },
+      {
+        "question": "What are the critical grip requirements for successfully completing the pass after extraction?",
+        "answer": "After arm extraction, both hands must immediately address the bottom player's legs and hips to prevent guard re-establishment. The freed arm should secure either a crossface across their jaw and neck, or an underhook on the nearside to control their upper body and prevent turning. The other hand controls their far knee or hip to block guard recovery attempts. These grips must be established within the one-to-two second extraction window—any grip that does not directly advance the pass or prevent guard recovery wastes the timing advantage that extraction creates."
+      },
+      {
+        "question": "How does hip angle affect your vulnerability to shoulder lock submission and sweep during extraction?",
+        "answer": "Squared hips facing directly into the bottom player optimize their shoulder lock angle by aligning your shoulder joint with their grip's maximum mechanical advantage, creating both peak submission danger and maximum sweep leverage. Angled hips reduce shoulder lock effectiveness by changing the rotational axis of the joint relative to their grip structure. The angle also limits the bottom player's sweep mechanics by removing the lateral leverage they need for omoplata and technical sweep execution. Continuous angle changes during extraction disrupt their timing and prevent them from settling into any optimized attacking position."
+      },
+      {
+        "question": "What direction of force should your shoulder drive apply during step three of the extraction?",
+        "answer": "The shoulder drives forward and slightly downward toward the mat on the trapped arm side. This specific direction collapses the space between your shoulder and the mat that the bottom player needs to maintain the shoulder lock's rotational angle. Forward drive without the downward component allows the bottom player to maintain their grip angle; downward drive without forward component fails to advance past their guard. The combined vector compresses their grip structure into a mechanically weak position where the figure-four cannot generate submission-level rotational force, creating the final extraction opportunity."
+      },
+      {
+        "question": "If the bottom player successfully re-closes their guard during your pass attempt, creating closed guard, is this outcome acceptable?",
+        "answer": "Yes—transitioning from Williams Guard Top to Closed Guard Top is a significant positional improvement. In Williams Guard, your arm is trapped with active shoulder lock submission threat, severely limiting your mobility and creating constant danger. In Closed Guard Top, your arms are free, no submission is immediately threatening, and you can work standard guard opening and passing sequences from a much safer position. While the pass to side control was not completed, eliminating the shoulder lock threat and recovering arm freedom represents meaningful positional advancement that should be accepted rather than fought."
+      },
+      {
+        "question": "Your opponent defends every ground-based extraction attempt with strong grip retention—what variant should you employ?",
+        "answer": "Transition to the standing extraction variant. Standing fundamentally changes the force angles on the shoulder lock by introducing gravity and posture as extraction tools. The figure-four grip loses significant mechanical advantage when you are standing because the bottom player cannot maintain the same rotational force from their back against a standing opponent. Standing also gives you access to toreando and leg drag passes that are unavailable from kneeling position. The tradeoff is that standing may open the bottom player's transition to open guard retention systems, so the pass must be executed immediately after standing extraction before they can re-establish guard hooks."
+      }
+    ],
+    "safety_considerations": "Shoulder joint safety is paramount during this technique. The trapped arm is already in a compromised position within the shoulder lock configuration—aggressive extraction attempts or poor mechanics can cause rotator cuff strain, labral tears, or shoulder dislocation. Always maintain the trapped elbow in a bent position close to the body to prevent full extension into the submission. Never yank or jerk the trapped arm. If the shoulder lock reaches a pain threshold during extraction, tap and reset rather than fighting through joint stress. During training, partners should communicate clearly about shoulder lock pressure levels and release immediately on tap signals. Avoid this technique entirely if you have pre-existing shoulder injuries until cleared by a medical professional."
   },
   "defender": {
     "name": "Guard Pass from Williams Guard Defender",
-    "description": "TODO",
-    "overview": "TODO",
-    "key_principles": ["TODO"],
-    "recognition_cues": ["TODO"],
-    "defensive_options": [{"action": "TODO", "when_to_use": "TODO", "targets_outcome": "Williams Guard/Top", "if_successful": "TODO", "risk": "TODO"}],
-    "favorable_outcomes": [{"outcome": "Williams Guard/Top", "how": "TODO"}],
-    "common_errors": [{"error": "TODO", "consequence": "TODO", "correction": "TODO"}],
-    "knowledge_assessment": [{"question": "TODO", "answer": "TODO"}],
-    "training_progressions": [{"phase": "Phase 1: Recognition", "focus": "TODO", "description": "TODO"}]
+    "description": "Defend against guard passes from Williams Guard bottom position. Learn to recognize extraction attempts, maintain shoulder lock control, and counter with sweeps and submissions.",
+    "overview": "Defending the guard pass from Williams Guard means you are the bottom player working to maintain your shoulder lock control and guard structure while the top player systematically attempts arm extraction and passing. Your primary objective is retention of the Williams Guard position, with secondary objectives of converting their passing attempts into sweep or submission opportunities. The defender holds significant mechanical advantage in this exchange—the shoulder lock creates a submission threat that constrains the passer's options, and every extraction attempt creates small positional vulnerabilities that can be exploited for transitions to omoplata, triangle, back take, or sweep. Success requires reading the passer's extraction method and responding with the appropriate counter that either maintains the position or converts their movement into your offense.",
+    "key_principles": [
+      "Maintain constant figure-four grip tension on the shoulder lock to prevent gradual circular extraction from succeeding",
+      "Use hip angle adjustments to track the passer's circling movements and maintain optimal shoulder lock mechanics",
+      "Keep active leg frames that prevent the passer from establishing chest-to-chest pressure even if they begin to extract",
+      "Treat every extraction attempt as a transition trigger—their movement to free the arm opens specific sweep and submission pathways",
+      "Prioritize guard re-establishment over submission if the arm begins to clear, preventing the pass from completing even if you lose Williams Guard",
+      "Monitor the passer's base and weight distribution to identify sweep opportunities created by their extraction focus"
+    ],
+    "recognition_cues": [
+      "Top player begins small circular elbow rotations rather than pulling arm straight back, indicating technical extraction attempt",
+      "Top player shifts hip angle away from your controlled arm side, creating the angular change needed for extraction",
+      "Top player drives shoulder forward and downward toward the mat, signaling the grip-collapse phase of extraction",
+      "Top player establishes head control or collar grip with their free hand, preparing to transition immediately to passing",
+      "Top player's weight shifts to their legs and free arm, indicating they are preparing to accelerate through the extraction-to-pass transition",
+      "Top player stands up from kneeling position, signaling the standing extraction variant that dramatically changes grip angles"
+    ],
+    "defensive_options": [
+      {
+        "action": "Tighten figure-four grip and re-angle hips to restore shoulder lock mechanics when feeling extraction rotation",
+        "when_to_use": "Early in the extraction attempt when you feel the circular rotation beginning to create slack in your grip",
+        "targets_outcome": "Williams Guard/Top",
+        "if_successful": "Passer's extraction fails and they return to Williams Guard top defensive position with arm still controlled",
+        "risk": "Over-tightening the grip may trigger standing extraction variant if passer recognizes ground extraction is being shut down"
+      },
+      {
+        "action": "Transition to omoplata by swinging leg over the passer's shoulder during their forward drive",
+        "when_to_use": "When the passer commits to the forward shoulder drive in step three of the extraction, creating the rotation opportunity",
+        "targets_outcome": "Omoplata Control/Bottom",
+        "if_successful": "You establish omoplata control with sweep and submission opportunities from a dominant position",
+        "risk": "If the passer recognizes the transition early, they can stack you to prevent omoplata completion and may complete the pass"
+      },
+      {
+        "action": "Close guard immediately when arm begins to clear to prevent the pass from completing",
+        "when_to_use": "When the arm extraction succeeds but you can still close your legs around the passer's waist before they establish passing pressure",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "You recover closed guard position which, while losing Williams Guard control, prevents the pass to side control",
+        "risk": "If you close guard too late, the passer may already have their hips past your legs, resulting in half guard or side control"
+      },
+      {
+        "action": "Insert butterfly hooks and sweep as the passer transitions from extraction to pass",
+        "when_to_use": "During the extraction-to-pass transition window when the passer's weight shifts forward and their base is temporarily compromised",
+        "targets_outcome": "Williams Guard/Top",
+        "if_successful": "The sweep reverses position, and you establish top position from the transition",
+        "risk": "If the passer's sprawl timing is correct, the butterfly hooks may be flattened and the pass accelerates"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Williams Guard/Top",
+        "how": "Maintain figure-four grip tension throughout all extraction attempts by constantly adjusting hip angle to track the passer's circling movements. When you feel circular rotation on your grip, re-angle your hips to restore optimal shoulder lock mechanics before the extraction reaches critical threshold."
+      },
+      {
+        "outcome": "Omoplata Control/Bottom",
+        "how": "Time your leg swing to coincide with the passer's forward shoulder drive during extraction step three. Their committed forward movement creates the rotational opportunity for omoplata—use their momentum to accelerate your hip rotation and establish the leg position over their shoulder before they can posture up."
+      },
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "If arm extraction succeeds, immediately close your guard by locking ankles behind the passer's back before they can establish passing pressure. This is a fallback that prevents the worst outcome of side control while giving you offensive options from closed guard bottom."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining a static grip without adjusting hip angle to track the passer's circling movements",
+        "consequence": "The circular extraction gradually reduces your grip's mechanical advantage because your body position no longer supports the shoulder lock angle, allowing extraction without requiring the passer to overcome significant resistance",
+        "correction": "Actively adjust your hip angle to follow the passer's circling movement, ensuring your body position continuously reinforces the shoulder lock mechanics regardless of their angle changes"
+      },
+      {
+        "error": "Overcommitting to the shoulder lock submission attempt rather than maintaining positional control",
+        "consequence": "Chasing the submission while the passer extracts leaves you out of position for guard retention, allowing the pass to complete without resistance because your legs and hips are focused on submission rather than guard structure",
+        "correction": "Use the shoulder lock primarily as a control mechanism and transition trigger rather than a finishing submission. Maintain active guard structure with your legs throughout—the shoulder lock controls their arm while your legs control their body"
+      },
+      {
+        "error": "Failing to transition to omoplata when the passer commits to the forward shoulder drive",
+        "consequence": "Missing the highest-percentage counter opportunity that the extraction creates. The forward drive is a momentary vulnerability window that closes quickly—failing to capitalize means accepting the extraction without extracting positional value from it",
+        "correction": "Drill the shoulder drive recognition cue to omoplata transition until the response is automatic. The moment you feel their shoulder driving forward, begin your hip rotation for omoplata without hesitation"
+      },
+      {
+        "error": "Allowing legs to become passive during the retention phase",
+        "consequence": "Without active leg frames, the passer can establish chest-to-chest pressure that compresses your guard structure and accelerates their extraction by reducing the space you need to maintain shoulder lock mechanics",
+        "correction": "Keep legs dynamically engaged throughout—feet on hips, butterfly hooks active, or shin frames maintaining distance. Your legs are your guard's structural foundation; they must remain active regardless of what your arms are doing"
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest recognition cue that the top player is attempting a technical circular extraction rather than a linear pull?",
+        "answer": "Small circular rotations of the elbow rather than straight backward pulling. The circular motion pattern is distinct—you feel a rotational twisting against your figure-four grip rather than a direct pulling force. Linear pulls are easy to resist by tightening the grip, but circular rotation requires you to adjust hip angle to counter the changing force direction. Recognizing this pattern early allows you to begin counter-adjustments before the extraction builds momentum."
+      },
+      {
+        "question": "When the passer's arm begins to clear your grip, what should be your immediate priority?",
+        "answer": "Guard re-establishment takes immediate priority over attempting to re-capture the arm. Once the arm has clearing momentum, attempting to re-grip is low-percentage and wastes critical time. Instead, close your guard by locking ankles behind their waist to establish closed guard, or insert butterfly hooks to create sweep opportunities during the pass transition. Preventing the pass to side control is more important than maintaining Williams Guard—you can re-establish Williams Guard later from closed guard if desired."
+      },
+      {
+        "question": "How do you convert the passer's forward shoulder drive into an omoplata opportunity?",
+        "answer": "The forward shoulder drive creates rotational momentum you can redirect into omoplata. As they drive forward, use your hip on the trapped arm side to begin rotating your body perpendicular to theirs. Swing your leg over their driving shoulder while maintaining wrist control on the trapped arm. Their forward commitment prevents them from posturing back quickly enough to prevent the leg position. The key is timing—the transition must begin as they drive, not after they have settled their weight forward."
+      },
+      {
+        "question": "What hip adjustment counters the passer's circling movement during extraction?",
+        "answer": "Your hips must track their circling direction by adjusting angle to maintain the shoulder lock's optimal rotational force on their joint. If they circle right, your hips angle right to preserve the lock angle. If they shift to standing, elevate your hips to maintain upward pressure on the lock. The principle is that your body position must continuously support the shoulder lock's mechanical advantage regardless of the passer's angle changes—treat your hips as a tracking platform that follows their movement to keep the grip structure loaded."
+      },
+      {
+        "question": "Why is closing guard (transitioning to closed guard) an acceptable defensive outcome even though it means losing Williams Guard?",
+        "answer": "Closed Guard Top for the passer is a significantly worse outcome than Side Control Top. In closed guard, the passer has no immediate passing pressure, faces sweep and submission threats from your closed guard bottom, and must restart the entire passing sequence from a disadvantaged position. Meanwhile, you retain offensive options from closed guard bottom including all standard sweeps and submissions. The positional hierarchy makes this a net positive trade—you lose the shoulder lock control but deny the pass to side control while maintaining an offensively advantageous guard position."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Grip Retention Under Pressure",
+        "focus": "Maintaining figure-four grip against progressive extraction attempts",
+        "description": "Partner attempts arm extraction using circular mechanics at progressive resistance from 30% to 70%. Focus on hip angle adjustments that maintain shoulder lock mechanical advantage as partner circles and changes angles. No transitions or counters—pure retention work. 3-minute rounds per side."
+      },
+      {
+        "phase": "Phase 2: Counter Transition Recognition",
+        "focus": "Identifying extraction cues and selecting appropriate counter",
+        "description": "Partner uses specific extraction variants (stack, backstep, standing). Practice recognizing each variant's signature movement pattern and responding with the correct counter—omoplata for forward drive, guard closure for successful extraction, sweep for backstep. Drill recognition-to-response chain until automatic. 5-minute flow rounds."
+      },
+      {
+        "phase": "Phase 3: Live Retention and Counter Sparring",
+        "focus": "Full resistance guard retention with offensive counters",
+        "description": "Positional sparring starting in Williams Guard. Partner works extraction and pass at full resistance while you work retention, counters, and guard recovery. Score system: maintain Williams Guard for 30 seconds (win), complete pass to side control (loss), transition to omoplata or sweep (win), recover closed guard (draw). 3-minute rounds."
+      }
+    ]
   }
 }
