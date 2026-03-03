@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -160,11 +160,11 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami Top is the defensive counterpart to Outside Ashi-Garami Bottom, where your right leg is trapped in your opponent's outside leg entanglement while you are on top or in a more elevated position. This is generally considered a disadvantageous position requiring immediate defensive action to prevent heel hooks or ankle locks and to extract your leg from the entanglement.
+**Outside Ashi-Garami Top** is the defensive counterpart to Outside Ashi-Garami Bottom, where your right leg is trapped in your opponent's outside leg entanglement while you are on top or in a more elevated position. This is generally considered a disadvantageous position requiring immediate defensive action to prevent [[Heel Hook|heel hooks]] or [[Straight Ankle Lock|ankle locks]] and to extract your leg from the entanglement. Escape success rate: Beginner 40%, Intermediate 55%, Advanced 70%.
 
-In this position, your opponent has their legs configured in a figure-4 around your right leg, with their outside leg (left) crossing over your thigh and their inside leg (right) triangling under your knee. Your primary objectives are to prevent your hip from being controlled (stopping external rotation), extract your trapped leg, and either pass to a dominant position or establish your own leg entanglement.
+In this position, your opponent has their legs configured in a figure-4 around your right leg, with their outside leg (left) crossing over your thigh and their inside leg (right) triangling under your knee. Your primary objectives are to prevent your hip from being controlled (stopping external rotation), extract your trapped leg using the [[Ashi Garami Escape]], and either pass to a dominant position like [[Side Control]] or establish your own [[Leg Entanglement]].
 
-This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities.
+This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities. Study [[Saddle Defense]] principles for handling advanced leg entanglement threats, and understand counter-entanglement entries into [[Outside Ashi-Garami]] or [[Inside Ashi-Garami]] as escape alternatives.
 
 </section>
 
