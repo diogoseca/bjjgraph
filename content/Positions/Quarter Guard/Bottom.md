@@ -203,36 +203,6 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (10% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (9% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (10% of attempts)
-
-### [[Transitions/Deep Half Entry]] (11% of attempts)
-
-### [[Transitions/Rolling Back Take]] (8% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (6% of attempts)
-
-### [[Transitions/Knee Shield Retention]] (33% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (9% of attempts)
-
-### [[Transitions/Knee Shield from Quarter Guard]] (2% of attempts)
-
-### [[Transitions/Recover Full Guard from Quarter Guard]] (1% of attempts)
-
-### [[Transitions/Sweep from Quarter Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

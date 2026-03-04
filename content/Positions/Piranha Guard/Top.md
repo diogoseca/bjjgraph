@@ -204,32 +204,6 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (20% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (13% of attempts)
-
-### [[Transitions/Long Step Pass]] (11% of attempts)
-
-### [[Transitions/Stack Pass]] (10% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Pressure Pass]] (14% of attempts)
-
-### [[Transitions/X Pass]] (11% of attempts)
-
-### [[Transitions/Pass Piranha Guard]] (5% of attempts)
-
-### [[Transitions/Strip Lapel from Piranha]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

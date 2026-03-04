@@ -209,40 +209,6 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (21% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (12% of attempts)
-
-### [[Transitions/Americana]] (9% of attempts)
-
-### [[Transitions/Triangle from Mount]] (9% of attempts)
-
-### [[Transitions/Kimura]] (9% of attempts)
-
-### [[Transitions/Arm Triangle]] (7% of attempts)
-
-### [[Transitions/Gift Wrap Transition]] (7% of attempts)
-
-### [[Positions/Mount/Mounted Triangle]] (6% of attempts)
-
-### [[Transitions/S-Mount Transition]] (7% of attempts)
-
-### [[Transitions/Mounted Crucifix Entry]] (6% of attempts)
-
-### [[Transitions/High Mount to S Mount]] (3% of attempts)
-
-### [[Submissions/Armbar from High Mount]] (2% of attempts)
-
-### [[Submissions/Cross Collar Choke from High Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

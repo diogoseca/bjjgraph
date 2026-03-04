@@ -204,48 +204,6 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Butterfly Sweep]] (42% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (9% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (6% of attempts)
-
-### [[Transitions/Hook Sweep]] (5% of attempts)
-
-### [[Transitions/Elevator Sweep]] (5% of attempts)
-
-### [[Transitions/Guillotine Setup]] (5% of attempts)
-
-### [[Transitions/Deep Half Entry]] (6% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (5% of attempts)
-
-### [[Transitions/Butterfly Sweep with Guillotine]] (2% of attempts)
-
-### [[Transitions/Butterfly Hook Recovery]] (3% of attempts)
-
-### [[Transitions/Kimura Sweep]] (4% of attempts)
-
-### [[Transitions/Collar Drag]] (1% of attempts)
-
-### [[Transitions/John Wayne Sweep]] (1% of attempts)
-
-### [[Transitions/Sumi Gaeshi]] (3% of attempts)
-
-### [[Transitions/Arm Drag Sweep]] (2% of attempts)
-
-### [[Transitions/Butterfly Hook Sweep]] (0% of attempts)
-
-### [[Transitions/Reguard to Butterfly Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -209,32 +209,6 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Upa Escape]] (12% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (32% of attempts)
-
-### [[Transitions/Bridge and Roll]] (9% of attempts)
-
-### [[Transitions/Shrimp Escape]] (12% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (15% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
-
-### [[Transitions/Bridge to Mount from High Mount]] (4% of attempts)
-
-### [[Transitions/Frame Escape from High Mount]] (2% of attempts)
-
-### [[Transitions/Trap and Roll from High Mount]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

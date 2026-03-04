@@ -205,30 +205,6 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Smash Pass]] (24% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (15% of attempts)
-
-### [[Transitions/Over-Under Pass]] (14% of attempts)
-
-### [[Submissions/Kimura from Guard]] (14% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (12% of attempts)
-
-### [[Transitions/Side Control to Mount]] (12% of attempts)
-
-### [[Transitions/Break Overhook Guard]] (6% of attempts)
-
-### [[Transitions/Pass Overhook Guard]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

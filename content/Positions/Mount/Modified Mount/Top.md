@@ -202,34 +202,6 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (19% of attempts)
-
-### [[Transitions/S-Mount Transition]] (11% of attempts)
-
-### [[Positions/Mount/Mounted Triangle]] (9% of attempts)
-
-### [[Transitions/High Mount Transition]] (12% of attempts)
-
-### [[Transitions/Americana]] (9% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (9% of attempts)
-
-### [[Transitions/Kimura]] (7% of attempts)
-
-### [[Transitions/Gift Wrap Transition]] (11% of attempts)
-
-### [[Transitions/Back Take from Top]] (9% of attempts)
-
-### [[Transitions/Americana from Modified Mount]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

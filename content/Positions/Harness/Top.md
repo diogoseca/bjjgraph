@@ -207,40 +207,6 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (40% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (13% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (8% of attempts)
-
-### [[Transitions/Triangle from Back]] (4% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (10% of attempts)
-
-### [[Transitions/Short Choke]] (5% of attempts)
-
-### [[Transitions/Rolling Back Take]] (3% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (2% of attempts)
-
-### [[Transitions/Kimura from Back]] (6% of attempts)
-
-### [[Transitions/Gift Wrap Transition]] (4% of attempts)
-
-### [[Transitions/Hand Fighting from Back]] (3% of attempts)
-
-### [[Transitions/Harness to Body Lock]] (1% of attempts)
-
-### [[Transitions/RNC from Harness]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -208,40 +208,6 @@ The learning progression for Twister Side Control top is significant, with begin
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Twister Finish]] (12% of attempts)
-
-### [[Transitions/Back Take]] (12% of attempts)
-
-### [[Transitions/Darce Choke]] (10% of attempts)
-
-### [[Transitions/Kimura]] (10% of attempts)
-
-### [[Transitions/Side Control to North-South]] (12% of attempts)
-
-### [[Transitions/Anaconda Choke]] (8% of attempts)
-
-### [[Transitions/Arm Triangle]] (7% of attempts)
-
-### [[Transitions/Side Control to Mount]] (8% of attempts)
-
-### [[Transitions/Turtle to Truck]] (7% of attempts)
-
-### [[Transitions/Calf Slicer]] (5% of attempts)
-
-### [[Transitions/Twister SC to Back Take]] (4% of attempts)
-
-### [[Transitions/Twister SC to Truck]] (3% of attempts)
-
-### [[Submissions/Twister from Twister SC]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -204,36 +204,6 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (35% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (11% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (10% of attempts)
-
-### [[Transitions/Guard Recovery from Zombie]] (13% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (9% of attempts)
-
-### [[Transitions/Rolling Back Take]] (7% of attempts)
-
-### [[Transitions/Roll to Truck]] (6% of attempts)
-
-### [[Transitions/Deep Half Entry]] (5% of attempts)
-
-### [[Transitions/Escape Zombie Control]] (2% of attempts)
-
-### [[Transitions/Turn to Face from Zombie]] (1% of attempts)
-
-### [[Transitions/Sweep from Zombie Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

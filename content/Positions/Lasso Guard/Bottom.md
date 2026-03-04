@@ -212,40 +212,6 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Sickle Sweep]] (48% of attempts)
-
-### [[Transitions/Triangle Setup]] (12% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (8% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (5% of attempts)
-
-### [[Transitions/Omoplata from Lasso]] (5% of attempts)
-
-### [[Transitions/Hook Sweep]] (4% of attempts)
-
-### [[Transitions/Lasso Sweep]] (4% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (3% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (3% of attempts)
-
-### [[Transitions/Lasso Guard to Inverted Lasso Guard]] (3% of attempts)
-
-### [[Transitions/Armbar Finish]] (2% of attempts)
-
-### [[Transitions/Kimura Sweep]] (2% of attempts)
-
-### [[Transitions/Lasso Guard to Russian Leg Lasso]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

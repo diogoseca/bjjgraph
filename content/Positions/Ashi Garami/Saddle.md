@@ -97,7 +97,7 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape]]** (56% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (55% of attempts)
 
 - **[[Transitions/Standing up in Base]]** (1% of attempts)
 
@@ -120,6 +120,8 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 - **[[Transitions/Leg Pummeling from Saddle]]** (0% of attempts)
 
 - **[[Transitions/Sweep from Saddle]]** (1% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

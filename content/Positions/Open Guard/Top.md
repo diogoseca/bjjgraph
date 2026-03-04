@@ -202,36 +202,6 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (17% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (9% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (9% of attempts)
-
-### [[Transitions/Stack Pass]] (8% of attempts)
-
-### [[Transitions/Long Step Pass]] (9% of attempts)
-
-### [[Transitions/X Pass]] (8% of attempts)
-
-### [[Transitions/Smash Pass]] (9% of attempts)
-
-### [[Transitions/Double Under Pass]] (9% of attempts)
-
-### [[Transitions/Pressure Pass]] (9% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (9% of attempts)
-
-### [[Transitions/Float Passing]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

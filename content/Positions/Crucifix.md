@@ -178,7 +178,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Back Control Maintenance]]** (19% of attempts)
 
-- **[[Transitions/Choke from Crucifix]]** (40% of attempts)
+- **[[Transitions/Choke from Crucifix]]** (39% of attempts)
 
 - **[[Transitions/Armbar from Crucifix]]** (16% of attempts)
 
@@ -187,6 +187,8 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 - **[[Transitions/Crucifix Maintenance]]** (3% of attempts)
 
 - **[[Transitions/Crucifix to Mount]]** (2% of attempts)
+
+- **[[Submissions/Bicep Slicer]]** (1% of attempts)
 
 
 ### Common Mistakes

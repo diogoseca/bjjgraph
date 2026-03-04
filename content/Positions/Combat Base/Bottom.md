@@ -189,20 +189,6 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Guard Recovery from Combat Base]] (35% of attempts)
-
-### [[Transitions/Sweep from Combat Base]] (35% of attempts)
-
-### [[Transitions/Pull Guard from Combat Base]] (30% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

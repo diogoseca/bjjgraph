@@ -208,28 +208,6 @@ The submission chain available from triangle control represents one of the most 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Submissions/Triangle Choke Front]] (29% of attempts)
-
-### [[Transitions/Triangle to Armbar]] (22% of attempts)
-
-### [[Transitions/Triangle to Omoplata]] (13% of attempts)
-
-### [[Transitions/Triangle to Back]] (9% of attempts)
-
-### [[Positions/Mount/Mounted Triangle]] (7% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (6% of attempts)
-
-### [[Transitions/Inverted Triangle]] (14% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

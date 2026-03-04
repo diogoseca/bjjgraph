@@ -205,34 +205,6 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (38% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (12% of attempts)
-
-### [[Transitions/Long Step Pass]] (11% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (12% of attempts)
-
-### [[Transitions/Stack Pass]] (11% of attempts)
-
-### [[Transitions/Smash Pass]] (10% of attempts)
-
-### [[Transitions/Bodylock Pass from Seated]] (4% of attempts)
-
-### [[Transitions/Bull Pass from Seated]] (1% of attempts)
-
-### [[Transitions/Knee Slice from Seated Guard]] (0% of attempts)
-
-### [[Transitions/Toreando Pass from Seated Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

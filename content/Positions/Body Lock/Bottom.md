@@ -206,34 +206,6 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Grip Break]] (39% of attempts)
-
-### [[Transitions/Sitting Guard Pull]] (19% of attempts)
-
-### [[Transitions/Rolling to Guard]] (12% of attempts)
-
-### [[Transitions/Whizzer]] (7% of attempts)
-
-### [[Transitions/Sprawl Defense]] (7% of attempts)
-
-### [[Transitions/Turn In and Face]] (7% of attempts)
-
-### [[Transitions/Standing up in Base]] (5% of attempts)
-
-### [[Transitions/Escape Body Lock]] (2% of attempts)
-
-### [[Transitions/Pummeling Escape from Body Lock]] (1% of attempts)
-
-### [[Transitions/Reversal from Body Lock]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -206,40 +206,6 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Straight Ankle Lock Entry]] (43% of attempts)
-
-### [[Transitions/Heel Hook]] (6% of attempts)
-
-### [[Transitions/Toe Hold]] (9% of attempts)
-
-### [[Transitions/Kneebar Finish]] (4% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Honey Hole]] (9% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (2% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Cross Ashi]] (5% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (9% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (9% of attempts)
-
-### [[Transitions/50-50 Entry]] (3% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (0% of attempts)
-
-### [[Transitions/Inside Ashi to Outside Ashi]] (0% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Ushiro Ashi]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

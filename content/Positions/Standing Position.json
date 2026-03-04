@@ -105,7 +105,7 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 17
+        "attempt_probability": 16
       },
       {
         "transition": "Double Leg Setup",
@@ -218,6 +218,10 @@
       {
         "transition": "Kimura from Standing",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Reverse Kimura",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

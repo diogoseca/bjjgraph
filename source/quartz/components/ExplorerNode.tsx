@@ -174,11 +174,11 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
 
   // Map folder names to their hub pages and display names
   const folderHubPages: Record<string, string> = {
-    "Positions": "Positions",
-    "Transitions": "Transitions",
-    "Submissions": "Submissions",
-    "Principles": "Principles",
-    "Systems": "Systems",
+    Positions: "Positions",
+    Transitions: "Transitions",
+    Submissions: "Submissions",
+    Principles: "Principles",
+    Systems: "Systems",
   }
 
   // Get the hub page for this folder if it exists
@@ -198,7 +198,11 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             <div class={`folder-container depth-${node.depth}`}>
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" || node.file || hubPage ? (
-                  <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref} data-for={node.file ? node.file.slug : node.name} class="folder-title">
+                  <a
+                    href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref}
+                    data-for={node.file ? node.file.slug : node.name}
+                    class="folder-title"
+                  >
                     {displayName}
                   </a>
                 ) : (
@@ -207,7 +211,9 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                   </button>
                 )}
               </div>
-              <span class="folder-icon" aria-label="Toggle folder">+</span>
+              <span class="folder-icon" aria-label="Toggle folder">
+                +
+              </span>
             </div>
           )}
           {/* Recursively render children of folder */}

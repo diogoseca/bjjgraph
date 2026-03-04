@@ -207,36 +207,6 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (30% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (11% of attempts)
-
-### [[Transitions/Deep Half Entry]] (10% of attempts)
-
-### [[Transitions/Back Take from Bottom]] (9% of attempts)
-
-### [[Transitions/Turtle to Truck]] (8% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (10% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (9% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (8% of attempts)
-
-### [[Transitions/Z-Guard Sweep]] (3% of attempts)
-
-### [[Transitions/Z-Guard to Half Guard]] (1% of attempts)
-
-### [[Transitions/Sweep from Z-Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

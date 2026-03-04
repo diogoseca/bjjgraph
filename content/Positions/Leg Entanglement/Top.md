@@ -202,38 +202,6 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Kneebar]] (13% of attempts)
-
-### [[Transitions/Outside Heel Hook]] (12% of attempts)
-
-### [[Transitions/Ankle Lock Finish]] (12% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (10% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (10% of attempts)
-
-### [[Transitions/Toe Hold]] (8% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (7% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (7% of attempts)
-
-### [[Transitions/50-50 Entry]] (6% of attempts)
-
-### [[Transitions/Ashi Entry from Leg Entanglement]] (5% of attempts)
-
-### [[Transitions/Leg Extraction Pass]] (5% of attempts)
-
-### [[Transitions/Guard Pass from Leg Entanglement]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

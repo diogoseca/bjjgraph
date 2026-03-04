@@ -206,34 +206,6 @@ This position represents a defensive challenge where understanding leg lock mech
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Ashi Garami Escape]] (59% of attempts)
-
-### [[Transitions/Back Step]] (18% of attempts)
-
-### [[Transitions/Counter heel hook]] (11% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (4% of attempts)
-
-### [[Transitions/Kneebar Setup]] (4% of attempts)
-
-### [[Transitions/Standing Escape]] (3% of attempts)
-
-### [[Transitions/Outside Ashi to Inside Ashi]] (0% of attempts)
-
-### [[Transitions/Outside to Ushiro Ashi]] (0% of attempts)
-
-### [[Transitions/Saddle Entry from Outside Ashi]] (0% of attempts)
-
-### [[Transitions/Toe Hold from Outside Ashi]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

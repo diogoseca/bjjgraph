@@ -202,44 +202,6 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Tripod Sweep]] (53% of attempts)
-
-### [[Transitions/Sickle Sweep]] (14% of attempts)
-
-### [[Transitions/Tomoe Nage]] (8% of attempts)
-
-### [[Transitions/Lumberjack Sweep]] (6% of attempts)
-
-### [[Transitions/Push Sweep from Feet on Hips]] (5% of attempts)
-
-### [[Transitions/Single Leg X Sweep]] (3% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (3% of attempts)
-
-### [[Transitions/Arm Drag Sweep]] (2% of attempts)
-
-### [[Transitions/Balloon Sweep]] (2% of attempts)
-
-### [[Transitions/Elevator Sweep]] (2% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (1% of attempts)
-
-### [[Transitions/Feet on Hips to De La Riva]] (0% of attempts)
-
-### [[Transitions/Guard Pull]] (0% of attempts)
-
-### [[Transitions/Feet on Hips Sickle Sweep]] (0% of attempts)
-
-### [[Transitions/Feet on Hips Tripod Sweep]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

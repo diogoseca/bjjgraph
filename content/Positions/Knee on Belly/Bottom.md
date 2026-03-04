@@ -201,34 +201,6 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (42% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (10% of attempts)
-
-### [[Transitions/Deep Half Entry]] (5% of attempts)
-
-### [[Transitions/Knee Shield Retention]] (11% of attempts)
-
-### [[Transitions/Technical Stand-up]] (4% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (10% of attempts)
-
-### [[Transitions/Hip Escape to Turtle]] (9% of attempts)
-
-### [[Transitions/Frame and Shrimp from Knee on Belly]] (3% of attempts)
-
-### [[Transitions/Push Knee and Reguard from Knee on Belly]] (3% of attempts)
-
-### [[Transitions/Turn to Turtle from Knee on Belly]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

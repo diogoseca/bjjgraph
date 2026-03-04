@@ -206,34 +206,6 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (37% of attempts)
-
-### [[Positions/Mount/Mounted Triangle]] (8% of attempts)
-
-### [[Transitions/S-Mount Transition]] (8% of attempts)
-
-### [[Transitions/Back Take]] (10% of attempts)
-
-### [[Transitions/Consolidate Mount]] (16% of attempts)
-
-### [[Transitions/High Mount Transition]] (8% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (6% of attempts)
-
-### [[Transitions/3-4 Mount to S Mount]] (3% of attempts)
-
-### [[Transitions/3-4 Mount to Technical Mount]] (2% of attempts)
-
-### [[Submissions/Americana from 3-4 Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

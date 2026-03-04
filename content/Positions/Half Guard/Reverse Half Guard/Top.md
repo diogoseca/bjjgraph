@@ -202,32 +202,6 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Leg Drag Pass]] (24% of attempts)
-
-### [[Transitions/Knee Slice from Half]] (12% of attempts)
-
-### [[Transitions/Crossface Pass]] (11% of attempts)
-
-### [[Transitions/Smash Pass]] (12% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (12% of attempts)
-
-### [[Transitions/Back Step Pass]] (11% of attempts)
-
-### [[Transitions/Back Take from Top]] (10% of attempts)
-
-### [[Transitions/Backstep from Reverse Half]] (5% of attempts)
-
-### [[Transitions/Pass Reverse Half]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

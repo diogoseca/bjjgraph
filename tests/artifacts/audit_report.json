@@ -3,12 +3,12 @@
     "transition_files": 1072,
     "submission_files": 153,
     "position_files": 139,
-    "total_issues": 496,
+    "total_issues": 502,
     "errors": 0,
     "warnings": 3,
-    "info": 493,
+    "info": 499,
     "orphaned_transitions": 0,
-    "orphaned_submissions": 18,
+    "orphaned_submissions": 0,
     "missing_transitions": 0,
     "naming_matches": 0,
     "probability_errors": 0,
@@ -16,153 +16,9 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 2,
-    "attempt_outliers": 475
+    "attempt_outliers": 499
   },
   "issues": [
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Aoki Lock",
-      "file": "content/Submissions/Aoki Lock.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Aoki Lock' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Arm in Guillotine",
-      "file": "content/Submissions/Arm in Guillotine.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Arm in Guillotine' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Bicep Slicer",
-      "file": "content/Submissions/Bicep Slicer.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Bicep Slicer' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Boston Crab",
-      "file": "content/Submissions/Boston Crab.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Boston Crab' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Flying Armbar",
-      "file": "content/Submissions/Flying Armbar.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Flying Armbar' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "High Elbow Guillotine",
-      "file": "content/Submissions/High Elbow Guillotine.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'High Elbow Guillotine' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Inside Heel Hook",
-      "file": "content/Submissions/Inside Heel Hook.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Inside Heel Hook' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Japanese Necktie",
-      "file": "content/Submissions/Japanese Necktie.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Japanese Necktie' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Kimura from North-South",
-      "file": "content/Submissions/Kimura from North-South.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Kimura from North-South' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Kneebar from Guard",
-      "file": "content/Submissions/Kneebar from Guard.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Kneebar from Guard' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Monoplata",
-      "file": "content/Submissions/Monoplata.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Monoplata' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Monoplata from Guard",
-      "file": "content/Submissions/Monoplata from Guard.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Monoplata from Guard' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Reverse Armbar",
-      "file": "content/Submissions/Reverse Armbar.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Reverse Armbar' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Reverse Kimura",
-      "file": "content/Submissions/Reverse Kimura.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Reverse Kimura' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Spine Lock",
-      "file": "content/Submissions/Spine Lock.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Spine Lock' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Ten Finger Guillotine",
-      "file": "content/Submissions/Ten Finger Guillotine.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Ten Finger Guillotine' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Toe Hold from Top",
-      "file": "content/Submissions/Toe Hold from Top.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Toe Hold from Top' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Von Flue Choke",
-      "file": "content/Submissions/Von Flue Choke.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Von Flue Choke' (from: NONE)"
-    },
     {
       "file": "content/Transitions/Lapel Sweep to Back.json",
       "name": "Lapel Sweep to Back",
@@ -280,6 +136,16 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Ashi Garami/50-50 Guard.json",
+      "position": "50-50 Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Ashi Garami/Backside 50-50.json",
       "position": "Backside 50-50",
       "role": "top",
@@ -340,6 +206,16 @@
       "current": 1
     },
     {
+      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
+      "position": "Cross Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Ashi Garami/Honey Hole.json",
       "position": "Honey Hole",
       "role": "top",
@@ -387,6 +263,16 @@
       "message": "bottom: 'Sweep from Honey Hole' has only 1% attempt probability",
       "severity": "info",
       "transition": "Sweep from Honey Hole",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Honey Hole.json",
+      "position": "Honey Hole",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
       "current": 1
     },
     {
@@ -450,6 +336,36 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "position": "Inside Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Inside Heel Hook' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Inside Heel Hook",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "position": "Inside Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Toe Hold from Top' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Toe Hold from Top",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "position": "Inside Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
       "position": "Outside Ashi-Garami",
       "role": "top",
@@ -457,6 +373,16 @@
       "message": "top: 'Toe Hold from Outside Ashi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Toe Hold from Outside Ashi",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "position": "Outside Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
       "current": 1
     },
     {
@@ -487,6 +413,16 @@
       "message": "bottom: 'Sweep from Saddle' has only 1% attempt probability",
       "severity": "info",
       "transition": "Sweep from Saddle",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Saddle.json",
+      "position": "Saddle",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
       "current": 1
     },
     {
@@ -524,10 +460,10 @@
       "position": "Ashi Garami",
       "role": "bottom",
       "type": "attempt_dominant",
-      "message": "bottom: 'Inside Ashi Entry' dominates with 62% attempt probability",
+      "message": "bottom: 'Inside Ashi Entry' dominates with 61% attempt probability",
       "severity": "info",
       "transition": "Inside Ashi Entry",
-      "current": 62
+      "current": 61
     },
     {
       "file": "content/Positions/Ashi Garami.json",
@@ -567,6 +503,16 @@
       "message": "bottom: 'Standing Up from Ashi Garami' has only 1% attempt probability",
       "severity": "info",
       "transition": "Standing Up from Ashi Garami",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Ashi Garami.json",
+      "position": "Ashi Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
       "current": 1
     },
     {
@@ -1250,6 +1196,16 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Butterfly Guard.json",
+      "position": "Butterfly Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Aoki Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Aoki Lock",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Clinch.json",
       "position": "Clinch",
       "role": "top",
@@ -1460,6 +1416,46 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Flying Armbar' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Flying Armbar",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Kneebar from Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Kneebar from Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Monoplata' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Monoplata",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Monoplata from Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Monoplata from Guard",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Collar Sleeve Guard.json",
       "position": "Collar Sleeve Guard",
       "role": "top",
@@ -1598,6 +1594,16 @@
       "severity": "info",
       "transition": "Crucifix to Mount",
       "current": 2
+    },
+    {
+      "file": "content/Positions/Crucifix.json",
+      "position": "Crucifix",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Bicep Slicer' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Bicep Slicer",
+      "current": 1
     },
     {
       "file": "content/Positions/Crucifix.json",
@@ -1978,6 +1984,46 @@
       "severity": "info",
       "transition": "Peruvian Necktie",
       "current": 2
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Arm in Guillotine' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Arm in Guillotine",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'High Elbow Guillotine' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "High Elbow Guillotine",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Japanese Necktie' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Japanese Necktie",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Ten Finger Guillotine' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Ten Finger Guillotine",
+      "current": 1
     },
     {
       "file": "content/Positions/Gift Wrap.json",
@@ -3372,12 +3418,32 @@
     {
       "file": "content/Positions/Mount.json",
       "position": "Mount",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Reverse Armbar' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Reverse Armbar",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Mount.json",
+      "position": "Mount",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Mount Escape to Half Guard Back Take' has only 2% attempt probability",
       "severity": "info",
       "transition": "Mount Escape to Half Guard Back Take",
       "current": 2
+    },
+    {
+      "file": "content/Positions/North-South.json",
+      "position": "North-South",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Kimura from North-South' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Kimura from North-South",
+      "current": 1
     },
     {
       "file": "content/Positions/Omoplata Control.json",
@@ -4192,6 +4258,16 @@
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Von Flue Choke' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Von Flue Choke",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
       "role": "bottom",
       "type": "attempt_negligible",
       "message": "bottom: 'Turtle from Side Control Bottom' has only 2% attempt probability",
@@ -4450,6 +4526,16 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Reverse Kimura' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Reverse Kimura",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Standing Rear Clinch.json",
       "position": "Standing Rear Clinch",
       "role": "top",
@@ -4563,16 +4649,6 @@
       "file": "content/Positions/Turtle.json",
       "position": "Turtle",
       "role": "top",
-      "type": "attempt_dominant",
-      "message": "top: 'Turtle to Back Control' dominates with 61% attempt probability",
-      "severity": "info",
-      "transition": "Turtle to Back Control",
-      "current": 61
-    },
-    {
-      "file": "content/Positions/Turtle.json",
-      "position": "Turtle",
-      "role": "top",
       "type": "attempt_negligible",
       "message": "top: 'Turtle to Truck Entry' has only 2% attempt probability",
       "severity": "info",
@@ -4650,6 +4726,16 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Boston Crab' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Boston Crab",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Twister Control/Truck.json",
       "position": "Truck",
       "role": "top",
@@ -4678,6 +4764,16 @@
       "severity": "info",
       "transition": "Calf Slicer from Truck",
       "current": 2
+    },
+    {
+      "file": "content/Positions/Twister Control/Truck.json",
+      "position": "Truck",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Spine Lock' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Spine Lock",
+      "current": 1
     },
     {
       "file": "content/Positions/Twister Control/Truck.json",

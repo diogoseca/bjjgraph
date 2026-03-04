@@ -206,30 +206,6 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (46% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (14% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (12% of attempts)
-
-### [[Transitions/Deep Half Entry]] (12% of attempts)
-
-### [[Positions/Dogfight Position]] (9% of attempts)
-
-### [[Transitions/Old School Sweep from Bottom]] (4% of attempts)
-
-### [[Transitions/Old School to Half Guard]] (2% of attempts)
-
-### [[Transitions/Old School Position Sweep]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

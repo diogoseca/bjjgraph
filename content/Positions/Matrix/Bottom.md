@@ -212,36 +212,6 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Matrix Back Take]] (52% of attempts)
-
-### [[Transitions/Rolling Back Take]] (7% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (7% of attempts)
-
-### [[Transitions/Chair Sit to Back]] (5% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (13% of attempts)
-
-### [[Transitions/Rolling to Guard]] (7% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (1% of attempts)
-
-### [[Transitions/Turtle to Guard]] (7% of attempts)
-
-### [[Transitions/Counter Roll from Matrix]] (0% of attempts)
-
-### [[Transitions/Escape Matrix Position]] (0% of attempts)
-
-### [[Transitions/Sweep from Matrix]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

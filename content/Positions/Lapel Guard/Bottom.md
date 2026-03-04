@@ -210,36 +210,6 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Worm Guard Entry]] (16% of attempts)
-
-### [[Transitions/Squid Guard Entry]] (12% of attempts)
-
-### [[Transitions/Ringworm Guard Entry]] (5% of attempts)
-
-### [[Transitions/Lapel Sweep to Back]] (22% of attempts)
-
-### [[Transitions/Lapel Omoplata Entry]] (8% of attempts)
-
-### [[Transitions/Lapel Triangle Setup]] (6% of attempts)
-
-### [[Transitions/Lapel to Lasso Guard]] (7% of attempts)
-
-### [[Transitions/Lapel to Spider Guard]] (7% of attempts)
-
-### [[Transitions/Lapel to De La Riva]] (7% of attempts)
-
-### [[Transitions/Lapel Elevator Sweep]] (8% of attempts)
-
-### [[Transitions/Lapel Guard to Piranha Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

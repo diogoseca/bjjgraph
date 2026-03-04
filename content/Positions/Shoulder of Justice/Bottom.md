@@ -204,32 +204,6 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Shrimp Escape]] (36% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (18% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (15% of attempts)
-
-### [[Transitions/Bridge and Roll]] (10% of attempts)
-
-### [[Transitions/Technical Stand-up]] (9% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (7% of attempts)
-
-### [[Transitions/Escape Shoulder of Justice]] (3% of attempts)
-
-### [[Transitions/Frame from Shoulder of Justice]] (1% of attempts)
-
-### [[Transitions/Frame Escape from Shoulder of Justice]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

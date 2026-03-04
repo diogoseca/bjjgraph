@@ -210,36 +210,6 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Back Step Pass]] (15% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (12% of attempts)
-
-### [[Transitions/Stack Pass from Inversion]] (10% of attempts)
-
-### [[Transitions/Step Over to Mount]] (5% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (8% of attempts)
-
-### [[Transitions/Sprawl and Disengage]] (14% of attempts)
-
-### [[Transitions/Toreando Pass]] (12% of attempts)
-
-### [[Transitions/Cartwheel Pass]] (3% of attempts)
-
-### [[Transitions/Pressure Pass through Center]] (5% of attempts)
-
-### [[Transitions/Counter Ashi Entry]] (8% of attempts)
-
-### [[Transitions/Double Under Pass]] (8% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

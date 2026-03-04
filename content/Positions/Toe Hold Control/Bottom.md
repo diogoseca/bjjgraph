@@ -202,30 +202,6 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Angle Change Escape]] (25% of attempts)
-
-### [[Transitions/Ashi Garami Escape]] (15% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (14% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (12% of attempts)
-
-### [[Transitions/Guard Recovery from Leg Entanglement]] (13% of attempts)
-
-### [[Transitions/Deep Half Entry]] (12% of attempts)
-
-### [[Transitions/Boot Defense from Toe Hold]] (6% of attempts)
-
-### [[Transitions/Counter Rotation from Toe Hold]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

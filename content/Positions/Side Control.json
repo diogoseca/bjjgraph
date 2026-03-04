@@ -112,7 +112,7 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Americana",
@@ -197,6 +197,10 @@
       {
         "transition": "Triangle Choke Side",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Von Flue Choke",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

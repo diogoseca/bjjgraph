@@ -204,34 +204,6 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Guillotine Choke]] (44% of attempts)
-
-### [[Transitions/High Elbow Guillotine Variation]] (16% of attempts)
-
-### [[Transitions/Front Headlock to Anaconda]] (7% of attempts)
-
-### [[Transitions/Front Headlock to Darce]] (7% of attempts)
-
-### [[Transitions/Side Control to Mount]] (7% of attempts)
-
-### [[Transitions/Side Control to North-South]] (5% of attempts)
-
-### [[Transitions/Pass to Side Control]] (10% of attempts)
-
-### [[Transitions/Arm in Guillotine Variation]] (2% of attempts)
-
-### [[Transitions/Guillotine Counter]] (1% of attempts)
-
-### [[Transitions/Ten Finger Guillotine Variation]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

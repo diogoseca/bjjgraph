@@ -205,40 +205,6 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Take]] (28% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (12% of attempts)
-
-### [[Transitions/Turtle to Truck]] (10% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (10% of attempts)
-
-### [[Transitions/Clock Choke]] (8% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
-
-### [[Transitions/Consolidate Mount]] (8% of attempts)
-
-### [[Transitions/Rolling Back Take]] (6% of attempts)
-
-### [[Transitions/Darce from Turtle]] (5% of attempts)
-
-### [[Transitions/Rodeo Ride to Back Control]] (2% of attempts)
-
-### [[Transitions/Rodeo Ride to Turtle]] (1% of attempts)
-
-### [[Submissions/Calf Slicer from Rodeo Ride]] (2% of attempts)
-
-### [[Submissions/Rear Naked Choke from Rodeo]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

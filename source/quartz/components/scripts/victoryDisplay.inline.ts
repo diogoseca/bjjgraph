@@ -286,18 +286,8 @@ function renderLifetimeStats(stats: LifetimeStats, prefix: string) {
   weaknesses.sort((a, b) => b.attempts - a.attempts)
 
   // Only show top 5 of each
-  renderReportList(
-    strengthsList,
-    strengths.slice(0, 5),
-    "Keep drilling!",
-    "strength",
-  )
-  renderReportList(
-    weaknessesList,
-    weaknesses.slice(0, 5),
-    "Clean sheet",
-    "weakness",
-  )
+  renderReportList(strengthsList, strengths.slice(0, 5), "Keep drilling!", "strength")
+  renderReportList(weaknessesList, weaknesses.slice(0, 5), "Clean sheet", "weakness")
 
   perfEl.style.display = "block"
 }
@@ -373,11 +363,15 @@ document.addEventListener("nav", () => {
       // Compute current roll stats
       const totalMoves = journey.length
 
-      const diceSteps = journey.filter((s) => inferAction(s) === "dice-roll" && s.success !== undefined)
+      const diceSteps = journey.filter(
+        (s) => inferAction(s) === "dice-roll" && s.success !== undefined,
+      )
       const diceWon = diceSteps.filter((s) => s.success === true).length
       const diceLost = diceSteps.filter((s) => s.success === false).length
 
-      const flashSteps = journey.filter((s) => inferAction(s) === "flashcard" && s.success !== undefined)
+      const flashSteps = journey.filter(
+        (s) => inferAction(s) === "flashcard" && s.success !== undefined,
+      )
       const flashRight = flashSteps.filter((s) => s.success === true).length
       const flashWrong = flashSteps.filter((s) => s.success === false).length
 

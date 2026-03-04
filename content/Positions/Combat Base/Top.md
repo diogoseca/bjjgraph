@@ -207,32 +207,6 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slide from Combat Base]] (22% of attempts)
-
-### [[Transitions/Toreando Pass]] (18% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (15% of attempts)
-
-### [[Transitions/Combat Base to Headquarters]] (13% of attempts)
-
-### [[Transitions/Long Step Pass]] (10% of attempts)
-
-### [[Transitions/Standing Up from Combat Base]] (5% of attempts)
-
-### [[Transitions/Stand Up from Combat Base]] (3% of attempts)
-
-### [[Transitions/Smash Pass]] (7% of attempts)
-
-### [[Transitions/Double Under Pass]] (7% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

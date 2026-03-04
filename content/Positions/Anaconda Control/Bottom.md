@@ -205,28 +205,6 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Defensive Roll]] (40% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (20% of attempts)
-
-### [[Transitions/Arm Extraction]] (20% of attempts)
-
-### [[Transitions/Anaconda Grip Break to Front Headlock]] (10% of attempts)
-
-### [[Transitions/Frame and Posture from Anaconda]] (5% of attempts)
-
-### [[Transitions/Roll Defense from Anaconda]] (3% of attempts)
-
-### [[Transitions/Rolling Escape from Anaconda]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

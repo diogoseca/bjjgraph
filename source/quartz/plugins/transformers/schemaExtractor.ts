@@ -26,10 +26,7 @@ export const SchemaExtractor: QuartzTransformerPlugin = () => ({
 
           // Find all script tags with type="application/ld+json"
           visit(tree, "element", (node: Element, index, parent) => {
-            if (
-              node.tagName === "script" &&
-              node.properties?.type === "application/ld+json"
-            ) {
+            if (node.tagName === "script" && node.properties?.type === "application/ld+json") {
               // Extract JSON content from script tag
               const textContent = node.children
                 .filter((child): child is Text => child.type === "text")
@@ -47,9 +44,7 @@ export const SchemaExtractor: QuartzTransformerPlugin = () => ({
                   }
                 } catch (e) {
                   // Invalid JSON - leave the script tag in place
-                  console.warn(
-                    `SchemaExtractor: Invalid JSON-LD in ${file.data.slug}: ${e}`,
-                  )
+                  console.warn(`SchemaExtractor: Invalid JSON-LD in ${file.data.slug}: ${e}`)
                 }
               }
             }

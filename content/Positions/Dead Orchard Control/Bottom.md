@@ -202,30 +202,6 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Shrimp Escape]] (33% of attempts)
-
-### [[Transitions/Rolling to Guard]] (18% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (11% of attempts)
-
-### [[Transitions/Arm Extraction]] (19% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (11% of attempts)
-
-### [[Transitions/Escape Dead Orchard Control]] (5% of attempts)
-
-### [[Transitions/Roll from Dead Orchard]] (2% of attempts)
-
-### [[Transitions/Escape from Dead Orchard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

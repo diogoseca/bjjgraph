@@ -208,32 +208,6 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Technical Stand-up]] (19% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (11% of attempts)
-
-### [[Transitions/Turtle to Guard]] (13% of attempts)
-
-### [[Transitions/Stand and Circle Away]] (15% of attempts)
-
-### [[Transitions/Roll Through to Reversal]] (13% of attempts)
-
-### [[Transitions/Arm Drag Escape]] (9% of attempts)
-
-### [[Transitions/Guillotine Defense]] (9% of attempts)
-
-### [[Transitions/Sit Through to Guard]] (7% of attempts)
-
-### [[Transitions/Hip Escape from Front Headlock]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

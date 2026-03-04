@@ -204,30 +204,6 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Stack Pass]] (14% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Back Step]] (12% of attempts)
-
-### [[Transitions/Toreando Pass]] (14% of attempts)
-
-### [[Transitions/Pressure Pass]] (24% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (14% of attempts)
-
-### [[Transitions/Pass Squid Guard]] (6% of attempts)
-
-### [[Transitions/Pressure Through Squid Guard]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

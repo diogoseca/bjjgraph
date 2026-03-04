@@ -205,34 +205,6 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Leg Drag Pass to Side Control]] (22% of attempts)
-
-### [[Transitions/Leg Drag to Back Take]] (20% of attempts)
-
-### [[Transitions/Leg Drag to Mount]] (12% of attempts)
-
-### [[Transitions/Leg Drag to Knee on Belly]] (12% of attempts)
-
-### [[Transitions/Leg Drag to North-South]] (7% of attempts)
-
-### [[Transitions/Leg Drag to Crucifix]] (4% of attempts)
-
-### [[Transitions/Leg Drag to Inside Ashi]] (6% of attempts)
-
-### [[Transitions/Leg Drag to Technical Mount]] (8% of attempts)
-
-### [[Transitions/Leg Drag to Darce Setup]] (7% of attempts)
-
-### [[Submissions/Darce from Leg Drag]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

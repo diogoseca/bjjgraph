@@ -205,40 +205,6 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (9% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
-
-### [[Transitions/Deep Half Entry]] (8% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (5% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (6% of attempts)
-
-### [[Transitions/Lumberjack Sweep]] (5% of attempts)
-
-### [[Transitions/Kimura]] (4% of attempts)
-
-### [[Transitions/Knee Shield Retention]] (51% of attempts)
-
-### [[Transitions/Elevator Sweep]] (4% of attempts)
-
-### [[Transitions/Knee Shield Half Guard to Z-Guard]] (1% of attempts)
-
-### [[Transitions/Knee Shield to Closed Guard]] (0% of attempts)
-
-### [[Transitions/Underhook from Knee Shield]] (0% of attempts)
-
-### [[Transitions/Sweep from Knee Shield]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

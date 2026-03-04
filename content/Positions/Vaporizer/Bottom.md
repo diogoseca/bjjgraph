@@ -206,30 +206,6 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (26% of attempts)
-
-### [[Transitions/Turtle to Truck]] (16% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (18% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (8% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (13% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (13% of attempts)
-
-### [[Transitions/Escape Vaporizer]] (4% of attempts)
-
-### [[Transitions/Roll from Vaporizer]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

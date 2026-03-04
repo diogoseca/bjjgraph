@@ -202,32 +202,6 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lasso Guard Pass]] (24% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (12% of attempts)
-
-### [[Transitions/Toreando Pass]] (12% of attempts)
-
-### [[Transitions/Long Step Pass]] (12% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (12% of attempts)
-
-### [[Transitions/Pressure Pass]] (10% of attempts)
-
-### [[Transitions/Back Step Pass]] (10% of attempts)
-
-### [[Transitions/Pass Russian Leg Lasso]] (5% of attempts)
-
-### [[Transitions/Strip Russian Leg Lasso]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

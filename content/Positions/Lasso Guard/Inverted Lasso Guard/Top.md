@@ -208,34 +208,6 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lasso Guard Pass]] (11% of attempts)
-
-### [[Transitions/Stack Pass]] (11% of attempts)
-
-### [[Transitions/Arm Extraction]] (22% of attempts)
-
-### [[Transitions/Cartwheel Pass]] (11% of attempts)
-
-### [[Transitions/Pressure Pass]] (10% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (8% of attempts)
-
-### [[Transitions/Smash Pass]] (9% of attempts)
-
-### [[Transitions/Back Step Pass]] (12% of attempts)
-
-### [[Transitions/Pass Inverted Lasso Guard]] (4% of attempts)
-
-### [[Transitions/Stack from Inverted Lasso]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

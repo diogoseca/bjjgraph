@@ -207,38 +207,6 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Heel Hook]] (18% of attempts)
-
-### [[Transitions/Outside Heel Hook]] (10% of attempts)
-
-### [[Transitions/Toe Hold]] (10% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (5% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (12% of attempts)
-
-### [[Transitions/Kneebar]] (7% of attempts)
-
-### [[Transitions/50-50 Pass]] (6% of attempts)
-
-### [[Transitions/Back Take from 50-50]] (16% of attempts)
-
-### [[Transitions/Calf Slicer]] (4% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Honey Hole]] (6% of attempts)
-
-### [[Transitions/Counter heel hook]] (4% of attempts)
-
-### [[Submissions/Outside Heel Hook from Backside 50-50]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

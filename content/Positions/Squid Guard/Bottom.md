@@ -207,36 +207,6 @@ While technically demanding and requiring significant flexibility, coordination,
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Kiss of the Dragon]] (22% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (10% of attempts)
-
-### [[Transitions/Single Leg X Sweep]] (9% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (9% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (9% of attempts)
-
-### [[Transitions/Guard Recovery from Squid Guard]] (10% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (8% of attempts)
-
-### [[Transitions/Triangle Setup]] (8% of attempts)
-
-### [[Transitions/Omoplata to Back]] (9% of attempts)
-
-### [[Transitions/Squid Guard Sweep]] (4% of attempts)
-
-### [[Transitions/Squid to Ringworm Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

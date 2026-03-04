@@ -206,36 +206,6 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Waiter Sweep]] (14% of attempts)
-
-### [[Transitions/Old School Sweep]] (41% of attempts)
-
-### [[Transitions/Rolling Back Take]] (11% of attempts)
-
-### [[Submissions/Electric Chair Submission]] (6% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (9% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (10% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (6% of attempts)
-
-### [[Transitions/Deep Half Sweep]] (2% of attempts)
-
-### [[Transitions/Deep Half to X-Guard]] (0% of attempts)
-
-### [[Transitions/Electric Chair Entry from Deep Half]] (0% of attempts)
-
-### [[Transitions/Homer Simpson Sweep]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

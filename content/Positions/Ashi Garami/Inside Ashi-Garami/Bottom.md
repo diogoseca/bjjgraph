@@ -27,7 +27,7 @@ description: "Foundational leg entanglement attacking position with heel control
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 35% of exchanges from this position.",
       "position": 2
     },
     {
@@ -203,42 +203,6 @@ This position has become increasingly prominent in modern no-gi competition, ser
 - Transition fluidly between submissions and positions - leg locks are a system, not isolated techniques
 - Keep chest connection to opponent's leg - breaking this connection loses control
 - SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Heel Hook]] (5% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (38% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (12% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (7% of attempts)
-
-### [[Transitions/Kneebar Finish]] (4% of attempts)
-
-### [[Transitions/Toe Hold]] (6% of attempts)
-
-### [[Transitions/50-50 Entry]] (4% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Honey Hole]] (9% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Cross Ashi]] (4% of attempts)
-
-### [[Transitions/Guard Recovery from Inside Ashi-Garami]] (6% of attempts)
-
-### [[Transitions/Counter Entangle to 50-50 from Ashi]] (1% of attempts)
-
-### [[Transitions/Leg Extraction from Inside Ashi]] (1% of attempts)
-
-### [[Transitions/Standing Up from Inside Ashi]] (1% of attempts)
-
-### [[Submissions/Achilles Lock]] (2% of attempts)
-
 
 
 </section>

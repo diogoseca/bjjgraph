@@ -200,30 +200,6 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Gogoplata]] (11% of attempts)
-
-### [[Transitions/Omoplata]] (13% of attempts)
-
-### [[Transitions/Triangle Choke]] (12% of attempts)
-
-### [[Transitions/Crackhead Control to Carni]] (15% of attempts)
-
-### [[Submissions/Armbar from Guard]] (12% of attempts)
-
-### [[Transitions/Baratoplata]] (7% of attempts)
-
-### [[Transitions/Crackhead Control to Mission Control]] (15% of attempts)
-
-### [[Transitions/Crackhead Control to New York]] (15% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

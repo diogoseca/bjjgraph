@@ -21,7 +21,7 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -199,72 +199,6 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - Maintain defensive awareness against common takedown entries while preparing offensive attacks
 - Recognize optimal timing windows for transitions to takedowns, guard pulls, or defensive reactions
 - Manage energy efficiently through strategic movement and selective grip engagement rather than constant muscular tension
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Guard Pull]] (17% of attempts)
-
-### [[Transitions/Double Leg Setup]] (8% of attempts)
-
-### [[Transitions/Single Leg Entry]] (8% of attempts)
-
-### [[Transitions/Sprawl]] (8% of attempts)
-
-### [[Transitions/Double Leg Entry]] (5% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (5% of attempts)
-
-### [[Transitions/Arm Drag]] (5% of attempts)
-
-### [[Transitions/Ankle Pick]] (3% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (3% of attempts)
-
-### [[Transitions/Body Lock Takedown]] (3% of attempts)
-
-### [[Transitions/Jumping Guard]] (3% of attempts)
-
-### [[Transitions/Osoto Gari]] (3% of attempts)
-
-### [[Transitions/Ouchi Gari]] (3% of attempts)
-
-### [[Transitions/Tomoe Nage]] (3% of attempts)
-
-### [[Transitions/Deashi Harai]] (2% of attempts)
-
-### [[Transitions/Harai Goshi]] (2% of attempts)
-
-### [[Transitions/Ippon Seoi Nage]] (2% of attempts)
-
-### [[Transitions/Russian Tie to Back Take]] (2% of attempts)
-
-### [[Transitions/Sumi Gaeshi]] (2% of attempts)
-
-### [[Transitions/Tani Otoshi]] (2% of attempts)
-
-### [[Transitions/50-50 Entry from Standing]] (1% of attempts)
-
-### [[Transitions/Body Lock Pass]] (1% of attempts)
-
-### [[Transitions/Kosoto Gake]] (1% of attempts)
-
-### [[Transitions/Kosoto Gari]] (1% of attempts)
-
-### [[Transitions/Morote Seoi Nage]] (1% of attempts)
-
-### [[Transitions/Sasae Tsurikomi Ashi]] (1% of attempts)
-
-### [[Transitions/Tai Otoshi]] (1% of attempts)
-
-### [[Submissions/Flying Kneebar]] (2% of attempts)
-
-### [[Submissions/Kimura from Standing]] (2% of attempts)
-
 
 
 </section>

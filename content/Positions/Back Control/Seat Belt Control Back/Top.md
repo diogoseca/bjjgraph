@@ -206,44 +206,6 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (35% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (10% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (6% of attempts)
-
-### [[Transitions/Short Choke]] (5% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (12% of attempts)
-
-### [[Transitions/Body Triangle Lock]] (6% of attempts)
-
-### [[Transitions/Kimura from Back]] (3% of attempts)
-
-### [[Transitions/Triangle from Back]] (3% of attempts)
-
-### [[Transitions/Roll to Truck]] (3% of attempts)
-
-### [[Positions/Gift Wrap]] (5% of attempts)
-
-### [[Transitions/Seat Belt to Body Triangle]] (1% of attempts)
-
-### [[Transitions/Seat Belt to Full Back Control]] (1% of attempts)
-
-### [[Submissions/Bow and Arrow from Seat Belt]] (2% of attempts)
-
-### [[Submissions/RNC from Seat Belt]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

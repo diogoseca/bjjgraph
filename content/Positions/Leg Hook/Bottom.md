@@ -202,36 +202,6 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Deep Half Entry]] (34% of attempts)
-
-### [[Transitions/Old School Sweep]] (9% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
-
-### [[Transitions/Shin Shield Recovery]] (15% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (9% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (7% of attempts)
-
-### [[Transitions/Butterfly Hook Recovery]] (7% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (7% of attempts)
-
-### [[Transitions/Counter Leg Hook]] (3% of attempts)
-
-### [[Transitions/Escape Leg Hook]] (1% of attempts)
-
-### [[Transitions/Sweep from Leg Hook]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

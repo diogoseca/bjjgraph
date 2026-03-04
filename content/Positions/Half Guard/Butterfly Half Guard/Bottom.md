@@ -209,42 +209,6 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/100% Sweep]] (33% of attempts)
-
-### [[Transitions/Old School Sweep]] (10% of attempts)
-
-### [[Transitions/Butterfly Sweep]] (6% of attempts)
-
-### [[Transitions/Deep Half Entry]] (8% of attempts)
-
-### [[Transitions/Waiter Sweep]] (4% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
-
-### [[Transitions/Knee Tap]] (5% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (6% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (4% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (4% of attempts)
-
-### [[Transitions/Kimura Sweep]] (6% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (5% of attempts)
-
-### [[Transitions/Butterfly Half Guard Sweep]] (2% of attempts)
-
-### [[Transitions/Reguard from Butterfly Half Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

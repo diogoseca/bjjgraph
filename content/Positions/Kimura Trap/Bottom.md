@@ -206,36 +206,6 @@ Strategically, the position forces top players into impossible choices—they mu
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (31% of attempts)
-
-### [[Transitions/Kimura to Back Take]] (14% of attempts)
-
-### [[Transitions/Kimura Sweep]] (10% of attempts)
-
-### [[Transitions/Rolling Kimura]] (10% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (6% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (6% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (6% of attempts)
-
-### [[Transitions/Half Guard Pass]] (6% of attempts)
-
-### [[Transitions/Kimura Counter via Roll]] (3% of attempts)
-
-### [[Transitions/Kimura Defense Arm Extraction]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

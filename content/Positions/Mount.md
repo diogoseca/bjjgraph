@@ -192,7 +192,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Positions/Mount/Mounted Triangle]]** (3% of attempts)
 
-- **[[Transitions/Consolidate Mount]]** (41% of attempts)
+- **[[Transitions/Consolidate Mount]]** (39% of attempts)
 
 - **[[Transitions/Mount Control]]** (3% of attempts)
 
@@ -217,6 +217,8 @@ Understanding Mount from both perspectives is essential for complete grappling d
 - **[[Submissions/Loop Choke from Mount]]** (2% of attempts)
 
 - **[[Submissions/Monoplata from Mount]]** (2% of attempts)
+
+- **[[Submissions/Reverse Armbar]]** (2% of attempts)
 
 
 ### Common Mistakes

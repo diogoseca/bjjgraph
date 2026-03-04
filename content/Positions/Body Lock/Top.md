@@ -206,34 +206,6 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Back Take]] (14% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (8% of attempts)
-
-### [[Transitions/Tani Otoshi]] (10% of attempts)
-
-### [[Transitions/Kosoto Gake]] (8% of attempts)
-
-### [[Transitions/Mat Return to Back Mount]] (40% of attempts)
-
-### [[Transitions/Harai Goshi]] (5% of attempts)
-
-### [[Transitions/Body Lock Pass]] (10% of attempts)
-
-### [[Transitions/Double Leg Finish]] (3% of attempts)
-
-### [[Transitions/Body Lock Takedown]] (1% of attempts)
-
-### [[Transitions/Body Lock to Standing]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

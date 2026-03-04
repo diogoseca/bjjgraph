@@ -206,36 +206,6 @@ This position is fundamental to modern leg lock systems and serves as both a pow
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Outside Heel Hook]] (39% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (3% of attempts)
-
-### [[Transitions/Toe Hold]] (8% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (18% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (8% of attempts)
-
-### [[Transitions/Kneebar entry]] (8% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (3% of attempts)
-
-### [[Transitions/Heel Hook]] (8% of attempts)
-
-### [[Transitions/Cross Ashi Transition]] (3% of attempts)
-
-### [[Transitions/Cross Ashi to 50-50]] (1% of attempts)
-
-### [[Transitions/Outside Heel Hook from Cross Ashi]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

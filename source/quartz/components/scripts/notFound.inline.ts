@@ -95,9 +95,7 @@ async function findBestMatch(
  */
 function formatPath(pathname: string): string {
   const clean = pathname.replace(/^\//, "").replace(/\/$/, "")
-  return decodeURIComponent(clean)
-    .replace(/-/g, " ")
-    .replace(/\//g, " / ")
+  return decodeURIComponent(clean).replace(/-/g, " ").replace(/\//g, " / ")
 }
 
 /**

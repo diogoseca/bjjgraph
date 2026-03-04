@@ -206,38 +206,6 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (28% of attempts)
-
-### [[Transitions/Smash Pass]] (10% of attempts)
-
-### [[Transitions/Crossface Pass]] (10% of attempts)
-
-### [[Transitions/Underhook Pass]] (9% of attempts)
-
-### [[Transitions/Long Step Pass]] (8% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (6% of attempts)
-
-### [[Transitions/Side Control to Mount]] (7% of attempts)
-
-### [[Transitions/Side Control to North-South]] (8% of attempts)
-
-### [[Transitions/Kimura]] (6% of attempts)
-
-### [[Transitions/Darce Setup]] (5% of attempts)
-
-### [[Transitions/Complete Pass from Quarter]] (2% of attempts)
-
-### [[Transitions/Knee Through from Quarter]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

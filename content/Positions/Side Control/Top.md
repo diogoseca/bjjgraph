@@ -21,7 +21,7 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
@@ -197,58 +197,6 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 - Hip Control: Near hand blocks opponent's far hip to prevent knee insertion and guard recovery
 - Base Management: Appropriate leg positioning with near leg posted and far leg sprawled provides stability against escape attempts
 - Chest Pressure: Perpendicular chest contact maximizes control surface and distributes weight effectively
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to Mount]] (21% of attempts)
-
-### [[Transitions/Americana]] (11% of attempts)
-
-### [[Transitions/Kimura]] (10% of attempts)
-
-### [[Positions/Knee on Belly]] (10% of attempts)
-
-### [[Transitions/Side Control to North-South]] (7% of attempts)
-
-### [[Transitions/Arm Triangle]] (7% of attempts)
-
-### [[Transitions/Armbar Finish]] (3% of attempts)
-
-### [[Transitions/Side Control to Kesa Gatame]] (3% of attempts)
-
-### [[Transitions/Side Control to Side Control Consolidation]] (2% of attempts)
-
-### [[Transitions/Side Control to Shoulder of Justice]] (2% of attempts)
-
-### [[Transitions/North-South Choke]] (2% of attempts)
-
-### [[Transitions/Breadcutter Choke]] (2% of attempts)
-
-### [[Transitions/Side Control to Scarf Hold Position]] (2% of attempts)
-
-### [[Submissions/Americana from Side Control]] (2% of attempts)
-
-### [[Submissions/Arm Crush]] (2% of attempts)
-
-### [[Submissions/Armbar from Side Control]] (2% of attempts)
-
-### [[Submissions/Far Side Armbar]] (2% of attempts)
-
-### [[Submissions/Kimura from Side Control]] (2% of attempts)
-
-### [[Submissions/Kneebar from Top]] (2% of attempts)
-
-### [[Submissions/Marce Choke]] (2% of attempts)
-
-### [[Submissions/Mir Lock]] (2% of attempts)
-
-### [[Submissions/Triangle Choke Side]] (2% of attempts)
-
 
 
 </section>

@@ -208,30 +208,6 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Kneebar]] (25% of attempts)
-
-### [[Transitions/Kneebar Finish]] (25% of attempts)
-
-### [[Transitions/Kneebar Control Maintenance]] (12% of attempts)
-
-### [[Transitions/Ankle Lock Finish]] (10% of attempts)
-
-### [[Transitions/Toe Hold]] (10% of attempts)
-
-### [[Positions/Knee on Belly]] (10% of attempts)
-
-### [[Transitions/Kneebar to 50-50 Transition]] (4% of attempts)
-
-### [[Transitions/Kneebar to Ashi Garami]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

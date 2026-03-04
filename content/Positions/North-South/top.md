@@ -21,7 +21,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -201,34 +201,6 @@ The position serves as a critical checkpoint during guard passing sequences and 
 - Use shoulder and head pressure to restrict opponent's head movement and breathing
 - Transition to mount or other positions when opponent creates defensive frames
 - Balance between control maintenance and submission hunting based on opponent's reactions
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/North-South Choke]] (14% of attempts)
-
-### [[Transitions/Side Control to Mount]] (12% of attempts)
-
-### [[Transitions/North-South to Kimura]] (14% of attempts)
-
-### [[Transitions/Armbar from North-South]] (12% of attempts)
-
-### [[Transitions/Side Control to North-South]] (8% of attempts)
-
-### [[Transitions/Americana]] (10% of attempts)
-
-### [[Positions/Knee on Belly]] (8% of attempts)
-
-### [[Transitions/Arm Triangle Setup]] (8% of attempts)
-
-### [[Transitions/Reverse Mount Transition]] (7% of attempts)
-
-### [[Transitions/Back Take from Top]] (7% of attempts)
-
 
 
 </section>

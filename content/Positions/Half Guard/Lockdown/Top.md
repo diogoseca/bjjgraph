@@ -202,34 +202,6 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Half Guard Pass]] (6% of attempts)
-
-### [[Transitions/Knee Slice from Half]] (9% of attempts)
-
-### [[Transitions/Smash Pass]] (8% of attempts)
-
-### [[Transitions/Underhook Pass]] (8% of attempts)
-
-### [[Transitions/Crossface Pass]] (9% of attempts)
-
-### [[Transitions/Leg Extraction to Combat Base]] (37% of attempts)
-
-### [[Transitions/Lockdown to Z-Lock Half Guard]] (9% of attempts)
-
-### [[Transitions/Lockdown Break and Pass]] (10% of attempts)
-
-### [[Transitions/Darce from Lockdown Counter]] (3% of attempts)
-
-### [[Transitions/Lockdown Whizzer Pass]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -201,38 +201,6 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Single Leg X Sweep]] (22% of attempts)
-
-### [[Transitions/Ashi Entry from Leg Entanglement]] (12% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (3% of attempts)
-
-### [[Transitions/Technical Stand Up to Single Leg]] (10% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (5% of attempts)
-
-### [[Transitions/De La Riva to X-Guard Transition]] (3% of attempts)
-
-### [[Transitions/Ankle Pick Sweep]] (10% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (8% of attempts)
-
-### [[Transitions/Standing to Single Leg X]] (2% of attempts)
-
-### [[Transitions/Heel Grab Sweep]] (10% of attempts)
-
-### [[Transitions/SLX to Ashi Garami]] (10% of attempts)
-
-### [[Transitions/SLX to X-Guard]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

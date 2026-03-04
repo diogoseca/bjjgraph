@@ -206,34 +206,6 @@ Strategically, the position is valued for its control density—the top player c
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Kimura]] (30% of attempts)
-
-### [[Transitions/North-South to Kimura]] (13% of attempts)
-
-### [[Transitions/Side Control to Mount]] (15% of attempts)
-
-### [[Transitions/Kimura to Back Take]] (13% of attempts)
-
-### [[Positions/Knee on Belly]] (8% of attempts)
-
-### [[Transitions/Arm Triangle Setup]] (8% of attempts)
-
-### [[Transitions/Americana]] (6% of attempts)
-
-### [[Transitions/Kimura Defense]] (3% of attempts)
-
-### [[Transitions/Kimura Trap to Reverse Scarf Hold]] (2% of attempts)
-
-### [[Submissions/Kimura from Kimura Trap]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

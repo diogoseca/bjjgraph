@@ -39,7 +39,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     },
     {
@@ -202,40 +202,6 @@ Advanced practitioners use the truck as a transitional position, flowing between
 - Slow Methodical Attacks: Position rewards patience and systematic progression over rushing
 - Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities
 - Back Control Option: Always maintain ability to transition to traditional back control as fallback
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Twister Entry]] (14% of attempts)
-
-### [[Transitions/Calf Slicer]] (12% of attempts)
-
-### [[Transitions/Roll to Truck]] (5% of attempts)
-
-### [[Transitions/Rolling Back Take]] (22% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (8% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (8% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (7% of attempts)
-
-### [[Transitions/Back Take from Top]] (12% of attempts)
-
-### [[Transitions/Truck Maintenance]] (3% of attempts)
-
-### [[Transitions/Truck to Back Control]] (2% of attempts)
-
-### [[Transitions/Truck to Twister Side Control]] (3% of attempts)
-
-### [[Submissions/Banana Split]] (2% of attempts)
-
-### [[Submissions/Calf Slicer from Truck]] (2% of attempts)
-
 
 
 </section>

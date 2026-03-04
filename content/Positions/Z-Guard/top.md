@@ -204,34 +204,6 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (29% of attempts)
-
-### [[Transitions/Knee Slice from Half]] (13% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (11% of attempts)
-
-### [[Transitions/Long Step Pass]] (10% of attempts)
-
-### [[Transitions/Smash Pass]] (11% of attempts)
-
-### [[Transitions/Back Step]] (9% of attempts)
-
-### [[Transitions/Underhook Pass]] (10% of attempts)
-
-### [[Transitions/Knee Slice from Z-Guard]] (4% of attempts)
-
-### [[Transitions/Pass Z-Guard]] (2% of attempts)
-
-### [[Transitions/Z-Guard Pass]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

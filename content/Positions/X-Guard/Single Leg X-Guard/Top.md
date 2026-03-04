@@ -201,30 +201,6 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Headquarters Pass]] (14% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (13% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (12% of attempts)
-
-### [[Transitions/Standing up in Base]] (27% of attempts)
-
-### [[Transitions/Smash Pass]] (10% of attempts)
-
-### [[Transitions/Kneebar]] (10% of attempts)
-
-### [[Transitions/Backstep from Single Leg X]] (8% of attempts)
-
-### [[Transitions/Standing Escape from SLX]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

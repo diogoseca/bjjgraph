@@ -196,22 +196,6 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Trap and Roll from S Mount]] (30% of attempts)
-
-### [[Transitions/Frame and Shrimp from S Mount]] (28% of attempts)
-
-### [[Transitions/Bridge Escape from S Mount]] (25% of attempts)
-
-### [[Transitions/Bridge and Roll]] (17% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

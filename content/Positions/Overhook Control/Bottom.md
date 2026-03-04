@@ -208,34 +208,6 @@ Modern guard players have integrated overhook control into systematic approaches
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Arm Drag to Back]] (11% of attempts)
-
-### [[Transitions/Overhook Sweep]] (22% of attempts)
-
-### [[Transitions/Butterfly Sweep]] (11% of attempts)
-
-### [[Transitions/Triangle Setup]] (10% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (9% of attempts)
-
-### [[Transitions/Guillotine Setup]] (10% of attempts)
-
-### [[Transitions/Elevator Sweep]] (11% of attempts)
-
-### [[Transitions/Old School Sweep]] (10% of attempts)
-
-### [[Transitions/Overhook Control Sweep]] (4% of attempts)
-
-### [[Transitions/Overhook to Half Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

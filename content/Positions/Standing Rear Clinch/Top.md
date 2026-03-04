@@ -204,38 +204,6 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Back Take]] (16% of attempts)
-
-### [[Transitions/Body Lock Pass]] (12% of attempts)
-
-### [[Transitions/Rolling Back Take]] (10% of attempts)
-
-### [[Transitions/Mat Return to Back Mount]] (10% of attempts)
-
-### [[Transitions/Double Leg Finish]] (8% of attempts)
-
-### [[Transitions/Mat Return from Rear Clinch]] (8% of attempts)
-
-### [[Transitions/Mat Return from Standing Rear Clinch]] (8% of attempts)
-
-### [[Transitions/Rear Clinch to Body Lock]] (8% of attempts)
-
-### [[Transitions/Suplex from Rear Clinch]] (7% of attempts)
-
-### [[Transitions/Standing Switch Defense]] (6% of attempts)
-
-### [[Transitions/Rear Naked Choke Setup]] (5% of attempts)
-
-### [[Submissions/Standing RNC from Rear Clinch]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

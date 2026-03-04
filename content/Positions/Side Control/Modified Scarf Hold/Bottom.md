@@ -209,36 +209,6 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (12% of attempts)
-
-### [[Transitions/Bridge and Roll]] (9% of attempts)
-
-### [[Transitions/Roll to Turtle]] (45% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (11% of attempts)
-
-### [[Transitions/Arm Extraction]] (13% of attempts)
-
-### [[Transitions/Ghost Escape]] (7% of attempts)
-
-### [[Transitions/Explosive Bridge to Guard Recovery]] (2% of attempts)
-
-### [[Transitions/Side Control Escape]] (0% of attempts)
-
-### [[Transitions/Bridge Escape from Modified Scarf Hold]] (0% of attempts)
-
-### [[Transitions/Bridge from Modified Scarf Hold]] (0% of attempts)
-
-### [[Transitions/Escape Modified Scarf Hold]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

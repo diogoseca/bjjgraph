@@ -8,7 +8,10 @@ const MoveCards: QuartzComponent = ({ fileData, displayClass }: QuartzComponentP
   const slug = fileData.slug ?? ""
   const isPositionPage =
     slug.startsWith("Positions/") &&
-    (slug.endsWith("/Top") || slug.endsWith("/Bottom") || slug.includes("/Top/") || slug.includes("/Bottom/"))
+    (slug.endsWith("/Top") ||
+      slug.endsWith("/Bottom") ||
+      slug.includes("/Top/") ||
+      slug.includes("/Bottom/"))
 
   if (!isPositionPage) {
     return null

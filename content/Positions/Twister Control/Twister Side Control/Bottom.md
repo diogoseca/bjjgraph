@@ -208,32 +208,6 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (12% of attempts)
-
-### [[Transitions/Technical Stand-up]] (10% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (13% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (14% of attempts)
-
-### [[Transitions/Arm Extraction to Turtle]] (31% of attempts)
-
-### [[Transitions/Rolling to Guard]] (13% of attempts)
-
-### [[Transitions/Escape Twister Side Control]] (4% of attempts)
-
-### [[Transitions/Frame from Twister Side Control]] (2% of attempts)
-
-### [[Transitions/Turn In from Twister Side Control]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -353,7 +353,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 40
+        "attempt_probability": 39
       },
       {
         "transition": "Elevator Sweep",
@@ -410,6 +410,10 @@
       {
         "transition": "Guillotine from Butterfly Guard",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Aoki Lock",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

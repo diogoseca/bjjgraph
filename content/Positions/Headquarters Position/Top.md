@@ -206,28 +206,6 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Cut from Headquarters]] (28% of attempts)
-
-### [[Transitions/Toreando from Headquarters]] (18% of attempts)
-
-### [[Transitions/Leg Drag from Headquarters]] (17% of attempts)
-
-### [[Transitions/Back Step Pass]] (12% of attempts)
-
-### [[Transitions/Body Lock Pass]] (10% of attempts)
-
-### [[Transitions/Headquarters Pass]] (10% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

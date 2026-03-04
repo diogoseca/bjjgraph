@@ -205,32 +205,6 @@ Success in this position relies on understanding the mechanical principles of ba
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hip Escape to Turtle]] (10% of attempts)
-
-### [[Transitions/Rolling to Guard]] (6% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (5% of attempts)
-
-### [[Transitions/Grip Break and Face]] (13% of attempts)
-
-### [[Transitions/Controlled Descent]] (30% of attempts)
-
-### [[Transitions/Explosive Forward Roll]] (4% of attempts)
-
-### [[Transitions/Turn In and Face]] (15% of attempts)
-
-### [[Transitions/Arm Drag Escape]] (7% of attempts)
-
-### [[Transitions/Standing up in Base]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

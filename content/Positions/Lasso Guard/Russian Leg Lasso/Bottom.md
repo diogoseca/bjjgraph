@@ -202,32 +202,6 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Overhook Sweep]] (35% of attempts)
-
-### [[Transitions/Triangle Setup]] (11% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (12% of attempts)
-
-### [[Transitions/Back Take from Bottom]] (6% of attempts)
-
-### [[Transitions/Sickle Sweep]] (13% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (8% of attempts)
-
-### [[Transitions/Omoplata]] (10% of attempts)
-
-### [[Transitions/Russian Lasso Sweep]] (3% of attempts)
-
-### [[Transitions/Russian Lasso to De La Riva]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

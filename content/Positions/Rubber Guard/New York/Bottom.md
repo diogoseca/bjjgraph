@@ -213,36 +213,6 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/New York to Invisible Collar]] (10% of attempts)
-
-### [[Transitions/Progression to Zombie]] (10% of attempts)
-
-### [[Transitions/Advance to Chill Dog]] (8% of attempts)
-
-### [[Transitions/Rotate to Carni]] (9% of attempts)
-
-### [[Transitions/Triangle Setup]] (18% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (7% of attempts)
-
-### [[Transitions/Gogoplata]] (6% of attempts)
-
-### [[Transitions/Armbar Finish]] (10% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (10% of attempts)
-
-### [[Transitions/Omoplata to Back]] (9% of attempts)
-
-### [[Transitions/Sweep from New York]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

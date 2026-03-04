@@ -210,30 +210,6 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Overhook Escape]] (15% of attempts)
-
-### [[Transitions/Posture Recovery]] (14% of attempts)
-
-### [[Transitions/Crossface to Combat Base]] (24% of attempts)
-
-### [[Transitions/Stack Pass]] (11% of attempts)
-
-### [[Transitions/Leg Extraction]] (15% of attempts)
-
-### [[Transitions/Standing Escape]] (13% of attempts)
-
-### [[Transitions/New York Control Escape]] (5% of attempts)
-
-### [[Transitions/Guard Pass from New York Control]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

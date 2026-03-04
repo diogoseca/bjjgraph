@@ -129,6 +129,12 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
 
     state_props = role_data.get('state_properties', {})
 
+    ka_source = role_data.get('knowledge_assessment', [])
+    knowledge_assessment = [
+        {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+        for qa in ka_source
+    ]
+
     return {
         'name': name,
         'hub': hub_slug,
@@ -138,7 +144,8 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         'positionType': state_props.get('position_type', 'Neutral'),
         'riskLevel': state_props.get('risk_level', 'Medium'),
         'energyCost': state_props.get('energy_cost', 'Medium'),
-        'transitions': transitions
+        'transitions': transitions,
+        'knowledgeAssessment': knowledge_assessment
     }
 
 
@@ -434,9 +441,32 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
+def load_votes(project_root: Path) -> dict[str, float]:
+    """Load community vote rates from templates/votes.json if it exists."""
+    votes_file = project_root / 'templates' / 'votes.json'
+    if not votes_file.exists():
+        return {}
+    try:
+        with open(votes_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return {
+            name: entry['success_rate']
+            for name, entry in data.get('votes', {}).items()
+            if 'success_rate' in entry
+        }
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"Warning: Could not load votes.json: {e}")
+        return {}
+
+
 def generate_state_graph(project_root: Path) -> dict:
     content_dir = project_root / 'content'
     print(f"Processing content from: {content_dir}")
+
+    # Load community votes for success rate overrides
+    vote_rates = load_votes(project_root)
+    if vote_rates:
+        print(f"  Loaded {len(vote_rates)} community vote rate(s) from votes.json")
 
     positions = process_positions(content_dir)
     print(f"  Processed {len(positions)} position roles")
@@ -446,6 +476,22 @@ def generate_state_graph(project_root: Path) -> dict:
 
     submissions = process_submissions(content_dir)
     print(f"  Processed {len(submissions)} submissions")
+
+    # Override success rates with community votes
+    if vote_rates:
+        vote_overrides = 0
+        for t_data in transitions.values():
+            name = t_data.get('name', '')
+            if name in vote_rates:
+                t_data['successRate'] = round(vote_rates[name], 1)
+                vote_overrides += 1
+        for s_data in submissions.values():
+            name = s_data.get('name', '')
+            if name in vote_rates:
+                s_data['successRate'] = round(vote_rates[name], 1)
+                vote_overrides += 1
+        if vote_overrides:
+            print(f"  Applied {vote_overrides} community vote rate override(s)")
 
     # Mark position transitions that target submissions (Problem 3)
     submission_slugs = set(submissions.keys())

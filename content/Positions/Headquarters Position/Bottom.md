@@ -194,22 +194,6 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Re-Guard from Headquarters]] (30% of attempts)
-
-### [[Transitions/Sweep from Headquarters]] (25% of attempts)
-
-### [[Transitions/Inversion from Headquarters]] (25% of attempts)
-
-### [[Transitions/Shin-to-Shin from Headquarters]] (20% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -205,34 +205,6 @@ This position is particularly effective against opponents unfamiliar with the co
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to North-South]] (22% of attempts)
-
-### [[Transitions/Side Control to Mount]] (13% of attempts)
-
-### [[Transitions/Americana]] (11% of attempts)
-
-### [[Transitions/Kimura]] (12% of attempts)
-
-### [[Transitions/Back Step]] (10% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (15% of attempts)
-
-### [[Transitions/Arm Triangle]] (9% of attempts)
-
-### [[Transitions/Reverse Scarf to North-South]] (4% of attempts)
-
-### [[Transitions/Reverse Scarf to Side Control]] (2% of attempts)
-
-### [[Submissions/North-South Choke from Reverse Scarf]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

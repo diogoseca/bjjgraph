@@ -212,34 +212,6 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Arm Extraction]] (32% of attempts)
-
-### [[Transitions/Bridge and Roll]] (12% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Upa Escape]] (9% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (12% of attempts)
-
-### [[Transitions/Explosive Bridge to Turtle]] (10% of attempts)
-
-### [[Transitions/Arm Drag Sweep]] (3% of attempts)
-
-### [[Transitions/Rolling Escape to Guard]] (6% of attempts)
-
-### [[Transitions/Hip Escape from Mounted Crucifix]] (1% of attempts)
-
-### [[Transitions/Bridge Escape from Mounted Crucifix]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

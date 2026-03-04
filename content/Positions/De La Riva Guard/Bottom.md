@@ -202,40 +202,6 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/De La Riva Sweep]] (11% of attempts)
-
-### [[Transitions/De La Riva to X-Guard Transition]] (21% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (12% of attempts)
-
-### [[Transitions/Kiss of the Dragon]] (8% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (12% of attempts)
-
-### [[Transitions/Waiter Sweep]] (6% of attempts)
-
-### [[Transitions/Balloon Sweep]] (5% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (5% of attempts)
-
-### [[Transitions/Sickle Sweep]] (4% of attempts)
-
-### [[Transitions/Tripod Sweep]] (8% of attempts)
-
-### [[Transitions/Omoplata]] (4% of attempts)
-
-### [[Transitions/Triangle Setup from De La Riva]] (2% of attempts)
-
-### [[Submissions/Triangle from De La Riva]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

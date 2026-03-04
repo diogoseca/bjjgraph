@@ -206,34 +206,6 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hand Fighting from Back]] (45% of attempts)
-
-### [[Transitions/Back Door Escape]] (12% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (2% of attempts)
-
-### [[Transitions/Elbow Escape to Remove Hooks]] (19% of attempts)
-
-### [[Transitions/Hip Escape to Turtle]] (15% of attempts)
-
-### [[Transitions/Standing up in Base]] (2% of attempts)
-
-### [[Transitions/Turn In and Face]] (4% of attempts)
-
-### [[Transitions/Escape Seat Belt Control]] (0% of attempts)
-
-### [[Transitions/Hand Fight from Seat Belt Control]] (0% of attempts)
-
-### [[Transitions/Seat Belt Peel Escape]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

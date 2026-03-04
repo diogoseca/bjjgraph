@@ -206,32 +206,6 @@ Success in this position requires prioritizing survival first, then creating fra
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (31% of attempts)
-
-### [[Transitions/Bridge and Roll]] (12% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (13% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
-
-### [[Transitions/Technical Stand-up]] (10% of attempts)
-
-### [[Transitions/Shrimp Escape]] (14% of attempts)
-
-### [[Transitions/Escape Reverse Scarf Hold]] (4% of attempts)
-
-### [[Transitions/Frame from Reverse Scarf Hold]] (2% of attempts)
-
-### [[Transitions/Bridge Escape from Reverse Scarf Hold]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

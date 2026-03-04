@@ -205,26 +205,6 @@ This position is primarily encountered in gi-based competition and training envi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lapel Grip Break and Posture Recovery]] (17% of attempts)
-
-### [[Transitions/Leg Extraction from Lapel Wrap]] (18% of attempts)
-
-### [[Transitions/Stack Pass with Lapel Control Negation]] (15% of attempts)
-
-### [[Transitions/Standing Guard Pass with Distance Creation]] (14% of attempts)
-
-### [[Transitions/Smash Pass Counter]] (17% of attempts)
-
-### [[Transitions/Standing Reset to Open Guard]] (19% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

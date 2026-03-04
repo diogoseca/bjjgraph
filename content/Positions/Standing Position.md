@@ -168,7 +168,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull]]** (17% of attempts)
+- **[[Transitions/Guard Pull]]** (16% of attempts)
 
 - **[[Transitions/Double Leg Setup]]** (8% of attempts)
 
@@ -225,6 +225,8 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - **[[Submissions/Flying Kneebar]]** (2% of attempts)
 
 - **[[Submissions/Kimura from Standing]]** (2% of attempts)
+
+- **[[Submissions/Reverse Kimura]]** (1% of attempts)
 
 
 ### Common Mistakes

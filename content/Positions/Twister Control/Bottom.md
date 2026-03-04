@@ -208,32 +208,6 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Roll Through Escape]] (15% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Bridge and Turn to Turtle]] (14% of attempts)
-
-### [[Transitions/Leg Extraction]] (12% of attempts)
-
-### [[Transitions/Defensive Roll]] (11% of attempts)
-
-### [[Transitions/Frame and Turn]] (10% of attempts)
-
-### [[Transitions/Scramble to Guard]] (10% of attempts)
-
-### [[Transitions/Shrimp Escape]] (8% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

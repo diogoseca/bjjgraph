@@ -204,32 +204,6 @@ The top player must establish upper body control first through crossface or unde
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (35% of attempts)
-
-### [[Transitions/Smash Pass]] (18% of attempts)
-
-### [[Transitions/Underhook Pass]] (10% of attempts)
-
-### [[Transitions/Body Lock Pass]] (8% of attempts)
-
-### [[Transitions/Half Guard to Flattened Half Guard]] (10% of attempts)
-
-### [[Transitions/Half Guard Pass]] (5% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (10% of attempts)
-
-### [[Transitions/Pass Half Butterfly]] (2% of attempts)
-
-### [[Transitions/Smash Half Butterfly]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

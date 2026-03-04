@@ -206,26 +206,6 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Reverse the entanglement to Outside Ashi]] (26% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (18% of attempts)
-
-### [[Transitions/Extract leg and establish Single Leg X]] (18% of attempts)
-
-### [[Transitions/Limp leg extraction to Half Guard]] (18% of attempts)
-
-### [[Transitions/Clear leg and transition to X-Guard]] (13% of attempts)
-
-### [[Transitions/Reversal from Leg Knot]] (7% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

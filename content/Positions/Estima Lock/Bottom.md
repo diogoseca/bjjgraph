@@ -204,30 +204,6 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ashi Garami Escape]] (23% of attempts)
-
-### [[Transitions/Leg Extraction]] (38% of attempts)
-
-### [[Transitions/Counter Sweep]] (3% of attempts)
-
-### [[Transitions/Angle Change Escape]] (13% of attempts)
-
-### [[Transitions/Standing Escape]] (13% of attempts)
-
-### [[Transitions/50-50 Entry]] (8% of attempts)
-
-### [[Transitions/Estima Lock Counter Roll]] (1% of attempts)
-
-### [[Transitions/Counter from Estima Lock]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

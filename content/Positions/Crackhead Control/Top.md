@@ -206,34 +206,6 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Truck]] (12% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (10% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (10% of attempts)
-
-### [[Transitions/Anaconda from Turtle]] (8% of attempts)
-
-### [[Transitions/Darce from Turtle]] (8% of attempts)
-
-### [[Transitions/Rolling Back Take]] (10% of attempts)
-
-### [[Transitions/Guillotine from Turtle]] (6% of attempts)
-
-### [[Transitions/Back Take]] (22% of attempts)
-
-### [[Transitions/Arm Extraction and Pass]] (8% of attempts)
-
-### [[Transitions/Double Underhook Pass]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

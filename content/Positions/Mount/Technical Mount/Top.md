@@ -207,36 +207,6 @@ This position represents a critical junction in mount offense where the practiti
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (50% of attempts)
-
-### [[Transitions/Back Take]] (20% of attempts)
-
-### [[Transitions/Consolidate Mount]] (10% of attempts)
-
-### [[Transitions/Triangle Setup]] (6% of attempts)
-
-### [[Transitions/Gift Wrap Control]] (4% of attempts)
-
-### [[Transitions/High Mount Transition]] (3% of attempts)
-
-### [[Transitions/Technical Mount to Back Control]] (1% of attempts)
-
-### [[Transitions/Technical Mount to Mount]] (1% of attempts)
-
-### [[Transitions/Technical Mount to S Mount]] (1% of attempts)
-
-### [[Submissions/Americana from Technical Mount]] (2% of attempts)
-
-### [[Submissions/Armbar from Technical Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

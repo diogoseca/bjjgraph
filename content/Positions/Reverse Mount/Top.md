@@ -205,30 +205,6 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to Mount]] (43% of attempts)
-
-### [[Transitions/Back Take]] (26% of attempts)
-
-### [[Transitions/Mount to Armbar]] (12% of attempts)
-
-### [[Transitions/Turtle to Truck]] (7% of attempts)
-
-### [[Transitions/Side Control to North-South]] (7% of attempts)
-
-### [[Transitions/Reverse Mount to Mount]] (3% of attempts)
-
-### [[Transitions/Reverse Mount to Side Control]] (1% of attempts)
-
-### [[Transitions/Armbar from Reverse Mount]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

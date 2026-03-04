@@ -620,7 +620,7 @@
       },
       {
         "transition": "Heel Hook Defense Escape",
-        "attempt_probability": 48
+        "attempt_probability": 47
       },
       {
         "transition": "Outside Ashi Entry",
@@ -656,6 +656,10 @@
       },
       {
         "transition": "Sweep from Cross Ashi-Garami",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Aoki Lock",
         "attempt_probability": 1
       }
     ]

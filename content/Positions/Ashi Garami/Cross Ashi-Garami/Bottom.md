@@ -39,7 +39,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 47% of exchanges from this position.",
       "position": 4
     },
     {
@@ -200,40 +200,6 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 - Stay calm and systematic in your escape attempts rather than explosive movements that can lead to injury or worse position
 - Recognize opportunities to enter your own leg attacks when opponent adjusts position or loosens control
 - Always be aware of tap-worthy positions and submit early if a heel hook is locked in to prevent serious injury
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ashi Garami Escape]] (7% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (7% of attempts)
-
-### [[Transitions/X-Guard to Ashi Garami]] (4% of attempts)
-
-### [[Transitions/Heel Hook Defense Escape]] (48% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (7% of attempts)
-
-### [[Transitions/Standing Escape]] (2% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (5% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (7% of attempts)
-
-### [[Transitions/Counter heel hook]] (5% of attempts)
-
-### [[Transitions/Leg Extraction]] (7% of attempts)
-
-### [[Transitions/Counter Entangle from Cross Ashi]] (0% of attempts)
-
-### [[Transitions/Leg Extraction from Cross Ashi]] (0% of attempts)
-
-### [[Transitions/Sweep from Cross Ashi-Garami]] (1% of attempts)
-
 
 
 </section>

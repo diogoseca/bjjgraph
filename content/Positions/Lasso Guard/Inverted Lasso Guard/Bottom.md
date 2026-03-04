@@ -208,36 +208,6 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Berimbolo Entry]] (37% of attempts)
-
-### [[Transitions/Kiss of the Dragon]] (11% of attempts)
-
-### [[Transitions/Triangle Setup]] (6% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (8% of attempts)
-
-### [[Transitions/Sickle Sweep]] (4% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (8% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (6% of attempts)
-
-### [[Transitions/Balloon Sweep]] (12% of attempts)
-
-### [[Transitions/Tomoe Nage]] (5% of attempts)
-
-### [[Transitions/Inverted Lasso Sweep]] (2% of attempts)
-
-### [[Transitions/Inverted Lasso to Lasso Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

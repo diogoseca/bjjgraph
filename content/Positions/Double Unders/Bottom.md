@@ -202,28 +202,6 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Deep Half Entry]] (43% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (15% of attempts)
-
-### [[Transitions/Butterfly Hook Recovery]] (12% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (12% of attempts)
-
-### [[Transitions/Roll to Turtle]] (10% of attempts)
-
-### [[Transitions/Guard Recovery from Double Unders]] (5% of attempts)
-
-### [[Transitions/Sweep from Double Unders]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

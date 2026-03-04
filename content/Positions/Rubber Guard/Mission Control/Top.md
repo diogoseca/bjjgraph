@@ -210,32 +210,6 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Posture Recovery]] (15% of attempts)
-
-### [[Transitions/Arm Extraction and Pass]] (13% of attempts)
-
-### [[Transitions/Stack Defense]] (13% of attempts)
-
-### [[Transitions/Standing up in Base]] (30% of attempts)
-
-### [[Transitions/Arm Extraction]] (12% of attempts)
-
-### [[Transitions/Guard Opening Sequence]] (10% of attempts)
-
-### [[Transitions/Posture Break from Mission Control]] (4% of attempts)
-
-### [[Transitions/Stack Pass from Mission Control]] (2% of attempts)
-
-### [[Transitions/Posture Recovery from Mission Control]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

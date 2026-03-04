@@ -205,34 +205,6 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Outside Heel Hook]] (12% of attempts)
-
-### [[Transitions/Heel Hook]] (42% of attempts)
-
-### [[Transitions/Kneebar Finish]] (14% of attempts)
-
-### [[Transitions/Toe Hold]] (8% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (14% of attempts)
-
-### [[Positions/Estima Lock]] (3% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (3% of attempts)
-
-### [[Transitions/Calf Slicer]] (2% of attempts)
-
-### [[Transitions/Honey Hole to Saddle]] (1% of attempts)
-
-### [[Transitions/Inside Heel Hook from Honey Hole]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

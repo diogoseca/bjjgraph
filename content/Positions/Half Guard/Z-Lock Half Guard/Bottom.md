@@ -206,34 +206,6 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (30% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (14% of attempts)
-
-### [[Transitions/Butterfly Sweep]] (11% of attempts)
-
-### [[Transitions/Deep Half Entry]] (13% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (8% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (8% of attempts)
-
-### [[Transitions/Kimura Sweep]] (8% of attempts)
-
-### [[Transitions/Knee Shield Retention]] (5% of attempts)
-
-### [[Transitions/Escape Z-Lock Half Guard]] (2% of attempts)
-
-### [[Transitions/Sweep from Z-Lock Half Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

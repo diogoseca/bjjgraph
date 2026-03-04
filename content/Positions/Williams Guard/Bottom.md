@@ -200,30 +200,6 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Williams Shoulder Lock]] (13% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (15% of attempts)
-
-### [[Transitions/Triangle Setup]] (12% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (18% of attempts)
-
-### [[Transitions/Back Take from Bottom]] (11% of attempts)
-
-### [[Transitions/Kimura to Back Take]] (12% of attempts)
-
-### [[Transitions/Armbar Finish]] (13% of attempts)
-
-### [[Transitions/Williams Guard Sweep]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

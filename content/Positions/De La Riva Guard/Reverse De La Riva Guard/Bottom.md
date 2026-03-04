@@ -208,34 +208,6 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Waiter Sweep]] (12% of attempts)
-
-### [[Transitions/Kiss of the Dragon]] (31% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (13% of attempts)
-
-### [[Transitions/De La Riva to X-Guard Transition]] (9% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (10% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (4% of attempts)
-
-### [[Transitions/Reverse De La Riva Recovery]] (12% of attempts)
-
-### [[Transitions/Tripod Sweep]] (6% of attempts)
-
-### [[Transitions/Kiss of the Dragon from RDLR]] (2% of attempts)
-
-### [[Transitions/RDLR to Crab Ride]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -211,30 +211,6 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape from Mount]] (35% of attempts)
-
-### [[Transitions/Upa Escape]] (22% of attempts)
-
-### [[Transitions/Explosive Bridge to Guard Recovery]] (15% of attempts)
-
-### [[Transitions/Trap and Roll from Mount]] (10% of attempts)
-
-### [[Transitions/Heel Drag Escape]] (7% of attempts)
-
-### [[Transitions/Explosive Bridge to Turtle]] (5% of attempts)
-
-### [[Transitions/Bridge and Roll]] (4% of attempts)
-
-### [[Transitions/Mount Escape to Half Guard Back Take]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

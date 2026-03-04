@@ -89,7 +89,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep]]** (25% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (21% of attempts)
 
 - **[[Submissions/Armbar from Guard]]** (10% of attempts)
 
@@ -138,6 +138,14 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Submissions/Tarikoplata]]** (2% of attempts)
 
 - **[[Submissions/Triangle from Closed Guard]]** (2% of attempts)
+
+- **[[Submissions/Flying Armbar]]** (1% of attempts)
+
+- **[[Submissions/Kneebar from Guard]]** (1% of attempts)
+
+- **[[Submissions/Monoplata]]** (1% of attempts)
+
+- **[[Submissions/Monoplata from Guard]]** (1% of attempts)
 
 
 ### Common Mistakes

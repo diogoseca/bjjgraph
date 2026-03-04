@@ -25,7 +25,10 @@ a.github-action {
   font-weight: 500;
   border: 1px solid var(--lightgray);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
 
   svg {
     flex-shrink: 0;

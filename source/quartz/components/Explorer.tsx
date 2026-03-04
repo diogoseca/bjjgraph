@@ -51,7 +51,7 @@ const defaultOptions = {
     // Hide Bottom/Top files under Positions folders (playing_as model)
     if (node.file?.slug) {
       const slug = node.file.slug.toLowerCase()
-      if ((slug.endsWith('/bottom') || slug.endsWith('/top')) && slug.includes('positions/')) {
+      if ((slug.endsWith("/bottom") || slug.endsWith("/top")) && slug.includes("positions/")) {
         return false
       }
     }

@@ -205,30 +205,6 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (24% of attempts)
-
-### [[Transitions/Bridge and Roll]] (13% of attempts)
-
-### [[Transitions/Upa Escape]] (17% of attempts)
-
-### [[Transitions/Explosive Bridge to Turtle]] (10% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (15% of attempts)
-
-### [[Transitions/Bridge Escape from 3-4 Mount]] (5% of attempts)
-
-### [[Transitions/Elbow Escape from 3-4 Mount]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

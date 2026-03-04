@@ -680,7 +680,7 @@
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 37
+        "attempt_probability": 36
       },
       {
         "transition": "Counter heel hook",
@@ -700,6 +700,10 @@
       },
       {
         "transition": "Sweep from Honey Hole",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Aoki Lock",
         "attempt_probability": 1
       }
     ]

@@ -208,32 +208,6 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Guillotine Choke]] (32% of attempts)
-
-### [[Transitions/Hindulotine to Darce Choke]] (8% of attempts)
-
-### [[Transitions/Hindulotine to Anaconda Choke]] (6% of attempts)
-
-### [[Transitions/Back Take from Bottom]] (13% of attempts)
-
-### [[Transitions/High Elbow Guillotine Variation]] (8% of attempts)
-
-### [[Transitions/Butterfly Sweep with Guillotine]] (20% of attempts)
-
-### [[Transitions/Guard Recovery from Hindulotine]] (8% of attempts)
-
-### [[Transitions/Arm Triangle Transition]] (3% of attempts)
-
-### [[Transitions/Sweep to Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

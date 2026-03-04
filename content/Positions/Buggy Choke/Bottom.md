@@ -206,30 +206,6 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Sit to Half Guard]] (25% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (5% of attempts)
-
-### [[Transitions/Technical Stand-up]] (6% of attempts)
-
-### [[Transitions/Turn In and Face]] (14% of attempts)
-
-### [[Transitions/Turtle to Guard]] (12% of attempts)
-
-### [[Transitions/Back Door Escape]] (13% of attempts)
-
-### [[Transitions/Roll to Deep Half Guard]] (7% of attempts)
-
-### [[Transitions/Turtle to Back Control]] (18% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

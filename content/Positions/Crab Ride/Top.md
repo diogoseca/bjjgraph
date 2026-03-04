@@ -209,34 +209,6 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Crab Ride to Back]] (40% of attempts)
-
-### [[Transitions/Darce from Turtle]] (7% of attempts)
-
-### [[Transitions/Anaconda from Turtle]] (6% of attempts)
-
-### [[Transitions/Guillotine from Turtle]] (3% of attempts)
-
-### [[Transitions/Truck Entry]] (12% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (11% of attempts)
-
-### [[Transitions/Back Control to Cross Body Ride]] (7% of attempts)
-
-### [[Transitions/Turtle to Rodeo Ride]] (8% of attempts)
-
-### [[Transitions/Rolling Back Take]] (4% of attempts)
-
-### [[Transitions/Kimura from Crab Ride]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

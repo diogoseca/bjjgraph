@@ -198,24 +198,6 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Posture Recovery]] (22% of attempts)
-
-### [[Transitions/Guard Pass from Diamond Guard]] (22% of attempts)
-
-### [[Transitions/Posture Recovery from Diamond Guard]] (20% of attempts)
-
-### [[Transitions/Guard Opening Sequence]] (18% of attempts)
-
-### [[Transitions/Overhook Strip from Diamond Guard]] (18% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

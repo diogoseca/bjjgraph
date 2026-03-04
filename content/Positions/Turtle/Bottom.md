@@ -201,28 +201,6 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (15% of attempts)
-
-### [[Transitions/Technical Stand-up]] (16% of attempts)
-
-### [[Transitions/Rolling to Guard]] (21% of attempts)
-
-### [[Transitions/Deep Half Entry]] (14% of attempts)
-
-### [[Transitions/Sit Through to Guard]] (16% of attempts)
-
-### [[Transitions/Peterson Roll]] (12% of attempts)
-
-### [[Transitions/Sit Out from Turtle]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

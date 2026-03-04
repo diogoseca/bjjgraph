@@ -202,26 +202,6 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Take]] (25% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (20% of attempts)
-
-### [[Transitions/Guillotine Setup]] (18% of attempts)
-
-### [[Transitions/Single Leg to Back Take]] (15% of attempts)
-
-### [[Transitions/Scramble to Top Position]] (12% of attempts)
-
-### [[Transitions/Darce Setup]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

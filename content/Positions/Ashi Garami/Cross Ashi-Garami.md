@@ -101,7 +101,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/X-Guard to Ashi Garami]]** (4% of attempts)
 
-- **[[Transitions/Heel Hook Defense Escape]]** (48% of attempts)
+- **[[Transitions/Heel Hook Defense Escape]]** (47% of attempts)
 
 - **[[Transitions/Outside Ashi Entry]]** (7% of attempts)
 
@@ -120,6 +120,8 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 - **[[Transitions/Leg Extraction from Cross Ashi]]** (0% of attempts)
 
 - **[[Transitions/Sweep from Cross Ashi-Garami]]** (1% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

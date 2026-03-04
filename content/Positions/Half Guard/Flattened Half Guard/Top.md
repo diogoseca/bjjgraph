@@ -204,34 +204,6 @@ Understanding the position's relationship to the broader passing game is essenti
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice from Half]] (38% of attempts)
-
-### [[Transitions/Crossface Pass]] (15% of attempts)
-
-### [[Transitions/Underhook Pass]] (11% of attempts)
-
-### [[Transitions/Back Take]] (9% of attempts)
-
-### [[Transitions/Arm Triangle Setup]] (9% of attempts)
-
-### [[Transitions/Half Guard Pass]] (9% of attempts)
-
-### [[Transitions/Kimura]] (5% of attempts)
-
-### [[Transitions/Complete Pass from Flattened Half]] (2% of attempts)
-
-### [[Transitions/Knee Slide from Flattened Half]] (1% of attempts)
-
-### [[Transitions/Cross Face Pass from Flattened Half]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

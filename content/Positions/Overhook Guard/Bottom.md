@@ -206,32 +206,6 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Overhook Sweep]] (13% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (21% of attempts)
-
-### [[Submissions/Omoplata from Guard]] (11% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (10% of attempts)
-
-### [[Transitions/Triangle Setup]] (13% of attempts)
-
-### [[Submissions/Kimura from Guard]] (11% of attempts)
-
-### [[Submissions/Armbar from Guard]] (13% of attempts)
-
-### [[Transitions/Overhook Guard Sweep]] (5% of attempts)
-
-### [[Transitions/Overhook to Closed Guard]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

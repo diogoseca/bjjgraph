@@ -202,30 +202,6 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toe Hold]] (14% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (24% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (14% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (13% of attempts)
-
-### [[Transitions/Ankle Lock Finish]] (14% of attempts)
-
-### [[Transitions/Kneebar Finish]] (12% of attempts)
-
-### [[Transitions/Toe Hold to Ashi Garami]] (6% of attempts)
-
-### [[Transitions/Toe Hold to Straight Ankle Lock]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

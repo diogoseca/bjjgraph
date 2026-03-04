@@ -207,26 +207,6 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (72% of attempts)
-
-### [[Transitions/Deep Half Entry]] (14% of attempts)
-
-### [[Transitions/Hip Rotation Escape from Electric Chair]] (7% of attempts)
-
-### [[Transitions/Straighten Leg Defense from Electric Chair]] (3% of attempts)
-
-### [[Transitions/Sweep from Electric Chair]] (2% of attempts)
-
-### [[Submissions/Electric Chair Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

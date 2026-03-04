@@ -207,30 +207,6 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Cross Collar Choke Finish]] (14% of attempts)
-
-### [[Transitions/Rear Naked Choke]] (14% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (12% of attempts)
-
-### [[Transitions/Aoki Lock to Crucifix]] (11% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (11% of attempts)
-
-### [[Transitions/Clock Choke]] (10% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (15% of attempts)
-
-### [[Transitions/Body Triangle Lock]] (13% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

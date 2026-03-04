@@ -15,6 +15,30 @@ import path from "path"
 // === Build-time graph data injection ===
 // Eliminates all runtime fetches of the 3.5MB graph.json
 
+// Cached content stats (computed once at build time by counting .json files)
+let _contentStatsJson: string | null = null
+
+function getContentStatsJson(): string {
+  if (_contentStatsJson !== null) return _contentStatsJson
+
+  const contentDir = path.join(process.cwd(), "..", "content")
+  const countJsonFiles = (dir: string): number => {
+    const full = path.join(contentDir, dir)
+    if (!fs.existsSync(full)) return 0
+    return fs.readdirSync(full, { recursive: true }).filter((f) => String(f).endsWith(".json"))
+      .length
+  }
+
+  _contentStatsJson = JSON.stringify({
+    positions: countJsonFiles("Positions"),
+    transitions: countJsonFiles("Transitions"),
+    submissions: countJsonFiles("Submissions"),
+    principles: countJsonFiles("Principles"),
+    systems: countJsonFiles("Systems"),
+  })
+  return _contentStatsJson
+}
+
 // Cached roll positions JSON (computed once across all pages at build time)
 let _rollPositionsJson: string | null = null
 
@@ -25,10 +49,7 @@ function getRollPositionsJson(allFiles: QuartzPluginData[]): string {
     .filter((f) => {
       const slug = f.slug ?? ""
       const lower = slug.toLowerCase()
-      return (
-        lower.startsWith("positions/") &&
-        (lower.endsWith("/top") || lower.endsWith("/bottom"))
-      )
+      return lower.startsWith("positions/") && (lower.endsWith("/top") || lower.endsWith("/bottom"))
     })
     .map((f) => {
       const title = (f.frontmatter?.title as string) ?? ""
@@ -43,8 +64,10 @@ function getRollPositionsJson(allFiles: QuartzPluginData[]): string {
 // Cached graph.json data and lookup index (read once at build time)
 let _graphJson: any = null
 // Maps lowercase slug (without section prefix) → { section, key }
-let _slugIndex: Record<string, { section: "positions" | "transitions" | "submissions"; key: string }> =
-  {}
+let _slugIndex: Record<
+  string,
+  { section: "positions" | "transitions" | "submissions"; key: string }
+> = {}
 
 function loadGraphData(): any {
   if (_graphJson !== null) return _graphJson
@@ -118,6 +141,7 @@ function getPageGraphData(slug: FullSlug): string | null {
       name: data.name,
       transitions: data.transitions,
       defenses: data.defenses,
+      knowledgeAssessment: data.knowledgeAssessment || [],
     })
   } else if (entry.section === "transitions") {
     return JSON.stringify({
@@ -220,6 +244,17 @@ export function renderPage(
     spaPreserve: true,
     script: `window.__rollPositions=${rollData}`,
   })
+
+  // Inject content stats on homepage (build-time counts of .json files per category)
+  if (slug === ("index" as FullSlug)) {
+    const stats = getContentStatsJson()
+    pageResources.js.push({
+      loadTime: "beforeDOMReady",
+      contentType: "inline",
+      spaPreserve: true,
+      script: `window.__contentStats=${stats}`,
+    })
+  }
 
   // make a deep copy of the tree so we don't remove the transclusion references
   // for the file cached in contentMap in build.ts

@@ -202,42 +202,6 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (74% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (7% of attempts)
-
-### [[Transitions/X Pass]] (3% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (5% of attempts)
-
-### [[Transitions/Long Step Pass]] (1% of attempts)
-
-### [[Transitions/Smash Pass]] (0% of attempts)
-
-### [[Transitions/Back Step Pass]] (5% of attempts)
-
-### [[Transitions/Body Lock Pass]] (3% of attempts)
-
-### [[Transitions/Stack Pass]] (0% of attempts)
-
-### [[Transitions/Bullfighter Pass]] (1% of attempts)
-
-### [[Transitions/Toreando Pass from De La Riva]] (0% of attempts)
-
-### [[Transitions/Backstep from De La Riva]] (0% of attempts)
-
-### [[Transitions/Knee Slice from DLR]] (0% of attempts)
-
-### [[Transitions/Leg Drag from DLR]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -201,24 +201,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Dogfight Sweep]] (25% of attempts)
-
-### [[Transitions/Back Take]] (25% of attempts)
-
-### [[Transitions/Forward Drive Sweep from Dogfight]] (20% of attempts)
-
-### [[Transitions/Underhook Sweep from Dogfight]] (15% of attempts)
-
-### [[Transitions/Re-pull Half Guard from Dogfight]] (15% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

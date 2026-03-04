@@ -208,32 +208,6 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Guillotine Choke]] (31% of attempts)
-
-### [[Transitions/Hindulotine to Darce Choke]] (10% of attempts)
-
-### [[Transitions/Hindulotine to Anaconda Choke]] (8% of attempts)
-
-### [[Transitions/Back Take from Top]] (13% of attempts)
-
-### [[Transitions/Front Headlock to Back]] (10% of attempts)
-
-### [[Transitions/Arm Triangle from Top]] (9% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (13% of attempts)
-
-### [[Transitions/Hindulotine Choke Finish]] (4% of attempts)
-
-### [[Transitions/Finish from Hindulotine]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

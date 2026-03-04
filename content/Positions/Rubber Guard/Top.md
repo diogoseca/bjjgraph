@@ -197,26 +197,6 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Posture Recovery]] (30% of attempts)
-
-### [[Transitions/Rubber Guard Clear to Pass]] (23% of attempts)
-
-### [[Transitions/Arm Extraction]] (19% of attempts)
-
-### [[Transitions/Stack Pass]] (14% of attempts)
-
-### [[Transitions/Pressure Pass]] (9% of attempts)
-
-### [[Transitions/Rubber Guard Top Posture Escape]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

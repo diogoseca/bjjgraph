@@ -210,32 +210,6 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Triangle Setup]] (15% of attempts)
-
-### [[Transitions/Omoplata to Sweep]] (12% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (12% of attempts)
-
-### [[Transitions/Closed Guard to Triangle]] (14% of attempts)
-
-### [[Transitions/Armbar Finish]] (10% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (10% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (10% of attempts)
-
-### [[Transitions/Progression to Zombie]] (8% of attempts)
-
-### [[Transitions/Advance to Chill Dog]] (9% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

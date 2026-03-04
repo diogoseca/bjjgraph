@@ -210,36 +210,6 @@ The position also provides important lessons about submission defense principles
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Head Extraction to Posture]] (32% of attempts)
-
-### [[Transitions/Shin Removal to Pass]] (3% of attempts)
-
-### [[Transitions/Leg Extraction Escape]] (3% of attempts)
-
-### [[Transitions/Stack Defense]] (8% of attempts)
-
-### [[Transitions/Angle Change Escape]] (13% of attempts)
-
-### [[Transitions/Hand Control to Extract]] (10% of attempts)
-
-### [[Transitions/Roll to Turtle]] (13% of attempts)
-
-### [[Transitions/Explosive Bridge to Guard Recovery]] (6% of attempts)
-
-### [[Transitions/Posture Recovery]] (10% of attempts)
-
-### [[Transitions/Gogoplata to Armbar]] (1% of attempts)
-
-### [[Transitions/Posture Up from Gogoplata]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

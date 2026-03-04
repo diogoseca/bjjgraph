@@ -190,22 +190,6 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Leg Extraction Escape from Entanglement]] (30% of attempts)
-
-### [[Transitions/Guard Recovery from Leg Entanglement]] (28% of attempts)
-
-### [[Transitions/Inversion Escape from Leg Entanglement]] (22% of attempts)
-
-### [[Transitions/Counter Sweep from Leg Entanglement]] (20% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

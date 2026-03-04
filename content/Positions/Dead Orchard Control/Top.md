@@ -202,30 +202,6 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Anaconda Choke]] (35% of attempts)
-
-### [[Transitions/Darce from Turtle]] (13% of attempts)
-
-### [[Transitions/Front Headlock to Back]] (18% of attempts)
-
-### [[Transitions/Side Control to Mount]] (18% of attempts)
-
-### [[Transitions/Side Control to North-South]] (8% of attempts)
-
-### [[Transitions/Dead Orchard to Anaconda Finish]] (4% of attempts)
-
-### [[Transitions/Dead Orchard to Darce Switch]] (2% of attempts)
-
-### [[Submissions/Anaconda Finish from Dead Orchard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

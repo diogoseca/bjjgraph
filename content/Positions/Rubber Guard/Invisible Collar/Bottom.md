@@ -206,26 +206,6 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hand Fighting to Remove Collar Grip]] (22% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (18% of attempts)
-
-### [[Transitions/Elbow Escape to Remove Hooks]] (20% of attempts)
-
-### [[Transitions/Rolling Escape to Guard]] (13% of attempts)
-
-### [[Transitions/Standing Escape]] (11% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (16% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

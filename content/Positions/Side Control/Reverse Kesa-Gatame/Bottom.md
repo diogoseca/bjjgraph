@@ -204,30 +204,6 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (33% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (18% of attempts)
-
-### [[Transitions/Bridge and Roll]] (14% of attempts)
-
-### [[Transitions/Shrimp Escape]] (16% of attempts)
-
-### [[Transitions/Technical Stand-up]] (11% of attempts)
-
-### [[Transitions/Bridge from Reverse Kesa-Gatame]] (5% of attempts)
-
-### [[Transitions/Escape Reverse Kesa-Gatame]] (2% of attempts)
-
-### [[Transitions/Turn In from Reverse Kesa]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

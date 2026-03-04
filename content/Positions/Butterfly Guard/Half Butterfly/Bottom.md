@@ -205,38 +205,6 @@ This position represents an evolution in half guard theory, popularized by pract
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Basic Butterfly Sweep]] (15% of attempts)
-
-### [[Transitions/Old School Sweep]] (22% of attempts)
-
-### [[Transitions/Hook Sweep]] (10% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (12% of attempts)
-
-### [[Transitions/Deep Half Entry]] (12% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (6% of attempts)
-
-### [[Transitions/Elevator Sweep]] (4% of attempts)
-
-### [[Transitions/Kimura from Half Guard]] (5% of attempts)
-
-### [[Transitions/Half Butterfly Sweep]] (4% of attempts)
-
-### [[Transitions/Half Butterfly to Dogfight]] (5% of attempts)
-
-### [[Transitions/Reguard from Half Butterfly]] (3% of attempts)
-
-### [[Transitions/Rolling Back Take from Half Butterfly]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

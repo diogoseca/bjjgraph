@@ -133,17 +133,6 @@ description: "{{ bottom.description }}"
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-{% for transition in bottom.transitions -%}
-### [[{{ resolve(transition.transition) }}]] ({{ transition.attempt_probability }}% of attempts)
-
-{% endfor %}
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

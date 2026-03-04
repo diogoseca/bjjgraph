@@ -202,42 +202,6 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Tripod Sweep]] (69% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (4% of attempts)
-
-### [[Transitions/Triangle Setup]] (8% of attempts)
-
-### [[Transitions/Omoplata]] (4% of attempts)
-
-### [[Transitions/Guard Recovery from Double Sleeve Guard]] (4% of attempts)
-
-### [[Transitions/Sickle Sweep]] (6% of attempts)
-
-### [[Transitions/Flower Sweep]] (2% of attempts)
-
-### [[Transitions/Pendulum Sweep]] (2% of attempts)
-
-### [[Transitions/Armbar Setup from Double Sleeve]] (0% of attempts)
-
-### [[Transitions/Double Sleeve Sweep]] (0% of attempts)
-
-### [[Transitions/Double Sleeve to De La Riva]] (0% of attempts)
-
-### [[Transitions/Double Sleeve to Lasso]] (0% of attempts)
-
-### [[Transitions/Double Sleeve to Spider]] (0% of attempts)
-
-### [[Transitions/Double Sleeve to Spider Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

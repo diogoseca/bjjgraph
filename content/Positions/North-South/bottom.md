@@ -205,30 +205,6 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Bridge and Roll]] (12% of attempts)
-
-### [[Transitions/Bridge and Turn to Turtle]] (17% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/North-South Escape]] (13% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (11% of attempts)
-
-### [[Transitions/Technical Stand-up]] (7% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

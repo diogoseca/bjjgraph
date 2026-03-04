@@ -66,7 +66,13 @@ export default ((userOpts?: Partial<Options>) => {
     const is404 = slug === "404"
 
     // Determine if this is templated content (has JSON source)
-    const templatedPrefixes = ["Positions/", "Transitions/", "Submissions/", "Principles/", "Systems/"]
+    const templatedPrefixes = [
+      "Positions/",
+      "Transitions/",
+      "Submissions/",
+      "Principles/",
+      "Systems/",
+    ]
     const isTemplated = templatedPrefixes.some((prefix) => relativePath.startsWith(prefix))
 
     // Build the source path for both edit and bug report

@@ -204,34 +204,6 @@ The position is particularly valuable in competition settings where maintaining 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (22% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (11% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (11% of attempts)
-
-### [[Transitions/Double Under Pass]] (10% of attempts)
-
-### [[Transitions/X Pass]] (11% of attempts)
-
-### [[Transitions/Long Step Pass]] (12% of attempts)
-
-### [[Transitions/Stack Pass]] (9% of attempts)
-
-### [[Transitions/Back Step]] (8% of attempts)
-
-### [[Transitions/Guard Pass from Standing Guard]] (4% of attempts)
-
-### [[Transitions/Takedown from Standing Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

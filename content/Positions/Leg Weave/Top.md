@@ -202,34 +202,6 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Leg Weave Pass]] (15% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (32% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (10% of attempts)
-
-### [[Transitions/Smash Pass]] (11% of attempts)
-
-### [[Transitions/Over-Under Pass]] (10% of attempts)
-
-### [[Transitions/Long Step Pass]] (10% of attempts)
-
-### [[Transitions/Back Step]] (7% of attempts)
-
-### [[Transitions/Backstep from Leg Weave]] (3% of attempts)
-
-### [[Transitions/Complete Leg Weave Pass]] (1% of attempts)
-
-### [[Transitions/Leg Weave Pass Completion]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

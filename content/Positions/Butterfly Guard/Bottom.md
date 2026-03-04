@@ -21,7 +21,7 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
@@ -203,44 +203,6 @@ The learning curve for butterfly guard involves developing several interconnecte
 - Time sweeps with opponent's weight shifts and forward movement for maximum effectiveness and energy efficiency
 - Maintain defensive awareness for passing attempts while staying offensive-minded and ready to capitalize on opportunities
 - Use hooks dynamically to adjust angles, create off-balancing opportunities, and transition to alternative positions when needed
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Butterfly Sweep]] (40% of attempts)
-
-### [[Transitions/Elevator Sweep]] (7% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (11% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (7% of attempts)
-
-### [[Transitions/Guillotine Choke]] (5% of attempts)
-
-### [[Transitions/Sumi Gaeshi]] (6% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (6% of attempts)
-
-### [[Transitions/Butterfly Guard to Butterfly Hook Control]] (2% of attempts)
-
-### [[Transitions/Deep Half Entry]] (4% of attempts)
-
-### [[Transitions/Underhook Sweep]] (3% of attempts)
-
-### [[Transitions/Kimura]] (3% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (1% of attempts)
-
-### [[Transitions/Omoplata]] (1% of attempts)
-
-### [[Transitions/Hook Sweep]] (2% of attempts)
-
-### [[Submissions/Guillotine from Butterfly Guard]] (2% of attempts)
-
 
 
 </section>

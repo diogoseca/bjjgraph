@@ -95,7 +95,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Transitions/50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
 
-- **[[Transitions/Extract legs and stand up]]** (23% of attempts)
+- **[[Transitions/Extract legs and stand up]]** (22% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry]]** (4% of attempts)
 
@@ -106,6 +106,8 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 - **[[Transitions/Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
 - **[[Submissions/Toe Hold from 50-50]]** (2% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -197,34 +197,6 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Triangle Setup]] (40% of attempts)
-
-### [[Transitions/Omoplata]] (15% of attempts)
-
-### [[Transitions/Mission Control Entry from Rubber Guard]] (12% of attempts)
-
-### [[Transitions/Rubber Guard to Closed Guard]] (7% of attempts)
-
-### [[Transitions/New York Entry from Rubber Guard]] (5% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (5% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (5% of attempts)
-
-### [[Transitions/Gogoplata]] (4% of attempts)
-
-### [[Transitions/Rubber Guard Sweep]] (4% of attempts)
-
-### [[Transitions/Crackhead Control Entry]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

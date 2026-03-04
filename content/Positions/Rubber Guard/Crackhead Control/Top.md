@@ -200,26 +200,6 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Back Take]] (18% of attempts)
-
-### [[Transitions/Stack Pass]] (15% of attempts)
-
-### [[Transitions/Double Underhook Pass]] (16% of attempts)
-
-### [[Transitions/Rolling Back Take]] (15% of attempts)
-
-### [[Transitions/Posture Recovery to Closed Guard]] (20% of attempts)
-
-### [[Transitions/Arm Extraction and Pass]] (16% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

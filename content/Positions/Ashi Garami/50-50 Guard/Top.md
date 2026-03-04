@@ -205,42 +205,6 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Heel Hook]] (31% of attempts)
-
-### [[Transitions/Kneebar entry]] (7% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (2% of attempts)
-
-### [[Transitions/Calf Slicer]] (2% of attempts)
-
-### [[Transitions/Back Take from 50-50]] (12% of attempts)
-
-### [[Transitions/50-50 Guard to Outside Ashi]] (6% of attempts)
-
-### [[Transitions/50-50 Guard to Inside Ashi]] (7% of attempts)
-
-### [[Transitions/Outside Heel Hook]] (4% of attempts)
-
-### [[Transitions/50-50 Pass]] (8% of attempts)
-
-### [[Transitions/Toe Hold]] (3% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (9% of attempts)
-
-### [[Transitions/50-50 Guard to Backside 50-50]] (5% of attempts)
-
-### [[Submissions/Calf Slicer from 50-50]] (2% of attempts)
-
-### [[Submissions/Kneebar from 50-50]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

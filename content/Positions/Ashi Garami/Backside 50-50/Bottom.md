@@ -207,36 +207,6 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Heel Hook]] (6% of attempts)
-
-### [[Transitions/Outside Heel Hook]] (5% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (4% of attempts)
-
-### [[Transitions/Standing up in Base]] (6% of attempts)
-
-### [[Transitions/Ashi Garami Escape]] (44% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (11% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (5% of attempts)
-
-### [[Transitions/Rolling Back Take]] (7% of attempts)
-
-### [[Transitions/Counter heel hook]] (6% of attempts)
-
-### [[Transitions/Angle Change Escape]] (4% of attempts)
-
-### [[Transitions/Heel Hook from Backside 50-50]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

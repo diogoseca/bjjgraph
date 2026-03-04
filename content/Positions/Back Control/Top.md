@@ -207,60 +207,6 @@ The attacking methodology from back control follows a layered approach. First, e
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (49% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (15% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
-
-### [[Transitions/Gift Wrap from Back]] (4% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (3% of attempts)
-
-### [[Transitions/Body Triangle Lock]] (2% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (2% of attempts)
-
-### [[Transitions/Short Choke Attack]] (1% of attempts)
-
-### [[Transitions/Armbar on Free Arm]] (1% of attempts)
-
-### [[Transitions/Rear Naked Choke Setup]] (1% of attempts)
-
-### [[Transitions/Kimura from Back]] (1% of attempts)
-
-### [[Transitions/Triangle from Back]] (1% of attempts)
-
-### [[Transitions/Standing Back Control Entry]] (1% of attempts)
-
-### [[Transitions/Mat Return to Back Mount]] (1% of attempts)
-
-### [[Transitions/Back Control to Seat Belt Control Back]] (1% of attempts)
-
-### [[Transitions/Gift Wrap Control]] (1% of attempts)
-
-### [[Transitions/Back Control to Cross Body Ride]] (1% of attempts)
-
-### [[Transitions/Back Control to Reverse Half Guard]] (1% of attempts)
-
-### [[Transitions/Restore Back Control]] (1% of attempts)
-
-### [[Transitions/Transition to Game Over]] (1% of attempts)
-
-### [[Submissions/Armbar from Back]] (2% of attempts)
-
-### [[Submissions/Armbar from Back with Legs]] (2% of attempts)
-
-### [[Submissions/Triangle Choke Back]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

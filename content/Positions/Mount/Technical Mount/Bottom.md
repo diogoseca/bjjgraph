@@ -202,30 +202,6 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (45% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (17% of attempts)
-
-### [[Transitions/Upa Escape]] (15% of attempts)
-
-### [[Transitions/Shrimp Escape]] (15% of attempts)
-
-### [[Transitions/Bridge and Roll]] (6% of attempts)
-
-### [[Transitions/Back Turn from Technical Mount]] (1% of attempts)
-
-### [[Transitions/Bridge from Technical Mount]] (0% of attempts)
-
-### [[Transitions/Escape Technical Mount to Half Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

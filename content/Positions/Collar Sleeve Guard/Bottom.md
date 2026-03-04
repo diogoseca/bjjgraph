@@ -214,42 +214,6 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Triangle Setup]] (31% of attempts)
-
-### [[Transitions/Pendulum Sweep]] (11% of attempts)
-
-### [[Transitions/Scissor Sweep]] (9% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (8% of attempts)
-
-### [[Transitions/Flower Sweep]] (7% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (7% of attempts)
-
-### [[Transitions/Collar Drag]] (6% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (5% of attempts)
-
-### [[Transitions/Lapel to Spider Guard]] (4% of attempts)
-
-### [[Transitions/Lapel to Lasso Guard]] (4% of attempts)
-
-### [[Transitions/Collar Sleeve to De La Riva]] (3% of attempts)
-
-### [[Transitions/Standing up in Base]] (3% of attempts)
-
-### [[Transitions/Collar Sleeve Sweep]] (1% of attempts)
-
-### [[Transitions/Collar Sleeve to Spider Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

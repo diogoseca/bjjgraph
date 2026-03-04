@@ -204,38 +204,6 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Heel Hook]] (40% of attempts)
-
-### [[Transitions/Toe Hold]] (10% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (8% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (8% of attempts)
-
-### [[Transitions/50-50 Entry]] (3% of attempts)
-
-### [[Transitions/Kneebar Finish]] (8% of attempts)
-
-### [[Transitions/Calf Slicer]] (3% of attempts)
-
-### [[Transitions/Rolling Back Take]] (10% of attempts)
-
-### [[Transitions/Inside Ashi-Garami to Honey Hole]] (6% of attempts)
-
-### [[Transitions/Inside Sankaku Heel Hook]] (1% of attempts)
-
-### [[Transitions/Inside Sankaku to Saddle]] (1% of attempts)
-
-### [[Submissions/Inside Sankaku Heel Hook Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

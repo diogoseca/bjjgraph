@@ -194,22 +194,6 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lockdown Break and Pass]] (28% of attempts)
-
-### [[Transitions/Limp Leg Escape to Pass]] (24% of attempts)
-
-### [[Transitions/Back Take from Lockdown Defense]] (18% of attempts)
-
-### [[Transitions/Darce from Lockdown Counter]] (30% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

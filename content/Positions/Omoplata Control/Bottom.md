@@ -201,32 +201,6 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Omoplata]] (13% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (30% of attempts)
-
-### [[Transitions/Omoplata to Back]] (11% of attempts)
-
-### [[Transitions/Triangle Setup]] (14% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (13% of attempts)
-
-### [[Submissions/Rolling Omoplata]] (11% of attempts)
-
-### [[Transitions/Cartwheel Escape from Omoplata]] (5% of attempts)
-
-### [[Transitions/Roll Forward from Omoplata]] (2% of attempts)
-
-### [[Transitions/Stack Defense from Omoplata]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

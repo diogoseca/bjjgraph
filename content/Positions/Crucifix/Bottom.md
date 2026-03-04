@@ -206,32 +206,6 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Arm Extraction]] (40% of attempts)
-
-### [[Transitions/Shrimp Escape]] (12% of attempts)
-
-### [[Transitions/Defensive Roll]] (12% of attempts)
-
-### [[Transitions/Explosive Bridge to Turtle]] (15% of attempts)
-
-### [[Transitions/Roll to Guard]] (9% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (7% of attempts)
-
-### [[Transitions/Arm Recovery from Crucifix]] (3% of attempts)
-
-### [[Transitions/Crucifix Choke Defense]] (1% of attempts)
-
-### [[Transitions/Hip Escape from Crucifix]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

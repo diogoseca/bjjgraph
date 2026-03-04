@@ -203,30 +203,6 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Arm Extraction]] (27% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (14% of attempts)
-
-### [[Transitions/Back Door Escape]] (11% of attempts)
-
-### [[Transitions/Counter Roll to Top]] (7% of attempts)
-
-### [[Transitions/Step Over Escape]] (14% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Rolling to Guard]] (9% of attempts)
-
-### [[Transitions/Frame Escape from Darce]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

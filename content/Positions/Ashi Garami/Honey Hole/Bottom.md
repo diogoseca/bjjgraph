@@ -45,7 +45,7 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 36% of exchanges from this position.",
       "position": 5
     },
     {
@@ -200,34 +200,6 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 - Never fight heel hook past tightening point - Knee damage occurs in seconds once pressure applied
 - Grip fighting is last-resort defense - If you cannot escape position, prevent heel hook grip establishment
 - Protect your knee by controlling rotation - Your knee ligaments are most vulnerable to rotational pressure combined with heel exposure
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Inversion Escape]] (14% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (7% of attempts)
-
-### [[Transitions/Angle Change Escape]] (9% of attempts)
-
-### [[Transitions/Ashi Garami Escape]] (7% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (37% of attempts)
-
-### [[Transitions/Counter heel hook]] (3% of attempts)
-
-### [[Transitions/Reverse the entanglement to Outside Ashi]] (8% of attempts)
-
-### [[Transitions/Grip Break]] (13% of attempts)
-
-### [[Transitions/Standing Escape]] (1% of attempts)
-
-### [[Transitions/Sweep from Honey Hole]] (1% of attempts)
-
 
 
 </section>

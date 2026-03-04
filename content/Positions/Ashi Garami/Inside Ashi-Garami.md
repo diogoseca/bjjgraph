@@ -93,7 +93,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Transitions/Heel Hook]]** (5% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry]]** (38% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (35% of attempts)
 
 - **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
 
@@ -118,6 +118,12 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 - **[[Transitions/Standing Up from Inside Ashi]]** (1% of attempts)
 
 - **[[Submissions/Achilles Lock]]** (2% of attempts)
+
+- **[[Submissions/Inside Heel Hook]]** (1% of attempts)
+
+- **[[Submissions/Toe Hold from Top]]** (1% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

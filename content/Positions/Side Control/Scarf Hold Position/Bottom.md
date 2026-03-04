@@ -206,32 +206,6 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Bridge and Roll]] (12% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (11% of attempts)
-
-### [[Transitions/Ghost Escape]] (12% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
-
-### [[Transitions/Arm Extraction to Turtle]] (31% of attempts)
-
-### [[Transitions/Bridge from Scarf Hold Position]] (5% of attempts)
-
-### [[Transitions/Escape Scarf Hold Position]] (2% of attempts)
-
-### [[Transitions/Bridge Escape from Scarf Hold]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

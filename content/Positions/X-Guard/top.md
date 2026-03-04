@@ -202,38 +202,6 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Smash Pass]] (12% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (61% of attempts)
-
-### [[Transitions/Long Step Pass]] (6% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (4% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (2% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (6% of attempts)
-
-### [[Transitions/Back Step]] (2% of attempts)
-
-### [[Transitions/Stack Pass]] (6% of attempts)
-
-### [[Transitions/Knee Pin from X-Guard]] (0% of attempts)
-
-### [[Transitions/Step Over from X-Guard]] (0% of attempts)
-
-### [[Transitions/Smash Pass from X-Guard]] (0% of attempts)
-
-### [[Transitions/Standing Escape from X-Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -202,32 +202,6 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hip Escape to Guard]] (22% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (15% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
-
-### [[Transitions/Bridge and Roll]] (9% of attempts)
-
-### [[Transitions/Upa Escape]] (9% of attempts)
-
-### [[Transitions/Deep Half Entry]] (9% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (9% of attempts)
-
-### [[Transitions/Arm Extraction to Turtle]] (9% of attempts)
-
-### [[Transitions/Bridge Escape from Modified Mount]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -205,32 +205,6 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (21% of attempts)
-
-### [[Transitions/Hip Escape to Turtle]] (17% of attempts)
-
-### [[Transitions/Technical Stand Up to Single Leg]] (8% of attempts)
-
-### [[Transitions/Roll to Guard]] (12% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (11% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (11% of attempts)
-
-### [[Transitions/Shrimp Escape]] (9% of attempts)
-
-### [[Transitions/Hand Fighting from Back]] (7% of attempts)
-
-### [[Transitions/Harness Escape to Half Guard]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

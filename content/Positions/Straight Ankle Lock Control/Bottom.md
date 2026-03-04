@@ -211,34 +211,6 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ankle Lock Finish]] (31% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (13% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (11% of attempts)
-
-### [[Transitions/X-Guard to Ashi Garami]] (6% of attempts)
-
-### [[Transitions/50-50 Entry from Standing]] (8% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (10% of attempts)
-
-### [[Transitions/Kneebar Finish]] (8% of attempts)
-
-### [[Transitions/Ankle Pick Sweep]] (8% of attempts)
-
-### [[Transitions/Straight Footlock]] (3% of attempts)
-
-### [[Transitions/Ankle Lock Escape to Standing]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

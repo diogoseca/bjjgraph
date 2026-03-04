@@ -206,28 +206,6 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Jailbreak to Turtle]] (22% of attempts)
-
-### [[Transitions/Jailbreak to Back Take]] (14% of attempts)
-
-### [[Transitions/Jailbreak to Deep Half Entry]] (15% of attempts)
-
-### [[Transitions/Guard Recovery from Jailbreak]] (15% of attempts)
-
-### [[Transitions/Old School Sweep]] (12% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (12% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

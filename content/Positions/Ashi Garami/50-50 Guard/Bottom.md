@@ -39,7 +39,7 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Extract legs and stand up",
-      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
@@ -201,32 +201,6 @@ From this position, you face multiple submission threats, primarily heel hook, a
 - Strategic Decision Making: Quickly assess whether to fight for reversal or escape to standing based on inside position control and opponent's skill level
 - Counter-Attack Recognition: Identifying when opponent's aggressive attacks expose their own leg for counter submissions
 - Energy Conservation: Position requires sustained defensive effort; avoid exhausting yourself with futile escape attempts when strategic extraction is better option
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Position reversal sweep to top]] (22% of attempts)
-
-### [[Transitions/Counter heel hook]] (12% of attempts)
-
-### [[Transitions/50-50 Guard to Single Leg X-Guard]] (22% of attempts)
-
-### [[Transitions/Extract legs and stand up]] (23% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (4% of attempts)
-
-### [[Transitions/Kneebar entry]] (5% of attempts)
-
-### [[Transitions/Toe Hold]] (5% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (5% of attempts)
-
-### [[Submissions/Toe Hold from 50-50]] (2% of attempts)
-
 
 
 </section>

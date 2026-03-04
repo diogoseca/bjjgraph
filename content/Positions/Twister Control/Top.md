@@ -208,26 +208,6 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Twister Finish]] (30% of attempts)
-
-### [[Transitions/Back Take]] (23% of attempts)
-
-### [[Transitions/Guillotine Choke]] (15% of attempts)
-
-### [[Transitions/Calf Slicer]] (12% of attempts)
-
-### [[Transitions/Neck Crank]] (11% of attempts)
-
-### [[Submissions/Twister]] (9% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

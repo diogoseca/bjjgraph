@@ -204,32 +204,6 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (13% of attempts)
-
-### [[Transitions/Technical Stand-up]] (5% of attempts)
-
-### [[Transitions/Counter Leg Attack]] (9% of attempts)
-
-### [[Transitions/Frame and Extract to Half Guard]] (26% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (17% of attempts)
-
-### [[Transitions/Angle Change Escape]] (6% of attempts)
-
-### [[Transitions/Ashi Garami Escape]] (7% of attempts)
-
-### [[Transitions/Sweep from Inside Sankaku]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

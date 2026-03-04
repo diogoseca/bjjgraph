@@ -203,26 +203,6 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Omoplata]] (19% of attempts)
-
-### [[Transitions/Omoplata to Back]] (19% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (17% of attempts)
-
-### [[Transitions/Triangle Setup]] (14% of attempts)
-
-### [[Submissions/Armbar from Guard]] (17% of attempts)
-
-### [[Transitions/Rolling Back Take]] (14% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

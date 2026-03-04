@@ -145,7 +145,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 41
+        "attempt_probability": 39
       },
       {
         "transition": "Mount Control",
@@ -193,6 +193,10 @@
       },
       {
         "transition": "Monoplata from Mount",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Reverse Armbar",
         "attempt_probability": 2
       }
     ],

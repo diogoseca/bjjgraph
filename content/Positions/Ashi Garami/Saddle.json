@@ -590,7 +590,7 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 56
+        "attempt_probability": 55
       },
       {
         "transition": "Standing up in Base",
@@ -634,6 +634,10 @@
       },
       {
         "transition": "Sweep from Saddle",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Aoki Lock",
         "attempt_probability": 1
       }
     ]

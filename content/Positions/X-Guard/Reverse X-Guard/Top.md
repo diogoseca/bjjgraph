@@ -206,32 +206,6 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Smash Pass]] (30% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (13% of attempts)
-
-### [[Transitions/Long Step Pass]] (11% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Butterfly Pass]] (14% of attempts)
-
-### [[Transitions/Back Step]] (11% of attempts)
-
-### [[Transitions/Backstep Pass from Reverse X-Guard]] (5% of attempts)
-
-### [[Transitions/Knee Slice from Reverse X-Guard]] (2% of attempts)
-
-### [[Transitions/Standing Escape from Reverse X-Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -192,22 +192,6 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Defense from Standing Rear Clinch]] (30% of attempts)
-
-### [[Transitions/Standing Switch from Rear Clinch]] (25% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (25% of attempts)
-
-### [[Transitions/Counter Throw from Standing Rear Clinch]] (20% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -206,34 +206,6 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Guillotine Choke]] (50% of attempts)
-
-### [[Transitions/High Elbow Guillotine Variation]] (13% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (10% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (4% of attempts)
-
-### [[Transitions/Closed Guard to Triangle]] (6% of attempts)
-
-### [[Transitions/Guard Recovery from Guillotine Control]] (6% of attempts)
-
-### [[Transitions/Butterfly Sweep with Guillotine]] (6% of attempts)
-
-### [[Transitions/Guillotine Setup]] (3% of attempts)
-
-### [[Transitions/Guillotine Escape to Von Flue]] (1% of attempts)
-
-### [[Transitions/Guillotine Escape via Posture]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

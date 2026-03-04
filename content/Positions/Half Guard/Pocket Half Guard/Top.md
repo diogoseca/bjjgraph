@@ -203,32 +203,6 @@ From this position, the top player enjoys significant control advantages, includ
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (45% of attempts)
-
-### [[Transitions/Smash Pass]] (12% of attempts)
-
-### [[Transitions/Underhook Pass]] (12% of attempts)
-
-### [[Transitions/Back Step Pass]] (12% of attempts)
-
-### [[Transitions/Darce Setup]] (7% of attempts)
-
-### [[Transitions/Half Guard to Flattened Half Guard]] (7% of attempts)
-
-### [[Transitions/Pass Pocket Half]] (3% of attempts)
-
-### [[Transitions/Smash Pocket Half]] (1% of attempts)
-
-### [[Transitions/Pocket Half Pass]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

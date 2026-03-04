@@ -206,30 +206,6 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Half Guard Pass]] (33% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (17% of attempts)
-
-### [[Transitions/Crossface Pass]] (21% of attempts)
-
-### [[Transitions/Lockdown Break and Pass]] (17% of attempts)
-
-### [[Transitions/Darce from Lockdown Counter]] (7% of attempts)
-
-### [[Transitions/Crossface from Old School]] (3% of attempts)
-
-### [[Transitions/Defend Old School Sweep]] (1% of attempts)
-
-### [[Transitions/Old School Pass]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

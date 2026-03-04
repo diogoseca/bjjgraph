@@ -206,28 +206,6 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Guard Pull from Clinch]] (22% of attempts)
-
-### [[Transitions/Guard Pull]] (18% of attempts)
-
-### [[Transitions/Underhook Pummeling from Clinch]] (15% of attempts)
-
-### [[Transitions/Break Clinch]] (15% of attempts)
-
-### [[Transitions/Arm Drag from Clinch]] (10% of attempts)
-
-### [[Transitions/Duck Under from Clinch]] (10% of attempts)
-
-### [[Transitions/Arm Drag from Clinch Bottom]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

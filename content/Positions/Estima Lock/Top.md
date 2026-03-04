@@ -205,30 +205,6 @@ Success from the top position requires precise technical execution including pro
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Positions/Estima Lock]] (35% of attempts)
-
-### [[Transitions/Toe Hold]] (18% of attempts)
-
-### [[Transitions/Estima Lock to Saddle]] (13% of attempts)
-
-### [[Transitions/Kneebar]] (8% of attempts)
-
-### [[Transitions/Estima Lock to Ashi Garami]] (18% of attempts)
-
-### [[Transitions/Kneebar from Estima Lock]] (4% of attempts)
-
-### [[Transitions/Toe Hold from Estima Lock]] (2% of attempts)
-
-### [[Submissions/Estima Lock Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -210,32 +210,6 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lapel Clear to Toreando Pass]] (12% of attempts)
-
-### [[Transitions/Backstep Around Worm Guard]] (16% of attempts)
-
-### [[Transitions/Pressure Pass Through Squid]] (11% of attempts)
-
-### [[Transitions/Knee Slice Despite Lapel]] (12% of attempts)
-
-### [[Transitions/Long Step Around Ringworm]] (11% of attempts)
-
-### [[Transitions/Stack Pass Over Lapel Barrier]] (9% of attempts)
-
-### [[Transitions/Distance Creation to Reset]] (8% of attempts)
-
-### [[Transitions/Leg Drag While Clearing Lapel]] (11% of attempts)
-
-### [[Transitions/Leg Extraction from Lapel Wrap]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

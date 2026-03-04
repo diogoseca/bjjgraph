@@ -206,30 +206,6 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Posture Recovery]] (32% of attempts)
-
-### [[Transitions/Guard Opening Sequence]] (27% of attempts)
-
-### [[Transitions/Standing up in Base]] (22% of attempts)
-
-### [[Transitions/Stack Pass]] (10% of attempts)
-
-### [[Transitions/Stand Up in Closed Guard]] (3% of attempts)
-
-### [[Transitions/Ezekiel from Closed Guard]] (2% of attempts)
-
-### [[Transitions/Knee Slice from Closed Guard]] (2% of attempts)
-
-### [[Submissions/Can Opener]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

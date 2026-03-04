@@ -208,34 +208,6 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Kimura]] (16% of attempts)
-
-### [[Transitions/Darce Choke]] (10% of attempts)
-
-### [[Transitions/Anaconda Choke]] (9% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (11% of attempts)
-
-### [[Transitions/Two-on-One to Back Take]] (10% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (11% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (10% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (8% of attempts)
-
-### [[Transitions/Side Control to Mount]] (11% of attempts)
-
-### [[Transitions/Overhook Pass to Side Control]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

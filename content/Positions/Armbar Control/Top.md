@@ -206,32 +206,6 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Armbar Finish]] (51% of attempts)
-
-### [[Transitions/Triangle Setup]] (21% of attempts)
-
-### [[Transitions/Omoplata]] (7% of attempts)
-
-### [[Transitions/Kimura]] (7% of attempts)
-
-### [[Transitions/Straight Armbar]] (7% of attempts)
-
-### [[Transitions/Back Take from Armbar]] (3% of attempts)
-
-### [[Transitions/Belly Down Armbar Transition]] (1% of attempts)
-
-### [[Transitions/Triangle from Armbar]] (1% of attempts)
-
-### [[Submissions/Belly Down Armbar Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

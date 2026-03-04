@@ -207,32 +207,6 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Frame and Shrimp to Guard]] (41% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (19% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (12% of attempts)
-
-### [[Transitions/Bridge and Roll]] (10% of attempts)
-
-### [[Transitions/Technical Stand-up]] (9% of attempts)
-
-### [[Transitions/Angle Change Escape]] (5% of attempts)
-
-### [[Transitions/Escape Side Control Consolidation]] (2% of attempts)
-
-### [[Transitions/Frame from Side Control Consolidation]] (1% of attempts)
-
-### [[Transitions/Hip Escape from Side Control Consolidation]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

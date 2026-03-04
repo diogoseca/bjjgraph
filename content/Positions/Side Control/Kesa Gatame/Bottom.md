@@ -206,32 +206,6 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Bridge and Roll]] (12% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (13% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (9% of attempts)
-
-### [[Transitions/Back Take from Kesa Gatame]] (10% of attempts)
-
-### [[Transitions/Bridge and Turn to Turtle]] (28% of attempts)
-
-### [[Transitions/Ghost Escape]] (12% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (10% of attempts)
-
-### [[Transitions/Bridge Escape from Kesa Gatame]] (3% of attempts)
-
-### [[Transitions/Frame to Guard from Kesa Gatame]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -205,34 +205,6 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice from Half]] (28% of attempts)
-
-### [[Transitions/Underhook Pass]] (12% of attempts)
-
-### [[Transitions/Back Take from Top]] (13% of attempts)
-
-### [[Transitions/Smash Pass]] (14% of attempts)
-
-### [[Transitions/Crossface Pass]] (11% of attempts)
-
-### [[Transitions/Half Guard Pass]] (8% of attempts)
-
-### [[Transitions/Darce Setup]] (6% of attempts)
-
-### [[Transitions/Lockdown Break and Pass]] (5% of attempts)
-
-### [[Transitions/Lockdown Break from Z-Lock]] (2% of attempts)
-
-### [[Transitions/Pass Z-Lock]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

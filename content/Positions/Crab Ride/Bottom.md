@@ -203,30 +203,6 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hip Escape to Guard]] (39% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (21% of attempts)
-
-### [[Transitions/Turtle to Standing]] (13% of attempts)
-
-### [[Transitions/Peterson Roll]] (8% of attempts)
-
-### [[Transitions/Sit Through Escape]] (10% of attempts)
-
-### [[Transitions/Rolling Back Take]] (3% of attempts)
-
-### [[Transitions/Crab Ride Escape to Guard]] (4% of attempts)
-
-### [[Transitions/Escape from Crab Ride]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

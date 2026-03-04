@@ -207,40 +207,6 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Heel Hook]] (40% of attempts)
-
-### [[Transitions/Outside Heel Hook]] (5% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (10% of attempts)
-
-### [[Transitions/Toe Hold]] (9% of attempts)
-
-### [[Transitions/Kneebar]] (3% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (10% of attempts)
-
-### [[Transitions/Cross Ashi Transition]] (6% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (5% of attempts)
-
-### [[Transitions/Calf Slicer]] (3% of attempts)
-
-### [[Positions/Estima Lock]] (2% of attempts)
-
-### [[Transitions/Fallback to Inside Ashi-Garami]] (3% of attempts)
-
-### [[Transitions/Heel Hook from Saddle]] (0% of attempts)
-
-### [[Transitions/Saddle Fallback to Inside Ashi]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

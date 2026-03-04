@@ -200,34 +200,6 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (10% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (10% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (10% of attempts)
-
-### [[Transitions/Long Step Pass]] (8% of attempts)
-
-### [[Transitions/X Pass]] (8% of attempts)
-
-### [[Transitions/Double Under Pass]] (6% of attempts)
-
-### [[Transitions/Grip Break]] (35% of attempts)
-
-### [[Transitions/Stack Pass]] (8% of attempts)
-
-### [[Transitions/Pass Double Sleeve Guard]] (3% of attempts)
-
-### [[Transitions/Toreando from Double Sleeve]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

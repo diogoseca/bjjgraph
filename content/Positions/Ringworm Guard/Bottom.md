@@ -204,28 +204,6 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ringworm Sweep to Back Control]] (15% of attempts)
-
-### [[Transitions/Triangle Setup]] (13% of attempts)
-
-### [[Transitions/Omoplata to Sweep]] (13% of attempts)
-
-### [[Transitions/Lapel Sweep to Back]] (16% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (13% of attempts)
-
-### [[Transitions/Ringworm Guard to Worm Guard]] (23% of attempts)
-
-### [[Transitions/Ringworm to Spider Guard]] (7% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

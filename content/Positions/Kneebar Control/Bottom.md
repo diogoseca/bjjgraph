@@ -208,42 +208,6 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Kneebar Finish]] (41% of attempts)
-
-### [[Transitions/Heel Hook]] (11% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (7% of attempts)
-
-### [[Transitions/Ankle Lock Finish]] (7% of attempts)
-
-### [[Transitions/Toe Hold]] (6% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (6% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (5% of attempts)
-
-### [[Transitions/50-50 Entry from Standing]] (4% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (4% of attempts)
-
-### [[Transitions/Ashi Garami Escape]] (4% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (2% of attempts)
-
-### [[Transitions/Straighten Leg Kneebar Defense]] (1% of attempts)
-
-### [[Transitions/Turn and Extract from Kneebar]] (1% of attempts)
-
-### [[Transitions/Reversal from Kneebar Control]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

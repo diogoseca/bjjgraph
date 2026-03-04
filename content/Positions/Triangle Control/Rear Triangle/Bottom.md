@@ -200,30 +200,6 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Arm Extraction]] (25% of attempts)
-
-### [[Transitions/Triangle Escape]] (14% of attempts)
-
-### [[Transitions/Rolling Escape to Guard]] (12% of attempts)
-
-### [[Transitions/Stack Defense]] (13% of attempts)
-
-### [[Transitions/Posture Recovery]] (12% of attempts)
-
-### [[Transitions/Hand Fighting from Back]] (15% of attempts)
-
-### [[Transitions/Grip Fight Escape from Rear Triangle]] (6% of attempts)
-
-### [[Transitions/Posture Defense from Rear Triangle]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

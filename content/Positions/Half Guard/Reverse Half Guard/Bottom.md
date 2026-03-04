@@ -205,34 +205,6 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (9% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (41% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
-
-### [[Transitions/Deep Half Entry]] (9% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (13% of attempts)
-
-### [[Transitions/Kimura Sweep]] (9% of attempts)
-
-### [[Transitions/Guard Recovery from Reverse Half Guard]] (7% of attempts)
-
-### [[Transitions/Escape Reverse Half Guard]] (3% of attempts)
-
-### [[Transitions/Invert from Reverse Half Guard]] (1% of attempts)
-
-### [[Transitions/Sweep from Reverse Half Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -206,26 +206,6 @@ This position commonly arises when defending turtle position, during scrambles f
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Rolling Escape to Guard]] (21% of attempts)
-
-### [[Transitions/Arm Extraction to Turtle]] (38% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (17% of attempts)
-
-### [[Transitions/Counter Roll to Top]] (4% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (18% of attempts)
-
-### [[Transitions/Base Attack to Sweep]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

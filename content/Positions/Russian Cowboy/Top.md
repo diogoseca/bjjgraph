@@ -206,34 +206,6 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Truck Entry]] (13% of attempts)
-
-### [[Transitions/Twister Finish]] (10% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (12% of attempts)
-
-### [[Transitions/Rear Naked Choke]] (11% of attempts)
-
-### [[Transitions/Calf Slicer]] (10% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (10% of attempts)
-
-### [[Transitions/Turtle to Back Take]] (16% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (11% of attempts)
-
-### [[Transitions/Russian Cowboy to Back Control]] (5% of attempts)
-
-### [[Submissions/Russian Cowboy RNC]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

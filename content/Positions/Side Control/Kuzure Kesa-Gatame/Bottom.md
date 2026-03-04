@@ -204,28 +204,6 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (22% of attempts)
-
-### [[Transitions/Arm Recovery to Guard]] (16% of attempts)
-
-### [[Transitions/Bridge and Roll]] (13% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (17% of attempts)
-
-### [[Transitions/Technical Stand-up]] (11% of attempts)
-
-### [[Transitions/Re-Guard from Headquarters]] (15% of attempts)
-
-### [[Transitions/Frame Escape from Kuzure Kesa]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

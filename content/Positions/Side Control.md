@@ -160,7 +160,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount]]** (21% of attempts)
+- **[[Transitions/Side Control to Mount]]** (20% of attempts)
 
 - **[[Transitions/Americana]]** (11% of attempts)
 
@@ -203,6 +203,8 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 - **[[Submissions/Mir Lock]]** (2% of attempts)
 
 - **[[Submissions/Triangle Choke Side]]** (2% of attempts)
+
+- **[[Submissions/Von Flue Choke]]** (1% of attempts)
 
 
 ### Common Mistakes

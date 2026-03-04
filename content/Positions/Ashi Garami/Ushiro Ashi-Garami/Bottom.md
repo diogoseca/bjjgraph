@@ -208,30 +208,6 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ushiro Ashi-Garami Escape]] (11% of attempts)
-
-### [[Transitions/Inversion to Turtle]] (39% of attempts)
-
-### [[Transitions/Ushiro Ashi-Garami to Deep Half]] (11% of attempts)
-
-### [[Transitions/Single Leg X Recovery]] (12% of attempts)
-
-### [[Transitions/Reverse Heel Hook Counter]] (4% of attempts)
-
-### [[Transitions/Leg Extraction to Guard]] (14% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (7% of attempts)
-
-### [[Transitions/Sweep from Ushiro Ashi-Garami]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

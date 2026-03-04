@@ -206,40 +206,6 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Pull guard]] (36% of attempts)
-
-### [[Transitions/Sitting Guard Pull]] (10% of attempts)
-
-### [[Transitions/Shin to Shin Pull]] (8% of attempts)
-
-### [[Transitions/Standing to Single Leg X]] (7% of attempts)
-
-### [[Transitions/Ankle Pick]] (7% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (6% of attempts)
-
-### [[Transitions/Rolling Guard Pull]] (5% of attempts)
-
-### [[Transitions/Double Leg Entry]] (6% of attempts)
-
-### [[Transitions/Single Leg Entry]] (6% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (5% of attempts)
-
-### [[Transitions/Pull Guard from Ground]] (2% of attempts)
-
-### [[Transitions/Technical Stand Up from Ground]] (1% of attempts)
-
-### [[Transitions/Sweep from Standing Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

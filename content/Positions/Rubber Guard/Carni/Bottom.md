@@ -209,32 +209,6 @@ The technical requirements for effective Carni play from bottom include precise 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Heel Hook]] (12% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (17% of attempts)
-
-### [[Transitions/Rolling Back Take]] (11% of attempts)
-
-### [[Transitions/Roll to Truck]] (12% of attempts)
-
-### [[Transitions/Calf Slicer]] (11% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (12% of attempts)
-
-### [[Transitions/Kneebar Finish]] (11% of attempts)
-
-### [[Transitions/Side Control to North-South]] (9% of attempts)
-
-### [[Transitions/Carni to Gogoplata Setup]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

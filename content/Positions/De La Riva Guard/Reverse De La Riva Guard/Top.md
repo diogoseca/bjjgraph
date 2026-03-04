@@ -206,34 +206,6 @@ The top player must navigate multiple decision points throughout the passing seq
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/RDLR Pass]] (20% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (7% of attempts)
-
-### [[Transitions/Smash Pass]] (7% of attempts)
-
-### [[Transitions/Toreando Pass]] (6% of attempts)
-
-### [[Transitions/Long Step Pass]] (9% of attempts)
-
-### [[Transitions/Body Lock Pass]] (8% of attempts)
-
-### [[Transitions/Headquarters Pass]] (14% of attempts)
-
-### [[Transitions/Back Step Pass]] (13% of attempts)
-
-### [[Transitions/RDLR Backstep Counter]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

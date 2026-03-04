@@ -214,38 +214,6 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Headquarters Pass]] (30% of attempts)
-
-### [[Transitions/Grip Break]] (12% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (10% of attempts)
-
-### [[Transitions/Toreando Pass]] (8% of attempts)
-
-### [[Transitions/Stack Pass]] (8% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (8% of attempts)
-
-### [[Transitions/X Pass]] (8% of attempts)
-
-### [[Transitions/Pressure Pass]] (7% of attempts)
-
-### [[Transitions/Long Step Pass]] (4% of attempts)
-
-### [[Transitions/Double Under Pass]] (3% of attempts)
-
-### [[Transitions/Bull Pass from Collar Sleeve]] (1% of attempts)
-
-### [[Transitions/Pass Collar Sleeve Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

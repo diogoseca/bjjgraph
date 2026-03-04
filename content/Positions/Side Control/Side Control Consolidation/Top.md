@@ -206,36 +206,6 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to Mount]] (31% of attempts)
-
-### [[Transitions/Side Control to North-South]] (10% of attempts)
-
-### [[Positions/Knee on Belly]] (14% of attempts)
-
-### [[Transitions/Kimura]] (9% of attempts)
-
-### [[Transitions/Americana]] (8% of attempts)
-
-### [[Transitions/Arm Triangle]] (8% of attempts)
-
-### [[Transitions/Armbar Finish]] (7% of attempts)
-
-### [[Transitions/North-South Choke]] (6% of attempts)
-
-### [[Transitions/Consolidation to Knee on Belly]] (3% of attempts)
-
-### [[Transitions/Consolidation to Mount]] (2% of attempts)
-
-### [[Submissions/Ezekiel from Side Control Consolidation]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

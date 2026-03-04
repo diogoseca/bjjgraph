@@ -201,32 +201,6 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Americana]] (14% of attempts)
-
-### [[Transitions/Kimura]] (12% of attempts)
-
-### [[Transitions/Side Control to Mount]] (15% of attempts)
-
-### [[Transitions/Side Control to North-South]] (24% of attempts)
-
-### [[Transitions/Armbar Finish]] (11% of attempts)
-
-### [[Transitions/Arm Triangle]] (14% of attempts)
-
-### [[Transitions/Scarf Hold to Mount]] (5% of attempts)
-
-### [[Transitions/Scarf Hold to Side Control]] (3% of attempts)
-
-### [[Submissions/Arm Triangle from Scarf Hold]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

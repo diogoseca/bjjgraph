@@ -27,22 +27,22 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TransitionFlashcard(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
-      globalGraph: { showTags: false }
+      globalGraph: { showTags: false },
     }),
   ],
   left: [
     Component.Search(),
-    Component.DesktopOnly(Component.Explorer({
-      mapFn: (node) => {
-        if (node.displayName) {
-          node.displayName = stripTitleSuffix(node.displayName)
-        }
-      }
-    })),
+    Component.DesktopOnly(
+      Component.Explorer({
+        mapFn: (node) => {
+          if (node.displayName) {
+            node.displayName = stripTitleSuffix(node.displayName)
+          }
+        },
+      }),
+    ),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -52,20 +52,20 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
-      globalGraph: { showTags: false }
+      globalGraph: { showTags: false },
     }),
   ],
   left: [
     Component.Search(),
-    Component.DesktopOnly(Component.Explorer({
-      mapFn: (node) => {
-        if (node.displayName) {
-          node.displayName = stripTitleSuffix(node.displayName)
-        }
-      }
-    })),
+    Component.DesktopOnly(
+      Component.Explorer({
+        mapFn: (node) => {
+          if (node.displayName) {
+            node.displayName = stripTitleSuffix(node.displayName)
+          }
+        },
+      }),
+    ),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }

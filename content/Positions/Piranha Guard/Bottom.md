@@ -206,34 +206,6 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Pendulum Sweep]] (21% of attempts)
-
-### [[Transitions/Collar Drag]] (10% of attempts)
-
-### [[Transitions/Triangle Setup]] (10% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (10% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (10% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (10% of attempts)
-
-### [[Transitions/Flower Sweep]] (11% of attempts)
-
-### [[Submissions/Armbar from Guard]] (10% of attempts)
-
-### [[Transitions/Piranha Guard Sweep]] (5% of attempts)
-
-### [[Transitions/Piranha to Worm Guard]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

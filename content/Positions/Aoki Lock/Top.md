@@ -201,24 +201,6 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Aoki Lock Finish]] (38% of attempts)
-
-### [[Transitions/Aoki Lock to Back Control]] (22% of attempts)
-
-### [[Transitions/Aoki Lock to Crucifix]] (15% of attempts)
-
-### [[Transitions/Kimura Switch]] (10% of attempts)
-
-### [[Transitions/Truck Entry]] (15% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

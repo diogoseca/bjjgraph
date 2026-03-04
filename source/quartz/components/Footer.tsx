@@ -22,7 +22,10 @@ export default ((opts?: Options) => {
           <a href="https://github.com/diogoseca/bjjgraph/issues" class="footer-link">
             Report Issues
           </a>
-          <a href="https://github.com/diogoseca/bjjgraph/blob/main/README.md#contributing" class="footer-link">
+          <a
+            href="https://github.com/diogoseca/bjjgraph/blob/main/README.md#contributing"
+            class="footer-link"
+          >
             Contribute
           </a>
         </div>

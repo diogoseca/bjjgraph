@@ -208,50 +208,6 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Underhook Sweep from Half]] (18% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (12% of attempts)
-
-### [[Transitions/Deep Half Entry]] (10% of attempts)
-
-### [[Transitions/Old School Sweep]] (8% of attempts)
-
-### [[Transitions/Knee Shield Retention]] (8% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (5% of attempts)
-
-### [[Transitions/Kimura Sweep]] (5% of attempts)
-
-### [[Transitions/Deep Half Entry from Half Guard]] (5% of attempts)
-
-### [[Transitions/Knee Torque Sweep]] (5% of attempts)
-
-### [[Transitions/Half Guard to X-Guard]] (4% of attempts)
-
-### [[Positions/Dogfight Position]] (4% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (3% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (3% of attempts)
-
-### [[Transitions/Half Guard to K-Guard]] (2% of attempts)
-
-### [[Transitions/Back Door Escape from Half Guard]] (2% of attempts)
-
-### [[Transitions/Half Guard to Old School]] (2% of attempts)
-
-### [[Positions/Buggy Choke]] (2% of attempts)
-
-### [[Submissions/Kneebar from Half Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

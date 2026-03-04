@@ -207,30 +207,6 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Triangle Escape]] (22% of attempts)
-
-### [[Transitions/Posture Recovery]] (16% of attempts)
-
-### [[Transitions/Stack Defense]] (12% of attempts)
-
-### [[Transitions/Guard Recovery from Triangle Control]] (5% of attempts)
-
-### [[Transitions/Triangle Clear to Side]] (5% of attempts)
-
-### [[Transitions/Triangle Choke]] (37% of attempts)
-
-### [[Transitions/Posture Up from Triangle]] (2% of attempts)
-
-### [[Transitions/Stack Escape from Triangle]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

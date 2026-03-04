@@ -206,32 +206,6 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (13% of attempts)
-
-### [[Transitions/Technical Stand-up]] (11% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Rolling Back Take]] (11% of attempts)
-
-### [[Transitions/Arm Extraction to Turtle]] (32% of attempts)
-
-### [[Transitions/Arm Recovery to Guard]] (11% of attempts)
-
-### [[Transitions/Hip Escape from Russian Cowboy]] (5% of attempts)
-
-### [[Transitions/Roll Escape from Russian Cowboy]] (2% of attempts)
-
-### [[Transitions/Escape from Russian Cowboy]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

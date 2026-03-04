@@ -201,40 +201,6 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Berimbolo Entry]] (24% of attempts)
-
-### [[Transitions/Rolling Back Take]] (10% of attempts)
-
-### [[Transitions/Kiss of the Dragon]] (7% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (9% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (7% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (9% of attempts)
-
-### [[Transitions/Omoplata]] (4% of attempts)
-
-### [[Transitions/Roll to Truck]] (5% of attempts)
-
-### [[Transitions/Reverse X-Guard Entry]] (4% of attempts)
-
-### [[Transitions/Technical Stand-up]] (6% of attempts)
-
-### [[Transitions/Bolo Sweep]] (7% of attempts)
-
-### [[Transitions/Reverse De La Riva Recovery]] (6% of attempts)
-
-### [[Transitions/Sweep from Inverted Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

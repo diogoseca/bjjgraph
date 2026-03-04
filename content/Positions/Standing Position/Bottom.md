@@ -203,30 +203,6 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Pull Guard from Standing]] (20% of attempts)
-
-### [[Transitions/Standing Guard Pull]] (18% of attempts)
-
-### [[Transitions/Butterfly Guard Pull]] (15% of attempts)
-
-### [[Transitions/Sprawl Defense from Standing]] (15% of attempts)
-
-### [[Transitions/Arm Drag from Standing]] (10% of attempts)
-
-### [[Transitions/Level Change Takedown]] (8% of attempts)
-
-### [[Transitions/Takedown from Bottom]] (7% of attempts)
-
-### [[Transitions/Snap Down from Standing]] (7% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

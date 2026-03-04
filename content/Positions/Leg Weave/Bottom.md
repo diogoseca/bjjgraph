@@ -202,32 +202,6 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Frame and Shrimp to Guard]] (15% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (11% of attempts)
-
-### [[Transitions/Deep Half Entry]] (13% of attempts)
-
-### [[Transitions/Old School Sweep]] (8% of attempts)
-
-### [[Positions/Dogfight Position]] (27% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (15% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (6% of attempts)
-
-### [[Transitions/Leg Weave Escape to Half Guard]] (3% of attempts)
-
-### [[Transitions/Sweep from Leg Weave]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

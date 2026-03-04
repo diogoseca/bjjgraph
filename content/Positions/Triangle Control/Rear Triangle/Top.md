@@ -203,32 +203,6 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Triangle Choke Finish]] (22% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (14% of attempts)
-
-### [[Transitions/Rear Naked Choke]] (16% of attempts)
-
-### [[Transitions/Aoki Lock to Crucifix]] (13% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (12% of attempts)
-
-### [[Transitions/Kimura from Back]] (12% of attempts)
-
-### [[Transitions/Rear Triangle to Armbar]] (6% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (3% of attempts)
-
-### [[Submissions/Rear Triangle Choke]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

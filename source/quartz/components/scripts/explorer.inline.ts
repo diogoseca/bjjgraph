@@ -78,7 +78,7 @@ function setupExplorer() {
 
   currentExplorerState.map((folderState) => {
     const folderLi = document.querySelector(
-      `[data-folderpath='${folderState.path}']`,
+      `[data-folderpath='${CSS.escape(folderState.path)}']`,
     ) as MaybeHTMLElement
     const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
     if (folderUl) {
@@ -102,7 +102,7 @@ function setupExplorer() {
     // Also check if the current page itself is a folder (e.g., "Positions/Mount" hub page)
     // by checking if there's a folder with the exact slug path
     const exactFolderLi = document.querySelector(
-      `[data-folderpath='${currentSlug}']`,
+      `[data-folderpath='${CSS.escape(currentSlug)}']`,
     ) as MaybeHTMLElement
     if (exactFolderLi) {
       folderPaths.push(currentSlug)
@@ -111,7 +111,7 @@ function setupExplorer() {
     // Expand each folder in the path
     folderPaths.forEach((folderPath) => {
       const folderLi = document.querySelector(
-        `[data-folderpath='${folderPath}']`,
+        `[data-folderpath='${CSS.escape(folderPath)}']`,
       ) as MaybeHTMLElement
       const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
 

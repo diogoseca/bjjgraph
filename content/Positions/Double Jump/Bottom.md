@@ -207,38 +207,6 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Deep Half Entry]] (48% of attempts)
-
-### [[Transitions/Old School Sweep]] (12% of attempts)
-
-### [[Transitions/Waiter Sweep]] (8% of attempts)
-
-### [[Transitions/100% Sweep]] (7% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (7% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (4% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (7% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (2% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (4% of attempts)
-
-### [[Transitions/Escape Double Jump]] (0% of attempts)
-
-### [[Transitions/Reguard from Double Jump]] (0% of attempts)
-
-### [[Transitions/Sweep from Double Jump]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

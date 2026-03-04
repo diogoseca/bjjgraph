@@ -212,38 +212,6 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Armbar Finish]] (16% of attempts)
-
-### [[Transitions/Rear Naked Choke]] (10% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (9% of attempts)
-
-### [[Transitions/Armbar on Free Arm]] (9% of attempts)
-
-### [[Transitions/Gift Wrap to Technical Mount]] (10% of attempts)
-
-### [[Transitions/Neck Crank]] (5% of attempts)
-
-### [[Transitions/Mount to Armbar]] (9% of attempts)
-
-### [[Transitions/Mounted Crucifix to S Mount]] (9% of attempts)
-
-### [[Transitions/Gift Wrap Transition]] (8% of attempts)
-
-### [[Transitions/Back Take from Top]] (10% of attempts)
-
-### [[Positions/Back Control/Seat Belt Control Back]] (3% of attempts)
-
-### [[Submissions/Mounted Crucifix Armbar]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

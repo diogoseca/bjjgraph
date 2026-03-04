@@ -176,7 +176,7 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Transitions/North-South Choke]]** (14% of attempts)
+- **[[Transitions/North-South Choke]]** (13% of attempts)
 
 - **[[Transitions/Side Control to Mount]]** (12% of attempts)
 
@@ -195,6 +195,8 @@ The position demands different strategic approaches based on whether you're esta
 - **[[Transitions/Reverse Mount Transition]]** (7% of attempts)
 
 - **[[Transitions/Back Take from Top]]** (7% of attempts)
+
+- **[[Submissions/Kimura from North-South]]** (1% of attempts)
 
 
 ### Common Mistakes

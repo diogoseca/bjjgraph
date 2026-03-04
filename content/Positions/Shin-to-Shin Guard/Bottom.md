@@ -203,38 +203,6 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Single Leg X Entry]] (24% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (8% of attempts)
-
-### [[Transitions/Butterfly Sweep]] (9% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (8% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (8% of attempts)
-
-### [[Transitions/Technical Stand Up to Single Leg]] (8% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (6% of attempts)
-
-### [[Transitions/Shin to Shin Pull]] (8% of attempts)
-
-### [[Transitions/Hook Sweep]] (8% of attempts)
-
-### [[Transitions/Tripod Sweep]] (8% of attempts)
-
-### [[Transitions/Shin-to-Shin Sweep]] (3% of attempts)
-
-### [[Transitions/Shin-to-Shin to Single Leg X]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

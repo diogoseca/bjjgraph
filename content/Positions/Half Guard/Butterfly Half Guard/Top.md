@@ -206,34 +206,6 @@ The strategic approach from top butterfly half guard involves several key consid
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Half Guard Pass]] (10% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (10% of attempts)
-
-### [[Transitions/Smash Pass]] (23% of attempts)
-
-### [[Transitions/Underhook Pass]] (11% of attempts)
-
-### [[Transitions/Long Step Pass]] (10% of attempts)
-
-### [[Transitions/Pressure Pass]] (8% of attempts)
-
-### [[Transitions/Back Step Pass]] (12% of attempts)
-
-### [[Transitions/Half Guard to Flattened Half Guard]] (10% of attempts)
-
-### [[Transitions/Knee Slice from Butterfly Half]] (4% of attempts)
-
-### [[Transitions/Smash from Butterfly Half]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

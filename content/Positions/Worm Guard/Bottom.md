@@ -204,36 +204,6 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Omoplata Sweep]] (30% of attempts)
-
-### [[Transitions/Triangle Setup]] (9% of attempts)
-
-### [[Transitions/Omoplata to Back]] (9% of attempts)
-
-### [[Transitions/Lapel Elevator Sweep]] (10% of attempts)
-
-### [[Transitions/X-Guard Sweep]] (11% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (10% of attempts)
-
-### [[Transitions/Bolo Sweep]] (8% of attempts)
-
-### [[Transitions/Triangle from Guard]] (8% of attempts)
-
-### [[Transitions/Collar Drag from Worm Guard]] (3% of attempts)
-
-### [[Transitions/Worm Guard Sweep]] (1% of attempts)
-
-### [[Transitions/Worm to Squid Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

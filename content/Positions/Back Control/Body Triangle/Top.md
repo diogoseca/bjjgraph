@@ -204,32 +204,6 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Hip Escape to Turtle]] (14% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (9% of attempts)
-
-### [[Transitions/Triangle Clear to Side]] (49% of attempts)
-
-### [[Transitions/Standing up in Base]] (5% of attempts)
-
-### [[Transitions/Rolling Back Take Reversal]] (2% of attempts)
-
-### [[Transitions/Elbow Escape to Remove Hooks]] (9% of attempts)
-
-### [[Transitions/Back Door Escape]] (9% of attempts)
-
-### [[Transitions/Body Triangle Squeeze]] (1% of attempts)
-
-### [[Submissions/Body Triangle RNC]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

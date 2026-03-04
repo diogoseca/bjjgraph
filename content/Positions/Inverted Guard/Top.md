@@ -201,38 +201,6 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Smash Pass]] (8% of attempts)
-
-### [[Transitions/Stack Pass]] (6% of attempts)
-
-### [[Transitions/Pressure Pass]] (7% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (4% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (6% of attempts)
-
-### [[Transitions/Headquarters Pass]] (8% of attempts)
-
-### [[Transitions/Toreando Pass]] (11% of attempts)
-
-### [[Transitions/Back Step Pass]] (29% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (10% of attempts)
-
-### [[Transitions/Stack Pass from Inversion]] (8% of attempts)
-
-### [[Transitions/Stack from Inverted]] (2% of attempts)
-
-### [[Transitions/Toreando from Inverted]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -204,36 +204,6 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Crossface Pass]] (27% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (10% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (11% of attempts)
-
-### [[Transitions/Smash Pass]] (9% of attempts)
-
-### [[Transitions/Turtle to Back Take]] (12% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (10% of attempts)
-
-### [[Transitions/Anaconda from Turtle]] (8% of attempts)
-
-### [[Transitions/Darce from Turtle]] (6% of attempts)
-
-### [[Transitions/Back Take]] (4% of attempts)
-
-### [[Transitions/Posture Recovery from Zombie]] (2% of attempts)
-
-### [[Transitions/Strip Grip from Zombie]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

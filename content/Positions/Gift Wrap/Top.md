@@ -208,36 +208,6 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (33% of attempts)
-
-### [[Transitions/Armbar on Free Arm]] (9% of attempts)
-
-### [[Transitions/Gift Wrap to Technical Mount]] (13% of attempts)
-
-### [[Transitions/Short Choke Attack]] (7% of attempts)
-
-### [[Transitions/Bow and Arrow Choke Setup]] (6% of attempts)
-
-### [[Transitions/Body Triangle Lock]] (7% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (9% of attempts)
-
-### [[Transitions/Kimura on Trapped Arm]] (9% of attempts)
-
-### [[Transitions/Gift Wrap Maintenance]] (3% of attempts)
-
-### [[Submissions/Gift Wrap Armbar]] (2% of attempts)
-
-### [[Submissions/Gift Wrap RNC]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

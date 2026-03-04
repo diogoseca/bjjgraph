@@ -207,42 +207,6 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hand Fighting from Back]] (22% of attempts)
-
-### [[Transitions/Back Door Escape]] (20% of attempts)
-
-### [[Transitions/Hip Escape to Turtle]] (13% of attempts)
-
-### [[Transitions/Elbow Escape to Remove Hooks]] (12% of attempts)
-
-### [[Transitions/Turn In and Face]] (8% of attempts)
-
-### [[Transitions/Hip Escape from Back Control]] (5% of attempts)
-
-### [[Transitions/Turtle from Back Control]] (5% of attempts)
-
-### [[Transitions/Shoulder Walk Escape from Back]] (5% of attempts)
-
-### [[Transitions/Scoot Hips to Guard from Back]] (4% of attempts)
-
-### [[Transitions/Turn into Opponent from Back]] (3% of attempts)
-
-### [[Transitions/Elbow Escape from Back]] (2% of attempts)
-
-### [[Transitions/Hand Fight to Turtle from Back]] (1% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (0% of attempts)
-
-### [[Transitions/Rolling Escape to Guard]] (0% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

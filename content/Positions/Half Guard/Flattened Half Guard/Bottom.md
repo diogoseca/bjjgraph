@@ -204,38 +204,6 @@ Understanding the position's risks is equally important. The primary danger is n
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Frame and Shrimp to Guard]] (68% of attempts)
-
-### [[Transitions/Deep Half Entry]] (12% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (12% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (4% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (2% of attempts)
-
-### [[Transitions/Old School Sweep]] (1% of attempts)
-
-### [[Transitions/Underhook Recovery from Flattened]] (0% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (0% of attempts)
-
-### [[Transitions/Deep Half Entry from Flattened]] (0% of attempts)
-
-### [[Transitions/Elbow Escape from Flattened Half]] (0% of attempts)
-
-### [[Transitions/Recover Knee Shield from Flattened Half]] (0% of attempts)
-
-### [[Transitions/Reversal from Flattened Half Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

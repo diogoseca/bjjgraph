@@ -201,24 +201,6 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Anaconda Choke]] (50% of attempts)
-
-### [[Transitions/Anaconda Control to Dead Orchard Control]] (20% of attempts)
-
-### [[Transitions/Switch to Darce Configuration]] (15% of attempts)
-
-### [[Transitions/Anaconda to Side Control]] (10% of attempts)
-
-### [[Transitions/Back Take from Anaconda]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

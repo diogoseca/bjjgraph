@@ -201,32 +201,6 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (28% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (22% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (18% of attempts)
-
-### [[Transitions/Bridge and Roll]] (10% of attempts)
-
-### [[Transitions/Ghost Escape]] (8% of attempts)
-
-### [[Transitions/Side Control Escape]] (5% of attempts)
-
-### [[Transitions/Ghost Escape from Side Control]] (4% of attempts)
-
-### [[Transitions/Sit Out from Side Control]] (3% of attempts)
-
-### [[Transitions/Turtle from Side Control Bottom]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

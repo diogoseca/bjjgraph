@@ -196,24 +196,6 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Technical Stand-up]] (25% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (22% of attempts)
-
-### [[Transitions/Win Scramble to Top]] (20% of attempts)
-
-### [[Transitions/Deep Half Entry]] (18% of attempts)
-
-### [[Transitions/Stabilize to Guard from Scramble]] (15% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -176,13 +176,13 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup]]** (13% of attempts)
+- **[[Transitions/Guillotine Setup]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Setup]]** (12% of attempts)
+- **[[Transitions/Anaconda Setup]]** (11% of attempts)
 
-- **[[Transitions/Darce Setup]]** (12% of attempts)
+- **[[Transitions/Darce Setup]]** (11% of attempts)
 
-- **[[Transitions/Front Headlock to Back]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (11% of attempts)
 
 - **[[Transitions/Arm Triangle from Front Headlock]]** (6% of attempts)
 
@@ -205,6 +205,14 @@ Understanding the front headlock requires recognizing its role as a transitional
 - **[[Submissions/Chin Strap Guillotine]]** (2% of attempts)
 
 - **[[Submissions/Peruvian Necktie]]** (2% of attempts)
+
+- **[[Submissions/Arm in Guillotine]]** (1% of attempts)
+
+- **[[Submissions/High Elbow Guillotine]]** (1% of attempts)
+
+- **[[Submissions/Japanese Necktie]]** (1% of attempts)
+
+- **[[Submissions/Ten Finger Guillotine]]** (1% of attempts)
 
 
 ### Common Mistakes

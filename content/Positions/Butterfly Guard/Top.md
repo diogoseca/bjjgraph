@@ -207,40 +207,6 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (11% of attempts)
-
-### [[Transitions/Double Under Pass]] (2% of attempts)
-
-### [[Transitions/Butterfly Pass]] (10% of attempts)
-
-### [[Transitions/Long Step Pass]] (2% of attempts)
-
-### [[Transitions/Over-Under Pass]] (2% of attempts)
-
-### [[Transitions/Toreando Pass]] (1% of attempts)
-
-### [[Transitions/Butterfly Smash]] (47% of attempts)
-
-### [[Transitions/Body Lock Pass]] (9% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (7% of attempts)
-
-### [[Transitions/Standing up in Base]] (3% of attempts)
-
-### [[Transitions/X Pass]] (5% of attempts)
-
-### [[Transitions/Butterfly Guard to Butterfly Half Guard]] (0% of attempts)
-
-### [[Transitions/Butterfly Guard to Half Butterfly]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -212,28 +212,6 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Arm Extraction]] (28% of attempts)
-
-### [[Transitions/Posture Recovery]] (17% of attempts)
-
-### [[Transitions/Stack Defense]] (17% of attempts)
-
-### [[Transitions/Sprawl]] (12% of attempts)
-
-### [[Transitions/Guard Opening Sequence]] (17% of attempts)
-
-### [[Transitions/Posture Recovery from Meathook]] (6% of attempts)
-
-### [[Transitions/Stack Pass from Meathook]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -212,38 +212,6 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Lasso Guard Pass]] (15% of attempts)
-
-### [[Transitions/Stack Pass]] (10% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (34% of attempts)
-
-### [[Transitions/Smash Pass]] (8% of attempts)
-
-### [[Transitions/Toreando Pass]] (8% of attempts)
-
-### [[Transitions/Long Step Pass]] (3% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (8% of attempts)
-
-### [[Transitions/Kimura]] (3% of attempts)
-
-### [[Transitions/Body Lock Pass]] (6% of attempts)
-
-### [[Transitions/Spider Guard Pass]] (3% of attempts)
-
-### [[Transitions/Lasso Guard Backstep Pass]] (1% of attempts)
-
-### [[Transitions/Lasso Guard Stack Pass]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

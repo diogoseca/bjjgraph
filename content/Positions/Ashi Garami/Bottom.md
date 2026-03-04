@@ -21,7 +21,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 62% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 61% of exchanges from this position.",
       "position": 1
     },
     {
@@ -200,40 +200,6 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 - **Heel Protection Awareness**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own heel while attacking opponent's
 - **Connection Maintenance**: Preserve critical connection points including inside leg hook, hip pressure, and upper body grips that prevent opponent position improvement
 - **Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack and prioritize superior position before submission attempts
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Inside Ashi Entry]] (62% of attempts)
-
-### [[Transitions/Cross Ashi Transition]] (7% of attempts)
-
-### [[Transitions/Heel Hook]] (4% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (12% of attempts)
-
-### [[Transitions/50-50 Entry]] (5% of attempts)
-
-### [[Transitions/Toe Hold]] (5% of attempts)
-
-### [[Transitions/Kneebar Setup]] (2% of attempts)
-
-### [[Transitions/Single Leg X Transition]] (1% of attempts)
-
-### [[Transitions/Backside 50-50 Entry from Ashi]] (1% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (0% of attempts)
-
-### [[Transitions/Ashi Garami Maintenance]] (0% of attempts)
-
-### [[Transitions/Heel Strip from Ashi Garami]] (0% of attempts)
-
-### [[Transitions/Standing Up from Ashi Garami]] (1% of attempts)
-
 
 
 </section>

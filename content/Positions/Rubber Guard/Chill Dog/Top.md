@@ -211,34 +211,6 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Control]] (31% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (12% of attempts)
-
-### [[Transitions/Darce Setup]] (10% of attempts)
-
-### [[Transitions/Anaconda Setup]] (9% of attempts)
-
-### [[Transitions/Front Headlock to Back]] (12% of attempts)
-
-### [[Transitions/Truck Entry]] (10% of attempts)
-
-### [[Transitions/Guillotine Setup]] (9% of attempts)
-
-### [[Transitions/Posture from Chill Dog]] (4% of attempts)
-
-### [[Transitions/Stack from Chill Dog]] (2% of attempts)
-
-### [[Transitions/Guard Pass from Chill Dog]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

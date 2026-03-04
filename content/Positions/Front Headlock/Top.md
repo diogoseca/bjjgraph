@@ -21,25 +21,25 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
@@ -204,44 +204,6 @@ Mastering front headlock top requires understanding both the technical details o
 - Create submission dilemmas where defensive movements open alternative attacks
 - Maintain connection between your chest and opponent's back - space allows escapes
 - Read opponent's weight distribution and defensive reactions to determine optimal attack
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Guillotine Setup]] (13% of attempts)
-
-### [[Transitions/Anaconda Setup]] (12% of attempts)
-
-### [[Transitions/Darce Setup]] (12% of attempts)
-
-### [[Transitions/Front Headlock to Back]] (12% of attempts)
-
-### [[Transitions/Arm Triangle from Front Headlock]] (6% of attempts)
-
-### [[Transitions/Japanese Necktie Setup]] (7% of attempts)
-
-### [[Transitions/Peruvian Necktie Setup]] (7% of attempts)
-
-### [[Transitions/Step Over to Mount]] (5% of attempts)
-
-### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (5% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (4% of attempts)
-
-### [[Transitions/Kimura]] (4% of attempts)
-
-### [[Submissions/Brabo Choke]] (2% of attempts)
-
-### [[Submissions/Chin Strap Guillotine]] (2% of attempts)
-
-### [[Submissions/Peruvian Necktie]] (2% of attempts)
-
 
 
 </section>

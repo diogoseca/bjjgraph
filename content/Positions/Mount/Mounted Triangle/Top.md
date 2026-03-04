@@ -206,40 +206,6 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Triangle Choke]] (22% of attempts)
-
-### [[Transitions/Armbar Finish]] (9% of attempts)
-
-### [[Transitions/Switch to Triangle]] (8% of attempts)
-
-### [[Transitions/Back Take]] (8% of attempts)
-
-### [[Transitions/Consolidate Mount]] (9% of attempts)
-
-### [[Positions/Gift Wrap]] (6% of attempts)
-
-### [[Transitions/Kimura to Back Take]] (6% of attempts)
-
-### [[Transitions/S-Mount Transition]] (9% of attempts)
-
-### [[Transitions/Triangle to Armbar]] (9% of attempts)
-
-### [[Transitions/Triangle to Back]] (7% of attempts)
-
-### [[Transitions/Mounted Triangle Squeeze]] (3% of attempts)
-
-### [[Transitions/Mounted Triangle to S Mount]] (2% of attempts)
-
-### [[Submissions/Mounted Triangle Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

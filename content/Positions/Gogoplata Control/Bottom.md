@@ -212,26 +212,6 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Gogoplata]] (27% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (15% of attempts)
-
-### [[Transitions/Back Take]] (14% of attempts)
-
-### [[Transitions/Mission Control Recovery]] (24% of attempts)
-
-### [[Transitions/Switch to Triangle]] (18% of attempts)
-
-### [[Submissions/Gogoplata Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

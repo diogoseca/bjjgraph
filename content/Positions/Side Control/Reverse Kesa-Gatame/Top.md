@@ -202,32 +202,6 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to Mount]] (24% of attempts)
-
-### [[Transitions/Side Control to North-South]] (15% of attempts)
-
-### [[Transitions/Kimura]] (15% of attempts)
-
-### [[Transitions/Americana]] (13% of attempts)
-
-### [[Transitions/Arm Triangle]] (10% of attempts)
-
-### [[Transitions/Back Take]] (13% of attempts)
-
-### [[Transitions/Reverse Kesa to North-South]] (5% of attempts)
-
-### [[Transitions/Reverse Kesa to Side Control]] (3% of attempts)
-
-### [[Submissions/Americana from Reverse Kesa]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

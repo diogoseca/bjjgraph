@@ -208,30 +208,6 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (14% of attempts)
-
-### [[Transitions/Standing up in Base]] (12% of attempts)
-
-### [[Transitions/Sit Through Escape]] (26% of attempts)
-
-### [[Transitions/Peterson Roll]] (12% of attempts)
-
-### [[Transitions/Crackhead Control to Carni]] (12% of attempts)
-
-### [[Transitions/Crackhead Control to Mission Control]] (10% of attempts)
-
-### [[Transitions/Crackhead Control to New York]] (8% of attempts)
-
-### [[Transitions/Posture Recovery to Closed Guard]] (6% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -202,30 +202,6 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (29% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (18% of attempts)
-
-### [[Transitions/Smash Pass]] (16% of attempts)
-
-### [[Transitions/Half Guard Pass]] (13% of attempts)
-
-### [[Transitions/Pressure Pass]] (10% of attempts)
-
-### [[Transitions/Back Step Pass]] (8% of attempts)
-
-### [[Transitions/Leg Hook to Half Guard]] (4% of attempts)
-
-### [[Transitions/Leg Hook to Side Control]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

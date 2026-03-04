@@ -206,44 +206,6 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Double Leg Entry]] (10% of attempts)
-
-### [[Transitions/Single Leg Takedown]] (10% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (10% of attempts)
-
-### [[Transitions/Duck Under]] (10% of attempts)
-
-### [[Transitions/Fireman's Carry]] (10% of attempts)
-
-### [[Transitions/Kouchi Gari]] (8% of attempts)
-
-### [[Transitions/Uchi Mata]] (8% of attempts)
-
-### [[Transitions/Arm Drag to Back]] (7% of attempts)
-
-### [[Transitions/Body Lock Pass]] (7% of attempts)
-
-### [[Transitions/High Crotch]] (5% of attempts)
-
-### [[Transitions/Collar Drag]] (5% of attempts)
-
-### [[Transitions/Ankle Pick]] (4% of attempts)
-
-### [[Transitions/Body Lock Takedown from Clinch]] (2% of attempts)
-
-### [[Transitions/Two-on-One to Back Take]] (2% of attempts)
-
-### [[Submissions/Standing Guillotine from Clinch]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

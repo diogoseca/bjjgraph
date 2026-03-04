@@ -149,7 +149,7 @@ export function normalizeHastElement(rawEl: HastElement, curBase: FullSlug, newB
 export function pathToRoot(slug: FullSlug): RelativeURL {
   // Normalize: remove trailing "/index" to get the actual directory path
   // This fixes category hub pages (Positions/index → Positions) so pathToRoot returns "." not ".."
-  const normalized = slug.replace(/\/index$/, '')
+  const normalized = slug.replace(/\/index$/, "")
 
   let rootPath = normalized
     .split("/")

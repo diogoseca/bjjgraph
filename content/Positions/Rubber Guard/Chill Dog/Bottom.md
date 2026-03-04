@@ -211,32 +211,6 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (14% of attempts)
-
-### [[Transitions/Granby to Closed Guard]] (11% of attempts)
-
-### [[Transitions/Technical Stand-up]] (32% of attempts)
-
-### [[Transitions/Rolling to Guard]] (11% of attempts)
-
-### [[Transitions/Turtle to Guard]] (13% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (11% of attempts)
-
-### [[Transitions/Escape Chill Dog]] (5% of attempts)
-
-### [[Transitions/Roll from Chill Dog]] (2% of attempts)
-
-### [[Transitions/Sweep from Chill Dog]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

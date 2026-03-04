@@ -204,32 +204,6 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Rolling to Guard]] (15% of attempts)
-
-### [[Transitions/Turtle to Guard]] (38% of attempts)
-
-### [[Transitions/Turtle to Standing]] (15% of attempts)
-
-### [[Transitions/Sit Through to Guard]] (13% of attempts)
-
-### [[Transitions/Peterson Roll]] (7% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (7% of attempts)
-
-### [[Transitions/Hip Escape from Cross Body Ride]] (3% of attempts)
-
-### [[Transitions/Roll Escape from Cross Body Ride]] (1% of attempts)
-
-### [[Transitions/Escape from Cross Body Ride]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

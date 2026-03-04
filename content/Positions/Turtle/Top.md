@@ -21,7 +21,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 61% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 60% of exchanges from this position.",
       "position": 1
     },
     {
@@ -196,44 +196,6 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 - Control opponent's hip movement to prevent guard recovery
 - Maintain heavy chest pressure to disrupt opponent's base structure
 - Recognize weight distribution changes that signal escape attempts
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Control]] (61% of attempts)
-
-### [[Transitions/Front Headlock to Anaconda]] (5% of attempts)
-
-### [[Transitions/Front Headlock to Darce]] (5% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (3% of attempts)
-
-### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
-
-### [[Transitions/Turtle to Truck Entry]] (2% of attempts)
-
-### [[Transitions/Front Headlock to Guillotine]] (3% of attempts)
-
-### [[Transitions/Kimura]] (2% of attempts)
-
-### [[Transitions/Arm Triangle from Turtle]] (2% of attempts)
-
-### [[Transitions/Turtle to Standing]] (3% of attempts)
-
-### [[Transitions/Turtle Attack Sequence]] (1% of attempts)
-
-### [[Transitions/Turtle to Matrix]] (1% of attempts)
-
-### [[Transitions/Turtle to Rodeo Ride]] (1% of attempts)
-
-### [[Submissions/Belly Down Armbar]] (2% of attempts)
-
-### [[Submissions/Kimura from Turtle]] (2% of attempts)
-
 
 
 </section>

@@ -206,36 +206,6 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Granby Roll to Guard]] (42% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (14% of attempts)
-
-### [[Transitions/Leg Extraction to Guard]] (14% of attempts)
-
-### [[Transitions/Rolling Back Take Reversal]] (8% of attempts)
-
-### [[Transitions/Forward Roll]] (10% of attempts)
-
-### [[Transitions/Back Door Escape]] (6% of attempts)
-
-### [[Transitions/Defensive Roll]] (4% of attempts)
-
-### [[Transitions/Hip Escape from Truck]] (1% of attempts)
-
-### [[Transitions/Leg Extraction from Truck]] (0% of attempts)
-
-### [[Transitions/Roll to Guard from Truck]] (0% of attempts)
-
-### [[Transitions/Escape from Truck]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

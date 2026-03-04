@@ -202,40 +202,6 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Side Control to Mount]] (33% of attempts)
-
-### [[Transitions/Armbar Finish]] (9% of attempts)
-
-### [[Transitions/Baseball Bat Choke]] (11% of attempts)
-
-### [[Transitions/Side Control to North-South]] (10% of attempts)
-
-### [[Transitions/Kimura]] (7% of attempts)
-
-### [[Transitions/Back Take from Top]] (7% of attempts)
-
-### [[Transitions/S-Mount Transition]] (6% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (9% of attempts)
-
-### [[Transitions/Far Side Armbar from KOB]] (2% of attempts)
-
-### [[Transitions/KOB to Mount]] (1% of attempts)
-
-### [[Transitions/KOB to Side Control]] (1% of attempts)
-
-### [[Submissions/Armbar from Knee on Belly]] (2% of attempts)
-
-### [[Submissions/Cross Collar Choke from KOB]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

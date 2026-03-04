@@ -201,32 +201,6 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (22% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (13% of attempts)
-
-### [[Transitions/Long Step Pass]] (12% of attempts)
-
-### [[Transitions/Double Under Pass]] (11% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (11% of attempts)
-
-### [[Transitions/Grip Break]] (10% of attempts)
-
-### [[Transitions/Spider Guard Pass]] (5% of attempts)
-
-### [[Transitions/Stack Pass from Spider]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

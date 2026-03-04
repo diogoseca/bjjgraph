@@ -198,24 +198,6 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Heel Hook from Saddle]] (35% of attempts)
-
-### [[Transitions/Backstep from Leg Knot]] (20% of attempts)
-
-### [[Transitions/Toe Hold from Outside Ashi]] (20% of attempts)
-
-### [[Transitions/Pressure Pass from Leg Knot]] (15% of attempts)
-
-### [[Transitions/Leg Extraction from Leg Knot]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

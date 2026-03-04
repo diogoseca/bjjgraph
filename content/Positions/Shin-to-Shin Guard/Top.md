@@ -203,34 +203,6 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (11% of attempts)
-
-### [[Transitions/Long Step Pass]] (22% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (10% of attempts)
-
-### [[Transitions/Stack Pass]] (9% of attempts)
-
-### [[Transitions/Pressure Pass]] (11% of attempts)
-
-### [[Transitions/X Pass]] (10% of attempts)
-
-### [[Transitions/Knee Through]] (10% of attempts)
-
-### [[Transitions/Smash Pass]] (11% of attempts)
-
-### [[Transitions/Pass Shin-to-Shin Guard]] (4% of attempts)
-
-### [[Transitions/Pressure from Shin-to-Shin]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

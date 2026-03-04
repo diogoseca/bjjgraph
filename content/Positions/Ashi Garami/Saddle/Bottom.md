@@ -21,7 +21,7 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 56% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 55% of exchanges from this position.",
       "position": 1
     },
     {
@@ -202,38 +202,6 @@ Understanding common submission mechanics from Saddle is essential for defensive
 - Use free leg to control opponent's hips and prevent them from squaring up to your trapped leg
 - Maintain connection to opponent's body to prevent space creation for finishing mechanics
 - Address grips systematically before making larger positional adjustments
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Ashi Garami Escape]] (56% of attempts)
-
-### [[Transitions/Standing up in Base]] (1% of attempts)
-
-### [[Transitions/Guard Recovery from Leg Entanglement]] (7% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (8% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (10% of attempts)
-
-### [[Transitions/Inversion Escape]] (11% of attempts)
-
-### [[Transitions/Leg Extraction to Guard]] (6% of attempts)
-
-### [[Transitions/Boot Scoot Escape from Saddle]] (0% of attempts)
-
-### [[Transitions/Fight to Inside Ashi from Saddle]] (0% of attempts)
-
-### [[Transitions/Forward Roll from Saddle]] (0% of attempts)
-
-### [[Transitions/Leg Pummeling from Saddle]] (0% of attempts)
-
-### [[Transitions/Sweep from Saddle]] (1% of attempts)
-
 
 
 </section>

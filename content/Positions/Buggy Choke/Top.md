@@ -206,40 +206,6 @@ From a technical perspective, the buggy choke teaches important principles about
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Finish Buggy Choke]] (41% of attempts)
-
-### [[Transitions/Hook Leg and Take Back]] (17% of attempts)
-
-### [[Transitions/Roll to Truck]] (7% of attempts)
-
-### [[Transitions/Switch to Darce Configuration]] (4% of attempts)
-
-### [[Transitions/Switch to Anaconda Configuration]] (2% of attempts)
-
-### [[Transitions/Buggy Choke to Front Headlock]] (5% of attempts)
-
-### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
-
-### [[Transitions/Guillotine from Turtle]] (2% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (10% of attempts)
-
-### [[Transitions/Buggy Choke to North-South]] (1% of attempts)
-
-### [[Transitions/Buggy Choke to Side Control]] (1% of attempts)
-
-### [[Transitions/Grip Strip from Buggy Choke]] (1% of attempts)
-
-### [[Submissions/Buggy Choke Finish]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

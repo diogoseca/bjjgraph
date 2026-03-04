@@ -555,7 +555,7 @@
       },
       {
         "transition": "Extract legs and stand up",
-        "attempt_probability": 23
+        "attempt_probability": 22
       },
       {
         "transition": "Straight Ankle Lock Entry",
@@ -576,6 +576,10 @@
       {
         "transition": "Toe Hold from 50-50",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Aoki Lock",
+        "attempt_probability": 1
       }
     ]
   }

@@ -204,26 +204,6 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Triangle Setup]] (22% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (20% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (18% of attempts)
-
-### [[Transitions/Kimura from Diamond Guard]] (15% of attempts)
-
-### [[Transitions/Triangle from Diamond Guard]] (13% of attempts)
-
-### [[Transitions/Sweep from Diamond Guard]] (12% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

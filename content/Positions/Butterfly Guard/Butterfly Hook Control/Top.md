@@ -204,42 +204,6 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Butterfly Pass]] (10% of attempts)
-
-### [[Transitions/Butterfly Smash]] (34% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (10% of attempts)
-
-### [[Transitions/Standing up in Base]] (12% of attempts)
-
-### [[Transitions/Pressure Pass]] (8% of attempts)
-
-### [[Transitions/Double Under Pass]] (4% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (4% of attempts)
-
-### [[Transitions/Toreando Pass]] (2% of attempts)
-
-### [[Transitions/Back Step Pass]] (4% of attempts)
-
-### [[Transitions/Body Lock Pass]] (4% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (4% of attempts)
-
-### [[Transitions/Over-Under Pass]] (2% of attempts)
-
-### [[Transitions/Pass Butterfly Hook Control]] (1% of attempts)
-
-### [[Transitions/Smash from Butterfly Hook Control]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

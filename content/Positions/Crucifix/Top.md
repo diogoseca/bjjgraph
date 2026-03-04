@@ -39,7 +39,7 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "HowToStep",
       "name": "Execute Choke from Crucifix",
-      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 39% of exchanges from this position.",
       "position": 4
     },
     {
@@ -202,30 +202,6 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 - Prevent opponent from turning into you by maintaining perpendicular body alignment and constant leg pressure
 - Systematically attack the neck while maintaining arm control—transition between attacks rather than releasing control
 - Stay tight to opponent's back and shoulders to prevent space creation and rolling escapes
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (8% of attempts)
-
-### [[Transitions/Kimura]] (6% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (19% of attempts)
-
-### [[Transitions/Choke from Crucifix]] (40% of attempts)
-
-### [[Transitions/Armbar from Crucifix]] (16% of attempts)
-
-### [[Transitions/Side Control to Mount]] (6% of attempts)
-
-### [[Transitions/Crucifix Maintenance]] (3% of attempts)
-
-### [[Transitions/Crucifix to Mount]] (2% of attempts)
-
 
 
 </section>

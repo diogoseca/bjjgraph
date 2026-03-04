@@ -278,7 +278,7 @@
     "transitions": [
       {
         "transition": "North-South Choke",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Side Control to Mount",
@@ -315,6 +315,10 @@
       {
         "transition": "Back Take from Top",
         "attempt_probability": 7
+      },
+      {
+        "transition": "Kimura from North-South",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

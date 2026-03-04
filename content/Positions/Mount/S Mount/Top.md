@@ -208,34 +208,6 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (34% of attempts)
-
-### [[Transitions/Triangle from Mount]] (15% of attempts)
-
-### [[Transitions/Americana]] (7% of attempts)
-
-### [[Transitions/Kimura]] (7% of attempts)
-
-### [[Transitions/Back Take]] (11% of attempts)
-
-### [[Transitions/Mounted Crucifix Entry]] (7% of attempts)
-
-### [[Transitions/Gift Wrap to Back]] (12% of attempts)
-
-### [[Transitions/S Mount Armbar Setup]] (3% of attempts)
-
-### [[Transitions/S Mount to Mounted Triangle]] (2% of attempts)
-
-### [[Submissions/Armbar from S Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

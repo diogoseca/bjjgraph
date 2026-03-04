@@ -307,7 +307,7 @@
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Bow and Arrow Choke",
@@ -344,6 +344,10 @@
       {
         "transition": "Calf Slicer from Truck",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Spine Lock",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

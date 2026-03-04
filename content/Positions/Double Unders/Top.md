@@ -203,34 +203,6 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Double Under Pass]] (33% of attempts)
-
-### [[Transitions/Stack Pass]] (14% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (10% of attempts)
-
-### [[Transitions/Back Take]] (8% of attempts)
-
-### [[Transitions/Over-Under Pass]] (6% of attempts)
-
-### [[Transitions/Body Lock Pass]] (10% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (8% of attempts)
-
-### [[Transitions/Smash Pass]] (6% of attempts)
-
-### [[Transitions/Stack Pass from Double Unders]] (3% of attempts)
-
-### [[Transitions/Toss Pass from Double Unders]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

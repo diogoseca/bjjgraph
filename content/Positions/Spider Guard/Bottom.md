@@ -201,42 +201,6 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Triangle Setup]] (30% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (9% of attempts)
-
-### [[Transitions/Balloon Sweep]] (9% of attempts)
-
-### [[Transitions/Scissor Sweep]] (8% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (8% of attempts)
-
-### [[Transitions/Spider Guard to Omoplata]] (9% of attempts)
-
-### [[Transitions/Pendulum Sweep]] (7% of attempts)
-
-### [[Transitions/Armbar Finish]] (6% of attempts)
-
-### [[Transitions/Guard Recovery from Spider Guard]] (6% of attempts)
-
-### [[Transitions/Spider Sweep]] (2% of attempts)
-
-### [[Transitions/Spider to Lasso Guard]] (1% of attempts)
-
-### [[Transitions/Triangle from Spider Guard]] (1% of attempts)
-
-### [[Submissions/Omoplata from Spider Guard]] (2% of attempts)
-
-### [[Submissions/Triangle from Spider Guard Bottom]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

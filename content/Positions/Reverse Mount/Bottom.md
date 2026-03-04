@@ -204,28 +204,6 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Elbow Escape to Guard]] (28% of attempts)
-
-### [[Transitions/Bridge and Roll]] (22% of attempts)
-
-### [[Transitions/Hip Escape to Guard]] (17% of attempts)
-
-### [[Transitions/Sit Through to Guard]] (12% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
-
-### [[Transitions/Bridge from Reverse Mount]] (6% of attempts)
-
-### [[Transitions/Escape Reverse Mount]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

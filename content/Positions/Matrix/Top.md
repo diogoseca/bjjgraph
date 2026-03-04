@@ -212,36 +212,6 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Sprawl Defense]] (11% of attempts)
-
-### [[Transitions/Crossface Pass]] (10% of attempts)
-
-### [[Transitions/Back Step]] (8% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (8% of attempts)
-
-### [[Transitions/Back Take from Top]] (26% of attempts)
-
-### [[Transitions/Darce from Turtle]] (8% of attempts)
-
-### [[Transitions/Guillotine from Turtle]] (8% of attempts)
-
-### [[Transitions/Anaconda from Turtle]] (6% of attempts)
-
-### [[Transitions/Turtle Flatten to Side Control]] (10% of attempts)
-
-### [[Transitions/Matrix to Back Control]] (3% of attempts)
-
-### [[Transitions/Matrix to Side Control]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

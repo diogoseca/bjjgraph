@@ -206,32 +206,6 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Stack Pass]] (30% of attempts)
-
-### [[Transitions/Triangle Escape]] (17% of attempts)
-
-### [[Transitions/Posture Recovery]] (17% of attempts)
-
-### [[Transitions/Pass to Side Control]] (7% of attempts)
-
-### [[Transitions/Arm Extraction]] (13% of attempts)
-
-### [[Transitions/Standing up in Base]] (11% of attempts)
-
-### [[Transitions/Complete Triangle Escape]] (3% of attempts)
-
-### [[Transitions/Posture in Triangle Escape]] (1% of attempts)
-
-### [[Transitions/Reversal from Triangle Escape]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

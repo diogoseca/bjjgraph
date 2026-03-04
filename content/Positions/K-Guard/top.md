@@ -206,32 +206,6 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (25% of attempts)
-
-### [[Transitions/Smash Pass]] (14% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (12% of attempts)
-
-### [[Transitions/Half Guard Pass]] (16% of attempts)
-
-### [[Transitions/Underhook Pass]] (12% of attempts)
-
-### [[Transitions/Kimura from Half Guard]] (10% of attempts)
-
-### [[Transitions/Guillotine Setup]] (6% of attempts)
-
-### [[Transitions/Backstep from K-Guard]] (3% of attempts)
-
-### [[Transitions/Pass K-Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

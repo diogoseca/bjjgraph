@@ -205,34 +205,6 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Kimura]] (18% of attempts)
-
-### [[Transitions/Americana]] (12% of attempts)
-
-### [[Transitions/Side Control to Mount]] (13% of attempts)
-
-### [[Transitions/Side Control to North-South]] (13% of attempts)
-
-### [[Transitions/Arm Triangle]] (11% of attempts)
-
-### [[Transitions/North-South Choke]] (10% of attempts)
-
-### [[Positions/Knee on Belly]] (13% of attempts)
-
-### [[Transitions/Shoulder of Justice Kimura Setup]] (5% of attempts)
-
-### [[Transitions/Shoulder of Justice to Mount]] (3% of attempts)
-
-### [[Submissions/Kimura from Shoulder of Justice]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

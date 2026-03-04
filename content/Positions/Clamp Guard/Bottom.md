@@ -204,28 +204,6 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Armbar from Clamp Guard]] (22% of attempts)
-
-### [[Transitions/Triangle Setup]] (18% of attempts)
-
-### [[Transitions/Triangle from Clamp Guard]] (15% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (13% of attempts)
-
-### [[Transitions/Scissor Sweep]] (12% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (10% of attempts)
-
-### [[Transitions/Sweep from Clamp Guard]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

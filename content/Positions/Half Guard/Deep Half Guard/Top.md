@@ -204,34 +204,6 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Crossface Pass]] (33% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (9% of attempts)
-
-### [[Transitions/Smash Pass]] (15% of attempts)
-
-### [[Transitions/Half Guard Pass]] (12% of attempts)
-
-### [[Transitions/Underhook Pass]] (9% of attempts)
-
-### [[Transitions/Kimura from Half Guard]] (8% of attempts)
-
-### [[Transitions/Back Step Pass]] (9% of attempts)
-
-### [[Transitions/Backstep from Deep Half]] (3% of attempts)
-
-### [[Transitions/Whizzer from Deep Half]] (1% of attempts)
-
-### [[Transitions/Knee Slice from Deep Half]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

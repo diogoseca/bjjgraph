@@ -559,7 +559,7 @@
     "transitions": [
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 32
+        "attempt_probability": 31
       },
       {
         "transition": "Inside Ashi Entry",
@@ -584,6 +584,10 @@
       {
         "transition": "Counter Sweep from Outside Ashi",
         "attempt_probability": 4
+      },
+      {
+        "transition": "Aoki Lock",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

@@ -204,34 +204,6 @@ The position also serves a critical strategic role in competition and training s
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Americana]] (11% of attempts)
-
-### [[Transitions/Armbar Finish]] (10% of attempts)
-
-### [[Transitions/Kimura]] (10% of attempts)
-
-### [[Transitions/Side Control to Mount]] (11% of attempts)
-
-### [[Transitions/Side Control to North-South]] (12% of attempts)
-
-### [[Transitions/Paper Cutter Choke]] (9% of attempts)
-
-### [[Transitions/Arm Triangle]] (10% of attempts)
-
-### [[Transitions/Breadcutter Choke]] (8% of attempts)
-
-### [[Transitions/Armbar on Free Arm]] (9% of attempts)
-
-### [[Transitions/Gift Wrap Control]] (10% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

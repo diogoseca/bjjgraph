@@ -202,52 +202,6 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Butterfly Sweep]] (25% of attempts)
-
-### [[Transitions/De La Riva Sweep]] (4% of attempts)
-
-### [[Transitions/Sickle Sweep]] (3% of attempts)
-
-### [[Transitions/Tripod Sweep]] (4% of attempts)
-
-### [[Transitions/Elevator Sweep]] (2% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (2% of attempts)
-
-### [[Transitions/Kimura Sweep]] (2% of attempts)
-
-### [[Transitions/Armbar Finish]] (2% of attempts)
-
-### [[Transitions/Scissor Sweep from Open Guard]] (4% of attempts)
-
-### [[Transitions/Open Guard to Deep Half]] (5% of attempts)
-
-### [[Transitions/Open Guard to Collar Sleeve Guard]] (9% of attempts)
-
-### [[Transitions/Open Guard to De La Riva]] (11% of attempts)
-
-### [[Transitions/Open Guard to Double Sleeve Guard]] (4% of attempts)
-
-### [[Transitions/Open Guard to Feet on Hips Guard]] (7% of attempts)
-
-### [[Transitions/Collar Drag from Open Guard]] (4% of attempts)
-
-### [[Transitions/Scramble from Failed Sweep]] (3% of attempts)
-
-### [[Transitions/Technical Stand Up from Open Guard]] (6% of attempts)
-
-### [[Transitions/Transition to Clamp Guard]] (1% of attempts)
-
-### [[Submissions/Triangle from Open Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

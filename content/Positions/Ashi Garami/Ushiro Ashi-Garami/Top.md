@@ -208,34 +208,6 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Inside Heel Hook from Ushiro]] (13% of attempts)
-
-### [[Transitions/Follow to Back Control]] (16% of attempts)
-
-### [[Transitions/Ankle Lock Finish]] (7% of attempts)
-
-### [[Transitions/Cross Ashi Transition]] (10% of attempts)
-
-### [[Transitions/Outside Heel Hook Adjustment]] (5% of attempts)
-
-### [[Transitions/Return to Outside Ashi]] (12% of attempts)
-
-### [[Transitions/Kneebar from Ushiro]] (15% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (12% of attempts)
-
-### [[Transitions/Toe Hold]] (8% of attempts)
-
-### [[Submissions/Heel Hook from Ushiro Ashi]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

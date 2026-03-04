@@ -206,28 +206,6 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Reverse X-Guard Sweep]] (15% of attempts)
-
-### [[Transitions/Elevation Sweep to Mount]] (14% of attempts)
-
-### [[Transitions/Reverse X to Back Take]] (12% of attempts)
-
-### [[Transitions/Reverse X-Guard to Standard X-Guard]] (18% of attempts)
-
-### [[Transitions/Reverse X to Single Leg X Entry]] (15% of attempts)
-
-### [[Transitions/Reverse X to Ashi Garami Entry]] (13% of attempts)
-
-### [[Transitions/Technical Stand-up]] (13% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

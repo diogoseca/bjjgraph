@@ -204,28 +204,6 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Darce Choke]] (48% of attempts)
-
-### [[Transitions/Turtle to Back Take]] (18% of attempts)
-
-### [[Transitions/Switch to Anaconda Configuration]] (13% of attempts)
-
-### [[Transitions/Side Control to Mount]] (10% of attempts)
-
-### [[Transitions/Side Control to North-South]] (6% of attempts)
-
-### [[Transitions/Darce Control Maintenance]] (3% of attempts)
-
-### [[Transitions/Darce to Anaconda Switch]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

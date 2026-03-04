@@ -21,7 +21,7 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -201,28 +201,6 @@ From this position, the practitioner has access to outside heel hooks, straight 
 - Active legs create control - squeeze figure-4 configuration constantly, adjust pressure based on opponent movement, never remain static
 - Threaten submissions to prevent escapes - constant submission pressure keeps opponent defensive and limits their ability to work escapes
 - Transition mindset - view outside ashi as entry position to more dominant entanglements rather than primary finishing position
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Outside Heel Hook]] (32% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (25% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (14% of attempts)
-
-### [[Transitions/Saddle Entry from Top]] (9% of attempts)
-
-### [[Transitions/Kneebar Setup]] (9% of attempts)
-
-### [[Transitions/Cross Ashi Transition]] (7% of attempts)
-
-### [[Transitions/Counter Sweep from Outside Ashi]] (4% of attempts)
-
 
 
 </section>

@@ -21,7 +21,7 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
@@ -200,64 +200,6 @@ Master practitioners understand that closed guard is not a passive holding posit
 - Threaten multiple attack vectors simultaneously creating dilemmas where defending one attack necessarily opens another offensive pathway
 - Manage defensive frames with arms to prevent opponent from establishing heavy pressure while maintaining offensive grips that enable attacks
 - Use active legs to pull opponent forward with heels while squeezing knees together to restrict hip movement and breathing, creating cumulative fatigue
-
-
-</section>
-
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Hip Bump Sweep]] (25% of attempts)
-
-### [[Submissions/Armbar from Guard]] (10% of attempts)
-
-### [[Transitions/Scissor Sweep]] (8% of attempts)
-
-### [[Transitions/Triangle Setup]] (8% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (6% of attempts)
-
-### [[Transitions/Pendulum Sweep]] (6% of attempts)
-
-### [[Transitions/Guillotine Setup]] (5% of attempts)
-
-### [[Transitions/Kimura Sweep]] (4% of attempts)
-
-### [[Transitions/Flower Sweep]] (3% of attempts)
-
-### [[Transitions/Kimura to Back Take]] (3% of attempts)
-
-### [[Transitions/Elevator Sweep]] (2% of attempts)
-
-### [[Transitions/Overhook Sweep]] (2% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (2% of attempts)
-
-### [[Transitions/Lumberjack Sweep]] (1% of attempts)
-
-### [[Transitions/Hip Bump Sweep V2]] (1% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (1% of attempts)
-
-### [[Transitions/Omoplata to Back]] (1% of attempts)
-
-### [[Transitions/Muscle Sweep]] (1% of attempts)
-
-### [[Transitions/Closed Guard to Overhook Guard]] (1% of attempts)
-
-### [[Transitions/High Guard to Rubber Guard]] (1% of attempts)
-
-### [[Transitions/Transition to Diamond Guard]] (1% of attempts)
-
-### [[Submissions/Rolling Armbar]] (2% of attempts)
-
-### [[Submissions/Spinning Armbar]] (2% of attempts)
-
-### [[Submissions/Tarikoplata]] (2% of attempts)
-
-### [[Submissions/Triangle from Closed Guard]] (2% of attempts)
-
 
 
 </section>

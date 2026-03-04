@@ -174,14 +174,6 @@ Understanding Game Over as a formal state matters for training methodology. It c
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Techniques and Transitions
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

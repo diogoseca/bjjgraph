@@ -373,7 +373,7 @@
     "transitions": [
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 62
+        "attempt_probability": 61
       },
       {
         "transition": "Cross Ashi Transition",
@@ -421,6 +421,10 @@
       },
       {
         "transition": "Standing Up from Ashi Garami",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Aoki Lock",
         "attempt_probability": 1
       }
     ],

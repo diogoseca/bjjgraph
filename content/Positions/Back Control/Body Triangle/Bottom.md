@@ -204,36 +204,6 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Rear Naked Choke]] (42% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (7% of attempts)
-
-### [[Transitions/Bow and Arrow Choke]] (11% of attempts)
-
-### [[Transitions/Short Choke]] (8% of attempts)
-
-### [[Transitions/Back Control to Crucifix]] (6% of attempts)
-
-### [[Transitions/Back Control Maintenance]] (13% of attempts)
-
-### [[Transitions/Kimura from Back]] (4% of attempts)
-
-### [[Transitions/Roll to Truck]] (3% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (4% of attempts)
-
-### [[Transitions/Body Triangle Escape to Half Guard]] (1% of attempts)
-
-### [[Transitions/Body Triangle Escape to Side Control]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

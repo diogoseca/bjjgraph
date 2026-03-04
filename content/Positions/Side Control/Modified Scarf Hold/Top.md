@@ -209,36 +209,6 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Americana]] (12% of attempts)
-
-### [[Transitions/Kimura]] (11% of attempts)
-
-### [[Transitions/Armbar Finish]] (10% of attempts)
-
-### [[Transitions/Side Control to Mount]] (21% of attempts)
-
-### [[Transitions/Side Control to North-South]] (12% of attempts)
-
-### [[Transitions/North-South Choke]] (9% of attempts)
-
-### [[Transitions/Armbar on Free Arm]] (8% of attempts)
-
-### [[Transitions/Arm Triangle]] (9% of attempts)
-
-### [[Transitions/Modified Scarf to Kesa Gatame]] (4% of attempts)
-
-### [[Transitions/Modified Scarf to Mount]] (2% of attempts)
-
-### [[Submissions/Kimura from Modified Scarf Hold]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

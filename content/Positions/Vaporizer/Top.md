@@ -206,32 +206,6 @@ Successful navigation of this position requires understanding the systematic nat
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Half Guard Pass]] (27% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (14% of attempts)
-
-### [[Transitions/Smash Pass]] (12% of attempts)
-
-### [[Transitions/Pressure Pass]] (12% of attempts)
-
-### [[Transitions/Lockdown Escape to Half Guard Pass]] (12% of attempts)
-
-### [[Transitions/Whizzer]] (12% of attempts)
-
-### [[Transitions/Defend Vaporizer Sweep]] (6% of attempts)
-
-### [[Transitions/Pass Vaporizer Position]] (3% of attempts)
-
-### [[Transitions/Escape from Vaporizer]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

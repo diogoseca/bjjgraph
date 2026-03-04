@@ -202,34 +202,6 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/X-Guard Sweep]] (36% of attempts)
-
-### [[Transitions/Single Leg X Entry]] (16% of attempts)
-
-### [[Transitions/X-Guard to Ashi Garami]] (13% of attempts)
-
-### [[Transitions/Technical Stand Up to Single Leg]] (7% of attempts)
-
-### [[Transitions/Deep Half Entry]] (6% of attempts)
-
-### [[Transitions/Butterfly Guard to X-Guard]] (6% of attempts)
-
-### [[Transitions/Tomahawk Sweep]] (11% of attempts)
-
-### [[Transitions/X-Guard Technical Stand Up]] (2% of attempts)
-
-### [[Transitions/X-Guard to Single Leg X]] (1% of attempts)
-
-### [[Submissions/Ankle Lock from X-Guard]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

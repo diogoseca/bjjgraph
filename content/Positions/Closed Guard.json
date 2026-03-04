@@ -407,7 +407,7 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 25
+        "attempt_probability": 21
       },
       {
         "transition": "Armbar from Guard",
@@ -504,6 +504,22 @@
       {
         "transition": "Triangle from Closed Guard",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Flying Armbar",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kneebar from Guard",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Monoplata",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Monoplata from Guard",
+        "attempt_probability": 1
       }
     ],
     "decision_tree": [

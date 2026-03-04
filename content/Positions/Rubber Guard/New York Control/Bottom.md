@@ -210,40 +210,6 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Gogoplata]] (6% of attempts)
-
-### [[Transitions/Triangle Setup]] (18% of attempts)
-
-### [[Transitions/Omoplata Sweep]] (8% of attempts)
-
-### [[Transitions/Triangle to Omoplata]] (7% of attempts)
-
-### [[Transitions/Omoplata to Back]] (6% of attempts)
-
-### [[Transitions/Triangle to Back]] (7% of attempts)
-
-### [[Transitions/Crackhead Control to Mission Control]] (9% of attempts)
-
-### [[Transitions/New York to Invisible Collar]] (9% of attempts)
-
-### [[Transitions/New York Control to Zombie]] (8% of attempts)
-
-### [[Transitions/Armbar Finish]] (6% of attempts)
-
-### [[Transitions/Kimura]] (6% of attempts)
-
-### [[Transitions/Hip Bump Sweep]] (7% of attempts)
-
-### [[Transitions/New York Control to Invisible Collar]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

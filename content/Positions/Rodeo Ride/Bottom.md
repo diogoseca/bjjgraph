@@ -205,34 +205,6 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Turtle to Guard]] (34% of attempts)
-
-### [[Transitions/Technical Stand-up]] (15% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (12% of attempts)
-
-### [[Transitions/Rolling to Guard]] (14% of attempts)
-
-### [[Transitions/Elbow Escape to Guard]] (9% of attempts)
-
-### [[Transitions/Sit Through Escape]] (7% of attempts)
-
-### [[Transitions/Standing up in Base]] (5% of attempts)
-
-### [[Transitions/Roll from Rodeo Ride]] (2% of attempts)
-
-### [[Transitions/Shake Off Rodeo Ride]] (1% of attempts)
-
-### [[Transitions/Escape from Rodeo Ride]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

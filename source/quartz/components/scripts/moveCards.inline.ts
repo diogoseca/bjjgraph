@@ -108,7 +108,7 @@ document.addEventListener("nav", () => {
   }
 
   const currentPath = window.location.pathname
-  const positionSlug = currentPath
+  const positionSlug = currentPath.toLowerCase()
   const votes = getVotes()
   const positionVotes = votes[positionSlug] || {}
   const rarityLabels = computeMoveRarity(positionData.transitions)
@@ -127,9 +127,15 @@ document.addEventListener("nav", () => {
       ? `<span class="move-card-badge move-card-badge--${rarity}">${rarity === "common" ? "Common Move" : "Rare Move"}</span>`
       : ""
 
+    const techniquePath = transition.isSubmission ? "Submissions" : "Transitions"
+    const techniqueUrl = `/${techniquePath}/${slugToUrlPath(transition.target)}`
+
+    card.setAttribute("tabindex", "0")
+    card.setAttribute("role", "button")
+
     card.innerHTML = `
       <div class="move-card-header">
-        <div class="move-card-technique">${transition.technique}</div>
+        <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${transition.technique}</a>
         ${rarityBadge}
       </div>
       <div class="move-card-probability">${successRate}% success</div>
@@ -142,13 +148,28 @@ document.addEventListener("nav", () => {
       </div>
     `
 
+    // Prevent <a> tag from navigating (card click handles dice roll)
+    const techniqueLink = card.querySelector(".move-card-technique") as HTMLAnchorElement
+    if (techniqueLink) {
+      techniqueLink.addEventListener("click", (e) => e.preventDefault())
+    }
+
+    // Keyboard accessibility
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault()
+        executeTransition(transition, successRate, currentPath)
+      }
+    })
+
     // Vote button handlers (stop propagation so card click doesn't fire)
     const upBtn = card.querySelector(".vote-up") as HTMLButtonElement
     const downBtn = card.querySelector(".vote-down") as HTMLButtonElement
 
     upBtn.addEventListener("click", (e) => {
       e.stopPropagation()
-      const newVote = currentVote === "up" ? null : "up"
+      const isActive = upBtn.classList.contains("active")
+      const newVote = isActive ? null : "up"
       setVote(positionSlug, transition.technique, newVote)
       upBtn.classList.toggle("active", newVote === "up")
       downBtn.classList.remove("active")
@@ -156,7 +177,8 @@ document.addEventListener("nav", () => {
 
     downBtn.addEventListener("click", (e) => {
       e.stopPropagation()
-      const newVote = currentVote === "down" ? null : "down"
+      const isActive = downBtn.classList.contains("active")
+      const newVote = isActive ? null : "down"
       setVote(positionSlug, transition.technique, newVote)
       downBtn.classList.toggle("active", newVote === "down")
       upBtn.classList.remove("active")
@@ -315,3 +337,35 @@ function clearJourney() {
 // Expose globally
 ;(window as any).clearJourney = clearJourney
 ;(window as any).getJourney = getJourney
+
+// Common Mistakes Accordion
+document.addEventListener("nav", () => {
+  const section = document.getElementById("common-mistakes")
+  if (!section) return
+
+  const headings = section.querySelectorAll("h3")
+  headings.forEach((heading) => {
+    // Collect sibling elements until next h3 or end of section
+    const bodyElements: Element[] = []
+    let sibling = heading.nextElementSibling
+    while (sibling && sibling.tagName !== "H3") {
+      bodyElements.push(sibling)
+      sibling = sibling.nextElementSibling
+    }
+
+    if (bodyElements.length === 0) return
+
+    // Wrap in a collapsible body div
+    const bodyDiv = document.createElement("div")
+    bodyDiv.className = "mistake-body"
+    heading.after(bodyDiv)
+    bodyElements.forEach((el) => bodyDiv.appendChild(el))
+
+    // Style heading as toggle
+    heading.classList.add("mistake-heading")
+    heading.addEventListener("click", () => {
+      heading.classList.toggle("open")
+      bodyDiv.classList.toggle("open")
+    })
+  })
+})

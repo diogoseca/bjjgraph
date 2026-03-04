@@ -212,34 +212,6 @@ Competition application requires understanding rule sets and opponent body types
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Meathook to Gogoplata Control]] (11% of attempts)
-
-### [[Transitions/Triangle Setup]] (18% of attempts)
-
-### [[Transitions/Closed Guard to Omoplata]] (11% of attempts)
-
-### [[Transitions/Crackhead Control to Carni]] (10% of attempts)
-
-### [[Submissions/Armbar from Guard]] (8% of attempts)
-
-### [[Transitions/Omoplata to Back]] (7% of attempts)
-
-### [[Transitions/Crackhead Control to Mission Control]] (11% of attempts)
-
-### [[Transitions/Baratoplata Setup]] (10% of attempts)
-
-### [[Transitions/Tarikoplata Setup]] (10% of attempts)
-
-### [[Transitions/Sweep from Meathook]] (4% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

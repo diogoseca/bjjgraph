@@ -135,7 +135,9 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
           <div class="breadcrumb-element">
             <a href={crumb.path}>
               {index === 0 ? (
-                <>BJJGraph<span class="breadcrumb-tld">.org</span></>
+                <>
+                  BJJGraph<span class="breadcrumb-tld">.org</span>
+                </>
               ) : (
                 crumb.displayName
               )}

@@ -31,23 +31,33 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <h4 class="stats-heading">Current Roll</h4>
           <div id="victory-stats" class="victory-stats">
             <div class="stat-item">
-              <span class="stat-value" id="stat-moves">0</span>
+              <span class="stat-value" id="stat-moves">
+                0
+              </span>
               <span class="stat-label">Moves</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value stat-success" id="stat-dice-won">0</span>
+              <span class="stat-value stat-success" id="stat-dice-won">
+                0
+              </span>
               <span class="stat-label">Dice Won</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value stat-failure" id="stat-dice-lost">0</span>
+              <span class="stat-value stat-failure" id="stat-dice-lost">
+                0
+              </span>
               <span class="stat-label">Dice Lost</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value stat-success" id="stat-flash-right">0</span>
+              <span class="stat-value stat-success" id="stat-flash-right">
+                0
+              </span>
               <span class="stat-label">Flashcards Right</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value stat-failure" id="stat-flash-wrong">0</span>
+              <span class="stat-value stat-failure" id="stat-flash-wrong">
+                0
+              </span>
               <span class="stat-label">Flashcards Wrong</span>
             </div>
           </div>
@@ -85,19 +95,27 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <h4 class="stats-heading">Lifetime Stats</h4>
           <div class="victory-stats">
             <div class="stat-item">
-              <span class="stat-value" id="lifetime-rolls">0</span>
+              <span class="stat-value" id="lifetime-rolls">
+                0
+              </span>
               <span class="stat-label">Total Rolls</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="lifetime-victories">0</span>
+              <span class="stat-value" id="lifetime-victories">
+                0
+              </span>
               <span class="stat-label">Victories</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="lifetime-dice-rate">0%</span>
+              <span class="stat-value" id="lifetime-dice-rate">
+                0%
+              </span>
               <span class="stat-label">Dice Win Rate</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="lifetime-flash-rate">0%</span>
+              <span class="stat-value" id="lifetime-flash-rate">
+                0%
+              </span>
               <span class="stat-label">Flashcard Rate</span>
             </div>
           </div>
@@ -129,19 +147,27 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
           <h4 class="stats-heading">Your Progress</h4>
           <div class="victory-stats">
             <div class="stat-item">
-              <span class="stat-value" id="fallback-lifetime-rolls">0</span>
+              <span class="stat-value" id="fallback-lifetime-rolls">
+                0
+              </span>
               <span class="stat-label">Total Rolls</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="fallback-lifetime-victories">0</span>
+              <span class="stat-value" id="fallback-lifetime-victories">
+                0
+              </span>
               <span class="stat-label">Victories</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="fallback-lifetime-dice-rate">0%</span>
+              <span class="stat-value" id="fallback-lifetime-dice-rate">
+                0%
+              </span>
               <span class="stat-label">Dice Win Rate</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value" id="fallback-lifetime-flash-rate">0%</span>
+              <span class="stat-value" id="fallback-lifetime-flash-rate">
+                0%
+              </span>
               <span class="stat-label">Flashcard Rate</span>
             </div>
           </div>

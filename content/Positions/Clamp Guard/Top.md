@@ -180,18 +180,6 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Arm Extraction from Clamp Guard]] (55% of attempts)
-
-### [[Transitions/Stack Pass from Clamp Guard]] (45% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

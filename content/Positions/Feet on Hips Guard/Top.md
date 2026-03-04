@@ -200,38 +200,6 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Toreando Pass]] (37% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (11% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (10% of attempts)
-
-### [[Transitions/Double Under Pass]] (3% of attempts)
-
-### [[Transitions/Long Step Pass]] (8% of attempts)
-
-### [[Transitions/X Pass]] (8% of attempts)
-
-### [[Transitions/Stack Pass]] (5% of attempts)
-
-### [[Transitions/Body Lock Pass]] (5% of attempts)
-
-### [[Transitions/Smash Pass]] (6% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (5% of attempts)
-
-### [[Transitions/Knee Cut from Feet on Hips]] (1% of attempts)
-
-### [[Transitions/Pass Feet on Hips Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

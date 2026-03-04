@@ -211,32 +211,6 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Ashi Garami Escape]] (25% of attempts)
-
-### [[Transitions/Counter Entry to Opponent's Leg]] (14% of attempts)
-
-### [[Transitions/Hip Rotation Defense]] (14% of attempts)
-
-### [[Transitions/Knee Extraction]] (14% of attempts)
-
-### [[Transitions/Frame and Distance Creation]] (11% of attempts)
-
-### [[Transitions/Pass to Side Control]] (7% of attempts)
-
-### [[Transitions/Counter-entangle to 50-50 Guard]] (9% of attempts)
-
-### [[Transitions/Counter from Ankle Lock]] (4% of attempts)
-
-### [[Submissions/Straight Ankle Lock]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

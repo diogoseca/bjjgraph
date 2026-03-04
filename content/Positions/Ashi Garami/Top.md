@@ -204,32 +204,6 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Ashi Garami Escape]] (38% of attempts)
-
-### [[Transitions/Counter Ashi Entry]] (15% of attempts)
-
-### [[Transitions/Pass to Side Control]] (8% of attempts)
-
-### [[Transitions/Guillotine Setup]] (4% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (13% of attempts)
-
-### [[Transitions/Back Step Pass]] (10% of attempts)
-
-### [[Transitions/Toe Hold]] (6% of attempts)
-
-### [[Transitions/Back Take from Ashi]] (4% of attempts)
-
-### [[Transitions/Ashi Garami to Leg Entanglement]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -205,38 +205,6 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Rear Naked Choke]] (28% of attempts)
-
-### [[Transitions/Takedown to Grounded Back Control]] (18% of attempts)
-
-### [[Transitions/Body Triangle Lock]] (7% of attempts)
-
-### [[Transitions/Armbar from Back Transition]] (9% of attempts)
-
-### [[Transitions/Crucifix Transition]] (7% of attempts)
-
-### [[Transitions/Truck Position Entry]] (5% of attempts)
-
-### [[Transitions/Snap Down to Front Headlock]] (4% of attempts)
-
-### [[Transitions/Follow to Back Control]] (9% of attempts)
-
-### [[Transitions/Mat Return to Back Mount]] (7% of attempts)
-
-### [[Transitions/Back Control to Seat Belt Control Back]] (2% of attempts)
-
-### [[Transitions/Bow and Arrow Setup from Standing Back]] (2% of attempts)
-
-### [[Submissions/Standing RNC]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

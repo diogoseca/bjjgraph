@@ -101,7 +101,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Transitions/Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard]]** (37% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (36% of attempts)
 
 - **[[Transitions/Counter heel hook]]** (3% of attempts)
 
@@ -112,6 +112,8 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 - **[[Transitions/Standing Escape]]** (1% of attempts)
 
 - **[[Transitions/Sweep from Honey Hole]]** (1% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

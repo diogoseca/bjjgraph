@@ -209,30 +209,6 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Stack Defense]] (24% of attempts)
-
-### [[Transitions/Rolling Kimura Escape]] (16% of attempts)
-
-### [[Transitions/Technical Stand-up]] (14% of attempts)
-
-### [[Transitions/Leg Drag Pass]] (13% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (14% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (11% of attempts)
-
-### [[Transitions/Posture Recovery from Carni]] (5% of attempts)
-
-### [[Transitions/Stack Pass from Carni]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

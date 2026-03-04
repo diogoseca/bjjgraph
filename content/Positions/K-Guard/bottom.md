@@ -204,36 +204,6 @@ The position excels as both a retention platform and an offensive launching poin
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/X-Guard Sweep]] (10% of attempts)
-
-### [[Transitions/Single Leg X Sweep]] (11% of attempts)
-
-### [[Transitions/Deep Half Entry]] (29% of attempts)
-
-### [[Transitions/Old School Sweep]] (8% of attempts)
-
-### [[Transitions/Waiter Sweep]] (7% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (12% of attempts)
-
-### [[Transitions/Butterfly Sweep]] (10% of attempts)
-
-### [[Transitions/50-50 Entry]] (6% of attempts)
-
-### [[Transitions/Butterfly Hook Recovery]] (4% of attempts)
-
-### [[Transitions/K-Guard Sweep]] (2% of attempts)
-
-### [[Transitions/K-Guard to Single Leg X]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

@@ -206,36 +206,6 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Control]] (51% of attempts)
-
-### [[Transitions/Crucifix from Turtle]] (17% of attempts)
-
-### [[Submissions/Twister]] (3% of attempts)
-
-### [[Transitions/Turtle Flatten to Side Control]] (9% of attempts)
-
-### [[Transitions/Turtle to Truck]] (7% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (7% of attempts)
-
-### [[Transitions/Darce from Turtle]] (1% of attempts)
-
-### [[Transitions/Cross Body to Back Control]] (1% of attempts)
-
-### [[Transitions/Cross Body to Side Control]] (1% of attempts)
-
-### [[Transitions/Twister Entry]] (1% of attempts)
-
-### [[Submissions/Short Choke from Cross Body]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

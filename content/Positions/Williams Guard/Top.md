@@ -200,32 +200,6 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Arm Extraction]] (14% of attempts)
-
-### [[Transitions/Stack Pass]] (12% of attempts)
-
-### [[Transitions/Pressure Pass]] (11% of attempts)
-
-### [[Transitions/Knee Cut Pass]] (13% of attempts)
-
-### [[Transitions/Posture Recovery]] (30% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (12% of attempts)
-
-### [[Transitions/Posture from Williams Guard]] (5% of attempts)
-
-### [[Transitions/Stack from Williams Guard]] (2% of attempts)
-
-### [[Transitions/Guard Pass from Williams Guard]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

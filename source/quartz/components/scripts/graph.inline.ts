@@ -88,8 +88,8 @@ type TweenNode = {
 // Helper to get hub slug from Bottom/Top role pages (playing_as model)
 function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
   const lowerNodeId = nodeId.toLowerCase()
-  if (lowerNodeId.endsWith('/bottom') || lowerNodeId.endsWith('/top')) {
-    return nodeId.split('/').slice(0, -1).join('/') as SimpleSlug
+  if (lowerNodeId.endsWith("/bottom") || lowerNodeId.endsWith("/top")) {
+    return nodeId.split("/").slice(0, -1).join("/") as SimpleSlug
   }
   return nodeId
 }
@@ -152,26 +152,24 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // Define the 6 main category hub pages
   const categoryHubs = new Set<SimpleSlug>([
-    'positions' as SimpleSlug,
-    'transitions' as SimpleSlug,
-    'submissions' as SimpleSlug,
-    'systems' as SimpleSlug,
-    'principles' as SimpleSlug,
-    'learning' as SimpleSlug
+    "positions" as SimpleSlug,
+    "transitions" as SimpleSlug,
+    "submissions" as SimpleSlug,
+    "systems" as SimpleSlug,
+    "principles" as SimpleSlug,
+    "learning" as SimpleSlug,
   ])
 
   // Determine page type and apply appropriate graph logic
   // Strip trailing slash from slug to avoid double slashes when concatenating
-  const slugClean = slug.replace(/\/$/, '')
+  const slugClean = slug.replace(/\/$/, "")
   const slugLower = slugClean.toLowerCase()
-  const isHomepage = slugClean === 'index'
+  const isHomepage = slugClean === "index"
   const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
-
-  console.log('[Graph Debug] slug:', slug, 'slugClean:', slugClean, 'slugLower:', slugLower, 'isHomepage:', isHomepage, 'isCategoryHub:', isCategoryHub)
 
   if (isHomepage) {
     // Homepage: Show only the 6 main category nodes
-    categoryHubs.forEach(hub => {
+    categoryHubs.forEach((hub) => {
       // Find the actual slug (any case) that matches this hub
       for (const [nodeSlug] of data.entries()) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -187,53 +185,46 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     neighbourhood.add(slugClean as SimpleSlug)
 
     // Add all children in this category
-    const categoryPrefix = slugLower + '/'
-    console.log('[Graph Debug] Category hub detected, prefix:', categoryPrefix)
+    const categoryPrefix = slugLower + "/"
     let childCount = 0
     for (const [nodeSlug] of data.entries()) {
       const nodeLower = nodeSlug.toLowerCase()
       // Include items that start with category prefix, but exclude Bottom/Top variants
-      if (nodeLower.startsWith(categoryPrefix) &&
-          !nodeLower.endsWith('/bottom') &&
-          !nodeLower.endsWith('/top')) {
+      if (
+        nodeLower.startsWith(categoryPrefix) &&
+        !nodeLower.endsWith("/bottom") &&
+        !nodeLower.endsWith("/top")
+      ) {
         neighbourhood.add(nodeSlug)
         childCount++
       }
     }
-    console.log('[Graph Debug] Category hub added', childCount, 'children, total neighbourhood size:', neighbourhood.size)
   } else {
     // All other pages: Show depth-1 connections, excluding category hubs
     const wl: (SimpleSlug | "__SENTINEL")[] = [slugClean as SimpleSlug, "__SENTINEL"]
 
     // For position hubs, aggregate links from Bottom and Top role pages
-    const isPositionHub = slugLower.startsWith('positions/') &&
-                          !slugLower.endsWith('/bottom') &&
-                          !slugLower.endsWith('/top')
-
-    console.log('[Graph Debug] isPositionHub:', isPositionHub)
+    const isPositionHub =
+      slugLower.startsWith("positions/") &&
+      !slugLower.endsWith("/bottom") &&
+      !slugLower.endsWith("/top")
 
     if (isPositionHub) {
-      const bottomSlugToFind = slugLower + '/bottom'
-      const topSlugToFind = slugLower + '/top'
-
-      console.log('[Graph Debug] Looking for role pages:', bottomSlugToFind, topSlugToFind)
+      const bottomSlugToFind = slugLower + "/bottom"
+      const topSlugToFind = slugLower + "/top"
 
       // Find and collect role pages first (to avoid sentinel index shifting)
       const rolePagesToAdd: SimpleSlug[] = []
       for (const [nodeSlug] of data.entries()) {
         const nodeLower = nodeSlug.toLowerCase()
         if (nodeLower === bottomSlugToFind || nodeLower === topSlugToFind) {
-          console.log('[Graph Debug] Found role page:', nodeSlug)
           rolePagesToAdd.push(nodeSlug)
         }
       }
 
-      console.log('[Graph Debug] Found', rolePagesToAdd.length, 'role pages to add')
-
       // Insert all role pages at once before sentinel
       const sentinelIndex = wl.indexOf("__SENTINEL")
       wl.splice(sentinelIndex, 0, ...rolePagesToAdd)
-      console.log('[Graph Debug] Worklist after splice:', wl)
     }
 
     if (depth >= 0) {
@@ -256,16 +247,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
 
     // Remove category hub pages from neighbourhood for regular pages
-    categoryHubs.forEach(hub => neighbourhood.delete(hub))
+    categoryHubs.forEach((hub) => neighbourhood.delete(hub))
   }
-
-  console.log('[Graph Debug] Final neighbourhood size before filtering:', neighbourhood.size, 'items:', Array.from(neighbourhood).slice(0, 10))
 
   const nodes = [...neighbourhood]
     .filter((url) => {
       // Filter out Bottom/Top role pages (playing_as model) - show only hub pages
       const lowerUrl = url.toLowerCase()
-      return !lowerUrl.endsWith('/bottom') && !lowerUrl.endsWith('/top')
+      return !lowerUrl.endsWith("/bottom") && !lowerUrl.endsWith("/top")
     })
     .map((url) => {
       let text = url.startsWith("tags/") ? "#" + url.substring(5) : data.get(url)?.title
@@ -273,7 +262,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       // If no title found, extract from URL path
       if (!text) {
         // Get the last part of the path (the actual filename)
-        const parts = url.split('/')
+        const parts = url.split("/")
         text = parts[parts.length - 1] || url
       }
 
@@ -312,7 +301,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
 
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force("charge", forceManyBody().strength(-100 * repelForce).distanceMax(200))
+    .force(
+      "charge",
+      forceManyBody()
+        .strength(-100 * repelForce)
+        .distanceMax(200),
+    )
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
     .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
@@ -335,7 +329,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // Skip rendering if container has zero dimensions (not laid out yet)
   if (width === 0 || height === 0) {
-    console.log('[Graph Debug] Container has zero dimensions, skipping render:', { width, height })
     return
   }
 
@@ -456,9 +449,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("link", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("link")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("link")
       },
     })
   }
@@ -497,9 +494,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("label", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("label")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("label")
       },
     })
   }
@@ -521,9 +522,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     tweenGroup.getAll().forEach((tw) => tw.start())
     tweens.set("hover", {
-      update: tweenGroup.update.bind(tweenGroup),
+      update(time: number) {
+        tweenGroup.update(time)
+        if (tweenGroup.getAll().length === 0) tweens.delete("hover")
+      },
       stop() {
         tweenGroup.getAll().forEach((tw) => tw.stop())
+        tweens.delete("hover")
       },
     })
   }

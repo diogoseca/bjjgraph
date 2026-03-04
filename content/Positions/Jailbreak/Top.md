@@ -206,32 +206,6 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Leg Weave Pass]] (12% of attempts)
-
-### [[Transitions/Smash Pass]] (33% of attempts)
-
-### [[Transitions/Knee Slice from Half]] (17% of attempts)
-
-### [[Transitions/Underhook Pass]] (17% of attempts)
-
-### [[Transitions/Darce Setup]] (9% of attempts)
-
-### [[Transitions/Front Headlock to Back]] (7% of attempts)
-
-### [[Transitions/Knee Slide from Jailbreak]] (3% of attempts)
-
-### [[Transitions/North-South Recovery from Jailbreak]] (1% of attempts)
-
-### [[Transitions/Reestablish Side Control from Jailbreak]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

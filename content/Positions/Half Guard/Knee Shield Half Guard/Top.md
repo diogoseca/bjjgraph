@@ -203,36 +203,6 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice from Half]] (37% of attempts)
-
-### [[Transitions/Smash Pass]] (15% of attempts)
-
-### [[Transitions/Long Step Pass]] (7% of attempts)
-
-### [[Transitions/Underhook Pass]] (6% of attempts)
-
-### [[Transitions/Crossface Pass]] (12% of attempts)
-
-### [[Transitions/Leg Weave Pass]] (5% of attempts)
-
-### [[Transitions/Back Step Pass]] (7% of attempts)
-
-### [[Transitions/Body Lock Pass]] (7% of attempts)
-
-### [[Transitions/Knee Slice from Knee Shield]] (2% of attempts)
-
-### [[Transitions/Smash from Knee Shield]] (1% of attempts)
-
-### [[Transitions/Smash Pass from Knee Shield]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

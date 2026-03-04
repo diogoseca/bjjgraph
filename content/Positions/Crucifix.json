@@ -277,7 +277,7 @@
       },
       {
         "transition": "Choke from Crucifix",
-        "attempt_probability": 40
+        "attempt_probability": 39
       },
       {
         "transition": "Armbar from Crucifix",
@@ -294,6 +294,10 @@
       {
         "transition": "Crucifix to Mount",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Bicep Slicer",
+        "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [

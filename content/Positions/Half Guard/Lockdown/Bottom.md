@@ -202,40 +202,6 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Whip-up Sweep]] (26% of attempts)
-
-### [[Transitions/Old School Sweep]] (9% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (11% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
-
-### [[Transitions/Rolling Back Take]] (7% of attempts)
-
-### [[Transitions/Roll to Truck]] (8% of attempts)
-
-### [[Transitions/Deep Half Entry]] (9% of attempts)
-
-### [[Transitions/Kimura]] (4% of attempts)
-
-### [[Transitions/Lockdown Recovery]] (4% of attempts)
-
-### [[Transitions/Lockdown to Vaporizer]] (3% of attempts)
-
-### [[Transitions/Half Guard to Old School]] (6% of attempts)
-
-### [[Transitions/Back Take from Lockdown Defense]] (4% of attempts)
-
-### [[Submissions/Crotch Ripper]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

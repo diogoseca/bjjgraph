@@ -189,20 +189,6 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Crossface from Dogfight]] (35% of attempts)
-
-### [[Transitions/Re-flatten from Dogfight]] (35% of attempts)
-
-### [[Transitions/Snap Down from Dogfight]] (30% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

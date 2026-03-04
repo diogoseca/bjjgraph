@@ -206,32 +206,6 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Old School Sweep]] (43% of attempts)
-
-### [[Transitions/Deep Half Entry]] (17% of attempts)
-
-### [[Transitions/Half Guard to Back Take]] (15% of attempts)
-
-### [[Transitions/Underhook Sweep from Half]] (12% of attempts)
-
-### [[Transitions/Electric Chair Transition]] (7% of attempts)
-
-### [[Transitions/Roll to Truck]] (4% of attempts)
-
-### [[Transitions/Reguard from Pocket Half Guard]] (1% of attempts)
-
-### [[Transitions/Sweep from Pocket Half Guard]] (0% of attempts)
-
-### [[Transitions/Underhook Sweep from Pocket Half]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

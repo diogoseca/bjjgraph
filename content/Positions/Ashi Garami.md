@@ -92,7 +92,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry]]** (62% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (61% of attempts)
 
 - **[[Transitions/Cross Ashi Transition]]** (7% of attempts)
 
@@ -117,6 +117,8 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 - **[[Transitions/Heel Strip from Ashi Garami]]** (0% of attempts)
 
 - **[[Transitions/Standing Up from Ashi Garami]]** (1% of attempts)
+
+- **[[Positions/Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

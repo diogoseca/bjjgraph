@@ -205,32 +205,6 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Stack Pass]] (17% of attempts)
-
-### [[Transitions/Posture Recovery]] (33% of attempts)
-
-### [[Transitions/Triangle Escape]] (17% of attempts)
-
-### [[Transitions/Arm Extraction]] (12% of attempts)
-
-### [[Transitions/Pass to Side Control]] (5% of attempts)
-
-### [[Transitions/Standing up in Base]] (12% of attempts)
-
-### [[Transitions/Complete Triangle Escape from Top]] (2% of attempts)
-
-### [[Transitions/Posture in Triangle]] (1% of attempts)
-
-### [[Transitions/Guard Pass from Triangle Escape]] (1% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

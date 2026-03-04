@@ -209,54 +209,6 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Mount to Armbar]] (7% of attempts)
-
-### [[Transitions/Americana]] (4% of attempts)
-
-### [[Transitions/Cross Collar Choke]] (4% of attempts)
-
-### [[Transitions/Gift Wrap to Technical Mount]] (4% of attempts)
-
-### [[Transitions/S-Mount Transition]] (3% of attempts)
-
-### [[Transitions/High Mount Transition]] (6% of attempts)
-
-### [[Positions/Mount/Mounted Triangle]] (3% of attempts)
-
-### [[Transitions/Consolidate Mount]] (41% of attempts)
-
-### [[Transitions/Mount Control]] (3% of attempts)
-
-### [[Transitions/Mount to 3-4 Mount]] (3% of attempts)
-
-### [[Transitions/Mount to Knee on Belly]] (3% of attempts)
-
-### [[Transitions/Mount to Technical Mount]] (3% of attempts)
-
-### [[Submissions/Americana from Mount]] (2% of attempts)
-
-### [[Submissions/Armbar from Mount]] (2% of attempts)
-
-### [[Submissions/Ezekiel Choke]] (2% of attempts)
-
-### [[Submissions/Ezekiel from Mount]] (2% of attempts)
-
-### [[Submissions/Kimura from Mount]] (2% of attempts)
-
-### [[Submissions/Loop Choke]] (2% of attempts)
-
-### [[Submissions/Loop Choke from Mount]] (2% of attempts)
-
-### [[Submissions/Monoplata from Mount]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

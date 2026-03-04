@@ -213,28 +213,6 @@ From a learning progression standpoint, developing effective New York Top defens
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Posture Recovery]] (19% of attempts)
-
-### [[Transitions/Overhook Extraction]] (19% of attempts)
-
-### [[Transitions/Guard Opening Sequence]] (14% of attempts)
-
-### [[Transitions/Stack Defense]] (25% of attempts)
-
-### [[Transitions/Pressure Pass]] (9% of attempts)
-
-### [[Transitions/Posture Recovery to Closed Guard]] (9% of attempts)
-
-### [[Transitions/New York Pass to Side Control]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

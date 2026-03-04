@@ -208,48 +208,6 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Knee Slice Pass]] (28% of attempts)
-
-### [[Transitions/Smash Pass]] (15% of attempts)
-
-### [[Transitions/Underhook Pass]] (12% of attempts)
-
-### [[Transitions/Long Step Pass]] (8% of attempts)
-
-### [[Transitions/Crossface Pass]] (5% of attempts)
-
-### [[Transitions/Back Step Pass]] (5% of attempts)
-
-### [[Transitions/Over-Under Pass]] (4% of attempts)
-
-### [[Transitions/Kimura]] (3% of attempts)
-
-### [[Transitions/Half Guard to Double Jump]] (3% of attempts)
-
-### [[Transitions/Half Guard to Flattened Half Guard]] (3% of attempts)
-
-### [[Transitions/Crossface to Combat Base]] (2% of attempts)
-
-### [[Transitions/Headquarters Pass]] (2% of attempts)
-
-### [[Transitions/Half Guard to Leg Hook]] (2% of attempts)
-
-### [[Transitions/Half Guard to Pocket Half Guard]] (2% of attempts)
-
-### [[Transitions/Half Guard to Quarter Guard]] (2% of attempts)
-
-### [[Transitions/Half Guard to Triangle Escape Position]] (2% of attempts)
-
-### [[Submissions/Suloev Stretch]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

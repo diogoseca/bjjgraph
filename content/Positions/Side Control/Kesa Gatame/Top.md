@@ -208,36 +208,6 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Americana]] (12% of attempts)
-
-### [[Transitions/Kimura]] (10% of attempts)
-
-### [[Transitions/Armbar Finish]] (9% of attempts)
-
-### [[Transitions/North-South Choke]] (8% of attempts)
-
-### [[Transitions/Side Control to Mount]] (14% of attempts)
-
-### [[Transitions/Side Control to North-South]] (32% of attempts)
-
-### [[Transitions/Arm Triangle]] (7% of attempts)
-
-### [[Transitions/Kesa Gatame to Modified Scarf Hold]] (2% of attempts)
-
-### [[Transitions/Kesa Gatame to Reverse Kesa-Gatame]] (2% of attempts)
-
-### [[Submissions/Americana from Kesa Gatame]] (2% of attempts)
-
-### [[Submissions/Kesa Gatame Arm Crush]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

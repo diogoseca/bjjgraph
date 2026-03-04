@@ -42,7 +42,8 @@ body[data-slug="index"] .search > .search-button {
   overflow: hidden;
   background: var(--light);
 
-  &:hover, &:focus-within {
+  &:hover,
+  &:focus-within {
     border-color: var(--secondary);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   }
@@ -432,6 +433,76 @@ body[data-slug="index"] .search > .search-button {
   }
 }
 
+.flashcard-downvote {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  color: var(--gray);
+  line-height: 1;
+  transition: all 0.15s;
+  margin-left: auto;
+
+  &:hover {
+    border-color: #ba2637;
+    color: #ba2637;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.flashcard-feedback {
+  margin-top: 0.75rem;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.feedback-input-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.feedback-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  color: var(--dark);
+  font-size: 0.9rem;
+
+  &:focus {
+    outline: none;
+    border-color: var(--secondary);
+  }
+}
+
+.feedback-submit {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--secondary);
+  color: var(--light);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: background 0.15s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
 // ============================================================================
 // Terminal State (Victory/Defeat)
 // ============================================================================
@@ -788,9 +859,49 @@ article {
 // Test 3: Visual Enhancement Variants
 // ----------------------------------------------------------------------------
 
+// Common Mistakes Accordion
+#common-mistakes .mistake-heading {
+  cursor: pointer;
+  user-select: none;
+  padding-right: 1.5rem;
+  position: relative;
+
+  &::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--gray);
+  }
+
+  &.open::after {
+    content: "\2212";
+  }
+}
+
+#common-mistakes .mistake-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  &.open {
+    max-height: 600px;
+  }
+}
+
+// Decision tree styling (applied unconditionally for all pages)
+#decision-tree {
+  background: rgba(255, 242, 54, 0.08);
+  padding: 1.5rem;
+  border-radius: 4px;
+  border-left: 4px solid #f0b429;
+  margin: 1.5rem 0;
+}
+
 // Enhanced variant: Add visual styling to key sections
 .variant-visual-enhanced {
-
   // Visual emphasis on key principles
   #key-principles {
     background: rgba(132, 165, 157, 0.08);
@@ -801,15 +912,6 @@ article {
     ul {
       margin-top: 0.5rem;
     }
-  }
-
-  // Highlight decision tree sections for better scannability
-  #decision-tree {
-    background: rgba(255, 242, 54, 0.08);
-    padding: 1.5rem;
-    border-radius: 4px;
-    border-left: 4px solid #f0b429;
-    margin: 1.5rem 0;
   }
 
   // Subtle enhancement for execution/transition steps
@@ -849,15 +951,14 @@ summary::-webkit-details-marker {
 // ============================================================================
 
 @media (prefers-color-scheme: dark) {
-  .variant-visual-enhanced {
+  #decision-tree {
+    background: rgba(255, 242, 54, 0.05);
+    border-left-color: #c4961f;
+  }
 
+  .variant-visual-enhanced {
     #key-principles {
       background: rgba(132, 165, 157, 0.1);
-    }
-
-    #decision-tree {
-      background: rgba(255, 242, 54, 0.05);
-      border-left-color: #c4961f;
     }
   }
 

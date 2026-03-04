@@ -206,30 +206,6 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Turtle to Back Control]] (38% of attempts)
-
-### [[Transitions/Crab Ride to Back]] (20% of attempts)
-
-### [[Transitions/Turtle to Truck]] (13% of attempts)
-
-### [[Transitions/Rolling Back Take]] (10% of attempts)
-
-### [[Transitions/Turtle to Rodeo Ride]] (6% of attempts)
-
-### [[Transitions/Sit to Half Guard]] (8% of attempts)
-
-### [[Transitions/Double Jump to Mount]] (3% of attempts)
-
-### [[Transitions/Double Jump to Side Control]] (2% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

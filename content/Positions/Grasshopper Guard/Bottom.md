@@ -210,42 +210,6 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Kneebar from Grasshopper]] (9% of attempts)
-
-### [[Transitions/Straight Ankle Lock Entry]] (7% of attempts)
-
-### [[Transitions/Single Leg X Transition]] (8% of attempts)
-
-### [[Transitions/Inside Ashi Entry]] (9% of attempts)
-
-### [[Transitions/Rolling Kneebar]] (5% of attempts)
-
-### [[Transitions/Grasshopper Sweep]] (7% of attempts)
-
-### [[Transitions/Granby to Closed Guard]] (13% of attempts)
-
-### [[Transitions/50-50 Entry]] (4% of attempts)
-
-### [[Transitions/Reverse De La Riva Recovery]] (6% of attempts)
-
-### [[Transitions/Technical Standup from Inversion]] (5% of attempts)
-
-### [[Transitions/X-Guard Elevation Sweep]] (10% of attempts)
-
-### [[Transitions/Heel Hook]] (3% of attempts)
-
-### [[Transitions/Outside Ashi Entry]] (9% of attempts)
-
-### [[Transitions/Berimbolo Entry]] (5% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

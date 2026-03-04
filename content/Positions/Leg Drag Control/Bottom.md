@@ -205,32 +205,6 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Escapes
-
-### [[Transitions/Leg Drag Escape to Closed Guard]] (4% of attempts)
-
-### [[Transitions/Technical Stand-up]] (9% of attempts)
-
-### [[Transitions/Leg Drag Counter to Half Guard]] (18% of attempts)
-
-### [[Transitions/Roll to Turtle]] (18% of attempts)
-
-### [[Transitions/Inside Position Recovery]] (10% of attempts)
-
-### [[Transitions/Granby Roll to Guard]] (6% of attempts)
-
-### [[Transitions/Leg Recovery to De La Riva]] (9% of attempts)
-
-### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
-
-### [[Transitions/Half Guard Recovery]] (14% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position

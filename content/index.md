@@ -13,8 +13,7 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
 }
 </script>
 
-<p class="tagline">The BJJ game, mapped. Click through positions. See what's next.</p>
-<p class="stats">153 positions. 226 transitions. 132 submissions. 120 principles. 47 systems.</p>
+<p class="tagline">BJJ game, mapped. Click through positions, see what's next.</p>
 
 <div class="hero-actions">
   <div class="search-roll-bar">
@@ -32,6 +31,15 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
   </div>
 </div>
 
+<p class="stats" id="content-stats"></p>
+<script>
+document.addEventListener("nav", () => {
+  const el = document.getElementById("content-stats");
+  const s = window.__contentStats;
+  if (el && s) el.textContent = `${s.positions} positions. ${s.transitions} transitions. ${s.submissions} submissions. ${s.principles} principles. ${s.systems} systems.`;
+});
+</script>
+
 <h2 style="display:none;">Browse</h2>
 
 - **[[Positions]]** - Retention, control, and where you are on the mat
@@ -43,20 +51,3 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
 ## How It Works
 
 Click any position to see what leads in and out. Every technique shows success rates. **Roll** to start at a random position and play through the game.
-
-## New to BJJ?
-
-Start with [[/Positions/Closed-Guard|Closed Guard]], [[/Positions/Mount|Mount]], or [[/Positions/Side-Control|Side Control]].
-
-## Building your game?
-
-Explore [[/Positions/Half-Guard|Half Guard]], [[/Positions/X-Guard|X-Guard]], or [[/Positions/Ashi-Garami|Ashi Garami]].
-
-## Preparing for competition?
-
-Study [[Systems]] for structured gameplans from top competitors.
-
-## Be a contributor
-
-BJJ Graph is open source.
-If you spot something wrong or want to add a technique, check the [GitHub repository](https://github.com/diogoseca/bjjgraph).

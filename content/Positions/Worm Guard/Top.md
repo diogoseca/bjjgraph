@@ -201,30 +201,6 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 </section>
 
-<section id="offensive-transitions" class="content-section">
-
-## Available Attacks
-
-### [[Transitions/Leg Drag Pass]] (24% of attempts)
-
-### [[Transitions/Toreando Pass]] (15% of attempts)
-
-### [[Transitions/Smash Pass]] (13% of attempts)
-
-### [[Transitions/Knee Slice Pass]] (14% of attempts)
-
-### [[Transitions/Long Step Pass]] (13% of attempts)
-
-### [[Transitions/Stack Pass]] (12% of attempts)
-
-### [[Transitions/Backstep from Worm Guard]] (6% of attempts)
-
-### [[Transitions/Lapel Strip from Worm Guard]] (3% of attempts)
-
-
-
-</section>
-
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
