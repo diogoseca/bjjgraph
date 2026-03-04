@@ -324,6 +324,14 @@ npm run dev
 git add . && git commit -m "Update position data"
 ```
 
+### Versioning (root package.json)
+
+Format: `1.MAJOR.MINOR`
+
+- **MAJOR bump** (1.X.0): New features (e.g., 1.3.0 → 1.4.0)
+- **MINOR bump** (1.X.Y): Fixes (e.g., 1.4.0 → 1.4.1)
+- Always bump version when committing work
+
 ### Pre-Commit Checklist
 
 ```bash
