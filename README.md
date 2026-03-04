@@ -12,9 +12,9 @@ Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 
 ## What's Inside
 
-- **95+ Positions** - BJJ positions as state machine nodes
-- **71+ Transitions** - Techniques as probabilistic edges between states
-- **49+ Submissions** - Terminal states and finishing techniques
+- **85+ Positions** - BJJ positions as state machine nodes
+- **1000+ Transitions** - Techniques as probabilistic edges between states
+- **150+ Submissions** - Terminal states and finishing techniques
 - **Expert Systems** - Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
 - **Interactive Graph** - Visual exploration of position relationships
 
@@ -31,12 +31,13 @@ cd .. && npm run dev       # Development server at localhost:8080
 
 | Command | Description |
 |---------|-------------|
-| `npm run validate` | Validate JSON and list files needing fixes |
+| `npm run validate:json` | Validate JSON schemas |
+| `npm run validate:graph` | Validate graph integrity |
 | `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
 | `npm run regenerate:md` | Regenerate markdown from JSON |
 | `npm run regenerate:hubs` | Generate category hub pages |
-| `npm run regenerate:graph` | Generate BJJ graph data |
-| `npm run regenerate` | Run all steps (json + validate + md + hubs + graph) |
+| `npm run regenerate:graph` | Generate graph.json |
+| `npm run regenerate` | Run all regeneration steps |
 | `npm run build` | Build static site |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Development server with live reload |
@@ -52,11 +53,11 @@ cd source && npm run check # Type checking
 
 BJJGraph uses a **JSON-first** content system:
 
-1. **Edit** JSON source files in `content/` (JSON) or `templates/` (schemas)
+1. **Edit** JSON source files in `content/` (e.g., `content/Positions/Mount.json`)
 2. **Validate & Regenerate** with `npm run regenerate`
 3. **Test** build with `npm run dev`
 
-Never edit `.md` files in `content/` directly - they are generated from JSON.
+Never edit `.md` files in `content/` directly — they are generated from the `.json` source files.
 
 ### Documentation
 
@@ -81,13 +82,13 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
 
 ```
 bjjgraph/
-├── content/               # Content files (JSON source + generated MD)
-│   ├── Positions/         # 95+ positions
-│   ├── Transitions/       # 71+ transitions
-│   ├── Submissions/       # 49+ submissions
+├── content/               # *.json = SOURCE data, *.md = GENERATED output
+│   ├── Positions/         # 85+ positions
+│   ├── Transitions/       # 1000+ transitions
+│   ├── Submissions/       # 150+ submissions
 │   ├── Systems/           # Expert systems
 │   └── Principles/        # Fundamental principles
-├── templates/             # JSON schemas + Jinja2 templates for MD generation
+├── templates/             # JSON schemas + Jinja2 templates (NOT source data)
 ├── source/                # Quartz static site generator (MIT)
 │   └── quartz/
 ├── scripts/               # Validation and automation

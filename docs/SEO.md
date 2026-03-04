@@ -117,8 +117,8 @@ Master [Submission] safely. Complete guide with safety protocols, execution step
 ### Example
 
 ```markdown
-From [[Closed Guard Bottom]], you can execute this sweep to reach [[Mount]].
-If the sweep fails, you may end up in [[Half Guard Bottom]].
+From [[Positions/Closed Guard/Bottom]], you can execute this sweep to reach [[Positions/Mount]].
+If the sweep fails, you may end up in [[Positions/Half Guard/Bottom]].
 ```
 
 ---

@@ -57,7 +57,7 @@ Follow **C-UD pattern** after completing work:
 
 | Action | Why | Do Instead |
 |--------|-----|------------|
-| Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `content/` or schemas in `templates/` |
+| Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `content/` (data) or templates in `templates/` (schemas/Jinja2) |
 | Skip validation before commits | Breaks build, bad data | Run `npm run regenerate:build` |
 | Create files >1000 lines | Unmaintainable | Split into focused modules |
 | Add docs without updating index | Orphaned content | Update relevant README/index |
@@ -79,26 +79,38 @@ Follow **C-UD pattern** after completing work:
 bjjgraph/
 ├── CLAUDE.md                    # AI workflow (this file)
 ├── README.md                    # Quick start for contributors
-├── PARTNERS.md                  # Partnership & sponsorship info
-├── content/                     # Generated markdown (DO NOT EDIT DIRECTLY)
-│   ├── Positions/               # 95 position pages
-│   ├── Transitions/             # 71 transition pages
-│   ├── Submissions/             # 49 submission pages
-│   └── CONTRIBUTING-YAML-SCHEMA.md  # Complete schema reference
-├── templates/                   # JSON source + Jinja2 templates
-│   ├── Positions.json           # Position data (EDIT THIS)
-│   ├── Transitions.json         # Transition data (EDIT THIS)
-│   ├── Submissions.json         # Submission data (EDIT THIS)
-│   └── *.md.jinja2              # Template files
+├── graph.json                   # Generated graph data for visualization
+├── content/                     # JSON source + generated markdown
+│   ├── Positions/               # 85+ positions (*.json = SOURCE, *.md = GENERATED)
+│   ├── Transitions/             # 1000+ transitions (*.json = SOURCE, *.md = GENERATED)
+│   ├── Submissions/             # 150+ submissions (*.json = SOURCE, *.md = GENERATED)
+│   ├── Systems/                 # Expert systems
+│   └── Principles/              # Fundamental principles
+├── templates/                   # JSON schemas + Jinja2 templates
+│   ├── Positions/               # TEMPLATE-*.json schemas + *.md.jinja2 templates
+│   ├── Transitions/             # TEMPLATE-*.json schemas + *.md.jinja2 templates
+│   ├── Submissions/             # TEMPLATE-*.json schemas + *.md.jinja2 templates
+│   ├── Principles.json          # Principles data
+│   ├── Systems.json             # Systems data
+│   ├── Transitions.json         # Hub page transition data
+│   ├── Submissions.json         # Hub page submission data
+│   └── votes.json               # Community voting data
 ├── docs/
 │   ├── Architecture.md          # JSON pipeline, Position model
 │   ├── Content.md               # Standards, validation rules
 │   └── SEO.md                   # Schema markup, keywords, analytics
 ├── scripts/
 │   ├── validate_json.py         # JSON schema validation
-│   ├── regenerate_md_from_json.py            # Regenerate markdown from JSON
-│   ├── regenerate_content_json.py           # Auto-fill TODOs in JSON
+│   ├── validate_graph_integrity.py  # Graph consistency checks
+│   ├── regenerate_content_json.py   # Auto-fill TODOs in JSON
+│   ├── regenerate_md_from_json.py   # Regenerate markdown from JSON
+│   ├── regenerate_category_hub_pages.py  # Generate category hub pages
+│   ├── regenerate_graph.py      # Generate graph.json
+│   ├── regenerate_votes.py      # Generate voting data
+│   ├── explode_graph_connections.py  # Expand graph connections
+│   ├── regenerate_list_of_content_files_to_fix.sh  # List files needing fixes
 │   └── select_oldest_files.sh   # File selection for bot
+├── branding/                    # Brand assets and icons
 ├── source/                      # Quartz code only (MIT)
 │   ├── quartz/                  # Static site generator components
 │   ├── quartz.config.ts
@@ -110,7 +122,7 @@ bjjgraph/
         └── content-improvement-bot.yml  # Daily content automation
 ```
 
-**Key Insight:** `content/` is OUTPUT. `templates/*.json` is SOURCE.
+**Key Insight:** `content/*.json` is SOURCE data. `content/*.md` is GENERATED output. `templates/` has schemas + Jinja2 templates.
 
 ---
 
@@ -119,14 +131,15 @@ bjjgraph/
 ### JSON-First Pipeline
 
 ```
-templates/*.json  →  *.md.jinja2  →  content/*.md  →  Quartz Build  →  Static Site
-     (SOURCE)         (TEMPLATES)      (GENERATED)       (BUILD)        (OUTPUT)
+content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build  →  Static Site
+    (SOURCE)          (TEMPLATES)              (GENERATED)       (BUILD)        (OUTPUT)
 ```
 
-1. **JSON Source** - Structured data in `Positions.json`, `Transitions.json`, etc.
-2. **Jinja2 Templates** - Generate markdown + SEO schema markup
-3. **Generated Markdown** - Content pages with frontmatter
+1. **JSON Source** - Structured data in `content/Positions/*.json`, `content/Transitions/*.json`, etc.
+2. **Jinja2 Templates** - In `templates/`, generate markdown + SEO schema markup
+3. **Generated Markdown** - Content pages with frontmatter in `content/*.md`
 4. **Quartz Build** - Static site with graph visualization, search, backlinks
+5. **Deploy** - Cloudflare Pages with Lighthouse CI and IndexNow
 
 ### Graph Data Model
 
@@ -172,10 +185,10 @@ Each position role (Top/Bottom) has a `transitions` array specifying what techni
 {
   "top": {
     "transitions": [
-      { "transition": "Armbar from Mount", "attempt_probability": 25 },
-      { "transition": "Cross Collar Choke", "attempt_probability": 20 },
-      { "transition": "Transition to Back Control", "attempt_probability": 30 },
-      { "transition": "Maintain Mount", "attempt_probability": 25 }
+      { "name": "Armbar from Mount", "attempt_probability": 25 },
+      { "name": "Cross Collar Choke", "attempt_probability": 20 },
+      { "name": "Transition to Back Control", "attempt_probability": 30 },
+      { "name": "Maintain Mount", "attempt_probability": 25 }
     ]
   }
 }
@@ -183,7 +196,7 @@ Each position role (Top/Bottom) has a `transitions` array specifying what techni
 
 **Rules:**
 - `attempt_probability` values MUST sum to 100% per role
-- Each transition references a Transition by name
+- Each `name` references a Transition by name
 - Represents likelihood of attempting each technique from position
 
 ### Transition & Submission "Playing As" Model
@@ -200,13 +213,15 @@ Transition (Hub Page)    = Technique state (e.g., "Armbar from Mount")
 
 **File structure example:**
 ```
-Transitions/
-├── Armbar from Mount.json   # Source JSON with attacker/defender sections
+content/Transitions/
+├── Armbar from Mount.json   # Source JSON (outcomes, from_position)
 ├── Armbar from Mount.md     # Generated hub page
 └── Armbar from Mount/
     ├── Attacker.md          # Generated attacker perspective
     └── Defender.md          # Generated defender perspective
 ```
+
+Attacker/Defender sections are **generated by templates**, not stored in the source JSON.
 
 **Templates:**
 - `templates/Transitions/TEMPLATE-TRANSITION.json` — JSON schema
@@ -217,7 +232,7 @@ Transitions/
 
 ### Transition Schema
 
-Transitions are technique nodes with `from_position`, `outcomes`, and `attacker`/`defender` sections:
+Transitions are technique nodes with `from_position` and `outcomes`:
 
 ```json
 {
@@ -227,26 +242,11 @@ Transitions are technique nodes with `from_position`, `outcomes`, and `attacker`
     { "to": "Armbar Control/Top", "probability": 55, "result": "success" },
     { "to": "Mount/Top", "probability": 30, "result": "failure" },
     { "to": "Closed Guard/Top", "probability": 15, "result": "counter" }
-  ],
-  "attacker": {
-    "name": "Armbar from Mount Attacker",
-    "execution_steps": [...],
-    "common_counters": [
-      { "counter": "Opponent clasps hands", "targets_outcome": "Mount/Top", "effectiveness": "High" }
-    ]
-  },
-  "defender": {
-    "name": "Armbar from Mount Defender",
-    "recognition_cues": ["Opponent grabs wrist and shifts weight"],
-    "defensive_options": [
-      { "action": "Clasp hands", "targets_outcome": "Mount/Top", "when_to_use": "..." }
-    ],
-    "favorable_outcomes": [
-      { "outcome": "Closed Guard/Top", "how": "Time bridge during leg swing" }
-    ]
-  }
+  ]
 }
 ```
+
+Attacker/Defender content (execution steps, counters, defensive options) is **generated by Jinja2 templates**, not stored in the source JSON.
 
 **Rules:**
 - `from_position` format: "Position/Role" (e.g., "Mount/Top", "Closed Guard/Bottom")
@@ -288,12 +288,16 @@ All commands run from the repo root (`bjjgraph/`):
 
 | Command | Description |
 |---------|-------------|
-| `npm run validate` | Validate JSON and list files needing fixes |
+| `npm run validate:json` | Validate JSON schemas |
+| `npm run validate:graph` | Validate graph integrity |
+| `npm run regenerate:issues` | List content files needing fixes |
 | `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
+| `npm run regenerate:explode` | Expand graph connections |
 | `npm run regenerate:md` | Regenerate markdown from JSON |
 | `npm run regenerate:hubs` | Generate category hub pages |
-| `npm run regenerate:graph` | Generate BJJ graph data |
-| `npm run regenerate` | Run all steps (json + validate + md + hubs + graph) |
+| `npm run regenerate:votes` | Generate community voting data |
+| `npm run regenerate:graph` | Generate graph.json |
+| `npm run regenerate` | Run all 7 steps: issues → json → explode → md → hubs → votes → graph |
 | `npm run build` | Build static site |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Development server with live reload |
@@ -312,7 +316,7 @@ cd source && npm run test    # Run path and depgraph tests
 
 ```bash
 # 1. Edit JSON source
-vim templates/Positions.json
+vim content/Positions/Mount.json
 
 # 2. Validate and regenerate all content
 npm run regenerate
@@ -367,9 +371,11 @@ SELECT (git age, JSON-first)
 
 - Fills TODOs in JSON source files
 - Fixes validation errors (success rates, wikilinks, missing sections)
-- AI SEO optimization (question headings, front-loaded facts)
+- AI SEO optimization (question headings, front-loaded facts, PAA via DataForSEO)
 - Safety sections for submissions
 - Entity consistency (canonical names with bold emphasis)
+
+See `.github/workflows/content-improvement-bot.yml` for full details.
 
 ## 7. CONTENT STANDARDS (Quick Reference)
 
@@ -385,13 +391,16 @@ SELECT (git age, JSON-first)
 
 ### Wikilinks
 
-**Format:** `[[Page Name]]`
+**Format:** `[[Category/Page Name]]` (path-prefixed)
+
+**Examples:** `[[Positions/Mount]]`, `[[Transitions/Armbar from Mount]]`, `[[Submissions/Rear Naked Choke]]`
 
 **Rules:**
+- Must include category path prefix (e.g., `Positions/`, `Transitions/`, `Submissions/`)
 - Must match filename exactly (case-sensitive)
 - No `.md` extension
 - Verify target exists before adding
-- Terminal state: `[[game-over]]` (NOT `Won by Submission` or `Lost by Submission`)
+- **Exception:** `[[game-over]]` uses bare format (no prefix)
 
 ### Safety (Submissions Only)
 
@@ -439,7 +448,12 @@ Every submission MUST include:
 | `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
-| `content/CONTRIBUTING-YAML-SCHEMA.md` | Complete YAML schema reference |
+
+### Deployment
+
+- **Hosting**: Cloudflare Pages
+- **CI**: Lighthouse CI + IndexNow search submission
+- **Workflow**: `.github/workflows/deploy.yaml`
 
 ---
 

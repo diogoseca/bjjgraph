@@ -4,11 +4,11 @@
 
 ### Editing Content (JSON-First)
 
-1. **Edit JSON source** in `templates/*.json`
+1. **Edit JSON source** in `content/*.json` (e.g., `content/Positions/Mount.json`)
 2. **Validate & Regenerate** with `npm run regenerate`
 3. **Test build** with `npm run dev`
 
-Never edit files in `content/` directly - they are regenerated from JSON.
+Never edit `.md` files in `content/` directly — they are regenerated from `.json` source files.
 
 ---
 
@@ -44,19 +44,22 @@ Never edit files in `content/` directly - they are regenerated from JSON.
 ### Format
 
 ```markdown
-[[Page Name]]
+[[Category/Page Name]]
 ```
+
+**Examples:** `[[Positions/Mount]]`, `[[Transitions/Armbar from Mount]]`, `[[Submissions/Rear Naked Choke]]`
 
 ### Rules
 
+- Must include category path prefix (e.g., `Positions/`, `Transitions/`, `Submissions/`)
 - Must match exact filename (case-sensitive)
 - No `.md` extension in link
 - Verify target file exists before adding
-- Terminal state: `[[game-over]]` (NOT `Won by Submission` or `Lost by Submission`)
+- **Exception:** `[[game-over]]` uses bare format (no prefix)
 
 ### Validation
 
-Run `npm run validate` to check all wikilinks resolve.
+Run `npm run validate:json` to check all wikilinks resolve.
 
 ---
 
@@ -361,7 +364,7 @@ Attacker and Defender sections use `targets_outcome` to link actions to specific
 
 ### Fixing Validation Errors
 
-The validation output shows files needing fixes. Edit the JSON source files directly in `templates/`.
+The validation output shows files needing fixes. Edit the JSON source files directly in `content/` (e.g., `content/Positions/Mount.json`).
 
 ---
 
@@ -386,7 +389,7 @@ For full schema details, see the JSON template files:
 
 | Do | Don't |
 |----|-------|
-| Edit JSON in `templates/` | Edit markdown in `content/` |
+| Edit JSON in `content/` | Edit markdown (`.md`) in `content/` |
 | Run validation before commits | Skip validation |
 | Verify wikilinks exist | Guess at link targets |
 | Use integer success rates 0-100 | Use decimals or percentages > 100 |
