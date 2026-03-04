@@ -86,7 +86,7 @@ description: "{{description}}"
 
 {{overview}}
 
-**From Position**: [[{{from_position}}]]
+**From Position**: [[{{ resolve(from_position) }}]]
 **Success Rate**: {{success_rate}}%
 
 </section>
@@ -98,7 +98,7 @@ description: "{{description}}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ outcome.to }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to) }}]] | {{ outcome.probability }}% |
 {% endfor %}
 
 </section>
@@ -214,7 +214,7 @@ description: "{{description}}"
 ## Related Techniques
 
 {% for item in related_content -%}
-- [[{{item.name}}]] - {{item.relationship}}
+- [[{{ resolve(item.name) }}]] - {{item.relationship}}
 {% endfor %}
 
 </section>

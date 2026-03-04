@@ -108,7 +108,7 @@ description: "{{ defender.description }}"
 
 {{ defender.overview }}
 
-**Opponent's Starting Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+**Opponent's Starting Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
 
 </section>
 
@@ -140,7 +140,7 @@ description: "{{ defender.description }}"
 ### {{ loop.index }}. {{ option.action }}
 
 - **When to use**: {{ option.when_to_use }}
-- **Targets**: [[{{ option.targets_outcome.split('/')[0] if '/' in option.targets_outcome else option.targets_outcome }}]]
+- **Targets**: [[{{ resolve(option.targets_outcome.split('/')[0] if '/' in option.targets_outcome else option.targets_outcome) }}]]
 {% if option.if_successful %}- **If successful**: {{ option.if_successful }}{% endif %}
 {% if option.risk %}- **Risk**: {{ option.risk }}{% endif %}
 
@@ -153,7 +153,7 @@ description: "{{ defender.description }}"
 ## Best-Case Outcomes for Defender
 
 {% for favorable in defender.favorable_outcomes -%}
-### → [[{{ favorable.outcome.split('/')[0] if '/' in favorable.outcome else favorable.outcome }}]]
+### → [[{{ resolve(favorable.outcome.split('/')[0] if '/' in favorable.outcome else favorable.outcome) }}]]
 
 {{ favorable.how }}
 

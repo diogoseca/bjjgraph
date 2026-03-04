@@ -159,10 +159,74 @@ body[data-slug="index"] .search > .search-button {
   }
 }
 
+.move-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .move-card-technique {
   font-weight: 500;
-  margin-bottom: 0.5rem;
   color: var(--dark);
+}
+
+.move-card-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &--common {
+    background: rgba(46, 160, 67, 0.12);
+    color: #1a7f37;
+  }
+
+  &--rare {
+    background: rgba(130, 80, 223, 0.12);
+    color: #6639ba;
+  }
+}
+
+.move-card-votes {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  justify-content: flex-end;
+}
+
+.vote-btn {
+  background: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.7rem;
+  color: var(--gray);
+  line-height: 1;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+  }
+
+  &.active.vote-up {
+    background: rgba(46, 160, 67, 0.12);
+    border-color: #1a7f37;
+    color: #1a7f37;
+  }
+
+  &.active.vote-down {
+    background: rgba(186, 38, 55, 0.12);
+    border-color: #ba2637;
+    color: #ba2637;
+  }
 }
 
 .move-card-probability {

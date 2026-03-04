@@ -236,9 +236,6 @@ a {
     & .page-header {
       grid-area: grid-header;
       margin: 0;
-      @media all and ($mobile) {
-        padding: 0 1rem 0 0;
-      }
     }
 
     & .center > article {

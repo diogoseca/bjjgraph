@@ -111,7 +111,7 @@ description: "{{ attacker.description }}"
 {{ attacker.overview }}
 
 {% if from_position is defined and from_position -%}
-**From Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+**From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
 {% endif %}
 
 </section>
@@ -153,7 +153,7 @@ description: "{{ attacker.description }}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ outcome.to.split('/')[0] if '/' in outcome.to else outcome.to }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability }}% |
 {% endfor %}
 
 </section>
@@ -163,7 +163,7 @@ description: "{{ attacker.description }}"
 ## Opponent Defenses
 
 {% for counter in attacker.common_counters -%}
-- **{{ counter.counter }}** (Effectiveness: {{ counter.effectiveness }}){% if counter.your_response %} - Your Response: {{ counter.your_response }}{% endif %}{% if counter.targets_outcome %} → Leads to [[{{ counter.targets_outcome.split('/')[0] if '/' in counter.targets_outcome else counter.targets_outcome }}]]{% endif %}
+- **{{ counter.counter }}** (Effectiveness: {{ counter.effectiveness }}){% if counter.your_response %} - Your Response: {{ counter.your_response }}{% endif %}{% if counter.targets_outcome %} → Leads to [[{{ resolve(counter.targets_outcome.split('/')[0] if '/' in counter.targets_outcome else counter.targets_outcome) }}]]{% endif %}
 {% endfor %}
 
 </section>

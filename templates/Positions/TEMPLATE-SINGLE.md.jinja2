@@ -139,7 +139,7 @@ description: "{{ data.description }}"
 ## Available Techniques and Transitions
 
 {% for transition in data.transitions -%}
-### [[{{ transition.transition }}]] ({{ transition.attempt_probability }}% of attempts)
+### [[{{ resolve(transition.transition) }}]] ({{ transition.attempt_probability }}% of attempts)
 
 {% endfor %}
 
@@ -152,7 +152,7 @@ description: "{{ data.description }}"
 {% for node in data.decision_tree -%}
 **{{ node.condition }}:**
 {% for action in node.actions -%}
-- Execute **[[{{ action.technique }}]]** → [[{{ action.target }}]] (Probability: {{ action.probability }}%)
+- Execute **[[{{ resolve(action.technique) }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
 {% endfor %}
 
 {% endfor %}
@@ -211,7 +211,7 @@ description: "{{ data.description }}"
 ## Related Positions and Techniques
 
 {% for item in data.related_content -%}
-- **[[{{ item.name }}]]** - {{ item.relationship }}
+- **[[{{ resolve(item.name) }}]]** - {{ item.relationship }}
 {% endfor %}
 
 </section>

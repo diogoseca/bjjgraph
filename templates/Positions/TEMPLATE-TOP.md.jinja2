@@ -138,7 +138,7 @@ description: "{{ top.description }}"
 ## Available Attacks
 
 {% for transition in top.transitions -%}
-### [[{{ transition.transition }}]] ({{ transition.attempt_probability }}% of attempts)
+### [[{{ resolve(transition.transition) }}]] ({{ transition.attempt_probability }}% of attempts)
 
 {% endfor %}
 
@@ -151,7 +151,7 @@ description: "{{ top.description }}"
 {% for node in top.decision_tree -%}
 **{{ node.condition }}:**
 {% for action in node.actions -%}
-- Execute **[[{{ action.technique }}]]** → [[{{ action.target }}]] (Probability: {{ action.probability }}%)
+- Execute **[[{{ resolve(action.technique) }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
 {% endfor %}
 
 {% endfor %}
@@ -224,7 +224,7 @@ description: "{{ top.description }}"
 ## Related Positions and Techniques
 
 {% for item in top.related_content -%}
-- **[[{{ item.name }}]]** - {{ item.relationship }}
+- **[[{{ resolve(item.name) }}]]** - {{ item.relationship }}
 {% endfor %}
 
 </section>

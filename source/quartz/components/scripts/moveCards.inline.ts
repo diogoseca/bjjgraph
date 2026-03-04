@@ -21,6 +21,63 @@ interface PositionPageData {
   }>
 }
 
+/**
+ * Compute move rarity labels using adjusted standardized residuals.
+ *
+ * Compares each move's attempt probability (successRate) against a uniform
+ * baseline (1/k), using the chi-square adjusted standardized residual:
+ *
+ *   d = (observed - expected) / sqrt(expected * (1 - expected / total))
+ *
+ * where expected = total/k and total = sum of all rates.
+ * |d| > 2 is the standard threshold for significance.
+ *
+ * This naturally accounts for probability dilution as more moves are added:
+ * with 3 moves you need a bigger gap than with 10 to be flagged.
+ */
+function computeMoveRarity(
+  transitions: Array<{ successRate: number }>,
+): Array<"common" | "rare" | null> {
+  const k = transitions.length
+  if (k < 3) return transitions.map(() => null) // need at least 3 to compare
+
+  const total = transitions.reduce((sum, t) => sum + (t.successRate ?? 0), 0)
+  if (total === 0) return transitions.map(() => null)
+
+  const expected = total / k
+  const denominator = Math.sqrt(expected * (1 - expected / total))
+  if (denominator === 0) return transitions.map(() => null)
+
+  return transitions.map((t) => {
+    const observed = t.successRate ?? 0
+    const d = (observed - expected) / denominator
+    if (d > 2) return "common"
+    if (d < -2) return "rare"
+    return null
+  })
+}
+
+/** Get vote state from localStorage */
+function getVotes(): Record<string, Record<string, "up" | "down">> {
+  try {
+    return JSON.parse(localStorage.getItem("bjj-move-votes") || "{}")
+  } catch {
+    return {}
+  }
+}
+
+/** Save a vote */
+function setVote(positionSlug: string, technique: string, vote: "up" | "down" | null) {
+  const votes = getVotes()
+  if (!votes[positionSlug]) votes[positionSlug] = {}
+  if (vote === null) {
+    delete votes[positionSlug][technique]
+  } else {
+    votes[positionSlug][technique] = vote
+  }
+  localStorage.setItem("bjj-move-votes", JSON.stringify(votes))
+}
+
 function getPageData(): PositionPageData | null {
   const el = document.getElementById("page-graph-data")
   if (!el?.textContent) return null
@@ -51,29 +108,66 @@ document.addEventListener("nav", () => {
   }
 
   const currentPath = window.location.pathname
+  const positionSlug = currentPath
+  const votes = getVotes()
+  const positionVotes = votes[positionSlug] || {}
+  const rarityLabels = computeMoveRarity(positionData.transitions)
 
   removeAllChildren(container)
 
-  for (const transition of positionData.transitions) {
+  positionData.transitions.forEach((transition, i) => {
     const card = document.createElement("div")
     card.className = `move-card ${transition.isSubmission ? "submission" : ""}`
 
     const successRate = transition.successRate ?? 50
+    const rarity = rarityLabels[i]
+    const currentVote = positionVotes[transition.technique] || null
+
+    const rarityBadge = rarity
+      ? `<span class="move-card-badge move-card-badge--${rarity}">${rarity === "common" ? "Common Move" : "Rare Move"}</span>`
+      : ""
 
     card.innerHTML = `
-      <div class="move-card-technique">${transition.technique}</div>
+      <div class="move-card-header">
+        <div class="move-card-technique">${transition.technique}</div>
+        ${rarityBadge}
+      </div>
       <div class="move-card-probability">${successRate}% success</div>
       <div class="probability-bar">
         <div class="probability-fill" style="width: ${successRate}%"></div>
       </div>
+      <div class="move-card-votes">
+        <button class="vote-btn vote-up ${currentVote === "up" ? "active" : ""}" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
+        <button class="vote-btn vote-down ${currentVote === "down" ? "active" : ""}" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
+      </div>
     `
+
+    // Vote button handlers (stop propagation so card click doesn't fire)
+    const upBtn = card.querySelector(".vote-up") as HTMLButtonElement
+    const downBtn = card.querySelector(".vote-down") as HTMLButtonElement
+
+    upBtn.addEventListener("click", (e) => {
+      e.stopPropagation()
+      const newVote = currentVote === "up" ? null : "up"
+      setVote(positionSlug, transition.technique, newVote)
+      upBtn.classList.toggle("active", newVote === "up")
+      downBtn.classList.remove("active")
+    })
+
+    downBtn.addEventListener("click", (e) => {
+      e.stopPropagation()
+      const newVote = currentVote === "down" ? null : "down"
+      setVote(positionSlug, transition.technique, newVote)
+      downBtn.classList.toggle("active", newVote === "down")
+      upBtn.classList.remove("active")
+    })
 
     card.addEventListener("click", () => {
       executeTransition(transition, successRate, currentPath)
     })
 
     container.appendChild(card)
-  }
+  })
 })
 
 /**

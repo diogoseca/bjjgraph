@@ -7,6 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.ContentMeta({ showReadingTime: false }),
     Component.EditOnGithub(),
     Component.Snackbar(),
   ],
@@ -24,7 +25,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.VictoryDisplay(),
     Component.MoveCards(),
     Component.TransitionFlashcard(),
-    Component.ContentMeta(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }
@@ -50,7 +50,6 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false }

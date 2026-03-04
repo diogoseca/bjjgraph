@@ -75,7 +75,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in bottom_summary.transitions %}
-- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes
@@ -104,7 +104,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in top_summary.transitions %}
-- **[[{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}]]** ({{ t.attempt_probability }}% of attempts)
 {% endfor %}
 
 ### Common Mistakes
@@ -123,7 +123,7 @@ description: "{{ description }}"
 ## Related Positions
 
 {% for related in related_positions %}
-- **[[{{ related.name }}]]** - {{ related.relationship }}
+- **[[{{ resolve(related.name) }}]]** - {{ related.relationship }}
 {% endfor %}
 
 </section>

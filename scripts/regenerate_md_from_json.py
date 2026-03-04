@@ -34,6 +34,32 @@ CATEGORIES = {
 }
 
 
+def build_wikilink_resolver():
+    """Build name->category lookup for unambiguous wikilinks."""
+    index = {}
+    for category, folder in CATEGORIES.items():
+        folder_path = Path(folder)
+        if not folder_path.exists():
+            continue
+        for json_file in folder_path.rglob("*.json"):
+            name = json_file.stem
+            if name not in index:  # first-found wins (Positions > Transitions > Submissions)
+                rel = json_file.relative_to(folder_path).parent
+                if str(rel) == '.':
+                    index[name] = category
+                else:
+                    index[name] = f"{category}/{rel}"
+
+    def resolve(name):
+        if not name or name.lower() == 'game-over':
+            return name
+        if name in index:
+            return f"{index[name]}/{name}"
+        return name  # fallback: bare name
+
+    return resolve
+
+
 def load_json_file(json_path):
     """Load and parse JSON file.
 
@@ -112,14 +138,17 @@ def load_template(category, template_name):
         raise Exception(f"Failed to load template {template_path}: {e}")
 
 
-def generate_markdown(json_data, template):
+def generate_markdown(json_data, template, resolve_fn=None):
     """Generate markdown from JSON data using Jinja2 template.
 
     Raises:
         RuntimeError: If template rendering fails.
     """
     try:
-        return template.render(**json_data)
+        kwargs = dict(json_data)
+        if resolve_fn is not None:
+            kwargs['resolve'] = resolve_fn
+        return template.render(**kwargs)
     except Exception as e:
         raise RuntimeError(f"Template rendering failed: {e}")
 
@@ -242,7 +271,7 @@ def load_schema(category, json_path=None):
         raise ValueError(f"Invalid JSON in schema {schema_path}: {e}")
 
 
-def process_json_file(json_path, dry_run=False):
+def process_json_file(json_path, dry_run=False, resolve_fn=None):
     """Process a single JSON file: load data, render template(s), write MD.
 
     Raises:
@@ -251,6 +280,9 @@ def process_json_file(json_path, dry_run=False):
         RuntimeError: If template rendering fails.
         IOError: If writing output fails.
     """
+    if resolve_fn is None:
+        resolve_fn = build_wikilink_resolver()
+
     json_path = Path(json_path)
 
     # Determine category from path
@@ -290,7 +322,7 @@ def process_json_file(json_path, dry_run=False):
 
             # Render hub page
             hub_template = load_template(category, "TEMPLATE-HUB.md.jinja2")
-            hub_content = hub_template.render(**data)
+            hub_content = hub_template.render(**data, resolve=resolve_fn)
             hub_path = json_path.with_suffix('.md')
             write_markdown_file(hub_path, hub_content, dry_run)
             generated_files.append(hub_path)
@@ -304,6 +336,7 @@ def process_json_file(json_path, dry_run=False):
                 outcomes=data.get('outcomes', []),
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
+                resolve=resolve_fn,
             )
             attacker_path = json_path.parent / technique_name / "Attacker.md"
             attacker_path.parent.mkdir(parents=True, exist_ok=True)
@@ -319,6 +352,7 @@ def process_json_file(json_path, dry_run=False):
                 outcomes=data.get('outcomes', []),
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
+                resolve=resolve_fn,
             )
             defender_path = json_path.parent / technique_name / "Defender.md"
             write_markdown_file(defender_path, defender_content, dry_run)
@@ -328,7 +362,7 @@ def process_json_file(json_path, dry_run=False):
         else:
             # Legacy SINGLE: render single file using old flat template
             template = load_template(category, f"{category}.md.jinja2")
-            markdown_content = generate_markdown(data, template)
+            markdown_content = generate_markdown(data, template, resolve_fn=resolve_fn)
             md_path = json_path.with_suffix('.md')
             write_markdown_file(md_path, markdown_content, dry_run)
             return [md_path]
@@ -336,7 +370,7 @@ def process_json_file(json_path, dry_run=False):
     # Handle other flat categories (Principles, Systems)
     if category not in ("Positions",):
         template = load_template(category, f"{category}.md.jinja2")
-        markdown_content = generate_markdown(data, template)
+        markdown_content = generate_markdown(data, template, resolve_fn=resolve_fn)
         md_path = json_path.with_suffix('.md')
         write_markdown_file(md_path, markdown_content, dry_run)
         return [md_path]
@@ -347,7 +381,7 @@ def process_json_file(json_path, dry_run=False):
     if template_type == 'SINGLE':
         # Render single file
         template = load_template(category, "TEMPLATE-SINGLE.md.jinja2")
-        markdown_content = template.render(data=data)
+        markdown_content = template.render(data=data, resolve=resolve_fn)
         md_path = json_path.with_suffix('.md')
         write_markdown_file(md_path, markdown_content, dry_run)
         return [md_path]
@@ -369,7 +403,7 @@ def process_json_file(json_path, dry_run=False):
             'top_summary': data['top'],
             'variants_comparison': variants_comparison
         }
-        hub_content = hub_template.render(**hub_data)
+        hub_content = hub_template.render(**hub_data, resolve=resolve_fn)
         hub_path = json_path.with_suffix('.md')
         write_markdown_file(hub_path, hub_content, dry_run)
         generated_files.append(hub_path)
@@ -377,7 +411,7 @@ def process_json_file(json_path, dry_run=False):
         # Render bottom page
         position_name = data.get('name', json_path.stem)  # Use position name for clean URLs
         bottom_template = load_template(category, "TEMPLATE-BOTTOM.md.jinja2")
-        bottom_content = bottom_template.render(bottom=data['bottom'], position_name=position_name)
+        bottom_content = bottom_template.render(bottom=data['bottom'], position_name=position_name, resolve=resolve_fn)
         bottom_path = json_path.parent / position_name / "Bottom.md"
         bottom_path.parent.mkdir(parents=True, exist_ok=True)
         write_markdown_file(bottom_path, bottom_content, dry_run)
@@ -385,7 +419,7 @@ def process_json_file(json_path, dry_run=False):
 
         # Render top page
         top_template = load_template(category, "TEMPLATE-TOP.md.jinja2")
-        top_content = top_template.render(top=data['top'], position_name=position_name)
+        top_content = top_template.render(top=data['top'], position_name=position_name, resolve=resolve_fn)
         top_path = json_path.parent / position_name / "Top.md"
         write_markdown_file(top_path, top_content, dry_run)
         generated_files.append(top_path)
@@ -437,11 +471,13 @@ def process_category(category, dry_run=False):
 
     print(f"\nProcessing {len(json_files)} files in {category} ({len(root_json_files)} root, {len(variant_json_files)} variants)...")
 
+    resolve_fn = build_wikilink_resolver()
+
     processed = 0
     failures = []
     for json_file in sorted(json_files):
         try:
-            generated_files = process_json_file(json_file, dry_run)
+            generated_files = process_json_file(json_file, dry_run, resolve_fn=resolve_fn)
             processed += 1
             if len(generated_files) > 1:
                 print(f"  → Generated {len(generated_files)} files")

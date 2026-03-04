@@ -90,9 +90,9 @@ description: "{{description}}"
 **Category**: {{submission_category}}
 **Type**: {{submission_type}}
 **Target Area**: {{target_area}}
-**Starting Position**: [[{{starting_position}}]]
+**Starting Position**: [[{{ resolve(starting_position) }}]]
 {% if from_position is defined and from_position -%}
-**From Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+**From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
 {% endif -%}
 **Success Rate**: {{success_rate}}%
 
@@ -202,7 +202,7 @@ description: "{{description}}"
 ## From Which Positions?
 
 {% for position in from_positions -%}
-- [[{{position}}]]
+- [[{{ resolve(position) }}]]
 {% endfor %}
 
 </section>
@@ -212,7 +212,7 @@ description: "{{description}}"
 ## Related Submissions
 
 {% for submission in related_submissions -%}
-- [[{{submission}}]]
+- [[{{ resolve(submission) }}]]
 {% endfor %}
 
 </section>
@@ -222,7 +222,7 @@ description: "{{description}}"
 ## Additional Related Content
 
 {% for item in related_content -%}
-- [[{{item.name}}]] - {{item.relationship}}
+- [[{{ resolve(item.name) }}]] - {{item.relationship}}
 {% endfor %}
 
 </section>
@@ -235,7 +235,7 @@ description: "{{description}}"
 | Result | Position | Probability |
 |--------|----------|------------|
 {% for o in outcomes -%}
-| {{ o.result | capitalize }} | [[{{ o.to }}]] | {{ o.probability }}% |
+| {{ o.result | capitalize }} | [[{{ resolve(o.to) }}]] | {{ o.probability }}% |
 {% endfor %}
 
 </section>
